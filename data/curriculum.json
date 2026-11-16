@@ -1,0 +1,1162 @@
+[
+ {
+  "subject": "物理",
+  "volume": "上册",
+  "chapter": 1,
+  "title": "物理学简介",
+  "syllabus": "无明确条目",
+  "status": "无明确条目",
+  "priority": "P0",
+  "note": "绪论性质，先问老师是否要考"
+ },
+ {
+  "subject": "物理",
+  "volume": "上册",
+  "chapter": 2,
+  "title": "物理量的测量、单位和数据处理",
+  "syllabus": "无独立条目（与探究题技能相关）",
+  "status": "无明确条目",
+  "priority": "P0",
+  "note": "探究题占6%，数据处理技能可能用到，先问老师"
+ },
+ {
+  "subject": "物理",
+  "volume": "上册",
+  "chapter": 3,
+  "title": "直线运动",
+  "syllabus": "1.1 运动学",
+  "status": "对应",
+  "priority": "P1",
+  "note": "力学是选答题（3选2）的一组"
+ },
+ {
+  "subject": "物理",
+  "volume": "上册",
+  "chapter": 4,
+  "title": "牛顿运动定律",
+  "syllabus": "1.3 动力学（含1.2静力学的力的分析）",
+  "status": "对应",
+  "priority": "P1",
+  "note": ""
+ },
+ {
+  "subject": "物理",
+  "volume": "上册",
+  "chapter": 5,
+  "title": "静力学",
+  "syllabus": "1.2 静力学",
+  "status": "对应",
+  "priority": "P1",
+  "note": ""
+ },
+ {
+  "subject": "物理",
+  "volume": "上册",
+  "chapter": 6,
+  "title": "平面运动",
+  "syllabus": "1.1.7-1.1.9 抛射/圆周/开普勒；1.3.6-1.3.7 向心力/万有引力",
+  "status": "对应",
+  "priority": "P1",
+  "note": ""
+ },
+ {
+  "subject": "物理",
+  "volume": "上册",
+  "chapter": 7,
+  "title": "功与能",
+  "syllabus": "1.4 功与能",
+  "status": "对应",
+  "priority": "P2",
+  "note": "7.6质量与能量：纲要无明确条目，待核"
+ },
+ {
+  "subject": "物理",
+  "volume": "上册",
+  "chapter": 8,
+  "title": "动量守恒定律",
+  "syllabus": "1.3.8-1.3.10 冲量/动量守恒/碰撞",
+  "status": "对应",
+  "priority": "P2",
+  "note": ""
+ },
+ {
+  "subject": "物理",
+  "volume": "上册",
+  "chapter": 9,
+  "title": "转动",
+  "syllabus": "纲要力学部分未列转动",
+  "status": "无明确条目",
+  "priority": "P0",
+  "note": "先问老师是否要考"
+ },
+ {
+  "subject": "物理",
+  "volume": "上册",
+  "chapter": 10,
+  "title": "振动",
+  "syllabus": "4.1 振动（属波动学）",
+  "status": "对应",
+  "priority": "P3",
+  "note": "波动学是必答题范围"
+ },
+ {
+  "subject": "物理",
+  "volume": "上册",
+  "chapter": 11,
+  "title": "流体力学",
+  "syllabus": "1.5 流体力学",
+  "status": "对应",
+  "priority": "P2",
+  "note": ""
+ },
+ {
+  "subject": "物理",
+  "volume": "中册",
+  "chapter": 12,
+  "title": "物质的性质",
+  "syllabus": "无独立条目",
+  "status": "无明确条目",
+  "priority": "P0",
+  "note": "先问老师"
+ },
+ {
+  "subject": "物理",
+  "volume": "中册",
+  "chapter": 13,
+  "title": "温度与热量",
+  "syllabus": "2.1 温度与热量；2.3 热膨胀",
+  "status": "对应",
+  "priority": "P3",
+  "note": "热学是必答题范围，不可略过"
+ },
+ {
+  "subject": "物理",
+  "volume": "中册",
+  "chapter": 14,
+  "title": "热的传递",
+  "syllabus": "2.2 热传递",
+  "status": "对应",
+  "priority": "P3",
+  "note": "必答题范围"
+ },
+ {
+  "subject": "物理",
+  "volume": "中册",
+  "chapter": 15,
+  "title": "气体定律",
+  "syllabus": "2.4 气体定律",
+  "status": "对应",
+  "priority": "P3",
+  "note": "必答题范围"
+ },
+ {
+  "subject": "物理",
+  "volume": "中册",
+  "chapter": 16,
+  "title": "气体分子运动论与热力学",
+  "syllabus": "2.5 气体分子运动与热力学",
+  "status": "对应",
+  "priority": "P3",
+  "note": "必答题范围"
+ },
+ {
+  "subject": "物理",
+  "volume": "中册",
+  "chapter": 17,
+  "title": "机械波",
+  "syllabus": "4.2 机械波",
+  "status": "对应",
+  "priority": "P3",
+  "note": "必答题范围"
+ },
+ {
+  "subject": "物理",
+  "volume": "中册",
+  "chapter": 18,
+  "title": "光的反射与折射",
+  "syllabus": "3.1 反射；3.2 折射",
+  "status": "对应",
+  "priority": "P3",
+  "note": "必答题范围；学校预试不含几何光学，但统考必答"
+ },
+ {
+  "subject": "物理",
+  "volume": "中册",
+  "chapter": 19,
+  "title": "棱镜和透镜",
+  "syllabus": "3.2.4-3.2.7 棱镜/色散/透镜",
+  "status": "对应",
+  "priority": "P3",
+  "note": "同上"
+ },
+ {
+  "subject": "物理",
+  "volume": "中册",
+  "chapter": 20,
+  "title": "光的波动性",
+  "syllabus": "4.3 光波",
+  "status": "对应",
+  "priority": "P3",
+  "note": "必答题范围"
+ },
+ {
+  "subject": "物理",
+  "volume": "下册",
+  "chapter": 21,
+  "title": "电场",
+  "syllabus": "5.1 静电学",
+  "status": "对应",
+  "priority": "P2",
+  "note": "密立根油滴、电场中的导体：纲要无明确条目，待核"
+ },
+ {
+  "subject": "物理",
+  "volume": "下册",
+  "chapter": 22,
+  "title": "恒定电流",
+  "syllabus": "5.2 恒定电流",
+  "status": "对应",
+  "priority": "P2",
+  "note": "电桥、超导：纲要无明确条目，待核"
+ },
+ {
+  "subject": "物理",
+  "volume": "下册",
+  "chapter": 23,
+  "title": "电流与磁场",
+  "syllabus": "5.3 磁场与电磁感应（磁场、安培力、洛伦兹力）",
+  "status": "对应",
+  "priority": "P2",
+  "note": "学校第一、二学期都教23章"
+ },
+ {
+  "subject": "物理",
+  "volume": "下册",
+  "chapter": 24,
+  "title": "电磁感应与交流电",
+  "syllabus": "5.3 电磁感应；5.4 交流电路",
+  "status": "对应",
+  "priority": "P3",
+  "note": "自感、涡流、电磁场与电磁波：纲要无明确条目，待核"
+ },
+ {
+  "subject": "物理",
+  "volume": "下册",
+  "chapter": 25,
+  "title": "量子物理学",
+  "syllabus": "6.1 量子物理学；6.2.1-6.2.4 原子结构",
+  "status": "对应",
+  "priority": "P3",
+  "note": "激光：纲要无明确条目；近代物理是必答题范围"
+ },
+ {
+  "subject": "物理",
+  "volume": "下册",
+  "chapter": 26,
+  "title": "原子与原子核物理学",
+  "syllabus": "6.2 原子物理学（X射线、放射性、核能）",
+  "status": "对应",
+  "priority": "P3",
+  "note": "必答题范围；学校预试不含近代物理"
+ },
+ {
+  "subject": "物理",
+  "volume": "下册",
+  "chapter": 27,
+  "title": "相对论简介",
+  "syllabus": "6.3 相对论（狭义）",
+  "status": "部分对应",
+  "priority": "P3",
+  "note": "广义相对论：纲要无明确条目"
+ },
+ {
+  "subject": "化学",
+  "volume": "上册",
+  "chapter": 1,
+  "title": "绪论",
+  "syllabus": "无独立条目",
+  "status": "无明确条目",
+  "priority": "P0",
+  "note": "先问老师"
+ },
+ {
+  "subject": "化学",
+  "volume": "上册",
+  "chapter": 2,
+  "title": "水和氢",
+  "syllabus": "3.1 水和氢（无机）",
+  "status": "对应",
+  "priority": "P3",
+  "note": "无机选答组"
+ },
+ {
+  "subject": "化学",
+  "volume": "上册",
+  "chapter": 3,
+  "title": "原子与分子",
+  "syllabus": "1.1 原子与分子；1.2 化学方程式与化学计算（物质的量等）",
+  "status": "对应",
+  "priority": "P1",
+  "note": "学校第一学期期末考范围"
+ },
+ {
+  "subject": "化学",
+  "volume": "上册",
+  "chapter": 4,
+  "title": "化学方程式与化学计算",
+  "syllabus": "1.2.7-1.2.9",
+  "status": "对应",
+  "priority": "P1",
+  "note": "同上"
+ },
+ {
+  "subject": "化学",
+  "volume": "上册",
+  "chapter": 5,
+  "title": "原子结构",
+  "syllabus": "1.3 原子结构",
+  "status": "对应",
+  "priority": "P1",
+  "note": "同上"
+ },
+ {
+  "subject": "化学",
+  "volume": "上册",
+  "chapter": 6,
+  "title": "元素周期表",
+  "syllabus": "1.4 元素周期表",
+  "status": "对应",
+  "priority": "P1",
+  "note": "同上"
+ },
+ {
+  "subject": "化学",
+  "volume": "上册",
+  "chapter": 7,
+  "title": "化学键与分子间作用力",
+  "syllabus": "1.5 化学键",
+  "status": "对应",
+  "priority": "P1",
+  "note": "同上；假期后半或第一学期初完成"
+ },
+ {
+  "subject": "化学",
+  "volume": "上册",
+  "chapter": 8,
+  "title": "氧化还原反应",
+  "syllabus": "1.6 氧化还原反应",
+  "status": "对应",
+  "priority": "P1",
+  "note": "同上；假期后半或第一学期初完成"
+ },
+ {
+  "subject": "化学",
+  "volume": "上册",
+  "chapter": 9,
+  "title": "IA族元素：钠和钾",
+  "syllabus": "3.2 IA族元素",
+  "status": "对应",
+  "priority": "P3",
+  "note": "学校预试范围不含第9-16章（已核对），但备考关键章节列了无机，统考选答也有无机一组，需自己排复习"
+ },
+ {
+  "subject": "化学",
+  "volume": "上册",
+  "chapter": 10,
+  "title": "IIA族元素：镁和钙",
+  "syllabus": "3.3 IIA族元素",
+  "status": "对应",
+  "priority": "P3",
+  "note": "同上"
+ },
+ {
+  "subject": "化学",
+  "volume": "上册",
+  "chapter": 11,
+  "title": "IIIA族元素：铝",
+  "syllabus": "3.4 IIIA族元素",
+  "status": "对应",
+  "priority": "P3",
+  "note": "同上"
+ },
+ {
+  "subject": "化学",
+  "volume": "上册",
+  "chapter": 12,
+  "title": "IVA族元素：碳和硅",
+  "syllabus": "3.6 IVA族元素",
+  "status": "对应",
+  "priority": "P3",
+  "note": "同上"
+ },
+ {
+  "subject": "化学",
+  "volume": "上册",
+  "chapter": 13,
+  "title": "VA族元素：氮和磷",
+  "syllabus": "3.7 VA族元素",
+  "status": "对应",
+  "priority": "P3",
+  "note": "同上"
+ },
+ {
+  "subject": "化学",
+  "volume": "上册",
+  "chapter": 14,
+  "title": "VIA族元素：氧和硫",
+  "syllabus": "3.8 VIA族元素",
+  "status": "对应",
+  "priority": "P3",
+  "note": "同上"
+ },
+ {
+  "subject": "化学",
+  "volume": "上册",
+  "chapter": 15,
+  "title": "VIIA族元素：卤素",
+  "syllabus": "3.9 VIIA族元素",
+  "status": "对应",
+  "priority": "P3",
+  "note": "同上"
+ },
+ {
+  "subject": "化学",
+  "volume": "上册",
+  "chapter": 16,
+  "title": "过渡元素",
+  "syllabus": "3.5 过渡元素",
+  "status": "对应",
+  "priority": "P3",
+  "note": "同上"
+ },
+ {
+  "subject": "化学",
+  "volume": "中册",
+  "chapter": 17,
+  "title": "气体",
+  "syllabus": "2.1 气体",
+  "status": "对应",
+  "priority": "P3",
+  "note": "真实气体（17.8）：纲要无明确条目"
+ },
+ {
+  "subject": "化学",
+  "volume": "中册",
+  "chapter": 18,
+  "title": "溶液及其性质",
+  "syllabus": "2.2 溶液",
+  "status": "对应",
+  "priority": "P3",
+  "note": ""
+ },
+ {
+  "subject": "化学",
+  "volume": "中册",
+  "chapter": 19,
+  "title": "化学反应和能量",
+  "syllabus": "2.3 化学反应和能量",
+  "status": "对应",
+  "priority": "P3",
+  "note": "19.4 能量的充分利用：纲要无明确条目"
+ },
+ {
+  "subject": "化学",
+  "volume": "中册",
+  "chapter": 20,
+  "title": "化学反应速率",
+  "syllabus": "2.4 化学反应速率",
+  "status": "对应",
+  "priority": "P3",
+  "note": ""
+ },
+ {
+  "subject": "化学",
+  "volume": "中册",
+  "chapter": 21,
+  "title": "化学平衡的移动",
+  "syllabus": "2.5 化学平衡",
+  "status": "对应",
+  "priority": "P3",
+  "note": ""
+ },
+ {
+  "subject": "化学",
+  "volume": "中册",
+  "chapter": 22,
+  "title": "水溶液中的离子平衡",
+  "syllabus": "2.6 水溶液中的离子平衡",
+  "status": "对应",
+  "priority": "P3",
+  "note": ""
+ },
+ {
+  "subject": "化学",
+  "volume": "中册",
+  "chapter": 23,
+  "title": "酸碱盐",
+  "syllabus": "2.7 酸、碱、盐",
+  "status": "对应",
+  "priority": "P3",
+  "note": ""
+ },
+ {
+  "subject": "化学",
+  "volume": "中册",
+  "chapter": 24,
+  "title": "电化学",
+  "syllabus": "2.8 电化学",
+  "status": "对应",
+  "priority": "P3",
+  "note": ""
+ },
+ {
+  "subject": "化学",
+  "volume": "中册",
+  "chapter": 25,
+  "title": "核化学",
+  "syllabus": "2.9 核化学",
+  "status": "对应",
+  "priority": "P3",
+  "note": "25.3 放射性同位素的应用：纲要无明确条目"
+ },
+ {
+  "subject": "化学",
+  "volume": "下册",
+  "chapter": 26,
+  "title": "有机化学",
+  "syllabus": "4 有机化学（入门，无独立条目）",
+  "status": "部分对应",
+  "priority": "P2",
+  "note": "学校第一学期教到第33章"
+ },
+ {
+  "subject": "化学",
+  "volume": "下册",
+  "chapter": 27,
+  "title": "烷烃",
+  "syllabus": "4.1 烷烃",
+  "status": "对应",
+  "priority": "P2",
+  "note": "期末考范围（第26-30章）"
+ },
+ {
+  "subject": "化学",
+  "volume": "下册",
+  "chapter": 28,
+  "title": "烯烃",
+  "syllabus": "4.2 烯烃",
+  "status": "对应",
+  "priority": "P2",
+  "note": "同上"
+ },
+ {
+  "subject": "化学",
+  "volume": "下册",
+  "chapter": 29,
+  "title": "炔烃",
+  "syllabus": "4.3 炔烃",
+  "status": "对应",
+  "priority": "P2",
+  "note": "同上"
+ },
+ {
+  "subject": "化学",
+  "volume": "下册",
+  "chapter": 30,
+  "title": "芳香烃",
+  "syllabus": "4.4 芳香烃",
+  "status": "对应",
+  "priority": "P2",
+  "note": "同上"
+ },
+ {
+  "subject": "化学",
+  "volume": "下册",
+  "chapter": 31,
+  "title": "卤代烃",
+  "syllabus": "4.5 卤代烃",
+  "status": "对应",
+  "priority": "P2",
+  "note": ""
+ },
+ {
+  "subject": "化学",
+  "volume": "下册",
+  "chapter": 32,
+  "title": "羟基化合物：醇、酚",
+  "syllabus": "4.6 羟基化合物",
+  "status": "对应",
+  "priority": "P2",
+  "note": ""
+ },
+ {
+  "subject": "化学",
+  "volume": "下册",
+  "chapter": 33,
+  "title": "羰基化合物：醛、酮、碳水化合物",
+  "syllabus": "4.7 羰基化合物",
+  "status": "对应",
+  "priority": "P2",
+  "note": ""
+ },
+ {
+  "subject": "化学",
+  "volume": "下册",
+  "chapter": 34,
+  "title": "有机酸及其衍生物",
+  "syllabus": "4.8 有机酸及其衍生物",
+  "status": "对应",
+  "priority": "P3",
+  "note": "学校第二学期教"
+ },
+ {
+  "subject": "化学",
+  "volume": "下册",
+  "chapter": 35,
+  "title": "有机高分子化合物",
+  "syllabus": "4.9 有机高分子化合物",
+  "status": "对应",
+  "priority": "P3",
+  "note": "同上"
+ },
+ {
+  "subject": "生物",
+  "volume": "上册",
+  "chapter": 1,
+  "title": "生物是由什么组成的",
+  "syllabus": "2.1 生命的化学成分",
+  "status": "对应",
+  "priority": "P1",
+  "note": "学校重点：上册"
+ },
+ {
+  "subject": "生物",
+  "volume": "上册",
+  "chapter": 2,
+  "title": "细胞的结构与功能",
+  "syllabus": "2.2 细胞的结构与功能",
+  "status": "对应",
+  "priority": "P1",
+  "note": "同上"
+ },
+ {
+  "subject": "生物",
+  "volume": "上册",
+  "chapter": 3,
+  "title": "细胞内物质和能量的转换",
+  "syllabus": "2.3 细胞内物质和能量的转换（酶、ATP、呼吸、光合）",
+  "status": "对应",
+  "priority": "P1",
+  "note": "同上；内容多，假期分两周"
+ },
+ {
+  "subject": "生物",
+  "volume": "上册",
+  "chapter": 4,
+  "title": "细胞分化",
+  "syllabus": "2.4 细胞分化",
+  "status": "对应",
+  "priority": "P2",
+  "note": ""
+ },
+ {
+  "subject": "生物",
+  "volume": "上册",
+  "chapter": 5,
+  "title": "食物的消化与物质代谢",
+  "syllabus": "2.5 消化系统",
+  "status": "对应",
+  "priority": "P2",
+  "note": ""
+ },
+ {
+  "subject": "生物",
+  "volume": "上册",
+  "chapter": 6,
+  "title": "营养成分的运输",
+  "syllabus": "2.6 动植物的运输",
+  "status": "对应",
+  "priority": "P2",
+  "note": ""
+ },
+ {
+  "subject": "生物",
+  "volume": "上册",
+  "chapter": 7,
+  "title": "动植物的协调与反应",
+  "syllabus": "2.7 动植物的协调与反应",
+  "status": "对应",
+  "priority": "P2",
+  "note": "学校重点：内分泌"
+ },
+ {
+  "subject": "生物",
+  "volume": "上册",
+  "chapter": 8,
+  "title": "内环境的恒定和排泄系统",
+  "syllabus": "2.8 内环境恒定与排泄系统",
+  "status": "对应",
+  "priority": "P2",
+  "note": "学校重点：恒定调节"
+ },
+ {
+  "subject": "生物",
+  "volume": "上册",
+  "chapter": 9,
+  "title": "健康与免疫",
+  "syllabus": "2.9 健康与免疫",
+  "status": "对应",
+  "priority": "P2",
+  "note": "学校重点：免疫"
+ },
+ {
+  "subject": "生物",
+  "volume": "中册",
+  "chapter": 10,
+  "title": "生态系统",
+  "syllabus": "3.1 生态系统与保育",
+  "status": "对应",
+  "priority": "P2",
+  "note": "学校上半年教"
+ },
+ {
+  "subject": "生物",
+  "volume": "中册",
+  "chapter": 11,
+  "title": "生态保育与可持续发展",
+  "syllabus": "3.1 生态系统与保育（3.1.4 评价人类活动）",
+  "status": "对应",
+  "priority": "P2",
+  "note": "学校上半年教；与社会议题相关"
+ },
+ {
+  "subject": "生物",
+  "volume": "中册",
+  "chapter": 12,
+  "title": "生殖",
+  "syllabus": "4.1 生殖系统",
+  "status": "对应",
+  "priority": "P3",
+  "note": ""
+ },
+ {
+  "subject": "生物",
+  "volume": "中册",
+  "chapter": 13,
+  "title": "细胞分裂",
+  "syllabus": "4.2 细胞分裂",
+  "status": "对应",
+  "priority": "P3",
+  "note": ""
+ },
+ {
+  "subject": "生物",
+  "volume": "中册",
+  "chapter": 14,
+  "title": "遗传的物质基础",
+  "syllabus": "4.3 遗传的物质基础",
+  "status": "对应",
+  "priority": "P3",
+  "note": ""
+ },
+ {
+  "subject": "生物",
+  "volume": "中册",
+  "chapter": 15,
+  "title": "基因与遗传定律",
+  "syllabus": "4.4 基因与遗传规律",
+  "status": "对应",
+  "priority": "P3",
+  "note": "遗传题型多，第二学期前开始练题"
+ },
+ {
+  "subject": "生物",
+  "volume": "中册",
+  "chapter": 16,
+  "title": "应用遗传学",
+  "syllabus": "4.5 应用遗传学",
+  "status": "对应",
+  "priority": "P3",
+  "note": "与社会议题相关"
+ },
+ {
+  "subject": "生物",
+  "volume": "下册",
+  "chapter": 17,
+  "title": "生物多样性",
+  "syllabus": "5.1 生物多样性（5.1.1-5.1.4）",
+  "status": "对应",
+  "priority": "P2",
+  "note": "学校上半年教"
+ },
+ {
+  "subject": "生物",
+  "volume": "下册",
+  "chapter": 18,
+  "title": "细菌与病毒",
+  "syllabus": "5.1 生物多样性（5.1.5-5.1.9）",
+  "status": "对应",
+  "priority": "P2",
+  "note": "同上"
+ },
+ {
+  "subject": "生物",
+  "volume": "下册",
+  "chapter": 19,
+  "title": "演化",
+  "syllabus": "5.2 演化",
+  "status": "对应",
+  "priority": "P2",
+  "note": "同上"
+ },
+ {
+  "subject": "数学",
+  "volume": "高中数学",
+  "chapter": 1,
+  "title": "直角坐标系与直线",
+  "syllabus": "待对照（S04/S05纲要）",
+  "status": "待对照",
+  "priority": "待定",
+  "note": "高一/高二章节，先摸底判断薄弱处；纲要待对照"
+ },
+ {
+  "subject": "数学",
+  "volume": "高中数学",
+  "chapter": 2,
+  "title": "一元二次方程式与二次函数",
+  "syllabus": "待对照（S04/S05纲要）",
+  "status": "待对照",
+  "priority": "待定",
+  "note": "高一/高二章节，先摸底判断薄弱处；纲要待对照"
+ },
+ {
+  "subject": "数学",
+  "volume": "高中数学",
+  "chapter": 3,
+  "title": "多项式",
+  "syllabus": "待对照（S04/S05纲要）",
+  "status": "待对照",
+  "priority": "待定",
+  "note": "高一/高二章节，先摸底判断薄弱处；纲要待对照"
+ },
+ {
+  "subject": "数学",
+  "volume": "高中数学",
+  "chapter": 4,
+  "title": "无理式",
+  "syllabus": "待对照（S04/S05纲要）",
+  "status": "待对照",
+  "priority": "待定",
+  "note": "高一/高二章节，先摸底判断薄弱处；纲要待对照"
+ },
+ {
+  "subject": "数学",
+  "volume": "高中数学",
+  "chapter": 5,
+  "title": "函数",
+  "syllabus": "待对照（S04/S05纲要）",
+  "status": "待对照",
+  "priority": "待定",
+  "note": "高一/高二章节，先摸底判断薄弱处；纲要待对照"
+ },
+ {
+  "subject": "数学",
+  "volume": "高中数学",
+  "chapter": 6,
+  "title": "不等式",
+  "syllabus": "待对照（S04/S05纲要）",
+  "status": "待对照",
+  "priority": "待定",
+  "note": "高一/高二章节，先摸底判断薄弱处；纲要待对照"
+ },
+ {
+  "subject": "数学",
+  "volume": "高中数学",
+  "chapter": 7,
+  "title": "逻辑",
+  "syllabus": "待对照（S04/S05纲要）",
+  "status": "待对照",
+  "priority": "待定",
+  "note": "高一/高二章节，先摸底判断薄弱处；纲要待对照"
+ },
+ {
+  "subject": "数学",
+  "volume": "高中数学",
+  "chapter": 8,
+  "title": "角度与弧度",
+  "syllabus": "待对照（S04/S05纲要）",
+  "status": "待对照",
+  "priority": "P1",
+  "note": "复数（第34章）的前置知识，先摸底再决定补多少"
+ },
+ {
+  "subject": "数学",
+  "volume": "高中数学",
+  "chapter": 9,
+  "title": "任意角的三角函数",
+  "syllabus": "待对照（S04/S05纲要）",
+  "status": "待对照",
+  "priority": "P1",
+  "note": "复数（第34章）的前置知识，先摸底再决定补多少"
+ },
+ {
+  "subject": "数学",
+  "volume": "高中数学",
+  "chapter": 10,
+  "title": "三角学的应用",
+  "syllabus": "待对照（S04/S05纲要）",
+  "status": "待对照",
+  "priority": "P1",
+  "note": "复数（第34章）的前置知识，先摸底再决定补多少"
+ },
+ {
+  "subject": "数学",
+  "volume": "高中数学",
+  "chapter": 11,
+  "title": "三角恒等式与三角方程式",
+  "syllabus": "待对照（S04/S05纲要）",
+  "status": "待对照",
+  "priority": "P1",
+  "note": "复数（第34章）的前置知识，先摸底再决定补多少"
+ },
+ {
+  "subject": "数学",
+  "volume": "高中数学",
+  "chapter": 12,
+  "title": "指数与对数",
+  "syllabus": "待对照（S04/S05纲要）",
+  "status": "待对照",
+  "priority": "待定",
+  "note": "高一/高二章节，先摸底判断薄弱处；纲要待对照"
+ },
+ {
+  "subject": "数学",
+  "volume": "高中数学",
+  "chapter": 13,
+  "title": "数列与级数",
+  "syllabus": "待对照（S04/S05纲要）",
+  "status": "待对照",
+  "priority": "待定",
+  "note": "高一/高二章节，先摸底判断薄弱处；纲要待对照"
+ },
+ {
+  "subject": "数学",
+  "volume": "高中数学",
+  "chapter": 14,
+  "title": "行列式",
+  "syllabus": "待对照（S04/S05纲要）",
+  "status": "待对照",
+  "priority": "待定",
+  "note": "高一/高二章节，先摸底判断薄弱处；纲要待对照"
+ },
+ {
+  "subject": "数学",
+  "volume": "高中数学",
+  "chapter": 15,
+  "title": "矩阵",
+  "syllabus": "待对照（S04/S05纲要）",
+  "status": "待对照",
+  "priority": "待定",
+  "note": "高一/高二章节，先摸底判断薄弱处；纲要待对照"
+ },
+ {
+  "subject": "数学",
+  "volume": "高中数学",
+  "chapter": 16,
+  "title": "圆",
+  "syllabus": "待对照（S04/S05纲要）",
+  "status": "待对照",
+  "priority": "待定",
+  "note": "高一/高二章节，先摸底判断薄弱处；纲要待对照"
+ },
+ {
+  "subject": "数学",
+  "volume": "高中数学",
+  "chapter": 17,
+  "title": "平面向量",
+  "syllabus": "待对照（S04/S05纲要）",
+  "status": "待对照",
+  "priority": "待定",
+  "note": "高一/高二章节，先摸底判断薄弱处；纲要待对照"
+ },
+ {
+  "subject": "数学",
+  "volume": "高中数学",
+  "chapter": 18,
+  "title": "立体几何",
+  "syllabus": "待对照（S04/S05纲要）",
+  "status": "待对照",
+  "priority": "待定",
+  "note": "高一/高二章节，先摸底判断薄弱处；纲要待对照"
+ },
+ {
+  "subject": "数学",
+  "volume": "高中数学",
+  "chapter": 19,
+  "title": "排列组合",
+  "syllabus": "待对照（S04/S05纲要）",
+  "status": "待对照",
+  "priority": "待定",
+  "note": "高一/高二章节，先摸底判断薄弱处；纲要待对照"
+ },
+ {
+  "subject": "数学",
+  "volume": "高中数学",
+  "chapter": 20,
+  "title": "二项式定理",
+  "syllabus": "待对照（S04/S05纲要）",
+  "status": "待对照",
+  "priority": "待定",
+  "note": "高一/高二章节，先摸底判断薄弱处；纲要待对照"
+ },
+ {
+  "subject": "数学",
+  "volume": "高中数学",
+  "chapter": 21,
+  "title": "极限",
+  "syllabus": "待对照（S04/S05纲要）",
+  "status": "待对照",
+  "priority": "待定",
+  "note": "高一/高二章节，先摸底判断薄弱处；纲要待对照"
+ },
+ {
+  "subject": "数学",
+  "volume": "高中数学",
+  "chapter": 22,
+  "title": "微分及其应用（一）",
+  "syllabus": "待对照（S04/S05纲要）",
+  "status": "待对照",
+  "priority": "待定",
+  "note": "高一/高二章节，先摸底判断薄弱处；纲要待对照"
+ },
+ {
+  "subject": "数学",
+  "volume": "高中数学",
+  "chapter": 23,
+  "title": "不定积分及其应用",
+  "syllabus": "待对照（S04/S05纲要）",
+  "status": "待对照",
+  "priority": "待定",
+  "note": "高一/高二章节，先摸底判断薄弱处；纲要待对照"
+ },
+ {
+  "subject": "数学",
+  "volume": "高中数学",
+  "chapter": 24,
+  "title": "定积分及其应用",
+  "syllabus": "待对照（S04/S05纲要）",
+  "status": "待对照",
+  "priority": "待定",
+  "note": "高一/高二章节，先摸底判断薄弱处；纲要待对照"
+ },
+ {
+  "subject": "数学",
+  "volume": "高中数学",
+  "chapter": 25,
+  "title": "统计学",
+  "syllabus": "待对照（S04/S05纲要）",
+  "status": "待对照",
+  "priority": "待定",
+  "note": "高一/高二章节，先摸底判断薄弱处；纲要待对照"
+ },
+ {
+  "subject": "数学",
+  "volume": "高中数学",
+  "chapter": 26,
+  "title": "概率",
+  "syllabus": "待对照（S04/S05纲要）",
+  "status": "待对照",
+  "priority": "待定",
+  "note": "高一/高二章节，先摸底判断薄弱处；纲要待对照"
+ },
+ {
+  "subject": "数学",
+  "volume": "高中数学",
+  "chapter": 27,
+  "title": "线性回归",
+  "syllabus": "待对照（S04/S05纲要）",
+  "status": "待对照",
+  "priority": "待定",
+  "note": "高一/高二章节，先摸底判断薄弱处；纲要待对照"
+ },
+ {
+  "subject": "数学",
+  "volume": "高级数学",
+  "chapter": 28,
+  "title": "微分及其应用（二）",
+  "syllabus": "待对照（S05纲要；高数I/II的分配待确认）",
+  "status": "待对照",
+  "priority": "P2",
+  "note": "学校：微积分在代数之后"
+ },
+ {
+  "subject": "数学",
+  "volume": "高级数学",
+  "chapter": 29,
+  "title": "积分法",
+  "syllabus": "待对照（S05纲要；高数I/II的分配待确认）",
+  "status": "待对照",
+  "priority": "P2",
+  "note": "同上"
+ },
+ {
+  "subject": "数学",
+  "volume": "高级数学",
+  "chapter": 30,
+  "title": "微分方程式",
+  "syllabus": "待对照（S05纲要；高数I/II的分配待确认）",
+  "status": "待对照",
+  "priority": "P2",
+  "note": "同上"
+ },
+ {
+  "subject": "数学",
+  "volume": "高级数学",
+  "chapter": 31,
+  "title": "数学方法",
+  "syllabus": "待对照（S05纲要；高数I/II的分配待确认）",
+  "status": "待对照",
+  "priority": "P2",
+  "note": "学校列入高三框架"
+ },
+ {
+  "subject": "数学",
+  "volume": "高级数学",
+  "chapter": 32,
+  "title": "坐标变换",
+  "syllabus": "待对照（S05纲要；高数I/II的分配待确认）",
+  "status": "待对照",
+  "priority": "P3",
+  "note": "学校：解析几何最后处理"
+ },
+ {
+  "subject": "数学",
+  "volume": "高级数学",
+  "chapter": 33,
+  "title": "圆锥曲线",
+  "syllabus": "待对照（S05纲要；高数I/II的分配待确认）",
+  "status": "待对照",
+  "priority": "P3",
+  "note": "同上"
+ },
+ {
+  "subject": "数学",
+  "volume": "高级数学",
+  "chapter": 34,
+  "title": "复数",
+  "syllabus": "待对照（S05纲要；高数I/II的分配待确认）",
+  "status": "待对照",
+  "priority": "P1",
+  "note": "学校：代数部分先处理，一定要稳"
+ },
+ {
+  "subject": "数学",
+  "volume": "高级数学",
+  "chapter": 35,
+  "title": "空间向量",
+  "syllabus": "待对照（S05纲要；高数I/II的分配待确认）",
+  "status": "待对照",
+  "priority": "P3",
+  "note": "学校归入解析几何，最后处理"
+ }
+]
