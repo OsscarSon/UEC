@@ -1,0 +1,23 @@
+/* Long lessons keep the existing palette and 640px reading measure. */
+.card, .row > *, article, section {min-width:0}
+.card {overflow-wrap:anywhere}
+.note-module {border-top:1px solid var(--bd);padding-top:12px;margin-top:18px;scroll-margin-top:16px}
+.note-module h4 {font-size:17px;margin:0 0 10px}
+.note-module h5 {font-size:15px;margin:12px 0 6px}
+.note-module p {margin:10px 0;line-height:1.85}
+.module-links {display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
+.module-links a {padding:5px 8px;border:1px solid var(--bd);border-radius:6px;font-size:13px}
+.concept-flow {list-style:none;padding:0;margin:12px 0}
+.concept-flow li {padding:10px;border:1px solid var(--ac);border-radius:8px;background:var(--ac2);position:relative;margin:20px 0}
+.concept-flow li+li::before {content:'↓';position:absolute;top:-24px;left:50%;font-weight:bold;color:var(--ac)}
+figure {margin:14px 0}
+figure img {display:block;width:100%;max-width:520px;height:auto;background:#fff;border-radius:8px}
+figcaption {font-size:13px;color:var(--mu);line-height:1.6;margin-top:5px}
+.formula {overflow-x:auto;max-width:100%;padding:8px;background:var(--ac2);border-radius:8px}
+code {white-space:normal;overflow-wrap:anywhere}
+.formula code {white-space:pre-wrap}
+.subject-links {justify-content:flex-start;margin:10px 0}
+button[data-a="section-check"].on {background:var(--ac);color:var(--cd)}
+textarea {width:100%;font:inherit;color:var(--tx);background:var(--bg);border:1px solid var(--bd);border-radius:8px;padding:8px}
+.block {display:block;margin-top:12px}
+@media (max-width:380px){main{padding:8px}.card{padding:10px}.module-links a{font-size:12px}button{padding:5px 8px}}

@@ -34,4 +34,25 @@
 物理等需要精确的图（s–t、v–t、受力图）由脚本生成 SVG，放在 `assets/fig/`，数值准确；概念性插画再交给 GPT image 生成。
 
 ## 考试格式的依据
-各科试卷题型与题数以**老师发的学校资料 PDF** 为准（与官方纲要一致处不再注明）；官方纲要里有而老师资料没写的（如作答时间），笔记里会注明“官方纲要”。
+兴华校内安排以用户提供的12/11/2026学校PDF为依据；UEC正式结构以董总当前公开文件为依据，两者分别显示。2027适用版本仍待确认，不能把校内比例泛化为统考要求。
+
+## 本批十二模块笔记与高数入口
+
+物理3、4章，化学3、4章，生物1、2章共41个原有小节已加入十二模块补充，共328个原创题目记录（123例题、164练习、41检测）。内容源为 `data/notes/*.json`；运行 `python tools/build_notes.py` 生成载入文件。原有正文及章级练习仍保留。
+
+高级数学（I）、（II）是独立科目，各自有入口、个人记录、错题筛选与考试资料。**正式课程迁移未完成**：旧35章无真实数学小节表，也缺少学校教材及2027适用对照，全部保留在“数学旧资料 · 待核实映射”。两个新入口暂无已映射章节、题库或模拟卷，不计完工。
+
+完整清单、覆盖率、来源、迁移表和未完成事项见 [本批报告](reports/BATCH_COMPLETION.md)。
+
+复核命令（浏览器测试另需本地服务及Playwright）：
+
+```sh
+python tools/build_notes.py
+node tests/coverage.cjs
+python tests/calculations.py
+node tests/svg.cjs
+# 在另一个终端运行 python -m http.server 8000
+node tests/browser.cjs
+```
+
+浏览器测试使用本机Chromium，路径可由 `CHROMIUM_PATH` 指定。测试截图默认保存在 `/tmp/uec-qa-screenshots`，可通过 `QA_SCREENSHOT_DIR` 调整。不需要新增网站运行依赖。
