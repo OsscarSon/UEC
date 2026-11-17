@@ -1,0 +1,493 @@
+subject,chapter_id,section_id,section_title,module_id,module_title,text_characters_without_whitespace,entry_count,current_svg_count_only_M05,status,review_level,finding
+物理,3,3.1,机械运动,1,学习目标,30,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+物理,3,3.1,机械运动,2,前置知识,19,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+物理,3,3.1,机械运动,3,知识结构图,24,4,0,flow_redraw,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+物理,3,3.1,机械运动,4,深度知识讲解,646,8,0,substantive_material_present_not_full_certification,structure_and_visual_review,合并原正文s.body与补充u.deep后评估；存在实质解释，不能只看补充段落。
+物理,3,3.1,机械运动,5,图解与公式／实验,152,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,模型定义、两类例子和反例已有；模块05只给位置表达与观察建议，过隧道例题没有始末图。三层标签也未说明判断难度怎样升级。 扩写/修订要求：补研究目标→尺寸可否忽略的逐步判断，并把车头/车尾两帧与400m位移对齐；进阶案例给出模型失败的证据，不靠增加术语。
+物理,3,3.1,机械运动,6,典型例题,387,3,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,模型定义、两类例子和反例已有；模块05只给位置表达与观察建议，过隧道例题没有始末图。三层标签也未说明判断难度怎样升级。 扩写/修订要求：补研究目标→尺寸可否忽略的逐步判断，并把车头/车尾两帧与400m位移对齐；进阶案例给出模型失败的证据，不靠增加术语。
+物理,3,3.1,机械运动,7,UEC题型攻略,63,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+物理,3,3.1,机械运动,8,易错易混,128,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+物理,3,3.1,机械运动,9,分层练习,99,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,3,3.1,机械运动,10,完整解析,303,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,3,3.1,机械运动,11,考前速记,25,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+物理,3,3.1,机械运动,12,掌握度检测,74,1,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+物理,3,3.2,参照物、坐标系和参照系,1,学习目标,34,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+物理,3,3.2,参照物、坐标系和参照系,2,前置知识,16,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+物理,3,3.2,参照物、坐标系和参照系,3,知识结构图,22,4,0,flow_redraw,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+物理,3,3.2,参照物、坐标系和参照系,4,深度知识讲解,686,8,0,substantive_material_present_not_full_certification,structure_and_visual_review,合并原正文s.body与补充u.deep后评估；存在实质解释，不能只看补充段落。
+物理,3,3.2,参照物、坐标系和参照系,5,图解与公式／实验,189,4,1,requires_local_expansion_or_goal_mapping,structure_and_visual_review,原点平移与匀速参考系变换虽有式子，但05仅两段短推导；08只有两条简短提醒，没有区分坐标平移与速度相对量的错误路径。 扩写/修订要求：用同一事件的两套坐标展开已给例题，分别核对位置、位移、速度；补正方向、迟发与参考系混用的错误定位。
+物理,3,3.2,参照物、坐标系和参照系,6,典型例题,316,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,3,3.2,参照物、坐标系和参照系,7,UEC题型攻略,56,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+物理,3,3.2,参照物、坐标系和参照系,8,易错易混,51,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,原点平移与匀速参考系变换虽有式子，但05仅两段短推导；08只有两条简短提醒，没有区分坐标平移与速度相对量的错误路径。 扩写/修订要求：用同一事件的两套坐标展开已给例题，分别核对位置、位移、速度；补正方向、迟发与参考系混用的错误定位。
+物理,3,3.2,参照物、坐标系和参照系,9,分层练习,114,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,3,3.2,参照物、坐标系和参照系,10,完整解析,299,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,3,3.2,参照物、坐标系和参照系,11,考前速记,34,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+物理,3,3.2,参照物、坐标系和参照系,12,掌握度检测,88,1,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+物理,3,3.3,路程和位移,1,学习目标,28,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+物理,3,3.3,路程和位移,2,前置知识,18,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+物理,3,3.3,路程和位移,3,知识结构图,23,4,0,flow_retain,deep_spot_check,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+物理,3,3.3,路程和位移,4,深度知识讲解,478,10,0,P0_formula_delimiter_correction_first,deep_spot_check,04出现独立“Δx”“。”段，05把Σ与绝对值内部表达式分成三段；原文是用竖线分隔条目时吞掉了绝对值符号，长度统计无法发现。 扩写/修订要求：先修复完整|Δx|与Σ|x_i−x_(i−1)|的排版和数据分隔，再以折返图演示路程与位移两套账本；本轮仅记录，未改正文。
+物理,3,3.3,路程和位移,5,图解与公式／实验,134,6,1,P0_formula_delimiter_correction_first,deep_spot_check,04出现独立“Δx”“。”段，05把Σ与绝对值内部表达式分成三段；原文是用竖线分隔条目时吞掉了绝对值符号，长度统计无法发现。 扩写/修订要求：先修复完整|Δx|与Σ|x_i−x_(i−1)|的排版和数据分隔，再以折返图演示路程与位移两套账本；本轮仅记录，未改正文。
+物理,3,3.3,路程和位移,6,典型例题,320,3,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,3,3.3,路程和位移,7,UEC题型攻略,54,2,0,requires_local_expansion_or_goal_mapping,deep_spot_check,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+物理,3,3.3,路程和位移,8,易错易混,76,3,0,substantive_material_present_not_full_certification,deep_spot_check,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+物理,3,3.3,路程和位移,9,分层练习,84,4,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,3,3.3,路程和位移,10,完整解析,251,4,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,3,3.3,路程和位移,11,考前速记,20,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+物理,3,3.3,路程和位移,12,掌握度检测,75,1,0,requires_local_expansion_or_goal_mapping,deep_spot_check,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+物理,3,3.4,匀速直线运动　速度和速率,1,学习目标,29,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+物理,3,3.4,匀速直线运动　速度和速率,2,前置知识,16,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+物理,3,3.4,匀速直线运动　速度和速率,3,知识结构图,24,4,0,flow_retain,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+物理,3,3.4,匀速直线运动　速度和速率,4,深度知识讲解,524,8,0,substantive_material_present_not_full_certification,structure_and_visual_review,合并原正文s.body与补充u.deep后评估；存在实质解释，不能只看补充段落。
+物理,3,3.4,匀速直线运动　速度和速率,5,图解与公式／实验,155,6,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,正文与追及步骤存在；05没有位置时间图或迟发时间轴，08两条短提示没有把“同一位置/同一路程/同一时间起点”三者区分。 扩写/修订要求：把x_A=x_B的逻辑和迟发(t−5)的定义域检查串成完整方法；复用已有数值例题配图，不新增课程单元。
+物理,3,3.4,匀速直线运动　速度和速率,6,典型例题,316,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,3,3.4,匀速直线运动　速度和速率,7,UEC题型攻略,61,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+物理,3,3.4,匀速直线运动　速度和速率,8,易错易混,64,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,正文与追及步骤存在；05没有位置时间图或迟发时间轴，08两条短提示没有把“同一位置/同一路程/同一时间起点”三者区分。 扩写/修订要求：把x_A=x_B的逻辑和迟发(t−5)的定义域检查串成完整方法；复用已有数值例题配图，不新增课程单元。
+物理,3,3.4,匀速直线运动　速度和速率,9,分层练习,89,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,3,3.4,匀速直线运动　速度和速率,10,完整解析,253,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,3,3.4,匀速直线运动　速度和速率,11,考前速记,28,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+物理,3,3.4,匀速直线运动　速度和速率,12,掌握度检测,95,1,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+物理,3,3.5,匀速直线运动的图象,1,学习目标,31,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+物理,3,3.5,匀速直线运动的图象,2,前置知识,14,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+物理,3,3.5,匀速直线运动的图象,3,知识结构图,22,4,0,flow_redraw,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+物理,3,3.5,匀速直线运动的图象,4,深度知识讲解,468,8,0,substantive_material_present_not_full_certification,structure_and_visual_review,合并原正文s.body与补充u.deep后评估；存在实质解释，不能只看补充段落。
+物理,3,3.5,匀速直线运动的图象,5,图解与公式／实验,129,4,2,requires_local_expansion_or_goal_mapping,structure_and_visual_review,原图均为符号示意，例题却要求负速度分段面积；08只有图不是轨迹、交点不同两句，未展开非零截距与负面积错误。 扩写/修订要求：补逐轴识别、斜率两点取差、有向面积分段和单位检查的一次完整读图；给错解对照并交叉引用已有例题。
+物理,3,3.5,匀速直线运动的图象,6,典型例题,320,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,3,3.5,匀速直线运动的图象,7,UEC题型攻略,45,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+物理,3,3.5,匀速直线运动的图象,8,易错易混,54,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,原图均为符号示意，例题却要求负速度分段面积；08只有图不是轨迹、交点不同两句，未展开非零截距与负面积错误。 扩写/修订要求：补逐轴识别、斜率两点取差、有向面积分段和单位检查的一次完整读图；给错解对照并交叉引用已有例题。
+物理,3,3.5,匀速直线运动的图象,9,分层练习,85,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,3,3.5,匀速直线运动的图象,10,完整解析,249,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,3,3.5,匀速直线运动的图象,11,考前速记,26,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+物理,3,3.5,匀速直线运动的图象,12,掌握度检测,77,1,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+物理,3,3.6,变速直线运动　平均速度和瞬时速度,1,学习目标,31,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+物理,3,3.6,变速直线运动　平均速度和瞬时速度,2,前置知识,15,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+物理,3,3.6,变速直线运动　平均速度和瞬时速度,3,知识结构图,21,4,0,flow_correct,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+物理,3,3.6,变速直线运动　平均速度和瞬时速度,4,深度知识讲解,641,8,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,平均量与瞬时量解释有基础内容；等时/等路程的权重机制只用短推导，割线极限与有限测量精度没有接成可操作读图。 扩写/修订要求：用20s/50s往返数据推时间权重，说明为什么不能算术平均；补割线→切线过程及“位移为零不等于静止”的图文反例。
+物理,3,3.6,变速直线运动　平均速度和瞬时速度,5,图解与公式／实验,228,6,1,requires_local_expansion_or_goal_mapping,structure_and_visual_review,平均量与瞬时量解释有基础内容；等时/等路程的权重机制只用短推导，割线极限与有限测量精度没有接成可操作读图。 扩写/修订要求：用20s/50s往返数据推时间权重，说明为什么不能算术平均；补割线→切线过程及“位移为零不等于静止”的图文反例。
+物理,3,3.6,变速直线运动　平均速度和瞬时速度,6,典型例题,328,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,3,3.6,变速直线运动　平均速度和瞬时速度,7,UEC题型攻略,52,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+物理,3,3.6,变速直线运动　平均速度和瞬时速度,8,易错易混,65,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,平均量与瞬时量解释有基础内容；等时/等路程的权重机制只用短推导，割线极限与有限测量精度没有接成可操作读图。 扩写/修订要求：用20s/50s往返数据推时间权重，说明为什么不能算术平均；补割线→切线过程及“位移为零不等于静止”的图文反例。
+物理,3,3.6,变速直线运动　平均速度和瞬时速度,9,分层练习,92,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,3,3.6,变速直线运动　平均速度和瞬时速度,10,完整解析,288,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,3,3.6,变速直线运动　平均速度和瞬时速度,11,考前速记,28,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+物理,3,3.6,变速直线运动　平均速度和瞬时速度,12,掌握度检测,61,1,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+物理,3,3.7,变速直线运动的加速度,1,学习目标,25,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+物理,3,3.7,变速直线运动的加速度,2,前置知识,18,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+物理,3,3.7,变速直线运动的加速度,3,知识结构图,22,4,0,flow_retain,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+物理,3,3.7,变速直线运动的加速度,4,深度知识讲解,563,8,0,substantive_material_present_not_full_certification,structure_and_visual_review,合并原正文s.body与补充u.deep后评估；存在实质解释，不能只看补充段落。
+物理,3,3.7,变速直线运动的加速度,5,图解与公式／实验,156,4,1,requires_local_expansion_or_goal_mapping,structure_and_visual_review,正负加速度的概念基本正确，但05仅一条平均a定义和一个符号判据；08主要是结论式短警告。 扩写/修订要求：将四种v/a组合和过v=0后的阶段切换完整说明，区分平均a与瞬时a，给反向速度变化的矢量差示例。
+物理,3,3.7,变速直线运动的加速度,6,典型例题,321,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,3,3.7,变速直线运动的加速度,7,UEC题型攻略,39,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+物理,3,3.7,变速直线运动的加速度,8,易错易混,61,3,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,正负加速度的概念基本正确，但05仅一条平均a定义和一个符号判据；08主要是结论式短警告。 扩写/修订要求：将四种v/a组合和过v=0后的阶段切换完整说明，区分平均a与瞬时a，给反向速度变化的矢量差示例。
+物理,3,3.7,变速直线运动的加速度,9,分层练习,94,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,3,3.7,变速直线运动的加速度,10,完整解析,262,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,3,3.7,变速直线运动的加速度,11,考前速记,26,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+物理,3,3.7,变速直线运动的加速度,12,掌握度检测,76,1,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+物理,3,3.8,匀加速直线运动,1,学习目标,24,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+物理,3,3.8,匀加速直线运动,2,前置知识,18,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+物理,3,3.8,匀加速直线运动,3,知识结构图,25,5,0,flow_retain,deep_spot_check,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+物理,3,3.8,匀加速直线运动,4,深度知识讲解,609,10,0,substantive_material_present_not_full_certification,deep_spot_check,合并原正文s.body与补充u.deep后评估；存在实质解释，不能只看补充段落。
+物理,3,3.8,匀加速直线运动,5,图解与公式／实验,238,7,1,requires_local_expansion_or_goal_mapping,deep_spot_check,面积法推导与刹车/反应例题已有，不能判定04为空模板；05缺少把恒a适用时段、停后a变化和路程分段连起来的图解。 扩写/修订要求：以已有刹停例画v-t分段及错误延伸，对每一公式说明缺哪个量、符号和适用区间；不要把负根/反向问题压成口诀。
+物理,3,3.8,匀加速直线运动,6,典型例题,381,3,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,3,3.8,匀加速直线运动,7,UEC题型攻略,56,2,0,requires_local_expansion_or_goal_mapping,deep_spot_check,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+物理,3,3.8,匀加速直线运动,8,易错易混,68,3,0,substantive_material_present_not_full_certification,deep_spot_check,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+物理,3,3.8,匀加速直线运动,9,分层练习,108,4,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,3,3.8,匀加速直线运动,10,完整解析,341,4,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,3,3.8,匀加速直线运动,11,考前速记,24,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+物理,3,3.8,匀加速直线运动,12,掌握度检测,76,1,0,requires_local_expansion_or_goal_mapping,deep_spot_check,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+物理,3,3.9,自由落体运动,1,学习目标,34,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+物理,3,3.9,自由落体运动,2,前置知识,21,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+物理,3,3.9,自由落体运动,3,知识结构图,23,4,0,flow_correct,deep_spot_check,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+物理,3,3.9,自由落体运动,4,深度知识讲解,622,9,0,substantive_material_present_not_full_certification,deep_spot_check,合并原正文s.body与补充u.deep后评估；存在实质解释，不能只看补充段落。
+物理,3,3.9,自由落体运动,5,图解与公式／实验,202,6,1,requires_local_expansion_or_goal_mapping,deep_spot_check,自由落体与气球释放例题有完整数值步骤；测g部分只概述h-t²作图与误差，缺装置测量链和误差如何改变斜率的解释。 扩写/修订要求：补释放、计时、高度零点、重复与拟合的因果链，分别说明反应延迟和非零初速的影响；实验具体设置待教师/手册核实。
+物理,3,3.9,自由落体运动,6,典型例题,394,3,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,3,3.9,自由落体运动,7,UEC题型攻略,59,2,0,requires_local_expansion_or_goal_mapping,deep_spot_check,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+物理,3,3.9,自由落体运动,8,易错易混,64,3,0,substantive_material_present_not_full_certification,deep_spot_check,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+物理,3,3.9,自由落体运动,9,分层练习,87,4,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,3,3.9,自由落体运动,10,完整解析,272,4,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,3,3.9,自由落体运动,11,考前速记,27,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+物理,3,3.9,自由落体运动,12,掌握度检测,88,1,0,requires_local_expansion_or_goal_mapping,deep_spot_check,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+物理,4,4.1,力与运动,1,学习目标,33,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+物理,4,4.1,力与运动,2,前置知识,20,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+物理,4,4.1,力与运动,3,知识结构图,21,5,0,flow_retain,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+物理,4,4.1,力与运动,4,深度知识讲解,597,9,0,substantive_material_present_not_full_certification,structure_and_visual_review,合并原正文s.body与补充u.deep后评估；存在实质解释，不能只看补充段落。
+物理,4,4.1,力与运动,5,图解与公式／实验,170,4,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,合力与速度区别已讲，05只有两段公式/判断，且没有隔离体示意；08仅给断言式提醒。 扩写/修订要求：用同一2kg物体在平衡与撤力后两帧说明实际力、合力、a和v各自含义，再用错画ma的例子定位错误。
+物理,4,4.1,力与运动,6,典型例题,311,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,4,4.1,力与运动,7,UEC题型攻略,52,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+物理,4,4.1,力与运动,8,易错易混,70,3,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,合力与速度区别已讲，05只有两段公式/判断，且没有隔离体示意；08仅给断言式提醒。 扩写/修订要求：用同一2kg物体在平衡与撤力后两帧说明实际力、合力、a和v各自含义，再用错画ma的例子定位错误。
+物理,4,4.1,力与运动,9,分层练习,81,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,4,4.1,力与运动,10,完整解析,233,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,4,4.1,力与运动,11,考前速记,24,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+物理,4,4.1,力与运动,12,掌握度检测,79,1,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+物理,4,4.2,力的种类,1,学习目标,31,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+物理,4,4.2,力的种类,2,前置知识,18,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+物理,4,4.2,力的种类,3,知识结构图,24,4,0,flow_retain,deep_spot_check,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+物理,4,4.2,力的种类,4,深度知识讲解,805,11,0,P0_formula_delimiter_correction_first,deep_spot_check,04中|f_s|被拆为独立“f_s”段，静摩擦上限不等式损坏；支持力与胡克定律虽有文字，摩擦转换和弹簧长度缺图。 扩写/修订要求：先修复绝对值与不等式；补静摩擦需求/上限/滑动分支、上拉改变N、弹簧原长与形变量三类完整解释，不让μN成为通用答案。
+物理,4,4.2,力的种类,5,图解与公式／实验,202,6,1,P0_formula_delimiter_correction_first,deep_spot_check,04中|f_s|被拆为独立“f_s”段，静摩擦上限不等式损坏；支持力与胡克定律虽有文字，摩擦转换和弹簧长度缺图。 扩写/修订要求：先修复绝对值与不等式；补静摩擦需求/上限/滑动分支、上拉改变N、弹簧原长与形变量三类完整解释，不让μN成为通用答案。
+物理,4,4.2,力的种类,6,典型例题,375,3,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,4,4.2,力的种类,7,UEC题型攻略,51,2,0,requires_local_expansion_or_goal_mapping,deep_spot_check,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+物理,4,4.2,力的种类,8,易错易混,123,4,0,substantive_material_present_not_full_certification,deep_spot_check,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+物理,4,4.2,力的种类,9,分层练习,104,4,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,4,4.2,力的种类,10,完整解析,297,4,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,4,4.2,力的种类,11,考前速记,25,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+物理,4,4.2,力的种类,12,掌握度检测,71,1,0,requires_local_expansion_or_goal_mapping,deep_spot_check,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+物理,4,4.3,力的合成与分解,1,学习目标,26,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+物理,4,4.3,力的合成与分解,2,前置知识,16,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+物理,4,4.3,力的合成与分解,3,知识结构图,20,4,0,flow_retain,deep_spot_check,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+物理,4,4.3,力的合成与分解,4,深度知识讲解,640,9,0,P0_formula_delimiter_correction_first,deep_spot_check,合并原正文s.body与补充u.deep后评估；存在实质解释，不能只看补充段落。
+物理,4,4.3,力的合成与分解,5,图解与公式／实验,231,9,2,P0_formula_delimiter_correction_first,deep_spot_check,05合力范围公式的|F₁−F₂|被分成独立段；已存在图示不能弥补数学表达被切开。 扩写/修订要求：恢复完整矢量范围表达；解释夹角位置、投影正负和分量不重复计数，用θ=0/90/180的边界逐一检查。
+物理,4,4.3,力的合成与分解,6,典型例题,309,3,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,4,4.3,力的合成与分解,7,UEC题型攻略,53,2,0,requires_local_expansion_or_goal_mapping,deep_spot_check,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+物理,4,4.3,力的合成与分解,8,易错易混,82,3,0,requires_local_expansion_or_goal_mapping,deep_spot_check,05合力范围公式的|F₁−F₂|被分成独立段；已存在图示不能弥补数学表达被切开。 扩写/修订要求：恢复完整矢量范围表达；解释夹角位置、投影正负和分量不重复计数，用θ=0/90/180的边界逐一检查。
+物理,4,4.3,力的合成与分解,9,分层练习,79,4,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,4,4.3,力的合成与分解,10,完整解析,236,4,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,4,4.3,力的合成与分解,11,考前速记,23,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+物理,4,4.3,力的合成与分解,12,掌握度检测,74,1,0,requires_local_expansion_or_goal_mapping,deep_spot_check,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+物理,4,4.4,牛顿第一运动定律,1,学习目标,32,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+物理,4,4.4,牛顿第一运动定律,2,前置知识,21,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+物理,4,4.4,牛顿第一运动定律,3,知识结构图,25,4,0,flow_correct,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+物理,4,4.4,牛顿第一运动定律,4,深度知识讲解,564,7,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,第一定律的基础叙述不是空白，但理想实验、现实阻力和惯性系的证据边界主要为短概括，05无对应图。 扩写/修订要求：把观察到的减阻趋势与无阻极限推理分开；补“撤去一个力≠零合外力”的条件反例及初始速度决定后续状态。
+物理,4,4.4,牛顿第一运动定律,5,图解与公式／实验,115,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,第一定律的基础叙述不是空白，但理想实验、现实阻力和惯性系的证据边界主要为短概括，05无对应图。 扩写/修订要求：把观察到的减阻趋势与无阻极限推理分开；补“撤去一个力≠零合外力”的条件反例及初始速度决定后续状态。
+物理,4,4.4,牛顿第一运动定律,6,典型例题,311,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,4,4.4,牛顿第一运动定律,7,UEC题型攻略,57,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+物理,4,4.4,牛顿第一运动定律,8,易错易混,59,2,0,substantive_material_present_not_full_certification,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+物理,4,4.4,牛顿第一运动定律,9,分层练习,75,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,4,4.4,牛顿第一运动定律,10,完整解析,224,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,4,4.4,牛顿第一运动定律,11,考前速记,29,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+物理,4,4.4,牛顿第一运动定律,12,掌握度检测,73,1,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+物理,4,4.5,惯性与质量,1,学习目标,28,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+物理,4,4.5,惯性与质量,2,前置知识,16,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+物理,4,4.5,惯性与质量,3,知识结构图,28,4,0,flow_redraw,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+物理,4,4.5,惯性与质量,4,深度知识讲解,501,7,0,substantive_material_present_not_full_certification,structure_and_visual_review,合并原正文s.body与补充u.deep后评估；存在实质解释，不能只看补充段落。
+物理,4,4.5,惯性与质量,5,图解与公式／实验,86,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,惯性与质量有解释；05补充推导仅两个短段，所谓进阶例仍为重量换算，未呈现同力不同质量的测量逻辑；08短句容易被当口诀。 扩写/修订要求：以固定F比较a的控制条件和乘客前倾的施力过程分开教学；高级应用应解释证据/模型边界，不能仅把标签改成进阶。
+物理,4,4.5,惯性与质量,6,典型例题,327,3,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,惯性与质量有解释；05补充推导仅两个短段，所谓进阶例仍为重量换算，未呈现同力不同质量的测量逻辑；08短句容易被当口诀。 扩写/修订要求：以固定F比较a的控制条件和乘客前倾的施力过程分开教学；高级应用应解释证据/模型边界，不能仅把标签改成进阶。
+物理,4,4.5,惯性与质量,7,UEC题型攻略,54,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+物理,4,4.5,惯性与质量,8,易错易混,70,3,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,惯性与质量有解释；05补充推导仅两个短段，所谓进阶例仍为重量换算，未呈现同力不同质量的测量逻辑；08短句容易被当口诀。 扩写/修订要求：以固定F比较a的控制条件和乘客前倾的施力过程分开教学；高级应用应解释证据/模型边界，不能仅把标签改成进阶。
+物理,4,4.5,惯性与质量,9,分层练习,78,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,4,4.5,惯性与质量,10,完整解析,268,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,4,4.5,惯性与质量,11,考前速记,27,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+物理,4,4.5,惯性与质量,12,掌握度检测,68,1,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+物理,4,4.6,动量,1,学习目标,31,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+物理,4,4.6,动量,2,前置知识,16,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+物理,4,4.6,动量,3,知识结构图,28,4,0,flow_redraw,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+物理,4,4.6,动量,4,深度知识讲解,636,8,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,封闭/开放系统的提醒有科学价值，但系统界定过程很短；05只给p²关系与单位，08没有反向动量与平均外力的完整错解。 扩写/修订要求：先明确对象、时间段与系统，再说明Δp/Δt为平均合外力；火箭通量只作边界提醒，不能要求本节额外推完整火箭方程。
+物理,4,4.6,动量,5,图解与公式／实验,155,6,1,requires_local_expansion_or_goal_mapping,structure_and_visual_review,封闭/开放系统的提醒有科学价值，但系统界定过程很短；05只给p²关系与单位，08没有反向动量与平均外力的完整错解。 扩写/修订要求：先明确对象、时间段与系统，再说明Δp/Δt为平均合外力；火箭通量只作边界提醒，不能要求本节额外推完整火箭方程。
+物理,4,4.6,动量,6,典型例题,304,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,4,4.6,动量,7,UEC题型攻略,37,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+物理,4,4.6,动量,8,易错易混,63,3,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,封闭/开放系统的提醒有科学价值，但系统界定过程很短；05只给p²关系与单位，08没有反向动量与平均外力的完整错解。 扩写/修订要求：先明确对象、时间段与系统，再说明Δp/Δt为平均合外力；火箭通量只作边界提醒，不能要求本节额外推完整火箭方程。
+物理,4,4.6,动量,9,分层练习,104,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,4,4.6,动量,10,完整解析,288,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,4,4.6,动量,11,考前速记,28,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+物理,4,4.6,动量,12,掌握度检测,72,1,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+物理,4,4.7,牛顿第二运动定律,1,学习目标,30,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+物理,4,4.7,牛顿第二运动定律,2,前置知识,25,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+物理,4,4.7,牛顿第二运动定律,3,知识结构图,26,5,0,flow_retain,deep_spot_check,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+物理,4,4.7,牛顿第二运动定律,4,深度知识讲解,850,11,0,substantive_material_present_not_full_certification,deep_spot_check,合并原正文s.body与补充u.deep后评估；存在实质解释，不能只看补充段落。
+物理,4,4.7,牛顿第二运动定律,5,图解与公式／实验,300,8,2,requires_local_expansion_or_goal_mapping,deep_spot_check,多种力学模型及例题已有，不应按字数否定；05测F与a实验只短述保持质量、mg近似的条件，没有完整控制/误差链。 扩写/修订要求：补整体/隔离条件、绳绷紧与N≥0等检验，并把实验F测量、系统总质量、摩擦和图线斜率连起来；先核实具体实验来源。
+物理,4,4.7,牛顿第二运动定律,6,典型例题,366,3,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,4,4.7,牛顿第二运动定律,7,UEC题型攻略,58,2,0,requires_local_expansion_or_goal_mapping,deep_spot_check,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+物理,4,4.7,牛顿第二运动定律,8,易错易混,97,4,0,substantive_material_present_not_full_certification,deep_spot_check,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+物理,4,4.7,牛顿第二运动定律,9,分层练习,78,4,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,4,4.7,牛顿第二运动定律,10,完整解析,270,4,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,4,4.7,牛顿第二运动定律,11,考前速记,28,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+物理,4,4.7,牛顿第二运动定律,12,掌握度检测,84,1,0,requires_local_expansion_or_goal_mapping,deep_spot_check,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+物理,4,4.8,牛顿第三运动定律,1,学习目标,29,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+物理,4,4.8,牛顿第三运动定律,2,前置知识,19,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+物理,4,4.8,牛顿第三运动定律,3,知识结构图,25,4,0,flow_retain,deep_spot_check,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+物理,4,4.8,牛顿第三运动定律,4,深度知识讲解,628,9,0,P0_formula_delimiter_correction_first,deep_spot_check,合并原正文s.body与补充u.deep后评估；存在实质解释，不能只看补充段落。
+物理,4,4.8,牛顿第三运动定律,5,图解与公式／实验,141,6,1,P0_formula_delimiter_correction_first,deep_spot_check,05相互作用加速度比被拆成“a_A”“/”“a_B”多个段，绝对值丢失；牛顿第三定律不因此变错，但公式无法自足阅读。 扩写/修订要求：先修复|a_A|/|a_B|整式，补只受该相互作用时的前提；在书/桌/地球三节点区分受体与平衡，不能把跨对象力相消。
+物理,4,4.8,牛顿第三运动定律,6,典型例题,362,3,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,4,4.8,牛顿第三运动定律,7,UEC题型攻略,58,2,0,requires_local_expansion_or_goal_mapping,deep_spot_check,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+物理,4,4.8,牛顿第三运动定律,8,易错易混,79,3,0,substantive_material_present_not_full_certification,deep_spot_check,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+物理,4,4.8,牛顿第三运动定律,9,分层练习,95,4,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,4,4.8,牛顿第三运动定律,10,完整解析,313,4,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+物理,4,4.8,牛顿第三运动定律,11,考前速记,27,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+物理,4,4.8,牛顿第三运动定律,12,掌握度检测,80,1,0,requires_local_expansion_or_goal_mapping,deep_spot_check,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+化学,3,3.1,原子学说与分子学说,1,学习目标,37,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+化学,3,3.1,原子学说与分子学说,2,前置知识,36,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+化学,3,3.1,原子学说与分子学说,3,知识结构图,23,4,0,flow_correct,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+化学,3,3.1,原子学说与分子学说,4,深度知识讲解,780,8,0,substantive_material_present_not_full_certification,structure_and_visual_review,合并原正文s.body与补充u.deep后评估；存在实质解释，不能只看补充段落。
+化学,3,3.1,原子学说与分子学说,5,图解与公式／实验,175,2,1,requires_local_expansion_or_goal_mapping,structure_and_visual_review,道尔顿与现代修正有具体解释；05原子账本只有短段，与原气体分子示意图没有逐个对照，08缺证据与模型范围的分层辨析。 扩写/修订要求：将H/O粒子逐个计数与分子数变化联系，说明旧假设何处被同位素否定、何处普通化学模型仍适用；不把历史模型当现代定义。
+化学,3,3.1,原子学说与分子学说,6,典型例题,416,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,3,3.1,原子学说与分子学说,7,UEC题型攻略,72,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+化学,3,3.1,原子学说与分子学说,8,易错易混,105,3,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,道尔顿与现代修正有具体解释；05原子账本只有短段，与原气体分子示意图没有逐个对照，08缺证据与模型范围的分层辨析。 扩写/修订要求：将H/O粒子逐个计数与分子数变化联系，说明旧假设何处被同位素否定、何处普通化学模型仍适用；不把历史模型当现代定义。
+化学,3,3.1,原子学说与分子学说,9,分层练习,116,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,3,3.1,原子学说与分子学说,10,完整解析,384,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,3,3.1,原子学说与分子学说,11,考前速记,39,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+化学,3,3.1,原子学说与分子学说,12,掌握度检测,116,1,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+化学,3,3.2,物质组成及化学反应中的基本定律,1,学习目标,30,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+化学,3,3.2,物质组成及化学反应中的基本定律,2,前置知识,27,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+化学,3,3.2,物质组成及化学反应中的基本定律,3,知识结构图,22,4,0,flow_redraw,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+化学,3,3.2,物质组成及化学反应中的基本定律,4,深度知识讲解,892,9,0,substantive_material_present_not_full_certification,structure_and_visual_review,合并原正文s.body与补充u.deep后评估；存在实质解释，不能只看补充段落。
+化学,3,3.2,物质组成及化学反应中的基本定律,5,图解与公式／实验,278,5,1,requires_local_expansion_or_goal_mapping,structure_and_visual_review,三定律正文及定量题较充实；05称量步骤只列控制条件，没有系统边界图及观察差异的解释。 扩写/修订要求：比较开放气体逸出和完整物料计量；把质量守恒、同种纯物定比、固定一种元素的倍比各自前提和反例分开。
+化学,3,3.2,物质组成及化学反应中的基本定律,6,典型例题,407,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,3,3.2,物质组成及化学反应中的基本定律,7,UEC题型攻略,53,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+化学,3,3.2,物质组成及化学反应中的基本定律,8,易错易混,105,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+化学,3,3.2,物质组成及化学反应中的基本定律,9,分层练习,118,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,3,3.2,物质组成及化学反应中的基本定律,10,完整解析,374,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,3,3.2,物质组成及化学反应中的基本定律,11,考前速记,27,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+化学,3,3.2,物质组成及化学反应中的基本定律,12,掌握度检测,110,1,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+化学,3,3.3,原子与相对原子质量,1,学习目标,35,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+化学,3,3.3,原子与相对原子质量,2,前置知识,22,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+化学,3,3.3,原子与相对原子质量,3,知识结构图,25,4,0,flow_correct,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+化学,3,3.3,原子与相对原子质量,4,深度知识讲解,856,9,0,substantive_material_present_not_full_certification,structure_and_visual_review,合并原正文s.body与补充u.deep后评估；存在实质解释，不能只看补充段落。
+化学,3,3.3,原子与相对原子质量,5,图解与公式／实验,218,6,1,requires_local_expansion_or_goal_mapping,structure_and_visual_review,Ar与A、同位素丰度基础已有；05仅公式和一次方程概述，图还是单原子质量单位，没有把丰度平均的统计对象画出来。 扩写/修订要求：补“一个原子/大量原子样本/平均比值”三级对象与加权验算，强调质量数近似、平均值范围及离子只改电子数。
+化学,3,3.3,原子与相对原子质量,6,典型例题,340,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,3,3.3,原子与相对原子质量,7,UEC题型攻略,67,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+化学,3,3.3,原子与相对原子质量,8,易错易混,102,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+化学,3,3.3,原子与相对原子质量,9,分层练习,135,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,3,3.3,原子与相对原子质量,10,完整解析,370,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,3,3.3,原子与相对原子质量,11,考前速记,28,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+化学,3,3.3,原子与相对原子质量,12,掌握度检测,92,1,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+化学,3,3.4,化学式与式量,1,学习目标,36,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+化学,3,3.4,化学式与式量,2,前置知识,16,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+化学,3,3.4,化学式与式量,3,知识结构图,21,4,0,flow_retain,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+化学,3,3.4,化学式与式量,4,深度知识讲解,760,8,0,substantive_material_present_not_full_certification,structure_and_visual_review,合并原正文s.body与补充u.deep后评估；存在实质解释，不能只看补充段落。
+化学,3,3.4,化学式与式量,5,图解与公式／实验,247,5,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,05为文字计数与分数，未有任何外部图；括号、水合物与无量纲/单位是本节核心，08主要短提醒。 扩写/修订要求：用Ca(OH)₂、Al₂(SO₄)₃、CuSO₄·5H₂O分别展开作用域，先计数再求式量和元素百分比，给漏括号的错解对照。
+化学,3,3.4,化学式与式量,6,典型例题,371,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,3,3.4,化学式与式量,7,UEC题型攻略,54,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+化学,3,3.4,化学式与式量,8,易错易混,101,3,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,05为文字计数与分数，未有任何外部图；括号、水合物与无量纲/单位是本节核心，08主要短提醒。 扩写/修订要求：用Ca(OH)₂、Al₂(SO₄)₃、CuSO₄·5H₂O分别展开作用域，先计数再求式量和元素百分比，给漏括号的错解对照。
+化学,3,3.4,化学式与式量,9,分层练习,100,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,3,3.4,化学式与式量,10,完整解析,313,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,3,3.4,化学式与式量,11,考前速记,27,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+化学,3,3.4,化学式与式量,12,掌握度检测,86,1,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+化学,3,3.5,确定化学式的方法,1,学习目标,31,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+化学,3,3.5,确定化学式的方法,2,前置知识,23,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+化学,3,3.5,确定化学式的方法,3,知识结构图,27,5,0,flow_correct,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+化学,3,3.5,确定化学式的方法,4,深度知识讲解,847,8,0,substantive_material_present_not_full_certification,structure_and_visual_review,合并原正文s.body与补充u.deep后评估；存在实质解释，不能只看补充段落。
+化学,3,3.5,确定化学式的方法,5,图解与公式／实验,170,5,1,requires_local_expansion_or_goal_mapping,structure_and_visual_review,实验式/分子式及燃烧题有推理，05仅两个短段，燃烧产物O有外加来源这一关键需要更明确的数据流。 扩写/修订要求：把已给CO₂/H₂O数据换为C/H质量，原样品O用差值的原因展开；明确只有C/H/O且测量完整时该差值可用。
+化学,3,3.5,确定化学式的方法,6,典型例题,499,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,3,3.5,确定化学式的方法,7,UEC题型攻略,54,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+化学,3,3.5,确定化学式的方法,8,易错易混,100,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+化学,3,3.5,确定化学式的方法,9,分层练习,131,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,3,3.5,确定化学式的方法,10,完整解析,454,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,3,3.5,确定化学式的方法,11,考前速记,31,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+化学,3,3.5,确定化学式的方法,12,掌握度检测,83,1,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+化学,3,3.6,物质的量,1,学习目标,42,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+化学,3,3.6,物质的量,2,前置知识,29,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+化学,3,3.6,物质的量,3,知识结构图,27,4,0,flow_redraw,deep_spot_check,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+化学,3,3.6,物质的量,4,深度知识讲解,1078,10,0,substantive_material_present_not_full_certification,deep_spot_check,合并原正文s.body与补充u.deep后评估；存在实质解释，不能只看补充段落。
+化学,3,3.6,物质的量,5,图解与公式／实验,317,6,1,substantive_material_present_not_full_certification,deep_spot_check,推导、原公式、图、术语一起评估；见插图清单，不以推导字数代替科学性。
+化学,3,3.6,物质的量,6,典型例题,580,3,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,3,3.6,物质的量,7,UEC题型攻略,94,2,0,requires_local_expansion_or_goal_mapping,deep_spot_check,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+化学,3,3.6,物质的量,8,易错易混,137,4,0,requires_local_expansion_or_goal_mapping,deep_spot_check,04由原文与补充合并后有实质讲解，现代SI、对象、气体温压边界和例题都有实质内容，未发现其仅用一两句代替深讲。 扩写/修订要求：保留已有实质讲解；后续重点补M07的题型选择过程、M08的实体/单位错解和M12目标映射，图解增加指定实体层即可，不需无差别扩长全部段落。
+化学,3,3.6,物质的量,9,分层练习,174,4,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,3,3.6,物质的量,10,完整解析,469,4,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,3,3.6,物质的量,11,考前速记,40,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+化学,3,3.6,物质的量,12,掌握度检测,135,1,0,requires_local_expansion_or_goal_mapping,deep_spot_check,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+化学,4,4.1.1,表示化学反应的语言——化学方程式,1,学习目标,26,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+化学,4,4.1.1,表示化学反应的语言——化学方程式,2,前置知识,23,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+化学,4,4.1.1,表示化学反应的语言——化学方程式,3,知识结构图,23,4,0,flow_correct,deep_spot_check,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+化学,4,4.1.1,表示化学反应的语言——化学方程式,4,深度知识讲解,940,10,0,substantive_material_present_not_full_certification,deep_spot_check,合并原正文s.body与补充u.deep后评估；存在实质解释，不能只看补充段落。
+化学,4,4.1.1,表示化学反应的语言——化学方程式,5,图解与公式／实验,246,6,1,requires_local_expansion_or_goal_mapping,deep_spot_check,离子方程式例题已有五步，不应称无完整解答；05仍未将粒子/旁观离子去留和电荷核查对应到图。 扩写/修订要求：把分子式、完整离子式、净离子式的三层对象逐步对照，说明沉淀不能拆；学校/统考身份与具体官方评分缺口保持分开。
+化学,4,4.1.1,表示化学反应的语言——化学方程式,6,典型例题,623,3,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,4,4.1.1,表示化学反应的语言——化学方程式,7,UEC题型攻略,62,2,0,requires_local_expansion_or_goal_mapping,deep_spot_check,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+化学,4,4.1.1,表示化学反应的语言——化学方程式,8,易错易混,96,4,0,substantive_material_present_not_full_certification,deep_spot_check,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+化学,4,4.1.1,表示化学反应的语言——化学方程式,9,分层练习,105,4,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,4,4.1.1,表示化学反应的语言——化学方程式,10,完整解析,287,4,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,4,4.1.1,表示化学反应的语言——化学方程式,11,考前速记,29,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+化学,4,4.1.1,表示化学反应的语言——化学方程式,12,掌握度检测,79,1,0,requires_local_expansion_or_goal_mapping,deep_spot_check,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+化学,4,4.1.2,化学反应的类型,1,学习目标,22,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+化学,4,4.1.2,化学反应的类型,2,前置知识,22,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+化学,4,4.1.2,化学反应的类型,3,知识结构图,24,4,0,flow_redraw,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+化学,4,4.1.2,化学反应的类型,4,深度知识讲解,687,7,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,四分类、氧化还原与中和叠加已有提醒，但表格与实际反应条件未展开；金属活动性水溶液边界只在补充语句中。 扩写/修订要求：用同一反应接受多标准分类的例子，把“可写交换式”和“有净反应”区别讲透；Na先与水反应只作适用条件反例，不设计危险操作。
+化学,4,4.1.2,化学反应的类型,5,图解与公式／实验,184,2,1,requires_local_expansion_or_goal_mapping,structure_and_visual_review,四分类、氧化还原与中和叠加已有提醒，但表格与实际反应条件未展开；金属活动性水溶液边界只在补充语句中。 扩写/修订要求：用同一反应接受多标准分类的例子，把“可写交换式”和“有净反应”区别讲透；Na先与水反应只作适用条件反例，不设计危险操作。
+化学,4,4.1.2,化学反应的类型,6,典型例题,333,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,4,4.1.2,化学反应的类型,7,UEC题型攻略,53,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+化学,4,4.1.2,化学反应的类型,8,易错易混,89,3,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,四分类、氧化还原与中和叠加已有提醒，但表格与实际反应条件未展开；金属活动性水溶液边界只在补充语句中。 扩写/修订要求：用同一反应接受多标准分类的例子，把“可写交换式”和“有净反应”区别讲透；Na先与水反应只作适用条件反例，不设计危险操作。
+化学,4,4.1.2,化学反应的类型,9,分层练习,119,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,4,4.1.2,化学反应的类型,10,完整解析,322,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,4,4.1.2,化学反应的类型,11,考前速记,30,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+化学,4,4.1.2,化学反应的类型,12,掌握度检测,82,1,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+化学,4,4.1.3,化学方程式的配平,1,学习目标,31,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+化学,4,4.1.3,化学方程式的配平,2,前置知识,18,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+化学,4,4.1.3,化学方程式的配平,3,知识结构图,25,5,0,flow_retain,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+化学,4,4.1.3,化学方程式的配平,4,深度知识讲解,597,8,0,substantive_material_present_not_full_certification,structure_and_visual_review,合并原正文s.body与补充u.deep后评估；存在实质解释，不能只看补充段落。
+化学,4,4.1.3,化学方程式的配平,5,图解与公式／实验,142,2,1,requires_local_expansion_or_goal_mapping,structure_and_visual_review,配平步骤与两个数值例已有；05偏重算法摘要，08只说不能改下标，没有解释为何某一单元素检查会漏错。 扩写/修订要求：用现有检测错式逐元素做账，写出选择先C/H后O的理由与何时可把原子团整体处理；不引入新课程编号。
+化学,4,4.1.3,化学方程式的配平,6,典型例题,401,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,4,4.1.3,化学方程式的配平,7,UEC题型攻略,66,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+化学,4,4.1.3,化学方程式的配平,8,易错易混,79,3,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,配平步骤与两个数值例已有；05偏重算法摘要，08只说不能改下标，没有解释为何某一单元素检查会漏错。 扩写/修订要求：用现有检测错式逐元素做账，写出选择先C/H后O的理由与何时可把原子团整体处理；不引入新课程编号。
+化学,4,4.1.3,化学方程式的配平,9,分层练习,96,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,4,4.1.3,化学方程式的配平,10,完整解析,320,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,4,4.1.3,化学方程式的配平,11,考前速记,26,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+化学,4,4.1.3,化学方程式的配平,12,掌握度检测,71,1,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+化学,4,4.2.1,计算反应物和生成物的量,1,学习目标,30,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+化学,4,4.2.1,计算反应物和生成物的量,2,前置知识,17,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+化学,4,4.2.1,计算反应物和生成物的量,3,知识结构图,29,5,0,flow_retain,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+化学,4,4.2.1,计算反应物和生成物的量,4,深度知识讲解,719,8,0,substantive_material_present_not_full_certification,structure_and_visual_review,合并原正文s.body与补充u.deep后评估；存在实质解释，不能只看补充段落。
+化学,4,4.2.1,计算反应物和生成物的量,5,图解与公式／实验,220,5,1,requires_local_expansion_or_goal_mapping,structure_and_visual_review,质量→mol→比值→量的路径和例题清楚；05通式只有两段，单位约分及初始量/消耗量差异常被短句带过。 扩写/修订要求：将同一铝例逐箭头列物质与单位，另用有剩余的反例说明为何需实际消耗量；不能把不同物质的M共用。
+化学,4,4.2.1,计算反应物和生成物的量,6,典型例题,469,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,4,4.2.1,计算反应物和生成物的量,7,UEC题型攻略,68,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+化学,4,4.2.1,计算反应物和生成物的量,8,易错易混,78,3,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,质量→mol→比值→量的路径和例题清楚；05通式只有两段，单位约分及初始量/消耗量差异常被短句带过。 扩写/修订要求：将同一铝例逐箭头列物质与单位，另用有剩余的反例说明为何需实际消耗量；不能把不同物质的M共用。
+化学,4,4.2.1,计算反应物和生成物的量,9,分层练习,153,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,4,4.2.1,计算反应物和生成物的量,10,完整解析,365,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,4,4.2.1,计算反应物和生成物的量,11,考前速记,33,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+化学,4,4.2.1,计算反应物和生成物的量,12,掌握度检测,84,1,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+化学,4,4.2.2,关于不纯物的计算,1,学习目标,30,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+化学,4,4.2.2,关于不纯物的计算,2,前置知识,14,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+化学,4,4.2.2,关于不纯物的计算,3,知识结构图,24,5,0,flow_retain,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+化学,4,4.2.2,关于不纯物的计算,4,深度知识讲解,594,8,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,04有效质量和杂质前提已有，但05补充推导仅两个短段；纯度反推大于100%的解释尚未接到具体错误数据链。 扩写/修订要求：完整分流纯物质、杂质与产物，分别讨论杂质也产同种气体、湿气/收集不全的不可辨识性；纯度与产率作用环节分开。
+化学,4,4.2.2,关于不纯物的计算,5,图解与公式／实验,124,4,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,04有效质量和杂质前提已有，但05补充推导仅两个短段；纯度反推大于100%的解释尚未接到具体错误数据链。 扩写/修订要求：完整分流纯物质、杂质与产物，分别讨论杂质也产同种气体、湿气/收集不全的不可辨识性；纯度与产率作用环节分开。
+化学,4,4.2.2,关于不纯物的计算,6,典型例题,435,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,4,4.2.2,关于不纯物的计算,7,UEC题型攻略,53,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+化学,4,4.2.2,关于不纯物的计算,8,易错易混,76,3,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,04有效质量和杂质前提已有，但05补充推导仅两个短段；纯度反推大于100%的解释尚未接到具体错误数据链。 扩写/修订要求：完整分流纯物质、杂质与产物，分别讨论杂质也产同种气体、湿气/收集不全的不可辨识性；纯度与产率作用环节分开。
+化学,4,4.2.2,关于不纯物的计算,9,分层练习,122,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,4,4.2.2,关于不纯物的计算,10,完整解析,336,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,4,4.2.2,关于不纯物的计算,11,考前速记,22,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+化学,4,4.2.2,关于不纯物的计算,12,掌握度检测,84,1,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+化学,4,4.2.3,利用限量反应物的计算,1,学习目标,27,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+化学,4,4.2.3,利用限量反应物的计算,2,前置知识,19,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+化学,4,4.2.3,利用限量反应物的计算,3,知识结构图,27,4,0,flow_retain,deep_spot_check,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+化学,4,4.2.3,利用限量反应物的计算,4,深度知识讲解,547,8,0,requires_local_expansion_or_goal_mapping,deep_spot_check,n/系数与ξ解释已有，正文合并后有实质讲解，不能只凭数字判浅；但示图用离散分子、例题用mol进度，两种尺度未桥接。 扩写/修订要求：从一轮计量需要a/b个实体推到每mol反应进度，明确ξ的单位、最小值与剩余非负检查；把直接比质量/mol的错法完整反驳。
+化学,4,4.2.3,利用限量反应物的计算,5,图解与公式／实验,156,4,1,requires_local_expansion_or_goal_mapping,deep_spot_check,n/系数与ξ解释已有，正文合并后有实质讲解，不能只凭数字判浅；但示图用离散分子、例题用mol进度，两种尺度未桥接。 扩写/修订要求：从一轮计量需要a/b个实体推到每mol反应进度，明确ξ的单位、最小值与剩余非负检查；把直接比质量/mol的错法完整反驳。
+化学,4,4.2.3,利用限量反应物的计算,6,典型例题,529,3,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,4,4.2.3,利用限量反应物的计算,7,UEC题型攻略,56,2,0,requires_local_expansion_or_goal_mapping,deep_spot_check,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+化学,4,4.2.3,利用限量反应物的计算,8,易错易混,85,3,0,requires_local_expansion_or_goal_mapping,deep_spot_check,n/系数与ξ解释已有，正文合并后有实质讲解，不能只凭数字判浅；但示图用离散分子、例题用mol进度，两种尺度未桥接。 扩写/修订要求：从一轮计量需要a/b个实体推到每mol反应进度，明确ξ的单位、最小值与剩余非负检查；把直接比质量/mol的错法完整反驳。
+化学,4,4.2.3,利用限量反应物的计算,9,分层练习,132,4,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,4,4.2.3,利用限量反应物的计算,10,完整解析,381,4,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,4,4.2.3,利用限量反应物的计算,11,考前速记,23,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+化学,4,4.2.3,利用限量反应物的计算,12,掌握度检测,84,1,0,requires_local_expansion_or_goal_mapping,deep_spot_check,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+化学,4,4.2.4,产率的计算,1,学习目标,30,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+化学,4,4.2.4,产率的计算,2,前置知识,16,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+化学,4,4.2.4,产率的计算,3,知识结构图,24,5,0,flow_retain,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+化学,4,4.2.4,产率的计算,4,深度知识讲解,572,9,0,substantive_material_present_not_full_certification,structure_and_visual_review,合并原正文s.body与补充u.deep后评估；存在实质解释，不能只看补充段落。
+化学,4,4.2.4,产率的计算,5,图解与公式／实验,146,3,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,纯度、限量、产率顺序与例题已有；05补充推导仅两个短段，理论分母及湿品表观>100%主要是结论提醒。 扩写/修订要求：把理论量的上游推导、同产品同单位分式、反推需求分开演示；解释损失不等于产率、观测值不能唯一指认损失原因。
+化学,4,4.2.4,产率的计算,6,典型例题,401,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,4,4.2.4,产率的计算,7,UEC题型攻略,53,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+化学,4,4.2.4,产率的计算,8,易错易混,71,3,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,纯度、限量、产率顺序与例题已有；05补充推导仅两个短段，理论分母及湿品表观>100%主要是结论提醒。 扩写/修订要求：把理论量的上游推导、同产品同单位分式、反推需求分开演示；解释损失不等于产率、观测值不能唯一指认损失原因。
+化学,4,4.2.4,产率的计算,9,分层练习,124,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,4,4.2.4,产率的计算,10,完整解析,343,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+化学,4,4.2.4,产率的计算,11,考前速记,26,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+化学,4,4.2.4,产率的计算,12,掌握度检测,84,1,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+生物,1,1.1,生命离不开水,1,学习目标,35,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+生物,1,1.1,生命离不开水,2,前置知识,23,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+生物,1,1.1,生命离不开水,3,知识结构图,23,4,0,flow_redraw,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+生物,1,1.1,生命离不开水,4,深度知识讲解,933,8,0,substantive_material_present_not_full_certification,structure_and_visual_review,合并原正文s.body与补充u.deep后评估；存在实质解释，不能只看补充段落。
+生物,1,1.1,生命离不开水,5,图解与公式／实验,198,2,1,requires_local_expansion_or_goal_mapping,structure_and_visual_review,04有水结构与多项性质，不是几句空模板；05热量公式与干燥称量仅两段，没有把每种性质接到证据及适用条件。 扩写/修订要求：分开比热与汽化热，显示同Q同m比较和鲜/干重分母；将结合水比值与抗逆性描述为条件性关联而非单因果定律。
+生物,1,1.1,生命离不开水,6,典型例题,337,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,1,1.1,生命离不开水,7,UEC题型攻略,72,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+生物,1,1.1,生命离不开水,8,易错易混,118,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+生物,1,1.1,生命离不开水,9,分层练习,97,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,1,1.1,生命离不开水,10,完整解析,292,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,1,1.1,生命离不开水,11,考前速记,28,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+生物,1,1.1,生命离不开水,12,掌握度检测,80,1,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+生物,1,1.2,生物体必需的无机盐,1,学习目标,34,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+生物,1,1.2,生物体必需的无机盐,2,前置知识,16,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+生物,1,1.2,生物体必需的无机盐,3,知识结构图,24,4,0,flow_redraw,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+生物,1,1.2,生物体必需的无机盐,4,深度知识讲解,675,9,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,离子功能、缺素对照有内容，但常见功能多以列表总结，05仅缓冲和缺素两段；无结构/对照图。 扩写/修订要求：把特定元素→结构/机制→观察后果连成证据链，补完整营养/缺素/补回/伴随离子控制及重复，避免黄叶唯一诊断。
+生物,1,1.2,生物体必需的无机盐,5,图解与公式／实验,123,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,离子功能、缺素对照有内容，但常见功能多以列表总结，05仅缓冲和缺素两段；无结构/对照图。 扩写/修订要求：把特定元素→结构/机制→观察后果连成证据链，补完整营养/缺素/补回/伴随离子控制及重复，避免黄叶唯一诊断。
+生物,1,1.2,生物体必需的无机盐,6,典型例题,387,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,1,1.2,生物体必需的无机盐,7,UEC题型攻略,65,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+生物,1,1.2,生物体必需的无机盐,8,易错易混,94,3,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,离子功能、缺素对照有内容，但常见功能多以列表总结，05仅缓冲和缺素两段；无结构/对照图。 扩写/修订要求：把特定元素→结构/机制→观察后果连成证据链，补完整营养/缺素/补回/伴随离子控制及重复，避免黄叶唯一诊断。
+生物,1,1.2,生物体必需的无机盐,9,分层练习,92,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,1,1.2,生物体必需的无机盐,10,完整解析,274,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,1,1.2,生物体必需的无机盐,11,考前速记,33,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+生物,1,1.2,生物体必需的无机盐,12,掌握度检测,87,1,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+生物,1,1.3,能量的主要来源——糖类,1,学习目标,29,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+生物,1,1.3,能量的主要来源——糖类,2,前置知识,18,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+生物,1,1.3,能量的主要来源——糖类,3,知识结构图,21,4,0,flow_redraw,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+生物,1,1.3,能量的主要来源——糖类,4,深度知识讲解,878,10,0,substantive_material_present_not_full_certification,structure_and_visual_review,合并原正文s.body与补充u.deep后评估；存在实质解释，不能只看补充段落。
+生物,1,1.3,能量的主要来源——糖类,5,图解与公式／实验,215,2,2,requires_local_expansion_or_goal_mapping,structure_and_visual_review,糖类功能和n-m计算已有；05试剂与缩合计数较短，现分类图反应箭头仍可能误读为二糖直接变多糖。 扩写/修订要求：图文区分分类、特定缩合和不同多糖键型；检验只支持还原性/淀粉证据，不作单一糖唯一鉴定，水解条件需说明。
+生物,1,1.3,能量的主要来源——糖类,6,典型例题,331,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,1,1.3,能量的主要来源——糖类,7,UEC题型攻略,52,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+生物,1,1.3,能量的主要来源——糖类,8,易错易混,108,3,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,糖类功能和n-m计算已有；05试剂与缩合计数较短，现分类图反应箭头仍可能误读为二糖直接变多糖。 扩写/修订要求：图文区分分类、特定缩合和不同多糖键型；检验只支持还原性/淀粉证据，不作单一糖唯一鉴定，水解条件需说明。
+生物,1,1.3,能量的主要来源——糖类,9,分层练习,82,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,1,1.3,能量的主要来源——糖类,10,完整解析,273,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,1,1.3,能量的主要来源——糖类,11,考前速记,30,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+生物,1,1.3,能量的主要来源——糖类,12,掌握度检测,60,1,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+生物,1,1.4,贮存能量的物质——脂质,1,学习目标,33,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+生物,1,1.4,贮存能量的物质——脂质,2,前置知识,13,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+生物,1,1.4,贮存能量的物质——脂质,3,知识结构图,26,4,0,flow_redraw,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+生物,1,1.4,贮存能量的物质——脂质,4,深度知识讲解,826,9,0,substantive_material_present_not_full_certification,structure_and_visual_review,合并原正文s.body与补充u.deep后评估；存在实质解释，不能只看补充段落。
+生物,1,1.4,贮存能量的物质——脂质,5,图解与公式／实验,180,2,2,requires_local_expansion_or_goal_mapping,structure_and_visual_review,三类脂质区别已有；05储能比值与乳化检验只是各一段，图以甘油脂示例容易遮蔽固醇。 扩写/修订要求：按三甘油酯/磷脂/固醇分别解释结构与功能，实验若保留应有空白、溶剂安全与判读边界；不把能量比当所有食品常数。
+生物,1,1.4,贮存能量的物质——脂质,6,典型例题,321,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,1,1.4,贮存能量的物质——脂质,7,UEC题型攻略,52,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+生物,1,1.4,贮存能量的物质——脂质,8,易错易混,119,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+生物,1,1.4,贮存能量的物质——脂质,9,分层练习,87,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,1,1.4,贮存能量的物质——脂质,10,完整解析,238,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,1,1.4,贮存能量的物质——脂质,11,考前速记,31,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+生物,1,1.4,贮存能量的物质——脂质,12,掌握度检测,69,1,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+生物,1,1.5,生命活动的承担者——蛋白质,1,学习目标,30,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+生物,1,1.5,生命活动的承担者——蛋白质,2,前置知识,17,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+生物,1,1.5,生命活动的承担者——蛋白质,3,知识结构图,26,5,0,flow_correct,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+生物,1,1.5,生命活动的承担者——蛋白质,4,深度知识讲解,1129,11,0,substantive_material_present_not_full_certification,structure_and_visual_review,合并原正文s.body与补充u.deep后评估；存在实质解释，不能只看补充段落。
+生物,1,1.5,生命活动的承担者——蛋白质,5,图解与公式／实验,184,2,2,requires_local_expansion_or_goal_mapping,structure_and_visual_review,04结构层次与n-m限制较完整；05虽有质量式和试剂，但侧链基团、环链与额外交联的例外没有可见计数过程。 扩写/修订要求：从两条无环链的端点和肽键逐个计数，区分变性/水解与空间构象/主链，补误把四级视为人人都有的反例。
+生物,1,1.5,生命活动的承担者——蛋白质,6,典型例题,343,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,1,1.5,生命活动的承担者——蛋白质,7,UEC题型攻略,54,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+生物,1,1.5,生命活动的承担者——蛋白质,8,易错易混,117,4,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,04结构层次与n-m限制较完整；05虽有质量式和试剂，但侧链基团、环链与额外交联的例外没有可见计数过程。 扩写/修订要求：从两条无环链的端点和肽键逐个计数，区分变性/水解与空间构象/主链，补误把四级视为人人都有的反例。
+生物,1,1.5,生命活动的承担者——蛋白质,9,分层练习,76,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,1,1.5,生命活动的承担者——蛋白质,10,完整解析,241,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,1,1.5,生命活动的承担者——蛋白质,11,考前速记,25,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+生物,1,1.5,生命活动的承担者——蛋白质,12,掌握度检测,61,1,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+生物,1,1.6,遗传信息的携带者——核酸,1,学习目标,30,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+生物,1,1.6,遗传信息的携带者——核酸,2,前置知识,16,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+生物,1,1.6,遗传信息的携带者——核酸,3,知识结构图,22,5,0,flow_redraw,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+生物,1,1.6,遗传信息的携带者——核酸,4,深度知识讲解,886,11,0,substantive_material_present_not_full_certification,structure_and_visual_review,合并原正文s.body与补充u.deep后评估；存在实质解释，不能只看补充段落。
+生物,1,1.6,遗传信息的携带者——核酸,5,图解与公式／实验,222,4,3,requires_local_expansion_or_goal_mapping,structure_and_visual_review,DNA/RNA、方向和配对计数已有；05公式仅两段，核苷酸/对/氢键三个单位容易被题面数字带偏。 扩写/修订要求：给1000核苷酸→500对→AT/GC→1300氢键账本，说明单链不能套双链规则，遗传信息是序列而不只组成比例。
+生物,1,1.6,遗传信息的携带者——核酸,6,典型例题,333,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,1,1.6,遗传信息的携带者——核酸,7,UEC题型攻略,52,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+生物,1,1.6,遗传信息的携带者——核酸,8,易错易混,103,3,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,DNA/RNA、方向和配对计数已有；05公式仅两段，核苷酸/对/氢键三个单位容易被题面数字带偏。 扩写/修订要求：给1000核苷酸→500对→AT/GC→1300氢键账本，说明单链不能套双链规则，遗传信息是序列而不只组成比例。
+生物,1,1.6,遗传信息的携带者——核酸,9,分层练习,83,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,1,1.6,遗传信息的携带者——核酸,10,完整解析,255,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,1,1.6,遗传信息的携带者——核酸,11,考前速记,29,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+生物,1,1.6,遗传信息的携带者——核酸,12,掌握度检测,77,1,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+生物,2,2.1,细胞是生物的基本单位,1,学习目标,31,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+生物,2,2.1,细胞是生物的基本单位,2,前置知识,24,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+生物,2,2.1,细胞是生物的基本单位,3,知识结构图,24,5,0,flow_redraw,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+生物,2,2.1,细胞是生物的基本单位,4,深度知识讲解,1024,9,0,substantive_material_present_not_full_certification,structure_and_visual_review,合并原正文s.body与补充u.deep后评估；存在实质解释，不能只看补充段落。
+生物,2,2.1,细胞是生物的基本单位,5,图解与公式／实验,208,4,1,requires_local_expansion_or_goal_mapping,structure_and_visual_review,04合并后有实质讲解且有细胞类型和尺度例外；05仅立方体公式与长度换算，显微分辨和比例尺缺图。 扩写/修订要求：以相同图像缩放说明比例尺与标称倍率差异；解释SA/V含单位且受形状限制，不能用有无核/叶绿体一项强判细胞身份。
+生物,2,2.1,细胞是生物的基本单位,6,典型例题,324,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,2,2.1,细胞是生物的基本单位,7,UEC题型攻略,58,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+生物,2,2.1,细胞是生物的基本单位,8,易错易混,119,3,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,04合并后有实质讲解且有细胞类型和尺度例外；05仅立方体公式与长度换算，显微分辨和比例尺缺图。 扩写/修订要求：以相同图像缩放说明比例尺与标称倍率差异；解释SA/V含单位且受形状限制，不能用有无核/叶绿体一项强判细胞身份。
+生物,2,2.1,细胞是生物的基本单位,9,分层练习,101,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,2,2.1,细胞是生物的基本单位,10,完整解析,289,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,2,2.1,细胞是生物的基本单位,11,考前速记,30,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+生物,2,2.1,细胞是生物的基本单位,12,掌握度检测,80,1,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+生物,2,2.2,细胞膜——物质进出的门户,1,学习目标,34,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+生物,2,2.2,细胞膜——物质进出的门户,2,前置知识,17,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+生物,2,2.2,细胞膜——物质进出的门户,3,知识结构图,28,4,0,flow_redraw,deep_spot_check,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+生物,2,2.2,细胞膜——物质进出的门户,4,深度知识讲解,1262,14,0,substantive_material_present_not_full_certification,deep_spot_check,合并原正文s.body与补充u.deep后评估；存在实质解释，不能只看补充段落。
+生物,2,2.2,细胞膜——物质进出的门户,5,图解与公式／实验,274,2,2,requires_local_expansion_or_goal_mapping,deep_spot_check,04合并后有实质讲解，主动/被动和水势边界有实质解释；05马铃薯实验虽列控制项，未给装置/测量链与证据局限。 扩写/修订要求：补表面液、温时、同来源、重复及质量变化率的因果说明；初级/次级能量耦联和膜泡融合应有正确图而非只在词表中并列。
+生物,2,2.2,细胞膜——物质进出的门户,6,典型例题,414,3,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,2,2.2,细胞膜——物质进出的门户,7,UEC题型攻略,57,2,0,requires_local_expansion_or_goal_mapping,deep_spot_check,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+生物,2,2.2,细胞膜——物质进出的门户,8,易错易混,140,4,0,substantive_material_present_not_full_certification,deep_spot_check,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+生物,2,2.2,细胞膜——物质进出的门户,9,分层练习,94,4,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,2,2.2,细胞膜——物质进出的门户,10,完整解析,274,4,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,2,2.2,细胞膜——物质进出的门户,11,考前速记,28,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+生物,2,2.2,细胞膜——物质进出的门户,12,掌握度检测,99,1,0,requires_local_expansion_or_goal_mapping,deep_spot_check,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+生物,2,2.3,细胞器——系统内的分工协作,1,学习目标,32,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+生物,2,2.3,细胞器——系统内的分工协作,2,前置知识,22,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+生物,2,2.3,细胞器——系统内的分工协作,3,知识结构图,24,6,0,flow_retain,deep_spot_check,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+生物,2,2.3,细胞器——系统内的分工协作,4,深度知识讲解,1255,15,0,substantive_material_present_not_full_certification,deep_spot_check,合并原正文s.body与补充u.deep后评估；存在实质解释，不能只看补充段落。
+生物,2,2.3,细胞器——系统内的分工协作,5,图解与公式／实验,232,2,3,requires_local_expansion_or_goal_mapping,deep_spot_check,04合并后有实质讲解，细胞器与分泌证据详于其他节；05基本为膜分类和禁止家庭同位素操作，缺时序资料如何排除替代路径。 扩写/修订要求：将2/10/20min区室信息按观察→路径推断→需更多终点证据展开；线粒体供能旁路和膜回收不作货物站或永久面积变化。
+生物,2,2.3,细胞器——系统内的分工协作,6,典型例题,398,3,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,2,2.3,细胞器——系统内的分工协作,7,UEC题型攻略,57,2,0,requires_local_expansion_or_goal_mapping,deep_spot_check,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+生物,2,2.3,细胞器——系统内的分工协作,8,易错易混,142,4,0,substantive_material_present_not_full_certification,deep_spot_check,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+生物,2,2.3,细胞器——系统内的分工协作,9,分层练习,96,4,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,2,2.3,细胞器——系统内的分工协作,10,完整解析,303,4,0,substantive_material_present_not_full_certification,deep_spot_check,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,2,2.3,细胞器——系统内的分工协作,11,考前速记,29,2,0,concise_appropriate_no_length_failure,deep_spot_check,用途允许简洁；未因字数短判为不合格。
+生物,2,2.3,细胞器——系统内的分工协作,12,掌握度检测,75,1,0,requires_local_expansion_or_goal_mapping,deep_spot_check,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+生物,2,2.4,细胞核——细胞的控制中心,1,学习目标,29,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+生物,2,2.4,细胞核——细胞的控制中心,2,前置知识,23,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+生物,2,2.4,细胞核——细胞的控制中心,3,知识结构图,23,4,0,flow_retain,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+生物,2,2.4,细胞核——细胞的控制中心,4,深度知识讲解,643,8,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,核功能的机制和证据限度已有，05核RNA链与三组设计仍是概述；原核图尚未明确核孔交通和染色质的边界。 扩写/修订要求：将信息储存、表达、运输与证据分层，补保核/去核/假手术时间序列为何需要；遗传控制不能等于细胞质毫无作用。
+生物,2,2.4,细胞核——细胞的控制中心,5,图解与公式／实验,190,2,1,requires_local_expansion_or_goal_mapping,structure_and_visual_review,核功能的机制和证据限度已有，05核RNA链与三组设计仍是概述；原核图尚未明确核孔交通和染色质的边界。 扩写/修订要求：将信息储存、表达、运输与证据分层，补保核/去核/假手术时间序列为何需要；遗传控制不能等于细胞质毫无作用。
+生物,2,2.4,细胞核——细胞的控制中心,6,典型例题,378,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,2,2.4,细胞核——细胞的控制中心,7,UEC题型攻略,52,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+生物,2,2.4,细胞核——细胞的控制中心,8,易错易混,82,3,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,核功能的机制和证据限度已有，05核RNA链与三组设计仍是概述；原核图尚未明确核孔交通和染色质的边界。 扩写/修订要求：将信息储存、表达、运输与证据分层，补保核/去核/假手术时间序列为何需要；遗传控制不能等于细胞质毫无作用。
+生物,2,2.4,细胞核——细胞的控制中心,9,分层练习,91,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,2,2.4,细胞核——细胞的控制中心,10,完整解析,293,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,2,2.4,细胞核——细胞的控制中心,11,考前速记,38,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+生物,2,2.4,细胞核——细胞的控制中心,12,掌握度检测,82,1,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。
+生物,2,2.5,细胞壁——细胞的保护外墙,1,学习目标,33,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+生物,2,2.5,细胞壁——细胞的保护外墙,2,前置知识,17,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+生物,2,2.5,细胞壁——细胞的保护外墙,3,知识结构图,23,4,0,flow_redraw,structure_and_visual_review,现有材料保留；具体视觉关系/错误推理要求见本节清单。
+生物,2,2.5,细胞壁——细胞的保护外墙,4,深度知识讲解,650,9,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,壁材料和功能已有，但05只短述质壁分离观察与选材；全透性简化及膜衬胞间连丝的结构边界需细化。 扩写/修订要求：图上先定位膜再画壁层，解释渗透与机械约束共同形成膨压；用动物失水皱缩反例说明“质壁分离”所需结构前提。
+生物,2,2.5,细胞壁——细胞的保护外墙,5,图解与公式／实验,164,2,1,requires_local_expansion_or_goal_mapping,structure_and_visual_review,壁材料和功能已有，但05只短述质壁分离观察与选材；全透性简化及膜衬胞间连丝的结构边界需细化。 扩写/修订要求：图上先定位膜再画壁层，解释渗透与机械约束共同形成膨压；用动物失水皱缩反例说明“质壁分离”所需结构前提。
+生物,2,2.5,细胞壁——细胞的保护外墙,6,典型例题,319,3,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,2,2.5,细胞壁——细胞的保护外墙,7,UEC题型攻略,54,2,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,两条短exam建议；重复年份/来源警告不计教学深度。需本节题型的完整选择和检查过程，不虚构官方评分。
+生物,2,2.5,细胞壁——细胞的保护外墙,8,易错易混,70,3,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,壁材料和功能已有，但05只短述质壁分离观察与选材；全透性简化及膜衬胞间连丝的结构边界需细化。 扩写/修订要求：图上先定位膜再画壁层，解释渗透与机械约束共同形成膨压；用动物失水皱缩反例说明“质壁分离”所需结构前提。
+生物,2,2.5,细胞壁——细胞的保护外墙,9,分层练习,81,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,2,2.5,细胞壁——细胞的保护外墙,10,完整解析,246,4,0,substantive_material_present_not_full_certification,structure_and_visual_review,步骤与答案结构存在；层次标签和科学正确性仍需按本节具体任务审定，结构通过不等于深度通过。
+生物,2,2.5,细胞壁——细胞的保护外墙,11,考前速记,26,2,0,concise_appropriate_no_length_failure,structure_and_visual_review,用途允许简洁；未因字数短判为不合格。
+生物,2,2.5,细胞壁——细胞的保护外墙,12,掌握度检测,85,1,0,requires_local_expansion_or_goal_mapping,structure_and_visual_review,有1题及步骤答案，不是空白；缺显式学习目标覆盖和错因回读映射。可先复用现有3例/4练，不必机械增题。

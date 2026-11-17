@@ -1,0 +1,24 @@
+{
+  "audit_date": "2026-11-18",
+  "audited_commit": "8b54cfed56bd10eedcf0387570a751bb3a34a89b",
+  "checks": [
+    {
+      "command": "node tests/coverage.cjs",
+      "result": "pass",
+      "output": "PASS curriculum 116/116 unchanged; section identity/order 52/52 unchanged; batch 6 chapters / 41 sections / 492 modules / 328 original questions."
+    },
+    {
+      "command": "python tests/calculations.py",
+      "result": "pass",
+      "output": "PASS 80 independent numeric / atom-conservation checks; qualitative biology claims require source and teacher review, not a numeric pass label."
+    },
+    {
+      "command": "node tests/svg.cjs",
+      "result": "pass",
+      "output": "PASS 43 SVG text bounds; scientific meaning separately reviewed."
+    }
+  ],
+  "browser_run": false,
+  "images_generated": false,
+  "limitation": "静态结构、80项计算、43幅本批SVG文字边界检查；不等于修复已发现的科学/教学缺口。"
+}
