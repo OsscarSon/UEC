@@ -1,0 +1,24 @@
+{
+  "result": "pass",
+  "checks": [
+    "四处绝对值公式DOM",
+    "116个目标对应题/反馈结构（静态另检）",
+    "目标自评与回读状态刷新保存",
+    "新增目标状态导出/清空/导入往返",
+    "3张审核通过PNG接入且可加载",
+    "键盘Enter打开放大与Esc关闭/焦点回归",
+    "手机放大区滚动且整页不溢出",
+    "3视窗×新增模块3章无溢出",
+    "已隔离P0旧图不进入教学DOM",
+    "新题八步说明可见",
+    "现代SI检测题可见",
+    "11幅新SVG文字边界"
+  ],
+  "approved_images_seen": [
+    "illustrations/incoming/batch01/physics/PH-3.5-motion-graphs.png",
+    "illustrations/incoming/batch01/chemistry/CH-4.2.3-limiting-reactant.png",
+    "illustrations/incoming/batch01/biology/BI-2.3-cell-organelles.png"
+  ],
+  "new_svg_text_clipping": [],
+  "browser_errors": []
+}

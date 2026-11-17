@@ -3,8 +3,8 @@ const assert=require('node:assert/strict'),fs=require('node:fs');const shots=pro
 (async()=>{
  const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
  const context=await browser.newContext({viewport:{width:1280,height:900}}),page=await context.newPage(),errors=[],requests=[];
- page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.url().startsWith('http://localhost:8000/')&&r.status()>=400)requests.push([r.status(),r.url()]);});
- const base='http://localhost:8000/';await page.goto(base);
+ page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.url().startsWith(process.env.UEC_TEST_BASE||'http://localhost:8000/')&&r.status()>=400)requests.push([r.status(),r.url()]);});
+ const base=process.env.UEC_TEST_BASE||'http://localhost:8000/';await page.goto(base);
  const seed={mast:{'数学34':2,'物理3':1},learn:{'数学34':'2026-11-10','化学3':'2026-11-10'},rv:{'数学34':[1]},done:{custom:true},start:'2026-11-17',err:[{s:'数学',c:34,q:'legacy math',w:'概念不懂',st:0,last:'',d:'2026-11-10'}],ex:[{n:'用户考试',d:'2027-05-20',r:'用户范围'}]};
  await page.evaluate(s=>localStorage.setItem('uec27',JSON.stringify(s)),seed);await page.reload();
  await page.getByRole('button',{name:'课程地图',exact:true}).click();
@@ -25,7 +25,7 @@ const assert=require('node:assert/strict'),fs=require('node:fs');const shots=pro
  // Direct URLs work without relocating any original math unit.
  for(const hash of ['#lesson='+encodeURIComponent('数学34'),'#'+encodeURIComponent('数学34')]){await page.goto(base+hash);assert.ok((await page.locator('main').textContent()).includes('复数'));}
  await page.goto(base+'?lesson='+encodeURIComponent('数学34'));assert.ok((await page.locator('main').textContent()).includes('复数'));
- const chapters=['物理3','物理4','化学3','化学4','生物1','生物2'],sizes=[{width:320,height:800},{width:390,height:844},{width:1280,height:900}];let inspected=0;
+ const chapters=['物理3','物理4','化学3','化学4','化学5','化学6','生物1','生物2','生物3'],sizes=[{width:320,height:800},{width:390,height:844},{width:1280,height:900}];let inspected=0;
  for(const size of sizes){await page.setViewportSize(size);for(const key of chapters){await page.goto(base+'#lesson='+encodeURIComponent(key));await page.waitForSelector('[data-module]');
  const n=await page.locator('.lesson-section').count();assert.ok(n>0);assert.equal(await page.locator('[data-module]').count(),n*12);
  await page.locator('figure img').evaluateAll(imgs=>Promise.all(imgs.map(i=>{i.loading='eager';return i.decode().catch(()=>{})})));assert.equal(await page.locator('figure img').evaluateAll(imgs=>imgs.filter(i=>!i.complete||i.naturalWidth===0).length),0);
@@ -43,5 +43,5 @@ const assert=require('node:assert/strict'),fs=require('node:fs');const shots=pro
  await page.locator('#imp').setInputFiles({name:'progress.json',mimeType:'application/json',buffer:Buffer.from(backup)});await page.waitForTimeout(150);saved=await page.evaluate(()=>JSON.parse(localStorage.getItem('uec27')));assert.deepEqual(saved,exported);
  await page.emulateMedia({colorScheme:'dark'});await page.goto(base+'#lesson='+encodeURIComponent('生物2'));await page.screenshot({path:shots+'/biology-dark.png'});
  assert.deepEqual(errors,[]);assert.deepEqual(requests,[]);
- const result={result:'pass',viewport_chapter_checks:inspected,viewports:sizes,checks:['旧数据无损保留','两个数学科目独立记录并刷新','旧数学无强制分配','本科错题隔离和两次正确掌握','科目题库筛选与跨科搜索','直接URL和旧章链接','41节×12模块DOM','全部所用图可加载','长笔记/公式/图示无页面溢出','小节检测存储','完整解析展开','原有章掌握度及学习存储','日历改期存储','导出/导入全部数据往返','暗色页面截图'],console_errors:errors,local_http_errors:requests};fs.writeFileSync('reports/BROWSER_RESULTS.json',JSON.stringify(result,null,2)+'\n');console.log('PASS browser regression and migration; '+inspected+' viewport/chapter checks.');await browser.close();
+ const result={result:'pass',viewport_chapter_checks:inspected,viewports:sizes,checks:['旧数据无损保留','两个数学科目独立记录并刷新','旧数学无强制分配','本科错题隔离和两次正确掌握','科目题库筛选与跨科搜索','直接URL和旧章链接','58节×12模块DOM','全部所用图可加载','长笔记/公式/图示无页面溢出','小节检测存储','完整解析展开','原有章掌握度及学习存储','日历改期存储','导出/导入全部数据往返','暗色页面截图'],console_errors:errors,local_http_errors:requests};fs.writeFileSync('reports/BROWSER_RESULTS.json',JSON.stringify(result,null,2)+'\n');console.log('PASS browser regression and migration; '+inspected+' viewport/chapter checks.');await browser.close();
 })().catch(e=>{console.error(e);process.exit(1)});

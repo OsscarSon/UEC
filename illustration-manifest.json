@@ -1,20 +1,13 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "audit_date": "2026-11-18",
   "timezone": "Asia/Kuala_Lumpur",
   "repository": "https://github.com/OsscarSon/UEC",
   "pull_request": 1,
   "branch": "codex/uec-2027-batch-notes-math-split",
-  "audited_commit": "8b54cfed56bd10eedcf0387570a751bb3a34a89b",
-  "scope_note": "全面扫描116章/52真实小节；重点审核PR新增41节。每条是审查/制作要求，不代表已经制作。数学仅35条章级待确认计划，无伪造小节。",
-  "prohibited_this_round": [
-    "生成/重绘/修改任何图片",
-    "大规模新增或扩写笔记",
-    "创建新PR",
-    "合并",
-    "部署"
-  ],
-  "production_performed": false,
+  "audited_commit": "daa36377c98508764780831e82d4ecbb06c27e69",
+  "scope_note": "本轮116章、58真实小节，新增化学6的6个有证据小节；209图记录，114制作Brief、35数学冻结、60保留。笔记与确定性SVG已有实际修改，不把旧审查快照当当前验收。",
+  "production_performed": true,
   "category_definitions": {
     "precise_scientific_svg": "计量、向量、原子账本、定量图等精确科学SVG",
     "structure_schematic": "结构、机制、概念关系示意；含已有HTML/CSS图",
@@ -467,10 +460,17 @@
         "chapter_title": "元素周期表",
         "volume": "上册",
         "curriculum_index": 32,
-        "section_ids": [],
-        "section_count": 0,
-        "lesson_path": null,
-        "status": "no_real_sections_no_invented_ids"
+        "section_ids": [
+          "6.1.1",
+          "6.1.2",
+          "6.2",
+          "6.3.1",
+          "6.3.2",
+          "6.3.3"
+        ],
+        "section_count": 6,
+        "lesson_path": "lessons/chem06.js",
+        "status": "real_sections_added_with_directory_evidence"
       },
       {
         "subject": "化学",
@@ -1501,7 +1501,8 @@
         "lesson_path": "lessons/phys03.js",
         "batch_note_path": "data/notes/phys03.json",
         "in_41_section_batch": true,
-        "existing_svg_paths": []
+        "existing_svg_paths": [],
+        "in_current_batch": true
       },
       {
         "subject": "物理",
@@ -1515,7 +1516,8 @@
         "in_41_section_batch": true,
         "existing_svg_paths": [
           "assets/fig/p3_2.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "物理",
@@ -1529,7 +1531,8 @@
         "in_41_section_batch": true,
         "existing_svg_paths": [
           "assets/fig/p3_3.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "物理",
@@ -1541,7 +1544,8 @@
         "lesson_path": "lessons/phys03.js",
         "batch_note_path": "data/notes/phys03.json",
         "in_41_section_batch": true,
-        "existing_svg_paths": []
+        "existing_svg_paths": [],
+        "in_current_batch": true
       },
       {
         "subject": "物理",
@@ -1556,7 +1560,8 @@
         "existing_svg_paths": [
           "assets/fig/p3_5a.svg",
           "assets/fig/p3_5b.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "物理",
@@ -1570,7 +1575,8 @@
         "in_41_section_batch": true,
         "existing_svg_paths": [
           "assets/fig/p3_6.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "物理",
@@ -1584,7 +1590,8 @@
         "in_41_section_batch": true,
         "existing_svg_paths": [
           "assets/fig/p3_7.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "物理",
@@ -1598,7 +1605,8 @@
         "in_41_section_batch": true,
         "existing_svg_paths": [
           "assets/fig/p3_8.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "物理",
@@ -1612,7 +1620,8 @@
         "in_41_section_batch": true,
         "existing_svg_paths": [
           "assets/fig/p3_9.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "物理",
@@ -1624,7 +1633,8 @@
         "lesson_path": "lessons/phys04.js",
         "batch_note_path": "data/notes/phys04.json",
         "in_41_section_batch": true,
-        "existing_svg_paths": []
+        "existing_svg_paths": [],
+        "in_current_batch": true
       },
       {
         "subject": "物理",
@@ -1638,7 +1648,8 @@
         "in_41_section_batch": true,
         "existing_svg_paths": [
           "assets/fig/p4_2.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "物理",
@@ -1653,7 +1664,8 @@
         "existing_svg_paths": [
           "assets/fig/p4_3a.svg",
           "assets/fig/p4_3b.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "物理",
@@ -1665,7 +1677,8 @@
         "lesson_path": "lessons/phys04.js",
         "batch_note_path": "data/notes/phys04.json",
         "in_41_section_batch": true,
-        "existing_svg_paths": []
+        "existing_svg_paths": [],
+        "in_current_batch": true
       },
       {
         "subject": "物理",
@@ -1677,7 +1690,8 @@
         "lesson_path": "lessons/phys04.js",
         "batch_note_path": "data/notes/phys04.json",
         "in_41_section_batch": true,
-        "existing_svg_paths": []
+        "existing_svg_paths": [],
+        "in_current_batch": true
       },
       {
         "subject": "物理",
@@ -1691,7 +1705,8 @@
         "in_41_section_batch": true,
         "existing_svg_paths": [
           "assets/fig/p4_6.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "物理",
@@ -1706,7 +1721,8 @@
         "existing_svg_paths": [
           "assets/fig/p4_7a.svg",
           "assets/fig/p4_7b.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "物理",
@@ -1720,7 +1736,8 @@
         "in_41_section_batch": true,
         "existing_svg_paths": [
           "assets/fig/p4_8.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "化学",
@@ -1734,7 +1751,8 @@
         "in_41_section_batch": true,
         "existing_svg_paths": [
           "assets/fig/c3_1.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "化学",
@@ -1748,7 +1766,8 @@
         "in_41_section_batch": true,
         "existing_svg_paths": [
           "assets/fig/c3_2.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "化学",
@@ -1762,7 +1781,8 @@
         "in_41_section_batch": true,
         "existing_svg_paths": [
           "assets/fig/c3_3.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "化学",
@@ -1774,7 +1794,8 @@
         "lesson_path": "lessons/chem03.js",
         "batch_note_path": "data/notes/chem03.json",
         "in_41_section_batch": true,
-        "existing_svg_paths": []
+        "existing_svg_paths": [],
+        "in_current_batch": true
       },
       {
         "subject": "化学",
@@ -1788,7 +1809,8 @@
         "in_41_section_batch": true,
         "existing_svg_paths": [
           "assets/fig/c3_5.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "化学",
@@ -1802,7 +1824,8 @@
         "in_41_section_batch": true,
         "existing_svg_paths": [
           "assets/fig/c3_6.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "化学",
@@ -1816,7 +1839,8 @@
         "in_41_section_batch": true,
         "existing_svg_paths": [
           "assets/fig/c4_1.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "化学",
@@ -1830,7 +1854,8 @@
         "in_41_section_batch": true,
         "existing_svg_paths": [
           "assets/fig/c4_2.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "化学",
@@ -1844,7 +1869,8 @@
         "in_41_section_batch": true,
         "existing_svg_paths": [
           "assets/fig/c4_3.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "化学",
@@ -1858,7 +1884,8 @@
         "in_41_section_batch": true,
         "existing_svg_paths": [
           "assets/fig/c4_4.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "化学",
@@ -1870,7 +1897,8 @@
         "lesson_path": "lessons/chem04.js",
         "batch_note_path": "data/notes/chem04.json",
         "in_41_section_batch": true,
-        "existing_svg_paths": []
+        "existing_svg_paths": [],
+        "in_current_batch": true
       },
       {
         "subject": "化学",
@@ -1884,7 +1912,8 @@
         "in_41_section_batch": true,
         "existing_svg_paths": [
           "assets/fig/c4_5.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "化学",
@@ -1896,7 +1925,8 @@
         "lesson_path": "lessons/chem04.js",
         "batch_note_path": "data/notes/chem04.json",
         "in_41_section_batch": true,
-        "existing_svg_paths": []
+        "existing_svg_paths": [],
+        "in_current_batch": true
       },
       {
         "subject": "化学",
@@ -1911,7 +1941,8 @@
         "existing_svg_paths": [
           "assets/fig/c5_1a.svg",
           "assets/fig/c5_1b.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "化学",
@@ -1926,7 +1957,8 @@
         "existing_svg_paths": [
           "assets/fig/c5_2a.svg",
           "assets/fig/c5_2b.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "化学",
@@ -1941,7 +1973,8 @@
         "existing_svg_paths": [
           "assets/fig/c5_3a.svg",
           "assets/fig/c5_3b.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "化学",
@@ -1958,7 +1991,164 @@
           "assets/fig/c5_4b.svg",
           "assets/fig/c5_4c.svg",
           "assets/fig/c5_4d.svg"
-        ]
+        ],
+        "in_current_batch": true
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 6,
+        "chapter_title": "元素周期表",
+        "section_id": "6.1.1",
+        "section_title": "不同的元素组合",
+        "lesson_path": "lessons/chem06.js",
+        "batch_note_path": "data/notes/chem06.json",
+        "in_41_section_batch": false,
+        "in_current_batch": true,
+        "existing_svg_paths": [],
+        "evidence": {
+          "subject": "化学",
+          "chapter_id": 6,
+          "section_id": "6.1.1",
+          "section_title": "不同的元素组合",
+          "source_url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+          "page": 2,
+          "locator": "第6章 元素周期表",
+          "source_type": "official_curriculum_content_table",
+          "verification_status": "partially_verified",
+          "scope": "小节身份依据，不代表2027官方评分或已确认兴华版本",
+          "access_date": "2026-11-18"
+        }
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 6,
+        "chapter_title": "元素周期表",
+        "section_id": "6.1.2",
+        "section_title": "门捷列夫与元素周期表",
+        "lesson_path": "lessons/chem06.js",
+        "batch_note_path": "data/notes/chem06.json",
+        "in_41_section_batch": false,
+        "in_current_batch": true,
+        "existing_svg_paths": [],
+        "evidence": {
+          "subject": "化学",
+          "chapter_id": 6,
+          "section_id": "6.1.2",
+          "section_title": "门捷列夫与元素周期表",
+          "source_url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+          "page": 2,
+          "locator": "第6章 元素周期表",
+          "source_type": "official_curriculum_content_table",
+          "verification_status": "partially_verified",
+          "scope": "小节身份依据，不代表2027官方评分或已确认兴华版本",
+          "access_date": "2026-11-18"
+        }
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 6,
+        "chapter_title": "元素周期表",
+        "section_id": "6.2",
+        "section_title": "元素周期表的结构",
+        "lesson_path": "lessons/chem06.js",
+        "batch_note_path": "data/notes/chem06.json",
+        "in_41_section_batch": false,
+        "in_current_batch": true,
+        "existing_svg_paths": [],
+        "evidence": {
+          "subject": "化学",
+          "chapter_id": 6,
+          "section_id": "6.2",
+          "section_title": "元素周期表的结构",
+          "source_url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+          "page": 2,
+          "locator": "第6章 元素周期表",
+          "source_type": "official_curriculum_content_table",
+          "verification_status": "partially_verified",
+          "scope": "小节身份依据，不代表2027官方评分或已确认兴华版本",
+          "access_date": "2026-11-18"
+        }
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 6,
+        "chapter_title": "元素周期表",
+        "section_id": "6.3.1",
+        "section_title": "元素周期律",
+        "lesson_path": "lessons/chem06.js",
+        "batch_note_path": "data/notes/chem06.json",
+        "in_41_section_batch": false,
+        "in_current_batch": true,
+        "existing_svg_paths": [],
+        "evidence": {
+          "subject": "化学",
+          "chapter_id": 6,
+          "section_id": "6.3.1",
+          "section_title": "元素周期律",
+          "source_url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+          "page": 2,
+          "locator": "第6章 元素周期表",
+          "source_type": "official_curriculum_content_table",
+          "verification_status": "partially_verified",
+          "scope": "小节身份依据，不代表2027官方评分或已确认兴华版本",
+          "access_date": "2026-11-18"
+        }
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 6,
+        "chapter_title": "元素周期表",
+        "section_id": "6.3.2",
+        "section_title": "原子的电子层结构与元素的分区",
+        "lesson_path": "lessons/chem06.js",
+        "batch_note_path": "data/notes/chem06.json",
+        "in_41_section_batch": false,
+        "in_current_batch": true,
+        "existing_svg_paths": [],
+        "evidence": {
+          "subject": "化学",
+          "chapter_id": 6,
+          "section_id": "6.3.2",
+          "section_title": "原子的电子层结构与元素的分区",
+          "source_url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+          "page": 2,
+          "locator": "第6章 元素周期表",
+          "source_type": "official_curriculum_content_table",
+          "verification_status": "partially_verified",
+          "scope": "小节身份依据，不代表2027官方评分或已确认兴华版本",
+          "access_date": "2026-11-18"
+        }
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 6,
+        "chapter_title": "元素周期表",
+        "section_id": "6.3.3",
+        "section_title": "元素基本性质的周期性变化规律",
+        "lesson_path": "lessons/chem06.js",
+        "batch_note_path": "data/notes/chem06.json",
+        "in_41_section_batch": false,
+        "in_current_batch": true,
+        "existing_svg_paths": [],
+        "evidence": {
+          "subject": "化学",
+          "chapter_id": 6,
+          "section_id": "6.3.3",
+          "section_title": "元素基本性质的周期性变化规律",
+          "source_url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+          "page": 2,
+          "locator": "第6章 元素周期表",
+          "source_type": "official_curriculum_content_table",
+          "verification_status": "partially_verified",
+          "scope": "小节身份依据，不代表2027官方评分或已确认兴华版本",
+          "access_date": "2026-11-18"
+        }
       },
       {
         "subject": "生物",
@@ -1972,7 +2162,8 @@
         "in_41_section_batch": true,
         "existing_svg_paths": [
           "assets/fig/b1_1.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "生物",
@@ -1984,7 +2175,8 @@
         "lesson_path": "lessons/bio01.js",
         "batch_note_path": "data/notes/bio01.json",
         "in_41_section_batch": true,
-        "existing_svg_paths": []
+        "existing_svg_paths": [],
+        "in_current_batch": true
       },
       {
         "subject": "生物",
@@ -1999,7 +2191,8 @@
         "existing_svg_paths": [
           "assets/fig/b1_3a.svg",
           "assets/fig/b1_3b.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "生物",
@@ -2014,7 +2207,8 @@
         "existing_svg_paths": [
           "assets/fig/b1_4a.svg",
           "assets/fig/b1_4b.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "生物",
@@ -2029,7 +2223,8 @@
         "existing_svg_paths": [
           "assets/fig/b1_5a.svg",
           "assets/fig/b1_5b.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "生物",
@@ -2045,7 +2240,8 @@
           "assets/fig/b1_6a.svg",
           "assets/fig/b1_6b.svg",
           "assets/fig/b1_sum.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "生物",
@@ -2059,7 +2255,8 @@
         "in_41_section_batch": true,
         "existing_svg_paths": [
           "assets/fig/b2_1.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "生物",
@@ -2074,7 +2271,8 @@
         "existing_svg_paths": [
           "assets/fig/b2_2a.svg",
           "assets/fig/b2_2b.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "生物",
@@ -2090,7 +2288,8 @@
           "assets/fig/b2_3a.svg",
           "assets/fig/b2_3b.svg",
           "assets/fig/b2_3c.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "生物",
@@ -2104,7 +2303,8 @@
         "in_41_section_batch": true,
         "existing_svg_paths": [
           "assets/fig/b2_4.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "生物",
@@ -2118,7 +2318,8 @@
         "in_41_section_batch": true,
         "existing_svg_paths": [
           "assets/fig/b2_5.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "生物",
@@ -2133,7 +2334,8 @@
         "existing_svg_paths": [
           "assets/fig/b3_1a.svg",
           "assets/fig/b3_1b.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "生物",
@@ -2151,7 +2353,8 @@
           "assets/fig/b3_2c.svg",
           "assets/fig/b3_2d.svg",
           "assets/fig/b3_2e.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "生物",
@@ -2165,7 +2368,8 @@
         "in_41_section_batch": false,
         "existing_svg_paths": [
           "assets/fig/b3_3.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "生物",
@@ -2179,7 +2383,8 @@
         "in_41_section_batch": false,
         "existing_svg_paths": [
           "assets/fig/b3_4.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "生物",
@@ -2194,7 +2399,8 @@
         "existing_svg_paths": [
           "assets/fig/b3_5a.svg",
           "assets/fig/b3_5b.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "生物",
@@ -2212,7 +2418,8 @@
           "assets/fig/b3_6c.svg",
           "assets/fig/b3_6d.svg",
           "assets/fig/b3_6e.svg"
-        ]
+        ],
+        "in_current_batch": true
       },
       {
         "subject": "生物",
@@ -2229,7 +2436,8 @@
           "assets/fig/b3_7b.svg",
           "assets/fig/b3_7c.svg",
           "assets/fig/b3_sum.svg"
-        ]
+        ],
+        "in_current_batch": true
       }
     ],
     "independent_math_subjects": [
@@ -2259,7 +2467,7 @@
       "reports/sections_before.csv",
       "reports/math_subject_mapping.csv"
     ],
-    "non_section_sources_note": "ext_*.js仅为原章的附加题，无新增sections；tools中的生成源不另算课程小节。73个未有真实小节的理化生章先记录阻碍，不补画虚构章节内容。"
+    "non_section_sources_note": "ext文件为原章附加题；生成器不另计课程。当前72个科学章仍无落地真实小节，35个数学旧章归属与教材目录待核，不据标准学习结果伪造小节。"
   },
   "scientific_source_register": [
     {
@@ -2701,6 +2909,34 @@
       "evidence_scope": "science",
       "access_date": "2026-11-18",
       "notes": "本轮访问相关正文核对原则；不复制原图或指定题例，不代表2027考试范围或整课审定。"
+    },
+    {
+      "id": "dz_chem_content_table",
+      "title": "董总公开高中化学课程内容跨学科表",
+      "url_or_file": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+      "locator": "PDF第2页第6章；页3第7–8章可作后续研究候选",
+      "verification_status": "partially_verified",
+      "evidence_scope": "小节身份，不是整本教材全文或2027适用确认",
+      "access_date": "2026-11-18"
+    },
+    {
+      "id": "os_periodic",
+      "title": "OpenStax Chemistry 2e periodic variations",
+      "url_or_file": "https://openstax.org/books/chemistry-2e/pages/6-5-periodic-variations-in-element-properties",
+      "locator": "电子结构、半径、电离能定义与趋势",
+      "verification_status": "partially_verified",
+      "evidence_scope": "科学原则，非考试频率",
+      "access_date": "2026-11-18"
+    },
+    {
+      "id": "dz_adv_math_standard_jan2026",
+      "title": "高级数学课程标准，2026年1月第二次修改",
+      "url_or_file": "https://elearning.dongzong.my/pluginfile.php/73029/mod_resource/content/4/高级数学课程标准中文版%20Jan2026.pdf",
+      "locator": "PDF12–20内容标准表相关主题；并非学校教材目录",
+      "verification_status": "partially_verified",
+      "evidence_scope": "官方课程主题/学习结果证据，不确认I/II逐章归属",
+      "access_date": "2026-11-18",
+      "notes": "与旧35章的相关主题可对照研究；学习结果编号不能冒充实际教材小节，仍不迁移。"
     }
   ],
   "protected_file_hashes": {
@@ -2782,31 +3018,7 @@
     "assets/icon.png": "be4559950332f81a135e411a2fbc152a0e23f409f3b99a5c3cae53736afdeb0c",
     "assets/mastery.webp": "1425084017e046444d7d74e257f4dbde612f622bb14459827030c60813bce01c",
     "assets/math.webp": "5d1e6e3bd3f1af55c78bfd7532ed475445bfa50f052639102917ff102f469333",
-    "assets/physics.webp": "7c9df350b51d197b560eabc404db9a4d1762877cef36704cd7c5eb56fc16074a",
-    "batch-notes.css": "80b444f5cb65f752494ec312c1ef26791774d90a5b72e44b7564573d4c27c1a6",
-    "batch-ui.js": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
-    "data/curriculum.json": "47de4f35b27c7416b90cf724539de7e4cde9f7fde44be888587ccb973f4569cd",
-    "data/notes/README.md": "4566e3d49cafb6e33152a542f30c38a872d710d4058163250ef213449858eb53",
-    "data/notes/bio01.json": "eb40f9773cf3b99880722fda8800383a88cc0b3620c2d71e34d0bd5e4f063c8e",
-    "data/notes/bio02.json": "af125ff044890219d4a9f0085257fe99290795b039dcbf3a70f5d3336ccb0e51",
-    "data/notes/chem03.json": "c39cb3c6324036c92e9afd91e83cf070bcd821d3d2f831796a7a441deeea120a",
-    "data/notes/chem04.json": "5bbafdbca06d1d682db27eb432973638c10705060a6e97e6d9aa2d2a6be3793e",
-    "data/notes/phys03.json": "aa8be14de67f53fbcfa7daec2ca0de6737b642c5ef6b4ba6f6290a022d1b5700",
-    "data/notes/phys04.json": "848102091422e54f6911c7dc93c63f6927126590994a70201676f196ee54000a",
-    "data/subjects.js": "3ea039c5ce63f35da1d0cf2563af5819a0bfb3307e5d4a33524fc7dce389a88a",
-    "index.html": "77b841ae72b1fb5c96a51279721a984234223a4f4d1eaab91a0035543f818afb",
-    "lessons/batch-notes.js": "df5d7221ee1b52d7c1379b6eb555a4ce5a76134d8f54fba8f47d925d38c53df6",
-    "lessons/bio01.js": "c160d8863280937107c62f485d610922ac7a5b30bb0b4e89afb10e7bf2cac0c3",
-    "lessons/bio02.js": "d2005c66df0404a8ac8432921018bb722b112be6cf7ad6abfd63e131f474806a",
-    "lessons/bio03.js": "947ba8cfd0ac7d0f51a67d99a2e80ee98d63fc4bde3920b31d5af719f0b1440d",
-    "lessons/chem03.js": "414ec5cba267868b4b602c57e22cbc9811d42ee60916d16995f59d6c926a265d",
-    "lessons/chem04.js": "82d029bc3f587eb17ecf45f883ded42498240b82978a38ef1eaade2d12fb503b",
-    "lessons/chem05.js": "3c5a5f8f039ea1cb2dbcb35f3e98abd842809ffc5f51263cd2017fda8edfbfaf",
-    "lessons/ext_bio.js": "52f14371f684d1949ab318b3bc6445bf8ea684bda17f589c725ba4cb953e274c",
-    "lessons/ext_chem.js": "a6d0f7d48cf58a3a0e6fd0609ab5fd5d6dd42721577f26149d179fb000e86413",
-    "lessons/ext_phys.js": "b340a544b18b2185dc047714f5ab2d91b67b004916d5b9b07b5d88c0a917f36c",
-    "lessons/phys03.js": "99d5425d73407b3931043736f6f5b72cf67b5c9bbee1c54c4d871f7bd1dd5a5a",
-    "lessons/phys04.js": "eddb165e639930184bce46009e3879201f8600b027f1ec1291a86c472d01ca2e"
+    "assets/physics.webp": "7c9df350b51d197b560eabc404db9a4d1762877cef36704cd7c5eb56fc16074a"
   },
   "illustrations": [
     {
@@ -11949,8 +12161,8 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
-          "selector": "[id=\"unit-物理3-3.1-m3\"] .concept-flow",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "selector": "[id=\"unit-物理3-3.1-m3\"] .concept-branches",
           "current_nodes": [
             "研究对象",
             "比较尺寸与问题尺度",
@@ -11976,7 +12188,8 @@
         "颜色外再以线型/形状区分",
         "练习留空版须与解答标注版分开，且只取已有题设"
       ],
-      "output_path": null
+      "output_path": null,
+      "implementation_note": "已先改为带条件说明的分类概览，避免错误线性箭头；完整图重构仍列后续任务，不冒称新SVG已制作。"
     },
     {
       "id": "ILL-PLAN-PHY-3_1-01",
@@ -12133,8 +12346,8 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
-          "selector": "[id=\"unit-物理3-3.2-m3\"] .concept-flow",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "selector": "[id=\"unit-物理3-3.2-m3\"] .concept-branches",
           "current_nodes": [
             "参照物",
             "坐标原点与正方向",
@@ -12160,7 +12373,8 @@
         "颜色外再以线型/形状区分",
         "练习留空版须与解答标注版分开，且只取已有题设"
       ],
-      "output_path": null
+      "output_path": null,
+      "implementation_note": "已先改为带条件说明的分类概览，避免错误线性箭头；完整图重构仍列后续任务，不冒称新SVG已制作。"
     },
     {
       "id": "ILL-PLAN-PHY-3_2-01",
@@ -12316,7 +12530,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
           "selector": "[id=\"unit-物理3-3.3-m3\"] .concept-flow",
           "current_nodes": [
             "轨迹分段",
@@ -12500,7 +12714,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
           "selector": "[id=\"unit-物理3-3.4-m3\"] .concept-flow",
           "current_nodes": [
             "速度大小方向恒定",
@@ -12685,8 +12899,8 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
-          "selector": "[id=\"unit-物理3-3.5-m3\"] .concept-flow",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "selector": "[id=\"unit-物理3-3.5-m3\"] .concept-branches",
           "current_nodes": [
             "识别坐标轴",
             "s–t斜率",
@@ -12712,7 +12926,8 @@
         "颜色外再以线型/形状区分",
         "练习留空版须与解答标注版分开，且只取已有题设"
       ],
-      "output_path": null
+      "output_path": null,
+      "implementation_note": "已先改为带条件说明的分类概览，避免错误线性箭头；完整图重构仍列后续任务，不冒称新SVG已制作。"
     },
     {
       "id": "ILL-PLAN-PHY-3_5-01",
@@ -12873,8 +13088,8 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
-          "selector": "[id=\"unit-物理3-3.6-m3\"] .concept-flow",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "selector": "[id=\"unit-物理3-3.6-m3\"] .concept-branches",
           "current_nodes": [
             "选定时间区间",
             "总位移／总时间",
@@ -12900,7 +13115,8 @@
         "颜色外再以线型/形状区分",
         "练习留空版须与解答标注版分开，且只取已有题设"
       ],
-      "output_path": null
+      "output_path": null,
+      "implementation_note": "已先改为带条件说明的分类概览，避免错误线性箭头；完整图重构仍列后续任务，不冒称新SVG已制作。"
     },
     {
       "id": "ILL-PLAN-PHY-3_6-01",
@@ -13060,7 +13276,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
           "selector": "[id=\"unit-物理3-3.7-m3\"] .concept-flow",
           "current_nodes": [
             "初末速度矢量",
@@ -13246,7 +13462,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
           "selector": "[id=\"unit-物理3-3.8-m3\"] .concept-flow",
           "current_nodes": [
             "恒a",
@@ -13525,8 +13741,8 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
-          "selector": "[id=\"unit-物理3-3.9-m3\"] .concept-flow",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "selector": "[id=\"unit-物理3-3.9-m3\"] .concept-branches",
           "current_nodes": [
             "仅重力且近地",
             "a向下恒g",
@@ -13552,7 +13768,8 @@
         "颜色外再以线型/形状区分",
         "练习留空版须与解答标注版分开，且只取已有题设"
       ],
-      "output_path": null
+      "output_path": null,
+      "implementation_note": "已先改为带条件说明的分类概览，避免错误线性箭头；完整图重构仍列后续任务，不冒称新SVG已制作。"
     },
     {
       "id": "ILL-PLAN-PHY-3_9-01",
@@ -13805,7 +14022,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
           "selector": "[id=\"unit-物理4-4.1-m3\"] .concept-flow",
           "current_nodes": [
             "相互作用",
@@ -13992,7 +14209,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
           "selector": "[id=\"unit-物理4-4.2-m3\"] .concept-flow",
           "current_nodes": [
             "找重力",
@@ -14272,7 +14489,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
           "selector": "[id=\"unit-物理4-4.3-m3\"] .concept-flow",
           "current_nodes": [
             "选轴与角",
@@ -14458,8 +14675,8 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
-          "selector": "[id=\"unit-物理4-4.4-m3\"] .concept-flow",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "selector": "[id=\"unit-物理4-4.4-m3\"] .concept-branches",
           "current_nodes": [
             "减少阻力的证据",
             "理想无阻情境",
@@ -14485,7 +14702,8 @@
         "颜色外再以线型/形状区分",
         "练习留空版须与解答标注版分开，且只取已有题设"
       ],
-      "output_path": null
+      "output_path": null,
+      "implementation_note": "已先改为带条件说明的分类概览，避免错误线性箭头；完整图重构仍列后续任务，不冒称新SVG已制作。"
     },
     {
       "id": "ILL-PLAN-PHY-4_4-01",
@@ -14600,13 +14818,20 @@
       ],
       "drawing_requirements": [
         "分开惯性现象解释链和同F比较m/a的测量链；质量与重量是不同分支，速度不指向惯性大小。",
-        "关系标签应写因果、条件、分类或计算步骤；不同关系不混用同一种无说明箭头。"
+        "关系标签应写因果、条件、分类或计算步骤；不同关系不混用同一种无说明箭头。",
+        "同合力跨地点比较用本节新进阶条件：总质量60kg、水平净力12N、初静止持续2.0s；两地末速均0.400m/s。g为10与1.6m/s²时重量600与96N，但惯性质量不变。"
       ],
       "required_labels": [
         "原运动状态",
         "外力改变部分运动",
         "其余部分保持趋势",
-        "质量量度抗变化"
+        "质量量度抗变化",
+        "60kg",
+        "12N",
+        "2.0s",
+        "0.400m/s",
+        "g=10/1.6m·s⁻²",
+        "W=600/96N"
       ],
       "scientific_basis": [
         {
@@ -14643,8 +14868,8 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
-          "selector": "[id=\"unit-物理4-4.5-m3\"] .concept-flow",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "selector": "[id=\"unit-物理4-4.5-m3\"] .concept-branches",
           "current_nodes": [
             "原运动状态",
             "外力改变部分运动",
@@ -14670,7 +14895,8 @@
         "颜色外再以线型/形状区分",
         "练习留空版须与解答标注版分开，且只取已有题设"
       ],
-      "output_path": null
+      "output_path": null,
+      "implementation_note": "已先改为带条件说明的分类概览，避免错误线性箭头；完整图重构仍列后续任务，不冒称新SVG已制作。"
     },
     {
       "id": "ILL-PLAN-PHY-4_5-01",
@@ -14829,8 +15055,8 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
-          "selector": "[id=\"unit-物理4-4.6-m3\"] .concept-flow",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "selector": "[id=\"unit-物理4-4.6-m3\"] .concept-branches",
           "current_nodes": [
             "p＝mv",
             "末减初求Δp",
@@ -14856,7 +15082,8 @@
         "颜色外再以线型/形状区分",
         "练习留空版须与解答标注版分开，且只取已有题设"
       ],
-      "output_path": null
+      "output_path": null,
+      "implementation_note": "已先改为带条件说明的分类概览，避免错误线性箭头；完整图重构仍列后续任务，不冒称新SVG已制作。"
     },
     {
       "id": "ILL-PLAN-PHY-4_6-01",
@@ -15015,7 +15242,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
           "selector": "[id=\"unit-物理4-4.7-m3\"] .concept-flow",
           "current_nodes": [
             "选对象和系统",
@@ -15295,7 +15522,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
           "selector": "[id=\"unit-物理4-4.8-m3\"] .concept-flow",
           "current_nodes": [
             "明确A作用B",
@@ -15490,8 +15717,8 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
-          "selector": "[id=\"unit-化学3-3.1-m3\"] .concept-flow",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "selector": "[id=\"unit-化学3-3.1-m3\"] .concept-branches",
           "current_nodes": [
             "宏观质量守恒",
             "原子重排",
@@ -15517,7 +15744,8 @@
         "颜色外再以线型/形状区分",
         "练习留空版须与解答标注版分开，且只取已有题设"
       ],
-      "output_path": null
+      "output_path": null,
+      "implementation_note": "已先改为带条件说明的分类概览，避免错误线性箭头；完整图重构仍列后续任务，不冒称新SVG已制作。"
     },
     {
       "id": "ILL-PLAN-CHEM-3_1-01",
@@ -15691,8 +15919,8 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
-          "selector": "[id=\"unit-化学3-3.2-m3\"] .concept-flow",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "selector": "[id=\"unit-化学3-3.2-m3\"] .concept-branches",
           "current_nodes": [
             "系统边界",
             "质量守恒",
@@ -15718,7 +15946,8 @@
         "颜色外再以线型/形状区分",
         "练习留空版须与解答标注版分开，且只取已有题设"
       ],
-      "output_path": null
+      "output_path": null,
+      "implementation_note": "已先改为带条件说明的分类概览，避免错误线性箭头；完整图重构仍列后续任务，不冒称新SVG已制作。"
     },
     {
       "id": "ILL-PLAN-CHEM-3_2-01",
@@ -15888,8 +16117,8 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
-          "selector": "[id=\"unit-化学3-3.3-m3\"] .concept-flow",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "selector": "[id=\"unit-化学3-3.3-m3\"] .concept-branches",
           "current_nodes": [
             "质子中子电子",
             "质量单位u",
@@ -15915,7 +16144,8 @@
         "颜色外再以线型/形状区分",
         "练习留空版须与解答标注版分开，且只取已有题设"
       ],
-      "output_path": null
+      "output_path": null,
+      "implementation_note": "已先改为带条件说明的分类概览，避免错误线性箭头；完整图重构仍列后续任务，不冒称新SVG已制作。"
     },
     {
       "id": "ILL-PLAN-CHEM-3_3-01",
@@ -16182,7 +16412,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
           "selector": "[id=\"unit-化学3-3.4-m3\"] .concept-flow",
           "current_nodes": [
             "化学式表示对象",
@@ -16384,8 +16614,8 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
-          "selector": "[id=\"unit-化学3-3.5-m3\"] .concept-flow",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "selector": "[id=\"unit-化学3-3.5-m3\"] .concept-branches",
           "current_nodes": [
             "元素质量",
             "除Ar得原子数比",
@@ -16412,7 +16642,8 @@
         "颜色外再以线型/形状区分",
         "练习留空版须与解答标注版分开，且只取已有题设"
       ],
-      "output_path": null
+      "output_path": null,
+      "implementation_note": "已先改为带条件说明的分类概览，避免错误线性箭头；完整图重构仍列后续任务，不冒称新SVG已制作。"
     },
     {
       "id": "ILL-PLAN-CHEM-3_5-01",
@@ -16699,8 +16930,8 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
-          "selector": "[id=\"unit-化学3-3.6-m3\"] .concept-flow",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "selector": "[id=\"unit-化学3-3.6-m3\"] .concept-branches",
           "current_nodes": [
             "质量m÷M",
             "物质的量n",
@@ -16727,7 +16958,8 @@
         "颜色外再以线型/形状区分",
         "练习留空版须与解答标注版分开，且只取已有题设"
       ],
-      "output_path": null
+      "output_path": null,
+      "implementation_note": "已先改为带条件说明的分类概览，避免错误线性箭头；完整图重构仍列后续任务，不冒称新SVG已制作。"
     },
     {
       "id": "ILL-PLAN-CHEM-3_6-01",
@@ -17012,8 +17244,8 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
-          "selector": "[id=\"unit-化学4-4.1.1-m3\"] .concept-flow",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "selector": "[id=\"unit-化学4-4.1.1-m3\"] .concept-branches",
           "current_nodes": [
             "事实与条件",
             "反应物和生成物",
@@ -17039,7 +17271,8 @@
         "颜色外再以线型/形状区分",
         "练习留空版须与解答标注版分开，且只取已有题设"
       ],
-      "output_path": null
+      "output_path": null,
+      "implementation_note": "已先改为带条件说明的分类概览，避免错误线性箭头；完整图重构仍列后续任务，不冒称新SVG已制作。"
     },
     {
       "id": "ILL-PLAN-CHEM-4_1_1-01",
@@ -17209,8 +17442,8 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
-          "selector": "[id=\"unit-化学4-4.1.2-m3\"] .concept-flow",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "selector": "[id=\"unit-化学4-4.1.2-m3\"] .concept-branches",
           "current_nodes": [
             "确定分类标准",
             "检查反应特征",
@@ -17236,7 +17469,8 @@
         "颜色外再以线型/形状区分",
         "练习留空版须与解答标注版分开，且只取已有题设"
       ],
-      "output_path": null
+      "output_path": null,
+      "implementation_note": "已先改为带条件说明的分类概览，避免错误线性箭头；完整图重构仍列后续任务，不冒称新SVG已制作。"
     },
     {
       "id": "ILL-PLAN-CHEM-4_1_2-01",
@@ -17405,7 +17639,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
           "selector": "[id=\"unit-化学4-4.1.3-m3\"] .concept-flow",
           "current_nodes": [
             "固定正确化学式",
@@ -17602,7 +17836,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
           "selector": "[id=\"unit-化学4-4.2.1-m3\"] .concept-flow",
           "current_nodes": [
             "已知质量或体积",
@@ -17806,7 +18040,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
           "selector": "[id=\"unit-化学4-4.2.2-m3\"] .concept-flow",
           "current_nodes": [
             "总样品",
@@ -18013,7 +18247,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
           "selector": "[id=\"unit-化学4-4.2.3-m3\"] .concept-flow",
           "current_nodes": [
             "分别求初始mol",
@@ -18215,7 +18449,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
           "selector": "[id=\"unit-化学4-4.2.4-m3\"] .concept-flow",
           "current_nodes": [
             "有效投料",
@@ -18406,8 +18640,8 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
-          "selector": "[id=\"unit-生物1-1.1-m3\"] .concept-flow",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "selector": "[id=\"unit-生物1-1.1-m3\"] .concept-branches",
           "current_nodes": [
             "极性水分子",
             "分子间氢键",
@@ -18433,7 +18667,8 @@
         "颜色外再以线型/形状区分",
         "练习留空版须与解答标注版分开，且只取已有题设"
       ],
-      "output_path": null
+      "output_path": null,
+      "implementation_note": "已先改为带条件说明的分类概览，避免错误线性箭头；完整图重构仍列后续任务，不冒称新SVG已制作。"
     },
     {
       "id": "ILL-PLAN-BIO-1_1-01",
@@ -18596,8 +18831,8 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
-          "selector": "[id=\"unit-生物1-1.2-m3\"] .concept-flow",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "selector": "[id=\"unit-生物1-1.2-m3\"] .concept-branches",
           "current_nodes": [
             "离子或盐形式",
             "结构组分／调节作用",
@@ -18623,7 +18858,8 @@
         "颜色外再以线型/形状区分",
         "练习留空版须与解答标注版分开，且只取已有题设"
       ],
-      "output_path": null
+      "output_path": null,
+      "implementation_note": "已先改为带条件说明的分类概览，避免错误线性箭头；完整图重构仍列后续任务，不冒称新SVG已制作。"
     },
     {
       "id": "ILL-PLAN-BIO-1_2-01",
@@ -18788,8 +19024,8 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
-          "selector": "[id=\"unit-生物1-1.3-m3\"] .concept-flow",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "selector": "[id=\"unit-生物1-1.3-m3\"] .concept-branches",
           "current_nodes": [
             "单糖",
             "缩合成糖苷键",
@@ -18815,7 +19051,8 @@
         "颜色外再以线型/形状区分",
         "练习留空版须与解答标注版分开，且只取已有题设"
       ],
-      "output_path": null
+      "output_path": null,
+      "implementation_note": "已先改为带条件说明的分类概览，避免错误线性箭头；完整图重构仍列后续任务，不冒称新SVG已制作。"
     },
     {
       "id": "ILL-PLAN-BIO-1_3-01",
@@ -19067,8 +19304,8 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
-          "selector": "[id=\"unit-生物1-1.4-m3\"] .concept-flow",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "selector": "[id=\"unit-生物1-1.4-m3\"] .concept-branches",
           "current_nodes": [
             "脂质类型",
             "非极性或两亲性结构",
@@ -19094,7 +19331,8 @@
         "颜色外再以线型/形状区分",
         "练习留空版须与解答标注版分开，且只取已有题设"
       ],
-      "output_path": null
+      "output_path": null,
+      "implementation_note": "已先改为带条件说明的分类概览，避免错误线性箭头；完整图重构仍列后续任务，不冒称新SVG已制作。"
     },
     {
       "id": "ILL-PLAN-BIO-1_4-01",
@@ -19345,8 +19583,8 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
-          "selector": "[id=\"unit-生物1-1.5-m3\"] .concept-flow",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "selector": "[id=\"unit-生物1-1.5-m3\"] .concept-branches",
           "current_nodes": [
             "氨基酸序列",
             "局部结构",
@@ -19373,7 +19611,8 @@
         "颜色外再以线型/形状区分",
         "练习留空版须与解答标注版分开，且只取已有题设"
       ],
-      "output_path": null
+      "output_path": null,
+      "implementation_note": "已先改为带条件说明的分类概览，避免错误线性箭头；完整图重构仍列后续任务，不冒称新SVG已制作。"
     },
     {
       "id": "ILL-PLAN-BIO-1_5-01",
@@ -19628,8 +19867,8 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
-          "selector": "[id=\"unit-生物1-1.6-m3\"] .concept-flow",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "selector": "[id=\"unit-生物1-1.6-m3\"] .concept-branches",
           "current_nodes": [
             "核苷酸组成",
             "糖磷酸骨架",
@@ -19656,7 +19895,8 @@
         "颜色外再以线型/形状区分",
         "练习留空版须与解答标注版分开，且只取已有题设"
       ],
-      "output_path": null
+      "output_path": null,
+      "implementation_note": "已先改为带条件说明的分类概览，避免错误线性箭头；完整图重构仍列后续任务，不冒称新SVG已制作。"
     },
     {
       "id": "ILL-PLAN-BIO-1_6-01",
@@ -19920,8 +20160,8 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
-          "selector": "[id=\"unit-生物2-2.1-m3\"] .concept-flow",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "selector": "[id=\"unit-生物2-2.1-m3\"] .concept-branches",
           "current_nodes": [
             "细胞学说",
             "显微证据",
@@ -19948,7 +20188,8 @@
         "颜色外再以线型/形状区分",
         "练习留空版须与解答标注版分开，且只取已有题设"
       ],
-      "output_path": null
+      "output_path": null,
+      "implementation_note": "已先改为带条件说明的分类概览，避免错误线性箭头；完整图重构仍列后续任务，不冒称新SVG已制作。"
     },
     {
       "id": "ILL-PLAN-BIO-2_1-01",
@@ -20237,8 +20478,8 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
-          "selector": "[id=\"unit-生物2-2.2-m3\"] .concept-flow",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "selector": "[id=\"unit-生物2-2.2-m3\"] .concept-branches",
           "current_nodes": [
             "两亲磷脂双层",
             "疏水屏障与膜蛋白",
@@ -20264,7 +20505,8 @@
         "颜色外再以线型/形状区分",
         "练习留空版须与解答标注版分开，且只取已有题设"
       ],
-      "output_path": null
+      "output_path": null,
+      "implementation_note": "已先改为带条件说明的分类概览，避免错误线性箭头；完整图重构仍列后续任务，不冒称新SVG已制作。"
     },
     {
       "id": "ILL-PLAN-BIO-2_2-01",
@@ -20651,7 +20893,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
           "selector": "[id=\"unit-生物2-2.3-m3\"] .concept-flow",
           "current_nodes": [
             "核糖体合成",
@@ -20844,7 +21086,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
           "selector": "[id=\"unit-生物2-2.4-m3\"] .concept-flow",
           "current_nodes": [
             "DNA与染色质",
@@ -21041,8 +21283,8 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
-          "selector": "[id=\"unit-生物2-2.5-m3\"] .concept-flow",
+          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "selector": "[id=\"unit-生物2-2.5-m3\"] .concept-branches",
           "current_nodes": [
             "纤维素网络与基质",
             "壁的支持约束",
@@ -21068,7 +21310,8 @@
         "颜色外再以线型/形状区分",
         "练习留空版须与解答标注版分开，且只取已有题设"
       ],
-      "output_path": null
+      "output_path": null,
+      "implementation_note": "已先改为带条件说明的分类概览，避免错误线性箭头；完整图重构仍列后续任务，不冒称新SVG已制作。"
     },
     {
       "id": "ILL-MATH-C01-PENDING",
@@ -21115,6 +21358,11 @@
         {
           "source_id": "dz_adv_math_ii",
           "scope": "subject_identity_only_not_chapter_allocation",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
           "verification_status": "partially_verified"
         }
       ],
@@ -21208,6 +21456,11 @@
           "source_id": "dz_adv_math_ii",
           "scope": "subject_identity_only_not_chapter_allocation",
           "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
+          "verification_status": "partially_verified"
         }
       ],
       "source_anchors": [
@@ -21299,6 +21552,11 @@
         {
           "source_id": "dz_adv_math_ii",
           "scope": "subject_identity_only_not_chapter_allocation",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
           "verification_status": "partially_verified"
         }
       ],
@@ -21392,6 +21650,11 @@
           "source_id": "dz_adv_math_ii",
           "scope": "subject_identity_only_not_chapter_allocation",
           "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
+          "verification_status": "partially_verified"
         }
       ],
       "source_anchors": [
@@ -21483,6 +21746,11 @@
         {
           "source_id": "dz_adv_math_ii",
           "scope": "subject_identity_only_not_chapter_allocation",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
           "verification_status": "partially_verified"
         }
       ],
@@ -21576,6 +21844,11 @@
           "source_id": "dz_adv_math_ii",
           "scope": "subject_identity_only_not_chapter_allocation",
           "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
+          "verification_status": "partially_verified"
         }
       ],
       "source_anchors": [
@@ -21667,6 +21940,11 @@
         {
           "source_id": "dz_adv_math_ii",
           "scope": "subject_identity_only_not_chapter_allocation",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
           "verification_status": "partially_verified"
         }
       ],
@@ -21761,6 +22039,11 @@
           "source_id": "dz_adv_math_ii",
           "scope": "subject_identity_only_not_chapter_allocation",
           "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
+          "verification_status": "partially_verified"
         }
       ],
       "source_anchors": [
@@ -21852,6 +22135,11 @@
         {
           "source_id": "dz_adv_math_ii",
           "scope": "subject_identity_only_not_chapter_allocation",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
           "verification_status": "partially_verified"
         }
       ],
@@ -21945,6 +22233,11 @@
           "source_id": "dz_adv_math_ii",
           "scope": "subject_identity_only_not_chapter_allocation",
           "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
+          "verification_status": "partially_verified"
         }
       ],
       "source_anchors": [
@@ -22036,6 +22329,11 @@
         {
           "source_id": "dz_adv_math_ii",
           "scope": "subject_identity_only_not_chapter_allocation",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
           "verification_status": "partially_verified"
         }
       ],
@@ -22129,6 +22427,11 @@
           "source_id": "dz_adv_math_ii",
           "scope": "subject_identity_only_not_chapter_allocation",
           "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
+          "verification_status": "partially_verified"
         }
       ],
       "source_anchors": [
@@ -22220,6 +22523,11 @@
         {
           "source_id": "dz_adv_math_ii",
           "scope": "subject_identity_only_not_chapter_allocation",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
           "verification_status": "partially_verified"
         }
       ],
@@ -22313,6 +22621,11 @@
           "source_id": "dz_adv_math_ii",
           "scope": "subject_identity_only_not_chapter_allocation",
           "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
+          "verification_status": "partially_verified"
         }
       ],
       "source_anchors": [
@@ -22404,6 +22717,11 @@
         {
           "source_id": "dz_adv_math_ii",
           "scope": "subject_identity_only_not_chapter_allocation",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
           "verification_status": "partially_verified"
         }
       ],
@@ -22497,6 +22815,11 @@
           "source_id": "dz_adv_math_ii",
           "scope": "subject_identity_only_not_chapter_allocation",
           "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
+          "verification_status": "partially_verified"
         }
       ],
       "source_anchors": [
@@ -22588,6 +22911,11 @@
         {
           "source_id": "dz_adv_math_ii",
           "scope": "subject_identity_only_not_chapter_allocation",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
           "verification_status": "partially_verified"
         }
       ],
@@ -22681,6 +23009,11 @@
           "source_id": "dz_adv_math_ii",
           "scope": "subject_identity_only_not_chapter_allocation",
           "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
+          "verification_status": "partially_verified"
         }
       ],
       "source_anchors": [
@@ -22772,6 +23105,11 @@
         {
           "source_id": "dz_adv_math_ii",
           "scope": "subject_identity_only_not_chapter_allocation",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
           "verification_status": "partially_verified"
         }
       ],
@@ -22865,6 +23203,11 @@
           "source_id": "dz_adv_math_ii",
           "scope": "subject_identity_only_not_chapter_allocation",
           "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
+          "verification_status": "partially_verified"
         }
       ],
       "source_anchors": [
@@ -22956,6 +23299,11 @@
         {
           "source_id": "dz_adv_math_ii",
           "scope": "subject_identity_only_not_chapter_allocation",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
           "verification_status": "partially_verified"
         }
       ],
@@ -23049,6 +23397,11 @@
           "source_id": "dz_adv_math_ii",
           "scope": "subject_identity_only_not_chapter_allocation",
           "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
+          "verification_status": "partially_verified"
         }
       ],
       "source_anchors": [
@@ -23140,6 +23493,11 @@
         {
           "source_id": "dz_adv_math_ii",
           "scope": "subject_identity_only_not_chapter_allocation",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
           "verification_status": "partially_verified"
         }
       ],
@@ -23233,6 +23591,11 @@
           "source_id": "dz_adv_math_ii",
           "scope": "subject_identity_only_not_chapter_allocation",
           "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
+          "verification_status": "partially_verified"
         }
       ],
       "source_anchors": [
@@ -23324,6 +23687,11 @@
         {
           "source_id": "dz_adv_math_ii",
           "scope": "subject_identity_only_not_chapter_allocation",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
           "verification_status": "partially_verified"
         }
       ],
@@ -23417,6 +23785,11 @@
           "source_id": "dz_adv_math_ii",
           "scope": "subject_identity_only_not_chapter_allocation",
           "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
+          "verification_status": "partially_verified"
         }
       ],
       "source_anchors": [
@@ -23509,6 +23882,11 @@
         {
           "source_id": "dz_adv_math_ii",
           "scope": "subject_identity_only_not_chapter_allocation",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
           "verification_status": "partially_verified"
         }
       ],
@@ -23607,6 +23985,11 @@
           "source_id": "school",
           "scope": "p3_high_school_topic_only_not_subsections",
           "verification_status": "verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
+          "verification_status": "partially_verified"
         }
       ],
       "source_anchors": [
@@ -23704,6 +24087,11 @@
           "source_id": "school",
           "scope": "p3_high_school_topic_only_not_subsections",
           "verification_status": "verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
+          "verification_status": "partially_verified"
         }
       ],
       "source_anchors": [
@@ -23801,6 +24189,11 @@
           "source_id": "school",
           "scope": "p3_high_school_topic_only_not_subsections",
           "verification_status": "verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
+          "verification_status": "partially_verified"
         }
       ],
       "source_anchors": [
@@ -23898,6 +24291,11 @@
           "source_id": "school",
           "scope": "p3_high_school_topic_only_not_subsections",
           "verification_status": "verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
+          "verification_status": "partially_verified"
         }
       ],
       "source_anchors": [
@@ -23995,6 +24393,11 @@
           "source_id": "school",
           "scope": "p3_high_school_topic_only_not_subsections",
           "verification_status": "verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
+          "verification_status": "partially_verified"
         }
       ],
       "source_anchors": [
@@ -24092,6 +24495,11 @@
           "source_id": "school",
           "scope": "p3_high_school_topic_only_not_subsections",
           "verification_status": "verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
+          "verification_status": "partially_verified"
         }
       ],
       "source_anchors": [
@@ -24189,6 +24597,11 @@
           "source_id": "school",
           "scope": "p3_high_school_topic_only_not_subsections",
           "verification_status": "verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
+          "verification_status": "partially_verified"
         }
       ],
       "source_anchors": [
@@ -24286,6 +24699,11 @@
           "source_id": "school",
           "scope": "p3_high_school_topic_only_not_subsections",
           "verification_status": "verified"
+        },
+        {
+          "source_id": "dz_adv_math_standard_jan2026",
+          "scope": "相关章级主题，不是教材小节或科目归属",
+          "verification_status": "partially_verified"
         }
       ],
       "source_anchors": [
@@ -24330,6 +24748,487 @@
         "本轮必须section_id=null",
         "不将待确认计划计入真实课程或已完成图片"
       ],
+      "output_path": null
+    },
+    {
+      "id": "ILL-PLAN-CHEM-6_1_1-01",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 6,
+      "chapter_title": "元素周期表",
+      "section_id": "6.1.1",
+      "section_title": "不同的元素组合",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "三元素组数值检验与证据边界",
+      "teaching_purpose": "使本节的结构推理、数值账本和适用条件可直接检查。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "以教学数据7/23/39示范两端均值23；另示10/18/30中预测20、差−2",
+        "数值关系与性质相似的证据分层；不伪装历史实测值或宣布全部元素适用",
+        "把Li/Na/K作为共同+1价性质的例子，与无元素身份的教学三数检验明确分栏；历史近似值不写成现代精确测量"
+      ],
+      "required_labels": [
+        "7/23/39",
+        "(7+39)/2=23",
+        "10/18/30",
+        "观测−预测=−2",
+        "教学数据，非实测史料",
+        "Li/Na/K：常见+1价",
+        "数值证据≠全部性质证据"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "dz_chem_content_table",
+          "scope": "真实小节身份；不是2027适用锁定",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "os_periodic",
+          "scope": "电子结构/趋势；非历史精确值",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem06.js",
+          "selector": "sections[id=6.1.1]"
+        },
+        {
+          "path": "data/notes/chem06.json",
+          "json_pointer": "/6.1.1"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 800,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用已核基础符号和版式；本节专用图尚待制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null
+    },
+    {
+      "id": "ILL-PLAN-CHEM-6_1_2-01",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 6,
+      "chapter_title": "元素周期表",
+      "section_id": "6.1.2",
+      "section_title": "门捷列夫与元素周期表",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "历史质量排序与现代Z排序",
+      "teaching_purpose": "使本节的结构推理、数值账本和适用条件可直接检查。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "历史以质量和性质归纳、留空预测作为关系示意，不补猜具体年代或精确预测值",
+        "现代例A的Z18/Ar40、B的Z19/Ar39：A先；质量局部逆序不改Z排序"
+      ],
+      "required_labels": [
+        "历史：质量/性质归纳",
+        "预测→后续验证",
+        "现代：Z递增",
+        "Z18在Z19前",
+        "Ar不必逐个递增"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "dz_chem_content_table",
+          "scope": "真实小节身份；不是2027适用锁定",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "os_periodic",
+          "scope": "电子结构/趋势；非历史精确值",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem06.js",
+          "selector": "sections[id=6.1.2]"
+        },
+        {
+          "path": "data/notes/chem06.json",
+          "json_pointer": "/6.1.2"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 800,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用已核基础符号和版式；本节专用图尚待制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null
+    },
+    {
+      "id": "ILL-PLAN-CHEM-6_2-01",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 6,
+      "chapter_title": "元素周期表",
+      "section_id": "6.2",
+      "section_title": "元素周期表的结构",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "组态到周期与族的条件判断",
+      "teaching_purpose": "使本节的结构推理、数值账本和适用条件可直接检查。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "[Ne]3s²3p⁵为第3周期17族；最高n和价层电子数分两个判断分支",
+        "He的1s²位于18族，Na⁺与Ne等电子不改变Na中性3周期1族身份"
+      ],
+      "required_labels": [
+        "最高占据n=3",
+        "价层2+5=7",
+        "第3周期17族",
+        "He例外",
+        "Na⁺≠Ne元素"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "dz_chem_content_table",
+          "scope": "真实小节身份；不是2027适用锁定",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "os_periodic",
+          "scope": "电子结构/趋势；非历史精确值",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem06.js",
+          "selector": "sections[id=6.2]"
+        },
+        {
+          "path": "data/notes/chem06.json",
+          "json_pointer": "/6.2"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 800,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用已核基础符号和版式；本节专用图尚待制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null
+    },
+    {
+      "id": "ILL-PLAN-CHEM-6_3_1-01",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 6,
+      "chapter_title": "元素周期表",
+      "section_id": "6.3.1",
+      "section_title": "元素周期律",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "核吸引、屏蔽与距离的趋势关系",
+      "teaching_purpose": "使本节的结构推理、数值账本和适用条件可直接检查。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "同周期通常核有效吸引增强、原子半径减小；同族向下新增主层与屏蔽使半径常增大",
+        "只画定性示意，不造精确pm或kJ/mol；标相同半径定义与中性状态比较"
+      ],
+      "required_labels": [
+        "Z",
+        "有效核吸引",
+        "屏蔽",
+        "电子主层",
+        "通常趋势，局部例外"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "dz_chem_content_table",
+          "scope": "真实小节身份；不是2027适用锁定",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "os_periodic",
+          "scope": "电子结构/趋势；非历史精确值",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem06.js",
+          "selector": "sections[id=6.3.1]"
+        },
+        {
+          "path": "data/notes/chem06.json",
+          "json_pointer": "/6.3.1"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 800,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用已核基础符号和版式；本节专用图尚待制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null
+    },
+    {
+      "id": "ILL-PLAN-CHEM-6_3_2-01",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 6,
+      "chapter_title": "元素周期表",
+      "section_id": "6.3.2",
+      "section_title": "原子的电子层结构与元素的分区",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "s/p/d/f分区与容量",
+      "teaching_purpose": "使本节的结构推理、数值账本和适用条件可直接检查。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "轨域数1/3/5/7，各最多2e，容量2/6/10/14；分区与周期不得共用一个判断",
+        "[Ar]3d⁶4s²的最高n4而特征副层3d，属第4周期d区；He标组态与族位置的特殊性",
+        "最高占据n是主族常用捷径，不作全元素定义；注Pd基态[Kr]4d¹⁰仍是第5周期，周期以Z和实际表位核查"
+      ],
+      "required_labels": [
+        "s/p/d/f",
+        "轨域1/3/5/7",
+        "容量2/6/10/14",
+        "Fe：周期4，d区",
+        "He说明",
+        "主族捷径有适用条件",
+        "Pd：第5周期"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "dz_chem_content_table",
+          "scope": "真实小节身份；不是2027适用锁定",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "os_periodic",
+          "scope": "电子结构/趋势；非历史精确值",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem06.js",
+          "selector": "sections[id=6.3.2]"
+        },
+        {
+          "path": "data/notes/chem06.json",
+          "json_pointer": "/6.3.2"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 800,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用已核基础符号和版式；本节专用图尚待制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null
+    },
+    {
+      "id": "ILL-PLAN-CHEM-6_3_3-01",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 6,
+      "chapter_title": "元素周期表",
+      "section_id": "6.3.3",
+      "section_title": "元素基本性质的周期性变化规律",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "逐级电离跃升与等电子半径",
+      "teaching_purpose": "使本节的结构推理、数值账本和适用条件可直接检查。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "题给IE为600/1800/2700/11600kJ·mol⁻¹，第3后跃升支持主族3价电子，不画成4",
+        "Na⁺/Mg²⁺/Al³⁺均10e，Z11/12/13，半径定性Na⁺>Mg²⁺>Al³⁺；不造具体pm",
+        "独立第三面板对照X(g)→X⁺(g)+e⁻的IE、X(g)+e⁻→X⁻(g)的电子添加能量、键中吸引共享电子的电负性；电子亲和能两种符号约定明确区分，Pauling电负性不带kJ/mol",
+        "半径面板标相同半径定义的定性比较；电离能数据为原创题给，非实际某元素数据"
+      ],
+      "required_labels": [
+        "逐级IE/kJ·mol⁻¹",
+        "第3→4步跃升",
+        "主族价电子3",
+        "10电子",
+        "Na⁺>Mg²⁺>Al³⁺",
+        "X(g)→X⁺(g)+e⁻",
+        "X(g)+e⁻→X⁻(g)",
+        "电子亲和能：先定符号",
+        "电负性：键中共享电子",
+        "Pauling标度无单位"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "dz_chem_content_table",
+          "scope": "真实小节身份；不是2027适用锁定",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "os_periodic",
+          "scope": "电子结构/趋势；非历史精确值",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem06.js",
+          "selector": "sections[id=6.3.3]"
+        },
+        {
+          "path": "data/notes/chem06.json",
+          "json_pointer": "/6.3.3"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 1200,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用已核基础符号和版式；本节专用图尚待制作。"
+      },
+      "production_status": "brief_ready_not_produced",
       "output_path": null
     }
   ],
@@ -24594,59 +25493,149 @@
     }
   ],
   "statistics": {
-    "chapters_scanned": 116,
-    "actual_sections_scanned": 52,
-    "batch_sections_screened": 41,
-    "deep_semantic_spot_checks": 12,
-    "limited_structure_visual_screens": 29,
-    "module_visual_decisions": 492,
-    "teaching_review_and_plan_records": 203,
-    "existing_svg_records": 73,
-    "existing_svg_used_by_batch": 43,
-    "existing_inline_flow_records": 41,
-    "new_diagram_plans": 54,
-    "math_chapter_pending_plans": 35,
-    "non_instructional_UI_assets_separate": 6,
-    "image_files_created_modified_deleted": 0,
-    "note_or_application_files_modified": 0,
-    "formula_fragment_sections": 4,
-    "sections_requiring_local_expansion_or_goal_mapping": 41,
-    "chapters_without_real_sections": 108,
-    "science_chapters_without_real_sections": 73,
-    "actions_all_teaching_records": {
-      "retain": 60,
-      "correct": 32,
-      "redraw": 22,
-      "new": 54,
-      "defer_verification": 35
+    "teaching_records": 209,
+    "production_briefs": 114,
+    "retained_records": 60,
+    "blocked_math_plans": 35,
+    "new_chapter6_tasks": 6,
+    "briefs_by_subject": {
+      "物理": 32,
+      "化学": 36,
+      "生物": 46
     },
-    "actions_existing_svg": {
-      "retain": 43,
-      "correct": 24,
-      "redraw": 6
+    "briefs_by_priority": {
+      "P1": 101,
+      "P0": 10,
+      "P2": 3
     },
-    "actions_existing_inline": {
-      "redraw": 16,
-      "retain": 17,
-      "correct": 8
-    },
-    "categories_all_teaching_records": {
-      "precise_scientific_svg": 83,
-      "structure_schematic": 90,
-      "experimental_apparatus": 10,
-      "supporting_illustration": 1,
-      "math_function_plot": 19
-    },
-    "priority_all_teaching_records": {
-      "P2": 98,
-      "P1": 95,
-      "P0": 10
-    },
-    "by_subject_code": {
-      "physics": 53,
-      "chemistry": 49,
-      "biology": 66,
-      "math_pending": 35
-    }
-  }
+    "inline_relationship_tasks": 24,
+    "uploaded_images_reviewed": 6,
+    "uploaded_images_approved_limited": 3,
+    "uploaded_images_quarantined": 3,
+    "deterministic_summary_svgs": 11,
+    "ai_images_generated_this_round": 0
+  },
+  "historical_audit_commit": "8b54cfed56bd10eedcf0387570a751bb3a34a89b",
+  "historical_constraints": [
+    "生成/重绘/修改任何图片",
+    "大规模新增或扩写笔记",
+    "创建新PR",
+    "合并",
+    "部署"
+  ],
+  "prohibited_this_round": [
+    "AI直接生成教学图片",
+    "无依据新增教材编号",
+    "新建PR",
+    "合并",
+    "部署"
+  ],
+  "production_note": "本轮只新增11幅确定性关系/账本SVG；未调用AI生图；6张上传PNG另审。",
+  "historical_protected_file_hashes": {
+    "assets/biology.webp": "68f37c570a29e15816c9cb0edb041794c35834f84e3dc396157080c7c52e1df0",
+    "assets/chemistry.webp": "f5621a0ef7a3a55b26c7da635f1fc57b565154e8f15b13e0d08beaee16d14f04",
+    "assets/fig/b1_1.svg": "b011c2e82d2b8c97fc1567b28aaf1d8415fce2b2c99edfb57205dece08ecc82d",
+    "assets/fig/b1_3a.svg": "be9d9e722a69a57e16268533a34a93cb9a54f6c0f0c7dff51fec0a02422e96fd",
+    "assets/fig/b1_3b.svg": "ef2e3d958bf4d667e4d3ad04f89e7a78a2787338b56015d556479747b3d135d9",
+    "assets/fig/b1_4a.svg": "bebe87b17e73f098ffe1f20b1929299fe94a85f2a7810964f454ebd3d7e41042",
+    "assets/fig/b1_4b.svg": "a037a745801274472027b44de6ea6b3ce51a07a4061f2f3a60feb3b487c21173",
+    "assets/fig/b1_5a.svg": "ddb2529aa04a7271cc578552d3863cbdde8132d5250bde5b85acf78ea22d4d63",
+    "assets/fig/b1_5b.svg": "39437d8b0d1b6f1ce4b581e4d2065e36740180f6116a7f6d7221d27e169188fb",
+    "assets/fig/b1_6a.svg": "b5a19cf9e9e31ae5ffbb0f9921eaf604dc0aae2af75e7f3ab42ab846ffb79122",
+    "assets/fig/b1_6b.svg": "72ef6fa987709ddedce967a935a183be86066a9646f69cf55780922ae4e08eac",
+    "assets/fig/b1_sum.svg": "c2e3dc6eacf188d242aa53711028cd9a3cffb45d6a98f08679aab70b6d77f81d",
+    "assets/fig/b2_1.svg": "1bef6b4064574540e2103b88c6fda68c2c368632d88bbae83d75573f88e2db60",
+    "assets/fig/b2_2a.svg": "81a8a5830f5cfd7a6f737000817734532d8090091a5a5f36331f1589353c63ec",
+    "assets/fig/b2_2b.svg": "bdc4ea8d3e6bde229c68eafec2003640d527cbb2f2c655531a677447e121699b",
+    "assets/fig/b2_3a.svg": "c4ac4d3ba6a3221a34b1ad4a3e5ad8933019ac80ffad3337e242d589363050ec",
+    "assets/fig/b2_3b.svg": "63a5e13622a3efb199920ef6caef2bbb9dc4909b9901833fb5232edec5cc6021",
+    "assets/fig/b2_3c.svg": "cd15bc0fd6eab660be0a1e05fbd5bda10aff32dfc15d3118b5545a1607a3c4ee",
+    "assets/fig/b2_4.svg": "93b822da0a52df98b050bf9841d74a71495930cd5b1ea3819d27bd8dbef78118",
+    "assets/fig/b2_5.svg": "fd58e08d8e167db1b6ae647620c6c6a84dde4041f9b654170d3c650f97479b83",
+    "assets/fig/b3_1a.svg": "9572424aaccb466766812fcd64b8303faceef4b96d57041d9a5592694baa5548",
+    "assets/fig/b3_1b.svg": "0915226d806b7715496c8a162538d7c941333d83819a7eee32177e1e2c4b8d41",
+    "assets/fig/b3_2a.svg": "7b59490ea91758a38959077a0dc92b73b3f7253dd16ebf2d7729c892e07fab7c",
+    "assets/fig/b3_2b.svg": "f7277ccf76031790ccaa3fc1a4f073def61f03c8d86d582640e61903ceb57e73",
+    "assets/fig/b3_2c.svg": "475f36ec839898d2569ae7bad8f622df13778a62357dfa58f8273f9731cfc18b",
+    "assets/fig/b3_2d.svg": "5c97eb4bc719bba0a2037c914a79ef7f53a393f1194fe69f7ea7997a0abd1c99",
+    "assets/fig/b3_2e.svg": "001c330df644510c9316e2e74c2ad38db243e4f65515efe9d4c98c5e8b6c51ae",
+    "assets/fig/b3_3.svg": "878909389f4563538d82076601b80ab0bbf22eea34bcfe9f7964b30c76f903fe",
+    "assets/fig/b3_4.svg": "f0c9844319f4ca1d38a72a22fe2581099589d67a2053cf4087a9eb9ee7ea0c5b",
+    "assets/fig/b3_5a.svg": "dd5ef76f7e87af60b914f84541d8ef0dc24f1c6be37420566e069bd7e5546c1d",
+    "assets/fig/b3_5b.svg": "651f094a7e3d181384afd9b2b397986a65ec4df5573a39213eab2ed123a43358",
+    "assets/fig/b3_6a.svg": "dfdf08c5eac28384f92f576213fe4ee91a1302b75f241b3a3046b321d1c8319c",
+    "assets/fig/b3_6b.svg": "1dc6fb40cf063a2018c68dce075c3a25b9044f8e0add92ac07bfac24a7d25f9d",
+    "assets/fig/b3_6c.svg": "2cabffd39ed373dd12d44fe433c254d2504f08364871478ad8820319929ef482",
+    "assets/fig/b3_6d.svg": "35fdfbf77a29ffe307301ba0328765ee98386c5fed03847d1dcd0c3091ee2bde",
+    "assets/fig/b3_6e.svg": "4390c2925f2bd5092b071c4cab20255ae4b460fa7253261330e34a880d9ae04a",
+    "assets/fig/b3_7a.svg": "8a85a3439e21dfaaa88a82e40ae9de92a0f804c2b97800fa8aa1d72fe9e81f83",
+    "assets/fig/b3_7b.svg": "d918ef6bacfb44bd39626edf06ff3197f5c11fb37a5c30dbdab2c6f39f805a6a",
+    "assets/fig/b3_7c.svg": "c0e2a8ab106cbd73244efc85038280da7abef2b9e84d6c17f42c170ba3c8b8e5",
+    "assets/fig/b3_sum.svg": "35b6096eb5bd7485f219bdc449a3b8af893247fc6d8911dd2c2a58a4dd2dd997",
+    "assets/fig/c3_1.svg": "80e82854af755d74bdf9b6b948ded9d8f98775eb529fb7532accf2be9ac5c310",
+    "assets/fig/c3_2.svg": "e40bc21c3924b616f3b60f2ea0a2fe0e227ce9b1f0b759d27f9dfb9d96409cd7",
+    "assets/fig/c3_3.svg": "d5b24f9ef3032ed079f0526ccf62e390dacf64b6a434ff6c755b108eee82681f",
+    "assets/fig/c3_5.svg": "0bca372dc9fc583935b97db4aaaf7b0c37a5be3e5ff8071a1a9efb49165eb917",
+    "assets/fig/c3_6.svg": "1d9714ac13b15e934aeaefdd0150860be65d3a8b0426c6d722c91cdaaa77d72c",
+    "assets/fig/c4_1.svg": "8553194f70dba5a8ece5008fb181075e8c73ffdafb69c279505a07f4b3da9d75",
+    "assets/fig/c4_2.svg": "ef8f6d7f075d0593f233f895a7a498c05737994625236c01599cc547a8c8cf37",
+    "assets/fig/c4_3.svg": "69440e358a65064707fbd08022dc5a7a087bfb4207855e502406369a8be02450",
+    "assets/fig/c4_4.svg": "0f5af06e7a2280aada6bf98599e2c2e15ae361f7bc101c823319206ae79c336d",
+    "assets/fig/c4_5.svg": "0cf9f5e682cd0129ebdd727d2549e8db92a601de45a9f09940d1eaa75fab864f",
+    "assets/fig/c5_1a.svg": "aa0a417d51fd7b520563f80924a34c7798bfc110e0e4e01d948723792ee34cfe",
+    "assets/fig/c5_1b.svg": "81638ea017db02aee2fe265a83d49364d7e85e20ac2ecc4982de3b3823e3a002",
+    "assets/fig/c5_2a.svg": "9252f806ad93c0e07ceb03525e9a1b3cc7b2962e3b0162b03be4794730ee7f76",
+    "assets/fig/c5_2b.svg": "2e4298285c3591a019491bedbf63b406c6c92eaa54c389d4ae4b9dcf48f1afcf",
+    "assets/fig/c5_3a.svg": "4dc053bf43a3562bc1fdbb36ed60fcfd606df62c0af6b8a93f86adea3fb2060d",
+    "assets/fig/c5_3b.svg": "d9755822d2b5d0bee8d9fbd71fd7e615125c962c590f2196cc781289c21cdbe4",
+    "assets/fig/c5_4a.svg": "b20c4d2d344a6acb7d42b764190a0c2416462f64287f8dc8217f07bde8fa2f6d",
+    "assets/fig/c5_4b.svg": "153d1678969b32976512bad3a0f387679de3bb33b4dbc28d8b9d170413a07821",
+    "assets/fig/c5_4c.svg": "2a3b79680b9d9f80023ae5b7beb03da3a8c156707a8138c03315c569cc9b2d4b",
+    "assets/fig/c5_4d.svg": "e3f7424413fda682fac1512c9d6b361f8f6cffc744077b74a2653bd80e96aba2",
+    "assets/fig/p3_2.svg": "effac3406530aa66848b4279e45c333b9056b6ed9c27450d443b8faea4e2743f",
+    "assets/fig/p3_3.svg": "6497d21ee51c9886349fad8ea141784c9acdb387e90dbf4268a47e9dbfdbc63f",
+    "assets/fig/p3_5a.svg": "c00699201e5fd6e7f9ad4af88c86a08a634060458e9f8312d08c01a425c06263",
+    "assets/fig/p3_5b.svg": "d0584f7cabeeb1131d3d01c6f243d963aa07a504c8a0aea202b82c95ea50ce39",
+    "assets/fig/p3_6.svg": "6b455d05932115bf9d31c9ce7cbc514d15c0bbb827f5b679f483d5a64e175cff",
+    "assets/fig/p3_7.svg": "d78f40f3a4359c29a1ed491545a45b84c608d3ae9b515b4810a895d05ff5eff3",
+    "assets/fig/p3_8.svg": "3fde05e98104956c5f29c79f43857c845ba43b0ec6817bd3dc0a1fc7eb9391ff",
+    "assets/fig/p3_9.svg": "7161ed058afe9e22e7dc3dcb70e845e8323d31c9c2eda73ff32b225610a4a49b",
+    "assets/fig/p4_2.svg": "a2847a413a13502cb56e722ca90fb618c22358dfc969a16933c985db067ea50c",
+    "assets/fig/p4_3a.svg": "66414e8dd06223011a4c5c676cad453a23137ffdd01bc019b8f202e81ebeb8db",
+    "assets/fig/p4_3b.svg": "a9c1b2d6d6c000364fce0cbe50d3aac4f0cd6b256251e588305f81ce18264f3b",
+    "assets/fig/p4_6.svg": "8e6e77a7e285d6903fa385ea6dca924580a36fd2c7cef9385820998abc1f70d8",
+    "assets/fig/p4_7a.svg": "5d39afc78ad36dafdefcab801dca446bbe617c8d0638064bbf5ccd6a0cf178b4",
+    "assets/fig/p4_7b.svg": "6add609ace1fa3ba0872c0f10462cc64c9a5fb662b1ec8015f97a090b5293c2e",
+    "assets/fig/p4_8.svg": "44c4373f79149ec78869e79bb7febc257f1c9123b3cfb7474f3d0d0e3f2fc4a5",
+    "assets/icon.png": "be4559950332f81a135e411a2fbc152a0e23f409f3b99a5c3cae53736afdeb0c",
+    "assets/mastery.webp": "1425084017e046444d7d74e257f4dbde612f622bb14459827030c60813bce01c",
+    "assets/math.webp": "5d1e6e3bd3f1af55c78bfd7532ed475445bfa50f052639102917ff102f469333",
+    "assets/physics.webp": "7c9df350b51d197b560eabc404db9a4d1762877cef36704cd7c5eb56fc16074a",
+    "batch-notes.css": "80b444f5cb65f752494ec312c1ef26791774d90a5b72e44b7564573d4c27c1a6",
+    "batch-ui.js": "3bae5de1cacddbce775351d6331ab650c72d97365f93fb06414166e7b25b9e85",
+    "data/curriculum.json": "47de4f35b27c7416b90cf724539de7e4cde9f7fde44be888587ccb973f4569cd",
+    "data/notes/README.md": "4566e3d49cafb6e33152a542f30c38a872d710d4058163250ef213449858eb53",
+    "data/notes/bio01.json": "eb40f9773cf3b99880722fda8800383a88cc0b3620c2d71e34d0bd5e4f063c8e",
+    "data/notes/bio02.json": "af125ff044890219d4a9f0085257fe99290795b039dcbf3a70f5d3336ccb0e51",
+    "data/notes/chem03.json": "c39cb3c6324036c92e9afd91e83cf070bcd821d3d2f831796a7a441deeea120a",
+    "data/notes/chem04.json": "5bbafdbca06d1d682db27eb432973638c10705060a6e97e6d9aa2d2a6be3793e",
+    "data/notes/phys03.json": "aa8be14de67f53fbcfa7daec2ca0de6737b642c5ef6b4ba6f6290a022d1b5700",
+    "data/notes/phys04.json": "848102091422e54f6911c7dc93c63f6927126590994a70201676f196ee54000a",
+    "data/subjects.js": "3ea039c5ce63f35da1d0cf2563af5819a0bfb3307e5d4a33524fc7dce389a88a",
+    "index.html": "77b841ae72b1fb5c96a51279721a984234223a4f4d1eaab91a0035543f818afb",
+    "lessons/batch-notes.js": "df5d7221ee1b52d7c1379b6eb555a4ce5a76134d8f54fba8f47d925d38c53df6",
+    "lessons/bio01.js": "c160d8863280937107c62f485d610922ac7a5b30bb0b4e89afb10e7bf2cac0c3",
+    "lessons/bio02.js": "d2005c66df0404a8ac8432921018bb722b112be6cf7ad6abfd63e131f474806a",
+    "lessons/bio03.js": "947ba8cfd0ac7d0f51a67d99a2e80ee98d63fc4bde3920b31d5af719f0b1440d",
+    "lessons/chem03.js": "414ec5cba267868b4b602c57e22cbc9811d42ee60916d16995f59d6c926a265d",
+    "lessons/chem04.js": "82d029bc3f587eb17ecf45f883ded42498240b82978a38ef1eaade2d12fb503b",
+    "lessons/chem05.js": "3c5a5f8f039ea1cb2dbcb35f3e98abd842809ffc5f51263cd2017fda8edfbfaf",
+    "lessons/ext_bio.js": "52f14371f684d1949ab318b3bc6445bf8ea684bda17f589c725ba4cb953e274c",
+    "lessons/ext_chem.js": "a6d0f7d48cf58a3a0e6fd0609ab5fd5d6dd42721577f26149d179fb000e86413",
+    "lessons/ext_phys.js": "b340a544b18b2185dc047714f5ab2d91b67b004916d5b9b07b5d88c0a917f36c",
+    "lessons/phys03.js": "99d5425d73407b3931043736f6f5b72cf67b5c9bbee1c54c4d871f7bd1dd5a5a",
+    "lessons/phys04.js": "eddb165e639930184bce46009e3879201f8600b027f1ec1291a86c472d01ca2e"
+  },
+  "current_manifest": "illustrations/ILLUSTRATION_MASTER_MANIFEST.json",
+  "current_reports": "reports/batch02/DELIVERY.md"
 }

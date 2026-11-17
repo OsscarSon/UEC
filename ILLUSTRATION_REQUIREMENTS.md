@@ -1,3 +1,5 @@
+> 当前版本：本轮209项主清单与114条独立中英文制作任务见 [主清单](illustrations/ILLUSTRATION_MASTER_MANIFEST.json) 和 [全部提示词](illustrations/PROMPTS_BATCH_ALL.md)。新增化学6的6项精确要求在上述文件逐项列出。以下203项为daa3637之前的完整审查快照；其中“未改图/未改笔记”只描述当时，不代表本轮。当前导入、SVG与验证见 [本轮报告](reports/batch02/DELIVERY.md)。
+
 # 教学插图需求与现有图审查
 
 审查日期：2026-11-18（Asia/Kuala_Lumpur）；PR #1 原分支 `codex/uec-2027-batch-notes-math-split`；被审查内容提交 `8b54cfed56bd10eedcf0387570a751bb3a34a89b`。

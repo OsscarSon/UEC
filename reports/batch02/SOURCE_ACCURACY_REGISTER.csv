@@ -1,0 +1,34 @@
+id,type,location,locator,status,scope
+new_kit,user_instruction_attachment,UEC_2027_Codex_Batch_Notes_Kit_v2 (1).zip,8份Markdown＋2份模板；学校原件11页,read,工作标准；与本轮用户请求冲突处以用户请求为准
+school,school_original,ZIP/sources/HinHua_2027_subjects_scope_exam_arrangements.pdf,p2–4；全11页原件已在前轮阅读，本轮SHA256同原件36591164fb6dc4dca3e8c440a6ffceee3e53b0557ebb6a8c21ee3250077f8fc0,verified_identity,只用于兴华2027校内。摘要的物理第二学期与化学期末比例错误仍以原件核对记录为准
+chem_directory,official_content_table,https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf,p2化学6叶级编号；p3化学7/8候选,partially_verified,公开跨学科内容表；文本网页可读，直接下载403；小节身份证据，不复制教材全文，不确认2027评分
+bio_directory,official_content_table,https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf,p1核对现有1–3章；p2等为后续候选，OCR“千细胞”等不直接当教材文字,partially_verified,候选目录，不强制改已有生物3.1标题，不把学习条目层级混为独立课程
+math_standard,official_curriculum_standard,https://elearning.dongzong.my/pluginfile.php/73029/mod_resource/content/4/高级数学课程标准中文版%20Jan2026.pdf,封面2023/2025.11/2026.1修订；PDF12–20内容表相关页,partially_verified,获得真实标准主题和学习结果，不等于取得学校教材小节目录或完成I/II归科
+math_textbook_preview,official_candidate_preview,https://elearning.dongzong.my/pluginfile.php/132764/mod_resource/content/1/《高级数学》高三上册.pdf,搜索可见编辑说明；网页全文404，直接下载403,not_accessible_full,不凭搜索摘要重建真实教材小节
+physics_course,official_course_page,https://elearning.dongzong.my/course/view.php?id=214&lang=zh_cn,课程页无法取得可用小节表,not_accessible,未从非官方重传/受限资源猜目录
+dz_physics,official_uec,https://uec.dongzong.my/wp-content/uploads/2026/07/S12-2026-0623.pdf,已取得2026文件；化学1.3/1.4，生物2.3，数学p1,partially_verified,当前取得2026框架；未声称锁定2027。I、II与各自卷一/卷二分别表示
+dz_chemistry,official_uec,https://uec.dongzong.my/wp-content/uploads/2026/07/S11-2026-0623.pdf,已取得2026文件；化学1.3/1.4，生物2.3，数学p1,partially_verified,当前取得2026框架；未声称锁定2027。I、II与各自卷一/卷二分别表示
+dz_biology,official_uec,https://uec.dongzong.my/wp-content/uploads/2026/07/S10-2026-0623.pdf,已取得2026文件；化学1.3/1.4，生物2.3，数学p1,partially_verified,当前取得2026框架；未声称锁定2027。I、II与各自卷一/卷二分别表示
+dz_math_i,official_uec,https://uec.dongzong.my/wp-content/uploads/2026/07/S06-2026-0730.pdf,已取得2026文件；化学1.3/1.4，生物2.3，数学p1,partially_verified,当前取得2026框架；未声称锁定2027。I、II与各自卷一/卷二分别表示
+dz_math_ii,official_uec,https://uec.dongzong.my/wp-content/uploads/2026/07/S07-2026-0730.pdf,已取得2026文件；化学1.3/1.4，生物2.3，数学p1,partially_verified,当前取得2026框架；未声称锁定2027。I、II与各自卷一/卷二分别表示
+science_bio01,science_or_curriculum_reference,https://openstax.org/books/biology-2e/pages/3-introduction,来源台账逐节条目,partially_verified,相关科学原则核对，不代表所有段落独立教师审定或考试考频
+science_bio02,science_or_curriculum_reference,https://openstax.org/books/biology-2e/pages/4-introduction-to-cell-structure,来源台账逐节条目,partially_verified,相关科学原则核对，不代表所有段落独立教师审定或考试考频
+science_bio03,science_or_curriculum_reference,https://openstax.org/books/biology-2e/pages/6-introduction,来源台账逐节条目,partially_verified,相关科学原则核对，不代表所有段落独立教师审定或考试考频
+science_bio03_3.1,science_or_curriculum_reference,https://openstax.org/books/biology-2e/pages/6-5-enzymes,6-5-enzymes,partially_verified,相关科学原则核对，不代表所有段落独立教师审定或考试考频
+science_bio03_3.4,science_or_curriculum_reference,https://openstax.org/books/biology-2e/pages/6-4-atp-adenosine-triphosphate,6-4-atp-adenosine-triphosphate,partially_verified,相关科学原则核对，不代表所有段落独立教师审定或考试考频
+science_bio03_3.5,science_or_curriculum_reference,https://openstax.org/books/biology-2e/pages/7-4-oxidative-phosphorylation,7-4-oxidative-phosphorylation,partially_verified,相关科学原则核对，不代表所有段落独立教师审定或考试考频
+science_bio03_3.6,science_or_curriculum_reference,https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules,8-3-using-light-energy-to-make-organic-molecules,partially_verified,相关科学原则核对，不代表所有段落独立教师审定或考试考频
+science_bio03_3.7,science_or_curriculum_reference,https://openstax.org/books/biology-2e/pages/8-2-the-light-dependent-reactions-of-photosynthesis,8-2-the-light-dependent-reactions-of-photosynthesis,partially_verified,相关科学原则核对，不代表所有段落独立教师审定或考试考频
+bipm_mole,science_or_curriculum_reference,https://www.bipm.org/en/si-base-units/mole,SI base unit mole,partially_verified,相关科学原则核对，不代表所有段落独立教师审定或考试考频
+nist_constants,science_or_curriculum_reference,https://physics.nist.gov/cuu/pdf/all.pdf,6,partially_verified,相关科学原则核对，不代表所有段落独立教师审定或考试考频
+science_chem05,science_or_curriculum_reference,https://openstax.org/books/chemistry-2e/pages/6-introduction,来源台账逐节条目,partially_verified,相关科学原则核对，不代表所有段落独立教师审定或考试考频
+science_chem05_5.1,science_or_curriculum_reference,https://openstax.org/books/chemistry-2e/pages/2-2-evolution-of-atomic-theory,2-2-evolution-of-atomic-theory,partially_verified,相关科学原则核对，不代表所有段落独立教师审定或考试考频
+science_chem05_5.2,science_or_curriculum_reference,https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism,2-3-atomic-structure-and-symbolism,partially_verified,相关科学原则核对，不代表所有段落独立教师审定或考试考频
+science_chem05_5.3,science_or_curriculum_reference,https://openstax.org/books/chemistry-2e/pages/6-2-the-bohr-model,6-2-the-bohr-model,partially_verified,相关科学原则核对，不代表所有段落独立教师审定或考试考频
+science_chem05_5.4,science_or_curriculum_reference,https://openstax.org/books/chemistry-2e/pages/6-4-electronic-structure-of-atoms-electron-configurations,6-4-electronic-structure-of-atoms-electron-configurations,partially_verified,相关科学原则核对，不代表所有段落独立教师审定或考试考频
+science_chem06,science_or_curriculum_reference,https://openstax.org/books/chemistry-2e/pages/6-5-periodic-variations-in-element-properties,来源台账逐节条目,partially_verified,相关科学原则核对，不代表所有段落独立教师审定或考试考频
+dz_chem_content_table,science_or_curriculum_reference,https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf,2,partially_verified,相关科学原则核对，不代表所有段落独立教师审定或考试考频
+rsc_periodic_history,science_or_curriculum_reference,https://periodic-table.rsc.org/history/about,三元素组、八音律与门捷列夫的分类/预测,partially_verified,相关科学原则核对，不代表所有段落独立教师审定或考试考频
+science_chem06_6.1.1,science_or_curriculum_reference,https://openstax.org/books/chemistry-2e/pages/2-5-the-periodic-table,2-5-the-periodic-table,partially_verified,相关科学原则核对，不代表所有段落独立教师审定或考试考频
+science_phys03,science_or_curriculum_reference,https://openstax.org/books/college-physics-2e/pages/2-introduction-to-one-dimensional-kinematics,来源台账逐节条目,partially_verified,相关科学原则核对，不代表所有段落独立教师审定或考试考频
+science_phys04,science_or_curriculum_reference,https://openstax.org/books/college-physics-2e/pages/4-3-newtons-second-law-of-motion-concept-of-a-system,来源台账逐节条目,partially_verified,相关科学原则核对，不代表所有段落独立教师审定或考试考频

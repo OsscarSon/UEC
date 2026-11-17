@@ -1,0 +1,134 @@
+[
+  {
+    "id": "IMPORT-B01-01",
+    "subject": "物理",
+    "chapter_id": 3,
+    "section_id": "3.5",
+    "lesson_key": "物理3",
+    "title": "匀速直线运动的图象",
+    "path": "illustrations/incoming/batch01/physics/PH-3.5-motion-graphs.png",
+    "sha256": "4512f4ae91856c8011dac7f526d956cbbdae0c88fc81f7cfb7b35810acca58af",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "status": "approved_for_limited_use",
+    "issues": [
+      "坐标轴、斜率与恒速正面积关系正确；中文标签可辨。"
+    ],
+    "caption": "仅示意s₀=0、v>0的匀速情形；斜率为速度，v-t有向面积为位移。无数值刻度，不用于定量读数。",
+    "review_method": "逐张查看原PNG，核对标签/公式/箭头/几何/区室，非教师或官方审定",
+    "existing_svgs_preserved": true
+  },
+  {
+    "id": "IMPORT-B01-02",
+    "subject": "物理",
+    "chapter_id": 4,
+    "section_id": "4.3",
+    "lesson_key": "物理4",
+    "title": "力的合成与分解",
+    "path": "illustrations/incoming/batch01/physics/PH-4.3-force-vectors.png",
+    "sha256": "10c3cf6fad3c79a3771691a83a11153d1e478b7b46e765f9ff632162b77a245d",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "status": "rejected_pending_redraw",
+    "issues": [
+      "左图F₁终点与F₂平移边不能组成精确平行四边形，R端点并非两向量和。",
+      "左图θ位于F₁与R之间，不能误当两原力夹角；矢量箭头缺明确标记。"
+    ],
+    "caption": "不接入教学页面。",
+    "review_method": "逐张查看原PNG，核对标签/公式/箭头/几何/区室，非教师或官方审定",
+    "existing_svgs_preserved": true
+  },
+  {
+    "id": "IMPORT-B01-03",
+    "subject": "化学",
+    "chapter_id": 3,
+    "section_id": "3.6",
+    "lesson_key": "化学3",
+    "title": "物质的量",
+    "path": "illustrations/incoming/batch01/chemistry/CH-3.6-amount-substance.png",
+    "sha256": "42df3b1108814e5a205b88108fe615b35d46f65d0274af5e52c30eb0ed572bef",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "status": "rejected_pending_redraw",
+    "issues": [
+      "从n向外的箭头却写n=N/NA、n=m/M和n=V/Vm，运算方向与箭头不匹配。",
+      "22.4仅写标准状况，缺明确273.15K、101.325kPa及理想气体适用条件。",
+      "NA=6.02×10²³未标计算近似，不能代替现代SI精确值。"
+    ],
+    "caption": "不接入教学页面。",
+    "review_method": "逐张查看原PNG，核对标签/公式/箭头/几何/区室，非教师或官方审定",
+    "existing_svgs_preserved": true
+  },
+  {
+    "id": "IMPORT-B01-04",
+    "subject": "化学",
+    "chapter_id": 4,
+    "section_id": "4.2.3",
+    "lesson_key": "化学4",
+    "title": "利用限量反应物的计算",
+    "path": "illustrations/incoming/batch01/chemistry/CH-4.2.3-limiting-reactant.png",
+    "sha256": "ab85d8be816ccdb28bd0bdb767beb7947600ce58b038128ec4d368ab78e18e6c",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "status": "approved_for_limited_use",
+    "issues": [
+      "步骤顺序与理论限量计算一致；公式及中文标签可辨。"
+    ],
+    "caption": "适用于按配平方程式充分反应的理论计量；比较n(A)/a与n(B)/b的较小值，不比较裸质量。实际转化率、平衡和收集产率另作处理。",
+    "review_method": "逐张查看原PNG，核对标签/公式/箭头/几何/区室，非教师或官方审定",
+    "existing_svgs_preserved": true
+  },
+  {
+    "id": "IMPORT-B01-05",
+    "subject": "生物",
+    "chapter_id": 2,
+    "section_id": "2.2",
+    "lesson_key": "生物2",
+    "title": "细胞膜——物质进出的门户",
+    "path": "illustrations/incoming/batch01/biology/BI-2.2-membrane-transport.png",
+    "sha256": "a3a5eb564824c7b509272eaab7d85a83ac4802be2628082d1025423c5a5521ba",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "status": "rejected_pending_redraw",
+    "issues": [
+      "把主动运输普遍画成载体直接消耗ATP，没有区分初级与次级主动运输。",
+      "离子运输未区分浓度与电化学梯度。",
+      "膜内尾部两叶层关系表达不够清楚，缺渗透及膜泡运输分支。"
+    ],
+    "caption": "不接入教学页面。",
+    "review_method": "逐张查看原PNG，核对标签/公式/箭头/几何/区室，非教师或官方审定",
+    "existing_svgs_preserved": true
+  },
+  {
+    "id": "IMPORT-B01-06",
+    "subject": "生物",
+    "chapter_id": 2,
+    "section_id": "2.3",
+    "lesson_key": "生物2",
+    "title": "细胞器——系统内的分工协作",
+    "path": "illustrations/incoming/batch01/biology/BI-2.3-cell-organelles.png",
+    "sha256": "927973289ee2e29f8ce97e2fa3daba77911442c34a8c14985e5bdb6e10b6660a",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "status": "approved_for_limited_use",
+    "issues": [
+      "中文结构标注可辨；作为典型动物细胞概览可用。",
+      "不以此图检验线粒体膜层、ER-核膜连续性或囊泡方向的精确结构。"
+    ],
+    "caption": "典型动物细胞概览，大小与数量不按比例，未展示所有细胞结构。核糖体合成蛋白，高尔基体加工分选；糖酵解在细胞质，图中“线粒体有氧呼吸”仅概括后续主要步骤。精确膜层和路径请用本节SVG。",
+    "review_method": "逐张查看原PNG，核对标签/公式/箭头/几何/区室，非教师或官方审定",
+    "existing_svgs_preserved": true
+  }
+]
