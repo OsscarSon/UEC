@@ -3,8 +3,10 @@
 - 原课程116章来自仓库现有课程数据，编号、名称、顺序不变。本轮没有重新扫描Git历史，也没有声称找回Claude会话照片。
 - 生物新增节按董总公开《高中生物》内容表对照章名和节名；它是课程/教材内容对照资料，不能作为2027考试评量规格使用。与用户实际印本逐页核对尚待进行。
 - 物理新增节采用2017版《物理》上册公开预览的目录事实，对照原章名；来源为第三方预览，并非官方考试原卷。只提取目录事实；讲解、例题与练习均为原创。
+- 化学新增节名按董总《高中化学》内容表与原章框架对应；新有机笔记仍需对实体印本逐页复核。
 - 原理参考列在各节；与学校2027校内安排、董总2026公开评量文件分别呈现。2027适用性仍待确认。
 - 高数I第1–29章、II第1–35章由用户在本会话明确确认。两范围重叠表示共用内容，不能强制把一章排他地归某一科；进度不复制。
+- 数学前五章采用2025年10月第1版《数学》高一上册公开目录，并经用户明确确认所示小节与其课本一致；不是把考试纲要条目充作教材小节。具体目录页定位随节登记。
 - 用户表格链接（gid 1832568942）在2026-11-18读取时，Google Sheets连接返回403，公开导出返回401。未读取其中格子或链接，不把截图、链接存在或章级范围确认当作具体小节已核实。
 - 数值核验与定性科学审阅分别记录；测试不构成官方、学校或教师背书。所有新题标明原创，无虚构考频、官方步骤分或卷别。
 
@@ -30,6 +32,35 @@
 - 生物 18.3：[theory_bio_18.3](https://openstax.org/books/biology-2e/pages/21-1-viral-evolution-morphology-and-classification)；定位 21-1-viral-evolution-morphology-and-classification；原理参考；不是2027范围声明；partially_verified。
 - 生物 18.4：[directory_bio](https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf)；定位 6；教材内容表/目录对照；非考试纲要；partially_verified。
 - 生物 18.4：[theory_bio_18.4](https://openstax.org/books/biology-2e/pages/21-2-virus-infections-and-hosts)；定位 21-2-virus-infections-and-hosts；原理参考；不是2027范围声明；partially_verified。
+- 化学 26.1：[directory_chem](https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf)；定位 13；教材内容表/目录对照；非考试纲要；partially_verified。
+- 化学 26.1：[theory_chem_26.1](https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons)；定位 20-1-hydrocarbons；原理参考；不是2027范围声明；partially_verified。
+- 化学 26.2：[directory_chem](https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf)；定位 13；教材内容表/目录对照；非考试纲要；partially_verified。
+- 化学 26.2：[theory_chem_26.2](https://openstax.org/books/chemistry-2e/pages/20-2-alcohols-and-ethers)；定位 20-2-alcohols-and-ethers；原理参考；不是2027范围声明；partially_verified。
+- 化学 26.3：[directory_chem](https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf)；定位 13；教材内容表/目录对照；非考试纲要；partially_verified。
+- 化学 26.3：[theory_chem_26.3](https://openstax.org/books/chemistry-2e/pages/20-3-aldehydes-ketones-carboxylic-acids-and-esters)；定位 20-3-aldehydes-ketones-carboxylic-acids-and-esters；原理参考；不是2027范围声明；partially_verified。
+- 化学 26.4：[directory_chem](https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf)；定位 13；教材内容表/目录对照；非考试纲要；partially_verified。
+- 化学 26.4：[theory_chem_26.4](https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields)；定位 4-4-reaction-yields；原理参考；不是2027范围声明；partially_verified。
+- 化学 26.4：[IUPAC_Rf](https://goldbook.iupac.org/terms/view/R05353/html)；定位 retardation factor in planar chromatography；IUPAC术语定义；非2027范围；verified_definition。
+- 化学 26.5：[directory_chem](https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf)；定位 13；教材内容表/目录对照；非考试纲要；partially_verified。
+- 化学 26.5：[theory_chem_26.5](https://www.acs.org/green-chemistry-sustainability/principles/12-principles-of-green-chemistry.html)；定位 12-principles-of-green-chemistry.html；原理参考；不是2027范围声明；partially_verified。
+- 数学 3.1：[directory_math](https://www.scribd.com/document/1058092101/数学-高一上册)；定位 目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）；教材内容表/目录对照；非考试纲要；partially_verified。
+- 数学 3.1：[theory_math_3.1](https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-2-power-functions-and-polynomial-functions)；定位 5-2-power-functions-and-polynomial-functions；原理参考；不是2027范围声明；partially_verified。
+- 数学 3.2：[directory_math](https://www.scribd.com/document/1058092101/数学-高一上册)；定位 目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）；教材内容表/目录对照；非考试纲要；partially_verified。
+- 数学 3.2：[theory_math_3.2](https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-4-dividing-polynomials)；定位 5-4-dividing-polynomials；原理参考；不是2027范围声明；partially_verified。
+- 数学 3.3：[directory_math](https://www.scribd.com/document/1058092101/数学-高一上册)；定位 目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）；教材内容表/目录对照；非考试纲要；partially_verified。
+- 数学 3.3：[theory_math_3.3](https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-5-zeros-of-polynomial-functions)；定位 5-5-zeros-of-polynomial-functions；原理参考；不是2027范围声明；partially_verified。
+- 数学 3.4：[directory_math](https://www.scribd.com/document/1058092101/数学-高一上册)；定位 目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）；教材内容表/目录对照；非考试纲要；partially_verified。
+- 数学 3.4：[theory_math_3.4](https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-5-factoring-polynomials)；定位 1-5-factoring-polynomials；原理参考；不是2027范围声明；partially_verified。
+- 数学 3.5：[directory_math](https://www.scribd.com/document/1058092101/数学-高一上册)；定位 目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）；教材内容表/目录对照；非考试纲要；partially_verified。
+- 数学 3.5：[theory_math_3.5](https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-5-zeros-of-polynomial-functions)；定位 5-5-zeros-of-polynomial-functions；原理参考；不是2027范围声明；partially_verified。
+- 数学 4.1：[directory_math](https://www.scribd.com/document/1058092101/数学-高一上册)；定位 目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）；教材内容表/目录对照；非考试纲要；partially_verified。
+- 数学 4.1：[theory_math_4.1](https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-3-radicals-and-rational-exponents)；定位 1-3-radicals-and-rational-exponents；原理参考；不是2027范围声明；partially_verified。
+- 数学 4.2：[directory_math](https://www.scribd.com/document/1058092101/数学-高一上册)；定位 目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）；教材内容表/目录对照；非考试纲要；partially_verified。
+- 数学 4.2：[theory_math_4.2](https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-3-radicals-and-rational-exponents)；定位 1-3-radicals-and-rational-exponents；原理参考；不是2027范围声明；partially_verified。
+- 数学 4.3：[directory_math](https://www.scribd.com/document/1058092101/数学-高一上册)；定位 目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）；教材内容表/目录对照；非考试纲要；partially_verified。
+- 数学 4.3：[theory_math_4.3](https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-3-radicals-and-rational-exponents)；定位 1-3-radicals-and-rational-exponents；原理参考；不是2027范围声明；partially_verified。
+- 数学 4.4：[directory_math](https://www.scribd.com/document/1058092101/数学-高一上册)；定位 目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）；教材内容表/目录对照；非考试纲要；partially_verified。
+- 数学 4.4：[theory_math_4.4](https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-3-radicals-and-rational-exponents)；定位 1-3-radicals-and-rational-exponents；原理参考；不是2027范围声明；partially_verified。
 - 物理 1.1：[directory_phys](https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017)；定位 2；教材内容表/目录对照；非考试纲要；partially_verified。
 - 物理 1.1：[theory_phys_1.1](https://openstax.org/books/college-physics-2e/pages/1-1-physics-an-introduction)；定位 1-1-physics-an-introduction；原理参考；不是2027范围声明；partially_verified。
 - 物理 1.2：[directory_phys](https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017)；定位 11；教材内容表/目录对照；非考试纲要；partially_verified。
@@ -44,3 +75,29 @@
 - 物理 2.3：[theory_phys_2.3](https://openstax.org/books/college-physics-2e/pages/1-4-approximation)；定位 1-4-approximation；原理参考；不是2027范围声明；partially_verified。
 - 物理 2.4：[directory_phys](https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017)；定位 37；教材内容表/目录对照；非考试纲要；partially_verified。
 - 物理 2.4：[theory_phys_2.4](https://openstax.org/books/college-physics-2e/pages/2-8-graphical-analysis-of-one-dimensional-motion)；定位 2-8-graphical-analysis-of-one-dimensional-motion；原理参考；不是2027范围声明；partially_verified。
+- 物理 5.1：[directory_phys](https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017)；定位 146；教材内容表/目录对照；非考试纲要；partially_verified。
+- 物理 5.1：[theory_phys_5.1](https://openstax.org/books/college-physics-2e/pages/9-1-the-first-condition-for-equilibrium)；定位 9-1-the-first-condition-for-equilibrium；原理参考；不是2027范围声明；partially_verified。
+- 物理 5.2：[directory_phys](https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017)；定位 150；教材内容表/目录对照；非考试纲要；partially_verified。
+- 物理 5.2：[theory_phys_5.2](https://openstax.org/books/college-physics-2e/pages/9-2-the-second-condition-for-equilibrium)；定位 9-2-the-second-condition-for-equilibrium；原理参考；不是2027范围声明；partially_verified。
+- 物理 5.3：[directory_phys](https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017)；定位 156；教材内容表/目录对照；非考试纲要；partially_verified。
+- 物理 5.3：[theory_phys_5.3](https://openstax.org/books/college-physics-2e/pages/9-3-stability)；定位 9-3-stability；原理参考；不是2027范围声明；partially_verified。
+- 物理 7.1：[directory_phys](https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017)；定位 222；教材内容表/目录对照；非考试纲要；partially_verified。
+- 物理 7.1：[theory_phys_7.1](https://openstax.org/books/college-physics-2e/pages/7-1-work-the-scientific-definition)；定位 7-1-work-the-scientific-definition；原理参考；不是2027范围声明；partially_verified。
+- 物理 7.2：[directory_phys](https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017)；定位 229；教材内容表/目录对照；非考试纲要；partially_verified。
+- 物理 7.2：[theory_phys_7.2](https://openstax.org/books/college-physics-2e/pages/7-2-kinetic-energy-and-the-work-energy-theorem)；定位 7-2-kinetic-energy-and-the-work-energy-theorem；原理参考；不是2027范围声明；partially_verified。
+- 物理 7.3：[directory_phys](https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017)；定位 232；教材内容表/目录对照；非考试纲要；partially_verified。
+- 物理 7.3：[theory_phys_7.3](https://openstax.org/books/college-physics-2e/pages/7-2-kinetic-energy-and-the-work-energy-theorem)；定位 7-2-kinetic-energy-and-the-work-energy-theorem；原理参考；不是2027范围声明；partially_verified。
+- 物理 7.4：[directory_phys](https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017)；定位 239；教材内容表/目录对照；非考试纲要；partially_verified。
+- 物理 7.4：[theory_phys_7.4](https://openstax.org/books/college-physics-2e/pages/7-3-gravitational-potential-energy)；定位 7-3-gravitational-potential-energy；原理参考；不是2027范围声明；partially_verified。
+- 物理 7.5：[directory_phys](https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017)；定位 245；教材内容表/目录对照；非考试纲要；partially_verified。
+- 物理 7.5：[theory_phys_7.5](https://openstax.org/books/college-physics-2e/pages/7-6-conservation-of-energy)；定位 7-6-conservation-of-energy；原理参考；不是2027范围声明；partially_verified。
+- 物理 7.6：[directory_phys](https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017)；定位 250；教材内容表/目录对照；非考试纲要；partially_verified。
+- 物理 7.6：[theory_phys_7.6](https://openstax.org/books/college-physics-2e/pages/28-6-relativistic-energy)；定位 28-6-relativistic-energy；原理参考；不是2027范围声明；partially_verified。
+- 物理 8.1：[directory_phys](https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017)；定位 264；教材内容表/目录对照；非考试纲要；partially_verified。
+- 物理 8.1：[theory_phys_8.1](https://openstax.org/books/college-physics-2e/pages/8-2-impulse)；定位 8-2-impulse；原理参考；不是2027范围声明；partially_verified。
+- 物理 8.2：[directory_phys](https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017)；定位 272；教材内容表/目录对照；非考试纲要；partially_verified。
+- 物理 8.2：[theory_phys_8.2](https://openstax.org/books/college-physics-2e/pages/8-3-conservation-of-momentum)；定位 8-3-conservation-of-momentum；原理参考；不是2027范围声明；partially_verified。
+- 物理 8.3：[directory_phys](https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017)；定位 282；教材内容表/目录对照；非考试纲要；partially_verified。
+- 物理 8.3：[theory_phys_8.3](https://openstax.org/books/college-physics-2e/pages/8-7-introduction-to-rocket-propulsion)；定位 8-7-introduction-to-rocket-propulsion；原理参考；不是2027范围声明；partially_verified。
+- 物理 8.4：[directory_phys](https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017)；定位 287；教材内容表/目录对照；非考试纲要；partially_verified。
+- 物理 8.4：[theory_phys_8.4](https://openstax.org/books/college-physics-2e/pages/8-4-elastic-collisions-in-one-dimension)；定位 8-4-elastic-collisions-in-one-dimension；原理参考；不是2027范围声明；partially_verified。

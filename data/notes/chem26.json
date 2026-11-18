@@ -1,0 +1,1538 @@
+{
+  "26.1": {
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 26,
+    "section_id": "26.1",
+    "goals": [
+      "按组成与结构解释有机化合物分类",
+      "由燃烧数据求最简式并检查证据限制"
+    ],
+    "prerequisites": [
+      "物质的量",
+      "化学式与配平"
+    ],
+    "flow": [
+      "碳的连接",
+      "有机与无机约定",
+      "烃与衍生物",
+      "最简式分子式",
+      "结构证据"
+    ],
+    "concept_relation": "碳的连接；有机与无机约定；烃与衍生物；最简式分子式；结构证据",
+    "deep": [
+      "分子式给出一个分子的原子种类和数目，最简式给出最小整数比，结构式进一步显示连接。相同分子式可对应不同连接或空间排列，所以元素分析或燃烧分析本身通常不能唯一确定结构。",
+      "完全燃烧分析把样品中的碳转为CO₂、氢转为H₂O，在产物定量收集且无其他来源等条件下，可由n(C)=n(CO₂)、n(H)=2n(H₂O)求元素比。若样品还含氧且仅含C、H、O，可用样品质量减碳氢质量求氧，不能在未知元素存在时随意用差值全部算成氧。",
+      "由元素比求最简式时先换为摩尔数再除最小值，处理接近简单分数的比例须结合测量不确定性；不是一律对每个比值直接四舍五入。要确定分子式，还需要相对分子质量等独立信息，倍数应为接近整数。",
+      "本章的结构与计算是后续官能团和反应规律的基础。所有例题为原创分析模型，不代表已确认正式UEC出题频率。真实实验的完全燃烧、产物吸收和样品纯度均会影响数据解释，课堂理想数据不等于任何装置都能无误差复现。"
+    ],
+    "derive": [
+      "完全燃烧且定量收集：n(C)=n(CO₂)，n(H)=2n(H₂O)。",
+      "仅含C/H/O时，m(O)=m样−m(C)−m(H)，再n(O)=m(O)/16 g·mol⁻¹。",
+      "分子式=(最简式)ₖ，k=M分子/M最简式；k应为正整数，结构仍需其他证据。"
+    ],
+    "examples": [
+      {
+        "q": "CH₄、C₂H₅OH、CO₂、Na₂CO₃中，按通常学科约定哪些属有机物，哪些属烃？",
+        "given": "按本节常见分类约定。",
+        "analysis": "有机物与烃不是同一集合。",
+        "method": "先判有机，再核是否仅C/H。",
+        "principle": "烃只含碳氢，CO₂和碳酸盐通常归无机。",
+        "steps": [
+          "CH₄和C₂H₅OH归有机。",
+          "其中CH₄仅含C/H属烃；乙醇含O不属烃。"
+        ],
+        "ans": "有机：甲烷、乙醇；烃：仅甲烷。",
+        "verification": "其余两项虽含C但在约定无机类。",
+        "pitfall": "把所有含碳物都叫烃。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.1",
+        "related_sections": []
+      },
+      {
+        "q": "0.30 g仅含C/H/O样品完全燃烧得0.44 g CO₂和0.18 g H₂O，求最简式。取C12、H1、O16。",
+        "given": "产物定量且碳氢均来自样品。",
+        "analysis": "由产物先求C/H，氧用质量差。",
+        "method": "摩尔数及元素质量守恒。",
+        "principle": "CO₂每摩尔含1 mol C，H₂O含2 mol H。",
+        "steps": [
+          "n(C)=0.44/44=0.010 mol；n(H)=2×0.18/18=0.020 mol。",
+          "mC=0.12 g，mH=0.02 g，mO=0.30−0.14=0.16 g，nO=0.010 mol。",
+          "比C:H:O=1:2:1。"
+        ],
+        "ans": "CH₂O。",
+        "verification": "最简式质量分数C40%、H约6.67%、O约53.33%，对应0.30 g各质量。",
+        "pitfall": "将水的摩尔数直接当H原子摩尔数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.1",
+        "related_sections": []
+      },
+      {
+        "q": "某物质最简式CH₂O，相对分子质量60，能确定分子式和唯一结构吗？",
+        "given": "最简式式量30。",
+        "analysis": "分子式倍数可定，连接不可仅此定。",
+        "method": "k=60/30。",
+        "principle": "元素比例和分子量约束原子数，不唯一约束连接。",
+        "steps": [
+          "k=2，分子式C₂H₄O₂。",
+          "同分子式可存在不同结构，需结构或反应等证据。"
+        ],
+        "ans": "分子式C₂H₄O₂，不能唯一确定结构。",
+        "verification": "式量24+4+32=60。",
+        "pitfall": "把最简式当分子式或直接认定唯一官能团。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "C₆H₁₂O₆的最简式是？它是烃吗？",
+        "given": "只按分子式分析。",
+        "analysis": "先约简再分类。",
+        "method": "各下标除最大公因数。",
+        "principle": "最简式为最小整数比，烃不能含O。",
+        "steps": [
+          "6:12:6除6得1:2:1。",
+          "含氧，不能归烃。"
+        ],
+        "ans": "CH₂O；不是烃。",
+        "verification": "(CH₂O)₆恢复原式。",
+        "pitfall": "把有机物自动当烃。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.1",
+        "related_sections": []
+      },
+      {
+        "q": "某样品除C/H外还可能有N，能把剩余质量全算O吗？",
+        "given": "元素种类未确定。",
+        "analysis": "差值可能包含N等。",
+        "method": "先确定元素组成。",
+        "principle": "质量守恒不提供未知元素身份。",
+        "steps": [
+          "减去C/H只得其余元素总质量。",
+          "需氮等检测或题给仅C/H/O才能归O。"
+        ],
+        "ans": "不能。",
+        "verification": "若剩余全部为N，氧差值法会完全错误。",
+        "pitfall": "以差值法替代元素鉴定。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.1",
+        "related_sections": []
+      },
+      {
+        "q": "最简式CH，相对分子质量78，分子式？取C12、H1。",
+        "given": "式量13。",
+        "analysis": "求整数倍。",
+        "method": "78/13=6。",
+        "principle": "原子比例放大同倍数。",
+        "steps": [
+          "k=6。",
+          "分子式C₆H₆，式量72+6=78。"
+        ],
+        "ans": "C₆H₆。",
+        "verification": "C:H仍1:1。",
+        "pitfall": "只把C乘6而H不乘。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.1",
+        "related_sections": []
+      },
+      {
+        "q": "仅含C/H的0.28 g样品燃烧得0.88 g CO₂、0.36 g H₂O，求最简式并用质量检查。",
+        "given": "完全燃烧且产物定量。",
+        "analysis": "先C/H摩尔比，再总质量。",
+        "method": "nC=nCO₂，nH=2nH₂O。",
+        "principle": "原子数与质量守恒。",
+        "steps": [
+          "nC=.88/44=.020；nH=2×.36/18=.040 mol。",
+          "比1:2，最简式CH₂。",
+          "mC=.24、mH=.04，共.28 g。"
+        ],
+        "ans": "CH₂，与样品质量相符。",
+        "verification": "无须由最简式推断一定为某一特定烯烃。",
+        "pitfall": "比值2就直接说分子式C₂H₄。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "同一最简式的两个物质，是否必有相同分子式和性质？",
+      "given": "未给分子量与结构。",
+      "analysis": "最简比例信息有限。",
+      "method": "分别列可能倍数与连接差异。",
+      "principle": "分子式和结构层次比最简式更具体。",
+      "steps": [
+        "最简式可用不同整数倍构成分子式。",
+        "即使分子式相同也可能结构不同、性质不同。"
+      ],
+      "ans": "不必。",
+      "verification": "CH₂O与C₂H₄O₂最简式同而分子式不同。",
+      "pitfall": "以相同比例推出同种物质。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 26,
+      "primary_section": "26.1",
+      "related_sections": []
+    },
+    "exam": [
+      "分类题逐项查元素和约定例外，烃只是有机物子类",
+      "燃烧题先产物摩尔数再数C/H原子，氧差值需仅含C/H/O",
+      "结构推断题写清最简式、分子式与连接分别需要何证据"
+    ],
+    "quick": [
+      "碳的连接",
+      "有机与无机约定",
+      "烃与衍生物",
+      "最简式分子式",
+      "结构证据"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 13,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_26.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons",
+        "page_or_section": "20-1-hydrocarbons",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 13,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_26.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons",
+        "page_or_section": "20-1-hydrocarbons",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "分类题逐项查元素和约定例外，烃只是有机物子类",
+      "method": "k=60/30。",
+      "principle": "元素比例和分子量约束原子数，不唯一约束连接。",
+      "worked_example_index": 2,
+      "verification": "式量24+4+32=60。",
+      "pitfall": "把最简式当分子式或直接认定唯一官能团。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“按组成与结构解释有机化合物分类”的抽样复核：其余两项虽含C但在约定无机类。；若出现“把所有含碳物都叫烃。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e1",
+        "review_module": 5,
+        "feedback": "目标“由燃烧数据求最简式并检查证据限制”的抽样复核：最简式质量分数C40%、H约6.67%、O约53.33%，对应0.30 g各质量。；若出现“将水的摩尔数直接当H原子摩尔数。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "以相同比例推出同种物质。",
+        "correction": "不必。",
+        "verification": "CH₂O与C₂H₄O₂最简式同而分子式不同。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "组成、分子式与结构的信息层次",
+      "objects": [
+        "分类集合",
+        "CO₂/H₂O燃烧产物",
+        "C/H/O摩尔比",
+        "最简式",
+        "分子式",
+        "结构证据"
+      ],
+      "relations": [
+        "烃仅C/H",
+        "nH=2nH₂O",
+        "氧差值需元素范围条件",
+        "分子式不能自动唯一结构"
+      ],
+      "labels": [
+        "有机物",
+        "烃",
+        "CH₂O",
+        "C₂H₄O₂",
+        "定量收集"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用物质的量流程局部，非完整有机分类图",
+      "english": "Show hydrocarbons as the carbon-and-hydrogen-only subset, with CO2 and carbonates treated as conventional inorganic exceptions. Trace quantitative combustion products to C/H atom amounts, then empirical and molecular formulas; require extra evidence for unique connectivity."
+    }
+  },
+  "26.2": {
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 26,
+    "section_id": "26.2",
+    "goals": [
+      "用结构与分子间作用解释常见性质趋势",
+      "识别概括规律的例外并评价实验结论"
+    ],
+    "prerequisites": [
+      "共价键与分子间作用",
+      "溶解与导电"
+    ],
+    "flow": [
+      "结构差异",
+      "分子间作用",
+      "溶解与电离",
+      "燃烧条件",
+      "趋势与例外"
+    ],
+    "concept_relation": "结构差异；分子间作用；溶解与电离；燃烧条件；趋势与例外",
+    "deep": [
+      "许多纯共价有机物不含自由移动离子，因而导电弱，但有机酸在水中可电离，有机盐或其他有机材料也可导电。实验必须分清纯物质、溶液及浓度，不能用一次无明显电流排除所有有机物。",
+      "不少含碳氢有机物可燃，完全燃烧可生成CO₂、H₂O等；氧不足可能生成CO和烟炱，含其他元素还可能有别的产物。仅看产生烟不能唯一判定物质身份，也不能认为完全燃烧的全部有机物产物只有两种。",
+      "有机反应常涉及特定官能团与条件，可能产生混合物、经历多步骤或有副反应，但有些反应也很快。反应速率、平衡与产率是不同概念：反应快不自动给高纯度或高产率，反应慢也不表示热力学上不可发生。",
+      "把趋势用于题目时先确定比较对象属于哪类结构，并核温度、溶剂、压力及纯度等条件。用结构推理提出可检验预测，然后与数据比较；如果有例外，追查结构或条件，而不是删去不合口诀的数据。"
+    ],
+    "derive": [
+      "分子内键决定连接；熔沸常涉及分子间作用，两者不能混同。",
+      "同类结构比较氢键、极性、相对分子质量和形状，避免单因素无条件推断。",
+      "电导须有可移动载流子；水溶性与导电性不是同一性质。"
+    ],
+    "examples": [
+      {
+        "q": "学生说乙醇沸腾必把每个C—C键断开，为什么不对？",
+        "given": "正常沸腾而非分解。",
+        "analysis": "相变与化学分解不同。",
+        "method": "区分分子内键与分子间吸引。",
+        "principle": "汽化主要使分子彼此分离。",
+        "steps": [
+          "液态转气态时乙醇分子通常仍保留连接。",
+          "所克服主要是分子间作用，包括氢键等。"
+        ],
+        "ans": "把相变误当分子内化学键断裂。",
+        "verification": "蒸气冷凝仍可回到乙醇，不需重新合成C—C键。",
+        "pitfall": "以所有吸引都叫键而混淆层次。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.2",
+        "related_sections": []
+      },
+      {
+        "q": "甲乙分子大小近似，甲有可形成分子间氢键的OH，乙无且极性弱，预测沸点并说明限制。",
+        "given": "其他结构尽量相近，不指定具体数值。",
+        "analysis": "氢键可增强相互吸引。",
+        "method": "按分子间作用比较。",
+        "principle": "较强分子间作用通常需更高温度分离。",
+        "steps": [
+          "甲通常有较高沸点的理由。",
+          "仍需核实际形状、其他作用与压力，不把预测当无例外定理。"
+        ],
+        "ans": "通常预测甲较高，需实测或可靠数据确认。",
+        "verification": "没有结构可比条件时不能只看一个基团。",
+        "pitfall": "把OH数量当唯一决定因素。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.2",
+        "related_sections": []
+      },
+      {
+        "q": "糖溶液几乎不导电，醋酸溶液能弱导电，能否说后者不属有机物？",
+        "given": "两者均为相应有机物水溶液。",
+        "analysis": "导电取决移动离子，不是有机分类判据。",
+        "method": "比较是否产生离子。",
+        "principle": "酸可在水中部分电离。",
+        "steps": [
+          "糖主要以分子溶解。",
+          "醋酸可产生少量离子，故可导电而仍属有机。"
+        ],
+        "ans": "不能；有机物也可形成导电溶液。",
+        "verification": "溶于水不自动离子化，分类与电离不同。",
+        "pitfall": "把有机物不导电当绝对规律。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "有机物都不溶于水吗？",
+        "given": "问普遍命题。",
+        "analysis": "需要反例和机制。",
+        "method": "用可形成氢键小分子说明。",
+        "principle": "水溶性依结构与相互作用。",
+        "steps": [
+          "乙醇等小分子可与水良好混合。",
+          "非极性长链又常难溶，不能统一。"
+        ],
+        "ans": "不是。",
+        "verification": "同属有机物仍有不同极性和碳链。",
+        "pitfall": "把常见烃的性质推广所有有机物。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.2",
+        "related_sections": []
+      },
+      {
+        "q": "一种有机物不完全燃烧产CO，能说违反碳守恒吗？",
+        "given": "氧可能不足。",
+        "analysis": "守恒原子不要求只生成CO₂。",
+        "method": "配平简单示例。",
+        "principle": "原子可分配到不同产物。",
+        "steps": [
+          "2CH₄+3O₂→2CO+4H₂O。",
+          "两侧C2、H8、O6守恒。"
+        ],
+        "ans": "不违反。",
+        "verification": "氧不足使产物分布不同，碳仍守恒。",
+        "pitfall": "把完全燃烧产物当唯一可能。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.2",
+        "related_sections": []
+      },
+      {
+        "q": "某反应很快，是否产率必为100%？",
+        "given": "未给平衡、副反应与收集。",
+        "analysis": "速率和产率不同。",
+        "method": "列造成产率损失的过程。",
+        "principle": "产率是实际目标产物/理论量。",
+        "steps": [
+          "快速可能也快速生成副产物。",
+          "平衡、分离和损失仍可降低目标收率。"
+        ],
+        "ans": "不必。",
+        "verification": "快只说明时间尺度，不提供目标产物总量。",
+        "pitfall": "把快、完全、纯三者混同。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.2",
+        "related_sections": []
+      },
+      {
+        "q": "乙醇样品0.10 mol完全燃烧，理论CO₂与H₂O各多少？若实测水少能直接说H不守恒吗？",
+        "given": "C₂H₅OH+3O₂→2CO₂+3H₂O。",
+        "analysis": "先按配平计量，后审实验收集。",
+        "method": "产物摩尔比2与3。",
+        "principle": "原子守恒与测量边界。",
+        "steps": [
+          "CO₂=.20 mol，H₂O=.30 mol。",
+          "水少可能因未定量收集、未完全反应等，不能据此宣称守恒失效。"
+        ],
+        "ans": "0.20与0.30 mol；须查条件。",
+        "verification": "C原子.20 mol、H原子.60 mol与原料相合。",
+        "pitfall": "用测量损失否定守恒。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "一种分子含OH又有很长烃链，能仅凭OH断言它与水任意比例互溶吗？",
+      "given": "同时有亲水与非极性部分。",
+      "analysis": "需比较整体结构。",
+      "method": "分析两类作用竞争并需数据。",
+      "principle": "溶解由综合相互作用决定。",
+      "steps": [
+        "OH可增强与水相互作用。",
+        "长烃链可降低水溶性，不能只凭单一基团给无限互溶结论。"
+      ],
+      "ans": "不能。",
+      "verification": "同类醇随碳链增长可出现不同溶解行为。",
+      "pitfall": "只见官能团而忽略骨架。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 26,
+      "primary_section": "26.2",
+      "related_sections": []
+    },
+    "exam": [
+      "性质解释题从结构、作用、宏观性质三层连接",
+      "分类题不能把溶解或电导当单一判据，先辨纯物质/溶液",
+      "实验异常题查纯度、条件和收集，不用绝对口诀覆盖数据"
+    ],
+    "quick": [
+      "结构差异",
+      "分子间作用",
+      "溶解与电离",
+      "燃烧条件",
+      "趋势与例外"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 13,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_26.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/20-2-alcohols-and-ethers",
+        "page_or_section": "20-2-alcohols-and-ethers",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 13,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_26.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/20-2-alcohols-and-ethers",
+        "page_or_section": "20-2-alcohols-and-ethers",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "性质解释题从结构、作用、宏观性质三层连接",
+      "method": "比较是否产生离子。",
+      "principle": "酸可在水中部分电离。",
+      "worked_example_index": 2,
+      "verification": "溶于水不自动离子化，分类与电离不同。",
+      "pitfall": "把有机物不导电当绝对规律。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e1",
+        "review_module": 4,
+        "feedback": "目标“用结构与分子间作用解释常见性质趋势”的抽样复核：没有结构可比条件时不能只看一个基团。；若出现“把OH数量当唯一决定因素。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“识别概括规律的例外并评价实验结论”的抽样复核：溶于水不自动离子化，分类与电离不同。；若出现“把有机物不导电当绝对规律。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "只见官能团而忽略骨架。",
+        "correction": "不能。",
+        "verification": "同类醇随碳链增长可出现不同溶解行为。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "结构与宏观性质的条件关系",
+      "objects": [
+        "分子内共价键",
+        "分子间氢键",
+        "水与小分子醇",
+        "长链醇",
+        "分子与离子溶液"
+      ],
+      "relations": [
+        "相变不画C—C键普遍断裂",
+        "OH亲水性须结合碳链",
+        "导电依可移动离子"
+      ],
+      "labels": [
+        "共价键",
+        "分子间作用",
+        "非极性部分",
+        "可移动离子",
+        "趋势非绝对"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "氢键旧图可局部复用，需核乙醇羟基连接",
+      "english": "Distinguish intramolecular covalent bonds from intermolecular hydrogen bonding during boiling. Contrast a small alcohol with a long hydrocarbon chain bearing OH, and neutral molecular solutes with ion-producing solutes. Never imply all organic compounds are insoluble or nonconducting."
+    }
+  },
+  "26.3": {
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 26,
+    "section_id": "26.3",
+    "goals": [
+      "按骨架与官能团分别分类",
+      "以连接关系解释同分子式不同类别"
+    ],
+    "prerequisites": [
+      "碳四价",
+      "结构式与分子式"
+    ],
+    "flow": [
+      "骨架分类",
+      "关键连接",
+      "官能团",
+      "多官能团",
+      "证据与价键"
+    ],
+    "concept_relation": "骨架分类；关键连接；官能团；多官能团；证据与价键",
+    "deep": [
+      "识别官能团要核原子连接环境：醇羟基与饱和碳相连，酚羟基直接连芳香环；羧基中的OH属于羧基整体，不能因为看到OH就把羧酸简单归醇。醚有C—O—C连接，酯有C(=O)—O—C，额外羰基改变类别。",
+      "醛常用—CHO表示，羰基碳连接H；酮羰基碳连接两个碳基团。羧酸有—COOH，酯的酸性OH被相应烃基氧连接形式替代。使用缩写时不漏必要原子，例如—CHO的O与C双键不能画成任意串联单键。",
+      "分类可帮助预测可能反应，但同官能团受邻近基团、空间和条件影响，不能只凭标签断言所有反应产物和速率相同。多官能团分子还要分析哪个部位在给定试剂与条件下反应。",
+      "答题时先把缩写还原到关键连接，再分骨架和官能团作答。若只有分子式，可列合理候选并指出还需证据，不把“可能含双键”写成“必是烯烃”，更不能为符合通式擅自忽略环。"
+    ],
+    "derive": [
+      "分类至少分两轴：碳骨架（链/环等）与官能团（醇/醚/醛/酮/酸/酯等）。",
+      "CnH₂n可对应单环饱和烃或单烯烃等相应模型，不能仅由通式唯一判类别。",
+      "画结构后核每个C常见四价、O常见二价、H一价；官能团按连接环境识别。"
+    ],
+    "examples": [
+      {
+        "q": "CH₃CH₂OH和CH₃OCH₃分子式相同吗、类别相同吗？",
+        "given": "两式均为完整中性分子。",
+        "analysis": "统计原子与判断连接是两步。",
+        "method": "数原子再识别O的邻接。",
+        "principle": "同分子式可为不同官能团的异构体。",
+        "steps": [
+          "二者均C₂H₆O。",
+          "前者OH连饱和碳属醇，后者C—O—C属醚。"
+        ],
+        "ans": "分子式同，类别不同。",
+        "verification": "前者O连C与H，后者O连两个C。",
+        "pitfall": "只看有氧就归同一官能团。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.3",
+        "related_sections": []
+      },
+      {
+        "q": "分子式C₃H₆能唯一断言是烯烃吗？",
+        "given": "没有其他结构或反应证据。",
+        "analysis": "环也可减少相对烷烃的氢数。",
+        "method": "给两种结构候选。",
+        "principle": "分子式不唯一确定骨架。",
+        "steps": [
+          "丙烯CH₂=CHCH₃符合。",
+          "环丙烷三个CH₂成环也符合。"
+        ],
+        "ans": "不能；至少有烯烃和环烷烃候选。",
+        "verification": "两者均C3H6且价键可满足。",
+        "pitfall": "仅按CnH₂n就判唯一。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.3",
+        "related_sections": []
+      },
+      {
+        "q": "CH₃COOH和CH₃COOCH₃分别是什么类别？为什么不能把前者只叫醇？",
+        "given": "CO表示所示羰基缩写，需还原。",
+        "analysis": "OH属于羧基环境。",
+        "method": "辨C(=O)—OH与C(=O)—O—C。",
+        "principle": "官能团取决连接。",
+        "steps": [
+          "前者含羧基属羧酸。",
+          "后者含酯基属酯；羧酸OH不等同饱和碳上的醇羟基。"
+        ],
+        "ans": "羧酸、酯。",
+        "verification": "各O均满足常见价键；羰基不可漏画。",
+        "pitfall": "只抓OH字符串而忽略连接的羰基碳。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "CH₃CHO中关键官能团？",
+        "given": "末端羰基碳连H。",
+        "analysis": "还原CHO缩写。",
+        "method": "写CH₃—C(=O)—H。",
+        "principle": "醛的羰基碳有H连接。",
+        "steps": [
+          "中心C与O双键。",
+          "另连CH₃和H，故为醛基。"
+        ],
+        "ans": "醛基，属醛。",
+        "verification": "碳键级总数4。",
+        "pitfall": "把CHO画成C—H—O直链。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.3",
+        "related_sections": []
+      },
+      {
+        "q": "CH₃COCH₃属于醛还是酮？",
+        "given": "羰基两侧为CH₃。",
+        "analysis": "羰基碳无H。",
+        "method": "辨邻接原子。",
+        "principle": "酮羰基连两个碳基团。",
+        "steps": [
+          "C=O两侧各连一个CH₃。",
+          "因此为酮。"
+        ],
+        "ans": "酮。",
+        "verification": "分子式C₃H₆O，结构决定类别。",
+        "pitfall": "凡有C=O都叫醛。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.3",
+        "related_sections": []
+      },
+      {
+        "q": "一个分子同时含NH₂与COOH，能否只允许它有一个官能团？",
+        "given": "给定不同部位均存在。",
+        "analysis": "多官能团常见。",
+        "method": "分别标识。",
+        "principle": "分类维度可重叠。",
+        "steps": [
+          "氨基与羧基各自保留。",
+          "具体反应需按条件分析两处，不必删一个。"
+        ],
+        "ans": "不能，应分别识别。",
+        "verification": "氨基酸类可体现这种组合。",
+        "pitfall": "为单一标签漏掉知识点。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.3",
+        "related_sections": []
+      },
+      {
+        "q": "C₂H₄O₂的两个候选CH₃COOH与HCOOCH₃，分别计原子、判类，能用分子式单独区分吗？",
+        "given": "两结构按常见缩写。",
+        "analysis": "需核组成相同连接不同。",
+        "method": "展开关键羰基和氧连接。",
+        "principle": "官能团异构。",
+        "steps": [
+          "前者C2H4O2、羧酸。",
+          "后者C2H4O2、酯，分子式不能单独区分。"
+        ],
+        "ans": "二者同分子式而异类。",
+        "verification": "HCOOCH₃含醛式H连接羰基但整体为酯，不简单把所有H—C=O都孤立分类。",
+        "pitfall": "忽略羰基另一侧O连接环境。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "结构图在醚的氧上画三条普通共价单键且不标电荷，作为普通中性醚是否正确？",
+      "given": "无特殊带电说明。",
+      "analysis": "常见中性氧价键数受约束。",
+      "method": "核每原子价与整体电荷。",
+      "principle": "中性醚O通常形成两条单键。",
+      "steps": [
+        "C—O—C给两连接。",
+        "第三单键需相应带电等特殊说明，不能画成普通中性醚。"
+      ],
+      "ans": "不正确，应修为两键或明确特殊电荷结构。",
+      "verification": "逐原子价核查可发现漂亮图的科学错误。",
+      "pitfall": "只看整体像官能团而不查局部价。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 26,
+      "primary_section": "26.3",
+      "related_sections": []
+    },
+    "exam": [
+      "分类题先还原连接，再说骨架与官能团",
+      "分子式题列候选和所缺证据，别由通式唯一判类别",
+      "绘图题逐原子核价、电荷和隐含H，尤其羰基与羧基"
+    ],
+    "quick": [
+      "骨架分类",
+      "关键连接",
+      "官能团",
+      "多官能团",
+      "证据与价键"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 13,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_26.3",
+        "url": "https://openstax.org/books/chemistry-2e/pages/20-3-aldehydes-ketones-carboxylic-acids-and-esters",
+        "page_or_section": "20-3-aldehydes-ketones-carboxylic-acids-and-esters",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 13,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_26.3",
+        "url": "https://openstax.org/books/chemistry-2e/pages/20-3-aldehydes-ketones-carboxylic-acids-and-esters",
+        "page_or_section": "20-3-aldehydes-ketones-carboxylic-acids-and-esters",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "分类题先还原连接，再说骨架与官能团",
+      "method": "辨C(=O)—OH与C(=O)—O—C。",
+      "principle": "官能团取决连接。",
+      "worked_example_index": 2,
+      "verification": "各O均满足常见价键；羰基不可漏画。",
+      "pitfall": "只抓OH字符串而忽略连接的羰基碳。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e2",
+        "review_module": 4,
+        "feedback": "目标“按骨架与官能团分别分类”的抽样复核：各O均满足常见价键；羰基不可漏画。；若出现“只抓OH字符串而忽略连接的羰基碳。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e0",
+        "review_module": 5,
+        "feedback": "目标“以连接关系解释同分子式不同类别”的抽样复核：前者O连C与H，后者O连两个C。；若出现“只看有氧就归同一官能团。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "只看整体像官能团而不查局部价。",
+        "correction": "不正确，应修为两键或明确特殊电荷结构。",
+        "verification": "逐原子价核查可发现漂亮图的科学错误。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "有机分类的连接判据",
+      "objects": [
+        "乙醇/二甲醚",
+        "羧酸/酯",
+        "醛/酮",
+        "丙烯/环丙烷"
+      ],
+      "relations": [
+        "同式不一定同连接",
+        "羧酸OH不画成独立醇",
+        "每个C和O满足价键"
+      ],
+      "labels": [
+        "醇",
+        "醚",
+        "羧酸",
+        "酯",
+        "醛",
+        "酮",
+        "分子式≠唯一结构"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "现有化学结构图须核官能团后局部复用",
+      "english": "Compare ethanol with dimethyl ether, carboxylic acid with ester, aldehyde with ketone, and propene with cyclopropane. Render explicit correct connectivity and valence; do not classify a carboxylic OH as an alcohol or infer a unique structure from a molecular formula."
+    }
+  },
+  "26.4": {
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 26,
+    "section_id": "26.4",
+    "goals": [
+      "把分离纯化、组成与结构证据分层",
+      "由多项资料作有限且可检验的推断"
+    ],
+    "prerequisites": [
+      "有机分类",
+      "计量与实验变量"
+    ],
+    "flow": [
+      "分离纯化",
+      "组成分子式",
+      "结构证据",
+      "候选排除",
+      "产率与报告"
+    ],
+    "concept_relation": "分离纯化；组成分子式；结构证据；候选排除；产率与报告",
+    "deep": [
+      "元素分析和相对分子质量帮助确定组成，化学反应、光谱等进一步约束连接。不同证据回答不同问题：分子式不能直接代替结构，单一颜色变化也往往不能唯一确定物种，需适当对照及综合判断。",
+      "结构表示法包括分子式、结构式、简式和模型，各有用途与省略规则。转换时应守住原子数和连接，骨架式省略的碳氢需按端点、转折与价键规则补齐，不能将视觉上短一笔误认为化学组成相同。",
+      "本节可用光谱信号或反应证据作逻辑练习，但具体仪器细节和峰位是否属于2027考试范围需另核，不把拓展方法冒充官方要求。题给信号只能按题设可靠规则使用，不能从一个未经说明的峰值虚构完整谱图。",
+      "实验报告把原始观察、推导、假设和结论分开，并报告产率、纯度及不确定性。粗产物质量超过理论值可能来自杂质或残留溶剂，不意味着反应违反守恒或创造物质；真实改进应找到损失和污染来源而非美化数据。"
+    ],
+    "derive": [
+      "Rf=d斑点/d前沿，同一起点同一板且前沿距离非零；无量纲。",
+      "产率=实际目标产物量/理论目标产物量×100%；粗样质量不一定等于纯产物质量。",
+      "研究证据链：纯度与分离 → 元素组成 → 分子式 → 关键连接证据 → 排除候选 → 再验证。"
+    ],
+    "examples": [
+      {
+        "q": "同一色谱板斑点距起点3.0 cm，前沿6.0 cm，Rf多少？单位是什么？",
+        "given": "两距离沿同方向、同一起点。",
+        "analysis": "比值相同长度单位相消。",
+        "method": "Rf=3/6。",
+        "principle": "迁移相对距离。",
+        "steps": [
+          "Rf=.50。",
+          "cm/cm相消，不带cm。"
+        ],
+        "ans": "0.50，无单位。",
+        "verification": "斑点在前沿一半位置符合。",
+        "pitfall": "把3 cm当Rf或保留cm。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.4",
+        "related_sections": []
+      },
+      {
+        "q": "理论产物5.0 g，收得粗产物5.5 g，能宣布产率110%且合成创造物质吗？",
+        "given": "未测纯度与残留溶剂。",
+        "analysis": "粗质量不是纯目标量。",
+        "method": "先查杂质并求纯目标产率。",
+        "principle": "守恒与产物纯度。",
+        "steps": [
+          "5.5/5.0=110%是表观粗质量比。",
+          "可能含溶剂或副产物，需纯化/定量，不能称纯产率或物质创造。"
+        ],
+        "ans": "不能，应调查纯度和干燥等。",
+        "verification": "加入非目标质量足以解释超理论。",
+        "pitfall": "把容器中所有质量都算目标产物。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.4",
+        "related_sections": []
+      },
+      {
+        "q": "候选为乙醇或二甲醚，分子式均C₂H₆O；题设可靠证据显示有与H相连的O，能排除哪一个？",
+        "given": "只使用题给连接证据。",
+        "analysis": "分子式不区分，OH连接可区分。",
+        "method": "比较候选结构。",
+        "principle": "乙醇有O—H，二甲醚O连两C。",
+        "steps": [
+          "乙醇CH₃CH₂OH符合。",
+          "二甲醚CH₃OCH₃不含O—H，因此排除。"
+        ],
+        "ans": "排除二甲醚，支持乙醇候选。",
+        "verification": "结论限定这两个候选，不声称在全世界所有物质中唯一。",
+        "pitfall": "仅凭分子量46就直接确定乙醇。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "Rf相同能无条件证明是同一物质吗？",
+        "given": "仅给一个色谱条件的相同迁移。",
+        "analysis": "不同物质可能共迁移。",
+        "method": "补多条件或独立鉴别。",
+        "principle": "单一特征不一定唯一。",
+        "steps": [
+          "相同Rf表示该条件下迁移相似。",
+          "需其他色谱条件或结构证据支持身份。"
+        ],
+        "ans": "不能。",
+        "verification": "两个组分共迁移可呈一个斑点。",
+        "pitfall": "把单一比值当身份证。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.4",
+        "related_sections": []
+      },
+      {
+        "q": "两个完全互溶液体能靠形成上下两层进行普通分液萃取吗？",
+        "given": "相同条件下完全互溶。",
+        "analysis": "分液需相分离。",
+        "method": "检查溶剂体系。",
+        "principle": "液液萃取通常要求可分开的相。",
+        "steps": [
+          "完全互溶不形成所需稳定两层。",
+          "需改用合适体系或其他分离方法，并遵规范。"
+        ],
+        "ans": "不能按该两层模型直接操作。",
+        "verification": "无界面就没有题设的上下层分液。",
+        "pitfall": "只记分液漏斗名而忽略相性质。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.4",
+        "related_sections": []
+      },
+      {
+        "q": "某目标物受热易分解，简单加热至沸点一定适合纯化吗？",
+        "given": "稳定性不足。",
+        "analysis": "分离条件可改变物质本身。",
+        "method": "评估温压和替代方案。",
+        "principle": "纯化需保留目标物化学身份。",
+        "steps": [
+          "加热可能先分解再挥发。",
+          "需可靠条件与合适方法，不能只用沸点差决定。"
+        ],
+        "ans": "不一定。",
+        "verification": "若目标被破坏，收集到的不是原物。",
+        "pitfall": "只比较沸点不审热稳定性。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.4",
+        "related_sections": []
+      },
+      {
+        "q": "理论6.5 g，实收6.0 g粗样纯度86.7%，估纯产物产率。",
+        "given": "纯度指目标物质量分数，按题给数。",
+        "analysis": "先扣除杂质质量。",
+        "method": "m纯=m粗×纯度，再除理论。",
+        "principle": "产率应以目标物量比较。",
+        "steps": [
+          "m纯=6.0×.867=5.202 g。",
+          "产率5.202/6.5×100%≈80.0%。"
+        ],
+        "ans": "约80%。",
+        "verification": "若错用粗量会得92.3%，明显忽略杂质。",
+        "pitfall": "把纯度86.7%直接当产率。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "一条仪器信号支持某官能团，是否可以跳过全部其他证据宣布唯一分子结构？",
+      "given": "没有完整谱或候选约束。",
+      "analysis": "局部特征不唯一决定整体。",
+      "method": "列剩余骨架与连接不确定。",
+      "principle": "结构鉴定通常综合多证据。",
+      "steps": [
+        "同官能团可存在于多种分子。",
+        "需组成、分子量和其他连接信息排除候选。"
+      ],
+      "ans": "不能无条件。",
+      "verification": "乙醇与其他醇均可有O—H。",
+      "pitfall": "把官能团信号当完整结构图。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 26,
+      "primary_section": "26.4",
+      "related_sections": []
+    },
+    "exam": [
+      "研究题明确每项证据能回答哪层问题，结论不超范围",
+      "色谱题保持同相同条件，Rf无单位且不是唯一身份",
+      "产率题先辨粗样、纯度与目标量，再按配平理论量计算"
+    ],
+    "quick": [
+      "分离纯化",
+      "组成分子式",
+      "结构证据",
+      "候选排除",
+      "产率与报告"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 13,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_26.4",
+        "url": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+        "page_or_section": "4-4-reaction-yields",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "IUPAC_Rf",
+        "url": "https://goldbook.iupac.org/terms/view/R05353/html",
+        "page_or_section": "retardation factor in planar chromatography",
+        "version": "IUPAC术语定义；非2027范围",
+        "access_date": "2026-11-18",
+        "verification_status": "verified_definition"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 13,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_26.4",
+        "url": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+        "page_or_section": "4-4-reaction-yields",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "IUPAC_Rf",
+        "url": "https://goldbook.iupac.org/terms/view/R05353/html",
+        "page_or_section": "retardation factor in planar chromatography",
+        "version": "IUPAC术语定义；非2027范围",
+        "access_date": "2026-11-18",
+        "verification_status": "verified_definition"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "研究题明确每项证据能回答哪层问题，结论不超范围",
+      "method": "比较候选结构。",
+      "principle": "乙醇有O—H，二甲醚O连两C。",
+      "worked_example_index": 2,
+      "verification": "结论限定这两个候选，不声称在全世界所有物质中唯一。",
+      "pitfall": "仅凭分子量46就直接确定乙醇。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e1",
+        "review_module": 4,
+        "feedback": "目标“把分离纯化、组成与结构证据分层”的抽样复核：加入非目标质量足以解释超理论。；若出现“把容器中所有质量都算目标产物。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“由多项资料作有限且可检验的推断”的抽样复核：结论限定这两个候选，不声称在全世界所有物质中唯一。；若出现“仅凭分子量46就直接确定乙醇。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把官能团信号当完整结构图。",
+        "correction": "不能无条件。",
+        "verification": "乙醇与其他醇均可有O—H。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "有机鉴定的证据层级",
+      "objects": [
+        "混合样",
+        "分离",
+        "元素分析",
+        "相对分子质量",
+        "结构候选",
+        "色谱板"
+      ],
+      "relations": [
+        "Rf为同起点距离比",
+        "一个斑点不必纯",
+        "分子式不直接唯一连接",
+        "产率先扣杂质"
+      ],
+      "labels": [
+        "Rf=3/6=0.50",
+        "粗样",
+        "纯度",
+        "最简式",
+        "分子式",
+        "连接证据"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "无整体对应图；色谱距离须精确",
+      "english": "Show an evidence hierarchy from separation and purity to elemental composition, molecular formula and connectivity tests. Draw a chromatogram with spot travel 3 cm and solvent front 6 cm from the same baseline, Rf=0.50; state that one spot or one matching Rf is not proof of purity or identity."
+    }
+  },
+  "26.5": {
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 26,
+    "section_id": "26.5",
+    "goals": [
+      "从结构性能用途解释技术价值",
+      "依据收支和证据评价所谓绿色创新"
+    ],
+    "prerequisites": [
+      "有机结构与材料",
+      "产率与系统边界"
+    ],
+    "flow": [
+      "合成与身份",
+      "结构设计",
+      "材料与药物",
+      "绿色工艺",
+      "生命周期证据"
+    ],
+    "concept_relation": "合成与身份；结构设计；材料与药物；绿色工艺；生命周期证据",
+    "deep": [
+      "聚合物把小单元连接成长链，为纤维、塑料及其他材料提供广泛性质。相同重复单元的材料还可因链长、支化、结晶和加工而表现不同，后续聚合物章节会系统展开；本节先说明结构层次与宏观性能之间的联系。",
+      "药物研发不只是找到能在试管中反应的分子，还需评估选择性、体内过程、安全与临床效果。细胞实验中抑制某过程是证据链的一部分，不足以证明人体疗效；教学例子不提供个体医疗判断。",
+      "绿色化学关注从源头减少危害与资源负担，可涉及催化、减少副产物、较低能耗与更安全原料。高产率不等于所有原子都进入目标产物，天然原料也不保证生命周期负担低；评价需有明确功能单位和边界。",
+      "分析“新材料更环保”的宣传，要看原料、制造、使用、回收和最终处置，区分可生物降解、可堆肥及可回收的条件。标签若缺温度、环境、时间和处理设施，不能从一个词推断在海洋或家中任何条件都会迅速无害消失。"
+    ],
+    "derive": [
+      "产率衡量目标产物实际量/理论量；原子利用等工艺指标衡量另一个维度，不能互代。",
+      "给定工艺物料收支：输入质量=目标产物+副产物+未反应/损失等相应项，边界要完整。",
+      "技术评价：结构与机制 → 可测性能 → 使用条件 → 安全与环境 → 生命周期与证据限制。"
+    ],
+    "examples": [
+      {
+        "q": "实验室合成的纯乙醇与天然发酵分离的纯乙醇，若结构与同位素等相关条件按题忽略，是否仅因来源不同而是两种化学物质？",
+        "given": "比较同样纯度、相同组成连接的理想样品。",
+        "analysis": "化学身份不能只按来源。",
+        "method": "按组成结构比较。",
+        "principle": "同一物质的关键身份由化学结构等确定。",
+        "steps": [
+          "二者均CH₃CH₂OH。",
+          "实际杂质可不同，但题设纯样条件下不能因合成/天然就判不同物质。"
+        ],
+        "ans": "不能仅因来源判为不同物质。",
+        "verification": "来源信息不改变题给连接。",
+        "pitfall": "天然与合成必有完全不同化学式。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.5",
+        "related_sections": []
+      },
+      {
+        "q": "两工艺各投入100 kg原料，甲目标产物60 kg、副产物40 kg；乙目标80 kg、副20 kg，能仅据此认定乙在所有环境指标更好？",
+        "given": "只给此物料边界，未给危害与能源。",
+        "analysis": "较高目标质量比例是一个指标。",
+        "method": "先算比例，再列其他维度。",
+        "principle": "环境评价涉及毒性、能耗与处置等。",
+        "steps": [
+          "目标比例甲60%、乙80%。",
+          "乙在该质量指标较好，但原料危害、能耗、溶剂及寿命未知。"
+        ],
+        "ans": "不能全面断言。",
+        "verification": "乙可能用更危险原料或更高能耗，当前数据无法排除。",
+        "pitfall": "一个高百分比替代整体环境评价。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.5",
+        "related_sections": []
+      },
+      {
+        "q": "材料标注“可降解”，能保证在任何环境短时间完全无害消失吗？",
+        "given": "无测试条件、时间与产物资料。",
+        "analysis": "术语有条件且降解产物仍需评价。",
+        "method": "要求测试环境和证据。",
+        "principle": "降解取决温湿度、微生物与材料结构等。",
+        "steps": [
+          "明确工业堆肥、土壤或其他环境及时间。",
+          "检测降解程度与产物，不能把标签推广海洋等所有条件。"
+        ],
+        "ans": "不能保证。",
+        "verification": "同材料在干冷或无适宜微生物处可表现不同。",
+        "pitfall": "把有条件声明转成绝对环保承诺。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.5",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "天然提取物是否一定无毒？",
+        "given": "无剂量和成分分析。",
+        "analysis": "来源不决定全部风险。",
+        "method": "核具体物质、纯度与暴露。",
+        "principle": "风险与危害及暴露有关。",
+        "steps": [
+          "天然物也可有强生物活性或毒性。",
+          "需证据评价，不可由天然二字保证安全。"
+        ],
+        "ans": "不一定。",
+        "verification": "同样的分子不因来源天然就失去毒性。",
+        "pitfall": "天然等于安全。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.5",
+        "related_sections": []
+      },
+      {
+        "q": "催化剂让反应更快，是否把平衡常数任意提高？",
+        "given": "同一反应温度，讨论通常催化。",
+        "analysis": "动力学与平衡不同。",
+        "method": "区分路径活化与终态。",
+        "principle": "催化改变速率途径，不改变相同温度的平衡常数。",
+        "steps": [
+          "可使更快接近平衡。",
+          "不能由此说平衡组成必向目标移动。"
+        ],
+        "ans": "不会仅靠催化任意改K。",
+        "verification": "正逆过程均可加快。",
+        "pitfall": "把快与平衡产率混同。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.5",
+        "related_sections": []
+      },
+      {
+        "q": "某药物候选在细胞实验有效，是否已可直接宣称人体治疗有效？",
+        "given": "缺体内与临床证据。",
+        "analysis": "层次外推受限。",
+        "method": "列安全、到达浓度及临床验证。",
+        "principle": "体外作用不等于人体结局。",
+        "steps": [
+          "需看选择性、吸收代谢和毒性等。",
+          "经相应研究才能评价人体有效性。"
+        ],
+        "ans": "不能直接宣称。",
+        "verification": "试管所需浓度可能人体不可安全达到。",
+        "pitfall": "用一个实验跳过完整证据链。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.5",
+        "related_sections": []
+      },
+      {
+        "q": "工艺投入50 kg，可回收未反应原料10 kg，目标产品30 kg、副产物10 kg，检查物料收支；能把10 kg回收量直接算成产品吗？",
+        "given": "边界包含回收原料。",
+        "analysis": "回收与目标产物不同类别。",
+        "method": "总量相加并分类。",
+        "principle": "质量守恒不抹平物质身份。",
+        "steps": [
+          "10+30+10=50 kg，收支相符。",
+          "产品为30 kg，回收原料仍非产品，后续循环须另核实际转化。"
+        ],
+        "ans": "收支相符；不能算40 kg产品。",
+        "verification": "分类总和守恒而目标量独立。",
+        "pitfall": "把回收原料充当已转化产物。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 26,
+        "primary_section": "26.5",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "一种新聚合物强度提高，就能断言可回收性、毒性和碳足迹同时改善吗？",
+      "given": "只知力学指标。",
+      "analysis": "不同指标可能有权衡。",
+      "method": "要求各自测量与生命周期边界。",
+      "principle": "结构性能关联不提供所有环境结果。",
+      "steps": [
+        "强度需相应力学测试。",
+        "回收、危害与排放要各自证据，不能从强度单指标推出。"
+      ],
+      "ans": "不能。",
+      "verification": "更强交联可能反而更难某些回收处理。",
+      "pitfall": "一项创新等于全面无代价提升。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 26,
+      "primary_section": "26.5",
+      "related_sections": []
+    },
+    "exam": [
+      "进展题写结构、机制、价值和限制，不堆未核年代",
+      "绿色评价把产率、原料危害、能耗与处置分开",
+      "证据题限定体外/体内与使用条件，不能将标签当完整验证"
+    ],
+    "quick": [
+      "合成与身份",
+      "结构设计",
+      "材料与药物",
+      "绿色工艺",
+      "生命周期证据"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 13,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_26.5",
+        "url": "https://www.acs.org/green-chemistry-sustainability/principles/12-principles-of-green-chemistry.html",
+        "page_or_section": "12-principles-of-green-chemistry.html",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 13,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_26.5",
+        "url": "https://www.acs.org/green-chemistry-sustainability/principles/12-principles-of-green-chemistry.html",
+        "page_or_section": "12-principles-of-green-chemistry.html",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "进展题写结构、机制、价值和限制，不堆未核年代",
+      "method": "要求测试环境和证据。",
+      "principle": "降解取决温湿度、微生物与材料结构等。",
+      "worked_example_index": 2,
+      "verification": "同材料在干冷或无适宜微生物处可表现不同。",
+      "pitfall": "把有条件声明转成绝对环保承诺。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“从结构性能用途解释技术价值”的抽样复核：来源信息不改变题给连接。；若出现“天然与合成必有完全不同化学式。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“依据收支和证据评价所谓绿色创新”的抽样复核：同材料在干冷或无适宜微生物处可表现不同。；若出现“把有条件声明转成绝对环保承诺。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "一项创新等于全面无代价提升。",
+        "correction": "不能。",
+        "verification": "更强交联可能反而更难某些回收处理。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "有机创新的多指标评价",
+      "objects": [
+        "分子结构",
+        "性能测试",
+        "物料收支",
+        "能源输入",
+        "使用与处置",
+        "证据阶梯"
+      ],
+      "relations": [
+        "来源不决定安全",
+        "产率不等同完整环境表现",
+        "降解条件须标明"
+      ],
+      "labels": [
+        "结构—性能",
+        "目标产物",
+        "副产物",
+        "能耗",
+        "条件与时间",
+        "证据范围"
+      ],
+      "format": "SVG",
+      "priority": "P2",
+      "reuse": "不需辅助插画替代科学关系；可用清晰结构图",
+      "english": "Map organic innovation from molecular structure to measured performance, material balance, energy use and end-of-life conditions. Distinguish natural origin from safety, reaction yield from overall environmental performance, and conditional degradability from universal harmless disappearance."
+    }
+  }
+}

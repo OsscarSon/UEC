@@ -1,0 +1,1211 @@
+{
+  "4.1": {
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 4,
+    "section_id": "4.1",
+    "goals": [
+      "以实数范围定义根式与定义域",
+      "解释主平方根和绝对值的关系"
+    ],
+    "prerequisites": [
+      "实数与平方",
+      "绝对值与不等式"
+    ],
+    "flow": [
+      "根的次数",
+      "主根非负",
+      "定义域",
+      "绝对值",
+      "等价条件"
+    ],
+    "concept_relation": "根的次数；主根非负；定义域；绝对值；等价条件",
+    "deep": [
+      "由非负主根定义，√(x²)=|x|，而不是对所有实数x都等于x。若x≥0可写x，若x<0应写−x。绝对值是在保证结果非负，不是多余装饰符号；这也是许多根式化简漏符号的来源。",
+      "确定定义域是化简与方程的前提。等式变形可能把原限制隐藏，例如√(x²)在所有实数有定义，而把它错写x会在负区改变值；约去分母因子也不能把原来分母为零的点重新加回。",
+      "含多个根式或分母时，把每一条件分别列出再取交集。对于√((x−1)/(x+2))，需要分式非负且x≠−2，不能把分子分母都强制非负，因为同为负也能使商非负。",
+      "图象或数值验证可发现错误，但不能代替全域证明。试x=−2能否定√(x²)=x，却不能用几个正数样本证明等式总成立；证明应回到非负主根和分段定义。"
+    ],
+    "derive": [
+      "实数范围：偶次根要求被开方数≥0，奇次根可为任意实数；分母另需非零。",
+      "√(x²)=|x|={x（x≥0），−x（x<0）}。",
+      "若√g(x)在分母，需g(x)>0；若分母还含其他项，需直接检查整个分母，而非一律令每项正。"
+    ],
+    "examples": [
+      {
+        "q": "求√49，并解方程x²=49，二者答案为什么不同形式？",
+        "given": "实数范围，√为主平方根。",
+        "analysis": "一个是定义的单值函数，一个是方程全部解。",
+        "method": "用非负根和平方对称性。",
+        "principle": "√a≥0，但x²相同可来自±x。",
+        "steps": [
+          "√49=7。",
+          "方程有x=7或x=−7，两者平方均49。"
+        ],
+        "ans": "主根7；方程解±7。",
+        "verification": "−7不是√49的值，却是方程的解。",
+        "pitfall": "把根号值写±7。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 4,
+        "primary_section": "4.1",
+        "related_sections": []
+      },
+      {
+        "q": "化简√((x−3)²)，并求x=1时的值。",
+        "given": "x任意实数。",
+        "analysis": "主根需非负。",
+        "method": "先写绝对值再分段或代入。",
+        "principle": "√y²=|y|。",
+        "steps": [
+          "原式=|x−3|。",
+          "x=1得|−2|=2；分段为x≥3时x−3，x<3时3−x。"
+        ],
+        "ans": "|x−3|，x=1时2。",
+        "verification": "直接√((1−3)²)=√4=2。",
+        "pitfall": "去根号后直接写x−3导致−2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 4,
+        "primary_section": "4.1",
+        "related_sections": []
+      },
+      {
+        "q": "求√((x−1)/(x+2))的实数定义域。",
+        "given": "分母x+2不能为0。",
+        "analysis": "商非负有两个符号区间。",
+        "method": "列临界点−2、1并作号表。",
+        "principle": "偶次根要求商≥0，分母非零。",
+        "steps": [
+          "x<−2时分子分母均负，商正。",
+          "−2<x<1时商负；x≥1时商非负。",
+          "−2排除，1可取。"
+        ],
+        "ans": "(−∞,−2)∪[1,+∞)。",
+        "verification": "x=−3时商4、根为2；x=0时商−1/2不可；x=1时根0可。",
+        "pitfall": "只取分子分母各自非负而漏x<−2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 4,
+        "primary_section": "4.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "√0、∛(−27)、√(−4)在实数内各怎样？",
+        "given": "偶根与奇根规则。",
+        "analysis": "先判定义再求值。",
+        "method": "按根的次数。",
+        "principle": "偶次平方非负，奇次立方可负。",
+        "steps": [
+          "√0=0，∛(−27)=−3。",
+          "√(−4)在实数内无定义。"
+        ],
+        "ans": "0、−3、无实数定义。",
+        "verification": "0²=0、(−3)³=−27。",
+        "pitfall": "把所有负被开方数都视为无定义。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 4,
+        "primary_section": "4.1",
+        "related_sections": []
+      },
+      {
+        "q": "1/√(2x−6)定义域？",
+        "given": "根式位于整个分母。",
+        "analysis": "被开方为零仍使分母零。",
+        "method": "2x−6>0。",
+        "principle": "实根与非零分母同时。",
+        "steps": [
+          "2x>6。",
+          "x>3，3不取。"
+        ],
+        "ans": "(3,+∞)。",
+        "verification": "x=3给零分母，x=4可。",
+        "pitfall": "只写x≥3。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 4,
+        "primary_section": "4.1",
+        "related_sections": []
+      },
+      {
+        "q": "x<0时√(9x²)怎样化简？",
+        "given": "已知x负。",
+        "analysis": "根式提出系数但保留绝对值。",
+        "method": "3|x|再用符号。",
+        "principle": "主根非负。",
+        "steps": [
+          "√(9x²)=3|x|。",
+          "x<0时|x|=−x，故−3x。"
+        ],
+        "ans": "−3x。",
+        "verification": "x=−2时结果6，与√36相同。",
+        "pitfall": "写3x为负。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 4,
+        "primary_section": "4.1",
+        "related_sections": []
+      },
+      {
+        "q": "求√(x+1)+1/(x−2)定义域，并判断化简后能否补入x=2。",
+        "given": "两个限制同时存在。",
+        "analysis": "根式与分母分别列。",
+        "method": "x+1≥0且x−2≠0。",
+        "principle": "定义域为条件交集。",
+        "steps": [
+          "x≥−1。",
+          "排除2，得[−1,2)∪(2,+∞)；任何等价化简仍保留原排除。"
+        ],
+        "ans": "[−1,2)∪(2,+∞)，不能补2。",
+        "verification": "−1可取根号0，2不可因分母0。",
+        "pitfall": "只查根号忘分母。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 4,
+        "primary_section": "4.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "有人用x=1、2、3证明√(x²)=x对所有实数成立，怎样完整纠正？",
+      "given": "只验证正数。",
+      "analysis": "样本不足且负数反例。",
+      "method": "反例后给一般恒等式。",
+      "principle": "主平方根非负。",
+      "steps": [
+        "x=−1时左1右−1，原命题假。",
+        "正确为√x²=|x|，用x符号分段说明。"
+      ],
+      "ans": "应改为|x|并分正负。",
+      "verification": "绝对值总非负且平方为x²，满足主根定义。",
+      "pitfall": "用有限正样本代替全域证明。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 4,
+      "primary_section": "4.1",
+      "related_sections": []
+    },
+    "exam": [
+      "根式题先写实数范围和定义域，偶根与奇根分开",
+      "去平方根必须保留非负性，用绝对值或符号条件",
+      "分式根号题作号表取交集，分母零点明确排除"
+    ],
+    "quick": [
+      "根的次数",
+      "主根非负",
+      "定义域",
+      "绝对值",
+      "等价条件"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_4.1",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-3-radicals-and-rational-exponents",
+        "page_or_section": "1-3-radicals-and-rational-exponents",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_4.1",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-3-radicals-and-rational-exponents",
+        "page_or_section": "1-3-radicals-and-rational-exponents",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "根式题先写实数范围和定义域，偶根与奇根分开",
+      "method": "列临界点−2、1并作号表。",
+      "principle": "偶次根要求商≥0，分母非零。",
+      "worked_example_index": 2,
+      "verification": "x=−3时商4、根为2；x=0时商−1/2不可；x=1时根0可。",
+      "pitfall": "只取分子分母各自非负而漏x<−2。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e2",
+        "review_module": 4,
+        "feedback": "目标“以实数范围定义根式与定义域”的抽样复核：x=−3时商4、根为2；x=0时商−1/2不可；x=1时根0可。；若出现“只取分子分母各自非负而漏x<−2。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e1",
+        "review_module": 5,
+        "feedback": "目标“解释主平方根和绝对值的关系”的抽样复核：直接√((1−3)²)=√4=2。；若出现“去根号后直接写x−3导致−2。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "用有限正样本代替全域证明。",
+        "correction": "应改为|x|并分正负。",
+        "verification": "绝对值总非负且平方为x²，满足主根定义。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "主平方根与定义域",
+      "objects": [
+        "y=√(x²)=|x|图",
+        "x²=a的两根",
+        "分式号表",
+        "排除点"
+      ],
+      "relations": [
+        "根号输出非负",
+        "偶次根需非负",
+        "分母不能零",
+        "号表保留x<−2"
+      ],
+      "labels": [
+        "√x²=|x|",
+        "x=±7为方程解",
+        "−2",
+        "1",
+        "定义域"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "数学暂无合格对应图；必须确定性绘制",
+      "english": "Draw the exact V-shaped graph y=sqrt(x^2)=abs(x), distinguish the principal root sqrt(49)=7 from equation solutions ±7, and show a sign chart for (x-1)/(x+2) with -2 excluded and 1 included."
+    }
+  },
+  "4.2": {
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 4,
+    "section_id": "4.2",
+    "goals": [
+      "用根式定义有理指数并注明底数条件",
+      "正确处理负指数与指数运算的边界"
+    ],
+    "prerequisites": [
+      "根式定义",
+      "整数指数"
+    ],
+    "flow": [
+      "有理指数定义",
+      "正底数",
+      "负指数倒数",
+      "指数律",
+      "负底数边界"
+    ],
+    "concept_relation": "有理指数定义；正底数；负指数倒数；指数律；负底数边界",
+    "deep": [
+      "正底数下可使用a^r a^s=a^(r+s)、a^r/a^s=a^(r−s)、(a^r)^s=a^(rs)。这些规则的实数扩展对负底数需要额外审查，不能把含偶根的运算当所有形式都等价。",
+      "负底数的某些有理幂可以用约分后的奇次根定义，例如(−8)^(1/3)=−2；若指数分母偶数则通常无实数值。写同一有理数为不同未约分形式后套用偶根，可能改变定义步骤，故必须先约分并明确约定，或将题目限定正底数。",
+      "解指数与根式混合题先确认定义域，再选择指数法或根式法。消去负指数可使分母限制更清楚，但形式上的约分不允许把原来无定义的底数0放回。",
+      "验算应选满足条件的值并回到定义，不能让计算器的复数结果或程序使用的幂函数约定悄悄替换实数问题。对负底数有疑问时，写成明确的奇次根往往更稳妥。"
+    ],
+    "derive": [
+      "a>0时，a^(m/n)=ⁿ√(a^m)，指数先视为约分的有理数，n>0。",
+      "a≠0时a^(−r)=1/a^r；a>0时常用指数律在本节有理指数范围成立。",
+      "负底数只在相应实根有意义并明确约定时处理；(−8)^(1/3)=−2，而(−8)^(1/2)无实数值。"
+    ],
+    "examples": [
+      {
+        "q": "求27^(2/3)，解释分子分母的作用。",
+        "given": "底数正。",
+        "analysis": "先立方根再平方。",
+        "method": "(∛27)²。",
+        "principle": "分母为根次数，分子为幂次数。",
+        "steps": [
+          "∛27=3。",
+          "3²=9。"
+        ],
+        "ans": "9。",
+        "verification": "9³=729=27²。",
+        "pitfall": "算成27²/3。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 4,
+        "primary_section": "4.2",
+        "related_sections": []
+      },
+      {
+        "q": "求16^(−3/4)。",
+        "given": "底数正非零。",
+        "analysis": "负号表示倒数，不是结果负。",
+        "method": "先四次根与立方，再取倒数。",
+        "principle": "a^(−r)=1/a^r。",
+        "steps": [
+          "16^(1/4)=2，16^(3/4)=8。",
+          "原式=1/8。"
+        ],
+        "ans": "1/8。",
+        "verification": "乘16^(3/4)=8得1。",
+        "pitfall": "答−8或−1/8。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 4,
+        "primary_section": "4.2",
+        "related_sections": []
+      },
+      {
+        "q": "有人由((−1)²)^(1/2)=(−1)^(2×1/2)推出1=−1，哪一步越过条件？",
+        "given": "底数为负，外层平方根取非负主根。",
+        "analysis": "幂的幂法则不能无条件用于该负底数扩展。",
+        "method": "分别按定义计算并查条件。",
+        "principle": "实数主根使√x²=|x|。",
+        "steps": [
+          "左边√1=1。",
+          "右边(−1)^1=−1；把幂律从正底数推广到此例不合法。"
+        ],
+        "ans": "错误在无条件合并指数。",
+        "verification": "正确左式等于|−1|=1，不造成矛盾。",
+        "pitfall": "只背指数律不检查底数与根定义。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 4,
+        "primary_section": "4.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "81^(3/4)是多少？",
+        "given": "正底数。",
+        "analysis": "四次根后立方。",
+        "method": "(⁴√81)³。",
+        "principle": "有理指数定义。",
+        "steps": [
+          "⁴√81=3。",
+          "3³=27。"
+        ],
+        "ans": "27。",
+        "verification": "27⁴=81³。",
+        "pitfall": "把分母当除数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 4,
+        "primary_section": "4.2",
+        "related_sections": []
+      },
+      {
+        "q": "a>0，a^(1/2)×a^(3/2)化简。",
+        "given": "底数同且为正。",
+        "analysis": "同底数乘法加指数。",
+        "method": "1/2+3/2=2。",
+        "principle": "指数律适用。",
+        "steps": [
+          "指数和2。",
+          "结果a²。"
+        ],
+        "ans": "a²。",
+        "verification": "a=4时2×8=16。",
+        "pitfall": "指数相乘而非相加。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 4,
+        "primary_section": "4.2",
+        "related_sections": []
+      },
+      {
+        "q": "0^(−1/2)在实数内是否有定义？",
+        "given": "负指数要求倒数。",
+        "analysis": "根可0但倒数不可。",
+        "method": "写1/√0。",
+        "principle": "分母不得为0。",
+        "steps": [
+          "√0=0。",
+          "1/0无定义。"
+        ],
+        "ans": "无定义。",
+        "verification": "0的正1/2次幂有定义，不可混淆。",
+        "pitfall": "见根号0就说全部可算。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 4,
+        "primary_section": "4.2",
+        "related_sections": []
+      },
+      {
+        "q": "a>0，(a^(3/2)/a^(1/2))^(−2)化简并说明条件。",
+        "given": "同一正底数。",
+        "analysis": "先同底数相除再幂。",
+        "method": "指数差1后取负二次幂。",
+        "principle": "正底数指数律及倒数。",
+        "steps": [
+          "里面a^(3/2−1/2)=a。",
+          "a^(−2)=1/a²，a>0保留。"
+        ],
+        "ans": "1/a²，a>0。",
+        "verification": "a=2时(√8/√2)⁻²=2⁻²=1/4。",
+        "pitfall": "化简后擅自加回a=0或负底数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 4,
+        "primary_section": "4.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "对正底数a，有a^(1/2)+a^(1/2)=a¹吗？",
+      "given": "是加法而非同底数乘法。",
+      "analysis": "指数律适用运算类型不同。",
+      "method": "合并同类根式。",
+      "principle": "a^r×a^s才加指数。",
+      "steps": [
+        "和为2a^(1/2)。",
+        "取a=9，左6而a¹=9，否定原式。"
+      ],
+      "ans": "不对，应为2√a。",
+      "verification": "与两个相同项相加的代数规则一致。",
+      "pitfall": "把乘法指数律套进加法。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 4,
+      "primary_section": "4.2",
+      "related_sections": []
+    },
+    "exam": [
+      "指数题先圈底数和完整指数，负指数先辨倒数",
+      "合并前写条件，正底数规则不能无条件推负底数",
+      "加减只合并同类项，不把乘除指数律跨运算使用"
+    ],
+    "quick": [
+      "有理指数定义",
+      "正底数",
+      "负指数倒数",
+      "指数律",
+      "负底数边界"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_4.2",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-3-radicals-and-rational-exponents",
+        "page_or_section": "1-3-radicals-and-rational-exponents",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_4.2",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-3-radicals-and-rational-exponents",
+        "page_or_section": "1-3-radicals-and-rational-exponents",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "指数题先圈底数和完整指数，负指数先辨倒数",
+      "method": "分别按定义计算并查条件。",
+      "principle": "实数主根使√x²=|x|。",
+      "worked_example_index": 2,
+      "verification": "正确左式等于|−1|=1，不造成矛盾。",
+      "pitfall": "只背指数律不检查底数与根定义。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用根式定义有理指数并注明底数条件”的抽样复核：9³=729=27²。；若出现“算成27²/3。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e1",
+        "review_module": 5,
+        "feedback": "目标“正确处理负指数与指数运算的边界”的抽样复核：乘16^(3/4)=8得1。；若出现“答−8或−1/8。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把乘法指数律套进加法。",
+        "correction": "不对，应为2√a。",
+        "verification": "与两个相同项相加的代数规则一致。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "有理指数与条件",
+      "objects": [
+        "a^(m/n)与根式对应",
+        "27^(2/3)",
+        "16^(−3/4)",
+        "正负底数边界"
+      ],
+      "relations": [
+        "分母开根分子幂",
+        "负指数取倒数",
+        "正底数指数律有条件"
+      ],
+      "labels": [
+        "a>0",
+        "n为正整数",
+        "1/a^r",
+        "27^(2/3)=9",
+        "实数范围"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "暂无对应旧图；公式需文字层和准确上下标",
+      "english": "Explain rational exponents for positive bases: denominator as root index and numerator as power. Show 27^(2/3)=9 and 16^(-3/4)=1/8. State nonzero conditions for negative exponents and warn that power-of-a-power rules cannot be extended blindly to negative bases and principal even roots."
+    }
+  },
+  "4.3": {
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 4,
+    "section_id": "4.3",
+    "goals": [
+      "在定义域内化简与合并根式",
+      "保留绝对值并解释平方变形风险"
+    ],
+    "prerequisites": [
+      "根式与有理指数",
+      "分配律"
+    ],
+    "flow": [
+      "定义域",
+      "提出平方因子",
+      "同类项",
+      "交叉项",
+      "平方与增根"
+    ],
+    "concept_relation": "定义域；提出平方因子；同类项；交叉项；平方与增根",
+    "deep": [
+      "根式乘法遵守分配律，并需处理交叉项。平方(a+b)²=a²+2ab+b²，根式里的平方也不能漏2ab。比如(√3+√2)²=5+2√6，不是5。",
+      "涉及变量符号时可分区间化简绝对值。若同时有|x−1|和|x+1|，以−1、1分段，每段才有确定去符号形式。多个根号的定义域与分段条件应同时保留，不可只给一个看似短的式子。",
+      "方程中两边平方通常只保证原解满足平方后的式子，反向可能引入额外解。需先检查根号一侧非负等条件，得到候选后代回原式；简化恒等式与解方程中的变形逻辑应分开。",
+      "检验可用近似估值、代入边界和反例辅助，最终仍应给代数依据。把√2+√3估成约3.146，而√5约2.236，可以快速发现误合并；但数值接近不能作为恒等证明。"
+    ],
+    "derive": [
+      "a,b≥0时√a√b=√(ab)；a≥0、b>0时√a/√b=√(a/b)。",
+      "√(x²)=|x|；(√a+√b)²=a+b+2√(ab)，a,b≥0。",
+      "解含根式方程：定义域与符号 → 隔离根式 → 平方求候选 → 代回原式排除增根。"
+    ],
+    "examples": [
+      {
+        "q": "化简√72−√32+√8。",
+        "given": "均为非负常数根式。",
+        "analysis": "先提出平方因子。",
+        "method": "分别化为√2的倍数再合并。",
+        "principle": "乘法根式法则及同类项。",
+        "steps": [
+          "√72=6√2，√32=4√2，√8=2√2。",
+          "合为(6−4+2)√2=4√2。"
+        ],
+        "ans": "4√2。",
+        "verification": "近似8.485−5.657+2.828≈5.656=4√2。",
+        "pitfall": "直接根号内72−32+8。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 4,
+        "primary_section": "4.3",
+        "related_sections": []
+      },
+      {
+        "q": "展开(2√3−√2)²并验算。",
+        "given": "实数根式。",
+        "analysis": "交叉项有负号。",
+        "method": "a²−2ab+b²。",
+        "principle": "完全平方展开。",
+        "steps": [
+          "(2√3)²=12，(√2)²=2。",
+          "交叉项−4√6，合14−4√6。"
+        ],
+        "ans": "14−4√6。",
+        "verification": "原括号约2.050，平方约4.202；结果14−9.798≈4.202。",
+        "pitfall": "漏交叉项或把−√2平方成−2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 4,
+        "primary_section": "4.3",
+        "related_sections": []
+      },
+      {
+        "q": "解√(x+2)=x，说明平方后的两个候选如何筛选。",
+        "given": "实数范围。",
+        "analysis": "右侧也必须非负。",
+        "method": "先x≥0，再平方并代回。",
+        "principle": "主根非负；平方可能引增根。",
+        "steps": [
+          "平方得x+2=x²，(x−2)(x+1)=0，候选2、−1。",
+          "x=2满足√4=2；x=−1时√1=1≠−1，排除。"
+        ],
+        "ans": "x=2。",
+        "verification": "定义域x≥−2不够，等式还要求x≥0。",
+        "pitfall": "只检查被开方非负就保留−1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 4,
+        "primary_section": "4.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "√50+2√8化简。",
+        "given": "常数非负。",
+        "analysis": "先化简再合并。",
+        "method": "√50=5√2，√8=2√2。",
+        "principle": "同类根式系数相加。",
+        "steps": [
+          "原式=5√2+4√2。",
+          "合9√2。"
+        ],
+        "ans": "9√2。",
+        "verification": "平方或近似可核约12.728。",
+        "pitfall": "把2√8当√16。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 4,
+        "primary_section": "4.3",
+        "related_sections": []
+      },
+      {
+        "q": "x<0、y≥0，化简√(4x²y)。",
+        "given": "给定符号范围。",
+        "analysis": "提出|x|再用x<0。",
+        "method": "2|x|√y。",
+        "principle": "主根非负。",
+        "steps": [
+          "√(4x²y)=2|x|√y。",
+          "x<0得−2x√y。"
+        ],
+        "ans": "−2x√y。",
+        "verification": "x=−1、y=9时原6，结果6。",
+        "pitfall": "写2x√y为负。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 4,
+        "primary_section": "4.3",
+        "related_sections": []
+      },
+      {
+        "q": "√(−2)√(−8)=√16=4在实数题中合法吗？",
+        "given": "两个单独根式负被开方数。",
+        "analysis": "左式无实数定义。",
+        "method": "核法则前提。",
+        "principle": "平方根乘法法则要求各被开方非负。",
+        "steps": [
+          "√(−2)、√(−8)在实数内无定义。",
+          "故不能用乘积为正挽救原式。"
+        ],
+        "ans": "不合法。",
+        "verification": "若改讨论复数，运算约定也不能沿用该实数乘法结论。",
+        "pitfall": "只检查ab≥0而不查a,b本身。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 4,
+        "primary_section": "4.3",
+        "related_sections": []
+      },
+      {
+        "q": "化简√((x−1)²)+√((x+1)²)的全实数分段式。",
+        "given": "原式所有实数有定义。",
+        "analysis": "绝对值符号在±1处改变。",
+        "method": "转为|x−1|+|x+1|分段。",
+        "principle": "主根和绝对值定义。",
+        "steps": [
+          "x<−1：1−x−x−1=−2x。",
+          "−1≤x≤1：1−x+x+1=2。",
+          "x>1：x−1+x+1=2x。"
+        ],
+        "ans": "x<−1为−2x，中间为2，x>1为2x。",
+        "verification": "边界±1两侧都给2，连续且非负。",
+        "pitfall": "两个根号直接去掉得2x全域。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 4,
+        "primary_section": "4.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "“√(a+b)=√a+√b对a,b≥0都成立”，怎样用代数指出遗漏条件？",
+      "given": "两边有实数意义。",
+      "analysis": "平方右边出现交叉项。",
+      "method": "比较平方。",
+      "principle": "非负数相等可由平方等比较。",
+      "steps": [
+        "右边平方=a+b+2√ab。",
+        "要与左平方a+b相等，需ab=0；一般a,b都正时不成立。"
+      ],
+      "ans": "一般错误；在a,b≥0且至少一个为0时才成立。",
+      "verification": "a=b=1给√2≠2。",
+      "pitfall": "根号对加法当作可分配。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 4,
+      "primary_section": "4.3",
+      "related_sections": []
+    },
+    "exam": [
+      "运算题先化简根式再合并同类，变量提出平方保留绝对值",
+      "含根式方程平方后一定回原式，符号约束比根号域更强时要列出",
+      "证明题用展开交叉项或反例，别用几个近似值替代"
+    ],
+    "quick": [
+      "定义域",
+      "提出平方因子",
+      "同类项",
+      "交叉项",
+      "平方与增根"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_4.3",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-3-radicals-and-rational-exponents",
+        "page_or_section": "1-3-radicals-and-rational-exponents",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_4.3",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-3-radicals-and-rational-exponents",
+        "page_or_section": "1-3-radicals-and-rational-exponents",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "运算题先化简根式再合并同类，变量提出平方保留绝对值",
+      "method": "先x≥0，再平方并代回。",
+      "principle": "主根非负；平方可能引增根。",
+      "worked_example_index": 2,
+      "verification": "定义域x≥−2不够，等式还要求x≥0。",
+      "pitfall": "只检查被开方非负就保留−1。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“在定义域内化简与合并根式”的抽样复核：近似8.485−5.657+2.828≈5.656=4√2。；若出现“直接根号内72−32+8。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“保留绝对值并解释平方变形风险”的抽样复核：定义域x≥−2不够，等式还要求x≥0。；若出现“只检查被开方非负就保留−1。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "根号对加法当作可分配。",
+        "correction": "一般错误；在a,b≥0且至少一个为0时才成立。",
+        "verification": "a=b=1给√2≠2。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "根式运算的条件与交叉项",
+      "objects": [
+        "平方因子分解",
+        "√2同类项",
+        "完全平方交叉矩形",
+        "绝对值分段图",
+        "方程候选筛选"
+      ],
+      "relations": [
+        "保留2ab交叉项",
+        "提出x²为绝对值",
+        "平方候选−1需排除"
+      ],
+      "labels": [
+        "a,b≥0",
+        "√x²=|x|",
+        "2√ab",
+        "候选≠原解"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "无对应旧图；坐标和面积关系应确定性构图",
+      "english": "Illustrate extraction of square factors and like radicals, retain the 2ab cross term in a square-area model, and graph abs(x-1)+abs(x+1) with breakpoints -1 and 1. Show why squaring sqrt(x+2)=x gives an extraneous candidate -1 that must be rejected."
+    }
+  },
+  "4.4": {
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 4,
+    "section_id": "4.4",
+    "goals": [
+      "用共轭及乘法恒等式有理化",
+      "在等价变形中保留原定义域"
+    ],
+    "prerequisites": [
+      "根式运算",
+      "平方差与分式"
+    ],
+    "flow": [
+      "同乘非零因子",
+      "共轭平方差",
+      "单项根式",
+      "高次恒等式",
+      "原域保留"
+    ],
+    "concept_relation": "同乘非零因子；共轭平方差；单项根式；高次恒等式；原域保留",
+    "deep": [
+      "有理化因式不止限平方根共轭，某些高次根可用相应乘法恒等式，例如立方根项用a³−b³关系。是否在具体课程与题目中要求哪种形式需按教材与题设，本节基础以平方根及清楚给定的立方差示例为主。",
+      "含变量的分母要把根式定义域和整个分母非零条件先写出。化简后的式子可能在原排除点有值，这不代表原式已定义；等价是在共同的原定义域内，不能擅自扩域。",
+      "有理化还可帮助比较接近数、计算差值或把嵌套根式化为较简表达，但不能为了形式短而引入数值不稳定或漏掉符号。是否最终必须有理化取决题目要求，数学上原式有意义即为一个合法表达。",
+      "检查结果用分母乘回、代值和极限辅助。若分母由正数构成而结果明显为负，要回查共轭符号；若化简得0/0，在原式定义与所乘因子条件之间寻找问题，而非立即把值设0。"
+    ],
+    "derive": [
+      "a>0：1/√a=√a/a。",
+      "m,n≥0且m≠n时，1/(√m+√n)=(√m−√n)/(m−n)；m=n>0时应直接处理2√m。",
+      "(a−b)(a²+ab+b²)=a³−b³，可为特定立方根分母构造有理化因式。"
+    ],
+    "examples": [
+      {
+        "q": "有理化3/√5。",
+        "given": "分母√5非零。",
+        "analysis": "同乘√5。",
+        "method": "分子分母乘同一非零量。",
+        "principle": "√5×√5=5。",
+        "steps": [
+          "3/√5=(3√5)/(√5√5)。",
+          "得到3√5/5。"
+        ],
+        "ans": "3√5/5。",
+        "verification": "结果乘原分母√5得3。",
+        "pitfall": "只把分母改5而分子不变。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 4,
+        "primary_section": "4.4",
+        "related_sections": []
+      },
+      {
+        "q": "有理化1/(√3+√2)并验符号。",
+        "given": "分母正且共轭非零。",
+        "analysis": "用平方差。",
+        "method": "同乘√3−√2。",
+        "principle": "(a+b)(a−b)=a²−b²。",
+        "steps": [
+          "分母变3−2=1。",
+          "结果√3−√2。"
+        ],
+        "ans": "√3−√2。",
+        "verification": "约0.318，原1/(1.732+1.414)约0.318且为正。",
+        "pitfall": "把共轭差平方当3+2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 4,
+        "primary_section": "4.4",
+        "related_sections": []
+      },
+      {
+        "q": "化简(√x−1)/(x−1)，写定义域并解释为何不能补x=1。",
+        "given": "实数平方根。",
+        "analysis": "分母可因式分解，取消需非零。",
+        "method": "x−1=(√x−1)(√x+1)。",
+        "principle": "等价约分保留原排除点。",
+        "steps": [
+          "原域x≥0且x≠1。",
+          "约去非零√x−1得1/(√x+1)。",
+          "新式在1处可算1/2，但原式仍0/0无定义。"
+        ],
+        "ans": "1/(√x+1)，x≥0且x≠1。",
+        "verification": "x=4时原(2−1)/3=1/3，新式同；x=1仍排除。",
+        "pitfall": "约分后把可去间断点当原函数值。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 4,
+        "primary_section": "4.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "有理化2/(3√2)。",
+        "given": "常数分母非零。",
+        "analysis": "系数与根式分别处理。",
+        "method": "同乘√2再约分。",
+        "principle": "分式等价。",
+        "steps": [
+          "2√2/(3×2)=2√2/6。",
+          "约为√2/3。"
+        ],
+        "ans": "√2/3。",
+        "verification": "乘3√2得2。",
+        "pitfall": "把3也平方成9。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 4,
+        "primary_section": "4.4",
+        "related_sections": []
+      },
+      {
+        "q": "有理化1/(2−√3)。",
+        "given": "2−√3>0。",
+        "analysis": "同乘共轭2+√3。",
+        "method": "平方差。",
+        "principle": "4−3=1。",
+        "steps": [
+          "分子2+√3。",
+          "分母1，结果2+√3。"
+        ],
+        "ans": "2+√3。",
+        "verification": "(2−√3)(2+√3)=1。",
+        "pitfall": "只改根号号不同时改完整因子。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 4,
+        "primary_section": "4.4",
+        "related_sections": []
+      },
+      {
+        "q": "a>0，能对1/(√a+√a)同乘√a−√a吗？应怎样做？",
+        "given": "原分母2√a非零，共轭却0。",
+        "analysis": "所乘因子必须非零。",
+        "method": "先合并再单项有理化。",
+        "principle": "不能同乘0/0。",
+        "steps": [
+          "原式1/(2√a)。",
+          "乘√a/√a得√a/(2a)。"
+        ],
+        "ans": "不能乘零共轭；结果√a/(2a)。",
+        "verification": "a=1时为1/2，与原相符。",
+        "pitfall": "把共轭法无条件用于相同根式。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 4,
+        "primary_section": "4.4",
+        "related_sections": []
+      },
+      {
+        "q": "有理化1/(∛2−1)，给出乘因子并回乘。",
+        "given": "实数立方根，分母非零。",
+        "analysis": "使用立方差恒等式。",
+        "method": "设a=∛2，乘a²+a+1。",
+        "principle": "(a−1)(a²+a+1)=a³−1。",
+        "steps": [
+          "分母变2−1=1。",
+          "结果∛4+∛2+1。"
+        ],
+        "ans": "∛4+∛2+1。",
+        "verification": "乘回∛2−1后中间项抵消得1。",
+        "pitfall": "仍用平方共轭却误认为分母已无根。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 4,
+        "primary_section": "4.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "为何把1/(√x−1)有理化成(√x+1)/(x−1)后，定义域仍需x≥0且x≠1？",
+      "given": "两式都应在原域比较。",
+      "analysis": "平方根与分母限制不因变形消失。",
+      "method": "逐条保留条件。",
+      "principle": "同乘非零因子的等价变形。",
+      "steps": [
+        "x≥0使根式有意义。",
+        "x=1使原分母0；有理化式分母也0，不能以形式变化改变域。"
+      ],
+      "ans": "因原定义条件必须保留。",
+      "verification": "x=0时原−1，新式1/(−1)=−1，边界0可取。",
+      "pitfall": "把分母含x−1就只写x≠1，漏根域。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 4,
+      "primary_section": "4.4",
+      "related_sections": []
+    },
+    "exam": [
+      "有理化题说明同乘因子并查非零，平方差符号写完整",
+      "变量题先写定义域，约分后保留原排除点",
+      "共轭为零的退化情况直接合并，不能机械除零"
+    ],
+    "quick": [
+      "同乘非零因子",
+      "共轭平方差",
+      "单项根式",
+      "高次恒等式",
+      "原域保留"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_4.4",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-3-radicals-and-rational-exponents",
+        "page_or_section": "1-3-radicals-and-rational-exponents",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_4.4",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-3-radicals-and-rational-exponents",
+        "page_or_section": "1-3-radicals-and-rational-exponents",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "有理化题说明同乘因子并查非零，平方差符号写完整",
+      "method": "x−1=(√x−1)(√x+1)。",
+      "principle": "等价约分保留原排除点。",
+      "worked_example_index": 2,
+      "verification": "x=4时原(2−1)/3=1/3，新式同；x=1仍排除。",
+      "pitfall": "约分后把可去间断点当原函数值。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e1",
+        "review_module": 4,
+        "feedback": "目标“用共轭及乘法恒等式有理化”的抽样复核：约0.318，原1/(1.732+1.414)约0.318且为正。；若出现“把共轭差平方当3+2。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“在等价变形中保留原定义域”的抽样复核：x=4时原(2−1)/3=1/3，新式同；x=1仍排除。；若出现“约分后把可去间断点当原函数值。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把分母含x−1就只写x≠1，漏根域。",
+        "correction": "因原定义条件必须保留。",
+        "verification": "x=0时原−1，新式1/(−1)=−1，边界0可取。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "有理化与原定义域",
+      "objects": [
+        "共轭乘法矩形",
+        "√3±√2",
+        "变量约分",
+        "x=1空点",
+        "立方差因式"
+      ],
+      "relations": [
+        "分子分母同乘非零",
+        "平方差3−2=1",
+        "取消因子仍保留排除点"
+      ],
+      "labels": [
+        "共轭",
+        "非零因子",
+        "x≥0且x≠1",
+        "1/(√x+1)",
+        "空点不是原函数值"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "暂无对应旧图；代数和函数空点需确定性SVG",
+      "english": "Show rationalization of 1/(sqrt(3)+sqrt(2)) by its nonzero conjugate. For (sqrt(x)-1)/(x-1), retain x>=0 and x!=1 after simplification to 1/(sqrt(x)+1), drawing an open point at x=1 rather than filling in the original undefined value."
+    }
+  }
+}

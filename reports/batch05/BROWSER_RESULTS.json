@@ -20,6 +20,24 @@
       "modules": 48
     },
     {
+      "key": "化学26",
+      "width": 320,
+      "sections": 5,
+      "modules": 60
+    },
+    {
+      "key": "数学3",
+      "width": 320,
+      "sections": 5,
+      "modules": 60
+    },
+    {
+      "key": "数学4",
+      "width": 320,
+      "sections": 4,
+      "modules": 48
+    },
+    {
       "key": "物理1",
       "width": 320,
       "sections": 3,
@@ -27,6 +45,24 @@
     },
     {
       "key": "物理2",
+      "width": 320,
+      "sections": 4,
+      "modules": 48
+    },
+    {
+      "key": "物理5",
+      "width": 320,
+      "sections": 3,
+      "modules": 36
+    },
+    {
+      "key": "物理7",
+      "width": 320,
+      "sections": 6,
+      "modules": 72
+    },
+    {
+      "key": "物理8",
       "width": 320,
       "sections": 4,
       "modules": 48
@@ -50,6 +86,24 @@
       "modules": 48
     },
     {
+      "key": "化学26",
+      "width": 390,
+      "sections": 5,
+      "modules": 60
+    },
+    {
+      "key": "数学3",
+      "width": 390,
+      "sections": 5,
+      "modules": 60
+    },
+    {
+      "key": "数学4",
+      "width": 390,
+      "sections": 4,
+      "modules": 48
+    },
+    {
       "key": "物理1",
       "width": 390,
       "sections": 3,
@@ -57,6 +111,24 @@
     },
     {
       "key": "物理2",
+      "width": 390,
+      "sections": 4,
+      "modules": 48
+    },
+    {
+      "key": "物理5",
+      "width": 390,
+      "sections": 3,
+      "modules": 36
+    },
+    {
+      "key": "物理7",
+      "width": 390,
+      "sections": 6,
+      "modules": 72
+    },
+    {
+      "key": "物理8",
       "width": 390,
       "sections": 4,
       "modules": 48
@@ -80,6 +152,24 @@
       "modules": 48
     },
     {
+      "key": "化学26",
+      "width": 1280,
+      "sections": 5,
+      "modules": 60
+    },
+    {
+      "key": "数学3",
+      "width": 1280,
+      "sections": 5,
+      "modules": 60
+    },
+    {
+      "key": "数学4",
+      "width": 1280,
+      "sections": 4,
+      "modules": 48
+    },
+    {
       "key": "物理1",
       "width": 1280,
       "sections": 3,
@@ -87,6 +177,24 @@
     },
     {
       "key": "物理2",
+      "width": 1280,
+      "sections": 4,
+      "modules": 48
+    },
+    {
+      "key": "物理5",
+      "width": 1280,
+      "sections": 3,
+      "modules": 36
+    },
+    {
+      "key": "物理7",
+      "width": 1280,
+      "sections": 6,
+      "modules": 72
+    },
+    {
+      "key": "物理8",
       "width": 1280,
       "sections": 4,
       "modules": 48
@@ -99,6 +207,7 @@
   ],
   "math_chapter_state_isolated": true,
   "backup_roundtrip": true,
+  "reuse_image_zooms": 16,
   "errors": [],
   "bad": []
 }

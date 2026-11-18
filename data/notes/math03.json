@@ -1,0 +1,1511 @@
+{
+  "3.1": {
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 3,
+    "section_id": "3.1",
+    "goals": [
+      "按指数与系数判断多项式及次数",
+      "以恒等式完成运算和参数分类"
+    ],
+    "prerequisites": [
+      "整式运算",
+      "指数与分配律"
+    ],
+    "flow": [
+      "定义与次数",
+      "系数比较",
+      "加减乘",
+      "除法商余",
+      "参数退化"
+    ],
+    "concept_relation": "定义与次数；系数比较；加减乘；除法商余；参数退化",
+    "deep": [
+      "加减运算按同次幂合并，乘法逐项分配再合并。次数的常见规律有条件：两个非零多项式乘积次数相加，和的次数不超过较高者且可能因首项抵消下降。零项与参数退化须单独处理。",
+      "多项式除法把被除式表示为除式乘商加余式。非零除式D确定时，余式R的次数必须小于D，或R=0；这个次数限制使商余表达具有唯一性。若余式次数仍高，说明除法尚未完成。",
+      "实际运算可按降幂排列，并为缺次项补0占位，减少长除或综合除法错位。占位零不是新的非零项，不改变次数；结果应用D×Q+R回乘，而非只相信列式排得整齐。",
+      "学习多项式为余式、因式和高次方程提供语言基础。任何约分都须先因式分解并保留分母非零条件；多项式恒等式与分式等价的定义域不能混用。"
+    ],
+    "derive": [
+      "P(x)=aₙxⁿ+…+a₁x+a₀，aₙ≠0时次数n；零多项式另论。",
+      "非零P,Q有deg(PQ)=degP+degQ；deg(P+Q)可能下降。",
+      "F=DQ+R，D≠0，R=0或degR<degD；验证用回乘与合并系数。"
+    ],
+    "examples": [
+      {
+        "q": "判断x²+√2x−1、x^(−1)+2、√x+1是否是关于x的实系数多项式。",
+        "given": "变量为x，√2是常数。",
+        "analysis": "检查变量指数而非系数是否有根号。",
+        "method": "逐项核非负整数指数。",
+        "principle": "多项式定义。",
+        "steps": [
+          "第一式指数2、1、0，系数均实数，是。",
+          "第二有−1次幂，第三有1/2次幂，不是。"
+        ],
+        "ans": "只有第一式是。",
+        "verification": "把√2当常系数不会使x的指数变成分数。",
+        "pitfall": "凡有根号就判非多项式。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.1",
+        "related_sections": []
+      },
+      {
+        "q": "展开(x+2)(x²−2x+3)，求次数并回查首末项。",
+        "given": "普通实系数。",
+        "analysis": "乘法分配可能有中间抵消。",
+        "method": "逐项乘并合并。",
+        "principle": "分配律。",
+        "steps": [
+          "x乘得x³−2x²+3x，2乘得2x²−4x+6。",
+          "合为x³−x+6，次数3。"
+        ],
+        "ans": "x³−x+6，3次。",
+        "verification": "首项x·x²=x³，常项2·3=6；x=1两边6。",
+        "pitfall": "x²项抵消后仍保留错误系数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.1",
+        "related_sections": []
+      },
+      {
+        "q": "P=(a−1)x³+(a+1)x²+2x+3，随实数a次数怎样变化？",
+        "given": "系数含参数。",
+        "analysis": "最高项可能消失。",
+        "method": "按a−1是否0分类。",
+        "principle": "次数看最高非零系数。",
+        "steps": [
+          "a≠1时x³系数非0，次数3。",
+          "a=1时x³项0、x²系数2非0，次数2。"
+        ],
+        "ans": "a≠1为3次；a=1为2次。",
+        "verification": "a=1式为2x²+2x+3，确实二次。",
+        "pitfall": "不分参数一律说三次。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "0x⁵+3x²−1的次数？",
+        "given": "先去零系数项。",
+        "analysis": "写出的最高指数不一定非零。",
+        "method": "找最高非零项。",
+        "principle": "次数定义。",
+        "steps": [
+          "0x⁵为零项。",
+          "3x²非零且最高，次数2。"
+        ],
+        "ans": "2。",
+        "verification": "x很大时主导为3x²。",
+        "pitfall": "看到x⁵就答5。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.1",
+        "related_sections": []
+      },
+      {
+        "q": "若(x+1)²=x²+ax+b为恒等式，求a,b。",
+        "given": "对所有x成立。",
+        "analysis": "系数对应。",
+        "method": "展开左边。",
+        "principle": "多项式恒等需对应系数同。",
+        "steps": [
+          "左边x²+2x+1。",
+          "a=2，b=1。"
+        ],
+        "ans": "a=2、b=1。",
+        "verification": "x=0给b1，x=1给1+a+b=4。",
+        "pitfall": "只代一个点就定两个未知量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.1",
+        "related_sections": []
+      },
+      {
+        "q": "三次与二次非零多项式的乘积次数？和的次数必为3吗？",
+        "given": "首项系数均非零，两个次数不同。",
+        "analysis": "乘积相加；不同次数和不能抵消最高三次。",
+        "method": "检查首项。",
+        "principle": "最高项来源唯一。",
+        "steps": [
+          "乘积3+2=5次。",
+          "和最高三次项无同次项抵消，仍3次。"
+        ],
+        "ans": "乘积5次，和3次。",
+        "verification": "若两者都三次，和才可能降次，条件不同。",
+        "pitfall": "把所有和都说次数相加。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.1",
+        "related_sections": []
+      },
+      {
+        "q": "F=x³+1，D=x+1，给Q=x²−x、R=x+1，是否为合格商余表达？怎样完成？",
+        "given": "回乘可得F，但R次数等于D。",
+        "analysis": "还需余式次数限制。",
+        "method": "把R再除D。",
+        "principle": "余式应低于除式次数。",
+        "steps": [
+          "DQ+R=(x+1)(x²−x)+(x+1)=x³+1，但R仍一次。",
+          "补商1，最终Q=x²−x+1，R=0。"
+        ],
+        "ans": "原不是最终商余；最终商x²−x+1、余0。",
+        "verification": "(x+1)(x²−x+1)=x³+1。",
+        "pitfall": "只看回乘正确就忽略余式次数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "两个二次多项式相加，次数一定二次吗？给反例并说明条件。",
+      "given": "二者各自最高项非零。",
+      "analysis": "首项可能抵消。",
+      "method": "构造相反二次系数。",
+      "principle": "加法次数可下降。",
+      "steps": [
+        "(x²+x)+(−x²+2)=x+2。",
+        "和一次；若所有系数抵消则为零多项式需另论。"
+      ],
+      "ans": "不一定，取决最高项相加是否0。",
+      "verification": "两原式都二次而和一次，已否定必然。",
+      "pitfall": "把乘积次数规则套加法。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 3,
+      "primary_section": "3.1",
+      "related_sections": []
+    },
+    "exam": [
+      "次数题先化简并审参数首项，零多项式单独说明",
+      "恒等题按系数比较，方程某点成立不能冒充恒等",
+      "除法题检查回乘和余式次数，两项缺一不可"
+    ],
+    "quick": [
+      "定义与次数",
+      "系数比较",
+      "加减乘",
+      "除法商余",
+      "参数退化"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_3.1",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-2-power-functions-and-polynomial-functions",
+        "page_or_section": "5-2-power-functions-and-polynomial-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_3.1",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-2-power-functions-and-polynomial-functions",
+        "page_or_section": "5-2-power-functions-and-polynomial-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "次数题先化简并审参数首项，零多项式单独说明",
+      "method": "按a−1是否0分类。",
+      "principle": "次数看最高非零系数。",
+      "worked_example_index": 2,
+      "verification": "a=1式为2x²+2x+3，确实二次。",
+      "pitfall": "不分参数一律说三次。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“按指数与系数判断多项式及次数”的抽样复核：把√2当常系数不会使x的指数变成分数。；若出现“凡有根号就判非多项式。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“以恒等式完成运算和参数分类”的抽样复核：a=1式为2x²+2x+3，确实二次。；若出现“不分参数一律说三次。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把乘积次数规则套加法。",
+        "correction": "不一定，取决最高项相加是否0。",
+        "verification": "两原式都二次而和一次，已否定必然。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "多项式的次数与商余",
+      "objects": [
+        "合法/非合法指数",
+        "含参数首项",
+        "降幂系数表",
+        "F=DQ+R关系"
+      ],
+      "relations": [
+        "系数可含常根号",
+        "a=1时三次退为二次",
+        "余式次数低于除式"
+      ],
+      "labels": [
+        "非负整数指数",
+        "最高非零项",
+        "a−1",
+        "商Q",
+        "余R"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "无对应旧图；代数关系用文字层",
+      "english": "Distinguish a radical constant coefficient from a fractional variable exponent. Show how the leading coefficient a-1 vanishes at a=1, reducing degree, and illustrate F=DQ+R with the explicit degree restriction on R."
+    }
+  },
+  "3.2": {
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 3,
+    "section_id": "3.2",
+    "goals": [
+      "由除法恒等式推导余式定理",
+      "用适当代入求参数或一次余式"
+    ],
+    "prerequisites": [
+      "多项式除法",
+      "联立方程"
+    ],
+    "flow": [
+      "除法恒等式",
+      "一次除式根",
+      "常数余数",
+      "二次余式",
+      "参数验证"
+    ],
+    "concept_relation": "除法恒等式；一次除式根；常数余数；二次余式；参数验证",
+    "deep": [
+      "对二次除式，余式一般一次或更低。若除式(x−a)(x−b)且a≠b，可写R=ux+v并在a、b代入，由两条独立方程确定u,v。只代一个根不足以确定两个未知系数。",
+      "如果除式有重复根，代入同一点两次不会产生两个独立条件，不能把重复的同一方程当成两条信息。本阶段可用实际除法或其他额外条件处理，不能凭空凑系数。",
+      "给多个余数条件求F中的参数时，每条件都从对应除式根生成，再联立。最后回代原F验证每个余数，避免移项或正负号误差；多项式系数中缺次项不影响代入法，但综合除法须补0。",
+      "余式定理不用于含分母奇点的任意表达式而不检查对象。若所给不是多项式，必须先按题意判断除法与定义域；把任何函数在a的值都称为多项式余数是不受支持的推广。"
+    ],
+    "derive": [
+      "F=(x−a)Q+r，代a得r=F(a)。",
+      "对bx−c（b≠0），r=F(c/b)；商的尺度与b有关，但余数代入点由除式零点决定。",
+      "对(x−a)(x−b)、a≠b，令R=ux+v：ua+v=F(a)，ub+v=F(b)。"
+    ],
+    "examples": [
+      {
+        "q": "F=x³−2x+5除以x−2的余数？",
+        "given": "F为多项式，除式一次。",
+        "analysis": "不用长除求商。",
+        "method": "r=F(2)。",
+        "principle": "余式定理由除法恒等式。",
+        "steps": [
+          "F(2)=8−4+5。",
+          "r=9。"
+        ],
+        "ans": "9。",
+        "verification": "长除可得商x²+2x+2，回乘加9恢复F。",
+        "pitfall": "把余数误设0。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.2",
+        "related_sections": []
+      },
+      {
+        "q": "F=2x²+3x−1除以2x−1，余数是多少？",
+        "given": "除式根x=1/2。",
+        "analysis": "前系数不能忽略。",
+        "method": "r=F(1/2)。",
+        "principle": "一次除式为零时商项消失。",
+        "steps": [
+          "2×1/4+3×1/2−1=.5+1.5−1=1。",
+          "余数常数1。"
+        ],
+        "ans": "1。",
+        "verification": "可写F=(2x−1)(x+2)+1，回乘正确。",
+        "pitfall": "代x=1或−1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.2",
+        "related_sections": []
+      },
+      {
+        "q": "F=x³+2x²−x+4除以x²−1，求余式。",
+        "given": "除式根为±1且不同。",
+        "analysis": "余式至多一次，需两条件。",
+        "method": "设R=ux+v，代±1。",
+        "principle": "除法恒等式在除式根处使F=R。",
+        "steps": [
+          "F(1)=6，F(−1)=6。",
+          "u+v=6，−u+v=6，得u=0、v=6。"
+        ],
+        "ans": "余式6。",
+        "verification": "F=(x²−1)(x+2)+6，展开得原式。",
+        "pitfall": "以为二次除式余式必为一次且u不能0。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "F=x²+4x+1除以x+3的余数？",
+        "given": "除式根−3。",
+        "analysis": "正负号由x+3=0确定。",
+        "method": "r=F(−3)。",
+        "principle": "余式定理。",
+        "steps": [
+          "9−12+1=−2。",
+          "余数可为负。"
+        ],
+        "ans": "−2。",
+        "verification": "F=(x+3)(x+1)−2。",
+        "pitfall": "代+3得到22。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.2",
+        "related_sections": []
+      },
+      {
+        "q": "F=x²+ax+2除以x−1余4，求a。",
+        "given": "r=4而非整除。",
+        "analysis": "生成参数方程。",
+        "method": "F(1)=4。",
+        "principle": "余式定理。",
+        "steps": [
+          "1+a+2=4。",
+          "a=1。"
+        ],
+        "ans": "a=1。",
+        "verification": "F(1)=1+1+2=4。",
+        "pitfall": "把余数4忘掉写F1=0。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.2",
+        "related_sections": []
+      },
+      {
+        "q": "多项式除以(x−2)²，能代x=2两次唯一求一次余式ux+v吗？",
+        "given": "只有一个点的函数值。",
+        "analysis": "同一条件重复不独立。",
+        "method": "统计未知与独立方程。",
+        "principle": "代入只给2u+v=F(2)。",
+        "steps": [
+          "两个未知只有一条独立方程。",
+          "需额外信息或实际除法，重复代2不新增约束。"
+        ],
+        "ans": "不能。",
+        "verification": "不同u配相应v可满足同一值。",
+        "pitfall": "把重复根当两个不同代入点。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.2",
+        "related_sections": []
+      },
+      {
+        "q": "F=x³除以(x−1)(x−2)，余式？",
+        "given": "根1、2不同。",
+        "analysis": "设一次余式并联立。",
+        "method": "R=ux+v。",
+        "principle": "F(1)=R1，F(2)=R2。",
+        "steps": [
+          "u+v=1，2u+v=8。",
+          "u=7，v=−6，R=7x−6。"
+        ],
+        "ans": "7x−6。",
+        "verification": "(x²−3x+2)(x+3)+(7x−6)=x³。",
+        "pitfall": "只给F1=1当完整余式。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "若F(3)=5，能说x−3是F的因式吗？",
+      "given": "余数已知非零。",
+      "analysis": "余式与整除判据不同。",
+      "method": "按余式定理解释。",
+      "principle": "因式需余数0。",
+      "steps": [
+        "除以x−3的余数是5。",
+        "因此不是整除，不是因式。"
+      ],
+      "ans": "不能，且x−3不是因式。",
+      "verification": "F=(x−3)Q+5在3处仍为5非0。",
+      "pitfall": "看见代入点就误认根。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 3,
+      "primary_section": "3.2",
+      "related_sections": []
+    },
+    "exam": [
+      "余式题先把除式设0找代入点，不记孤立符号口诀",
+      "二次除式先写一次余式，两个不同根给独立方程",
+      "有参数题把给定余数写右边，最后逐条件回代"
+    ],
+    "quick": [
+      "除法恒等式",
+      "一次除式根",
+      "常数余数",
+      "二次余式",
+      "参数验证"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_3.2",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-4-dividing-polynomials",
+        "page_or_section": "5-4-dividing-polynomials",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_3.2",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-4-dividing-polynomials",
+        "page_or_section": "5-4-dividing-polynomials",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "余式题先把除式设0找代入点，不记孤立符号口诀",
+      "method": "设R=ux+v，代±1。",
+      "principle": "除法恒等式在除式根处使F=R。",
+      "worked_example_index": 2,
+      "verification": "F=(x²−1)(x+2)+6，展开得原式。",
+      "pitfall": "以为二次除式余式必为一次且u不能0。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由除法恒等式推导余式定理”的抽样复核：长除可得商x²+2x+2，回乘加9恢复F。；若出现“把余数误设0。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用适当代入求参数或一次余式”的抽样复核：F=(x²−1)(x+2)+6，展开得原式。；若出现“以为二次除式余式必为一次且u不能0。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "看见代入点就误认根。",
+        "correction": "不能，且x−3不是因式。",
+        "verification": "F=(x−3)Q+5在3处仍为5非0。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "余式定理的消元关系",
+      "objects": [
+        "F=(x−a)Q+r",
+        "代入x=a",
+        "2x−1根1/2",
+        "二次余式ux+v"
+      ],
+      "relations": [
+        "一次除式余式常数",
+        "二次两不同根可定u,v",
+        "重复根只给一个值条件"
+      ],
+      "labels": [
+        "r=F(a)",
+        "F(c/b)",
+        "a≠b",
+        "独立条件"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "无合格对应图；公式流程需准确",
+      "english": "Derive the remainder theorem from F=(x-a)Q+r by substituting x=a. For divisor 2x-1 use a=1/2. For two distinct linear factors, show how R=ux+v is determined by two independent values; do not count a repeated root twice as independent data."
+    }
+  },
+  "3.3": {
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 3,
+    "section_id": "3.3",
+    "goals": [
+      "以余式定理证明根与一次因式的等价",
+      "求参数并核因式重数"
+    ],
+    "prerequisites": [
+      "余式定理",
+      "乘法恒等式"
+    ],
+    "flow": [
+      "余数为零",
+      "根与因式",
+      "求商",
+      "参数联立",
+      "重数与次数"
+    ],
+    "concept_relation": "余数为零；根与因式；求商；参数联立；重数与次数",
+    "deep": [
+      "F(a)=0只说明至少含一次x−a，不能仅据一次代入判断重数。将因式除去后若商在a处仍为零，可以继续除；重数会影响图象和根的计数，但本章可用反复因式法认识，不需偷用尚未建立的微分公式。",
+      "给定两个不同根可生成两个独立参数条件，但要留意首项是否因参数而退化，以及给定条件是否重复。参数解后还应验证多项式是否确有相应因式，不以代数移项中的一个结果直接结束。",
+      "对于非零n次多项式，互不相同的根不超过n个，可用不断抽取不同一次因式说明；重根按重数计与不同根数是不同说法。零多项式在任何x都为零，不能套这个结论而称它有某个有限次数。",
+      "因式定理用于多项式，若表达式有分母或根式，应先检查定义域与是否满足多项式条件。把分式分子为零当整个分式为零还需要分母非零，这个限制不能因因式分解而消失。"
+    ],
+    "derive": [
+      "F(a)=0 ⇔ F=(x−a)Q，证明来自F=(x−a)Q+r且r=F(a)。",
+      "若Q(a)=0，还可再抽取x−a；重复次数决定该根重数。",
+      "非零n次多项式最多n个不同实根；是否存在全部n个实根不能由次数单独保证。"
+    ],
+    "examples": [
+      {
+        "q": "F=x³−4x，证明x−2为因式，并求完整实因式分解。",
+        "given": "F为实系数多项式。",
+        "analysis": "先零值证明，再求商/共同因子。",
+        "method": "计算F2并分解。",
+        "principle": "因式定理与平方差。",
+        "steps": [
+          "F(2)=8−8=0，所以x−2是因式。",
+          "F=x(x²−4)=x(x−2)(x+2)。"
+        ],
+        "ans": "x(x−2)(x+2)。",
+        "verification": "乘回x³−4x，根0、±2均使F为0。",
+        "pitfall": "只写F2=0就声称已给完整分解。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.3",
+        "related_sections": []
+      },
+      {
+        "q": "F=x³+ax²+bx−2，x−1与x+2均为因式，求a,b。",
+        "given": "两个不同一次因式。",
+        "analysis": "代入点1、−2。",
+        "method": "F1=0、F(−2)=0联立。",
+        "principle": "因式定理。",
+        "steps": [
+          "1+a+b−2=0，a+b=1。",
+          "−8+4a−2b−2=0，2a−b=5。",
+          "解a=2、b=−1。"
+        ],
+        "ans": "a=2、b=−1。",
+        "verification": "F=(x+2)(x−1)(x+1)，常项−2且x²系数2。",
+        "pitfall": "x+2代+2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.3",
+        "related_sections": []
+      },
+      {
+        "q": "F=(x−1)²(x+3)，只算F1=0能证明1是二重根吗？如何验证？",
+        "given": "已给分解但要求说明判据。",
+        "analysis": "一次取零只保证至少一重。",
+        "method": "除一次后再检查商。",
+        "principle": "重数是同一因式出现次数。",
+        "steps": [
+          "除x−1得Q=(x−1)(x+3)，Q1=0可再除。",
+          "再得x+3，在1处4非0，故恰二重。"
+        ],
+        "ans": "单次取零不足；反复除得恰二重。",
+        "verification": "展开(x²−2x+1)(x+3)后仍可回乘验证。",
+        "pitfall": "由F1=0直接猜任何重数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "F(−3)=0，对应一次因式是什么？",
+        "given": "根为−3。",
+        "analysis": "因式x−a。",
+        "method": "代a=−3。",
+        "principle": "因式定理。",
+        "steps": [
+          "x−(−3)=x+3。",
+          "故F可被x+3整除。"
+        ],
+        "ans": "x+3。",
+        "verification": "该因式在−3处为0。",
+        "pitfall": "写x−3。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.3",
+        "related_sections": []
+      },
+      {
+        "q": "F=x²+1在实数范围有一次实因式吗？",
+        "given": "实系数一次因式。",
+        "analysis": "实根存在与一次实因式等价。",
+        "method": "看x²+1是否可0。",
+        "principle": "实数平方非负。",
+        "steps": [
+          "x²+1≥1>0。",
+          "没有实根，因此无一次实因式。"
+        ],
+        "ans": "没有。",
+        "verification": "若改复数范围结论会不同，但本题实数。",
+        "pitfall": "认为二次必有两个实根。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.3",
+        "related_sections": []
+      },
+      {
+        "q": "已知x−2为三次F的因式，能推出除去后商一定一次吗？",
+        "given": "F确为非零三次。",
+        "analysis": "次数相减。",
+        "method": "degQ=3−1。",
+        "principle": "非零乘积次数相加。",
+        "steps": [
+          "F=(x−2)Q。",
+          "Q应为二次，不是一次。"
+        ],
+        "ans": "不能，商二次。",
+        "verification": "一次乘二次才三次。",
+        "pitfall": "把因式个数与次数混淆。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.3",
+        "related_sections": []
+      },
+      {
+        "q": "F=x³−3x²+3x−1，求1的重数及不同实根数。",
+        "given": "非零三次。",
+        "analysis": "利用完全立方。",
+        "method": "F=(x−1)³。",
+        "principle": "重复因式决定重数。",
+        "steps": [
+          "展开(x−1)³正好原式。",
+          "只有x=1使乘积为0，重数3，不同实根1个。"
+        ],
+        "ans": "三重根1；不同实根1个。",
+        "verification": "次数3按重数吻合，而非三种不同值。",
+        "pitfall": "三次就列三个不同根。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "一个非零二次多项式在三个不同实数处都为0，可能吗？若系数全0又怎样？",
+      "given": "明确非零或零两种。",
+      "analysis": "不同根数受次数限制。",
+      "method": "用因式定理逐根抽因式。",
+      "principle": "三个不同根意味着至少三个一次因式。",
+      "steps": [
+        "非零二次无法含三次因子，故不可能。",
+        "若全系数0是零多项式，不是非零二次，每个实数都满足。"
+      ],
+      "ans": "非零二次不可能；零多项式例外。",
+      "verification": "避免把“0x²+0x+0”称二次。",
+      "pitfall": "忘非零条件和退化情况。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 3,
+      "primary_section": "3.3",
+      "related_sections": []
+    },
+    "exam": [
+      "因式题写根—因式对应，正负号由x−a来核",
+      "参数题每个不同根给一条件，算后回乘验证",
+      "重根题反复除因式，区分重数与不同根数"
+    ],
+    "quick": [
+      "余数为零",
+      "根与因式",
+      "求商",
+      "参数联立",
+      "重数与次数"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_3.3",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-5-zeros-of-polynomial-functions",
+        "page_or_section": "5-5-zeros-of-polynomial-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_3.3",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-5-zeros-of-polynomial-functions",
+        "page_or_section": "5-5-zeros-of-polynomial-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "因式题写根—因式对应，正负号由x−a来核",
+      "method": "除一次后再检查商。",
+      "principle": "重数是同一因式出现次数。",
+      "worked_example_index": 2,
+      "verification": "展开(x²−2x+1)(x+3)后仍可回乘验证。",
+      "pitfall": "由F1=0直接猜任何重数。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“以余式定理证明根与一次因式的等价”的抽样复核：乘回x³−4x，根0、±2均使F为0。；若出现“只写F2=0就声称已给完整分解。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“求参数并核因式重数”的抽样复核：展开(x²−2x+1)(x+3)后仍可回乘验证。；若出现“由F1=0直接猜任何重数。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "忘非零条件和退化情况。",
+        "correction": "非零二次不可能；零多项式例外。",
+        "verification": "避免把“0x²+0x+0”称二次。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "根、一次因式与重数",
+      "objects": [
+        "F(a)=0到x−a因式",
+        "根−3与x+3",
+        "重复因式链",
+        "次数计数"
+      ],
+      "relations": [
+        "两个方向等价",
+        "重数需反复除",
+        "非零n次不同根不超过n"
+      ],
+      "labels": [
+        "F(a)=0",
+        "x−a",
+        "重数",
+        "不同实根",
+        "非零多项式"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "无对应旧图；关系图与可选函数图应准确",
+      "english": "Connect a numerical root a with the linear factor x-a in both directions, including a=-3 and factor x+3. Show repeated division for a double root and distinguish multiplicity from the number of distinct real roots of a nonzero polynomial."
+    }
+  },
+  "3.4": {
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 3,
+    "section_id": "3.4",
+    "goals": [
+      "依结构选择提因式、分组或求根方法",
+      "在指定数域内完成分解并回乘"
+    ],
+    "prerequisites": [
+      "多项式运算",
+      "因式定理"
+    ],
+    "flow": [
+      "公因式",
+      "恒等式",
+      "分组",
+      "求根降次",
+      "数域与回乘"
+    ],
+    "concept_relation": "公因式；恒等式；分组；求根降次；数域与回乘",
+    "deep": [
+      "若直接看不出结构，可用因式定理尝试合适根，再除去对应一次因式。对于整数系数，若既约有理根p/q存在，可用常数项与首项系数的整除关系缩小候选；这是候选筛选，不保证一定有有理根。",
+      "偶次幂结构可用y=x²代换成较低次多项式，再把y换回。因式分解只做代数等价时仍要回原变量；解方程时则还要注意y≥0的实数限制，两类任务不可混淆。",
+      "分解到什么程度与数域有关。x²−2在有理数系数内不能拆成两个一次因式，在实数内可写(x−√2)(x+√2)；x²+1在实数内不可同样拆成实一次式。题目未指明时应清楚说明所用范围。",
+      "完成后逐项回乘核首项、常项和中间项，并检查是否漏了公因子。抽出负号时每项符号都要反转；只查若干代入值可辅助发现错误，但展开恒等验证更完整。"
+    ],
+    "derive": [
+      "a²−b²=(a−b)(a+b)；a³−b³=(a−b)(a²+ab+b²)。",
+      "整数系数多项式若有既约有理根p/q，则p整除常数项、q整除首项系数（首常项非零等条件下）。",
+      "分解流程：公因式 → 恒等结构/分组/代换 → 因式定理找根 → 指定数域继续 → 回乘。"
+    ],
+    "examples": [
+      {
+        "q": "分解3x³−12x。",
+        "given": "实系数，多项式。",
+        "analysis": "先公因式再平方差。",
+        "method": "提3x。",
+        "principle": "分配律和a²−b²。",
+        "steps": [
+          "3x³−12x=3x(x²−4)。",
+          "再得3x(x−2)(x+2)。"
+        ],
+        "ans": "3x(x−2)(x+2)。",
+        "verification": "回乘3x(x²−4)=3x³−12x。",
+        "pitfall": "只提3x后不继续，或把x²−4写(x−2)²。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.4",
+        "related_sections": []
+      },
+      {
+        "q": "分解x³−3x²−4x+12。",
+        "given": "四项可分组。",
+        "analysis": "前两与后两共享x−3。",
+        "method": "分为x²(x−3)−4(x−3)。",
+        "principle": "分配律反向。",
+        "steps": [
+          "提共同(x−3)得(x−3)(x²−4)。",
+          "平方差得(x−3)(x−2)(x+2)。"
+        ],
+        "ans": "(x−3)(x−2)(x+2)。",
+        "verification": "展开x³−3x²−4x+12。",
+        "pitfall": "后组提−4时把括号写x+3。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.4",
+        "related_sections": []
+      },
+      {
+        "q": "在实数内分解x⁴−5x²+4，并说明代换步骤。",
+        "given": "只含偶次幂。",
+        "analysis": "可把x²视为一变量。",
+        "method": "y=x²。",
+        "principle": "代换后保持恒等。",
+        "steps": [
+          "y²−5y+4=(y−1)(y−4)。",
+          "换回(x²−1)(x²−4)。",
+          "实数下进一步为(x−1)(x+1)(x−2)(x+2)。"
+        ],
+        "ans": "四个一次因式的乘积。",
+        "verification": "(x²−1)(x²−4)=x⁴−5x²+4。",
+        "pitfall": "解出y=1、4就把它们当x值。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "x²+6x+9怎样分解？",
+        "given": "完整二次式。",
+        "analysis": "识别完全平方。",
+        "method": "比较x²+2·3x+3²。",
+        "principle": "(a+b)²。",
+        "steps": [
+          "中项6x吻合。",
+          "得(x+3)²。"
+        ],
+        "ans": "(x+3)²。",
+        "verification": "展开还原，常项9。",
+        "pitfall": "把+9只写(x+9)²。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.4",
+        "related_sections": []
+      },
+      {
+        "q": "x²−2在有理数内与实数内的分解有何不同？",
+        "given": "指定数域两种。",
+        "analysis": "是否允许√2作系数。",
+        "method": "找根并核系数范围。",
+        "principle": "实根±√2不是有理数。",
+        "steps": [
+          "有理数系数内不可拆一次。",
+          "实数内可写(x−√2)(x+√2)。"
+        ],
+        "ans": "数域不同导致可分解程度不同。",
+        "verification": "乘回x²−2。",
+        "pitfall": "无条件说不能分或必能有理分。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.4",
+        "related_sections": []
+      },
+      {
+        "q": "2x³−3x²−8x+12以分组分解。",
+        "given": "前后可提共同2x−3。",
+        "analysis": "识别配对。",
+        "method": "x²(2x−3)−4(2x−3)。",
+        "principle": "共同因式与平方差。",
+        "steps": [
+          "得(2x−3)(x²−4)。",
+          "再得(2x−3)(x−2)(x+2)。"
+        ],
+        "ans": "(2x−3)(x−2)(x+2)。",
+        "verification": "首项2x³、常项(−3)(−2)(2)=12，中间项吻合。",
+        "pitfall": "以非首一因式为由漏系数2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.4",
+        "related_sections": []
+      },
+      {
+        "q": "分解x³+1，并用x=1核查错误答案(x+1)³。",
+        "given": "立方和。",
+        "analysis": "立方和不同于和的立方。",
+        "method": "用a³+b³。",
+        "principle": "a³+b³=(a+b)(a²−ab+b²)。",
+        "steps": [
+          "x³+1=(x+1)(x²−x+1)。",
+          "x=1原2，错误答案8，不能相等。"
+        ],
+        "ans": "(x+1)(x²−x+1)。",
+        "verification": "完整展开中间项抵消。",
+        "pitfall": "见立方就对和整体立方。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "因式分解得到(2x−3)(x−2)(x+2)，只检查首项和常项相同就足够证明吗？",
+      "given": "中间项尚未核对。",
+      "analysis": "两个指标不足唯一确定三次多项式。",
+      "method": "展开全部系数。",
+      "principle": "恒等式需对应各项相同。",
+      "steps": [
+        "首常项可快速筛错。",
+        "仍需核x²、x等中间系数或其他充分证明。"
+      ],
+      "ans": "不足，应完整回乘或用充分代数证明。",
+      "verification": "可给相同首常项而中间系数任意不同的反例。",
+      "pitfall": "把快速检查当充分恒等证明。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 3,
+      "primary_section": "3.4",
+      "related_sections": []
+    },
+    "exam": [
+      "分解题先提公因式、识别结构，不盲猜根",
+      "偶次式代换后换回x，方程求根另核变量限制",
+      "写清数域，最终回乘所有系数，首常项只作快查"
+    ],
+    "quick": [
+      "公因式",
+      "恒等式",
+      "分组",
+      "求根降次",
+      "数域与回乘"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_3.4",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-5-factoring-polynomials",
+        "page_or_section": "1-5-factoring-polynomials",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_3.4",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-5-factoring-polynomials",
+        "page_or_section": "1-5-factoring-polynomials",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "分解题先提公因式、识别结构，不盲猜根",
+      "method": "y=x²。",
+      "principle": "代换后保持恒等。",
+      "worked_example_index": 2,
+      "verification": "(x²−1)(x²−4)=x⁴−5x²+4。",
+      "pitfall": "解出y=1、4就把它们当x值。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“依结构选择提因式、分组或求根方法”的抽样复核：回乘3x(x²−4)=3x³−12x。；若出现“只提3x后不继续，或把x²−4写(x−2)²。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“在指定数域内完成分解并回乘”的抽样复核：(x²−1)(x²−4)=x⁴−5x²+4。；若出现“解出y=1、4就把它们当x值。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把快速检查当充分恒等证明。",
+        "correction": "不足，应完整回乘或用充分代数证明。",
+        "verification": "可给相同首常项而中间系数任意不同的反例。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "因式分解的方法选择",
+      "objects": [
+        "共同因式示例",
+        "四项分组",
+        "y=x²代换",
+        "数域分支",
+        "回乘检查"
+      ],
+      "relations": [
+        "x⁴−5x²+4分为四实一次因式",
+        "平方和不误用平方差",
+        "候选根不等于必存在根"
+      ],
+      "labels": [
+        "公因式",
+        "分组",
+        "代换后换回",
+        "有理数/实数",
+        "完整回乘"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "无对应图；代数结构关系可用页面图与SVG",
+      "english": "Create a method-selection diagram for common factors, identities, grouping, substitution and root-based division. Work x^4-5x^2+4 through y=x^2 to four real linear factors, distinguish rational and real factorization, and require full coefficient verification."
+    }
+  },
+  "3.5": {
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 3,
+    "section_id": "3.5",
+    "goals": [
+      "用因式分解与代换求全部实根",
+      "处理重根、参数退化和非等价除法"
+    ],
+    "prerequisites": [
+      "因式分解",
+      "二次方程与定义域"
+    ],
+    "flow": [
+      "移项归零",
+      "找因式降次",
+      "零乘积",
+      "代换范围",
+      "参数与回代"
+    ],
+    "concept_relation": "移项归零；找因式降次；零乘积；代换范围；参数与回代",
+    "deep": [
+      "用y=x²代换时，实数解要求y≥0。二次方程给负的y候选，不能当作实数x的平方；正y给x=±√y，零y只给x=0。换回步骤和双符号是常见漏解处。",
+      "找一个有理根后把对应一次因式除去，继续解二次商；判别式负时该商没有实根，并不否定已经找到的实根。若题目要求复根，则需相应复数知识，本节不把超出实数的结果强填为实根。",
+      "参数题须关注最高系数、因式退化和根相等的临界值，按参数范围列解集。方程次数变化与根的重合是不同事情，不能把每个参数区间的解数机械按最高写出的幂确定。",
+      "最终把每个候选代回原方程并回顾变形是否等价。原式若含分母、根式等，化成多项式后的根仍需原域筛选；回代只验证已有候选不自动证明无漏根，无漏依据来自等价分解与完整分类。"
+    ],
+    "derive": [
+      "F=AB=0 ⇔ A=0或B=0（实数代数）；重复因式保留重数但解集去重。",
+      "y=x²时y≥0，y>0回得±√y，y=0回得0，y<0无实x。",
+      "含变量因子除法：先分该因子为0与非0，或避免除法而用零乘积。"
+    ],
+    "examples": [
+      {
+        "q": "解实数方程x³=x，说明直接除x会漏什么。",
+        "given": "原式为多项式方程。",
+        "analysis": "x可能为0。",
+        "method": "移项分解。",
+        "principle": "零乘积原理。",
+        "steps": [
+          "x³−x=x(x²−1)=x(x−1)(x+1)=0。",
+          "逐因式得x=0、1、−1。"
+        ],
+        "ans": "{−1,0,1}。",
+        "verification": "三值代原式均成立；直接除x会漏0。",
+        "pitfall": "未分类就除含未知因子。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.5",
+        "related_sections": []
+      },
+      {
+        "q": "解x⁴−3x²−4=0的全部实根。",
+        "given": "只含偶次幂。",
+        "analysis": "先解y=x²且筛负y。",
+        "method": "y²−3y−4=0。",
+        "principle": "代换与非负平方。",
+        "steps": [
+          "(y−4)(y+1)=0，y=4或−1。",
+          "y=−1无实x；y=4给x=±2。"
+        ],
+        "ans": "x=−2或2。",
+        "verification": "16−12−4=0，负y候选不可回实数。",
+        "pitfall": "把x答成4与−1，或漏−2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.5",
+        "related_sections": []
+      },
+      {
+        "q": "讨论实数参数a下x³−ax=0的不同实根。",
+        "given": "关于x，首项恒1。",
+        "analysis": "分解后根随a符号变化。",
+        "method": "x(x²−a)=0分类。",
+        "principle": "实平方非负及根重合。",
+        "steps": [
+          "a>0时x=0、±√a，共3个不同根。",
+          "a=0时x³=0，仅0（重数3）。",
+          "a<0时x²=a无实解，仅0。"
+        ],
+        "ans": "按a正、零、负分别为3、1、1个不同根。",
+        "verification": "每段均由完整因式分支，a=0时三表达式合成一个值。",
+        "pitfall": "a<0仍写±√a为实数，或a=0重复算3个不同根。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.5",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "解(x−2)²(x+1)=0，写不同解和重数。",
+        "given": "实数范围。",
+        "analysis": "重复因式不增加不同值。",
+        "method": "逐因式。",
+        "principle": "零乘积。",
+        "steps": [
+          "x=2或−1。",
+          "2重数2，−1重数1。"
+        ],
+        "ans": "解集{−1,2}。",
+        "verification": "重数总3与次数3吻合。",
+        "pitfall": "把2重复列成两个不同解。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.5",
+        "related_sections": []
+      },
+      {
+        "q": "解x³+1=0的实根。",
+        "given": "实数范围。",
+        "analysis": "立方和分解后判二次商。",
+        "method": "(x+1)(x²−x+1)=0。",
+        "principle": "因式与判别式。",
+        "steps": [
+          "一次得x=−1。",
+          "二次判别式1−4=−3<0，无实根。"
+        ],
+        "ans": "仅x=−1。",
+        "verification": "(−1)³+1=0；二次式=(x−1/2)²+3/4>0。",
+        "pitfall": "认为三次必须给三个实根。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.5",
+        "related_sections": []
+      },
+      {
+        "q": "解x⁴−5x²+4=0。",
+        "given": "实数范围。",
+        "analysis": "分解或代换。",
+        "method": "(x²−1)(x²−4)=0。",
+        "principle": "零乘积及平方方程。",
+        "steps": [
+          "x²=1或4。",
+          "x=±1、±2。"
+        ],
+        "ans": "{−2,−1,1,2}。",
+        "verification": "各平方1或4，均使原式0。",
+        "pitfall": "只列正平方根。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.5",
+        "related_sections": []
+      },
+      {
+        "q": "解(x²−1)/(x−1)=0并保留原域，和解x²−1=0有什么区别？",
+        "given": "原分母x≠1。",
+        "analysis": "分子为0还需分母非0。",
+        "method": "先分子根±1再筛。",
+        "principle": "分式零值条件。",
+        "steps": [
+          "分子根1、−1。",
+          "x=1原无定义排除，x=−1分母−2可取。"
+        ],
+        "ans": "原分式解仅−1；多项式解±1。",
+        "verification": "−1代入分子0分母非0。",
+        "pitfall": "约分后或解分子时忘原排除点。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 3,
+        "primary_section": "3.5",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "给多项式找到一个根并回代成功，是否已证明解集完整？",
+      "given": "次数可能大于1。",
+      "analysis": "验证存在与排除其他根是不同任务。",
+      "method": "继续降次并逐因式解。",
+      "principle": "完整分解或其他充分方法才控制无漏。",
+      "steps": [
+        "已找到根说明一个解成立。",
+        "除相应因式后继续分析全部商根，并审数域及条件。"
+      ],
+      "ans": "没有，还需无漏解的推理。",
+      "verification": "x³−x中找到1仍有0、−1。",
+      "pitfall": "把一例成功当全部。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 3,
+      "primary_section": "3.5",
+      "related_sections": []
+    },
+    "exam": [
+      "高次题先移零、分解、逐因式求解，变形链说明无漏",
+      "代换题把新变量范围写在旁边，换回保留双符号",
+      "参数题按平方可行性、退化与根重合分类，最后解集去重"
+    ],
+    "quick": [
+      "移项归零",
+      "找因式降次",
+      "零乘积",
+      "代换范围",
+      "参数与回代"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_3.5",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-5-zeros-of-polynomial-functions",
+        "page_or_section": "5-5-zeros-of-polynomial-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_3.5",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-5-zeros-of-polynomial-functions",
+        "page_or_section": "5-5-zeros-of-polynomial-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "高次题先移零、分解、逐因式求解，变形链说明无漏",
+      "method": "x(x²−a)=0分类。",
+      "principle": "实平方非负及根重合。",
+      "worked_example_index": 2,
+      "verification": "每段均由完整因式分支，a=0时三表达式合成一个值。",
+      "pitfall": "a<0仍写±√a为实数，或a=0重复算3个不同根。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用因式分解与代换求全部实根”的抽样复核：三值代原式均成立；直接除x会漏0。；若出现“未分类就除含未知因子。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“处理重根、参数退化和非等价除法”的抽样复核：每段均由完整因式分支，a=0时三表达式合成一个值。；若出现“a<0仍写±√a为实数，或a=0重复算3个不同根。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把一例成功当全部。",
+        "correction": "没有，还需无漏解的推理。",
+        "verification": "x³−x中找到1仍有0、−1。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "高次方程的完整解集",
+      "objects": [
+        "x³=x因式树",
+        "x²代换",
+        "正零负参数分支",
+        "实根集合与重数"
+      ],
+      "relations": [
+        "保留x=0分支",
+        "负y不回实根",
+        "正y给±根",
+        "a=0时根合并"
+      ],
+      "labels": [
+        "全部实根",
+        "y≥0",
+        "±√y",
+        "原域",
+        "不同根/重数"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "无对应旧图；函数曲线如新增须确定性绘制",
+      "english": "Show a complete solution tree for x^3=x retaining x=0, and for an even-power equation using y=x^2 with y>=0 and both square-root signs. Include parameter branches for x(x^2-a)=0, distinguishing root multiplicity from distinct real solutions."
+    }
+  }
+}

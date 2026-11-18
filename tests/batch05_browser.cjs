@@ -26,6 +26,11 @@ await p.locator('[data-a="subject-math-review"][data-v="1"]').click();
 saved=await p.evaluate(()=>JSON.parse(localStorage.getItem('uec27')));
 assert.deepEqual(saved.mathSubjects.adv_math_i.chapters['1'].rv,[1]);
 assert.deepEqual(saved.mathSubjects.adv_math_ii.chapters['1'].rv,[]);
+// Shared mathematics notes must use course-specific section and goal keys.
+await p.goto(root+'#subject=adv_math_i&chapter=4');await p.locator('.lesson-section').first().getByRole('button',{name:'能独立解释',exact:true}).click();await p.locator('.lesson-section').first().getByRole('button',{name:'此目标能解释',exact:true}).first().click();
+await p.goto(root+'#subject=adv_math_ii&chapter=4');assert.equal(await p.getByRole('button',{name:'能独立解释 ✓',exact:true}).count(),0);assert.equal(await p.getByRole('button',{name:'此目标能解释 ✓',exact:true}).count(),0);
+await p.goto(root+'#subject=adv_math_i&chapter=4');assert.equal(await p.getByRole('button',{name:'能独立解释 ✓',exact:true}).count(),1);assert.equal(await p.getByRole('button',{name:'此目标能解释 ✓',exact:true}).count(),1);
+await p.getByRole('button',{name:'题库与练习',exact:true}).click();assert.ok((await p.locator('main').innerText()).includes('高数I／II共用内容'));assert.ok(await p.locator('a[href="#subject=adv_math_i&chapter=4"]').count());assert.equal(await p.locator('a[href="#subject=adv_math_ii&chapter=4"]').count(),0);
 fs.mkdirSync('reports/batch05/screenshots',{recursive:true});
 for(const width of [320,390,1280]){
  await p.setViewportSize({width,height:900});
@@ -42,6 +47,8 @@ for(const width of [320,390,1280]){
   if(key===chapters[0]&&width!==320)await p.screenshot({path:'reports/batch05/screenshots/notes-'+width+'.png'});
  }
 }
+const reuse=JSON.parse(fs.readFileSync('reports/batch05/ILLUSTRATION_REUSE.json'));let zooms=0;
+for(const width of [390,1280]){await p.setViewportSize({width,height:900});for(const f of reuse){await p.goto(root+'#lesson='+encodeURIComponent(f.lesson_key));const image=p.locator('img[src="'+f.path+'"]');assert.equal(await image.count(),1);await image.evaluate(i=>{i.loading='eager';return i.decode()});await image.locator('..').click();assert.ok(await p.locator('#figure-viewer').isVisible());await p.locator('#figure-viewer img').evaluate(i=>i.decode());await p.keyboard.press('Escape');assert.equal(await p.locator('#figure-viewer').isVisible(),false);zooms++;}await p.goto(root+'#lesson='+encodeURIComponent('物理7'));await p.screenshot({path:'reports/batch05/screenshots/physics-energy-'+width+'.png'});}
 // Use one authored section to exercise independent answer/self-assessment storage.
 const row=entries[0],key=row.subject+row.chapter_id;
 await p.goto(root+'#lesson='+encodeURIComponent(key));
@@ -64,7 +71,6 @@ await p.goto(root+'#subject=adv_math_ii');assert.equal(await p.locator('#subject
 await p.getByRole('button',{name:'题库与练习',exact:true}).click();assert.ok(await p.locator('#bank-subject').count());
 await p.emulateMedia({colorScheme:'dark'});await p.goto(root+'#lesson='+encodeURIComponent(key));await p.screenshot({path:'reports/batch05/screenshots/notes-dark.png'});
 assert.deepEqual(errors,[]);assert.deepEqual(bad,[]);
-fs.writeFileSync('reports/batch05/BROWSER_RESULTS.json',JSON.stringify({status:'pass',checks,legacy_data_preserved:true,math_ranges:[29,35],math_chapter_state_isolated:true,backup_roundtrip:true,errors,bad},null,2)+'\n');
+fs.writeFileSync('reports/batch05/BROWSER_RESULTS.json',JSON.stringify({status:'pass',checks,legacy_data_preserved:true,math_ranges:[29,35],math_chapter_state_isolated:true,backup_roundtrip:true,reuse_image_zooms:zooms,errors,bad},null,2)+'\n');
 console.log('PASS '+checks.length+' viewport/chapter checks, math isolation, backup and original error-book regression');await b.close();
 })().catch(e=>{console.error(e);process.exit(1)});
-
