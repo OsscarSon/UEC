@@ -2,3 +2,6 @@
 # Scientific content, XML and geometry are checked by tests/v22_audit.py and layout.cjs.
 illustrations/v22/original/** -whitespace
 assets/v22/**/*.svg -whitespace
+# Preserve upstream generated strings and license formatting; review application code normally.
+vendor/** -whitespace linguist-vendored
+tools-src/font-licenses/** -whitespace

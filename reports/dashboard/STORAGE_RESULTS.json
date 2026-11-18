@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "checks": [
+    "crashed/old focus session counts only the last recorded five seconds, not ten minutes away",
+    "quota failure reports unsaved data and leaves persisted state intact",
+    "pre-dashboard backup imports and migrates to both math courses",
+    "old backup replaces later state instead of retaining stale dashboard fields",
+    "prototype-key import rejected atomically"
+  ],
+  "scope": "isolated browser profile with explicit test fixtures"
+}

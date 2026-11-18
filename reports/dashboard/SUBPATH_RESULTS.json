@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "base": "http://localhost:8036/UEC/",
+  "checks": [
+    "GitHub Pages style /UEC/ path",
+    "KaTeX render",
+    "local JSXGraph",
+    "local Excalidraw dynamic imports",
+    "all requested assets load"
+  ],
+  "errors": [],
+  "bad": []
+}
