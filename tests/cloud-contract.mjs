@@ -1,0 +1,3 @@
+import assert from 'node:assert/strict';import fs from 'node:fs';import {nextRevision} from '../tools-src/sync-contract.mjs';
+assert.equal(nextRevision(null,0),1);assert.equal(nextRevision(3,3),4);assert.throws(()=>nextRevision(null,2));assert.throws(()=>nextRevision(2,3));assert.throws(()=>nextRevision(5,3));assert.throws(()=>nextRevision(0,-1));
+fs.writeFileSync('reports/learning/CLOUD_CONTRACT_RESULTS.json',JSON.stringify({status:'pass',cases:6,scope:'Pure revision function shared with the actual Firebase transaction code; not a live Firestore transaction or authentication test.'},null,2)+'\n');console.log('PASS six cloud version-contract cases');

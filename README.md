@@ -1,3 +1,5 @@
+> 最新功能：[前置诊断、限时练习与自适应计划](reports/learning/DELIVERY.md) · [实际测试与边界](reports/learning/TEST_RESULTS.md)。Google登录与云同步代码已接入，因尚无Firebase项目，默认未启用；[配置说明](cloud/SETUP.md)。
+>
 > 本轮界面升级：[学习Dashboard、十二模块阅读导航与开源工具交付](reports/dashboard/DELIVERY.md)。旧数学入口隐藏，首次加载按已确认范围补齐两科的空缺记录并保留原始备份；不覆盖已有独立学习记录。课程与教学正文保持。
 >
 > 新工具：KaTeX公式、JSXGraph交互图形、Excalidraw本地白板。[实际测试](reports/dashboard/TEST_RESULTS.md) · [依赖审查及边界](reports/dashboard/DEPENDENCY_REVIEW.md)。开发者运行 `npm ci --ignore-scripts` 和 `npm run build:tools` 生成本地资源；网站仍可直接以静态文件运行。
