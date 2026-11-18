@@ -1,6 +1,6 @@
 """Identity/resource checks and independent numeric/geometry samples, not teacher approval."""
 from pathlib import Path
-import collections,hashlib,json,math,re,subprocess,xml.etree.ElementTree as E
+import os,collections,hashlib,json,math,re,subprocess,xml.etree.ElementTree as E
 R=Path(__file__).resolve().parents[1]; rows=[]
 def check(name,value,detail=''):
     assert value,(name,detail)
@@ -11,8 +11,9 @@ A=json.loads((R/'reports/v22/ASSET_REVIEW.json').read_text());B={a['code']:a for
 check('149 unique input and audit IDs',len(A)==len({a['id'] for a in A})==len(B)==149)
 registry=json.loads(subprocess.check_output(['node','-e',"const fs=require('fs'),vm=require('vm'),c={};c.window=c;vm.createContext(c);vm.runInContext(fs.readFileSync('data/v22-illustrations.js','utf8'),c);process.stdout.write(JSON.stringify({a:c.V22_ILLUSTRATIONS,s:c.V22_SUPERSEDED_FIGURES}))"],cwd=R))
 real={(s['lesson_key'],s['id']) for s in json.loads((R/'reports/v22/SECTION_REFERENCES.json').read_text())}
-live=json.loads(subprocess.check_output(['node','-e',"const fs=require('fs'),vm=require('vm'),c={};c.window=c;vm.createContext(c);for(const f of fs.readdirSync('lessons').filter(f=>/^(phys|chem|bio)\\d+\\.js$/.test(f)))vm.runInContext(fs.readFileSync('lessons/'+f,'utf8'),c);process.stdout.write(JSON.stringify(Object.entries(c.LESSONS).flatMap(([k,l])=>l.sections.map(s=>({key:k,id:s.id,title:s.t})))))"],cwd=R))
-check('saved section evidence equals live lesson catalog',real=={(s['key'],s['id']) for s in live})
+live=json.loads(subprocess.check_output(['node','-e',"const fs=require('fs'),vm=require('vm'),c={};c.window=c;vm.createContext(c);for(const f of fs.readdirSync('lessons').filter(f=>/^(phys|chem|bio|math)\\d+\\.js$/.test(f)))vm.runInContext(fs.readFileSync('lessons/'+f,'utf8'),c);process.stdout.write(JSON.stringify(Object.entries(c.LESSONS).flatMap(([k,l])=>l.sections.map(s=>({key:k,id:s.id,title:s.t})))))"],cwd=R))
+new={(s['subject']+str(s['chapter_id']),s['section_id']) for s in json.loads((R/'data/review/batch05_sections.json').read_text())}
+check('historical plus registered new section evidence equals live catalog',real|new=={(s['key'],s['id']) for s in live})
 for a in A:
     p=R/a['original_path'];check(a['code']+' original hash',digest(p)==a['original_sha256']==a['sha256'])
     root=E.parse(p).getroot();check(a['code']+' XML root',root.tag.endswith('}svg'))
@@ -36,7 +37,18 @@ protected=[]
 for name in subprocess.check_output(['git','ls-tree','-r','--name-only','origin/main'],cwd=R,text=True).splitlines():
     if name.startswith(('lessons/','data/notes/','data/base-lessons/','assets/','data/curriculum','data/subjects','data/review/new_sections')) or name in ['illustrations/PROMPTS_BATCH_ALL.json','data/p0-illustrations.js','data/illustrations.js']:
         original=subprocess.check_output(['git','show','origin/main:'+name],cwd=R)
-        check('baseline protected '+name,original==(R/name).read_bytes());protected.append(name)
+        if name=='data/subjects.js':
+            js="const vm=require('vm'),fs=require('fs'),c={window:{}};vm.runInNewContext(fs.readFileSync(0,'utf8'),c);process.stdout.write(JSON.stringify(c.window));"
+            before=json.loads(subprocess.check_output(['node','-e',js],input=original));after=json.loads(subprocess.check_output(['node','-e',js],input=(R/name).read_bytes()))
+            check('course identity codes preserved',[(x['code'],x.get('legacy')) for x in before['SUBJECTS']]==[(x['code'],x.get('legacy')) for x in after['SUBJECTS']])
+            for a,b in zip(before['SUBJECTS'],after['SUBJECTS']):
+                check(a['code']+' subject metadata preserved',a==b if a['code']!='math_pending' else {k:v for k,v in a.items() if k!='name'}=={k:v for k,v in b.items() if k!='name'})
+            for code in ['physics','chemistry','biology']:check(code+' examination sources unchanged',before['EXAM_SOURCES'][code]==after['EXAM_SOURCES'][code])
+            for code in ['adv_math_i','adv_math_ii']:
+                check(code+' source file school and page preserved',all(before['EXAM_SOURCES'][code][f]==after['EXAM_SOURCES'][code][f] for f in ['file','page','school']))
+        elif name=='illustrations/PROMPTS_BATCH_ALL.json':check('original142 prompt data unchanged',json.loads(original)['tasks']==json.loads((R/name).read_bytes())['tasks'])
+        else:check('baseline protected '+name,original==(R/name).read_bytes())
+        protected.append(name)
 T=json.loads((R/'illustrations/PROMPTS_BATCH_ALL.json').read_text())['tasks'];C=json.loads((R/'reports/v22/TASK_COVERAGE.json').read_text())
 check('exact142 task identity',len(C)==142 and {t['id'] for t in T}=={t['task_id'] for t in C})
 check('no asset-count completion claim',sum(c['v22_coverage']=='full' for c in C)==3)
@@ -119,4 +131,4 @@ def total(side):
     return counts,charge
 for code,left,right in reactions:check(code+' atom/charge balance '+str(left),total(left)==total(right))
 out={'result':'pass','checks':len(rows),'protected_baseline_files':len(protected),'independent_scalar_samples':scalar_count,'balanced_reactions':len(reactions),'scope':'逐图定性审查见ASSET_REVIEW；自动检查只覆盖资源/结构/身份与所列数值、向量、配平样本，非全学科教师审定','details':rows}
-(R/'reports/v22/STATIC_TEST_RESULTS.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n');print(json.dumps({k:v for k,v in out.items() if k!='details'},ensure_ascii=False))
+(R/os.environ.get('UEC_V22_STATIC_RESULT','reports/v22/STATIC_TEST_RESULTS.json')).write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n');print(json.dumps({k:v for k,v in out.items() if k!='details'},ensure_ascii=False))

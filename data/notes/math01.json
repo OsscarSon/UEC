@@ -1,0 +1,2128 @@
+{
+  "1.1": {
+    "content_batch": "batch05",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 1,
+    "section_id": "1.1",
+    "goals": [
+      "用坐标和距离描述点的位置",
+      "由距离方程求点并核几何条件"
+    ],
+    "prerequisites": [
+      "毕氏定理",
+      "平方与实数"
+    ],
+    "flow": [
+      "坐标符号",
+      "正交差",
+      "毕氏距离",
+      "等距方程",
+      "退化核查"
+    ],
+    "concept_relation": "坐标符号；正交差；毕氏距离；等距方程；退化核查",
+    "deep": [
+      "两点交换顺序使两个差同时变号，平方和不变；若横坐标相同，距离退为纵差绝对值，若纵坐标相同则退为横差绝对值。这些特殊情况能复核公式，不必死记三套互不联系的规则。",
+      "可由距离条件建立方程，例如到两固定点等距时两距离平方相等。因为距离非负，比较平方可等价去根号，常使二次项相消；但解后仍需检查点在某轴、某区间或不同于给定点等条件。",
+      "判断三角形性质可先求三边平方以避免多次开根。若最长边平方等于其他两边平方和，可用毕氏逆定理判直角；先确认三点不同且不共线，不能把零长度退化当正常三角形。",
+      "实际坐标问题还要给位置单位和参考对象。将地图经纬度直接代普通平面米制距离公式可能不合模型；本节采用平面正交坐标，不把近似平面方法无条件推广球面长距离。"
+    ],
+    "derive": [
+      "d(A,B)=√[(x₂−x₁)²+(y₂−y₁)²]≥0，正交轴且单位相容。",
+      "同横坐标时d=|y₂−y₁|；同纵坐标时d=|x₂−x₁|。",
+      "d(P,A)=d(P,B)可等价平方，展开后再按P的轴/区间限制筛选。"
+    ],
+    "examples": [
+      {
+        "q": "A(−2,1)、B(4,9)，求AB。",
+        "given": "平面同单位正交坐标。",
+        "analysis": "横纵差6、8。",
+        "method": "毕氏距离公式。",
+        "principle": "直角分解。",
+        "steps": [
+          "AB²=(4+2)²+(9−1)²=36+64=100。",
+          "AB=10。"
+        ],
+        "ans": "10个长度单位。",
+        "verification": "交换点差为−6、−8，平方和仍100。",
+        "pitfall": "横差算4−2或距离不取平方根。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.1",
+        "related_sections": []
+      },
+      {
+        "q": "A(0,0)、B(3,0)、C(0,4)，不用近似根号判断三角形是否直角及直角点。",
+        "given": "三点互异不共线。",
+        "analysis": "算三边平方找最长。",
+        "method": "AB²9、AC²16、BC²25。",
+        "principle": "毕氏逆定理。",
+        "steps": [
+          "9+16=25，BC最长为斜边。",
+          "直角在A。"
+        ],
+        "ans": "直角三角形，∠A=90°。",
+        "verification": "AB沿横轴、AC沿纵轴也互垂验证。",
+        "pitfall": "最长边对应的端点误当直角点。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.1",
+        "related_sections": []
+      },
+      {
+        "q": "P在x轴且到A(−1,2)、B(5,4)等距，求P。",
+        "given": "P=(t,0)。",
+        "analysis": "距离平方相等可去根。",
+        "method": "列两平方和。",
+        "principle": "非负距离相等与平方相等。",
+        "steps": [
+          "(t+1)²+4=(t−5)²+16。",
+          "2t+5=−10t+41，t=3。"
+        ],
+        "ans": "P(3,0)。",
+        "verification": "到A平方16+4=20，到B平方4+16=20。",
+        "pitfall": "把P设(0,t)放错轴。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "点(0,−5)在哪个象限？到原点距离多少？",
+        "given": "横坐标0。",
+        "analysis": "轴点不归象限。",
+        "method": "位置与距离分别判。",
+        "principle": "坐标轴定义。",
+        "steps": [
+          "在y轴负半轴，不属象限。",
+          "距离|−5|=5。"
+        ],
+        "ans": "不属象限；距离5。",
+        "verification": "与原点同x，纵差绝对值。",
+        "pitfall": "因y负就归第四象限。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.1",
+        "related_sections": []
+      },
+      {
+        "q": "A(2,−3)、B(2,5)距离？",
+        "given": "同横坐标。",
+        "analysis": "退化为竖直间隔。",
+        "method": "|5−(−3)|。",
+        "principle": "距离非负。",
+        "steps": [
+          "纵差8。",
+          "AB=8。"
+        ],
+        "ans": "8。",
+        "verification": "通式√(0²+8²)=8。",
+        "pitfall": "写5−3=2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.1",
+        "related_sections": []
+      },
+      {
+        "q": "P(t,2)到原点距离√13，求t。",
+        "given": "实数t。",
+        "analysis": "距离条件平方后有双符号。",
+        "method": "t²+4=13。",
+        "principle": "距离平方。",
+        "steps": [
+          "t²=9。",
+          "t=±3。"
+        ],
+        "ans": "t=−3或3。",
+        "verification": "两点(±3,2)平方和均13。",
+        "pitfall": "只取t正根，误把距离非负当坐标非负。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.1",
+        "related_sections": []
+      },
+      {
+        "q": "A(1,1)、B(4,5)、C(7,9)，三点能构成非退化三角形吗？",
+        "given": "三点互异。",
+        "analysis": "距离可检共线。",
+        "method": "AB=5、BC=5、AC=10。",
+        "principle": "一边等于另两边和为退化。",
+        "steps": [
+          "两段差均(3,4)，AB、BC各5。",
+          "AC差(6,8)长10，A到C经B刚好同线。"
+        ],
+        "ans": "不能，三点共线。",
+        "verification": "B也为A,C中点，方向一致。",
+        "pitfall": "三点不同就认为必成三角形。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "两点交换顺序后距离公式中差值变号，会得到负距离吗？",
+      "given": "两个坐标差都变号。",
+      "analysis": "平方消去符号，主根非负。",
+      "method": "分别平方比较。",
+      "principle": "(−a)²=a²。",
+      "steps": [
+        "差平方和不变。",
+        "最终取非负主根，距离相同。"
+      ],
+      "ans": "不会。",
+      "verification": "d(A,B)=d(B,A)符合长度对称性。",
+      "pitfall": "把带符号位移分量当距离。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 1,
+      "primary_section": "1.1",
+      "related_sections": []
+    },
+    "exam": [
+      "坐标题先圈横纵次序和轴限制，设点形式正确",
+      "距离题可先算平方，等距条件平方要依距离非负",
+      "几何判定题查退化与最长边，图只辅助不凭比例猜"
+    ],
+    "quick": [
+      "坐标符号",
+      "正交差",
+      "毕氏距离",
+      "等距方程",
+      "退化核查"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_1.1",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-1-the-rectangular-coordinate-systems-and-graphs",
+        "page_or_section": "2-1-the-rectangular-coordinate-systems-and-graphs",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_1.1",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-1-the-rectangular-coordinate-systems-and-graphs",
+        "page_or_section": "2-1-the-rectangular-coordinate-systems-and-graphs",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "坐标题先圈横纵次序和轴限制，设点形式正确",
+      "method": "列两平方和。",
+      "principle": "非负距离相等与平方相等。",
+      "worked_example_index": 2,
+      "verification": "到A平方16+4=20，到B平方4+16=20。",
+      "pitfall": "把P设(0,t)放错轴。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用坐标和距离描述点的位置”的抽样复核：交换点差为−6、−8，平方和仍100。；若出现“横差算4−2或距离不取平方根。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“由距离方程求点并核几何条件”的抽样复核：到A平方16+4=20，到B平方4+16=20。；若出现“把P设(0,t)放错轴。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把带符号位移分量当距离。",
+        "correction": "不会。",
+        "verification": "d(A,B)=d(B,A)符合长度对称性。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "距离公式的正交分解",
+      "objects": [
+        "A(−2,1)",
+        "B(4,9)",
+        "直角投影点",
+        "横差6",
+        "纵差8",
+        "距离10"
+      ],
+      "relations": [
+        "投影点同一横/纵坐标",
+        "直角边6与8",
+        "斜边10",
+        "坐标比例一致"
+      ],
+      "labels": [
+        "x",
+        "y",
+        "Δx=6",
+        "Δy=8",
+        "AB=10",
+        "非负距离"
+      ],
+      "format": "SVG",
+      "priority": "P=0",
+      "reuse": "暂无对应旧图；坐标与比例需数学绘图库",
+      "english": "Plot A(-2,1) and B(4,9) with equal unit scales, construct horizontal and vertical projections of lengths 6 and 8, and label the hypotenuse 10. Distinguish signed coordinate differences from nonnegative Euclidean distance."
+    }
+  },
+  "1.2": {
+    "content_batch": "batch05",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 1,
+    "section_id": "1.2",
+    "goals": [
+      "由线性插值推导内分与外分坐标",
+      "反求端点并区分中点重心和无有限外分"
+    ],
+    "prerequisites": [
+      "坐标差",
+      "比例与向量式位移思想"
+    ],
+    "flow": [
+      "比例顺序",
+      "内分插值",
+      "中点",
+      "外分延长",
+      "反求与重心"
+    ],
+    "concept_relation": "比例顺序；内分插值；中点；外分延长；反求与重心",
+    "deep": [
+      "外分在延长线上，采用相同AP:PB=m:n的长度比时可写P=(mB−nA)/(m−n)，m≠n。m>n时P越过B，m<n时在A外侧；结果不应强迫落在两端之间。",
+      "若m=n>0且要求外分，在线上没有有限点使到两个不同端点的距离相等又在线段外。分母零反映几何不可实现，不是位置坐标为0；内分等比则正常是中点，不能混淆。",
+      "反求端点时把分点公式看作两个线性方程逐坐标解。三角形重心可由中点和中线内分2:1推得三顶点坐标平均；这是一条可推导结论，不靠把图中心目测出来。",
+      "验算先看P相对A、B的位置，再算相应差向量或长度比。坐标结果即使满足某个代数式，也要确认所用比的顺序和内外分条件；正负坐标不决定点在不在线段内部。"
+    ],
+    "derive": [
+      "内分AP:PB=m:n：P=(nA+mB)/(m+n)，m,n>0。",
+      "外分同长度比：P=(mB−nA)/(m−n)，m≠n；端点不同。",
+      "中点M=(A+B)/2；三角形重心G=(A+B+C)/3，可由中线2:1推导。"
+    ],
+    "examples": [
+      {
+        "q": "A(1,2)、B(7,8)，P内分AP:PB=1:2，求P。",
+        "given": "P在线段内部。",
+        "analysis": "靠近A，A权重2。",
+        "method": "P=(2A+B)/3。",
+        "principle": "内分位移比例。",
+        "steps": [
+          "x=(2×1+7)/3=3。",
+          "y=(2×2+8)/3=4。"
+        ],
+        "ans": "P(3,4)。",
+        "verification": "AP差(2,2)、PB差(4,4)，长度比1:2。",
+        "pitfall": "把权重同顺序写(A+2B)/3。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.2",
+        "related_sections": []
+      },
+      {
+        "q": "同样A(1,2)、B(7,8)，P外分AP:PB=2:1，求P及位置。",
+        "given": "外分且m=2、n=1（m>n）。",
+        "analysis": "应在B外侧。",
+        "method": "P=(2B−A)/(2−1)。",
+        "principle": "外分公式。",
+        "steps": [
+          "x=14−1=13，y=16−2=14。",
+          "P越过B。"
+        ],
+        "ans": "P(13,14)，在B外侧。",
+        "verification": "AP差(12,12)、PB差(6,6)，长度比2:1。",
+        "pitfall": "外分仍用加权平均落到内部。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.2",
+        "related_sections": []
+      },
+      {
+        "q": "A(2,−1)，P(5,2)内分AP:PB=1:2，反求B。",
+        "given": "分点和比例已知。",
+        "analysis": "P=(2A+B)/3。",
+        "method": "B=3P−2A。",
+        "principle": "坐标线性关系。",
+        "steps": [
+          "B_x=15−4=11。",
+          "B_y=6−(−2)=8。"
+        ],
+        "ans": "B(11,8)。",
+        "verification": "AP差(3,3)，PB差(6,6)，比例正确。",
+        "pitfall": "反求时负坐标漏括号。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "A(−2,3)、B(4,−1)中点？",
+        "given": "等比内分。",
+        "analysis": "横纵各取平均。",
+        "method": "M=(A+B)/2。",
+        "principle": "中点特例。",
+        "steps": [
+          "x=(−2+4)/2=1。",
+          "y=(3−1)/2=1。"
+        ],
+        "ans": "M(1,1)。",
+        "verification": "MA、MB差分别(3,−2)、(3,−2)，长度相同。",
+        "pitfall": "只平均一个坐标。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.2",
+        "related_sections": []
+      },
+      {
+        "q": "不同端点A,B能有AP:PB=1:1的有限外分点吗？",
+        "given": "P在直线延长线外分。",
+        "analysis": "等距点在线段中点而非外侧。",
+        "method": "比较外侧到远端和近端距离。",
+        "principle": "外侧两距离相差AB>0。",
+        "steps": [
+          "因此不可能等距。",
+          "外分分母1−1为0对应无有限解。"
+        ],
+        "ans": "不能。",
+        "verification": "内分1:1中点不属于外分。",
+        "pitfall": "除零后把坐标设0。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.2",
+        "related_sections": []
+      },
+      {
+        "q": "A(0,0)、B(6,0)、C(0,6)重心坐标，并用一条中线验证。",
+        "given": "非退化三角形。",
+        "analysis": "顶点平均。",
+        "method": "G=(A+B+C)/3。",
+        "principle": "中线2:1。",
+        "steps": [
+          "G=(2,2)。",
+          "BC中点M(3,3)，AG:GM=2√2:√2=2:1。"
+        ],
+        "ans": "G(2,2)。",
+        "verification": "位于A到M内部2/3处。",
+        "pitfall": "把BC中点(3,3)当重心。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.2",
+        "related_sections": []
+      },
+      {
+        "q": "A(0,1)、B(4,5)，P外分AP:PB=1:2，求P并验在A外侧。",
+        "given": "m=1、n=2（m<n）。",
+        "analysis": "外分分母负但坐标可合法。",
+        "method": "P=(B−2A)/(1−2)。",
+        "principle": "外分同长度比。",
+        "steps": [
+          "分子(4,3)，除−1得(−4,−3)。",
+          "AP长4√2，PB长8√2，比例1:2。"
+        ],
+        "ans": "P(−4,−3)。",
+        "verification": "P在A反向延长线上，符合m<n。",
+        "pitfall": "看到负分母就判无解。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "AP:PB=1:3内分，P应靠A还是B？用权重与位移两种方式解释。",
+      "given": "正比例内部。",
+      "analysis": "AP是较短那段。",
+      "method": "t=1/(1+3)。",
+      "principle": "位移插值。",
+      "steps": [
+        "P=A+AB/4，离A较近。",
+        "公式P=(3A+B)/4给A较大权重，同结论。"
+      ],
+      "ans": "靠A。",
+      "verification": "AP为全长1/4，PB为3/4。",
+      "pitfall": "比例较大的3误当AP并靠B。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 1,
+      "primary_section": "1.2",
+      "related_sections": []
+    },
+    "exam": [
+      "分点题先画内外位置、标AP:PB顺序，再套对应式",
+      "内分权重交叉，外分负分母不等于错误",
+      "反求端点与重心题用线性坐标关系，并以位置和距离比双验"
+    ],
+    "quick": [
+      "比例顺序",
+      "内分插值",
+      "中点",
+      "外分延长",
+      "反求与重心"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_1.2",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-1-the-rectangular-coordinate-systems-and-graphs",
+        "page_or_section": "2-1-the-rectangular-coordinate-systems-and-graphs",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_1.2",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-1-the-rectangular-coordinate-systems-and-graphs",
+        "page_or_section": "2-1-the-rectangular-coordinate-systems-and-graphs",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "分点题先画内外位置、标AP:PB顺序，再套对应式",
+      "method": "B=3P−2A。",
+      "principle": "坐标线性关系。",
+      "worked_example_index": 2,
+      "verification": "AP差(3,3)，PB差(6,6)，比例正确。",
+      "pitfall": "反求时负坐标漏括号。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由线性插值推导内分与外分坐标”的抽样复核：AP差(2,2)、PB差(4,4)，长度比1:2。；若出现“把权重同顺序写(A+2B)/3。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“反求端点并区分中点重心和无有限外分”的抽样复核：AP差(3,3)，PB差(6,6)，比例正确。；若出现“反求时负坐标漏括号。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "比例较大的3误当AP并靠B。",
+        "correction": "靠A。",
+        "verification": "AP为全长1/4，PB为3/4。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "内分与外分的权重",
+      "objects": [
+        "A(1,2)",
+        "B(7,8)",
+        "内分P(3,4)",
+        "外分P(13,14)",
+        "A侧外分"
+      ],
+      "relations": [
+        "内分1:2靠A",
+        "外分2:1越B",
+        "权重交叉",
+        "m=n外分无有限点"
+      ],
+      "labels": [
+        "AP:PB",
+        "内分",
+        "外分",
+        "m,n>0",
+        "m≠n"
+      ],
+      "format": "SVG",
+      "priority": "P=0",
+      "reuse": "暂无对应旧图；点须按同一标尺精确定位",
+      "english": "Place A(1,2), B(7,8), internal P(3,4) with AP:PB=1:2 and external P(13,14) with ratio 2:1 on the same line. Show crossed coordinate weights and distinguish an A-side external point; never draw an equal-ratio finite external division."
+    }
+  },
+  "1.3": {
+    "content_batch": "batch05",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 1,
+    "section_id": "1.3",
+    "goals": [
+      "用坐标推导三角形及多边形面积",
+      "保留顶点顺序和绝对值处理参数"
+    ],
+    "prerequisites": [
+      "坐标距离",
+      "分配律与绝对值"
+    ],
+    "flow": [
+      "相对坐标",
+      "有向乘积",
+      "三角形",
+      "边界鞋带",
+      "参数与退化"
+    ],
+    "concept_relation": "相对坐标；有向乘积；三角形；边界鞋带；参数与退化",
+    "deep": [
+      "简单多边形可按边界顺序列顶点，用相邻点乘积和差的一半求面积，末点须连回首点。顶点顺序不是随便排序：把对角点交错会形成自交路线，其有向面积可能抵消，不能当原简单多边形的普通面积。",
+      "凹多边形按实际不自交边界顺序使用也可；也可拆成无重叠三角形再加面积。拆分法须避免把外部三角形加入或重叠部分算两次，尤其图不按比例时应由顶点关系确定。",
+      "未知坐标由面积条件求解时出现绝对值常产生正负两个分支，对应点在某条边两侧。若题给“在上方”或“第一象限”等条件，再筛选分支；不能因为面积正就强迫未知坐标也正。",
+      "结果用底高、平移后分量或三角形分割独立核查，单位应是长度单位平方。整体平移不改变面积，若坐标代数式因换原点而改变结果，就应检查顺序、展开或闭合项。"
+    ],
+    "derive": [
+      "S△ABC=| (x₂−x₁)(y₃−y₁)−(y₂−y₁)(x₃−x₁) |/2。",
+      "简单多边形按边界顺序：S=|Σ(xᵢyᵢ₊₁−yᵢxᵢ₊₁)|/2，最后点连回第一点。",
+      "面积0是共线/退化警示；绝对值方程需按两符号及题设位置筛选。"
+    ],
+    "examples": [
+      {
+        "q": "A(1,1)、B(5,1)、C(2,4)，求三角形面积并用底高验证。",
+        "given": "三点按任一环向。",
+        "analysis": "水平AB作底便于复核。",
+        "method": "坐标叉积或鞋带。",
+        "principle": "有向平行四边形一半取绝对值。",
+        "steps": [
+          "AB分量(4,0)、AC分量(1,3)，面积|4×3−0×1|/2=6。",
+          "底AB4、高3，底高一半也6。"
+        ],
+        "ans": "6平方单位。",
+        "verification": "两种计算相同，普通面积非负。",
+        "pitfall": "漏1/2或把高度当AC斜边。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.3",
+        "related_sections": []
+      },
+      {
+        "q": "顺边界A(0,0)、B(4,0)、C(5,3)、D(1,3)，求面积。",
+        "given": "简单四边形，顺序已给。",
+        "analysis": "用闭合鞋带或平行四边形。",
+        "method": "相邻乘积和差。",
+        "principle": "坐标多边形面积。",
+        "steps": [
+          "正向和0+12+15+0=27。",
+          "反向和0+0+3+0=3，面积(27−3)/2=12。"
+        ],
+        "ans": "12平方单位。",
+        "verification": "底4、高3，平行四边形12。",
+        "pitfall": "漏D到A闭合或把顶点改交错顺序。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.3",
+        "related_sections": []
+      },
+      {
+        "q": "A(0,0)、B(4,0)、C(2,k)三角形面积6，求k；若C在x轴上方呢？",
+        "given": "k实数。",
+        "analysis": "高度为|k|。",
+        "method": "S=4|k|/2。",
+        "principle": "面积非负与两侧对称。",
+        "steps": [
+          "2|k|=6，|k|=3。",
+          "k=±3；若上方则k>0，仅3。"
+        ],
+        "ans": "k=−3或3；上方条件取3。",
+        "verification": "两种点到底边高度都3。",
+        "pitfall": "面积正就只取k正。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "A(0,0)、B(2,0)、C(0,5)面积？",
+        "given": "直角三角形。",
+        "analysis": "底高明显。",
+        "method": "S=2×5/2。",
+        "principle": "面积公式。",
+        "steps": [
+          "S=5。",
+          "坐标式|2×5|/2同得5。"
+        ],
+        "ans": "5平方单位。",
+        "verification": "单位平方而非长度。",
+        "pitfall": "算成周长或漏单位平方。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.3",
+        "related_sections": []
+      },
+      {
+        "q": "A(1,2)、B(3,6)、C(5,10)面积与几何含义？",
+        "given": "三点不同。",
+        "analysis": "分量比例。",
+        "method": "差式算有向面积。",
+        "principle": "零面积判共线。",
+        "steps": [
+          "AB=(2,4)、AC=(4,8)，2×8−4×4=0。",
+          "面积0，三点共线。"
+        ],
+        "ans": "0，退化不成非零面积三角形。",
+        "verification": "B在A,C连线中间。",
+        "pitfall": "把0判为公式失效而改数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.3",
+        "related_sections": []
+      },
+      {
+        "q": "给正方形顶点A(0,0)、B(2,0)、C(2,2)、D(0,2)，按A,C,B,D交错代鞋带为何可得0却不是正方形面积？",
+        "given": "路线自交，非边界顺序。",
+        "analysis": "有向区域抵消。",
+        "method": "按真实边界重排。",
+        "principle": "简单多边形公式要求边界顺序。",
+        "steps": [
+          "交错线路形成自交弓形，有向面积抵消。",
+          "按A,B,C,D面积4。"
+        ],
+        "ans": "顺序错误；正方形面积4。",
+        "verification": "底边2高2独立核。",
+        "pitfall": "任意顶点排列都当原多边形。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.3",
+        "related_sections": []
+      },
+      {
+        "q": "三角形A(−1,1)、B(3,1)、C(0,4)整体平移(5,−2)，面积变化吗？给新坐标核。",
+        "given": "刚性平移。",
+        "analysis": "坐标差不变。",
+        "method": "新点A(4,−1)、B(8,−1)、C(5,2)。",
+        "principle": "面积依相对差。",
+        "steps": [
+          "原底4高3面积6。",
+          "新底仍4高3面积6。"
+        ],
+        "ans": "不变，仍6。",
+        "verification": "分量AB与AC都不变。",
+        "pitfall": "用坐标绝对值大小猜面积变大。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "鞋带有向和为−18，能把面积写−9吗？交换顶点方向后呢？",
+      "given": "简单多边形按边界序。",
+      "analysis": "普通面积非负，有向量有符号。",
+      "method": "取绝对值一半。",
+      "principle": "反向只改有向符号。",
+      "steps": [
+        "面积|−18|/2=9。",
+        "方向反转和+18，普通面积仍9。"
+      ],
+      "ans": "面积9，两方向相同。",
+      "verification": "与几何面积不依走向一致。",
+      "pitfall": "把有向符号当负普通面积。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 1,
+      "primary_section": "1.3",
+      "related_sections": []
+    },
+    "exam": [
+      "面积题先画真实边界序，再闭合相邻项，末尾取绝对值一半",
+      "未知点题保留正负高度分支，题给位置再筛",
+      "结果用底高或分割核，面积0先查共线与自交顺序"
+    ],
+    "quick": [
+      "相对坐标",
+      "有向乘积",
+      "三角形",
+      "边界鞋带",
+      "参数与退化"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_1.3",
+        "url": "https://openstax.org/books/precalculus-2e/pages/9-8-solving-systems-with-cramers-rule",
+        "page_or_section": "9-8-solving-systems-with-cramers-rule",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_1.3",
+        "url": "https://openstax.org/books/precalculus-2e/pages/9-8-solving-systems-with-cramers-rule",
+        "page_or_section": "9-8-solving-systems-with-cramers-rule",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "面积题先画真实边界序，再闭合相邻项，末尾取绝对值一半",
+      "method": "S=4|k|/2。",
+      "principle": "面积非负与两侧对称。",
+      "worked_example_index": 2,
+      "verification": "两种点到底边高度都3。",
+      "pitfall": "面积正就只取k正。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用坐标推导三角形及多边形面积”的抽样复核：两种计算相同，普通面积非负。；若出现“漏1/2或把高度当AC斜边。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“保留顶点顺序和绝对值处理参数”的抽样复核：两种点到底边高度都3。；若出现“面积正就只取k正。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把有向符号当负普通面积。",
+        "correction": "面积9，两方向相同。",
+        "verification": "与几何面积不依走向一致。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "坐标面积与边界顺序",
+      "objects": [
+        "三角形(1,1)(5,1)(2,4)",
+        "底高",
+        "有序四边形",
+        "自交对照",
+        "k正负两点"
+      ],
+      "relations": [
+        "三角形面积6",
+        "四边形面积12",
+        "自交抵消不代表正方形面积0",
+        "高用绝对值"
+      ],
+      "labels": [
+        "1/2",
+        "绝对值",
+        "闭合边",
+        "边界顺序",
+        "平方单位"
+      ],
+      "format": "SVG",
+      "priority": "P=0",
+      "reuse": "暂无对应旧图；顶点与区域应精确绘制",
+      "english": "Plot triangle (1,1),(5,1),(2,4) with base 4, height 3 and area 6. Show a boundary-ordered quadrilateral of area 12 and a separate self-intersecting counterexample. Preserve the absolute-value factor 1/2 and distinguish signed area from ordinary area."
+    }
+  },
+  "1.4": {
+    "content_batch": "batch05",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 1,
+    "section_id": "1.4",
+    "goals": [
+      "用坐标差与倾斜角解释斜率",
+      "分类处理平行垂直和竖直线"
+    ],
+    "prerequisites": [
+      "坐标系",
+      "比例与三角正切"
+    ],
+    "flow": [
+      "横纵差比",
+      "倾斜角",
+      "水平竖直",
+      "平行重合",
+      "垂直与参数"
+    ],
+    "concept_relation": "横纵差比；倾斜角；水平竖直；平行重合；垂直与参数",
+    "deep": [
+      "两条不同非竖直直线平行时斜率相同，但斜率相同也可能是同一条线，需要再比较截距或一点。两竖直线之间同样可能平行或重合，不由一个不存在的m判断。",
+      "两非竖直且斜率均有限的互垂直直线满足m₁m₂=−1；当一条水平时另一条竖直，不能用除0求“负倒数”。垂直条件的斜率表达有适用范围，几何定义本身仍正常。",
+      "三点共线可比较相同基点的两段斜率，但若出现竖直就要分类；也可交叉相乘成不需除法的坐标等式，避免丢掉共同横坐标情境。两点重合时不能由它们唯一确定一条线，应先排除。",
+      "参数点问题先写差的分母非零，再解斜率条件并回代。若分母为零是题意允许的竖直情况，应单独分析而非直接删掉；横纵顺序、单位比例和点的互异条件都决定结论。"
+    ],
+    "derive": [
+      "m=(y₂−y₁)/(x₂−x₁)，要求x₂≠x₁；竖直无实数斜率，水平m=0。",
+      "非竖直线平行需m₁=m₂且不重合；互垂直（有限斜率情境）m₁m₂=−1。",
+      "三点共线可用(x₂−x₁)(y₃−y₁)=(x₃−x₁)(y₂−y₁)，并注意互异与退化。"
+    ],
+    "examples": [
+      {
+        "q": "A(1,2)、B(4,8)，斜率及横增2时纵增多少？",
+        "given": "两点横坐标不同。",
+        "analysis": "差的顺序一致。",
+        "method": "m=(8−2)/(4−1)。",
+        "principle": "直线单位横变化率。",
+        "steps": [
+          "m=6/3=2。",
+          "Δx=2时Δy=mΔx=4。"
+        ],
+        "ans": "斜率2，纵增4。",
+        "verification": "两点横增3纵增6相同比例。",
+        "pitfall": "用8/4忽略起点或只反一个差。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.4",
+        "related_sections": []
+      },
+      {
+        "q": "直线2x−3y+1=0的斜率及与之垂直线的斜率？",
+        "given": "原线非竖直且非水平。",
+        "analysis": "先改斜截式。",
+        "method": "y=(2/3)x+1/3，再负倒数。",
+        "principle": "有限非零斜率垂直乘积−1。",
+        "steps": [
+          "原m=2/3。",
+          "垂直m=−3/2。"
+        ],
+        "ans": "2/3与−3/2。",
+        "verification": "(2/3)(−3/2)=−1。",
+        "pitfall": "直接把一般式x系数2当斜率。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.4",
+        "related_sections": []
+      },
+      {
+        "q": "P(a,5)、Q(3,1)所在直线斜率−2，求a并查分母。",
+        "given": "两点不同且斜率有限。",
+        "analysis": "3−a须非0。",
+        "method": "(1−5)/(3−a)=−2。",
+        "principle": "坐标斜率定义。",
+        "steps": [
+          "−4=−2(3−a)，得−4=−6+2a，a=1。",
+          "3−1=2非0。"
+        ],
+        "ans": "a=1。",
+        "verification": "P(1,5)到Q(3,1)横2纵−4，斜率−2。",
+        "pitfall": "相减顺序不一致得a=5。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "x=4的斜率与y=4的斜率分别？",
+        "given": "两种方向。",
+        "analysis": "竖直和水平区分。",
+        "method": "看Δx或Δy。",
+        "principle": "斜率定义。",
+        "steps": [
+          "x=4竖直，Δx=0无定义。",
+          "y=4水平，Δy=0且Δx非0，m=0。"
+        ],
+        "ans": "无定义、0。",
+        "verification": "二线互垂直但不能用两个有限m乘积公式。",
+        "pitfall": "都答0。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.4",
+        "related_sections": []
+      },
+      {
+        "q": "两线斜率都3，是否一定是不同平行线？",
+        "given": "未给截距或点。",
+        "analysis": "也可能重合。",
+        "method": "比较完整方程或一点。",
+        "principle": "同斜率只是方向相同。",
+        "steps": [
+          "y=3x+1与y=3x+2不同平行。",
+          "y=3x+1与2y=6x+2重合。"
+        ],
+        "ans": "不一定，可能重合。",
+        "verification": "相同方向不保证不同集合。",
+        "pitfall": "把平行与重合无条件混为一类。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.4",
+        "related_sections": []
+      },
+      {
+        "q": "倾斜角135°的非竖直线斜率？",
+        "given": "角从x正向逆时针。",
+        "analysis": "钝角tan负。",
+        "method": "tan135°。",
+        "principle": "m=tanθ。",
+        "steps": [
+          "135°=180°−45°。",
+          "tan=−tan45°=−1。"
+        ],
+        "ans": "−1。",
+        "verification": "横增1纵降1符合向右下降。",
+        "pitfall": "斜率写角度135。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.4",
+        "related_sections": []
+      },
+      {
+        "q": "A(2,0)、B(2,3)、C(2,k)，判断共线条件并说明k=0、3时的问题。",
+        "given": "三点横坐标同。",
+        "analysis": "竖直共线不需除法斜率。",
+        "method": "直接看x=2。",
+        "principle": "共同直线方程。",
+        "steps": [
+          "任意实k均在x=2，故共线。",
+          "k=0或3与A或B重合，仍在同线，但不是三个互异点。"
+        ],
+        "ans": "任意k在同线；互异另需k≠0,3。",
+        "verification": "交叉乘坐标等式两侧均0。",
+        "pitfall": "除0后说竖直三点不能讨论共线。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "两线互垂直，其中一条m=0，能把另一条m写成−1/0吗？",
+      "given": "一条水平。",
+      "analysis": "负倒数公式不覆盖竖直实斜率。",
+      "method": "回几何方向。",
+      "principle": "水平垂直于竖直。",
+      "steps": [
+        "另一条为竖直线。",
+        "实数斜率无定义，不能写一个实数−1/0。"
+      ],
+      "ans": "不能，应说竖直、斜率无定义。",
+      "verification": "两线仍正常存在，并非垂直条件失败。",
+      "pitfall": "把除零形式当合法数值。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 1,
+      "primary_section": "1.4",
+      "related_sections": []
+    },
+    "exam": [
+      "斜率题先查横差非零，差顺序保持一致",
+      "平行题还查是否重合，垂直题先分水平/竖直",
+      "参数与共线题可用不除法坐标条件，互异限制另写"
+    ],
+    "quick": [
+      "横纵差比",
+      "倾斜角",
+      "水平竖直",
+      "平行重合",
+      "垂直与参数"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_1.4",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/4-1-linear-functions",
+        "page_or_section": "4-1-linear-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_1.4",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/4-1-linear-functions",
+        "page_or_section": "4-1-linear-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "斜率题先查横差非零，差顺序保持一致",
+      "method": "(1−5)/(3−a)=−2。",
+      "principle": "坐标斜率定义。",
+      "worked_example_index": 2,
+      "verification": "P(1,5)到Q(3,1)横2纵−4，斜率−2。",
+      "pitfall": "相减顺序不一致得a=5。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用坐标差与倾斜角解释斜率”的抽样复核：两点横增3纵增6相同比例。；若出现“用8/4忽略起点或只反一个差。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "q",
+        "review_module": 5,
+        "feedback": "目标“分类处理平行垂直和竖直线”的抽样复核：两线仍正常存在，并非垂直条件失败。；若出现“把除零形式当合法数值。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把除零形式当合法数值。",
+        "correction": "不能，应说竖直、斜率无定义。",
+        "verification": "两线仍正常存在，并非垂直条件失败。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "斜率及例外分类",
+      "objects": [
+        "A(1,2)到B(4,8)",
+        "水平线",
+        "竖直线",
+        "斜率2/3及−3/2",
+        "同斜率重合/平行"
+      ],
+      "relations": [
+        "Δy=6/Δx=3=2",
+        "竖直无定义水平0",
+        "有限非零垂直斜率乘积−1"
+      ],
+      "labels": [
+        "Δx",
+        "Δy",
+        "m",
+        "无定义",
+        "平行≠必不同"
+      ],
+      "format": "SVG",
+      "priority": "P=0",
+      "reuse": "暂无对应旧图；同坐标尺度绘制，不用视觉角替数值",
+      "english": "Plot a rise of 6 over a run of 3, giving slope 2. Clearly separate horizontal slope zero from undefined vertical slope. Show perpendicular finite slopes 2/3 and -3/2 and distinguish equal-slope parallel lines from coincident lines using labelled equal scales."
+    }
+  },
+  "1.5": {
+    "content_batch": "batch05",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 1,
+    "section_id": "1.5",
+    "goals": [
+      "按已知条件选择直线表达形式",
+      "检查竖直线及截距公式的适用条件"
+    ],
+    "prerequisites": [
+      "斜率",
+      "代数方程与坐标"
+    ],
+    "flow": [
+      "一般式范围",
+      "点斜",
+      "两点",
+      "截距",
+      "等价回代"
+    ],
+    "concept_relation": "一般式范围；点斜；两点；截距；等价回代",
+    "deep": [
+      "斜截式y=mx+b便于读斜率与y截距，适用于非竖直线；这里b既是截距数值，也是交点(0,b)的纵坐标，不要把截距数值与点坐标混为一种表达。",
+      "截距式x/a+y/b=1要求两个截距a,b均非零且有限。经过原点、竖直或水平线有时不具这组条件，应换一般式或其他形式，不能为套公式除以0。",
+      "由平行或垂直条件求式时，先确定所需方向，再代一点。一般式Ax+By+C=0若B≠0斜率−A/B；B=0时竖直，不能把斜率公式的分母0当成合法实数。形式转换必须保持同一点集。",
+      "结果至少回代所有给定点，并核斜率或几何关系。展开、移项、约系数是表达简化，不应改变直线；若两个式子相差非零倍数则等价，若漏常数项则可能变成平行的另一条线。"
+    ],
+    "derive": [
+      "一般式Ax+By+C=0，(A,B)≠(0,0)。",
+      "点斜式y−y₀=m(x−x₀)，竖直例外x=x₀。",
+      "两点交叉式适用于不同两点；截距式x/a+y/b=1要求a,b非零有限。"
+    ],
+    "examples": [
+      {
+        "q": "求过(2,−1)且斜率3的直线方程。",
+        "given": "非竖直方向已给。",
+        "analysis": "选点斜式减少未知。",
+        "method": "y+1=3(x−2)。",
+        "principle": "线上斜率固定。",
+        "steps": [
+          "展开y+1=3x−6。",
+          "得y=3x−7或3x−y−7=0。"
+        ],
+        "ans": "y=3x−7。",
+        "verification": "代x=2给−1，斜率3。",
+        "pitfall": "把点负纵坐标写成y−1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.5",
+        "related_sections": []
+      },
+      {
+        "q": "求过A(−1,2)、B(3,−6)的直线，并说明是否适合用非零截距式。",
+        "given": "两点横差4非0。",
+        "analysis": "先斜率再点斜。",
+        "method": "m=(−6−2)/(3+1)。",
+        "principle": "两点决定一线。",
+        "steps": [
+          "m=−2，y−2=−2(x+1)。",
+          "化简y=−2x，经过原点，不能用a,b非零的截距式。"
+        ],
+        "ans": "2x+y=0；不适合该截距式。",
+        "verification": "两点分别2(−1)+2=0、6−6=0。",
+        "pitfall": "强行把0截距放分母。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.5",
+        "related_sections": []
+      },
+      {
+        "q": "求过(2,3)且垂直于2x−y+4=0的直线。",
+        "given": "原线斜率2。",
+        "analysis": "所求斜率−1/2。",
+        "method": "点斜式。",
+        "principle": "有限非零斜率垂直关系。",
+        "steps": [
+          "y−3=−(x−2)/2。",
+          "乘2化简x+2y−8=0。"
+        ],
+        "ans": "x+2y−8=0。",
+        "verification": "代点2+6−8=0；2×(−1/2)=−1。",
+        "pitfall": "把原线斜率误读−2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.5",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "过(5,1)和(5,−2)的直线？",
+        "given": "两点不同，同x。",
+        "analysis": "竖直无斜率。",
+        "method": "直接固定x。",
+        "principle": "直线点集。",
+        "steps": [
+          "所有线上点x=5。",
+          "方程x=5。"
+        ],
+        "ans": "x=5。",
+        "verification": "两已知点都满足，纵坐标可任意。",
+        "pitfall": "用y=mx+b硬求m。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.5",
+        "related_sections": []
+      },
+      {
+        "q": "x截距4、y截距6的直线方程。",
+        "given": "截距均非零有限。",
+        "analysis": "截距式适用。",
+        "method": "x/4+y/6=1。",
+        "principle": "两轴交点决定直线。",
+        "steps": [
+          "乘12得3x+2y=12。",
+          "截距点(4,0)、(0,6)均满足。"
+        ],
+        "ans": "3x+2y=12。",
+        "verification": "斜率−3/2与截距6一致。",
+        "pitfall": "把截距式写4/x+6/y=1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.5",
+        "related_sections": []
+      },
+      {
+        "q": "x−2y+3=0与2x−4y+6=0是不是不同线？",
+        "given": "第二为第一2倍。",
+        "analysis": "非零倍数不改解集。",
+        "method": "比较系数比例。",
+        "principle": "方程整体倍乘等价。",
+        "steps": [
+          "三个系数均乘2。",
+          "两式满足的点相同。"
+        ],
+        "ans": "同一直线。",
+        "verification": "任一点满足一式就满足另一式。",
+        "pitfall": "系数不同就判不同线。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.5",
+        "related_sections": []
+      },
+      {
+        "q": "过(−2,4)且平行y=3的直线，求式并说明为何无需斜率分母。",
+        "given": "原线水平。",
+        "analysis": "平行方向也水平。",
+        "method": "纵坐标恒4。",
+        "principle": "水平线方程。",
+        "steps": [
+          "所求y=4。",
+          "可写0x+y−4=0，一般式A0、B1合法。"
+        ],
+        "ans": "y=4。",
+        "verification": "与y=3不同且平行，包含给定点。",
+        "pitfall": "认为A=0就不是直线。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.5",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "一般式0x+0y+5=0是否为直线？若常数也0呢？",
+      "given": "A=B=0。",
+      "analysis": "一般式条件失效。",
+      "method": "看实际点集。",
+      "principle": "直线需至少一个方向系数非零。",
+      "steps": [
+        "0=−5无点，不是线。",
+        "0=0是整个平面，也不是一条线。"
+      ],
+      "ans": "两者都不是直线。",
+      "verification": "点集分别空集与R²。",
+      "pitfall": "只看写成Ax+By+C就当线。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 1,
+      "primary_section": "1.5",
+      "related_sections": []
+    },
+    "exam": [
+      "求式题按点斜、两点、截距等条件选最短合法形式",
+      "横差0直接写竖直，截距0不套分式",
+      "答案回代点与方向两核，非零倍乘可视同一线"
+    ],
+    "quick": [
+      "一般式范围",
+      "点斜",
+      "两点",
+      "截距",
+      "等价回代"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_1.5",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/4-1-linear-functions",
+        "page_or_section": "4-1-linear-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_1.5",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/4-1-linear-functions",
+        "page_or_section": "4-1-linear-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "求式题按点斜、两点、截距等条件选最短合法形式",
+      "method": "点斜式。",
+      "principle": "有限非零斜率垂直关系。",
+      "worked_example_index": 2,
+      "verification": "代点2+6−8=0；2×(−1/2)=−1。",
+      "pitfall": "把原线斜率误读−2。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“按已知条件选择直线表达形式”的抽样复核：代x=2给−1，斜率3。；若出现“把点负纵坐标写成y−1。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e1",
+        "review_module": 5,
+        "feedback": "目标“检查竖直线及截距公式的适用条件”的抽样复核：两点分别2(−1)+2=0、6−6=0。；若出现“强行把0截距放分母。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "只看写成Ax+By+C就当线。",
+        "correction": "两者都不是直线。",
+        "verification": "点集分别空集与R²。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "直线方程形式与适用条件",
+      "objects": [
+        "点斜式图",
+        "竖直x=5",
+        "截距(4,0)(0,6)",
+        "过原点线",
+        "一般式"
+      ],
+      "relations": [
+        "竖直不写有限m",
+        "截距式要求非零",
+        "非零倍数同一线"
+      ],
+      "labels": [
+        "Ax+By+C=0",
+        "(A,B)≠(0,0)",
+        "y−y₀=m(x−x₀)",
+        "x/a+y/b=1"
+      ],
+      "format": "SVG",
+      "priority": "P=0",
+      "reuse": "暂无对应图；直线与点准确绘制",
+      "english": "Compare point-slope, general and intercept forms with accurate coordinate diagrams. Include x=5 as a vertical exception, a line through (4,0),(0,6), and a line through the origin where nonzero-intercept form is invalid. State that A and B cannot both be zero."
+    }
+  },
+  "1.6": {
+    "content_batch": "batch05",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 1,
+    "section_id": "1.6",
+    "goals": [
+      "以联立方程判交点平行或重合",
+      "对参数退化分类并给完整坐标"
+    ],
+    "prerequisites": [
+      "直线方程",
+      "二元一次方程组"
+    ],
+    "flow": [
+      "联立",
+      "唯一解条件",
+      "方向退化",
+      "完整比例",
+      "参数与共点"
+    ],
+    "concept_relation": "联立；唯一解条件；方向退化；完整比例；参数与共点",
+    "deep": [
+      "判断比例时要避免除以可能为零的系数。可用交叉乘条件或直接比较方程倍数；两条竖直线照样能平行或重合，不必为了斜率表达而制造无定义商。",
+      "参数方程组在消元后可能出现(k−2)x=c−2等形式。先分k−2是否零，非零时可除求唯一解，为零时检查右侧是否零，再判无解或剩下一条独立方程；不能将0/0当坐标0。",
+      "三线共点问题可先求其中两条唯一交点，再代第三线求参数；如果前两条重合或平行，应先处理退化，否则“先求交点”这步可能并不存在或不唯一。",
+      "几何图有助说明三种位置，但应由方程证据决定。两条在有限画框看似不交的线可能在远处相交；显示窗口不含交点不能作为平行证明。"
+    ],
+    "derive": [
+      "D=A₁B₂−A₂B₁；D≠0有唯一交点。",
+      "D=0时再查完整系数是否成同一非零比例：是则重合，否则不同平行。",
+      "参数消元需先分除数是否0；0=非零无解，0=0需查看剩余独立约束。"
+    ],
+    "examples": [
+      {
+        "q": "求x+y=5与2x−y=1的交点。",
+        "given": "两直线方向不同。",
+        "analysis": "加法可消y。",
+        "method": "联立消元。",
+        "principle": "交点同时满足两式。",
+        "steps": [
+          "相加3x=6，x=2。",
+          "代首式y=3。"
+        ],
+        "ans": "(2,3)。",
+        "verification": "2+3=5，4−3=1。",
+        "pitfall": "只答x=2或代回漏负号。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.6",
+        "related_sections": []
+      },
+      {
+        "q": "比较x−2y+3=0与2x−4y+1=0的位置。",
+        "given": "各自均合法直线。",
+        "analysis": "方向系数成2倍，常数不成。",
+        "method": "比较完整比例。",
+        "principle": "D0再判重合。",
+        "steps": [
+          "第二方向是第一2倍，但2×3=6≠1。",
+          "两线平行不同，无交点。"
+        ],
+        "ans": "不同平行线。",
+        "verification": "若第一乘2再相减得5=0，矛盾。",
+        "pitfall": "只看D0就说重合。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.6",
+        "related_sections": []
+      },
+      {
+        "q": "讨论x+y=1与kx+2y=c的交点，k,c为实数。",
+        "given": "两式各为合法线，第二B2非0。",
+        "analysis": "分参数除数。",
+        "method": "第二减首式2倍。",
+        "principle": "消元与退化分类。",
+        "steps": [
+          "得(k−2)x=c−2。",
+          "k≠2时x=(c−2)/(k−2)，y=(k−c)/(k−2)。",
+          "k=2且c=2时重合；k=2且c≠2时平行不同。"
+        ],
+        "ans": "唯一解、重合、平行三类如上。",
+        "verification": "k=3,c=4给x=2,y−1，两式均满足；k=2,c=2第二正是2倍。",
+        "pitfall": "直接除k−2忽略k=2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.6",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "x=3与y=−2的交点？",
+        "given": "竖直与水平。",
+        "analysis": "各固定一个坐标。",
+        "method": "组合条件。",
+        "principle": "联立定义。",
+        "steps": [
+          "x=3且y−2。",
+          "交点(3,−2)。"
+        ],
+        "ans": "(3,−2)。",
+        "verification": "两式直接回代。",
+        "pitfall": "因竖直无斜率就说不能求交点。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.6",
+        "related_sections": []
+      },
+      {
+        "q": "x+y=1与2x+2y=2有几个交点？",
+        "given": "第二整体为第一2倍。",
+        "analysis": "同一线。",
+        "method": "判重合。",
+        "principle": "独立方程只有一条。",
+        "steps": [
+          "无限多个公共点。",
+          "可写(x,1−x)，x任意实数。"
+        ],
+        "ans": "无穷多个。",
+        "verification": "每个首式解都满足第二式。",
+        "pitfall": "消元0=0后给唯一(0,0)。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.6",
+        "related_sections": []
+      },
+      {
+        "q": "x+y=1、x+y=3相交吗？",
+        "given": "方向相同常数不同。",
+        "analysis": "同左边不能同时等不同值。",
+        "method": "两式相减。",
+        "principle": "联立矛盾。",
+        "steps": [
+          "相减0=2。",
+          "无共同点，平行不同。"
+        ],
+        "ans": "不相交。",
+        "verification": "任意点只能在其中一条相应线。",
+        "pitfall": "把两个y截距平均当交点。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.6",
+        "related_sections": []
+      },
+      {
+        "q": "线x+y=4、x−y=2及tx+y=5三线共点，求t。",
+        "given": "前两线唯一交点。",
+        "analysis": "先求点再代第三。",
+        "method": "两式相加。",
+        "principle": "共点需同时满足。",
+        "steps": [
+          "2x=6，x=3，y=1。",
+          "3t+1=5，t=4/3。"
+        ],
+        "ans": "t=4/3，共点(3,1)。",
+        "verification": "(4/3)3+1=5。",
+        "pitfall": "只比较斜率而不代公共点。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.6",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "D=0就必定“没有交点”吗？需要什么补充判断？",
+      "given": "一般合法两直线。",
+      "analysis": "D只判方向退化。",
+      "method": "比较完整系数。",
+      "principle": "重合时有无限公共点。",
+      "steps": [
+        "若全系数成同比例，重合。",
+        "否则不同平行无交点。"
+      ],
+      "ans": "不必；还可能重合。",
+      "verification": "x+y=1与2x+2y2提供反例。",
+      "pitfall": "把无唯一解当无任何解。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 1,
+      "primary_section": "1.6",
+      "related_sections": []
+    },
+    "exam": [
+      "交点题消元后写完整坐标并代两式",
+      "D0或参数除数0必须另分类，完整系数决定平行/重合",
+      "三线题先核前两线交点存在唯一，再代第三"
+    ],
+    "quick": [
+      "联立",
+      "唯一解条件",
+      "方向退化",
+      "完整比例",
+      "参数与共点"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_1.6",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/11-1-systems-of-linear-equations-two-variables",
+        "page_or_section": "11-1-systems-of-linear-equations-two-variables",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_1.6",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/11-1-systems-of-linear-equations-two-variables",
+        "page_or_section": "11-1-systems-of-linear-equations-two-variables",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "交点题消元后写完整坐标并代两式",
+      "method": "第二减首式2倍。",
+      "principle": "消元与退化分类。",
+      "worked_example_index": 2,
+      "verification": "k=3,c=4给x=2,y−1，两式均满足；k=2,c=2第二正是2倍。",
+      "pitfall": "直接除k−2忽略k=2。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“以联立方程判交点平行或重合”的抽样复核：2+3=5，4−3=1。；若出现“只答x=2或代回漏负号。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“对参数退化分类并给完整坐标”的抽样复核：k=3,c=4给x=2,y−1，两式均满足；k=2,c=2第二正是2倍。；若出现“直接除k−2忽略k=2。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把无唯一解当无任何解。",
+        "correction": "不必；还可能重合。",
+        "verification": "x+y=1与2x+2y2提供反例。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "两直线三种位置与参数",
+      "objects": [
+        "相交(2,3)",
+        "不同平行",
+        "重合线",
+        "参数消元分支"
+      ],
+      "relations": [
+        "D非零唯一",
+        "D0后查常数比例",
+        "k=2,c=2重合而c≠2平行"
+      ],
+      "labels": [
+        "D=A₁B₂−A₂B₁",
+        "唯一交点",
+        "无交点",
+        "无限公共点",
+        "先分除数0"
+      ],
+      "format": "SVG",
+      "priority": "P=0",
+      "reuse": "暂无对应旧图；不同位置须与所示方程一致",
+      "english": "Draw three accurately labelled cases: intersecting lines at (2,3), distinct parallel lines and coincident lines. Explain D=A1B2-A2B1, then separately classify the D=0 cases. Include parameter equation (k-2)x=c-2 without dividing before handling k=2."
+    }
+  },
+  "1.7": {
+    "content_batch": "batch05",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 1,
+    "section_id": "1.7",
+    "goals": [
+      "推导并使用垂直距离和垂足公式",
+      "统一直线系数后求平行线距离并核绝对值"
+    ],
+    "prerequisites": [
+      "距离公式",
+      "垂直与一般式直线"
+    ],
+    "flow": [
+      "垂线定义",
+      "法向方向",
+      "投影推导",
+      "绝对值归一",
+      "平行与参数"
+    ],
+    "concept_relation": "垂线定义；法向方向；投影推导；绝对值归一；平行与参数",
+    "deep": [
+      "分子绝对值保证距离非负，分母归一化消除方程整体倍数影响。把整条方程乘非零λ，分子分母都乘|λ|，距离不变；若只取分子值不除法向长度，则不同等价方程会算出不同“距离”。",
+      "平行线距离可以选一线上任一点到另一线，或先统一A,B写为Ax+By+C₁=0和Ax+By+C₂=0，再用|C₂−C₁|/√(A²+B²)。未经统一就直接相减常数会错，尤其第二线方程是第一方向系数的倍数时。",
+      "距离条件求参数常因绝对值有两个分支，对应直线或点在两侧。题给位置或半平面条件才可进一步筛；正距离不意味着Ax₀+By₀+C必须正，符号表达的是相对法向的侧别。",
+      "验算距离可核垂足在直线上、PH与线垂直以及PH长度；水平竖直可用简单坐标差复核。公式看似一行，适用条件、系数归一和绝对值是准确使用的核心。"
+    ],
+    "derive": [
+      "d(P,l)=|Ax₀+By₀+C|/√(A²+B²)，(A,B)≠(0,0)。",
+      "t=(Ax₀+By₀+C)/(A²+B²)，H=(x₀−tA,y₀−tB)。",
+      "平行线先统一A,B后，d=|C₂−C₁|/√(A²+B²)。"
+    ],
+    "examples": [
+      {
+        "q": "求原点到3x+4y−10=0的距离。",
+        "given": "A3、B4、C−10。",
+        "analysis": "分子有符号但距离取绝对。",
+        "method": "点线距离公式。",
+        "principle": "垂直距离归一化。",
+        "steps": [
+          "分子|−10|=10，分母√(9+16)=5。",
+          "d=2。"
+        ],
+        "ans": "2个长度单位。",
+        "verification": "线上最近点为(6/5,8/5)，长度√(36+64)/5=2。",
+        "pitfall": "给−2或不除5答10。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.7",
+        "related_sections": []
+      },
+      {
+        "q": "P(3,4)到3x+4y−5=0的距离与垂足。",
+        "given": "非零法向。",
+        "analysis": "先算L(P)与t。",
+        "method": "t=L/(A²+B²)。",
+        "principle": "法向投影到线。",
+        "steps": [
+          "L=9+16−5=20，t=20/25=.8。",
+          "H=(3−2.4,4−3.2)=(.6,.8)，d=20/5=4。"
+        ],
+        "ans": "d4，H(3/5,4/5)。",
+        "verification": "H在线：1.8+3.2−5=0；PH分量(2.4,3.2)长4且沿法向3:4。",
+        "pitfall": "把t直接当距离或垂足加错方向。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.7",
+        "related_sections": []
+      },
+      {
+        "q": "求3x+4y−5=0与6x+8y+10=0的距离。",
+        "given": "方向系数成倍，先统一。",
+        "analysis": "常数不能未经归一直接相减。",
+        "method": "第二式除2。",
+        "principle": "平行线距离公式条件。",
+        "steps": [
+          "第二变3x+4y+5=0。",
+          "d=|5−(−5)|/5=2。"
+        ],
+        "ans": "2。",
+        "verification": "首线取(3,−1)：9−4−5=0；代统一第二得10，除5为2。",
+        "pitfall": "用10−(−5)除5得3。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.7",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "P(2,−3)到水平线y=1距离？",
+        "given": "一般式y−1=0。",
+        "analysis": "可坐标差直接核。",
+        "method": "|−3−1|。",
+        "principle": "垂直方向为竖直。",
+        "steps": [
+          "d=4。",
+          "公式A0、B1给同值。"
+        ],
+        "ans": "4。",
+        "verification": "垂足(2,1)。",
+        "pitfall": "把横差也加入。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.7",
+        "related_sections": []
+      },
+      {
+        "q": "P(−1,5)到竖直线x=3距离？",
+        "given": "一般式x−3=0。",
+        "analysis": "垂线水平。",
+        "method": "|−1−3|。",
+        "principle": "距离定义。",
+        "steps": [
+          "d=4。",
+          "垂足(3,5)。"
+        ],
+        "ans": "4。",
+        "verification": "公式A1、B0亦4。",
+        "pitfall": "竖直无斜率就说距离公式不可用。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.7",
+        "related_sections": []
+      },
+      {
+        "q": "点(1,2)到2x−y+c=0距离3，求c。",
+        "given": "方向系数非零，c实数。",
+        "analysis": "绝对值给两侧。",
+        "method": "|2−2+c|/√5=3。",
+        "principle": "点线距离公式。",
+        "steps": [
+          "|c|=3√5。",
+          "c=±3√5。"
+        ],
+        "ans": "c=−3√5或3√5。",
+        "verification": "两式分子绝对值均3√5，分母√5。",
+        "pitfall": "只取正c。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.7",
+        "related_sections": []
+      },
+      {
+        "q": "同一直线x−2y+4=0和−3x+6y−12=0，用P(0,0)算距离应一致吗？独立求。",
+        "given": "后式为前式−3倍。",
+        "analysis": "分母也随系数放大。",
+        "method": "分别代入公式。",
+        "principle": "非零整体倍乘不改变直线。",
+        "steps": [
+          "前式4/√5。",
+          "后式12/√45=12/(3√5)=4/√5。"
+        ],
+        "ans": "一致，4/√5。",
+        "verification": "若忘分母归一就会误得4和12。",
+        "pitfall": "方程倍乘后距离也倍乘。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 1,
+        "primary_section": "1.7",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "点到直线距离为0能否说点在直线上？是否需要再判断法向系数？",
+      "given": "先假定A,B不同时0。",
+      "analysis": "分母正，因此零来自分子。",
+      "method": "令Ax₀+By₀+C=0。",
+      "principle": "点在线的方程定义。",
+      "steps": [
+        "d0等价分子0。",
+        "即P满足线方程，在线上；若A=B0原本不是合法直线不能套。"
+      ],
+      "ans": "合法直线条件下可以。",
+      "verification": "点线距离与代入判点一致。",
+      "pitfall": "把一般式非法情境也套公式。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 1,
+      "primary_section": "1.7",
+      "related_sections": []
+    },
+    "exam": [
+      "距离题先规范一般式，绝对值分子与法向长度都保留",
+      "平行线题先统一方向系数再相减常数",
+      "垂足题核在线、垂直和长度三条件，参数题保留双侧分支"
+    ],
+    "quick": [
+      "垂线定义",
+      "法向方向",
+      "投影推导",
+      "绝对值归一",
+      "平行与参数"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_1.7",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-1-the-rectangular-coordinate-systems-and-graphs",
+        "page_or_section": "2-1-the-rectangular-coordinate-systems-and-graphs",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_1.7",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-1-the-rectangular-coordinate-systems-and-graphs",
+        "page_or_section": "2-1-the-rectangular-coordinate-systems-and-graphs",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "距离题先规范一般式，绝对值分子与法向长度都保留",
+      "method": "第二式除2。",
+      "principle": "平行线距离公式条件。",
+      "worked_example_index": 2,
+      "verification": "首线取(3,−1)：9−4−5=0；代统一第二得10，除5为2。",
+      "pitfall": "用10−(−5)除5得3。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e1",
+        "review_module": 4,
+        "feedback": "目标“推导并使用垂直距离和垂足公式”的抽样复核：H在线：1.8+3.2−5=0；PH分量(2.4,3.2)长4且沿法向3:4。；若出现“把t直接当距离或垂足加错方向。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“统一直线系数后求平行线距离并核绝对值”的抽样复核：首线取(3,−1)：9−4−5=0；代统一第二得10，除5为2。；若出现“用10−(−5)除5得3。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把一般式非法情境也套公式。",
+        "correction": "合法直线条件下可以。",
+        "verification": "点线距离与代入判点一致。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "点线距离与垂足",
+      "objects": [
+        "P(3,4)",
+        "直线3x+4y−5=0",
+        "H(3/5,4/5)",
+        "垂线PH",
+        "平行线统一系数"
+      ],
+      "relations": [
+        "PH沿法向3:4",
+        "H在线",
+        "PH长4",
+        "系数倍乘不改变距离"
+      ],
+      "labels": [
+        "d=4",
+        "垂足H",
+        "直角标",
+        "|Ax₀+By₀+C|",
+        "√(A²+B²)"
+      ],
+      "format": "SVG",
+      "priority": "P=0",
+      "reuse": "暂无对应图；垂足和直角必须精确定位",
+      "english": "Plot P(3,4), line 3x+4y-5=0 and foot H(3/5,4/5) on equal scales. Draw PH perpendicular to the line with length 4 and normal direction ratio 3:4. Show that parallel-line constant differences require matching A and B first."
+    }
+  }
+}

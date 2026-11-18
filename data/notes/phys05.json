@@ -1,0 +1,912 @@
+{
+  "5.1": {
+    "content_batch": "batch05",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 5,
+    "section_id": "5.1",
+    "goals": [
+      "由平衡条件建立分量方程",
+      "用受力图检查约束与解的可行性"
+    ],
+    "prerequisites": [
+      "向量分解",
+      "牛顿定律"
+    ],
+    "flow": [
+      "选对象",
+      "画外力",
+      "分量平衡",
+      "约束上限",
+      "可行性核查"
+    ],
+    "concept_relation": "选对象；画外力；分量平衡；约束上限；可行性核查",
+    "deep": [
+      "只有三力且平衡时，矢量首尾相接可形成闭合三角形。用几何求张力需确认角是力方向之间还是图中补角；两根对称绳的夹角越大，竖直分量比例越小，所需张力可能增大，而不是总是各承受一半重量。",
+      "静摩擦是在接触条件允许范围内按维持相对静止的需要取值，0≤|fₛ|≤μₛN；仅在临界滑动时才达到最大值。法向力取决垂直于接触面的动力学及其他外力，不应一律等于mg。",
+      "绳通常只能拉，接触面通常只能推。求得负张力或负法向力，可能意味着所假设约束状态不成立，须回到物理情境判断松绳或失去接触。代数方程有解不保证模型可实现。",
+      "做平衡题应先计算所需摩擦或拉力，再检查上限和约束。当外力改变到临界值，平衡可能失效；要清楚区分“求维持平衡所需力”与“给定条件是否足以维持平衡”这两类问题。"
+    ],
+    "derive": [
+      "平面共点力平衡：ΣFₓ=0，ΣFᵧ=0。",
+      "两对称绳各与竖直夹角θ，2T cosθ=mg，故T=mg/(2 cosθ)，需cosθ>0且绳能承受。",
+      "静摩擦先求所需f，再检验|f|≤μₛN；等号只描述临界情况。"
+    ],
+    "examples": [
+      {
+        "q": "质量4 kg物体在水平面受水平拉力8 N静止，g=10 m/s²，求摩擦和支持力。",
+        "given": "无其他竖直力，静止。",
+        "analysis": "平衡分量分别求。",
+        "method": "水平与竖直列ΣF=0。",
+        "principle": "加速度零，接触力满足约束。",
+        "steps": [
+          "水平方向摩擦8 N，反向于拉力。",
+          "竖直N=mg=40 N。"
+        ],
+        "ans": "f=8 N、N=40 N。",
+        "verification": "两方向合力分别0；是否可维持还需摩擦上限≥8 N。",
+        "pitfall": "未给μ就说无法求实际静摩擦。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 5,
+        "primary_section": "5.1",
+        "related_sections": []
+      },
+      {
+        "q": "重100 N物体由两根对称绳吊住，各与竖直60°，各张力多少？",
+        "given": "绳轻，结点平衡。",
+        "analysis": "每根竖直分量只占T的一半。",
+        "method": "水平抵消、竖直相加。",
+        "principle": "2T cos60°=100。",
+        "steps": [
+          "cos60°=0.5。",
+          "T=100/(2×0.5)=100 N。"
+        ],
+        "ans": "各100 N。",
+        "verification": "两根各向上分量50 N，总100 N。",
+        "pitfall": "直接各50 N忽略方向。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 5,
+        "primary_section": "5.1",
+        "related_sections": []
+      },
+      {
+        "q": "质量5 kg物体在水平面，μₛ=0.4，受水平力25 N，g=10，能否平衡？",
+        "given": "无其他竖直力，讨论静摩擦上限。",
+        "analysis": "先求所需再比最大。",
+        "method": "f需=25，f最大=μₛmg。",
+        "principle": "静摩擦只能在允许范围内调节。",
+        "steps": [
+          "N=50 N，最大20 N。",
+          "所需25>20，静止平衡无法维持。"
+        ],
+        "ans": "不能按静止模型平衡。",
+        "verification": "即使取最大摩擦仍有至少5 N合力；运动后摩擦须另用条件。",
+        "pitfall": "把静摩擦无条件设为25 N。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 5,
+        "primary_section": "5.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "物体瞬时速度为零就必平衡吗？",
+        "given": "仅知某一时刻v=0。",
+        "analysis": "速度与加速度不同。",
+        "method": "找反例并看合力。",
+        "principle": "平衡需加速度零。",
+        "steps": [
+          "竖直上抛最高点v=0。",
+          "重力仍向下，加速度不为零。"
+        ],
+        "ans": "不必。",
+        "verification": "其下一时刻向下运动说明速度在变。",
+        "pitfall": "把静止瞬间等同持续静止。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 5,
+        "primary_section": "5.1",
+        "related_sections": []
+      },
+      {
+        "q": "两个力大小都10 N，夹角120°，合力大小？能仅凭大小相等说平衡吗？",
+        "given": "只受这两个力。",
+        "analysis": "方向决定是否抵消。",
+        "method": "用余弦关系或分解。",
+        "principle": "R²=F²+F²+2F²cos120°。",
+        "steps": [
+          "R²=100+100−100=100。",
+          "R=10 N，不为0。"
+        ],
+        "ans": "10 N，不平衡。",
+        "verification": "只有相反方向180°才可两力抵消。",
+        "pitfall": "相等就当作用反作用。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 5,
+        "primary_section": "5.1",
+        "related_sections": []
+      },
+      {
+        "q": "重量60 N由对称绳吊住，各与竖直30°，各T？",
+        "given": "结点平衡，理想绳。",
+        "analysis": "用竖直分量。",
+        "method": "T=60/(2cos30°)。",
+        "principle": "水平分量相消。",
+        "steps": [
+          "cos30°=√3/2。",
+          "T=60/√3=20√3≈34.6 N。"
+        ],
+        "ans": "约34.6 N。",
+        "verification": "2×34.6×0.866≈60 N。",
+        "pitfall": "用sin30°代替与竖直夹角的cos。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 5,
+        "primary_section": "5.1",
+        "related_sections": []
+      },
+      {
+        "q": "4 kg物体受水平拉力10 N、向上拉力6 N，g=10，μₛ=0.3，能静止吗？",
+        "given": "物体保持接触，竖直平衡假设。",
+        "analysis": "上拉减小N也减小摩擦上限。",
+        "method": "先竖直求N，再查水平。",
+        "principle": "N+6=mg，|f|≤μₛN。",
+        "steps": [
+          "N=40−6=34 N，f最大10.2 N。",
+          "所需f=10 N≤10.2 N，可静止，实际f=10 N。"
+        ],
+        "ans": "可以，N=34 N、静摩擦10 N。",
+        "verification": "竖直34+6−40=0，水平10−10=0。",
+        "pitfall": "仍把N写40或把摩擦强设10.2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 5,
+        "primary_section": "5.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "受力图把物体对桌面的压力与桌面对物体支持力都画在物体上并抵消，错在哪里？",
+      "given": "研究对象为物体。",
+      "analysis": "作用反作用所属对象不同。",
+      "method": "逐力问施力与受力物体。",
+      "principle": "受力图只包括作用于该对象的力。",
+      "steps": [
+        "桌面对物体支持力应保留。",
+        "物体对桌面压力属于桌面的受力图，不可拿来抵消。"
+      ],
+      "ans": "混入了研究对象对外施加的力。",
+      "verification": "若抵消支持力，重力将无法与实际静止相符。",
+      "pitfall": "把相互作用一对当同体平衡力。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 5,
+      "primary_section": "5.1",
+      "related_sections": []
+    },
+    "exam": [
+      "先选对象画外力，再分解列平衡，不能先猜μmg",
+      "绳角题写清角从竖直或水平量起，验每根竖直分量",
+      "求解后检查N≥0、T≥0和摩擦上限，说明是否可实现"
+    ],
+    "quick": [
+      "选对象",
+      "画外力",
+      "分量平衡",
+      "约束上限",
+      "可行性核查"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 146,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_5.1",
+        "url": "https://openstax.org/books/college-physics-2e/pages/9-1-the-first-condition-for-equilibrium",
+        "page_or_section": "9-1-the-first-condition-for-equilibrium",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 146,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_5.1",
+        "url": "https://openstax.org/books/college-physics-2e/pages/9-1-the-first-condition-for-equilibrium",
+        "page_or_section": "9-1-the-first-condition-for-equilibrium",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先选对象画外力，再分解列平衡，不能先猜μmg",
+      "method": "f需=25，f最大=μₛmg。",
+      "principle": "静摩擦只能在允许范围内调节。",
+      "worked_example_index": 2,
+      "verification": "即使取最大摩擦仍有至少5 N合力；运动后摩擦须另用条件。",
+      "pitfall": "把静摩擦无条件设为25 N。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e1",
+        "review_module": 4,
+        "feedback": "目标“由平衡条件建立分量方程”的抽样复核：两根各向上分量50 N，总100 N。；若出现“直接各50 N忽略方向。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用受力图检查约束与解的可行性”的抽样复核：即使取最大摩擦仍有至少5 N合力；运动后摩擦须另用条件。；若出现“把静摩擦无条件设为25 N。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把相互作用一对当同体平衡力。",
+        "correction": "混入了研究对象对外施加的力。",
+        "verification": "若抵消支持力，重力将无法与实际静止相符。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "对称悬吊与静摩擦约束",
+      "objects": [
+        "结点",
+        "两根对称绳",
+        "重量",
+        "张力分量",
+        "水平接触物体"
+      ],
+      "relations": [
+        "θ从竖直量",
+        "2Tcosθ=mg",
+        "静摩擦小于等于上限而非恒取上限"
+      ],
+      "labels": [
+        "θ",
+        "T",
+        "Tcosθ",
+        "mg",
+        "|fₛ|≤μₛN"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "V22向量图可局部参考，不替代本题受力几何",
+      "english": "Draw a symmetric suspension with each rope angle measured from the vertical, showing 2T cos(theta)=mg. In a separate horizontal-contact free-body diagram, distinguish required static friction from its maximum and do not include reaction forces acting on other bodies."
+    }
+  },
+  "5.2": {
+    "content_batch": "batch05",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 5,
+    "section_id": "5.2",
+    "goals": [
+      "用垂直力臂计算力矩",
+      "联合平动转动条件求平面刚体平衡"
+    ],
+    "prerequisites": [
+      "共点力平衡",
+      "三角函数"
+    ],
+    "flow": [
+      "选矩心",
+      "画作用线",
+      "定垂距和符号",
+      "联合平衡",
+      "查支承约束"
+    ],
+    "concept_relation": "选矩心；画作用线；定垂距和符号；联合平衡；查支承约束",
+    "deep": [
+      "选支点是求解策略，不改变物理事实。取未知支承力作用点为矩心，可使该力矩为零并减少未知量；不是忽略该力，它仍必须进入合力方程。若合力已为零，平衡时绕任一点的合力矩也为零。",
+      "平面刚体静力平衡常用ΣFₓ=0、ΣFᵧ=0、Στ=0三个独立条件。未知力多于可提供的独立方程时，可能需要材料变形等额外信息，不能任意再选几个矩心假装得到更多独立约束。",
+      "重力在均匀杆上可视为作用于中点，但“均匀”是质量分布条件。非均匀物体的重心不能无依据取几何中心；复杂负载可把各重力按力矩等效求重心位置。支持点是否能拉、支承是否会脱离也需检查。",
+      "平衡问题的答案要同时满足力与矩，并符合支承方向。只用矩方程求一个力后，应代回竖直和水平方程；若某支点反力为负而该支承不能拉，说明所假设双支承接触状态失效。"
+    ],
+    "derive": [
+      "τ=Fℓ=Fr sinθ，其中ℓ为支点到作用线的垂直距离。",
+      "平面静力平衡：ΣFₓ=0，ΣFᵧ=0，Στ_O=0。",
+      "力偶大小相等反向平行，间距d时合力0而合力矩Fd；关于不同点力偶矩相同。"
+    ],
+    "examples": [
+      {
+        "q": "水平杆绕左端，右端距支点0.5 m，施向下10 N，力矩多大、什么方向？",
+        "given": "力与杆垂直。",
+        "analysis": "力臂正好为0.5 m。",
+        "method": "τ=Fℓ并判转向。",
+        "principle": "绕支点转动趋势。",
+        "steps": [
+          "τ=10×0.5=5 N·m。",
+          "右端向下使杆顺时针转动。"
+        ],
+        "ans": "5 N·m，顺时针。",
+        "verification": "若力作用线通过支点则应零，此处垂距非零。",
+        "pitfall": "只写5 J或把方向漏掉。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 5,
+        "primary_section": "5.2",
+        "related_sections": []
+      },
+      {
+        "q": "长2 m均匀杆重40 N，两端支承，中点另挂20 N，支反力各多少？",
+        "given": "载荷均在中点，无其他竖直力。",
+        "analysis": "对称可猜但需力矩验证。",
+        "method": "绕左端取矩再列竖直力。",
+        "principle": "平衡要求合力与合矩都零。",
+        "steps": [
+          "右支力R_B满足2R_B=40×1+20×1，得30 N。",
+          "R_A+R_B=60，故R_A=30 N。"
+        ],
+        "ans": "两端各30 N向上。",
+        "verification": "绕中点两支力矩抵消，总向上60 N等于重力60 N。",
+        "pitfall": "只令合力零便认为任何分配都行。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 5,
+        "primary_section": "5.2",
+        "related_sections": []
+      },
+      {
+        "q": "杆长0.8 m，末端受50 N，与杆夹角30°，求绕另一端力矩，比较误用全长力臂。",
+        "given": "力方向与位矢夹角30°。",
+        "analysis": "有效垂距为r sinθ。",
+        "method": "τ=Fr sinθ。",
+        "principle": "力矩取垂直分量。",
+        "steps": [
+          "ℓ=0.8 sin30°=0.4 m。",
+          "τ=50×0.4=20 N·m，方向须由图给；题只求大小。"
+        ],
+        "ans": "20 N·m。",
+        "verification": "等价垂直分力25 N乘0.8 m也得20。",
+        "pitfall": "用50×0.8=40而漏sin。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 5,
+        "primary_section": "5.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "力的作用线通过支点，作用点离支点1 m，F=100 N，力矩？",
+        "given": "作用线穿过支点。",
+        "analysis": "力臂是到作用线垂距。",
+        "method": "ℓ=0。",
+        "principle": "τ=Fℓ。",
+        "steps": [
+          "穿过意味着垂距0。",
+          "100×0=0。"
+        ],
+        "ans": "0。",
+        "verification": "沿杆推不能产生该轴转动趋势。",
+        "pitfall": "直接把支点到作用点1 m当力臂。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 5,
+        "primary_section": "5.2",
+        "related_sections": []
+      },
+      {
+        "q": "两反向平行力各8 N，作用线距0.3 m，合力与力偶矩？",
+        "given": "同一平面。",
+        "analysis": "合力抵消但转动不抵消。",
+        "method": "分别求矢量和与Fd。",
+        "principle": "力偶矩依两作用线间距。",
+        "steps": [
+          "合力0。",
+          "矩大小8×0.3=2.4 N·m。"
+        ],
+        "ans": "0与2.4 N·m。",
+        "verification": "两力关于任一合适点矩相加为同值。",
+        "pitfall": "合力零就宣称完全平衡。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 5,
+        "primary_section": "5.2",
+        "related_sections": []
+      },
+      {
+        "q": "一根2 m均匀杆重20 N，左端支点，右端竖直绳拉住，杆水平，绳张力？",
+        "given": "杆重在中点，静止。",
+        "analysis": "取支点矩消去支点反力。",
+        "method": "2T=20×1。",
+        "principle": "合矩零。",
+        "steps": [
+          "T=10 N。",
+          "竖直支反力R=20−10=10 N。"
+        ],
+        "ans": "T=10 N。",
+        "verification": "右端向上矩20与重力向下矩20抵消。",
+        "pitfall": "把张力直接设等于杆重。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 5,
+        "primary_section": "5.2",
+        "related_sections": []
+      },
+      {
+        "q": "3 m杆重忽略，左端支承A、距A 2 m处支承B，距A 3 m处挂60 N，按静力方程求反力并判断可行性。",
+        "given": "两支承只能向上推。",
+        "analysis": "悬出负载可能使A需要向下拉。",
+        "method": "绕A取矩，后验支承约束。",
+        "principle": "合矩与合力条件及单向接触。",
+        "steps": [
+          "2R_B=60×3，R_B=90 N。",
+          "R_A=60−90=−30 N，要求A向下拉，与仅向上支承不符。"
+        ],
+        "ans": "该双接触平衡不可实现，需额外固定或会失去A接触。",
+        "verification": "若代入力方程可平衡，但违反物理支承方向。",
+        "pitfall": "负反力取绝对值30后继续说平衡。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 5,
+        "primary_section": "5.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "为何绕某未知支反力作用点取矩后，该力仍要出现在竖直合力方程？",
+      "given": "该力关于所选点力臂零。",
+      "analysis": "零力矩不等于力不存在。",
+      "method": "区分平动作用与绕点转动作用。",
+      "principle": "合力与合矩是不同条件。",
+      "steps": [
+        "取矩时该项因ℓ=0消去。",
+        "它仍参与总向上向下力平衡，须用合力方程求或检查。"
+      ],
+      "ans": "因为它只是关于该点矩为零。",
+      "verification": "单支点仍能提供承重反力，即使对该点无矩。",
+      "pitfall": "把数学消元当作物理删除。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 5,
+      "primary_section": "5.2",
+      "related_sections": []
+    },
+    "exam": [
+      "矩题先画作用线和垂距，不能只找杆长",
+      "选未知力作用点取矩减少未知，之后代回合力",
+      "刚体题求完检查支承可推可拉及临界脱离，不只看方程数"
+    ],
+    "quick": [
+      "选矩心",
+      "画作用线",
+      "定垂距和符号",
+      "联合平衡",
+      "查支承约束"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 150,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_5.2",
+        "url": "https://openstax.org/books/college-physics-2e/pages/9-2-the-second-condition-for-equilibrium",
+        "page_or_section": "9-2-the-second-condition-for-equilibrium",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 150,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_5.2",
+        "url": "https://openstax.org/books/college-physics-2e/pages/9-2-the-second-condition-for-equilibrium",
+        "page_or_section": "9-2-the-second-condition-for-equilibrium",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "矩题先画作用线和垂距，不能只找杆长",
+      "method": "τ=Fr sinθ。",
+      "principle": "力矩取垂直分量。",
+      "worked_example_index": 2,
+      "verification": "等价垂直分力25 N乘0.8 m也得20。",
+      "pitfall": "用50×0.8=40而漏sin。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用垂直力臂计算力矩”的抽样复核：若力作用线通过支点则应零，此处垂距非零。；若出现“只写5 J或把方向漏掉。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e1",
+        "review_module": 5,
+        "feedback": "目标“联合平动转动条件求平面刚体平衡”的抽样复核：绕中点两支力矩抵消，总向上60 N等于重力60 N。；若出现“只令合力零便认为任何分配都行。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把数学消元当作物理删除。",
+        "correction": "因为它只是关于该点矩为零。",
+        "verification": "单支点仍能提供承重反力，即使对该点无矩。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "力臂与平面杆的平衡",
+      "objects": [
+        "支点O",
+        "r=0.8 m杆",
+        "50 N斜力",
+        "垂直力臂0.4 m",
+        "双支承杆"
+      ],
+      "relations": [
+        "夹角30°",
+        "ℓ=r sinθ",
+        "力臂画到延长作用线的垂线",
+        "反力方向符合约束"
+      ],
+      "labels": [
+        "O",
+        "r",
+        "θ=30°",
+        "ℓ=0.4 m",
+        "τ=20 N·m"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "现有力图不能代替准确垂距图",
+      "english": "Draw a 0.8 m position vector and a 50 N force at 30 degrees to it. Construct the perpendicular distance from pivot O to the force line as 0.4 m, giving torque 20 N m. Distinguish the full rod length from the moment arm."
+    }
+  },
+  "5.3": {
+    "content_batch": "batch05",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 5,
+    "section_id": "5.3",
+    "goals": [
+      "求平行力的合力与作用线",
+      "用力矩确定重心并判断稳定性"
+    ],
+    "prerequisites": [
+      "力矩平衡",
+      "加权平均"
+    ],
+    "flow": [
+      "代数合力",
+      "矩等效",
+      "作用线",
+      "质量重心",
+      "支承与稳定"
+    ],
+    "concept_relation": "代数合力；矩等效；作用线；质量重心；支承与稳定",
+    "deep": [
+      "在近似均匀重力场内，物体各部分的重力形成平行力系，可用总重力作用于重心来等效其转动作用。由x_G=Σmᵢxᵢ/Σmᵢ可求离散质量的重心坐标；负坐标表示相对原点位置，不是负质量。",
+      "均匀规则物体重心常在对称中心，条件是质量分布也对称。挖孔、附加负载或材料密度改变会移动重心；几何中心不能无条件当作重心，重心也可以在物体材料之外，如环的中心。",
+      "稳定性取决于小扰动后重力矩的趋势或势能变化。支撑面上的物体在相应条件下，重力作用线落在支撑范围内才可由非负支承力维持；重心低、底面宽往往提高抗倾倒能力，但还需考虑外力、摩擦与动态效应。",
+      "求解后要检查合力的矩与原力系一致，坐标和距离的单位一致。对零合力情况先辨是否仍有力偶，不把ΣF=0自动解释成任何点都可任意安放一个“零合力”而忽略转动。"
+    ],
+    "derive": [
+      "平行力沿共同方向取正：R=ΣFᵢ；当R≠0时，x_R=ΣFᵢxᵢ/R，由力矩等效确定。",
+      "均匀重力场：x_G=Σmᵢxᵢ/Σmᵢ；g相同可在分子分母相消。",
+      "R=0而ΣFᵢxᵢ≠0时为非零力偶，不能用一个单力等效。"
+    ],
+    "examples": [
+      {
+        "q": "两同向向下力10 N与30 N，位于x=0和x=2 m，求合力及位置。",
+        "given": "平行力，原点在小力线上。",
+        "analysis": "合力与矩都需等效。",
+        "method": "R求和，x_R求加权。",
+        "principle": "R x_R=ΣFᵢxᵢ。",
+        "steps": [
+          "R=40 N向下。",
+          "x_R=(10×0+30×2)/40=1.5 m。"
+        ],
+        "ans": "40 N向下，x=1.5 m。",
+        "verification": "合力矩40×1.5=60 N·m，原矩30×2=60；位置靠30 N。",
+        "pitfall": "总力对了却把位置取1 m。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 5,
+        "primary_section": "5.3",
+        "related_sections": []
+      },
+      {
+        "q": "x=0处向下30 N，x=2 m处向上10 N，取向下为正，求等效合力位置。",
+        "given": "反向平行力，R不为零。",
+        "analysis": "位置可能在线外。",
+        "method": "带符号求R和矩。",
+        "principle": "同一符号约定下R x_R=ΣFᵢxᵢ。",
+        "steps": [
+          "R=30−10=20 N向下。",
+          "x_R=(30×0−10×2)/20=−1 m。"
+        ],
+        "ans": "20 N向下，作用线x=−1 m。",
+        "verification": "等效矩20×(−1)=−20与原−10×2一致。",
+        "pitfall": "认为位置必须在0至2 m内。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 5,
+        "primary_section": "5.3",
+        "related_sections": []
+      },
+      {
+        "q": "2 kg位于x=0，3 kg位于x=4 m，支点放何处可使无质量杆平衡？",
+        "given": "g均匀，忽略杆重。",
+        "analysis": "重心按质量加权。",
+        "method": "x_G=Σmx/Σm。",
+        "principle": "各重力矩等效于总重力在重心。",
+        "steps": [
+          "x_G=(2×0+3×4)/(2+3)=12/5=2.4 m。",
+          "支点设在2.4 m，左右力矩2g×2.4与3g×1.6相等。"
+        ],
+        "ans": "距2 kg端2.4 m。",
+        "verification": "4.8g=4.8g。",
+        "pitfall": "用中点2 m而不考虑质量差。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 5,
+        "primary_section": "5.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "两个相反平行力各5 N，相距1 m，可以用一个零合力完全替代吗？",
+        "given": "作用线不同。",
+        "analysis": "合力零但矩不零。",
+        "method": "算力偶。",
+        "principle": "M=Fd。",
+        "steps": [
+          "R=0。",
+          "M=5×1=5 N·m，单个零力不能提供此矩。"
+        ],
+        "ans": "不能。",
+        "verification": "选择一个力作用线作矩心，另力仍给5 N·m。",
+        "pitfall": "零合力就无任何作用。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 5,
+        "primary_section": "5.3",
+        "related_sections": []
+      },
+      {
+        "q": "质量1 kg在x=−2 m，质量3 kg在x=2 m，重心？",
+        "given": "同一坐标系与均匀g。",
+        "analysis": "负坐标不是负质量。",
+        "method": "带坐标符号加权。",
+        "principle": "x_G=Σmx/Σm。",
+        "steps": [
+          "分子1×(−2)+3×2=4 kg·m。",
+          "除总质量4 kg得1 m。"
+        ],
+        "ans": "x_G=1 m。",
+        "verification": "重心在两物体间且靠3 kg侧。",
+        "pitfall": "先把所有坐标取绝对值。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 5,
+        "primary_section": "5.3",
+        "related_sections": []
+      },
+      {
+        "q": "均匀圆环重心可位于没有材料的圆心吗？",
+        "given": "质量分布对称、g近似均匀。",
+        "analysis": "重心是等效位置不是必须有物质的点。",
+        "method": "按对称质量配对。",
+        "principle": "相反位置等质量矩抵消。",
+        "steps": [
+          "各对质量关于圆心对称。",
+          "加权坐标和为0，故圆心是重心。"
+        ],
+        "ans": "可以。",
+        "verification": "转动等效作用线并不要求该点有材料。",
+        "pitfall": "认为重心必须落在实体材料内。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 5,
+        "primary_section": "5.3",
+        "related_sections": []
+      },
+      {
+        "q": "底面左右边界x=0与1 m，总重100 N，重力线x=0.8 m，求两端支持力；若重力线到1.2 m怎样？",
+        "given": "简化两支点，仅竖直力且支点只能推。",
+        "analysis": "支反力非负决定静态可行性。",
+        "method": "绕左端取矩，再求合力。",
+        "principle": "R_B×1=100x_G，R_A+R_B=100。",
+        "steps": [
+          "x=0.8时R_B=80、R_A=20 N，均可行。",
+          "x=1.2时R_B=120、R_A=−20 N，不能由仅向上接触维持。"
+        ],
+        "ans": "前者可静止；后者需其他约束否则倾倒趋势。",
+        "verification": "负支反力揭示超出支撑范围。",
+        "pitfall": "把−20取正后说仍平衡。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 5,
+        "primary_section": "5.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "用x_R=ΣFᵢxᵢ/ΣFᵢ时分母为零，能直接答x_R=0吗？",
+      "given": "零合力，矩尚未判断。",
+      "analysis": "除零公式不适用。",
+      "method": "另查合矩。",
+      "principle": "零合力可伴非零力偶。",
+      "steps": [
+        "若合矩非零，为力偶，不能单力等效。",
+        "若合矩也零，整体系对平面刚体可为零作用，但不能由除零求位置0。"
+      ],
+      "ans": "不能；必须分类审查合矩。",
+      "verification": "同量反向平行力分离就是反例。",
+      "pitfall": "把无定义商直接替成零。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 5,
+      "primary_section": "5.3",
+      "related_sections": []
+    },
+    "exam": [
+      "平行力题先定共同正方向，再带符号算总力和矩",
+      "重心题检查均匀g和质量分布，不先猜几何中心",
+      "稳定性题用支反力非负或重力矩解释，明确静态假设"
+    ],
+    "quick": [
+      "代数合力",
+      "矩等效",
+      "作用线",
+      "质量重心",
+      "支承与稳定"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 156,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_5.3",
+        "url": "https://openstax.org/books/college-physics-2e/pages/9-3-stability",
+        "page_or_section": "9-3-stability",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 156,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_5.3",
+        "url": "https://openstax.org/books/college-physics-2e/pages/9-3-stability",
+        "page_or_section": "9-3-stability",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "平行力题先定共同正方向，再带符号算总力和矩",
+      "method": "x_G=Σmx/Σm。",
+      "principle": "各重力矩等效于总重力在重心。",
+      "worked_example_index": 2,
+      "verification": "4.8g=4.8g。",
+      "pitfall": "用中点2 m而不考虑质量差。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“求平行力的合力与作用线”的抽样复核：合力矩40×1.5=60 N·m，原矩30×2=60；位置靠30 N。；若出现“总力对了却把位置取1 m。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "p3",
+        "review_module": 5,
+        "feedback": "目标“用力矩确定重心并判断稳定性”的抽样复核：负支反力揭示超出支撑范围。；若出现“把−20取正后说仍平衡。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把无定义商直接替成零。",
+        "correction": "不能；必须分类审查合矩。",
+        "verification": "同量反向平行力分离就是反例。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "平行力合力位置与重心",
+      "objects": [
+        "同向10/30 N",
+        "反向30/10 N",
+        "x轴",
+        "合力作用线",
+        "支撑区"
+      ],
+      "relations": [
+        "同向合力x=1.5 m",
+        "反向合力x=−1 m",
+        "R=0不强画有限单力"
+      ],
+      "labels": [
+        "x/m",
+        "40 N",
+        "20 N",
+        "ΣFᵢxᵢ",
+        "支撑范围"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "需准确比例和带符号位置的新SVG",
+      "english": "Construct exact parallel-force diagrams: downward 10 N at x=0 and 30 N at x=2 m give 40 N at x=1.5 m; downward 30 N at x=0 and upward 10 N at x=2 give downward 20 N at x=-1 m. Keep force and moment equivalence visible."
+    }
+  }
+}

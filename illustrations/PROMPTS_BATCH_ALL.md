@@ -5291,3 +5291,7 @@ No reversed operations/arrows, changed problem values, inconsistent units/scales
 ## 冻结的数学计划
 
 高数I/II入口保留，旧数学35章均未迁移。总清单为35章保留null小节号。未获取可靠归属、真实目录和参数前，不生成看似可执行的数学图Prompt。
+
+<!-- batch05 -->
+
+本轮新增章节的全部详细任务见 [batch05/PROMPTS.md](batch05/PROMPTS.md) 与 [JSON](batch05/PROMPTS.json)，与本文件原142任务分列；不得将复用或新需求数当作历史任务全部完成。

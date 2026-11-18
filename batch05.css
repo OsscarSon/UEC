@@ -1,0 +1,6 @@
+/* Match the existing small-screen main padding without changing the design. */
+@media (max-width:380px){
+  .subject-links,#v > .row:has(.chip){
+    margin-left:-10px;margin-right:-10px;padding-left:10px;padding-right:10px;
+  }
+}

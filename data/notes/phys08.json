@@ -1,0 +1,1213 @@
+{
+  "8.1": {
+    "content_batch": "batch05",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 8,
+    "section_id": "8.1",
+    "goals": [
+      "用方向和时间范围计算冲量",
+      "由力时间图求动量变化并反推平均力"
+    ],
+    "prerequisites": [
+      "牛顿第二定律",
+      "向量与图象面积"
+    ],
+    "flow": [
+      "选方向",
+      "初末动量",
+      "力时间面积",
+      "外冲量",
+      "平均力与缓冲"
+    ],
+    "concept_relation": "选方向；初末动量；力时间面积；外冲量；平均力与缓冲",
+    "deep": [
+      "选正方向后先分别写初、末速度带符号值，再作p末−p初。反弹从负向到正向时，两者相减可能使变化大小等于速率之和乘质量；盲用“末速率减初速率”会把方向改变漏掉。",
+      "缓冲装置在相同初末动量变化下延长作用时间，可降低平均合力大小。峰值是否降低还依力时间曲线形状，不能只靠平均力公式保证任何峰值都下降。安全应用还要考虑位移空间、材料和允许加速度等约束。",
+      "碰撞过程中力随时间剧烈变化，冲量法避免追踪每一时刻细节。若题目给F-t图，需要确定是接触力、合力还是某一方向分量，面积单位和正负要与动量分量对应。",
+      "求得平均力后应检查作用对象和方向，并避免把球受墙力与墙受球力混在同一方程。它们大小相等方向相反，但分别属于不同对象；用同一质量解释两边运动会产生错误。"
+    ],
+    "derive": [
+      "p=mv；Δp=mv_f−mv_i，矢量或带符号分量计算。",
+      "J外=Δp；F平均=Δp/Δt，指所选时段的合外力平均值。",
+      "三角形F-t脉冲J=底×高/2；单位N·s=kg·m/s。"
+    ],
+    "examples": [
+      {
+        "q": "质量0.20 kg球沿正向以5 m/s运动，被挡停，求合外冲量。",
+        "given": "v_i=+5，v_f=0。",
+        "analysis": "冲量方向与原动量相反。",
+        "method": "Δp=m(v_f−v_i)。",
+        "principle": "合外冲量等于动量变化。",
+        "steps": [
+          "p_i=0.20×5=1.0 kg·m/s。",
+          "Δp=0−1.0=−1.0 N·s。"
+        ],
+        "ans": "−1.0 N·s，沿负方向。",
+        "verification": "初动量加冲量=0，符合停止。",
+        "pitfall": "只给正的1.0而漏方向。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 8,
+        "primary_section": "8.1",
+        "related_sections": []
+      },
+      {
+        "q": "0.10 kg球向左8 m/s撞墙后向右6 m/s，接触0.02 s，忽略其他水平方向冲量，平均墙力？",
+        "given": "取右为正，v_i=−8、v_f=+6。",
+        "analysis": "反弹须带符号相减。",
+        "method": "F平均=m(v_f−v_i)/Δt。",
+        "principle": "水平方向动量定理。",
+        "steps": [
+          "Δp=0.10[6−(−8)]=1.4 N·s。",
+          "F平均=1.4/0.02=70 N向右。"
+        ],
+        "ans": "70 N向右，作用于球。",
+        "verification": "−0.8+1.4=+0.6 kg·m/s。",
+        "pitfall": "用6−8得到力方向和大小都错。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 8,
+        "primary_section": "8.1",
+        "related_sections": []
+      },
+      {
+        "q": "一F-t三角形脉冲底宽0.04 s、峰值100 N，质量0.5 kg物体初静止，只受该方向合力，末速度？",
+        "given": "力图是合力且全为正。",
+        "analysis": "面积给冲量而非峰值乘全时。",
+        "method": "J=半底高，再Δp。",
+        "principle": "合力冲量改变动量。",
+        "steps": [
+          "J=0.5×0.04×100=2 N·s。",
+          "v=J/m=2/0.5=4 m/s。"
+        ],
+        "ans": "+4 m/s。",
+        "verification": "平均力50 N×0.04 s=2 N·s。",
+        "pitfall": "用峰值100 N当平均值。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 8,
+        "primary_section": "8.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "2 kg物体速度由+3变+7 m/s，冲量？",
+        "given": "质量恒定。",
+        "analysis": "同方向仍需末减初。",
+        "method": "mΔv。",
+        "principle": "动量定理。",
+        "steps": [
+          "Δv=4 m/s。",
+          "J=2×4=8 N·s。"
+        ],
+        "ans": "+8 N·s。",
+        "verification": "初6加8=末14 kg·m/s。",
+        "pitfall": "算末动量14当冲量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 8,
+        "primary_section": "8.1",
+        "related_sections": []
+      },
+      {
+        "q": "同样Δp=6 N·s，作用0.02与0.06 s，平均力大小？",
+        "given": "方向不变作大小比较。",
+        "analysis": "时间延长平均力下降。",
+        "method": "F=J/Δt。",
+        "principle": "平均力定义。",
+        "steps": [
+          "6/0.02=300 N。",
+          "6/0.06=100 N。"
+        ],
+        "ans": "300 N与100 N。",
+        "verification": "时间3倍，平均力1/3。",
+        "pitfall": "推断峰值也必精确降至1/3。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 8,
+        "primary_section": "8.1",
+        "related_sections": []
+      },
+      {
+        "q": "动量大小相同的两物体，方向相反，它们的动量相同吗？",
+        "given": "矢量方向相反。",
+        "analysis": "大小不等于矢量。",
+        "method": "取共同正方向表示。",
+        "principle": "动量与速度同方向。",
+        "steps": [
+          "可记p与−p。",
+          "两者矢量不相等，总动量可为0。"
+        ],
+        "ans": "不相同。",
+        "verification": "相加0不等于单体各自0。",
+        "pitfall": "把标量大小当矢量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 8,
+        "primary_section": "8.1",
+        "related_sections": []
+      },
+      {
+        "q": "0至1 s合力+4 N、1至3 s合力−1 N，质量1 kg初速+3 m/s，末速？",
+        "given": "分段恒力。",
+        "analysis": "有向面积相加。",
+        "method": "J=4×1−1×2。",
+        "principle": "Δp=J外。",
+        "steps": [
+          "J=2 N·s。",
+          "p末=3+2=5 kg·m/s，v末=5 m/s。"
+        ],
+        "ans": "+5 m/s。",
+        "verification": "分段a给先到7再降到5，结果一致。",
+        "pitfall": "负力区域取绝对值加成6。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 8,
+        "primary_section": "8.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "若只给接触力冲量，能否永远令它等于物体全部动量变化？",
+      "given": "其他外力可能作用同一时间段。",
+      "analysis": "定理要求合外冲量。",
+      "method": "列所有外力并估其冲量。",
+      "principle": "各外冲量矢量和等于Δp。",
+      "steps": [
+        "接触冲量与重力等需相加。",
+        "仅在其他有关分量抵消或可忽略时，才能直接等于Δp。"
+      ],
+      "ans": "不能无条件。",
+      "verification": "较长接触时mgΔt可不可忽略。",
+      "pitfall": "把一个力和合外力混写。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 8,
+      "primary_section": "8.1",
+      "related_sections": []
+    },
+    "exam": [
+      "冲量题先选对象方向和起止时刻，列带符号初末速度",
+      "F-t图分有向面积，峰值不是平均值",
+      "缓冲题说同Δp下延时降平均力，峰值另需曲线证据"
+    ],
+    "quick": [
+      "选方向",
+      "初末动量",
+      "力时间面积",
+      "外冲量",
+      "平均力与缓冲"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 264,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_8.1",
+        "url": "https://openstax.org/books/college-physics-2e/pages/8-2-impulse",
+        "page_or_section": "8-2-impulse",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 264,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_8.1",
+        "url": "https://openstax.org/books/college-physics-2e/pages/8-2-impulse",
+        "page_or_section": "8-2-impulse",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "冲量题先选对象方向和起止时刻，列带符号初末速度",
+      "method": "J=半底高，再Δp。",
+      "principle": "合力冲量改变动量。",
+      "worked_example_index": 2,
+      "verification": "平均力50 N×0.04 s=2 N·s。",
+      "pitfall": "用峰值100 N当平均值。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e1",
+        "review_module": 4,
+        "feedback": "目标“用方向和时间范围计算冲量”的抽样复核：−0.8+1.4=+0.6 kg·m/s。；若出现“用6−8得到力方向和大小都错。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“由力时间图求动量变化并反推平均力”的抽样复核：平均力50 N×0.04 s=2 N·s。；若出现“用峰值100 N当平均值。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把一个力和合外力混写。",
+        "correction": "不能无条件。",
+        "verification": "较长接触时mgΔt可不可忽略。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "反弹动量与三角形冲量",
+      "objects": [
+        "球向左8后向右6",
+        "右正轴",
+        "三角形F-t脉冲"
+      ],
+      "relations": [
+        "Δp=0.1×(6+8)=1.4",
+        "0.04×100/2=2 N·s",
+        "峰值与平均值分开"
+      ],
+      "labels": [
+        "v_i=−8 m/s",
+        "v_f=+6 m/s",
+        "Δp",
+        "F/N",
+        "t/s"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "V22 P10可复用原理，具体数值需说明不同例题",
+      "english": "Show signed initial and final velocities for a rebounding ball, then a separate triangular net-force pulse of height 100 N and duration 0.04 s with impulse 2 N s. Explicitly distinguish peak force from average force."
+    }
+  },
+  "8.2": {
+    "content_batch": "batch05",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 8,
+    "section_id": "8.2",
+    "goals": [
+      "判定所选系统能否用动量守恒",
+      "由矢量总动量求相互作用后的速度"
+    ],
+    "prerequisites": [
+      "动量定理",
+      "系统与外力"
+    ],
+    "flow": [
+      "系统边界",
+      "内外冲量",
+      "方向守恒",
+      "共同或分别速度",
+      "能量独立审查"
+    ],
+    "concept_relation": "系统边界；内外冲量；方向守恒；共同或分别速度；能量独立审查",
+    "deep": [
+      "守恒式写Σmᵢvᵢ前=Σmᵢvᵢ后，所有速度需相对同一惯性参考系和同一正方向。两物体碰后速度不必相同，只有黏合或题给共同运动才可合并为(m₁+m₂)v。",
+      "动量守恒与动能守恒条件不同。内力能把机械能转为形变、热等而不改变系统总动量；有爆炸释放内能时，动能甚至可增加。不能因用了动量守恒就附送动能守恒。",
+      "有摩擦并不自动否定任何短时近似，但必须比较外冲量与相互作用的动量变化尺度，并清楚标为近似。严格等式与忽略小量的近似要分开，不能只写“时间短所以一切外力消失”。",
+      "验证解时检查初末总动量、方向与约束。若总初动量为零，最终各物体仍可以运动，只要矢量和为零；“总量零”不等于每个分量或每个个体都静止。"
+    ],
+    "derive": [
+      "ΔP系统=J合外；J合外=0时P前=P后。",
+      "一维：m₁u₁+m₂u₂=m₁v₁+m₂v₂；若黏合，v₁=v₂=v。",
+      "分方向守恒只在该方向合外冲量可忽略时使用；动能须独立审查。"
+    ],
+    "examples": [
+      {
+        "q": "2 kg小车以3 m/s与静止1 kg小车黏合，水平外冲量忽略，共同速度？",
+        "given": "取初运动方向正。",
+        "analysis": "黏合使末速度相同。",
+        "method": "动量守恒。",
+        "principle": "系统水平方向合外冲量近0。",
+        "steps": [
+          "P前=2×3+1×0=6。",
+          "3v=6，v=2 m/s。"
+        ],
+        "ans": "+2 m/s。",
+        "verification": "P后3×2=6；初动能9 J，末6 J，动量守恒不要求动能守恒。",
+        "pitfall": "把末速度设3或强用动能守恒。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 8,
+        "primary_section": "8.2",
+        "related_sections": []
+      },
+      {
+        "q": "1 kg以+4 m/s、2 kg以−1 m/s运动，后者相互作用后速度+1 m/s，前者末速？",
+        "given": "系统水平外冲量忽略。",
+        "analysis": "方向需共同符号。",
+        "method": "列初末动量。",
+        "principle": "内冲量不改变总动量。",
+        "steps": [
+          "P前=1×4+2×(−1)=2。",
+          "v₁+2×1=2，故v₁=0。"
+        ],
+        "ans": "前者末速0。",
+        "verification": "末总动量0+2=2。",
+        "pitfall": "把反向初速写正使总量错。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 8,
+        "primary_section": "8.2",
+        "related_sections": []
+      },
+      {
+        "q": "系统初动量10 N·s，0.2 s内外力恒定向正10 N，能设末动量仍10吗？",
+        "given": "外力与初动量同向。",
+        "analysis": "必须先算外冲量。",
+        "method": "ΔP=FΔt。",
+        "principle": "有非零外冲量时不守恒。",
+        "steps": [
+          "J外=10×0.2=2 N·s。",
+          "P后=10+2=12 N·s。"
+        ],
+        "ans": "不能；应为12 N·s。",
+        "verification": "总量增2与外冲量一致。",
+        "pitfall": "看到相互作用就忽略明确给出的外力。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 8,
+        "primary_section": "8.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "总动量0是否表示两个物体都静止？",
+        "given": "总量是矢量和。",
+        "analysis": "非零反向量可抵消。",
+        "method": "构造等大反向动量。",
+        "principle": "总动量相加。",
+        "steps": [
+          "1 kg以+2 m/s、2 kg以−1 m/s。",
+          "动量+2与−2总0，但两者都运动。"
+        ],
+        "ans": "不是。",
+        "verification": "动能却为2+1=3 J大于0。",
+        "pitfall": "把总量零当各项零。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 8,
+        "primary_section": "8.2",
+        "related_sections": []
+      },
+      {
+        "q": "黏合前总动量−9 kg·m/s，总质量3 kg，末速度？",
+        "given": "无相关外冲量，共同运动。",
+        "analysis": "符号是方向。",
+        "method": "v=P/M。",
+        "principle": "动量守恒。",
+        "steps": [
+          "v=−9/3=−3 m/s。",
+          "负号表示所选正向的反方向。"
+        ],
+        "ans": "−3 m/s。",
+        "verification": "3×(−3)=−9。",
+        "pitfall": "把负号删成+3。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 8,
+        "primary_section": "8.2",
+        "related_sections": []
+      },
+      {
+        "q": "为什么两个物体之间内力很大仍可守恒总动量？",
+        "given": "系统同时包括二者。",
+        "analysis": "内力成对而非不存在。",
+        "method": "将两动量定理相加。",
+        "principle": "内冲量等大反向。",
+        "steps": [
+          "J₁₂+J₂₁=0。",
+          "总变化只剩外冲量，可为0。"
+        ],
+        "ans": "内力冲量在系统求和中抵消。",
+        "verification": "单个物体动量仍可明显改变。",
+        "pitfall": "误写内力为0或每个动量都守恒。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 8,
+        "primary_section": "8.2",
+        "related_sections": []
+      },
+      {
+        "q": "1 kg车以6 m/s与静止2 kg车黏合，若另受合外冲量−0.6 N·s，末速多少？",
+        "given": "外冲量题给不忽略。",
+        "analysis": "用动量定理修正守恒式。",
+        "method": "Mv=P前+J外。",
+        "principle": "系统动量变化等于合外冲量。",
+        "steps": [
+          "P后=6−0.6=5.4。",
+          "v=5.4/3=1.8 m/s。"
+        ],
+        "ans": "+1.8 m/s。",
+        "verification": "若忽略外冲量得2，题给负冲量使速度更小合理。",
+        "pitfall": "仍机械用6/3=2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 8,
+        "primary_section": "8.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "只把小球列为系统却把它受墙的力说成内力，为什么不成立？",
+      "given": "系统边界不含墙。",
+      "analysis": "内外分类依边界。",
+      "method": "说明施力物体是否在系统内。",
+      "principle": "外部物体对系统的力是外力。",
+      "steps": [
+        "墙在系统之外。",
+        "墙对球的冲量是外冲量，因此球动量可改变。"
+      ],
+      "ans": "系统选择与内力分类矛盾。",
+      "verification": "球反弹的动量改变正需墙冲量。",
+      "pitfall": "为了守恒任意把外力改称内力。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 8,
+      "primary_section": "8.2",
+      "related_sections": []
+    },
+    "exam": [
+      "守恒题先写系统、方向、时段及外冲量依据，再列式",
+      "黏合才可共同速度，分离题每物体保留末速变量",
+      "算完同时核总动量，能量需另审，不自动守恒"
+    ],
+    "quick": [
+      "系统边界",
+      "内外冲量",
+      "方向守恒",
+      "共同或分别速度",
+      "能量独立审查"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 272,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_8.2",
+        "url": "https://openstax.org/books/college-physics-2e/pages/8-3-conservation-of-momentum",
+        "page_or_section": "8-3-conservation-of-momentum",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 272,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_8.2",
+        "url": "https://openstax.org/books/college-physics-2e/pages/8-3-conservation-of-momentum",
+        "page_or_section": "8-3-conservation-of-momentum",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "守恒题先写系统、方向、时段及外冲量依据，再列式",
+      "method": "ΔP=FΔt。",
+      "principle": "有非零外冲量时不守恒。",
+      "worked_example_index": 2,
+      "verification": "总量增2与外冲量一致。",
+      "pitfall": "看到相互作用就忽略明确给出的外力。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e2",
+        "review_module": 4,
+        "feedback": "目标“判定所选系统能否用动量守恒”的抽样复核：总量增2与外冲量一致。；若出现“看到相互作用就忽略明确给出的外力。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e1",
+        "review_module": 5,
+        "feedback": "目标“由矢量总动量求相互作用后的速度”的抽样复核：末总动量0+2=2。；若出现“把反向初速写正使总量错。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "为了守恒任意把外力改称内力。",
+        "correction": "系统选择与内力分类矛盾。",
+        "verification": "球反弹的动量改变正需墙冲量。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "系统边界与动量收支",
+      "objects": [
+        "两车系统框",
+        "内力成对箭头",
+        "外冲量箭头",
+        "初末动量条"
+      ],
+      "relations": [
+        "内力只在两车都纳入时相消",
+        "非零外冲量改变总量",
+        "动能另算"
+      ],
+      "labels": [
+        "P前",
+        "P后",
+        "J外",
+        "ΔP=J外",
+        "同一参考系"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "V22 P10原理可补充，不重复同一题材",
+      "english": "Draw a system boundary around two interacting carts, cancel paired internal impulses, and keep external impulse crossing the boundary. Show P_after=P_before+J_external; do not imply kinetic-energy conservation."
+    }
+  },
+  "8.3": {
+    "content_batch": "batch05",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 8,
+    "section_id": "8.3",
+    "goals": [
+      "用系统动量解释反冲方向",
+      "区分地面速度、相对速度与系统边界"
+    ],
+    "prerequisites": [
+      "动量守恒",
+      "相对速度"
+    ],
+    "flow": [
+      "系统分离",
+      "初总动量",
+      "同参考系速度",
+      "相对速度条件",
+      "能源与外冲量"
+    ],
+    "concept_relation": "系统分离；初总动量；同参考系速度；相对速度条件；能源与外冲量",
+    "deep": [
+      "火箭通过向后排出物质获得向前动量变化，不需要推空气，因此可以在真空工作。排气与火箭间的作用力遵守相互作用，但若只取火箭本体，其质量随排气改变，不能把整个燃烧过程无条件写成固定质量的F=ma或简单两块一次分离公式。",
+      "本节可用一次分离的离散模型说明反冲，对连续变质量火箭的完整方程则需进一步考虑质量流和相对排气速度。模型层次应明确，不能把忽略外力的一瞬或一小段结论扩展为真实起飞全程速度。",
+      "反冲获得动能的来源可能是化学内能、弹性势能或人做功。系统动量保持零不代表总动能为零，也不能说为了反冲必须从静止状态“创造动量”；相反方向动量可以各自非零而合为零。",
+      "实际发射存在支架、地面、空气和重力等外部作用。固定发射装置与自由可动装置条件不同，是否可忽略某方向外冲量要具体说明；不能把所有枪弹题都默认完全孤立而不看题设。"
+    ],
+    "derive": [
+      "初静止的一次分离模型：mv+MV=0，v和V必须相对同一参考系。",
+      "若给相对速度u=v−V，与mv+MV=0联立，V=−mu/(M+m)，v=Mu/(M+m)。",
+      "反冲动能K=m v²/2+M V²/2可大于0，能量来自系统内部或外部做功，不来自动量守恒本身。"
+    ],
+    "examples": [
+      {
+        "q": "自由小车质量2 kg，向右抛出0.5 kg物体，物体地面速度4 m/s，初静止且水平外冲量忽略，小车速度？",
+        "given": "抛出后车质量2 kg，物体速度相对地面。",
+        "analysis": "两部分动量和0。",
+        "method": "0.5×4+2V=0。",
+        "principle": "所选系统动量守恒。",
+        "steps": [
+          "物体动量+2 kg·m/s。",
+          "小车V=−2/2=−1 m/s。"
+        ],
+        "ans": "1 m/s向左。",
+        "verification": "两部分动量+2与−2相消。",
+        "pitfall": "把抛出前总质量2.5当剩余车质量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 8,
+        "primary_section": "8.3",
+        "related_sections": []
+      },
+      {
+        "q": "同样车2 kg、物体0.5 kg，但4 m/s为物体相对车的速度，求地面速度。",
+        "given": "初静止，水平外冲量忽略。",
+        "analysis": "相对速度不能直接代地面值。",
+        "method": "联立v−V=4与0.5v+2V=0。",
+        "principle": "速度相对变换及动量守恒。",
+        "steps": [
+          "v=V+4，代入0.5(V+4)+2V=0。",
+          "2.5V=−2，V=−0.8，v=3.2 m/s。"
+        ],
+        "ans": "车−0.8 m/s，物体+3.2 m/s。",
+        "verification": "3.2−(−0.8)=4，动量1.6−1.6=0。",
+        "pitfall": "照前题得−1与4而相对速度变成5。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 8,
+        "primary_section": "8.3",
+        "related_sections": []
+      },
+      {
+        "q": "质量3 kg与1 kg两块初静止分离，1 kg块以6 m/s向右，求另一块速度和总动能。",
+        "given": "一次分离，外冲量忽略。",
+        "analysis": "动量零但动能可增加。",
+        "method": "先求反向速度，再求两部分动能。",
+        "principle": "内能释放可在动量守恒下增加动能。",
+        "steps": [
+          "3V+1×6=0，V=−2 m/s。",
+          "K=0.5×3×4+0.5×1×36=6+18=24 J。"
+        ],
+        "ans": "3 kg块向左2 m/s，总动能24 J。",
+        "verification": "动量−6+6=0；能量24 J须有释放来源。",
+        "pitfall": "以初动能0推断末动能也0。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 8,
+        "primary_section": "8.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "火箭在真空能否靠排气推进？",
+        "given": "无空气但可携带并排出物质。",
+        "analysis": "推进不是推空气。",
+        "method": "考察火箭与排气总系统。",
+        "principle": "内部相互作用分配相反动量。",
+        "steps": [
+          "排气向后带走动量。",
+          "火箭获得相反方向动量变化，外部空气并非必要。"
+        ],
+        "ans": "可以。",
+        "verification": "与动量守恒相容。",
+        "pitfall": "必须有空气给火箭反作用。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 8,
+        "primary_section": "8.3",
+        "related_sections": []
+      },
+      {
+        "q": "两部分初静止分离后质量比1:4，速度大小比？",
+        "given": "两部分总动量0，一维。",
+        "analysis": "动量大小相等。",
+        "method": "m₁|v₁|=m₂|v₂|。",
+        "principle": "守恒且方向相反。",
+        "steps": [
+          "|v₁|/|v₂|=m₂/m₁=4。",
+          "方向相反。"
+        ],
+        "ans": "4:1，反向。",
+        "verification": "小质量需更大速度达到等动量。",
+        "pitfall": "把质量比直接作为速度比。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 8,
+        "primary_section": "8.3",
+        "related_sections": []
+      },
+      {
+        "q": "枪固定在地面上，能只对枪和弹无条件用自由反冲公式吗？",
+        "given": "支架可提供外冲量。",
+        "analysis": "系统边界未含支架地球。",
+        "method": "审查外冲量。",
+        "principle": "动量变化由外冲量决定。",
+        "steps": [
+          "固定约束可传递明显动量给地面。",
+          "枪弹两体系统不再满足忽略外冲量的自由模型。"
+        ],
+        "ans": "不能无条件。",
+        "verification": "固定枪末速0也不妨碍弹获动量，因为有外部交换。",
+        "pitfall": "忽略固定条件。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 8,
+        "primary_section": "8.3",
+        "related_sections": []
+      },
+      {
+        "q": "4 kg车抛1 kg物体，物体相对车5 m/s，初静止，求两者地面速度并验证。",
+        "given": "水平外冲量忽略。",
+        "analysis": "给的是相对速度。",
+        "method": "v−V=5，v+4V=0。",
+        "principle": "动量与相对速度两式。",
+        "steps": [
+          "v=V+5，5V+5=0，V=−1。",
+          "v=4 m/s。"
+        ],
+        "ans": "车−1，物体+4 m/s。",
+        "verification": "4−(−1)=5；4+4×(−1)=0。",
+        "pitfall": "把5直接当物体地面速度。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 8,
+        "primary_section": "8.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "真实火箭燃烧时剩余质量变化，可以直接把起飞全程当固定两块瞬间分离计算吗？",
+      "given": "连续排气且外力可能存在。",
+      "analysis": "系统和质量在时间中变化。",
+      "method": "限定离散模型或采用质量流分析。",
+      "principle": "连续变质量过程需逐段计动量通量及外力。",
+      "steps": [
+        "一次两块模型可说明方向和局部理想例子。",
+        "全程须处理持续排气、变质量和重力等，不能原式无条件外推。"
+      ],
+      "ans": "不可以无条件。",
+      "verification": "不同排气时刻有不同火箭速度，不能归为一个固定末速度块。",
+      "pitfall": "把演示模型冒充完整航天计算。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 8,
+      "primary_section": "8.3",
+      "related_sections": []
+    },
+    "exam": [
+      "反冲题先确认抛出后质量与速度参考系",
+      "给相对速度须列v抛−v体=u并与守恒联立",
+      "解释题用排气动量与内部能源，说明真空可推进及模型限制"
+    ],
+    "quick": [
+      "系统分离",
+      "初总动量",
+      "同参考系速度",
+      "相对速度条件",
+      "能源与外冲量"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 282,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_8.3",
+        "url": "https://openstax.org/books/college-physics-2e/pages/8-7-introduction-to-rocket-propulsion",
+        "page_or_section": "8-7-introduction-to-rocket-propulsion",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 282,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_8.3",
+        "url": "https://openstax.org/books/college-physics-2e/pages/8-7-introduction-to-rocket-propulsion",
+        "page_or_section": "8-7-introduction-to-rocket-propulsion",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "反冲题先确认抛出后质量与速度参考系",
+      "method": "先求反向速度，再求两部分动能。",
+      "principle": "内能释放可在动量守恒下增加动能。",
+      "worked_example_index": 2,
+      "verification": "动量−6+6=0；能量24 J须有释放来源。",
+      "pitfall": "以初动能0推断末动能也0。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用系统动量解释反冲方向”的抽样复核：两部分动量+2与−2相消。；若出现“把抛出前总质量2.5当剩余车质量。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e1",
+        "review_module": 5,
+        "feedback": "目标“区分地面速度、相对速度与系统边界”的抽样复核：3.2−(−0.8)=4，动量1.6−1.6=0。；若出现“照前题得−1与4而相对速度变成5。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把演示模型冒充完整航天计算。",
+        "correction": "不可以无条件。",
+        "verification": "不同排气时刻有不同火箭速度，不能归为一个固定末速度块。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "反冲的参考系与相对速度",
+      "objects": [
+        "小车2 kg",
+        "抛出物0.5 kg",
+        "地面坐标",
+        "速度箭头",
+        "相对速度括号"
+      ],
+      "relations": [
+        "V=−0.8",
+        "v=+3.2",
+        "v−V=4",
+        "两动量等大反向"
+      ],
+      "labels": [
+        "相对地面",
+        "相对车4 m/s",
+        "P总=0",
+        "内部能源"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "须用明确参考系的新示意，旧反冲图可核后辅助",
+      "english": "For a freely moving 2 kg cart ejecting a 0.5 kg object, show ground velocities -0.8 and +3.2 m/s, with object speed relative to cart 4 m/s. Distinguish relative and ground arrows and show equal opposite momenta, not equal speeds."
+    }
+  },
+  "8.4": {
+    "content_batch": "batch05",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 8,
+    "section_id": "8.4",
+    "goals": [
+      "先用动量再按碰撞类型审查能量",
+      "求一维碰撞速度并核方向与能量损失"
+    ],
+    "prerequisites": [
+      "动量守恒",
+      "动能与联立方程"
+    ],
+    "flow": [
+      "系统动量",
+      "碰撞类型",
+      "第二条件",
+      "总动能",
+      "分离与验算"
+    ],
+    "concept_relation": "系统动量；碰撞类型；第二条件；总动能；分离与验算",
+    "deep": [
+      "同质量正碰且一个初静止，在理想一维弹性条件下可交换速度；若黏合则共同速度为初速度的一半。两个结果都可满足动量守恒，说明只用一个守恒方程不足以判定两个独立末速度。",
+      "动能损失要用两物体的总动能前后比较，不可只看一个物体变慢。某个物体可能变快而系统总动能仍减少。若题给可释放内能的爆发性相互作用，末动能可能增加，此时也不属于普通仅耗散的非弹性模型。",
+      "实际二维碰撞要分方向列动量方程，动能为各速度大小的平方；先画方向能避免把不同轴分量混用。本节典型计算聚焦一维，不把二维条件简化成所有速度带一个正负号。",
+      "最终检查包括碰后是否满足黏合或分离条件、动量总量是否一致、动能变化是否符合类型。代数联立可能包含“仍保持碰前状态”的根，须用实际碰撞与分离条件排除不合物理的分支。"
+    ],
+    "derive": [
+      "一维动量：m₁u₁+m₂u₂=m₁v₁+m₂v₂。",
+      "弹性另有m₁u₁²/2+m₂u₂²/2=m₁v₁²/2+m₂v₂²/2，可推出v₂−v₁=u₁−u₂。",
+      "黏合共同速度v=(m₁u₁+m₂u₂)/(m₁+m₂)；损失ΔK=K前−K后，不必等于K前。"
+    ],
+    "examples": [
+      {
+        "q": "1 kg车以4 m/s撞静止1 kg车并黏合，求共同速度与动能损失。",
+        "given": "水平外冲量忽略。",
+        "analysis": "黏合可合并末质量，不能守恒动能。",
+        "method": "动量求v再算K。",
+        "principle": "完全非弹性模型。",
+        "steps": [
+          "2v=4，v=2 m/s。",
+          "K前=0.5×1×16=8 J，K后=0.5×2×4=4 J，损失4 J。"
+        ],
+        "ans": "共同+2 m/s，损失4 J。",
+        "verification": "动量前4后4，末动能仍4不为0。",
+        "pitfall": "完全非弹性误写末动能零。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 8,
+        "primary_section": "8.4",
+        "related_sections": []
+      },
+      {
+        "q": "同样两辆1 kg车，初速4与0，改为一维弹性碰撞，末速？",
+        "given": "外冲量忽略且弹性。",
+        "analysis": "需动量与弹性相对速度两条件。",
+        "method": "v₁+v₂=4，v₂−v₁=4。",
+        "principle": "一维弹性守恒两量。",
+        "steps": [
+          "两式相加2v₂=8，v₂=4。",
+          "v₁=0。"
+        ],
+        "ans": "第一车停，第二车+4 m/s。",
+        "verification": "总动量4，动能8 J均与初相同。",
+        "pitfall": "只用动量任猜2和2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 8,
+        "primary_section": "8.4",
+        "related_sections": []
+      },
+      {
+        "q": "2 kg车以3 m/s撞静止1 kg车，一维弹性，求两末速并核算。",
+        "given": "正方向沿初车速度。",
+        "analysis": "两质量不等，不能直接交换速度。",
+        "method": "2v₁+v₂=6，v₂−v₁=3。",
+        "principle": "动量和一维弹性关系。",
+        "steps": [
+          "代v₂=v₁+3得3v₁=3，v₁=1。",
+          "v₂=4 m/s。",
+          "K后=0.5×2×1²+0.5×1×4²=1+8=9 J。"
+        ],
+        "ans": "2 kg车+1、1 kg车+4 m/s。",
+        "verification": "初K=0.5×2×9=9 J，动量2+4=6。",
+        "pitfall": "把等质量交换速度推广不等质量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 8,
+        "primary_section": "8.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "碰后两物体黏合，能默认动能守恒吗？",
+        "given": "非特殊零相对速度情境。",
+        "analysis": "黏合限制末速度但一般耗散动能。",
+        "method": "动量后独立算K。",
+        "principle": "完全非弹性不要求动能守恒。",
+        "steps": [
+          "共同速度由动量确定。",
+          "通常存在形变热等，需比较总K。"
+        ],
+        "ans": "不能。",
+        "verification": "1 kg、4与0的例子损失一半动能。",
+        "pitfall": "把所有守恒定律捆绑使用。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 8,
+        "primary_section": "8.4",
+        "related_sections": []
+      },
+      {
+        "q": "1 kg以+3、1 kg以−3 m/s相向黏合，末速与损失？",
+        "given": "外冲量忽略。",
+        "analysis": "总动量零但初动能正。",
+        "method": "动量求共同速度。",
+        "principle": "相反动量抵消。",
+        "steps": [
+          "P前=0，v=0。",
+          "K前=4.5+4.5=9 J，K后0，损失9 J。"
+        ],
+        "ans": "末速0，损失9 J。",
+        "verification": "这是末K为0的特殊条件，非所有黏合都如此。",
+        "pitfall": "从该特例推出所有完全非弹性末能0。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 8,
+        "primary_section": "8.4",
+        "related_sections": []
+      },
+      {
+        "q": "某车碰撞后动能增加2 J，另一辆减少5 J，总动能变化？",
+        "given": "只有这两辆车构成所比系统。",
+        "analysis": "应求总和。",
+        "method": "ΔK总=ΣΔK。",
+        "principle": "局部获得可伴总体损失。",
+        "steps": [
+          "2+(−5)=−3 J。",
+          "系统损失3 J。"
+        ],
+        "ans": "减少3 J。",
+        "verification": "一辆把5 J中的2 J给另一辆，其余3 J转其他形式。",
+        "pitfall": "只看一辆增能就称系统弹性或增能。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 8,
+        "primary_section": "8.4",
+        "related_sections": []
+      },
+      {
+        "q": "3 kg以2 m/s撞静止1 kg并黏合，求v、动能损失与损失率。",
+        "given": "忽略水平外冲量。",
+        "analysis": "先动量后能量。",
+        "method": "v=P/M，再算K。",
+        "principle": "黏合共同速度。",
+        "steps": [
+          "P=6，v=6/4=1.5 m/s。",
+          "K前=6 J，K后=0.5×4×2.25=4.5 J。",
+          "损失1.5 J，比例1.5/6=25%。"
+        ],
+        "ans": "+1.5 m/s，损失1.5 J、25%。",
+        "verification": "末P=4×1.5=6，末能为初75%。",
+        "pitfall": "把总质量4代进初车动能。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 8,
+        "primary_section": "8.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "只给两物体初速度、质量与总动量守恒，未说明碰撞类型，通常能唯一确定两个独立末速度吗？",
+      "given": "一维但没有黏合或能量等第二条件。",
+      "analysis": "一个独立方程通常有两个未知。",
+      "method": "说明缺何物理条件。",
+      "principle": "守恒动量限制总量，不确定分配唯一性。",
+      "steps": [
+        "可有不同v₁、v₂组合满足同一总P。",
+        "需弹性、恢复系数或黏合等额外信息，不能擅自添加。"
+      ],
+      "ans": "通常不能唯一确定。",
+      "verification": "等质量4与0初态，末0与4或2与2均满足动量而类型不同。",
+      "pitfall": "看见碰撞便自动假定弹性。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 8,
+      "primary_section": "8.4",
+      "related_sections": []
+    },
+    "exam": [
+      "碰撞题先写系统外冲量，再从弹性/黏合/其他条件选第二关系",
+      "能量损失按两物体总K前后求，明确非总能量消失",
+      "一维弹性相对速度仅在适用模型用，最后核分离方向"
+    ],
+    "quick": [
+      "系统动量",
+      "碰撞类型",
+      "第二条件",
+      "总动能",
+      "分离与验算"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 287,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_8.4",
+        "url": "https://openstax.org/books/college-physics-2e/pages/8-4-elastic-collisions-in-one-dimension",
+        "page_or_section": "8-4-elastic-collisions-in-one-dimension",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 287,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_8.4",
+        "url": "https://openstax.org/books/college-physics-2e/pages/8-4-elastic-collisions-in-one-dimension",
+        "page_or_section": "8-4-elastic-collisions-in-one-dimension",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "碰撞题先写系统外冲量，再从弹性/黏合/其他条件选第二关系",
+      "method": "2v₁+v₂=6，v₂−v₁=3。",
+      "principle": "动量和一维弹性关系。",
+      "worked_example_index": 2,
+      "verification": "初K=0.5×2×9=9 J，动量2+4=6。",
+      "pitfall": "把等质量交换速度推广不等质量。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“先用动量再按碰撞类型审查能量”的抽样复核：动量前4后4，末动能仍4不为0。；若出现“完全非弹性误写末动能零。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“求一维碰撞速度并核方向与能量损失”的抽样复核：初K=0.5×2×9=9 J，动量2+4=6。；若出现“把等质量交换速度推广不等质量。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "看见碰撞便自动假定弹性。",
+        "correction": "通常不能唯一确定。",
+        "verification": "等质量4与0初态，末0与4或2与2均满足动量而类型不同。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "弹性与黏合碰撞的双重核查",
+      "objects": [
+        "等质量初4与0",
+        "弹性末0与4",
+        "黏合末2与2",
+        "动量条",
+        "动能条"
+      ],
+      "relations": [
+        "两例P均4",
+        "弹性K8保持",
+        "黏合K由8到4，差为其他形式"
+      ],
+      "labels": [
+        "kg",
+        "m/s",
+        "P/(kg·m/s)",
+        "K/J",
+        "转为内能等"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "V22 P27优先复核复用，避免与P11重复显示",
+      "english": "Compare two 1 kg carts initially at 4 and 0 m/s. Elastic final velocities are 0 and 4; sticking final velocity is 2. Plot momentum total 4 in both and kinetic energies 8 to 8 versus 8 to 4 J. Do not label dissipated kinetic energy as destroyed energy."
+    }
+  }
+}

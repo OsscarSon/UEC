@@ -1,0 +1,516 @@
+{
+  "status": "reachability_checked",
+  "note": "HTTP200仅证明链接可达，不表示逐段内容已核对；403/网络错误不等于原来源不存在。科学内容仍部分核实，见SOURCES.md。",
+  "sources": [
+    {
+      "url": "https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html",
+      "http_status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "check": "No authentication or bypass attempted"
+    },
+    {
+      "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+      "http_status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "check": "No authentication or bypass attempted"
+    },
+    {
+      "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+      "http_status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "check": "No authentication or bypass attempted"
+    },
+    {
+      "url": "https://goldbook.iupac.org/terms/view/R05353/html",
+      "http_status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "check": "No authentication or bypass attempted"
+    },
+    {
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-3-radicals-and-rational-exponents",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-3-radicals-and-rational-exponents",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-5-factoring-polynomials",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-5-factoring-polynomials",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/11-1-systems-of-linear-equations-two-variables",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/11-1-systems-of-linear-equations-two-variables",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-1-the-rectangular-coordinate-systems-and-graphs",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-1-the-rectangular-coordinate-systems-and-graphs",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-5-quadratic-equations",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-5-quadratic-equations",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-1-functions-and-function-notation",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-1-functions-and-function-notation",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-2-domain-and-range",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-2-domain-and-range",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-4-composition-of-functions",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-4-composition-of-functions",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-5-transformation-of-functions",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-5-transformation-of-functions",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-7-inverse-functions",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-7-inverse-functions",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/4-1-linear-functions",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/4-1-linear-functions",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-1-quadratic-functions",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-1-quadratic-functions",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-2-power-functions-and-polynomial-functions",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-2-power-functions-and-polynomial-functions",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-4-dividing-polynomials",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-4-dividing-polynomials",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-5-zeros-of-polynomial-functions",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-5-zeros-of-polynomial-functions",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/10-4-cancer-and-the-cell-cycle",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/10-4-cancer-and-the-cell-cycle",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/11-1-the-process-of-meiosis",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/11-1-the-process-of-meiosis",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/18-1-understanding-evolution",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/18-1-understanding-evolution",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/19-1-population-evolution",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/19-1-population-evolution",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/19-3-adaptive-evolution",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/19-3-adaptive-evolution",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/21-1-viral-evolution-morphology-and-classification",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/21-1-viral-evolution-morphology-and-classification",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/21-2-virus-infections-and-hosts",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/21-2-virus-infections-and-hosts",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/22-1-prokaryotic-diversity",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/22-1-prokaryotic-diversity",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/22-2-structure-of-prokaryotes-bacteria-and-archaea",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/22-2-structure-of-prokaryotes-bacteria-and-archaea",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/22-3-prokaryotic-metabolism",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/22-3-prokaryotic-metabolism",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/23-1-eukaryotic-origins",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/23-1-eukaryotic-origins",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/44-3-terrestrial-biomes",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/44-3-terrestrial-biomes",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/44-4-aquatic-biomes",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/44-4-aquatic-biomes",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/45-1-population-demography",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/45-1-population-demography",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/45-3-environmental-limits-to-population-growth",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/45-3-environmental-limits-to-population-growth",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/46-1-ecology-of-ecosystems",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/46-1-ecology-of-ecosystems",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/46-2-energy-flow-through-ecosystems",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/46-2-energy-flow-through-ecosystems",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/47-3-threats-to-biodiversity",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/47-3-threats-to-biodiversity",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/47-4-preserving-biodiversity",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/47-4-preserving-biodiversity",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/1-1-chemistry-in-context",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/chemistry-2e/pages/1-1-chemistry-in-context",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/10-1-intermolecular-forces",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/chemistry-2e/pages/10-1-intermolecular-forces",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/17-5-batteries-and-fuel-cells",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/chemistry-2e/pages/17-5-batteries-and-fuel-cells",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/18-5-occurrence-preparation-and-compounds-of-hydrogen",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/chemistry-2e/pages/18-5-occurrence-preparation-and-compounds-of-hydrogen",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/20-2-alcohols-and-ethers",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/chemistry-2e/pages/20-2-alcohols-and-ethers",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/20-3-aldehydes-ketones-carboxylic-acids-and-esters",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/chemistry-2e/pages/20-3-aldehydes-ketones-carboxylic-acids-and-esters",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/8-2-hybrid-atomic-orbitals",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/chemistry-2e/pages/8-2-hybrid-atomic-orbitals",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/chemistry-2e/pages/9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/1-1-physics-an-introduction",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/college-physics-2e/pages/1-1-physics-an-introduction",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/1-2-physical-quantities-and-units",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/college-physics-2e/pages/1-2-physical-quantities-and-units",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/1-3-accuracy-precision-and-significant-figures",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/college-physics-2e/pages/1-3-accuracy-precision-and-significant-figures",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/1-4-approximation",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/college-physics-2e/pages/1-4-approximation",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/2-8-graphical-analysis-of-one-dimensional-motion",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/college-physics-2e/pages/2-8-graphical-analysis-of-one-dimensional-motion",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/28-6-relativistic-energy",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/college-physics-2e/pages/28-6-relativistic-energy",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/7-1-work-the-scientific-definition",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/college-physics-2e/pages/7-1-work-the-scientific-definition",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/7-2-kinetic-energy-and-the-work-energy-theorem",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/college-physics-2e/pages/7-2-kinetic-energy-and-the-work-energy-theorem",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/7-3-gravitational-potential-energy",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/college-physics-2e/pages/7-3-gravitational-potential-energy",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/7-6-conservation-of-energy",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/college-physics-2e/pages/7-6-conservation-of-energy",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/8-2-impulse",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/college-physics-2e/pages/8-2-impulse",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/8-3-conservation-of-momentum",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/college-physics-2e/pages/8-3-conservation-of-momentum",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/8-4-elastic-collisions-in-one-dimension",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/college-physics-2e/pages/8-4-elastic-collisions-in-one-dimension",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/8-7-introduction-to-rocket-propulsion",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/college-physics-2e/pages/8-7-introduction-to-rocket-propulsion",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/9-1-the-first-condition-for-equilibrium",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/college-physics-2e/pages/9-1-the-first-condition-for-equilibrium",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/9-2-the-second-condition-for-equilibrium",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/college-physics-2e/pages/9-2-the-second-condition-for-equilibrium",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/9-3-stability",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/college-physics-2e/pages/9-3-stability",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/microbiology/pages/9-1-how-microbes-grow",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/microbiology/pages/9-1-how-microbes-grow",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/14-6-diene-polymers-natural-and-synthetic-rubbers",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/organic-chemistry/pages/14-6-diene-polymers-natural-and-synthetic-rubbers",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/31-1-chain-growth-polymers",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/organic-chemistry/pages/31-1-chain-growth-polymers",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/31-4-step-growth-polymers",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/organic-chemistry/pages/31-4-step-growth-polymers",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/31-7-polymer-structure-and-physical-properties",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/organic-chemistry/pages/31-7-polymer-structure-and-physical-properties",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/31-chemistry-matters-degradable-polymers",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/organic-chemistry/pages/31-chemistry-matters-degradable-polymers",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/9-1-naming-alkynes",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/organic-chemistry/pages/9-1-naming-alkynes",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/9-4-hydration-of-alkynes",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/organic-chemistry/pages/9-4-hydration-of-alkynes",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/9-7-alkyne-acidity-formation-of-acetylide-anions",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/organic-chemistry/pages/9-7-alkyne-acidity-formation-of-acetylide-anions",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/9-summary-of-reactions",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/organic-chemistry/pages/9-summary-of-reactions",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://openstax.org/books/precalculus-2e/pages/9-8-solving-systems-with-cramers-rule",
+      "http_status": 200,
+      "final_url": "https://openstax.org/books/precalculus-2e/pages/9-8-solving-systems-with-cramers-rule",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://www.acs.org/green-chemistry-sustainability/principles/12-principles-of-green-chemistry.html",
+      "http_status": 200,
+      "final_url": "https://www.acs.org/green-chemistry-sustainability/principles/12-principles-of-green-chemistry.html",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+      "http_status": 200,
+      "final_url": "https://www.scribd.com/document/1058092101/%E6%95%B0%E5%AD%A6-%E9%AB%98%E4%B8%80%E4%B8%8A%E5%86%8C",
+      "check": "HEAD reachability only; no scientific endorsement"
+    },
+    {
+      "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+      "http_status": 200,
+      "final_url": "https://www.scribd.com/document/896069659/%E6%9B%BE%E5%9B%BD%E5%85%B4-%E9%BB%84%E5%AE%9D%E7%8E%89-%E8%89%BA%E8%AF%9A%E6%96%87%E5%8C%96-%E9%AB%98%E4%B8%AD%E9%80%82%E7%94%A8-%E7%89%A9%E7%90%86-%E4%B8%8A%E5%86%8C-Dong-Zong-2017",
+      "check": "HEAD reachability only; no scientific endorsement"
+    }
+  ]
+}

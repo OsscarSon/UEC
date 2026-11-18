@@ -1,0 +1,914 @@
+{
+  "13.1": {
+    "content_batch": "batch05",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 13,
+    "section_id": "13.1",
+    "goals": [
+      "按着丝粒与DNA分子分别计数",
+      "解释阶段变化和检查点作用"
+    ],
+    "prerequisites": [
+      "DNA复制",
+      "同源与姐妹的区别"
+    ],
+    "flow": [
+      "S期复制",
+      "中期姐妹相连",
+      "后期姐妹分开",
+      "胞质分配",
+      "检查点控制"
+    ],
+    "concept_relation": "S期复制；中期姐妹相连；后期姐妹分开；胞质分配；检查点控制",
+    "deep": [
+      "后期姐妹染色单体分开成为独立子染色体，在一个尚未分开的细胞内，着丝粒计数会暂时加倍。这不是DNA再次复制。末期两套染色体到达两极并重建细胞核；胞质分裂可与后期、末期重叠，核分裂和胞质分裂不能当作完全相同的事件。",
+      "动物细胞常以收缩环形成分裂沟，植物通常在中央形成细胞板并向外扩展。植物有细胞壁，不能套用动物向内缢裂的图。标准有丝分裂把复制产物分别给两个子细胞，使染色体数通常保持；突变或分离错误须另作分析。",
+      "检查点是根据DNA状态、复制完成情况和纺锤体连接等信息调控周期的关口。药物处理后中期细胞比例增大，可能因为该阶段停留延长；不能仅凭比例证明增殖更快，更不能自动把药物称为致癌物。",
+      "显微图判断先看染色体是否凝缩、排列或向两极分开，再用计数辅助。压片、染色、观察视野和取样组织都会影响结果。根尖分生组织适合观察，成熟伸长区不能仅因细胞更大就视为更合适。"
+    ],
+    "derive": [
+      "未复制二倍体为2n条、2C；S期后为2n条、4C，每条有两条姐妹。",
+      "后期全细胞为4n条子染色体、DNA总量仍4C；每极得到2n条、2C。n与C分别描述套数和DNA量，不可互换。",
+      "分裂指数=分裂期细胞数/总观察细胞数。只有随机取样、近似稳态等条件下，阶段比例才可辅助估计相对停留时间。"
+    ],
+    "examples": [
+      {
+        "q": "2n=6的正常细胞完成S期并进入中期，有几条染色体、几个核DNA分子？",
+        "given": "复制完成，姐妹未分离。",
+        "analysis": "两种数量的计数单位不同。",
+        "method": "分别数着丝粒与染色单体。",
+        "principle": "复制增加DNA而不立即增加着丝粒单位。",
+        "steps": [
+          "复制前6条、6个DNA分子。",
+          "复制后仍6条染色体，共12条姐妹染色单体，各含1个DNA分子。"
+        ],
+        "ans": "6条、12个。",
+        "verification": "DNA从2C到4C，染色体仍2n。",
+        "pitfall": "把复制直接当成染色体数加倍。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 13,
+        "primary_section": "13.1",
+        "related_sections": []
+      },
+      {
+        "q": "同一2n=6细胞到后期但胞质未分开，全细胞和每一极各有几条染色体？",
+        "given": "正常分离且无丢失。",
+        "analysis": "必须先区分整细胞与单极。",
+        "method": "计分离后的着丝粒，再分配。",
+        "principle": "姐妹分离后成为独立子染色体，DNA没有再复制。",
+        "steps": [
+          "全细胞有12条。",
+          "每极6条；总DNA仍12个，每极6个。"
+        ],
+        "ans": "全细胞12，每极6。",
+        "verification": "两极6+6=12，最终子细胞各回到2n=6。",
+        "pitfall": "把每极结果当成整个细胞结果。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 13,
+        "primary_section": "13.1",
+        "related_sections": []
+      },
+      {
+        "q": "对照1000细胞中100个分裂，处理组1000中250个分裂且多数停中期，能否证明增殖更快？",
+        "given": "两组同样取样，但未追踪周期完成时间。",
+        "analysis": "比例增大也可能是中期阻滞。",
+        "method": "计算指数，再列区分解释所需证据。",
+        "principle": "阶段占比由进入及离开该阶段共同决定。",
+        "steps": [
+          "指数分别10%和25%。",
+          "中期积累可能是检查点阻滞。",
+          "追踪完成分裂时间、活细胞总量及死亡率，才能判断净增殖。"
+        ],
+        "ans": "不能，已知的是分裂期占比上升。",
+        "verification": "完全阻滞时指数可很高而新子细胞几乎不增加。",
+        "pitfall": "把横截面比例当成单位时间分裂次数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 13,
+        "primary_section": "13.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "正常S期染色体数是否随DNA量一起加倍？",
+        "given": "尚未发生姐妹分离。",
+        "analysis": "复制和分离不同。",
+        "method": "分别描述计数规则。",
+        "principle": "染色体按着丝粒单位计。",
+        "steps": [
+          "DNA逐渐增加。",
+          "S期完成仍2n，到姐妹分离才改变全细胞计数。"
+        ],
+        "ans": "不会随之加倍。",
+        "verification": "与中期2n、4C一致。",
+        "pitfall": "数线条而不数着丝粒。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 13,
+        "primary_section": "13.1",
+        "related_sections": []
+      },
+      {
+        "q": "显微图见染色体分成两极，是否必为减数分裂？",
+        "given": "只给两极形态。",
+        "analysis": "有丝后期也有两极。",
+        "method": "结合配对、数目及分离对象判断。",
+        "principle": "分姐妹与分同源是不同事件。",
+        "steps": [
+          "寻找同源配对等证据。",
+          "再判断分开的是同源还是姐妹。"
+        ],
+        "ans": "不能仅据两极判断。",
+        "verification": "分姐妹可见于有丝后期或减Ⅱ后期。",
+        "pitfall": "只凭两极贴标签。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 13,
+        "primary_section": "13.1",
+        "related_sections": []
+      },
+      {
+        "q": "植物胞质分裂形成的是赤道板还是细胞板？",
+        "given": "问真实物质结构。",
+        "analysis": "几何平面与新结构不同。",
+        "method": "按时期及功能区分。",
+        "principle": "赤道板是中期排列平面，细胞板参与分隔。",
+        "steps": [
+          "中期染色体在赤道板排列。",
+          "胞质分裂形成细胞板并参与新细胞壁。"
+        ],
+        "ans": "细胞板。",
+        "verification": "两者物质性质与出现阶段不同。",
+        "pitfall": "名字相近便认为相同。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 13,
+        "primary_section": "13.1",
+        "related_sections": []
+      },
+      {
+        "q": "200细胞中前期12、中期6、后期2、末期4，求分裂指数并写一项限制。",
+        "given": "分类不重叠。",
+        "analysis": "分母须包括间期细胞。",
+        "method": "相加分裂数再除总数。",
+        "principle": "指数是比例，不直接给绝对增殖速率。",
+        "steps": [
+          "分裂数=12+6+2+4=24。",
+          "24/200=12%；取样是否随机、周期是否稳态限制解释。"
+        ],
+        "ans": "12%；不能单凭此算每小时增殖数。",
+        "verification": "24+176=200。",
+        "pitfall": "只用分裂细胞作分母。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 13,
+        "primary_section": "13.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "2n=8细胞后期全细胞有16条子染色体，是否说明多复制了一次DNA？",
+      "given": "胞质未分开。",
+      "analysis": "计数变化来自姐妹分离。",
+      "method": "比较中期和后期DNA总量。",
+      "principle": "后期不是S期。",
+      "steps": [
+        "中期8条复制染色体含16个DNA。",
+        "后期16条子染色体仍含16个DNA。"
+      ],
+      "ans": "不是，DNA总量未再增加。",
+      "verification": "最终两子细胞各8个DNA，总量守恒。",
+      "pitfall": "把染色体计数改变当成复制证据。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 13,
+      "primary_section": "13.1",
+      "related_sections": []
+    },
+    "exam": [
+      "计数题先写单核、全细胞、每极或子细胞，再列时期",
+      "图像题先辨分开的结构，再用数目辅助，不用线多就猜阶段",
+      "药物题区分观察比例与因果结论，提出追踪周期及对照"
+    ],
+    "quick": [
+      "S期复制",
+      "中期姐妹相连",
+      "后期姐妹分开",
+      "胞质分配",
+      "检查点控制"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 4,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_13.1",
+        "url": "https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle",
+        "page_or_section": "10-2-the-cell-cycle",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 4,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_13.1",
+        "url": "https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle",
+        "page_or_section": "10-2-the-cell-cycle",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "计数题先写单核、全细胞、每极或子细胞，再列时期",
+      "method": "计算指数，再列区分解释所需证据。",
+      "principle": "阶段占比由进入及离开该阶段共同决定。",
+      "worked_example_index": 2,
+      "verification": "完全阻滞时指数可很高而新子细胞几乎不增加。",
+      "pitfall": "把横截面比例当成单位时间分裂次数。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“按着丝粒与DNA分子分别计数”的抽样复核：DNA从2C到4C，染色体仍2n。；若出现“把复制直接当成染色体数加倍。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“解释阶段变化和检查点作用”的抽样复核：完全阻滞时指数可很高而新子细胞几乎不增加。；若出现“把横截面比例当成单位时间分裂次数。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把染色体计数改变当成复制证据。",
+        "correction": "不是，DNA总量未再增加。",
+        "verification": "最终两子细胞各8个DNA，总量守恒。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "有丝分裂计数与胞质分裂",
+      "objects": [
+        "2n=4复制前后",
+        "中期",
+        "后期全细胞/每极",
+        "分裂沟",
+        "细胞板"
+      ],
+      "relations": [
+        "复制后DNA加倍但染色体数不变",
+        "后期DNA总量守恒",
+        "植物不画分裂沟"
+      ],
+      "labels": [
+        "2n",
+        "2C",
+        "4C",
+        "着丝粒",
+        "姐妹",
+        "细胞板"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "V22 B42计数图可复用，胞质分裂需另图",
+      "english": "Track chromosome and DNA counts in a 2n=4 mitosis model. Separate whole-cell anaphase from each pole and compare animal cleavage furrow with plant cell plate."
+    }
+  },
+  "13.2": {
+    "content_batch": "batch05",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 13,
+    "section_id": "13.2",
+    "goals": [
+      "辨认两次分裂的分离对象",
+      "用染色体行为解释遗传变异"
+    ],
+    "prerequisites": [
+      "有丝分裂",
+      "同源染色体与等位基因"
+    ],
+    "flow": [
+      "一次复制",
+      "减Ⅰ分同源",
+      "减Ⅱ分姐妹",
+      "交换与独立取向",
+      "受精恢复组数"
+    ],
+    "concept_relation": "一次复制；减Ⅰ分同源；减Ⅱ分姐妹；交换与独立取向；受精恢复组数",
+    "deep": [
+      "以2n=4的模型追踪：复制前2n、2C；复制后2n、4C；减Ⅰ完成后各细胞n、2C；减Ⅱ完成后各细胞n、1C。观察全细胞时后期的计数须另注明范围，不能把最终配子数目直接套到尚未胞质分裂的后期细胞。",
+      "同源对在中期Ⅰ的独立取向，使不同对的父母来源可有不同组合。在忽略交换且正常独立分配时，n对同源可形成2的n次方种来源组合；这不是单次减数分裂一定同时得到的不同配子数，也不是含交换时的全部基因型上限。",
+      "交换可重新组合一条染色体上的等位基因组合，随机受精再增加后代组合。正常减数分裂解释重组与分离，不负责创造所有新等位基因；新等位基因通常需追溯突变。等位基因分离与染色体行为的关联还须限定正常分离及所处位置。",
+      "不分离可发生在第一次或第二次分裂，产生染色体数目异常的配子。分析图时先判断同源还是姐妹未分开，再分别追踪各个子细胞；只背诵“异常配子一半”会把不同阶段混淆。动物精子、卵的形成在胞质分配上不同，不能把四个产物一律画成四个同样功能的卵。"
+    ],
+    "derive": [
+      "正常二倍体：2n、2C → DNA复制 → 2n、4C → 减Ⅰ → n、2C → 减Ⅱ → n、1C。",
+      "无交换的来源组合数为2ⁿ，n是同源染色体对数；这是多次减数分裂可能产生的来源组合。",
+      "若n=2，第一次分裂某对不分离，最终四个产物对该染色体的拷贝数为2、2、0、0，而正常应各为1。"
+    ],
+    "examples": [
+      {
+        "q": "某生物2n=8，正常减Ⅰ完成后每个细胞有几条染色体和几个DNA分子？",
+        "given": "DNA复制完成且正常同源分离。",
+        "analysis": "减Ⅰ分同源而不分姐妹。",
+        "method": "先减半染色体数，再按每条两条姐妹计DNA。",
+        "principle": "减Ⅰ后为n、2C。",
+        "steps": [
+          "n=4，每细胞4条染色体。",
+          "每条仍含两条姐妹，核DNA分子为8个。"
+        ],
+        "ans": "4条、8个DNA分子。",
+        "verification": "减Ⅱ后每个配子4个DNA分子，进一步减半而染色体数仍4。",
+        "pitfall": "减Ⅰ后直接把DNA也算成4个。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 13,
+        "primary_section": "13.2",
+        "related_sections": []
+      },
+      {
+        "q": "2n=6，不计交换，配子染色体父母来源最多有多少组合？一次减数分裂会出现全部组合吗？",
+        "given": "三对同源正常独立取向。",
+        "analysis": "理论可能性与一次分裂产物数量不同。",
+        "method": "用2ⁿ并检查一次产物。",
+        "principle": "各对有两种来源选择。",
+        "steps": [
+          "n=3，2³=8。",
+          "一次减数分裂通常形成四个产物，忽略交换时不能同时给出8种组合。"
+        ],
+        "ans": "可能8种；一次不会同时出现全部。",
+        "verification": "一细胞四个产物的数量小于8。",
+        "pitfall": "把群体概率空间当作一次分裂的实际结果。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 13,
+        "primary_section": "13.2",
+        "related_sections": []
+      },
+      {
+        "q": "一次减数分裂中某对同源在减Ⅰ未分离，减Ⅱ正常，该染色体在四个配子中的数目怎样？",
+        "given": "不考虑其他染色体，正常每配子应有1条。",
+        "analysis": "异常在同源分配的第一步。",
+        "method": "画两次分配树。",
+        "principle": "同源一起进一侧，随后姐妹各自正常分离。",
+        "steps": [
+          "减Ⅰ两细胞对该类染色体分别有2条复制染色体和0条。",
+          "减Ⅱ后前者给出两个各含2条的配子，后者给出两个0条配子。"
+        ],
+        "ans": "2、2、0、0；均对该类数目异常。",
+        "verification": "四产物拷贝总数4，与复制后总量一致。",
+        "pitfall": "套用减Ⅱ不分离的2、0、1、1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 13,
+        "primary_section": "13.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "减Ⅱ前是否要再次复制全部核DNA？",
+        "given": "正常减数分裂。",
+        "analysis": "一次复制服务于两次分裂。",
+        "method": "比较减Ⅰ与减Ⅱ之间DNA量。",
+        "principle": "减Ⅰ后染色体仍含姐妹。",
+        "steps": [
+          "减Ⅰ后为n、2C。",
+          "减Ⅱ分姐妹后为n、1C，无需再S期复制。"
+        ],
+        "ans": "一般不再复制。",
+        "verification": "若再复制，最终DNA量不能按正常过程降至1C。",
+        "pitfall": "把每次分裂都配一个S期。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 13,
+        "primary_section": "13.2",
+        "related_sections": []
+      },
+      {
+        "q": "同源染色体交换发生在姐妹还是非姐妹之间？",
+        "given": "问正常减Ⅰ前期的交换。",
+        "analysis": "同源与姐妹是不同分类。",
+        "method": "按参与者来源作答。",
+        "principle": "交换涉及联会的同源染色体。",
+        "steps": [
+          "辨认父母来源同源。",
+          "交换位于其中非姐妹染色单体之间。"
+        ],
+        "ans": "同源染色体的非姐妹染色单体。",
+        "verification": "复制后的同一条姐妹交换不能解释父母来源重组模型。",
+        "pitfall": "把联会的两条线都叫姐妹。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 13,
+        "primary_section": "13.2",
+        "related_sections": []
+      },
+      {
+        "q": "细胞2n=4，减Ⅱ后每产物的核DNA分子数？",
+        "given": "正常分离，无突变。",
+        "analysis": "最终每条染色体不再有两条姐妹。",
+        "method": "求n再按单染色单体计。",
+        "principle": "减Ⅱ后n、1C。",
+        "steps": [
+          "n=2。",
+          "每个产物2条染色体、2个核DNA分子。"
+        ],
+        "ans": "2个。",
+        "verification": "四产物合计8个，等于S期后8个。",
+        "pitfall": "继续乘2把姐妹算进去。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 13,
+        "primary_section": "13.2",
+        "related_sections": []
+      },
+      {
+        "q": "某一减Ⅱ细胞的某条染色体姐妹不分离，另一减Ⅱ细胞正常，四个配子该染色体拷贝数？",
+        "given": "减Ⅰ正常，减Ⅱ只有一侧异常。",
+        "analysis": "两个减Ⅱ细胞须分别追踪。",
+        "method": "列异常侧与正常侧的产物。",
+        "principle": "异常侧给2与0，正常侧给1与1。",
+        "steps": [
+          "追踪异常侧得到2、0。",
+          "正常侧得到1、1，合计四个拷贝。"
+        ],
+        "ans": "2、0、1、1。",
+        "verification": "与减Ⅰ不分离的2、2、0、0不同。",
+        "pitfall": "把两次分裂异常结果混为一谈。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 13,
+        "primary_section": "13.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "一幅图中同源已分开但姐妹仍相连，能说是有丝后期吗？",
+      "given": "图明确表示分离对象是同源。",
+      "analysis": "分离对象比“两极”形状更有辨识力。",
+      "method": "比较减Ⅰ和有丝后期。",
+      "principle": "有丝后期分姐妹；减Ⅰ后期分同源。",
+      "steps": [
+        "同源分开符合减Ⅰ后期。",
+        "姐妹仍连不符合正常有丝后期姐妹已分离的特征。"
+      ],
+      "ans": "不能，应考虑减Ⅰ后期。",
+      "verification": "再检查配对与每极组数以支持判断。",
+      "pitfall": "见到两极就断定有丝后期。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 13,
+      "primary_section": "13.2",
+      "related_sections": []
+    },
+    "exam": [
+      "阶段图题先问分同源还是分姐妹，再数每个细胞",
+      "组合题写明是否忽略交换以及一次还是多次",
+      "异常分配题逐代画分配树，不背不加条件的比例"
+    ],
+    "quick": [
+      "一次复制",
+      "减Ⅰ分同源",
+      "减Ⅱ分姐妹",
+      "交换与独立取向",
+      "受精恢复组数"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 4,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_13.2",
+        "url": "https://openstax.org/books/biology-2e/pages/11-1-the-process-of-meiosis",
+        "page_or_section": "11-1-the-process-of-meiosis",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 4,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_13.2",
+        "url": "https://openstax.org/books/biology-2e/pages/11-1-the-process-of-meiosis",
+        "page_or_section": "11-1-the-process-of-meiosis",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "阶段图题先问分同源还是分姐妹，再数每个细胞",
+      "method": "画两次分配树。",
+      "principle": "同源一起进一侧，随后姐妹各自正常分离。",
+      "worked_example_index": 2,
+      "verification": "四产物拷贝总数4，与复制后总量一致。",
+      "pitfall": "套用减Ⅱ不分离的2、0、1、1。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“辨认两次分裂的分离对象”的抽样复核：减Ⅱ后每个配子4个DNA分子，进一步减半而染色体数仍4。；若出现“减Ⅰ后直接把DNA也算成4个。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用染色体行为解释遗传变异”的抽样复核：四产物拷贝总数4，与复制后总量一致。；若出现“套用减Ⅱ不分离的2、0、1、1。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "见到两极就断定有丝后期。",
+        "correction": "不能，应考虑减Ⅰ后期。",
+        "verification": "再检查配对与每极组数以支持判断。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "减数分裂的分离对象与DNA量",
+      "objects": [
+        "两对同源染色体",
+        "联会与非姐妹交换",
+        "减Ⅰ",
+        "减Ⅱ",
+        "四个产物"
+      ],
+      "relations": [
+        "只在分裂前复制一次",
+        "减Ⅰ同源分离",
+        "减Ⅱ姐妹分离"
+      ],
+      "labels": [
+        "2n=4",
+        "4C",
+        "n=2",
+        "2C",
+        "1C"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复核复用V22 B46、B56",
+      "english": "Show one DNA replication followed by homolog separation in meiosis I and sister separation in meiosis II. Use two homolog pairs and label DNA content per cell."
+    }
+  },
+  "13.3": {
+    "content_batch": "batch05",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 13,
+    "section_id": "13.3",
+    "goals": [
+      "解释周期调控失常与肿瘤发展的关系",
+      "区分风险因素、相关性与诊断证据"
+    ],
+    "prerequisites": [
+      "细胞周期与检查点",
+      "基因表达和突变"
+    ],
+    "flow": [
+      "周期信号",
+      "损伤应答",
+      "异常克隆",
+      "侵袭与转移",
+      "证据边界"
+    ],
+    "concept_relation": "周期信号；损伤应答；异常克隆；侵袭与转移；证据边界",
+    "deep": [
+      "良性与恶性肿瘤都可能是异常增殖形成的细胞团，但恶性肿瘤可侵袭周围组织并可能转移。转移包含局部侵袭、进入循环、在其他部位定植等环节；不能画成所有肿瘤细胞一出现就立即随血液扩散。某些癌症也不以明显实体肿块开始。",
+      "风险因素如烟草相关暴露、紫外线、某些病毒感染和遗传易感性，可经不同机制增加风险。病毒相关癌症不代表所有癌症都能直接传染；具有遗传易感变异也不等于癌症本身必然由亲代传给子代。必须区分体细胞突变与可遗传的生殖系变异。",
+      "实验研究可比较增殖、死亡、侵袭等指标，并设置对照、重复和适当浓度范围。体外细胞被一种物质杀死并不足以证明它是安全有效的治疗：正常细胞毒性、体内到达浓度与临床结局均未得到回答。教学实验结果应限定在观察条件内。",
+      "预防和早期发现的建议须依据可靠卫生指南，课堂模型不能用来个人诊断。治疗可能涉及手术、放疗、药物等并由专业团队按病种和个体状况决定；本节学习周期与证据判断，不把原创题中的比例解释成个体患病概率。"
+    ],
+    "derive": [
+      "调控模型：促进生长的信号受调节 + 抑制与修复机制 → 协调细胞数量；多环节失调可能促成异常克隆扩增。",
+      "净细胞数量变化=新产生细胞数−死亡或离开系统的细胞数；分裂比例不是净增长率。",
+      "相对风险比较需要明确观察人数、事件数及可比条件，观察性相关不能单独证明某一分子机制。"
+    ],
+    "examples": [
+      {
+        "q": "组织甲分裂细胞多，组织乙少，能仅据此断言甲是癌组织吗？",
+        "given": "仅有分裂比例，无侵袭、调控或病理证据。",
+        "analysis": "正常组织更新也可快。",
+        "method": "列可替代解释及需要的证据。",
+        "principle": "增殖是癌症相关行为之一，但不构成独立诊断。",
+        "steps": [
+          "甲可能处于生长或修复。",
+          "还需病理形态、持续失调和组织行为等专业证据。"
+        ],
+        "ans": "不能。",
+        "verification": "正常根尖或胚胎的高分裂率也是反例。",
+        "pitfall": "把单一相关指标当作充分诊断条件。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 13,
+        "primary_section": "13.3",
+        "related_sections": []
+      },
+      {
+        "q": "培养24小时内甲新生120细胞、死亡20；乙新生150、死亡80，哪组净增加更多？",
+        "given": "起始和观察条件可比，忽略迁入迁出。",
+        "analysis": "比较净变化不能只看新生数。",
+        "method": "分别作产生减死亡。",
+        "principle": "数量守恒。",
+        "steps": [
+          "甲净增120−20=100。",
+          "乙净增150−80=70。"
+        ],
+        "ans": "甲净增加更多，差30。",
+        "verification": "甲虽新生少30，却死亡少60，净效应多30。",
+        "pitfall": "只按150>120判断。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 13,
+        "primary_section": "13.3",
+        "related_sections": []
+      },
+      {
+        "q": "候选物使癌细胞存活率降至20%，正常细胞也降至18%，能称为已证实安全的抗癌药吗？",
+        "given": "只有单一体外条件，无体内或临床资料。",
+        "analysis": "杀伤不等于选择性与安全性。",
+        "method": "比较两类细胞并列证据缺口。",
+        "principle": "治疗评价需有效性、安全性及可达暴露。",
+        "steps": [
+          "两种细胞均受强烈损伤。",
+          "尚不能显示对癌细胞更有选择性。",
+          "需重复、剂量反应、体内与临床等进一步证据。"
+        ],
+        "ans": "不能；只说明本实验条件下有细胞毒性。",
+        "verification": "正常细胞18%低于癌细胞20%，并不支持明显选择优势。",
+        "pitfall": "用体外杀细胞直接宣传治疗效果。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 13,
+        "primary_section": "13.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "原癌基因在正常细胞中是否必定有害？",
+        "given": "问正常功能。",
+        "analysis": "名称不等于正常时已致癌。",
+        "method": "区分正常调控与异常激活。",
+        "principle": "正常生长需要相应信号通路。",
+        "steps": [
+          "正常原癌基因可参与受控生长。",
+          "异常激活才可能推动不受控过程。"
+        ],
+        "ans": "不是。",
+        "verification": "没有正常生长调控同样不利组织功能。",
+        "pitfall": "把名称中的癌理解为存在就患癌。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 13,
+        "primary_section": "13.3",
+        "related_sections": []
+      },
+      {
+        "q": "DNA受损后一定发生癌变吗？",
+        "given": "未给修复与细胞结局。",
+        "analysis": "损伤和稳定癌变之间有多个关口。",
+        "method": "列损伤应答。",
+        "principle": "修复、周期停滞与死亡可限制扩增。",
+        "steps": [
+          "损伤可被修复。",
+          "无法修复的细胞可能停滞或死亡，多变化积累才可能导致癌变。"
+        ],
+        "ans": "不一定。",
+        "verification": "风险增加并非确定事件。",
+        "pitfall": "省略调控与选择过程。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 13,
+        "primary_section": "13.3",
+        "related_sections": []
+      },
+      {
+        "q": "具有癌症易感性的家族，是否所有成员都会患同一种癌？",
+        "given": "有遗传易感信息而无个体诊断。",
+        "analysis": "易感是风险变化不是必然结果。",
+        "method": "结合其他遗传、环境与随机因素。",
+        "principle": "外显与发病受多因素影响。",
+        "steps": [
+          "同一易感变异可增加风险。",
+          "其他因素与防护使结局仍可不同。"
+        ],
+        "ans": "不能推断所有成员必患。",
+        "verification": "风险不是100%的同义词。",
+        "pitfall": "把易感变异直接当作疾病已发生。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 13,
+        "primary_section": "13.3",
+        "related_sections": []
+      },
+      {
+        "q": "甲培养组原有1000细胞，新生200、死亡150；乙原有1000，新生100、死亡10。比较末数量并解释为什么分裂多未必长得多。",
+        "given": "封闭体系，观察时间相同。",
+        "analysis": "需要计算净变化。",
+        "method": "原数加产生减死亡。",
+        "principle": "细胞总数守恒。",
+        "steps": [
+          "甲1000+200−150=1050。",
+          "乙1000+100−10=1090，比甲多40。"
+        ],
+        "ans": "甲1050，乙1090；乙净增长更多。",
+        "verification": "甲净50，乙净90。",
+        "pitfall": "把分裂数和净增数等同。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 13,
+        "primary_section": "13.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "“癌细胞会转移，所以任何癌症都能通过接触患者传染。”这一推理错误在哪里？",
+      "given": "比较体内转移与个体间传播。",
+      "analysis": "两种过程所跨越的边界不同。",
+      "method": "定义后指出不能推出的结论。",
+      "principle": "转移指癌细胞在同一个体内扩散定植；感染性风险因素是另一问题。",
+      "steps": [
+        "先说明转移发生在体内组织间。",
+        "部分病毒可增加某些癌症风险，不等于癌细胞通过日常接触普遍传染。"
+      ],
+      "ans": "把体内转移混同个体间传染。",
+      "verification": "能解释病毒相关性，也不错误推广所有癌症。",
+      "pitfall": "由一个词的扩散含义作无条件类推。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 13,
+      "primary_section": "13.3",
+      "related_sections": []
+    },
+    "exam": [
+      "判断题先分正常增殖、异常调控、侵袭与转移",
+      "实验题分别评价肿瘤细胞、正常细胞和对照，结论限定观察条件",
+      "风险题用可能性语言，不把相关性、易感与确诊混写"
+    ],
+    "quick": [
+      "周期信号",
+      "损伤应答",
+      "异常克隆",
+      "侵袭与转移",
+      "证据边界"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 4,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_13.3",
+        "url": "https://openstax.org/books/biology-2e/pages/10-4-cancer-and-the-cell-cycle",
+        "page_or_section": "10-4-cancer-and-the-cell-cycle",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 4,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_13.3",
+        "url": "https://openstax.org/books/biology-2e/pages/10-4-cancer-and-the-cell-cycle",
+        "page_or_section": "10-4-cancer-and-the-cell-cycle",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "判断题先分正常增殖、异常调控、侵袭与转移",
+      "method": "比较两类细胞并列证据缺口。",
+      "principle": "治疗评价需有效性、安全性及可达暴露。",
+      "worked_example_index": 2,
+      "verification": "正常细胞18%低于癌细胞20%，并不支持明显选择优势。",
+      "pitfall": "用体外杀细胞直接宣传治疗效果。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“解释周期调控失常与肿瘤发展的关系”的抽样复核：正常根尖或胚胎的高分裂率也是反例。；若出现“把单一相关指标当作充分诊断条件。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 7,
+        "feedback": "目标“区分风险因素、相关性与诊断证据”的抽样复核：正常细胞18%低于癌细胞20%，并不支持明显选择优势。；若出现“用体外杀细胞直接宣传治疗效果。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "由一个词的扩散含义作无条件类推。",
+        "correction": "把体内转移混同个体间传染。",
+        "verification": "能解释病毒相关性，也不错误推广所有癌症。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "周期调控失常与证据边界",
+      "objects": [
+        "正常生长信号",
+        "检查点",
+        "损伤修复",
+        "异常克隆",
+        "局部侵袭",
+        "转移"
+      ],
+      "relations": [
+        "损伤不必然癌变",
+        "多环节失调增加异常扩增可能",
+        "转移为同一个体内过程"
+      ],
+      "labels": [
+        "正常调控",
+        "修复/停滞/死亡",
+        "异常扩增",
+        "证据不足不能诊断"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "无完全匹配旧图",
+      "english": "Compare regulated growth with a multistep loss of control. Show repair, arrest and cell death as alternative responses to DNA damage; distinguish local invasion from metastasis within one individual."
+    }
+  }
+}

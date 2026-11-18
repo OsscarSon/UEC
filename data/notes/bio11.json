@@ -1,0 +1,911 @@
+{
+  "11.1": {
+    "content_batch": "batch05",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 11,
+    "section_id": "11.1",
+    "goals": [
+      "用机制解释人类活动的生态后果",
+      "评估环境数据的因果边界"
+    ],
+    "prerequisites": [
+      "食物网与分解者",
+      "物质循环"
+    ],
+    "flow": [
+      "土地利用",
+      "营养与耗氧",
+      "污染物浓度",
+      "气候尺度",
+      "入侵与过度利用"
+    ],
+    "concept_relation": "土地利用；营养与耗氧；污染物浓度；气候尺度；入侵与过度利用",
+    "deep": [
+      "某些难降解物质可在个体组织中积累；在适当物质性质和食物网条件下，较高营养级可出现更高浓度。生物累积描述个体随时间或暴露的积聚，生物放大描述营养级间浓度变化，二者不能互换，也不能推断所有污染物都必定逐级放大。",
+      "温室效应是大气某些气体吸收并再辐射地表长波辐射的物理过程，天然效应与人类增强效应应分开。气候变化会影响温度、降水、极端事件和分布范围；一次寒冷天气不能独立否定长期趋势，一次高温也不足以单独归因某个具体排放源。",
+      "外来物种不一定成为入侵种，但当其建立、扩散并造成显著生态或其他危害时，可能改变竞争、捕食及病原关系。缺乏天敌是某些案例的因素，不是所有外来种影响的唯一解释。过度捕捞还可能通过食物网间接改变其他营养级。",
+      "环境评价需要时间序列、适当对照、重复与背景条件。污染源附近生物少可以提示关联，但还要排查水流、底质、季节、其他排放和采样方法；提出机制与验证方案比简单把任何差异归因人类更有解释力。"
+    ],
+    "derive": [
+      "富营养化的条件链：外源营养输入增加 → 初级生产或藻量变化 → 死亡有机物与分解耗氧增加 → 特定条件下溶氧下降。",
+      "浓度=污染物质量/样品质量；营养级间比较必须使用相同基准单位。",
+      "相对变化=(处理后−基准)/基准；相关数据仍需可比设计才能支持因果解释。"
+    ],
+    "examples": [
+      {
+        "q": "某湖接受含磷径流后藻量增加，随后清晨溶氧降低，解释一条合理机制。",
+        "given": "有营养输入、藻量与溶氧的时间变化。",
+        "analysis": "连接营养、生物量及耗氧过程。",
+        "method": "按过程链解释并限定。",
+        "principle": "分解者和生物呼吸消耗氧。",
+        "steps": [
+          "营养增加可促进藻类繁殖。",
+          "死亡有机物增加使微生物分解耗氧增强，夜间无光合补氧时风险可增。"
+        ],
+        "ans": "富营养化相关过程可导致缺氧，仍需排除其他因素。",
+        "verification": "若只是肥料直接结合氧，不能解释有机物分解的延迟。",
+        "pitfall": "只写藻类多所以氧少，不说过程。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 11,
+        "primary_section": "11.1",
+        "related_sections": []
+      },
+      {
+        "q": "浮游生物污染物0.02 mg/kg，小鱼0.2 mg/kg，大鱼1 mg/kg，说明什么？",
+        "given": "同一物质、同一质量基准，给定食物关系。",
+        "analysis": "比较浓度而非每个体总质量。",
+        "method": "计算营养级浓度比。",
+        "principle": "生物放大以营养级间浓度递增为特征。",
+        "steps": [
+          "小鱼为浮游生物的10倍。",
+          "大鱼为小鱼5倍、浮游生物50倍。"
+        ],
+        "ans": "该数据支持此食物链中出现生物放大。",
+        "verification": "统一mg/kg后比例才有意义，不能直接推广其他物质。",
+        "pitfall": "把体型大总含量高当作浓度放大。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 11,
+        "primary_section": "11.1",
+        "related_sections": []
+      },
+      {
+        "q": "河流下游物种少于上游，是否足以证明唯一原因是某工厂？",
+        "given": "仅一次上下游比较。",
+        "analysis": "上下游还有自然与人为混杂。",
+        "method": "列重复、参照与机制检测。",
+        "principle": "因果需时间与空间可比证据。",
+        "steps": [
+          "补测排放前后、多个参照点及污染指标。",
+          "控制水流、底质和季节等，并检查暴露—效应关系。"
+        ],
+        "ans": "不足以确定唯一原因。",
+        "verification": "若无排放时同样差异存在，单次比较不能归因。",
+        "pitfall": "把空间相关直接写成唯一因果。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 11,
+        "primary_section": "11.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "生物累积与生物放大是否同义？",
+        "given": "比较不同层次。",
+        "analysis": "一个体内时间变化与营养级比较不同。",
+        "method": "分别定义。",
+        "principle": "浓度的比较轴决定概念。",
+        "steps": [
+          "累积可指个体吸收超过排出。",
+          "放大比较较高营养级的浓度升高。"
+        ],
+        "ans": "不同。",
+        "verification": "个体可累积某物而未见食物链逐级放大。",
+        "pitfall": "看到污染物就套同一术语。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 11,
+        "primary_section": "11.1",
+        "related_sections": []
+      },
+      {
+        "q": "两片保护林总面积相同，物种保护效果必相同吗？",
+        "given": "一片连续，一片分为隔离小斑块。",
+        "analysis": "面积不能代替连接性和边缘效应。",
+        "method": "比较迁移与小种群风险。",
+        "principle": "破碎化影响生态过程。",
+        "steps": [
+          "隔离限制迁移与基因流。",
+          "边缘比例和局部灭绝后的恢复也可不同。"
+        ],
+        "ans": "不必相同。",
+        "verification": "空间布局即使面积相同仍不同。",
+        "pitfall": "只比较面积一项。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 11,
+        "primary_section": "11.1",
+        "related_sections": []
+      },
+      {
+        "q": "某地一天异常寒冷，能据此否定全球长期变暖趋势吗？",
+        "given": "短时局地天气。",
+        "analysis": "时空尺度不同。",
+        "method": "区分天气与气候统计。",
+        "principle": "长期趋势需要长时序广域数据。",
+        "steps": [
+          "单日波动可与长期趋势并存。",
+          "应看多年温度及其他指标，而非挑单一天。"
+        ],
+        "ans": "不能。",
+        "verification": "上升趋势的数据仍可包含低于均值的点。",
+        "pitfall": "用单点代替趋势。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 11,
+        "primary_section": "11.1",
+        "related_sections": []
+      },
+      {
+        "q": "一污染物从0.04升到0.10 mg/kg，增加百分之几？这能证明存在营养级放大吗？",
+        "given": "同类样品两次测量，无营养级资料。",
+        "analysis": "数值增加不自动给出食物链机制。",
+        "method": "先算变化再审查概念。",
+        "principle": "相对增加除原值。",
+        "steps": [
+          "(0.10−0.04)/0.04=1.5=150%。",
+          "缺不同营养级与食物关系，不能据此证明放大。"
+        ],
+        "ans": "增加150%；不能单据此证明生物放大。",
+        "verification": "新值为原来2.5倍，与增加1.5倍区别。",
+        "pitfall": "把时间增长当作营养级放大。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 11,
+        "primary_section": "11.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "所有外来物种都应直接称为入侵物种吗？",
+      "given": "仅知并非原产。",
+      "analysis": "来源与造成危害是不同条件。",
+      "method": "核是否建立扩散及产生影响。",
+      "principle": "外来是来源属性，入侵还涉及建立扩散等及危害。",
+      "steps": [
+        "有些外来种未建立。",
+        "已建立也需评价扩散和实际危害，不能只按来源下结论。"
+      ],
+      "ans": "不能一概称入侵。",
+      "verification": "概念能区分风险监测与已发生影响。",
+      "pitfall": "将外来与入侵无条件等同。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 11,
+      "primary_section": "11.1",
+      "related_sections": []
+    },
+    "exam": [
+      "环境机制题写输入、过程、后果及限制，避免口号",
+      "食物链数据统一浓度基准，区分倍数与增加率",
+      "归因题提出替代解释、对照与重复，不只写加强环保"
+    ],
+    "quick": [
+      "土地利用",
+      "营养与耗氧",
+      "污染物浓度",
+      "气候尺度",
+      "入侵与过度利用"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 4,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_11.1",
+        "url": "https://openstax.org/books/biology-2e/pages/47-3-threats-to-biodiversity",
+        "page_or_section": "47-3-threats-to-biodiversity",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 4,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_11.1",
+        "url": "https://openstax.org/books/biology-2e/pages/47-3-threats-to-biodiversity",
+        "page_or_section": "47-3-threats-to-biodiversity",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "环境机制题写输入、过程、后果及限制，避免口号",
+      "method": "列重复、参照与机制检测。",
+      "principle": "因果需时间与空间可比证据。",
+      "worked_example_index": 2,
+      "verification": "若无排放时同样差异存在，单次比较不能归因。",
+      "pitfall": "把空间相关直接写成唯一因果。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用机制解释人类活动的生态后果”的抽样复核：若只是肥料直接结合氧，不能解释有机物分解的延迟。；若出现“只写藻类多所以氧少，不说过程。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 7,
+        "feedback": "目标“评估环境数据的因果边界”的抽样复核：若无排放时同样差异存在，单次比较不能归因。；若出现“把空间相关直接写成唯一因果。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "将外来与入侵无条件等同。",
+        "correction": "不能一概称入侵。",
+        "verification": "概念能区分风险监测与已发生影响。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "富营养化因果链与浓度比较",
+      "objects": [
+        "营养径流",
+        "藻类",
+        "死亡有机物",
+        "分解者",
+        "溶氧曲线",
+        "三营养级"
+      ],
+      "relations": [
+        "耗氧连到呼吸和分解而非肥料直接吸氧",
+        "食物链放大用相同mg/kg"
+      ],
+      "labels": [
+        "营养输入",
+        "分解耗氧",
+        "条件性缺氧",
+        "浓度≠总量"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "V22生态图局部可复用但需新增机制",
+      "english": "Show nutrient enrichment, algal growth, organic matter decomposition and conditional oxygen depletion. Use a separate food-chain panel with consistent mg/kg concentration units; do not equate concentration with total mass."
+    }
+  },
+  "11.2": {
+    "content_batch": "batch05",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 11,
+    "section_id": "11.2",
+    "goals": [
+      "比较就地与迁地保护的作用",
+      "依据目标设计保育监测和权衡"
+    ],
+    "prerequisites": [
+      "种群与群落",
+      "遗传多样性"
+    ],
+    "flow": [
+      "保护层次",
+      "就地",
+      "迁地",
+      "恢复与连接",
+      "监测调整"
+    ],
+    "concept_relation": "保护层次；就地；迁地；恢复与连接；监测调整",
+    "deep": [
+      "小种群可能经历遗传漂变、近交和随机事件风险，维持有效基因交流有助于保留适应潜力。廊道有时能促进迁移，也可能带来疾病、入侵或人为干扰；“任何走廊都必定好”忽略了对象、尺度与风险。",
+      "生态恢复以修复结构、功能或过程为目标，不能只比较种了多少棵树。单一快速生长树种的人工林未必等同原生群落。评价应包括本地物种建立、自然更新、土壤水文和其他生物返回，并注意时间尺度。",
+      "保育方案往往需要与当地居民共同决策，分析生计、资源使用、成本和受益分配。忽略社会条件可能让纸面保护失败。伦理判断要把价值选择与可实测的生态结论分开，不以一句“科学证明必须这样”代替讨论。",
+      "监测采用实施前后及参照区域的比较，比仅报告处理后数量更能识别效果；仍需注意参照是否可比。明确成功标准、时间安排与可调整措施，才能在数据不支持时修正方案，而不是把任何投入都宣告为成功。"
+    ],
+    "derive": [
+      "多样性至少分遗传、物种、生态系统三个层次，指标之间不可互相完全替代。",
+      "简化前后—参照比较：措施区变化−参照区变化，可帮助扣除共同趋势，但依赖参照可比等假设。",
+      "保育决策链：明确对象与威胁 → 选措施 → 定可测指标与时间 → 监测 → 调整。"
+    ],
+    "examples": [
+      {
+        "q": "把濒危植物种子放进种子库，属于就地还是迁地保护？是否已替代原生境？",
+        "given": "保存于原生境以外。",
+        "analysis": "方法分类与完整效果不同。",
+        "method": "按地点分类再评局限。",
+        "principle": "迁地保存资源不等于维持整个生态系统。",
+        "steps": [
+          "种子库属迁地保护。",
+          "还需保护授粉者、生境及自然更新等过程。"
+        ],
+        "ans": "迁地；不能完全替代原生境。",
+        "verification": "原生境消失时即使有种子仍缺恢复条件。",
+        "pitfall": "把保存一种遗传材料说成保全生态系统。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 11,
+        "primary_section": "11.2",
+        "related_sections": []
+      },
+      {
+        "q": "措施区数量由100到140，参照区100到120，简化扣除共同趋势的变化是多少？",
+        "given": "同一时段，可比性为工作假设。",
+        "analysis": "原始增长40含背景共同变化。",
+        "method": "比较两地前后差。",
+        "principle": "差中之差用于帮助控制共同趋势。",
+        "steps": [
+          "措施区变化40。",
+          "参照区变化20，差为40−20=20。"
+        ],
+        "ans": "约多增加20个，不能忽略假设。",
+        "verification": "若两区共同都增20，措施区额外部分为20。",
+        "pitfall": "把全部40都归功措施。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 11,
+        "primary_section": "11.2",
+        "related_sections": []
+      },
+      {
+        "q": "恢复项目种下一万棵单一树种就宣布生态系统恢复成功，如何评价？",
+        "given": "没有本地物种、存活和功能资料。",
+        "analysis": "投入数量与结果不同。",
+        "method": "提出结构、功能和长期监测指标。",
+        "principle": "生态恢复需评价过程与系统。",
+        "steps": [
+          "调查存活、自然更新与本地物种组成。",
+          "比较土壤水文和其他生物恢复，并设参照与长期追踪。"
+        ],
+        "ans": "证据不足，不能只凭种植数量判成功。",
+        "verification": "全部树死亡或成为单一林都可能不满足目标。",
+        "pitfall": "把植树投入当作完整生态结果。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 11,
+        "primary_section": "11.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "保护物种数不变，是否遗传多样性必不变？",
+        "given": "只给物种层指标。",
+        "analysis": "层次不同。",
+        "method": "考虑同种内部等位基因变化。",
+        "principle": "遗传多样性存在于种群内及之间。",
+        "steps": [
+          "每种仍在但种群可缩小。",
+          "等位基因可能丢失，即物种数不变仍有遗传损失。"
+        ],
+        "ans": "不一定。",
+        "verification": "小种群漂变提供合理机制。",
+        "pitfall": "以物种计数替代全部多样性。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 11,
+        "primary_section": "11.2",
+        "related_sections": []
+      },
+      {
+        "q": "生态廊道是否永远没有代价？",
+        "given": "问无条件优点。",
+        "analysis": "连接也可能传播不利因素。",
+        "method": "比较迁移收益与风险。",
+        "principle": "方案须与对象及空间尺度匹配。",
+        "steps": [
+          "可提高基因交流。",
+          "也可能促成疾病或入侵扩散，需评估监测。"
+        ],
+        "ans": "并非没有代价。",
+        "verification": "同一连接能运输本地生物和不利因素。",
+        "pitfall": "只写好处不检验对象。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 11,
+        "primary_section": "11.2",
+        "related_sections": []
+      },
+      {
+        "q": "在原生森林设保护区属于哪类保护？为何不能只设牌？",
+        "given": "保护在自然生境。",
+        "analysis": "类别不等于执行效果。",
+        "method": "分类并列管理条件。",
+        "principle": "就地保护需有效管理威胁。",
+        "steps": [
+          "属就地保护。",
+          "仍需处理盗猎、周边破碎化与资源等。"
+        ],
+        "ans": "就地；需要持续管理。",
+        "verification": "没有执法或威胁控制可能仍下降。",
+        "pitfall": "以名义面积等同效果。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 11,
+        "primary_section": "11.2",
+        "related_sections": []
+      },
+      {
+        "q": "实施前两区各50，措施后75、参照后65，额外变化多少？若参照另遭洪灾，解释有什么问题？",
+        "given": "先按可比假设计算，再审查冲击。",
+        "analysis": "计算与因果效力需分开。",
+        "method": "作差后检查共同趋势假设。",
+        "principle": "独特冲击削弱参照可比。",
+        "steps": [
+          "(75−50)−(65−50)=10。",
+          "若参照受独有洪灾，差10可能混入灾害效应。"
+        ],
+        "ans": "算得10，但因果解释受限。",
+        "verification": "同一数学结果并不保证方案效应。",
+        "pitfall": "把统计运算当作自动消除所有混杂。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 11,
+        "primary_section": "11.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "保育繁殖个体数量增加，是否足以证明已维持原野种群的全部遗传代表性？",
+      "given": "仅有数量，无亲本构成。",
+      "analysis": "数量与遗传代表性不同。",
+      "method": "核亲本来源及繁殖贡献。",
+      "principle": "少数亲本大量繁殖可使总数多而多样性低。",
+      "steps": [
+        "调查参与繁殖的个体与谱系。",
+        "检测遗传多样性并与原野种群比较。"
+      ],
+      "ans": "不足以证明。",
+      "verification": "100个后代若来自极少亲本可缺很多原有变异。",
+      "pitfall": "把个体多等同有效遗传多样性高。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 11,
+      "primary_section": "11.2",
+      "related_sections": []
+    },
+    "exam": [
+      "方案题按威胁选措施，写机制、指标、限制和调整",
+      "比较题分别说明就地生态关系与迁地备份作用",
+      "评价题区分投入、产出与长期成效，给可测监测设计"
+    ],
+    "quick": [
+      "保护层次",
+      "就地",
+      "迁地",
+      "恢复与连接",
+      "监测调整"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 4,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_11.2",
+        "url": "https://openstax.org/books/biology-2e/pages/47-4-preserving-biodiversity",
+        "page_or_section": "47-4-preserving-biodiversity",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 4,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_11.2",
+        "url": "https://openstax.org/books/biology-2e/pages/47-4-preserving-biodiversity",
+        "page_or_section": "47-4-preserving-biodiversity",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "方案题按威胁选措施，写机制、指标、限制和调整",
+      "method": "提出结构、功能和长期监测指标。",
+      "principle": "生态恢复需评价过程与系统。",
+      "worked_example_index": 2,
+      "verification": "全部树死亡或成为单一林都可能不满足目标。",
+      "pitfall": "把植树投入当作完整生态结果。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“比较就地与迁地保护的作用”的抽样复核：原生境消失时即使有种子仍缺恢复条件。；若出现“把保存一种遗传材料说成保全生态系统。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 7,
+        "feedback": "目标“依据目标设计保育监测和权衡”的抽样复核：全部树死亡或成为单一林都可能不满足目标。；若出现“把植树投入当作完整生态结果。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把个体多等同有效遗传多样性高。",
+        "correction": "不足以证明。",
+        "verification": "100个后代若来自极少亲本可缺很多原有变异。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "保育措施与评价矩阵",
+      "objects": [
+        "就地生境",
+        "种子库",
+        "恢复地",
+        "廊道",
+        "监测指标"
+      ],
+      "relations": [
+        "就地与迁地互补而非等价",
+        "廊道有收益与风险",
+        "投入与成效分开"
+      ],
+      "labels": [
+        "遗传",
+        "物种",
+        "生态系统",
+        "前后与参照",
+        "长期监测"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "未有完整对应图",
+      "english": "Compare in-situ habitat protection, ex-situ seed banking and restoration. Link each measure to a specific threat and measurable outcome, with benefits and limitations; do not present corridors as universally risk-free."
+    }
+  },
+  "11.3": {
+    "content_batch": "batch05",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 11,
+    "section_id": "11.3",
+    "goals": [
+      "按系统边界比较减排方案",
+      "区分碳流、能流与可持续性指标"
+    ],
+    "prerequisites": [
+      "碳循环",
+      "能量守恒与比例"
+    ],
+    "flow": [
+      "确定服务与边界",
+      "活动量×因子",
+      "比较基线",
+      "材料再用",
+      "长期监测"
+    ],
+    "concept_relation": "确定服务与边界；活动量×因子；比较基线；材料再用；长期监测",
+    "deep": [
+      "节能减少为达到同样服务所需的能量，能源替代改变能量来源，二者可互补。能量不会在生态系统像碳一样循环而反复完全利用：能量转换中可用能量逐步分散为热；“循环经济”主要讨论材料和产品利用，不能据名称否定能量流的方向。",
+      "减少、重复使用和回收有不同作用。回收可降低部分原生材料需求，但收集、运输、分选和再加工仍需能量，并非所有材料都可无限无损循环。减少不必要消费和延长寿命可避免上游负担，具体结果仍取决替代与使用方式。",
+      "碳汇吸收并储存碳，但储存持续性、土地利用变化与火灾等风险须纳入。新种树吸收碳需要时间，不能在没有数量和时间对照时宣称一次植树立即抵销任何排放；同时要顾及生物多样性、水资源和当地需求。",
+      "行动评估可从可测基线出发，记录活动量和因子，估计不确定性并追踪实际结果。个人选择、学校设施、产业与公共政策共同影响结果；教学讨论应提出有机制和证据的方案，而不是将系统性问题归结为单一个人的道德标签。"
+    ],
+    "derive": [
+      "估计排放E=活动量A×排放因子f；多来源时E总=ΣAᵢfᵢ，单位必须相消。",
+      "减排率=(基线排放−方案排放)/基线排放；相同服务量与同一系统边界是可比前提。",
+      "碳收支与能量收支分别追踪：碳可在库间循环，能量转换后向环境分散，不能画成完全闭合能量循环。"
+    ],
+    "examples": [
+      {
+        "q": "学校用电1000 kWh，题设因子0.6 kg CO₂e/kWh，估计多少排放？",
+        "given": "只计题设电力环节，不代表实际地区因子。",
+        "analysis": "活动量与单位因子相乘。",
+        "method": "E=Af并核单位。",
+        "principle": "同一边界下的排放估算。",
+        "steps": [
+          "1000×0.6=600。",
+          "kWh相消，余kg CO₂e。"
+        ],
+        "ans": "600 kg CO₂e。",
+        "verification": "每100 kWh为60 kg，十份为600。",
+        "pitfall": "将kg误写为kWh。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 11,
+        "primary_section": "11.3",
+        "related_sections": []
+      },
+      {
+        "q": "相同服务的基线排放800 kg，方案排放600 kg，减排率多少？",
+        "given": "系统边界一致。",
+        "analysis": "求减少量相对基线。",
+        "method": "(E₀−E₁)/E₀。",
+        "principle": "百分比以基线为分母。",
+        "steps": [
+          "减少800−600=200 kg。",
+          "200/800=0.25=25%。"
+        ],
+        "ans": "25%。",
+        "verification": "新排放是原来75%，与减少25%互补。",
+        "pitfall": "除以600得到不同指标。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 11,
+        "primary_section": "11.3",
+        "related_sections": []
+      },
+      {
+        "q": "设备甲使用端0排放、制造500 kg；乙制造100 kg且每年使用排100 kg。只用1年能说甲全周期更低吗？",
+        "given": "忽略其他环节且功能相同。",
+        "analysis": "使用端优势可能被制造负担抵销。",
+        "method": "按相同寿命求总量并给边界。",
+        "principle": "生命周期比较需累计各环节。",
+        "steps": [
+          "一年甲500，乙100+100=200 kg。",
+          "在此简化一年边界甲较高；若使用更久，结果可能改变。"
+        ],
+        "ans": "不能；题设一年甲更高。",
+        "verification": "五年时两者分别500与600，说明时间改变结论。",
+        "pitfall": "只看使用端零排放。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 11,
+        "primary_section": "11.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "把所有材料回收，是否意味着不再消耗能量？",
+        "given": "讨论回收处理。",
+        "analysis": "材料循环与能量流不同。",
+        "method": "列分选运输再加工。",
+        "principle": "过程仍需能量并产生分散热。",
+        "steps": [
+          "回收运输和处理需要能量。",
+          "即使材料再用，也不能使能量完全循环。"
+        ],
+        "ans": "不意味着。",
+        "verification": "符合能量守恒并伴可用能量分散。",
+        "pitfall": "把循环经济当作永动循环。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 11,
+        "primary_section": "11.3",
+        "related_sections": []
+      },
+      {
+        "q": "公共交通每人公里40 g，单人驾车150 g，走10人公里各多少？",
+        "given": "题设因子与人数边界一致。",
+        "analysis": "先统一服务量。",
+        "method": "因子乘人公里。",
+        "principle": "相同服务下可比较排放。",
+        "steps": [
+          "公交40×10=400 g。",
+          "单人驾车150×10=1500 g。"
+        ],
+        "ans": "400 g与1500 g，差1100 g。",
+        "verification": "10倍各自单位因子，单位相消正确。",
+        "pitfall": "将车辆公里与人公里混用。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 11,
+        "primary_section": "11.3",
+        "related_sections": []
+      },
+      {
+        "q": "种下一棵树即可立即抵销一次任意排放，这句话缺什么？",
+        "given": "未给树种、增长和排放量。",
+        "analysis": "吸收是随时间发生且有风险的过程。",
+        "method": "要求数量时间与持续性。",
+        "principle": "收支必须同单位同边界比较。",
+        "steps": [
+          "明确排放总量和时点。",
+          "估计树的净吸收、时间及存活与储存风险，不能说任意抵销。"
+        ],
+        "ans": "缺数量、时间及持续性等证据。",
+        "verification": "刚栽种时尚无所声称的未来累计吸收。",
+        "pitfall": "把未来潜力当立即已实现。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 11,
+        "primary_section": "11.3",
+        "related_sections": []
+      },
+      {
+        "q": "基线用电2000 kWh，节能后1500，因子0.5 kg/kWh不变，排放各多少、减排率多少？",
+        "given": "比较同样服务，题设因子不变。",
+        "analysis": "活动量变化传到排放。",
+        "method": "分别估算再求减少率。",
+        "principle": "E=Af。",
+        "steps": [
+          "基线1000 kg，方案750 kg。",
+          "减少250/1000=25%。"
+        ],
+        "ans": "1000与750 kg，减25%。",
+        "verification": "用电也减500/2000=25%，因子固定时比例一致。",
+        "pitfall": "认为减500 kWh就是减500 kg。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 11,
+        "primary_section": "11.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "“电动设备使用端无燃烧，因此全生命周期温室气体排放为零”，哪一步不成立？",
+      "given": "仅知使用端没有燃烧。",
+      "analysis": "局部边界不能推出全生命周期。",
+      "method": "补发电制造与处置等环节。",
+      "principle": "总排放含边界内各环节。",
+      "steps": [
+        "使用端无燃烧可降低该环节直接排放。",
+        "仍需计电源和制造等，且地区因子不一。"
+      ],
+      "ans": "从一个环节零排放跳到全部环节零排放。",
+      "verification": "完整边界求和后才可评价总量。",
+      "pitfall": "把间接排放漏出边界。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 11,
+      "primary_section": "11.3",
+      "related_sections": []
+    },
+    "exam": [
+      "估算题先写功能单位、边界、因子和单位",
+      "方案比较说明使用年限与上游排放，不只用绿色标签",
+      "议论题同时评价排放、生态与社会影响，并给可跟踪指标"
+    ],
+    "quick": [
+      "确定服务与边界",
+      "活动量×因子",
+      "比较基线",
+      "材料再用",
+      "长期监测"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 4,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_11.3",
+        "url": "https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles",
+        "page_or_section": "46-3-biogeochemical-cycles",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 4,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_11.3",
+        "url": "https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles",
+        "page_or_section": "46-3-biogeochemical-cycles",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "估算题先写功能单位、边界、因子和单位",
+      "method": "按相同寿命求总量并给边界。",
+      "principle": "生命周期比较需累计各环节。",
+      "worked_example_index": 2,
+      "verification": "五年时两者分别500与600，说明时间改变结论。",
+      "pitfall": "只看使用端零排放。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e2",
+        "review_module": 4,
+        "feedback": "目标“按系统边界比较减排方案”的抽样复核：五年时两者分别500与600，说明时间改变结论。；若出现“只看使用端零排放。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "p0",
+        "review_module": 7,
+        "feedback": "目标“区分碳流、能流与可持续性指标”的抽样复核：符合能量守恒并伴可用能量分散。；若出现“把循环经济当作永动循环。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把间接排放漏出边界。",
+        "correction": "从一个环节零排放跳到全部环节零排放。",
+        "verification": "完整边界求和后才可评价总量。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "低碳方案的系统边界",
+      "objects": [
+        "原料制造",
+        "运输",
+        "能源生产",
+        "使用",
+        "处置回收",
+        "碳汇"
+      ],
+      "relations": [
+        "各环节排放累加",
+        "相同服务与年限比较",
+        "碳汇标时间和不确定性"
+      ],
+      "labels": [
+        "kg CO₂e",
+        "功能单位",
+        "直接/间接",
+        "活动量×因子",
+        "非通用因子"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "V22碳循环可作原理背景，非足够全生命周期图",
+      "english": "Draw a lifecycle boundary including raw materials, manufacture, energy supply, transport, use and end of life. Compare equal services over equal lifetimes using explicitly hypothetical emission factors. Mark carbon-sink storage time and uncertainty."
+    }
+  }
+}

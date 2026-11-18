@@ -15833,5 +15833,14 @@
         12
       ]
     }
-  ]
+  ],
+  "additional_batches": {
+    "batch05": {
+      "manifest": "illustrations/batch05/PROMPTS.json",
+      "prompts": "illustrations/batch05/PROMPTS.md",
+      "tasks": 94,
+      "reuse_mappings": "reports/batch05/ILLUSTRATION_REUSE.json",
+      "note": "原142任务不改号；新任务不是原任务已完成的声明。"
+    }
+  }
 }
