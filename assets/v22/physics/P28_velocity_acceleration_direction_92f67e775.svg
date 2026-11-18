@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="626.4pt" height="374.14pt" viewBox="0 0 626.4 374.14" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-18T07:51:50.610452</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 374.14 
+L 626.4 374.14 
+L 626.4 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 7.2 350.64 
+L 619.2 350.64 
+L 619.2 91.44 
+L 7.2 91.44 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="text_1">
+     <text style="font-size: 12px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="313.2" y="364.19125" transform="rotate(-0 313.2 364.19125)">向右为正方向</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2"/>
+   <g id="patch_3">
+    <path d="M 7.2 350.64 
+L 7.2 91.44 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 7.2 350.64 
+L 619.2 350.64 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 329.774289 169.2 
+Q 386.056867 169.2 438.985344 169.2 
+" style="fill: none; stroke: #2156bd; stroke-width: 3; stroke-linecap: round"/>
+    <path d="M 434.185344 166.8 
+L 438.985344 169.2 
+L 434.185344 171.6 
+z
+" style="fill: #2156bd; stroke: #2156bd; stroke-width: 3; stroke-linecap: round"/>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 12px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #2156bd" x="409.371429" y="159.8688" transform="rotate(-0 409.371429 159.8688)">速度 v</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 329.774289 192.528 
+Q 386.056867 192.528 438.985344 192.528 
+" style="fill: none; stroke: #cf5734; stroke-width: 3; stroke-linecap: round"/>
+    <path d="M 434.185344 190.128 
+L 438.985344 192.528 
+L 434.185344 194.928 
+z
+" style="fill: #cf5734; stroke: #cf5734; stroke-width: 3; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 13px; font-family: 'Noto Sans CJK JP'; text-anchor: start" x="65.485714" y="166.608" transform="rotate(-0 65.485714 166.608)">v &gt; 0，a &gt; 0：加速</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 329.774289 278.064 
+Q 386.056867 278.064 438.985344 278.064 
+" style="fill: none; stroke: #2156bd; stroke-width: 3; stroke-linecap: round"/>
+    <path d="M 434.185344 275.664 
+L 438.985344 278.064 
+L 434.185344 280.464 
+z
+" style="fill: #2156bd; stroke: #2156bd; stroke-width: 3; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 12px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #2156bd" x="409.371429" y="268.7328" transform="rotate(-0 409.371429 268.7328)">速度 v</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 325.768569 301.392 
+Q 269.48599 301.392 216.557514 301.392 
+" style="fill: none; stroke: #cf5734; stroke-width: 3; stroke-linecap: round"/>
+    <path d="M 221.357514 303.792 
+L 216.557514 301.392 
+L 221.357514 298.992 
+z
+" style="fill: #cf5734; stroke: #cf5734; stroke-width: 3; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 13px; font-family: 'Noto Sans CJK JP'; text-anchor: start" x="65.485714" y="275.472" transform="rotate(-0 65.485714 275.472)">v &gt; 0，a &lt; 0：减速</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 10px; font-family: 'Noto Sans CJK JP'; text-anchor: start" x="65.485714" y="340.272" transform="rotate(-0 65.485714 340.272)">说明：此图只表示某一瞬间的方向，不表示轨迹或位移大小。</text>
+   </g>
+  </g>
+  <g id="text_7">
+   <text style="font-weight: 700; font-size: 21px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="288" y="23.957344" transform="rotate(-0 288 23.957344)">P28 速度方向与加速度方向</text>
+  </g>
+  <g id="text_8">
+   <text style="font-size: 11px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #394962" x="288" y="41.76" transform="rotate(-0 288 41.76)">一维运动：速度与加速度同向时速率增加；反向时速率减小</text>
+  </g>
+ </g>
+</svg>

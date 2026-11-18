@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="720" version="1.1" viewBox="0 0 1120 720" width="1120">
+  <defs/>
+  <rect fill="#F7FAFE" height="720" width="1120" x="0" y="0"/>
+  <rect fill="#173B63" height="98" width="1120" x="0" y="0"/>
+  <text fill="white" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" text-anchor="start" x="55" y="61">单基因杂合子自交：Aa × Aa</text>
+  <text fill="#64748b" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="400" text-anchor="start" x="58" y="128">假设 A 对 a 完全显性，符合经典孟德尔单基因遗传模型</text>
+  <rect fill="white" height="435" rx="16" ry="16" stroke="#CCD9E8" stroke-width="2" width="1024" x="48" y="154"/>
+  <text fill="#173B63" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="27" font-weight="700" text-anchor="start" x="160" y="250">亲本：Aa × Aa</text>
+  <text fill="#64748b" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" text-anchor="start" x="160" y="295">配子：A 或 a</text>
+  <rect fill="#EAF3FC" height="105" rx="0" ry="0" stroke="#2869B5" stroke-width="2" width="105" x="483" y="220"/>
+  <rect fill="#EAF3FC" height="105" rx="0" ry="0" stroke="#2869B5" stroke-width="2" width="105" x="483" y="325"/>
+  <rect fill="#EAF3FC" height="105" rx="0" ry="0" stroke="#2869B5" stroke-width="2" width="105" x="483" y="430"/>
+  <rect fill="#EAF3FC" height="105" rx="0" ry="0" stroke="#2869B5" stroke-width="2" width="105" x="588" y="220"/>
+  <rect fill="#FFFFFF" height="105" rx="0" ry="0" stroke="#2869B5" stroke-width="2" width="105" x="588" y="325"/>
+  <rect fill="#FFFFFF" height="105" rx="0" ry="0" stroke="#2869B5" stroke-width="2" width="105" x="588" y="430"/>
+  <rect fill="#EAF3FC" height="105" rx="0" ry="0" stroke="#2869B5" stroke-width="2" width="105" x="693" y="220"/>
+  <rect fill="#FFFFFF" height="105" rx="0" ry="0" stroke="#2869B5" stroke-width="2" width="105" x="693" y="325"/>
+  <rect fill="#FFFFFF" height="105" rx="0" ry="0" stroke="#2869B5" stroke-width="2" width="105" x="693" y="430"/>
+  <text fill="#2869B5" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="700" text-anchor="middle" x="640.5" y="287">A</text>
+  <text fill="#2869B5" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="700" text-anchor="middle" x="745.5" y="287">a</text>
+  <text fill="#2869B5" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="700" text-anchor="middle" x="535.5" y="377.5">A</text>
+  <text fill="#2869B5" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="700" text-anchor="middle" x="535.5" y="482.5">a</text>
+  <text fill="#0B9488" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="29" font-weight="700" text-anchor="middle" x="640.5" y="383.5">AA</text>
+  <text fill="#0B9488" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="29" font-weight="700" text-anchor="middle" x="745.5" y="383.5">Aa</text>
+  <text fill="#0B9488" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="29" font-weight="700" text-anchor="middle" x="640.5" y="488.5">Aa</text>
+  <text fill="#D9565C" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="29" font-weight="700" text-anchor="middle" x="745.5" y="488.5">aa</text>
+  <rect fill="#F4F9F4" height="70" rx="16" ry="16" stroke="#0B9488" stroke-width="2" width="880" x="110" y="486"/>
+  <text fill="#173B63" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="700" text-anchor="start" x="150" y="529">基因型比例：1 AA : 2 Aa : 1 aa</text>
+  <rect fill="#F0F9F6" height="76" rx="16" ry="16" stroke="#0B9488" stroke-width="2" width="1024" x="48" y="622"/>
+  <text fill="#173B63" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" text-anchor="start" x="72" y="650">若 A 完全显性且符合独立分离等假设，表型比例为显性 : 隐性 = 3 : 1。</text>
+  <text fill="#173B63" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" text-anchor="start" x="72" y="676">此示例不能直接套用于不完全显性、共显性、多基因或连锁等情况。</text>
+</svg>

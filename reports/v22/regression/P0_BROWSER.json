@@ -1,0 +1,54 @@
+{
+  "result": "pass",
+  "cases": [
+    {
+      "width": 320,
+      "lesson": "生物3"
+    },
+    {
+      "width": 320,
+      "lesson": "化学5"
+    },
+    {
+      "width": 320,
+      "lesson": "物理3"
+    },
+    {
+      "width": 320,
+      "lesson": "物理4"
+    },
+    {
+      "width": 390,
+      "lesson": "生物3"
+    },
+    {
+      "width": 390,
+      "lesson": "化学5"
+    },
+    {
+      "width": 390,
+      "lesson": "物理3"
+    },
+    {
+      "width": 390,
+      "lesson": "物理4"
+    },
+    {
+      "width": 1280,
+      "lesson": "生物3"
+    },
+    {
+      "width": 1280,
+      "lesson": "化学5"
+    },
+    {
+      "width": 1280,
+      "lesson": "物理3"
+    },
+    {
+      "width": 1280,
+      "lesson": "物理4"
+    }
+  ],
+  "scope": "5个P0限定接入场景加载/放大/Esc（其中2图由V22替代）；5张隔离不在教学DOM；三视窗不溢出。缩略图文字需点击放大，不宣称初始缩略图字号充足。"
+}

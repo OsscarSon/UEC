@@ -1,0 +1,4 @@
+# Preserve uploaded/generated SVG path-data bytes, including delimiter whitespace.
+# Scientific content, XML and geometry are checked by tests/v22_audit.py and layout.cjs.
+illustrations/v22/original/** -whitespace
+assets/v22/**/*.svg -whitespace

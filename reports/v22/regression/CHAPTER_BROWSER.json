@@ -1,0 +1,89 @@
+{
+  "result": "pass",
+  "cases": [
+    {
+      "width": 320,
+      "chapter": 7,
+      "sections": 9
+    },
+    {
+      "width": 320,
+      "chapter": 8,
+      "sections": 6
+    },
+    {
+      "width": 320,
+      "chapter": 9,
+      "sections": 4
+    },
+    {
+      "width": 320,
+      "chapter": 10,
+      "sections": 5
+    },
+    {
+      "width": 320,
+      "chapter": 11,
+      "sections": 4
+    },
+    {
+      "width": 390,
+      "chapter": 7,
+      "sections": 9
+    },
+    {
+      "width": 390,
+      "chapter": 8,
+      "sections": 6
+    },
+    {
+      "width": 390,
+      "chapter": 9,
+      "sections": 4
+    },
+    {
+      "width": 390,
+      "chapter": 10,
+      "sections": 5
+    },
+    {
+      "width": 390,
+      "chapter": 11,
+      "sections": 4
+    },
+    {
+      "width": 1280,
+      "chapter": 7,
+      "sections": 9
+    },
+    {
+      "width": 1280,
+      "chapter": 8,
+      "sections": 6
+    },
+    {
+      "width": 1280,
+      "chapter": 9,
+      "sections": 4
+    },
+    {
+      "width": 1280,
+      "chapter": 10,
+      "sections": 5
+    },
+    {
+      "width": 1280,
+      "chapter": 11,
+      "sections": 4
+    }
+  ],
+  "new_units": 28,
+  "checks": [
+    "每节12模块与3例DOM",
+    "M07引用真实进阶例",
+    "目标状态刷新",
+    "新增题库可检索及答案",
+    "三视窗不溢出"
+  ],
+  "errors": []
+}

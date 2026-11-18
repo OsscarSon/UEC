@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" baseProfile="full" height="720" version="1.1" viewBox="0 0 1120 720" width="1120">
+  <defs />
+  <rect fill="#F7FAFE" height="720" width="1120" x="0" y="0" />
+  <rect fill="#173B63" height="98" width="1120" x="0" y="0" />
+  <text fill="white" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" text-anchor="start" x="55" y="61">电磁感应：磁通量变化</text>
+  <text fill="#64748b" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="400" text-anchor="start" x="58" y="128">变磁通可产生感应电动势；有闭合导电回路才有感应电流</text>
+  <rect fill="white" height="435" rx="16" ry="16" stroke="#CCD9E8" stroke-width="2" width="1024" x="48" y="154" />
+  <rect fill="#FEF4F4" height="96" rx="16" ry="16" stroke="#D9565C" stroke-width="2" width="270" x="105" y="292" />
+  <rect fill="#EBA3A8" height="94" width="135" x="106" y="293" />
+  <rect fill="#B6D3F5" height="94" width="133" x="241" y="293" />
+  <text fill="#173B63" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="31" font-weight="700" text-anchor="middle" x="172" y="352">N</text>
+  <text fill="#173B63" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="31" font-weight="700" text-anchor="middle" x="309" y="352">S</text>
+  <ellipse cx="532" cy="338" fill="none" rx="22" ry="115" stroke="#E79439" stroke-width="5" />
+  <ellipse cx="558" cy="338" fill="none" rx="22" ry="115" stroke="#E79439" stroke-width="5" />
+  <ellipse cx="584" cy="338" fill="none" rx="22" ry="115" stroke="#E79439" stroke-width="5" />
+  <ellipse cx="610" cy="338" fill="none" rx="22" ry="115" stroke="#E79439" stroke-width="5" />
+  <ellipse cx="636" cy="338" fill="none" rx="22" ry="115" stroke="#E79439" stroke-width="5" />
+  <ellipse cx="662" cy="338" fill="none" rx="22" ry="115" stroke="#E79439" stroke-width="5" />
+  <line stroke="#173B63" stroke-linecap="round" stroke-width="3" x1="500" x2="500" y1="452" y2="510" />
+  <line stroke="#173B63" stroke-linecap="round" stroke-width="3" x1="700" x2="700" y1="452" y2="510" />
+  <line stroke="#173B63" stroke-linecap="round" stroke-width="3" x1="500" x2="555" y1="510" y2="510" />
+  <line stroke="#173B63" stroke-linecap="round" stroke-width="3" x1="645" x2="700" y1="510" y2="510" />
+  <circle cx="600" cy="510" fill="white" r="46" stroke="#173B63" stroke-width="3" />
+  <text fill="#173B63" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="27" font-weight="700" text-anchor="middle" x="600" y="520">G</text>
+  <line stroke="#2869B5" stroke-linecap="round" stroke-width="6" x1="374" x2="467" y1="342" y2="342" />
+  <polygon fill="#2869B5" points="467,342 455.7416697508023,348.5 455.7416697508023,335.5" />
+  <text fill="#2869B5" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="700" text-anchor="middle" x="419" y="309">磁铁向线圈靠近</text>
+  <text fill="#0B9488" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" text-anchor="middle" x="808" y="260">磁通量变化</text>
+  <rect fill="#EAF3FE" height="42" rx="11" ry="11" stroke="#2869B5" stroke-width="2" width="220" x="82" y="175" />
+  <text fill="#2869B5" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" text-anchor="start" x="96" y="204">磁铁运动</text>
+  <rect fill="#F0F9F6" height="76" rx="16" ry="16" stroke="#0B9488" stroke-width="2" width="1024" x="48" y="622" />
+  <text fill="#173B63" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" text-anchor="start" x="72" y="650">感应电动势大小与磁通量变化率有关：|ε| = N |ΔΦ / Δt|（平均值）。</text>
+  <text fill="#173B63" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" text-anchor="start" x="72" y="676">改变磁场、回路面积或夹角也可能改变磁通量；静止且磁通不变时不产生感应电动势。</text>
+<line x1="500" y1="452" x2="532" y2="453" stroke="#173B63" stroke-width="3" /><line x1="662" y1="453" x2="700" y2="452" stroke="#173B63" stroke-width="3" /><text x="738" y="338" font-size="18" fill="#0B9488" text-anchor="start" font-family="Noto Sans CJK SC, sans-serif">Φ(t) 随磁体位置改变</text></svg>

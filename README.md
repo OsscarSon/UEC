@@ -1,10 +1,12 @@
-> 本轮新增化学7–11章，5章28节；当前14章86节。详见 [新增内容交付](reports/batch04/DELIVERY.md)。
+> V22插图：149张逐图审核，71张接入12章40个真实小节。见 [V22交付](reports/v22/DELIVERY.md)、[逐图审核](reports/v22/ASSET_REVIEW.md)、[142项任务对照](reports/v22/TASK_COVERAGE.md) 与 [测试](reports/v22/TEST_RESULTS.md)。课程和笔记基线保留，未宣称全部绘图任务完成。
+
+> PR1新增化学7–11章，5章28节；当前14章86节。详见 [新增内容交付](reports/batch04/DELIVERY.md)。
 
 > 最新P0续作、全课程历史核查及未完成事项见 [本轮报告](reports/batch03/DELIVERY.md)。
 
 # UEC 2027 备考系统
 
-当前PR #1：14章86个已保存/有目录依据小节、1032模块。本轮新增化学7–11章28节及224条原创题，累计690条题记录。目录匹配、深度及核实边界见batch04报告，未宣称全科或官方全面审定。
+PR1已合并的课程基线：14章86个已保存/有目录依据小节、1032模块。PR1新增化学7–11章28节及224条原创题，累计690条题记录。目录匹配、深度及核实边界见batch04报告，未宣称全科或官方全面审定。
 
 [当前集中交付与未完成事项](reports/batch02/DELIVERY.md) · [全课程A/B/C/D总表](reports/batch02/COURSE_COVERAGE_MASTER.csv) · [全部后续插图Prompt](illustrations/PROMPTS_BATCH_ALL.md) · [插图主清单](illustrations/ILLUSTRATION_MASTER_MANIFEST.json)
 
