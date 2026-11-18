@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="720" version="1.1" viewBox="0 0 1120 720" width="1120">
+  <defs/>
+  <rect fill="#F7FAFE" height="720" width="1120" x="0" y="0"/>
+  <rect fill="#173B63" height="98" width="1120" x="0" y="0"/>
+  <text fill="white" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" text-anchor="start" x="55" y="61">遗传信息翻译：mRNA → 多肽</text>
+  <text fill="#64748b" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="400" text-anchor="start" x="58" y="128">示例序列只展示两个密码子；核糖体按 mRNA 的 5′ → 3′ 方向读取</text>
+  <rect fill="white" height="435" rx="16" ry="16" stroke="#CCD9E8" stroke-width="2" width="1024" x="48" y="154"/>
+  <rect fill="#EAF3FE" height="42" rx="11" ry="11" stroke="#2869B5" stroke-width="2" width="220" x="150" y="189"/>
+  <text fill="#2869B5" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" text-anchor="start" x="164" y="218">密码子 1</text>
+  <rect fill="#EAF4FE" height="95" rx="16" ry="16" stroke="#2869B5" stroke-width="2" width="360" x="150" y="272"/>
+  <rect fill="white" height="68" rx="8" ry="8" stroke="#CCD9E8" stroke-width="2" width="75" x="185" y="284"/>
+  <text fill="#173B63" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="27" font-weight="700" text-anchor="middle" x="223" y="330">A</text>
+  <rect fill="white" height="68" rx="8" ry="8" stroke="#CCD9E8" stroke-width="2" width="75" x="283" y="284"/>
+  <text fill="#173B63" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="27" font-weight="700" text-anchor="middle" x="321" y="330">U</text>
+  <rect fill="white" height="68" rx="8" ry="8" stroke="#CCD9E8" stroke-width="2" width="75" x="381" y="284"/>
+  <text fill="#173B63" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="27" font-weight="700" text-anchor="middle" x="419" y="330">G</text>
+  <text fill="#0B9488" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="700" text-anchor="middle" x="325" y="421">甲硫氨酸 Met</text>
+  <line stroke="#0B9488" stroke-linecap="round" stroke-width="4" x1="325" x2="325" y1="367" y2="390"/>
+  <polygon fill="#0B9488" points="325,390 318.5,378.7416697508023 331.5,378.7416697508023"/>
+  <rect fill="#EAF3FE" height="42" rx="11" ry="11" stroke="#2869B5" stroke-width="2" width="220" x="585" y="189"/>
+  <text fill="#2869B5" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" text-anchor="start" x="599" y="218">密码子 2</text>
+  <rect fill="#EAF4FE" height="95" rx="16" ry="16" stroke="#2869B5" stroke-width="2" width="360" x="585" y="272"/>
+  <rect fill="white" height="68" rx="8" ry="8" stroke="#CCD9E8" stroke-width="2" width="75" x="620" y="284"/>
+  <text fill="#173B63" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="27" font-weight="700" text-anchor="middle" x="658" y="330">C</text>
+  <rect fill="white" height="68" rx="8" ry="8" stroke="#CCD9E8" stroke-width="2" width="75" x="718" y="284"/>
+  <text fill="#173B63" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="27" font-weight="700" text-anchor="middle" x="756" y="330">C</text>
+  <rect fill="white" height="68" rx="8" ry="8" stroke="#CCD9E8" stroke-width="2" width="75" x="816" y="284"/>
+  <text fill="#173B63" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="27" font-weight="700" text-anchor="middle" x="854" y="330">U</text>
+  <text fill="#0B9488" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="700" text-anchor="middle" x="760" y="421">脯氨酸 Pro</text>
+  <line stroke="#0B9488" stroke-linecap="round" stroke-width="4" x1="760" x2="760" y1="367" y2="390"/>
+  <polygon fill="#0B9488" points="760,390 753.5,378.7416697508023 766.5,378.7416697508023"/>
+  <rect fill="#F1F8F4" height="65" rx="16" ry="16" stroke="#0B9488" stroke-width="2" width="770" x="175" y="479"/>
+  <text fill="#0B9488" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="700" text-anchor="middle" x="560" y="522">Met — Pro  （肽链继续延长）</text>
+  <line stroke="#E79439" stroke-linecap="round" stroke-width="5" x1="530" x2="574" y1="320" y2="320"/>
+  <polygon fill="#E79439" points="574,320 562.7416697508023,326.5 562.7416697508023,313.5"/>
+  <rect fill="#F0F9F6" height="76" rx="16" ry="16" stroke="#0B9488" stroke-width="2" width="1024" x="48" y="622"/>
+  <text fill="#173B63" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" text-anchor="start" x="72" y="650">AUG 同时通常是起始密码子，指定甲硫氨酸；CCU 对应脯氨酸。</text>
+  <text fill="#173B63" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" text-anchor="start" x="72" y="676">遗传密码表按 mRNA 密码子查找；需区分模板 DNA、编码链 DNA 与 mRNA。</text>
+</svg>

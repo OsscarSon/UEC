@@ -1,0 +1,179 @@
+{
+  "assets": 149,
+  "by_subject": {
+    "biology": 59,
+    "physics": 57,
+    "chemistry": 33
+  },
+  "review_status": {
+    "FIXED": 36,
+    "PASS": 111,
+    "BLOCKED": 2
+  },
+  "integration_status": {
+    "alternate_not_displayed": 22,
+    "integrated": 71,
+    "pending_mapping": 54,
+    "quarantined_science": 2
+  },
+  "integrated_unique_images": 71,
+  "integrated_subsections": 40,
+  "integrated_chapters": 12,
+  "task_coverage": {
+    "full": 3,
+    "none": 95,
+    "partial": 44
+  },
+  "task_media": {
+    "standalone_image": 118,
+    "existing_inline_html": 24
+  },
+  "standalone_image_tasks_not_fully_covered": 115,
+  "duplicate_concept_groups": [
+    {
+      "concept": "enzyme-temperature",
+      "assets": [
+        "B02",
+        "B26",
+        "B34"
+      ]
+    },
+    {
+      "concept": "enzyme-ph",
+      "assets": [
+        "B03",
+        "B29"
+      ]
+    },
+    {
+      "concept": "third-law",
+      "assets": [
+        "P04",
+        "P22"
+      ]
+    },
+    {
+      "concept": "atp-coupling",
+      "assets": [
+        "B08",
+        "B28"
+      ]
+    },
+    {
+      "concept": "co2-limitation",
+      "assets": [
+        "B10",
+        "B20"
+      ]
+    },
+    {
+      "concept": "competitive-mechanism",
+      "assets": [
+        "B11",
+        "B21"
+      ]
+    },
+    {
+      "concept": "projectile",
+      "assets": [
+        "P06",
+        "P17",
+        "P30"
+      ]
+    },
+    {
+      "concept": "limewater",
+      "assets": [
+        "C27",
+        "C21"
+      ]
+    },
+    {
+      "concept": "amphoteric-precipitate",
+      "assets": [
+        "C28",
+        "C15"
+      ]
+    },
+    {
+      "concept": "aluminium-electrolysis",
+      "assets": [
+        "C29",
+        "C22"
+      ]
+    },
+    {
+      "concept": "hydrogen-bond",
+      "assets": [
+        "C30",
+        "C17"
+      ]
+    },
+    {
+      "concept": "mn-fe-redox",
+      "assets": [
+        "C33",
+        "C25"
+      ]
+    },
+    {
+      "concept": "substrate-saturation",
+      "assets": [
+        "B14",
+        "B30"
+      ]
+    },
+    {
+      "concept": "membrane-transport",
+      "assets": [
+        "B15",
+        "B22"
+      ]
+    },
+    {
+      "concept": "collision",
+      "assets": [
+        "P11",
+        "P27"
+      ]
+    },
+    {
+      "concept": "chloroplast",
+      "assets": [
+        "B19",
+        "B38"
+      ]
+    },
+    {
+      "concept": "calvin",
+      "assets": [
+        "B24",
+        "B32"
+      ]
+    },
+    {
+      "concept": "resistors",
+      "assets": [
+        "P19",
+        "P37"
+      ]
+    },
+    {
+      "concept": "light-co2",
+      "assets": [
+        "B27",
+        "B43"
+      ]
+    }
+  ],
+  "legacy_display_replacements": {
+    "assets/fig/p3_5a.svg": "P01",
+    "assets/fig/p3_5b.svg": "P01",
+    "illustrations/incoming/batch01/physics/PH-3.5-motion-graphs.png": "P01",
+    "assets/fig/p4_3b.svg": "P05",
+    "assets/fig/p4_8.svg": "P22",
+    "assets/fig/b3_2b.svg": "B03",
+    "illustrations/incoming/p0/ILL-ASSET-B3_4.svg": "B04",
+    "illustrations/incoming/p0/ILL-ASSET-B3_6B.svg": "B06"
+  }
+}

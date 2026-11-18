@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="667.184375pt" height="393.44pt" viewBox="0 0 667.184375 393.44" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-18T07:51:51.620374</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 393.44 
+L 667.184375 393.44 
+L 667.184375 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 41.324375 350.64 
+L 653.324375 350.64 
+L 653.324375 91.44 
+L 41.324375 91.44 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="m8f654b8af3" d="M 0 4.1833 
+C 1.109424 4.1833 2.173559 3.742521 2.95804 2.95804 
+C 3.742521 2.173559 4.1833 1.109424 4.1833 0 
+C 4.1833 -1.109424 3.742521 -2.173559 2.95804 -2.95804 
+C 2.173559 -3.742521 1.109424 -4.1833 0 -4.1833 
+C -1.109424 -4.1833 -2.173559 -3.742521 -2.95804 -2.95804 
+C -3.742521 -2.173559 -4.1833 -1.109424 -4.1833 0 
+C -4.1833 1.109424 -3.742521 2.173559 -2.95804 2.95804 
+C -2.173559 3.742521 -1.109424 4.1833 0 4.1833 
+z
+" style="stroke: #c95638"/>
+    </defs>
+    <g clip-path="url(#padc035dc78)">
+     <use xlink:href="#m8f654b8af3" x="98.078492" y="267.168814" style="fill: #c95638; stroke: #c95638"/>
+    </g>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 41.324375 350.64 
+L 41.324375 91.44 
+" clip-path="url(#padc035dc78)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.16; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="m84c00f4434" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m84c00f4434" x="41.324375" y="350.64" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 12px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="41.324375" y="367.19125" transform="rotate(-0 41.324375 367.19125)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 163.724375 350.64 
+L 163.724375 91.44 
+" clip-path="url(#padc035dc78)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.16; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m84c00f4434" x="163.724375" y="350.64" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 12px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="163.724375" y="367.19125" transform="rotate(-0 163.724375 367.19125)">2</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 286.124375 350.64 
+L 286.124375 91.44 
+" clip-path="url(#padc035dc78)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.16; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m84c00f4434" x="286.124375" y="350.64" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 12px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="286.124375" y="367.19125" transform="rotate(-0 286.124375 367.19125)">4</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 408.524375 350.64 
+L 408.524375 91.44 
+" clip-path="url(#padc035dc78)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.16; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m84c00f4434" x="408.524375" y="350.64" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 12px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="408.524375" y="367.19125" transform="rotate(-0 408.524375 367.19125)">6</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 530.924375 350.64 
+L 530.924375 91.44 
+" clip-path="url(#padc035dc78)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.16; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m84c00f4434" x="530.924375" y="350.64" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 12px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="530.924375" y="367.19125" transform="rotate(-0 530.924375 367.19125)">8</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 653.324375 350.64 
+L 653.324375 91.44 
+" clip-path="url(#padc035dc78)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.16; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m84c00f4434" x="653.324375" y="350.64" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 12px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="653.324375" y="367.19125" transform="rotate(-0 653.324375 367.19125)">10</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 12px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="347.324375" y="383.49125" transform="rotate(-0 347.324375 383.49125)">光照强度（相对单位）</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_13">
+      <path d="M 41.324375 333.067119 
+L 653.324375 333.067119 
+" clip-path="url(#padc035dc78)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.16; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14">
+      <defs>
+       <path id="m21a169b1d1" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m21a169b1d1" x="41.324375" y="333.067119" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 12px; font-family: 'Noto Sans CJK JP'; text-anchor: end" x="34.324375" y="337.842744" transform="rotate(-0 34.324375 337.842744)">-3</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_15">
+      <path d="M 41.324375 267.168814 
+L 653.324375 267.168814 
+" clip-path="url(#padc035dc78)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.16; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m21a169b1d1" x="41.324375" y="267.168814" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 12px; font-family: 'Noto Sans CJK JP'; text-anchor: end" x="34.324375" y="271.944439" transform="rotate(-0 34.324375 271.944439)">0</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_17">
+      <path d="M 41.324375 201.270508 
+L 653.324375 201.270508 
+" clip-path="url(#padc035dc78)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.16; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m21a169b1d1" x="41.324375" y="201.270508" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 12px; font-family: 'Noto Sans CJK JP'; text-anchor: end" x="34.324375" y="206.046133" transform="rotate(-0 34.324375 206.046133)">3</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_19">
+      <path d="M 41.324375 135.372203 
+L 653.324375 135.372203 
+" clip-path="url(#padc035dc78)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.16; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m21a169b1d1" x="41.324375" y="135.372203" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 12px; font-family: 'Noto Sans CJK JP'; text-anchor: end" x="34.324375" y="140.147828" transform="rotate(-0 34.324375 140.147828)">6</text>
+     </g>
+    </g>
+    <g id="text_12">
+     <text style="font-size: 12px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="16.75125" y="221.04" transform="rotate(-90 16.75125 221.04)">净光合速率（相对单位）</text>
+    </g>
+   </g>
+   <g id="line2d_21">
+    <path d="M 41.324375 333.067119 
+L 48.697869 323.120443 
+L 56.071363 313.624171 
+L 63.444857 304.557909 
+L 70.818351 295.902185 
+L 78.191845 287.63841 
+L 85.565339 279.748833 
+L 92.938833 272.216512 
+L 100.312327 265.02527 
+L 107.685821 258.15966 
+L 115.059315 251.604939 
+L 122.432809 245.347028 
+L 129.806303 239.372487 
+L 137.179797 233.668485 
+L 144.553291 228.222772 
+L 151.926785 223.023651 
+L 159.300279 218.059956 
+L 166.673773 213.321027 
+L 174.047267 208.796686 
+L 181.420761 204.477215 
+L 191.252086 199.020636 
+L 201.083411 193.890991 
+L 210.914736 189.068692 
+L 220.746062 184.535324 
+L 230.577387 180.273575 
+L 240.408712 176.267171 
+L 250.240038 172.500814 
+L 260.071363 168.960119 
+L 269.902688 165.631568 
+L 279.734014 162.502449 
+L 292.02317 158.853366 
+L 304.312327 155.475501 
+L 316.601483 152.348696 
+L 328.89064 149.45429 
+L 341.179797 146.775011 
+L 353.468953 144.294869 
+L 368.215941 141.560799 
+L 382.962929 139.06873 
+L 397.709917 136.797243 
+L 412.456905 134.726813 
+L 429.661724 132.541772 
+L 446.866544 130.580664 
+L 466.529194 128.584271 
+L 486.191845 126.819941 
+L 508.312327 125.078995 
+L 530.432809 123.564002 
+L 555.011122 122.110145 
+L 582.047267 120.750055 
+L 611.541242 119.507515 
+L 643.49305 118.397506 
+L 653.324375 118.098443 
+L 653.324375 118.098443 
+" clip-path="url(#padc035dc78)" style="fill: none; stroke: #27895d; stroke-width: 3; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_22">
+    <path d="M 41.324375 267.168814 
+L 653.324375 267.168814 
+" clip-path="url(#padc035dc78)" style="fill: none; stroke: #5c6774; stroke-linecap: square"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 41.324375 350.64 
+L 41.324375 91.44 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 41.324375 350.64 
+L 653.324375 350.64 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 153.881738 305.797748 
+Q 126.802654 287.052671 100.642841 268.943944 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 103.008438 273.257174 
+L 100.642841 268.943944 
+L 105.512783 269.639405 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 11px; font-family: 'Noto Sans CJK JP'; text-anchor: start" x="122.558492" y="317.690847" transform="rotate(-0 122.558492 317.690847)">光补偿点（示意）</text>
+   </g>
+   <g id="text_14">
+    <g id="patch_6">
+     <path d="M 377.924375 333.131687 
+L 553.993125 333.131687 
+Q 557.293125 333.131687 557.293125 329.831687 
+L 557.293125 318.556688 
+Q 557.293125 315.256687 553.993125 315.256687 
+L 377.924375 315.256687 
+Q 374.624375 315.256687 374.624375 318.556688 
+L 374.624375 329.831687 
+Q 374.624375 333.131687 377.924375 333.131687 
+z
+" style="fill: #f2faf2"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'Noto Sans CJK JP'; text-anchor: start" x="377.924375" y="327.312" transform="rotate(-0 377.924375 327.312)">净光合速率 = 总光合速率 − 呼吸速率</text>
+   </g>
+  </g>
+  <g id="text_15">
+   <text style="font-weight: 700; font-size: 21px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="322.124375" y="23.957344" transform="rotate(-0 322.124375 23.957344)">B36 光照强度对净光合速率的影响</text>
+  </g>
+  <g id="text_16">
+   <text style="font-size: 11px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #394962" x="322.124375" y="41.76" transform="rotate(-0 322.124375 41.76)">定性模型：其他条件固定；低光可表现净 CO2 释放</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="padc035dc78">
+   <rect x="41.324375" y="91.44" width="612" height="259.2"/>
+  </clipPath>
+ </defs>
+</svg>

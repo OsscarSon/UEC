@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="720" version="1.1" viewBox="0 0 1120 720" width="1120">
+  <defs/>
+  <rect fill="#F7FAFE" height="720" width="1120" x="0" y="0"/>
+  <rect fill="#173B63" height="98" width="1120" x="0" y="0"/>
+  <text fill="white" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" text-anchor="start" x="55" y="61">楞次定律：感应磁场阻碍磁通量变化</text>
+  <text fill="#64748b" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="400" text-anchor="start" x="58" y="128">俯视圆形线圈：外加穿出纸面的磁通量正在增加</text>
+  <rect fill="white" height="435" rx="16" ry="16" stroke="#CCD9E8" stroke-width="2" width="1024" x="48" y="154"/>
+  <circle cx="343" cy="373" fill="#F4FAFF" r="160" stroke="#2869B5" stroke-width="7"/>
+  <circle cx="262" cy="290" fill="white" r="16" stroke="#2869B5" stroke-width="2"/>
+  <circle cx="262" cy="290" fill="#2869B5" r="5" stroke="#2869B5" stroke-width="2"/>
+  <circle cx="342" cy="290" fill="white" r="16" stroke="#2869B5" stroke-width="2"/>
+  <circle cx="342" cy="290" fill="#2869B5" r="5" stroke="#2869B5" stroke-width="2"/>
+  <circle cx="420" cy="290" fill="white" r="16" stroke="#2869B5" stroke-width="2"/>
+  <circle cx="420" cy="290" fill="#2869B5" r="5" stroke="#2869B5" stroke-width="2"/>
+  <circle cx="260" cy="370" fill="white" r="16" stroke="#2869B5" stroke-width="2"/>
+  <circle cx="260" cy="370" fill="#2869B5" r="5" stroke="#2869B5" stroke-width="2"/>
+  <circle cx="345" cy="370" fill="white" r="16" stroke="#2869B5" stroke-width="2"/>
+  <circle cx="345" cy="370" fill="#2869B5" r="5" stroke="#2869B5" stroke-width="2"/>
+  <circle cx="420" cy="370" fill="white" r="16" stroke="#2869B5" stroke-width="2"/>
+  <circle cx="420" cy="370" fill="#2869B5" r="5" stroke="#2869B5" stroke-width="2"/>
+  <circle cx="260" cy="452" fill="white" r="16" stroke="#2869B5" stroke-width="2"/>
+  <circle cx="260" cy="452" fill="#2869B5" r="5" stroke="#2869B5" stroke-width="2"/>
+  <circle cx="343" cy="452" fill="white" r="16" stroke="#2869B5" stroke-width="2"/>
+  <circle cx="343" cy="452" fill="#2869B5" r="5" stroke="#2869B5" stroke-width="2"/>
+  <circle cx="420" cy="452" fill="white" r="16" stroke="#2869B5" stroke-width="2"/>
+  <circle cx="420" cy="452" fill="#2869B5" r="5" stroke="#2869B5" stroke-width="2"/>
+  <line stroke="#E79439" stroke-linecap="round" stroke-width="6" x1="310" x2="375" y1="214" y2="215"/>
+  <polygon fill="#E79439" points="375,215 363.6430136933319,221.32604631900156 363.84299002889355,208.3275845074942"/>
+  <line stroke="#E79439" stroke-linecap="round" stroke-width="5" x1="502" x2="494" y1="339" y2="408"/>
+  <polygon fill="#E79439" points="494,408 488.8398804662647,396.06797727132727 501.75337503469626,397.5651940328845"/>
+  <text fill="#2869B5" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="700" text-anchor="middle" x="338" y="557">外磁场：出纸面（⊙）增加</text>
+  <rect fill="#E5F6F1" height="42" rx="11" ry="11" stroke="#168A62" stroke-width="2" width="220" x="654" y="211"/>
+  <text fill="#168A62" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" text-anchor="start" x="668" y="240">感应磁场：入纸面</text>
+  <line stroke="#168A62" stroke-linecap="round" stroke-width="3" x1="728" x2="752" y1="309" y2="333"/>
+  <line stroke="#168A62" stroke-linecap="round" stroke-width="3" x1="728" x2="752" y1="333" y2="309"/>
+  <line stroke="#168A62" stroke-linecap="round" stroke-width="3" x1="798" x2="822" y1="309" y2="333"/>
+  <line stroke="#168A62" stroke-linecap="round" stroke-width="3" x1="798" x2="822" y1="333" y2="309"/>
+  <line stroke="#168A62" stroke-linecap="round" stroke-width="3" x1="868" x2="892" y1="309" y2="333"/>
+  <line stroke="#168A62" stroke-linecap="round" stroke-width="3" x1="868" x2="892" y1="333" y2="309"/>
+  <line stroke="#168A62" stroke-linecap="round" stroke-width="3" x1="728" x2="752" y1="390" y2="414"/>
+  <line stroke="#168A62" stroke-linecap="round" stroke-width="3" x1="728" x2="752" y1="414" y2="390"/>
+  <line stroke="#168A62" stroke-linecap="round" stroke-width="3" x1="798" x2="822" y1="390" y2="414"/>
+  <line stroke="#168A62" stroke-linecap="round" stroke-width="3" x1="798" x2="822" y1="414" y2="390"/>
+  <line stroke="#168A62" stroke-linecap="round" stroke-width="3" x1="868" x2="892" y1="390" y2="414"/>
+  <line stroke="#168A62" stroke-linecap="round" stroke-width="3" x1="868" x2="892" y1="414" y2="390"/>
+  <text fill="#E79439" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="700" text-anchor="middle" x="822" y="486">感应电流：顺时针</text>
+  <rect fill="#F8F0E7" height="48" rx="16" ry="16" stroke="#E79439" stroke-width="2" width="355" x="640" y="528"/>
+  <text fill="#173B63" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="500" text-anchor="middle" x="818" y="559">判断依据：阻碍变化，不是阻止磁通量</text>
+  <rect fill="#F0F9F6" height="76" rx="16" ry="16" stroke="#0B9488" stroke-width="2" width="1024" x="48" y="622"/>
+  <text fill="#173B63" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" text-anchor="start" x="72" y="650">出纸面磁通量增加 → 感应磁场指向纸内 → 右手判断电流为顺时针。</text>
+  <text fill="#173B63" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" text-anchor="start" x="72" y="676">这是特定案例：若磁通量的方向或变化趋势反过来，感应电流方向也可能反转。</text>
+</svg>

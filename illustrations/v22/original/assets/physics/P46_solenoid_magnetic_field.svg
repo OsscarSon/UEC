@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="720" version="1.1" viewBox="0 0 1120 720" width="1120">
+  <defs/>
+  <rect fill="#F7FAFE" height="720" width="1120" x="0" y="0"/>
+  <rect fill="#173B63" height="98" width="1120" x="0" y="0"/>
+  <text fill="white" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" text-anchor="start" x="55" y="61">通电螺线管的磁场</text>
+  <text fill="#64748b" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="400" text-anchor="start" x="58" y="128">概念示意：闭合磁感线；外部从 N 极指向 S 极，内部反向</text>
+  <rect fill="white" height="435" rx="16" ry="16" stroke="#CCD9E8" stroke-width="2" width="1024" x="48" y="154"/>
+  <rect fill="#F0F7FF" height="160" rx="42" stroke="#AAC9EA" stroke-width="2" width="570" x="276" y="290"/>
+  <ellipse cx="315" cy="370" fill="none" rx="20" ry="88" stroke="#E79439" stroke-width="5"/>
+  <ellipse cx="370" cy="370" fill="none" rx="20" ry="88" stroke="#E79439" stroke-width="5"/>
+  <ellipse cx="425" cy="370" fill="none" rx="20" ry="88" stroke="#E79439" stroke-width="5"/>
+  <ellipse cx="480" cy="370" fill="none" rx="20" ry="88" stroke="#E79439" stroke-width="5"/>
+  <ellipse cx="535" cy="370" fill="none" rx="20" ry="88" stroke="#E79439" stroke-width="5"/>
+  <ellipse cx="590" cy="370" fill="none" rx="20" ry="88" stroke="#E79439" stroke-width="5"/>
+  <ellipse cx="645" cy="370" fill="none" rx="20" ry="88" stroke="#E79439" stroke-width="5"/>
+  <ellipse cx="700" cy="370" fill="none" rx="20" ry="88" stroke="#E79439" stroke-width="5"/>
+  <ellipse cx="755" cy="370" fill="none" rx="20" ry="88" stroke="#E79439" stroke-width="5"/>
+  <ellipse cx="810" cy="370" fill="none" rx="20" ry="88" stroke="#E79439" stroke-width="5"/>
+  <line stroke="#8799B1" stroke-dasharray="7 6" stroke-linecap="round" stroke-width="2" x1="274" x2="846" y1="370" y2="370"/>
+  <rect fill="#FDECE9" height="75" rx="16" ry="16" stroke="#D9565C" stroke-width="2" width="72" x="220" y="322"/>
+  <text fill="#D9565C" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="700" text-anchor="middle" x="256" y="372">N</text>
+  <rect fill="#E4F1FC" height="75" rx="16" ry="16" stroke="#2869B5" stroke-width="2" width="72" x="831" y="322"/>
+  <text fill="#2869B5" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="700" text-anchor="middle" x="867" y="372">S</text>
+  <path d="M 256,322 C 230,195 892,195 867,322" fill="none" stroke="#2869B5" stroke-width="3"/>
+  <path d="M 256,322 C 230,220 892,220 867,322" fill="none" stroke="#2869B5" stroke-width="3"/>
+  <path d="M 256,322 C 230,250 892,250 867,322" fill="none" stroke="#2869B5" stroke-width="3"/>
+  <line stroke="#2869B5" stroke-linecap="round" stroke-width="3" x1="525" x2="600" y1="215" y2="220"/>
+  <polygon fill="#2869B5" points="600,220 588.3342316066979,225.73671053774146 589.1989787435069,212.76550348560554"/>
+  <line stroke="#168A62" stroke-linecap="round" stroke-width="6" x1="705" x2="480" y1="371" y2="371"/>
+  <polygon fill="#168A62" points="480,371 491.2583302491977,364.5 491.2583302491977,377.5"/>
+  <path d="M 256,397 C 230,560 892,560 867,397" fill="none" stroke="#2869B5" stroke-width="3"/>
+  <path d="M 256,397 C 230,590 892,590 867,397" fill="none" stroke="#2869B5" stroke-width="3"/>
+  <line stroke="#2869B5" stroke-linecap="round" stroke-width="3" x1="532" x2="611" y1="553" y2="551"/>
+  <polygon fill="#2869B5" points="611,551 599.9097801316526,557.7828477258239 599.5807716252614,544.7870117233682"/>
+  <rect fill="#EAF3FE" height="42" rx="11" ry="11" stroke="#2869B5" stroke-width="2" width="220" x="86" y="168"/>
+  <text fill="#2869B5" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" text-anchor="start" x="100" y="197">外部磁场：N → S</text>
+  <rect fill="#E5F6F1" height="42" rx="11" ry="11" stroke="#168A62" stroke-width="2" width="220" x="80" y="490"/>
+  <text fill="#168A62" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" text-anchor="start" x="94" y="519">内部磁场：S → N</text>
+  <rect fill="#F0F9F6" height="76" rx="16" ry="16" stroke="#0B9488" stroke-width="2" width="1024" x="48" y="622"/>
+  <text fill="#173B63" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" text-anchor="start" x="72" y="650">磁场方向取决于线圈电流方向，可用右手握螺线管定则判断。</text>
+  <text fill="#173B63" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" text-anchor="start" x="72" y="676">本图只表示磁场形状，线圈电流方向未指定，不用于推断具体接线极性。</text>
+</svg>

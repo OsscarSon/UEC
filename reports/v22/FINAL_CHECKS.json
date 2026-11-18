@@ -1,0 +1,46 @@
+{
+  "result": "pass",
+  "javascript_syntax_files": [
+    "batch-ui.js",
+    "data/v22-illustrations.js",
+    "tests/v22_browser.cjs",
+    "tests/batch02_browser.cjs",
+    "tests/p0_browser.cjs",
+    "tools/v22/layout.cjs",
+    "tools/v22/contact-sheets.cjs"
+  ],
+  "python_ast_files": [
+    "tests/v22_audit.py",
+    "tools/build_illustration_prompts.py",
+    "tools/v22/finalize.py",
+    "tools/v22/write_reports.py",
+    "tools/v22/build.py"
+  ],
+  "markdown_files_checked": [
+    "reports/v22/ASSET_REVIEW.md",
+    "reports/v22/QUARANTINE_AND_REPAIR.md",
+    "reports/v22/INTEGRATED_SECTIONS.md",
+    "reports/v22/TEST_RESULTS.md",
+    "reports/v22/MISSING_TASKS.md",
+    "reports/v22/DUPLICATES_AND_MAPPING.md",
+    "reports/v22/SOURCES.md",
+    "reports/v22/TASK_COVERAGE.md",
+    "reports/v22/DELIVERY.md",
+    "tools/v22/README.md"
+  ],
+  "missing_local_links": [],
+  "historical_generated_files_restored": [
+    "reports/batch02/AUDIT_RESULTS.json",
+    "reports/batch02/UI_RESULTS.json",
+    "reports/batch02/screenshots/strategy-1280.png",
+    "reports/batch02/screenshots/strategy-390.png",
+    "reports/batch02/screenshots/zoom-mobile.png",
+    "reports/batch03/P0_BROWSER_RESULTS.json",
+    "reports/batch03/P0_MOBILE_ZOOM.png",
+    "reports/batch04/redox-example-1280.png",
+    "reports/batch04/redox-example-390.png"
+  ],
+  "note": "暂存区的最终差异另在提交前执行git diff --cached --check",
+  "staged_diff_check": "pass",
+  "whitespace_scope": "V22原包及SVG路径分隔空白保留；其余暂存文件按Git空白规则检查"
+}

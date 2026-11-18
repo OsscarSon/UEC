@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="720" version="1.1" viewBox="0 0 1120 720" width="1120">
+  <defs/>
+  <rect fill="#F7FAFE" height="720" width="1120" x="0" y="0"/>
+  <rect fill="#173B63" height="98" width="1120" x="0" y="0"/>
+  <text fill="white" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" text-anchor="start" x="55" y="61">植物运输：木质部与韧皮部</text>
+  <text fill="#64748b" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="400" text-anchor="start" x="58" y="128">木质部运输水和无机盐；韧皮部将有机物由源运向库</text>
+  <rect fill="white" height="435" rx="16" ry="16" stroke="#CCD9E8" stroke-width="2" width="1024" x="48" y="154"/>
+  <line stroke="#168A62" stroke-linecap="round" stroke-width="16" x1="332" x2="332" y1="500" y2="260"/>
+  <ellipse cx="276" cy="305" fill="#A8DCC0" rx="48" ry="24" stroke="#168A62" stroke-width="3"/>
+  <ellipse cx="389" cy="308" fill="#A8DCC0" rx="48" ry="24" stroke="#168A62" stroke-width="3"/>
+  <ellipse cx="268" cy="373" fill="#A8DCC0" rx="48" ry="24" stroke="#168A62" stroke-width="3"/>
+  <ellipse cx="395" cy="378" fill="#A8DCC0" rx="48" ry="24" stroke="#168A62" stroke-width="3"/>
+  <circle cx="330" cy="254" fill="#D8F0CD" r="52" stroke="#168A62" stroke-width="2"/>
+  <circle cx="330" cy="216" fill="#D8F0CD" r="35" stroke="#168A62" stroke-width="2"/>
+  <line stroke="#AA845C" stroke-linecap="round" stroke-width="5" x1="332" x2="256" y1="500" y2="546"/>
+  <line stroke="#AA845C" stroke-linecap="round" stroke-width="5" x1="332" x2="292" y1="500" y2="546"/>
+  <line stroke="#AA845C" stroke-linecap="round" stroke-width="5" x1="332" x2="330" y1="500" y2="546"/>
+  <line stroke="#AA845C" stroke-linecap="round" stroke-width="5" x1="332" x2="368" y1="500" y2="546"/>
+  <line stroke="#AA845C" stroke-linecap="round" stroke-width="5" x1="332" x2="405" y1="500" y2="546"/>
+  <rect fill="#EAF3FE" height="355" rx="16" ry="16" stroke="#2869B5" stroke-width="2" width="245" x="478" y="194"/>
+  <rect fill="#E9F7EF" height="355" rx="16" ry="16" stroke="#0B9488" stroke-width="2" width="245" x="757" y="194"/>
+  <rect fill="#EAF3FE" height="42" rx="11" ry="11" stroke="#2869B5" stroke-width="2" width="220" x="492" y="215"/>
+  <text fill="#2869B5" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" text-anchor="start" x="506" y="244">木质部</text>
+  <rect fill="#E5F6F1" height="42" rx="11" ry="11" stroke="#168A62" stroke-width="2" width="220" x="771" y="215"/>
+  <text fill="#168A62" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" text-anchor="start" x="785" y="244">韧皮部</text>
+  <line stroke="#2869B5" stroke-linecap="round" stroke-width="8" x1="605" x2="605" y1="488" y2="312"/>
+  <polygon fill="#2869B5" points="605,312 611.5,323.2583302491977 598.5,323.2583302491977"/>
+  <text fill="#2869B5" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="700" text-anchor="middle" x="601" y="534">水、无机盐</text>
+  <text fill="#2869B5" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="500" text-anchor="middle" x="601" y="293">根 → 茎 → 叶</text>
+  <line stroke="#0B9488" stroke-linecap="round" stroke-width="7" x1="883" x2="883" y1="325" y2="470"/>
+  <polygon fill="#0B9488" points="883,470 876.5,458.7416697508023 889.5,458.7416697508023"/>
+  <text fill="#0B9488" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="884" y="290">源：成熟叶</text>
+  <text fill="#0B9488" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" text-anchor="middle" x="884" y="518">库：生长部位/根</text>
+  <rect fill="#F0F9F6" height="76" rx="16" ry="16" stroke="#0B9488" stroke-width="2" width="1024" x="48" y="622"/>
+  <text fill="#173B63" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" text-anchor="start" x="72" y="650">木质部水分主要向上运输；韧皮部的方向由“源—库”关系决定，不是一律向下。</text>
+  <text fill="#173B63" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" text-anchor="start" x="72" y="676">同株植物不同筛管可同时向不同方向运输同化产物。</text>
+</svg>

@@ -92,6 +92,7 @@ if (OUT/'P0_REVIEW.json').exists():
    review=next((x for x in p0 if x['task_id']==item['id']),None)
    if review:item['uploaded_artifact_review']=dict(path=review['path'],status=review['status'],finding=review['finding'],full_task_accepted=False)
  (R/'illustration-manifest.json').write_text(json.dumps(base,ensure_ascii=False,indent=2)+'\n')
+if base.get('uploaded_v22'):obj['uploaded_v22']=base['uploaded_v22']
 (OUT/'ILLUSTRATION_MASTER_MANIFEST.json').write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n')
 (OUT/'PROMPTS_BATCH_ALL.json').write_text(json.dumps(dict(schema_version='2.0',statistics=statistics,tasks=tasks),ensure_ascii=False,indent=2)+'\n')
 md=['# 全部已确定的后续教学插图任务','',f'共{len(tasks)}条独立中英文制作Brief；其中{statistics["inline_relationship_tasks"]}条针对HTML/CSS知识关系图，其余为图像制作。另35条数学章级计划因无真实小节/归属而冻结，不假造编号或函数参数。{len(master)}条教学记录；60条保留、35条冻结、{len(tasks)}条需制作/修正。','',

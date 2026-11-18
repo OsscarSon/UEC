@@ -1,0 +1,63 @@
+{
+  "scope": "恢复原工作区后实际执行；不是旧截图统计",
+  "baseline": "ce2f44b8cae16aba750ab9c696807599c39f2a5c",
+  "commands": [
+    {
+      "command": "python tests/v22_audit.py",
+      "exit_code": 0
+    },
+    {
+      "command": "node tools/v22/layout.cjs",
+      "exit_code": 0
+    },
+    {
+      "command": "node tests/coverage.cjs",
+      "exit_code": 0
+    },
+    {
+      "command": "python tests/batch02_audit.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python tests/batch04_content.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python tests/p0_audit.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python tests/calculations.py",
+      "exit_code": 0
+    },
+    {
+      "command": "UEC_TEST_BASE=http://localhost:8022/ node tests/v22_browser.cjs",
+      "exit_code": 0
+    },
+    {
+      "command": "UEC_TEST_BASE=http://localhost:8022/ node tests/browser.cjs",
+      "exit_code": 0
+    },
+    {
+      "command": "UEC_TEST_BASE=http://localhost:8022/ node tests/batch02_browser.cjs",
+      "exit_code": 0
+    },
+    {
+      "command": "UEC_TEST_BASE=http://localhost:8022/ node tests/p0_browser.cjs",
+      "exit_code": 0
+    },
+    {
+      "command": "UEC_TEST_BASE=http://localhost:8022/ node tests/batch04_browser.cjs",
+      "exit_code": 0
+    }
+  ],
+  "evidence": {
+    "reports/BROWSER_RESULTS.json": "CORE_BROWSER.json",
+    "reports/CALCULATION_RESULTS.json": "CALCULATIONS.json",
+    "reports/batch02/AUDIT_RESULTS.json": "CONTENT_AUDIT.json",
+    "reports/batch02/UI_RESULTS.json": "LEGACY_UI.json",
+    "reports/batch03/P0_BROWSER_RESULTS.json": "P0_BROWSER.json",
+    "reports/batch04/BROWSER_RESULTS.json": "CHAPTER_BROWSER.json"
+  },
+  "limitations": "自动检查只验证所记录样本与功能；非全面教师或官方审定"
+}
