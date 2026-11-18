@@ -1,0 +1,1 @@
+export function nextRevision(expected,current){if(!Number.isSafeInteger(current)||current<0)throw Error('云端版本格式无效');if((expected===null&&current!==0)||(expected!==null&&expected!==current))throw Error('版本冲突：请先重新读取云端信息，核对后再上传。');return current+1;}
