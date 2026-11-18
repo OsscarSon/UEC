@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#ffffff"/><rect x="24" y="20" width="1152" height="76" rx="16" fill="#eaf2ff"/><text x="54" y="71" font-size="34" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="700" fill="#17365e">物理 4.3｜两垂直力的合成与分解</text><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="context-stroke"/></marker></defs>
+<line x1="145" y1="620" x2="900" y2="620" stroke="#17365e" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="145" y1="620" x2="145" y2="180" stroke="#17365e" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="145" y1="620" x2="505" y2="620" stroke="#ca4255" stroke-width="6" marker-end="url(#arrow)"/>
+<line x1="145" y1="620" x2="145" y2="220" stroke="#276cbd" stroke-width="6" marker-end="url(#arrow)"/>
+<line x1="145" y1="620" x2="505" y2="220" stroke="#15835e" stroke-width="7" marker-end="url(#arrow)"/>
+<line x1="505" y1="620" x2="505" y2="220" stroke="#5d6c7d" stroke-width="2" stroke-dasharray="9 8"/>
+<line x1="145" y1="220" x2="505" y2="220" stroke="#5d6c7d" stroke-width="2" stroke-dasharray="9 8"/>
+<text x="310" y="668" text-anchor="middle" font-size="26" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="600" fill="#ca4255">6 N（东）</text>
+<text x="99" y="395" text-anchor="middle" font-size="25" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="600" fill="#276cbd">8 N（北）</text>
+<text x="400" y="382" text-anchor="start" font-size="27" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="700" fill="#15835e">R = 10 N</text>
+<rect x="640" y="235" width="480" height="310" rx="14" fill="#f3f7fe" stroke="#abc5e8" stroke-width="2"/>
+<text x="675" y="289" text-anchor="start" font-size="29" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="600" fill="#17365e">R = √(6² + 8²) = 10 N</text>
+<text x="675" y="353" text-anchor="start" font-size="26" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#17365e">θ = arctan(8/6) ≈ 53.1°</text>
+<text x="675" y="417" text-anchor="start" font-size="27" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="600" fill="#15835e">方向：东偏北 53.1°</text>
+<text x="675" y="488" text-anchor="start" font-size="26" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#17365e">Fx = 6 N，Fy = 8 N</text>
+<rect x="24" y="712" width="1152" height="66" rx="14" fill="#f2f6fa" stroke="#dce7f2" stroke-width="2"/>
+<text x="44" y="743" text-anchor="start" font-size="19" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#5d6c7d">两条分量仅合成一次；箭头方向、直角关系与分量数值对应。</text>
+</svg>

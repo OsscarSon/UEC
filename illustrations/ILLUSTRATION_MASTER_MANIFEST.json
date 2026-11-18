@@ -24,7 +24,11 @@
     "uploaded_images_approved_limited": 3,
     "uploaded_images_quarantined": 3,
     "deterministic_summary_svgs": 11,
-    "ai_images_generated_this_round": 0
+    "ai_images_generated_this_round": 0,
+    "uploaded_p0_reviewed": 10,
+    "uploaded_p0_limited": 5,
+    "uploaded_p0_quarantined": 5,
+    "uploaded_p0_full_tasks_accepted": 0
   },
   "scientific_source_register": [
     {
@@ -3739,6 +3743,12 @@
       ],
       "output_path": null,
       "review_method": "读取当前SVG结构/标注及相关笔记；43幅本批图另有上一轮可视检查记录，本轮不生成预览图片。",
+      "uploaded_artifact_review": {
+        "path": "illustrations/incoming/p0/ILL-ASSET-C5_1A.svg",
+        "status": "approved_for_limited_use",
+        "finding": "三个历史模型区别及单电子数正确；仅模型比较，不提供金箔装置/统计或精确比例。",
+        "full_task_accepted": false
+      },
       "legacy_audit_commit": "daa36377c98508764780831e82d4ecbb06c27e69",
       "generated_image_is_not_scientific_approval": true,
       "production_task_id": "ILL-ASSET-C5_1A",
@@ -4767,6 +4777,12 @@
       ],
       "output_path": null,
       "review_method": "读取当前SVG结构/标注及相关笔记；43幅本批图另有上一轮可视检查记录，本轮不生成预览图片。",
+      "uploaded_artifact_review": {
+        "path": "illustrations/incoming/p0/ILL-ASSET-C5_4C.svg",
+        "status": "approved_for_limited_use",
+        "finding": "轨域框数1/5/3/5正确。近似填充图只用于中性原子构造入门；不能当所有原子/离子的固定能级，更不能用其直接判Fe离子失电子顺序。",
+        "full_task_accepted": false
+      },
       "legacy_audit_commit": "daa36377c98508764780831e82d4ecbb06c27e69",
       "generated_image_is_not_scientific_approval": true,
       "production_task_id": "ILL-ASSET-C5_4C",
@@ -8396,6 +8412,12 @@
       ],
       "output_path": null,
       "review_method": "读取当前SVG结构/标注及相关笔记；43幅本批图另有上一轮可视检查记录，本轮不生成预览图片。",
+      "uploaded_artifact_review": {
+        "path": "illustrations/incoming/p0/ILL-ASSET-B3_4.svg",
+        "status": "approved_for_limited_use",
+        "finding": "简化生化转化关系可用；ΔG<0须绑定细胞条件与浓度，不是任意条件。未画独立能量耦联支路，任务仅部分满足。",
+        "full_task_accepted": false
+      },
       "legacy_audit_commit": "daa36377c98508764780831e82d4ecbb06c27e69",
       "generated_image_is_not_scientific_approval": true,
       "production_task_id": "ILL-ASSET-B3_4",
@@ -8531,6 +8553,12 @@
       ],
       "output_path": null,
       "review_method": "读取当前SVG结构/标注及相关笔记；43幅本批图另有上一轮可视检查记录，本轮不生成预览图片。",
+      "uploaded_artifact_review": {
+        "path": "illustrations/incoming/p0/ILL-ASSET-B3_5A.svg",
+        "status": "quarantined",
+        "finding": "发酵连线没有箭头端标；未标NADH/电子传递到O₂的关系，丙酮酸→连接→克氏→ETC易把碳路径当电子路径。应区分区室/碳流/电子流。",
+        "full_task_accepted": false
+      },
       "legacy_audit_commit": "daa36377c98508764780831e82d4ecbb06c27e69",
       "generated_image_is_not_scientific_approval": true,
       "production_task_id": "ILL-ASSET-B3_5A",
@@ -8922,6 +8950,12 @@
       ],
       "output_path": null,
       "review_method": "读取当前SVG结构/标注及相关笔记；43幅本批图另有上一轮可视检查记录，本轮不生成预览图片。",
+      "uploaded_artifact_review": {
+        "path": "illustrations/incoming/p0/ILL-ASSET-B3_6B.svg",
+        "status": "approved_for_limited_use",
+        "finding": "光解原子/电荷配平正确；ATP/NADPH及返回物方向正确。仅两阶段关系概览，不是完整光系统结构。",
+        "full_task_accepted": false
+      },
       "legacy_audit_commit": "daa36377c98508764780831e82d4ecbb06c27e69",
       "generated_image_is_not_scientific_approval": true,
       "production_task_id": "ILL-ASSET-B3_6B",
@@ -9060,6 +9094,12 @@
       ],
       "output_path": null,
       "review_method": "读取当前SVG结构/标注及相关笔记；43幅本批图另有上一轮可视检查记录，本轮不生成预览图片。",
+      "uploaded_artifact_review": {
+        "path": "illustrations/incoming/p0/ILL-ASSET-B3_6C.svg",
+        "status": "quarantined",
+        "finding": "3CO₂→3RuBP误画成顺序转化；6G3P→5G3P→1G3P把分流画成串联，缺5G3P再生RuBP回路。数值碳账正确不足以使结构通过。",
+        "full_task_accepted": false
+      },
       "legacy_audit_commit": "daa36377c98508764780831e82d4ecbb06c27e69",
       "generated_image_is_not_scientific_approval": true,
       "production_task_id": "ILL-ASSET-B3_6C",
@@ -9723,6 +9763,12 @@
       ],
       "output_path": null,
       "review_method": "读取当前SVG结构/标注及相关笔记；43幅本批图另有上一轮可视检查记录，本轮不生成预览图片。",
+      "uploaded_artifact_review": {
+        "path": "illustrations/incoming/p0/ILL-ASSET-B3_7C.svg",
+        "status": "quarantined",
+        "finding": "相同x处总CO₂不是两分量和。左端y对应总385、两分量350+35相符；右端总420而分量65+375=440，整段Bezier未经求和。定性声明不能豁免分量账本。",
+        "full_task_accepted": false
+      },
       "legacy_audit_commit": "daa36377c98508764780831e82d4ecbb06c27e69",
       "generated_image_is_not_scientific_approval": true,
       "production_task_id": "ILL-ASSET-B3_7C",
@@ -10438,6 +10484,12 @@
         "教学标注版",
         "已有练习/检测留空版：先核对题干，答案与问题分离"
       ],
+      "uploaded_artifact_review": {
+        "path": "illustrations/incoming/p0/ILL-PLAN-PHY-3_3-01.svg",
+        "status": "approved_for_limited_use",
+        "finding": "−2→5→1的数值计算11m/+3m正确；轴标不按等比例，限用于过程排序和数值账本。",
+        "full_task_accepted": false
+      },
       "legacy_audit_commit": "daa36377c98508764780831e82d4ecbb06c27e69",
       "generated_image_is_not_scientific_approval": true,
       "production_task_id": "ILL-PLAN-PHY-3_3-01",
@@ -12190,6 +12242,12 @@
         "教学标注版",
         "已有练习/检测留空版：先核对题干，答案与问题分离"
       ],
+      "uploaded_artifact_review": {
+        "path": "illustrations/incoming/p0/ILL-PLAN-PHY-4_2-01.svg",
+        "status": "quarantined",
+        "finding": "静止分支与5N点正确，但极限后水平虚线视觉上形成8N滑动平台；虽页脚否认，仍会把未给μk曲线呈现为数据。需去掉越界曲线/另明确极限参考线，避免误导。",
+        "full_task_accepted": false
+      },
       "legacy_audit_commit": "daa36377c98508764780831e82d4ecbb06c27e69",
       "generated_image_is_not_scientific_approval": true,
       "production_task_id": "ILL-PLAN-PHY-4_2-01",
@@ -12483,6 +12541,12 @@
         "教学标注版",
         "已有练习/检测留空版：先核对题干，答案与问题分离"
       ],
+      "uploaded_artifact_review": {
+        "path": "illustrations/incoming/p0/ILL-PLAN-PHY-4_3-01.svg",
+        "status": "quarantined",
+        "finding": "同一向量平面横360px代表6N、纵400px代表8N，像素比例0.9不是6/8=0.75；可见夹角arctan(400/360)=48.0°，与53.1°不符；缺θ角弧。不得作精确几何图。",
+        "full_task_accepted": false
+      },
       "legacy_audit_commit": "daa36377c98508764780831e82d4ecbb06c27e69",
       "generated_image_is_not_scientific_approval": true,
       "production_task_id": "ILL-PLAN-PHY-4_3-01",
@@ -24401,5 +24465,285 @@
     "11幅新增SVG多为关系/账本总结，不能冒充完整细胞解剖或实验装置图",
     "数学35章均无可执行Prompt：需真实小节与I/II依据后再制作",
     "其余只有章级目录的部分先查目录和知识范围，未虚构全科插图任务"
+  ],
+  "uploaded_p0": [
+    {
+      "id": "P0-IMPORT-ILL-ASSET-B3_4",
+      "task_id": "ILL-ASSET-B3_4",
+      "subject": "生物",
+      "chapter_id": 3,
+      "section_id": "3.4",
+      "lesson_key": "生物3",
+      "path": "illustrations/incoming/p0/ILL-ASSET-B3_4.svg",
+      "sha256": "cb1af75e74efacb179cd6e078786f3434d0b391094ee1db054fa08905839a934",
+      "status": "approved_for_limited_use",
+      "finding": "简化生化转化关系可用；ΔG<0须绑定细胞条件与浓度，不是任意条件。未画独立能量耦联支路，任务仅部分满足。",
+      "caption": "简化ATP/ADP物质转化图；Pi为无机磷酸。ΔG方向依pH、Mg²⁺、浓度等条件；细胞常见ATP水解放能不代表任何环境必然如此。能量需实际机制耦联。",
+      "full_task_accepted": false,
+      "method": "逐文件XML/文字/坐标检查、Chromium渲染接触表目视、原Prompt验收对照；非教师或官方全面审定",
+      "sources": [
+        {
+          "id": "os_atp",
+          "url_or_file": "https://openstax.org/books/biology-2e/pages/6-4-atp-adenosine-triphosphate",
+          "verification_status": "partially_verified",
+          "scope": "science"
+        }
+      ]
+    },
+    {
+      "id": "P0-IMPORT-ILL-ASSET-B3_5A",
+      "task_id": "ILL-ASSET-B3_5A",
+      "subject": "生物",
+      "chapter_id": 3,
+      "section_id": "3.5",
+      "lesson_key": "生物3",
+      "path": "illustrations/incoming/p0/ILL-ASSET-B3_5A.svg",
+      "sha256": "0e93a29c1f27a8763ac93664aabba23381bf9dc36b069ef2307249194a238a92",
+      "status": "quarantined",
+      "finding": "发酵连线没有箭头端标；未标NADH/电子传递到O₂的关系，丙酮酸→连接→克氏→ETC易把碳路径当电子路径。应区分区室/碳流/电子流。",
+      "caption": "",
+      "full_task_accepted": false,
+      "method": "逐文件XML/文字/坐标检查、Chromium渲染接触表目视、原Prompt验收对照；非教师或官方全面审定",
+      "sources": [
+        {
+          "id": "os_respiration",
+          "url_or_file": "https://openstax.org/books/biology-2e/pages/7-4-oxidative-phosphorylation",
+          "verification_status": "partially_verified",
+          "scope": "science"
+        },
+        {
+          "id": "os_fermentation",
+          "url_or_file": "https://openstax.org/books/biology-2e/pages/7-5-metabolism-without-oxygen",
+          "verification_status": "partially_verified",
+          "scope": "science"
+        }
+      ]
+    },
+    {
+      "id": "P0-IMPORT-ILL-ASSET-B3_6B",
+      "task_id": "ILL-ASSET-B3_6B",
+      "subject": "生物",
+      "chapter_id": 3,
+      "section_id": "3.6",
+      "lesson_key": "生物3",
+      "path": "illustrations/incoming/p0/ILL-ASSET-B3_6B.svg",
+      "sha256": "5e972635fd29b860731c4c94dbf3b8e1b85640232f0be3970326c14edbb27daa",
+      "status": "approved_for_limited_use",
+      "finding": "光解原子/电荷配平正确；ATP/NADPH及返回物方向正确。仅两阶段关系概览，不是完整光系统结构。",
+      "caption": "叶绿体两阶段关系概览，不按比例；光解式为半反应。光反应在类囊体膜，卡尔文循环在基质；循环使用ATP/NADPH并返回ADP、Pi、NADP⁺。",
+      "full_task_accepted": false,
+      "method": "逐文件XML/文字/坐标检查、Chromium渲染接触表目视、原Prompt验收对照；非教师或官方全面审定",
+      "sources": [
+        {
+          "id": "os_light",
+          "url_or_file": "https://openstax.org/books/biology-2e/pages/8-2-the-light-dependent-reactions-of-photosynthesis",
+          "verification_status": "partially_verified",
+          "scope": "science"
+        },
+        {
+          "id": "os_calvin",
+          "url_or_file": "https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules",
+          "verification_status": "partially_verified",
+          "scope": "science"
+        },
+        {
+          "id": "os_cells",
+          "url_or_file": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+          "verification_status": "partially_verified",
+          "scope": "science"
+        }
+      ]
+    },
+    {
+      "id": "P0-IMPORT-ILL-ASSET-B3_6C",
+      "task_id": "ILL-ASSET-B3_6C",
+      "subject": "生物",
+      "chapter_id": 3,
+      "section_id": "3.6",
+      "lesson_key": "生物3",
+      "path": "illustrations/incoming/p0/ILL-ASSET-B3_6C.svg",
+      "sha256": "8e93e5265daf9cc21e7b0163509f08be529d59282c447719b61e0f43d82d7104",
+      "status": "quarantined",
+      "finding": "3CO₂→3RuBP误画成顺序转化；6G3P→5G3P→1G3P把分流画成串联，缺5G3P再生RuBP回路。数值碳账正确不足以使结构通过。",
+      "caption": "",
+      "full_task_accepted": false,
+      "method": "逐文件XML/文字/坐标检查、Chromium渲染接触表目视、原Prompt验收对照；非教师或官方全面审定",
+      "sources": [
+        {
+          "id": "os_light",
+          "url_or_file": "https://openstax.org/books/biology-2e/pages/8-2-the-light-dependent-reactions-of-photosynthesis",
+          "verification_status": "partially_verified",
+          "scope": "science"
+        },
+        {
+          "id": "os_calvin",
+          "url_or_file": "https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules",
+          "verification_status": "partially_verified",
+          "scope": "science"
+        },
+        {
+          "id": "os_cells",
+          "url_or_file": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+          "verification_status": "partially_verified",
+          "scope": "science"
+        }
+      ]
+    },
+    {
+      "id": "P0-IMPORT-ILL-ASSET-B3_7C",
+      "task_id": "ILL-ASSET-B3_7C",
+      "subject": "生物",
+      "chapter_id": 3,
+      "section_id": "3.7",
+      "lesson_key": "生物3",
+      "path": "illustrations/incoming/p0/ILL-ASSET-B3_7C.svg",
+      "sha256": "453a88ccb6d84288fdb64680c904bb85d392764fe02bf82f0f11bd32b35efc58",
+      "status": "quarantined",
+      "finding": "相同x处总CO₂不是两分量和。左端y对应总385、两分量350+35相符；右端总420而分量65+375=440，整段Bezier未经求和。定性声明不能豁免分量账本。",
+      "caption": "",
+      "full_task_accepted": false,
+      "method": "逐文件XML/文字/坐标检查、Chromium渲染接触表目视、原Prompt验收对照；非教师或官方全面审定",
+      "sources": [
+        {
+          "id": "os_light",
+          "url_or_file": "https://openstax.org/books/biology-2e/pages/8-2-the-light-dependent-reactions-of-photosynthesis",
+          "verification_status": "partially_verified",
+          "scope": "science"
+        },
+        {
+          "id": "os_calvin",
+          "url_or_file": "https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules",
+          "verification_status": "partially_verified",
+          "scope": "science"
+        },
+        {
+          "id": "os_cells",
+          "url_or_file": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+          "verification_status": "partially_verified",
+          "scope": "science"
+        }
+      ]
+    },
+    {
+      "id": "P0-IMPORT-ILL-ASSET-C5_1A",
+      "task_id": "ILL-ASSET-C5_1A",
+      "subject": "化学",
+      "chapter_id": 5,
+      "section_id": "5.1",
+      "lesson_key": "化学5",
+      "path": "illustrations/incoming/p0/ILL-ASSET-C5_1A.svg",
+      "sha256": "b65c9469750e451caba5b73bd8456712f86e4e364d016b2a19efd901599e41db",
+      "status": "approved_for_limited_use",
+      "finding": "三个历史模型区别及单电子数正确；仅模型比较，不提供金箔装置/统计或精确比例。",
+      "caption": "历史模型的非比例示意；蓝点表示电子，玻尔面板仅一个电子。圆圈是可选历史模型能级，不能当真实轨道照片；未给装置或散射概率。",
+      "full_task_accepted": false,
+      "method": "逐文件XML/文字/坐标检查、Chromium渲染接触表目视、原Prompt验收对照；非教师或官方全面审定",
+      "sources": [
+        {
+          "id": "os_bohr",
+          "url_or_file": "https://openstax.org/books/chemistry-2e/pages/6-2-the-bohr-model",
+          "verification_status": "partially_verified",
+          "scope": "science"
+        }
+      ]
+    },
+    {
+      "id": "P0-IMPORT-ILL-ASSET-C5_4C",
+      "task_id": "ILL-ASSET-C5_4C",
+      "subject": "化学",
+      "chapter_id": 5,
+      "section_id": "5.4",
+      "lesson_key": "化学5",
+      "path": "illustrations/incoming/p0/ILL-ASSET-C5_4C.svg",
+      "sha256": "8d3d59b47de6dac440f4613a773e2ef9c15e065e3eafdaf03ef55da4e476c705",
+      "status": "approved_for_limited_use",
+      "finding": "轨域框数1/5/3/5正确。近似填充图只用于中性原子构造入门；不能当所有原子/离子的固定能级，更不能用其直接判Fe离子失电子顺序。",
+      "caption": "中性原子常用构造近似；方框各代表轨域，间隔不定量。4s/3d相对能量随占据及电荷变化；Fe形成阳离子先失4s，不能从此图直接推断。",
+      "full_task_accepted": false,
+      "method": "逐文件XML/文字/坐标检查、Chromium渲染接触表目视、原Prompt验收对照；非教师或官方全面审定",
+      "sources": [
+        {
+          "id": "os_quantum",
+          "url_or_file": "https://openstax.org/books/chemistry-2e/pages/6-3-development-of-quantum-theory",
+          "verification_status": "partially_verified",
+          "scope": "science"
+        },
+        {
+          "id": "os_electrons",
+          "url_or_file": "https://openstax.org/books/chemistry-2e/pages/6-4-electronic-structure-of-atoms-electron-configurations",
+          "verification_status": "partially_verified",
+          "scope": "science"
+        }
+      ]
+    },
+    {
+      "id": "P0-IMPORT-ILL-PLAN-PHY-3_3-01",
+      "task_id": "ILL-PLAN-PHY-3_3-01",
+      "subject": "物理",
+      "chapter_id": 3,
+      "section_id": "3.3",
+      "lesson_key": "物理3",
+      "path": "illustrations/incoming/p0/ILL-PLAN-PHY-3_3-01.svg",
+      "sha256": "43c47094fd661b70f0c0512d841f21dce15a8ab9ad94d272c8974bf1c2b7e5b6",
+      "status": "approved_for_limited_use",
+      "finding": "−2→5→1的数值计算11m/+3m正确；轴标不按等比例，限用于过程排序和数值账本。",
+      "caption": "弧形箭头仅表示运动先后，不是空间轨迹；实际为一维折返。坐标轴不等比例，不从像素读距离；路程11m、位移+3m应由标数计算。",
+      "full_task_accepted": false,
+      "method": "逐文件XML/文字/坐标检查、Chromium渲染接触表目视、原Prompt验收对照；非教师或官方全面审定",
+      "sources": [
+        {
+          "id": "os_motion",
+          "url_or_file": "https://openstax.org/books/college-physics-2e/pages/2-introduction-to-one-dimensional-kinematics",
+          "verification_status": "partially_verified",
+          "scope": "science"
+        }
+      ]
+    },
+    {
+      "id": "P0-IMPORT-ILL-PLAN-PHY-4_2-01",
+      "task_id": "ILL-PLAN-PHY-4_2-01",
+      "subject": "物理",
+      "chapter_id": 4,
+      "section_id": "4.2",
+      "lesson_key": "物理4",
+      "path": "illustrations/incoming/p0/ILL-PLAN-PHY-4_2-01.svg",
+      "sha256": "ebed04b38f068ac7eca6ffd3d96cad4a3a9a19b996081b4f49825aa35cb9c774",
+      "status": "quarantined",
+      "finding": "静止分支与5N点正确，但极限后水平虚线视觉上形成8N滑动平台；虽页脚否认，仍会把未给μk曲线呈现为数据。需去掉越界曲线/另明确极限参考线，避免误导。",
+      "caption": "",
+      "full_task_accepted": false,
+      "method": "逐文件XML/文字/坐标检查、Chromium渲染接触表目视、原Prompt验收对照；非教师或官方全面审定",
+      "sources": [
+        {
+          "id": "os_mechanics",
+          "url_or_file": "https://openstax.org/books/college-physics-2e/pages/4-3-newtons-second-law-of-motion-concept-of-a-system",
+          "verification_status": "partially_verified",
+          "scope": "science"
+        }
+      ]
+    },
+    {
+      "id": "P0-IMPORT-ILL-PLAN-PHY-4_3-01",
+      "task_id": "ILL-PLAN-PHY-4_3-01",
+      "subject": "物理",
+      "chapter_id": 4,
+      "section_id": "4.3",
+      "lesson_key": "物理4",
+      "path": "illustrations/incoming/p0/ILL-PLAN-PHY-4_3-01.svg",
+      "sha256": "2e908ab53c17c772583ac2853bd6240b9a5cc42c7cb21fd8de4a0ff5998d6026",
+      "status": "quarantined",
+      "finding": "同一向量平面横360px代表6N、纵400px代表8N，像素比例0.9不是6/8=0.75；可见夹角arctan(400/360)=48.0°，与53.1°不符；缺θ角弧。不得作精确几何图。",
+      "caption": "",
+      "full_task_accepted": false,
+      "method": "逐文件XML/文字/坐标检查、Chromium渲染接触表目视、原Prompt验收对照；非教师或官方全面审定",
+      "sources": [
+        {
+          "id": "os_mechanics",
+          "url_or_file": "https://openstax.org/books/college-physics-2e/pages/4-3-newtons-second-law-of-motion-concept-of-a-system",
+          "verification_status": "partially_verified",
+          "scope": "science"
+        }
+      ]
+    }
   ]
 }

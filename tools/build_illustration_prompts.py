@@ -82,6 +82,14 @@ for p in sorted((R/'assets/verified').glob('*.svg')):
  summary_svg.append(dict(id='SUMMARY-'+p.stem.upper(),subject=sub,chapter_id=ch,section_id=sid,title=labels[0],path=str(p.relative_to(R)),sha256=hashlib.sha256(p.read_bytes()).hexdigest(),format='SVG',view_box=[0,0,1100,760],teaching_purpose='核对过的关系/账本总结；不是全部结构/装置替代',chinese_labels=labels,requires_deterministic_svg_or_plotting=True,generator='tools/build_verified_diagrams.py',source_anchor='lessons/'+('chem05' if ch==5 else 'bio03')+'.js sections[id='+sid+']',verification_status='partially_verified',status='implemented_deterministic_summary_not_full_structural_replacement'))
 statistics=dict(teaching_records=len(master),production_briefs=len(tasks),retained_records=sum(r['action']=='retain' for r in records),blocked_math_plans=sum(r['action']=='defer_verification' for r in records),new_chapter6_tasks=6,briefs_by_subject=dict(Counter(t['subject'] for t in tasks)),briefs_by_priority=dict(Counter(t['priority'] for t in tasks)),inline_relationship_tasks=sum(t['production_target'].startswith('HTML') for t in tasks),uploaded_images_reviewed=len(imports),uploaded_images_approved_limited=sum(x['status']=='approved_for_limited_use' for x in imports),uploaded_images_quarantined=sum(x['status']=='rejected_pending_redraw' for x in imports),deterministic_summary_svgs=len(summary_svg),ai_images_generated_this_round=0)
 obj=dict(schema_version='2.0',date='2026-11-18',baseline_commit='daa36377c98508764780831e82d4ecbb06c27e69',scope='58真实小节的现有/新增需求；数学仍仅章级待确认，不编小节或函数参数',statistics=statistics,scientific_source_register=sources,illustrations=master,uploaded_batch01=imports,produced_summary_svgs=summary_svg,non_instructional_assets=base['non_instructional_assets'],limitations=['完整Prompt是待制作任务，不代表图片已生成或通过科学审定','11幅新增SVG多为关系/账本总结，不能冒充完整细胞解剖或实验装置图','数学35章均无可执行Prompt：需真实小节与I/II依据后再制作','其余只有章级目录的部分先查目录和知识范围，未虚构全科插图任务'])
+if (OUT/'P0_REVIEW.json').exists():
+ p0=json.loads((OUT/'P0_REVIEW.json').read_text());obj['uploaded_p0']=p0
+ statistics.update(uploaded_p0_reviewed=len(p0),uploaded_p0_limited=sum(x['status']=='approved_for_limited_use' for x in p0),uploaded_p0_quarantined=sum(x['status']=='quarantined' for x in p0),uploaded_p0_full_tasks_accepted=0)
+ for items in [obj['illustrations'],tasks,base['illustrations']]:
+  for item in items:
+   review=next((x for x in p0 if x['task_id']==item['id']),None)
+   if review:item['uploaded_artifact_review']=dict(path=review['path'],status=review['status'],finding=review['finding'],full_task_accepted=False)
+ (R/'illustration-manifest.json').write_text(json.dumps(base,ensure_ascii=False,indent=2)+'\n')
 (OUT/'ILLUSTRATION_MASTER_MANIFEST.json').write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n')
 (OUT/'PROMPTS_BATCH_ALL.json').write_text(json.dumps(dict(schema_version='2.0',statistics=statistics,tasks=tasks),ensure_ascii=False,indent=2)+'\n')
 md=['# 全部已确定的后续教学插图任务','',f'共{len(tasks)}条独立中英文制作Brief；其中{statistics["inline_relationship_tasks"]}条针对HTML/CSS知识关系图，其余为图像制作。另35条数学章级计划因无真实小节/归属而冻结，不假造编号或函数参数。203条旧记录加化学6的6条为209条总记录；60条保留、35条冻结、114条需制作/修正。','',
@@ -111,7 +119,7 @@ for t in sorted(tasks,key=lambda x:({'物理':0,'化学':1,'生物':2}[x['subjec
  '17. 优先级：'+t['priority'],
  '18. 旧图复用：'+t['can_reuse_old_image']+'；'+t['reuse_details']['reason'],
  '19. 需要SVG等确定性绘图：'+str(t['requires_deterministic_svg_or_plotting'])+'；制作目标：'+t['production_target'],
- '20. 制作状态：'+t['production_status']+'；分类：'+t['category'],'',
+ '20. 制作状态：'+t['production_status']+'；分类：'+t['category']+('；上传P0草稿：'+t['uploaded_artifact_review']['status']+'；仅部分用途，整项任务尚未验收' if t.get('uploaded_artifact_review') else ''),'',
  '**完整中文Prompt**','',t['chinese_prompt'],'','**Complete English prompt**','',t['english_prompt'],'','**Negative Prompt**','',t['negative_prompt']['zh'],'',t['negative_prompt']['en'],'']
 md+=['## 冻结的数学计划','', '高数I/II入口保留，旧数学35章均未迁移。总清单为35章保留null小节号。未获取可靠归属、真实目录和参数前，不生成看似可执行的数学图Prompt。','']
 (OUT/'PROMPTS_BATCH_ALL.md').write_text('\n'.join(md))

@@ -21,7 +21,11 @@
     "uploaded_images_approved_limited": 3,
     "uploaded_images_quarantined": 3,
     "deterministic_summary_svgs": 11,
-    "ai_images_generated_this_round": 0
+    "ai_images_generated_this_round": 0,
+    "uploaded_p0_reviewed": 10,
+    "uploaded_p0_limited": 5,
+    "uploaded_p0_quarantined": 5,
+    "uploaded_p0_full_tasks_accepted": 0
   },
   "tasks": [
     {
@@ -648,7 +652,13 @@
         9,
         10,
         12
-      ]
+      ],
+      "uploaded_artifact_review": {
+        "path": "illustrations/incoming/p0/ILL-ASSET-C5_1A.svg",
+        "status": "approved_for_limited_use",
+        "finding": "三个历史模型区别及单电子数正确；仅模型比较，不提供金箔装置/统计或精确比例。",
+        "full_task_accepted": false
+      }
     },
     {
       "id": "ILL-ASSET-C5_1B",
@@ -1262,7 +1272,13 @@
         9,
         10,
         12
-      ]
+      ],
+      "uploaded_artifact_review": {
+        "path": "illustrations/incoming/p0/ILL-ASSET-C5_4C.svg",
+        "status": "approved_for_limited_use",
+        "finding": "轨域框数1/5/3/5正确。近似填充图只用于中性原子构造入门；不能当所有原子/离子的固定能级，更不能用其直接判Fe离子失电子顺序。",
+        "full_task_accepted": false
+      }
     },
     {
       "id": "ILL-ASSET-B1_1",
@@ -2921,7 +2937,13 @@
         9,
         10,
         12
-      ]
+      ],
+      "uploaded_artifact_review": {
+        "path": "illustrations/incoming/p0/ILL-ASSET-B3_4.svg",
+        "status": "approved_for_limited_use",
+        "finding": "简化生化转化关系可用；ΔG<0须绑定细胞条件与浓度，不是任意条件。未画独立能量耦联支路，任务仅部分满足。",
+        "full_task_accepted": false
+      }
     },
     {
       "id": "ILL-ASSET-B3_5A",
@@ -3058,7 +3080,13 @@
         9,
         10,
         12
-      ]
+      ],
+      "uploaded_artifact_review": {
+        "path": "illustrations/incoming/p0/ILL-ASSET-B3_5A.svg",
+        "status": "quarantined",
+        "finding": "发酵连线没有箭头端标；未标NADH/电子传递到O₂的关系，丙酮酸→连接→克氏→ETC易把碳路径当电子路径。应区分区室/碳流/电子流。",
+        "full_task_accepted": false
+      }
     },
     {
       "id": "ILL-ASSET-B3_5B",
@@ -3323,7 +3351,13 @@
         9,
         10,
         12
-      ]
+      ],
+      "uploaded_artifact_review": {
+        "path": "illustrations/incoming/p0/ILL-ASSET-B3_6B.svg",
+        "status": "approved_for_limited_use",
+        "finding": "光解原子/电荷配平正确；ATP/NADPH及返回物方向正确。仅两阶段关系概览，不是完整光系统结构。",
+        "full_task_accepted": false
+      }
     },
     {
       "id": "ILL-ASSET-B3_6C",
@@ -3467,7 +3501,13 @@
         9,
         10,
         12
-      ]
+      ],
+      "uploaded_artifact_review": {
+        "path": "illustrations/incoming/p0/ILL-ASSET-B3_6C.svg",
+        "status": "quarantined",
+        "finding": "3CO₂→3RuBP误画成顺序转化；6G3P→5G3P→1G3P把分流画成串联，缺5G3P再生RuBP回路。数值碳账正确不足以使结构通过。",
+        "full_task_accepted": false
+      }
     },
     {
       "id": "ILL-ASSET-B3_7A",
@@ -3865,7 +3905,13 @@
         9,
         10,
         12
-      ]
+      ],
+      "uploaded_artifact_review": {
+        "path": "illustrations/incoming/p0/ILL-ASSET-B3_7C.svg",
+        "status": "quarantined",
+        "finding": "相同x处总CO₂不是两分量和。左端y对应总385、两分量350+35相符；右端总420而分量65+375=440，整段Bezier未经求和。定性声明不能豁免分量账本。",
+        "full_task_accepted": false
+      }
     },
     {
       "id": "ILL-MAP-PHY-3_1",
@@ -4352,7 +4398,13 @@
         9,
         10,
         12
-      ]
+      ],
+      "uploaded_artifact_review": {
+        "path": "illustrations/incoming/p0/ILL-PLAN-PHY-3_3-01.svg",
+        "status": "approved_for_limited_use",
+        "finding": "−2→5→1的数值计算11m/+3m正确；轴标不按等比例，限用于过程排序和数值账本。",
+        "full_task_accepted": false
+      }
     },
     {
       "id": "ILL-PLAN-PHY-3_4-01",
@@ -5682,7 +5734,13 @@
         9,
         10,
         12
-      ]
+      ],
+      "uploaded_artifact_review": {
+        "path": "illustrations/incoming/p0/ILL-PLAN-PHY-4_2-01.svg",
+        "status": "quarantined",
+        "finding": "静止分支与5N点正确，但极限后水平虚线视觉上形成8N滑动平台；虽页脚否认，仍会把未给μk曲线呈现为数据。需去掉越界曲线/另明确极限参考线，避免误导。",
+        "full_task_accepted": false
+      }
     },
     {
       "id": "ILL-PLAN-PHY-4_2-02",
@@ -5889,7 +5947,13 @@
         9,
         10,
         12
-      ]
+      ],
+      "uploaded_artifact_review": {
+        "path": "illustrations/incoming/p0/ILL-PLAN-PHY-4_3-01.svg",
+        "status": "quarantined",
+        "finding": "同一向量平面横360px代表6N、纵400px代表8N，像素比例0.9不是6/8=0.75；可见夹角arctan(400/360)=48.0°，与53.1°不符；缺θ角弧。不得作精确几何图。",
+        "full_task_accepted": false
+      }
     },
     {
       "id": "ILL-MAP-PHY-4_4",

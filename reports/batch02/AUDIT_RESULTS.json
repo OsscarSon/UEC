@@ -11,7 +11,7 @@
     "explicit_eight_stage_new_question_records": 138,
     "existing_examples_expanded": 123,
     "all_examples_with_eight_stages": 174,
-    "total_records_with_explicit_eight_stages": 261,
+    "total_records_with_explicit_eight_stages": 265,
     "goal_mappings": 116,
     "goal_diagnostic_questions_added": 2,
     "checks_passed": 1821,
@@ -1349,7 +1349,7 @@
       "detail": ""
     },
     {
-      "name": "diagnostic question resolves 生物33.4e2",
+      "name": "diagnostic question resolves 生物33.4p3",
       "result": "pass",
       "detail": ""
     },
@@ -1384,7 +1384,7 @@
       "detail": ""
     },
     {
-      "name": "original provenance and solution 生物33.4综合2.2：主动泵用AT",
+      "name": "original provenance and solution 生物33.4在相同条件下，ATP水解",
       "result": "pass",
       "detail": ""
     },
@@ -1434,7 +1434,7 @@
       "detail": ""
     },
     {
-      "name": "diagnostic question resolves 生物33.5e0",
+      "name": "diagnostic question resolves 生物33.5p3",
       "result": "pass",
       "detail": ""
     },
@@ -1474,7 +1474,7 @@
       "detail": ""
     },
     {
-      "name": "original provenance and solution 生物33.5综合3.4：氧耗增大是否",
+      "name": "original provenance and solution 生物33.5真核细胞内膜被解偶联处理",
       "result": "pass",
       "detail": ""
     },
@@ -1524,7 +1524,7 @@
       "detail": ""
     },
     {
-      "name": "diagnostic question resolves 生物33.6e0",
+      "name": "diagnostic question resolves 生物33.6p3",
       "result": "pass",
       "detail": ""
     },
@@ -1564,7 +1564,7 @@
       "detail": ""
     },
     {
-      "name": "original provenance and solution 生物33.6综合3.5：绿色细胞在光",
+      "name": "original provenance and solution 生物33.6固定3CO₂的卡尔文循环",
       "result": "pass",
       "detail": ""
     },
@@ -1614,7 +1614,7 @@
       "detail": ""
     },
     {
-      "name": "diagnostic question resolves 生物33.7e0",
+      "name": "diagnostic question resolves 生物33.7p3",
       "result": "pass",
       "detail": ""
     },
@@ -1654,7 +1654,7 @@
       "detail": ""
     },
     {
-      "name": "original provenance and solution 生物33.7综合3.5：氧浓度某点总",
+      "name": "original provenance and solution 生物33.7同一叶片三个光强下，呼吸",
       "result": "pass",
       "detail": ""
     },
@@ -3924,7 +3924,7 @@
       "detail": ""
     },
     {
-      "name": "diagnostic question resolves 物理33.3e0",
+      "name": "diagnostic question resolves 物理33.3p3",
       "result": "pass",
       "detail": ""
     },
@@ -3964,7 +3964,7 @@
       "detail": ""
     },
     {
-      "name": "original provenance and solution 物理33.3综合3.6：物体从x=4",
+      "name": "original provenance and solution 物理33.3质点沿同一直线从−2m到",
       "result": "pass",
       "detail": ""
     },
@@ -4619,7 +4619,7 @@
       "detail": ""
     },
     {
-      "name": "diagnostic question resolves 物理44.2e0",
+      "name": "diagnostic question resolves 物理44.2p3",
       "result": "pass",
       "detail": ""
     },
@@ -4654,7 +4654,7 @@
       "detail": ""
     },
     {
-      "name": "original provenance and solution 物理44.2综合4.7：2kg块N＝",
+      "name": "original provenance and solution 物理44.2水平桌面上2kg块，g=",
       "result": "pass",
       "detail": ""
     },
@@ -4704,7 +4704,7 @@
       "detail": ""
     },
     {
-      "name": "diagnostic question resolves 物理44.3e0",
+      "name": "diagnostic question resolves 物理44.3p3",
       "result": "pass",
       "detail": ""
     },
@@ -4744,7 +4744,7 @@
       "detail": ""
     },
     {
-      "name": "original provenance and solution 物理44.3综合4.1：8N与3N方",
+      "name": "original provenance and solution 物理44.3两力F₁=10N向东、F",
       "result": "pass",
       "detail": ""
     },
@@ -5144,7 +5144,7 @@
       "detail": ""
     },
     {
-      "name": "diagnostic question resolves 物理44.8p1",
+      "name": "diagnostic question resolves 物理44.8p3",
       "result": "pass",
       "detail": ""
     },
@@ -5179,7 +5179,7 @@
       "detail": ""
     },
     {
-      "name": "original provenance and solution 物理44.8综合4.7：马以300N",
+      "name": "original provenance and solution 物理44.8光滑水平面上2kg块A与",
       "result": "pass",
       "detail": ""
     },

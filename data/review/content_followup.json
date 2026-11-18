@@ -21,7 +21,7 @@
       "M05",
       "M12"
     ],
-    "required_expansion_or_verification": "保留已修绝对值；补多次折返和带区间的图读数检测，防止只会单段端点相减。",
+    "required_expansion_or_verification": "本轮已补三次折返/原点平移的独立综合练习和目标回链，P0数轴仅非比例过程图可用；仍需等比例图读数及知识完整性复核。",
     "status": "followup_required_not_finally_accepted"
   },
   "物理3:3.4": {
@@ -86,7 +86,7 @@
       "M05",
       "M12"
     ],
-    "required_expansion_or_verification": "绝对值已修；补四类力的混合辨认与接触条件消失，弹簧例仅抽查一类相互作用。",
+    "required_expansion_or_verification": "本轮已补静止/起滑/失去接触三阶段题；上传摩擦图因越界平台暗示隔离。仍需四类力混合识图及动摩擦条件练习。",
     "status": "followup_required_not_finally_accepted"
   },
   "物理4:4.3": {
@@ -94,7 +94,7 @@
       "M05",
       "M06"
     ],
-    "required_expansion_or_verification": "需重建精确矢量几何；补非直角合成、旋转坐标分解及夹角判别题，原PNG不得用于答案验证。",
+    "required_expansion_or_verification": "本轮已补非直角合成与旋转坐标双解核验；上传向量图比例错误隔离，精确几何图仍需重绘。",
     "status": "followup_required_not_finally_accepted"
   },
   "物理4:4.4": {
@@ -135,7 +135,7 @@
       "M05",
       "M12"
     ],
-    "required_expansion_or_verification": "绝对值已修；补两个对象分别作图再求系统运动的题，避免只背“不能相消”。",
+    "required_expansion_or_verification": "本轮已补接触双物体的整体/单体求解及第三定律配对；仍需更多不同初态受力图及独立图示验收。",
     "status": "followup_required_not_finally_accepted"
   },
   "化学3:3.1": {
@@ -443,7 +443,7 @@
       "M05",
       "M12"
     ],
-    "required_expansion_or_verification": "整体水解能量已纠正；补ATP再生物质账本及耦联机制题，热力学可行不等于反应速率足够。",
+    "required_expansion_or_verification": "本轮已补物质池/累计周转及实际耦联条件，上传简化循环图限定接入；仍需独立耦联支路图及多条件自由能判断。",
     "status": "followup_required_not_finally_accepted"
   },
   "生物3:3.5": {
@@ -451,7 +451,7 @@
       "M05",
       "M12"
     ],
-    "required_expansion_or_verification": "目标2已回链ATP计量；仍需全部区室/电子受体与实验数据评价的独立检测及精确内膜图。",
+    "required_expansion_or_verification": "本轮已补解偶联、区室、电子受体和ATP/O₂效率题；上传碳/电子路径图隔离，仍需精确内膜图和更多实验反例。",
     "status": "followup_required_not_finally_accepted"
   },
   "生物3:3.6": {
@@ -459,7 +459,7 @@
       "M05",
       "M12"
     ],
-    "required_expansion_or_verification": "碳账已统一；需两阶段区室、ATP/NADPH交换图，现碳计数题未完整检验目标1。",
+    "required_expansion_or_verification": "本轮已补两阶段区室、辅酶往返与碳分流检测；阶段概览图接入、错误分流图隔离，仍需完整光系统及正确循环图。",
     "status": "followup_required_not_finally_accepted"
   },
   "生物3:3.7": {
@@ -467,7 +467,7 @@
       "M05",
       "M12"
     ],
-    "required_expansion_or_verification": "净/总量边界已补；需不同因素曲线及补偿点读图，现净量计算不足以检测全部曲线目标。",
+    "required_expansion_or_verification": "本轮已补三光强净/总量与补偿状态及因果控制题；上传总量曲线非分量和而隔离，仍需可复核曲线与温度系列诊断。",
     "status": "followup_required_not_finally_accepted"
   }
 }

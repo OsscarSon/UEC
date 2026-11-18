@@ -1,7 +1,7 @@
 subject,chapter_id,section_id,section_title,modules,specific_followup,current_goal_question_refs,related_illustration_tasks,acceptance_status
 物理,3,3.1,机械运动,M05/M06/M12,补同一物体在不同研究尺度下可否作质点的成对情境，并配始末状态图；现检测主要抽查火车尺寸。,1:e0;2:p0,ILL-MAP-PHY-3_1;ILL-PLAN-PHY-3_1-01,followup_required_not_finally_accepted
 物理,3,3.2,参照物、坐标系和参照系,M05/M06,增加位置—时间多步参照系转换的图表题；目前匀速平移例不能代表旋转/非惯性参照系。,1:e1;2:p2,ILL-MAP-PHY-3_2;ILL-PLAN-PHY-3_2-01,followup_required_not_finally_accepted
-物理,3,3.3,路程和位移,M05/M12,保留已修绝对值；补多次折返和带区间的图读数检测，防止只会单段端点相减。,1:e0;2:p1,ILL-PLAN-PHY-3_3-01,followup_required_not_finally_accepted
+物理,3,3.3,路程和位移,M05/M12,本轮已补三次折返/原点平移的独立综合练习和目标回链，P0数轴仅非比例过程图可用；仍需等比例图读数及知识完整性复核。,1:p3;2:p1,ILL-PLAN-PHY-3_3-01,followup_required_not_finally_accepted
 物理,3,3.4,匀速直线运动　速度和速率,M06/M12,补不同出发时刻、反向运动及相遇后条件；单位换算检测未单独证明速度/速率概念已掌握。,1:e0;2:p0,ILL-PLAN-PHY-3_4-01,followup_required_not_finally_accepted
 物理,3,3.5,匀速直线运动的图象,M05/M12,限定PNG不测定量；补负斜率、非零初位置与s-t/v-t交点对照的独立检测。,1:e2;2:p1,ILL-MAP-PHY-3_5;ILL-PLAN-PHY-3_5-01,followup_required_not_finally_accepted
 物理,3,3.6,变速直线运动　平均速度和瞬时速度,M05/M12,补切线局部读数与等时/等路程条件判断；当前目标检测偏平均速率计算。,1:e0;2:p2,ILL-ASSET-P3_6;ILL-MAP-PHY-3_6;ILL-PLAN-PHY-3_6-01,followup_required_not_finally_accepted
@@ -9,13 +9,13 @@ subject,chapter_id,section_id,section_title,modules,specific_followup,current_go
 物理,3,3.8,匀加速直线运动,M05/M06/M12,已有图面积推导；继续补反应时间与制动距离联立的原创综合题和停后时段检查。,1:e1;2:e0,ILL-PLAN-PHY-3_8-01;ILL-PLAN-PHY-3_8-02,followup_required_not_finally_accepted
 物理,3,3.9,自由落体运动,M05/M12,补测g图线、仪器读数与误差方向；目前上抛/落地检测没有覆盖实验目标。,1:e0;2:e2,ILL-MAP-PHY-3_9;ILL-PLAN-PHY-3_9-01;ILL-PLAN-PHY-3_9-02,followup_required_not_finally_accepted
 物理,4,4.1,力与运动,M05/M12,补不同运动状态下同一对象的受力图选择；“向右速度”一问不能全面检验完整受力图。,1:e2;2:p1,ILL-PLAN-PHY-4_1-01,followup_required_not_finally_accepted
-物理,4,4.2,力的种类,M05/M12,绝对值已修；补四类力的混合辨认与接触条件消失，弹簧例仅抽查一类相互作用。,1:e2;2:e0,ILL-PLAN-PHY-4_2-01;ILL-PLAN-PHY-4_2-02,followup_required_not_finally_accepted
-物理,4,4.3,力的合成与分解,M05/M06,需重建精确矢量几何；补非直角合成、旋转坐标分解及夹角判别题，原PNG不得用于答案验证。,1:e0;2:p1,ILL-PLAN-PHY-4_3-01,followup_required_not_finally_accepted
+物理,4,4.2,力的种类,M05/M12,本轮已补静止/起滑/失去接触三阶段题；上传摩擦图因越界平台暗示隔离。仍需四类力混合识图及动摩擦条件练习。,1:e2;2:p3,ILL-PLAN-PHY-4_2-01;ILL-PLAN-PHY-4_2-02,followup_required_not_finally_accepted
+物理,4,4.3,力的合成与分解,M05/M06,本轮已补非直角合成与旋转坐标双解核验；上传向量图比例错误隔离，精确几何图仍需重绘。,1:p3;2:p1,ILL-PLAN-PHY-4_3-01,followup_required_not_finally_accepted
 物理,4,4.4,牛顿第一运动定律,M05/M12,补理想实验中阻力逐步减小的证据图；区分理想外推与实际观测，不把车厢例当全部实验能力。,1:e0;2:e2,ILL-MAP-PHY-4_4;ILL-PLAN-PHY-4_4-01,followup_required_not_finally_accepted
 物理,4,4.5,惯性与质量,M05/M12,已有同合力地月比较；补安全带施力时序和原速度方向变化的多情境解释。,1:e0;2:p3,ILL-MAP-PHY-4_5;ILL-PLAN-PHY-4_5-01,followup_required_not_finally_accepted
 物理,4,4.6,动量,M05/M12,已把动量变化率目标回链到反弹平均力；再补变质量/选系统的适用边界与动能对照检测。,1:e0;2:e2,ILL-MAP-PHY-4_6;ILL-PLAN-PHY-4_6-01,followup_required_not_finally_accepted
 物理,4,4.7,牛顿第二运动定律,M05/M06/M12,补斜面摩擦方向随趋势改变的连接体题，电梯一题未覆盖斜面和全部系统选择。,1:e0;2:e2,ILL-ASSET-P4_7A;ILL-ASSET-P4_7B;ILL-PLAN-PHY-4_7-01;ILL-PLAN-PHY-4_7-02,followup_required_not_finally_accepted
-物理,4,4.8,牛顿第三运动定律,M05/M12,绝对值已修；补两个对象分别作图再求系统运动的题，避免只背“不能相消”。,1:e0;2:p1,ILL-PLAN-PHY-4_8-01,followup_required_not_finally_accepted
+物理,4,4.8,牛顿第三运动定律,M05/M12,本轮已补接触双物体的整体/单体求解及第三定律配对；仍需更多不同初态受力图及独立图示验收。,1:e0;2:p3,ILL-PLAN-PHY-4_8-01,followup_required_not_finally_accepted
 化学,3,3.1,原子学说与分子学说,M05/M12,补原子模型可解释与不可解释证据对照图；元素守恒粒子题仍需独立看图复测。,1:e0;2:e2,ILL-MAP-CHEM-3_1;ILL-PLAN-CHEM-3_1-01,followup_required_not_finally_accepted
 化学,3,3.2,物质组成及化学反应中的基本定律,M06/M12,补同一数据区分质量守恒、定比、倍比的判断；现倍比题未覆盖三定律全部适用前提。,1:e2;2:p1,ILL-MAP-CHEM-3_2;ILL-PLAN-CHEM-3_2-01,followup_required_not_finally_accepted
 化学,3,3.3,原子与相对原子质量,M05/M12,补质量数、单原子相对质量、平均Ar三栏辨析；现核符号题不完整检验这三个量。,1:e1;2:e0,ILL-MAP-CHEM-3_3;ILL-PLAN-CHEM-3_3-01;ILL-PLAN-CHEM-3_3-02,followup_required_not_finally_accepted
@@ -53,7 +53,7 @@ subject,chapter_id,section_id,section_title,modules,specific_followup,current_go
 生物,3,3.1,生物催化剂——酶,M05/M12,能垒定量图已补；结合/专一性结构图待重绘，目标1需酶底物结合的独立检测。,1:e0;2:e2,,followup_required_not_finally_accepted
 生物,3,3.2,影响酶活性的因素,M05/M06/M12,目标2已改回实验预保温题；仍需完整重复/散布/初速设计与温度/pH/抑制曲线诊断。,1:e0;2:p1,ILL-ASSET-B3_2A;ILL-ASSET-B3_2D;ILL-ASSET-B3_2E,followup_required_not_finally_accepted
 生物,3,3.3,酶在生产生活中的应用,M05/M12,固定化示意需装置重绘；当前累计产物题不独立检验传质阻力、泄漏和工艺控制。,1:e0;2:e2,ILL-ASSET-B3_3,followup_required_not_finally_accepted
-生物,3,3.4,细胞的能量通货——ATP,M05/M12,整体水解能量已纠正；补ATP再生物质账本及耦联机制题，热力学可行不等于反应速率足够。,1:e0;2:e2,ILL-ASSET-B3_4,followup_required_not_finally_accepted
-生物,3,3.5,生命活动的能量来自哪里——呼吸作用,M05/M12,目标2已回链ATP计量；仍需全部区室/电子受体与实验数据评价的独立检测及精确内膜图。,1:e0;2:e1,ILL-ASSET-B3_5A;ILL-ASSET-B3_5B,followup_required_not_finally_accepted
-生物,3,3.6,植物的光合作用,M05/M12,碳账已统一；需两阶段区室、ATP/NADPH交换图，现碳计数题未完整检验目标1。,1:e0;2:e2,ILL-ASSET-B3_6B;ILL-ASSET-B3_6C,followup_required_not_finally_accepted
-生物,3,3.7,环境因素对光合作用的影响,M05/M12,净/总量边界已补；需不同因素曲线及补偿点读图，现净量计算不足以检测全部曲线目标。,1:e0;2:e2,ILL-ASSET-B3_7A;ILL-ASSET-B3_7B;ILL-ASSET-B3_7C,followup_required_not_finally_accepted
+生物,3,3.4,细胞的能量通货——ATP,M05/M12,本轮已补物质池/累计周转及实际耦联条件，上传简化循环图限定接入；仍需独立耦联支路图及多条件自由能判断。,1:e0;2:p3,ILL-ASSET-B3_4,followup_required_not_finally_accepted
+生物,3,3.5,生命活动的能量来自哪里——呼吸作用,M05/M12,本轮已补解偶联、区室、电子受体和ATP/O₂效率题；上传碳/电子路径图隔离，仍需精确内膜图和更多实验反例。,1:p3;2:e1,ILL-ASSET-B3_5A;ILL-ASSET-B3_5B,followup_required_not_finally_accepted
+生物,3,3.6,植物的光合作用,M05/M12,本轮已补两阶段区室、辅酶往返与碳分流检测；阶段概览图接入、错误分流图隔离，仍需完整光系统及正确循环图。,1:p3;2:e2,ILL-ASSET-B3_6B;ILL-ASSET-B3_6C,followup_required_not_finally_accepted
+生物,3,3.7,环境因素对光合作用的影响,M05/M12,本轮已补三光强净/总量与补偿状态及因果控制题；上传总量曲线非分量和而隔离，仍需可复核曲线与温度系列诊断。,1:p3;2:e2,ILL-ASSET-B3_7A;ILL-ASSET-B3_7B;ILL-ASSET-B3_7C,followup_required_not_finally_accepted

@@ -177,7 +177,7 @@ No reversed operations/arrows, changed problem values, inconsistent units/scales
 17. 优先级：P0
 18. 旧图复用：no；当前没有满足该教学目的的同节图；可复用基础颜色与符号，不能把计划当成成品。
 19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
-20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg；上传P0草稿：approved_for_limited_use；仅部分用途，整项任务尚未验收
 
 **完整中文Prompt**
 
@@ -697,7 +697,7 @@ No reversed operations/arrows, changed problem values, inconsistent units/scales
 17. 优先级：P0
 18. 旧图复用：no；当前没有满足该教学目的的同节图；可复用基础颜色与符号，不能把计划当成成品。
 19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
-20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg；上传P0草稿：quarantined；仅部分用途，整项任务尚未验收
 
 **完整中文Prompt**
 
@@ -771,7 +771,7 @@ No invented hardware, recipes, doses, experimental data, error bars or safety gu
 17. 优先级：P0
 18. 旧图复用：no；当前没有满足该教学目的的同节图；可复用基础颜色与符号，不能把计划当成成品。
 19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
-20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg；上传P0草稿：quarantined；仅部分用途，整项任务尚未验收
 
 **完整中文Prompt**
 
@@ -2109,7 +2109,7 @@ No reversed operations/arrows, changed problem values, inconsistent units/scales
 17. 优先级：P0
 18. 旧图复用：partial；保留现有文件；按本条决定复用、局部改标或重绘；本轮不执行绘图。
 19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
-20. 制作状态：brief_ready_requires_science_review；分类：structure_schematic
+20. 制作状态：brief_ready_requires_science_review；分类：structure_schematic；上传P0草稿：approved_for_limited_use；仅部分用途，整项任务尚未验收
 
 **完整中文Prompt**
 
@@ -2294,7 +2294,7 @@ No classification-as-causation, energy supply as cargo route, disconnected membr
 17. 优先级：P0
 18. 旧图复用：partial；保留现有文件；按本条决定复用、局部改标或重绘；本轮不执行绘图。
 19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
-20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg；上传P0草稿：approved_for_limited_use；仅部分用途，整项任务尚未验收
 
 **完整中文Prompt**
 
@@ -3967,7 +3967,7 @@ No invented hardware, recipes, doses, experimental data, error bars or safety gu
 17. 优先级：P0
 18. 旧图复用：partial；保留现有文件；按本条决定复用、局部改标或重绘；本轮不执行绘图。
 19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
-20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg；上传P0草稿：approved_for_limited_use；仅部分用途，整项任务尚未验收
 
 **完整中文Prompt**
 
@@ -4004,7 +4004,7 @@ No reversed operations/arrows, changed problem values, inconsistent units/scales
 17. 优先级：P0
 18. 旧图复用：partial；保留现有文件；按本条决定复用、局部改标或重绘；本轮不执行绘图。
 19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
-20. 制作状态：brief_ready_requires_science_review；分类：structure_schematic
+20. 制作状态：brief_ready_requires_science_review；分类：structure_schematic；上传P0草稿：quarantined；仅部分用途，整项任务尚未验收
 
 **完整中文Prompt**
 
@@ -4078,7 +4078,7 @@ No classification-as-causation, energy supply as cargo route, disconnected membr
 17. 优先级：P0
 18. 旧图复用：partial；保留现有文件；按本条决定复用、局部改标或重绘；本轮不执行绘图。
 19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
-20. 制作状态：brief_ready_requires_science_review；分类：structure_schematic
+20. 制作状态：brief_ready_requires_science_review；分类：structure_schematic；上传P0草稿：approved_for_limited_use；仅部分用途，整项任务尚未验收
 
 **完整中文Prompt**
 
@@ -4115,7 +4115,7 @@ No classification-as-causation, energy supply as cargo route, disconnected membr
 17. 优先级：P0
 18. 旧图复用：partial；保留现有文件；按本条决定复用、局部改标或重绘；本轮不执行绘图。
 19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
-20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg；上传P0草稿：quarantined；仅部分用途，整项任务尚未验收
 
 **完整中文Prompt**
 
@@ -4226,7 +4226,7 @@ No reversed operations/arrows, changed problem values, inconsistent units/scales
 17. 优先级：P0
 18. 旧图复用：partial；保留现有文件；按本条决定复用、局部改标或重绘；本轮不执行绘图。
 19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
-20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg；上传P0草稿：quarantined；仅部分用途，整项任务尚未验收
 
 **完整中文Prompt**
 

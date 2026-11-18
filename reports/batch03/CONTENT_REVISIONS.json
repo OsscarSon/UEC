@@ -1,0 +1,58 @@
+[
+  {
+    "section": "phys03:3.3",
+    "record": "practice[3]",
+    "action": "重写原题，题数不增加",
+    "question": "质点沿同一直线从−2m到5m，再到1m，最后到−3m。求全程路程、位移及位移大小，并核对原点平移后的结果。",
+    "answer": "路程15m；位移−1m；位移大小1m。"
+  },
+  {
+    "section": "phys04:4.2",
+    "record": "practice[3]",
+    "action": "重写原题，题数不增加",
+    "question": "水平桌面上2kg块，g=10m/s²，μs=0.4。先向右拉5N，再增至10N；最后解除接触。分别分析摩擦和支持力，μk未给。",
+    "answer": "5N静摩擦；10N时不能静止且动摩擦数值不足；离桌后N=f=0。"
+  },
+  {
+    "section": "phys04:4.3",
+    "record": "practice[3]",
+    "action": "重写原题，题数不增加",
+    "question": "两力F₁=10N向东、F₂=10N东偏北60°，求合力大小与方向；若绕合力方向建坐标，横向分量如何抵消？",
+    "answer": "10√3N，东偏北30°。"
+  },
+  {
+    "section": "phys04:4.8",
+    "record": "practice[3]",
+    "action": "重写原题，题数不增加",
+    "question": "光滑水平面上2kg块A与3kg块B接触，10N水平力推A向B，求共同加速度及接触力；分别画力时第三定律对能否相消？",
+    "answer": "a=2m/s²；接触力6N。"
+  },
+  {
+    "section": "bio03:3.4",
+    "record": "practice[3]",
+    "action": "重写原题，题数不增加",
+    "question": "在相同条件下，ATP水解ΔG=−30kJ/mol，过程X每mol需+20kJ。若每mol X实际耦联1mol ATP，净ΔG是多少？ATP池仅0.01mol，却累计水解0.10mol，可否发生？",
+    "answer": "净−10kJ/mol X；可经再生累计周转10轮。"
+  },
+  {
+    "section": "bio03:3.5",
+    "record": "practice[3]",
+    "action": "重写原题，题数不增加",
+    "question": "真核细胞内膜被解偶联处理，O₂消耗升高而ATP产量下降。能否仅由耗氧判断ATP效率增加？说明区室、电子受体及实验对照。",
+    "answer": "不能；应比较同条件ATP/O₂及耦联状态。"
+  },
+  {
+    "section": "bio03:3.6",
+    "record": "practice[3]",
+    "action": "重写原题，题数不增加",
+    "question": "固定3CO₂的卡尔文循环形成6个三碳中间产物；请解释为何只有1个G3P净输出，另5个去哪里，并联系光反应的区室与能量物质。",
+    "answer": "5G3P再生RuBP，1G3P净输出；9ATP及6NADPH/3CO₂。"
+  },
+  {
+    "section": "bio03:3.7",
+    "record": "practice[3]",
+    "action": "重写原题，题数不增加",
+    "question": "同一叶片三个光强下，呼吸释放均2单位CO₂，净吸收分别−2、0、6。求各总光合速率，判断补偿点，并说明能否唯一推温度最优。",
+    "answer": "总光合0、2、8；第二状态净补偿；温度最优无法判断。"
+  }
+]

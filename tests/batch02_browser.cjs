@@ -12,7 +12,7 @@ const {chromium}=require('playwright'),assert=require('node:assert/strict'),fs=r
  await p.evaluate(()=>{S.goalChecks={};save()});await p.locator('#imp').setInputFiles({name:'goal-backup.json',mimeType:'application/json',buffer:Buffer.from(backup)});await p.waitForFunction(()=>JSON.parse(localStorage.getItem('uec27')).goalChecks['物理3:3.3:goal0']==='ready');
  const seen=[];
  for(const key of ['物理3','化学4','生物2']){
-  await p.goto(root+'#lesson='+encodeURIComponent(key));const approved=p.locator('figure img[src*="illustrations/incoming/"]');assert.equal(await approved.count(),1);seen.push(await approved.getAttribute('src'));
+  await p.goto(root+'#lesson='+encodeURIComponent(key));const approved=p.locator('figure img[src*="illustrations/incoming/batch01/"]');assert.equal(await approved.count(),1);seen.push(await approved.getAttribute('src'));
   await approved.scrollIntoViewIfNeeded();await approved.evaluate(i=>{i.loading='eager';return i.decode()});const trigger=approved.locator('..');await trigger.focus();await p.keyboard.press('Enter');const d=p.locator('#figure-viewer');assert.ok(await d.isVisible());assert.ok(await d.locator('img').evaluate(i=>i.decode().then(()=>i.naturalWidth>0)));
   assert.ok(await d.locator('.viewer-scroll').evaluate(e=>e.scrollWidth>e.clientWidth));assert.ok(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));await p.keyboard.press('Escape');assert.equal(await d.isVisible(),false);assert.ok(await trigger.evaluate(e=>e===document.activeElement));
  }
@@ -30,7 +30,7 @@ const {chromium}=require('playwright'),assert=require('node:assert/strict'),fs=r
   await strategy.screenshot({path:`reports/batch02/screenshots/strategy-${width}.png`});
  }
  await p.setViewportSize({width:390,height:844});await p.goto(root+'#lesson='+encodeURIComponent('物理3'));
- const preview=p.locator('figure img[src*="illustrations/incoming/"]');await preview.scrollIntoViewIfNeeded();await preview.evaluate(i=>{i.loading='eager';return i.decode()});await preview.locator('..').click();
+ const preview=p.locator('figure img[src*="illustrations/incoming/batch01/"]');await preview.scrollIntoViewIfNeeded();await preview.evaluate(i=>{i.loading='eager';return i.decode()});await preview.locator('..').click();
  await p.locator('#figure-viewer img').evaluate(i=>i.decode());await p.screenshot({path:'reports/batch02/screenshots/zoom-mobile.png'});await p.keyboard.press('Escape');
  assert.deepEqual(errors,[]);
  // New SVG text and numeric geometries: bounds, energy positions, curve endpoint/peak numbers.

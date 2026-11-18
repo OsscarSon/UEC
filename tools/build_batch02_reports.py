@@ -12,9 +12,9 @@ for d in curr:
  after='B' if secs else 'D' if d['subject']=='数学' else 'C'
  if after=='B':reason='12模块实现且完成本轮改善；仍有部分结构/实验图、知识点全面教研及适用版本核对未最终验收，不用结构齐备宣称全部标准通过。'
  elif after=='D':reason='已找到2026修订高级数学课程标准的35章内容表；标准编号不直接当教材小节。仍缺学校真实目录与I/II逐项对应，S06正文/附注存在指向冲突，暂不迁移。'
- elif d['subject']=='物理':reason='本轮未取得可完整逐项复核的同版本物理小节表；公开课程页访问失败，保留原章，不造编号。'
+ elif d['subject']=='物理':reason='章级课程身份保留。已检查全部本地历史/课程数据，未找回此章用户教材小节；这是保存/版本对应缺口，不表示教材无小节或不可靠。'
  elif d['subject']=='化学' and d['chapter'] in [7,8]:reason='已取得董总公开内容表第3页候选小节；尚未写成全章笔记与完成逐项科学/图示审定。这是未完成工作，不是声称没有来源。'
- else:reason='找到化学/生物公开课程内容表候选，但未完成本章小节转录、版本对应、原创教学和逐项验证；不把检索到目录当完成。'
+ else:reason='原章身份可靠保留；公开目录为研究候选，尚未确认与用户照片的实际教材同版；未找回保存的小节及未完成内容，不据此否定教材来源。'
  rows.append(dict(subject=d['subject'],chapter_id=d['chapter'],chapter_title=d['title'],original_order=len(rows),category_before=before,category_after=after,actual_section_count=len(secs),actual_section_ids=';'.join(x['id'] for x in secs),modules_implemented=len(secs)*12 if units else 0,acceptance_status='not_claimed_fully_complete',reason=reason,source_status='partially_verified' if after=='B' else 'needs_review'))
  for sec in secs:
   u=units.get(sec['id']);section_rows.append(dict(subject=d['subject'],chapter_id=d['chapter'],chapter_title=d['title'],section_id=sec['id'],section_title=sec['t'],new_in_batch02=key=='化学6',depth_action='原41节深化' if before=='B' and key not in ['化学5','生物3'] else '原有11节新增十二模块' if key in ['化学5','生物3'] else '目录证据核对后新增小节及内容',module_count=12 if u else 0,example_count=len(u['examples']) if u else 0,practice_count=len(u['practice']) if u else 0,quiz_count=1 if u else 0,diagnostic_mapping_count=len(u['diagnostics']) if u else 0,status='implemented_pending_final_content_acceptance'))
@@ -27,7 +27,7 @@ with p.open() as f:reader=csv.DictReader(f);fields=reader.fieldnames;mapping=lis
 math_url='https://elearning.dongzong.my/pluginfile.php/73029/mod_resource/content/4/高级数学课程标准中文版%20Jan2026.pdf'
 for item in mapping:
  if math_url not in item['evidence_link_or_page']:item['evidence_link_or_page']+='; '+math_url+' PDF12–20内容表'
- item['pending']='2026修订课程标准已取得部分内容表且35章主题可对照；仍无已核学校实际教材小节及I/II逐项归属。课程标准学习结果编号不冒充教材小节号；2027适用待确认，不迁移或复制进度。'
+ item['pending']='历史检查见reports/batch03/COURSE_HISTORY_AUDIT.md；2025学校书单列1996/1997高三数学，新旧版不可直接互换，2027及用户实际版本仍需匹配。2026修订课程标准已取得部分内容表且35章主题可对照；仍无已核学校实际教材小节及I/II逐项归属。课程标准学习结果编号不冒充教材小节号；2027适用待确认，不迁移或复制进度。'
 with p.open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=fields,lineterminator='\n');w.writeheader();w.writerows(mapping)
 # Sources consulted this round, with access failures distinguished from web-readable excerpts.
 sources=[
@@ -46,6 +46,9 @@ for units in s['batch'].values():
   for src in u['content_sources']:
    if src.get('url') and src['url'] not in seen:
     seen.add(src['url']);sources.append(dict(id=src['source_id'],type='science_or_curriculum_reference',location=src['url'],locator=src.get('page_or_section',str(src.get('page','相关条目'))),status='partially_verified',scope='相关科学原则核对，不代表所有段落独立教师审定或考试考频'))
+supplement=R/'reports/batch03/SOURCE_SUPPLEMENT.csv'
+if supplement.exists():
+ for x in csv.DictReader(supplement.open()):sources.append(dict(id=x['id'],type='school_historical_or_official_index',location=x['url'],locator='本轮网页/PDF索引查看',status=x['status'],scope=x['scope']))
 csvout('SOURCE_ACCURACY_REGISTER.csv',sources)
 counts=Counter(r['category_after'] for r in rows);chapters=[r for r in rows if r['actual_section_count']]
 def table(headers,rr):return '\n'.join(['| '+' | '.join(headers)+' |','| '+' | '.join(['---']*len(headers))+' |']+['| '+' | '.join(str(v).replace('|','&#124;') for v in row)+' |' for row in rr])
