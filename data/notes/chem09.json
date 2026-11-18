@@ -1,0 +1,916 @@
+{
+  "9.1.1": {
+    "goals": [
+      "由金属结构理解物性与递变",
+      "区分物性观察与化学变化证据"
+    ],
+    "prerequisites": [
+      "金属键",
+      "密度与相态",
+      "周期趋势"
+    ],
+    "flow": [
+      "金属晶格",
+      "ns¹",
+      "密度",
+      "温度条件",
+      "物理与化学变化"
+    ],
+    "concept_relation": "密度是比值；导电靠电子；趋势逐量判断",
+    "deep": [
+      "物理性质不产生新物质，例如熔化、导电和压形；变暗、与水生成气体涉及化学变化。两类现象可在同一次观察中并存，分类应针对某个具体变化而非整个实验一概贴标签。",
+      "考试比较题可采用性质—结构—条件三栏：先给题给或可靠观察，再解释价层/晶格，最后说明趋势并非精确数值预测。"
+    ],
+    "derive": [
+      "密度ρ=m/V只在所定状态与温度下比较；浮沉还涉及液体密度和反应干扰。",
+      "金属固态导电主要靠离域电子；软和低熔点不意味着无金属键。",
+      "同族物性趋势需逐项核对，不从原子半径变化推出所有量单调。"
+    ],
+    "examples": [
+      {
+        "q": "某Na样品质量4.85g、体积5.00cm³，求密度。",
+        "given": "理想测量，不含表层杂质。",
+        "analysis": "质量除体积，单位应保留。",
+        "method": "用ρ=m/V。",
+        "steps": [
+          "4.85/5.00=0.970。",
+          "单位g/cm³。"
+        ],
+        "ans": "0.970g/cm³。",
+        "verification": "乘5.00cm³回到4.85g。",
+        "pitfall": "把V/m作为密度。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "密度是同状态下质量与体积的比，ρ=m/V；单位应保持质量/体积。"
+      },
+      {
+        "q": "Na表面由银白变暗，能将变暗列为单纯物理性质吗？",
+        "given": "接触空气后外观改变。",
+        "analysis": "表层可能产生新物质。",
+        "method": "区分金属本体与表面反应。",
+        "steps": [
+          "新鲜表面光泽是物性描述。",
+          "变暗涉及表面化学反应，需结合环境证据。"
+        ],
+        "ans": "不能把变化本身仅当物性。",
+        "verification": "反应产物和金属内层不可混称。",
+        "pitfall": "见颜色就一律归物理变化。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "物性描述对象应是确定物种和状态，表面发生反应后的颜色不能直接当原金属本体性质。"
+      },
+      {
+        "q": "某人由“Na到K原子更大”断言熔点、密度、硬度全部同向变化，评价。",
+        "given": "只给结构趋势。",
+        "analysis": "各宏观量决定因素不同。",
+        "method": "逐项查数据与机制。",
+        "steps": [
+          "尺寸影响成键，但不足给统一物性规律。",
+          "密度还取决质量与体积，熔点取决结构能量。",
+          "需各自数据，不能一个箭头代替全部。"
+        ],
+        "ans": "论证不足。",
+        "verification": "至少质量和体积可同时变化，不保证比值同向。",
+        "pitfall": "把一条周期趋势当所有性质定律。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "密度由质量与体积共同决定，熔点和硬度还受晶体及成键影响，单一原子尺寸趋势不足决定全部量。"
+      }
+    ],
+    "practice": [
+      {
+        "q": "Na/K导电主要载流者？",
+        "given": "金属固态。",
+        "analysis": "区分电子和离子。",
+        "method": "采用金属模型。",
+        "steps": [
+          "离域电子漂移。",
+          "离子实维持晶格。"
+        ],
+        "ans": "电子。",
+        "verification": "同金属键机制相容。",
+        "pitfall": "阳离子游动。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "密度ρ=m/V只在所定状态与温度下比较；浮沉还涉及液体密度和反应干扰。"
+      },
+      {
+        "q": "2.0g样品体积2.5cm³，密度？",
+        "given": "理想模型。",
+        "analysis": "比值单位g/cm³。",
+        "method": "2.0除2.5。",
+        "steps": [
+          "得0.80。",
+          "检查有效位数。"
+        ],
+        "ans": "0.80g/cm³。",
+        "verification": "0.80×2.5=2.0。",
+        "pitfall": "倒置分子分母。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "密度ρ=m/V只在所定状态与温度下比较；浮沉还涉及液体密度和反应干扰。"
+      },
+      {
+        "q": "熔化金属一定生成新元素吗？",
+        "given": "普通相变。",
+        "analysis": "元素身份由Z确定。",
+        "method": "比较前后身份。",
+        "steps": [
+          "原子序数不变。",
+          "相态变化而非核变化。"
+        ],
+        "ans": "不是。",
+        "verification": "仍为同种金属。",
+        "pitfall": "把软化当化学分解。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "密度ρ=m/V只在所定状态与温度下比较；浮沉还涉及液体密度和反应干扰。"
+      },
+      {
+        "q": "反应中金属在水面移动，能只用密度解释速度吗？",
+        "given": "伴气泡、放热。",
+        "analysis": "动力学不由浮沉唯一决定。",
+        "method": "列其他原因。",
+        "steps": [
+          "气体释放可推动。",
+          "温度与表面也影响。"
+        ],
+        "ans": "不能。",
+        "verification": "密度仅支持浮沉趋势。",
+        "pitfall": "把观察结果归唯一原因。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "密度ρ=m/V只在所定状态与温度下比较；浮沉还涉及液体密度和反应干扰。"
+      }
+    ],
+    "quiz": {
+      "q": "所有碱金属密度严格向下增大吗？",
+      "given": "族内有例外。",
+      "analysis": "需核实际物性。",
+      "method": "拒绝绝对化。",
+      "steps": [
+        "质量与体积共同影响。",
+        "不能只凭族位置保证严格递变。"
+      ],
+      "ans": "不应这样断言。",
+      "verification": "可用实际物性表核查。",
+      "pitfall": "原子大就密度必大。",
+      "question_origin": "original",
+      "paper_no": null,
+      "principle": "密度ρ=m/V只在所定状态与温度下比较；浮沉还涉及液体密度和反应干扰。"
+    },
+    "exam": [
+      "物性比较题先写测量条件，再给结构解释",
+      "演示现象中分离浮沉、移动、变暗和生成气体，各自判断"
+    ],
+    "quick": [
+      "密度是比值",
+      "导电靠电子",
+      "趋势逐量判断"
+    ],
+    "verification_status": "partially_verified",
+    "exam_evidence": [],
+    "strategy": {
+      "trigger": "物性比较题先写测量条件，再给结构解释",
+      "method": "逐项查数据与机制。",
+      "principle": "密度由质量与体积共同决定，熔点和硬度还受晶体及成键影响，单一原子尺寸趋势不足决定全部量。",
+      "worked_example_index": 2,
+      "verification": "至少质量和体积可同时变化，不保证比值同向。",
+      "pitfall": "把一条周期趋势当所有性质定律。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "本目标抽样复核：乘5.00cm³回到4.85g。；错因：把V/m作为密度。。还需结合其他题检查目标的其余子技能。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "本目标抽样复核：至少质量和体积可同时变化，不保证比值同向。；错因：把一条周期趋势当所有性质定律。。还需结合其他题检查目标的其余子技能。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "原子大就密度必大。",
+        "correction": "不应这样断言。",
+        "verification": "可用实际物性表核查。"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "os_batch04_9.1.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/18-1-periodicity",
+        "page_or_section": "18-1-periodicity",
+        "version": "Chemistry 2e；理论辅助，非UEC范围",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "illustration_spec": {
+      "labels": [
+        "金属晶格",
+        "ns¹",
+        "密度",
+        "温度条件",
+        "物理与化学变化"
+      ],
+      "english": "Use a condition-labelled property comparison table for sodium and potassium, with density as mass/volume and electron conduction. Separate fresh-metal appearance from oxide surface formation; do not invent measured values or universal monotonic density trends.",
+      "scientific_requirements": [
+        "密度ρ=m/V只在所定状态与温度下比较；浮沉还涉及液体密度和反应干扰。",
+        "金属固态导电主要靠离域电子；软和低熔点不意味着无金属键。",
+        "同族物性趋势需逐项核对，不从原子半径变化推出所有量单调。"
+      ]
+    }
+  },
+  "9.1.2": {
+    "goals": [
+      "由ns¹及条件解释活泼性",
+      "按产物与电子守恒完成反应计量"
+    ],
+    "prerequisites": [
+      "氧化还原",
+      "物质的量",
+      "气体条件"
+    ],
+    "flow": [
+      "金属M",
+      "水",
+      "MOH",
+      "H₂",
+      "氧产物差异",
+      "溶剂竞争"
+    ],
+    "concept_relation": "ns¹常失一电子；产物依条件；气体计量后再换体积",
+    "deep": [
+      "本章实验以教师控制演示与现象解释为限，实际反应放热和生成气体会改变观察。定量题的“完全反应、无副反应”是模型前提，应明确写在解法中，而非把计算当实验操作方案。",
+      "复核方程式要检查M、H、O原子及升降价。若氧产物不同，耗氧比、放气量和电子当量也可能改变，必须先定产物再算量。"
+    ],
+    "derive": [
+      "2M+2H₂O→2MOH+H₂，完全反应且水足量时n(H₂)=n(M)/2。",
+      "碱金属氧产物依条件而异，普通氧化物/过氧化物/超氧化物不能混用。",
+      "水溶液中的活泼金属反应必须考虑溶剂，不把活动性顺序当单一产物保证。"
+    ],
+    "examples": [
+      {
+        "q": "2.30g Na与足量水完全反应，M(Na)=23.0，题给V_m=24.0L/mol，求H₂体积。",
+        "given": "产物NaOH与H₂。",
+        "analysis": "先由质量求mol再用2∶1。",
+        "method": "n→计量→体积。",
+        "steps": [
+          "n(Na)=2.30/23.0=0.100mol。",
+          "n(H₂)=0.0500mol。",
+          "V=0.0500×24.0=1.20L。"
+        ],
+        "ans": "1.20L。",
+        "verification": "2Na原子对应1H₂，检查没有漏1/2。",
+        "pitfall": "直接用0.100mol乘V_m。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "水足量完全反应时2Na对应1H₂；先求mol，再按给定V_m换体积，不能普遍套22.4。"
+      },
+      {
+        "q": "Na₂O与Na₂O₂各遇水，生成气体是否相同？",
+        "given": "分别为氧化物和过氧化物。",
+        "analysis": "氧初态价数不同，不能复用一式。",
+        "method": "分别写总反应。",
+        "steps": [
+          "Na₂O+H₂O→2NaOH。",
+          "2Na₂O₂+2H₂O→4NaOH+O₂。",
+          "后者可产生O₂，前者无此气体项。"
+        ],
+        "ans": "不同。",
+        "verification": "各式原子守恒；过氧物中O−1可歧化。",
+        "pitfall": "所有钠氧化物遇水均放H₂。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "普通氧化物与过氧化物的氧初价和反应路径不同，产物身份必须先确认再算气量。"
+      },
+      {
+        "q": "Na投入CuSO₄水溶液可否直接只写2Na+Cu²⁺→2Na⁺+Cu并认定唯一产物？",
+        "given": "体系有大量水。",
+        "analysis": "金属与溶剂竞争不可忽略。",
+        "method": "先考虑与水及生成OH⁻的后续作用。",
+        "steps": [
+          "Na与水生成NaOH及H₂。",
+          "OH⁻可与Cu²⁺形成Cu(OH)₂。",
+          "实际条件和副反应需观察，不以简单置换式代表全体系。"
+        ],
+        "ans": "不能这样认定。",
+        "verification": "原设式漏水与氢气及可能沉淀。",
+        "pitfall": "活动性顺序忽略溶剂。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "水是能与Na反应的实际组分，生成OH⁻后又可能沉淀Cu²⁺；反应体系不能只按金属活动性忽略溶剂。"
+      }
+    ],
+    "practice": [
+      {
+        "q": "0.20mol K与水反应最多生成多少mol H₂？",
+        "given": "水足量完全。",
+        "analysis": "两K对应一H₂。",
+        "method": "除2。",
+        "steps": [
+          "0.20/2=0.10。",
+          "计量守恒。"
+        ],
+        "ans": "0.10mol。",
+        "verification": "KOH为0.20mol。",
+        "pitfall": "按1∶1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "2M+2H₂O→2MOH+H₂，完全反应且水足量时n(H₂)=n(M)/2。"
+      },
+      {
+        "q": "Na由0到+1作何剂？",
+        "given": "电子失去。",
+        "analysis": "自身氧化与剂名区分。",
+        "method": "跟踪价数。",
+        "steps": [
+          "失1e⁻。",
+          "作还原剂。"
+        ],
+        "ans": "还原剂。",
+        "verification": "另一物种得电子。",
+        "pitfall": "被氧化叫氧化剂。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "2M+2H₂O→2MOH+H₂，完全反应且水足量时n(H₂)=n(M)/2。"
+      },
+      {
+        "q": "K燃烧一定只得K₂O吗？",
+        "given": "产物受氧条件影响。",
+        "analysis": "存在超氧化物。",
+        "method": "先读题给产物。",
+        "steps": [
+          "富氧可形成KO₂。",
+          "不能统一写K₂O。"
+        ],
+        "ans": "不一定。",
+        "verification": "氧物种价数需核对。",
+        "pitfall": "套所有M₂O。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "2M+2H₂O→2MOH+H₂，完全反应且水足量时n(H₂)=n(M)/2。"
+      },
+      {
+        "q": "0.10mol Na₂O₂按给定遇水总反应放O₂多少？",
+        "given": "2Na₂O₂对应1O₂。",
+        "analysis": "依式计量。",
+        "method": "取一半。",
+        "steps": [
+          "0.050mol O₂。",
+          "不乘摩尔体积除非给状态。"
+        ],
+        "ans": "0.050mol。",
+        "verification": "过氧O总0.20mol，部分转为气体。",
+        "pitfall": "误判放H₂。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "2M+2H₂O→2MOH+H₂，完全反应且水足量时n(H₂)=n(M)/2。"
+      }
+    ],
+    "quiz": {
+      "q": "所有气体题都用22.4L/mol吗？",
+      "given": "温压未必标准。",
+      "analysis": "V_m依条件。",
+      "method": "使用题给/适用气体模型。",
+      "steps": [
+        "先确认温压。",
+        "再换体积。"
+      ],
+      "ans": "不是。",
+      "verification": "mol量可先独立算出。",
+      "pitfall": "不问状态直接套常数。",
+      "question_origin": "original",
+      "paper_no": null,
+      "principle": "2M+2H₂O→2MOH+H₂，完全反应且水足量时n(H₂)=n(M)/2。"
+    },
+    "exam": [
+      "反应计量先确认产物、水是否过量及V_m条件",
+      "观察Na/K反应要把金属还原性、溶剂与后续沉淀分开"
+    ],
+    "quick": [
+      "ns¹常失一电子",
+      "产物依条件",
+      "气体计量后再换体积"
+    ],
+    "verification_status": "partially_verified",
+    "exam_evidence": [],
+    "strategy": {
+      "trigger": "反应计量先确认产物、水是否过量及V_m条件",
+      "method": "先考虑与水及生成OH⁻的后续作用。",
+      "principle": "水是能与Na反应的实际组分，生成OH⁻后又可能沉淀Cu²⁺；反应体系不能只按金属活动性忽略溶剂。",
+      "worked_example_index": 2,
+      "verification": "原设式漏水与氢气及可能沉淀。",
+      "pitfall": "活动性顺序忽略溶剂。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "本目标抽样复核：2Na原子对应1H₂，检查没有漏1/2。；错因：直接用0.100mol乘V_m。。还需结合其他题检查目标的其余子技能。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "本目标抽样复核：原设式漏水与氢气及可能沉淀。；错因：活动性顺序忽略溶剂。。还需结合其他题检查目标的其余子技能。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "不问状态直接套常数。",
+        "correction": "不是。",
+        "verification": "mol量可先独立算出。"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "os_batch04_9.1.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/18-1-periodicity",
+        "page_or_section": "18-1-periodicity",
+        "version": "Chemistry 2e；理论辅助，非UEC范围",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "illustration_spec": {
+      "labels": [
+        "金属M",
+        "水",
+        "MOH",
+        "H₂",
+        "氧产物差异",
+        "溶剂竞争"
+      ],
+      "english": "Show 2M+2H2O -> 2MOH+H2 as a stoichiometric particle ledger, and a separate conditional branch for oxide/peroxide/superoxide identity. Do not present hazardous handling instructions or a universal oxygen product.",
+      "scientific_requirements": [
+        "2M+2H₂O→2MOH+H₂，完全反应且水足量时n(H₂)=n(M)/2。",
+        "碱金属氧产物依条件而异，普通氧化物/过氧化物/超氧化物不能混用。",
+        "水溶液中的活泼金属反应必须考虑溶剂，不把活动性顺序当单一产物保证。"
+      ]
+    }
+  },
+  "9.2": {
+    "goals": [
+      "以电子能级解释焰色",
+      "设计空白、交叉污染与干扰检验"
+    ],
+    "prerequisites": [
+      "电子能阶",
+      "发射光谱",
+      "实验控制"
+    ],
+    "flow": [
+      "能级差",
+      "激发",
+      "发射光",
+      "Na黄",
+      "K淡紫",
+      "空白对照"
+    ],
+    "concept_relation": "先激发再发光；空白控制污染；阴性须考虑干扰",
+    "deep": [
+      "焰色试验是定性分析线索，不用肉眼亮度直接定量浓度，除非题目给校准及可比实验条件。强度也受样品量、温度、观测方式影响。",
+      "课程所需是原理、现象、控制和证据边界，具体取样/清洁操作遵循学校实验手册，不把课堂笔记写成自行操作活泼金属的方法。"
+    ],
+    "derive": [
+      "激发吸能、跃迁发光；单光子E=hc/λ，波长先换SI单位。",
+      "定性颜色须有空白、标准及污染控制；未见信号不等于证明零含量。",
+      "混合样本的强Na发射可干扰K观察，过滤改善区分但不自动给纯度或浓度。"
+    ],
+    "examples": [
+      {
+        "q": "Na发射某谱线λ=600nm，h=6.63×10⁻³⁴J·s，c=3.00×10⁸m/s，单光子能量？",
+        "given": "600nm为教学近似谱线。",
+        "analysis": "先换米，不能把肉眼颜色等同精确单线。",
+        "method": "E=hc/λ。",
+        "steps": [
+          "λ=6.00×10⁻⁷m。",
+          "E=1.989×10⁻²⁵/6.00×10⁻⁷=3.315×10⁻¹⁹J。"
+        ],
+        "ans": "约3.32×10⁻¹⁹J。",
+        "verification": "Eλ=hc；单位J。",
+        "pitfall": "nm不换m，错10⁹倍。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "单光子E=hc/λ，nm先换m；题给示意波长不自动成为已测特征谱线。"
+      },
+      {
+        "q": "空白也见黄色，样品黄色是否足以检出Na？",
+        "given": "空白与样品使用同一器具。",
+        "analysis": "背景阳性使样品归因不唯一。",
+        "method": "先排污染再复测。",
+        "steps": [
+          "空白发黄提示器具/环境污染。",
+          "需清洁、重新空白及已知对照。",
+          "不能把当前样品颜色唯一归于样品Na。"
+        ],
+        "ans": "不足。",
+        "verification": "对照不通过时证据链不完整。",
+        "pitfall": "空白结果忽略不报。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "若空白阳性则样品信号的来源不唯一，必须先排背景，不能作无干扰的检出结论。"
+      },
+      {
+        "q": "混合样品强黄光，看不到淡紫即可证明不含K吗？",
+        "given": "Na信号可能掩盖。",
+        "analysis": "阴性观察可能受干扰。",
+        "method": "改变观察区分条件并用标准对照。",
+        "steps": [
+          "考虑Na干扰。",
+          "采用认可过滤或光谱比较并配空白/标准。",
+          "即使改善也不靠一次颜色证明绝对无K。"
+        ],
+        "ans": "不能。",
+        "verification": "检测能力与信号干扰应先确认。",
+        "pitfall": "未见色直接写不存在。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "观察阴性受方法灵敏度和其他信号掩盖影响；已知标准、空白及区分条件是排除干扰的必要证据。"
+      }
+    ],
+    "practice": [
+      {
+        "q": "Na常见焰色？",
+        "given": "学校常见定性观察。",
+        "analysis": "回答现象而非金属本色。",
+        "method": "区分焰色与表面。",
+        "steps": [
+          "常为黄色。",
+          "不是金属本身一直黄色。"
+        ],
+        "ans": "黄色。",
+        "verification": "与银白金属外观不同。",
+        "pitfall": "把两种颜色混称。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "激发吸能、跃迁发光；单光子E=hc/λ，波长先换SI单位。"
+      },
+      {
+        "q": "激发与发光哪步吸能？",
+        "given": "电子先到高能态再回落。",
+        "analysis": "能量方向相反。",
+        "method": "跟踪能级差。",
+        "steps": [
+          "激发吸能。",
+          "回落可放光。"
+        ],
+        "ans": "激发。",
+        "verification": "能量守恒。",
+        "pitfall": "升能级放光。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "激发吸能、跃迁发光；单光子E=hc/λ，波长先换SI单位。"
+      },
+      {
+        "q": "发射λ更短，单光子能量更高吗？",
+        "given": "h、c固定。",
+        "analysis": "能量与λ反比。",
+        "method": "用E=hc/λ。",
+        "steps": [
+          "λ减小分母小。",
+          "E增大。"
+        ],
+        "ans": "是。",
+        "verification": "频率同时增大。",
+        "pitfall": "短波能量小。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "激发吸能、跃迁发光；单光子E=hc/λ，波长先换SI单位。"
+      },
+      {
+        "q": "样品亮度加倍能直接推浓度加倍吗？",
+        "given": "无校准。",
+        "analysis": "强度受多因素。",
+        "method": "检查可比条件和线性。",
+        "steps": [
+          "需校准曲线。",
+          "控制火焰和基体等。"
+        ],
+        "ans": "不能直接。",
+        "verification": "定性试验不自动定量。",
+        "pitfall": "颜色强度当通用浓度计。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "激发吸能、跃迁发光；单光子E=hc/λ，波长先换SI单位。"
+      }
+    ],
+    "quiz": {
+      "q": "焰色相同能证明样品完全相同吗？",
+      "given": "可能只共享某金属元素。",
+      "analysis": "检出部分成分非全组成。",
+      "method": "限制结论。",
+      "steps": [
+        "同Na不同盐可类似。",
+        "还需其他成分证据。"
+      ],
+      "ans": "不能。",
+      "verification": "一个特征不能唯一确定全物质。",
+      "pitfall": "检出元素等同鉴定整物质。",
+      "question_origin": "original",
+      "paper_no": null,
+      "principle": "激发吸能、跃迁发光；单光子E=hc/λ，波长先换SI单位。"
+    },
+    "exam": [
+      "实验题先核空白，再比较标准与混合物干扰",
+      "有波长数据先做单位换算；肉眼颜色与光谱线不要混用"
+    ],
+    "quick": [
+      "先激发再发光",
+      "空白控制污染",
+      "阴性须考虑干扰"
+    ],
+    "verification_status": "partially_verified",
+    "exam_evidence": [],
+    "strategy": {
+      "trigger": "实验题先核空白，再比较标准与混合物干扰",
+      "method": "改变观察区分条件并用标准对照。",
+      "principle": "观察阴性受方法灵敏度和其他信号掩盖影响；已知标准、空白及区分条件是排除干扰的必要证据。",
+      "worked_example_index": 2,
+      "verification": "检测能力与信号干扰应先确认。",
+      "pitfall": "未见色直接写不存在。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "本目标抽样复核：Eλ=hc；单位J。；错因：nm不换m，错10⁹倍。。还需结合其他题检查目标的其余子技能。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "本目标抽样复核：检测能力与信号干扰应先确认。；错因：未见色直接写不存在。。还需结合其他题检查目标的其余子技能。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "检出元素等同鉴定整物质。",
+        "correction": "不能。",
+        "verification": "一个特征不能唯一确定全物质。"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "os_batch04_9.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/6-1-electromagnetic-energy",
+        "page_or_section": "6-1-electromagnetic-energy",
+        "version": "Chemistry 2e；理论辅助，非UEC范围",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "illustration_spec": {
+      "labels": [
+        "能级差",
+        "激发",
+        "发射光",
+        "Na黄",
+        "K淡紫",
+        "空白对照"
+      ],
+      "english": "Draw an excitation/emission energy-level diagram and a blank/Na/K/mixed-sample evidence panel. Distinguish yellow sodium interference from potassium evidence. Keep the stated 600 nm value explicitly illustrative, not a measured sodium line.",
+      "scientific_requirements": [
+        "激发吸能、跃迁发光；单光子E=hc/λ，波长先换SI单位。",
+        "定性颜色须有空白、标准及污染控制；未见信号不等于证明零含量。",
+        "混合样本的强Na发射可干扰K观察，过滤改善区分但不自动给纯度或浓度。"
+      ]
+    }
+  },
+  "9.3": {
+    "goals": [
+      "比较氯化物、氢氧化物、碳酸盐、碳酸氢盐及硝酸钾",
+      "用相态、气量与酸耗区分混合物"
+    ],
+    "prerequisites": [
+      "离子与溶解",
+      "酸碱计量",
+      "限量反应"
+    ],
+    "flow": [
+      "NaCl/KCl",
+      "NaOH",
+      "Na₂CO₃",
+      "NaHCO₃",
+      "KNO₃",
+      "酸耗与气量"
+    ],
+    "concept_relation": "同气量不等同酸耗；水合物另计水；独立方程数要足够",
+    "deep": [
+      "KNO₃可作为钾/氮肥料来源和具有氧化性的硝酸盐。常见加热分解模型为2KNO₃→2KNO₂+O₂，不能因含K就断言所有钾盐加热稳定；与NaHCO₃放CO₂和水的过程应分别辨认。这里不提供可燃混合物配方。",
+      "应用题要由功能联系化学性质，例如碳酸氢盐与酸放气、NaOH中和酸；用途不代表个人使用建议。辨析题将式、离子、酸耗、加热及水合计量分栏，最后用物质和电荷守恒核对。"
+    ],
+    "derive": [
+      "足量强酸：CO₃²⁻+2H⁺→CO₂+H₂O；HCO₃⁻+H⁺→CO₂+H₂O，两者碳相同但酸耗不同。",
+      "2NaHCO₃→Na₂CO₃+CO₂+H₂O；气量与质量损失须区分是否收集水蒸气。",
+      "水合物M=无水盐M+水数×18；混合盐问题可由CO₂量和H⁺量建立两独立方程。"
+    ],
+    "examples": [
+      {
+        "q": "0.10mol Na₂CO₃与0.10mol NaHCO₃分别遇足量酸，各需H⁺与放CO₂多少？",
+        "given": "均完全到CO₂。",
+        "analysis": "两个盐的气体比相同、酸耗不同。",
+        "method": "分别用净离子式。",
+        "steps": [
+          "前者需0.20mol H⁺、放0.10mol CO₂。",
+          "后者需0.10mol H⁺、放0.10mol CO₂。"
+        ],
+        "ans": "Na₂CO₃需0.20mol H⁺、放0.10mol CO₂；NaHCO₃需0.10mol H⁺、放0.10mol CO₂。",
+        "verification": "每份盐均1个C；电荷由不同H⁺量平衡。",
+        "pitfall": "凭相同气量判两盐相同。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "CO₃²⁻与HCO₃⁻完全酸化均每份放1CO₂，但电荷与H数导致酸耗分别2与1当量。"
+      },
+      {
+        "q": "16.8g NaHCO₃充分加热，M=84、Na₂CO₃=106，固体剩多少？",
+        "given": "按给定分解，水与CO₂离开。",
+        "analysis": "最终固体不是原物全部保留。",
+        "method": "先mol再2∶1。",
+        "steps": [
+          "n(NaHCO₃)=0.200mol。",
+          "生成Na₂CO₃0.100mol。",
+          "m=10.6g，气水总损失6.2g。"
+        ],
+        "ans": "10.6g。",
+        "verification": "0.100×(44+18)=6.2g，质量闭合。",
+        "pitfall": "只减CO₂而忘水。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "NaHCO₃热分解以2∶1生成Na₂CO₃，离开固体的质量包括CO₂与水，而非只减一种气体。"
+      },
+      {
+        "q": "混合物含x mol Na₂CO₃、y mol NaHCO₃，足量酸放0.20mol CO₂且耗0.30mol H⁺，求x、y。",
+        "given": "无其他耗酸/产气物。",
+        "analysis": "需要两条独立守恒关系。",
+        "method": "以碳数和酸当量联立。",
+        "steps": [
+          "x+y=0.20。",
+          "2x+y=0.30。",
+          "相减x=0.10，y=0.10。"
+        ],
+        "ans": "各0.10mol。",
+        "verification": "碳0.20，酸0.20+0.10=0.30。",
+        "pitfall": "只用气量不能唯一分比例。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "碳总量与酸当量提供两条独立线性关系，只有一条放气数据不能唯一决定两盐比例。"
+      }
+    ],
+    "practice": [
+      {
+        "q": "0.05mol NaOH完全中和需H⁺多少？",
+        "given": "一OH⁻配一H⁺。",
+        "analysis": "净中和计量。",
+        "method": "1∶1。",
+        "steps": [
+          "需0.05mol。",
+          "形成水。"
+        ],
+        "ans": "0.05mol。",
+        "verification": "H⁺+OH⁻→H₂O。",
+        "pitfall": "Na原子数决定放气。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "足量强酸：CO₃²⁻+2H⁺→CO₂+H₂O；HCO₃⁻+H⁺→CO₂+H₂O，两者碳相同但酸耗不同。"
+      },
+      {
+        "q": "NaCl有Na，溶液就必强碱吗？",
+        "given": "常见纯水溶液条件。",
+        "analysis": "阳离子名不决定整盐酸碱。",
+        "method": "看酸碱来源及水解。",
+        "steps": [
+          "NaCl常近中性。",
+          "NaOH/Na₂CO₃不同。"
+        ],
+        "ans": "不是。",
+        "verification": "同含Na性质仍可不同。",
+        "pitfall": "所有Na盐等于NaOH。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "足量强酸：CO₃²⁻+2H⁺→CO₂+H₂O；HCO₃⁻+H⁺→CO₂+H₂O，两者碳相同但酸耗不同。"
+      },
+      {
+        "q": "Na₂CO₃·10H₂O式量？",
+        "given": "无水106，水18。",
+        "analysis": "结晶水需计入。",
+        "method": "106+10×18。",
+        "steps": [
+          "共286。",
+          "不是106。"
+        ],
+        "ans": "286。",
+        "verification": "每份10水共180。",
+        "pitfall": "丢结晶水。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "足量强酸：CO₃²⁻+2H⁺→CO₂+H₂O；HCO₃⁻+H⁺→CO₂+H₂O，两者碳相同但酸耗不同。"
+      },
+      {
+        "q": "0.20mol CO₃²⁻只加0.20mol H⁺可直接断言放0.20mol CO₂吗？",
+        "given": "未到完全酸化终点。",
+        "analysis": "先可转HCO₃⁻。",
+        "method": "核酸当量。",
+        "steps": [
+          "全部成CO₂需0.40mol H⁺。",
+          "现不足，不能套足量酸公式。"
+        ],
+        "ans": "不能。",
+        "verification": "反应阶段需另跟踪。",
+        "pitfall": "忽略酸限量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "足量强酸：CO₃²⁻+2H⁺→CO₂+H₂O；HCO₃⁻+H⁺→CO₂+H₂O，两者碳相同但酸耗不同。"
+      }
+    ],
+    "quiz": {
+      "q": "仅测混合Na₂CO₃/NaHCO₃放气量能唯一求比例吗？",
+      "given": "每mol均1mol CO₂。",
+      "analysis": "只有一独立方程。",
+      "method": "检查未知数与约束数。",
+      "steps": [
+        "两未知，一条碳关系。",
+        "需质量或酸耗等额外独立量。"
+      ],
+      "ans": "不能。",
+      "verification": "多个组合可同气量。",
+      "pitfall": "同一信息重复列两式。",
+      "question_origin": "original",
+      "paper_no": null,
+      "principle": "足量强酸：CO₃²⁻+2H⁺→CO₂+H₂O；HCO₃⁻+H⁺→CO₂+H₂O，两者碳相同但酸耗不同。"
+    },
+    "exam": [
+      "盐混合计量题先分清足量酸/分段酸，再找独立约束",
+      "水合物及加热损失要同时核气体和水，最后闭合质量"
+    ],
+    "quick": [
+      "同气量不等同酸耗",
+      "水合物另计水",
+      "独立方程数要足够"
+    ],
+    "verification_status": "partially_verified",
+    "exam_evidence": [],
+    "strategy": {
+      "trigger": "盐混合计量题先分清足量酸/分段酸，再找独立约束",
+      "method": "以碳数和酸当量联立。",
+      "principle": "碳总量与酸当量提供两条独立线性关系，只有一条放气数据不能唯一决定两盐比例。",
+      "worked_example_index": 2,
+      "verification": "碳0.20，酸0.20+0.10=0.30。",
+      "pitfall": "只用气量不能唯一分比例。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "本目标抽样复核：每份盐均1个C；电荷由不同H⁺量平衡。；错因：凭相同气量判两盐相同。。还需结合其他题检查目标的其余子技能。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "本目标抽样复核：碳0.20，酸0.20+0.10=0.30。；错因：只用气量不能唯一分比例。。还需结合其他题检查目标的其余子技能。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "同一信息重复列两式。",
+        "correction": "不能。",
+        "verification": "多个组合可同气量。"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "os_batch04_9.3",
+        "url": "https://openstax.org/books/chemistry-2e/pages/4-3-reaction-stoichiometry",
+        "page_or_section": "4-3-reaction-stoichiometry",
+        "version": "Chemistry 2e；理论辅助，非UEC范围",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "illustration_spec": {
+      "labels": [
+        "NaCl/KCl",
+        "NaOH",
+        "Na₂CO₃",
+        "NaHCO₃",
+        "KNO₃",
+        "酸耗与气量"
+      ],
+      "english": "Create a reaction/quantity comparison for carbonate and hydrogencarbonate under excess acid, plus bicarbonate heating and hydrate accounting. Label CO2 yield and H+ consumption separately; never assume acid excess when unspecified.",
+      "scientific_requirements": [
+        "足量强酸：CO₃²⁻+2H⁺→CO₂+H₂O；HCO₃⁻+H⁺→CO₂+H₂O，两者碳相同但酸耗不同。",
+        "2NaHCO₃→Na₂CO₃+CO₂+H₂O；气量与质量损失须区分是否收集水蒸气。",
+        "水合物M=无水盐M+水数×18；混合盐问题可由CO₂量和H⁺量建立两独立方程。"
+      ]
+    }
+  }
+}

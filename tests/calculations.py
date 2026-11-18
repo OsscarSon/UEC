@@ -1,0 +1,100 @@
+"""Independent numerical and conservation checks for the authored examples."""
+import math,json,pathlib
+checks=[]
+def eq(name,actual,expected,tol=1e-9):
+ assert math.isclose(actual,expected,rel_tol=tol,abs_tol=tol),(name,actual,expected)
+ checks.append(dict(name=name,actual=actual,expected=expected,result='pass'))
+# Physical quantities: SI inputs, signed velocity and finite model duration.
+eq('relative opposite velocities m/s',20-(-15),35)
+eq('path length m',abs(5-(-2))+abs(1-5),11)
+eq('signed displacement m',1-(-2),3)
+eq('vector resultant N',math.hypot(6,8),10)
+eq('unequal duration mean m/s',(2*3+6*1)/4,3)
+eq('equal distance mean m/s',2*10*20/(10+20),40/3)
+eq('reversal acceleration m/s2',(-2-4)/2,-3)
+eq('braking duration s',20/5,4)
+eq('braking distance after stop m',20*min(6,4)-0.5*5*min(6,4)**2,40)
+eq('reaction and stopping m',25*.6+25**2/12,67.08333333333333)
+eq('reversal net displacement m',6*4-4**2,8)
+eq('reversal path length m',6**2/4+1,10)
+eq('free fall time s',math.sqrt(2*45/10),3)
+eq('balloon release ground height m',75+10*5-5*5**2,0)
+eq('ground impact m/s',10-10*5,-40)
+eq('normal elevator force N',60*(10-2),480)
+eq('connection acceleration m/s2',10/(2+3),2)
+eq('connection tension N',2*10/5,4)
+eq('static friction bound N',.4*2*10,8)
+eq('spring displacement force N',200*(.25-.20),10)
+eq('momentum reflection kg m/s',.5*(-4)-.5*6,-5)
+eq('average collision force N',-5/.020,-250)
+# Chemistry arithmetic, exact entity definition versus exam-rounded input.
+NA=6.02e23
+eq('water molecules',9/18*NA,3.01e23)
+eq('water H atoms',2*9/18*NA,6.02e23)
+eq('sulfuric O atoms',.25*4*NA,6.02e23)
+eq('chlorine weighted Ar',35*.75+37*.25,35.5)
+eq('light isotope fraction',(11-10.8)/(11-10),.2)
+eq('calcium hydroxide formula mass',40+2*(16+1),74)
+eq('calcium hydroxide O fraction',32/74,0.43243243243243246)
+eq('crystal water grams',10*90/249.5,3.6072144288577155)
+eq('hydrate mole ratio',(4.99-3.19)/18/(3.19/159.5),5)
+eq('combustion original C g',.88*12/44,.24)
+eq('combustion original H g',.36*2/18,.04)
+eq('combustion original O g',.6-.24-.04,.32)
+eq('Al gas volume L',5.4/27*1.5*24,7.2)
+eq('impure carbonate CO2 g',25*.8/100*44,8.8)
+eq('carbonate purity',1.792/22.4*100/10,.8)
+eq('limited H2 NH3 mol',2*min(1,2/3),4/3)
+eq('limiting O2 water grams',2*min(4/2/2,16/32)*18,18)
+eq('remaining H2 grams',4-2*min(4/2/2,16/32)*2,2)
+eq('purity and yield g',12.5*.8/100*44*.9,3.96)
+R=8.314462618
+eq('ideal molar volume at 1atm L/mol',R*273.15/101.325,22.413969544601037)
+eq('ideal molar volume at 100kPa L/mol',R*273.15/100,22.710954641067)
+# Independent atom conservation, covering every nontrivial balancing pattern used.
+reactions=[('ethane',[(2,{'C':2,'H':6}),(7,{'O':2})],[(4,{'C':1,'O':2}),(6,{'H':2,'O':1})]),('propane',[(1,{'C':3,'H':8}),(5,{'O':2})],[(3,{'C':1,'O':2}),(4,{'H':2,'O':1})]),('iron oxide',[(4,{'Fe':1}),(3,{'O':2})],[(2,{'Fe':2,'O':3})]),('precipitation',[(1,{'Al':2,'S':3,'O':12}),(3,{'Ca':1,'O':2,'H':2})],[(2,{'Al':1,'O':3,'H':3}),(3,{'Ca':1,'S':1,'O':4})])]
+def atoms(terms):
+ out={}
+ for n,f in terms:
+  for el,k in f.items():out[el]=out.get(el,0)+n*k
+ return out
+for n,l,r in reactions:
+ assert atoms(l)==atoms(r),n
+ checks.append(dict(name=n+' atom balance',result='pass'))
+# Biological scale, stoichiometry and explicit chain/duplex assumptions.
+eq('fresh water percent',(10-2)/10*100,80)
+eq('five glucoses linear Mr',5*180-4*18,828)
+eq('two peptide chains water count',100-2,98)
+eq('peptide relative mass',100*110-98*18,9236)
+eq('DNA base pairs',1000/2,500)
+eq('DNA H bonds',200*2+300*3,1300)
+eq('microscope um',36*1000/1200,30)
+eq('scale bar um',60/20*10,30)
+eq('cube SA/V ratio',6*2**2/2**3,3)
+eq('osmosis gain percent',(2.2-2)/2*100,10)
+eq('osmosis loss percent',(2.25-2.5)/2.5*100,-10)
+eq('fat energy grams',78/39,2)
+# Additional standard-level examples added during review.
+eq('oxide metal mass g',20-8,12)
+eq('oxide metal percent',12/20*100,60)
+eq('Al sulfate formula mass',2*27+3*32+12*16,342)
+eq('sulfur percent',96/342*100,28.07017543859649)
+eq('hydrocarbon molecular multiplier',56/(12+2),4)
+eq('ammonia mass g',3.01e23/NA*17,8.5)
+eq('ammonia H mol',3.01e23/NA*3,1.5)
+eq('CO oxidation product g',5.6/28*44,8.8)
+eq('carbonate inferred purity percent',6.6/44*100/20*100,75)
+eq('same product mol yield percent',.2/.25*100,80)
+eq('changed origin relative position m',(-50)-(-80),30)
+eq('second path length m',6+abs(-2-6),14)
+eq('delayed pursuit s',(4*5)/(6-4),10)
+eq('constant acceleration standard displacement m',2*4+.5*3*4**2,32)
+eq('lift reduces normal force N',2*10-6,14)
+eq('lifted static friction limit N',.5*14,7)
+eq('fixed momentum energy 2kg J',6**2/(2*2),9)
+eq('fixed momentum energy 3kg J',6**2/(2*3),6)
+eq('sliding block acceleration m/s2',(20-.25*4*10)/4,2.5)
+eq('two chain relative mass standard',6*100-18*(6-2),528)
+eq('microscope total magnification',40*10,400)
+pathlib.Path('reports/CALCULATION_RESULTS.json').write_text(json.dumps(checks,ensure_ascii=False,indent=2)+'\n')
+print(f'PASS {len(checks)} independent numeric / atom-conservation checks; qualitative biology claims require source and teacher review, not a numeric pass label.')

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#ffffff"/><rect x="24" y="20" width="1152" height="76" rx="16" fill="#eaf2ff"/><text x="54" y="71" font-size="34" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="700" fill="#17365e">化学 5.4｜轨域与近似填充顺序（中性原子）</text><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="context-stroke"/></marker></defs>
+<text x="100" y="570" text-anchor="start" font-size="30" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="700" fill="#17365e">4s</text>
+<rect x="190" y="540" width="85" height="68" rx="4" fill="#f1f6ff" stroke="#5388c9" stroke-width="2"/>
+<text x="900" y="572" text-anchor="start" font-size="24" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#5d6c7d">1 个轨域</text>
+<text x="100" y="460" text-anchor="start" font-size="30" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="700" fill="#17365e">3d</text>
+<rect x="190" y="430" width="85" height="68" rx="4" fill="#f1f6ff" stroke="#5388c9" stroke-width="2"/>
+<rect x="300" y="430" width="85" height="68" rx="4" fill="#f1f6ff" stroke="#5388c9" stroke-width="2"/>
+<rect x="410" y="430" width="85" height="68" rx="4" fill="#f1f6ff" stroke="#5388c9" stroke-width="2"/>
+<rect x="520" y="430" width="85" height="68" rx="4" fill="#f1f6ff" stroke="#5388c9" stroke-width="2"/>
+<rect x="630" y="430" width="85" height="68" rx="4" fill="#f1f6ff" stroke="#5388c9" stroke-width="2"/>
+<text x="900" y="462" text-anchor="start" font-size="24" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#5d6c7d">5 个轨域</text>
+<text x="100" y="350" text-anchor="start" font-size="30" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="700" fill="#17365e">4p</text>
+<rect x="190" y="320" width="85" height="68" rx="4" fill="#f1f6ff" stroke="#5388c9" stroke-width="2"/>
+<rect x="300" y="320" width="85" height="68" rx="4" fill="#f1f6ff" stroke="#5388c9" stroke-width="2"/>
+<rect x="410" y="320" width="85" height="68" rx="4" fill="#f1f6ff" stroke="#5388c9" stroke-width="2"/>
+<text x="900" y="352" text-anchor="start" font-size="24" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#5d6c7d">3 个轨域</text>
+<text x="100" y="240" text-anchor="start" font-size="30" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="700" fill="#17365e">4d</text>
+<rect x="190" y="210" width="85" height="68" rx="4" fill="#f1f6ff" stroke="#5388c9" stroke-width="2"/>
+<rect x="300" y="210" width="85" height="68" rx="4" fill="#f1f6ff" stroke="#5388c9" stroke-width="2"/>
+<rect x="410" y="210" width="85" height="68" rx="4" fill="#f1f6ff" stroke="#5388c9" stroke-width="2"/>
+<rect x="520" y="210" width="85" height="68" rx="4" fill="#f1f6ff" stroke="#5388c9" stroke-width="2"/>
+<rect x="630" y="210" width="85" height="68" rx="4" fill="#f1f6ff" stroke="#5388c9" stroke-width="2"/>
+<text x="900" y="242" text-anchor="start" font-size="24" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#5d6c7d">5 个轨域</text>
+<line x1="70" y1="615" x2="70" y2="195" stroke="#ca4255" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="45" y="163" text-anchor="start" font-size="24" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#ca4255">能量升高</text>
+<rect x="150" y="635" width="950" height="64" rx="14" fill="#fff4e9" stroke="#e6b16e" stroke-width="2"/>
+<text x="171" y="672" text-anchor="start" font-size="24" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#17365e">每个方框表示一个轨域；每轨域最多容纳 2 个电子。</text>
+<rect x="24" y="712" width="1152" height="66" rx="14" fill="#f2f6fa" stroke="#dce7f2" stroke-width="2"/>
+<text x="44" y="743" text-anchor="start" font-size="19" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#5d6c7d">示意只用于常见中性原子填充近似；过渡金属、阳离子与激发态需另判断。</text>
+</svg>

@@ -1,0 +1,1140 @@
+{
+  "10.1.1": {
+    "goals": [
+      "解释IIA金属常见物性",
+      "用密度/测量条件限制递变推断"
+    ],
+    "prerequisites": [
+      "金属键",
+      "ns²价层",
+      "单位换算"
+    ],
+    "flow": [
+      "Mg/Ca",
+      "金属电子",
+      "密度",
+      "质量",
+      "体积",
+      "材料条件"
+    ],
+    "concept_relation": "质量不同于密度；同质量体积反比密度；合金需另评",
+    "deep": [
+      "课堂观察的发光燃烧与生成粉末是化学变化，压片、熔化和导电是不同层次的物理性质。试题若把燃烧强光当金属本色，应指出观察条件不同。",
+      "解决物性数据题先列单位、状态与样品是否纯净，再运算与结构解释。本节不以空缺测量值填出完整递变表，所给数字均在题干中明确为模型。"
+    ],
+    "derive": [
+      "ρ=m/V；同质量时V=m/ρ，低密度意味着体积相对较大。",
+      "ns²提供族内结构线索，不构成全部宏观物性同向变化的定理。",
+      "材料性能比较需控制组成和状态，纯金属与合金不可混作同一数据集。"
+    ],
+    "examples": [
+      {
+        "q": "某Mg模型样品质量8.70g、体积5.00cm³，密度？",
+        "given": "理想样品。",
+        "analysis": "质量与体积单位已相容。",
+        "method": "直接求比。",
+        "steps": [
+          "8.70/5.00=1.74。",
+          "单位g/cm³。"
+        ],
+        "ans": "1.74g/cm³。",
+        "verification": "1.74×5.00=8.70。",
+        "pitfall": "把低质量等同低密度而不看体积。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "密度ρ=m/V，给定质量及体积可直接计算；样品是否纯净及同状态是解释前提。"
+      },
+      {
+        "q": "同质量两金属密度分别1.8、2.7g/cm³，前者体积是后者几倍？",
+        "given": "质量相同。",
+        "analysis": "体积与密度反比。",
+        "method": "约去共同m。",
+        "steps": [
+          "V₁/V₂=(m/1.8)/(m/2.7)。",
+          "=2.7/1.8=1.5。"
+        ],
+        "ans": "1.5倍。",
+        "verification": "低密度者体积较大。",
+        "pitfall": "直接用密度比2/3。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "同质量时V与ρ反比，密度比不可直接当体积比。"
+      },
+      {
+        "q": "镁合金密度低就能保证比钢在所有场景更合适吗？",
+        "given": "只有密度一项信息。",
+        "analysis": "应用是多指标约束。",
+        "method": "列强度/耐蚀/温度等需比较量。",
+        "steps": [
+          "低密度可减等体积质量。",
+          "承载与环境适用仍需测量。",
+          "不从单物性推出所有工程结论。"
+        ],
+        "ans": "不能。",
+        "verification": "明确比较对象和约束。",
+        "pitfall": "把优点当普适优势。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "材料适用性受多项约束，密度只能控制等体积质量，不能单独决定强度或耐环境性能。"
+      }
+    ],
+    "practice": [
+      {
+        "q": "Mg固态导电说明M²⁺在晶格长程游动吗？",
+        "given": "纯金属。",
+        "analysis": "载流者不同。",
+        "method": "用离域电子模型。",
+        "steps": [
+          "电子可漂移。",
+          "晶格离子实不这样游动。"
+        ],
+        "ans": "不说明。",
+        "verification": "区别盐熔体。",
+        "pitfall": "离子与金属导电混称。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "ρ=m/V；同质量时V=m/ρ，低密度意味着体积相对较大。"
+      },
+      {
+        "q": "体积10cm³、密度1.7g/cm³，质量？",
+        "given": "给定模型。",
+        "analysis": "m=ρV。",
+        "method": "相乘。",
+        "steps": [
+          "1.7×10=17。",
+          "单位g。"
+        ],
+        "ans": "17g。",
+        "verification": "17/10=1.7。",
+        "pitfall": "密度当质量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "ρ=m/V；同质量时V=m/ρ，低密度意味着体积相对较大。"
+      },
+      {
+        "q": "燃烧Mg强光是原金属颜色吗？",
+        "given": "正在化学反应。",
+        "analysis": "发射光与表面外观不同。",
+        "method": "分离观察。",
+        "steps": [
+          "新鲜表面与反应发光不同。",
+          "不能混作物性描述。"
+        ],
+        "ans": "不是同一指标。",
+        "verification": "记录条件。",
+        "pitfall": "燃烧颜色就是金属本色。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "ρ=m/V；同质量时V=m/ρ，低密度意味着体积相对较大。"
+      },
+      {
+        "q": "同族外层均2电子可推熔点相同吗？",
+        "given": "结构和尺寸不同。",
+        "analysis": "共性不意味着所有数值等同。",
+        "method": "检查其他因素。",
+        "steps": [
+          "电子层/晶体结构有差异。",
+          "需实际数据。"
+        ],
+        "ans": "不能。",
+        "verification": "物性取决多个因素。",
+        "pitfall": "只看价电子数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "ρ=m/V；同质量时V=m/ρ，低密度意味着体积相对较大。"
+      }
+    ],
+    "quiz": {
+      "q": "样品质量小就必密度小吗？",
+      "given": "体积未给。",
+      "analysis": "密度是比值。",
+      "method": "要求m与V。",
+      "steps": [
+        "小体积可小质量但高密度。",
+        "缺V不能判。"
+      ],
+      "ans": "不一定。",
+      "verification": "ρ定义直接检验。",
+      "pitfall": "把质量与密度混用。",
+      "question_origin": "original",
+      "paper_no": null,
+      "principle": "ρ=m/V；同质量时V=m/ρ，低密度意味着体积相对较大。"
+    },
+    "exam": [
+      "遇“轻/硬/导电好”先确认量与比较对象",
+      "密度题统一单位，再把相等质量或体积条件写入方程"
+    ],
+    "quick": [
+      "质量不同于密度",
+      "同质量体积反比密度",
+      "合金需另评"
+    ],
+    "verification_status": "partially_verified",
+    "exam_evidence": [],
+    "strategy": {
+      "trigger": "遇“轻/硬/导电好”先确认量与比较对象",
+      "method": "列强度/耐蚀/温度等需比较量。",
+      "principle": "材料适用性受多项约束，密度只能控制等体积质量，不能单独决定强度或耐环境性能。",
+      "worked_example_index": 2,
+      "verification": "明确比较对象和约束。",
+      "pitfall": "把优点当普适优势。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "本目标抽样复核：1.74×5.00=8.70。；错因：把低质量等同低密度而不看体积。。还需结合其他题检查目标的其余子技能。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "本目标抽样复核：明确比较对象和约束。；错因：把优点当普适优势。。还需结合其他题检查目标的其余子技能。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把质量与密度混用。",
+        "correction": "不一定。",
+        "verification": "ρ定义直接检验。"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "os_batch04_10.1.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/18-1-periodicity",
+        "page_or_section": "18-1-periodicity",
+        "version": "Chemistry 2e；理论辅助，非UEC范围",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "illustration_spec": {
+      "labels": [
+        "Mg/Ca",
+        "金属电子",
+        "密度",
+        "质量",
+        "体积",
+        "材料条件"
+      ],
+      "english": "Draw equal-mass and equal-volume metal comparisons using explicitly stated densities. Label electrons as carriers in the metal, and keep pure-metal data separate from alloy performance; do not imply all group-2 melting points are equal.",
+      "scientific_requirements": [
+        "ρ=m/V；同质量时V=m/ρ，低密度意味着体积相对较大。",
+        "ns²提供族内结构线索，不构成全部宏观物性同向变化的定理。",
+        "材料性能比较需控制组成和状态，纯金属与合金不可混作同一数据集。"
+      ]
+    }
+  },
+  "10.1.2": {
+    "goals": [
+      "按介质和温度选择反应式",
+      "由电子守恒与产物完成计量"
+    ],
+    "prerequisites": [
+      "金属还原性",
+      "氧化还原",
+      "气体计量"
+    ],
+    "flow": [
+      "Mg/Ca",
+      "冷水/蒸汽",
+      "酸",
+      "氧化物/氮化物",
+      "H₂"
+    ],
+    "concept_relation": "IIA失两电子；条件决定路径；含N产物需N来源",
+    "deep": [
+      "计量时先确定每mol金属对应氢气、氧或氮化物的比例，再用题给状态计算。若金属样品有氧化物杂质，酸会被杂质消耗但不必等比例产氢，气量可与样品总质量分开约束。",
+      "最终同时核元素、总电荷及得失电子；不同介质的式子不要在同一过程里混用。"
+    ],
+    "derive": [
+      "Mg/Ca到M²⁺每mol失2mol电子；与非氧化性酸完全反应常为1mol金属给1mol H₂。",
+      "冷水、热水、水蒸气及氧化性酸是不同条件，产物与速率需分别确认。",
+      "Mg₃N₂+6H₂O→3Mg(OH)₂+2NH₃，氮化物与氧化物的后续产物不同。"
+    ],
+    "examples": [
+      {
+        "q": "2.40g Mg与足量适当稀盐酸反应，M(Mg)=24.0，题给V_m=24.0L/mol，求H₂。",
+        "given": "无氧化物杂质。",
+        "analysis": "1Mg对1H₂。",
+        "method": "质量到mol再气体。",
+        "steps": [
+          "n(Mg)=0.100mol。",
+          "n(H₂)=0.100mol。",
+          "V=2.40L。"
+        ],
+        "ans": "2.40L。",
+        "verification": "电子失0.200mol与H⁺得0.200mol相同。",
+        "pitfall": "套Na的1/2比例。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "Mg到Mg²⁺每份失2电子，与非氧化性酸产生一份H₂，区别于碱金属的2∶1比例。"
+      },
+      {
+        "q": "Mg与冷水不明显反应，能否证明Mg绝不与水反应？",
+        "given": "可改变温度及表面条件。",
+        "analysis": "速率现象不能作无条件不反应结论。",
+        "method": "比较蒸汽模型。",
+        "steps": [
+          "表层与动力学可抑制。",
+          "蒸汽反应可写Mg+H₂O→MgO+H₂。",
+          "反应条件须保留。"
+        ],
+        "ans": "不能。",
+        "verification": "不同条件实质不同，不矛盾。",
+        "pitfall": "一次阴性观察外推全部条件。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "反应速率与可发生性不同；表面膜、温度及水的相态会改变观察及产物。"
+      },
+      {
+        "q": "燃烧Mg所得固体遇水有NH₃，能把固体全称MgO吗？",
+        "given": "可能空气氮参与。",
+        "analysis": "含氮产物要求氮来源。",
+        "method": "检验Mg₃N₂解释。",
+        "steps": [
+          "3Mg+N₂→Mg₃N₂。",
+          "Mg₃N₂+6H₂O→3Mg(OH)₂+2NH₃。",
+          "纯MgO不含N，不能解释NH₃来源。"
+        ],
+        "ans": "不能；支持含氮化物可能。",
+        "verification": "N/H/O原子均守恒，仍需排其他含氮杂质。",
+        "pitfall": "颜色类似就认纯氧化物。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "产物元素必须有来源，MgO不含N，NH₃线索需要含氮产物或杂质解释，不能归于纯氧化物。"
+      }
+    ],
+    "practice": [
+      {
+        "q": "Ca到Ca²⁺失几电子？",
+        "given": "每原子。",
+        "analysis": "电荷变+2。",
+        "method": "比较0与+2。",
+        "steps": [
+          "形式失2。",
+          "对应还原性。"
+        ],
+        "ans": "2。",
+        "verification": "核电荷不变。",
+        "pitfall": "失2质子。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "Mg/Ca到M²⁺每mol失2mol电子；与非氧化性酸完全反应常为1mol金属给1mol H₂。"
+      },
+      {
+        "q": "0.05mol Ca与足量水给H₂多少？",
+        "given": "Ca+2水。",
+        "analysis": "1∶1气体比。",
+        "method": "按Ca量。",
+        "steps": [
+          "0.05mol H₂。",
+          "Ca(OH)₂也0.05mol。"
+        ],
+        "ans": "0.05mol。",
+        "verification": "H总4分为2OH与1H₂。",
+        "pitfall": "氢气系数2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "Mg/Ca到M²⁺每mol失2mol电子；与非氧化性酸完全反应常为1mol金属给1mol H₂。"
+      },
+      {
+        "q": "Mg还原CO₂式中1mol CO₂耗Mg多少？",
+        "given": "2Mg+CO₂→2MgO+C。",
+        "analysis": "直接系数比。",
+        "method": "2∶1。",
+        "steps": [
+          "需2mol Mg。",
+          "失4mol e⁻给C+4到0。"
+        ],
+        "ans": "2mol。",
+        "verification": "氧2分给2MgO。",
+        "pitfall": "任何CO₂都不能被还原。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "Mg/Ca到M²⁺每mol失2mol电子；与非氧化性酸完全反应常为1mol金属给1mol H₂。"
+      },
+      {
+        "q": "任意金属与任意酸都放H₂吗？",
+        "given": "有氧化性酸等。",
+        "analysis": "产物依酸性质与条件。",
+        "method": "限制常用模型。",
+        "steps": [
+          "非氧化性稀酸式有前提。",
+          "其他酸可能不同还原产物。"
+        ],
+        "ans": "不是。",
+        "verification": "先确认氧化剂和产物。",
+        "pitfall": "“金属+酸”一律产氢。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "Mg/Ca到M²⁺每mol失2mol电子；与非氧化性酸完全反应常为1mol金属给1mol H₂。"
+      }
+    ],
+    "quiz": {
+      "q": "Mg蒸汽反应式能无条件用于冷水吗？",
+      "given": "温度/相态不同。",
+      "analysis": "同元素原料不意味着同条件路径。",
+      "method": "保留相态。",
+      "steps": [
+        "蒸汽式指特定条件。",
+        "冷水需考虑表层和速率。"
+      ],
+      "ans": "不能。",
+      "verification": "不删除反应条件。",
+      "pitfall": "温度只是装饰。",
+      "question_origin": "original",
+      "paper_no": null,
+      "principle": "Mg/Ca到M²⁺每mol失2mol电子；与非氧化性酸完全反应常为1mol金属给1mol H₂。"
+    },
+    "exam": [
+      "先圈水的相态、酸的类型及产物，再作计量",
+      "有杂质/混合燃烧产物先守恒来源，不能按纯MgO直接套量"
+    ],
+    "quick": [
+      "IIA失两电子",
+      "条件决定路径",
+      "含N产物需N来源"
+    ],
+    "verification_status": "partially_verified",
+    "exam_evidence": [],
+    "strategy": {
+      "trigger": "先圈水的相态、酸的类型及产物，再作计量",
+      "method": "检验Mg₃N₂解释。",
+      "principle": "产物元素必须有来源，MgO不含N，NH₃线索需要含氮产物或杂质解释，不能归于纯氧化物。",
+      "worked_example_index": 2,
+      "verification": "N/H/O原子均守恒，仍需排其他含氮杂质。",
+      "pitfall": "颜色类似就认纯氧化物。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e1",
+        "review_module": 4,
+        "feedback": "本目标抽样复核：不同条件实质不同，不矛盾。；错因：一次阴性观察外推全部条件。。还需结合其他题检查目标的其余子技能。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "本目标抽样复核：N/H/O原子均守恒，仍需排其他含氮杂质。；错因：颜色类似就认纯氧化物。。还需结合其他题检查目标的其余子技能。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "温度只是装饰。",
+        "correction": "不能。",
+        "verification": "不删除反应条件。"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "os_batch04_10.1.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/18-1-periodicity",
+        "page_or_section": "18-1-periodicity",
+        "version": "Chemistry 2e；理论辅助，非UEC范围",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "illustration_spec": {
+      "labels": [
+        "Mg/Ca",
+        "冷水/蒸汽",
+        "酸",
+        "氧化物/氮化物",
+        "H₂"
+      ],
+      "english": "Create a conditional reaction map separating calcium with cold water, magnesium with steam, and magnesium in air. Track nitrogen into Mg3N2 and NH3 without claiming pure MgO. Include balanced equations and no experimental recipe.",
+      "scientific_requirements": [
+        "Mg/Ca到M²⁺每mol失2mol电子；与非氧化性酸完全反应常为1mol金属给1mol H₂。",
+        "冷水、热水、水蒸气及氧化性酸是不同条件，产物与速率需分别确认。",
+        "Mg₃N₂+6H₂O→3Mg(OH)₂+2NH₃，氮化物与氧化物的后续产物不同。"
+      ]
+    }
+  },
+  "10.2": {
+    "goals": [
+      "联系MgO/MgCl₂/MgSO₄的反应与用途",
+      "准确处理水合物、分解和沉淀计量"
+    ],
+    "prerequisites": [
+      "离子化合物",
+      "酸碱",
+      "结晶水"
+    ],
+    "flow": [
+      "MgO",
+      "Mg(OH)₂",
+      "MgCl₂",
+      "MgSO₄·7H₂O",
+      "沉淀与水解"
+    ],
+    "concept_relation": "水合物M含水；难溶仍可酸溶；MgCl₂加热有水解边界",
+    "deep": [
+      "定量题把水合物整体、无水盐及Mg元素三种基准分开：相同1mol水合物给1mol Mg，但质量分数因结晶水而变化。摩尔质量和纯度须在题干明确，不把易见数字当标准实测。",
+      "答题的最后检查包括电荷、物质的量对应与是否存在未被题目允许的水解/副沉淀。"
+    ],
+    "derive": [
+      "MgO+2H⁺→Mg²⁺+H₂O；Mg(OH)₂+2H⁺→Mg²⁺+2H₂O。",
+      "MgSO₄·7H₂O每mol含1mol Mg与7mol水，水合物质量分数不能用无水盐M。",
+      "水合MgCl₂的实际加热可能水解；只有明确纯失水模型才可直接减水质量。"
+    ],
+    "examples": [
+      {
+        "q": "12.3g MgSO₄·7H₂O，M=246g/mol，含Mg几mol？",
+        "given": "纯七水物。",
+        "analysis": "每式一Mg，不按总原子数除。",
+        "method": "先算整盐mol。",
+        "steps": [
+          "12.3/246=0.0500mol盐。",
+          "Mg量同为0.0500mol。"
+        ],
+        "ans": "0.0500mol。",
+        "verification": "水量0.350mol；基准清楚。",
+        "pitfall": "用无水120除整水合物质量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "水合物的全部结晶水计入摩尔质量，但每份盐中Mg数仍为1。"
+      },
+      {
+        "q": "2.0g MgO与足量酸反应，M(MgO)=40，需H⁺多少mol？",
+        "given": "纯MgO完全反应。",
+        "analysis": "每O²⁻中和需2H⁺。",
+        "method": "n盐后乘2。",
+        "steps": [
+          "n(MgO)=0.050mol。",
+          "H⁺需0.100mol。"
+        ],
+        "ans": "0.100mol。",
+        "verification": "Mg²⁺0.050mol，电荷由0.100mol H⁺对应。",
+        "pitfall": "按1∶1酸耗。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "MgO与酸的中和需2H⁺/式量单位，先算有效氧化物mol再按当量求酸。"
+      },
+      {
+        "q": "将水合MgCl₂直接加热所得残渣，能只减去结晶水便认定纯MgCl₂吗？",
+        "given": "未给防水解条件或残渣鉴定。",
+        "analysis": "加热可能伴随化学反应。",
+        "method": "核产物身份而非只看恒重。",
+        "steps": [
+          "水解可改变Cl/O组成。",
+          "恒重只说明在该条件质量稳定。",
+          "需产物及逸出物证据，才可建立纯失水计量。"
+        ],
+        "ans": "不能。",
+        "verification": "质量稳定不唯一证明化学纯度。",
+        "pitfall": "恒重当唯一纯度鉴定。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "恒重是特定条件下质量稳定，不是纯度证明；加热水合氯化镁可能水解而改变残渣化学身份。"
+      }
+    ],
+    "practice": [
+      {
+        "q": "Mg(OH)₂难溶能否与酸反应？",
+        "given": "酸消耗OH⁻相关物种。",
+        "analysis": "溶解/中和耦联。",
+        "method": "写总反应。",
+        "steps": [
+          "Mg(OH)₂+2H⁺→Mg²⁺+2H₂O。",
+          "固体可继续消耗。"
+        ],
+        "ans": "可以。",
+        "verification": "原子和电荷守恒。",
+        "pitfall": "不溶就不反应。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "MgO+2H⁺→Mg²⁺+H₂O；Mg(OH)₂+2H⁺→Mg²⁺+2H₂O。"
+      },
+      {
+        "q": "0.10mol Mg²⁺完全沉淀需OH⁻多少？",
+        "given": "Mg(OH)₂为产物。",
+        "analysis": "按二价计量。",
+        "method": "1∶2。",
+        "steps": [
+          "需0.20mol。",
+          "沉淀0.10mol。"
+        ],
+        "ans": "0.20mol。",
+        "verification": "正电+0.20与负−0.20抵消。",
+        "pitfall": "只需0.10mol。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "MgO+2H⁺→Mg²⁺+H₂O；Mg(OH)₂+2H⁺→Mg²⁺+2H₂O。"
+      },
+      {
+        "q": "246g七水硫酸镁含水多少g？",
+        "given": "一mol，水18。",
+        "analysis": "7mol水。",
+        "method": "7×18。",
+        "steps": [
+          "得126g。",
+          "余无水盐120g。"
+        ],
+        "ans": "126g。",
+        "verification": "120+126=246。",
+        "pitfall": "以为7g水。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "MgO+2H⁺→Mg²⁺+H₂O；Mg(OH)₂+2H⁺→Mg²⁺+2H₂O。"
+      },
+      {
+        "q": "MgCl₂水溶液电解必得Mg吗？",
+        "given": "有水参与。",
+        "analysis": "析出对象存在竞争。",
+        "method": "区分熔盐与水溶液。",
+        "steps": [
+          "水可优先还原。",
+          "不能照搬熔盐提取。"
+        ],
+        "ans": "不必。",
+        "verification": "需要明确电极反应条件。",
+        "pitfall": "含Mg²⁺就必出Mg。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "MgO+2H⁺→Mg²⁺+H₂O；Mg(OH)₂+2H⁺→Mg²⁺+2H₂O。"
+      }
+    ],
+    "quiz": {
+      "q": "含其他沉淀离子的样品一次称白色沉淀能唯一求Mg吗？",
+      "given": "选择性未建立。",
+      "analysis": "多来源同类固体可能混合。",
+      "method": "先排干扰。",
+      "steps": [
+        "需分离/对照。",
+        "不能将全质量都归Mg(OH)₂。"
+      ],
+      "ans": "不能。",
+      "verification": "物质身份先于计量。",
+      "pitfall": "白色即纯镁沉淀。",
+      "question_origin": "original",
+      "paper_no": null,
+      "principle": "MgO+2H⁺→Mg²⁺+H₂O；Mg(OH)₂+2H⁺→Mg²⁺+2H₂O。"
+    },
+    "exam": [
+      "水合物题先明确称量基准，再换Mg量",
+      "实际加热/沉淀题先鉴定产物，不把恒重或白色当纯度证明"
+    ],
+    "quick": [
+      "水合物M含水",
+      "难溶仍可酸溶",
+      "MgCl₂加热有水解边界"
+    ],
+    "verification_status": "partially_verified",
+    "exam_evidence": [],
+    "strategy": {
+      "trigger": "水合物题先明确称量基准，再换Mg量",
+      "method": "核产物身份而非只看恒重。",
+      "principle": "恒重是特定条件下质量稳定，不是纯度证明；加热水合氯化镁可能水解而改变残渣化学身份。",
+      "worked_example_index": 2,
+      "verification": "质量稳定不唯一证明化学纯度。",
+      "pitfall": "恒重当唯一纯度鉴定。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e1",
+        "review_module": 4,
+        "feedback": "本目标抽样复核：Mg²⁺0.050mol，电荷由0.100mol H⁺对应。；错因：按1∶1酸耗。。还需结合其他题检查目标的其余子技能。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "本目标抽样复核：质量稳定不唯一证明化学纯度。；错因：恒重当唯一纯度鉴定。。还需结合其他题检查目标的其余子技能。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "白色即纯镁沉淀。",
+        "correction": "不能。",
+        "verification": "物质身份先于计量。"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "os_batch04_10.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/18-2-occurrence-and-preparation-of-the-representative-metals",
+        "page_or_section": "18-2-occurrence-and-preparation-of-the-representative-metals",
+        "version": "Chemistry 2e；理论辅助，非UEC范围",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "illustration_spec": {
+      "labels": [
+        "MgO",
+        "Mg(OH)₂",
+        "MgCl₂",
+        "MgSO₄·7H₂O",
+        "沉淀与水解"
+      ],
+      "english": "Draw a compound map distinguishing acid dissolution, hydroxide precipitation, hydrated sulfate accounting and possible chloride hydrolysis. Do not show direct heating as guaranteed preparation of anhydrous MgCl2; label each condition and species.",
+      "scientific_requirements": [
+        "MgO+2H⁺→Mg²⁺+H₂O；Mg(OH)₂+2H⁺→Mg²⁺+2H₂O。",
+        "MgSO₄·7H₂O每mol含1mol Mg与7mol水，水合物质量分数不能用无水盐M。",
+        "水合MgCl₂的实际加热可能水解；只有明确纯失水模型才可直接减水质量。"
+      ]
+    }
+  },
+  "10.3": {
+    "goals": [
+      "联系CaO/Ca(OH)₂及常见钙盐转化",
+      "用CO₂过量、水合物及质量守恒判题"
+    ],
+    "prerequisites": [
+      "酸碱反应",
+      "沉淀",
+      "水合物"
+    ],
+    "flow": [
+      "CaO",
+      "Ca(OH)₂",
+      "CaCO₃",
+      "Ca(HCO₃)₂",
+      "石膏水合数"
+    ],
+    "concept_relation": "生石灰遇水是反应；CO₂过量可澄清；结晶水按终态算",
+    "deep": [
+      "石膏/半水石膏的水合与凝结可联系模具和建筑用途，CaO/Ca(OH)₂可联系特定中和与材料工艺；CaCl₂的干燥及融冰用途需分别考虑吸水、溶解和环境条件。说明功能机制不等于适用于所有实际场景。",
+      "定量转化必须把结晶水、放出CO₂和残留固体全部纳入账本；反复通气或加热题还需跟踪哪一种物种在该阶段实际存在。"
+    ],
+    "derive": [
+      "CaO+H₂O→Ca(OH)₂；Ca(OH)₂+CO₂→CaCO₃+H₂O。",
+      "CaCO₃+CO₂+H₂O→Ca(HCO₃)₂，CO₂过量可使先有沉淀再溶解。",
+      "CaSO₄·2H₂O→CaSO₄·1/2H₂O+3/2H₂O是理想脱水计量；可整体乘2消分数。"
+    ],
+    "examples": [
+      {
+        "q": "5.6g CaO与足量水反应，M(CaO)=56、M(Ca(OH)₂)=74，理论熟石灰多少g？",
+        "given": "纯CaO且完全转化。",
+        "analysis": "产物质量包含加入的水。",
+        "method": "1∶1mol转化。",
+        "steps": [
+          "n(CaO)=0.100mol。",
+          "m(Ca(OH)₂)=0.100×74=7.4g。"
+        ],
+        "ans": "7.4g。",
+        "verification": "消耗水1.8g，5.6+1.8=7.4。",
+        "pitfall": "把产物质量当仍5.6g。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "CaO与水按1∶1化合，产物质量包括所吸收水，必须用总质量守恒复核。"
+      },
+      {
+        "q": "石灰水先浑浊后因持续通CO₂变清，能否据最终变清说没有CO₂？",
+        "given": "CO₂持续过量。",
+        "analysis": "顺序可能包含沉淀再转化。",
+        "method": "按两阶段写式。",
+        "steps": [
+          "先生成CaCO₃。",
+          "后CaCO₃+CO₂+H₂O→Ca(HCO₃)₂。",
+          "澄清可因可溶碳酸氢盐形成。"
+        ],
+        "ans": "不能。",
+        "verification": "Ca仍守恒，沉淀消失不等于钙消失。",
+        "pitfall": "只看最后一帧。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "CO₂适量可沉淀、过量可转为可溶碳酸氢盐，最终澄清并不排除CO₂存在。"
+      },
+      {
+        "q": "34.4g CaSO₄·2H₂O脱水到半水物，M(无水)=136、水18，理想失水多少？",
+        "given": "初始M=172，末M=145。",
+        "analysis": "每份失1.5水而不是全部2水。",
+        "method": "先算0.20mol再乘失水M。",
+        "steps": [
+          "34.4/172=0.200mol。",
+          "每mol失27g水。",
+          "失5.40g，残29.0g。"
+        ],
+        "ans": "5.40g。",
+        "verification": "0.200×145=29.0，34.4−29.0=5.4。",
+        "pitfall": "当作完全无水残渣。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "脱水到半水物只失1.5水/份，不是2水；应先确定终产物水合计量再算失重。"
+      }
+    ],
+    "practice": [
+      {
+        "q": "石灰水与石灰乳是否同一均一体系？",
+        "given": "乳含悬浮固体。",
+        "analysis": "总量与溶液浓度不同。",
+        "method": "分相判断。",
+        "steps": [
+          "石灰水为澄清溶液。",
+          "乳为悬浊体系。"
+        ],
+        "ans": "不是。",
+        "verification": "不能用相同体积推相同总mol。",
+        "pitfall": "忽略固体储量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "CaO+H₂O→Ca(OH)₂；Ca(OH)₂+CO₂→CaCO₃+H₂O。"
+      },
+      {
+        "q": "0.10mol CaCO₃完全分解给CO₂多少？",
+        "given": "CaCO₃→CaO+CO₂。",
+        "analysis": "1∶1。",
+        "method": "按系数。",
+        "steps": [
+          "0.10mol。",
+          "CaO同量。"
+        ],
+        "ans": "0.10mol。",
+        "verification": "碳各1。",
+        "pitfall": "按氧个数算3mol。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "CaO+H₂O→Ca(OH)₂；Ca(OH)₂+CO₂→CaCO₃+H₂O。"
+      },
+      {
+        "q": "半水石膏中的1/2H₂O表示半个水分子吗？",
+        "given": "式为计量比。",
+        "analysis": "宏观比例可用分数。",
+        "method": "整体乘2。",
+        "steps": [
+          "2CaSO₄配1H₂O。",
+          "不需切割水分子。"
+        ],
+        "ans": "不是。",
+        "verification": "整数实体比可重写。",
+        "pitfall": "将系数当分子碎片。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "CaO+H₂O→Ca(OH)₂；Ca(OH)₂+CO₂→CaCO₃+H₂O。"
+      },
+      {
+        "q": "CaCl₂可吸水就适合干燥所有气体吗？",
+        "given": "目标物可能有相互作用。",
+        "analysis": "吸水与化学相容须同时满足。",
+        "method": "分别核两条件。",
+        "steps": [
+          "能除水。",
+          "还需不吸收/反应目标。"
+        ],
+        "ans": "不保证。",
+        "verification": "干燥后目标物应保留。",
+        "pitfall": "只检查吸水性。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "CaO+H₂O→Ca(OH)₂；Ca(OH)₂+CO₂→CaCO₃+H₂O。"
+      }
+    ],
+    "quiz": {
+      "q": "石灰水未浑浊能唯一证明不含CO₂吗？",
+      "given": "浓度、用量、过量程度未知。",
+      "analysis": "阴性可能有多原因。",
+      "method": "补条件/对照。",
+      "steps": [
+        "可能CO₂过量或检验条件不足。",
+        "不能只凭最终外观断言零CO₂。"
+      ],
+      "ans": "不能。",
+      "verification": "用已知对照确认检测能力。",
+      "pitfall": "把一次阴性当不存在。",
+      "question_origin": "original",
+      "paper_no": null,
+      "principle": "CaO+H₂O→Ca(OH)₂；Ca(OH)₂+CO₂→CaCO₃+H₂O。"
+    },
+    "exam": [
+      "通气题按时间分阶段，不用最终照片代替全过程",
+      "石膏失重先定终产物含水数，干燥剂题另查相容性"
+    ],
+    "quick": [
+      "生石灰遇水是反应",
+      "CO₂过量可澄清",
+      "结晶水按终态算"
+    ],
+    "verification_status": "partially_verified",
+    "exam_evidence": [],
+    "strategy": {
+      "trigger": "通气题按时间分阶段，不用最终照片代替全过程",
+      "method": "先算0.20mol再乘失水M。",
+      "principle": "脱水到半水物只失1.5水/份，不是2水；应先确定终产物水合计量再算失重。",
+      "worked_example_index": 2,
+      "verification": "0.200×145=29.0，34.4−29.0=5.4。",
+      "pitfall": "当作完全无水残渣。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e1",
+        "review_module": 4,
+        "feedback": "本目标抽样复核：Ca仍守恒，沉淀消失不等于钙消失。；错因：只看最后一帧。。还需结合其他题检查目标的其余子技能。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "本目标抽样复核：0.200×145=29.0，34.4−29.0=5.4。；错因：当作完全无水残渣。。还需结合其他题检查目标的其余子技能。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把一次阴性当不存在。",
+        "correction": "不能。",
+        "verification": "用已知对照确认检测能力。"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "os_batch04_10.3",
+        "url": "https://openstax.org/books/chemistry-2e/pages/18-1-periodicity",
+        "page_or_section": "18-1-periodicity",
+        "version": "Chemistry 2e；理论辅助，非UEC范围",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "illustration_spec": {
+      "labels": [
+        "CaO",
+        "Ca(OH)₂",
+        "CaCO₃",
+        "Ca(HCO₃)₂",
+        "石膏水合数"
+      ],
+      "english": "Show the lime cycle and two separate CO2 stages: precipitation then dissolution in excess CO2. Include gypsum-to-hemihydrate water accounting with 2CaSO4 per H2O, not a cut half molecule. Keep solution and suspension distinct.",
+      "scientific_requirements": [
+        "CaO+H₂O→Ca(OH)₂；Ca(OH)₂+CO₂→CaCO₃+H₂O。",
+        "CaCO₃+CO₂+H₂O→Ca(HCO₃)₂，CO₂过量可使先有沉淀再溶解。",
+        "CaSO₄·2H₂O→CaSO₄·1/2H₂O+3/2H₂O是理想脱水计量；可整体乘2消分数。"
+      ]
+    }
+  },
+  "10.4": {
+    "goals": [
+      "用沉淀、焰色及对照建立证据链",
+      "解释检出限、干扰和后续溶解"
+    ],
+    "prerequisites": [
+      "离子方程式",
+      "溶解与沉淀",
+      "实验控制"
+    ],
+    "flow": [
+      "Mg²⁺",
+      "OH⁻沉淀",
+      "Ca²⁺",
+      "草酸根",
+      "空白/标准",
+      "分份"
+    ],
+    "concept_relation": "白沉淀不唯一；分份减少干扰；阴性看检出能力",
+    "deep": [
+      "实验回答用“在这些控制下支持存在”比“绝对只有某离子”准确。要证明不含其他离子需要对应独立检验，而不是靠目标阳性把其余全部排除。",
+      "把净离子式、现象、后续行为及证据边界分栏写出，可避免只背试剂颜色而无化学解释。"
+    ],
+    "derive": [
+      "Mg²⁺+2OH⁻→Mg(OH)₂；Ca²⁺+C₂O₄²⁻→CaC₂O₄，各式需检元素和总电荷。",
+      "沉淀形成有浓度/pH条件；一次阴性不证明绝对零含量，阳性也未必排尽干扰。",
+      "沉淀定量需纯度和完全性前提，n(目标离子)由净离子式确定。"
+    ],
+    "examples": [
+      {
+        "q": "0.020mol Mg²⁺完全沉淀需OH⁻多少mol？",
+        "given": "产物Mg(OH)₂且无其他耗碱物。",
+        "analysis": "电荷2需两个OH。",
+        "method": "按净离子式计量。",
+        "steps": [
+          "Mg²⁺+2OH⁻→Mg(OH)₂。",
+          "需0.040mol OH⁻。"
+        ],
+        "ans": "0.040mol。",
+        "verification": "两边电荷0，沉淀0.020mol。",
+        "pitfall": "按1∶1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "二价镁完全沉淀为Mg(OH)₂需2OH⁻，净离子式同时满足电荷中和和原子数。"
+      },
+      {
+        "q": "未知液加OH⁻得白沉淀即可唯一认Mg²⁺吗？",
+        "given": "未做其他对照。",
+        "analysis": "相似现象有多来源。",
+        "method": "补过量碱/酸溶等独立信息。",
+        "steps": [
+          "多种金属离子可生白沉淀。",
+          "可比较过量碱溶解行为并用分份验证。",
+          "单项不唯一。"
+        ],
+        "ans": "不能。",
+        "verification": "鉴定需能排除其他候选。",
+        "pitfall": "白色直接等于Mg(OH)₂。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "不同离子可形成同色沉淀，唯一鉴定需要额外行为及对照排除其他解释。"
+      },
+      {
+        "q": "理想样品全部Ca沉淀为纯无水CaC₂O₄共1.28g，M=128，求Ca量；若夹水结果偏哪方？",
+        "given": "计量1Ca对1沉淀。",
+        "analysis": "先按纯无水模型，再讨论污染方向。",
+        "method": "质量除M，夹水使非目标质量增。",
+        "steps": [
+          "n=1.28/128=0.0100mol。",
+          "夹水而仍除128会高估沉淀与Ca量。",
+          "实际需确认干燥终态。"
+        ],
+        "ans": "0.0100mol；夹水高估。",
+        "verification": "假设条件明示，不把水合形式混入无水M。",
+        "pitfall": "不管含水状态直接称重求量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "纯无水CaC₂O₄每份含1Ca，夹水质量若也按该M计算会高估目标物质的量。"
+      }
+    ],
+    "practice": [
+      {
+        "q": "Ca草酸盐净离子式左右电荷？",
+        "given": "Ca²⁺、C₂O₄²⁻。",
+        "analysis": "正负抵消。",
+        "method": "相加。",
+        "steps": [
+          "左+2−2=0。",
+          "右中性沉淀0。"
+        ],
+        "ans": "均0。",
+        "verification": "计量1∶1。",
+        "pitfall": "草酸根写−1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "Mg²⁺+2OH⁻→Mg(OH)₂；Ca²⁺+C₂O₄²⁻→CaC₂O₄，各式需检元素和总电荷。"
+      },
+      {
+        "q": "Mg焰色不鲜明可证明样品无Mg吗？",
+        "given": "方法灵敏度有限。",
+        "analysis": "方法不适合不等于元素无。",
+        "method": "换适合检验。",
+        "steps": [
+          "考虑OH⁻沉淀等。",
+          "不据此否定。"
+        ],
+        "ans": "不能。",
+        "verification": "须知道方法检出能力。",
+        "pitfall": "没颜色即零含量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "Mg²⁺+2OH⁻→Mg(OH)₂；Ca²⁺+C₂O₄²⁻→CaC₂O₄，各式需检元素和总电荷。"
+      },
+      {
+        "q": "空白也出沉淀，样品结果可靠吗？",
+        "given": "同样处理。",
+        "analysis": "可能试剂/器具背景。",
+        "method": "先排污染。",
+        "steps": [
+          "检查空白原因。",
+          "重新建立干净对照。"
+        ],
+        "ans": "暂不可靠。",
+        "verification": "背景未排不能归样品。",
+        "pitfall": "忽略空白。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "Mg²⁺+2OH⁻→Mg(OH)₂；Ca²⁺+C₂O₄²⁻→CaC₂O₄，各式需检元素和总电荷。"
+      },
+      {
+        "q": "过滤损失沉淀会使按回收量推Ca偏高还是低？",
+        "given": "只考虑损失。",
+        "analysis": "目标质量回收少。",
+        "method": "跟踪质量比。",
+        "steps": [
+          "称量低于理论。",
+          "推n偏低。"
+        ],
+        "ans": "低。",
+        "verification": "计量式同而m变小。",
+        "pitfall": "所有误差都说偏高。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "Mg²⁺+2OH⁻→Mg(OH)₂；Ca²⁺+C₂O₄²⁻→CaC₂O₄，各式需检元素和总电荷。"
+      }
+    ],
+    "quiz": {
+      "q": "只凭Ca阳性可证明没有Mg吗？",
+      "given": "两者可共存。",
+      "analysis": "检出一成分非排除另成分。",
+      "method": "要求独立检验。",
+      "steps": [
+        "另取样检Mg。",
+        "不能从Ca信号消去Mg可能。"
+      ],
+      "ans": "不能。",
+      "verification": "混合样本可双阳性。",
+      "pitfall": "检测到一个就说纯物质。",
+      "question_origin": "original",
+      "paper_no": null,
+      "principle": "Mg²⁺+2OH⁻→Mg(OH)₂；Ca²⁺+C₂O₄²⁻→CaC₂O₄，各式需检元素和总电荷。"
+    },
+    "exam": [
+      "检验题写净离子式、现象、对照及干扰四项",
+      "定量沉淀先定纯度/水合态/完整回收，再判断误差方向"
+    ],
+    "quick": [
+      "白沉淀不唯一",
+      "分份减少干扰",
+      "阴性看检出能力"
+    ],
+    "verification_status": "partially_verified",
+    "exam_evidence": [],
+    "strategy": {
+      "trigger": "检验题写净离子式、现象、对照及干扰四项",
+      "method": "质量除M，夹水使非目标质量增。",
+      "principle": "纯无水CaC₂O₄每份含1Ca，夹水质量若也按该M计算会高估目标物质的量。",
+      "worked_example_index": 2,
+      "verification": "假设条件明示，不把水合形式混入无水M。",
+      "pitfall": "不管含水状态直接称重求量。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e1",
+        "review_module": 4,
+        "feedback": "本目标抽样复核：鉴定需能排除其他候选。；错因：白色直接等于Mg(OH)₂。。还需结合其他题检查目标的其余子技能。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "本目标抽样复核：假设条件明示，不把水合形式混入无水M。；错因：不管含水状态直接称重求量。。还需结合其他题检查目标的其余子技能。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "检测到一个就说纯物质。",
+        "correction": "不能。",
+        "verification": "混合样本可双阳性。"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "os_batch04_10.4",
+        "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+        "page_or_section": "4-2-classifying-chemical-reactions",
+        "version": "Chemistry 2e；理论辅助，非UEC范围",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "illustration_spec": {
+      "labels": [
+        "Mg²⁺",
+        "OH⁻沉淀",
+        "Ca²⁺",
+        "草酸根",
+        "空白/标准",
+        "分份"
+      ],
+      "english": "Draw an evidence decision tree for Mg hydroxide and Ca oxalate tests, with blanks, standards and interference branches. Label CaC2O4 stoichiometry and hydration assumptions; do not claim a white precipitate uniquely identifies a cation.",
+      "scientific_requirements": [
+        "Mg²⁺+2OH⁻→Mg(OH)₂；Ca²⁺+C₂O₄²⁻→CaC₂O₄，各式需检元素和总电荷。",
+        "沉淀形成有浓度/pH条件；一次阴性不证明绝对零含量，阳性也未必排尽干扰。",
+        "沉淀定量需纯度和完全性前提，n(目标离子)由净离子式确定。"
+      ]
+    }
+  }
+}

@@ -1,0 +1,921 @@
+{
+  "11.1.1": {
+    "goals": [
+      "从金属与表面结构联系材料性质",
+      "区分纯铝、合金及比强度的不同指标"
+    ],
+    "prerequisites": [
+      "金属键",
+      "密度",
+      "单位换算"
+    ],
+    "flow": [
+      "金属电子",
+      "密度ρₘ",
+      "电阻率ρₑ",
+      "延展性",
+      "保护层",
+      "比强度"
+    ],
+    "concept_relation": "两种ρ不混；纯铝不等于合金；保护膜不等于不活泼",
+    "deep": [
+      "本节以给定物理模型训练单位与多指标比较。未给材料实际测量值时不编精确电阻率、强度或寿命；性质描述和使用条件都应可追溯。",
+      "作答要用“性质—结构—适用范围”连接：导电靠电子，延展靠可变形晶格，耐蚀关联表层，而非用“铝很好”替代解释。"
+    ],
+    "derive": [
+      "质量m=ρₘV；电阻R=ρₑL/A，两种ρ分别是密度与电阻率，不可混用。",
+      "相同L及R时A∝ρₑ，导线质量∝ρₘρₑ；轻材料未必在等截面下更低电阻。",
+      "比强度需同时给强度和密度，不能用单一“轻”判定承载性能。"
+    ],
+    "examples": [
+      {
+        "q": "铝样品体积10.0cm³，题给密度2.70g/cm³，质量多少？",
+        "given": "均匀纯样品模型。",
+        "analysis": "质量等于体积乘密度。",
+        "method": "用m=ρV。",
+        "steps": [
+          "m=2.70×10.0=27.0g。",
+          "检查体积单位cm³相消。"
+        ],
+        "ans": "27.0g。",
+        "verification": "27.0/10.0=2.70。",
+        "pitfall": "密度与质量混为一个值。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "均匀样品质量m=ρV；给定密度和体积可直接计算且需相容单位。"
+      },
+      {
+        "q": "两导线同长同电阻，A材料电阻率为B的1.5倍、密度为B的0.4倍，A质量是B几倍？",
+        "given": "两者均用均匀导线模型。",
+        "analysis": "同电阻时截面不同，不能只比密度。",
+        "method": "先由R定面积比，再算质量比。",
+        "steps": [
+          "A截面/B截面=1.5。",
+          "质量比=0.4×1.5=0.60。"
+        ],
+        "ans": "0.60倍。",
+        "verification": "L和R均固定，横截面积较大可补更高电阻率。",
+        "pitfall": "直接答0.4而忽略面积。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "导线R=ρₑL/A，m=ρₘAL；同长同阻使截面积随电阻率变化，因此质量比需同时乘两种ρ比。"
+      },
+      {
+        "q": "纯铝软但铝合金可用于承重，是否矛盾？",
+        "given": "材料成分和处理不同。",
+        "analysis": "“铝”和“铝合金”不是同一性质数据集。",
+        "method": "区分纯物与合金结构。",
+        "steps": [
+          "异种原子、析出相等可影响变形机制。",
+          "需具体合金强度和密度数据。",
+          "不能把纯铝柔软直接外推所有铝基材料。"
+        ],
+        "ans": "不矛盾。",
+        "verification": "比较对象已改变，必须另给性能条件。",
+        "pitfall": "材料名字含铝就性质完全一样。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "合金与纯金属有不同组成与变形机制，纯铝柔软不能被直接外推到所有铝基材料。"
+      }
+    ],
+    "practice": [
+      {
+        "q": "铝固态主要载流者？",
+        "given": "纯金属。",
+        "analysis": "区别熔融盐。",
+        "method": "金属电子模型。",
+        "steps": [
+          "离域电子漂移。",
+          "晶格离子实不长程游动。"
+        ],
+        "ans": "电子。",
+        "verification": "与金属键相容。",
+        "pitfall": "Al³⁺水合离子。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "质量m=ρₘV；电阻R=ρₑL/A，两种ρ分别是密度与电阻率，不可混用。"
+      },
+      {
+        "q": "密度2.7g/cm³、质量54g，体积？",
+        "given": "理想模型。",
+        "analysis": "V=m/ρ。",
+        "method": "54除2.7。",
+        "steps": [
+          "20cm³。",
+          "单位g相消。"
+        ],
+        "ans": "20cm³。",
+        "verification": "20×2.7=54。",
+        "pitfall": "乘密度。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "质量m=ρₘV；电阻R=ρₑL/A，两种ρ分别是密度与电阻率，不可混用。"
+      },
+      {
+        "q": "有保护膜就表示金属不活泼吗？",
+        "given": "膜可改变表面反应速率。",
+        "analysis": "本体活泼性与动力学保护不同。",
+        "method": "分层解释。",
+        "steps": [
+          "膜限制接触/传递。",
+          "去膜后行为可不同。"
+        ],
+        "ans": "不表示。",
+        "verification": "后续酸碱条件可改变膜。",
+        "pitfall": "耐蚀等于无反应能力。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "质量m=ρₘV；电阻R=ρₑL/A，两种ρ分别是密度与电阻率，不可混用。"
+      },
+      {
+        "q": "同密度两合金，强度甲为乙2倍，比强度怎样？",
+        "given": "密度相同且强度定义一致。",
+        "analysis": "比值分母共同。",
+        "method": "约去密度。",
+        "steps": [
+          "甲比强度为乙2倍。",
+          "仅在题给条件成立。"
+        ],
+        "ans": "2倍。",
+        "verification": "不外推其他性能。",
+        "pitfall": "比强度当密度倒数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "质量m=ρₘV；电阻R=ρₑL/A，两种ρ分别是密度与电阻率，不可混用。"
+      }
+    ],
+    "quiz": {
+      "q": "回收铝等于零能耗吗？",
+      "given": "仍有分选、熔化加工。",
+      "analysis": "相对节省不等于无消耗。",
+      "method": "明确系统边界。",
+      "steps": [
+        "可减少原生冶炼需求。",
+        "回收过程仍耗能。"
+      ],
+      "ans": "不是。",
+      "verification": "需工艺数据算具体节省。",
+      "pitfall": "“绿色”当无需计算的绝对事实。",
+      "question_origin": "original",
+      "paper_no": null,
+      "principle": "质量m=ρₘV；电阻R=ρₑL/A，两种ρ分别是密度与电阻率，不可混用。"
+    },
+    "exam": [
+      "导线比较先区分密度与电阻率，按同长/同阻条件联立",
+      "材料应用题用具体合金及环境，避免把纯铝特点绝对外推"
+    ],
+    "quick": [
+      "两种ρ不混",
+      "纯铝不等于合金",
+      "保护膜不等于不活泼"
+    ],
+    "verification_status": "partially_verified",
+    "exam_evidence": [],
+    "strategy": {
+      "trigger": "导线比较先区分密度与电阻率，按同长/同阻条件联立",
+      "method": "区分纯物与合金结构。",
+      "principle": "合金与纯金属有不同组成与变形机制，纯铝柔软不能被直接外推到所有铝基材料。",
+      "worked_example_index": 2,
+      "verification": "比较对象已改变，必须另给性能条件。",
+      "pitfall": "材料名字含铝就性质完全一样。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e1",
+        "review_module": 4,
+        "feedback": "本目标抽样复核：L和R均固定，横截面积较大可补更高电阻率。；错因：直接答0.4而忽略面积。。还需结合其他题检查目标的其余子技能。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "本目标抽样复核：比较对象已改变，必须另给性能条件。；错因：材料名字含铝就性质完全一样。。还需结合其他题检查目标的其余子技能。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "“绿色”当无需计算的绝对事实。",
+        "correction": "不是。",
+        "verification": "需工艺数据算具体节省。"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "os_batch04_11.1.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/18-1-periodicity",
+        "page_or_section": "18-1-periodicity",
+        "version": "Chemistry 2e；理论辅助，非UEC范围",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "illustration_spec": {
+      "labels": [
+        "金属电子",
+        "密度ρₘ",
+        "电阻率ρₑ",
+        "延展性",
+        "保护层",
+        "比强度"
+      ],
+      "english": "Show separate mass-density and electrical-resistivity ledgers, with equal-length/equal-resistance wires of different areas. Distinguish pure aluminium, alloys and the surface film; do not invent strength or lifetime measurements.",
+      "scientific_requirements": [
+        "质量m=ρₘV；电阻R=ρₑL/A，两种ρ分别是密度与电阻率，不可混用。",
+        "相同L及R时A∝ρₑ，导线质量∝ρₘρₑ；轻材料未必在等截面下更低电阻。",
+        "比强度需同时给强度和密度，不能用单一“轻”判定承载性能。"
+      ]
+    }
+  },
+  "11.1.2": {
+    "goals": [
+      "解释氧化膜、两性及条件依赖",
+      "完成铝与酸/碱的电子和气量计量"
+    ],
+    "prerequisites": [
+      "氧化还原",
+      "酸碱",
+      "金属表面膜"
+    ],
+    "flow": [
+      "Al",
+      "氧化膜",
+      "酸",
+      "强碱",
+      "[Al(OH)₄]⁻",
+      "H₂"
+    ],
+    "concept_relation": "膜影响速率；2Al产3H₂；水溶液表示要一致",
+    "deep": [
+      "在水溶液置换题中还应考虑膜、酸碱和竞争反应，简单活动性顺序不完全决定可见现象。写反应之前先读介质、温度和产物，不能只见Al就报同一套气量。",
+      "检验答案时用每mol Al失3mol电子、H₂每mol对应2mol电子核比值，常见理想完全产氢为2Al∶3H₂，最后再按题给温压换体积。"
+    ],
+    "derive": [
+      "Al0→Al³⁺+3e⁻；产H₂每mol需2mol电子，理想完全反应n(H₂)=3n(Al)/2。",
+      "强碱水溶液采用[Al(OH)₄]⁻表示时必须配入水，不能直接复制AlO₂⁻写法的水系数。",
+      "氧化膜和钝化改变表面速率；酸的类型与温度是选择反应式的必要条件。"
+    ],
+    "examples": [
+      {
+        "q": "2.70g纯Al与足量适当稀酸完全产氢，M=27.0，V_m=24.0L/mol，求体积。",
+        "given": "忽略膜，理想完全反应。",
+        "analysis": "Al/H₂比为2∶3。",
+        "method": "质量→mol→电子或系数→V。",
+        "steps": [
+          "n(Al)=0.100mol。",
+          "n(H₂)=0.150mol。",
+          "V=3.60L。"
+        ],
+        "ans": "3.60L。",
+        "verification": "Al失0.300mol电子，H₂对应0.300mol。",
+        "pitfall": "按Mg的1∶1比例。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "Al每mol失3mol电子，生成H₂每mol需2mol电子，因此理想完全产氢为3/2倍Al量。"
+      },
+      {
+        "q": "核对2Al+2OH⁻+6H₂O→2[Al(OH)₄]⁻+3H₂是否平衡。",
+        "given": "采用四羟基合铝酸根表示。",
+        "analysis": "不仅Al，O/H与电荷也需核。",
+        "method": "逐项计数。",
+        "steps": [
+          "Al2对2；左O2+6=8，右8。",
+          "左H2+12=14，右8+6=14。",
+          "电荷左−2、右−2。"
+        ],
+        "ans": "平衡。",
+        "verification": "Al失6电子，3H₂需6电子。",
+        "pitfall": "删水后仍称已平衡。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "水溶液铝酸根的表示必须连同水配平，元素、电荷及电子账均需相等。"
+      },
+      {
+        "q": "Fe₂O₃+2Al→Al₂O₃+2Fe中5.4g Al最多给多少Fe？M(Al)=27、Fe=56，氧化铁足量。",
+        "given": "理想完全，忽略副反应。",
+        "analysis": "Al与Fe为1∶1而非2∶1。",
+        "method": "按mol比计算。",
+        "steps": [
+          "n(Al)=0.200mol。",
+          "n(Fe)=0.200mol。",
+          "m(Fe)=11.2g。"
+        ],
+        "ans": "11.2g。",
+        "verification": "2Al失6电子、2Fe得6，计量一致。",
+        "pitfall": "系数2只在一边使用。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "总反应2Al对2Fe为1∶1mol，不能只看一边系数；质量须经摩尔质量转换。"
+      }
+    ],
+    "practice": [
+      {
+        "q": "0.20mol Al完全产H₂多少？",
+        "given": "符合适用酸碱产氢模型。",
+        "analysis": "每2Al产3H₂。",
+        "method": "乘3/2。",
+        "steps": [
+          "0.30mol。",
+          "电子0.60mol。"
+        ],
+        "ans": "0.30mol。",
+        "verification": "0.20×3=0.30×2。",
+        "pitfall": "只除2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "Al0→Al³⁺+3e⁻；产H₂每mol需2mol电子，理想完全反应n(H₂)=3n(Al)/2。"
+      },
+      {
+        "q": "钝化能说明Al是贵金属吗？",
+        "given": "表层膜阻挡。",
+        "analysis": "速率与金属还原性不同。",
+        "method": "解释膜作用。",
+        "steps": [
+          "表面速率降低。",
+          "不改变元素本体身份。"
+        ],
+        "ans": "不能。",
+        "verification": "去膜/换条件可改变现象。",
+        "pitfall": "钝化等于完全不反应。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "Al0→Al³⁺+3e⁻；产H₂每mol需2mol电子，理想完全反应n(H₂)=3n(Al)/2。"
+      },
+      {
+        "q": "酸中Al³⁺与碱中[Al(OH)₄]⁻的Al氧化数？",
+        "given": "OH−1，络离子总−1。",
+        "analysis": "总离子电荷不是中心价。",
+        "method": "设x列x−4=−1。",
+        "steps": [
+          "x=+3。",
+          "酸中也+3。"
+        ],
+        "ans": "均+3。",
+        "verification": "配位不等于Al被还原。",
+        "pitfall": "带负离子中的Al必负价。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "Al0→Al³⁺+3e⁻；产H₂每mol需2mol电子，理想完全反应n(H₂)=3n(Al)/2。"
+      },
+      {
+        "q": "任意浓酸都按2Al+6H⁺产氢吗？",
+        "given": "酸可能氧化性强。",
+        "analysis": "需判氧化剂与表层。",
+        "method": "核条件。",
+        "steps": [
+          "可能钝化或其他还原产物。",
+          "不一律给H₂。"
+        ],
+        "ans": "不是。",
+        "verification": "反应式需条件依据。",
+        "pitfall": "只看H⁺忽略酸种。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "Al0→Al³⁺+3e⁻；产H₂每mol需2mol电子，理想完全反应n(H₂)=3n(Al)/2。"
+      }
+    ],
+    "quiz": {
+      "q": "金属Al与碱反应能只用中和解释吗？",
+      "given": "Al0到+3并放H₂。",
+      "analysis": "包含氧化还原。",
+      "method": "查价数。",
+      "steps": [
+        "Al被氧化。",
+        "H物种被还原，非单纯H⁺/OH⁻中和。"
+      ],
+      "ans": "不能。",
+      "verification": "电子账有变化。",
+      "pitfall": "把金属反应和两性氢氧化物混称。",
+      "question_origin": "original",
+      "paper_no": null,
+      "principle": "Al0→Al³⁺+3e⁻；产H₂每mol需2mol电子，理想完全反应n(H₂)=3n(Al)/2。"
+    },
+    "exam": [
+      "先圈酸/碱类型和表面条件，再选产物表示",
+      "产氢比用电子数独立复核，铝酸根记法与水系数配套"
+    ],
+    "quick": [
+      "膜影响速率",
+      "2Al产3H₂",
+      "水溶液表示要一致"
+    ],
+    "verification_status": "partially_verified",
+    "exam_evidence": [],
+    "strategy": {
+      "trigger": "先圈酸/碱类型和表面条件，再选产物表示",
+      "method": "按mol比计算。",
+      "principle": "总反应2Al对2Fe为1∶1mol，不能只看一边系数；质量须经摩尔质量转换。",
+      "worked_example_index": 2,
+      "verification": "2Al失6电子、2Fe得6，计量一致。",
+      "pitfall": "系数2只在一边使用。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e1",
+        "review_module": 4,
+        "feedback": "本目标抽样复核：Al失6电子，3H₂需6电子。；错因：删水后仍称已平衡。。还需结合其他题检查目标的其余子技能。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "本目标抽样复核：2Al失6电子、2Fe得6，计量一致。；错因：系数2只在一边使用。。还需结合其他题检查目标的其余子技能。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把金属反应和两性氢氧化物混称。",
+        "correction": "不能。",
+        "verification": "电子账有变化。"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "os_batch04_11.1.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/18-1-periodicity",
+        "page_or_section": "18-1-periodicity",
+        "version": "Chemistry 2e；理论辅助，非UEC范围",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "illustration_spec": {
+      "labels": [
+        "Al",
+        "氧化膜",
+        "酸",
+        "强碱",
+        "[Al(OH)₄]⁻",
+        "H₂"
+      ],
+      "english": "Draw condition-dependent aluminium reactions with an intact versus disrupted oxide film. Use balanced aqueous aluminate equations and electron counts; keep passivation distinct from noble-metal behaviour and avoid experimental ignition instructions.",
+      "scientific_requirements": [
+        "Al0→Al³⁺+3e⁻；产H₂每mol需2mol电子，理想完全反应n(H₂)=3n(Al)/2。",
+        "强碱水溶液采用[Al(OH)₄]⁻表示时必须配入水，不能直接复制AlO₂⁻写法的水系数。",
+        "氧化膜和钝化改变表面速率；酸的类型与温度是选择反应式的必要条件。"
+      ]
+    }
+  },
+  "11.2": {
+    "goals": [
+      "解释Al₂O₃/Al(OH)₃两性及明矾水解",
+      "按滴加顺序、酸碱过量和水合物计量判题"
+    ],
+    "prerequisites": [
+      "酸碱反应",
+      "络离子",
+      "沉淀与水解"
+    ],
+    "flow": [
+      "Al³⁺",
+      "3OH⁻沉淀",
+      "追加OH⁻",
+      "铝酸根",
+      "酸溶",
+      "明矾水解"
+    ],
+    "concept_relation": "先沉淀后溶解；追加不等总量；两性不等于易溶纯水",
+    "deep": [
+      "Al(OH)₃受热可分解为Al₂O₃和水，2Al(OH)₃→Al₂O₃+3H₂O。胶状沉淀常带吸附水，实际称量法需明确终态与纯度；理论式不能代替样品干燥鉴定。",
+      "方程式写法按介质统一，尤其不要在同一水溶液过程无说明混用AlO₂⁻和[Al(OH)₄]⁻，以免O/H账错。"
+    ],
+    "derive": [
+      "Al³⁺+3OH⁻→Al(OH)₃；Al(OH)₃+OH⁻→[Al(OH)₄]⁻，两阶段总需4OH⁻/Al。",
+      "Al(OH)₃+3H⁺→Al³⁺+3H₂O；2Al(OH)₃→Al₂O₃+3H₂O。",
+      "明矾每份1Al、2SO₄与12H₂O，结晶水计质量而不另增加Al量。",
+      "Al₂O₃+2OH⁻+3H₂O→2[Al(OH)₄]⁻为合适强碱条件下水溶液表示；O/H需逐项检查，正确O总为3+2+3=8、H总2+6=8，与2个四羟基络离子对应。"
+    ],
+    "examples": [
+      {
+        "q": "0.10mol Al³⁺完全生成Al(OH)₃需OH⁻多少；再完全溶为[Al(OH)₄]⁻共需多少？",
+        "given": "理想分阶段反应。",
+        "analysis": "沉淀终点与最终溶解终点不同。",
+        "method": "分别用3与4当量。",
+        "steps": [
+          "沉淀终点0.30mol OH⁻。",
+          "再需0.10mol OH⁻溶解。",
+          "总0.40mol。"
+        ],
+        "ans": "0.30mol与0.40mol。",
+        "verification": "3+1=4，不把追加量写成总量。",
+        "pitfall": "两个终点混用。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "Al³⁺到沉淀需3OH⁻，沉淀再溶需额外1OH⁻；累计与追加当量不同。"
+      },
+      {
+        "q": "15.6g纯Al(OH)₃充分热分解，M=78、Al₂O₃=102，残固体多少？",
+        "given": "水全部离开。",
+        "analysis": "两份氢氧化物给一份氧化物。",
+        "method": "先算mol再除2。",
+        "steps": [
+          "n=15.6/78=0.200mol。",
+          "Al₂O₃为0.100mol。",
+          "质量10.2g。"
+        ],
+        "ans": "10.2g。",
+        "verification": "失水0.300mol=5.4g；总15.6。",
+        "pitfall": "按1∶1生成Al₂O₃。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "2Al(OH)₃失水形成1Al₂O₃，Al原子守恒而水全部离开固体。"
+      },
+      {
+        "q": "0.10mol Al³⁺逐渐加0.35mol OH⁻，理想顺序模型最后有多少沉淀和络离子？",
+        "given": "无其他耗碱，先沉淀再溶。",
+        "analysis": "0.35介于3当量与4当量之间。",
+        "method": "先消0.30形成全沉淀，再用剩0.05。",
+        "steps": [
+          "先得0.10mol Al(OH)₃。",
+          "剩OH⁻0.05mol溶掉等量沉淀。",
+          "末沉淀0.05mol、络离子0.05mol。"
+        ],
+        "ans": "各0.05mol。",
+        "verification": "Al总0.10，OH消0.30+0.05=0.35。",
+        "pitfall": "用0.35/3作为最终沉淀量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "顺序模型先全沉淀再以剩余OH⁻溶解；铝总量及总耗碱必须同时闭合。"
+      }
+    ],
+    "practice": [
+      {
+        "q": "Al(OH)₃两性意味着易溶于纯水吗？",
+        "given": "性质分别讨论。",
+        "analysis": "与酸碱反应不等于水溶性。",
+        "method": "分开定义。",
+        "steps": [
+          "它可难溶。",
+          "仍能与酸/强碱反应。"
+        ],
+        "ans": "不意味着。",
+        "verification": "不同条件不同平衡。",
+        "pitfall": "两性等于中性可溶。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "Al³⁺+3OH⁻→Al(OH)₃；Al(OH)₃+OH⁻→[Al(OH)₄]⁻，两阶段总需4OH⁻/Al。"
+      },
+      {
+        "q": "1mol十二水明矾含水几mol？",
+        "given": "式中12水。",
+        "analysis": "每份水下标计量。",
+        "method": "直接对应。",
+        "steps": [
+          "12mol水。",
+          "Al仍1mol。"
+        ],
+        "ans": "12mol。",
+        "verification": "水与铝不是同一计数。",
+        "pitfall": "把12也乘到Al。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "Al³⁺+3OH⁻→Al(OH)₃；Al(OH)₃+OH⁻→[Al(OH)₄]⁻，两阶段总需4OH⁻/Al。"
+      },
+      {
+        "q": "Al₂O₃与酸的净反应需H⁺/mol氧化物？",
+        "given": "产Al³⁺和水。",
+        "analysis": "每3O需6H。",
+        "method": "写Al₂O₃+6H⁺。",
+        "steps": [
+          "→2Al³⁺+3H₂O。",
+          "需6mol H⁺。"
+        ],
+        "ans": "6mol。",
+        "verification": "电荷+6两侧。",
+        "pitfall": "只需3。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "Al³⁺+3OH⁻→Al(OH)₃；Al(OH)₃+OH⁻→[Al(OH)₄]⁻，两阶段总需4OH⁻/Al。"
+      },
+      {
+        "q": "明矾絮凝可证明水中所有污染均消除吗？",
+        "given": "只观测絮体沉降。",
+        "analysis": "处理效果需分别检验。",
+        "method": "限制结论。",
+        "steps": [
+          "可促进部分悬浮物去除。",
+          "溶解物/微生物等需另验证。"
+        ],
+        "ans": "不能。",
+        "verification": "澄清不等于完全安全或纯水。",
+        "pitfall": "外观清等于所有污染消失。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "Al³⁺+3OH⁻→Al(OH)₃；Al(OH)₃+OH⁻→[Al(OH)₄]⁻，两阶段总需4OH⁻/Al。"
+      }
+    ],
+    "quiz": {
+      "q": "把过量NaOH处理Al(OH)₃无变化写作标准现象准确吗？",
+      "given": "合适强碱条件。",
+      "analysis": "两性沉淀可进一步溶。",
+      "method": "写络合净式。",
+      "steps": [
+        "Al(OH)₃+OH⁻→[Al(OH)₄]⁻。",
+        "应考虑沉淀溶解。"
+      ],
+      "ans": "不准确。",
+      "verification": "需区分与Mg(OH)₂。",
+      "pitfall": "所有白色氢氧化物都一样。",
+      "question_origin": "original",
+      "paper_no": null,
+      "principle": "Al³⁺+3OH⁻→Al(OH)₃；Al(OH)₃+OH⁻→[Al(OH)₄]⁻，两阶段总需4OH⁻/Al。"
+    },
+    "exam": [
+      "滴加题先判3/4当量区间，再作Al守恒",
+      "水合物题分实体计量；净水题不能从外观外推全部处理效果"
+    ],
+    "quick": [
+      "先沉淀后溶解",
+      "追加不等总量",
+      "两性不等于易溶纯水"
+    ],
+    "verification_status": "partially_verified",
+    "exam_evidence": [],
+    "strategy": {
+      "trigger": "滴加题先判3/4当量区间，再作Al守恒",
+      "method": "先消0.30形成全沉淀，再用剩0.05。",
+      "principle": "顺序模型先全沉淀再以剩余OH⁻溶解；铝总量及总耗碱必须同时闭合。",
+      "worked_example_index": 2,
+      "verification": "Al总0.10，OH消0.30+0.05=0.35。",
+      "pitfall": "用0.35/3作为最终沉淀量。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "本目标抽样复核：3+1=4，不把追加量写成总量。；错因：两个终点混用。。还需结合其他题检查目标的其余子技能。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "本目标抽样复核：Al总0.10，OH消0.30+0.05=0.35。；错因：用0.35/3作为最终沉淀量。。还需结合其他题检查目标的其余子技能。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "所有白色氢氧化物都一样。",
+        "correction": "不准确。",
+        "verification": "需区分与Mg(OH)₂。"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "os_batch04_11.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+        "page_or_section": "4-2-classifying-chemical-reactions",
+        "version": "Chemistry 2e；理论辅助，非UEC范围",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "illustration_spec": {
+      "labels": [
+        "Al³⁺",
+        "3OH⁻沉淀",
+        "追加OH⁻",
+        "铝酸根",
+        "酸溶",
+        "明矾水解"
+      ],
+      "english": "Plot a clearly model-labelled precipitate amount versus added OH-/Al ratio: rise to 3, decline to zero at 4. Show the two balanced stages and separate total versus additional base. Include alum hydrate counting without implying universal water purification.",
+      "scientific_requirements": [
+        "Al³⁺+3OH⁻→Al(OH)₃；Al(OH)₃+OH⁻→[Al(OH)₄]⁻，两阶段总需4OH⁻/Al。",
+        "Al(OH)₃+3H⁺→Al³⁺+3H₂O；2Al(OH)₃→Al₂O₃+3H₂O。",
+        "明矾每份1Al、2SO₄与12H₂O，结晶水计质量而不另增加Al量。",
+        "Al₂O₃+2OH⁻+3H₂O→2[Al(OH)₄]⁻为合适强碱条件下水溶液表示；O/H需逐项检查，正确O总为3+2+3=8、H总2+6=8，与2个四羟基络离子对应。"
+      ]
+    }
+  },
+  "11.3": {
+    "goals": [
+      "解释矿石提纯与熔盐电解的角色",
+      "用电子、电量、产率和碳消耗核算"
+    ],
+    "prerequisites": [
+      "氧化还原",
+      "电极半反应",
+      "物质的量与产率"
+    ],
+    "flow": [
+      "矿石纯度",
+      "氧化铝",
+      "冰晶石",
+      "阴极还原",
+      "碳阳极",
+      "电流效率"
+    ],
+    "concept_relation": "每Al需3电子；碳阳极会消耗；纯度/回收/电流效率分开",
+    "deep": [
+      "质量产率可由矿石中Al₂O₃比例→氧化物mol→Al理论mol→实际回收分步求。总体质量不会凭空消失，氧进入阳极气体或其他产物，碳消耗是工业过程材料账的一部分。",
+      "回收铝主要重新分选熔炼，避免部分原生电解需求，但仍耗能且受杂质限制。解释可持续性须比较流程与边界，不用“可回收”抹掉实际排放与设备要求。"
+    ],
+    "derive": [
+      "阴极简化式Al³⁺+3e⁻→Al；Q=3n(Al)F，实际量需按所给电流效率修正。",
+      "理想主要总式2Al₂O₃+3C→4Al+3CO₂，2mol氧化铝给4mol金属，碳并非惰性不耗。",
+      "冰晶石为熔融介质组分，不按总式当净消耗原料；原料纯度、回收率与电流效率是不同概念。"
+    ],
+    "examples": [
+      {
+        "q": "102g纯Al₂O₃理论得Al多少g？M氧化物102、Al27。",
+        "given": "理想完全回收。",
+        "analysis": "一份氧化物含2Al。",
+        "method": "mol氧化物乘2。",
+        "steps": [
+          "n(Al₂O₃)=1.00mol。",
+          "Al=2.00mol。",
+          "m=54.0g。"
+        ],
+        "ans": "54.0g。",
+        "verification": "氧48g进入其他产物，不能全氧化物质量变Al。",
+        "pitfall": "质量按1∶1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "Al₂O₃每份含2Al；还原后金属质量不包括氧，理论质量比为54/102。"
+      },
+      {
+        "q": "制得0.10mol Al理论需多少电量？F=96500C/mol e⁻。",
+        "given": "电流效率100%。",
+        "analysis": "每Al需3电子。",
+        "method": "先n(e⁻)再乘F。",
+        "steps": [
+          "n(e⁻)=0.30mol。",
+          "Q=0.30×96500=28950C。"
+        ],
+        "ans": "2.895×10⁴C。",
+        "verification": "Q/F=0.30mol电子。",
+        "pitfall": "每Al只需1电子。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "每mol Al³⁺还原需3mol电子，Q=n(e⁻)F；理论电量按100%效率，实际须另修正。"
+      },
+      {
+        "q": "1000kg矿石含Al₂O₃ 51%，按理论金属量回收80%，得Al多少kg？M为102、27。",
+        "given": "其他组分不提供Al，统一质量回收率。",
+        "analysis": "纯度和回收率作用于不同阶段。",
+        "method": "先有效氧化物，再54/102，最后乘0.80。",
+        "steps": [
+          "有效Al₂O₃=510kg。",
+          "理论Al=510×54/102=270kg。",
+          "实际216kg。"
+        ],
+        "ans": "216kg。",
+        "verification": "实际小于理论270；不能直接510×0.80作金属。",
+        "pitfall": "忘掉氧化物到金属质量比。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "矿石纯度先给有效氧化物质量，再用化学计量求理论金属，回收率作用于该金属理论量。"
+      }
+    ],
+    "practice": [
+      {
+        "q": "电解熔体中的阴极过程是氧化吗？",
+        "given": "Al³⁺得电子。",
+        "analysis": "电子进入是还原。",
+        "method": "看半式。",
+        "steps": [
+          "Al³⁺+3e⁻→Al。",
+          "属还原。"
+        ],
+        "ans": "不是，属还原。",
+        "verification": "氧化数+3到0。",
+        "pitfall": "阴阳极名称代替过程。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "阴极简化式Al³⁺+3e⁻→Al；Q=3n(Al)F，实际量需按所给电流效率修正。"
+      },
+      {
+        "q": "生成4mol Al，理想总式耗C多少mol？",
+        "given": "2Al₂O₃+3C→4Al+3CO₂。",
+        "analysis": "按3∶4。",
+        "method": "由系数。",
+        "steps": [
+          "需3mol C。",
+          "CO₂也3mol。"
+        ],
+        "ans": "3mol。",
+        "verification": "碳原子守恒。",
+        "pitfall": "把阳极当永不消耗。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "阴极简化式Al³⁺+3e⁻→Al；Q=3n(Al)F，实际量需按所给电流效率修正。"
+      },
+      {
+        "q": "冰晶石是主要净耗铝来源吗？",
+        "given": "工艺将Al₂O₃溶入熔体。",
+        "analysis": "介质与原料角色不同。",
+        "method": "看理想总反应。",
+        "steps": [
+          "净Al来源按Al₂O₃记。",
+          "冰晶石主要调介质条件。"
+        ],
+        "ans": "不按主要净耗原料计。",
+        "verification": "总式不需把它列成消失的反应物。",
+        "pitfall": "所有含Al物都按比例耗掉。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "阴极简化式Al³⁺+3e⁻→Al；Q=3n(Al)F，实际量需按所给电流效率修正。"
+      },
+      {
+        "q": "I=10A持续100s，电量多少？",
+        "given": "电流恒定。",
+        "analysis": "秒与安培乘得C。",
+        "method": "Q=It。",
+        "steps": [
+          "10×100=1000C。",
+          "需效率和F才进一步算Al。"
+        ],
+        "ans": "1000C。",
+        "verification": "1A=1C/s。",
+        "pitfall": "分钟不换秒。",
+        "question_origin": "original",
+        "paper_no": null,
+        "principle": "阴极简化式Al³⁺+3e⁻→Al；Q=3n(Al)F，实际量需按所给电流效率修正。"
+      }
+    ],
+    "quiz": {
+      "q": "以AlCl₃水溶液电解可无条件替代工业熔盐炼铝吗？",
+      "given": "水可参与电极竞争。",
+      "analysis": "无水熔体与水溶液不同。",
+      "method": "保留介质条件。",
+      "steps": [
+        "水还原等竞争使过程不同。",
+        "不能用同半式保证析Al。"
+      ],
+      "ans": "不能。",
+      "verification": "活泼金属提取需指定体系。",
+      "pitfall": "只见Al³⁺就套金属析出。",
+      "question_origin": "original",
+      "paper_no": null,
+      "principle": "阴极简化式Al³⁺+3e⁻→Al；Q=3n(Al)F，实际量需按所给电流效率修正。"
+    },
+    "exam": [
+      "冶炼流程题分提纯、还原、介质和阳极耗材四个角色",
+      "计算先写质量基准或电子基准，再按题给效率修正，避免重复乘率"
+    ],
+    "quick": [
+      "每Al需3电子",
+      "碳阳极会消耗",
+      "纯度/回收/电流效率分开"
+    ],
+    "verification_status": "partially_verified",
+    "exam_evidence": [],
+    "strategy": {
+      "trigger": "冶炼流程题分提纯、还原、介质和阳极耗材四个角色",
+      "method": "先有效氧化物，再54/102，最后乘0.80。",
+      "principle": "矿石纯度先给有效氧化物质量，再用化学计量求理论金属，回收率作用于该金属理论量。",
+      "worked_example_index": 2,
+      "verification": "实际小于理论270；不能直接510×0.80作金属。",
+      "pitfall": "忘掉氧化物到金属质量比。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "本目标抽样复核：氧48g进入其他产物，不能全氧化物质量变Al。；错因：质量按1∶1。。还需结合其他题检查目标的其余子技能。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "本目标抽样复核：实际小于理论270；不能直接510×0.80作金属。；错因：忘掉氧化物到金属质量比。。还需结合其他题检查目标的其余子技能。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "只见Al³⁺就套金属析出。",
+        "correction": "不能。",
+        "verification": "活泼金属提取需指定体系。"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "os_batch04_11.3",
+        "url": "https://openstax.org/books/chemistry-2e/pages/18-2-occurrence-and-preparation-of-the-representative-metals",
+        "page_or_section": "18-2-occurrence-and-preparation-of-the-representative-metals",
+        "version": "Chemistry 2e；理论辅助，非UEC范围",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "illustration_spec": {
+      "labels": [
+        "矿石纯度",
+        "氧化铝",
+        "冰晶石",
+        "阴极还原",
+        "碳阳极",
+        "电流效率"
+      ],
+      "english": "Draw an aluminium process flow separating ore purification from molten electrolysis. Label cryolite as medium, cathodic 3-electron reduction and carbon anode consumption. Include the ideal total equation and clearly separate purity, recovery and current efficiency.",
+      "scientific_requirements": [
+        "阴极简化式Al³⁺+3e⁻→Al；Q=3n(Al)F，实际量需按所给电流效率修正。",
+        "理想主要总式2Al₂O₃+3C→4Al+3CO₂，2mol氧化铝给4mol金属，碳并非惰性不耗。",
+        "冰晶石为熔融介质组分，不按总式当净消耗原料；原料纯度、回收率与电流效率是不同概念。"
+      ]
+    }
+  }
+}

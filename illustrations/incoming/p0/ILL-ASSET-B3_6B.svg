@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#ffffff"/><rect x="24" y="20" width="1152" height="76" rx="16" fill="#eaf2ff"/><text x="54" y="71" font-size="34" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="700" fill="#17365e">生物 3.6｜光反应与卡尔文循环的物质、能量联系</text><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="context-stroke"/></marker></defs>
+<rect x="60" y="183" width="490" height="375" rx="14" fill="#ecf5ff" stroke="#91b9e5" stroke-width="2"/>
+<rect x="655" y="183" width="490" height="375" rx="14" fill="#edf7eb" stroke="#99c59c" stroke-width="2"/>
+<text x="302" y="240" text-anchor="middle" font-size="30" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="700" fill="#276cbd">光反应｜类囊体膜</text>
+<text x="898" y="240" text-anchor="middle" font-size="30" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="700" fill="#15835e">卡尔文循环｜基质</text>
+<text x="302" y="312" text-anchor="middle" font-size="26" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#17365e">光 + H₂O</text>
+<text x="302" y="360" text-anchor="middle" font-size="23" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#17365e">2H₂O → O₂ + 4H⁺ + 4e⁻</text>
+<text x="302" y="410" text-anchor="middle" font-size="25" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#17365e">合成 ATP 与 NADPH</text>
+<text x="898" y="329" text-anchor="middle" font-size="30" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#17365e">固定 CO₂</text>
+<text x="898" y="389" text-anchor="middle" font-size="25" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#17365e">碳水化合物前体</text>
+<line x1="555" y1="444" x2="650" y2="444" stroke="#276cbd" stroke-width="5" marker-end="url(#arrow)"/>
+<text x="602" y="416" text-anchor="middle" font-size="18" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#276cbd">ATP, NADPH</text>
+<line x1="650" y1="497" x2="555" y2="497" stroke="#15835e" stroke-width="5" marker-end="url(#arrow)"/>
+<text x="602" y="532" text-anchor="middle" font-size="18" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#15835e">ADP, Pi, NADP⁺</text>
+<rect x="120" y="624" width="960" height="65" rx="14" fill="#fff8e8" stroke="#e8c37b" stroke-width="2"/>
+<text x="600" y="667" text-anchor="middle" font-size="24" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#17365e">O₂ 中的氧来自水；有机碳来自 CO₂；卡尔文循环不只在黑暗发生。</text>
+<rect x="24" y="712" width="1152" height="66" rx="14" fill="#f2f6fa" stroke="#dce7f2" stroke-width="2"/>
+<text x="44" y="743" text-anchor="start" font-size="19" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#5d6c7d">水光解式按2个水分子配平；物质与能量箭头是不同概念。</text>
+</svg>

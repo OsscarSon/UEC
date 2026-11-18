@@ -1,0 +1,83 @@
+{
+  "title": "UEC PR1 P0 precision diagrams",
+  "source_pr": "https://github.com/OsscarSon/UEC/pull/1",
+  "source_commit": "2ca164e4bb5ac684a8b5fe3619cb0cb1c8869552",
+  "images": [
+    {
+      "id": "ILL-ASSET-B3_4",
+      "file": "svg/ILL-ASSET-B3_4.svg",
+      "status": "draft_requires_subject_review",
+      "format": "svg",
+      "source": "PR1 PROMPTS_BATCH_ALL.json P0"
+    },
+    {
+      "id": "ILL-ASSET-B3_5A",
+      "file": "svg/ILL-ASSET-B3_5A.svg",
+      "status": "draft_requires_subject_review",
+      "format": "svg",
+      "source": "PR1 PROMPTS_BATCH_ALL.json P0"
+    },
+    {
+      "id": "ILL-ASSET-B3_6B",
+      "file": "svg/ILL-ASSET-B3_6B.svg",
+      "status": "draft_requires_subject_review",
+      "format": "svg",
+      "source": "PR1 PROMPTS_BATCH_ALL.json P0"
+    },
+    {
+      "id": "ILL-ASSET-B3_6C",
+      "file": "svg/ILL-ASSET-B3_6C.svg",
+      "status": "draft_requires_subject_review",
+      "format": "svg",
+      "source": "PR1 PROMPTS_BATCH_ALL.json P0"
+    },
+    {
+      "id": "ILL-ASSET-B3_7C",
+      "file": "svg/ILL-ASSET-B3_7C.svg",
+      "status": "draft_requires_subject_review",
+      "format": "svg",
+      "source": "PR1 PROMPTS_BATCH_ALL.json P0"
+    },
+    {
+      "id": "ILL-ASSET-C5_1A",
+      "file": "svg/ILL-ASSET-C5_1A.svg",
+      "status": "draft_requires_subject_review",
+      "format": "svg",
+      "source": "PR1 PROMPTS_BATCH_ALL.json P0"
+    },
+    {
+      "id": "ILL-ASSET-C5_4C",
+      "file": "svg/ILL-ASSET-C5_4C.svg",
+      "status": "draft_requires_subject_review",
+      "format": "svg",
+      "source": "PR1 PROMPTS_BATCH_ALL.json P0"
+    },
+    {
+      "id": "ILL-PLAN-PHY-3_3-01",
+      "file": "svg/ILL-PLAN-PHY-3_3-01.svg",
+      "status": "draft_requires_subject_review",
+      "format": "svg",
+      "source": "PR1 PROMPTS_BATCH_ALL.json P0"
+    },
+    {
+      "id": "ILL-PLAN-PHY-4_2-01",
+      "file": "svg/ILL-PLAN-PHY-4_2-01.svg",
+      "status": "draft_requires_subject_review",
+      "format": "svg",
+      "source": "PR1 PROMPTS_BATCH_ALL.json P0"
+    },
+    {
+      "id": "ILL-PLAN-PHY-4_3-01",
+      "file": "svg/ILL-PLAN-PHY-4_3-01.svg",
+      "status": "draft_requires_subject_review",
+      "format": "svg",
+      "source": "PR1 PROMPTS_BATCH_ALL.json P0"
+    }
+  ],
+  "other_tasks": {
+    "total": 114,
+    "p0": 10,
+    "remaining": 104,
+    "prompt_source": "https://github.com/OsscarSon/UEC/blob/2ca164e4bb5ac684a8b5fe3619cb0cb1c8869552/illustrations/PROMPTS_BATCH_ALL.md"
+  }
+}

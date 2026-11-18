@@ -1,0 +1,73 @@
+{
+  "commits": [
+    {
+      "commit": "2ca164e4bb5ac684a8b5fe3619cb0cb1c8869552",
+      "files": 210
+    },
+    {
+      "commit": "daa36377c98508764780831e82d4ecbb06c27e69",
+      "files": 151
+    },
+    {
+      "commit": "8b54cfed56bd10eedcf0387570a751bb3a34a89b",
+      "files": 140
+    },
+    {
+      "commit": "5907ff342accc81f5bc6c362c32f2a366a520adc",
+      "files": 107
+    },
+    {
+      "commit": "f4cde44113a2e73357872968e9f44bf65c789443",
+      "files": 102
+    },
+    {
+      "commit": "7de6392b026d7cd2489069e21e79de7cbca0e943",
+      "files": 61
+    },
+    {
+      "commit": "008d9bfe6e92d73d283d1108b3e2a0a6ca4daf71",
+      "files": 49
+    },
+    {
+      "commit": "e77f7eba75049977c88719ae1a98072d4a9bda26",
+      "files": 1
+    }
+  ],
+  "text_blobs_examined": 143,
+  "unreachable_text_blobs": [
+    {
+      "sha": "3ae036e0b2909023587dd8a37a3f611214de0004",
+      "bytes": 132344,
+      "section_id_candidates": []
+    },
+    {
+      "sha": "1f710fbd34a7eee8485bfafb596f1704b0476f30",
+      "bytes": 195772,
+      "section_id_candidates": []
+    },
+    {
+      "sha": "5d22319e80f9a2351a1cddb3be9a76dbf7248036",
+      "bytes": 44510,
+      "section_id_candidates": []
+    },
+    {
+      "sha": "a8b2b1100c828f0077118476fa65390919e5322d",
+      "bytes": 24678,
+      "section_id_candidates": []
+    },
+    {
+      "sha": "a6930497404fdb0128c312e8822525c0dea379fd",
+      "bytes": 13681,
+      "section_id_candidates": []
+    }
+  ],
+  "fsck": "unreachable blob 3ae036e0b2909023587dd8a37a3f611214de0004\nunreachable blob 1f710fbd34a7eee8485bfafb596f1704b0476f30\nunreachable blob 5d22319e80f9a2351a1cddb3be9a76dbf7248036\nunreachable blob a8b2b1100c828f0077118476fa65390919e5322d\nunreachable blob a6930497404fdb0128c312e8822525c0dea379fd\n",
+  "scope": "所有本地可达历史的文本blob；含index、课程JSON、扩展JS、生成器、报告；另读未引用文本对象。不是Claude私有会话或照片的完整搜索。",
+  "findings": [
+    "初始e77f7eb只有README；三个上传历史含116章目录及原52小节的笔记/生成源，没有查得其余章的真实小节照片或独立完整小节表。",
+    "当前58个是仓库可逐项列出的已保存小节，不是课本总小节数；缺笔记文件不证明教材没有小节。",
+    "化学6新增6节依据公开内容表，但未证实与用户照片的教材版本完全一致；保留现有结构，身份标记版本待核，不继续照搬其他教材目录。",
+    "未查得原Claude会话/目录照片；不能据此宣称照片不存在或教材不可靠。",
+    "35数学章真实章名/顺序仍保存；小节与I/II逐项归属未确认，保留兼容数据。"
+  ]
+}

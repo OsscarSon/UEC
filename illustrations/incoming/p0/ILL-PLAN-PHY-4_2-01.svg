@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#ffffff"/><rect x="24" y="20" width="1152" height="76" rx="16" fill="#eaf2ff"/><text x="54" y="71" font-size="34" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="700" fill="#17365e">物理 4.2｜静摩擦：随外力需求变化（示例）</text><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="context-stroke"/></marker></defs>
+<line x1="165" y1="600" x2="1030" y2="600" stroke="#17365e" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="165" y1="600" x2="165" y2="170" stroke="#17365e" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1010" y="647" text-anchor="start" font-size="26" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#17365e">外拉力 F / N</text>
+<text x="68" y="165" text-anchor="start" font-size="25" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#17365e">摩擦力 f / N</text>
+<line x1="165" y1="592" x2="165" y2="607" stroke="#17365e" stroke-width="2"/>
+<text x="165" y="633" text-anchor="middle" font-size="20" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#5d6c7d">0</text>
+<line x1="315" y1="592" x2="315" y2="607" stroke="#17365e" stroke-width="2"/>
+<text x="315" y="633" text-anchor="middle" font-size="20" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#5d6c7d">2</text>
+<line x1="465" y1="592" x2="465" y2="607" stroke="#17365e" stroke-width="2"/>
+<text x="465" y="633" text-anchor="middle" font-size="20" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#5d6c7d">4</text>
+<line x1="540" y1="592" x2="540" y2="607" stroke="#17365e" stroke-width="2"/>
+<text x="540" y="633" text-anchor="middle" font-size="20" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#5d6c7d">5</text>
+<line x1="615" y1="592" x2="615" y2="607" stroke="#17365e" stroke-width="2"/>
+<text x="615" y="633" text-anchor="middle" font-size="20" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#5d6c7d">6</text>
+<line x1="765" y1="592" x2="765" y2="607" stroke="#17365e" stroke-width="2"/>
+<text x="765" y="633" text-anchor="middle" font-size="20" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#5d6c7d">8</text>
+<line x1="915" y1="592" x2="915" y2="607" stroke="#17365e" stroke-width="2"/>
+<text x="915" y="633" text-anchor="middle" font-size="20" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#5d6c7d">10</text>
+<line x1="158" y1="600" x2="172" y2="600" stroke="#17365e" stroke-width="2"/>
+<text x="135" y="608" text-anchor="end" font-size="20" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#5d6c7d">0</text>
+<line x1="158" y1="510" x2="172" y2="510" stroke="#17365e" stroke-width="2"/>
+<text x="135" y="518" text-anchor="end" font-size="20" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#5d6c7d">2</text>
+<line x1="158" y1="420" x2="172" y2="420" stroke="#17365e" stroke-width="2"/>
+<text x="135" y="428" text-anchor="end" font-size="20" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#5d6c7d">4</text>
+<line x1="158" y1="375" x2="172" y2="375" stroke="#17365e" stroke-width="2"/>
+<text x="135" y="383" text-anchor="end" font-size="20" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#5d6c7d">5</text>
+<line x1="158" y1="330" x2="172" y2="330" stroke="#17365e" stroke-width="2"/>
+<text x="135" y="338" text-anchor="end" font-size="20" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#5d6c7d">6</text>
+<line x1="158" y1="240" x2="172" y2="240" stroke="#17365e" stroke-width="2"/>
+<text x="135" y="248" text-anchor="end" font-size="20" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#5d6c7d">8</text>
+<line x1="165" y1="600" x2="765" y2="240" stroke="#276cbd" stroke-width="6"/>
+<line x1="765" y1="240" x2="1010" y2="240" stroke="#ca4255" stroke-width="4" stroke-dasharray="9 8"/>
+<circle cx="540" cy="375" r="9" fill="#15835e" stroke="#15835e" stroke-width="3"/>
+<text x="535" y="342" text-anchor="middle" font-size="25" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="600" fill="#15835e">F = 5 N ⇒ fₛ = 5 N</text>
+<text x="774" y="204" text-anchor="start" font-size="24" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#ca4255">fₛ,max = μₛN = 0.4 × 20 = 8 N</text>
+<text x="390" y="210" text-anchor="start" font-size="25" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#276cbd">静止区：fₛ = F（0 ≤ F ≤ 8 N）</text>
+<rect x="200" y="665" width="880" height="43" rx="14" fill="#f3f7fe" stroke="#abc5e8" stroke-width="2"/>
+<text x="222" y="696" text-anchor="start" font-size="21" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#17365e">m = 2 kg，g = 10 m/s²，N = 20 N；超过极限后须另用动摩擦模型。</text>
+<rect x="24" y="712" width="1152" height="66" rx="14" fill="#f2f6fa" stroke="#dce7f2" stroke-width="2"/>
+<text x="44" y="743" text-anchor="start" font-size="19" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#5d6c7d">虚线并非真实滑动摩擦曲线；μₖ 未给定，不能补造滑动摩擦的数值。</text>
+</svg>

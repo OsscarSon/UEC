@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#ffffff"/><rect x="24" y="20" width="1152" height="76" rx="16" fill="#eaf2ff"/><text x="54" y="71" font-size="34" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="700" fill="#17365e">生物 3.7｜氧浓度与 CO₂ 释放：定性模型</text><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="context-stroke"/></marker></defs>
+<line x1="170" y1="595" x2="1060" y2="595" stroke="#17365e" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="170" y1="595" x2="170" y2="175" stroke="#17365e" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="930" y="644" text-anchor="start" font-size="25" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#17365e">O₂ 浓度（示意）</text>
+<text x="42" y="164" text-anchor="start" font-size="24" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#17365e">CO₂ 释放速率</text>
+<path d="M185 245 C410 400 550 460 1010 530" stroke="#7455b5" stroke-width="5" fill="none"/>
+<path d="M185 560 C450 555 620 420 1010 220" stroke="#15835e" stroke-width="5" fill="none"/>
+<path d="M185 210 C390 370 550 340 1010 175" stroke="#276cbd" stroke-width="6" fill="none"/>
+<text x="860" y="510" text-anchor="start" font-size="23" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#7455b5">发酵贡献（假设）</text>
+<text x="840" y="238" text-anchor="start" font-size="23" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#15835e">有氧贡献</text>
+<text x="833" y="150" text-anchor="start" font-size="23" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#276cbd">总 CO₂（示意）</text>
+<rect x="130" y="665" width="960" height="43" rx="14" fill="#fff7e9" stroke="#d9ae68" stroke-width="2"/>
+<text x="145" y="695" text-anchor="start" font-size="20" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#17365e">曲线为定性假设模型，无实测数据；不能直接用最低点推断最佳保鲜氧浓度。</text>
+<rect x="24" y="712" width="1152" height="66" rx="14" fill="#f2f6fa" stroke="#dce7f2" stroke-width="2"/>
+<text x="44" y="743" text-anchor="start" font-size="19" font-family="Noto Sans CJK SC,Arial,sans-serif" font-weight="400" fill="#5d6c7d">不同底物、组织损伤及呼吸商会改变结论；三曲线必须在相同单位和条件下比较。</text>
+</svg>

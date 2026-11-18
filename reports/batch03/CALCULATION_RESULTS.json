@@ -1,0 +1,17 @@
+{
+  "result": "pass",
+  "numeric_checks": {
+    "three reversals distance": 15,
+    "displacement": -1,
+    "static max": 8.0,
+    "nonorthogonal force": 17.32050807568877,
+    "contact force": 6.0,
+    "ATP coupling": -10,
+    "ATP turnover": 10.0,
+    "Calvin carbon": 18,
+    "Calvin output": 3,
+    "photosynthesis net": 6
+  },
+  "rejected_force_drawing_angle_degrees": 48.01278750418334,
+  "scope": "8道重写题的所列数值样例、73旧SVG字节不变、10导入SVG哈希；不代替生物全部机制/教师审定。"
+}
