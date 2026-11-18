@@ -5,20 +5,42 @@ const A=StudyApp,I=uiIcon,names=()=>Object.fromEntries(A.courses().map(x=>[x.cod
 const iconFor=c=>c==='physics'?'atom':c==='chemistry'?'flask':c==='biology'?'leaf':'math';
 let searchQuery='',courseFilter='all',readerObserver,readerTimer,readingCtx=null;
 const e=esc,dayLabel=()=>new Intl.DateTimeFormat('zh-CN',{month:'long',day:'numeric',weekday:'long'}).format(new Date());
-const button=(tab,label,icon)=>`<button data-a="dash-nav" data-tab="${tab}" class="nav-item ${tab===window.dashboardView?'active':''}" aria-label="${label}">${I(icon)}<span>${label}</span></button>`;
+// Secondary views belong to an existing workspace, rather than growing the sidebar.
+const navigationGroups=[
+ {key:'today',label:'学习仪表盘',icon:'home',items:[['today','今日概览'],['adaptive','学习计划'],['plan','原四周计划']]},
+ {key:'map',label:'课程笔记',icon:'book',items:[['map','章节笔记'],['curriculum','课程地图']]},
+ {key:'bank',label:'题库练习',icon:'pen',items:[['bank','分层题库'],['mock','限时模拟']]},
+ {key:'review',label:'智能复习',icon:'layers',items:[['review','到期复习'],['diagnose','前置诊断'],['err','错题本']]},
+ {key:'records',label:'学习记录',icon:'chart',items:[['records','学习记录']]},
+ {key:'exams',label:'考试资料',icon:'calendar',items:[['exams','考试资料'],['cal','考试日历']]},
+ {key:'tools',label:'学习工具',icon:'target',items:[['tools','学习工具']]},
+ {key:'favorites',label:'我的收藏',icon:'star',items:[['favorites','我的收藏']]},
+ {key:'settings',label:'设置与备份',icon:'settings',items:[['settings','偏好与备份'],['sync','账号与云同步']]}
+];
+const workspace=view=>navigationGroups.find(g=>g.items.some(([key])=>key===view))?.key||(['subject','lesson'].includes(view)?'map':view);
+const button=(tab,label,icon)=>`<button data-a="dash-nav" data-tab="${tab}" class="nav-item ${tab===window.dashboardView?'active':''}" ${tab===window.dashboardView?'aria-current="page"':''} aria-label="${label}">${I(icon)}<span>${label}</span></button>`;
+function workspaceNavigation(){
+ const group=navigationGroups.find(g=>g.items.some(([key])=>key===tab));
+ if(!group||group.items.length<2||tab==='today')return;
+ const nav=document.createElement('nav');nav.className='workspace-tabs';nav.setAttribute('aria-label',group.label+'内导航');
+ nav.innerHTML=group.items.map(([key,label])=>`<a href="${key==='today'?'#dashboard':'#view='+key}" ${tab===key?'aria-current="page"':''}>${label}</a>`).join('');
+ const pageHeading=document.querySelector('#v > .page-heading');
+ if(pageHeading)pageHeading.after(nav);else document.getElementById('v').prepend(nav);
+}
 const heading=(eyebrow,title,desc='')=>`<div class="page-heading"><span class="eyebrow">${eyebrow}</span><h1>${title}</h1>${desc?`<p>${desc}</p>`:''}</div>`;
 const empty=(title,desc,link='')=>`<div class="empty-state">${I('leaf',30)}<h3>${title}</h3><p>${desc}</p>${link}</div>`;
 function toast(message){let el=document.getElementById('app-toast');if(!el){el=document.createElement('div');el.id='app-toast';el.role='status';document.body.append(el);}el.textContent=message;el.classList.add('show');clearTimeout(window.toastTimer);window.toastTimer=setTimeout(()=>el.classList.remove('show'),3500);}
 window.studyToast=toast;
 function shell(){
- const active=tab==='today'?'today':tab==='subject'||tab==='lesson'?'map':tab==='plan'?'records':tab;window.dashboardView=active;
+ const active=workspace(tab);window.dashboardView=active;
  document.getElementById('n').className='app-sidebar';document.getElementById('n').setAttribute('aria-label','主导航');
- document.getElementById('n').innerHTML=`<a class="brand" href="#dashboard">${I('cap',36)}<span><b>UEC <em>2027</em></b><small>让学习更有方向</small></span></a><button class="mobile-drawer-close icon-button" data-a="dash-menu" aria-label="关闭导航">${I('close')}</button><div class="nav-group-label">学习空间</div>${button('today','学习仪表盘','home')}${button('map','课程笔记','book')}${button('bank','题库练习','pen')}${button('review','智能复习','layers')}${button('records','学习记录','chart')}${button('curriculum','课程地图','map')}<div class="nav-separator"></div>${button('diagnose','前置诊断','target')}${button('mock','限时模拟','pen')}${button('adaptive','自适应计划','calendar')}${button('sync','云端同步','layers')}${button('tools','学习工具','target')}${button('err','错题本','alert')}${button('cal','考试日历','calendar')}${button('exams','考试资料','map')}<div class="nav-separator"></div>${button('favorites','我的收藏','star')}${button('settings','设置与备份','settings')}<div class="sidebar-bottom"><span class="eyebrow">一步一步，走向目标</span><p>学懂一个知识点，<br>就是今天的进步。</p><div class="sidebar-hills" aria-hidden="true"></div></div>`;
+ document.getElementById('n').innerHTML=`<a class="brand" href="#dashboard">${I('cap',36)}<span><b>UEC <em>2027</em></b><small>让学习更有方向</small></span></a><button class="mobile-drawer-close icon-button" data-a="dash-menu" aria-label="关闭导航">${I('close')}</button><div class="nav-group-label">学习空间</div>${navigationGroups.slice(0,4).map(g=>button(g.key,g.label,g.icon)).join('')}<div class="nav-separator"></div>${navigationGroups.slice(4,7).map(g=>button(g.key,g.label,g.icon)).join('')}<div class="nav-separator"></div>${navigationGroups.slice(7).map(g=>button(g.key,g.label,g.icon)).join('')}<div class="sidebar-bottom"><span class="eyebrow">一步一步，走向目标</span><p>学懂一个知识点，<br>就是今天的进步。</p><div class="sidebar-hills" aria-hidden="true"></div></div>`;
  let header=document.getElementById('app-header');if(!header){header=document.createElement('header');header.id='app-header';document.body.prepend(header);}
  header.innerHTML=`<button class="icon-button mobile-menu" data-a="dash-menu" aria-label="打开导航" aria-expanded="false">${I('menu')}</button><div class="header-title"><span>我的学习空间</span><small>${dayLabel()}</small></div><form id="global-search-form" role="search"><label class="global-search">${I('search',18)}<input id="global-search" aria-label="搜索知识点、章节、题目" placeholder="搜索知识点、章节、题目…" value="${tab==='search'?e(searchQuery):''}" autocomplete="off"><kbd>⌘ K</kbd></label></form><div class="header-actions"><button class="icon-button" data-a="dash-theme" aria-label="切换明暗主题">${I('sun')}</button><button class="icon-button" data-a="dash-nav" data-tab="review" aria-label="查看待复习">${I('layers')}${A.due().length?'<span class="notification-dot"></span>':''}</button><button class="avatar" data-a="dash-nav" data-tab="settings" aria-label="学习设置">${I('leaf',22)}</button></div>`;
  let dock=document.getElementById('mobile-dock');if(!dock){dock=document.createElement('div');dock.id='mobile-dock';dock.setAttribute('aria-label','快捷导航');document.body.append(dock);}dock.innerHTML=[['today','首页','home'],['map','课程笔记','book'],['review','复习','layers'],['tools','工具','pen']].map(([t,label,icon])=>`<button data-a="dash-nav" data-tab="${t}" class="${active===t?'active':''}">${I(icon,19)}<span>${label}</span></button>`).join('');
  document.querySelectorAll('.subject-links [data-k="math_pending"],#bank-subject option[value="math_pending"]').forEach(x=>x.remove());
  document.querySelector('#v > .hd')?.remove();
+ workspaceNavigation();
  document.body.classList.toggle('is-reader',!!document.querySelector('.lesson-section'));if(!document.querySelector('.lesson-section'))document.body.classList.remove('focus-reading');
  document.body.classList.toggle('is-dashboard',tab==='today');
  document.documentElement.dataset.theme=A.ensure().preferences.theme||'system';
