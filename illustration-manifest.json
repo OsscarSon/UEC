@@ -6,7 +6,7 @@
   "pull_request": 1,
   "branch": "codex/uec-2027-batch-notes-math-split",
   "audited_commit": "daa36377c98508764780831e82d4ecbb06c27e69",
-  "scope_note": "本轮116章、58真实小节，新增化学6的6个有证据小节；209图记录，114制作Brief、35数学冻结、60保留。笔记与确定性SVG已有实际修改，不把旧审查快照当当前验收。",
+  "scope_note": "116章保留、86个已保存/有目录证据小节；237教学图记录、142条制作任务，非全科完成。",
   "production_performed": true,
   "category_definitions": {
     "precise_scientific_svg": "计量、向量、原子账本、定量图等精确科学SVG",
@@ -479,10 +479,20 @@
         "chapter_title": "化学键与分子间作用力",
         "volume": "上册",
         "curriculum_index": 33,
-        "section_ids": [],
-        "section_count": 0,
-        "lesson_path": null,
-        "status": "no_real_sections_no_invented_ids"
+        "section_ids": [
+          "7.1.1",
+          "7.1.2",
+          "7.1.3",
+          "7.2.1",
+          "7.2.2",
+          "7.3.1",
+          "7.3.2",
+          "7.3.3",
+          "7.3.4"
+        ],
+        "section_count": 9,
+        "lesson_path": "lessons/chem07.js",
+        "status": "directory_corroborated_notes_authored"
       },
       {
         "subject": "化学",
@@ -491,10 +501,17 @@
         "chapter_title": "氧化还原反应",
         "volume": "上册",
         "curriculum_index": 34,
-        "section_ids": [],
-        "section_count": 0,
-        "lesson_path": null,
-        "status": "no_real_sections_no_invented_ids"
+        "section_ids": [
+          "8.1",
+          "8.2.1",
+          "8.2.2",
+          "8.3",
+          "8.4.1",
+          "8.4.2"
+        ],
+        "section_count": 6,
+        "lesson_path": "lessons/chem08.js",
+        "status": "directory_corroborated_notes_authored"
       },
       {
         "subject": "化学",
@@ -503,10 +520,15 @@
         "chapter_title": "IA族元素：钠和钾",
         "volume": "上册",
         "curriculum_index": 35,
-        "section_ids": [],
-        "section_count": 0,
-        "lesson_path": null,
-        "status": "no_real_sections_no_invented_ids"
+        "section_ids": [
+          "9.1.1",
+          "9.1.2",
+          "9.2",
+          "9.3"
+        ],
+        "section_count": 4,
+        "lesson_path": "lessons/chem09.js",
+        "status": "directory_corroborated_notes_authored"
       },
       {
         "subject": "化学",
@@ -515,10 +537,16 @@
         "chapter_title": "IIA族元素：镁和钙",
         "volume": "上册",
         "curriculum_index": 36,
-        "section_ids": [],
-        "section_count": 0,
-        "lesson_path": null,
-        "status": "no_real_sections_no_invented_ids"
+        "section_ids": [
+          "10.1.1",
+          "10.1.2",
+          "10.2",
+          "10.3",
+          "10.4"
+        ],
+        "section_count": 5,
+        "lesson_path": "lessons/chem10.js",
+        "status": "directory_corroborated_notes_authored"
       },
       {
         "subject": "化学",
@@ -527,10 +555,15 @@
         "chapter_title": "IIIA族元素：铝",
         "volume": "上册",
         "curriculum_index": 37,
-        "section_ids": [],
-        "section_count": 0,
-        "lesson_path": null,
-        "status": "no_real_sections_no_invented_ids"
+        "section_ids": [
+          "11.1.1",
+          "11.1.2",
+          "11.2",
+          "11.3"
+        ],
+        "section_count": 4,
+        "lesson_path": "lessons/chem11.js",
+        "status": "directory_corroborated_notes_authored"
       },
       {
         "subject": "化学",
@@ -2438,6 +2471,370 @@
           "assets/fig/b3_sum.svg"
         ],
         "in_current_batch": true
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 7,
+        "chapter_title": "化学键与分子间作用力",
+        "section_id": "7.1.1",
+        "section_title": "离子键",
+        "lesson_path": "lessons/chem07.js",
+        "batch_note_path": "data/notes/chem07.json",
+        "in_41_section_batch": false,
+        "existing_svg_paths": [],
+        "in_current_batch": true
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 7,
+        "chapter_title": "化学键与分子间作用力",
+        "section_id": "7.1.2",
+        "section_title": "共价键",
+        "lesson_path": "lessons/chem07.js",
+        "batch_note_path": "data/notes/chem07.json",
+        "in_41_section_batch": false,
+        "existing_svg_paths": [],
+        "in_current_batch": true
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 7,
+        "chapter_title": "化学键与分子间作用力",
+        "section_id": "7.1.3",
+        "section_title": "金属键",
+        "lesson_path": "lessons/chem07.js",
+        "batch_note_path": "data/notes/chem07.json",
+        "in_41_section_batch": false,
+        "existing_svg_paths": [],
+        "in_current_batch": true
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 7,
+        "chapter_title": "化学键与分子间作用力",
+        "section_id": "7.2.1",
+        "section_title": "范德华力",
+        "lesson_path": "lessons/chem07.js",
+        "batch_note_path": "data/notes/chem07.json",
+        "in_41_section_batch": false,
+        "existing_svg_paths": [],
+        "in_current_batch": true
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 7,
+        "chapter_title": "化学键与分子间作用力",
+        "section_id": "7.2.2",
+        "section_title": "氢键",
+        "lesson_path": "lessons/chem07.js",
+        "batch_note_path": "data/notes/chem07.json",
+        "in_41_section_batch": false,
+        "existing_svg_paths": [],
+        "in_current_batch": true
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 7,
+        "chapter_title": "化学键与分子间作用力",
+        "section_id": "7.3.1",
+        "section_title": "离子晶体",
+        "lesson_path": "lessons/chem07.js",
+        "batch_note_path": "data/notes/chem07.json",
+        "in_41_section_batch": false,
+        "existing_svg_paths": [],
+        "in_current_batch": true
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 7,
+        "chapter_title": "化学键与分子间作用力",
+        "section_id": "7.3.2",
+        "section_title": "原子晶体",
+        "lesson_path": "lessons/chem07.js",
+        "batch_note_path": "data/notes/chem07.json",
+        "in_41_section_batch": false,
+        "existing_svg_paths": [],
+        "in_current_batch": true
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 7,
+        "chapter_title": "化学键与分子间作用力",
+        "section_id": "7.3.3",
+        "section_title": "分子晶体",
+        "lesson_path": "lessons/chem07.js",
+        "batch_note_path": "data/notes/chem07.json",
+        "in_41_section_batch": false,
+        "existing_svg_paths": [],
+        "in_current_batch": true
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 7,
+        "chapter_title": "化学键与分子间作用力",
+        "section_id": "7.3.4",
+        "section_title": "金属晶体",
+        "lesson_path": "lessons/chem07.js",
+        "batch_note_path": "data/notes/chem07.json",
+        "in_41_section_batch": false,
+        "existing_svg_paths": [],
+        "in_current_batch": true
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 8,
+        "chapter_title": "氧化还原反应",
+        "section_id": "8.1",
+        "section_title": "氧化还原反应",
+        "lesson_path": "lessons/chem08.js",
+        "batch_note_path": "data/notes/chem08.json",
+        "in_41_section_batch": false,
+        "existing_svg_paths": [],
+        "in_current_batch": true
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 8,
+        "chapter_title": "氧化还原反应",
+        "section_id": "8.2.1",
+        "section_title": "计算氧化数的一般规则",
+        "lesson_path": "lessons/chem08.js",
+        "batch_note_path": "data/notes/chem08.json",
+        "in_41_section_batch": false,
+        "existing_svg_paths": [],
+        "in_current_batch": true
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 8,
+        "chapter_title": "氧化还原反应",
+        "section_id": "8.2.2",
+        "section_title": "氧化数与氧化还原的关系",
+        "lesson_path": "lessons/chem08.js",
+        "batch_note_path": "data/notes/chem08.json",
+        "in_41_section_batch": false,
+        "existing_svg_paths": [],
+        "in_current_batch": true
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 8,
+        "chapter_title": "氧化还原反应",
+        "section_id": "8.3",
+        "section_title": "氧化剂与还原剂",
+        "lesson_path": "lessons/chem08.js",
+        "batch_note_path": "data/notes/chem08.json",
+        "in_41_section_batch": false,
+        "existing_svg_paths": [],
+        "in_current_batch": true
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 8,
+        "chapter_title": "氧化还原反应",
+        "section_id": "8.4.1",
+        "section_title": "氧化数法",
+        "lesson_path": "lessons/chem08.js",
+        "batch_note_path": "data/notes/chem08.json",
+        "in_41_section_batch": false,
+        "existing_svg_paths": [],
+        "in_current_batch": true
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 8,
+        "chapter_title": "氧化还原反应",
+        "section_id": "8.4.2",
+        "section_title": "离子——电子法",
+        "lesson_path": "lessons/chem08.js",
+        "batch_note_path": "data/notes/chem08.json",
+        "in_41_section_batch": false,
+        "existing_svg_paths": [],
+        "in_current_batch": true
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 9,
+        "chapter_title": "IA族元素：钠和钾",
+        "section_id": "9.1.1",
+        "section_title": "钠和钾的物理性质",
+        "lesson_path": "lessons/chem09.js",
+        "batch_note_path": "data/notes/chem09.json",
+        "in_41_section_batch": false,
+        "existing_svg_paths": [],
+        "in_current_batch": true
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 9,
+        "chapter_title": "IA族元素：钠和钾",
+        "section_id": "9.1.2",
+        "section_title": "钠和钾的化学性质",
+        "lesson_path": "lessons/chem09.js",
+        "batch_note_path": "data/notes/chem09.json",
+        "in_41_section_batch": false,
+        "existing_svg_paths": [],
+        "in_current_batch": true
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 9,
+        "chapter_title": "IA族元素：钠和钾",
+        "section_id": "9.2",
+        "section_title": "焰色试验",
+        "lesson_path": "lessons/chem09.js",
+        "batch_note_path": "data/notes/chem09.json",
+        "in_41_section_batch": false,
+        "existing_svg_paths": [],
+        "in_current_batch": true
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 9,
+        "chapter_title": "IA族元素：钠和钾",
+        "section_id": "9.3",
+        "section_title": "钠和钾的重要化合物",
+        "lesson_path": "lessons/chem09.js",
+        "batch_note_path": "data/notes/chem09.json",
+        "in_41_section_batch": false,
+        "existing_svg_paths": [],
+        "in_current_batch": true
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 10,
+        "chapter_title": "IIA族元素：镁和钙",
+        "section_id": "10.1.1",
+        "section_title": "镁和钙的物理性质",
+        "lesson_path": "lessons/chem10.js",
+        "batch_note_path": "data/notes/chem10.json",
+        "in_41_section_batch": false,
+        "existing_svg_paths": [],
+        "in_current_batch": true
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 10,
+        "chapter_title": "IIA族元素：镁和钙",
+        "section_id": "10.1.2",
+        "section_title": "镁和钙的化学性质",
+        "lesson_path": "lessons/chem10.js",
+        "batch_note_path": "data/notes/chem10.json",
+        "in_41_section_batch": false,
+        "existing_svg_paths": [],
+        "in_current_batch": true
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 10,
+        "chapter_title": "IIA族元素：镁和钙",
+        "section_id": "10.2",
+        "section_title": "镁的重要化合物",
+        "lesson_path": "lessons/chem10.js",
+        "batch_note_path": "data/notes/chem10.json",
+        "in_41_section_batch": false,
+        "existing_svg_paths": [],
+        "in_current_batch": true
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 10,
+        "chapter_title": "IIA族元素：镁和钙",
+        "section_id": "10.3",
+        "section_title": "钙的重要化合物",
+        "lesson_path": "lessons/chem10.js",
+        "batch_note_path": "data/notes/chem10.json",
+        "in_41_section_batch": false,
+        "existing_svg_paths": [],
+        "in_current_batch": true
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 10,
+        "chapter_title": "IIA族元素：镁和钙",
+        "section_id": "10.4",
+        "section_title": "镁离子和钙离子的检验",
+        "lesson_path": "lessons/chem10.js",
+        "batch_note_path": "data/notes/chem10.json",
+        "in_41_section_batch": false,
+        "existing_svg_paths": [],
+        "in_current_batch": true
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 11,
+        "chapter_title": "IIIA族元素：铝",
+        "section_id": "11.1.1",
+        "section_title": "铝的物理性质",
+        "lesson_path": "lessons/chem11.js",
+        "batch_note_path": "data/notes/chem11.json",
+        "in_41_section_batch": false,
+        "existing_svg_paths": [],
+        "in_current_batch": true
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 11,
+        "chapter_title": "IIIA族元素：铝",
+        "section_id": "11.1.2",
+        "section_title": "铝的化学性质",
+        "lesson_path": "lessons/chem11.js",
+        "batch_note_path": "data/notes/chem11.json",
+        "in_41_section_batch": false,
+        "existing_svg_paths": [],
+        "in_current_batch": true
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 11,
+        "chapter_title": "IIIA族元素：铝",
+        "section_id": "11.2",
+        "section_title": "铝的重要化合物",
+        "lesson_path": "lessons/chem11.js",
+        "batch_note_path": "data/notes/chem11.json",
+        "in_41_section_batch": false,
+        "existing_svg_paths": [],
+        "in_current_batch": true
+      },
+      {
+        "subject": "化学",
+        "subject_code": "chemistry",
+        "chapter_id": 11,
+        "chapter_title": "IIIA族元素：铝",
+        "section_id": "11.3",
+        "section_title": "铝的冶炼",
+        "lesson_path": "lessons/chem11.js",
+        "batch_note_path": "data/notes/chem11.json",
+        "in_41_section_batch": false,
+        "existing_svg_paths": [],
+        "in_current_batch": true
       }
     ],
     "independent_math_subjects": [
@@ -2467,7 +2864,7 @@
       "reports/sections_before.csv",
       "reports/math_subject_mapping.csv"
     ],
-    "non_section_sources_note": "ext文件为原章附加题；生成器不另计课程。当前72个科学章仍无落地真实小节，35个数学旧章归属与教材目录待核，不据标准学习结果伪造小节。"
+    "non_section_sources_note": "当前67科学章未制作完整小节笔记，35数学旧章待归科；仅表示实施/资料保存状态，不表示教材无小节。"
   },
   "scientific_source_register": [
     {
@@ -2937,6 +3334,258 @@
       "evidence_scope": "官方课程主题/学习结果证据，不确认I/II逐章归属",
       "access_date": "2026-11-18",
       "notes": "与旧35章的相关主题可对照研究；学习结果编号不能冒充实际教材小节，仍不迁移。"
+    },
+    {
+      "id": "os_b04_7.1.1",
+      "title": "OpenStax Chemistry 2e 离子键",
+      "url_or_file": "https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding",
+      "locator": "7-1-ionic-bonding",
+      "verification_status": "partially_verified",
+      "evidence_scope": "辅助理论；非教材小节编号或考试范围",
+      "access_date": "2026-11-18"
+    },
+    {
+      "id": "os_b04_7.1.2",
+      "title": "OpenStax Chemistry 2e 共价键",
+      "url_or_file": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
+      "locator": "7-2-covalent-bonding",
+      "verification_status": "partially_verified",
+      "evidence_scope": "辅助理论；非教材小节编号或考试范围",
+      "access_date": "2026-11-18"
+    },
+    {
+      "id": "os_b04_7.1.3",
+      "title": "OpenStax Chemistry 2e 金属键",
+      "url_or_file": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+      "locator": "10-5-the-solid-state-of-matter",
+      "verification_status": "partially_verified",
+      "evidence_scope": "辅助理论；非教材小节编号或考试范围",
+      "access_date": "2026-11-18"
+    },
+    {
+      "id": "os_b04_7.2.1",
+      "title": "OpenStax Chemistry 2e 范德华力",
+      "url_or_file": "https://openstax.org/books/chemistry-2e/pages/10-1-intermolecular-forces",
+      "locator": "10-1-intermolecular-forces",
+      "verification_status": "partially_verified",
+      "evidence_scope": "辅助理论；非教材小节编号或考试范围",
+      "access_date": "2026-11-18"
+    },
+    {
+      "id": "os_b04_7.2.2",
+      "title": "OpenStax Chemistry 2e 氢键",
+      "url_or_file": "https://openstax.org/books/chemistry-2e/pages/10-1-intermolecular-forces",
+      "locator": "10-1-intermolecular-forces",
+      "verification_status": "partially_verified",
+      "evidence_scope": "辅助理论；非教材小节编号或考试范围",
+      "access_date": "2026-11-18"
+    },
+    {
+      "id": "os_b04_7.3.1",
+      "title": "OpenStax Chemistry 2e 离子晶体",
+      "url_or_file": "https://openstax.org/books/chemistry-2e/pages/10-6-lattice-structures-in-crystalline-solids",
+      "locator": "10-6-lattice-structures-in-crystalline-solids",
+      "verification_status": "partially_verified",
+      "evidence_scope": "辅助理论；非教材小节编号或考试范围",
+      "access_date": "2026-11-18"
+    },
+    {
+      "id": "os_b04_7.3.2",
+      "title": "OpenStax Chemistry 2e 原子晶体",
+      "url_or_file": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+      "locator": "10-5-the-solid-state-of-matter",
+      "verification_status": "partially_verified",
+      "evidence_scope": "辅助理论；非教材小节编号或考试范围",
+      "access_date": "2026-11-18"
+    },
+    {
+      "id": "os_b04_7.3.3",
+      "title": "OpenStax Chemistry 2e 分子晶体",
+      "url_or_file": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+      "locator": "10-5-the-solid-state-of-matter",
+      "verification_status": "partially_verified",
+      "evidence_scope": "辅助理论；非教材小节编号或考试范围",
+      "access_date": "2026-11-18"
+    },
+    {
+      "id": "os_b04_7.3.4",
+      "title": "OpenStax Chemistry 2e 金属晶体",
+      "url_or_file": "https://openstax.org/books/chemistry-2e/pages/10-6-lattice-structures-in-crystalline-solids",
+      "locator": "10-6-lattice-structures-in-crystalline-solids",
+      "verification_status": "partially_verified",
+      "evidence_scope": "辅助理论；非教材小节编号或考试范围",
+      "access_date": "2026-11-18"
+    },
+    {
+      "id": "os_b04_8.1",
+      "title": "OpenStax Chemistry 2e 氧化还原反应",
+      "url_or_file": "https://openstax.org/books/chemistry-2e/pages/17-1-review-of-redox-chemistry",
+      "locator": "17-1-review-of-redox-chemistry",
+      "verification_status": "partially_verified",
+      "evidence_scope": "辅助理论；非教材小节编号或考试范围",
+      "access_date": "2026-11-18"
+    },
+    {
+      "id": "os_b04_8.2.1",
+      "title": "OpenStax Chemistry 2e 计算氧化数的一般规则",
+      "url_or_file": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+      "locator": "4-2-classifying-chemical-reactions",
+      "verification_status": "partially_verified",
+      "evidence_scope": "辅助理论；非教材小节编号或考试范围",
+      "access_date": "2026-11-18"
+    },
+    {
+      "id": "os_b04_8.2.2",
+      "title": "OpenStax Chemistry 2e 氧化数与氧化还原的关系",
+      "url_or_file": "https://openstax.org/books/chemistry-2e/pages/17-1-review-of-redox-chemistry",
+      "locator": "17-1-review-of-redox-chemistry",
+      "verification_status": "partially_verified",
+      "evidence_scope": "辅助理论；非教材小节编号或考试范围",
+      "access_date": "2026-11-18"
+    },
+    {
+      "id": "os_b04_8.3",
+      "title": "OpenStax Chemistry 2e 氧化剂与还原剂",
+      "url_or_file": "https://openstax.org/books/chemistry-2e/pages/17-1-review-of-redox-chemistry",
+      "locator": "17-1-review-of-redox-chemistry",
+      "verification_status": "partially_verified",
+      "evidence_scope": "辅助理论；非教材小节编号或考试范围",
+      "access_date": "2026-11-18"
+    },
+    {
+      "id": "os_b04_8.4.1",
+      "title": "OpenStax Chemistry 2e 氧化数法",
+      "url_or_file": "https://openstax.org/books/chemistry-2e/pages/17-1-review-of-redox-chemistry",
+      "locator": "17-1-review-of-redox-chemistry",
+      "verification_status": "partially_verified",
+      "evidence_scope": "辅助理论；非教材小节编号或考试范围",
+      "access_date": "2026-11-18"
+    },
+    {
+      "id": "os_b04_8.4.2",
+      "title": "OpenStax Chemistry 2e 离子——电子法",
+      "url_or_file": "https://openstax.org/books/chemistry-2e/pages/17-1-review-of-redox-chemistry",
+      "locator": "17-1-review-of-redox-chemistry",
+      "verification_status": "partially_verified",
+      "evidence_scope": "辅助理论；非教材小节编号或考试范围",
+      "access_date": "2026-11-18"
+    },
+    {
+      "id": "os_b04_9.1.1",
+      "title": "OpenStax Chemistry 2e 钠和钾的物理性质",
+      "url_or_file": "https://openstax.org/books/chemistry-2e/pages/18-1-periodicity",
+      "locator": "18-1-periodicity",
+      "verification_status": "partially_verified",
+      "evidence_scope": "辅助理论；非教材小节编号或考试范围",
+      "access_date": "2026-11-18"
+    },
+    {
+      "id": "os_b04_9.1.2",
+      "title": "OpenStax Chemistry 2e 钠和钾的化学性质",
+      "url_or_file": "https://openstax.org/books/chemistry-2e/pages/18-1-periodicity",
+      "locator": "18-1-periodicity",
+      "verification_status": "partially_verified",
+      "evidence_scope": "辅助理论；非教材小节编号或考试范围",
+      "access_date": "2026-11-18"
+    },
+    {
+      "id": "os_b04_9.2",
+      "title": "OpenStax Chemistry 2e 焰色试验",
+      "url_or_file": "https://openstax.org/books/chemistry-2e/pages/6-1-electromagnetic-energy",
+      "locator": "6-1-electromagnetic-energy",
+      "verification_status": "partially_verified",
+      "evidence_scope": "辅助理论；非教材小节编号或考试范围",
+      "access_date": "2026-11-18"
+    },
+    {
+      "id": "os_b04_9.3",
+      "title": "OpenStax Chemistry 2e 钠和钾的重要化合物",
+      "url_or_file": "https://openstax.org/books/chemistry-2e/pages/4-3-reaction-stoichiometry",
+      "locator": "4-3-reaction-stoichiometry",
+      "verification_status": "partially_verified",
+      "evidence_scope": "辅助理论；非教材小节编号或考试范围",
+      "access_date": "2026-11-18"
+    },
+    {
+      "id": "os_b04_10.1.1",
+      "title": "OpenStax Chemistry 2e 镁和钙的物理性质",
+      "url_or_file": "https://openstax.org/books/chemistry-2e/pages/18-1-periodicity",
+      "locator": "18-1-periodicity",
+      "verification_status": "partially_verified",
+      "evidence_scope": "辅助理论；非教材小节编号或考试范围",
+      "access_date": "2026-11-18"
+    },
+    {
+      "id": "os_b04_10.1.2",
+      "title": "OpenStax Chemistry 2e 镁和钙的化学性质",
+      "url_or_file": "https://openstax.org/books/chemistry-2e/pages/18-1-periodicity",
+      "locator": "18-1-periodicity",
+      "verification_status": "partially_verified",
+      "evidence_scope": "辅助理论；非教材小节编号或考试范围",
+      "access_date": "2026-11-18"
+    },
+    {
+      "id": "os_b04_10.2",
+      "title": "OpenStax Chemistry 2e 镁的重要化合物",
+      "url_or_file": "https://openstax.org/books/chemistry-2e/pages/18-2-occurrence-and-preparation-of-the-representative-metals",
+      "locator": "18-2-occurrence-and-preparation-of-the-representative-metals",
+      "verification_status": "partially_verified",
+      "evidence_scope": "辅助理论；非教材小节编号或考试范围",
+      "access_date": "2026-11-18"
+    },
+    {
+      "id": "os_b04_10.3",
+      "title": "OpenStax Chemistry 2e 钙的重要化合物",
+      "url_or_file": "https://openstax.org/books/chemistry-2e/pages/18-1-periodicity",
+      "locator": "18-1-periodicity",
+      "verification_status": "partially_verified",
+      "evidence_scope": "辅助理论；非教材小节编号或考试范围",
+      "access_date": "2026-11-18"
+    },
+    {
+      "id": "os_b04_10.4",
+      "title": "OpenStax Chemistry 2e 镁离子和钙离子的检验",
+      "url_or_file": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+      "locator": "4-2-classifying-chemical-reactions",
+      "verification_status": "partially_verified",
+      "evidence_scope": "辅助理论；非教材小节编号或考试范围",
+      "access_date": "2026-11-18"
+    },
+    {
+      "id": "os_b04_11.1.1",
+      "title": "OpenStax Chemistry 2e 铝的物理性质",
+      "url_or_file": "https://openstax.org/books/chemistry-2e/pages/18-1-periodicity",
+      "locator": "18-1-periodicity",
+      "verification_status": "partially_verified",
+      "evidence_scope": "辅助理论；非教材小节编号或考试范围",
+      "access_date": "2026-11-18"
+    },
+    {
+      "id": "os_b04_11.1.2",
+      "title": "OpenStax Chemistry 2e 铝的化学性质",
+      "url_or_file": "https://openstax.org/books/chemistry-2e/pages/18-1-periodicity",
+      "locator": "18-1-periodicity",
+      "verification_status": "partially_verified",
+      "evidence_scope": "辅助理论；非教材小节编号或考试范围",
+      "access_date": "2026-11-18"
+    },
+    {
+      "id": "os_b04_11.2",
+      "title": "OpenStax Chemistry 2e 铝的重要化合物",
+      "url_or_file": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+      "locator": "4-2-classifying-chemical-reactions",
+      "verification_status": "partially_verified",
+      "evidence_scope": "辅助理论；非教材小节编号或考试范围",
+      "access_date": "2026-11-18"
+    },
+    {
+      "id": "os_b04_11.3",
+      "title": "OpenStax Chemistry 2e 铝的冶炼",
+      "url_or_file": "https://openstax.org/books/chemistry-2e/pages/18-2-occurrence-and-preparation-of-the-representative-metals",
+      "locator": "18-2-occurrence-and-preparation-of-the-representative-metals",
+      "verification_status": "partially_verified",
+      "evidence_scope": "辅助理论；非教材小节编号或考试范围",
+      "access_date": "2026-11-18"
     }
   ],
   "protected_file_hashes": {
@@ -12203,7 +12852,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-物理3-3.1-m3\"] .concept-branches",
           "current_nodes": [
             "研究对象",
@@ -12388,7 +13037,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-物理3-3.2-m3\"] .concept-branches",
           "current_nodes": [
             "参照物",
@@ -12572,7 +13221,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-物理3-3.3-m3\"] .concept-flow",
           "current_nodes": [
             "轨迹分段",
@@ -12762,7 +13411,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-物理3-3.4-m3\"] .concept-flow",
           "current_nodes": [
             "速度大小方向恒定",
@@ -12947,7 +13596,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-物理3-3.5-m3\"] .concept-branches",
           "current_nodes": [
             "识别坐标轴",
@@ -13136,7 +13785,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-物理3-3.6-m3\"] .concept-branches",
           "current_nodes": [
             "选定时间区间",
@@ -13324,7 +13973,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-物理3-3.7-m3\"] .concept-flow",
           "current_nodes": [
             "初末速度矢量",
@@ -13510,7 +14159,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-物理3-3.8-m3\"] .concept-flow",
           "current_nodes": [
             "恒a",
@@ -13789,7 +14438,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-物理3-3.9-m3\"] .concept-branches",
           "current_nodes": [
             "仅重力且近地",
@@ -14070,7 +14719,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-物理4-4.1-m3\"] .concept-flow",
           "current_nodes": [
             "相互作用",
@@ -14257,7 +14906,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-物理4-4.2-m3\"] .concept-flow",
           "current_nodes": [
             "找重力",
@@ -14543,7 +15192,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-物理4-4.3-m3\"] .concept-flow",
           "current_nodes": [
             "选轴与角",
@@ -14735,7 +15384,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-物理4-4.4-m3\"] .concept-branches",
           "current_nodes": [
             "减少阻力的证据",
@@ -14928,7 +15577,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-物理4-4.5-m3\"] .concept-branches",
           "current_nodes": [
             "原运动状态",
@@ -15115,7 +15764,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-物理4-4.6-m3\"] .concept-branches",
           "current_nodes": [
             "p＝mv",
@@ -15302,7 +15951,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-物理4-4.7-m3\"] .concept-flow",
           "current_nodes": [
             "选对象和系统",
@@ -15582,7 +16231,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-物理4-4.8-m3\"] .concept-flow",
           "current_nodes": [
             "明确A作用B",
@@ -15777,7 +16426,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-化学3-3.1-m3\"] .concept-branches",
           "current_nodes": [
             "宏观质量守恒",
@@ -15979,7 +16628,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-化学3-3.2-m3\"] .concept-branches",
           "current_nodes": [
             "系统边界",
@@ -16177,7 +16826,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-化学3-3.3-m3\"] .concept-branches",
           "current_nodes": [
             "质子中子电子",
@@ -16472,7 +17121,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-化学3-3.4-m3\"] .concept-flow",
           "current_nodes": [
             "化学式表示对象",
@@ -16674,7 +17323,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-化学3-3.5-m3\"] .concept-branches",
           "current_nodes": [
             "元素质量",
@@ -16990,7 +17639,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-化学3-3.6-m3\"] .concept-branches",
           "current_nodes": [
             "质量m÷M",
@@ -17304,7 +17953,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-化学4-4.1.1-m3\"] .concept-branches",
           "current_nodes": [
             "事实与条件",
@@ -17502,7 +18151,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-化学4-4.1.2-m3\"] .concept-branches",
           "current_nodes": [
             "确定分类标准",
@@ -17699,7 +18348,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-化学4-4.1.3-m3\"] .concept-flow",
           "current_nodes": [
             "固定正确化学式",
@@ -17896,7 +18545,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-化学4-4.2.1-m3\"] .concept-flow",
           "current_nodes": [
             "已知质量或体积",
@@ -18100,7 +18749,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-化学4-4.2.2-m3\"] .concept-flow",
           "current_nodes": [
             "总样品",
@@ -18307,7 +18956,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-化学4-4.2.3-m3\"] .concept-flow",
           "current_nodes": [
             "分别求初始mol",
@@ -18509,7 +19158,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-化学4-4.2.4-m3\"] .concept-flow",
           "current_nodes": [
             "有效投料",
@@ -18700,7 +19349,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-生物1-1.1-m3\"] .concept-branches",
           "current_nodes": [
             "极性水分子",
@@ -18891,7 +19540,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-生物1-1.2-m3\"] .concept-branches",
           "current_nodes": [
             "离子或盐形式",
@@ -19084,7 +19733,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-生物1-1.3-m3\"] .concept-branches",
           "current_nodes": [
             "单糖",
@@ -19364,7 +20013,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-生物1-1.4-m3\"] .concept-branches",
           "current_nodes": [
             "脂质类型",
@@ -19643,7 +20292,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-生物1-1.5-m3\"] .concept-branches",
           "current_nodes": [
             "氨基酸序列",
@@ -19927,7 +20576,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-生物1-1.6-m3\"] .concept-branches",
           "current_nodes": [
             "核苷酸组成",
@@ -20220,7 +20869,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-生物2-2.1-m3\"] .concept-branches",
           "current_nodes": [
             "细胞学说",
@@ -20538,7 +21187,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-生物2-2.2-m3\"] .concept-branches",
           "current_nodes": [
             "两亲磷脂双层",
@@ -20953,7 +21602,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-生物2-2.3-m3\"] .concept-flow",
           "current_nodes": [
             "核糖体合成",
@@ -21146,7 +21795,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-生物2-2.4-m3\"] .concept-flow",
           "current_nodes": [
             "DNA与染色质",
@@ -21343,7 +21992,7 @@
         "existing_asset": {
           "kind": "inline_html_css",
           "path": "batch-ui.js",
-          "sha256": "004b59b4deea5d4c0ea0a38d3b0159985c5aaa0faf52bcc61389f93416e7ab36",
+          "sha256": "3b8d2a214f4b67cb440b631336d12a395f39def9e37cafdf280ac00eca095b2b",
           "selector": "[id=\"unit-生物2-2.5-m3\"] .concept-branches",
           "current_nodes": [
             "纤维素网络与基质",
@@ -25290,6 +25939,2289 @@
       },
       "production_status": "brief_ready_not_produced",
       "output_path": null
+    },
+    {
+      "id": "ILL-B04-CHEM-7_1_1",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 7,
+      "chapter_title": "化学键与分子间作用力",
+      "section_id": "7.1.1",
+      "section_title": "离子键",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "7.1.1 离子键：结构、条件及守恒图",
+      "teaching_purpose": "支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "总电荷Σnᵢzᵢ=0；离子式表示最简计量比，而非孤立分子。",
+        "同电荷模型中距离减小通常增强静电作用；跨物质比较还需结构与极化，不能只按半径给精确熔点。",
+        "固态到熔融态改变离子迁移能力；电子转移记账不同于导电时离子定向移动。",
+        "分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。",
+        "示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。"
+      ],
+      "required_labels": [
+        "阳离子",
+        "阴离子",
+        "电中性",
+        "晶格",
+        "固态与熔体"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "os_b04_7.1.1",
+          "scope": "理论",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem07.js",
+          "selector": "sections[id=7.1.1]"
+        },
+        {
+          "path": "data/notes/chem07.json",
+          "json_pointer": "/7.1.1"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 1000,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null,
+      "formula_spec": [
+        "总电荷Σnᵢzᵢ=0；离子式表示最简计量比，而非孤立分子。",
+        "同电荷模型中距离减小通常增强静电作用；跨物质比较还需结构与极化，不能只按半径给精确熔点。",
+        "固态到熔融态改变离子迁移能力；电子转移记账不同于导电时离子定向移动。"
+      ]
+    },
+    {
+      "id": "ILL-B04-CHEM-7_1_2",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 7,
+      "chapter_title": "化学键与分子间作用力",
+      "section_id": "7.1.2",
+      "section_title": "共价键",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "7.1.2 共价键：结构、条件及守恒图",
+      "teaching_purpose": "支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "电子总数=各原子价电子之和−总正电荷数+总负电荷绝对值；共享对在总数中计一次。",
+        "形式电荷=自由原子价电子数−孤电子数−成键电子数/2；它是分配模型，不等于实际部分电荷。",
+        "分子偶极为各键/电荷分布的矢量合成，必须结合几何，不仅数极性键。",
+        "分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。",
+        "示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。"
+      ],
+      "required_labels": [
+        "共享电子对",
+        "孤电子对",
+        "电子总数",
+        "配位键",
+        "几何",
+        "偶极合成"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "os_b04_7.1.2",
+          "scope": "理论",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem07.js",
+          "selector": "sections[id=7.1.2]"
+        },
+        {
+          "path": "data/notes/chem07.json",
+          "json_pointer": "/7.1.2"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 1000,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null,
+      "formula_spec": [
+        "电子总数=各原子价电子之和−总正电荷数+总负电荷绝对值；共享对在总数中计一次。",
+        "形式电荷=自由原子价电子数−孤电子数−成键电子数/2；它是分配模型，不等于实际部分电荷。",
+        "分子偶极为各键/电荷分布的矢量合成，必须结合几何，不仅数极性键。"
+      ]
+    },
+    {
+      "id": "ILL-B04-CHEM-7_1_3",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 7,
+      "chapter_title": "化学键与分子间作用力",
+      "section_id": "7.1.3",
+      "section_title": "金属键",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "7.1.3 金属键：结构、条件及守恒图",
+      "teaching_purpose": "支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "整体电中性要求离子实总正电与离域电子负电相平衡；图示计量必须声明所用模型。",
+        "金属的导电是电子的定向漂移；层滑移后的吸引仍存在可解释常见延展性。",
+        "性质比较需结构、组成、温度条件，金属类别本身不能给出精确电阻或熔点。",
+        "分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。",
+        "示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。"
+      ],
+      "required_labels": [
+        "离子实",
+        "离域电子",
+        "电中性",
+        "漂移",
+        "层滑移"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "os_b04_7.1.3",
+          "scope": "理论",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem07.js",
+          "selector": "sections[id=7.1.3]"
+        },
+        {
+          "path": "data/notes/chem07.json",
+          "json_pointer": "/7.1.3"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 1000,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null,
+      "formula_spec": [
+        "整体电中性要求离子实总正电与离域电子负电相平衡；图示计量必须声明所用模型。",
+        "金属的导电是电子的定向漂移；层滑移后的吸引仍存在可解释常见延展性。",
+        "性质比较需结构、组成、温度条件，金属类别本身不能给出精确电阻或熔点。"
+      ]
+    },
+    {
+      "id": "ILL-B04-CHEM-7_2_1",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 7,
+      "chapter_title": "化学键与分子间作用力",
+      "section_id": "7.2.1",
+      "section_title": "范德华力",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "7.2.1 范德华力：结构、条件及守恒图",
+      "teaching_purpose": "支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "分子内键维持分子身份，分子间力影响凝聚；相变不等于所有化学键断裂。",
+        "可比非极性系列常以极化率与接触面积判断色散作用，不能只用摩尔质量作普适公式。",
+        "沸点趋势与熔点堆积规律不同；定性模型不能生成精确温度。",
+        "分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。",
+        "示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。"
+      ],
+      "required_labels": [
+        "瞬时偶极",
+        "诱导偶极",
+        "永久偶极",
+        "色散力",
+        "接触面积"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "os_b04_7.2.1",
+          "scope": "理论",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem07.js",
+          "selector": "sections[id=7.2.1]"
+        },
+        {
+          "path": "data/notes/chem07.json",
+          "json_pointer": "/7.2.1"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 1000,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null,
+      "formula_spec": [
+        "分子内键维持分子身份，分子间力影响凝聚；相变不等于所有化学键断裂。",
+        "可比非极性系列常以极化率与接触面积判断色散作用，不能只用摩尔质量作普适公式。",
+        "沸点趋势与熔点堆积规律不同；定性模型不能生成精确温度。"
+      ]
+    },
+    {
+      "id": "ILL-B04-CHEM-7_2_2",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 7,
+      "chapter_title": "化学键与分子间作用力",
+      "section_id": "7.2.2",
+      "section_title": "氢键",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "7.2.2 氢键：结构、条件及守恒图",
+      "teaching_purpose": "支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "氢键图写D—H···A，先核供体、受体及几何；不凭分子同时含H/O就下结论。",
+        "纯物质能否自氢键，与其能否同水氢键是两道不同问题。",
+        "熔沸点和溶解受多项能量与结构因素影响；氢键是解释线索，不是唯一参数。",
+        "分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。",
+        "示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。"
+      ],
+      "required_labels": [
+        "供体",
+        "O—H",
+        "受体孤对",
+        "H···O",
+        "动态网络"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "os_b04_7.2.2",
+          "scope": "理论",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem07.js",
+          "selector": "sections[id=7.2.2]"
+        },
+        {
+          "path": "data/notes/chem07.json",
+          "json_pointer": "/7.2.2"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 1000,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null,
+      "formula_spec": [
+        "氢键图写D—H···A，先核供体、受体及几何；不凭分子同时含H/O就下结论。",
+        "纯物质能否自氢键，与其能否同水氢键是两道不同问题。",
+        "熔沸点和溶解受多项能量与结构因素影响；氢键是解释线索，不是唯一参数。"
+      ]
+    },
+    {
+      "id": "ILL-B04-CHEM-7_3_1",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 7,
+      "chapter_title": "化学键与分子间作用力",
+      "section_id": "7.3.1",
+      "section_title": "离子晶体",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "7.3.1 离子晶体：结构、条件及守恒图",
+      "teaching_purpose": "支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "晶胞数=角数/8+棱数/4+面数/2+体内数；各元素或离子分别计数。",
+        "配位数≠式中下标；同一最近邻可被多个离子共同计入。",
+        "ρ=ZM/(N_Aa³)，长度单位需先统一，Z是每胞式量单位数而非单个离子数。",
+        "分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。",
+        "示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。"
+      ],
+      "required_labels": [
+        "三维晶格",
+        "角1/8",
+        "面1/2",
+        "体心1",
+        "配位数",
+        "电中性"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "os_b04_7.3.1",
+          "scope": "理论",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem07.js",
+          "selector": "sections[id=7.3.1]"
+        },
+        {
+          "path": "data/notes/chem07.json",
+          "json_pointer": "/7.3.1"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 1000,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null,
+      "formula_spec": [
+        "晶胞数=角数/8+棱数/4+面数/2+体内数；各元素或离子分别计数。",
+        "配位数≠式中下标；同一最近邻可被多个离子共同计入。",
+        "ρ=ZM/(N_Aa³)，长度单位需先统一，Z是每胞式量单位数而非单个离子数。"
+      ]
+    },
+    {
+      "id": "ILL-B04-CHEM-7_3_2",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 7,
+      "chapter_title": "化学键与分子间作用力",
+      "section_id": "7.3.2",
+      "section_title": "原子晶体",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "7.3.2 原子晶体：结构、条件及守恒图",
+      "teaching_purpose": "支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "网络中共享连接须避免重复计数：Si四条Si—O连接、每O由两Si共享，O/Si=4/2=2。",
+        "若N个C各连接4邻C，按每键两端共享，C—C键数为4N/2=2N（忽略表面）。",
+        "石墨的层内共价连接、层间作用和离域电子承担不同性质，不能用一个“强/弱”总括。",
+        "分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。",
+        "示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。"
+      ],
+      "required_labels": [
+        "金刚石四邻",
+        "Si四O桥",
+        "石墨三邻",
+        "层间滑移",
+        "离域电子"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "os_b04_7.3.2",
+          "scope": "理论",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem07.js",
+          "selector": "sections[id=7.3.2]"
+        },
+        {
+          "path": "data/notes/chem07.json",
+          "json_pointer": "/7.3.2"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 1000,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null,
+      "formula_spec": [
+        "网络中共享连接须避免重复计数：Si四条Si—O连接、每O由两Si共享，O/Si=4/2=2。",
+        "若N个C各连接4邻C，按每键两端共享，C—C键数为4N/2=2N（忽略表面）。",
+        "石墨的层内共价连接、层间作用和离域电子承担不同性质，不能用一个“强/弱”总括。"
+      ]
+    },
+    {
+      "id": "ILL-B04-CHEM-7_3_3",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 7,
+      "chapter_title": "化学键与分子间作用力",
+      "section_id": "7.3.3",
+      "section_title": "分子晶体",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "7.3.3 分子晶体：结构、条件及守恒图",
+      "teaching_purpose": "支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "分子晶体的式可对应独立分子；普通相变主要克服分子间作用，分子内共价键保留。",
+        "若每个CO₂分子含1C/2O，N个分子含N个C与2N个O，与固态/气态无关。",
+        "物质分类应交叉检验组成、熔点、导电和溶解；任何单一性质都可能有反例。",
+        "分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。",
+        "示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。"
+      ],
+      "required_labels": [
+        "独立CO₂分子",
+        "共价内键",
+        "分子间虚线",
+        "升华",
+        "原子守恒"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "os_b04_7.3.3",
+          "scope": "理论",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem07.js",
+          "selector": "sections[id=7.3.3]"
+        },
+        {
+          "path": "data/notes/chem07.json",
+          "json_pointer": "/7.3.3"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 1000,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null,
+      "formula_spec": [
+        "分子晶体的式可对应独立分子；普通相变主要克服分子间作用，分子内共价键保留。",
+        "若每个CO₂分子含1C/2O，N个分子含N个C与2N个O，与固态/气态无关。",
+        "物质分类应交叉检验组成、熔点、导电和溶解；任何单一性质都可能有反例。"
+      ]
+    },
+    {
+      "id": "ILL-B04-CHEM-7_3_4",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 7,
+      "chapter_title": "化学键与分子间作用力",
+      "section_id": "7.3.4",
+      "section_title": "金属晶体",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "7.3.4 金属晶体：结构、条件及守恒图",
+      "teaching_purpose": "支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "SC原子数=8/8=1；BCC=8/8+1=2；FCC=8/8+6/2=4。",
+        "ρ=ZM/(N_Aa³)，Z是每胞原子数；配位数不能代替Z。",
+        "晶胞几何与电子离域回答不同问题，不能把球数直接当自由电子数。",
+        "分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。",
+        "示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。"
+      ],
+      "required_labels": [
+        "简单立方1",
+        "体心立方2",
+        "面心立方4",
+        "共享份额",
+        "密度"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "os_b04_7.3.4",
+          "scope": "理论",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem07.js",
+          "selector": "sections[id=7.3.4]"
+        },
+        {
+          "path": "data/notes/chem07.json",
+          "json_pointer": "/7.3.4"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 1000,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null,
+      "formula_spec": [
+        "SC原子数=8/8=1；BCC=8/8+1=2；FCC=8/8+6/2=4。",
+        "ρ=ZM/(N_Aa³)，Z是每胞原子数；配位数不能代替Z。",
+        "晶胞几何与电子离域回答不同问题，不能把球数直接当自由电子数。"
+      ]
+    },
+    {
+      "id": "ILL-B04-CHEM-8_1",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 8,
+      "chapter_title": "氧化还原反应",
+      "section_id": "8.1",
+      "section_title": "氧化还原反应",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "8.1 氧化还原反应：结构、条件及守恒图",
+      "teaching_purpose": "支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "氧化数升高对应形式失电子，降低对应形式得电子；完整反应n(失e⁻)=n(得e⁻)。",
+        "得失电子数=反应中实际参与变价的原子数×每原子氧化数变化绝对值。",
+        "反应类别可交叉；是否氧化还原以元素氧化数变化为判据，不以气泡、颜色或得氧作为唯一条件。",
+        "分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。",
+        "示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。"
+      ],
+      "required_labels": [
+        "前后氧化数",
+        "升价",
+        "降价",
+        "电子守恒",
+        "完整反应"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "os_b04_8.1",
+          "scope": "理论",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem08.js",
+          "selector": "sections[id=8.1]"
+        },
+        {
+          "path": "data/notes/chem08.json",
+          "json_pointer": "/8.1"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 1000,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null,
+      "formula_spec": [
+        "氧化数升高对应形式失电子，降低对应形式得电子；完整反应n(失e⁻)=n(得e⁻)。",
+        "得失电子数=反应中实际参与变价的原子数×每原子氧化数变化绝对值。",
+        "反应类别可交叉；是否氧化还原以元素氧化数变化为判据，不以气泡、颜色或得氧作为唯一条件。"
+      ]
+    },
+    {
+      "id": "ILL-B04-CHEM-8_2_1",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 8,
+      "chapter_title": "氧化还原反应",
+      "section_id": "8.2.1",
+      "section_title": "计算氧化数的一般规则",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "8.2.1 计算氧化数的一般规则：结构、条件及守恒图",
+      "teaching_purpose": "支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "Σ(原子数×氧化数)=物种总电荷；不要把离子总电荷直接当其中某元素的氧化数。",
+        "O/H通常值有例外，应优先按已知结构及更电负元素的规则处理。",
+        "总和求得平均值不一定代表所有同种原子等价，混合价及位置不同须另有结构证据。",
+        "分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。",
+        "示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。"
+      ],
+      "required_labels": [
+        "物种电荷",
+        "未知x",
+        "氧例外",
+        "氢化物",
+        "平均价"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "os_b04_8.2.1",
+          "scope": "理论",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem08.js",
+          "selector": "sections[id=8.2.1]"
+        },
+        {
+          "path": "data/notes/chem08.json",
+          "json_pointer": "/8.2.1"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 1000,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null,
+      "formula_spec": [
+        "Σ(原子数×氧化数)=物种总电荷；不要把离子总电荷直接当其中某元素的氧化数。",
+        "O/H通常值有例外，应优先按已知结构及更电负元素的规则处理。",
+        "总和求得平均值不一定代表所有同种原子等价，混合价及位置不同须另有结构证据。"
+      ]
+    },
+    {
+      "id": "ILL-B04-CHEM-8_2_2",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 8,
+      "chapter_title": "氧化还原反应",
+      "section_id": "8.2.2",
+      "section_title": "氧化数与氧化还原的关系",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "8.2.2 氧化数与氧化还原的关系：结构、条件及守恒图",
+      "teaching_purpose": "支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "n(e⁻)=n(变价原子)×|末氧化数−初氧化数|；多原子物种须乘每份变价原子数。",
+        "歧化中升价和降价原子分别计，不能用总物种数给同一群原子同时走两条路径。",
+        "电子当量依产物与介质，不从反应物名称单独确定。",
+        "分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。",
+        "示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。"
+      ],
+      "required_labels": [
+        "初价",
+        "末价",
+        "原子群",
+        "价差",
+        "电子量",
+        "歧化归中"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "os_b04_8.2.2",
+          "scope": "理论",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem08.js",
+          "selector": "sections[id=8.2.2]"
+        },
+        {
+          "path": "data/notes/chem08.json",
+          "json_pointer": "/8.2.2"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 1000,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null,
+      "formula_spec": [
+        "n(e⁻)=n(变价原子)×|末氧化数−初氧化数|；多原子物种须乘每份变价原子数。",
+        "歧化中升价和降价原子分别计，不能用总物种数给同一群原子同时走两条路径。",
+        "电子当量依产物与介质，不从反应物名称单独确定。"
+      ]
+    },
+    {
+      "id": "ILL-B04-CHEM-8_3",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 8,
+      "chapter_title": "氧化还原反应",
+      "section_id": "8.3",
+      "section_title": "氧化剂与还原剂",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "8.3 氧化剂与还原剂：结构、条件及守恒图",
+      "teaching_purpose": "支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "氧化剂得电子被还原；还原剂失电子被氧化，判断应绑定本反应的指定实体。",
+        "两剂计量比使得失电子相等，不要求mol数相等；实际电子量受限量者控制。",
+        "同一物种在不同反应可有不同角色；中间价态并不保证两种反应在任何条件都发生。",
+        "分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。",
+        "示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。"
+      ],
+      "required_labels": [
+        "反应物实体",
+        "得失电子",
+        "两剂角色",
+        "当量",
+        "限量"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "os_b04_8.3",
+          "scope": "理论",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem08.js",
+          "selector": "sections[id=8.3]"
+        },
+        {
+          "path": "data/notes/chem08.json",
+          "json_pointer": "/8.3"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 1000,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null,
+      "formula_spec": [
+        "氧化剂得电子被还原；还原剂失电子被氧化，判断应绑定本反应的指定实体。",
+        "两剂计量比使得失电子相等，不要求mol数相等；实际电子量受限量者控制。",
+        "同一物种在不同反应可有不同角色；中间价态并不保证两种反应在任何条件都发生。"
+      ]
+    },
+    {
+      "id": "ILL-B04-CHEM-8_4_1",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 8,
+      "chapter_title": "氧化还原反应",
+      "section_id": "8.4.1",
+      "section_title": "氧化数法",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "8.4.1 氧化数法：结构、条件及守恒图",
+      "teaching_purpose": "支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "总升价量=总降价量，系数乘每份变价原子数后再取最小公倍数。",
+        "电子守恒先给关键系数，元素和电荷再补全；配平不证明实际反应一定发生。",
+        "酸/碱性补H/O的物种必须与介质相容，最后约为最简整数。",
+        "分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。",
+        "示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。"
+      ],
+      "required_labels": [
+        "变价原子",
+        "升降电子",
+        "公倍数",
+        "O/H补全",
+        "三项核验"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "os_b04_8.4.1",
+          "scope": "理论",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem08.js",
+          "selector": "sections[id=8.4.1]"
+        },
+        {
+          "path": "data/notes/chem08.json",
+          "json_pointer": "/8.4.1"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 1000,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null,
+      "formula_spec": [
+        "总升价量=总降价量，系数乘每份变价原子数后再取最小公倍数。",
+        "电子守恒先给关键系数，元素和电荷再补全；配平不证明实际反应一定发生。",
+        "酸/碱性补H/O的物种必须与介质相容，最后约为最简整数。"
+      ]
+    },
+    {
+      "id": "ILL-B04-CHEM-8_4_2",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 8,
+      "chapter_title": "氧化还原反应",
+      "section_id": "8.4.2",
+      "section_title": "离子——电子法",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "8.4.2 离子——电子法：结构、条件及守恒图",
+      "teaching_purpose": "支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "每个半反应单独守恒原子和电荷；总式电子必须相消，不双重计数。",
+        "酸性用H₂O/H⁺补O/H再用e⁻平电荷；碱性可加等量OH⁻转化并约水。",
+        "同一元素不同末价需要不同电子数，介质/产物必须先确认。",
+        "分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。",
+        "示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。"
+      ],
+      "required_labels": [
+        "半反应",
+        "H₂O补氧",
+        "H⁺补氢",
+        "e⁻平电荷",
+        "碱性转换",
+        "约分"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "os_b04_8.4.2",
+          "scope": "理论",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem08.js",
+          "selector": "sections[id=8.4.2]"
+        },
+        {
+          "path": "data/notes/chem08.json",
+          "json_pointer": "/8.4.2"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 1000,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null,
+      "formula_spec": [
+        "每个半反应单独守恒原子和电荷；总式电子必须相消，不双重计数。",
+        "酸性用H₂O/H⁺补O/H再用e⁻平电荷；碱性可加等量OH⁻转化并约水。",
+        "同一元素不同末价需要不同电子数，介质/产物必须先确认。"
+      ]
+    },
+    {
+      "id": "ILL-B04-CHEM-9_1_1",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 9,
+      "chapter_title": "IA族元素：钠和钾",
+      "section_id": "9.1.1",
+      "section_title": "钠和钾的物理性质",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "9.1.1 钠和钾的物理性质：结构、条件及守恒图",
+      "teaching_purpose": "支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "密度ρ=m/V只在所定状态与温度下比较；浮沉还涉及液体密度和反应干扰。",
+        "金属固态导电主要靠离域电子；软和低熔点不意味着无金属键。",
+        "同族物性趋势需逐项核对，不从原子半径变化推出所有量单调。",
+        "分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。",
+        "示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。"
+      ],
+      "required_labels": [
+        "金属晶格",
+        "ns¹",
+        "密度",
+        "温度条件",
+        "物理与化学变化"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "os_b04_9.1.1",
+          "scope": "理论",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem09.js",
+          "selector": "sections[id=9.1.1]"
+        },
+        {
+          "path": "data/notes/chem09.json",
+          "json_pointer": "/9.1.1"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 1000,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null,
+      "formula_spec": [
+        "密度ρ=m/V只在所定状态与温度下比较；浮沉还涉及液体密度和反应干扰。",
+        "金属固态导电主要靠离域电子；软和低熔点不意味着无金属键。",
+        "同族物性趋势需逐项核对，不从原子半径变化推出所有量单调。"
+      ]
+    },
+    {
+      "id": "ILL-B04-CHEM-9_1_2",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 9,
+      "chapter_title": "IA族元素：钠和钾",
+      "section_id": "9.1.2",
+      "section_title": "钠和钾的化学性质",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "9.1.2 钠和钾的化学性质：结构、条件及守恒图",
+      "teaching_purpose": "支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "2M+2H₂O→2MOH+H₂，完全反应且水足量时n(H₂)=n(M)/2。",
+        "碱金属氧产物依条件而异，普通氧化物/过氧化物/超氧化物不能混用。",
+        "水溶液中的活泼金属反应必须考虑溶剂，不把活动性顺序当单一产物保证。",
+        "分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。",
+        "示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。"
+      ],
+      "required_labels": [
+        "金属M",
+        "水",
+        "MOH",
+        "H₂",
+        "氧产物差异",
+        "溶剂竞争"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "os_b04_9.1.2",
+          "scope": "理论",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem09.js",
+          "selector": "sections[id=9.1.2]"
+        },
+        {
+          "path": "data/notes/chem09.json",
+          "json_pointer": "/9.1.2"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 1000,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null,
+      "formula_spec": [
+        "2M+2H₂O→2MOH+H₂，完全反应且水足量时n(H₂)=n(M)/2。",
+        "碱金属氧产物依条件而异，普通氧化物/过氧化物/超氧化物不能混用。",
+        "水溶液中的活泼金属反应必须考虑溶剂，不把活动性顺序当单一产物保证。"
+      ]
+    },
+    {
+      "id": "ILL-B04-CHEM-9_2",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 9,
+      "chapter_title": "IA族元素：钠和钾",
+      "section_id": "9.2",
+      "section_title": "焰色试验",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "9.2 焰色试验：结构、条件及守恒图",
+      "teaching_purpose": "支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "激发吸能、跃迁发光；单光子E=hc/λ，波长先换SI单位。",
+        "定性颜色须有空白、标准及污染控制；未见信号不等于证明零含量。",
+        "混合样本的强Na发射可干扰K观察，过滤改善区分但不自动给纯度或浓度。",
+        "分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。",
+        "示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。"
+      ],
+      "required_labels": [
+        "能级差",
+        "激发",
+        "发射光",
+        "Na黄",
+        "K淡紫",
+        "空白对照"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "os_b04_9.2",
+          "scope": "理论",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem09.js",
+          "selector": "sections[id=9.2]"
+        },
+        {
+          "path": "data/notes/chem09.json",
+          "json_pointer": "/9.2"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 1000,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null,
+      "formula_spec": [
+        "激发吸能、跃迁发光；单光子E=hc/λ，波长先换SI单位。",
+        "定性颜色须有空白、标准及污染控制；未见信号不等于证明零含量。",
+        "混合样本的强Na发射可干扰K观察，过滤改善区分但不自动给纯度或浓度。"
+      ]
+    },
+    {
+      "id": "ILL-B04-CHEM-9_3",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 9,
+      "chapter_title": "IA族元素：钠和钾",
+      "section_id": "9.3",
+      "section_title": "钠和钾的重要化合物",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "9.3 钠和钾的重要化合物：结构、条件及守恒图",
+      "teaching_purpose": "支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "足量强酸：CO₃²⁻+2H⁺→CO₂+H₂O；HCO₃⁻+H⁺→CO₂+H₂O，两者碳相同但酸耗不同。",
+        "2NaHCO₃→Na₂CO₃+CO₂+H₂O；气量与质量损失须区分是否收集水蒸气。",
+        "水合物M=无水盐M+水数×18；混合盐问题可由CO₂量和H⁺量建立两独立方程。",
+        "分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。",
+        "示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。"
+      ],
+      "required_labels": [
+        "NaCl/KCl",
+        "NaOH",
+        "Na₂CO₃",
+        "NaHCO₃",
+        "KNO₃",
+        "酸耗与气量"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "os_b04_9.3",
+          "scope": "理论",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem09.js",
+          "selector": "sections[id=9.3]"
+        },
+        {
+          "path": "data/notes/chem09.json",
+          "json_pointer": "/9.3"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 1000,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null,
+      "formula_spec": [
+        "足量强酸：CO₃²⁻+2H⁺→CO₂+H₂O；HCO₃⁻+H⁺→CO₂+H₂O，两者碳相同但酸耗不同。",
+        "2NaHCO₃→Na₂CO₃+CO₂+H₂O；气量与质量损失须区分是否收集水蒸气。",
+        "水合物M=无水盐M+水数×18；混合盐问题可由CO₂量和H⁺量建立两独立方程。"
+      ]
+    },
+    {
+      "id": "ILL-B04-CHEM-10_1_1",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 10,
+      "chapter_title": "IIA族元素：镁和钙",
+      "section_id": "10.1.1",
+      "section_title": "镁和钙的物理性质",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "10.1.1 镁和钙的物理性质：结构、条件及守恒图",
+      "teaching_purpose": "支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "ρ=m/V；同质量时V=m/ρ，低密度意味着体积相对较大。",
+        "ns²提供族内结构线索，不构成全部宏观物性同向变化的定理。",
+        "材料性能比较需控制组成和状态，纯金属与合金不可混作同一数据集。",
+        "分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。",
+        "示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。"
+      ],
+      "required_labels": [
+        "Mg/Ca",
+        "金属电子",
+        "密度",
+        "质量",
+        "体积",
+        "材料条件"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "os_b04_10.1.1",
+          "scope": "理论",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem10.js",
+          "selector": "sections[id=10.1.1]"
+        },
+        {
+          "path": "data/notes/chem10.json",
+          "json_pointer": "/10.1.1"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 1000,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null,
+      "formula_spec": [
+        "ρ=m/V；同质量时V=m/ρ，低密度意味着体积相对较大。",
+        "ns²提供族内结构线索，不构成全部宏观物性同向变化的定理。",
+        "材料性能比较需控制组成和状态，纯金属与合金不可混作同一数据集。"
+      ]
+    },
+    {
+      "id": "ILL-B04-CHEM-10_1_2",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 10,
+      "chapter_title": "IIA族元素：镁和钙",
+      "section_id": "10.1.2",
+      "section_title": "镁和钙的化学性质",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "10.1.2 镁和钙的化学性质：结构、条件及守恒图",
+      "teaching_purpose": "支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "Mg/Ca到M²⁺每mol失2mol电子；与非氧化性酸完全反应常为1mol金属给1mol H₂。",
+        "冷水、热水、水蒸气及氧化性酸是不同条件，产物与速率需分别确认。",
+        "Mg₃N₂+6H₂O→3Mg(OH)₂+2NH₃，氮化物与氧化物的后续产物不同。",
+        "分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。",
+        "示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。"
+      ],
+      "required_labels": [
+        "Mg/Ca",
+        "冷水/蒸汽",
+        "酸",
+        "氧化物/氮化物",
+        "H₂"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "os_b04_10.1.2",
+          "scope": "理论",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem10.js",
+          "selector": "sections[id=10.1.2]"
+        },
+        {
+          "path": "data/notes/chem10.json",
+          "json_pointer": "/10.1.2"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 1000,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null,
+      "formula_spec": [
+        "Mg/Ca到M²⁺每mol失2mol电子；与非氧化性酸完全反应常为1mol金属给1mol H₂。",
+        "冷水、热水、水蒸气及氧化性酸是不同条件，产物与速率需分别确认。",
+        "Mg₃N₂+6H₂O→3Mg(OH)₂+2NH₃，氮化物与氧化物的后续产物不同。"
+      ]
+    },
+    {
+      "id": "ILL-B04-CHEM-10_2",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 10,
+      "chapter_title": "IIA族元素：镁和钙",
+      "section_id": "10.2",
+      "section_title": "镁的重要化合物",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "10.2 镁的重要化合物：结构、条件及守恒图",
+      "teaching_purpose": "支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "MgO+2H⁺→Mg²⁺+H₂O；Mg(OH)₂+2H⁺→Mg²⁺+2H₂O。",
+        "MgSO₄·7H₂O每mol含1mol Mg与7mol水，水合物质量分数不能用无水盐M。",
+        "水合MgCl₂的实际加热可能水解；只有明确纯失水模型才可直接减水质量。",
+        "分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。",
+        "示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。"
+      ],
+      "required_labels": [
+        "MgO",
+        "Mg(OH)₂",
+        "MgCl₂",
+        "MgSO₄·7H₂O",
+        "沉淀与水解"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "os_b04_10.2",
+          "scope": "理论",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem10.js",
+          "selector": "sections[id=10.2]"
+        },
+        {
+          "path": "data/notes/chem10.json",
+          "json_pointer": "/10.2"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 1000,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null,
+      "formula_spec": [
+        "MgO+2H⁺→Mg²⁺+H₂O；Mg(OH)₂+2H⁺→Mg²⁺+2H₂O。",
+        "MgSO₄·7H₂O每mol含1mol Mg与7mol水，水合物质量分数不能用无水盐M。",
+        "水合MgCl₂的实际加热可能水解；只有明确纯失水模型才可直接减水质量。"
+      ]
+    },
+    {
+      "id": "ILL-B04-CHEM-10_3",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 10,
+      "chapter_title": "IIA族元素：镁和钙",
+      "section_id": "10.3",
+      "section_title": "钙的重要化合物",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "10.3 钙的重要化合物：结构、条件及守恒图",
+      "teaching_purpose": "支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "CaO+H₂O→Ca(OH)₂；Ca(OH)₂+CO₂→CaCO₃+H₂O。",
+        "CaCO₃+CO₂+H₂O→Ca(HCO₃)₂，CO₂过量可使先有沉淀再溶解。",
+        "CaSO₄·2H₂O→CaSO₄·1/2H₂O+3/2H₂O是理想脱水计量；可整体乘2消分数。",
+        "分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。",
+        "示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。"
+      ],
+      "required_labels": [
+        "CaO",
+        "Ca(OH)₂",
+        "CaCO₃",
+        "Ca(HCO₃)₂",
+        "石膏水合数"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "os_b04_10.3",
+          "scope": "理论",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem10.js",
+          "selector": "sections[id=10.3]"
+        },
+        {
+          "path": "data/notes/chem10.json",
+          "json_pointer": "/10.3"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 1000,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null,
+      "formula_spec": [
+        "CaO+H₂O→Ca(OH)₂；Ca(OH)₂+CO₂→CaCO₃+H₂O。",
+        "CaCO₃+CO₂+H₂O→Ca(HCO₃)₂，CO₂过量可使先有沉淀再溶解。",
+        "CaSO₄·2H₂O→CaSO₄·1/2H₂O+3/2H₂O是理想脱水计量；可整体乘2消分数。"
+      ]
+    },
+    {
+      "id": "ILL-B04-CHEM-10_4",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 10,
+      "chapter_title": "IIA族元素：镁和钙",
+      "section_id": "10.4",
+      "section_title": "镁离子和钙离子的检验",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "10.4 镁离子和钙离子的检验：结构、条件及守恒图",
+      "teaching_purpose": "支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "Mg²⁺+2OH⁻→Mg(OH)₂；Ca²⁺+C₂O₄²⁻→CaC₂O₄，各式需检元素和总电荷。",
+        "沉淀形成有浓度/pH条件；一次阴性不证明绝对零含量，阳性也未必排尽干扰。",
+        "沉淀定量需纯度和完全性前提，n(目标离子)由净离子式确定。",
+        "分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。",
+        "示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。"
+      ],
+      "required_labels": [
+        "Mg²⁺",
+        "OH⁻沉淀",
+        "Ca²⁺",
+        "草酸根",
+        "空白/标准",
+        "分份"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "os_b04_10.4",
+          "scope": "理论",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem10.js",
+          "selector": "sections[id=10.4]"
+        },
+        {
+          "path": "data/notes/chem10.json",
+          "json_pointer": "/10.4"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 1000,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null,
+      "formula_spec": [
+        "Mg²⁺+2OH⁻→Mg(OH)₂；Ca²⁺+C₂O₄²⁻→CaC₂O₄，各式需检元素和总电荷。",
+        "沉淀形成有浓度/pH条件；一次阴性不证明绝对零含量，阳性也未必排尽干扰。",
+        "沉淀定量需纯度和完全性前提，n(目标离子)由净离子式确定。"
+      ]
+    },
+    {
+      "id": "ILL-B04-CHEM-11_1_1",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 11,
+      "chapter_title": "IIIA族元素：铝",
+      "section_id": "11.1.1",
+      "section_title": "铝的物理性质",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "11.1.1 铝的物理性质：结构、条件及守恒图",
+      "teaching_purpose": "支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "质量m=ρₘV；电阻R=ρₑL/A，两种ρ分别是密度与电阻率，不可混用。",
+        "相同L及R时A∝ρₑ，导线质量∝ρₘρₑ；轻材料未必在等截面下更低电阻。",
+        "比强度需同时给强度和密度，不能用单一“轻”判定承载性能。",
+        "分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。",
+        "示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。"
+      ],
+      "required_labels": [
+        "金属电子",
+        "密度ρₘ",
+        "电阻率ρₑ",
+        "延展性",
+        "保护层",
+        "比强度"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "os_b04_11.1.1",
+          "scope": "理论",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem11.js",
+          "selector": "sections[id=11.1.1]"
+        },
+        {
+          "path": "data/notes/chem11.json",
+          "json_pointer": "/11.1.1"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 1000,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null,
+      "formula_spec": [
+        "质量m=ρₘV；电阻R=ρₑL/A，两种ρ分别是密度与电阻率，不可混用。",
+        "相同L及R时A∝ρₑ，导线质量∝ρₘρₑ；轻材料未必在等截面下更低电阻。",
+        "比强度需同时给强度和密度，不能用单一“轻”判定承载性能。"
+      ]
+    },
+    {
+      "id": "ILL-B04-CHEM-11_1_2",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 11,
+      "chapter_title": "IIIA族元素：铝",
+      "section_id": "11.1.2",
+      "section_title": "铝的化学性质",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "11.1.2 铝的化学性质：结构、条件及守恒图",
+      "teaching_purpose": "支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "Al0→Al³⁺+3e⁻；产H₂每mol需2mol电子，理想完全反应n(H₂)=3n(Al)/2。",
+        "强碱水溶液采用[Al(OH)₄]⁻表示时必须配入水，不能直接复制AlO₂⁻写法的水系数。",
+        "氧化膜和钝化改变表面速率；酸的类型与温度是选择反应式的必要条件。",
+        "分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。",
+        "示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。"
+      ],
+      "required_labels": [
+        "Al",
+        "氧化膜",
+        "酸",
+        "强碱",
+        "[Al(OH)₄]⁻",
+        "H₂"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "os_b04_11.1.2",
+          "scope": "理论",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem11.js",
+          "selector": "sections[id=11.1.2]"
+        },
+        {
+          "path": "data/notes/chem11.json",
+          "json_pointer": "/11.1.2"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 1000,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null,
+      "formula_spec": [
+        "Al0→Al³⁺+3e⁻；产H₂每mol需2mol电子，理想完全反应n(H₂)=3n(Al)/2。",
+        "强碱水溶液采用[Al(OH)₄]⁻表示时必须配入水，不能直接复制AlO₂⁻写法的水系数。",
+        "氧化膜和钝化改变表面速率；酸的类型与温度是选择反应式的必要条件。"
+      ]
+    },
+    {
+      "id": "ILL-B04-CHEM-11_2",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 11,
+      "chapter_title": "IIIA族元素：铝",
+      "section_id": "11.2",
+      "section_title": "铝的重要化合物",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "11.2 铝的重要化合物：结构、条件及守恒图",
+      "teaching_purpose": "支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "Al³⁺+3OH⁻→Al(OH)₃；Al(OH)₃+OH⁻→[Al(OH)₄]⁻，两阶段总需4OH⁻/Al。",
+        "Al(OH)₃+3H⁺→Al³⁺+3H₂O；2Al(OH)₃→Al₂O₃+3H₂O。",
+        "明矾每份1Al、2SO₄与12H₂O，结晶水计质量而不另增加Al量。",
+        "Al₂O₃+2OH⁻+3H₂O→2[Al(OH)₄]⁻为合适强碱条件下水溶液表示；O/H需逐项检查，正确O总为3+2+3=8、H总2+6=8，与2个四羟基络离子对应。",
+        "分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。",
+        "示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。"
+      ],
+      "required_labels": [
+        "Al³⁺",
+        "3OH⁻沉淀",
+        "追加OH⁻",
+        "铝酸根",
+        "酸溶",
+        "明矾水解"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "os_b04_11.2",
+          "scope": "理论",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem11.js",
+          "selector": "sections[id=11.2]"
+        },
+        {
+          "path": "data/notes/chem11.json",
+          "json_pointer": "/11.2"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 1000,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null,
+      "formula_spec": [
+        "Al³⁺+3OH⁻→Al(OH)₃；Al(OH)₃+OH⁻→[Al(OH)₄]⁻，两阶段总需4OH⁻/Al。",
+        "Al(OH)₃+3H⁺→Al³⁺+3H₂O；2Al(OH)₃→Al₂O₃+3H₂O。",
+        "明矾每份1Al、2SO₄与12H₂O，结晶水计质量而不另增加Al量。",
+        "Al₂O₃+2OH⁻+3H₂O→2[Al(OH)₄]⁻为合适强碱条件下水溶液表示；O/H需逐项检查，正确O总为3+2+3=8、H总2+6=8，与2个四羟基络离子对应。"
+      ]
+    },
+    {
+      "id": "ILL-B04-CHEM-11_3",
+      "subject": "化学",
+      "subject_code": "chemistry",
+      "chapter_id": 11,
+      "chapter_title": "IIIA族元素：铝",
+      "section_id": "11.3",
+      "section_title": "铝的冶炼",
+      "section_exists": true,
+      "record_kind": "new_teaching_diagram",
+      "title": "11.3 铝的冶炼：结构、条件及守恒图",
+      "teaching_purpose": "支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。",
+      "action": "new",
+      "category": "precise_scientific_svg",
+      "module_ids": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "drawing_requirements": [
+        "阴极简化式Al³⁺+3e⁻→Al；Q=3n(Al)F，实际量需按所给电流效率修正。",
+        "理想主要总式2Al₂O₃+3C→4Al+3CO₂，2mol氧化铝给4mol金属，碳并非惰性不耗。",
+        "冰晶石为熔融介质组分，不按总式当净消耗原料；原料纯度、回收率与电流效率是不同概念。",
+        "分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。",
+        "示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。"
+      ],
+      "required_labels": [
+        "矿石纯度",
+        "氧化铝",
+        "冰晶石",
+        "阴极还原",
+        "碳阳极",
+        "电流效率"
+      ],
+      "scientific_basis": [
+        {
+          "source_id": "os_b04_11.3",
+          "scope": "理论",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "source_anchors": [
+        {
+          "path": "lessons/chem11.js",
+          "selector": "sections[id=11.3]"
+        },
+        {
+          "path": "data/notes/chem11.json",
+          "json_pointer": "/11.3"
+        }
+      ],
+      "recommended_format": "SVG",
+      "dimensions": {
+        "canvas_width_px": 1200,
+        "canvas_height_px": 1000,
+        "minimum_rendered_label_css_px": 12,
+        "target_rendered_label_css_px": 14,
+        "mobile_css_width_range": [
+          320,
+          390
+        ]
+      },
+      "priority": "P1",
+      "reuse": {
+        "can_reuse": "partial",
+        "existing_asset": null,
+        "reason": "可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。"
+      },
+      "production_status": "brief_ready_not_produced",
+      "output_path": null,
+      "formula_spec": [
+        "阴极简化式Al³⁺+3e⁻→Al；Q=3n(Al)F，实际量需按所给电流效率修正。",
+        "理想主要总式2Al₂O₃+3C→4Al+3CO₂，2mol氧化铝给4mol金属，碳并非惰性不耗。",
+        "冰晶石为熔融介质组分，不按总式当净消耗原料；原料纯度、回收率与电流效率是不同概念。"
+      ]
     }
   ],
   "non_instructional_assets": [
@@ -25553,18 +28485,18 @@
     }
   ],
   "statistics": {
-    "teaching_records": 209,
-    "production_briefs": 114,
+    "teaching_records": 237,
+    "production_briefs": 142,
     "retained_records": 60,
     "blocked_math_plans": 35,
     "new_chapter6_tasks": 6,
     "briefs_by_subject": {
       "物理": 32,
-      "化学": 36,
+      "化学": 64,
       "生物": 46
     },
     "briefs_by_priority": {
-      "P1": 101,
+      "P1": 129,
       "P0": 10,
       "P2": 3
     },
@@ -25573,7 +28505,11 @@
     "uploaded_images_approved_limited": 3,
     "uploaded_images_quarantined": 3,
     "deterministic_summary_svgs": 11,
-    "ai_images_generated_this_round": 0
+    "ai_images_generated_this_round": 0,
+    "uploaded_p0_reviewed": 10,
+    "uploaded_p0_limited": 5,
+    "uploaded_p0_quarantined": 5,
+    "uploaded_p0_full_tasks_accepted": 0
   },
   "historical_audit_commit": "8b54cfed56bd10eedcf0387570a751bb3a34a89b",
   "historical_constraints": [
@@ -25697,5 +28633,5 @@
     "lessons/phys04.js": "eddb165e639930184bce46009e3879201f8600b027f1ec1291a86c472d01ca2e"
   },
   "current_manifest": "illustrations/ILLUSTRATION_MASTER_MANIFEST.json",
-  "current_reports": "reports/batch02/DELIVERY.md"
+  "current_reports": "reports/batch04/DELIVERY.md"
 }

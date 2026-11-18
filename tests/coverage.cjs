@@ -19,9 +19,9 @@ for(const [k,ss]of Object.entries(c.BATCH_NOTES)){
   report.push([u.subject,u.chapter_id,curr.find(x=>x.subject+x.chapter===k).title,id,s.t,baseline.some(v=>v[0]===u.subject&&v[3]===id)?'yes':'new_with_official_directory_evidence',12,s.syl+'; '+u.goals.join(' / '),'部分核对2026框架及计算样例；完整范围/知识点、学校版本与2027适用未审定','structural_complete_depth_review_in_batch02','partially_verified','原41节123例已补八步；2027适用、兴华版本、独立教研与部分图仍待验收']);
  }
 }
-assert.equal(sections,58);assert.equal(questions,464);assert.equal(c.SUBJECTS.filter(x=>x.code.startsWith('adv_math_')).length,2);assert.ok(!c.SUBJECTS.some(x=>x.code==='paper_1'));
+assert.equal(sections,86);assert.equal(questions,688);assert.equal(c.SUBJECTS.filter(x=>x.code.startsWith('adv_math_')).length,2);assert.ok(!c.SUBJECTS.some(x=>x.code==='paper_1'));
 function csv(v){return '"'+String(v).replaceAll('"','""')+'"';}
 fs.writeFileSync('reports/SECTION_COVERAGE.csv',[['subject','chapter_id','chapter_title','section_id','section_title','exists_in_baseline','modules_present_count','knowledge_points_expected','knowledge_points_verified','content_status','sources_status','reviewer_notes'],...report,...after.filter(([s,ch,ct,id])=>!c.BATCH_NOTES[s+ch]?.[id]).map(([s,ch,ct,id,t])=>[s,ch,ct,id,t,'yes','not_audited','本批未选','未审查','unchanged','needs_review','保留原有内容，不计十二模块完成'])].map(row=>row.map(csv).join(',')).join('\n')+'\n');
 fs.writeFileSync('reports/sections_after.csv','subject,chapter_id,chapter_title,section_id,section_title\n'+after.map(r=>r.join(',')).join('\n')+'\n');
 fs.copyFileSync('reports/SECTION_COVERAGE.csv','reports/SECTION_AUDIT.csv');
-console.log('PASS curriculum 116/116 unchanged; original 52 section identities/order preserved; 6 new sections have official directory evidence; 9 chapters / 58 sections / 696 modules / 464 main original questions (plus 2 goal diagnostics audited separately).');
+console.log('PASS curriculum 116/116 unchanged; original 52 section identities/order preserved; 34 added sections have registered directory evidence; 14 chapters / 86 sections / 1032 modules / 688 main original questions (plus 2 goal diagnostics audited separately).');

@@ -25,7 +25,7 @@ const assert=require('node:assert/strict'),fs=require('node:fs');const shots=pro
  // Direct URLs work without relocating any original math unit.
  for(const hash of ['#lesson='+encodeURIComponent('数学34'),'#'+encodeURIComponent('数学34')]){await page.goto(base+hash);assert.ok((await page.locator('main').textContent()).includes('复数'));}
  await page.goto(base+'?lesson='+encodeURIComponent('数学34'));assert.ok((await page.locator('main').textContent()).includes('复数'));
- const chapters=['物理3','物理4','化学3','化学4','化学5','化学6','生物1','生物2','生物3'],sizes=[{width:320,height:800},{width:390,height:844},{width:1280,height:900}];let inspected=0;
+ const chapters=['物理3','物理4','化学3','化学4','化学5','化学6','化学7','化学8','化学9','化学10','化学11','生物1','生物2','生物3'],sizes=[{width:320,height:800},{width:390,height:844},{width:1280,height:900}];let inspected=0;
  for(const size of sizes){await page.setViewportSize(size);for(const key of chapters){await page.goto(base+'#lesson='+encodeURIComponent(key));await page.waitForSelector('[data-module]');
  const n=await page.locator('.lesson-section').count();assert.ok(n>0);assert.equal(await page.locator('[data-module]').count(),n*12);
  await page.locator('figure img').evaluateAll(imgs=>Promise.all(imgs.map(i=>{i.loading='eager';return i.decode().catch(()=>{})})));assert.equal(await page.locator('figure img').evaluateAll(imgs=>imgs.filter(i=>!i.complete||i.naturalWidth===0).length),0);
@@ -43,5 +43,5 @@ const assert=require('node:assert/strict'),fs=require('node:fs');const shots=pro
  await page.locator('#imp').setInputFiles({name:'progress.json',mimeType:'application/json',buffer:Buffer.from(backup)});await page.waitForTimeout(150);saved=await page.evaluate(()=>JSON.parse(localStorage.getItem('uec27')));assert.deepEqual(saved,exported);
  await page.emulateMedia({colorScheme:'dark'});await page.goto(base+'#lesson='+encodeURIComponent('生物2'));await page.screenshot({path:shots+'/biology-dark.png'});
  assert.deepEqual(errors,[]);assert.deepEqual(requests,[]);
- const result={result:'pass',viewport_chapter_checks:inspected,viewports:sizes,checks:['旧数据无损保留','两个数学科目独立记录并刷新','旧数学无强制分配','本科错题隔离和两次正确掌握','科目题库筛选与跨科搜索','直接URL和旧章链接','58节×12模块DOM','全部所用图可加载','长笔记/公式/图示无页面溢出','小节检测存储','完整解析展开','原有章掌握度及学习存储','日历改期存储','导出/导入全部数据往返','暗色页面截图'],console_errors:errors,local_http_errors:requests};fs.writeFileSync('reports/BROWSER_RESULTS.json',JSON.stringify(result,null,2)+'\n');console.log('PASS browser regression and migration; '+inspected+' viewport/chapter checks.');await browser.close();
+ const result={result:'pass',viewport_chapter_checks:inspected,viewports:sizes,checks:['旧数据无损保留','两个数学科目独立记录并刷新','旧数学无强制分配','本科错题隔离和两次正确掌握','科目题库筛选与跨科搜索','直接URL和旧章链接','86节×12模块DOM','全部所用图可加载','长笔记/公式/图示无页面溢出','小节检测存储','完整解析展开','原有章掌握度及学习存储','日历改期存储','导出/导入全部数据往返','暗色页面截图'],console_errors:errors,local_http_errors:requests};fs.writeFileSync('reports/BROWSER_RESULTS.json',JSON.stringify(result,null,2)+'\n');console.log('PASS browser regression and migration; '+inspected+' viewport/chapter checks.');await browser.close();
 })().catch(e=>{console.error(e);process.exit(1)});

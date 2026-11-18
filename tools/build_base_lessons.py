@@ -2,7 +2,7 @@
 from pathlib import Path
 import json
 ROOT=Path(__file__).resolve().parents[1]
-NAMES={'chem05':'化学5','chem06':'化学6','bio03':'生物3'}
+NAMES={'chem05':'化学5','chem06':'化学6','bio03':'生物3',**{f'chem{i:02}':f'化学{i}' for i in range(7,12)}}
 def build(stem):
     key=NAMES[stem]
     obj=json.loads((ROOT/'data/base-lessons'/(stem+'.json')).read_text())
@@ -13,4 +13,4 @@ def build(stem):
     (ROOT/'lessons'/(stem+'.js')).write_text(text)
 if __name__=='__main__':
     for stem in NAMES:build(stem)
-    print('Compiled3 curated base lessons; subsection identity retained')
+    print(f'Compiled{len(NAMES)} curated base lessons; subsection identity retained')

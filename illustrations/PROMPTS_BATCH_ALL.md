@@ -1,6 +1,6 @@
 # 全部已确定的后续教学插图任务
 
-共114条独立中英文制作Brief；其中24条针对HTML/CSS知识关系图，其余为图像制作。另35条数学章级计划因无真实小节/归属而冻结，不假造编号或函数参数。203条旧记录加化学6的6条为209条总记录；60条保留、35条冻结、114条需制作/修正。
+共142条独立中英文制作Brief；其中24条针对HTML/CSS知识关系图，其余为图像制作。另35条数学章级计划因无真实小节/归属而冻结，不假造编号或函数参数。237条教学记录；60条保留、35条冻结、142条需制作/修正。
 
 本文件不调用AI生图。精确科学图默认SVG或数学绘图库；AI结果仅可作草稿。上传6图的审核与11幅确定性总结SVG另见总清单，不能把它们与新Prompt数混算。
 
@@ -2527,6 +2527,1052 @@ No reversed operations/arrows, changed problem values, inconsistent units/scales
 **Complete English prompt**
 
 Create an original Chinese-language teaching diagram titled "逐级电离跃升与等电子半径". Unique ID ILL-PLAN-CHEM-6_3_3-01; Chemistry, existing chapter 6, actual subsection 6.3.3 ("元素基本性质的周期性变化规律"). Scientific objects, relationships and exact constraints: Plot the stated original exercise IE values600,1800,2700,11600 kJ/mol at steps1..4; the jump AFTER three removals suggests three valence electrons for a main-group atom, not four. In a separate qualitative panel compare10-electron Na+,Mg2+,Al3+ with Z11,12,13 and radius Na+>Mg2+>Al3+. Invent no precise ionic radii. Add a separate third panel comparing first ionization X(g)->X+(g)+e-, electron addition X(g)+e-->X-(g), and attraction to shared electrons in a chemical bond. State the electron-affinity sign convention; Pauling electronegativity is dimensionless. Never present the exercise IE values as measured values for an identified element. Required on-canvas Chinese labels, preserved verbatim: 逐级IE/kJ·mol⁻¹; 第3→4步跃升; 主族价电子3; 10电子; Na⁺>Mg²⁺>Al³⁺; X(g)→X⁺(g)+e⁻; X(g)+e⁻→X⁻(g); 电子亲和能：先定符号; 电负性：键中共享电子; Pauling标度无单位. Use a 1200 by 1200 canvas. Reflow panels vertically on mobile, with rendered labels at least12 CSS px, target14. Use shape/line style as well as color, white background and high contrast. Keep geometry, arrows and editable text on separate layers. The final scientific output must be constructed with SVG or deterministic mathematical plotting; an AI image is only a layout draft and cannot certify geometry, counts, membranes or formulas. Make annotated teaching and blank assessment variants separately, using only existing stated problem data. Recheck these theory/source references before production: https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf; https://openstax.org/books/chemistry-2e/pages/6-5-periodic-variations-in-element-properties. These sources do not certify2027 exam scope or official marking rules.
+
+**Negative Prompt**
+
+不得反转箭头运算、偷换单位、改变题给数据、使用错误比例、吞掉绝对值、隐藏条件或伪造实测刻度。不使用乱码、伪官方标志、水印遮挡、未说明的缩写或“同上”。
+
+No reversed operations/arrows, changed problem values, inconsistent units/scales, missing absolute-value bars, hidden conditions or invented measured axes. No garbled Chinese, fake official logos, obscuring watermarks, unexplained abbreviations or references to another prompt.
+
+## 化学 第7章 化学键与分子间作用力
+
+### ILL-B04-CHEM-7_1_1 · 7.1.1 离子键：结构、条件及守恒图
+
+1. 唯一ID：ILL-B04-CHEM-7_1_1
+2. 科目：化学
+3. 真实章节及小节：第7章 化学键与分子间作用力／7.1.1 离子键
+4. 插图标题：7.1.1 离子键：结构、条件及守恒图
+5. 教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。
+6. 必须出现的对象：阳离子；阴离子；电中性；晶格；固态与熔体
+7. 不可画错的科学关系：总电荷Σnᵢzᵢ=0；离子式表示最简计量比，而非孤立分子。；同电荷模型中距离减小通常增强静电作用；跨物质比较还需结构与极化，不能只按半径给精确熔点。；固态到熔融态改变离子迁移能力；电子转移记账不同于导电时离子定向移动。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。
+8. 中文文字及标签：阳离子；阴离子；电中性；晶格；固态与熔体
+9. 公式、单位与变量：总电荷Σnᵢzᵢ=0；离子式表示最简计量比，而非孤立分子。；同电荷模型中距离减小通常增强静电作用；跨物质比较还需结构与极化，不能只按半径给精确熔点。；固态到熔融态改变离子迁移能力；电子转移记账不同于导电时离子定向移动。
+10. 精确构图要求：总电荷Σnᵢzᵢ=0；离子式表示最简计量比，而非孤立分子。；同电荷模型中距离减小通常增强静电作用；跨物质比较还需结构与极化，不能只按半径给精确熔点。；固态到熔融态改变离子迁移能力；电子转移记账不同于导电时离子定向移动。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；科学图层与文字分层；相邻面板坐标/颜色语义一致
+11. 比例及尺寸：{'width_px': 1200, 'height_px': 1000, 'aspect_ratio': '1200:1000', 'minimum_rendered_label_css_px': 12}
+12. 完整中文Prompt：见本条下方完整中文Prompt，可独立复制。
+13. 完整英文Prompt：见本条下方Complete English prompt，可独立复制。
+14. Negative Prompt：见本条下方中英文Negative Prompt。
+15. 科学准确性验收：总电荷Σnᵢzᵢ=0；离子式表示最简计量比，而非孤立分子。；同电荷模型中距离减小通常增强静电作用；跨物质比较还需结构与极化，不能只按半径给精确熔点。；固态到熔融态改变离子迁移能力；电子转移记账不同于导电时离子定向移动。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；逐字核对标签，逐项验算计数、单位、坐标与箭头；标注版/留空版不混用；人工科学复核后才能接入正式页面
+16. 来源／理论依据：os_b04_7.1.1 https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding（partially_verified）
+17. 优先级：P1
+18. 旧图复用：partial；可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。
+19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+
+**完整中文Prompt**
+
+为UEC中文原创学习笔记绘制“7.1.1 离子键：结构、条件及守恒图”。唯一ID：ILL-B04-CHEM-7_1_1。科目化学，原第7章“化学键与分子间作用力”，真实小节7.1.1“离子键”。教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。。必须画出的对象与正确关系：总电荷Σnᵢzᵢ=0；离子式表示最简计量比，而非孤立分子。；同电荷模型中距离减小通常增强静电作用；跨物质比较还需结构与极化，不能只按半径给精确熔点。；固态到熔融态改变离子迁移能力；电子转移记账不同于导电时离子定向移动。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。。图中文字逐项准确保留：阳离子；阴离子；电中性；晶格；固态与熔体。采用1200×1000画布；双面板在手机可拆为纵向，渲染文字至少12 CSS px、目标14；线型/形状与颜色共同区分。白底高对比，科学层、箭头、文字分层，公式变量和单位不能装饰化。最终科学图优先用SVG/数学绘图库确定性制作。AI仅可作构图草稿，所有数值、几何、膜层和文字须重建核验后才能用于教学。标注版与练习留空版分开，只采用已有题给条件，不泄露检测答案。来源/理论核对：https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding。来源不等于2027考试范围确认；制作前重新核对。
+
+**Complete English prompt**
+
+Create an original Chinese-language teaching diagram titled "7.1.1 离子键：结构、条件及守恒图". Unique ID ILL-B04-CHEM-7_1_1; Chemistry, existing chapter 7, actual subsection 7.1.1 ("离子键"). Scientific objects, relationships and exact constraints: Draw an extended ionic lattice, not isolated NaCl molecules. Label ions and charges; separate formal electron-transfer bookkeeping from the state-dependent mobility of ions. Preserve SO4 units in Al2(SO4)3 and verify total charge zero. Required on-canvas Chinese labels, preserved verbatim: 阳离子; 阴离子; 电中性; 晶格; 固态与熔体. Use a 1200 by 1000 canvas. Reflow panels vertically on mobile, with rendered labels at least12 CSS px, target14. Use shape/line style as well as color, white background and high contrast. Keep geometry, arrows and editable text on separate layers. The final scientific output must be constructed with SVG or deterministic mathematical plotting; an AI image is only a layout draft and cannot certify geometry, counts, membranes or formulas. Make annotated teaching and blank assessment variants separately, using only existing stated problem data. Recheck these theory/source references before production: https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding. These sources do not certify2027 exam scope or official marking rules.
+
+**Negative Prompt**
+
+不得反转箭头运算、偷换单位、改变题给数据、使用错误比例、吞掉绝对值、隐藏条件或伪造实测刻度。不使用乱码、伪官方标志、水印遮挡、未说明的缩写或“同上”。
+
+No reversed operations/arrows, changed problem values, inconsistent units/scales, missing absolute-value bars, hidden conditions or invented measured axes. No garbled Chinese, fake official logos, obscuring watermarks, unexplained abbreviations or references to another prompt.
+
+### ILL-B04-CHEM-7_1_2 · 7.1.2 共价键：结构、条件及守恒图
+
+1. 唯一ID：ILL-B04-CHEM-7_1_2
+2. 科目：化学
+3. 真实章节及小节：第7章 化学键与分子间作用力／7.1.2 共价键
+4. 插图标题：7.1.2 共价键：结构、条件及守恒图
+5. 教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。
+6. 必须出现的对象：共享电子对；孤电子对；电子总数；配位键；几何；偶极合成
+7. 不可画错的科学关系：电子总数=各原子价电子之和−总正电荷数+总负电荷绝对值；共享对在总数中计一次。；形式电荷=自由原子价电子数−孤电子数−成键电子数/2；它是分配模型，不等于实际部分电荷。；分子偶极为各键/电荷分布的矢量合成，必须结合几何，不仅数极性键。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。
+8. 中文文字及标签：共享电子对；孤电子对；电子总数；配位键；几何；偶极合成
+9. 公式、单位与变量：电子总数=各原子价电子之和−总正电荷数+总负电荷绝对值；共享对在总数中计一次。；形式电荷=自由原子价电子数−孤电子数−成键电子数/2；它是分配模型，不等于实际部分电荷。；分子偶极为各键/电荷分布的矢量合成，必须结合几何，不仅数极性键。
+10. 精确构图要求：电子总数=各原子价电子之和−总正电荷数+总负电荷绝对值；共享对在总数中计一次。；形式电荷=自由原子价电子数−孤电子数−成键电子数/2；它是分配模型，不等于实际部分电荷。；分子偶极为各键/电荷分布的矢量合成，必须结合几何，不仅数极性键。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；科学图层与文字分层；相邻面板坐标/颜色语义一致
+11. 比例及尺寸：{'width_px': 1200, 'height_px': 1000, 'aspect_ratio': '1200:1000', 'minimum_rendered_label_css_px': 12}
+12. 完整中文Prompt：见本条下方完整中文Prompt，可独立复制。
+13. 完整英文Prompt：见本条下方Complete English prompt，可独立复制。
+14. Negative Prompt：见本条下方中英文Negative Prompt。
+15. 科学准确性验收：电子总数=各原子价电子之和−总正电荷数+总负电荷绝对值；共享对在总数中计一次。；形式电荷=自由原子价电子数−孤电子数−成键电子数/2；它是分配模型，不等于实际部分电荷。；分子偶极为各键/电荷分布的矢量合成，必须结合几何，不仅数极性键。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；逐字核对标签，逐项验算计数、单位、坐标与箭头；标注版/留空版不混用；人工科学复核后才能接入正式页面
+16. 来源／理论依据：os_b04_7.1.2 https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding（partially_verified）
+17. 优先级：P1
+18. 旧图复用：partial；可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。
+19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+
+**完整中文Prompt**
+
+为UEC中文原创学习笔记绘制“7.1.2 共价键：结构、条件及守恒图”。唯一ID：ILL-B04-CHEM-7_1_2。科目化学，原第7章“化学键与分子间作用力”，真实小节7.1.2“共价键”。教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。。必须画出的对象与正确关系：电子总数=各原子价电子之和−总正电荷数+总负电荷绝对值；共享对在总数中计一次。；形式电荷=自由原子价电子数−孤电子数−成键电子数/2；它是分配模型，不等于实际部分电荷。；分子偶极为各键/电荷分布的矢量合成，必须结合几何，不仅数极性键。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。。图中文字逐项准确保留：共享电子对；孤电子对；电子总数；配位键；几何；偶极合成。采用1200×1000画布；双面板在手机可拆为纵向，渲染文字至少12 CSS px、目标14；线型/形状与颜色共同区分。白底高对比，科学层、箭头、文字分层，公式变量和单位不能装饰化。最终科学图优先用SVG/数学绘图库确定性制作。AI仅可作构图草稿，所有数值、几何、膜层和文字须重建核验后才能用于教学。标注版与练习留空版分开，只采用已有题给条件，不泄露检测答案。来源/理论核对：https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding。来源不等于2027考试范围确认；制作前重新核对。
+
+**Complete English prompt**
+
+Create an original Chinese-language teaching diagram titled "7.1.2 共价键：结构、条件及守恒图". Unique ID ILL-B04-CHEM-7_1_2; Chemistry, existing chapter 7, actual subsection 7.1.2 ("共价键"). Scientific objects, relationships and exact constraints: Show CO2 Lewis structure with 16 valence electrons and linear cancelling bond dipoles, versus bent H2O. Show the donor lone pair N to H+ forming NH4+; all four final N-H bonds equivalent. Do not equate partial charges with full ionic charges. Required on-canvas Chinese labels, preserved verbatim: 共享电子对; 孤电子对; 电子总数; 配位键; 几何; 偶极合成. Use a 1200 by 1000 canvas. Reflow panels vertically on mobile, with rendered labels at least12 CSS px, target14. Use shape/line style as well as color, white background and high contrast. Keep geometry, arrows and editable text on separate layers. The final scientific output must be constructed with SVG or deterministic mathematical plotting; an AI image is only a layout draft and cannot certify geometry, counts, membranes or formulas. Make annotated teaching and blank assessment variants separately, using only existing stated problem data. Recheck these theory/source references before production: https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding. These sources do not certify2027 exam scope or official marking rules.
+
+**Negative Prompt**
+
+不得反转箭头运算、偷换单位、改变题给数据、使用错误比例、吞掉绝对值、隐藏条件或伪造实测刻度。不使用乱码、伪官方标志、水印遮挡、未说明的缩写或“同上”。
+
+No reversed operations/arrows, changed problem values, inconsistent units/scales, missing absolute-value bars, hidden conditions or invented measured axes. No garbled Chinese, fake official logos, obscuring watermarks, unexplained abbreviations or references to another prompt.
+
+### ILL-B04-CHEM-7_1_3 · 7.1.3 金属键：结构、条件及守恒图
+
+1. 唯一ID：ILL-B04-CHEM-7_1_3
+2. 科目：化学
+3. 真实章节及小节：第7章 化学键与分子间作用力／7.1.3 金属键
+4. 插图标题：7.1.3 金属键：结构、条件及守恒图
+5. 教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。
+6. 必须出现的对象：离子实；离域电子；电中性；漂移；层滑移
+7. 不可画错的科学关系：整体电中性要求离子实总正电与离域电子负电相平衡；图示计量必须声明所用模型。；金属的导电是电子的定向漂移；层滑移后的吸引仍存在可解释常见延展性。；性质比较需结构、组成、温度条件，金属类别本身不能给出精确电阻或熔点。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。
+8. 中文文字及标签：离子实；离域电子；电中性；漂移；层滑移
+9. 公式、单位与变量：整体电中性要求离子实总正电与离域电子负电相平衡；图示计量必须声明所用模型。；金属的导电是电子的定向漂移；层滑移后的吸引仍存在可解释常见延展性。；性质比较需结构、组成、温度条件，金属类别本身不能给出精确电阻或熔点。
+10. 精确构图要求：整体电中性要求离子实总正电与离域电子负电相平衡；图示计量必须声明所用模型。；金属的导电是电子的定向漂移；层滑移后的吸引仍存在可解释常见延展性。；性质比较需结构、组成、温度条件，金属类别本身不能给出精确电阻或熔点。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；科学图层与文字分层；相邻面板坐标/颜色语义一致
+11. 比例及尺寸：{'width_px': 1200, 'height_px': 1000, 'aspect_ratio': '1200:1000', 'minimum_rendered_label_css_px': 12}
+12. 完整中文Prompt：见本条下方完整中文Prompt，可独立复制。
+13. 完整英文Prompt：见本条下方Complete English prompt，可独立复制。
+14. Negative Prompt：见本条下方中英文Negative Prompt。
+15. 科学准确性验收：整体电中性要求离子实总正电与离域电子负电相平衡；图示计量必须声明所用模型。；金属的导电是电子的定向漂移；层滑移后的吸引仍存在可解释常见延展性。；性质比较需结构、组成、温度条件，金属类别本身不能给出精确电阻或熔点。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；逐字核对标签，逐项验算计数、单位、坐标与箭头；标注版/留空版不混用；人工科学复核后才能接入正式页面
+16. 来源／理论依据：os_b04_7.1.3 https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter（partially_verified）
+17. 优先级：P1
+18. 旧图复用：partial；可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。
+19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+
+**完整中文Prompt**
+
+为UEC中文原创学习笔记绘制“7.1.3 金属键：结构、条件及守恒图”。唯一ID：ILL-B04-CHEM-7_1_3。科目化学，原第7章“化学键与分子间作用力”，真实小节7.1.3“金属键”。教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。。必须画出的对象与正确关系：整体电中性要求离子实总正电与离域电子负电相平衡；图示计量必须声明所用模型。；金属的导电是电子的定向漂移；层滑移后的吸引仍存在可解释常见延展性。；性质比较需结构、组成、温度条件，金属类别本身不能给出精确电阻或熔点。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。。图中文字逐项准确保留：离子实；离域电子；电中性；漂移；层滑移。采用1200×1000画布；双面板在手机可拆为纵向，渲染文字至少12 CSS px、目标14；线型/形状与颜色共同区分。白底高对比，科学层、箭头、文字分层，公式变量和单位不能装饰化。最终科学图优先用SVG/数学绘图库确定性制作。AI仅可作构图草稿，所有数值、几何、膜层和文字须重建核验后才能用于教学。标注版与练习留空版分开，只采用已有题给条件，不泄露检测答案。来源/理论核对：https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter。来源不等于2027考试范围确认；制作前重新核对。
+
+**Complete English prompt**
+
+Create an original Chinese-language teaching diagram titled "7.1.3 金属键：结构、条件及守恒图". Unique ID ILL-B04-CHEM-7_1_3; Chemistry, existing chapter 7, actual subsection 7.1.3 ("金属键"). Scientific objects, relationships and exact constraints: Depict positive ion cores in a lattice and delocalized electrons. Show electron drift separately from lattice vibration, and layers sliding without losing collective attraction. Label the electron count as a simplified valence model, not a measured trajectory. Required on-canvas Chinese labels, preserved verbatim: 离子实; 离域电子; 电中性; 漂移; 层滑移. Use a 1200 by 1000 canvas. Reflow panels vertically on mobile, with rendered labels at least12 CSS px, target14. Use shape/line style as well as color, white background and high contrast. Keep geometry, arrows and editable text on separate layers. The final scientific output must be constructed with SVG or deterministic mathematical plotting; an AI image is only a layout draft and cannot certify geometry, counts, membranes or formulas. Make annotated teaching and blank assessment variants separately, using only existing stated problem data. Recheck these theory/source references before production: https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter. These sources do not certify2027 exam scope or official marking rules.
+
+**Negative Prompt**
+
+不得反转箭头运算、偷换单位、改变题给数据、使用错误比例、吞掉绝对值、隐藏条件或伪造实测刻度。不使用乱码、伪官方标志、水印遮挡、未说明的缩写或“同上”。
+
+No reversed operations/arrows, changed problem values, inconsistent units/scales, missing absolute-value bars, hidden conditions or invented measured axes. No garbled Chinese, fake official logos, obscuring watermarks, unexplained abbreviations or references to another prompt.
+
+### ILL-B04-CHEM-7_2_1 · 7.2.1 范德华力：结构、条件及守恒图
+
+1. 唯一ID：ILL-B04-CHEM-7_2_1
+2. 科目：化学
+3. 真实章节及小节：第7章 化学键与分子间作用力／7.2.1 范德华力
+4. 插图标题：7.2.1 范德华力：结构、条件及守恒图
+5. 教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。
+6. 必须出现的对象：瞬时偶极；诱导偶极；永久偶极；色散力；接触面积
+7. 不可画错的科学关系：分子内键维持分子身份，分子间力影响凝聚；相变不等于所有化学键断裂。；可比非极性系列常以极化率与接触面积判断色散作用，不能只用摩尔质量作普适公式。；沸点趋势与熔点堆积规律不同；定性模型不能生成精确温度。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。
+8. 中文文字及标签：瞬时偶极；诱导偶极；永久偶极；色散力；接触面积
+9. 公式、单位与变量：分子内键维持分子身份，分子间力影响凝聚；相变不等于所有化学键断裂。；可比非极性系列常以极化率与接触面积判断色散作用，不能只用摩尔质量作普适公式。；沸点趋势与熔点堆积规律不同；定性模型不能生成精确温度。
+10. 精确构图要求：分子内键维持分子身份，分子间力影响凝聚；相变不等于所有化学键断裂。；可比非极性系列常以极化率与接触面积判断色散作用，不能只用摩尔质量作普适公式。；沸点趋势与熔点堆积规律不同；定性模型不能生成精确温度。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；科学图层与文字分层；相邻面板坐标/颜色语义一致
+11. 比例及尺寸：{'width_px': 1200, 'height_px': 1000, 'aspect_ratio': '1200:1000', 'minimum_rendered_label_css_px': 12}
+12. 完整中文Prompt：见本条下方完整中文Prompt，可独立复制。
+13. 完整英文Prompt：见本条下方Complete English prompt，可独立复制。
+14. Negative Prompt：见本条下方中英文Negative Prompt。
+15. 科学准确性验收：分子内键维持分子身份，分子间力影响凝聚；相变不等于所有化学键断裂。；可比非极性系列常以极化率与接触面积判断色散作用，不能只用摩尔质量作普适公式。；沸点趋势与熔点堆积规律不同；定性模型不能生成精确温度。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；逐字核对标签，逐项验算计数、单位、坐标与箭头；标注版/留空版不混用；人工科学复核后才能接入正式页面
+16. 来源／理论依据：os_b04_7.2.1 https://openstax.org/books/chemistry-2e/pages/10-1-intermolecular-forces（partially_verified）
+17. 优先级：P1
+18. 旧图复用：partial；可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。
+19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+
+**完整中文Prompt**
+
+为UEC中文原创学习笔记绘制“7.2.1 范德华力：结构、条件及守恒图”。唯一ID：ILL-B04-CHEM-7_2_1。科目化学，原第7章“化学键与分子间作用力”，真实小节7.2.1“范德华力”。教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。。必须画出的对象与正确关系：分子内键维持分子身份，分子间力影响凝聚；相变不等于所有化学键断裂。；可比非极性系列常以极化率与接触面积判断色散作用，不能只用摩尔质量作普适公式。；沸点趋势与熔点堆积规律不同；定性模型不能生成精确温度。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。。图中文字逐项准确保留：瞬时偶极；诱导偶极；永久偶极；色散力；接触面积。采用1200×1000画布；双面板在手机可拆为纵向，渲染文字至少12 CSS px、目标14；线型/形状与颜色共同区分。白底高对比，科学层、箭头、文字分层，公式变量和单位不能装饰化。最终科学图优先用SVG/数学绘图库确定性制作。AI仅可作构图草稿，所有数值、几何、膜层和文字须重建核验后才能用于教学。标注版与练习留空版分开，只采用已有题给条件，不泄露检测答案。来源/理论核对：https://openstax.org/books/chemistry-2e/pages/10-1-intermolecular-forces。来源不等于2027考试范围确认；制作前重新核对。
+
+**Complete English prompt**
+
+Create an original Chinese-language teaching diagram titled "7.2.1 范德华力：结构、条件及守恒图". Unique ID ILL-B04-CHEM-7_2_1; Chemistry, existing chapter 7, actual subsection 7.2.1 ("范德华力"). Scientific objects, relationships and exact constraints: Show nonpolar particles with time-dependent temporary and induced dipoles, not permanent ionic charges. Contrast elongated and compact isomers with identical composition; explain contact area without inventing quantitative boiling temperatures. Required on-canvas Chinese labels, preserved verbatim: 瞬时偶极; 诱导偶极; 永久偶极; 色散力; 接触面积. Use a 1200 by 1000 canvas. Reflow panels vertically on mobile, with rendered labels at least12 CSS px, target14. Use shape/line style as well as color, white background and high contrast. Keep geometry, arrows and editable text on separate layers. The final scientific output must be constructed with SVG or deterministic mathematical plotting; an AI image is only a layout draft and cannot certify geometry, counts, membranes or formulas. Make annotated teaching and blank assessment variants separately, using only existing stated problem data. Recheck these theory/source references before production: https://openstax.org/books/chemistry-2e/pages/10-1-intermolecular-forces. These sources do not certify2027 exam scope or official marking rules.
+
+**Negative Prompt**
+
+不得反转箭头运算、偷换单位、改变题给数据、使用错误比例、吞掉绝对值、隐藏条件或伪造实测刻度。不使用乱码、伪官方标志、水印遮挡、未说明的缩写或“同上”。
+
+No reversed operations/arrows, changed problem values, inconsistent units/scales, missing absolute-value bars, hidden conditions or invented measured axes. No garbled Chinese, fake official logos, obscuring watermarks, unexplained abbreviations or references to another prompt.
+
+### ILL-B04-CHEM-7_2_2 · 7.2.2 氢键：结构、条件及守恒图
+
+1. 唯一ID：ILL-B04-CHEM-7_2_2
+2. 科目：化学
+3. 真实章节及小节：第7章 化学键与分子间作用力／7.2.2 氢键
+4. 插图标题：7.2.2 氢键：结构、条件及守恒图
+5. 教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。
+6. 必须出现的对象：供体；O—H；受体孤对；H···O；动态网络
+7. 不可画错的科学关系：氢键图写D—H···A，先核供体、受体及几何；不凭分子同时含H/O就下结论。；纯物质能否自氢键，与其能否同水氢键是两道不同问题。；熔沸点和溶解受多项能量与结构因素影响；氢键是解释线索，不是唯一参数。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。
+8. 中文文字及标签：供体；O—H；受体孤对；H···O；动态网络
+9. 公式、单位与变量：氢键图写D—H···A，先核供体、受体及几何；不凭分子同时含H/O就下结论。；纯物质能否自氢键，与其能否同水氢键是两道不同问题。；熔沸点和溶解受多项能量与结构因素影响；氢键是解释线索，不是唯一参数。
+10. 精确构图要求：氢键图写D—H···A，先核供体、受体及几何；不凭分子同时含H/O就下结论。；纯物质能否自氢键，与其能否同水氢键是两道不同问题。；熔沸点和溶解受多项能量与结构因素影响；氢键是解释线索，不是唯一参数。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；科学图层与文字分层；相邻面板坐标/颜色语义一致
+11. 比例及尺寸：{'width_px': 1200, 'height_px': 1000, 'aspect_ratio': '1200:1000', 'minimum_rendered_label_css_px': 12}
+12. 完整中文Prompt：见本条下方完整中文Prompt，可独立复制。
+13. 完整英文Prompt：见本条下方Complete English prompt，可独立复制。
+14. Negative Prompt：见本条下方中英文Negative Prompt。
+15. 科学准确性验收：氢键图写D—H···A，先核供体、受体及几何；不凭分子同时含H/O就下结论。；纯物质能否自氢键，与其能否同水氢键是两道不同问题。；熔沸点和溶解受多项能量与结构因素影响；氢键是解释线索，不是唯一参数。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；逐字核对标签，逐项验算计数、单位、坐标与箭头；标注版/留空版不混用；人工科学复核后才能接入正式页面
+16. 来源／理论依据：os_b04_7.2.2 https://openstax.org/books/chemistry-2e/pages/10-1-intermolecular-forces（partially_verified）
+17. 优先级：P1
+18. 旧图复用：partial；可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。
+19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+
+**完整中文Prompt**
+
+为UEC中文原创学习笔记绘制“7.2.2 氢键：结构、条件及守恒图”。唯一ID：ILL-B04-CHEM-7_2_2。科目化学，原第7章“化学键与分子间作用力”，真实小节7.2.2“氢键”。教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。。必须画出的对象与正确关系：氢键图写D—H···A，先核供体、受体及几何；不凭分子同时含H/O就下结论。；纯物质能否自氢键，与其能否同水氢键是两道不同问题。；熔沸点和溶解受多项能量与结构因素影响；氢键是解释线索，不是唯一参数。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。。图中文字逐项准确保留：供体；O—H；受体孤对；H···O；动态网络。采用1200×1000画布；双面板在手机可拆为纵向，渲染文字至少12 CSS px、目标14；线型/形状与颜色共同区分。白底高对比，科学层、箭头、文字分层，公式变量和单位不能装饰化。最终科学图优先用SVG/数学绘图库确定性制作。AI仅可作构图草稿，所有数值、几何、膜层和文字须重建核验后才能用于教学。标注版与练习留空版分开，只采用已有题给条件，不泄露检测答案。来源/理论核对：https://openstax.org/books/chemistry-2e/pages/10-1-intermolecular-forces。来源不等于2027考试范围确认；制作前重新核对。
+
+**Complete English prompt**
+
+Create an original Chinese-language teaching diagram titled "7.2.2 氢键：结构、条件及守恒图". Unique ID ILL-B04-CHEM-7_2_2; Chemistry, existing chapter 7, actual subsection 7.2.2 ("氢键"). Scientific objects, relationships and exact constraints: Draw donor O-H as a solid covalent bond and H···acceptor O as a dashed hydrogen bond. Contrast ethanol self-association with ether accepting a bond from water. No O-O covalent bond, no claim that any H-containing molecule hydrogen-bonds. Required on-canvas Chinese labels, preserved verbatim: 供体; O—H; 受体孤对; H···O; 动态网络. Use a 1200 by 1000 canvas. Reflow panels vertically on mobile, with rendered labels at least12 CSS px, target14. Use shape/line style as well as color, white background and high contrast. Keep geometry, arrows and editable text on separate layers. The final scientific output must be constructed with SVG or deterministic mathematical plotting; an AI image is only a layout draft and cannot certify geometry, counts, membranes or formulas. Make annotated teaching and blank assessment variants separately, using only existing stated problem data. Recheck these theory/source references before production: https://openstax.org/books/chemistry-2e/pages/10-1-intermolecular-forces. These sources do not certify2027 exam scope or official marking rules.
+
+**Negative Prompt**
+
+不得反转箭头运算、偷换单位、改变题给数据、使用错误比例、吞掉绝对值、隐藏条件或伪造实测刻度。不使用乱码、伪官方标志、水印遮挡、未说明的缩写或“同上”。
+
+No reversed operations/arrows, changed problem values, inconsistent units/scales, missing absolute-value bars, hidden conditions or invented measured axes. No garbled Chinese, fake official logos, obscuring watermarks, unexplained abbreviations or references to another prompt.
+
+### ILL-B04-CHEM-7_3_1 · 7.3.1 离子晶体：结构、条件及守恒图
+
+1. 唯一ID：ILL-B04-CHEM-7_3_1
+2. 科目：化学
+3. 真实章节及小节：第7章 化学键与分子间作用力／7.3.1 离子晶体
+4. 插图标题：7.3.1 离子晶体：结构、条件及守恒图
+5. 教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。
+6. 必须出现的对象：三维晶格；角1/8；面1/2；体心1；配位数；电中性
+7. 不可画错的科学关系：晶胞数=角数/8+棱数/4+面数/2+体内数；各元素或离子分别计数。；配位数≠式中下标；同一最近邻可被多个离子共同计入。；ρ=ZM/(N_Aa³)，长度单位需先统一，Z是每胞式量单位数而非单个离子数。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。
+8. 中文文字及标签：三维晶格；角1/8；面1/2；体心1；配位数；电中性
+9. 公式、单位与变量：晶胞数=角数/8+棱数/4+面数/2+体内数；各元素或离子分别计数。；配位数≠式中下标；同一最近邻可被多个离子共同计入。；ρ=ZM/(N_Aa³)，长度单位需先统一，Z是每胞式量单位数而非单个离子数。
+10. 精确构图要求：晶胞数=角数/8+棱数/4+面数/2+体内数；各元素或离子分别计数。；配位数≠式中下标；同一最近邻可被多个离子共同计入。；ρ=ZM/(N_Aa³)，长度单位需先统一，Z是每胞式量单位数而非单个离子数。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；科学图层与文字分层；相邻面板坐标/颜色语义一致
+11. 比例及尺寸：{'width_px': 1200, 'height_px': 1000, 'aspect_ratio': '1200:1000', 'minimum_rendered_label_css_px': 12}
+12. 完整中文Prompt：见本条下方完整中文Prompt，可独立复制。
+13. 完整英文Prompt：见本条下方Complete English prompt，可独立复制。
+14. Negative Prompt：见本条下方中英文Negative Prompt。
+15. 科学准确性验收：晶胞数=角数/8+棱数/4+面数/2+体内数；各元素或离子分别计数。；配位数≠式中下标；同一最近邻可被多个离子共同计入。；ρ=ZM/(N_Aa³)，长度单位需先统一，Z是每胞式量单位数而非单个离子数。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；逐字核对标签，逐项验算计数、单位、坐标与箭头；标注版/留空版不混用；人工科学复核后才能接入正式页面
+16. 来源／理论依据：os_b04_7.3.1 https://openstax.org/books/chemistry-2e/pages/10-6-lattice-structures-in-crystalline-solids（partially_verified）
+17. 优先级：P1
+18. 旧图复用：partial；可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。
+19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+
+**完整中文Prompt**
+
+为UEC中文原创学习笔记绘制“7.3.1 离子晶体：结构、条件及守恒图”。唯一ID：ILL-B04-CHEM-7_3_1。科目化学，原第7章“化学键与分子间作用力”，真实小节7.3.1“离子晶体”。教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。。必须画出的对象与正确关系：晶胞数=角数/8+棱数/4+面数/2+体内数；各元素或离子分别计数。；配位数≠式中下标；同一最近邻可被多个离子共同计入。；ρ=ZM/(N_Aa³)，长度单位需先统一，Z是每胞式量单位数而非单个离子数。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。。图中文字逐项准确保留：三维晶格；角1/8；面1/2；体心1；配位数；电中性。采用1200×1000画布；双面板在手机可拆为纵向，渲染文字至少12 CSS px、目标14；线型/形状与颜色共同区分。白底高对比，科学层、箭头、文字分层，公式变量和单位不能装饰化。最终科学图优先用SVG/数学绘图库确定性制作。AI仅可作构图草稿，所有数值、几何、膜层和文字须重建核验后才能用于教学。标注版与练习留空版分开，只采用已有题给条件，不泄露检测答案。来源/理论核对：https://openstax.org/books/chemistry-2e/pages/10-6-lattice-structures-in-crystalline-solids。来源不等于2027考试范围确认；制作前重新核对。
+
+**Complete English prompt**
+
+Create an original Chinese-language teaching diagram titled "7.3.1 离子晶体：结构、条件及守恒图". Unique ID ILL-B04-CHEM-7_3_1; Chemistry, existing chapter 7, actual subsection 7.3.1 ("离子晶体"). Scientific objects, relationships and exact constraints: Show a labelled unit cell with corner, face, edge and interior sharing fractions. Distinguish sixfold NaCl coordination from 1:1 bulk stoichiometry. Any density example must use its stated teaching values, not fabricated measured lattice parameters. Required on-canvas Chinese labels, preserved verbatim: 三维晶格; 角1/8; 面1/2; 体心1; 配位数; 电中性. Use a 1200 by 1000 canvas. Reflow panels vertically on mobile, with rendered labels at least12 CSS px, target14. Use shape/line style as well as color, white background and high contrast. Keep geometry, arrows and editable text on separate layers. The final scientific output must be constructed with SVG or deterministic mathematical plotting; an AI image is only a layout draft and cannot certify geometry, counts, membranes or formulas. Make annotated teaching and blank assessment variants separately, using only existing stated problem data. Recheck these theory/source references before production: https://openstax.org/books/chemistry-2e/pages/10-6-lattice-structures-in-crystalline-solids. These sources do not certify2027 exam scope or official marking rules.
+
+**Negative Prompt**
+
+不得反转箭头运算、偷换单位、改变题给数据、使用错误比例、吞掉绝对值、隐藏条件或伪造实测刻度。不使用乱码、伪官方标志、水印遮挡、未说明的缩写或“同上”。
+
+No reversed operations/arrows, changed problem values, inconsistent units/scales, missing absolute-value bars, hidden conditions or invented measured axes. No garbled Chinese, fake official logos, obscuring watermarks, unexplained abbreviations or references to another prompt.
+
+### ILL-B04-CHEM-7_3_2 · 7.3.2 原子晶体：结构、条件及守恒图
+
+1. 唯一ID：ILL-B04-CHEM-7_3_2
+2. 科目：化学
+3. 真实章节及小节：第7章 化学键与分子间作用力／7.3.2 原子晶体
+4. 插图标题：7.3.2 原子晶体：结构、条件及守恒图
+5. 教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。
+6. 必须出现的对象：金刚石四邻；Si四O桥；石墨三邻；层间滑移；离域电子
+7. 不可画错的科学关系：网络中共享连接须避免重复计数：Si四条Si—O连接、每O由两Si共享，O/Si=4/2=2。；若N个C各连接4邻C，按每键两端共享，C—C键数为4N/2=2N（忽略表面）。；石墨的层内共价连接、层间作用和离域电子承担不同性质，不能用一个“强/弱”总括。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。
+8. 中文文字及标签：金刚石四邻；Si四O桥；石墨三邻；层间滑移；离域电子
+9. 公式、单位与变量：网络中共享连接须避免重复计数：Si四条Si—O连接、每O由两Si共享，O/Si=4/2=2。；若N个C各连接4邻C，按每键两端共享，C—C键数为4N/2=2N（忽略表面）。；石墨的层内共价连接、层间作用和离域电子承担不同性质，不能用一个“强/弱”总括。
+10. 精确构图要求：网络中共享连接须避免重复计数：Si四条Si—O连接、每O由两Si共享，O/Si=4/2=2。；若N个C各连接4邻C，按每键两端共享，C—C键数为4N/2=2N（忽略表面）。；石墨的层内共价连接、层间作用和离域电子承担不同性质，不能用一个“强/弱”总括。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；科学图层与文字分层；相邻面板坐标/颜色语义一致
+11. 比例及尺寸：{'width_px': 1200, 'height_px': 1000, 'aspect_ratio': '1200:1000', 'minimum_rendered_label_css_px': 12}
+12. 完整中文Prompt：见本条下方完整中文Prompt，可独立复制。
+13. 完整英文Prompt：见本条下方Complete English prompt，可独立复制。
+14. Negative Prompt：见本条下方中英文Negative Prompt。
+15. 科学准确性验收：网络中共享连接须避免重复计数：Si四条Si—O连接、每O由两Si共享，O/Si=4/2=2。；若N个C各连接4邻C，按每键两端共享，C—C键数为4N/2=2N（忽略表面）。；石墨的层内共价连接、层间作用和离域电子承担不同性质，不能用一个“强/弱”总括。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；逐字核对标签，逐项验算计数、单位、坐标与箭头；标注版/留空版不混用；人工科学复核后才能接入正式页面
+16. 来源／理论依据：os_b04_7.3.2 https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter（partially_verified）
+17. 优先级：P1
+18. 旧图复用：partial；可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。
+19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+
+**完整中文Prompt**
+
+为UEC中文原创学习笔记绘制“7.3.2 原子晶体：结构、条件及守恒图”。唯一ID：ILL-B04-CHEM-7_3_2。科目化学，原第7章“化学键与分子间作用力”，真实小节7.3.2“原子晶体”。教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。。必须画出的对象与正确关系：网络中共享连接须避免重复计数：Si四条Si—O连接、每O由两Si共享，O/Si=4/2=2。；若N个C各连接4邻C，按每键两端共享，C—C键数为4N/2=2N（忽略表面）。；石墨的层内共价连接、层间作用和离域电子承担不同性质，不能用一个“强/弱”总括。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。。图中文字逐项准确保留：金刚石四邻；Si四O桥；石墨三邻；层间滑移；离域电子。采用1200×1000画布；双面板在手机可拆为纵向，渲染文字至少12 CSS px、目标14；线型/形状与颜色共同区分。白底高对比，科学层、箭头、文字分层，公式变量和单位不能装饰化。最终科学图优先用SVG/数学绘图库确定性制作。AI仅可作构图草稿，所有数值、几何、膜层和文字须重建核验后才能用于教学。标注版与练习留空版分开，只采用已有题给条件，不泄露检测答案。来源/理论核对：https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter。来源不等于2027考试范围确认；制作前重新核对。
+
+**Complete English prompt**
+
+Create an original Chinese-language teaching diagram titled "7.3.2 原子晶体：结构、条件及守恒图". Unique ID ILL-B04-CHEM-7_3_2; Chemistry, existing chapter 7, actual subsection 7.3.2 ("原子晶体"). Scientific objects, relationships and exact constraints: Show extended diamond tetrahedra, a Si-O-Si bridging network with Si:O=1:2, and graphite layers. Keep graphite interlayer attraction distinct from strong in-plane bonds and conducting electrons; mark cut edges and non-scale geometry. Required on-canvas Chinese labels, preserved verbatim: 金刚石四邻; Si四O桥; 石墨三邻; 层间滑移; 离域电子. Use a 1200 by 1000 canvas. Reflow panels vertically on mobile, with rendered labels at least12 CSS px, target14. Use shape/line style as well as color, white background and high contrast. Keep geometry, arrows and editable text on separate layers. The final scientific output must be constructed with SVG or deterministic mathematical plotting; an AI image is only a layout draft and cannot certify geometry, counts, membranes or formulas. Make annotated teaching and blank assessment variants separately, using only existing stated problem data. Recheck these theory/source references before production: https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter. These sources do not certify2027 exam scope or official marking rules.
+
+**Negative Prompt**
+
+不得反转箭头运算、偷换单位、改变题给数据、使用错误比例、吞掉绝对值、隐藏条件或伪造实测刻度。不使用乱码、伪官方标志、水印遮挡、未说明的缩写或“同上”。
+
+No reversed operations/arrows, changed problem values, inconsistent units/scales, missing absolute-value bars, hidden conditions or invented measured axes. No garbled Chinese, fake official logos, obscuring watermarks, unexplained abbreviations or references to another prompt.
+
+### ILL-B04-CHEM-7_3_3 · 7.3.3 分子晶体：结构、条件及守恒图
+
+1. 唯一ID：ILL-B04-CHEM-7_3_3
+2. 科目：化学
+3. 真实章节及小节：第7章 化学键与分子间作用力／7.3.3 分子晶体
+4. 插图标题：7.3.3 分子晶体：结构、条件及守恒图
+5. 教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。
+6. 必须出现的对象：独立CO₂分子；共价内键；分子间虚线；升华；原子守恒
+7. 不可画错的科学关系：分子晶体的式可对应独立分子；普通相变主要克服分子间作用，分子内共价键保留。；若每个CO₂分子含1C/2O，N个分子含N个C与2N个O，与固态/气态无关。；物质分类应交叉检验组成、熔点、导电和溶解；任何单一性质都可能有反例。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。
+8. 中文文字及标签：独立CO₂分子；共价内键；分子间虚线；升华；原子守恒
+9. 公式、单位与变量：分子晶体的式可对应独立分子；普通相变主要克服分子间作用，分子内共价键保留。；若每个CO₂分子含1C/2O，N个分子含N个C与2N个O，与固态/气态无关。；物质分类应交叉检验组成、熔点、导电和溶解；任何单一性质都可能有反例。
+10. 精确构图要求：分子晶体的式可对应独立分子；普通相变主要克服分子间作用，分子内共价键保留。；若每个CO₂分子含1C/2O，N个分子含N个C与2N个O，与固态/气态无关。；物质分类应交叉检验组成、熔点、导电和溶解；任何单一性质都可能有反例。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；科学图层与文字分层；相邻面板坐标/颜色语义一致
+11. 比例及尺寸：{'width_px': 1200, 'height_px': 1000, 'aspect_ratio': '1200:1000', 'minimum_rendered_label_css_px': 12}
+12. 完整中文Prompt：见本条下方完整中文Prompt，可独立复制。
+13. 完整英文Prompt：见本条下方Complete English prompt，可独立复制。
+14. Negative Prompt：见本条下方中英文Negative Prompt。
+15. 科学准确性验收：分子晶体的式可对应独立分子；普通相变主要克服分子间作用，分子内共价键保留。；若每个CO₂分子含1C/2O，N个分子含N个C与2N个O，与固态/气态无关。；物质分类应交叉检验组成、熔点、导电和溶解；任何单一性质都可能有反例。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；逐字核对标签，逐项验算计数、单位、坐标与箭头；标注版/留空版不混用；人工科学复核后才能接入正式页面
+16. 来源／理论依据：os_b04_7.3.3 https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter（partially_verified）
+17. 优先级：P1
+18. 旧图复用：partial；可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。
+19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+
+**完整中文Prompt**
+
+为UEC中文原创学习笔记绘制“7.3.3 分子晶体：结构、条件及守恒图”。唯一ID：ILL-B04-CHEM-7_3_3。科目化学，原第7章“化学键与分子间作用力”，真实小节7.3.3“分子晶体”。教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。。必须画出的对象与正确关系：分子晶体的式可对应独立分子；普通相变主要克服分子间作用，分子内共价键保留。；若每个CO₂分子含1C/2O，N个分子含N个C与2N个O，与固态/气态无关。；物质分类应交叉检验组成、熔点、导电和溶解；任何单一性质都可能有反例。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。。图中文字逐项准确保留：独立CO₂分子；共价内键；分子间虚线；升华；原子守恒。采用1200×1000画布；双面板在手机可拆为纵向，渲染文字至少12 CSS px、目标14；线型/形状与颜色共同区分。白底高对比，科学层、箭头、文字分层，公式变量和单位不能装饰化。最终科学图优先用SVG/数学绘图库确定性制作。AI仅可作构图草稿，所有数值、几何、膜层和文字须重建核验后才能用于教学。标注版与练习留空版分开，只采用已有题给条件，不泄露检测答案。来源/理论核对：https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter。来源不等于2027考试范围确认；制作前重新核对。
+
+**Complete English prompt**
+
+Create an original Chinese-language teaching diagram titled "7.3.3 分子晶体：结构、条件及守恒图". Unique ID ILL-B04-CHEM-7_3_3; Chemistry, existing chapter 7, actual subsection 7.3.3 ("分子晶体"). Scientific objects, relationships and exact constraints: Draw discrete CO2 or I2 molecules before and after ordinary sublimation with unchanged internal bonds and atom counts. Use dashed intermolecular links only in the solid. Do not draw isolated atoms, ions, or a covalent network after phase change. Required on-canvas Chinese labels, preserved verbatim: 独立CO₂分子; 共价内键; 分子间虚线; 升华; 原子守恒. Use a 1200 by 1000 canvas. Reflow panels vertically on mobile, with rendered labels at least12 CSS px, target14. Use shape/line style as well as color, white background and high contrast. Keep geometry, arrows and editable text on separate layers. The final scientific output must be constructed with SVG or deterministic mathematical plotting; an AI image is only a layout draft and cannot certify geometry, counts, membranes or formulas. Make annotated teaching and blank assessment variants separately, using only existing stated problem data. Recheck these theory/source references before production: https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter. These sources do not certify2027 exam scope or official marking rules.
+
+**Negative Prompt**
+
+不得反转箭头运算、偷换单位、改变题给数据、使用错误比例、吞掉绝对值、隐藏条件或伪造实测刻度。不使用乱码、伪官方标志、水印遮挡、未说明的缩写或“同上”。
+
+No reversed operations/arrows, changed problem values, inconsistent units/scales, missing absolute-value bars, hidden conditions or invented measured axes. No garbled Chinese, fake official logos, obscuring watermarks, unexplained abbreviations or references to another prompt.
+
+### ILL-B04-CHEM-7_3_4 · 7.3.4 金属晶体：结构、条件及守恒图
+
+1. 唯一ID：ILL-B04-CHEM-7_3_4
+2. 科目：化学
+3. 真实章节及小节：第7章 化学键与分子间作用力／7.3.4 金属晶体
+4. 插图标题：7.3.4 金属晶体：结构、条件及守恒图
+5. 教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。
+6. 必须出现的对象：简单立方1；体心立方2；面心立方4；共享份额；密度
+7. 不可画错的科学关系：SC原子数=8/8=1；BCC=8/8+1=2；FCC=8/8+6/2=4。；ρ=ZM/(N_Aa³)，Z是每胞原子数；配位数不能代替Z。；晶胞几何与电子离域回答不同问题，不能把球数直接当自由电子数。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。
+8. 中文文字及标签：简单立方1；体心立方2；面心立方4；共享份额；密度
+9. 公式、单位与变量：SC原子数=8/8=1；BCC=8/8+1=2；FCC=8/8+6/2=4。；ρ=ZM/(N_Aa³)，Z是每胞原子数；配位数不能代替Z。；晶胞几何与电子离域回答不同问题，不能把球数直接当自由电子数。
+10. 精确构图要求：SC原子数=8/8=1；BCC=8/8+1=2；FCC=8/8+6/2=4。；ρ=ZM/(N_Aa³)，Z是每胞原子数；配位数不能代替Z。；晶胞几何与电子离域回答不同问题，不能把球数直接当自由电子数。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；科学图层与文字分层；相邻面板坐标/颜色语义一致
+11. 比例及尺寸：{'width_px': 1200, 'height_px': 1000, 'aspect_ratio': '1200:1000', 'minimum_rendered_label_css_px': 12}
+12. 完整中文Prompt：见本条下方完整中文Prompt，可独立复制。
+13. 完整英文Prompt：见本条下方Complete English prompt，可独立复制。
+14. Negative Prompt：见本条下方中英文Negative Prompt。
+15. 科学准确性验收：SC原子数=8/8=1；BCC=8/8+1=2；FCC=8/8+6/2=4。；ρ=ZM/(N_Aa³)，Z是每胞原子数；配位数不能代替Z。；晶胞几何与电子离域回答不同问题，不能把球数直接当自由电子数。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；逐字核对标签，逐项验算计数、单位、坐标与箭头；标注版/留空版不混用；人工科学复核后才能接入正式页面
+16. 来源／理论依据：os_b04_7.3.4 https://openstax.org/books/chemistry-2e/pages/10-6-lattice-structures-in-crystalline-solids（partially_verified）
+17. 优先级：P1
+18. 旧图复用：partial；可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。
+19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+
+**完整中文Prompt**
+
+为UEC中文原创学习笔记绘制“7.3.4 金属晶体：结构、条件及守恒图”。唯一ID：ILL-B04-CHEM-7_3_4。科目化学，原第7章“化学键与分子间作用力”，真实小节7.3.4“金属晶体”。教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。。必须画出的对象与正确关系：SC原子数=8/8=1；BCC=8/8+1=2；FCC=8/8+6/2=4。；ρ=ZM/(N_Aa³)，Z是每胞原子数；配位数不能代替Z。；晶胞几何与电子离域回答不同问题，不能把球数直接当自由电子数。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。。图中文字逐项准确保留：简单立方1；体心立方2；面心立方4；共享份额；密度。采用1200×1000画布；双面板在手机可拆为纵向，渲染文字至少12 CSS px、目标14；线型/形状与颜色共同区分。白底高对比，科学层、箭头、文字分层，公式变量和单位不能装饰化。最终科学图优先用SVG/数学绘图库确定性制作。AI仅可作构图草稿，所有数值、几何、膜层和文字须重建核验后才能用于教学。标注版与练习留空版分开，只采用已有题给条件，不泄露检测答案。来源/理论核对：https://openstax.org/books/chemistry-2e/pages/10-6-lattice-structures-in-crystalline-solids。来源不等于2027考试范围确认；制作前重新核对。
+
+**Complete English prompt**
+
+Create an original Chinese-language teaching diagram titled "7.3.4 金属晶体：结构、条件及守恒图". Unique ID ILL-B04-CHEM-7_3_4; Chemistry, existing chapter 7, actual subsection 7.3.4 ("金属晶体"). Scientific objects, relationships and exact constraints: Show SC, BCC and FCC unit cells with corner/face/interior sharing fractions and totals 1,2,4. Keep coordination numbers separate. Annotate density as ZM/(NA a^3), and do not infer conduction-electron count from drawn atom spheres. Required on-canvas Chinese labels, preserved verbatim: 简单立方1; 体心立方2; 面心立方4; 共享份额; 密度. Use a 1200 by 1000 canvas. Reflow panels vertically on mobile, with rendered labels at least12 CSS px, target14. Use shape/line style as well as color, white background and high contrast. Keep geometry, arrows and editable text on separate layers. The final scientific output must be constructed with SVG or deterministic mathematical plotting; an AI image is only a layout draft and cannot certify geometry, counts, membranes or formulas. Make annotated teaching and blank assessment variants separately, using only existing stated problem data. Recheck these theory/source references before production: https://openstax.org/books/chemistry-2e/pages/10-6-lattice-structures-in-crystalline-solids. These sources do not certify2027 exam scope or official marking rules.
+
+**Negative Prompt**
+
+不得反转箭头运算、偷换单位、改变题给数据、使用错误比例、吞掉绝对值、隐藏条件或伪造实测刻度。不使用乱码、伪官方标志、水印遮挡、未说明的缩写或“同上”。
+
+No reversed operations/arrows, changed problem values, inconsistent units/scales, missing absolute-value bars, hidden conditions or invented measured axes. No garbled Chinese, fake official logos, obscuring watermarks, unexplained abbreviations or references to another prompt.
+
+## 化学 第8章 氧化还原反应
+
+### ILL-B04-CHEM-8_1 · 8.1 氧化还原反应：结构、条件及守恒图
+
+1. 唯一ID：ILL-B04-CHEM-8_1
+2. 科目：化学
+3. 真实章节及小节：第8章 氧化还原反应／8.1 氧化还原反应
+4. 插图标题：8.1 氧化还原反应：结构、条件及守恒图
+5. 教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。
+6. 必须出现的对象：前后氧化数；升价；降价；电子守恒；完整反应
+7. 不可画错的科学关系：氧化数升高对应形式失电子，降低对应形式得电子；完整反应n(失e⁻)=n(得e⁻)。；得失电子数=反应中实际参与变价的原子数×每原子氧化数变化绝对值。；反应类别可交叉；是否氧化还原以元素氧化数变化为判据，不以气泡、颜色或得氧作为唯一条件。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。
+8. 中文文字及标签：前后氧化数；升价；降价；电子守恒；完整反应
+9. 公式、单位与变量：氧化数升高对应形式失电子，降低对应形式得电子；完整反应n(失e⁻)=n(得e⁻)。；得失电子数=反应中实际参与变价的原子数×每原子氧化数变化绝对值。；反应类别可交叉；是否氧化还原以元素氧化数变化为判据，不以气泡、颜色或得氧作为唯一条件。
+10. 精确构图要求：氧化数升高对应形式失电子，降低对应形式得电子；完整反应n(失e⁻)=n(得e⁻)。；得失电子数=反应中实际参与变价的原子数×每原子氧化数变化绝对值。；反应类别可交叉；是否氧化还原以元素氧化数变化为判据，不以气泡、颜色或得氧作为唯一条件。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；科学图层与文字分层；相邻面板坐标/颜色语义一致
+11. 比例及尺寸：{'width_px': 1200, 'height_px': 1000, 'aspect_ratio': '1200:1000', 'minimum_rendered_label_css_px': 12}
+12. 完整中文Prompt：见本条下方完整中文Prompt，可独立复制。
+13. 完整英文Prompt：见本条下方Complete English prompt，可独立复制。
+14. Negative Prompt：见本条下方中英文Negative Prompt。
+15. 科学准确性验收：氧化数升高对应形式失电子，降低对应形式得电子；完整反应n(失e⁻)=n(得e⁻)。；得失电子数=反应中实际参与变价的原子数×每原子氧化数变化绝对值。；反应类别可交叉；是否氧化还原以元素氧化数变化为判据，不以气泡、颜色或得氧作为唯一条件。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；逐字核对标签，逐项验算计数、单位、坐标与箭头；标注版/留空版不混用；人工科学复核后才能接入正式页面
+16. 来源／理论依据：os_b04_8.1 https://openstax.org/books/chemistry-2e/pages/17-1-review-of-redox-chemistry（partially_verified）
+17. 优先级：P1
+18. 旧图复用：partial；可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。
+19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+
+**完整中文Prompt**
+
+为UEC中文原创学习笔记绘制“8.1 氧化还原反应：结构、条件及守恒图”。唯一ID：ILL-B04-CHEM-8_1。科目化学，原第8章“氧化还原反应”，真实小节8.1“氧化还原反应”。教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。。必须画出的对象与正确关系：氧化数升高对应形式失电子，降低对应形式得电子；完整反应n(失e⁻)=n(得e⁻)。；得失电子数=反应中实际参与变价的原子数×每原子氧化数变化绝对值。；反应类别可交叉；是否氧化还原以元素氧化数变化为判据，不以气泡、颜色或得氧作为唯一条件。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。。图中文字逐项准确保留：前后氧化数；升价；降价；电子守恒；完整反应。采用1200×1000画布；双面板在手机可拆为纵向，渲染文字至少12 CSS px、目标14；线型/形状与颜色共同区分。白底高对比，科学层、箭头、文字分层，公式变量和单位不能装饰化。最终科学图优先用SVG/数学绘图库确定性制作。AI仅可作构图草稿，所有数值、几何、膜层和文字须重建核验后才能用于教学。标注版与练习留空版分开，只采用已有题给条件，不泄露检测答案。来源/理论核对：https://openstax.org/books/chemistry-2e/pages/17-1-review-of-redox-chemistry。来源不等于2027考试范围确认；制作前重新核对。
+
+**Complete English prompt**
+
+Create an original Chinese-language teaching diagram titled "8.1 氧化还原反应：结构、条件及守恒图". Unique ID ILL-B04-CHEM-8_1; Chemistry, existing chapter 8, actual subsection 8.1 ("氧化还原反应"). Scientific objects, relationships and exact constraints: Draw paired oxidation/reduction half-reactions for Zn and Cu2+, with exactly two electrons cancelling. Separate ionic electron transfer from formal oxidation-number bookkeeping in covalent species. Never classify precipitation as redox merely from appearance. Required on-canvas Chinese labels, preserved verbatim: 前后氧化数; 升价; 降价; 电子守恒; 完整反应. Use a 1200 by 1000 canvas. Reflow panels vertically on mobile, with rendered labels at least12 CSS px, target14. Use shape/line style as well as color, white background and high contrast. Keep geometry, arrows and editable text on separate layers. The final scientific output must be constructed with SVG or deterministic mathematical plotting; an AI image is only a layout draft and cannot certify geometry, counts, membranes or formulas. Make annotated teaching and blank assessment variants separately, using only existing stated problem data. Recheck these theory/source references before production: https://openstax.org/books/chemistry-2e/pages/17-1-review-of-redox-chemistry. These sources do not certify2027 exam scope or official marking rules.
+
+**Negative Prompt**
+
+不得反转箭头运算、偷换单位、改变题给数据、使用错误比例、吞掉绝对值、隐藏条件或伪造实测刻度。不使用乱码、伪官方标志、水印遮挡、未说明的缩写或“同上”。
+
+No reversed operations/arrows, changed problem values, inconsistent units/scales, missing absolute-value bars, hidden conditions or invented measured axes. No garbled Chinese, fake official logos, obscuring watermarks, unexplained abbreviations or references to another prompt.
+
+### ILL-B04-CHEM-8_2_1 · 8.2.1 计算氧化数的一般规则：结构、条件及守恒图
+
+1. 唯一ID：ILL-B04-CHEM-8_2_1
+2. 科目：化学
+3. 真实章节及小节：第8章 氧化还原反应／8.2.1 计算氧化数的一般规则
+4. 插图标题：8.2.1 计算氧化数的一般规则：结构、条件及守恒图
+5. 教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。
+6. 必须出现的对象：物种电荷；未知x；氧例外；氢化物；平均价
+7. 不可画错的科学关系：Σ(原子数×氧化数)=物种总电荷；不要把离子总电荷直接当其中某元素的氧化数。；O/H通常值有例外，应优先按已知结构及更电负元素的规则处理。；总和求得平均值不一定代表所有同种原子等价，混合价及位置不同须另有结构证据。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。
+8. 中文文字及标签：物种电荷；未知x；氧例外；氢化物；平均价
+9. 公式、单位与变量：Σ(原子数×氧化数)=物种总电荷；不要把离子总电荷直接当其中某元素的氧化数。；O/H通常值有例外，应优先按已知结构及更电负元素的规则处理。；总和求得平均值不一定代表所有同种原子等价，混合价及位置不同须另有结构证据。
+10. 精确构图要求：Σ(原子数×氧化数)=物种总电荷；不要把离子总电荷直接当其中某元素的氧化数。；O/H通常值有例外，应优先按已知结构及更电负元素的规则处理。；总和求得平均值不一定代表所有同种原子等价，混合价及位置不同须另有结构证据。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；科学图层与文字分层；相邻面板坐标/颜色语义一致
+11. 比例及尺寸：{'width_px': 1200, 'height_px': 1000, 'aspect_ratio': '1200:1000', 'minimum_rendered_label_css_px': 12}
+12. 完整中文Prompt：见本条下方完整中文Prompt，可独立复制。
+13. 完整英文Prompt：见本条下方Complete English prompt，可独立复制。
+14. Negative Prompt：见本条下方中英文Negative Prompt。
+15. 科学准确性验收：Σ(原子数×氧化数)=物种总电荷；不要把离子总电荷直接当其中某元素的氧化数。；O/H通常值有例外，应优先按已知结构及更电负元素的规则处理。；总和求得平均值不一定代表所有同种原子等价，混合价及位置不同须另有结构证据。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；逐字核对标签，逐项验算计数、单位、坐标与箭头；标注版/留空版不混用；人工科学复核后才能接入正式页面
+16. 来源／理论依据：os_b04_8.2.1 https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions（partially_verified）
+17. 优先级：P1
+18. 旧图复用：partial；可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。
+19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+
+**完整中文Prompt**
+
+为UEC中文原创学习笔记绘制“8.2.1 计算氧化数的一般规则：结构、条件及守恒图”。唯一ID：ILL-B04-CHEM-8_2_1。科目化学，原第8章“氧化还原反应”，真实小节8.2.1“计算氧化数的一般规则”。教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。。必须画出的对象与正确关系：Σ(原子数×氧化数)=物种总电荷；不要把离子总电荷直接当其中某元素的氧化数。；O/H通常值有例外，应优先按已知结构及更电负元素的规则处理。；总和求得平均值不一定代表所有同种原子等价，混合价及位置不同须另有结构证据。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。。图中文字逐项准确保留：物种电荷；未知x；氧例外；氢化物；平均价。采用1200×1000画布；双面板在手机可拆为纵向，渲染文字至少12 CSS px、目标14；线型/形状与颜色共同区分。白底高对比，科学层、箭头、文字分层，公式变量和单位不能装饰化。最终科学图优先用SVG/数学绘图库确定性制作。AI仅可作构图草稿，所有数值、几何、膜层和文字须重建核验后才能用于教学。标注版与练习留空版分开，只采用已有题给条件，不泄露检测答案。来源/理论核对：https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions。来源不等于2027考试范围确认；制作前重新核对。
+
+**Complete English prompt**
+
+Create an original Chinese-language teaching diagram titled "8.2.1 计算氧化数的一般规则：结构、条件及守恒图". Unique ID ILL-B04-CHEM-8_2_1; Chemistry, existing chapter 8, actual subsection 8.2.1 ("计算氧化数的一般规则"). Scientific objects, relationships and exact constraints: Create a rule-decision diagram and worked charge-sum equations for sulfate, peroxide, OF2 and Fe3O4. Distinguish oxidation numbers from ionic charges and mixed-valence averages. Use correct signs, brackets and stoichiometric multipliers. Required on-canvas Chinese labels, preserved verbatim: 物种电荷; 未知x; 氧例外; 氢化物; 平均价. Use a 1200 by 1000 canvas. Reflow panels vertically on mobile, with rendered labels at least12 CSS px, target14. Use shape/line style as well as color, white background and high contrast. Keep geometry, arrows and editable text on separate layers. The final scientific output must be constructed with SVG or deterministic mathematical plotting; an AI image is only a layout draft and cannot certify geometry, counts, membranes or formulas. Make annotated teaching and blank assessment variants separately, using only existing stated problem data. Recheck these theory/source references before production: https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions. These sources do not certify2027 exam scope or official marking rules.
+
+**Negative Prompt**
+
+不得反转箭头运算、偷换单位、改变题给数据、使用错误比例、吞掉绝对值、隐藏条件或伪造实测刻度。不使用乱码、伪官方标志、水印遮挡、未说明的缩写或“同上”。
+
+No reversed operations/arrows, changed problem values, inconsistent units/scales, missing absolute-value bars, hidden conditions or invented measured axes. No garbled Chinese, fake official logos, obscuring watermarks, unexplained abbreviations or references to another prompt.
+
+### ILL-B04-CHEM-8_2_2 · 8.2.2 氧化数与氧化还原的关系：结构、条件及守恒图
+
+1. 唯一ID：ILL-B04-CHEM-8_2_2
+2. 科目：化学
+3. 真实章节及小节：第8章 氧化还原反应／8.2.2 氧化数与氧化还原的关系
+4. 插图标题：8.2.2 氧化数与氧化还原的关系：结构、条件及守恒图
+5. 教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。
+6. 必须出现的对象：初价；末价；原子群；价差；电子量；歧化归中
+7. 不可画错的科学关系：n(e⁻)=n(变价原子)×|末氧化数−初氧化数|；多原子物种须乘每份变价原子数。；歧化中升价和降价原子分别计，不能用总物种数给同一群原子同时走两条路径。；电子当量依产物与介质，不从反应物名称单独确定。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。
+8. 中文文字及标签：初价；末价；原子群；价差；电子量；歧化归中
+9. 公式、单位与变量：n(e⁻)=n(变价原子)×|末氧化数−初氧化数|；多原子物种须乘每份变价原子数。；歧化中升价和降价原子分别计，不能用总物种数给同一群原子同时走两条路径。；电子当量依产物与介质，不从反应物名称单独确定。
+10. 精确构图要求：n(e⁻)=n(变价原子)×|末氧化数−初氧化数|；多原子物种须乘每份变价原子数。；歧化中升价和降价原子分别计，不能用总物种数给同一群原子同时走两条路径。；电子当量依产物与介质，不从反应物名称单独确定。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；科学图层与文字分层；相邻面板坐标/颜色语义一致
+11. 比例及尺寸：{'width_px': 1200, 'height_px': 1000, 'aspect_ratio': '1200:1000', 'minimum_rendered_label_css_px': 12}
+12. 完整中文Prompt：见本条下方完整中文Prompt，可独立复制。
+13. 完整英文Prompt：见本条下方Complete English prompt，可独立复制。
+14. Negative Prompt：见本条下方中英文Negative Prompt。
+15. 科学准确性验收：n(e⁻)=n(变价原子)×|末氧化数−初氧化数|；多原子物种须乘每份变价原子数。；歧化中升价和降价原子分别计，不能用总物种数给同一群原子同时走两条路径。；电子当量依产物与介质，不从反应物名称单独确定。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；逐字核对标签，逐项验算计数、单位、坐标与箭头；标注版/留空版不混用；人工科学复核后才能接入正式页面
+16. 来源／理论依据：os_b04_8.2.2 https://openstax.org/books/chemistry-2e/pages/17-1-review-of-redox-chemistry（partially_verified）
+17. 优先级：P1
+18. 旧图复用：partial；可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。
+19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+
+**完整中文Prompt**
+
+为UEC中文原创学习笔记绘制“8.2.2 氧化数与氧化还原的关系：结构、条件及守恒图”。唯一ID：ILL-B04-CHEM-8_2_2。科目化学，原第8章“氧化还原反应”，真实小节8.2.2“氧化数与氧化还原的关系”。教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。。必须画出的对象与正确关系：n(e⁻)=n(变价原子)×|末氧化数−初氧化数|；多原子物种须乘每份变价原子数。；歧化中升价和降价原子分别计，不能用总物种数给同一群原子同时走两条路径。；电子当量依产物与介质，不从反应物名称单独确定。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。。图中文字逐项准确保留：初价；末价；原子群；价差；电子量；歧化归中。采用1200×1000画布；双面板在手机可拆为纵向，渲染文字至少12 CSS px、目标14；线型/形状与颜色共同区分。白底高对比，科学层、箭头、文字分层，公式变量和单位不能装饰化。最终科学图优先用SVG/数学绘图库确定性制作。AI仅可作构图草稿，所有数值、几何、膜层和文字须重建核验后才能用于教学。标注版与练习留空版分开，只采用已有题给条件，不泄露检测答案。来源/理论核对：https://openstax.org/books/chemistry-2e/pages/17-1-review-of-redox-chemistry。来源不等于2027考试范围确认；制作前重新核对。
+
+**Complete English prompt**
+
+Create an original Chinese-language teaching diagram titled "8.2.2 氧化数与氧化还原的关系：结构、条件及守恒图". Unique ID ILL-B04-CHEM-8_2_2; Chemistry, existing chapter 8, actual subsection 8.2.2 ("氧化数与氧化还原的关系"). Scientific objects, relationships and exact constraints: Show separate chlorine atom populations for disproportionation and separate sulfur sources for comproportionation. Label electron loss and gain once, not their sum. Include dichromate with two Cr atoms, each gaining three electrons. Required on-canvas Chinese labels, preserved verbatim: 初价; 末价; 原子群; 价差; 电子量; 歧化归中. Use a 1200 by 1000 canvas. Reflow panels vertically on mobile, with rendered labels at least12 CSS px, target14. Use shape/line style as well as color, white background and high contrast. Keep geometry, arrows and editable text on separate layers. The final scientific output must be constructed with SVG or deterministic mathematical plotting; an AI image is only a layout draft and cannot certify geometry, counts, membranes or formulas. Make annotated teaching and blank assessment variants separately, using only existing stated problem data. Recheck these theory/source references before production: https://openstax.org/books/chemistry-2e/pages/17-1-review-of-redox-chemistry. These sources do not certify2027 exam scope or official marking rules.
+
+**Negative Prompt**
+
+不得反转箭头运算、偷换单位、改变题给数据、使用错误比例、吞掉绝对值、隐藏条件或伪造实测刻度。不使用乱码、伪官方标志、水印遮挡、未说明的缩写或“同上”。
+
+No reversed operations/arrows, changed problem values, inconsistent units/scales, missing absolute-value bars, hidden conditions or invented measured axes. No garbled Chinese, fake official logos, obscuring watermarks, unexplained abbreviations or references to another prompt.
+
+### ILL-B04-CHEM-8_3 · 8.3 氧化剂与还原剂：结构、条件及守恒图
+
+1. 唯一ID：ILL-B04-CHEM-8_3
+2. 科目：化学
+3. 真实章节及小节：第8章 氧化还原反应／8.3 氧化剂与还原剂
+4. 插图标题：8.3 氧化剂与还原剂：结构、条件及守恒图
+5. 教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。
+6. 必须出现的对象：反应物实体；得失电子；两剂角色；当量；限量
+7. 不可画错的科学关系：氧化剂得电子被还原；还原剂失电子被氧化，判断应绑定本反应的指定实体。；两剂计量比使得失电子相等，不要求mol数相等；实际电子量受限量者控制。；同一物种在不同反应可有不同角色；中间价态并不保证两种反应在任何条件都发生。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。
+8. 中文文字及标签：反应物实体；得失电子；两剂角色；当量；限量
+9. 公式、单位与变量：氧化剂得电子被还原；还原剂失电子被氧化，判断应绑定本反应的指定实体。；两剂计量比使得失电子相等，不要求mol数相等；实际电子量受限量者控制。；同一物种在不同反应可有不同角色；中间价态并不保证两种反应在任何条件都发生。
+10. 精确构图要求：氧化剂得电子被还原；还原剂失电子被氧化，判断应绑定本反应的指定实体。；两剂计量比使得失电子相等，不要求mol数相等；实际电子量受限量者控制。；同一物种在不同反应可有不同角色；中间价态并不保证两种反应在任何条件都发生。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；科学图层与文字分层；相邻面板坐标/颜色语义一致
+11. 比例及尺寸：{'width_px': 1200, 'height_px': 1000, 'aspect_ratio': '1200:1000', 'minimum_rendered_label_css_px': 12}
+12. 完整中文Prompt：见本条下方完整中文Prompt，可独立复制。
+13. 完整英文Prompt：见本条下方Complete English prompt，可独立复制。
+14. Negative Prompt：见本条下方中英文Negative Prompt。
+15. 科学准确性验收：氧化剂得电子被还原；还原剂失电子被氧化，判断应绑定本反应的指定实体。；两剂计量比使得失电子相等，不要求mol数相等；实际电子量受限量者控制。；同一物种在不同反应可有不同角色；中间价态并不保证两种反应在任何条件都发生。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；逐字核对标签，逐项验算计数、单位、坐标与箭头；标注版/留空版不混用；人工科学复核后才能接入正式页面
+16. 来源／理论依据：os_b04_8.3 https://openstax.org/books/chemistry-2e/pages/17-1-review-of-redox-chemistry（partially_verified）
+17. 优先级：P1
+18. 旧图复用：partial；可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。
+19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+
+**完整中文Prompt**
+
+为UEC中文原创学习笔记绘制“8.3 氧化剂与还原剂：结构、条件及守恒图”。唯一ID：ILL-B04-CHEM-8_3。科目化学，原第8章“氧化还原反应”，真实小节8.3“氧化剂与还原剂”。教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。。必须画出的对象与正确关系：氧化剂得电子被还原；还原剂失电子被氧化，判断应绑定本反应的指定实体。；两剂计量比使得失电子相等，不要求mol数相等；实际电子量受限量者控制。；同一物种在不同反应可有不同角色；中间价态并不保证两种反应在任何条件都发生。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。。图中文字逐项准确保留：反应物实体；得失电子；两剂角色；当量；限量。采用1200×1000画布；双面板在手机可拆为纵向，渲染文字至少12 CSS px、目标14；线型/形状与颜色共同区分。白底高对比，科学层、箭头、文字分层，公式变量和单位不能装饰化。最终科学图优先用SVG/数学绘图库确定性制作。AI仅可作构图草稿，所有数值、几何、膜层和文字须重建核验后才能用于教学。标注版与练习留空版分开，只采用已有题给条件，不泄露检测答案。来源/理论核对：https://openstax.org/books/chemistry-2e/pages/17-1-review-of-redox-chemistry。来源不等于2027考试范围确认；制作前重新核对。
+
+**Complete English prompt**
+
+Create an original Chinese-language teaching diagram titled "8.3 氧化剂与还原剂：结构、条件及守恒图". Unique ID ILL-B04-CHEM-8_3; Chemistry, existing chapter 8, actual subsection 8.3 ("氧化剂与还原剂"). Scientific objects, relationships and exact constraints: Build a four-column reaction ledger: reactant species, oxidation-number change, electron gain/loss, oxidant/reductant. Include H2O2 role reversal and the stated MnO4-/Fe2+ limiting amounts, without implying a universal reagent role. Required on-canvas Chinese labels, preserved verbatim: 反应物实体; 得失电子; 两剂角色; 当量; 限量. Use a 1200 by 1000 canvas. Reflow panels vertically on mobile, with rendered labels at least12 CSS px, target14. Use shape/line style as well as color, white background and high contrast. Keep geometry, arrows and editable text on separate layers. The final scientific output must be constructed with SVG or deterministic mathematical plotting; an AI image is only a layout draft and cannot certify geometry, counts, membranes or formulas. Make annotated teaching and blank assessment variants separately, using only existing stated problem data. Recheck these theory/source references before production: https://openstax.org/books/chemistry-2e/pages/17-1-review-of-redox-chemistry. These sources do not certify2027 exam scope or official marking rules.
+
+**Negative Prompt**
+
+不得反转箭头运算、偷换单位、改变题给数据、使用错误比例、吞掉绝对值、隐藏条件或伪造实测刻度。不使用乱码、伪官方标志、水印遮挡、未说明的缩写或“同上”。
+
+No reversed operations/arrows, changed problem values, inconsistent units/scales, missing absolute-value bars, hidden conditions or invented measured axes. No garbled Chinese, fake official logos, obscuring watermarks, unexplained abbreviations or references to another prompt.
+
+### ILL-B04-CHEM-8_4_1 · 8.4.1 氧化数法：结构、条件及守恒图
+
+1. 唯一ID：ILL-B04-CHEM-8_4_1
+2. 科目：化学
+3. 真实章节及小节：第8章 氧化还原反应／8.4.1 氧化数法
+4. 插图标题：8.4.1 氧化数法：结构、条件及守恒图
+5. 教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。
+6. 必须出现的对象：变价原子；升降电子；公倍数；O/H补全；三项核验
+7. 不可画错的科学关系：总升价量=总降价量，系数乘每份变价原子数后再取最小公倍数。；电子守恒先给关键系数，元素和电荷再补全；配平不证明实际反应一定发生。；酸/碱性补H/O的物种必须与介质相容，最后约为最简整数。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。
+8. 中文文字及标签：变价原子；升降电子；公倍数；O/H补全；三项核验
+9. 公式、单位与变量：总升价量=总降价量，系数乘每份变价原子数后再取最小公倍数。；电子守恒先给关键系数，元素和电荷再补全；配平不证明实际反应一定发生。；酸/碱性补H/O的物种必须与介质相容，最后约为最简整数。
+10. 精确构图要求：总升价量=总降价量，系数乘每份变价原子数后再取最小公倍数。；电子守恒先给关键系数，元素和电荷再补全；配平不证明实际反应一定发生。；酸/碱性补H/O的物种必须与介质相容，最后约为最简整数。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；科学图层与文字分层；相邻面板坐标/颜色语义一致
+11. 比例及尺寸：{'width_px': 1200, 'height_px': 1000, 'aspect_ratio': '1200:1000', 'minimum_rendered_label_css_px': 12}
+12. 完整中文Prompt：见本条下方完整中文Prompt，可独立复制。
+13. 完整英文Prompt：见本条下方Complete English prompt，可独立复制。
+14. Negative Prompt：见本条下方中英文Negative Prompt。
+15. 科学准确性验收：总升价量=总降价量，系数乘每份变价原子数后再取最小公倍数。；电子守恒先给关键系数，元素和电荷再补全；配平不证明实际反应一定发生。；酸/碱性补H/O的物种必须与介质相容，最后约为最简整数。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；逐字核对标签，逐项验算计数、单位、坐标与箭头；标注版/留空版不混用；人工科学复核后才能接入正式页面
+16. 来源／理论依据：os_b04_8.4.1 https://openstax.org/books/chemistry-2e/pages/17-1-review-of-redox-chemistry（partially_verified）
+17. 优先级：P1
+18. 旧图复用：partial；可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。
+19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+
+**完整中文Prompt**
+
+为UEC中文原创学习笔记绘制“8.4.1 氧化数法：结构、条件及守恒图”。唯一ID：ILL-B04-CHEM-8_4_1。科目化学，原第8章“氧化还原反应”，真实小节8.4.1“氧化数法”。教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。。必须画出的对象与正确关系：总升价量=总降价量，系数乘每份变价原子数后再取最小公倍数。；电子守恒先给关键系数，元素和电荷再补全；配平不证明实际反应一定发生。；酸/碱性补H/O的物种必须与介质相容，最后约为最简整数。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。。图中文字逐项准确保留：变价原子；升降电子；公倍数；O/H补全；三项核验。采用1200×1000画布；双面板在手机可拆为纵向，渲染文字至少12 CSS px、目标14；线型/形状与颜色共同区分。白底高对比，科学层、箭头、文字分层，公式变量和单位不能装饰化。最终科学图优先用SVG/数学绘图库确定性制作。AI仅可作构图草稿，所有数值、几何、膜层和文字须重建核验后才能用于教学。标注版与练习留空版分开，只采用已有题给条件，不泄露检测答案。来源/理论核对：https://openstax.org/books/chemistry-2e/pages/17-1-review-of-redox-chemistry。来源不等于2027考试范围确认；制作前重新核对。
+
+**Complete English prompt**
+
+Create an original Chinese-language teaching diagram titled "8.4.1 氧化数法：结构、条件及守恒图". Unique ID ILL-B04-CHEM-8_4_1; Chemistry, existing chapter 8, actual subsection 8.4.1 ("氧化数法"). Scientific objects, relationships and exact constraints: Show a balancing ledger for Fe2O3/CO and acidic permanganate/Fe2+. Include atom, charge and electron checks as separate rows, and keep species formulas fixed. No invented official marking points. Required on-canvas Chinese labels, preserved verbatim: 变价原子; 升降电子; 公倍数; O/H补全; 三项核验. Use a 1200 by 1000 canvas. Reflow panels vertically on mobile, with rendered labels at least12 CSS px, target14. Use shape/line style as well as color, white background and high contrast. Keep geometry, arrows and editable text on separate layers. The final scientific output must be constructed with SVG or deterministic mathematical plotting; an AI image is only a layout draft and cannot certify geometry, counts, membranes or formulas. Make annotated teaching and blank assessment variants separately, using only existing stated problem data. Recheck these theory/source references before production: https://openstax.org/books/chemistry-2e/pages/17-1-review-of-redox-chemistry. These sources do not certify2027 exam scope or official marking rules.
+
+**Negative Prompt**
+
+不得反转箭头运算、偷换单位、改变题给数据、使用错误比例、吞掉绝对值、隐藏条件或伪造实测刻度。不使用乱码、伪官方标志、水印遮挡、未说明的缩写或“同上”。
+
+No reversed operations/arrows, changed problem values, inconsistent units/scales, missing absolute-value bars, hidden conditions or invented measured axes. No garbled Chinese, fake official logos, obscuring watermarks, unexplained abbreviations or references to another prompt.
+
+### ILL-B04-CHEM-8_4_2 · 8.4.2 离子——电子法：结构、条件及守恒图
+
+1. 唯一ID：ILL-B04-CHEM-8_4_2
+2. 科目：化学
+3. 真实章节及小节：第8章 氧化还原反应／8.4.2 离子——电子法
+4. 插图标题：8.4.2 离子——电子法：结构、条件及守恒图
+5. 教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。
+6. 必须出现的对象：半反应；H₂O补氧；H⁺补氢；e⁻平电荷；碱性转换；约分
+7. 不可画错的科学关系：每个半反应单独守恒原子和电荷；总式电子必须相消，不双重计数。；酸性用H₂O/H⁺补O/H再用e⁻平电荷；碱性可加等量OH⁻转化并约水。；同一元素不同末价需要不同电子数，介质/产物必须先确认。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。
+8. 中文文字及标签：半反应；H₂O补氧；H⁺补氢；e⁻平电荷；碱性转换；约分
+9. 公式、单位与变量：每个半反应单独守恒原子和电荷；总式电子必须相消，不双重计数。；酸性用H₂O/H⁺补O/H再用e⁻平电荷；碱性可加等量OH⁻转化并约水。；同一元素不同末价需要不同电子数，介质/产物必须先确认。
+10. 精确构图要求：每个半反应单独守恒原子和电荷；总式电子必须相消，不双重计数。；酸性用H₂O/H⁺补O/H再用e⁻平电荷；碱性可加等量OH⁻转化并约水。；同一元素不同末价需要不同电子数，介质/产物必须先确认。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；科学图层与文字分层；相邻面板坐标/颜色语义一致
+11. 比例及尺寸：{'width_px': 1200, 'height_px': 1000, 'aspect_ratio': '1200:1000', 'minimum_rendered_label_css_px': 12}
+12. 完整中文Prompt：见本条下方完整中文Prompt，可独立复制。
+13. 完整英文Prompt：见本条下方Complete English prompt，可独立复制。
+14. Negative Prompt：见本条下方中英文Negative Prompt。
+15. 科学准确性验收：每个半反应单独守恒原子和电荷；总式电子必须相消，不双重计数。；酸性用H₂O/H⁺补O/H再用e⁻平电荷；碱性可加等量OH⁻转化并约水。；同一元素不同末价需要不同电子数，介质/产物必须先确认。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；逐字核对标签，逐项验算计数、单位、坐标与箭头；标注版/留空版不混用；人工科学复核后才能接入正式页面
+16. 来源／理论依据：os_b04_8.4.2 https://openstax.org/books/chemistry-2e/pages/17-1-review-of-redox-chemistry（partially_verified）
+17. 优先级：P1
+18. 旧图复用：partial；可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。
+19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+
+**完整中文Prompt**
+
+为UEC中文原创学习笔记绘制“8.4.2 离子——电子法：结构、条件及守恒图”。唯一ID：ILL-B04-CHEM-8_4_2。科目化学，原第8章“氧化还原反应”，真实小节8.4.2“离子——电子法”。教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。。必须画出的对象与正确关系：每个半反应单独守恒原子和电荷；总式电子必须相消，不双重计数。；酸性用H₂O/H⁺补O/H再用e⁻平电荷；碱性可加等量OH⁻转化并约水。；同一元素不同末价需要不同电子数，介质/产物必须先确认。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。。图中文字逐项准确保留：半反应；H₂O补氧；H⁺补氢；e⁻平电荷；碱性转换；约分。采用1200×1000画布；双面板在手机可拆为纵向，渲染文字至少12 CSS px、目标14；线型/形状与颜色共同区分。白底高对比，科学层、箭头、文字分层，公式变量和单位不能装饰化。最终科学图优先用SVG/数学绘图库确定性制作。AI仅可作构图草稿，所有数值、几何、膜层和文字须重建核验后才能用于教学。标注版与练习留空版分开，只采用已有题给条件，不泄露检测答案。来源/理论核对：https://openstax.org/books/chemistry-2e/pages/17-1-review-of-redox-chemistry。来源不等于2027考试范围确认；制作前重新核对。
+
+**Complete English prompt**
+
+Create an original Chinese-language teaching diagram titled "8.4.2 离子——电子法：结构、条件及守恒图". Unique ID ILL-B04-CHEM-8_4_2; Chemistry, existing chapter 8, actual subsection 8.4.2 ("离子——电子法"). Scientific objects, relationships and exact constraints: Show acidic and basic half-reaction balancing as algebraic ledgers, not laboratory instructions. Explicitly cancel electrons and shared water; distinguish MnO4- to Mn2+ (5e) from MnO2 (3e). Include final atom and charge totals. Required on-canvas Chinese labels, preserved verbatim: 半反应; H₂O补氧; H⁺补氢; e⁻平电荷; 碱性转换; 约分. Use a 1200 by 1000 canvas. Reflow panels vertically on mobile, with rendered labels at least12 CSS px, target14. Use shape/line style as well as color, white background and high contrast. Keep geometry, arrows and editable text on separate layers. The final scientific output must be constructed with SVG or deterministic mathematical plotting; an AI image is only a layout draft and cannot certify geometry, counts, membranes or formulas. Make annotated teaching and blank assessment variants separately, using only existing stated problem data. Recheck these theory/source references before production: https://openstax.org/books/chemistry-2e/pages/17-1-review-of-redox-chemistry. These sources do not certify2027 exam scope or official marking rules.
+
+**Negative Prompt**
+
+不得反转箭头运算、偷换单位、改变题给数据、使用错误比例、吞掉绝对值、隐藏条件或伪造实测刻度。不使用乱码、伪官方标志、水印遮挡、未说明的缩写或“同上”。
+
+No reversed operations/arrows, changed problem values, inconsistent units/scales, missing absolute-value bars, hidden conditions or invented measured axes. No garbled Chinese, fake official logos, obscuring watermarks, unexplained abbreviations or references to another prompt.
+
+## 化学 第9章 IA族元素：钠和钾
+
+### ILL-B04-CHEM-9_1_1 · 9.1.1 钠和钾的物理性质：结构、条件及守恒图
+
+1. 唯一ID：ILL-B04-CHEM-9_1_1
+2. 科目：化学
+3. 真实章节及小节：第9章 IA族元素：钠和钾／9.1.1 钠和钾的物理性质
+4. 插图标题：9.1.1 钠和钾的物理性质：结构、条件及守恒图
+5. 教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。
+6. 必须出现的对象：金属晶格；ns¹；密度；温度条件；物理与化学变化
+7. 不可画错的科学关系：密度ρ=m/V只在所定状态与温度下比较；浮沉还涉及液体密度和反应干扰。；金属固态导电主要靠离域电子；软和低熔点不意味着无金属键。；同族物性趋势需逐项核对，不从原子半径变化推出所有量单调。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。
+8. 中文文字及标签：金属晶格；ns¹；密度；温度条件；物理与化学变化
+9. 公式、单位与变量：密度ρ=m/V只在所定状态与温度下比较；浮沉还涉及液体密度和反应干扰。；金属固态导电主要靠离域电子；软和低熔点不意味着无金属键。；同族物性趋势需逐项核对，不从原子半径变化推出所有量单调。
+10. 精确构图要求：密度ρ=m/V只在所定状态与温度下比较；浮沉还涉及液体密度和反应干扰。；金属固态导电主要靠离域电子；软和低熔点不意味着无金属键。；同族物性趋势需逐项核对，不从原子半径变化推出所有量单调。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；科学图层与文字分层；相邻面板坐标/颜色语义一致
+11. 比例及尺寸：{'width_px': 1200, 'height_px': 1000, 'aspect_ratio': '1200:1000', 'minimum_rendered_label_css_px': 12}
+12. 完整中文Prompt：见本条下方完整中文Prompt，可独立复制。
+13. 完整英文Prompt：见本条下方Complete English prompt，可独立复制。
+14. Negative Prompt：见本条下方中英文Negative Prompt。
+15. 科学准确性验收：密度ρ=m/V只在所定状态与温度下比较；浮沉还涉及液体密度和反应干扰。；金属固态导电主要靠离域电子；软和低熔点不意味着无金属键。；同族物性趋势需逐项核对，不从原子半径变化推出所有量单调。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；逐字核对标签，逐项验算计数、单位、坐标与箭头；标注版/留空版不混用；人工科学复核后才能接入正式页面
+16. 来源／理论依据：os_b04_9.1.1 https://openstax.org/books/chemistry-2e/pages/18-1-periodicity（partially_verified）
+17. 优先级：P1
+18. 旧图复用：partial；可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。
+19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+
+**完整中文Prompt**
+
+为UEC中文原创学习笔记绘制“9.1.1 钠和钾的物理性质：结构、条件及守恒图”。唯一ID：ILL-B04-CHEM-9_1_1。科目化学，原第9章“IA族元素：钠和钾”，真实小节9.1.1“钠和钾的物理性质”。教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。。必须画出的对象与正确关系：密度ρ=m/V只在所定状态与温度下比较；浮沉还涉及液体密度和反应干扰。；金属固态导电主要靠离域电子；软和低熔点不意味着无金属键。；同族物性趋势需逐项核对，不从原子半径变化推出所有量单调。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。。图中文字逐项准确保留：金属晶格；ns¹；密度；温度条件；物理与化学变化。采用1200×1000画布；双面板在手机可拆为纵向，渲染文字至少12 CSS px、目标14；线型/形状与颜色共同区分。白底高对比，科学层、箭头、文字分层，公式变量和单位不能装饰化。最终科学图优先用SVG/数学绘图库确定性制作。AI仅可作构图草稿，所有数值、几何、膜层和文字须重建核验后才能用于教学。标注版与练习留空版分开，只采用已有题给条件，不泄露检测答案。来源/理论核对：https://openstax.org/books/chemistry-2e/pages/18-1-periodicity。来源不等于2027考试范围确认；制作前重新核对。
+
+**Complete English prompt**
+
+Create an original Chinese-language teaching diagram titled "9.1.1 钠和钾的物理性质：结构、条件及守恒图". Unique ID ILL-B04-CHEM-9_1_1; Chemistry, existing chapter 9, actual subsection 9.1.1 ("钠和钾的物理性质"). Scientific objects, relationships and exact constraints: Use a condition-labelled property comparison table for sodium and potassium, with density as mass/volume and electron conduction. Separate fresh-metal appearance from oxide surface formation; do not invent measured values or universal monotonic density trends. Required on-canvas Chinese labels, preserved verbatim: 金属晶格; ns¹; 密度; 温度条件; 物理与化学变化. Use a 1200 by 1000 canvas. Reflow panels vertically on mobile, with rendered labels at least12 CSS px, target14. Use shape/line style as well as color, white background and high contrast. Keep geometry, arrows and editable text on separate layers. The final scientific output must be constructed with SVG or deterministic mathematical plotting; an AI image is only a layout draft and cannot certify geometry, counts, membranes or formulas. Make annotated teaching and blank assessment variants separately, using only existing stated problem data. Recheck these theory/source references before production: https://openstax.org/books/chemistry-2e/pages/18-1-periodicity. These sources do not certify2027 exam scope or official marking rules.
+
+**Negative Prompt**
+
+不得反转箭头运算、偷换单位、改变题给数据、使用错误比例、吞掉绝对值、隐藏条件或伪造实测刻度。不使用乱码、伪官方标志、水印遮挡、未说明的缩写或“同上”。
+
+No reversed operations/arrows, changed problem values, inconsistent units/scales, missing absolute-value bars, hidden conditions or invented measured axes. No garbled Chinese, fake official logos, obscuring watermarks, unexplained abbreviations or references to another prompt.
+
+### ILL-B04-CHEM-9_1_2 · 9.1.2 钠和钾的化学性质：结构、条件及守恒图
+
+1. 唯一ID：ILL-B04-CHEM-9_1_2
+2. 科目：化学
+3. 真实章节及小节：第9章 IA族元素：钠和钾／9.1.2 钠和钾的化学性质
+4. 插图标题：9.1.2 钠和钾的化学性质：结构、条件及守恒图
+5. 教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。
+6. 必须出现的对象：金属M；水；MOH；H₂；氧产物差异；溶剂竞争
+7. 不可画错的科学关系：2M+2H₂O→2MOH+H₂，完全反应且水足量时n(H₂)=n(M)/2。；碱金属氧产物依条件而异，普通氧化物/过氧化物/超氧化物不能混用。；水溶液中的活泼金属反应必须考虑溶剂，不把活动性顺序当单一产物保证。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。
+8. 中文文字及标签：金属M；水；MOH；H₂；氧产物差异；溶剂竞争
+9. 公式、单位与变量：2M+2H₂O→2MOH+H₂，完全反应且水足量时n(H₂)=n(M)/2。；碱金属氧产物依条件而异，普通氧化物/过氧化物/超氧化物不能混用。；水溶液中的活泼金属反应必须考虑溶剂，不把活动性顺序当单一产物保证。
+10. 精确构图要求：2M+2H₂O→2MOH+H₂，完全反应且水足量时n(H₂)=n(M)/2。；碱金属氧产物依条件而异，普通氧化物/过氧化物/超氧化物不能混用。；水溶液中的活泼金属反应必须考虑溶剂，不把活动性顺序当单一产物保证。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；科学图层与文字分层；相邻面板坐标/颜色语义一致
+11. 比例及尺寸：{'width_px': 1200, 'height_px': 1000, 'aspect_ratio': '1200:1000', 'minimum_rendered_label_css_px': 12}
+12. 完整中文Prompt：见本条下方完整中文Prompt，可独立复制。
+13. 完整英文Prompt：见本条下方Complete English prompt，可独立复制。
+14. Negative Prompt：见本条下方中英文Negative Prompt。
+15. 科学准确性验收：2M+2H₂O→2MOH+H₂，完全反应且水足量时n(H₂)=n(M)/2。；碱金属氧产物依条件而异，普通氧化物/过氧化物/超氧化物不能混用。；水溶液中的活泼金属反应必须考虑溶剂，不把活动性顺序当单一产物保证。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；逐字核对标签，逐项验算计数、单位、坐标与箭头；标注版/留空版不混用；人工科学复核后才能接入正式页面
+16. 来源／理论依据：os_b04_9.1.2 https://openstax.org/books/chemistry-2e/pages/18-1-periodicity（partially_verified）
+17. 优先级：P1
+18. 旧图复用：partial；可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。
+19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+
+**完整中文Prompt**
+
+为UEC中文原创学习笔记绘制“9.1.2 钠和钾的化学性质：结构、条件及守恒图”。唯一ID：ILL-B04-CHEM-9_1_2。科目化学，原第9章“IA族元素：钠和钾”，真实小节9.1.2“钠和钾的化学性质”。教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。。必须画出的对象与正确关系：2M+2H₂O→2MOH+H₂，完全反应且水足量时n(H₂)=n(M)/2。；碱金属氧产物依条件而异，普通氧化物/过氧化物/超氧化物不能混用。；水溶液中的活泼金属反应必须考虑溶剂，不把活动性顺序当单一产物保证。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。。图中文字逐项准确保留：金属M；水；MOH；H₂；氧产物差异；溶剂竞争。采用1200×1000画布；双面板在手机可拆为纵向，渲染文字至少12 CSS px、目标14；线型/形状与颜色共同区分。白底高对比，科学层、箭头、文字分层，公式变量和单位不能装饰化。最终科学图优先用SVG/数学绘图库确定性制作。AI仅可作构图草稿，所有数值、几何、膜层和文字须重建核验后才能用于教学。标注版与练习留空版分开，只采用已有题给条件，不泄露检测答案。来源/理论核对：https://openstax.org/books/chemistry-2e/pages/18-1-periodicity。来源不等于2027考试范围确认；制作前重新核对。
+
+**Complete English prompt**
+
+Create an original Chinese-language teaching diagram titled "9.1.2 钠和钾的化学性质：结构、条件及守恒图". Unique ID ILL-B04-CHEM-9_1_2; Chemistry, existing chapter 9, actual subsection 9.1.2 ("钠和钾的化学性质"). Scientific objects, relationships and exact constraints: Show 2M+2H2O -> 2MOH+H2 as a stoichiometric particle ledger, and a separate conditional branch for oxide/peroxide/superoxide identity. Do not present hazardous handling instructions or a universal oxygen product. Required on-canvas Chinese labels, preserved verbatim: 金属M; 水; MOH; H₂; 氧产物差异; 溶剂竞争. Use a 1200 by 1000 canvas. Reflow panels vertically on mobile, with rendered labels at least12 CSS px, target14. Use shape/line style as well as color, white background and high contrast. Keep geometry, arrows and editable text on separate layers. The final scientific output must be constructed with SVG or deterministic mathematical plotting; an AI image is only a layout draft and cannot certify geometry, counts, membranes or formulas. Make annotated teaching and blank assessment variants separately, using only existing stated problem data. Recheck these theory/source references before production: https://openstax.org/books/chemistry-2e/pages/18-1-periodicity. These sources do not certify2027 exam scope or official marking rules.
+
+**Negative Prompt**
+
+不得反转箭头运算、偷换单位、改变题给数据、使用错误比例、吞掉绝对值、隐藏条件或伪造实测刻度。不使用乱码、伪官方标志、水印遮挡、未说明的缩写或“同上”。
+
+No reversed operations/arrows, changed problem values, inconsistent units/scales, missing absolute-value bars, hidden conditions or invented measured axes. No garbled Chinese, fake official logos, obscuring watermarks, unexplained abbreviations or references to another prompt.
+
+### ILL-B04-CHEM-9_2 · 9.2 焰色试验：结构、条件及守恒图
+
+1. 唯一ID：ILL-B04-CHEM-9_2
+2. 科目：化学
+3. 真实章节及小节：第9章 IA族元素：钠和钾／9.2 焰色试验
+4. 插图标题：9.2 焰色试验：结构、条件及守恒图
+5. 教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。
+6. 必须出现的对象：能级差；激发；发射光；Na黄；K淡紫；空白对照
+7. 不可画错的科学关系：激发吸能、跃迁发光；单光子E=hc/λ，波长先换SI单位。；定性颜色须有空白、标准及污染控制；未见信号不等于证明零含量。；混合样本的强Na发射可干扰K观察，过滤改善区分但不自动给纯度或浓度。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。
+8. 中文文字及标签：能级差；激发；发射光；Na黄；K淡紫；空白对照
+9. 公式、单位与变量：激发吸能、跃迁发光；单光子E=hc/λ，波长先换SI单位。；定性颜色须有空白、标准及污染控制；未见信号不等于证明零含量。；混合样本的强Na发射可干扰K观察，过滤改善区分但不自动给纯度或浓度。
+10. 精确构图要求：激发吸能、跃迁发光；单光子E=hc/λ，波长先换SI单位。；定性颜色须有空白、标准及污染控制；未见信号不等于证明零含量。；混合样本的强Na发射可干扰K观察，过滤改善区分但不自动给纯度或浓度。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；科学图层与文字分层；相邻面板坐标/颜色语义一致
+11. 比例及尺寸：{'width_px': 1200, 'height_px': 1000, 'aspect_ratio': '1200:1000', 'minimum_rendered_label_css_px': 12}
+12. 完整中文Prompt：见本条下方完整中文Prompt，可独立复制。
+13. 完整英文Prompt：见本条下方Complete English prompt，可独立复制。
+14. Negative Prompt：见本条下方中英文Negative Prompt。
+15. 科学准确性验收：激发吸能、跃迁发光；单光子E=hc/λ，波长先换SI单位。；定性颜色须有空白、标准及污染控制；未见信号不等于证明零含量。；混合样本的强Na发射可干扰K观察，过滤改善区分但不自动给纯度或浓度。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；逐字核对标签，逐项验算计数、单位、坐标与箭头；标注版/留空版不混用；人工科学复核后才能接入正式页面
+16. 来源／理论依据：os_b04_9.2 https://openstax.org/books/chemistry-2e/pages/6-1-electromagnetic-energy（partially_verified）
+17. 优先级：P1
+18. 旧图复用：partial；可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。
+19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+
+**完整中文Prompt**
+
+为UEC中文原创学习笔记绘制“9.2 焰色试验：结构、条件及守恒图”。唯一ID：ILL-B04-CHEM-9_2。科目化学，原第9章“IA族元素：钠和钾”，真实小节9.2“焰色试验”。教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。。必须画出的对象与正确关系：激发吸能、跃迁发光；单光子E=hc/λ，波长先换SI单位。；定性颜色须有空白、标准及污染控制；未见信号不等于证明零含量。；混合样本的强Na发射可干扰K观察，过滤改善区分但不自动给纯度或浓度。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。。图中文字逐项准确保留：能级差；激发；发射光；Na黄；K淡紫；空白对照。采用1200×1000画布；双面板在手机可拆为纵向，渲染文字至少12 CSS px、目标14；线型/形状与颜色共同区分。白底高对比，科学层、箭头、文字分层，公式变量和单位不能装饰化。最终科学图优先用SVG/数学绘图库确定性制作。AI仅可作构图草稿，所有数值、几何、膜层和文字须重建核验后才能用于教学。标注版与练习留空版分开，只采用已有题给条件，不泄露检测答案。来源/理论核对：https://openstax.org/books/chemistry-2e/pages/6-1-electromagnetic-energy。来源不等于2027考试范围确认；制作前重新核对。
+
+**Complete English prompt**
+
+Create an original Chinese-language teaching diagram titled "9.2 焰色试验：结构、条件及守恒图". Unique ID ILL-B04-CHEM-9_2; Chemistry, existing chapter 9, actual subsection 9.2 ("焰色试验"). Scientific objects, relationships and exact constraints: Draw an excitation/emission energy-level diagram and a blank/Na/K/mixed-sample evidence panel. Distinguish yellow sodium interference from potassium evidence. Keep the stated 600 nm value explicitly illustrative, not a measured sodium line. Required on-canvas Chinese labels, preserved verbatim: 能级差; 激发; 发射光; Na黄; K淡紫; 空白对照. Use a 1200 by 1000 canvas. Reflow panels vertically on mobile, with rendered labels at least12 CSS px, target14. Use shape/line style as well as color, white background and high contrast. Keep geometry, arrows and editable text on separate layers. The final scientific output must be constructed with SVG or deterministic mathematical plotting; an AI image is only a layout draft and cannot certify geometry, counts, membranes or formulas. Make annotated teaching and blank assessment variants separately, using only existing stated problem data. Recheck these theory/source references before production: https://openstax.org/books/chemistry-2e/pages/6-1-electromagnetic-energy. These sources do not certify2027 exam scope or official marking rules.
+
+**Negative Prompt**
+
+不得反转箭头运算、偷换单位、改变题给数据、使用错误比例、吞掉绝对值、隐藏条件或伪造实测刻度。不使用乱码、伪官方标志、水印遮挡、未说明的缩写或“同上”。
+
+No reversed operations/arrows, changed problem values, inconsistent units/scales, missing absolute-value bars, hidden conditions or invented measured axes. No garbled Chinese, fake official logos, obscuring watermarks, unexplained abbreviations or references to another prompt.
+
+### ILL-B04-CHEM-9_3 · 9.3 钠和钾的重要化合物：结构、条件及守恒图
+
+1. 唯一ID：ILL-B04-CHEM-9_3
+2. 科目：化学
+3. 真实章节及小节：第9章 IA族元素：钠和钾／9.3 钠和钾的重要化合物
+4. 插图标题：9.3 钠和钾的重要化合物：结构、条件及守恒图
+5. 教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。
+6. 必须出现的对象：NaCl/KCl；NaOH；Na₂CO₃；NaHCO₃；KNO₃；酸耗与气量
+7. 不可画错的科学关系：足量强酸：CO₃²⁻+2H⁺→CO₂+H₂O；HCO₃⁻+H⁺→CO₂+H₂O，两者碳相同但酸耗不同。；2NaHCO₃→Na₂CO₃+CO₂+H₂O；气量与质量损失须区分是否收集水蒸气。；水合物M=无水盐M+水数×18；混合盐问题可由CO₂量和H⁺量建立两独立方程。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。
+8. 中文文字及标签：NaCl/KCl；NaOH；Na₂CO₃；NaHCO₃；KNO₃；酸耗与气量
+9. 公式、单位与变量：足量强酸：CO₃²⁻+2H⁺→CO₂+H₂O；HCO₃⁻+H⁺→CO₂+H₂O，两者碳相同但酸耗不同。；2NaHCO₃→Na₂CO₃+CO₂+H₂O；气量与质量损失须区分是否收集水蒸气。；水合物M=无水盐M+水数×18；混合盐问题可由CO₂量和H⁺量建立两独立方程。
+10. 精确构图要求：足量强酸：CO₃²⁻+2H⁺→CO₂+H₂O；HCO₃⁻+H⁺→CO₂+H₂O，两者碳相同但酸耗不同。；2NaHCO₃→Na₂CO₃+CO₂+H₂O；气量与质量损失须区分是否收集水蒸气。；水合物M=无水盐M+水数×18；混合盐问题可由CO₂量和H⁺量建立两独立方程。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；科学图层与文字分层；相邻面板坐标/颜色语义一致
+11. 比例及尺寸：{'width_px': 1200, 'height_px': 1000, 'aspect_ratio': '1200:1000', 'minimum_rendered_label_css_px': 12}
+12. 完整中文Prompt：见本条下方完整中文Prompt，可独立复制。
+13. 完整英文Prompt：见本条下方Complete English prompt，可独立复制。
+14. Negative Prompt：见本条下方中英文Negative Prompt。
+15. 科学准确性验收：足量强酸：CO₃²⁻+2H⁺→CO₂+H₂O；HCO₃⁻+H⁺→CO₂+H₂O，两者碳相同但酸耗不同。；2NaHCO₃→Na₂CO₃+CO₂+H₂O；气量与质量损失须区分是否收集水蒸气。；水合物M=无水盐M+水数×18；混合盐问题可由CO₂量和H⁺量建立两独立方程。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；逐字核对标签，逐项验算计数、单位、坐标与箭头；标注版/留空版不混用；人工科学复核后才能接入正式页面
+16. 来源／理论依据：os_b04_9.3 https://openstax.org/books/chemistry-2e/pages/4-3-reaction-stoichiometry（partially_verified）
+17. 优先级：P1
+18. 旧图复用：partial；可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。
+19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+
+**完整中文Prompt**
+
+为UEC中文原创学习笔记绘制“9.3 钠和钾的重要化合物：结构、条件及守恒图”。唯一ID：ILL-B04-CHEM-9_3。科目化学，原第9章“IA族元素：钠和钾”，真实小节9.3“钠和钾的重要化合物”。教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。。必须画出的对象与正确关系：足量强酸：CO₃²⁻+2H⁺→CO₂+H₂O；HCO₃⁻+H⁺→CO₂+H₂O，两者碳相同但酸耗不同。；2NaHCO₃→Na₂CO₃+CO₂+H₂O；气量与质量损失须区分是否收集水蒸气。；水合物M=无水盐M+水数×18；混合盐问题可由CO₂量和H⁺量建立两独立方程。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。。图中文字逐项准确保留：NaCl/KCl；NaOH；Na₂CO₃；NaHCO₃；KNO₃；酸耗与气量。采用1200×1000画布；双面板在手机可拆为纵向，渲染文字至少12 CSS px、目标14；线型/形状与颜色共同区分。白底高对比，科学层、箭头、文字分层，公式变量和单位不能装饰化。最终科学图优先用SVG/数学绘图库确定性制作。AI仅可作构图草稿，所有数值、几何、膜层和文字须重建核验后才能用于教学。标注版与练习留空版分开，只采用已有题给条件，不泄露检测答案。来源/理论核对：https://openstax.org/books/chemistry-2e/pages/4-3-reaction-stoichiometry。来源不等于2027考试范围确认；制作前重新核对。
+
+**Complete English prompt**
+
+Create an original Chinese-language teaching diagram titled "9.3 钠和钾的重要化合物：结构、条件及守恒图". Unique ID ILL-B04-CHEM-9_3; Chemistry, existing chapter 9, actual subsection 9.3 ("钠和钾的重要化合物"). Scientific objects, relationships and exact constraints: Create a reaction/quantity comparison for carbonate and hydrogencarbonate under excess acid, plus bicarbonate heating and hydrate accounting. Label CO2 yield and H+ consumption separately; never assume acid excess when unspecified. Required on-canvas Chinese labels, preserved verbatim: NaCl/KCl; NaOH; Na₂CO₃; NaHCO₃; KNO₃; 酸耗与气量. Use a 1200 by 1000 canvas. Reflow panels vertically on mobile, with rendered labels at least12 CSS px, target14. Use shape/line style as well as color, white background and high contrast. Keep geometry, arrows and editable text on separate layers. The final scientific output must be constructed with SVG or deterministic mathematical plotting; an AI image is only a layout draft and cannot certify geometry, counts, membranes or formulas. Make annotated teaching and blank assessment variants separately, using only existing stated problem data. Recheck these theory/source references before production: https://openstax.org/books/chemistry-2e/pages/4-3-reaction-stoichiometry. These sources do not certify2027 exam scope or official marking rules.
+
+**Negative Prompt**
+
+不得反转箭头运算、偷换单位、改变题给数据、使用错误比例、吞掉绝对值、隐藏条件或伪造实测刻度。不使用乱码、伪官方标志、水印遮挡、未说明的缩写或“同上”。
+
+No reversed operations/arrows, changed problem values, inconsistent units/scales, missing absolute-value bars, hidden conditions or invented measured axes. No garbled Chinese, fake official logos, obscuring watermarks, unexplained abbreviations or references to another prompt.
+
+## 化学 第10章 IIA族元素：镁和钙
+
+### ILL-B04-CHEM-10_1_1 · 10.1.1 镁和钙的物理性质：结构、条件及守恒图
+
+1. 唯一ID：ILL-B04-CHEM-10_1_1
+2. 科目：化学
+3. 真实章节及小节：第10章 IIA族元素：镁和钙／10.1.1 镁和钙的物理性质
+4. 插图标题：10.1.1 镁和钙的物理性质：结构、条件及守恒图
+5. 教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。
+6. 必须出现的对象：Mg/Ca；金属电子；密度；质量；体积；材料条件
+7. 不可画错的科学关系：ρ=m/V；同质量时V=m/ρ，低密度意味着体积相对较大。；ns²提供族内结构线索，不构成全部宏观物性同向变化的定理。；材料性能比较需控制组成和状态，纯金属与合金不可混作同一数据集。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。
+8. 中文文字及标签：Mg/Ca；金属电子；密度；质量；体积；材料条件
+9. 公式、单位与变量：ρ=m/V；同质量时V=m/ρ，低密度意味着体积相对较大。；ns²提供族内结构线索，不构成全部宏观物性同向变化的定理。；材料性能比较需控制组成和状态，纯金属与合金不可混作同一数据集。
+10. 精确构图要求：ρ=m/V；同质量时V=m/ρ，低密度意味着体积相对较大。；ns²提供族内结构线索，不构成全部宏观物性同向变化的定理。；材料性能比较需控制组成和状态，纯金属与合金不可混作同一数据集。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；科学图层与文字分层；相邻面板坐标/颜色语义一致
+11. 比例及尺寸：{'width_px': 1200, 'height_px': 1000, 'aspect_ratio': '1200:1000', 'minimum_rendered_label_css_px': 12}
+12. 完整中文Prompt：见本条下方完整中文Prompt，可独立复制。
+13. 完整英文Prompt：见本条下方Complete English prompt，可独立复制。
+14. Negative Prompt：见本条下方中英文Negative Prompt。
+15. 科学准确性验收：ρ=m/V；同质量时V=m/ρ，低密度意味着体积相对较大。；ns²提供族内结构线索，不构成全部宏观物性同向变化的定理。；材料性能比较需控制组成和状态，纯金属与合金不可混作同一数据集。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；逐字核对标签，逐项验算计数、单位、坐标与箭头；标注版/留空版不混用；人工科学复核后才能接入正式页面
+16. 来源／理论依据：os_b04_10.1.1 https://openstax.org/books/chemistry-2e/pages/18-1-periodicity（partially_verified）
+17. 优先级：P1
+18. 旧图复用：partial；可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。
+19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+
+**完整中文Prompt**
+
+为UEC中文原创学习笔记绘制“10.1.1 镁和钙的物理性质：结构、条件及守恒图”。唯一ID：ILL-B04-CHEM-10_1_1。科目化学，原第10章“IIA族元素：镁和钙”，真实小节10.1.1“镁和钙的物理性质”。教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。。必须画出的对象与正确关系：ρ=m/V；同质量时V=m/ρ，低密度意味着体积相对较大。；ns²提供族内结构线索，不构成全部宏观物性同向变化的定理。；材料性能比较需控制组成和状态，纯金属与合金不可混作同一数据集。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。。图中文字逐项准确保留：Mg/Ca；金属电子；密度；质量；体积；材料条件。采用1200×1000画布；双面板在手机可拆为纵向，渲染文字至少12 CSS px、目标14；线型/形状与颜色共同区分。白底高对比，科学层、箭头、文字分层，公式变量和单位不能装饰化。最终科学图优先用SVG/数学绘图库确定性制作。AI仅可作构图草稿，所有数值、几何、膜层和文字须重建核验后才能用于教学。标注版与练习留空版分开，只采用已有题给条件，不泄露检测答案。来源/理论核对：https://openstax.org/books/chemistry-2e/pages/18-1-periodicity。来源不等于2027考试范围确认；制作前重新核对。
+
+**Complete English prompt**
+
+Create an original Chinese-language teaching diagram titled "10.1.1 镁和钙的物理性质：结构、条件及守恒图". Unique ID ILL-B04-CHEM-10_1_1; Chemistry, existing chapter 10, actual subsection 10.1.1 ("镁和钙的物理性质"). Scientific objects, relationships and exact constraints: Draw equal-mass and equal-volume metal comparisons using explicitly stated densities. Label electrons as carriers in the metal, and keep pure-metal data separate from alloy performance; do not imply all group-2 melting points are equal. Required on-canvas Chinese labels, preserved verbatim: Mg/Ca; 金属电子; 密度; 质量; 体积; 材料条件. Use a 1200 by 1000 canvas. Reflow panels vertically on mobile, with rendered labels at least12 CSS px, target14. Use shape/line style as well as color, white background and high contrast. Keep geometry, arrows and editable text on separate layers. The final scientific output must be constructed with SVG or deterministic mathematical plotting; an AI image is only a layout draft and cannot certify geometry, counts, membranes or formulas. Make annotated teaching and blank assessment variants separately, using only existing stated problem data. Recheck these theory/source references before production: https://openstax.org/books/chemistry-2e/pages/18-1-periodicity. These sources do not certify2027 exam scope or official marking rules.
+
+**Negative Prompt**
+
+不得反转箭头运算、偷换单位、改变题给数据、使用错误比例、吞掉绝对值、隐藏条件或伪造实测刻度。不使用乱码、伪官方标志、水印遮挡、未说明的缩写或“同上”。
+
+No reversed operations/arrows, changed problem values, inconsistent units/scales, missing absolute-value bars, hidden conditions or invented measured axes. No garbled Chinese, fake official logos, obscuring watermarks, unexplained abbreviations or references to another prompt.
+
+### ILL-B04-CHEM-10_1_2 · 10.1.2 镁和钙的化学性质：结构、条件及守恒图
+
+1. 唯一ID：ILL-B04-CHEM-10_1_2
+2. 科目：化学
+3. 真实章节及小节：第10章 IIA族元素：镁和钙／10.1.2 镁和钙的化学性质
+4. 插图标题：10.1.2 镁和钙的化学性质：结构、条件及守恒图
+5. 教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。
+6. 必须出现的对象：Mg/Ca；冷水/蒸汽；酸；氧化物/氮化物；H₂
+7. 不可画错的科学关系：Mg/Ca到M²⁺每mol失2mol电子；与非氧化性酸完全反应常为1mol金属给1mol H₂。；冷水、热水、水蒸气及氧化性酸是不同条件，产物与速率需分别确认。；Mg₃N₂+6H₂O→3Mg(OH)₂+2NH₃，氮化物与氧化物的后续产物不同。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。
+8. 中文文字及标签：Mg/Ca；冷水/蒸汽；酸；氧化物/氮化物；H₂
+9. 公式、单位与变量：Mg/Ca到M²⁺每mol失2mol电子；与非氧化性酸完全反应常为1mol金属给1mol H₂。；冷水、热水、水蒸气及氧化性酸是不同条件，产物与速率需分别确认。；Mg₃N₂+6H₂O→3Mg(OH)₂+2NH₃，氮化物与氧化物的后续产物不同。
+10. 精确构图要求：Mg/Ca到M²⁺每mol失2mol电子；与非氧化性酸完全反应常为1mol金属给1mol H₂。；冷水、热水、水蒸气及氧化性酸是不同条件，产物与速率需分别确认。；Mg₃N₂+6H₂O→3Mg(OH)₂+2NH₃，氮化物与氧化物的后续产物不同。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；科学图层与文字分层；相邻面板坐标/颜色语义一致
+11. 比例及尺寸：{'width_px': 1200, 'height_px': 1000, 'aspect_ratio': '1200:1000', 'minimum_rendered_label_css_px': 12}
+12. 完整中文Prompt：见本条下方完整中文Prompt，可独立复制。
+13. 完整英文Prompt：见本条下方Complete English prompt，可独立复制。
+14. Negative Prompt：见本条下方中英文Negative Prompt。
+15. 科学准确性验收：Mg/Ca到M²⁺每mol失2mol电子；与非氧化性酸完全反应常为1mol金属给1mol H₂。；冷水、热水、水蒸气及氧化性酸是不同条件，产物与速率需分别确认。；Mg₃N₂+6H₂O→3Mg(OH)₂+2NH₃，氮化物与氧化物的后续产物不同。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；逐字核对标签，逐项验算计数、单位、坐标与箭头；标注版/留空版不混用；人工科学复核后才能接入正式页面
+16. 来源／理论依据：os_b04_10.1.2 https://openstax.org/books/chemistry-2e/pages/18-1-periodicity（partially_verified）
+17. 优先级：P1
+18. 旧图复用：partial；可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。
+19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+
+**完整中文Prompt**
+
+为UEC中文原创学习笔记绘制“10.1.2 镁和钙的化学性质：结构、条件及守恒图”。唯一ID：ILL-B04-CHEM-10_1_2。科目化学，原第10章“IIA族元素：镁和钙”，真实小节10.1.2“镁和钙的化学性质”。教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。。必须画出的对象与正确关系：Mg/Ca到M²⁺每mol失2mol电子；与非氧化性酸完全反应常为1mol金属给1mol H₂。；冷水、热水、水蒸气及氧化性酸是不同条件，产物与速率需分别确认。；Mg₃N₂+6H₂O→3Mg(OH)₂+2NH₃，氮化物与氧化物的后续产物不同。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。。图中文字逐项准确保留：Mg/Ca；冷水/蒸汽；酸；氧化物/氮化物；H₂。采用1200×1000画布；双面板在手机可拆为纵向，渲染文字至少12 CSS px、目标14；线型/形状与颜色共同区分。白底高对比，科学层、箭头、文字分层，公式变量和单位不能装饰化。最终科学图优先用SVG/数学绘图库确定性制作。AI仅可作构图草稿，所有数值、几何、膜层和文字须重建核验后才能用于教学。标注版与练习留空版分开，只采用已有题给条件，不泄露检测答案。来源/理论核对：https://openstax.org/books/chemistry-2e/pages/18-1-periodicity。来源不等于2027考试范围确认；制作前重新核对。
+
+**Complete English prompt**
+
+Create an original Chinese-language teaching diagram titled "10.1.2 镁和钙的化学性质：结构、条件及守恒图". Unique ID ILL-B04-CHEM-10_1_2; Chemistry, existing chapter 10, actual subsection 10.1.2 ("镁和钙的化学性质"). Scientific objects, relationships and exact constraints: Create a conditional reaction map separating calcium with cold water, magnesium with steam, and magnesium in air. Track nitrogen into Mg3N2 and NH3 without claiming pure MgO. Include balanced equations and no experimental recipe. Required on-canvas Chinese labels, preserved verbatim: Mg/Ca; 冷水/蒸汽; 酸; 氧化物/氮化物; H₂. Use a 1200 by 1000 canvas. Reflow panels vertically on mobile, with rendered labels at least12 CSS px, target14. Use shape/line style as well as color, white background and high contrast. Keep geometry, arrows and editable text on separate layers. The final scientific output must be constructed with SVG or deterministic mathematical plotting; an AI image is only a layout draft and cannot certify geometry, counts, membranes or formulas. Make annotated teaching and blank assessment variants separately, using only existing stated problem data. Recheck these theory/source references before production: https://openstax.org/books/chemistry-2e/pages/18-1-periodicity. These sources do not certify2027 exam scope or official marking rules.
+
+**Negative Prompt**
+
+不得反转箭头运算、偷换单位、改变题给数据、使用错误比例、吞掉绝对值、隐藏条件或伪造实测刻度。不使用乱码、伪官方标志、水印遮挡、未说明的缩写或“同上”。
+
+No reversed operations/arrows, changed problem values, inconsistent units/scales, missing absolute-value bars, hidden conditions or invented measured axes. No garbled Chinese, fake official logos, obscuring watermarks, unexplained abbreviations or references to another prompt.
+
+### ILL-B04-CHEM-10_2 · 10.2 镁的重要化合物：结构、条件及守恒图
+
+1. 唯一ID：ILL-B04-CHEM-10_2
+2. 科目：化学
+3. 真实章节及小节：第10章 IIA族元素：镁和钙／10.2 镁的重要化合物
+4. 插图标题：10.2 镁的重要化合物：结构、条件及守恒图
+5. 教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。
+6. 必须出现的对象：MgO；Mg(OH)₂；MgCl₂；MgSO₄·7H₂O；沉淀与水解
+7. 不可画错的科学关系：MgO+2H⁺→Mg²⁺+H₂O；Mg(OH)₂+2H⁺→Mg²⁺+2H₂O。；MgSO₄·7H₂O每mol含1mol Mg与7mol水，水合物质量分数不能用无水盐M。；水合MgCl₂的实际加热可能水解；只有明确纯失水模型才可直接减水质量。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。
+8. 中文文字及标签：MgO；Mg(OH)₂；MgCl₂；MgSO₄·7H₂O；沉淀与水解
+9. 公式、单位与变量：MgO+2H⁺→Mg²⁺+H₂O；Mg(OH)₂+2H⁺→Mg²⁺+2H₂O。；MgSO₄·7H₂O每mol含1mol Mg与7mol水，水合物质量分数不能用无水盐M。；水合MgCl₂的实际加热可能水解；只有明确纯失水模型才可直接减水质量。
+10. 精确构图要求：MgO+2H⁺→Mg²⁺+H₂O；Mg(OH)₂+2H⁺→Mg²⁺+2H₂O。；MgSO₄·7H₂O每mol含1mol Mg与7mol水，水合物质量分数不能用无水盐M。；水合MgCl₂的实际加热可能水解；只有明确纯失水模型才可直接减水质量。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；科学图层与文字分层；相邻面板坐标/颜色语义一致
+11. 比例及尺寸：{'width_px': 1200, 'height_px': 1000, 'aspect_ratio': '1200:1000', 'minimum_rendered_label_css_px': 12}
+12. 完整中文Prompt：见本条下方完整中文Prompt，可独立复制。
+13. 完整英文Prompt：见本条下方Complete English prompt，可独立复制。
+14. Negative Prompt：见本条下方中英文Negative Prompt。
+15. 科学准确性验收：MgO+2H⁺→Mg²⁺+H₂O；Mg(OH)₂+2H⁺→Mg²⁺+2H₂O。；MgSO₄·7H₂O每mol含1mol Mg与7mol水，水合物质量分数不能用无水盐M。；水合MgCl₂的实际加热可能水解；只有明确纯失水模型才可直接减水质量。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；逐字核对标签，逐项验算计数、单位、坐标与箭头；标注版/留空版不混用；人工科学复核后才能接入正式页面
+16. 来源／理论依据：os_b04_10.2 https://openstax.org/books/chemistry-2e/pages/18-2-occurrence-and-preparation-of-the-representative-metals（partially_verified）
+17. 优先级：P1
+18. 旧图复用：partial；可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。
+19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+
+**完整中文Prompt**
+
+为UEC中文原创学习笔记绘制“10.2 镁的重要化合物：结构、条件及守恒图”。唯一ID：ILL-B04-CHEM-10_2。科目化学，原第10章“IIA族元素：镁和钙”，真实小节10.2“镁的重要化合物”。教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。。必须画出的对象与正确关系：MgO+2H⁺→Mg²⁺+H₂O；Mg(OH)₂+2H⁺→Mg²⁺+2H₂O。；MgSO₄·7H₂O每mol含1mol Mg与7mol水，水合物质量分数不能用无水盐M。；水合MgCl₂的实际加热可能水解；只有明确纯失水模型才可直接减水质量。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。。图中文字逐项准确保留：MgO；Mg(OH)₂；MgCl₂；MgSO₄·7H₂O；沉淀与水解。采用1200×1000画布；双面板在手机可拆为纵向，渲染文字至少12 CSS px、目标14；线型/形状与颜色共同区分。白底高对比，科学层、箭头、文字分层，公式变量和单位不能装饰化。最终科学图优先用SVG/数学绘图库确定性制作。AI仅可作构图草稿，所有数值、几何、膜层和文字须重建核验后才能用于教学。标注版与练习留空版分开，只采用已有题给条件，不泄露检测答案。来源/理论核对：https://openstax.org/books/chemistry-2e/pages/18-2-occurrence-and-preparation-of-the-representative-metals。来源不等于2027考试范围确认；制作前重新核对。
+
+**Complete English prompt**
+
+Create an original Chinese-language teaching diagram titled "10.2 镁的重要化合物：结构、条件及守恒图". Unique ID ILL-B04-CHEM-10_2; Chemistry, existing chapter 10, actual subsection 10.2 ("镁的重要化合物"). Scientific objects, relationships and exact constraints: Draw a compound map distinguishing acid dissolution, hydroxide precipitation, hydrated sulfate accounting and possible chloride hydrolysis. Do not show direct heating as guaranteed preparation of anhydrous MgCl2; label each condition and species. Required on-canvas Chinese labels, preserved verbatim: MgO; Mg(OH)₂; MgCl₂; MgSO₄·7H₂O; 沉淀与水解. Use a 1200 by 1000 canvas. Reflow panels vertically on mobile, with rendered labels at least12 CSS px, target14. Use shape/line style as well as color, white background and high contrast. Keep geometry, arrows and editable text on separate layers. The final scientific output must be constructed with SVG or deterministic mathematical plotting; an AI image is only a layout draft and cannot certify geometry, counts, membranes or formulas. Make annotated teaching and blank assessment variants separately, using only existing stated problem data. Recheck these theory/source references before production: https://openstax.org/books/chemistry-2e/pages/18-2-occurrence-and-preparation-of-the-representative-metals. These sources do not certify2027 exam scope or official marking rules.
+
+**Negative Prompt**
+
+不得反转箭头运算、偷换单位、改变题给数据、使用错误比例、吞掉绝对值、隐藏条件或伪造实测刻度。不使用乱码、伪官方标志、水印遮挡、未说明的缩写或“同上”。
+
+No reversed operations/arrows, changed problem values, inconsistent units/scales, missing absolute-value bars, hidden conditions or invented measured axes. No garbled Chinese, fake official logos, obscuring watermarks, unexplained abbreviations or references to another prompt.
+
+### ILL-B04-CHEM-10_3 · 10.3 钙的重要化合物：结构、条件及守恒图
+
+1. 唯一ID：ILL-B04-CHEM-10_3
+2. 科目：化学
+3. 真实章节及小节：第10章 IIA族元素：镁和钙／10.3 钙的重要化合物
+4. 插图标题：10.3 钙的重要化合物：结构、条件及守恒图
+5. 教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。
+6. 必须出现的对象：CaO；Ca(OH)₂；CaCO₃；Ca(HCO₃)₂；石膏水合数
+7. 不可画错的科学关系：CaO+H₂O→Ca(OH)₂；Ca(OH)₂+CO₂→CaCO₃+H₂O。；CaCO₃+CO₂+H₂O→Ca(HCO₃)₂，CO₂过量可使先有沉淀再溶解。；CaSO₄·2H₂O→CaSO₄·1/2H₂O+3/2H₂O是理想脱水计量；可整体乘2消分数。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。
+8. 中文文字及标签：CaO；Ca(OH)₂；CaCO₃；Ca(HCO₃)₂；石膏水合数
+9. 公式、单位与变量：CaO+H₂O→Ca(OH)₂；Ca(OH)₂+CO₂→CaCO₃+H₂O。；CaCO₃+CO₂+H₂O→Ca(HCO₃)₂，CO₂过量可使先有沉淀再溶解。；CaSO₄·2H₂O→CaSO₄·1/2H₂O+3/2H₂O是理想脱水计量；可整体乘2消分数。
+10. 精确构图要求：CaO+H₂O→Ca(OH)₂；Ca(OH)₂+CO₂→CaCO₃+H₂O。；CaCO₃+CO₂+H₂O→Ca(HCO₃)₂，CO₂过量可使先有沉淀再溶解。；CaSO₄·2H₂O→CaSO₄·1/2H₂O+3/2H₂O是理想脱水计量；可整体乘2消分数。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；科学图层与文字分层；相邻面板坐标/颜色语义一致
+11. 比例及尺寸：{'width_px': 1200, 'height_px': 1000, 'aspect_ratio': '1200:1000', 'minimum_rendered_label_css_px': 12}
+12. 完整中文Prompt：见本条下方完整中文Prompt，可独立复制。
+13. 完整英文Prompt：见本条下方Complete English prompt，可独立复制。
+14. Negative Prompt：见本条下方中英文Negative Prompt。
+15. 科学准确性验收：CaO+H₂O→Ca(OH)₂；Ca(OH)₂+CO₂→CaCO₃+H₂O。；CaCO₃+CO₂+H₂O→Ca(HCO₃)₂，CO₂过量可使先有沉淀再溶解。；CaSO₄·2H₂O→CaSO₄·1/2H₂O+3/2H₂O是理想脱水计量；可整体乘2消分数。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；逐字核对标签，逐项验算计数、单位、坐标与箭头；标注版/留空版不混用；人工科学复核后才能接入正式页面
+16. 来源／理论依据：os_b04_10.3 https://openstax.org/books/chemistry-2e/pages/18-1-periodicity（partially_verified）
+17. 优先级：P1
+18. 旧图复用：partial；可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。
+19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+
+**完整中文Prompt**
+
+为UEC中文原创学习笔记绘制“10.3 钙的重要化合物：结构、条件及守恒图”。唯一ID：ILL-B04-CHEM-10_3。科目化学，原第10章“IIA族元素：镁和钙”，真实小节10.3“钙的重要化合物”。教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。。必须画出的对象与正确关系：CaO+H₂O→Ca(OH)₂；Ca(OH)₂+CO₂→CaCO₃+H₂O。；CaCO₃+CO₂+H₂O→Ca(HCO₃)₂，CO₂过量可使先有沉淀再溶解。；CaSO₄·2H₂O→CaSO₄·1/2H₂O+3/2H₂O是理想脱水计量；可整体乘2消分数。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。。图中文字逐项准确保留：CaO；Ca(OH)₂；CaCO₃；Ca(HCO₃)₂；石膏水合数。采用1200×1000画布；双面板在手机可拆为纵向，渲染文字至少12 CSS px、目标14；线型/形状与颜色共同区分。白底高对比，科学层、箭头、文字分层，公式变量和单位不能装饰化。最终科学图优先用SVG/数学绘图库确定性制作。AI仅可作构图草稿，所有数值、几何、膜层和文字须重建核验后才能用于教学。标注版与练习留空版分开，只采用已有题给条件，不泄露检测答案。来源/理论核对：https://openstax.org/books/chemistry-2e/pages/18-1-periodicity。来源不等于2027考试范围确认；制作前重新核对。
+
+**Complete English prompt**
+
+Create an original Chinese-language teaching diagram titled "10.3 钙的重要化合物：结构、条件及守恒图". Unique ID ILL-B04-CHEM-10_3; Chemistry, existing chapter 10, actual subsection 10.3 ("钙的重要化合物"). Scientific objects, relationships and exact constraints: Show the lime cycle and two separate CO2 stages: precipitation then dissolution in excess CO2. Include gypsum-to-hemihydrate water accounting with 2CaSO4 per H2O, not a cut half molecule. Keep solution and suspension distinct. Required on-canvas Chinese labels, preserved verbatim: CaO; Ca(OH)₂; CaCO₃; Ca(HCO₃)₂; 石膏水合数. Use a 1200 by 1000 canvas. Reflow panels vertically on mobile, with rendered labels at least12 CSS px, target14. Use shape/line style as well as color, white background and high contrast. Keep geometry, arrows and editable text on separate layers. The final scientific output must be constructed with SVG or deterministic mathematical plotting; an AI image is only a layout draft and cannot certify geometry, counts, membranes or formulas. Make annotated teaching and blank assessment variants separately, using only existing stated problem data. Recheck these theory/source references before production: https://openstax.org/books/chemistry-2e/pages/18-1-periodicity. These sources do not certify2027 exam scope or official marking rules.
+
+**Negative Prompt**
+
+不得反转箭头运算、偷换单位、改变题给数据、使用错误比例、吞掉绝对值、隐藏条件或伪造实测刻度。不使用乱码、伪官方标志、水印遮挡、未说明的缩写或“同上”。
+
+No reversed operations/arrows, changed problem values, inconsistent units/scales, missing absolute-value bars, hidden conditions or invented measured axes. No garbled Chinese, fake official logos, obscuring watermarks, unexplained abbreviations or references to another prompt.
+
+### ILL-B04-CHEM-10_4 · 10.4 镁离子和钙离子的检验：结构、条件及守恒图
+
+1. 唯一ID：ILL-B04-CHEM-10_4
+2. 科目：化学
+3. 真实章节及小节：第10章 IIA族元素：镁和钙／10.4 镁离子和钙离子的检验
+4. 插图标题：10.4 镁离子和钙离子的检验：结构、条件及守恒图
+5. 教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。
+6. 必须出现的对象：Mg²⁺；OH⁻沉淀；Ca²⁺；草酸根；空白/标准；分份
+7. 不可画错的科学关系：Mg²⁺+2OH⁻→Mg(OH)₂；Ca²⁺+C₂O₄²⁻→CaC₂O₄，各式需检元素和总电荷。；沉淀形成有浓度/pH条件；一次阴性不证明绝对零含量，阳性也未必排尽干扰。；沉淀定量需纯度和完全性前提，n(目标离子)由净离子式确定。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。
+8. 中文文字及标签：Mg²⁺；OH⁻沉淀；Ca²⁺；草酸根；空白/标准；分份
+9. 公式、单位与变量：Mg²⁺+2OH⁻→Mg(OH)₂；Ca²⁺+C₂O₄²⁻→CaC₂O₄，各式需检元素和总电荷。；沉淀形成有浓度/pH条件；一次阴性不证明绝对零含量，阳性也未必排尽干扰。；沉淀定量需纯度和完全性前提，n(目标离子)由净离子式确定。
+10. 精确构图要求：Mg²⁺+2OH⁻→Mg(OH)₂；Ca²⁺+C₂O₄²⁻→CaC₂O₄，各式需检元素和总电荷。；沉淀形成有浓度/pH条件；一次阴性不证明绝对零含量，阳性也未必排尽干扰。；沉淀定量需纯度和完全性前提，n(目标离子)由净离子式确定。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；科学图层与文字分层；相邻面板坐标/颜色语义一致
+11. 比例及尺寸：{'width_px': 1200, 'height_px': 1000, 'aspect_ratio': '1200:1000', 'minimum_rendered_label_css_px': 12}
+12. 完整中文Prompt：见本条下方完整中文Prompt，可独立复制。
+13. 完整英文Prompt：见本条下方Complete English prompt，可独立复制。
+14. Negative Prompt：见本条下方中英文Negative Prompt。
+15. 科学准确性验收：Mg²⁺+2OH⁻→Mg(OH)₂；Ca²⁺+C₂O₄²⁻→CaC₂O₄，各式需检元素和总电荷。；沉淀形成有浓度/pH条件；一次阴性不证明绝对零含量，阳性也未必排尽干扰。；沉淀定量需纯度和完全性前提，n(目标离子)由净离子式确定。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；逐字核对标签，逐项验算计数、单位、坐标与箭头；标注版/留空版不混用；人工科学复核后才能接入正式页面
+16. 来源／理论依据：os_b04_10.4 https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions（partially_verified）
+17. 优先级：P1
+18. 旧图复用：partial；可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。
+19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+
+**完整中文Prompt**
+
+为UEC中文原创学习笔记绘制“10.4 镁离子和钙离子的检验：结构、条件及守恒图”。唯一ID：ILL-B04-CHEM-10_4。科目化学，原第10章“IIA族元素：镁和钙”，真实小节10.4“镁离子和钙离子的检验”。教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。。必须画出的对象与正确关系：Mg²⁺+2OH⁻→Mg(OH)₂；Ca²⁺+C₂O₄²⁻→CaC₂O₄，各式需检元素和总电荷。；沉淀形成有浓度/pH条件；一次阴性不证明绝对零含量，阳性也未必排尽干扰。；沉淀定量需纯度和完全性前提，n(目标离子)由净离子式确定。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。。图中文字逐项准确保留：Mg²⁺；OH⁻沉淀；Ca²⁺；草酸根；空白/标准；分份。采用1200×1000画布；双面板在手机可拆为纵向，渲染文字至少12 CSS px、目标14；线型/形状与颜色共同区分。白底高对比，科学层、箭头、文字分层，公式变量和单位不能装饰化。最终科学图优先用SVG/数学绘图库确定性制作。AI仅可作构图草稿，所有数值、几何、膜层和文字须重建核验后才能用于教学。标注版与练习留空版分开，只采用已有题给条件，不泄露检测答案。来源/理论核对：https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions。来源不等于2027考试范围确认；制作前重新核对。
+
+**Complete English prompt**
+
+Create an original Chinese-language teaching diagram titled "10.4 镁离子和钙离子的检验：结构、条件及守恒图". Unique ID ILL-B04-CHEM-10_4; Chemistry, existing chapter 10, actual subsection 10.4 ("镁离子和钙离子的检验"). Scientific objects, relationships and exact constraints: Draw an evidence decision tree for Mg hydroxide and Ca oxalate tests, with blanks, standards and interference branches. Label CaC2O4 stoichiometry and hydration assumptions; do not claim a white precipitate uniquely identifies a cation. Required on-canvas Chinese labels, preserved verbatim: Mg²⁺; OH⁻沉淀; Ca²⁺; 草酸根; 空白/标准; 分份. Use a 1200 by 1000 canvas. Reflow panels vertically on mobile, with rendered labels at least12 CSS px, target14. Use shape/line style as well as color, white background and high contrast. Keep geometry, arrows and editable text on separate layers. The final scientific output must be constructed with SVG or deterministic mathematical plotting; an AI image is only a layout draft and cannot certify geometry, counts, membranes or formulas. Make annotated teaching and blank assessment variants separately, using only existing stated problem data. Recheck these theory/source references before production: https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions. These sources do not certify2027 exam scope or official marking rules.
+
+**Negative Prompt**
+
+不得反转箭头运算、偷换单位、改变题给数据、使用错误比例、吞掉绝对值、隐藏条件或伪造实测刻度。不使用乱码、伪官方标志、水印遮挡、未说明的缩写或“同上”。
+
+No reversed operations/arrows, changed problem values, inconsistent units/scales, missing absolute-value bars, hidden conditions or invented measured axes. No garbled Chinese, fake official logos, obscuring watermarks, unexplained abbreviations or references to another prompt.
+
+## 化学 第11章 IIIA族元素：铝
+
+### ILL-B04-CHEM-11_1_1 · 11.1.1 铝的物理性质：结构、条件及守恒图
+
+1. 唯一ID：ILL-B04-CHEM-11_1_1
+2. 科目：化学
+3. 真实章节及小节：第11章 IIIA族元素：铝／11.1.1 铝的物理性质
+4. 插图标题：11.1.1 铝的物理性质：结构、条件及守恒图
+5. 教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。
+6. 必须出现的对象：金属电子；密度ρₘ；电阻率ρₑ；延展性；保护层；比强度
+7. 不可画错的科学关系：质量m=ρₘV；电阻R=ρₑL/A，两种ρ分别是密度与电阻率，不可混用。；相同L及R时A∝ρₑ，导线质量∝ρₘρₑ；轻材料未必在等截面下更低电阻。；比强度需同时给强度和密度，不能用单一“轻”判定承载性能。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。
+8. 中文文字及标签：金属电子；密度ρₘ；电阻率ρₑ；延展性；保护层；比强度
+9. 公式、单位与变量：质量m=ρₘV；电阻R=ρₑL/A，两种ρ分别是密度与电阻率，不可混用。；相同L及R时A∝ρₑ，导线质量∝ρₘρₑ；轻材料未必在等截面下更低电阻。；比强度需同时给强度和密度，不能用单一“轻”判定承载性能。
+10. 精确构图要求：质量m=ρₘV；电阻R=ρₑL/A，两种ρ分别是密度与电阻率，不可混用。；相同L及R时A∝ρₑ，导线质量∝ρₘρₑ；轻材料未必在等截面下更低电阻。；比强度需同时给强度和密度，不能用单一“轻”判定承载性能。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；科学图层与文字分层；相邻面板坐标/颜色语义一致
+11. 比例及尺寸：{'width_px': 1200, 'height_px': 1000, 'aspect_ratio': '1200:1000', 'minimum_rendered_label_css_px': 12}
+12. 完整中文Prompt：见本条下方完整中文Prompt，可独立复制。
+13. 完整英文Prompt：见本条下方Complete English prompt，可独立复制。
+14. Negative Prompt：见本条下方中英文Negative Prompt。
+15. 科学准确性验收：质量m=ρₘV；电阻R=ρₑL/A，两种ρ分别是密度与电阻率，不可混用。；相同L及R时A∝ρₑ，导线质量∝ρₘρₑ；轻材料未必在等截面下更低电阻。；比强度需同时给强度和密度，不能用单一“轻”判定承载性能。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；逐字核对标签，逐项验算计数、单位、坐标与箭头；标注版/留空版不混用；人工科学复核后才能接入正式页面
+16. 来源／理论依据：os_b04_11.1.1 https://openstax.org/books/chemistry-2e/pages/18-1-periodicity（partially_verified）
+17. 优先级：P1
+18. 旧图复用：partial；可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。
+19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+
+**完整中文Prompt**
+
+为UEC中文原创学习笔记绘制“11.1.1 铝的物理性质：结构、条件及守恒图”。唯一ID：ILL-B04-CHEM-11_1_1。科目化学，原第11章“IIIA族元素：铝”，真实小节11.1.1“铝的物理性质”。教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。。必须画出的对象与正确关系：质量m=ρₘV；电阻R=ρₑL/A，两种ρ分别是密度与电阻率，不可混用。；相同L及R时A∝ρₑ，导线质量∝ρₘρₑ；轻材料未必在等截面下更低电阻。；比强度需同时给强度和密度，不能用单一“轻”判定承载性能。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。。图中文字逐项准确保留：金属电子；密度ρₘ；电阻率ρₑ；延展性；保护层；比强度。采用1200×1000画布；双面板在手机可拆为纵向，渲染文字至少12 CSS px、目标14；线型/形状与颜色共同区分。白底高对比，科学层、箭头、文字分层，公式变量和单位不能装饰化。最终科学图优先用SVG/数学绘图库确定性制作。AI仅可作构图草稿，所有数值、几何、膜层和文字须重建核验后才能用于教学。标注版与练习留空版分开，只采用已有题给条件，不泄露检测答案。来源/理论核对：https://openstax.org/books/chemistry-2e/pages/18-1-periodicity。来源不等于2027考试范围确认；制作前重新核对。
+
+**Complete English prompt**
+
+Create an original Chinese-language teaching diagram titled "11.1.1 铝的物理性质：结构、条件及守恒图". Unique ID ILL-B04-CHEM-11_1_1; Chemistry, existing chapter 11, actual subsection 11.1.1 ("铝的物理性质"). Scientific objects, relationships and exact constraints: Show separate mass-density and electrical-resistivity ledgers, with equal-length/equal-resistance wires of different areas. Distinguish pure aluminium, alloys and the surface film; do not invent strength or lifetime measurements. Required on-canvas Chinese labels, preserved verbatim: 金属电子; 密度ρₘ; 电阻率ρₑ; 延展性; 保护层; 比强度. Use a 1200 by 1000 canvas. Reflow panels vertically on mobile, with rendered labels at least12 CSS px, target14. Use shape/line style as well as color, white background and high contrast. Keep geometry, arrows and editable text on separate layers. The final scientific output must be constructed with SVG or deterministic mathematical plotting; an AI image is only a layout draft and cannot certify geometry, counts, membranes or formulas. Make annotated teaching and blank assessment variants separately, using only existing stated problem data. Recheck these theory/source references before production: https://openstax.org/books/chemistry-2e/pages/18-1-periodicity. These sources do not certify2027 exam scope or official marking rules.
+
+**Negative Prompt**
+
+不得反转箭头运算、偷换单位、改变题给数据、使用错误比例、吞掉绝对值、隐藏条件或伪造实测刻度。不使用乱码、伪官方标志、水印遮挡、未说明的缩写或“同上”。
+
+No reversed operations/arrows, changed problem values, inconsistent units/scales, missing absolute-value bars, hidden conditions or invented measured axes. No garbled Chinese, fake official logos, obscuring watermarks, unexplained abbreviations or references to another prompt.
+
+### ILL-B04-CHEM-11_1_2 · 11.1.2 铝的化学性质：结构、条件及守恒图
+
+1. 唯一ID：ILL-B04-CHEM-11_1_2
+2. 科目：化学
+3. 真实章节及小节：第11章 IIIA族元素：铝／11.1.2 铝的化学性质
+4. 插图标题：11.1.2 铝的化学性质：结构、条件及守恒图
+5. 教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。
+6. 必须出现的对象：Al；氧化膜；酸；强碱；[Al(OH)₄]⁻；H₂
+7. 不可画错的科学关系：Al0→Al³⁺+3e⁻；产H₂每mol需2mol电子，理想完全反应n(H₂)=3n(Al)/2。；强碱水溶液采用[Al(OH)₄]⁻表示时必须配入水，不能直接复制AlO₂⁻写法的水系数。；氧化膜和钝化改变表面速率；酸的类型与温度是选择反应式的必要条件。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。
+8. 中文文字及标签：Al；氧化膜；酸；强碱；[Al(OH)₄]⁻；H₂
+9. 公式、单位与变量：Al0→Al³⁺+3e⁻；产H₂每mol需2mol电子，理想完全反应n(H₂)=3n(Al)/2。；强碱水溶液采用[Al(OH)₄]⁻表示时必须配入水，不能直接复制AlO₂⁻写法的水系数。；氧化膜和钝化改变表面速率；酸的类型与温度是选择反应式的必要条件。
+10. 精确构图要求：Al0→Al³⁺+3e⁻；产H₂每mol需2mol电子，理想完全反应n(H₂)=3n(Al)/2。；强碱水溶液采用[Al(OH)₄]⁻表示时必须配入水，不能直接复制AlO₂⁻写法的水系数。；氧化膜和钝化改变表面速率；酸的类型与温度是选择反应式的必要条件。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；科学图层与文字分层；相邻面板坐标/颜色语义一致
+11. 比例及尺寸：{'width_px': 1200, 'height_px': 1000, 'aspect_ratio': '1200:1000', 'minimum_rendered_label_css_px': 12}
+12. 完整中文Prompt：见本条下方完整中文Prompt，可独立复制。
+13. 完整英文Prompt：见本条下方Complete English prompt，可独立复制。
+14. Negative Prompt：见本条下方中英文Negative Prompt。
+15. 科学准确性验收：Al0→Al³⁺+3e⁻；产H₂每mol需2mol电子，理想完全反应n(H₂)=3n(Al)/2。；强碱水溶液采用[Al(OH)₄]⁻表示时必须配入水，不能直接复制AlO₂⁻写法的水系数。；氧化膜和钝化改变表面速率；酸的类型与温度是选择反应式的必要条件。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；逐字核对标签，逐项验算计数、单位、坐标与箭头；标注版/留空版不混用；人工科学复核后才能接入正式页面
+16. 来源／理论依据：os_b04_11.1.2 https://openstax.org/books/chemistry-2e/pages/18-1-periodicity（partially_verified）
+17. 优先级：P1
+18. 旧图复用：partial；可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。
+19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+
+**完整中文Prompt**
+
+为UEC中文原创学习笔记绘制“11.1.2 铝的化学性质：结构、条件及守恒图”。唯一ID：ILL-B04-CHEM-11_1_2。科目化学，原第11章“IIIA族元素：铝”，真实小节11.1.2“铝的化学性质”。教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。。必须画出的对象与正确关系：Al0→Al³⁺+3e⁻；产H₂每mol需2mol电子，理想完全反应n(H₂)=3n(Al)/2。；强碱水溶液采用[Al(OH)₄]⁻表示时必须配入水，不能直接复制AlO₂⁻写法的水系数。；氧化膜和钝化改变表面速率；酸的类型与温度是选择反应式的必要条件。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。。图中文字逐项准确保留：Al；氧化膜；酸；强碱；[Al(OH)₄]⁻；H₂。采用1200×1000画布；双面板在手机可拆为纵向，渲染文字至少12 CSS px、目标14；线型/形状与颜色共同区分。白底高对比，科学层、箭头、文字分层，公式变量和单位不能装饰化。最终科学图优先用SVG/数学绘图库确定性制作。AI仅可作构图草稿，所有数值、几何、膜层和文字须重建核验后才能用于教学。标注版与练习留空版分开，只采用已有题给条件，不泄露检测答案。来源/理论核对：https://openstax.org/books/chemistry-2e/pages/18-1-periodicity。来源不等于2027考试范围确认；制作前重新核对。
+
+**Complete English prompt**
+
+Create an original Chinese-language teaching diagram titled "11.1.2 铝的化学性质：结构、条件及守恒图". Unique ID ILL-B04-CHEM-11_1_2; Chemistry, existing chapter 11, actual subsection 11.1.2 ("铝的化学性质"). Scientific objects, relationships and exact constraints: Draw condition-dependent aluminium reactions with an intact versus disrupted oxide film. Use balanced aqueous aluminate equations and electron counts; keep passivation distinct from noble-metal behaviour and avoid experimental ignition instructions. Required on-canvas Chinese labels, preserved verbatim: Al; 氧化膜; 酸; 强碱; [Al(OH)₄]⁻; H₂. Use a 1200 by 1000 canvas. Reflow panels vertically on mobile, with rendered labels at least12 CSS px, target14. Use shape/line style as well as color, white background and high contrast. Keep geometry, arrows and editable text on separate layers. The final scientific output must be constructed with SVG or deterministic mathematical plotting; an AI image is only a layout draft and cannot certify geometry, counts, membranes or formulas. Make annotated teaching and blank assessment variants separately, using only existing stated problem data. Recheck these theory/source references before production: https://openstax.org/books/chemistry-2e/pages/18-1-periodicity. These sources do not certify2027 exam scope or official marking rules.
+
+**Negative Prompt**
+
+不得反转箭头运算、偷换单位、改变题给数据、使用错误比例、吞掉绝对值、隐藏条件或伪造实测刻度。不使用乱码、伪官方标志、水印遮挡、未说明的缩写或“同上”。
+
+No reversed operations/arrows, changed problem values, inconsistent units/scales, missing absolute-value bars, hidden conditions or invented measured axes. No garbled Chinese, fake official logos, obscuring watermarks, unexplained abbreviations or references to another prompt.
+
+### ILL-B04-CHEM-11_2 · 11.2 铝的重要化合物：结构、条件及守恒图
+
+1. 唯一ID：ILL-B04-CHEM-11_2
+2. 科目：化学
+3. 真实章节及小节：第11章 IIIA族元素：铝／11.2 铝的重要化合物
+4. 插图标题：11.2 铝的重要化合物：结构、条件及守恒图
+5. 教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。
+6. 必须出现的对象：Al³⁺；3OH⁻沉淀；追加OH⁻；铝酸根；酸溶；明矾水解
+7. 不可画错的科学关系：Al³⁺+3OH⁻→Al(OH)₃；Al(OH)₃+OH⁻→[Al(OH)₄]⁻，两阶段总需4OH⁻/Al。；Al(OH)₃+3H⁺→Al³⁺+3H₂O；2Al(OH)₃→Al₂O₃+3H₂O。；明矾每份1Al、2SO₄与12H₂O，结晶水计质量而不另增加Al量。；Al₂O₃+2OH⁻+3H₂O→2[Al(OH)₄]⁻为合适强碱条件下水溶液表示；O/H需逐项检查，正确O总为3+2+3=8、H总2+6=8，与2个四羟基络离子对应。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。
+8. 中文文字及标签：Al³⁺；3OH⁻沉淀；追加OH⁻；铝酸根；酸溶；明矾水解
+9. 公式、单位与变量：Al³⁺+3OH⁻→Al(OH)₃；Al(OH)₃+OH⁻→[Al(OH)₄]⁻，两阶段总需4OH⁻/Al。；Al(OH)₃+3H⁺→Al³⁺+3H₂O；2Al(OH)₃→Al₂O₃+3H₂O。；明矾每份1Al、2SO₄与12H₂O，结晶水计质量而不另增加Al量。；Al₂O₃+2OH⁻+3H₂O→2[Al(OH)₄]⁻为合适强碱条件下水溶液表示；O/H需逐项检查，正确O总为3+2+3=8、H总2+6=8，与2个四羟基络离子对应。
+10. 精确构图要求：Al³⁺+3OH⁻→Al(OH)₃；Al(OH)₃+OH⁻→[Al(OH)₄]⁻，两阶段总需4OH⁻/Al。；Al(OH)₃+3H⁺→Al³⁺+3H₂O；2Al(OH)₃→Al₂O₃+3H₂O。；明矾每份1Al、2SO₄与12H₂O，结晶水计质量而不另增加Al量。；Al₂O₃+2OH⁻+3H₂O→2[Al(OH)₄]⁻为合适强碱条件下水溶液表示；O/H需逐项检查，正确O总为3+2+3=8、H总2+6=8，与2个四羟基络离子对应。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；科学图层与文字分层；相邻面板坐标/颜色语义一致
+11. 比例及尺寸：{'width_px': 1200, 'height_px': 1000, 'aspect_ratio': '1200:1000', 'minimum_rendered_label_css_px': 12}
+12. 完整中文Prompt：见本条下方完整中文Prompt，可独立复制。
+13. 完整英文Prompt：见本条下方Complete English prompt，可独立复制。
+14. Negative Prompt：见本条下方中英文Negative Prompt。
+15. 科学准确性验收：Al³⁺+3OH⁻→Al(OH)₃；Al(OH)₃+OH⁻→[Al(OH)₄]⁻，两阶段总需4OH⁻/Al。；Al(OH)₃+3H⁺→Al³⁺+3H₂O；2Al(OH)₃→Al₂O₃+3H₂O。；明矾每份1Al、2SO₄与12H₂O，结晶水计质量而不另增加Al量。；Al₂O₃+2OH⁻+3H₂O→2[Al(OH)₄]⁻为合适强碱条件下水溶液表示；O/H需逐项检查，正确O总为3+2+3=8、H总2+6=8，与2个四羟基络离子对应。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；逐字核对标签，逐项验算计数、单位、坐标与箭头；标注版/留空版不混用；人工科学复核后才能接入正式页面
+16. 来源／理论依据：os_b04_11.2 https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions（partially_verified）
+17. 优先级：P1
+18. 旧图复用：partial；可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。
+19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+
+**完整中文Prompt**
+
+为UEC中文原创学习笔记绘制“11.2 铝的重要化合物：结构、条件及守恒图”。唯一ID：ILL-B04-CHEM-11_2。科目化学，原第11章“IIIA族元素：铝”，真实小节11.2“铝的重要化合物”。教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。。必须画出的对象与正确关系：Al³⁺+3OH⁻→Al(OH)₃；Al(OH)₃+OH⁻→[Al(OH)₄]⁻，两阶段总需4OH⁻/Al。；Al(OH)₃+3H⁺→Al³⁺+3H₂O；2Al(OH)₃→Al₂O₃+3H₂O。；明矾每份1Al、2SO₄与12H₂O，结晶水计质量而不另增加Al量。；Al₂O₃+2OH⁻+3H₂O→2[Al(OH)₄]⁻为合适强碱条件下水溶液表示；O/H需逐项检查，正确O总为3+2+3=8、H总2+6=8，与2个四羟基络离子对应。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。。图中文字逐项准确保留：Al³⁺；3OH⁻沉淀；追加OH⁻；铝酸根；酸溶；明矾水解。采用1200×1000画布；双面板在手机可拆为纵向，渲染文字至少12 CSS px、目标14；线型/形状与颜色共同区分。白底高对比，科学层、箭头、文字分层，公式变量和单位不能装饰化。最终科学图优先用SVG/数学绘图库确定性制作。AI仅可作构图草稿，所有数值、几何、膜层和文字须重建核验后才能用于教学。标注版与练习留空版分开，只采用已有题给条件，不泄露检测答案。来源/理论核对：https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions。来源不等于2027考试范围确认；制作前重新核对。
+
+**Complete English prompt**
+
+Create an original Chinese-language teaching diagram titled "11.2 铝的重要化合物：结构、条件及守恒图". Unique ID ILL-B04-CHEM-11_2; Chemistry, existing chapter 11, actual subsection 11.2 ("铝的重要化合物"). Scientific objects, relationships and exact constraints: Plot a clearly model-labelled precipitate amount versus added OH-/Al ratio: rise to 3, decline to zero at 4. Show the two balanced stages and separate total versus additional base. Include alum hydrate counting without implying universal water purification. Required on-canvas Chinese labels, preserved verbatim: Al³⁺; 3OH⁻沉淀; 追加OH⁻; 铝酸根; 酸溶; 明矾水解. Use a 1200 by 1000 canvas. Reflow panels vertically on mobile, with rendered labels at least12 CSS px, target14. Use shape/line style as well as color, white background and high contrast. Keep geometry, arrows and editable text on separate layers. The final scientific output must be constructed with SVG or deterministic mathematical plotting; an AI image is only a layout draft and cannot certify geometry, counts, membranes or formulas. Make annotated teaching and blank assessment variants separately, using only existing stated problem data. Recheck these theory/source references before production: https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions. These sources do not certify2027 exam scope or official marking rules.
+
+**Negative Prompt**
+
+不得反转箭头运算、偷换单位、改变题给数据、使用错误比例、吞掉绝对值、隐藏条件或伪造实测刻度。不使用乱码、伪官方标志、水印遮挡、未说明的缩写或“同上”。
+
+No reversed operations/arrows, changed problem values, inconsistent units/scales, missing absolute-value bars, hidden conditions or invented measured axes. No garbled Chinese, fake official logos, obscuring watermarks, unexplained abbreviations or references to another prompt.
+
+### ILL-B04-CHEM-11_3 · 11.3 铝的冶炼：结构、条件及守恒图
+
+1. 唯一ID：ILL-B04-CHEM-11_3
+2. 科目：化学
+3. 真实章节及小节：第11章 IIIA族元素：铝／11.3 铝的冶炼
+4. 插图标题：11.3 铝的冶炼：结构、条件及守恒图
+5. 教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。
+6. 必须出现的对象：矿石纯度；氧化铝；冰晶石；阴极还原；碳阳极；电流效率
+7. 不可画错的科学关系：阴极简化式Al³⁺+3e⁻→Al；Q=3n(Al)F，实际量需按所给电流效率修正。；理想主要总式2Al₂O₃+3C→4Al+3CO₂，2mol氧化铝给4mol金属，碳并非惰性不耗。；冰晶石为熔融介质组分，不按总式当净消耗原料；原料纯度、回收率与电流效率是不同概念。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。
+8. 中文文字及标签：矿石纯度；氧化铝；冰晶石；阴极还原；碳阳极；电流效率
+9. 公式、单位与变量：阴极简化式Al³⁺+3e⁻→Al；Q=3n(Al)F，实际量需按所给电流效率修正。；理想主要总式2Al₂O₃+3C→4Al+3CO₂，2mol氧化铝给4mol金属，碳并非惰性不耗。；冰晶石为熔融介质组分，不按总式当净消耗原料；原料纯度、回收率与电流效率是不同概念。
+10. 精确构图要求：阴极简化式Al³⁺+3e⁻→Al；Q=3n(Al)F，实际量需按所给电流效率修正。；理想主要总式2Al₂O₃+3C→4Al+3CO₂，2mol氧化铝给4mol金属，碳并非惰性不耗。；冰晶石为熔融介质组分，不按总式当净消耗原料；原料纯度、回收率与电流效率是不同概念。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；科学图层与文字分层；相邻面板坐标/颜色语义一致
+11. 比例及尺寸：{'width_px': 1200, 'height_px': 1000, 'aspect_ratio': '1200:1000', 'minimum_rendered_label_css_px': 12}
+12. 完整中文Prompt：见本条下方完整中文Prompt，可独立复制。
+13. 完整英文Prompt：见本条下方Complete English prompt，可独立复制。
+14. Negative Prompt：见本条下方中英文Negative Prompt。
+15. 科学准确性验收：阴极简化式Al³⁺+3e⁻→Al；Q=3n(Al)F，实际量需按所给电流效率修正。；理想主要总式2Al₂O₃+3C→4Al+3CO₂，2mol氧化铝给4mol金属，碳并非惰性不耗。；冰晶石为熔融介质组分，不按总式当净消耗原料；原料纯度、回收率与电流效率是不同概念。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。；逐字核对标签，逐项验算计数、单位、坐标与箭头；标注版/留空版不混用；人工科学复核后才能接入正式页面
+16. 来源／理论依据：os_b04_11.3 https://openstax.org/books/chemistry-2e/pages/18-2-occurrence-and-preparation-of-the-representative-metals（partially_verified）
+17. 优先级：P1
+18. 旧图复用：partial；可复用旧符号和布局，不复用已隔离错误图；本小节专用结构尚未制作。
+19. 需要SVG等确定性绘图：True；制作目标：SVG/确定性绘图
+20. 制作状态：brief_ready_requires_science_review；分类：precise_scientific_svg
+
+**完整中文Prompt**
+
+为UEC中文原创学习笔记绘制“11.3 铝的冶炼：结构、条件及守恒图”。唯一ID：ILL-B04-CHEM-11_3。科目化学，原第11章“IIIA族元素：铝”，真实小节11.3“铝的冶炼”。教学目的：支持本节从组成/条件到性质/计算的推理，帮助检验例题而非仅装饰。。必须画出的对象与正确关系：阴极简化式Al³⁺+3e⁻→Al；Q=3n(Al)F，实际量需按所给电流效率修正。；理想主要总式2Al₂O₃+3C→4Al+3CO₂，2mol氧化铝给4mol金属，碳并非惰性不耗。；冰晶石为熔融介质组分，不按总式当净消耗原料；原料纯度、回收率与电流效率是不同概念。；分面板覆盖本节知识关系与例题对象；M03关联为条件/分类，不把所有标签串成因果。；示意非比例；凡用数量或坐标必须从已给题干逐项计算。独立教学标注版与检测留空版分开。。图中文字逐项准确保留：矿石纯度；氧化铝；冰晶石；阴极还原；碳阳极；电流效率。采用1200×1000画布；双面板在手机可拆为纵向，渲染文字至少12 CSS px、目标14；线型/形状与颜色共同区分。白底高对比，科学层、箭头、文字分层，公式变量和单位不能装饰化。最终科学图优先用SVG/数学绘图库确定性制作。AI仅可作构图草稿，所有数值、几何、膜层和文字须重建核验后才能用于教学。标注版与练习留空版分开，只采用已有题给条件，不泄露检测答案。来源/理论核对：https://openstax.org/books/chemistry-2e/pages/18-2-occurrence-and-preparation-of-the-representative-metals。来源不等于2027考试范围确认；制作前重新核对。
+
+**Complete English prompt**
+
+Create an original Chinese-language teaching diagram titled "11.3 铝的冶炼：结构、条件及守恒图". Unique ID ILL-B04-CHEM-11_3; Chemistry, existing chapter 11, actual subsection 11.3 ("铝的冶炼"). Scientific objects, relationships and exact constraints: Draw an aluminium process flow separating ore purification from molten electrolysis. Label cryolite as medium, cathodic 3-electron reduction and carbon anode consumption. Include the ideal total equation and clearly separate purity, recovery and current efficiency. Required on-canvas Chinese labels, preserved verbatim: 矿石纯度; 氧化铝; 冰晶石; 阴极还原; 碳阳极; 电流效率. Use a 1200 by 1000 canvas. Reflow panels vertically on mobile, with rendered labels at least12 CSS px, target14. Use shape/line style as well as color, white background and high contrast. Keep geometry, arrows and editable text on separate layers. The final scientific output must be constructed with SVG or deterministic mathematical plotting; an AI image is only a layout draft and cannot certify geometry, counts, membranes or formulas. Make annotated teaching and blank assessment variants separately, using only existing stated problem data. Recheck these theory/source references before production: https://openstax.org/books/chemistry-2e/pages/18-2-occurrence-and-preparation-of-the-representative-metals. These sources do not certify2027 exam scope or official marking rules.
 
 **Negative Prompt**
 

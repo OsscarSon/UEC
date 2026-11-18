@@ -1,3 +1,5 @@
+> 此为上一批历史交付；当前新增5章28节及全课程状态见 [batch04](../batch04/DELIVERY.md)。
+
 # 本轮集中交付：笔记深化、插图接入与全部后续提示词
 
 继续PR #1原分支 `codex/uec-2027-batch-notes-math-split`，不新建PR、不合并、不部署。基线为daa3637。

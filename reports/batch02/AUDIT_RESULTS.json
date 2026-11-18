@@ -4,22 +4,22 @@
     "baseline": "daa36377c98508764780831e82d4ecbb06c27e69",
     "chapter_records": 116,
     "original_subsections_preserved": 52,
-    "new_sourced_subsections": 6,
-    "section_modules": 696,
-    "original_question_records": 466,
-    "new_question_records_since_baseline": 138,
-    "explicit_eight_stage_new_question_records": 138,
+    "new_sourced_subsections": 34,
+    "section_modules": 1032,
+    "original_question_records": 690,
+    "new_question_records_since_baseline": 362,
+    "explicit_eight_stage_new_question_records": 362,
     "existing_examples_expanded": 123,
-    "all_examples_with_eight_stages": 174,
-    "total_records_with_explicit_eight_stages": 265,
-    "goal_mappings": 116,
+    "all_examples_with_eight_stages": 258,
+    "total_records_with_explicit_eight_stages": 489,
+    "goal_mappings": 172,
     "goal_diagnostic_questions_added": 2,
-    "checks_passed": 1821,
+    "checks_passed": 2470,
     "limitations": [
       "这些检查证明结构/出处元数据/样例计算及资源一致性，不等于教师或官方全面审定",
-      "原41节123例已补八步，全部174例均有对应字段；字段齐备仍不代替逐句独立教研，部分图仍待制作",
-      "新6节已取得目录证据，兴华实际版本与2027适用尚未锁定",
-      "11SVG多为总结图，完整结构/装置图仍按114条任务继续制作"
+      "原41节123例已补八步，现258例均有对应字段；字段齐备仍不代替逐句独立教研，部分图仍待制作",
+      "新增34节有登记目录证据；批次4同版匹配及边界见TEXTBOOK_MATCH，2027适用未锁定",
+      "11SVG多为总结图，完整结构/装置图仍按142条任务继续制作"
     ]
   },
   "checks": [
@@ -39,7 +39,7 @@
       "detail": ""
     },
     {
-      "name": "six new subsections have official-directory evidence",
+      "name": "registered added subsections have official-directory evidence",
       "result": "pass",
       "detail": ""
     },
@@ -169,7 +169,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 生物11.1",
+      "name": "all examples have explicit eight-stage evidence 生物11.1",
       "result": "pass",
       "detail": ""
     },
@@ -254,7 +254,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 生物11.2",
+      "name": "all examples have explicit eight-stage evidence 生物11.2",
       "result": "pass",
       "detail": ""
     },
@@ -339,7 +339,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 生物11.3",
+      "name": "all examples have explicit eight-stage evidence 生物11.3",
       "result": "pass",
       "detail": ""
     },
@@ -424,7 +424,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 生物11.4",
+      "name": "all examples have explicit eight-stage evidence 生物11.4",
       "result": "pass",
       "detail": ""
     },
@@ -509,7 +509,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 生物11.5",
+      "name": "all examples have explicit eight-stage evidence 生物11.5",
       "result": "pass",
       "detail": ""
     },
@@ -594,7 +594,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 生物11.6",
+      "name": "all examples have explicit eight-stage evidence 生物11.6",
       "result": "pass",
       "detail": ""
     },
@@ -684,7 +684,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 生物22.1",
+      "name": "all examples have explicit eight-stage evidence 生物22.1",
       "result": "pass",
       "detail": ""
     },
@@ -769,7 +769,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 生物22.2",
+      "name": "all examples have explicit eight-stage evidence 生物22.2",
       "result": "pass",
       "detail": ""
     },
@@ -859,7 +859,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 生物22.3",
+      "name": "all examples have explicit eight-stage evidence 生物22.3",
       "result": "pass",
       "detail": ""
     },
@@ -949,7 +949,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 生物22.4",
+      "name": "all examples have explicit eight-stage evidence 生物22.4",
       "result": "pass",
       "detail": ""
     },
@@ -1034,7 +1034,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 生物22.5",
+      "name": "all examples have explicit eight-stage evidence 生物22.5",
       "result": "pass",
       "detail": ""
     },
@@ -1124,7 +1124,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 生物33.1",
+      "name": "all examples have explicit eight-stage evidence 生物33.1",
       "result": "pass",
       "detail": ""
     },
@@ -1214,7 +1214,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 生物33.2",
+      "name": "all examples have explicit eight-stage evidence 生物33.2",
       "result": "pass",
       "detail": ""
     },
@@ -1304,7 +1304,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 生物33.3",
+      "name": "all examples have explicit eight-stage evidence 生物33.3",
       "result": "pass",
       "detail": ""
     },
@@ -1394,7 +1394,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 生物33.4",
+      "name": "all examples have explicit eight-stage evidence 生物33.4",
       "result": "pass",
       "detail": ""
     },
@@ -1484,7 +1484,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 生物33.5",
+      "name": "all examples have explicit eight-stage evidence 生物33.5",
       "result": "pass",
       "detail": ""
     },
@@ -1574,7 +1574,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 生物33.6",
+      "name": "all examples have explicit eight-stage evidence 生物33.6",
       "result": "pass",
       "detail": ""
     },
@@ -1664,7 +1664,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 生物33.7",
+      "name": "all examples have explicit eight-stage evidence 生物33.7",
       "result": "pass",
       "detail": ""
     },
@@ -1759,7 +1759,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 化学33.1",
+      "name": "all examples have explicit eight-stage evidence 化学33.1",
       "result": "pass",
       "detail": ""
     },
@@ -1844,7 +1844,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 化学33.2",
+      "name": "all examples have explicit eight-stage evidence 化学33.2",
       "result": "pass",
       "detail": ""
     },
@@ -1929,7 +1929,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 化学33.3",
+      "name": "all examples have explicit eight-stage evidence 化学33.3",
       "result": "pass",
       "detail": ""
     },
@@ -2014,7 +2014,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 化学33.4",
+      "name": "all examples have explicit eight-stage evidence 化学33.4",
       "result": "pass",
       "detail": ""
     },
@@ -2099,7 +2099,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 化学33.5",
+      "name": "all examples have explicit eight-stage evidence 化学33.5",
       "result": "pass",
       "detail": ""
     },
@@ -2189,7 +2189,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 化学33.6",
+      "name": "all examples have explicit eight-stage evidence 化学33.6",
       "result": "pass",
       "detail": ""
     },
@@ -2279,7 +2279,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 化学44.1.1",
+      "name": "all examples have explicit eight-stage evidence 化学44.1.1",
       "result": "pass",
       "detail": ""
     },
@@ -2364,7 +2364,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 化学44.1.2",
+      "name": "all examples have explicit eight-stage evidence 化学44.1.2",
       "result": "pass",
       "detail": ""
     },
@@ -2449,7 +2449,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 化学44.1.3",
+      "name": "all examples have explicit eight-stage evidence 化学44.1.3",
       "result": "pass",
       "detail": ""
     },
@@ -2534,7 +2534,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 化学44.2.1",
+      "name": "all examples have explicit eight-stage evidence 化学44.2.1",
       "result": "pass",
       "detail": ""
     },
@@ -2619,7 +2619,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 化学44.2.2",
+      "name": "all examples have explicit eight-stage evidence 化学44.2.2",
       "result": "pass",
       "detail": ""
     },
@@ -2709,7 +2709,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 化学44.2.3",
+      "name": "all examples have explicit eight-stage evidence 化学44.2.3",
       "result": "pass",
       "detail": ""
     },
@@ -2799,7 +2799,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 化学44.2.4",
+      "name": "all examples have explicit eight-stage evidence 化学44.2.4",
       "result": "pass",
       "detail": ""
     },
@@ -2894,7 +2894,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 化学55.1",
+      "name": "all examples have explicit eight-stage evidence 化学55.1",
       "result": "pass",
       "detail": ""
     },
@@ -2984,7 +2984,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 化学55.2",
+      "name": "all examples have explicit eight-stage evidence 化学55.2",
       "result": "pass",
       "detail": ""
     },
@@ -3074,7 +3074,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 化学55.3",
+      "name": "all examples have explicit eight-stage evidence 化学55.3",
       "result": "pass",
       "detail": ""
     },
@@ -3164,7 +3164,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 化学55.4",
+      "name": "all examples have explicit eight-stage evidence 化学55.4",
       "result": "pass",
       "detail": ""
     },
@@ -3259,7 +3259,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 化学66.1.1",
+      "name": "all examples have explicit eight-stage evidence 化学66.1.1",
       "result": "pass",
       "detail": ""
     },
@@ -3349,7 +3349,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 化学66.1.2",
+      "name": "all examples have explicit eight-stage evidence 化学66.1.2",
       "result": "pass",
       "detail": ""
     },
@@ -3439,7 +3439,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 化学66.2",
+      "name": "all examples have explicit eight-stage evidence 化学66.2",
       "result": "pass",
       "detail": ""
     },
@@ -3529,7 +3529,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 化学66.3.1",
+      "name": "all examples have explicit eight-stage evidence 化学66.3.1",
       "result": "pass",
       "detail": ""
     },
@@ -3619,7 +3619,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 化学66.3.2",
+      "name": "all examples have explicit eight-stage evidence 化学66.3.2",
       "result": "pass",
       "detail": ""
     },
@@ -3709,7 +3709,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 化学66.3.3",
+      "name": "all examples have explicit eight-stage evidence 化学66.3.3",
       "result": "pass",
       "detail": ""
     },
@@ -3720,6 +3720,2551 @@
     },
     {
       "name": "source status remains partial 化学66.3.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "complete real chapter: 化学7",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "required fields 化学77.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "three examples and four practices 化学77.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 actual example, reasoning and checks 化学77.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 check belongs to displayed example 化学77.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M12 maps every stated goal 化学77.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学77.1.1e1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学77.1.1e2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.1.1Mg²⁺与Cl⁻怎样组成",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.1.1Al³⁺与SO₄²⁻的盐",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.1.1NaCl固体不明显导电，",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.1.1Ca²⁺与O²⁻的最简式",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.1.1NH₄Cl中是否只有离子",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.1.1Ca(NO₃)₂中氧与钙",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.1.1一种离子固体难溶于水，能",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.1.1电子转移本身就是离子键吗",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all examples have explicit eight-stage evidence 化学77.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all new questions have eight-stage evidence 化学77.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "source status remains partial 化学77.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "required fields 化学77.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "three examples and four practices 化学77.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 actual example, reasoning and checks 化学77.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 check belongs to displayed example 化学77.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M12 maps every stated goal 化学77.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学77.1.2e1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学77.1.2e2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.1.2画CO₂骨架所需总价电子",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.1.2NH₃与H⁺形成NH₄⁺",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.1.2CO₂与H₂O都含极性键",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.1.2N₂三键共享几电子？",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.1.2CH₄的C有几电子区域？",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.1.2H₃O⁺的总价电子数？",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.1.2BF₃中B仅六电子就一定",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.1.2水蒸发主要断O—H键吗？",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all examples have explicit eight-stage evidence 化学77.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all new questions have eight-stage evidence 化学77.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "source status remains partial 化学77.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "required fields 化学77.1.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "three examples and four practices 化学77.1.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 actual example, reasoning and checks 化学77.1.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 check belongs to displayed example 化学77.1.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M12 maps every stated goal 化学77.1.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学77.1.3e1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学77.1.3e2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.1.3以每Na提供1个离域价电",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.1.3金属固体与NaCl固体为",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.1.3某合金比纯金属更硬，就能",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.1.3固体Cu中主要电荷载流者",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.1.3金属可锻是否表示完全没有",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.1.3若模型中50个Mg实各贡",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.1.3两块同种金属电阻不同，可",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.1.3金属一定高熔点吗？",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all examples have explicit eight-stage evidence 化学77.1.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all new questions have eight-stage evidence 化学77.1.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "source status remains partial 化学77.1.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "required fields 化学77.2.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "three examples and four practices 化学77.2.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 actual example, reasoning and checks 化学77.2.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 check belongs to displayed example 化学77.2.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M12 maps every stated goal 化学77.2.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学77.2.1e2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学77.2.1e1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.2.1Ar可液化，是否说明其分",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.2.1正戊烷与新戊烷式量相同，",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.2.1学生称I₂沸腾要断I—I",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.2.1非极性分子间有色散力吗？",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.2.1极性分子能否也有色散力？",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.2.1两同分异构体质量相同，是",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.2.1题给甲乙仅称“甲极性更强",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.2.1沸点顺序一定等于熔点顺序",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all examples have explicit eight-stage evidence 化学77.2.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all new questions have eight-stage evidence 化学77.2.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "source status remains partial 化学77.2.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "required fields 化学77.2.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "three examples and four practices 化学77.2.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 actual example, reasoning and checks 化学77.2.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 check belongs to displayed example 化学77.2.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M12 maps every stated goal 化学77.2.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学77.2.2e0",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学77.2.2e2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.2.2乙醇与二甲醚均C₂H₆O",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.2.2二甲醚不能典型自氢键，是",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.2.2含一个OH的长链醇必与水",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.2.2CH₄有H，能形成典型强",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.2.2氢键虚线连接O核与O核是",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.2.2冰浮水面能推出冰分子量较",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.2.2同一分子形成内氢键时，分",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.2.2热水中完全没有氢键吗？",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all examples have explicit eight-stage evidence 化学77.2.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all new questions have eight-stage evidence 化学77.2.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "source status remains partial 化学77.2.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "required fields 化学77.3.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "three examples and four practices 化学77.3.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 actual example, reasoning and checks 化学77.3.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 check belongs to displayed example 化学77.3.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M12 maps every stated goal 化学77.3.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学77.3.1p3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学77.3.1e2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.1某晶胞A占8角，B占体心",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.1NaCl型每胞有4Na⁺",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.1晶胞含4份NaCl，M=",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.16个面心同种粒子总贡献？",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.1离子晶体都易溶吗？",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.1a以nm给而ρ要g/cm",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.1熔融导电证明固体也有自由",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.1NaCl式中的1∶1代表",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all examples have explicit eight-stage evidence 化学77.3.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all new questions have eight-stage evidence 化学77.3.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "source status remains partial 化学77.3.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "required fields 化学77.3.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "three examples and four practices 化学77.3.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 actual example, reasoning and checks 化学77.3.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 check belongs to displayed example 化学77.3.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M12 maps every stated goal 化学77.3.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学77.3.2e0",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学77.3.2e2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.2网络中每Si连4O，每O",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.2理想金刚石有1000个内",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.2金刚石和石墨都为C，为什",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.2SiO₂晶体有孤立SiO",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.2原子晶体都绝缘吗？",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.2500内部C、每C连3C",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.2用SiO₂式量比CO₂大",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.2石墨软是否说明层内C—C",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all examples have explicit eight-stage evidence 化学77.3.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all new questions have eight-stage evidence 化学77.3.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "source status remains partial 化学77.3.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "required fields 化学77.3.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "three examples and four practices 化学77.3.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 actual example, reasoning and checks 化学77.3.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 check belongs to displayed example 化学77.3.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M12 maps every stated goal 化学77.3.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学77.3.3e0",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学77.3.3e2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.30.50mol干冰升华后",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.3HCl入水导电，能据此把",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.3某固体熔点低、不导电。只",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.3碘晶体组成微粒？",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.3分子晶体是否含共价键？",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.31mol I₂中I原子有",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.3非极性溶质必在非极性溶剂",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.3分子晶体熔化后必出现自由",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all examples have explicit eight-stage evidence 化学77.3.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all new questions have eight-stage evidence 化学77.3.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "source status remains partial 化学77.3.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "required fields 化学77.3.4",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "three examples and four practices 化学77.3.4",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 actual example, reasoning and checks 化学77.3.4",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 check belongs to displayed example 化学77.3.4",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M12 maps every stated goal 化学77.3.4",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学77.3.4q0",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学77.3.4e2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.4体心立方晶胞有几原子？",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.4面心立方晶胞有几原子？",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.4同一金属两相Z分别2、4",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.4简单立方每胞原子数？",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.4体心配位8能代入密度公式",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.4FCC中角贡献占每胞原子",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.4合金增硬可否证明晶胞原子",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学77.3.4金属晶胞图每个球都代表游",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all examples have explicit eight-stage evidence 化学77.3.4",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all new questions have eight-stage evidence 化学77.3.4",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "source status remains partial 化学77.3.4",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "complete real chapter: 化学8",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "required fields 化学88.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "three examples and four practices 化学88.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 actual example, reasoning and checks 化学88.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 check belongs to displayed example 化学88.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M12 maps every stated goal 化学88.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学88.1e0",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学88.1e2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.1Zn+Cu²⁺→Zn²⁺",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.1CaO+CO₂→CaCO",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.11mol Mg与足量Cl",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.1H⁺+OH⁻→H₂O是氧",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.1氧化数从−2升到0算得还",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.12mol Al由0到+3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.1Ag⁺+Cl⁻→AgCl",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.1没有氧参与能否是氧化还原",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all examples have explicit eight-stage evidence 化学88.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all new questions have eight-stage evidence 化学88.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "source status remains partial 化学88.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "required fields 化学88.2.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "three examples and four practices 化学88.2.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 actual example, reasoning and checks 化学88.2.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 check belongs to displayed example 化学88.2.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M12 maps every stated goal 化学88.2.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学88.2.1e1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学88.2.1e2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.2.1求SO₄²⁻中S的氧化数",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.2.1分别求H₂O₂与OF₂中",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.2.1Fe₃O₄求得Fe平均+",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.2.1MnO₄⁻中Mn价数？",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.2.1NaH中H价数？",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.2.1O₂中O价数是否−2？",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.2.1NH₄⁺中N价数？",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.2.1算得平均氧化数非整数是否",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all examples have explicit eight-stage evidence 化学88.2.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all new questions have eight-stage evidence 化学88.2.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "source status remains partial 化学88.2.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "required fields 化学88.2.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "three examples and four practices 化学88.2.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 actual example, reasoning and checks 化学88.2.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 check belongs to displayed example 化学88.2.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M12 maps every stated goal 化学88.2.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学88.2.2e0",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学88.2.2e2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.2.21mol Cr₂O₇²⁻",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.2.2Cl₂+2OH⁻→Cl⁻",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.2.22H₂S+SO₂→3S+",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.2.2S由−2到+6每原子怎样",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.2.20.020mol MnO",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.2.2一个物种歧化时能同时作氧",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.2.2得电子数和失电子数相加是",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.2.2只知MnO₄⁻就能固定每",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all examples have explicit eight-stage evidence 化学88.2.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all new questions have eight-stage evidence 化学88.2.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "source status remains partial 化学88.2.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "required fields 化学88.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "three examples and four practices 化学88.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 actual example, reasoning and checks 化学88.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 check belongs to displayed example 化学88.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M12 maps every stated goal 化学88.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学88.3e0",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学88.3e2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.3Fe²⁺→Fe³⁺中Fe",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.3H₂O₂→O₂时H₂O₂",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.3酸性0.010mol M",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.3Cu²⁺得电子到Cu时谁",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.3氧化剂的氧化数一定升高吗",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.30.020mol还原剂各",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.3某物质能被氧化，是否绝不",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.3氧化剂与还原剂必须是两个",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all examples have explicit eight-stage evidence 化学88.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all new questions have eight-stage evidence 化学88.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "source status remains partial 化学88.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "required fields 化学88.4.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "three examples and four practices 化学88.4.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 actual example, reasoning and checks 化学88.4.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 check belongs to displayed example 化学88.4.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M12 maps every stated goal 化学88.4.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学88.4.1e2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学88.4.1e1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.4.1配平Fe₂O₃+CO→F",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.4.1配平KClO₃→KCl+",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.4.1酸性MnO₄⁻与Fe²⁺",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.4.1配平Al+O₂→Al₂O",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.4.1配平是否能修改化学式？",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.4.1Cr₂O₇²⁻到2Cr³",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.4.1离子式两边原子相同但电荷",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.4.1一个能配平的方程式能证明",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all examples have explicit eight-stage evidence 化学88.4.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all new questions have eight-stage evidence 化学88.4.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "source status remains partial 化学88.4.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "required fields 化学88.4.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "three examples and four practices 化学88.4.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 actual example, reasoning and checks 化学88.4.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 check belongs to displayed example 化学88.4.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M12 maps every stated goal 化学88.4.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学88.4.2e0",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学88.4.2e2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.4.2写酸性MnO₄⁻→Mn²",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.4.2以碱性MnO₄⁻还原为M",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.4.2酸性Cr₂O₇²⁻氧化F",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.4.2Fe²⁺→Fe³⁺的电子",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.4.2酸式出现6H⁺，转碱式两",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.4.22H₂O→O₂的酸性氧化",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.4.2总式还留e⁻且未描述外电",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学88.4.2把酸性配平转为碱性是否实",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all examples have explicit eight-stage evidence 化学88.4.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all new questions have eight-stage evidence 化学88.4.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "source status remains partial 化学88.4.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "complete real chapter: 化学9",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "required fields 化学99.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "three examples and four practices 化学99.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 actual example, reasoning and checks 化学99.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 check belongs to displayed example 化学99.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M12 maps every stated goal 化学99.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学99.1.1e0",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学99.1.1e2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.1.1某Na样品质量4.85g",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.1.1Na表面由银白变暗，能将",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.1.1某人由“Na到K原子更大",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.1.1Na/K导电主要载流者？",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.1.12.0g样品体积2.5c",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.1.1熔化金属一定生成新元素吗",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.1.1反应中金属在水面移动，能",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.1.1所有碱金属密度严格向下增",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all examples have explicit eight-stage evidence 化学99.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all new questions have eight-stage evidence 化学99.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "source status remains partial 化学99.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "required fields 化学99.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "three examples and four practices 化学99.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 actual example, reasoning and checks 化学99.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 check belongs to displayed example 化学99.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M12 maps every stated goal 化学99.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学99.1.2e0",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学99.1.2e2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.1.22.30g Na与足量水",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.1.2Na₂O与Na₂O₂各遇",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.1.2Na投入CuSO₄水溶液",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.1.20.20mol K与水反",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.1.2Na由0到+1作何剂？",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.1.2K燃烧一定只得K₂O吗？",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.1.20.10mol Na₂O",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.1.2所有气体题都用22.4L",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all examples have explicit eight-stage evidence 化学99.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all new questions have eight-stage evidence 化学99.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "source status remains partial 化学99.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "required fields 化学99.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "three examples and four practices 化学99.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 actual example, reasoning and checks 化学99.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 check belongs to displayed example 化学99.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M12 maps every stated goal 化学99.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学99.2e0",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学99.2e2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.2Na发射某谱线λ=600",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.2空白也见黄色，样品黄色是",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.2混合样品强黄光，看不到淡",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.2Na常见焰色？",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.2激发与发光哪步吸能？",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.2发射λ更短，单光子能量更",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.2样品亮度加倍能直接推浓度",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.2焰色相同能证明样品完全相",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all examples have explicit eight-stage evidence 化学99.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all new questions have eight-stage evidence 化学99.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "source status remains partial 化学99.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "required fields 化学99.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "three examples and four practices 化学99.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 actual example, reasoning and checks 化学99.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 check belongs to displayed example 化学99.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M12 maps every stated goal 化学99.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学99.3e0",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学99.3e2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.30.10mol Na₂C",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.316.8g NaHCO₃",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.3混合物含x mol Na",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.30.05mol NaOH",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.3NaCl有Na，溶液就必",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.3Na₂CO₃·10H₂O",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.30.20mol CO₃²",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学99.3仅测混合Na₂CO₃/N",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all examples have explicit eight-stage evidence 化学99.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all new questions have eight-stage evidence 化学99.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "source status remains partial 化学99.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "complete real chapter: 化学10",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "required fields 化学1010.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "three examples and four practices 化学1010.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 actual example, reasoning and checks 化学1010.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 check belongs to displayed example 化学1010.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M12 maps every stated goal 化学1010.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学1010.1.1e0",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学1010.1.1e2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.1.1某Mg模型样品质量8.7",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.1.1同质量两金属密度分别1.",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.1.1镁合金密度低就能保证比钢",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.1.1Mg固态导电说明M²⁺在",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.1.1体积10cm³、密度1.",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.1.1燃烧Mg强光是原金属颜色",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.1.1同族外层均2电子可推熔点",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.1.1样品质量小就必密度小吗？",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all examples have explicit eight-stage evidence 化学1010.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all new questions have eight-stage evidence 化学1010.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "source status remains partial 化学1010.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "required fields 化学1010.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "three examples and four practices 化学1010.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 actual example, reasoning and checks 化学1010.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 check belongs to displayed example 化学1010.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M12 maps every stated goal 化学1010.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学1010.1.2e1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学1010.1.2e2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.1.22.40g Mg与足量适",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.1.2Mg与冷水不明显反应，能",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.1.2燃烧Mg所得固体遇水有N",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.1.2Ca到Ca²⁺失几电子？",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.1.20.05mol Ca与足",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.1.2Mg还原CO₂式中1mo",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.1.2任意金属与任意酸都放H₂",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.1.2Mg蒸汽反应式能无条件用",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all examples have explicit eight-stage evidence 化学1010.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all new questions have eight-stage evidence 化学1010.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "source status remains partial 化学1010.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "required fields 化学1010.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "three examples and four practices 化学1010.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 actual example, reasoning and checks 化学1010.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 check belongs to displayed example 化学1010.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M12 maps every stated goal 化学1010.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学1010.2e1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学1010.2e2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.212.3g MgSO₄·",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.22.0g MgO与足量酸",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.2将水合MgCl₂直接加热",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.2Mg(OH)₂难溶能否与",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.20.10mol Mg²⁺",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.2246g七水硫酸镁含水多",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.2MgCl₂水溶液电解必得",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.2含其他沉淀离子的样品一次",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all examples have explicit eight-stage evidence 化学1010.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all new questions have eight-stage evidence 化学1010.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "source status remains partial 化学1010.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "required fields 化学1010.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "three examples and four practices 化学1010.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 actual example, reasoning and checks 化学1010.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 check belongs to displayed example 化学1010.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M12 maps every stated goal 化学1010.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学1010.3e1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学1010.3e2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.35.6g CaO与足量水",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.3石灰水先浑浊后因持续通C",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.334.4g CaSO₄·",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.3石灰水与石灰乳是否同一均",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.30.10mol CaCO",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.3半水石膏中的1/2H₂O",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.3CaCl₂可吸水就适合干",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.3石灰水未浑浊能唯一证明不",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all examples have explicit eight-stage evidence 化学1010.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all new questions have eight-stage evidence 化学1010.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "source status remains partial 化学1010.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "required fields 化学1010.4",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "three examples and four practices 化学1010.4",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 actual example, reasoning and checks 化学1010.4",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 check belongs to displayed example 化学1010.4",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M12 maps every stated goal 化学1010.4",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学1010.4e1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学1010.4e2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.40.020mol Mg²",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.4未知液加OH⁻得白沉淀即",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.4理想样品全部Ca沉淀为纯",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.4Ca草酸盐净离子式左右电",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.4Mg焰色不鲜明可证明样品",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.4空白也出沉淀，样品结果可",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.4过滤损失沉淀会使按回收量",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1010.4只凭Ca阳性可证明没有M",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all examples have explicit eight-stage evidence 化学1010.4",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all new questions have eight-stage evidence 化学1010.4",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "source status remains partial 化学1010.4",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "complete real chapter: 化学11",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "required fields 化学1111.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "three examples and four practices 化学1111.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 actual example, reasoning and checks 化学1111.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 check belongs to displayed example 化学1111.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M12 maps every stated goal 化学1111.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学1111.1.1e1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学1111.1.1e2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.1.1铝样品体积10.0cm³",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.1.1两导线同长同电阻，A材料",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.1.1纯铝软但铝合金可用于承重",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.1.1铝固态主要载流者？",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.1.1密度2.7g/cm³、质",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.1.1有保护膜就表示金属不活泼",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.1.1同密度两合金，强度甲为乙",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.1.1回收铝等于零能耗吗？",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all examples have explicit eight-stage evidence 化学1111.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all new questions have eight-stage evidence 化学1111.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "source status remains partial 化学1111.1.1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "required fields 化学1111.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "three examples and four practices 化学1111.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 actual example, reasoning and checks 化学1111.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 check belongs to displayed example 化学1111.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M12 maps every stated goal 化学1111.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学1111.1.2e1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学1111.1.2e2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.1.22.70g纯Al与足量适",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.1.2核对2Al+2OH⁻+6",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.1.2Fe₂O₃+2Al→Al",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.1.20.20mol Al完全",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.1.2钝化能说明Al是贵金属吗",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.1.2酸中Al³⁺与碱中[Al",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.1.2任意浓酸都按2Al+6H",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.1.2金属Al与碱反应能只用中",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all examples have explicit eight-stage evidence 化学1111.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all new questions have eight-stage evidence 化学1111.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "source status remains partial 化学1111.1.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "required fields 化学1111.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "three examples and four practices 化学1111.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 actual example, reasoning and checks 化学1111.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 check belongs to displayed example 化学1111.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M12 maps every stated goal 化学1111.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学1111.2e0",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学1111.2e2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.20.10mol Al³⁺",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.215.6g纯Al(OH)",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.20.10mol Al³⁺",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.2Al(OH)₃两性意味着",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.21mol十二水明矾含水几",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.2Al₂O₃与酸的净反应需",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.2明矾絮凝可证明水中所有污",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.2把过量NaOH处理Al(",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all examples have explicit eight-stage evidence 化学1111.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all new questions have eight-stage evidence 化学1111.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "source status remains partial 化学1111.2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "required fields 化学1111.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "three examples and four practices 化学1111.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 actual example, reasoning and checks 化学1111.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M07 check belongs to displayed example 化学1111.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "M12 maps every stated goal 化学1111.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学1111.3e0",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "diagnostic question resolves 化学1111.3e2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.3102g纯Al₂O₃理论",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.3制得0.10mol Al",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.31000kg矿石含Al₂",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.3电解熔体中的阴极过程是氧",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.3生成4mol Al，理想",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.3冰晶石是主要净耗铝来源吗",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.3I=10A持续100s，",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "original provenance and solution 化学1111.3以AlCl₃水溶液电解可",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all examples have explicit eight-stage evidence 化学1111.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all new questions have eight-stage evidence 化学1111.3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "source status remains partial 化学1111.3",
       "result": "pass",
       "detail": ""
     },
@@ -3804,7 +6349,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 物理33.1",
+      "name": "all examples have explicit eight-stage evidence 物理33.1",
       "result": "pass",
       "detail": ""
     },
@@ -3889,7 +6434,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 物理33.2",
+      "name": "all examples have explicit eight-stage evidence 物理33.2",
       "result": "pass",
       "detail": ""
     },
@@ -3974,7 +6519,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 物理33.3",
+      "name": "all examples have explicit eight-stage evidence 物理33.3",
       "result": "pass",
       "detail": ""
     },
@@ -4059,7 +6604,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 物理33.4",
+      "name": "all examples have explicit eight-stage evidence 物理33.4",
       "result": "pass",
       "detail": ""
     },
@@ -4144,7 +6689,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 物理33.5",
+      "name": "all examples have explicit eight-stage evidence 物理33.5",
       "result": "pass",
       "detail": ""
     },
@@ -4229,7 +6774,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 物理33.6",
+      "name": "all examples have explicit eight-stage evidence 物理33.6",
       "result": "pass",
       "detail": ""
     },
@@ -4314,7 +6859,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 物理33.7",
+      "name": "all examples have explicit eight-stage evidence 物理33.7",
       "result": "pass",
       "detail": ""
     },
@@ -4404,7 +6949,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 物理33.8",
+      "name": "all examples have explicit eight-stage evidence 物理33.8",
       "result": "pass",
       "detail": ""
     },
@@ -4489,7 +7034,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 物理33.9",
+      "name": "all examples have explicit eight-stage evidence 物理33.9",
       "result": "pass",
       "detail": ""
     },
@@ -4579,7 +7124,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 物理44.1",
+      "name": "all examples have explicit eight-stage evidence 物理44.1",
       "result": "pass",
       "detail": ""
     },
@@ -4664,7 +7209,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 物理44.2",
+      "name": "all examples have explicit eight-stage evidence 物理44.2",
       "result": "pass",
       "detail": ""
     },
@@ -4754,7 +7299,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 物理44.3",
+      "name": "all examples have explicit eight-stage evidence 物理44.3",
       "result": "pass",
       "detail": ""
     },
@@ -4844,7 +7389,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 物理44.4",
+      "name": "all examples have explicit eight-stage evidence 物理44.4",
       "result": "pass",
       "detail": ""
     },
@@ -4929,7 +7474,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 物理44.5",
+      "name": "all examples have explicit eight-stage evidence 物理44.5",
       "result": "pass",
       "detail": ""
     },
@@ -5014,7 +7559,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 物理44.6",
+      "name": "all examples have explicit eight-stage evidence 物理44.6",
       "result": "pass",
       "detail": ""
     },
@@ -5099,7 +7644,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 物理44.7",
+      "name": "all examples have explicit eight-stage evidence 物理44.7",
       "result": "pass",
       "detail": ""
     },
@@ -5189,7 +7734,7 @@
       "detail": ""
     },
     {
-      "name": "all174 examples have explicit eight-stage evidence 物理44.8",
+      "name": "all examples have explicit eight-stage evidence 物理44.8",
       "result": "pass",
       "detail": ""
     },
@@ -5199,22 +7744,22 @@
       "detail": ""
     },
     {
-      "name": "58 real sections /696 modules",
+      "name": "86 real sections /1032 modules",
       "result": "pass",
       "detail": ""
     },
     {
-      "name": "466 authored question records incl2 new goal diagnostics",
+      "name": "690 authored question records incl2 new goal diagnostics",
       "result": "pass",
       "detail": ""
     },
     {
-      "name": "209 unique master records",
+      "name": "237 unique master records",
       "result": "pass",
       "detail": ""
     },
     {
-      "name": "all114 required tasks have bilingual briefs",
+      "name": "all142 required tasks have bilingual briefs",
       "result": "pass",
       "detail": ""
     },
@@ -8065,6 +10610,706 @@
     },
     {
       "name": "deterministic science preference ILL-PLAN-CHEM-6_3_3-01",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all prompt fields: ILL-B04-CHEM-7_1_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "prompt binds actual section: ILL-B04-CHEM-7_1_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "independent prompt ILL-B04-CHEM-7_1_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "P0/P1/P2 ILL-B04-CHEM-7_1_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "deterministic science preference ILL-B04-CHEM-7_1_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all prompt fields: ILL-B04-CHEM-7_1_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "prompt binds actual section: ILL-B04-CHEM-7_1_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "independent prompt ILL-B04-CHEM-7_1_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "P0/P1/P2 ILL-B04-CHEM-7_1_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "deterministic science preference ILL-B04-CHEM-7_1_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all prompt fields: ILL-B04-CHEM-7_1_3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "prompt binds actual section: ILL-B04-CHEM-7_1_3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "independent prompt ILL-B04-CHEM-7_1_3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "P0/P1/P2 ILL-B04-CHEM-7_1_3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "deterministic science preference ILL-B04-CHEM-7_1_3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all prompt fields: ILL-B04-CHEM-7_2_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "prompt binds actual section: ILL-B04-CHEM-7_2_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "independent prompt ILL-B04-CHEM-7_2_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "P0/P1/P2 ILL-B04-CHEM-7_2_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "deterministic science preference ILL-B04-CHEM-7_2_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all prompt fields: ILL-B04-CHEM-7_2_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "prompt binds actual section: ILL-B04-CHEM-7_2_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "independent prompt ILL-B04-CHEM-7_2_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "P0/P1/P2 ILL-B04-CHEM-7_2_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "deterministic science preference ILL-B04-CHEM-7_2_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all prompt fields: ILL-B04-CHEM-7_3_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "prompt binds actual section: ILL-B04-CHEM-7_3_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "independent prompt ILL-B04-CHEM-7_3_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "P0/P1/P2 ILL-B04-CHEM-7_3_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "deterministic science preference ILL-B04-CHEM-7_3_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all prompt fields: ILL-B04-CHEM-7_3_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "prompt binds actual section: ILL-B04-CHEM-7_3_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "independent prompt ILL-B04-CHEM-7_3_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "P0/P1/P2 ILL-B04-CHEM-7_3_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "deterministic science preference ILL-B04-CHEM-7_3_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all prompt fields: ILL-B04-CHEM-7_3_3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "prompt binds actual section: ILL-B04-CHEM-7_3_3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "independent prompt ILL-B04-CHEM-7_3_3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "P0/P1/P2 ILL-B04-CHEM-7_3_3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "deterministic science preference ILL-B04-CHEM-7_3_3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all prompt fields: ILL-B04-CHEM-7_3_4",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "prompt binds actual section: ILL-B04-CHEM-7_3_4",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "independent prompt ILL-B04-CHEM-7_3_4",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "P0/P1/P2 ILL-B04-CHEM-7_3_4",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "deterministic science preference ILL-B04-CHEM-7_3_4",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all prompt fields: ILL-B04-CHEM-8_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "prompt binds actual section: ILL-B04-CHEM-8_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "independent prompt ILL-B04-CHEM-8_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "P0/P1/P2 ILL-B04-CHEM-8_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "deterministic science preference ILL-B04-CHEM-8_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all prompt fields: ILL-B04-CHEM-8_2_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "prompt binds actual section: ILL-B04-CHEM-8_2_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "independent prompt ILL-B04-CHEM-8_2_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "P0/P1/P2 ILL-B04-CHEM-8_2_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "deterministic science preference ILL-B04-CHEM-8_2_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all prompt fields: ILL-B04-CHEM-8_2_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "prompt binds actual section: ILL-B04-CHEM-8_2_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "independent prompt ILL-B04-CHEM-8_2_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "P0/P1/P2 ILL-B04-CHEM-8_2_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "deterministic science preference ILL-B04-CHEM-8_2_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all prompt fields: ILL-B04-CHEM-8_3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "prompt binds actual section: ILL-B04-CHEM-8_3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "independent prompt ILL-B04-CHEM-8_3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "P0/P1/P2 ILL-B04-CHEM-8_3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "deterministic science preference ILL-B04-CHEM-8_3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all prompt fields: ILL-B04-CHEM-8_4_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "prompt binds actual section: ILL-B04-CHEM-8_4_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "independent prompt ILL-B04-CHEM-8_4_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "P0/P1/P2 ILL-B04-CHEM-8_4_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "deterministic science preference ILL-B04-CHEM-8_4_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all prompt fields: ILL-B04-CHEM-8_4_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "prompt binds actual section: ILL-B04-CHEM-8_4_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "independent prompt ILL-B04-CHEM-8_4_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "P0/P1/P2 ILL-B04-CHEM-8_4_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "deterministic science preference ILL-B04-CHEM-8_4_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all prompt fields: ILL-B04-CHEM-9_1_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "prompt binds actual section: ILL-B04-CHEM-9_1_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "independent prompt ILL-B04-CHEM-9_1_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "P0/P1/P2 ILL-B04-CHEM-9_1_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "deterministic science preference ILL-B04-CHEM-9_1_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all prompt fields: ILL-B04-CHEM-9_1_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "prompt binds actual section: ILL-B04-CHEM-9_1_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "independent prompt ILL-B04-CHEM-9_1_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "P0/P1/P2 ILL-B04-CHEM-9_1_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "deterministic science preference ILL-B04-CHEM-9_1_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all prompt fields: ILL-B04-CHEM-9_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "prompt binds actual section: ILL-B04-CHEM-9_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "independent prompt ILL-B04-CHEM-9_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "P0/P1/P2 ILL-B04-CHEM-9_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "deterministic science preference ILL-B04-CHEM-9_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all prompt fields: ILL-B04-CHEM-9_3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "prompt binds actual section: ILL-B04-CHEM-9_3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "independent prompt ILL-B04-CHEM-9_3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "P0/P1/P2 ILL-B04-CHEM-9_3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "deterministic science preference ILL-B04-CHEM-9_3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all prompt fields: ILL-B04-CHEM-10_1_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "prompt binds actual section: ILL-B04-CHEM-10_1_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "independent prompt ILL-B04-CHEM-10_1_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "P0/P1/P2 ILL-B04-CHEM-10_1_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "deterministic science preference ILL-B04-CHEM-10_1_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all prompt fields: ILL-B04-CHEM-10_1_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "prompt binds actual section: ILL-B04-CHEM-10_1_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "independent prompt ILL-B04-CHEM-10_1_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "P0/P1/P2 ILL-B04-CHEM-10_1_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "deterministic science preference ILL-B04-CHEM-10_1_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all prompt fields: ILL-B04-CHEM-10_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "prompt binds actual section: ILL-B04-CHEM-10_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "independent prompt ILL-B04-CHEM-10_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "P0/P1/P2 ILL-B04-CHEM-10_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "deterministic science preference ILL-B04-CHEM-10_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all prompt fields: ILL-B04-CHEM-10_3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "prompt binds actual section: ILL-B04-CHEM-10_3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "independent prompt ILL-B04-CHEM-10_3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "P0/P1/P2 ILL-B04-CHEM-10_3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "deterministic science preference ILL-B04-CHEM-10_3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all prompt fields: ILL-B04-CHEM-10_4",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "prompt binds actual section: ILL-B04-CHEM-10_4",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "independent prompt ILL-B04-CHEM-10_4",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "P0/P1/P2 ILL-B04-CHEM-10_4",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "deterministic science preference ILL-B04-CHEM-10_4",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all prompt fields: ILL-B04-CHEM-11_1_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "prompt binds actual section: ILL-B04-CHEM-11_1_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "independent prompt ILL-B04-CHEM-11_1_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "P0/P1/P2 ILL-B04-CHEM-11_1_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "deterministic science preference ILL-B04-CHEM-11_1_1",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all prompt fields: ILL-B04-CHEM-11_1_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "prompt binds actual section: ILL-B04-CHEM-11_1_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "independent prompt ILL-B04-CHEM-11_1_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "P0/P1/P2 ILL-B04-CHEM-11_1_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "deterministic science preference ILL-B04-CHEM-11_1_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all prompt fields: ILL-B04-CHEM-11_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "prompt binds actual section: ILL-B04-CHEM-11_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "independent prompt ILL-B04-CHEM-11_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "P0/P1/P2 ILL-B04-CHEM-11_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "deterministic science preference ILL-B04-CHEM-11_2",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "all prompt fields: ILL-B04-CHEM-11_3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "prompt binds actual section: ILL-B04-CHEM-11_3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "independent prompt ILL-B04-CHEM-11_3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "P0/P1/P2 ILL-B04-CHEM-11_3",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "name": "deterministic science preference ILL-B04-CHEM-11_3",
       "result": "pass",
       "detail": ""
     },

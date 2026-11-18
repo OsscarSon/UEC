@@ -3,6 +3,11 @@ from pathlib import Path
 from collections import Counter
 import csv,json,subprocess,hashlib
 R=Path(__file__).resolve().parents[1];OUT=R/'reports/batch02';OUT.mkdir(exist_ok=True)
+# Later curriculum additions are reported by the current generator; keep this command compatible.
+if (R/'data/notes/chem07.json').exists():
+ import runpy
+ runpy.run_path(str(R/'tools/build_batch04_reports.py'),run_name='__main__')
+ raise SystemExit(0)
 js="const fs=require('fs'),vm=require('vm'),c={};c.window=c;vm.createContext(c);for(const f of fs.readdirSync('lessons').filter(x=>/^(phys|chem|bio)\\d+\\.js$/.test(x)))vm.runInContext(fs.readFileSync('lessons/'+f,'utf8'),c);vm.runInContext(fs.readFileSync('lessons/batch-notes.js','utf8'),c);process.stdout.write(JSON.stringify({lessons:c.LESSONS,batch:c.BATCH_NOTES}))"
 s=json.loads(subprocess.check_output(['node','-e',js],cwd=R));curr=json.loads((R/'data/curriculum.json').read_text());master=json.loads((R/'illustrations/ILLUSTRATION_MASTER_MANIFEST.json').read_text())
 rows=[];section_rows=[];module_names=['学习目标','前置知识','知识结构图','深度知识讲解','图解、公式、推导与实验','典型例题','UEC题型与考试攻略','易错易混','分层练习','完整解析','考前速记','掌握度检测与反馈']
