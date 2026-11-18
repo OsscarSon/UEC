@@ -5,6 +5,7 @@ const chapters=[...new Set(entries.map(x=>x.subject+x.chapter_id))],errors=[],ba
 const b=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox']}),p=await b.newPage();
 p.on('pageerror',e=>errors.push(e.message));p.on('response',r=>{if(r.url().startsWith(root)&&r.status()>=400)bad.push([r.status(),r.url()]);});
 await p.goto(root);
+assert.equal(await p.evaluate(()=>questionBelongs({subject_code:'math_shared',chapter_id:35},'adv_math_i')),false);assert.equal(await p.evaluate(()=>questionBelongs({subject_code:'math_shared',chapter_id:35},'adv_math_ii')),true);
 const seed={mast:{'数学34':2,'物理3':1},learn:{'数学34':'2026-11-10'},rv:{'数学34':[1]},done:{old:true},err:[{s:'数学',c:34,q:'保留旧错题',w:'概念不懂',st:0,last:'',d:'2026-11-10'}],ex:[{n:'原考试',d:'2027-05-20',r:'原范围'}],mathSubjects:{adv_math_i:{study_note:'原I记录',study_minutes:11},adv_math_ii:{study_note:'原II记录',study_minutes:22}}};
 await p.evaluate(s=>{localStorage.setItem('uec27',JSON.stringify(s))},seed);
 await p.goto(root+'#subject=adv_math_i&chapter=1');await p.reload();
@@ -30,7 +31,10 @@ assert.deepEqual(saved.mathSubjects.adv_math_ii.chapters['1'].rv,[]);
 await p.goto(root+'#subject=adv_math_i&chapter=4');await p.locator('.lesson-section').first().getByRole('button',{name:'能独立解释',exact:true}).click();await p.locator('.lesson-section').first().getByRole('button',{name:'此目标能解释',exact:true}).first().click();
 await p.goto(root+'#subject=adv_math_ii&chapter=4');assert.equal(await p.getByRole('button',{name:'能独立解释 ✓',exact:true}).count(),0);assert.equal(await p.getByRole('button',{name:'此目标能解释 ✓',exact:true}).count(),0);
 await p.goto(root+'#subject=adv_math_i&chapter=4');assert.equal(await p.getByRole('button',{name:'能独立解释 ✓',exact:true}).count(),1);assert.equal(await p.getByRole('button',{name:'此目标能解释 ✓',exact:true}).count(),1);
-await p.getByRole('button',{name:'题库与练习',exact:true}).click();assert.ok((await p.locator('main').innerText()).includes('高数I／II共用内容'));assert.ok(await p.locator('a[href="#subject=adv_math_i&chapter=4"]').count());assert.equal(await p.locator('a[href="#subject=adv_math_ii&chapter=4"]').count(),0);
+await p.getByRole('button',{name:'题库与练习',exact:true}).click();assert.ok((await p.locator('main').innerText()).includes('高数I／II共用内容'));assert.ok(await p.locator('a[href^="#subject=adv_math_i&chapter=4&section="]').count());assert.equal(await p.locator('a[href^="#subject=adv_math_ii&chapter=4&section="]').count(),0);
+// Module bookmarks retain course scope and answers after refresh.
+await p.goto(root+'#subject=adv_math_ii&chapter=4&section=4.1');await p.locator('.module-links').first().getByRole('link',{name:/05 图解/}).click();await p.reload();assert.equal(await p.locator('h2').textContent(),'高级数学（II）');assert.equal(await p.locator('.lesson-section').count(),4);
+await p.goto(root+'#unit-'+encodeURIComponent('生物11')+'-11.1-m5');await p.reload();assert.equal(await p.locator('.lesson-section').count(),3);
 fs.mkdirSync('reports/batch05/screenshots',{recursive:true});
 for(const width of [320,390,1280]){
  await p.setViewportSize({width,height:900});

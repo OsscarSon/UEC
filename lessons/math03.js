@@ -151,5 +151,6 @@ window.LESSONS["数学3"]={
   },
   "ex": [],
   "pr": [],
-  "vid": []
+  "vid": [],
+  "directory_groups": []
 };

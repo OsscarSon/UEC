@@ -12,6 +12,17 @@
 
 ## 逐节来源
 
+- 生物 10.1：[directory_bio](https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf)；定位 4；教材内容表/目录对照；非考试纲要；partially_verified。
+- 生物 10.1：[theory_bio_10.1](https://openstax.org/books/biology-2e/pages/45-3-environmental-limits-to-population-growth)；定位 45-3-environmental-limits-to-population-growth；原理参考；不是2027范围声明；partially_verified。
+- 生物 10.1：[extra_theory_10.1_0](https://openstax.org/books/biology-2e/pages/45-1-population-demography)；定位 45-1-population-demography；专项原理参考；不是2027范围声明；partially_verified。
+- 生物 10.2：[directory_bio](https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf)；定位 4；教材内容表/目录对照；非考试纲要；partially_verified。
+- 生物 10.2：[theory_bio_10.2](https://openstax.org/books/biology-2e/pages/46-1-ecology-of-ecosystems)；定位 46-1-ecology-of-ecosystems；原理参考；不是2027范围声明；partially_verified。
+- 生物 10.3：[directory_bio](https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf)；定位 4；教材内容表/目录对照；非考试纲要；partially_verified。
+- 生物 10.3：[theory_bio_10.3](https://openstax.org/books/biology-2e/pages/46-2-energy-flow-through-ecosystems)；定位 46-2-energy-flow-through-ecosystems；原理参考；不是2027范围声明；partially_verified。
+- 生物 10.3：[extra_theory_10.3_0](https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles)；定位 46-3-biogeochemical-cycles；专项原理参考；不是2027范围声明；partially_verified。
+- 生物 10.4：[directory_bio](https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf)；定位 4；教材内容表/目录对照；非考试纲要；partially_verified。
+- 生物 10.4：[theory_bio_10.4](https://openstax.org/books/biology-2e/pages/44-3-terrestrial-biomes)；定位 44-3-terrestrial-biomes；原理参考；不是2027范围声明；partially_verified。
+- 生物 10.4：[extra_theory_10.4_0](https://openstax.org/books/biology-2e/pages/44-4-aquatic-biomes)；定位 44-4-aquatic-biomes；专项原理参考；不是2027范围声明；partially_verified。
 - 生物 11.1：[directory_bio](https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf)；定位 4；教材内容表/目录对照；非考试纲要；partially_verified。
 - 生物 11.1：[theory_bio_11.1](https://openstax.org/books/biology-2e/pages/47-3-threats-to-biodiversity)；定位 47-3-threats-to-biodiversity；原理参考；不是2027范围声明；partially_verified。
 - 生物 11.2：[directory_bio](https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf)；定位 4；教材内容表/目录对照；非考试纲要；partially_verified。
@@ -25,13 +36,47 @@
 - 生物 13.3：[directory_bio](https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf)；定位 4；教材内容表/目录对照；非考试纲要；partially_verified。
 - 生物 13.3：[theory_bio_13.3](https://openstax.org/books/biology-2e/pages/10-4-cancer-and-the-cell-cycle)；定位 10-4-cancer-and-the-cell-cycle；原理参考；不是2027范围声明；partially_verified。
 - 生物 18.1：[directory_bio](https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf)；定位 6；教材内容表/目录对照；非考试纲要；partially_verified。
-- 生物 18.1：[theory_bio_18.1](https://openstax.org/books/biology-2e/pages/22-2-structure-of-prokaryotes)；定位 22-2-structure-of-prokaryotes；原理参考；不是2027范围声明；partially_verified。
+- 生物 18.1：[theory_bio_18.1](https://openstax.org/books/biology-2e/pages/22-2-structure-of-prokaryotes-bacteria-and-archaea)；定位 22-2-structure-of-prokaryotes-bacteria-and-archaea；原理参考；不是2027范围声明；partially_verified。
 - 生物 18.2：[directory_bio](https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf)；定位 6；教材内容表/目录对照；非考试纲要；partially_verified。
 - 生物 18.2：[theory_bio_18.2](https://openstax.org/books/biology-2e/pages/22-3-prokaryotic-metabolism)；定位 22-3-prokaryotic-metabolism；原理参考；不是2027范围声明；partially_verified。
+- 生物 18.2：[extra_theory_18.2_0](https://openstax.org/books/microbiology/pages/9-1-how-microbes-grow)；定位 9-1-how-microbes-grow；专项原理参考；不是2027范围声明；partially_verified。
 - 生物 18.3：[directory_bio](https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf)；定位 6；教材内容表/目录对照；非考试纲要；partially_verified。
 - 生物 18.3：[theory_bio_18.3](https://openstax.org/books/biology-2e/pages/21-1-viral-evolution-morphology-and-classification)；定位 21-1-viral-evolution-morphology-and-classification；原理参考；不是2027范围声明；partially_verified。
 - 生物 18.4：[directory_bio](https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf)；定位 6；教材内容表/目录对照；非考试纲要；partially_verified。
 - 生物 18.4：[theory_bio_18.4](https://openstax.org/books/biology-2e/pages/21-2-virus-infections-and-hosts)；定位 21-2-virus-infections-and-hosts；原理参考；不是2027范围声明；partially_verified。
+- 生物 19.1：[directory_bio](https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf)；定位 6；教材内容表/目录对照；非考试纲要；partially_verified。
+- 生物 19.1：[theory_bio_19.1](https://openstax.org/books/biology-2e/pages/23-1-eukaryotic-origins)；定位 23-1-eukaryotic-origins；原理参考；不是2027范围声明；partially_verified。
+- 生物 19.1：[extra_theory_19.1_0](https://openstax.org/books/biology-2e/pages/22-1-prokaryotic-diversity)；定位 22-1-prokaryotic-diversity；专项原理参考；不是2027范围声明；partially_verified。
+- 生物 19.2：[directory_bio](https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf)；定位 6；教材内容表/目录对照；非考试纲要；partially_verified。
+- 生物 19.2：[theory_bio_19.2](https://openstax.org/books/biology-2e/pages/18-1-understanding-evolution)；定位 18-1-understanding-evolution；原理参考；不是2027范围声明；partially_verified。
+- 生物 19.3：[directory_bio](https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf)；定位 6；教材内容表/目录对照；非考试纲要；partially_verified。
+- 生物 19.3：[theory_bio_19.3](https://openstax.org/books/biology-2e/pages/19-3-adaptive-evolution)；定位 19-3-adaptive-evolution；原理参考；不是2027范围声明；partially_verified。
+- 生物 19.4：[directory_bio](https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf)；定位 6；教材内容表/目录对照；非考试纲要；partially_verified。
+- 生物 19.4：[theory_bio_19.4](https://openstax.org/books/biology-2e/pages/19-1-population-evolution)；定位 19-1-population-evolution；原理参考；不是2027范围声明；partially_verified。
+- 化学 1.1：[directory_chem](https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html)；定位 3；教材内容表/目录对照；非考试纲要；partially_verified。
+- 化学 1.1：[theory_chem_1.1](https://openstax.org/books/chemistry-2e/pages/1-1-chemistry-in-context)；定位 1-1-chemistry-in-context；原理参考；不是2027范围声明；partially_verified。
+- 化学 1.2：[directory_chem](https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html)；定位 5；教材内容表/目录对照；非考试纲要；partially_verified。
+- 化学 1.2：[theory_chem_1.2](https://openstax.org/books/chemistry-2e/pages/1-1-chemistry-in-context)；定位 1-1-chemistry-in-context；原理参考；不是2027范围声明；partially_verified。
+- 化学 1.3：[directory_chem](https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html)；定位 9；教材内容表/目录对照；非考试纲要；partially_verified。
+- 化学 1.3：[theory_chem_1.3](https://www.acs.org/green-chemistry-sustainability/principles/12-principles-of-green-chemistry.html)；定位 12-principles-of-green-chemistry.html；原理参考；不是2027范围声明；partially_verified。
+- 化学 1.4.1：[directory_chem](https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html)；定位 12；教材内容表/目录对照；非考试纲要；partially_verified。
+- 化学 1.4.1：[theory_chem_1.4.1](https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism)；定位 2-3-atomic-structure-and-symbolism；原理参考；不是2027范围声明；partially_verified。
+- 化学 1.4.2：[directory_chem](https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html)；定位 13；教材内容表/目录对照；非考试纲要；partially_verified。
+- 化学 1.4.2：[theory_chem_1.4.2](https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter)；定位 1-2-phases-and-classification-of-matter；原理参考；不是2027范围声明；partially_verified。
+- 化学 1.4.3：[directory_chem](https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html)；定位 15；教材内容表/目录对照；非考试纲要；partially_verified。
+- 化学 1.4.3：[theory_chem_1.4.3](https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter)；定位 1-2-phases-and-classification-of-matter；原理参考；不是2027范围声明；partially_verified。
+- 化学 1.4.4：[directory_chem](https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html)；定位 15；教材内容表/目录对照；非考试纲要；partially_verified。
+- 化学 1.4.4：[theory_chem_1.4.4](https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties)；定位 1-3-physical-and-chemical-properties；原理参考；不是2027范围声明；partially_verified。
+- 化学 2.1.1：[directory_chem](https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html)；定位 23；教材内容表/目录对照；非考试纲要；partially_verified。
+- 化学 2.1.1：[theory_chem_2.1.1](https://openstax.org/books/chemistry-2e/pages/10-1-intermolecular-forces)；定位 10-1-intermolecular-forces；原理参考；不是2027范围声明；partially_verified。
+- 化学 2.1.2：[directory_chem](https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html)；定位 25；教材内容表/目录对照；非考试纲要；partially_verified。
+- 化学 2.1.2：[theory_chem_2.1.2](https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis)；定位 17-7-electrolysis；原理参考；不是2027范围声明；partially_verified。
+- 化学 2.2.1：[directory_chem](https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html)；定位 30；教材内容表/目录对照；非考试纲要；partially_verified。
+- 化学 2.2.1：[theory_chem_2.2.1](https://openstax.org/books/chemistry-2e/pages/18-5-occurrence-preparation-and-compounds-of-hydrogen)；定位 18-5-occurrence-preparation-and-compounds-of-hydrogen；原理参考；不是2027范围声明；partially_verified。
+- 化学 2.2.2：[directory_chem](https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html)；定位 32；教材内容表/目录对照；非考试纲要；partially_verified。
+- 化学 2.2.2：[theory_chem_2.2.2](https://openstax.org/books/chemistry-2e/pages/18-5-occurrence-preparation-and-compounds-of-hydrogen)；定位 18-5-occurrence-preparation-and-compounds-of-hydrogen；原理参考；不是2027范围声明；partially_verified。
+- 化学 2.2.3：[directory_chem](https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html)；定位 35；教材内容表/目录对照；非考试纲要；partially_verified。
+- 化学 2.2.3：[theory_chem_2.2.3](https://openstax.org/books/chemistry-2e/pages/17-5-batteries-and-fuel-cells)；定位 17-5-batteries-and-fuel-cells；原理参考；不是2027范围声明；partially_verified。
 - 化学 26.1：[directory_chem](https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf)；定位 13；教材内容表/目录对照；非考试纲要；partially_verified。
 - 化学 26.1：[theory_chem_26.1](https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons)；定位 20-1-hydrocarbons；原理参考；不是2027范围声明；partially_verified。
 - 化学 26.2：[directory_chem](https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf)；定位 13；教材内容表/目录对照；非考试纲要；partially_verified。
@@ -43,6 +88,58 @@
 - 化学 26.4：[IUPAC_Rf](https://goldbook.iupac.org/terms/view/R05353/html)；定位 retardation factor in planar chromatography；IUPAC术语定义；非2027范围；verified_definition。
 - 化学 26.5：[directory_chem](https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf)；定位 13；教材内容表/目录对照；非考试纲要；partially_verified。
 - 化学 26.5：[theory_chem_26.5](https://www.acs.org/green-chemistry-sustainability/principles/12-principles-of-green-chemistry.html)；定位 12-principles-of-green-chemistry.html；原理参考；不是2027范围声明；partially_verified。
+- 化学 29.1：[directory_chem](https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf)；定位 14；教材内容表/目录对照；非考试纲要；partially_verified。
+- 化学 29.1：[theory_chem_29.1](https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons)；定位 20-1-hydrocarbons；原理参考；不是2027范围声明；partially_verified。
+- 化学 29.1：[extra_theory_29.1_0](https://openstax.org/books/organic-chemistry/pages/9-1-naming-alkynes)；定位 9-1-naming-alkynes；专项原理参考；不是2027范围声明；partially_verified。
+- 化学 29.2：[directory_chem](https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf)；定位 14；教材内容表/目录对照；非考试纲要；partially_verified。
+- 化学 29.2：[theory_chem_29.2](https://openstax.org/books/chemistry-2e/pages/8-2-hybrid-atomic-orbitals)；定位 8-2-hybrid-atomic-orbitals；原理参考；不是2027范围声明；partially_verified。
+- 化学 29.2：[extra_theory_29.2_0](https://openstax.org/books/organic-chemistry/pages/9-7-alkyne-acidity-formation-of-acetylide-anions)；定位 9-7-alkyne-acidity-formation-of-acetylide-anions；专项原理参考；不是2027范围声明；partially_verified。
+- 化学 29.3：[directory_chem](https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf)；定位 14；教材内容表/目录对照；非考试纲要；partially_verified。
+- 化学 29.3：[theory_chem_29.3](https://openstax.org/books/chemistry-2e/pages/9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law)；定位 9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law；原理参考；不是2027范围声明；partially_verified。
+- 化学 29.4：[directory_chem](https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf)；定位 14；教材内容表/目录对照；非考试纲要；partially_verified。
+- 化学 29.4：[theory_chem_29.4](https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons)；定位 20-1-hydrocarbons；原理参考；不是2027范围声明；partially_verified。
+- 化学 29.4：[extra_theory_29.4_0](https://openstax.org/books/organic-chemistry/pages/9-4-hydration-of-alkynes)；定位 9-4-hydration-of-alkynes；专项原理参考；不是2027范围声明；partially_verified。
+- 化学 29.4：[extra_theory_29.4_1](https://openstax.org/books/organic-chemistry/pages/9-summary-of-reactions)；定位 9-summary-of-reactions；专项原理参考；不是2027范围声明；partially_verified。
+- 化学 29.5：[directory_chem](https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf)；定位 14；教材内容表/目录对照；非考试纲要；partially_verified。
+- 化学 29.5：[theory_chem_29.5](https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons)；定位 20-1-hydrocarbons；原理参考；不是2027范围声明；partially_verified。
+- 化学 35.1：[directory_chem](https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf)；定位 16；教材内容表/目录对照；非考试纲要；partially_verified。
+- 化学 35.1：[theory_chem_35.1](https://openstax.org/books/organic-chemistry/pages/31-7-polymer-structure-and-physical-properties)；定位 31-7-polymer-structure-and-physical-properties；原理参考；不是2027范围声明；partially_verified。
+- 化学 35.2：[directory_chem](https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf)；定位 16；教材内容表/目录对照；非考试纲要；partially_verified。
+- 化学 35.2：[theory_chem_35.2](https://openstax.org/books/organic-chemistry/pages/31-7-polymer-structure-and-physical-properties)；定位 31-7-polymer-structure-and-physical-properties；原理参考；不是2027范围声明；partially_verified。
+- 化学 35.3：[directory_chem](https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf)；定位 16；教材内容表/目录对照；非考试纲要；partially_verified。
+- 化学 35.3：[theory_chem_35.3](https://openstax.org/books/organic-chemistry/pages/31-7-polymer-structure-and-physical-properties)；定位 31-7-polymer-structure-and-physical-properties；原理参考；不是2027范围声明；partially_verified。
+- 化学 35.4.1：[directory_chem](https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf)；定位 16；教材内容表/目录对照；非考试纲要；partially_verified。
+- 化学 35.4.1：[theory_chem_35.4.1](https://openstax.org/books/organic-chemistry/pages/31-1-chain-growth-polymers)；定位 31-1-chain-growth-polymers；原理参考；不是2027范围声明；partially_verified。
+- 化学 35.4.2：[directory_chem](https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf)；定位 16；教材内容表/目录对照；非考试纲要；partially_verified。
+- 化学 35.4.2：[theory_chem_35.4.2](https://openstax.org/books/organic-chemistry/pages/31-4-step-growth-polymers)；定位 31-4-step-growth-polymers；原理参考；不是2027范围声明；partially_verified。
+- 化学 35.5.1：[directory_chem](https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf)；定位 16；教材内容表/目录对照；非考试纲要；partially_verified。
+- 化学 35.5.1：[theory_chem_35.5.1](https://openstax.org/books/organic-chemistry/pages/14-6-diene-polymers-natural-and-synthetic-rubbers)；定位 14-6-diene-polymers-natural-and-synthetic-rubbers；原理参考；不是2027范围声明；partially_verified。
+- 化学 35.5.2：[directory_chem](https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf)；定位 16；教材内容表/目录对照；非考试纲要；partially_verified。
+- 化学 35.5.2：[theory_chem_35.5.2](https://openstax.org/books/organic-chemistry/pages/14-6-diene-polymers-natural-and-synthetic-rubbers)；定位 14-6-diene-polymers-natural-and-synthetic-rubbers；原理参考；不是2027范围声明；partially_verified。
+- 化学 35.6：[directory_chem](https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf)；定位 16；教材内容表/目录对照；非考试纲要；partially_verified。
+- 化学 35.6：[theory_chem_35.6](https://openstax.org/books/organic-chemistry/pages/31-chemistry-matters-degradable-polymers)；定位 31-chemistry-matters-degradable-polymers；原理参考；不是2027范围声明；partially_verified。
+- 数学 1.1：[directory_math](https://www.scribd.com/document/1058092101/数学-高一上册)；定位 目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）；教材内容表/目录对照；非考试纲要；partially_verified。
+- 数学 1.1：[theory_math_1.1](https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-1-the-rectangular-coordinate-systems-and-graphs)；定位 2-1-the-rectangular-coordinate-systems-and-graphs；原理参考；不是2027范围声明；partially_verified。
+- 数学 1.2：[directory_math](https://www.scribd.com/document/1058092101/数学-高一上册)；定位 目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）；教材内容表/目录对照；非考试纲要；partially_verified。
+- 数学 1.2：[theory_math_1.2](https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-1-the-rectangular-coordinate-systems-and-graphs)；定位 2-1-the-rectangular-coordinate-systems-and-graphs；原理参考；不是2027范围声明；partially_verified。
+- 数学 1.3：[directory_math](https://www.scribd.com/document/1058092101/数学-高一上册)；定位 目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）；教材内容表/目录对照；非考试纲要；partially_verified。
+- 数学 1.3：[theory_math_1.3](https://openstax.org/books/precalculus-2e/pages/9-8-solving-systems-with-cramers-rule)；定位 9-8-solving-systems-with-cramers-rule；原理参考；不是2027范围声明；partially_verified。
+- 数学 1.4：[directory_math](https://www.scribd.com/document/1058092101/数学-高一上册)；定位 目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）；教材内容表/目录对照；非考试纲要；partially_verified。
+- 数学 1.4：[theory_math_1.4](https://openstax.org/books/algebra-and-trigonometry-2e/pages/4-1-linear-functions)；定位 4-1-linear-functions；原理参考；不是2027范围声明；partially_verified。
+- 数学 1.5：[directory_math](https://www.scribd.com/document/1058092101/数学-高一上册)；定位 目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）；教材内容表/目录对照；非考试纲要；partially_verified。
+- 数学 1.5：[theory_math_1.5](https://openstax.org/books/algebra-and-trigonometry-2e/pages/4-1-linear-functions)；定位 4-1-linear-functions；原理参考；不是2027范围声明；partially_verified。
+- 数学 1.6：[directory_math](https://www.scribd.com/document/1058092101/数学-高一上册)；定位 目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）；教材内容表/目录对照；非考试纲要；partially_verified。
+- 数学 1.6：[theory_math_1.6](https://openstax.org/books/algebra-and-trigonometry-2e/pages/11-1-systems-of-linear-equations-two-variables)；定位 11-1-systems-of-linear-equations-two-variables；原理参考；不是2027范围声明；partially_verified。
+- 数学 1.7：[directory_math](https://www.scribd.com/document/1058092101/数学-高一上册)；定位 目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）；教材内容表/目录对照；非考试纲要；partially_verified。
+- 数学 1.7：[theory_math_1.7](https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-1-the-rectangular-coordinate-systems-and-graphs)；定位 2-1-the-rectangular-coordinate-systems-and-graphs；原理参考；不是2027范围声明；partially_verified。
+- 数学 2.1：[directory_math](https://www.scribd.com/document/1058092101/数学-高一上册)；定位 目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）；教材内容表/目录对照；非考试纲要；partially_verified。
+- 数学 2.1：[theory_math_2.1](https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-5-quadratic-equations)；定位 2-5-quadratic-equations；原理参考；不是2027范围声明；partially_verified。
+- 数学 2.2：[directory_math](https://www.scribd.com/document/1058092101/数学-高一上册)；定位 目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）；教材内容表/目录对照；非考试纲要；partially_verified。
+- 数学 2.2：[theory_math_2.2](https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-5-quadratic-equations)；定位 2-5-quadratic-equations；原理参考；不是2027范围声明；partially_verified。
+- 数学 2.3：[directory_math](https://www.scribd.com/document/1058092101/数学-高一上册)；定位 目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）；教材内容表/目录对照；非考试纲要；partially_verified。
+- 数学 2.3：[theory_math_2.3](https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-1-quadratic-functions)；定位 5-1-quadratic-functions；原理参考；不是2027范围声明；partially_verified。
+- 数学 2.4：[directory_math](https://www.scribd.com/document/1058092101/数学-高一上册)；定位 目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）；教材内容表/目录对照；非考试纲要；partially_verified。
+- 数学 2.4：[theory_math_2.4](https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-1-quadratic-functions)；定位 5-1-quadratic-functions；原理参考；不是2027范围声明；partially_verified。
 - 数学 3.1：[directory_math](https://www.scribd.com/document/1058092101/数学-高一上册)；定位 目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）；教材内容表/目录对照；非考试纲要；partially_verified。
 - 数学 3.1：[theory_math_3.1](https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-2-power-functions-and-polynomial-functions)；定位 5-2-power-functions-and-polynomial-functions；原理参考；不是2027范围声明；partially_verified。
 - 数学 3.2：[directory_math](https://www.scribd.com/document/1058092101/数学-高一上册)；定位 目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）；教材内容表/目录对照；非考试纲要；partially_verified。
@@ -61,6 +158,18 @@
 - 数学 4.3：[theory_math_4.3](https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-3-radicals-and-rational-exponents)；定位 1-3-radicals-and-rational-exponents；原理参考；不是2027范围声明；partially_verified。
 - 数学 4.4：[directory_math](https://www.scribd.com/document/1058092101/数学-高一上册)；定位 目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）；教材内容表/目录对照；非考试纲要；partially_verified。
 - 数学 4.4：[theory_math_4.4](https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-3-radicals-and-rational-exponents)；定位 1-3-radicals-and-rational-exponents；原理参考；不是2027范围声明；partially_verified。
+- 数学 5.1：[directory_math](https://www.scribd.com/document/1058092101/数学-高一上册)；定位 目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）；教材内容表/目录对照；非考试纲要；partially_verified。
+- 数学 5.1：[theory_math_5.1](https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-1-functions-and-function-notation)；定位 3-1-functions-and-function-notation；原理参考；不是2027范围声明；partially_verified。
+- 数学 5.2：[directory_math](https://www.scribd.com/document/1058092101/数学-高一上册)；定位 目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）；教材内容表/目录对照；非考试纲要；partially_verified。
+- 数学 5.2：[theory_math_5.2](https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-2-domain-and-range)；定位 3-2-domain-and-range；原理参考；不是2027范围声明；partially_verified。
+- 数学 5.3：[directory_math](https://www.scribd.com/document/1058092101/数学-高一上册)；定位 目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）；教材内容表/目录对照；非考试纲要；partially_verified。
+- 数学 5.3：[theory_math_5.3](https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-5-transformation-of-functions)；定位 3-5-transformation-of-functions；原理参考；不是2027范围声明；partially_verified。
+- 数学 5.4：[directory_math](https://www.scribd.com/document/1058092101/数学-高一上册)；定位 目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）；教材内容表/目录对照；非考试纲要；partially_verified。
+- 数学 5.4：[theory_math_5.4](https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-4-composition-of-functions)；定位 3-4-composition-of-functions；原理参考；不是2027范围声明；partially_verified。
+- 数学 5.5：[directory_math](https://www.scribd.com/document/1058092101/数学-高一上册)；定位 目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）；教材内容表/目录对照；非考试纲要；partially_verified。
+- 数学 5.5：[theory_math_5.5](https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-7-inverse-functions)；定位 3-7-inverse-functions；原理参考；不是2027范围声明；partially_verified。
+- 数学 5.6：[directory_math](https://www.scribd.com/document/1058092101/数学-高一上册)；定位 目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）；教材内容表/目录对照；非考试纲要；partially_verified。
+- 数学 5.6：[theory_math_5.6](https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-7-inverse-functions)；定位 3-7-inverse-functions；原理参考；不是2027范围声明；partially_verified。
 - 物理 1.1：[directory_phys](https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017)；定位 2；教材内容表/目录对照；非考试纲要；partially_verified。
 - 物理 1.1：[theory_phys_1.1](https://openstax.org/books/college-physics-2e/pages/1-1-physics-an-introduction)；定位 1-1-physics-an-introduction；原理参考；不是2027范围声明；partially_verified。
 - 物理 1.2：[directory_phys](https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017)；定位 11；教材内容表/目录对照；非考试纲要；partially_verified。

@@ -1,11 +1,17 @@
 """Compile authored supplements, refusing unknown or duplicate existing section IDs."""
 import json,pathlib,re,subprocess
 ROOT=pathlib.Path(__file__).resolve().parents[1]
+BATCH05_STEMS={p.name.split('-')[0] for p in (ROOT/'data/batch05').glob('*-sections.json')}
 # JS remains the source of truth for the original course structure.
 js="const fs=require('fs'),vm=require('vm');let c={};c.window=c;vm.createContext(c);for(const f of fs.readdirSync('lessons').filter(f=>/^(phys|chem|bio)\\d+\\.js$/.test(f)))vm.runInContext(fs.readFileSync('lessons/'+f,'utf8'),c);process.stdout.write(JSON.stringify(c.LESSONS));"
 original=json.loads(subprocess.check_output(['node','-e',js],cwd=ROOT))
+# Keep legacy provenance and related-section checks in their original universe.
+for stem in BATCH05_STEMS:
+ match=re.fullmatch(r'(phys|chem|bio|math)(\d+)',stem)
+ if match:original.pop({'phys':'物理','chem':'化学','bio':'生物','math':'数学'}[match[1]]+str(int(match[2])),None)
 compiled={}
 for p in sorted((ROOT/'data/notes').glob('*.json')):
+ if p.stem in BATCH05_STEMS:continue
  prefix,chapter=re.fullmatch(r'(phys|chem|bio)(\d+)',p.stem).groups()
  subject={'phys':'物理','chem':'化学','bio':'生物'}[prefix]
  code={'phys':'physics','chem':'chemistry','bio':'biology'}[prefix]

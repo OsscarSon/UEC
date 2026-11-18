@@ -1,13 +1,13 @@
 {
   "status": "pass",
   "actual_counts": {
-    "sections": 44,
-    "examples": 132,
-    "practice": 176,
-    "quiz": 44
+    "sections": 94,
+    "examples": 282,
+    "practice": 376,
+    "quiz": 94
   },
-  "independent_numeric_samples": 66,
-  "protected_baseline_files": 284,
+  "independent_numeric_samples": 165,
+  "protected_baseline_files": 283,
   "limits": "自动结构检查、原数据保护与列明的独立算例；不声称所有题目均独立审校、所有目录已对用户实体书确认，或已获官方/教师审定。",
   "checks": [
     {
@@ -1331,11 +1331,6 @@
       "detail": ""
     },
     {
-      "check": "protected baseline illustrations/PROMPTS_BATCH_ALL.json",
-      "result": "pass",
-      "detail": ""
-    },
-    {
       "check": "protected baseline lessons/batch-notes.js",
       "result": "pass",
       "detail": ""
@@ -1431,12 +1426,442 @@
       "detail": ""
     },
     {
+      "check": "original142 prompt tasks preserved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
       "check": "canonical116 chapters",
       "result": "pass",
       "detail": ""
     },
     {
       "check": "unique subject/chapter/section identity",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10 identities, names and order",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.1 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.1 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.1 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.1 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.1 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.2 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.2 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.2 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.2 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.2 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.3 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.3 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.3 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.3 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.3 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.4 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.4 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.4 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.4 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.4 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio10/10.4 original provenance",
       "result": "pass",
       "detail": ""
     },
@@ -2506,6 +2931,1701 @@
       "detail": ""
     },
     {
+      "check": "bio19 identities, names and order",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.1 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.1 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.1 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.1 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.1 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.2 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.2 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.2 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.2 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.2 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.3 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.3 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.3 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.3 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.3 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.4 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.4 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.4 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.4 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.4 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "bio19/19.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01 identities, names and order",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.1 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.1 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.1 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.1 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.1 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.2 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.2 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.2 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.2 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.2 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.3 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.3 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.3 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.3 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.3 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.1 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.1 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.1 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.1 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.1 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.2 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.2 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.2 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.2 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.2 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.3 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.3 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.3 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.3 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.3 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.4 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.4 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.4 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.4 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.4 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem01/1.4.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02 identities, names and order",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.1 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.1 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.1 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.1 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.1 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.2 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.2 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.2 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.2 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.2 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.1.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.1 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.1 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.1 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.1 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.1 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.2 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.2 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.2 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.2 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.2 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.3 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.3 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.3 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.3 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.3 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem02/2.2.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
       "check": "chem26 identities, names and order",
       "result": "pass",
       "detail": ""
@@ -3032,6 +5152,2546 @@
     },
     {
       "check": "chem26/26.5 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29 identities, names and order",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.1 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.1 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.1 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.1 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.1 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.2 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.2 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.2 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.2 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.2 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.3 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.3 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.3 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.3 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.3 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.4 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.4 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.4 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.4 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.4 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.5 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.5 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.5 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.5 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.5 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.5 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.5 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.5 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.5 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.5 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.5 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.5 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.5 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.5 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.5 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.5 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.5 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.5 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.5 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.5 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem29/29.5 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35 identities, names and order",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.1 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.1 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.1 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.1 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.1 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.2 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.2 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.2 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.2 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.2 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.3 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.3 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.3 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.3 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.3 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.1 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.1 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.1 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.1 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.1 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.2 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.2 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.2 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.2 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.2 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.4.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.1 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.1 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.1 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.1 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.1 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.2 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.2 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.2 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.2 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.2 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.5.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.6 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.6 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.6 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.6 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.6 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.6 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.6 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.6 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.6 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.6 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.6 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.6 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.6 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.6 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.6 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.6 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.6 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.6 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.6 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.6 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "chem35/35.6 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01 identities, names and order",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.1 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.1 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.1 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.1 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.1 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.2 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.2 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.2 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.2 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.2 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.3 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.3 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.3 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.3 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.3 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.4 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.4 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.4 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.4 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.4 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.5 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.5 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.5 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.5 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.5 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.5 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.5 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.5 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.5 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.5 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.5 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.5 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.5 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.5 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.5 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.5 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.5 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.5 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.5 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.5 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.5 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.6 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.6 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.6 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.6 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.6 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.6 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.6 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.6 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.6 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.6 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.6 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.6 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.6 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.6 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.6 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.6 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.6 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.6 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.6 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.6 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.6 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.7 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.7 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.7 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.7 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.7 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.7 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.7 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.7 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.7 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.7 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.7 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.7 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.7 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.7 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.7 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.7 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.7 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.7 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.7 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.7 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math01/1.7 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02 identities, names and order",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.1 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.1 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.1 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.1 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.1 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.2 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.2 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.2 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.2 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.2 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.3 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.3 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.3 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.3 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.3 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.4 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.4 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.4 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.4 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.4 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math02/2.4 original provenance",
       "result": "pass",
       "detail": ""
     },
@@ -3987,6 +8647,641 @@
     },
     {
       "check": "math04/4.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05 identities, names and order",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.1 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.1 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.1 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.1 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.1 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.1 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.1 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.2 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.2 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.2 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.2 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.2 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.2 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.2 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.3 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.3 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.3 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.3 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.3 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.3 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.3 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.4 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.4 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.4 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.4 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.4 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.4 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.4 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.5 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.5 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.5 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.5 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.5 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.5 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.5 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.5 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.5 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.5 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.5 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.5 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.5 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.5 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.5 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.5 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.5 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.5 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.5 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.5 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.5 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.6 canonical chapter",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.6 twelve module inputs",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.6 goal-linked diagnostics",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.6 sources not claimed fully approved",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.6 actual explanation beyond placeholder",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.6 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.6 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.6 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.6 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.6 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.6 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.6 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.6 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.6 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.6 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.6 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.6 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.6 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.6 original provenance",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.6 independent question and eight-stage answer",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "math05/5.6 original provenance",
       "result": "pass",
       "detail": ""
     },
@@ -6720,7 +12015,958 @@
       }
     },
     {
+      "check": "coordinate distance",
+      "result": "pass",
+      "detail": {
+        "section": "math1.1",
+        "computed": 10.0,
+        "expected": 10
+      }
+    },
+    {
+      "check": "equidistant point squared distances",
+      "result": "pass",
+      "detail": {
+        "section": "math1.1",
+        "computed": 20,
+        "expected": 20
+      }
+    },
+    {
+      "check": "internal division x",
+      "result": "pass",
+      "detail": {
+        "section": "math1.2",
+        "computed": 3.0,
+        "expected": 3
+      }
+    },
+    {
+      "check": "external division x",
+      "result": "pass",
+      "detail": {
+        "section": "math1.2",
+        "computed": 13,
+        "expected": 13
+      }
+    },
+    {
+      "check": "triangle area",
+      "result": "pass",
+      "detail": {
+        "section": "math1.3",
+        "computed": 6.0,
+        "expected": 6
+      }
+    },
+    {
+      "check": "polygon shoelace",
+      "result": "pass",
+      "detail": {
+        "section": "math1.3",
+        "computed": 12.0,
+        "expected": 12
+      }
+    },
+    {
+      "check": "slope",
+      "result": "pass",
+      "detail": {
+        "section": "math1.4",
+        "computed": 2.0,
+        "expected": 2
+      }
+    },
+    {
+      "check": "perpendicular slope product",
+      "result": "pass",
+      "detail": {
+        "section": "math1.4",
+        "computed": -1.0,
+        "expected": -1
+      }
+    },
+    {
+      "check": "line through point",
+      "result": "pass",
+      "detail": {
+        "section": "math1.5",
+        "computed": -1,
+        "expected": -1
+      }
+    },
+    {
+      "check": "perpendicular line point",
+      "result": "pass",
+      "detail": {
+        "section": "math1.5",
+        "computed": 0,
+        "expected": 0
+      }
+    },
+    {
+      "check": "intersection first equation",
+      "result": "pass",
+      "detail": {
+        "section": "math1.6",
+        "computed": 5,
+        "expected": 5
+      }
+    },
+    {
+      "check": "intersection second equation",
+      "result": "pass",
+      "detail": {
+        "section": "math1.6",
+        "computed": 1,
+        "expected": 1
+      }
+    },
+    {
+      "check": "point-line distance",
+      "result": "pass",
+      "detail": {
+        "section": "math1.7",
+        "computed": 4.0,
+        "expected": 4
+      }
+    },
+    {
+      "check": "foot on line",
+      "result": "pass",
+      "detail": {
+        "section": "math1.7",
+        "computed": 0.0,
+        "expected": 0
+      }
+    },
+    {
+      "check": "quadratic discriminant",
+      "result": "pass",
+      "detail": {
+        "section": "math2.1",
+        "computed": 25,
+        "expected": 25
+      }
+    },
+    {
+      "check": "quadratic roots product",
+      "result": "pass",
+      "detail": {
+        "section": "math2.1",
+        "computed": -1.0,
+        "expected": -1
+      }
+    },
+    {
+      "check": "Vieta symmetric square",
+      "result": "pass",
+      "detail": {
+        "section": "math2.2",
+        "computed": 4.25,
+        "expected": 4.25
+      }
+    },
+    {
+      "check": "shifted root polynomial",
+      "result": "pass",
+      "detail": {
+        "section": "math2.2",
+        "computed": 5.0,
+        "expected": 5
+      }
+    },
+    {
+      "check": "quadratic vertex",
+      "result": "pass",
+      "detail": {
+        "section": "math2.3",
+        "computed": -3,
+        "expected": -3
+      }
+    },
+    {
+      "check": "restricted quadratic minimum",
+      "result": "pass",
+      "detail": {
+        "section": "math2.3",
+        "computed": -4,
+        "expected": -4
+      }
+    },
+    {
+      "check": "tangent second contact",
+      "result": "pass",
+      "detail": {
+        "section": "math2.4",
+        "computed": 17,
+        "expected": 17
+      }
+    },
+    {
+      "check": "tangent line at contact",
+      "result": "pass",
+      "detail": {
+        "section": "math2.4",
+        "computed": 17,
+        "expected": 17
+      }
+    },
+    {
+      "check": "polynomial expansion at1",
+      "result": "pass",
+      "detail": {
+        "section": "math3.1",
+        "computed": 6,
+        "expected": 6
+      }
+    },
+    {
+      "check": "remainder linear",
+      "result": "pass",
+      "detail": {
+        "section": "math3.2",
+        "computed": 1.0,
+        "expected": 1
+      }
+    },
+    {
+      "check": "remainder quadratic plus root",
+      "result": "pass",
+      "detail": {
+        "section": "math3.2",
+        "computed": 6,
+        "expected": 6
+      }
+    },
+    {
+      "check": "remainder quadratic minus root",
+      "result": "pass",
+      "detail": {
+        "section": "math3.2",
+        "computed": 6,
+        "expected": 6
+      }
+    },
+    {
+      "check": "factor parameter root1",
+      "result": "pass",
+      "detail": {
+        "section": "math3.3",
+        "computed": 0,
+        "expected": 0
+      }
+    },
+    {
+      "check": "factor parameter root-2",
+      "result": "pass",
+      "detail": {
+        "section": "math3.3",
+        "computed": 0,
+        "expected": 0
+      }
+    },
+    {
+      "check": "group factor at4",
+      "result": "pass",
+      "detail": {
+        "section": "math3.4",
+        "computed": 12,
+        "expected": 12
+      }
+    },
+    {
+      "check": "even equation real root",
+      "result": "pass",
+      "detail": {
+        "section": "math3.5",
+        "computed": 0,
+        "expected": 0
+      }
+    },
+    {
+      "check": "principal square root",
+      "result": "pass",
+      "detail": {
+        "section": "math4.1",
+        "computed": 2.0,
+        "expected": 2
+      }
+    },
+    {
+      "check": "rational power",
+      "result": "pass",
+      "detail": {
+        "section": "math4.2",
+        "computed": 8.999999999999998,
+        "expected": 9
+      }
+    },
+    {
+      "check": "negative rational power",
+      "result": "pass",
+      "detail": {
+        "section": "math4.2",
+        "computed": 0.125,
+        "expected": 0.125
+      }
+    },
+    {
+      "check": "radical sum",
+      "result": "pass",
+      "detail": {
+        "section": "math4.3",
+        "computed": 5.65685424949238,
+        "expected": 5.656854249492381
+      }
+    },
+    {
+      "check": "radical equation accepted",
+      "result": "pass",
+      "detail": {
+        "section": "math4.3",
+        "computed": 2.0,
+        "expected": 2
+      }
+    },
+    {
+      "check": "rationalized conjugate",
+      "result": "pass",
+      "detail": {
+        "section": "math4.4",
+        "computed": 0.3178372451957822,
+        "expected": 0.31783724519578205
+      }
+    },
+    {
+      "check": "cubic rationalization",
+      "result": "pass",
+      "detail": {
+        "section": "math4.4",
+        "computed": 3.8473221018630723,
+        "expected": 3.8473221018630728
+      }
+    },
+    {
+      "check": "function substitution at0",
+      "result": "pass",
+      "detail": {
+        "section": "math5.1",
+        "computed": -1,
+        "expected": -1
+      }
+    },
+    {
+      "check": "range minimum at vertex",
+      "result": "pass",
+      "detail": {
+        "section": "math5.2",
+        "computed": 1,
+        "expected": 1
+      }
+    },
+    {
+      "check": "range maximum at endpoint",
+      "result": "pass",
+      "detail": {
+        "section": "math5.2",
+        "computed": 5,
+        "expected": 5
+      }
+    },
+    {
+      "check": "transformed point input",
+      "result": "pass",
+      "detail": {
+        "section": "math5.3",
+        "computed": 6,
+        "expected": 6
+      }
+    },
+    {
+      "check": "transformed point output",
+      "result": "pass",
+      "detail": {
+        "section": "math5.3",
+        "computed": -6,
+        "expected": -6
+      }
+    },
+    {
+      "check": "composition order first",
+      "result": "pass",
+      "detail": {
+        "section": "math5.4",
+        "computed": 9,
+        "expected": 9
+      }
+    },
+    {
+      "check": "composition order reversed",
+      "result": "pass",
+      "detail": {
+        "section": "math5.4",
+        "computed": 25,
+        "expected": 25
+      }
+    },
+    {
+      "check": "linear bijection inverse sample",
+      "result": "pass",
+      "detail": {
+        "section": "math5.5",
+        "computed": 3.0,
+        "expected": 3
+      }
+    },
+    {
+      "check": "inverse rational at5",
+      "result": "pass",
+      "detail": {
+        "section": "math5.6",
+        "computed": 5.333333333333333,
+        "expected": 5.333333333333333
+      }
+    },
+    {
+      "check": "inverse left parabola sample",
+      "result": "pass",
+      "detail": {
+        "section": "math5.6",
+        "computed": -1.0,
+        "expected": -1
+      }
+    },
+    {
+      "check": "organic carbon moles",
+      "result": "pass",
+      "detail": {
+        "section": "chem26.1",
+        "computed": 0.01,
+        "expected": 0.01
+      }
+    },
+    {
+      "check": "organic hydrogen moles",
+      "result": "pass",
+      "detail": {
+        "section": "chem26.1",
+        "computed": 0.02,
+        "expected": 0.02
+      }
+    },
+    {
+      "check": "organic oxygen mass",
+      "result": "pass",
+      "detail": {
+        "section": "chem26.1",
+        "computed": 0.16,
+        "expected": 0.16
+      }
+    },
+    {
+      "check": "chromatography Rf",
+      "result": "pass",
+      "detail": {
+        "section": "chem26.4",
+        "computed": 0.5,
+        "expected": 0.5
+      }
+    },
+    {
+      "check": "purity corrected yield",
+      "result": "pass",
+      "detail": {
+        "section": "chem26.4",
+        "computed": 0.8003076923076923,
+        "expected": 0.8003076923076924
+      }
+    },
+    {
+      "check": "green material accounting",
+      "result": "pass",
+      "detail": {
+        "section": "chem26.5",
+        "computed": 50,
+        "expected": 50
+      }
+    },
+    {
+      "check": "allele A frequency",
+      "result": "pass",
+      "detail": {
+        "section": "bio19.4",
+        "computed": 0.65,
+        "expected": 0.65
+      }
+    },
+    {
+      "check": "heterozygous expectation",
+      "result": "pass",
+      "detail": {
+        "section": "bio19.4",
+        "computed": 0.32000000000000006,
+        "expected": 0.32
+      }
+    },
+    {
+      "check": "post-bottleneck allele",
+      "result": "pass",
+      "detail": {
+        "section": "bio19.4",
+        "computed": 0.3,
+        "expected": 0.3
+      }
+    },
+    {
+      "check": "offspring proportion",
+      "result": "pass",
+      "detail": {
+        "section": "bio19.3",
+        "computed": 0.5714285714285714,
+        "expected": 0.5714285714285714
+      }
+    },
+    {
+      "check": "normalized water uptake",
+      "result": "pass",
+      "detail": {
+        "section": "chem1.1",
+        "computed": 5.0,
+        "expected": 5
+      }
+    },
+    {
+      "check": "isotope weighted mass",
+      "result": "pass",
+      "detail": {
+        "section": "chem1.4.1",
+        "computed": 12.25,
+        "expected": 12.25
+      }
+    },
+    {
+      "check": "evaporated salt fraction",
+      "result": "pass",
+      "detail": {
+        "section": "chem1.4.2",
+        "computed": 0.125,
+        "expected": 0.125
+      }
+    },
+    {
+      "check": "ice volume",
+      "result": "pass",
+      "detail": {
+        "section": "chem2.1.1",
+        "computed": 108.69565217391303,
+        "expected": 108.69565217391305
+      }
+    },
+    {
+      "check": "water heating",
+      "result": "pass",
+      "detail": {
+        "section": "chem2.1.1",
+        "computed": 16800.0,
+        "expected": 16800
+      }
+    },
+    {
+      "check": "metal temperature rise",
+      "result": "pass",
+      "detail": {
+        "section": "chem2.1.1",
+        "computed": 10.0,
+        "expected": 10
+      }
+    },
+    {
+      "check": "electrolysis H mass",
+      "result": "pass",
+      "detail": {
+        "section": "chem2.1.2",
+        "computed": 2.0,
+        "expected": 2
+      }
+    },
+    {
+      "check": "zinc hydrogen volume",
+      "result": "pass",
+      "detail": {
+        "section": "chem2.2.1",
+        "computed": 2.2399999999999998,
+        "expected": 2.24
+      }
+    },
+    {
+      "check": "acid limiting H2",
+      "result": "pass",
+      "detail": {
+        "section": "chem2.2.1",
+        "computed": 0.075,
+        "expected": 0.075
+      }
+    },
+    {
+      "check": "zinc remaining",
+      "result": "pass",
+      "detail": {
+        "section": "chem2.2.1",
+        "computed": 0.02500000000000001,
+        "expected": 0.025
+      }
+    },
+    {
+      "check": "CuO reduction copper",
+      "result": "pass",
+      "detail": {
+        "section": "chem2.2.2",
+        "computed": 6.3500000000000005,
+        "expected": 6.35
+      }
+    },
+    {
+      "check": "CuO reduction water",
+      "result": "pass",
+      "detail": {
+        "section": "chem2.2.2",
+        "computed": 1.8,
+        "expected": 1.8
+      }
+    },
+    {
+      "check": "ammonia mass",
+      "result": "pass",
+      "detail": {
+        "section": "chem2.2.3",
+        "computed": 3.4,
+        "expected": 3.4
+      }
+    },
+    {
+      "check": "fuel cell electrical energy",
+      "result": "pass",
+      "detail": {
+        "section": "chem2.2.3",
+        "computed": 145.2,
+        "expected": 145.2
+      }
+    },
+    {
+      "check": "hydrogen storage cubic metres",
+      "result": "pass",
+      "detail": {
+        "section": "chem2.2.3",
+        "computed": 11.2,
+        "expected": 11.2
+      }
+    },
+    {
+      "check": "single alkyne formula H",
+      "result": "pass",
+      "detail": {
+        "section": "chem29.1",
+        "computed": 8,
+        "expected": 8
+      }
+    },
+    {
+      "check": "acetylene density",
+      "result": "pass",
+      "detail": {
+        "section": "chem29.3",
+        "computed": 1.1607142857142858,
+        "expected": 1.1607142857142858
+      }
+    },
+    {
+      "check": "acetylene-air relative density",
+      "result": "pass",
+      "detail": {
+        "section": "chem29.3",
+        "computed": 0.896551724137931,
+        "expected": 0.896551724137931
+      }
+    },
+    {
+      "check": "full acetylene hydrogenation",
+      "result": "pass",
+      "detail": {
+        "section": "chem29.4",
+        "computed": 0.2,
+        "expected": 0.2
+      }
+    },
+    {
+      "check": "carbide limiting water",
+      "result": "pass",
+      "detail": {
+        "section": "chem29.5",
+        "computed": 0.05,
+        "expected": 0.05
+      }
+    },
+    {
+      "check": "carbide purity volume",
+      "result": "pass",
+      "detail": {
+        "section": "chem29.5",
+        "computed": 2.8,
+        "expected": 2.8
+      }
+    },
+    {
+      "check": "carbide isolated yield",
+      "result": "pass",
+      "detail": {
+        "section": "chem29.5",
+        "computed": 0.8000000000000002,
+        "expected": 0.8
+      }
+    },
+    {
+      "check": "polyethylene number average DP",
+      "result": "pass",
+      "detail": {
+        "section": "chem35.1",
+        "computed": 1000.0,
+        "expected": 1000
+      }
+    },
+    {
+      "check": "polymer chain amount",
+      "result": "pass",
+      "detail": {
+        "section": "chem35.1",
+        "computed": 0.0005,
+        "expected": 0.0005
+      }
+    },
+    {
+      "check": "number-average relative mass",
+      "result": "pass",
+      "detail": {
+        "section": "chem35.1",
+        "computed": 2000.0,
+        "expected": 2000
+      }
+    },
+    {
+      "check": "break stress MPa",
+      "result": "pass",
+      "detail": {
+        "section": "chem35.3",
+        "computed": 25.0,
+        "expected": 25
+      }
+    },
+    {
+      "check": "addition polymer isolated mass",
+      "result": "pass",
+      "detail": {
+        "section": "chem35.4.1",
+        "computed": 11.200000000000001,
+        "expected": 11.2
+      }
+    },
+    {
+      "check": "nylon repeat mass",
+      "result": "pass",
+      "detail": {
+        "section": "chem35.4.2",
+        "computed": 226,
+        "expected": 226
+      }
+    },
+    {
+      "check": "finite open-chain condensation links",
+      "result": "pass",
+      "detail": {
+        "section": "chem35.4.2",
+        "computed": 19,
+        "expected": 19
+      }
+    },
+    {
+      "check": "finite nylon mass",
+      "result": "pass",
+      "detail": {
+        "section": "chem35.4.2",
+        "computed": 2278,
+        "expected": 2278
+      }
+    },
+    {
+      "check": "PET repeat pairs",
+      "result": "pass",
+      "detail": {
+        "section": "chem35.4.2",
+        "computed": 100.0,
+        "expected": 100
+      }
+    },
+    {
+      "check": "rubber DP",
+      "result": "pass",
+      "detail": {
+        "section": "chem35.5.1",
+        "computed": 2000.0,
+        "expected": 2000
+      }
+    },
+    {
+      "check": "ideal copolymer mass",
+      "result": "pass",
+      "detail": {
+        "section": "chem35.5.2",
+        "computed": 266,
+        "expected": 266
+      }
+    },
+    {
+      "check": "styrene mass fraction",
+      "result": "pass",
+      "detail": {
+        "section": "chem35.5.2",
+        "computed": 0.39097744360902253,
+        "expected": 0.39097744360902253
+      }
+    },
+    {
+      "check": "cracking ethene mass",
+      "result": "pass",
+      "detail": {
+        "section": "chem35.6",
+        "computed": 280,
+        "expected": 280
+      }
+    },
+    {
+      "check": "population balance",
+      "result": "pass",
+      "detail": {
+        "section": "bio10.1",
+        "computed": 110,
+        "expected": 110
+      }
+    },
+    {
+      "check": "mark recapture",
+      "result": "pass",
+      "detail": {
+        "section": "bio10.1",
+        "computed": 200.0,
+        "expected": 200
+      }
+    },
+    {
+      "check": "logistic total at100",
+      "result": "pass",
+      "detail": {
+        "section": "bio10.1",
+        "computed": 18.0,
+        "expected": 18
+      }
+    },
+    {
+      "check": "logistic total at500",
+      "result": "pass",
+      "detail": {
+        "section": "bio10.1",
+        "computed": 50.0,
+        "expected": 50
+      }
+    },
+    {
+      "check": "GPP respiration account",
+      "result": "pass",
+      "detail": {
+        "section": "bio10.3",
+        "computed": 8000,
+        "expected": 8000
+      }
+    },
+    {
+      "check": "consumer production",
+      "result": "pass",
+      "detail": {
+        "section": "bio10.3",
+        "computed": 150,
+        "expected": 150
+      }
+    },
+    {
+      "check": "ecosystem total production",
+      "result": "pass",
+      "detail": {
+        "section": "bio10.4",
+        "computed": 3000000000.0,
+        "expected": 3000000000.0
+      }
+    },
+    {
+      "check": "element conservation water electrolysis",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "element conservation sodium and water",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "element conservation iron steam magnetite",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "element conservation carbide hydrolysis",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "element conservation acetylene complete combustion",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "element conservation ethylene PVC addition unit",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "element conservation nylon repeat condensation",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "element conservation decane cracking",
+      "result": "pass",
+      "detail": ""
+    },
+    {
       "check": "every new section has independently usable drawing brief",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-BIO10-10-1 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-BIO10-10-2 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-BIO10-10-3 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-BIO10-10-4 complete scientific drawing specification",
       "result": "pass",
       "detail": ""
     },
@@ -6775,6 +13021,86 @@
       "detail": ""
     },
     {
+      "check": "B05-BIO19-19-1 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-BIO19-19-2 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-BIO19-19-3 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-BIO19-19-4 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-CHEM01-1-1 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-CHEM01-1-2 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-CHEM01-1-3 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-CHEM01-1-4-1 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-CHEM01-1-4-2 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-CHEM01-1-4-3 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-CHEM01-1-4-4 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-CHEM02-2-1-1 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-CHEM02-2-1-2 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-CHEM02-2-2-1 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-CHEM02-2-2-2 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-CHEM02-2-2-3 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
       "check": "B05-CHEM26-26-1 complete scientific drawing specification",
       "result": "pass",
       "detail": ""
@@ -6796,6 +13122,126 @@
     },
     {
       "check": "B05-CHEM26-26-5 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-CHEM29-29-1 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-CHEM29-29-2 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-CHEM29-29-3 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-CHEM29-29-4 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-CHEM29-29-5 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-CHEM35-35-1 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-CHEM35-35-2 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-CHEM35-35-3 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-CHEM35-35-4-1 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-CHEM35-35-4-2 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-CHEM35-35-5-1 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-CHEM35-35-5-2 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-CHEM35-35-6 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-MATH01-1-1 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-MATH01-1-2 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-MATH01-1-3 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-MATH01-1-4 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-MATH01-1-5 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-MATH01-1-6 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-MATH01-1-7 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-MATH02-2-1 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-MATH02-2-2 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-MATH02-2-3 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-MATH02-2-4 complete scientific drawing specification",
       "result": "pass",
       "detail": ""
     },
@@ -6841,6 +13287,36 @@
     },
     {
       "check": "B05-MATH04-4-4 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-MATH05-5-1 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-MATH05-5-2 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-MATH05-5-3 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-MATH05-5-4 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-MATH05-5-5 complete scientific drawing specification",
+      "result": "pass",
+      "detail": ""
+    },
+    {
+      "check": "B05-MATH05-5-6 complete scientific drawing specification",
       "result": "pass",
       "detail": ""
     },

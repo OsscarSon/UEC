@@ -99,5 +99,6 @@ window.LESSONS["物理1"]={
   },
   "ex": [],
   "pr": [],
-  "vid": []
+  "vid": [],
+  "directory_groups": []
 };

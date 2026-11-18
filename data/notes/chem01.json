@@ -1,0 +1,2131 @@
+{
+  "1.1": {
+    "content_batch": "batch05",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 1,
+    "section_id": "1.1",
+    "goals": [
+      "以组成结构性质变化说明化学问题",
+      "用对照与收支评价材料设计的证据"
+    ],
+    "prerequisites": [
+      "观察与测量",
+      "质量与比例"
+    ],
+    "flow": [
+      "组成结构",
+      "宏观性质",
+      "变化条件",
+      "实验设计",
+      "实用与权衡"
+    ],
+    "concept_relation": "组成结构；宏观性质；变化条件；实验设计；实用与权衡",
+    "deep": [
+      "实验通过明确问题、控制条件、测量与重复检验解释。设计新吸水材料时，不只比较湿后总质量，还要扣干材料质量、控制水温接触时间与排除表面附着水等，否则指标可能偏离实际吸水能力。",
+      "创造材料常有目标与权衡：吸水、强度、可重复使用、稳定性、成本和环境表现可能不同。一个单项提升不能自动支持“全面最好”，应说明比较基准和使用条件。",
+      "计算与模型帮助预测需求和产量，但理论量与实际结果不同。质量收支包含未反应、目标与副产物等；没有可测数据和足够条件，不能把一个理想方程当作可直接量产的完整工艺。",
+      "学习本章要形成提问习惯：测了什么，怎样测，能说明哪层结论，还缺什么证据。原创例子用于训练推理，实际实验应按学校规范，不以听起来新颖代替证据。"
+    ],
+    "derive": [
+      "化学解释链：宏观性质 ↔ 组成/微观结构 ↔ 符号模型及变化条件。",
+      "质量型吸水指标示例=(湿后质量−干质量)/干质量，单位可为g水/g干料，测法须明确。",
+      "评价方案需同功能、同条件对照，理论可行不等于已验证产品全部性能。"
+    ],
+    "examples": [
+      {
+        "q": "冰融化与镁燃烧，哪种主要为物理变化、哪种为化学变化？如何给依据？",
+        "given": "纯冰熔化，镁在相应氧气条件燃烧。",
+        "analysis": "是否生成新物质。",
+        "method": "比较前后化学身份。",
+        "principle": "物化变化判据。",
+        "steps": [
+          "冰仍为H₂O，只改相态，物理变化。",
+          "镁生成氧化物等新物质，化学变化。"
+        ],
+        "ans": "前物理、后化学。",
+        "verification": "吸放热不是唯一判据，熔化也有能量变化。",
+        "pitfall": "凡发热或变亮都用作无条件定义。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.1",
+        "related_sections": []
+      },
+      {
+        "q": "干材料2.0 g吸水后规范处理为12.0 g，求每克干料吸水质量，并说明为何不能直接12/2。",
+        "given": "已排表面游离水，质量变化主要为吸入水。",
+        "analysis": "湿质量包含原材料。",
+        "method": "(m湿−m干)/m干。",
+        "principle": "质量分项。",
+        "steps": [
+          "吸水10.0 g。",
+          "比10.0/2.0=5.0 g/g。"
+        ],
+        "ans": "5.0 g水/g干料。",
+        "verification": "2.0+10.0=12.0 g。",
+        "pitfall": "把含干料的总湿质量当纯水。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.1",
+        "related_sections": []
+      },
+      {
+        "q": "新材料吸水量是旧材料2倍，能宣布其所有用途都更优吗？",
+        "given": "只测一个指标。",
+        "analysis": "性能多维且依使用条件。",
+        "method": "补强度、耐用与条件比较。",
+        "principle": "一指标证据不能覆盖全部需求。",
+        "steps": [
+          "高吸水可为某目标优势。",
+          "仍需脱附、强度、循环寿命、成本和环境等资料，不能全面断言。"
+        ],
+        "ans": "不能，只支持该测法下吸水指标更高。",
+        "verification": "若吸水后强度丧失，某些用途可能更差。",
+        "pitfall": "单指标提升等于全面最佳。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "只看白色粉末能唯一认出食盐吗？",
+        "given": "多种物可为白色粉。",
+        "analysis": "外观不唯一。",
+        "method": "提出独立鉴别。",
+        "principle": "结构身份需多证据。",
+        "steps": [
+          "白色仅宏观性质。",
+          "需溶解、反应或仪器等适当证据，不能尝未知粉末。"
+        ],
+        "ans": "不能。",
+        "verification": "糖、盐等外观可相似而组成不同。",
+        "pitfall": "颜色就是唯一身份证。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.1",
+        "related_sections": []
+      },
+      {
+        "q": "同样干料测吸水，一组浸10 min另一组1 h，能直接将差别归材料种类吗？",
+        "given": "时间与材料同时改变。",
+        "analysis": "混杂变量。",
+        "method": "同条件对照。",
+        "principle": "控制变量隔离效应。",
+        "steps": [
+          "接触时间可影响吸入量。",
+          "需统一时间温度等并重复，再比较材料。"
+        ],
+        "ans": "不能直接。",
+        "verification": "同材料不同时间也可差别。",
+        "pitfall": "实验有数字就一定公平。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.1",
+        "related_sections": []
+      },
+      {
+        "q": "100 g反应输入最终只收70 g目标产物，是否必违反质量守恒？",
+        "given": "系统边界还可能有副产物、气体和残留。",
+        "analysis": "目标产物非全部物质。",
+        "method": "补完整收支。",
+        "principle": "质量守恒针对完整体系。",
+        "steps": [
+          "其余可在副产物、未反应或排出物。",
+          "需测各项，不能只看目标量。"
+        ],
+        "ans": "不必。",
+        "verification": "70+30其他物即可守恒。",
+        "pitfall": "把全部输入必须变同一目标产物。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.1",
+        "related_sections": []
+      },
+      {
+        "q": "干1.5 g材料湿后7.5 g，另一干2.0 g湿后8.0 g，按该指标哪种吸水更高？",
+        "given": "测法条件相同。",
+        "analysis": "不同干量要归一。",
+        "method": "各湿减干再除干。",
+        "principle": "单位质量比较。",
+        "steps": [
+          "第一(7.5−1.5)/1.5=4.0。",
+          "第二(8−2)/2=3.0 g/g。"
+        ],
+        "ans": "第一更高。",
+        "verification": "直接湿质量8大于7.5会给错误排序。",
+        "pitfall": "只比总湿重不扣基线归一。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "提出“这材料更环保”作为化学结论，还需怎样把口号变可检验问题？",
+      "given": "未说明功能与边界。",
+      "analysis": "模糊评价无单一测法。",
+      "method": "明确指标条件和比较。",
+      "principle": "科学假设需可操作。",
+      "steps": [
+        "指定相同用途、寿命和生产处置边界。",
+        "列能耗、危害、资源或排放指标并用数据检验，分价值选择与实测结果。"
+      ],
+      "ans": "先定义指标边界与对照。",
+      "verification": "不同指标可能有权衡，不能未测先统一判优。",
+      "pitfall": "只写环保二字当完整证据。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 1,
+      "primary_section": "1.1",
+      "related_sections": []
+    },
+    "exam": [
+      "现象题用是否新物及多证据，不靠单一颜色温度",
+      "实验比较题扣基线、归一化、控制变量并重复",
+      "评价题把目标、指标、条件与限制写成可检验链"
+    ],
+    "quick": [
+      "组成结构",
+      "宏观性质",
+      "变化条件",
+      "实验设计",
+      "实用与权衡"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html",
+        "page": 3,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_1.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/1-1-chemistry-in-context",
+        "page_or_section": "1-1-chemistry-in-context",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html",
+        "page": 3,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_1.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/1-1-chemistry-in-context",
+        "page_or_section": "1-1-chemistry-in-context",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "现象题用是否新物及多证据，不靠单一颜色温度",
+      "method": "补强度、耐用与条件比较。",
+      "principle": "一指标证据不能覆盖全部需求。",
+      "worked_example_index": 2,
+      "verification": "若吸水后强度丧失，某些用途可能更差。",
+      "pitfall": "单指标提升等于全面最佳。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“以组成结构性质变化说明化学问题”的抽样复核：吸放热不是唯一判据，熔化也有能量变化。；若出现“凡发热或变亮都用作无条件定义。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 7,
+        "feedback": "目标“用对照与收支评价材料设计的证据”的抽样复核：若吸水后强度丧失，某些用途可能更差。；若出现“单指标提升等于全面最佳。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "只写环保二字当完整证据。",
+        "correction": "先定义指标边界与对照。",
+        "verification": "不同指标可能有权衡，不能未测先统一判优。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "化学的三层表达与材料评价",
+      "objects": [
+        "宏观样品",
+        "微观结构模型",
+        "符号与方程",
+        "干湿质量",
+        "性能矩阵"
+      ],
+      "relations": [
+        "三层证据互相支持",
+        "湿质量扣干料",
+        "单指标不等于全优"
+      ],
+      "labels": [
+        "组成",
+        "结构",
+        "性质",
+        "条件",
+        "g水/g干料",
+        "对照"
+      ],
+      "format": "SVG",
+      "priority": "P2",
+      "reuse": "适合简洁结构图；辅助插画不替代测量关系",
+      "english": "Connect macroscopic observations, microscopic composition/structure and symbolic models. Show wet mass as dry material plus absorbed water, with normalized uptake in grams water per gram dry material. Separate one measured benefit from broader performance trade-offs."
+    }
+  },
+  "1.2": {
+    "content_batch": "batch05",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 1,
+    "section_id": "1.2",
+    "goals": [
+      "用跨学科问题解释化学的桥梁作用",
+      "区分不同层次的测量与推断"
+    ],
+    "prerequisites": [
+      "物质与能量",
+      "细胞及材料基础"
+    ],
+    "flow": [
+      "物理基础",
+      "生命分子",
+      "地球环境",
+      "材料工程",
+      "跨层证据"
+    ],
+    "concept_relation": "物理基础；生命分子；地球环境；材料工程；跨层证据",
+    "deep": [
+      "地球与环境问题涉及水气土中的元素形态、溶解迁移和反应。测到某元素总量不一定知道它处于何种化学形态，不同形态可能有不同迁移和生物效应；总量指标和具体机制需分开。",
+      "材料与工程把微观组成、加工结构和性能联系起来。相同元素比例可因排列、相态或缺陷不同产生不同性质；因此制造结果还依温度、压力、加工与尺度，不能只用一条化学式预测全部性能。",
+      "跨学科数据要统一单位和系统边界。例如能量J与物质的量mol是不同量，需通过每mol能量等关系桥接；溶液浓度、总体积与总质量也不可混为同一指标。",
+      "解综合题可把大问题拆成各层可检验子问题，再连接证据。桥接需要明确因果关系及适用范围，不把“相关”一词当作已经证明每一环节，也不因一个学科的资料缺口就否定其他可靠测量。"
+    ],
+    "derive": [
+      "跨层解释：微观结构/反应 → 材料或细胞过程 → 系统表现，各箭头需证据。",
+      "总量=浓度×体积等关系只有单位与对象相容时成立。",
+      "每摩尔能量×摩尔数=相应总能量，不能把J与mol当可直接相加的量。"
+    ],
+    "examples": [
+      {
+        "q": "研究电池同时涉及哪类化学和物理问题？为什么只测电压不足以知道全部可用能量？",
+        "given": "未给电荷容量。",
+        "analysis": "电压与总能量不同。",
+        "method": "连电极反应和能量关系。",
+        "principle": "E=电势差×通过电荷（相应模型）。",
+        "steps": [
+          "化学看电极反应与物料，物理看电路与能量。",
+          "还需电荷容量等，只有V不能确定总J。"
+        ],
+        "ans": "需跨学科，电压不足定全部能量。",
+        "verification": "同电压不同容量电池可供不同总能量。",
+        "pitfall": "电压高就无条件总能量多。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.2",
+        "related_sections": []
+      },
+      {
+        "q": "水样浓度2.0 mg/L，总体积3.0 L，所测物质量多少？若只知浓度能比较两个水库总量吗？",
+        "given": "同一被测物与均匀样品模型。",
+        "analysis": "浓度是强度非总量。",
+        "method": "m=cV。",
+        "principle": "质量单位相乘。",
+        "steps": [
+          "m=2.0×3.0=6.0 mg。",
+          "水库还需体积与分布，单浓度不定总量。"
+        ],
+        "ans": "6.0 mg；浓度不足比较总量。",
+        "verification": "mg/L×L=mg。",
+        "pitfall": "把浓度当总污染物质量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.2",
+        "related_sections": []
+      },
+      {
+        "q": "试管里某分子抑制一种酶，能直接推出药物人体有效且生态无害吗？",
+        "given": "只有体外机制线索。",
+        "analysis": "跨层推断需中间证据。",
+        "method": "分有效性、安全与环境暴露。",
+        "principle": "机制可能性与系统结局不同。",
+        "steps": [
+          "人体需到达浓度、选择性与临床证据。",
+          "环境需降解、暴露和生物效应等，不能由单酶结果直接全推。"
+        ],
+        "ans": "不能。",
+        "verification": "同机制在不同浓度或组织可有不同效果。",
+        "pitfall": "跳过多个层次的验证。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "石墨与金刚石都主要由碳组成，为何可有不同性质？",
+        "given": "组成元素相同，结构不同。",
+        "analysis": "元素相同不等于排列相同。",
+        "method": "连键与结构。",
+        "principle": "结构影响宏观性质。",
+        "steps": [
+          "碳的连接与空间排列不同。",
+          "因此硬度、导电等可不同，需具体结构解释。"
+        ],
+        "ans": "微观结构不同。",
+        "verification": "一条元素名称不能确定全部性能。",
+        "pitfall": "同元素就同物质同性质。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.2",
+        "related_sections": []
+      },
+      {
+        "q": "题给每mol反应释放50 kJ，.20 mol总释放能量？",
+        "given": "同反应和条件。",
+        "analysis": "跨mol与能量需比例因子。",
+        "method": "n×每mol能。",
+        "principle": "能量可加。",
+        "steps": [
+          "E=.20×50=10 kJ。",
+          "单位mol与kJ/mol相消。"
+        ],
+        "ans": "10 kJ。",
+        "verification": "5倍.20mol为1mol对应50kJ。",
+        "pitfall": "把50与.20直接相加。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.2",
+        "related_sections": []
+      },
+      {
+        "q": "测到土壤中某金属总量，能唯一知道其所有化学形态吗？",
+        "given": "未做形态分析。",
+        "analysis": "总量与形态不同。",
+        "method": "列需分离或专门检测。",
+        "principle": "不同化合/离子形态可贡献同总元素量。",
+        "steps": [
+          "总量约束元素质量。",
+          "不能单独区分价态、配位与相分布，需其他证据。"
+        ],
+        "ans": "不能。",
+        "verification": "相同总量可分配在不同物质中。",
+        "pitfall": "元素含量即完整结构身份。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.2",
+        "related_sections": []
+      },
+      {
+        "q": "甲水样1 mg/L、100 L，乙2 mg/L、20 L，各总质量及比较。",
+        "given": "各样均匀，条件同。",
+        "analysis": "强度与总量排序可相反。",
+        "method": "cV。",
+        "principle": "质量守恒。",
+        "steps": [
+          "甲100 mg。",
+          "乙40 mg；甲总量大而浓度低。"
+        ],
+        "ans": "100与40 mg。",
+        "verification": "甲体积5倍抵过浓度一半，总量2.5倍。",
+        "pitfall": "只看浓度高就说总量大。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "“化学是中心科学，因此只要懂反应式就不需任何生物、工程或环境数据。”错在哪里？",
+      "given": "混淆桥梁与替代。",
+      "analysis": "不同尺度各有变量和证据。",
+      "method": "说明接口及缺项。",
+      "principle": "学科连接不取消系统条件。",
+      "steps": [
+        "反应式给物料与部分机理。",
+        "生物调控、工程传递和环境暴露等仍需专门数据，不能由一式全代。"
+      ],
+      "ans": "中心作用是连接，不是包办全部证据。",
+      "verification": "同反应在不同装置与生态中可有不同表现。",
+      "pitfall": "把称号当无限推理权限。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 1,
+      "primary_section": "1.2",
+      "related_sections": []
+    },
+    "exam": [
+      "跨科题逐层写对象、化学过程与可测结果，不跳层",
+      "数据题先认浓度/总量、每mol/总能量再统一单位",
+      "评价题明确本项测量能支持和不能支持什么"
+    ],
+    "quick": [
+      "物理基础",
+      "生命分子",
+      "地球环境",
+      "材料工程",
+      "跨层证据"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html",
+        "page": 5,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_1.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/1-1-chemistry-in-context",
+        "page_or_section": "1-1-chemistry-in-context",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html",
+        "page": 5,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_1.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/1-1-chemistry-in-context",
+        "page_or_section": "1-1-chemistry-in-context",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "跨科题逐层写对象、化学过程与可测结果，不跳层",
+      "method": "分有效性、安全与环境暴露。",
+      "principle": "机制可能性与系统结局不同。",
+      "worked_example_index": 2,
+      "verification": "同机制在不同浓度或组织可有不同效果。",
+      "pitfall": "跳过多个层次的验证。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用跨学科问题解释化学的桥梁作用”的抽样复核：同电压不同容量电池可供不同总能量。；若出现“电压高就无条件总能量多。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 7,
+        "feedback": "目标“区分不同层次的测量与推断”的抽样复核：同机制在不同浓度或组织可有不同效果。；若出现“跳过多个层次的验证。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把称号当无限推理权限。",
+        "correction": "中心作用是连接，不是包办全部证据。",
+        "verification": "同反应在不同装置与生态中可有不同表现。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "化学与其他学科的证据接口",
+      "objects": [
+        "结构反应中心",
+        "物理能量",
+        "生命过程",
+        "地球环境",
+        "材料工程",
+        "单位桥接"
+      ],
+      "relations": [
+        "连接而非取代",
+        "浓度乘体积得量",
+        "每mol能乘mol得能",
+        "跨层需独立证据"
+      ],
+      "labels": [
+        "结构—性质",
+        "化学形态",
+        "系统边界",
+        "mg/L×L",
+        "kJ/mol×mol"
+      ],
+      "format": "SVG",
+      "priority": "P2",
+      "reuse": "可用关系图，辅助插画不替代单位与证据链",
+      "english": "Map chemistry as a bridge among physics, biological processes, environmental speciation and materials engineering. Show explicit unit bridges concentration times volume and energy-per-mole times amount. Do not depict one molecular observation as automatically proving whole-organism or ecosystem outcomes."
+    }
+  },
+  "1.3": {
+    "content_batch": "batch05",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 1,
+    "section_id": "1.3",
+    "goals": [
+      "联系化学应用与物料资源限制",
+      "用多指标证据比较社会技术方案"
+    ],
+    "prerequisites": [
+      "质量守恒",
+      "用途与风险基础"
+    ],
+    "flow": [
+      "社会用途",
+      "功能单位",
+      "物料收支",
+      "风险与暴露",
+      "多指标决策"
+    ],
+    "concept_relation": "社会用途；功能单位；物料收支；风险与暴露；多指标决策",
+    "deep": [
+      "能源技术涉及能量转化与物料来源，燃烧、储能和电化学过程各有条件。提高效率可以减少相同服务的输入，但总需求、能源结构和设备生命周期会影响最终排放，不用单一“新能源”标签代全部账目。",
+      "材料提供轻量、耐用和加工等优势，同时产生资源与处置问题。使用寿命、维修、再用、回收与末端处理均重要；焚烧回收能量不等于把材料全部回为原单体，某些可降解声明也需具体环境条件。",
+      "饮水与污染治理要区分去除颗粒、改变化学形态、杀灭微生物等目标。水变清不证明所有溶解物或病原已除去；看不见污染不能当不存在，处理效果应由适合指标测量。",
+      "社会决策包含事实、成本和价值权衡。化学证据能说明效率、毒性、残留和反应路径，却不能把尚未测的后果冒充定论；提出明确对照、单位和长期监测，比泛称“发展化学就能解决一切”更有帮助。"
+    ],
+    "derive": [
+      "公平比较需同功能单位、同使用寿命和明确生产—使用—处置边界。",
+      "去除率=(输入量−输出量)/输入量；浓度降低不等于污染物质量已消失，稀释与转移需区分。",
+      "效率、危害、暴露和资源是不同指标，不能自动互代。"
+    ],
+    "examples": [
+      {
+        "q": "过滤后水变清，能据此保证完全可直接饮用吗？",
+        "given": "只观察浑浊下降。",
+        "analysis": "颗粒与溶解物/微生物不同。",
+        "method": "列处理目标和验证。",
+        "principle": "可见性不是全部水质。",
+        "steps": [
+          "过滤可能除部分悬浮物。",
+          "溶解污染物和病原等需相应检测处理，不能只由清澈保证。"
+        ],
+        "ans": "不能。",
+        "verification": "透明溶液也可含有害溶解物。",
+        "pitfall": "看不见就等于无污染。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.3",
+        "related_sections": []
+      },
+      {
+        "q": "处理前污染物100 mg、后20 mg，按同边界去除率多少？若80 mg转入污泥，是否已从环境中完全消失？",
+        "given": "质量已测。",
+        "analysis": "去水相与全环境销毁不同。",
+        "method": "(100−20)/100。",
+        "principle": "物料收支。",
+        "steps": [
+          "去除率80%。",
+          "80 mg可能在污泥，仍需处置，不是质量消失。"
+        ],
+        "ans": "80%，不代表全部无害消失。",
+        "verification": "20+80=100 mg。",
+        "pitfall": "水中少了就称元素被消灭。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.3",
+        "related_sections": []
+      },
+      {
+        "q": "甲包装一次耗10 g材料、可稳定用10次，乙一次耗2 g且只用1次；只按每次材料量哪种较低？能判全部环境表现吗？",
+        "given": "甲确实复用10次，忽略清洗等只比题给指标。",
+        "analysis": "统一服务次数。",
+        "method": "甲10/10、乙2/1。",
+        "principle": "功能单位比较。",
+        "steps": [
+          "甲1 g/次，乙2 g/次。",
+          "甲此指标低，但清洗、运输、原料和处置等未知。"
+        ],
+        "ans": "甲单位服务材料低；不能全面判环境最优。",
+        "verification": "10次服务甲10g、乙20g。",
+        "pitfall": "只比单件质量2<10。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "施肥量翻倍，产量必翻倍吗？",
+        "given": "其他限制因素未变。",
+        "analysis": "养分可能不再为限制。",
+        "method": "列水光温及过量影响。",
+        "principle": "生长受多因素和响应范围。",
+        "steps": [
+          "原缺养分时可受益。",
+          "超过需求后不一定增产，还可流失，不能按比例无限外推。"
+        ],
+        "ans": "不必。",
+        "verification": "非限制因素增加不保证总产出增加。",
+        "pitfall": "有用就越多越好。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.3",
+        "related_sections": []
+      },
+      {
+        "q": "把污染水加等体积清水，浓度约减半，污染物总质量会减半吗？",
+        "given": "无反应损失，体积近似相加。",
+        "analysis": "稀释改变浓度不改量。",
+        "method": "m=cV。",
+        "principle": "质量守恒。",
+        "steps": [
+          "V变2倍、c变1/2。",
+          "乘积不变。"
+        ],
+        "ans": "不会，总量不变。",
+        "verification": "一半浓度乘两倍体积仍同质量。",
+        "pitfall": "把稀释当去除销毁。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.3",
+        "related_sections": []
+      },
+      {
+        "q": "天然化合物一定比同结构同纯度合成物更安全吗？",
+        "given": "比较化学身份相同样品。",
+        "analysis": "来源不是自动安全判据。",
+        "method": "核剂量暴露杂质。",
+        "principle": "风险依据性质与暴露。",
+        "steps": [
+          "同结构纯样有相同关键化学特征。",
+          "实际杂质与使用方式可不同，需具体证据。"
+        ],
+        "ans": "不能仅凭来源判。",
+        "verification": "天然也可有毒，人工也可安全用于规定场景。",
+        "pitfall": "来源标签代替检测。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.3",
+        "related_sections": []
+      },
+      {
+        "q": "设备原输入1000 kJ提供同服务，改进后800 kJ，节能率多少？能据此保证整个城市能耗也减20%吗？",
+        "given": "设备服务相同，城市需求未知。",
+        "analysis": "局部强度与总需求不同。",
+        "method": "(1000−800)/1000。",
+        "principle": "边界与比例。",
+        "steps": [
+          "设备节能20%。",
+          "城市使用量和设备数量等可能变，不能自动推广总能耗同降20%。"
+        ],
+        "ans": "20%；城市总量需更多数据。",
+        "verification": "效率与使用规模共同决定总量。",
+        "pitfall": "单位服务改进直接等于系统总量变化。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "“焚烧塑料发电”能否直接称所有原料已材料回收并无任何排放？",
+      "given": "过程把化学物转为其他产物并回收部分能量。",
+      "analysis": "能源回收与材料再生不同。",
+      "method": "追踪物料和能量。",
+      "principle": "反应收支必须完整。",
+      "steps": [
+        "可回收部分能量。",
+        "原聚合物不等于全部回原单体，气体灰渣及处理等需评价。"
+      ],
+      "ans": "不能。",
+      "verification": "能量利用不使碳等原子凭空消失。",
+      "pitfall": "将一种回收途径当全部指标满分。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 1,
+      "primary_section": "1.3",
+      "related_sections": []
+    },
+    "exam": [
+      "社会应用题先写具体机制与目标，再列条件和权衡",
+      "处理题跟踪总质量去向，区分稀释、转移和转化",
+      "方案比较统一服务与边界，不以标签或单件重量直接判优"
+    ],
+    "quick": [
+      "社会用途",
+      "功能单位",
+      "物料收支",
+      "风险与暴露",
+      "多指标决策"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html",
+        "page": 9,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_1.3",
+        "url": "https://www.acs.org/green-chemistry-sustainability/principles/12-principles-of-green-chemistry.html",
+        "page_or_section": "12-principles-of-green-chemistry.html",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html",
+        "page": 9,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_1.3",
+        "url": "https://www.acs.org/green-chemistry-sustainability/principles/12-principles-of-green-chemistry.html",
+        "page_or_section": "12-principles-of-green-chemistry.html",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "社会应用题先写具体机制与目标，再列条件和权衡",
+      "method": "甲10/10、乙2/1。",
+      "principle": "功能单位比较。",
+      "worked_example_index": 2,
+      "verification": "10次服务甲10g、乙20g。",
+      "pitfall": "只比单件质量2<10。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“联系化学应用与物料资源限制”的抽样复核：透明溶液也可含有害溶解物。；若出现“看不见就等于无污染。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 7,
+        "feedback": "目标“用多指标证据比较社会技术方案”的抽样复核：10次服务甲10g、乙20g。；若出现“只比单件质量2<10。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "将一种回收途径当全部指标满分。",
+        "correction": "不能。",
+        "verification": "能量利用不使碳等原子凭空消失。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "化学应用的物料与功能单位",
+      "objects": [
+        "水处理颗粒/溶解物",
+        "100mg分流20/80",
+        "复用与一次包装",
+        "设备节能与城市规模"
+      ],
+      "relations": [
+        "稀释不销毁质量",
+        "去除转污泥仍需处置",
+        "按每次服务比较",
+        "局部效率不等全系统量"
+      ],
+      "labels": [
+        "物料去向",
+        "功能单位",
+        "20+80=100",
+        "g/次",
+        "边界"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "无完全匹配旧图；收支结构图优于装饰插画",
+      "english": "Show water treatment as distinct removal/transfer/transformation steps, with100 mg partitioned into20 mg water and80 mg sludge. Compare reusable and single-use packaging per service rather than per item, and separate device efficiency from citywide demand. Do not depict dilution as destruction."
+    }
+  },
+  "1.4.1": {
+    "content_batch": "batch05",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 1,
+    "section_id": "1.4.1",
+    "goals": [
+      "以质子数区分元素并分清原子离子同位素",
+      "正确读取元素符号及元素与单质的关系"
+    ],
+    "prerequisites": [
+      "原子核与电子",
+      "化学式"
+    ],
+    "flow": [
+      "Z元素身份",
+      "原子离子",
+      "同位素A/N",
+      "符号大小写",
+      "元素与单质"
+    ],
+    "concept_relation": "Z元素身份；原子离子；同位素A/N；符号大小写；元素与单质",
+    "deep": [
+      "元素符号通常首字母大写、第二字母小写，Co与CO含义不同。Co为钴符号，CO为含C与O的化学式；把大小写排错可从一个元素变成两个元素组成的化合物，不能当排版小问题。",
+      "元素与单质也不同：氧元素可存在于O₂、O₃及多种化合物中，O₂与O₃是不同单质形式。一个化合物中有某元素不表示其中混着该元素的游离单质，水中的氧不等于气泡O₂。",
+      "化学式下标说明相应粒子或组成单位的原子比例，式前系数乘整个式。数元素种类时看不同元素符号，而不是数原子总个数；2H₂O有H、O两种元素，共对应4H、2O原子。",
+      "元素相对原子质量可在给定同位素丰度下作加权平均，不必等于任何一个同位素的整数质量数。题设假想丰度不可冒充自然实际丰度，核质量与电子等精确影响需按题给数据层次处理。"
+    ],
+    "derive": [
+      "Z=质子数；质量数A=Z+中子数N；中性原子电子数Z，离子另按电荷。",
+      "同位素：同Z不同N；元素符号大小写要准确。",
+      "给定近似同位素质量mᵢ及数目分数fᵢ，平均质量=Σfᵢmᵢ，Σfᵢ=1。"
+    ],
+    "examples": [
+      {
+        "q": "Na原子质子11电子11，Na⁺质子11电子10，是同一元素吗？电荷差从哪里来？",
+        "given": "核内质子未变。",
+        "analysis": "元素身份与电荷分开。",
+        "method": "比较Z与质子电子差。",
+        "principle": "Z定义元素，电荷由净电荷。",
+        "steps": [
+          "二者Z都11，属同元素。",
+          "Na⁺比质子少1电子，带+1；不是多了一个质子。"
+        ],
+        "ans": "同钠元素，电荷差为少一个电子。",
+        "verification": "11正与10负得净+1。",
+        "pitfall": "电子数变就说新元素。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.4.1",
+        "related_sections": []
+      },
+      {
+        "q": "Co、CO和2H₂O各含几种元素？2H₂O对应多少H、O原子？",
+        "given": "严格大小写。",
+        "analysis": "符号、化学式和系数不同。",
+        "method": "逐式读取。",
+        "principle": "元素符号及全式乘系数。",
+        "steps": [
+          "Co一种钴；CO两种C与O。",
+          "2H₂O两种H/O，对应4个H原子、2个O原子。"
+        ],
+        "ans": "1、2、2种；4个H原子、2个O原子。",
+        "verification": "每个H₂O含2H1O，乘2。",
+        "pitfall": "把Co当C与小写o或只让系数乘H。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.4.1",
+        "related_sections": []
+      },
+      {
+        "q": "假想样品同位素质量近似12与13，数目占75%和25%，平均质量？能称此为自然碳的真实丰度吗？",
+        "given": "数据明确是假想。",
+        "analysis": "加权且不可误归实际来源。",
+        "method": "12×.75+13×.25。",
+        "principle": "平均质量按个数比例。",
+        "steps": [
+          "得到9+3.25=12.25。",
+          "这是题设样品，不提供自然丰度事实。"
+        ],
+        "ans": "12.25 u，不能冒称自然丰度。",
+        "verification": "在12和13之间且靠占多的12。",
+        "pitfall": "把课堂假设写成现实常数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.4.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "质子6中子6与质子6中子7的中性原子，是两元素还是同位素？质量数各多少？",
+        "given": "Z相同。",
+        "analysis": "比较质子与中子角色。",
+        "method": "A=Z+N。",
+        "principle": "元素与同位素定义。",
+        "steps": [
+          "同为碳元素。",
+          "A分别12和13，为同位素。"
+        ],
+        "ans": "同位素，质量数12、13。",
+        "verification": "电子数均6但中子不同。",
+        "pitfall": "把不同A当不同元素。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.4.1",
+        "related_sections": []
+      },
+      {
+        "q": "O₂与O₃是两种元素吗？",
+        "given": "只有氧符号。",
+        "analysis": "分子组成形式不同不等于元素不同。",
+        "method": "数元素种类。",
+        "principle": "同素异形单质与元素。",
+        "steps": [
+          "都只含O元素。",
+          "分子原子数不同，可为不同单质形式。"
+        ],
+        "ans": "不是，两种单质形式但同一元素。",
+        "verification": "化学式下标不改变原子Z。",
+        "pitfall": "一个化学式就对应一种不同元素。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.4.1",
+        "related_sections": []
+      },
+      {
+        "q": "水含氧，能说纯水里本来混着氧气吗？",
+        "given": "H₂O组成。",
+        "analysis": "化合物元素与游离单质不同。",
+        "method": "比较结合状态。",
+        "principle": "元素可存在化合物中。",
+        "steps": [
+          "O在H₂O连接中。",
+          "不等于有游离O₂，实际溶解气另需证据。"
+        ],
+        "ans": "不能如此解释。",
+        "verification": "电解生成O₂是化学变化，不是简单筛出原有气泡。",
+        "pitfall": "含元素就等于混入同名单质。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.4.1",
+        "related_sections": []
+      },
+      {
+        "q": "某离子质子17、电子18、中子18，元素、质量数、电荷各是什么？",
+        "given": "各粒子数给定。",
+        "analysis": "Z、A与电荷分别算。",
+        "method": "Z17，A17+18，净17−18。",
+        "principle": "定义与电荷守恒。",
+        "steps": [
+          "属氯元素，质量数35。",
+          "净电荷−1，即相应Cl⁻。"
+        ],
+        "ans": "氯、35、−1。",
+        "verification": "同位素身份由核数决定，离子电荷取决电子差。",
+        "pitfall": "把电子18当氩元素。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.4.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "一种原子失去电子后能变另一元素吗？普通化学反应与核变化应怎样区分？",
+      "given": "未改变质子。",
+      "analysis": "失电子不改Z。",
+      "method": "追踪核电荷数。",
+      "principle": "元素身份由Z。",
+      "steps": [
+        "普通电离只改电荷及电子结构。",
+        "改变元素需Z改变的核过程，不等同普通化学键重排。"
+      ],
+      "ans": "仅失电子不能。",
+      "verification": "Na到Na⁺仍Z11。",
+      "pitfall": "把化学反应的电子转移当元素转换。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 1,
+      "primary_section": "1.4.1",
+      "related_sections": []
+    },
+    "exam": [
+      "粒子题分别列Z、N、e和电荷，不用一个数包全部",
+      "符号题严格大小写，系数乘整个式，下标不当元素种类数",
+      "同位素题加权数据标来源，元素与单质结合状态分清"
+    ],
+    "quick": [
+      "Z元素身份",
+      "原子离子",
+      "同位素A/N",
+      "符号大小写",
+      "元素与单质"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html",
+        "page": 12,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_1.4.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+        "page_or_section": "2-3-atomic-structure-and-symbolism",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html",
+        "page": 12,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_1.4.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+        "page_or_section": "2-3-atomic-structure-and-symbolism",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "粒子题分别列Z、N、e和电荷，不用一个数包全部",
+      "method": "12×.75+13×.25。",
+      "principle": "平均质量按个数比例。",
+      "worked_example_index": 2,
+      "verification": "在12和13之间且靠占多的12。",
+      "pitfall": "把课堂假设写成现实常数。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“以质子数区分元素并分清原子离子同位素”的抽样复核：11正与10负得净+1。；若出现“电子数变就说新元素。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e1",
+        "review_module": 5,
+        "feedback": "目标“正确读取元素符号及元素与单质的关系”的抽样复核：每个H₂O含2H1O，乘2。；若出现“把Co当C与小写o或只让系数乘H。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把化学反应的电子转移当元素转换。",
+        "correction": "仅失电子不能。",
+        "verification": "Na到Na⁺仍Z11。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "元素粒子与符号层次",
+      "objects": [
+        "Na/Na⁺核电子表",
+        "同位素Z/N表",
+        "Co与CO",
+        "O₂/O₃/H₂O",
+        "系数下标"
+      ],
+      "relations": [
+        "Z不变仍同元素",
+        "同位素同Z不同N",
+        "Co与CO不可混",
+        "2乘全H₂O"
+      ],
+      "labels": [
+        "Z",
+        "N",
+        "e⁻",
+        "A=Z+N",
+        "元素≠单质",
+        "假想丰度"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "原子结构旧图可局部复用但需核电荷和数目",
+      "english": "Separate element identity by proton number from ion charge and isotope neutron number. Contrast Co with CO, and O2/O3 with oxygen bound in H2O. Show that2H2O contains4 H and2 O atoms and label any isotope abundance example as hypothetical, not natural data."
+    }
+  },
+  "1.4.2": {
+    "content_batch": "batch05",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 1,
+    "section_id": "1.4.2",
+    "goals": [
+      "按组成区分纯物质单质化合物和混合物",
+      "把均一性化学结合与分离证据分开"
+    ],
+    "prerequisites": [
+      "元素与化学式",
+      "组成比例"
+    ],
+    "flow": [
+      "物质组分",
+      "纯与混",
+      "单质化合物",
+      "均相尺度",
+      "分离与组成"
+    ],
+    "concept_relation": "物质组分；纯与混；单质化合物；均相尺度；分离与组成",
+    "deep": [
+      "均相混合物在指定尺度呈均一，非均相有可辨相或组成差异。溶液、悬浮体系和胶体的分散尺度与性质不同，观察条件影响“看起来均一”，不能只用肉眼一眼给所有体系的微观身份。",
+      "混合物组成可变，常能利用物性差异分离相应组分，但方法必须适合具体体系。蒸发可回收食盐水中的盐，不表示所有混合物都能用同法；化合物分解成其他物质则属于化学转化。",
+      "纯物质的特征物性需注明温压纯度，混合物性质随组成变化可帮助判断，但单一测试通常不构成绝对证明。沸点范围、熔点等有常用线索，也要注意共沸或相变细节，不能把一个现象推广无例外。",
+      "计算组成时说清质量分数、摩尔分数还是其他比例，分母用完整样品相应量。稀释不改溶质量，蒸发若只失溶剂可提高质量分数；若析出、挥发或反应发生则需重新列收支。"
+    ],
+    "derive": [
+      "纯物质→单质或化合物；混合物可均相或非均相，均一不等于纯。",
+      "质量分数w=m组分/m混合物；需同质量单位。",
+      "化合物中的元素结合不等于游离单质混合，化学式与组成比例只能在相应物质身份下解释。"
+    ],
+    "examples": [
+      {
+        "q": "纯O₂、纯H₂O、空气、澄清食盐水分别怎样分类？",
+        "given": "按常见理想纯样和普通混合空气。",
+        "analysis": "先物质种类，再元素。",
+        "method": "逐级分类。",
+        "principle": "组成而非外观判据。",
+        "steps": [
+          "O₂纯单质，H₂O纯化合物。",
+          "空气和食盐水是混合物，后者可均一但非纯。"
+        ],
+        "ans": "单质、化合物、混合物、混合物。",
+        "verification": "H₂O两元素并不意味着两物质混合。",
+        "pitfall": "透明均一就一律纯。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.4.2",
+        "related_sections": []
+      },
+      {
+        "q": "把H₂与O₂按2:1摩尔混合，是否立刻成为纯水？",
+        "given": "尚未反应。",
+        "analysis": "数量比不建立新连接。",
+        "method": "比较粒子身份。",
+        "principle": "混合与化合不同。",
+        "steps": [
+          "仍有H₂和O₂两组分。",
+          "需相应反应生成H₂O后才谈产物，正确计量比不等于反应已经发生。"
+        ],
+        "ans": "不是，仍为混合物。",
+        "verification": "粒子模型应画H—H和O—O而非自行全变水。",
+        "pitfall": "配比符合就称化合物。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.4.2",
+        "related_sections": []
+      },
+      {
+        "q": "10 g食盐和90 g水，未饱和且只蒸发20 g水，盐质量分数怎样变？",
+        "given": "无盐损失和反应。",
+        "analysis": "分母变而溶质量不变。",
+        "method": "先总100，后80。",
+        "principle": "质量收支。",
+        "steps": [
+          "初w=10/100=10%。",
+          "后w=10/80=12.5%。"
+        ],
+        "ans": "10%增至12.5%。",
+        "verification": "余水70g加盐10g共80g。",
+        "pitfall": "把盐也按蒸发比例减少或除90。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.4.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "O₂与O₃混在一起只有一种元素，属于纯物质吗？",
+        "given": "两种分子身份。",
+        "analysis": "元素种类不等于物质种类。",
+        "method": "数实际组分。",
+        "principle": "纯样需一种化学物质。",
+        "steps": [
+          "O₂和O₃不同单质形式。",
+          "混合时仍两组分，非纯。"
+        ],
+        "ans": "不是。",
+        "verification": "可只有一种元素而为混合物。",
+        "pitfall": "一种元素必一纯物。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.4.2",
+        "related_sections": []
+      },
+      {
+        "q": "NaCl晶体能说由许多独立NaCl小分子构成吗？",
+        "given": "常见离子晶体模型。",
+        "analysis": "化合物不必分子实体。",
+        "method": "按离子晶格解释。",
+        "principle": "式表示组成单位比。",
+        "steps": [
+          "Na⁺与Cl⁻构成延展晶格。",
+          "NaCl给1:1化学计量，不必指独立二原子分子。"
+        ],
+        "ans": "不宜，应用离子晶格。",
+        "verification": "分类为化合物仍成立。",
+        "pitfall": "所有化学式都等同分子。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.4.2",
+        "related_sections": []
+      },
+      {
+        "q": "食盐水澄清且无肉眼颗粒，是否证明只有水一种物？",
+        "given": "溶解盐可能存在。",
+        "analysis": "检测尺度与组分不同。",
+        "method": "用蒸发或相应分析。",
+        "principle": "均一混合物。",
+        "steps": [
+          "离子可分散而不可直接见。",
+          "需适当方法检出，透明不排除盐。"
+        ],
+        "ans": "不能。",
+        "verification": "过滤也未必去掉溶解离子。",
+        "pitfall": "肉眼看不见即不存在。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.4.2",
+        "related_sections": []
+      },
+      {
+        "q": "混合物总50 g，A占30%，加10 g不含A的B且无反应损失，A质量与新分数？",
+        "given": "初A15g。",
+        "analysis": "新增另一组分稀释。",
+        "method": "A固定，总变60。",
+        "principle": "质量守恒。",
+        "steps": [
+          "mA=.30×50=15g。",
+          "新w=15/60=25%。"
+        ],
+        "ans": "15 g与25%。",
+        "verification": "15+45=60g。",
+        "pitfall": "新分数仍30%或把A也增加。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.4.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "某样品可用物理方法分出两种稳定组分，是否支持混合物？能把所有“能分开”都直接当同一判据吗？",
+      "given": "明确未发生化学转化。",
+      "analysis": "物理分离与化学分解不同。",
+      "method": "先辨过程类型。",
+      "principle": "混合物含不同组分。",
+      "steps": [
+        "在无化学变化前提下分出组分支持混合。",
+        "若靠反应分解如水电解，则纯化合物也可给多物质，不能混用。"
+      ],
+      "ans": "支持，但须确认是物理分离。",
+      "verification": "电解水反例说明“能分开”措辞过宽。",
+      "pitfall": "把化合物可分解说成它本来是混合物。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 1,
+      "primary_section": "1.4.2",
+      "related_sections": []
+    },
+    "exam": [
+      "分类题逐级数物质组分与元素，均一不替纯度",
+      "粒子图按分子/原子/离子晶格实际模型，不把式都画成分子",
+      "组成题明确分母与过程收支，蒸发稀释不自动改溶质量"
+    ],
+    "quick": [
+      "物质组分",
+      "纯与混",
+      "单质化合物",
+      "均相尺度",
+      "分离与组成"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html",
+        "page": 13,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_1.4.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter",
+        "page_or_section": "1-2-phases-and-classification-of-matter",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html",
+        "page": 13,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_1.4.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter",
+        "page_or_section": "1-2-phases-and-classification-of-matter",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "分类题逐级数物质组分与元素，均一不替纯度",
+      "method": "先总100，后80。",
+      "principle": "质量收支。",
+      "worked_example_index": 2,
+      "verification": "余水70g加盐10g共80g。",
+      "pitfall": "把盐也按蒸发比例减少或除90。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“按组成区分纯物质单质化合物和混合物”的抽样复核：H₂O两元素并不意味着两物质混合。；若出现“透明均一就一律纯。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e1",
+        "review_module": 5,
+        "feedback": "目标“把均一性化学结合与分离证据分开”的抽样复核：粒子模型应画H—H和O—O而非自行全变水。；若出现“配比符合就称化合物。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把化合物可分解说成它本来是混合物。",
+        "correction": "支持，但须确认是物理分离。",
+        "verification": "电解水反例说明“能分开”措辞过宽。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "物质分类与粒子模型",
+      "objects": [
+        "O₂纯样",
+        "H₂O纯样",
+        "H₂/O₂混合",
+        "NaCl晶格",
+        "盐水分散"
+      ],
+      "relations": [
+        "H₂/O₂未反应不画水",
+        "O₂/O₃可一元素多组分",
+        "盐晶格不画独立NaCl分子"
+      ],
+      "labels": [
+        "纯物质",
+        "单质",
+        "化合物",
+        "混合物",
+        "均一≠纯"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "已有分类图可核粒子结构后复用",
+      "english": "Build a classification tree with accurate particle examples: pure O2, pure H2O, unreacted H2/O2 mixture, extended NaCl ionic lattice and salt solution. Show that O2/O3 can be a mixture of one element and that visual homogeneity does not prove purity."
+    }
+  },
+  "1.4.3": {
+    "content_batch": "batch05",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 1,
+    "section_id": "1.4.3",
+    "goals": [
+      "用粒子运动解释三态及相变",
+      "区分质量粒子数与体积压力的变化"
+    ],
+    "prerequisites": [
+      "物质粒子模型",
+      "温度与密度"
+    ],
+    "flow": [
+      "粒子运动",
+      "宏观三态",
+      "六相变",
+      "相变守恒",
+      "温压与能量"
+    ],
+    "concept_relation": "粒子运动；宏观三态；六相变；相变守恒；温压与能量",
+    "deep": [
+      "固→液为熔化，液→固为凝固；液→气为汽化，气→液为液化；固→气为升华，气→固为凝华。名称按起终状态判断，不凭“冷了”就统一叫凝固，水蒸气直接结霜是凝华。",
+      "普通相变不改变相应化学粒子身份与元素数。干冰升华主要仍为CO₂，水汽化仍为H₂O；密闭不漏的单纯相变中总质量不因体积增大而增加，粒子模型应保留数量。",
+      "纯物质在固定压力下相变共存时温度可在特征温度附近保持而能量仍转移。加热曲线平台不表示停止吸热，能量用于改变聚集状态；复杂混合物或非晶材料可有范围，不把平台规则无条件套任何材料。",
+      "压缩气体在温度和物质的量固定的理想模型中使压力上升，分子数不凭压缩增加。改变相态或温压后，相同质量占体积可大变；需要区分容器外观、气体量和测量条件。"
+    ],
+    "derive": [
+      "六种相变按起终态：熔化/凝固、汽化/液化、升华/凝华。",
+      "无化学变化且不漏物：m和相应粒子总数保持，V可改变。",
+      "固定n、T理想气PV为常量；相变平台仍可吸放热，不以ΔT=0推能量转移0。"
+    ],
+    "examples": [
+      {
+        "q": "水蒸气直接在冷表面结霜，干冰直接变气，分别是什么相变？",
+        "given": "明确没有液相中间步骤的模型。",
+        "analysis": "按起终物态。",
+        "method": "气→固与固→气。",
+        "principle": "相变定义。",
+        "steps": [
+          "结霜为凝华。",
+          "干冰变气为升华，仍主要CO₂。"
+        ],
+        "ans": "凝华、升华。",
+        "verification": "不是气→液的液化，也不是液→固的凝固。",
+        "pitfall": "所有变固都叫凝固。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.4.3",
+        "related_sections": []
+      },
+      {
+        "q": "密闭系统18 g纯水全部变水蒸气，无分解无漏失，质量与H₂O粒子数怎样？体积必相同吗？",
+        "given": "单纯相变。",
+        "analysis": "物质量与排列体积不同。",
+        "method": "守恒粒子身份数量。",
+        "principle": "相变不创造消灭分子。",
+        "steps": [
+          "质量仍18 g，相应H₂O分子数不变。",
+          "体积与容器、温压有关，不必等于原液体体积。"
+        ],
+        "ans": "质量粒子数保持，体积不必同。",
+        "verification": "若按M18则仍1mol水，只相态改变。",
+        "pitfall": "分子间距大就说分子数增多。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.4.3",
+        "related_sections": []
+      },
+      {
+        "q": "理想气在固定T和n下体积由4 L压到2 L，原压100 kPa，末压和粒子数？",
+        "given": "温度控制且近理想。",
+        "analysis": "PV常量，n未变。",
+        "method": "P₁V₁=P₂V₂。",
+        "principle": "气体模型。",
+        "steps": [
+          "P₂=100×4/2=200 kPa。",
+          "粒子数不变，只密度及碰撞情况等改变。"
+        ],
+        "ans": "200 kPa，粒子数不变。",
+        "verification": "体积减半P加倍，P V同400 kPa·L。",
+        "pitfall": "把压强加倍说成粒子数加倍。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.4.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "固体粒子是否完全不动？",
+        "given": "典型温度下固态模型。",
+        "analysis": "固定平均位置不等于静止。",
+        "method": "说明振动。",
+        "principle": "粒子热运动。",
+        "steps": [
+          "粒子可在平衡位置附近振动。",
+          "无整体自由流动不等于无微观运动。"
+        ],
+        "ans": "不是。",
+        "verification": "加热常增大振动等效应。",
+        "pitfall": "图上画固定点就当绝对静止。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.4.3",
+        "related_sections": []
+      },
+      {
+        "q": "水在衣服表面逐渐干去，是否必须整体先到100°C？",
+        "given": "常压普通干燥。",
+        "analysis": "蒸发可低于沸点。",
+        "method": "表面汽化。",
+        "principle": "蒸发与沸腾不同。",
+        "steps": [
+          "表面可持续有分子进入气相。",
+          "不需全体先到沸点，速度受环境等影响。"
+        ],
+        "ans": "不必须。",
+        "verification": "室温晾干即符合。",
+        "pitfall": "汽化全等于沸腾。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.4.3",
+        "related_sections": []
+      },
+      {
+        "q": "某纯物质固定压强熔化时温度不变，是否无热量输入？",
+        "given": "正在吸热熔化共存阶段。",
+        "analysis": "温度与能量转移不一一同义。",
+        "method": "解释潜热。",
+        "principle": "能量用于聚集状态改变。",
+        "steps": [
+          "温度平台可伴持续吸热。",
+          "不能以ΔT0代入单相mcΔT后断言全部Q0。"
+        ],
+        "ans": "不是，可有熔化热。",
+        "verification": "单相公式前提不满足。",
+        "pitfall": "任何能量输入必让温度立刻升高。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.4.3",
+        "related_sections": []
+      },
+      {
+        "q": "同一气体体积10 L和5 L，在同T同P理想条件下，粒子数比？若是同一封闭样本被压缩又怎样？",
+        "given": "分别明确两个情境。",
+        "analysis": "条件相同的不同样本与变压封闭过程不同。",
+        "method": "V比与n比。",
+        "principle": "理想气关系及守恒。",
+        "steps": [
+          "同T/P两样本n比2:1。",
+          "同一封闭样本压缩则n不变，压力等条件须相应变化。"
+        ],
+        "ans": "前2:1，后不变。",
+        "verification": "不能同时声称封闭n不变、T/P均不变却V减半。",
+        "pitfall": "把不同题设条件混用。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.4.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "粒子图把液态10个水分子画成气态20个更大的水分子，作为密闭单纯汽化示意应修什么？",
+      "given": "无反应无物质交换。",
+      "analysis": "粒子身份数量不变。",
+      "method": "保留数量与分子大小模型，改间距排列。",
+      "principle": "物质守恒与尺度。",
+      "steps": [
+        "气态仍10个相同H₂O表示单位。",
+        "主要改变分布间距及运动，不能凭相变倍增数量或放大分子本体。"
+      ],
+      "ans": "修数量和粒子大小，说明图非按真实距离比例。",
+      "verification": "各元素计数前后必须相同。",
+      "pitfall": "把宏观膨胀画成分子自身胀大。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 1,
+      "primary_section": "1.4.3",
+      "related_sections": []
+    },
+    "exam": [
+      "相变题按起终状态命名，化学粒子身份另核",
+      "粒子图守数量和结构，体积变化主要由排列间距",
+      "气体题先说明同T/P不同样本还是封闭过程，平台温度不等于无能量"
+    ],
+    "quick": [
+      "粒子运动",
+      "宏观三态",
+      "六相变",
+      "相变守恒",
+      "温压与能量"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html",
+        "page": 15,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_1.4.3",
+        "url": "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter",
+        "page_or_section": "1-2-phases-and-classification-of-matter",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html",
+        "page": 15,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_1.4.3",
+        "url": "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter",
+        "page_or_section": "1-2-phases-and-classification-of-matter",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "相变题按起终状态命名，化学粒子身份另核",
+      "method": "P₁V₁=P₂V₂。",
+      "principle": "气体模型。",
+      "worked_example_index": 2,
+      "verification": "体积减半P加倍，P V同400 kPa·L。",
+      "pitfall": "把压强加倍说成粒子数加倍。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用粒子运动解释三态及相变”的抽样复核：不是气→液的液化，也不是液→固的凝固。；若出现“所有变固都叫凝固。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分质量粒子数与体积压力的变化”的抽样复核：体积减半P加倍，P V同400 kPa·L。；若出现“把压强加倍说成粒子数加倍。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把宏观膨胀画成分子自身胀大。",
+        "correction": "修数量和粒子大小，说明图非按真实距离比例。",
+        "verification": "各元素计数前后必须相同。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "三态粒子与相变守恒",
+      "objects": [
+        "等数同型粒子的固液气",
+        "六方向相变箭头",
+        "加热平台",
+        "封闭气压缩"
+      ],
+      "relations": [
+        "同数同大小表示单位",
+        "气态间距增大非粒子变大",
+        "气→固凝华",
+        "平台仍传能"
+      ],
+      "labels": [
+        "熔化",
+        "凝固",
+        "汽化",
+        "液化",
+        "升华",
+        "凝华",
+        "非按比例"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "旧三态图可核粒子数与箭头名称后复用",
+      "english": "Draw equal numbers of identical particles across solid, liquid and gas panels, changing arrangement and spacing rather than particle size. Label all six phase transitions correctly, especially deposition gas-to-solid, and show that a heating plateau can still involve energy transfer."
+    }
+  },
+  "1.4.4": {
+    "content_batch": "batch05",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 1,
+    "section_id": "1.4.4",
+    "goals": [
+      "区分性质描述与变化事件",
+      "以新物质和证据判断变化并追踪体系收支"
+    ],
+    "prerequisites": [
+      "物质三态",
+      "元素和混合物"
+    ],
+    "flow": [
+      "性质与事件",
+      "身份改变",
+      "观测线索",
+      "可逆性限制",
+      "体系收支"
+    ],
+    "concept_relation": "性质与事件；身份改变；观测线索；可逆性限制；体系收支",
+    "deep": [
+      "可逆性也不能单独区分两类。玻璃打碎难原样恢复仍主要为物理变化，某些化学平衡可逆；把“能恢复”当物理、“不能恢复”当化学会产生错误。",
+      "溶解要看具体物质和相互作用，常规食盐溶解可从分散与回收讨论，而氧化钙加水生成氢氧化钙为反应。不能只凭“遇水”“放热”或“消失看不见”统一定类，需证据和模型。",
+      "化学变化重排原子与电子，不把元素质量凭空创造或消灭。开放容器中气体逸出可使所称容器内容质量降低，完整体系仍应列出逸出物；物理蒸发也可有相同称量现象，质量下降不是独占化学判据。",
+      "做综合判断应写性质类别、实际过程与依据，再说明观测尚不足之处。若未取得产物证据，使用“支持某解释、还需核实”等准确表述；不要把猜测包装成唯一事实。"
+    ],
+    "derive": [
+      "性质是可描述能力/特征；变化是发生的过程，不能只按词语相似分类。",
+      "生成新化学物质是化学变化核心；颜色/热/气泡等为线索，需条件与其他证据。",
+      "完整体系质量收支：初物质=最终留存+逸出/转移等（无核过程的课程条件）。"
+    ],
+    "examples": [
+      {
+        "q": "“酒精易燃”与“点燃酒精生成新物质”，分别是性质还是变化，物理或化学？",
+        "given": "正常燃烧条件。",
+        "analysis": "能力与事件分开。",
+        "method": "按描述对象。",
+        "principle": "化学性质/化学变化定义。",
+        "steps": [
+          "易燃是化学性质。",
+          "实际燃烧生成新物是化学变化。"
+        ],
+        "ans": "前化学性质，后化学变化。",
+        "verification": "同一化学主题仍有不同描述层次。",
+        "pitfall": "把任何含燃烧词都只叫变化。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.4.4",
+        "related_sections": []
+      },
+      {
+        "q": "水沸腾冒气泡、石灰石加酸放气，都有气泡，能用“气泡”唯一判断化学变化吗？",
+        "given": "前为水相变，后按碳酸盐反应。",
+        "analysis": "同现象不同机制。",
+        "method": "比较气体身份和前后物质。",
+        "principle": "新物质判据。",
+        "steps": [
+          "沸腾气体主要水蒸气，为物理变化。",
+          "石灰石与酸可生成CO₂等新物，为化学变化。"
+        ],
+        "ans": "不能只凭气泡。",
+        "verification": "鉴别气体与物料证据可区分。",
+        "pitfall": "看到气泡全叫反应。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.4.4",
+        "related_sections": []
+      },
+      {
+        "q": "开放容器反应前总100 g，后内容96 g，已知逸出4 g气体，是否违反质量守恒？若不知气体来源能否单靠降重定化学变化？",
+        "given": "称量边界只剩内容物。",
+        "analysis": "完整体系含逸出。",
+        "method": "96+4。",
+        "principle": "质量收支。",
+        "steps": [
+          "完整最终100 g，与初相同。",
+          "仅降重也可为物理蒸发，不能独占判化学。"
+        ],
+        "ans": "不违反；降重不足单独定类。",
+        "verification": "边界解释解决表观损失。",
+        "pitfall": "漏气体就说质量被消灭。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.4.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "密度、可燃性、熔点、与酸放氢能力分别属哪类性质？",
+        "given": "均是性质描述。",
+        "analysis": "是否需生成新物质。",
+        "method": "逐项分类。",
+        "principle": "物化性质定义。",
+        "steps": [
+          "密度、熔点为物理性质。",
+          "可燃性、相应放氢反应能力为化学性质。"
+        ],
+        "ans": "物理、化学、物理、化学。",
+        "verification": "测熔点相变通常不改变身份。",
+        "pitfall": "按是否需要仪器分类。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.4.4",
+        "related_sections": []
+      },
+      {
+        "q": "玻璃碎裂难恢复，必是化学变化吗？",
+        "given": "未给新物质生成。",
+        "analysis": "不可逆外观非充分判据。",
+        "method": "看组成身份。",
+        "principle": "形状改变可属物理。",
+        "steps": [
+          "主要是形状和碎片分布改变。",
+          "难原样拼回不等于发生化学反应。"
+        ],
+        "ans": "不必，通常为物理变化。",
+        "verification": "可逆性不是核心标准。",
+        "pitfall": "不方便恢复就一定化学。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.4.4",
+        "related_sections": []
+      },
+      {
+        "q": "无色酸碱混合后仍无色，能证明没有反应吗？",
+        "given": "不知产物/温度/离子等证据。",
+        "analysis": "无颜色不是无变化。",
+        "method": "提出其他检测。",
+        "principle": "反应可无明显色变。",
+        "steps": [
+          "可发生中和等过程。",
+          "需适当证据，不能只凭颜色不变否定。"
+        ],
+        "ans": "不能。",
+        "verification": "许多生成物也无色。",
+        "pitfall": "只有变色才叫化学。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.4.4",
+        "related_sections": []
+      },
+      {
+        "q": "20 g液体蒸发5 g，无分解，残液质量和变化类别？能由质量减少判断元素变了多少吗？",
+        "given": "只发生相变并逸出。",
+        "analysis": "质量转移非元素改变。",
+        "method": "20−5。",
+        "principle": "物理变化与收支。",
+        "steps": [
+          "残15 g。",
+          "为物理蒸发，5 g转到气相，元素身份不因相变改变。"
+        ],
+        "ans": "15 g、物理变化。",
+        "verification": "15+5=20g，完整量保持。",
+        "pitfall": "把少掉的质量当元素消失或变其他元素。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 1,
+        "primary_section": "1.4.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "观察遇水放热，能否直接断言是化学反应？应怎样补证据？",
+      "given": "只有温度线索。",
+      "analysis": "物理溶解等也可伴热效应。",
+      "method": "检测前后身份并设对照。",
+      "principle": "热不独占化学变化。",
+      "steps": [
+        "比较是否有新化学物质、原物是否可按适当方法回收等。",
+        "结合浓度状态及其他数据，不从单一放热定类。"
+      ],
+      "ans": "不能直接，需要产物与过程证据。",
+      "verification": "相变与混合也可交换热，反例有效。",
+      "pitfall": "能量变化一律等同化学变化。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 1,
+      "primary_section": "1.4.4",
+      "related_sections": []
+    },
+    "exam": [
+      "分类答题先区分性质和事件，再看身份是否改变",
+      "现象判断至少连产物或过程证据，色/热/气泡不可独占",
+      "称量题画完整边界与转移，开放系统降重不否定守恒"
+    ],
+    "quick": [
+      "性质与事件",
+      "身份改变",
+      "观测线索",
+      "可逆性限制",
+      "体系收支"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html",
+        "page": 15,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_1.4.4",
+        "url": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties",
+        "page_or_section": "1-3-physical-and-chemical-properties",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html",
+        "page": 15,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_1.4.4",
+        "url": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties",
+        "page_or_section": "1-3-physical-and-chemical-properties",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "分类答题先区分性质和事件，再看身份是否改变",
+      "method": "96+4。",
+      "principle": "质量收支。",
+      "worked_example_index": 2,
+      "verification": "边界解释解决表观损失。",
+      "pitfall": "漏气体就说质量被消灭。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“区分性质描述与变化事件”的抽样复核：同一化学主题仍有不同描述层次。；若出现“把任何含燃烧词都只叫变化。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“以新物质和证据判断变化并追踪体系收支”的抽样复核：边界解释解决表观损失。；若出现“漏气体就说质量被消灭。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "能量变化一律等同化学变化。",
+        "correction": "不能直接，需要产物与过程证据。",
+        "verification": "相变与混合也可交换热，反例有效。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "性质变化与证据判断",
+      "objects": [
+        "物理/化学性质列表",
+        "沸腾与酸放气对照",
+        "玻璃碎裂",
+        "无色中和候选",
+        "100g到96+4收支"
+      ],
+      "relations": [
+        "气泡不唯一判化学",
+        "能力与事件分开",
+        "开放体系计逸出",
+        "热不独占反应"
+      ],
+      "labels": [
+        "新物质证据",
+        "物理变化",
+        "化学变化",
+        "100=96+4",
+        "观察≠唯一结论"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "无完全对应旧图；对照图和收支准确即可",
+      "english": "Contrast properties with events, and compare boiling-water bubbles with chemically generated gas. Include a broken-glass reversibility counterexample and an open-system mass balance100=96+4 g. Show that colour, heat or bubbles alone are not unique proof of a chemical reaction."
+    }
+  }
+}

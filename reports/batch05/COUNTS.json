@@ -1,7 +1,34 @@
 {
-  "chapters": 11,
-  "sections": 44,
-  "examples": 132,
-  "practice": 176,
-  "quiz": 44
+  "chapters": 20,
+  "sections": 94,
+  "examples": 282,
+  "practice": 376,
+  "quiz": 94,
+  "module_instances": 1128,
+  "original_questions_total": 752,
+  "course_entries": 25,
+  "per_course": {
+    "物理": {
+      "new_chapters": 5,
+      "new_sections": 20
+    },
+    "化学": {
+      "new_chapters": 5,
+      "new_sections": 30
+    },
+    "生物": {
+      "new_chapters": 5,
+      "new_sections": 18
+    },
+    "高级数学（I）": {
+      "new_chapters": 5,
+      "new_sections": 26
+    },
+    "高级数学（II）": {
+      "new_chapters": 5,
+      "new_sections": 26
+    }
+  },
+  "total_unique_note_chapters": 34,
+  "total_saved_sections": 180
 }

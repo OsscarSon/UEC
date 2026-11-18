@@ -99,5 +99,6 @@ window.LESSONS["生物13"]={
   },
   "ex": [],
   "pr": [],
-  "vid": []
+  "vid": [],
+  "directory_groups": []
 };

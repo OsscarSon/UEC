@@ -1,0 +1,2440 @@
+{
+  "35.1": {
+    "content_batch": "batch05",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 35,
+    "section_id": "35.1",
+    "goals": [
+      "区分单体重复单元和聚合度",
+      "按平均与端基假设计算高分子数量"
+    ],
+    "prerequisites": [
+      "有机结构",
+      "相对分子质量与物质的量"
+    ],
+    "flow": [
+      "单体",
+      "重复单元",
+      "聚合度",
+      "端基与分布",
+      "链/单元计量"
+    ],
+    "concept_relation": "单体；重复单元；聚合度；端基与分布；链/单元计量",
+    "deep": [
+      "加成聚合的简单计量中，重复单元组成与单体相同，链的相对分子质量可近似n乘重复单元式量；若有引发/终止端基，精确关系需补端基。缩聚还要扣除小分子，不能一律用全部单体质量相加。",
+      "天然高分子如纤维素、蛋白质和天然橡胶，合成高分子如聚乙烯等，名称按来源或制备方式分类。相同重复组成可因连接、空间结构和链长不同而性质不同，来源本身不是安全或可降解的充分判据。",
+      "实际样品的链长分布使“相对分子质量”常指特定平均。按分子数平均与按质量加权可不同，题目给平均值时要知道口径；本节题可用明确的数目分布演示，不把一个平均值说成每条链都恰有该质量。",
+      "计量区分一摩尔链分子与一摩尔重复单元：若每链约1000单元，两者数目相差约1000倍。质量样品除以平均摩尔质量得到相应平均链量的模型结果，再算单元量，不能把两种“mol”在文字中省略对象。"
+    ],
+    "derive": [
+      "简单加成模型忽略端基：M链≈nM重复单元；n须按指定重复结构计。",
+      "数均相对分子质量的数值=ΣNᵢMrᵢ/ΣNᵢ；对应数均摩尔质量M_n单位g/mol，Nᵢ为链分子数。",
+      "链量n链=m/M_n（m用g、M_n用g/mol）；重复单元量≈聚合度×n链（分布口径和端基假设需明确）。"
+    ],
+    "examples": [
+      {
+        "q": "聚乙烯题给平均摩尔质量28000 g/mol，重复单元式量28，忽略端基，平均聚合度多少？",
+        "given": "按数均口径和简单重复单元模型。",
+        "analysis": "质量比给单元数。",
+        "method": "DP≈28000/28。",
+        "principle": "链质量近似重复单元和。",
+        "steps": [
+          "DP≈1000。",
+          "是给定平均模型，非保证所有链长度相同。"
+        ],
+        "ans": "约1000。",
+        "verification": "1000×28=28000，端基忽略已说明。",
+        "pitfall": "把乙烯C=C保留在重复主链或认为全样链长唯一。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.1",
+        "related_sections": []
+      },
+      {
+        "q": "14.0 g上述聚乙烯，近似链分子mol和重复单元mol分别多少？",
+        "given": "M_n28000，平均DP1000。",
+        "analysis": "链和单元是不同计数对象。",
+        "method": "先m/M再乘DP。",
+        "principle": "物质的量定义。",
+        "steps": [
+          "n链=14/28000=.00050 mol。",
+          "n单元≈.00050×1000=.50 mol。"
+        ],
+        "ans": ".00050 mol链、.50 mol重复单元。",
+        "verification": "单元.50×28=14g，质量回核。",
+        "pitfall": "把.50mol直接叫链分子量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.1",
+        "related_sections": []
+      },
+      {
+        "q": "样品含等数目的Mr1000和3000两种链，数均Mr多少？是否每条链都为此值？",
+        "given": "只按分子数平均。",
+        "analysis": "等数可算术平均。",
+        "method": "(1000+3000)/2。",
+        "principle": "平均不等于个体值。",
+        "steps": [
+          "相对分子质量数均值为2000；对应M_n=2000 g/mol。",
+          "实际给定链只有1000或3000，没有必须等2000的一条。"
+        ],
+        "ans": "2000，非每条链都如此。",
+        "verification": "总质量与总链数之比符合，分布仍两组。",
+        "pitfall": "平均值当所有分子唯一Mr。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "乙烯单体与聚乙烯重复单元连接有何不同？",
+        "given": "比较CH₂=CH₂与链。",
+        "analysis": "组成相同连接变。",
+        "method": "画—CH₂—CH₂—。",
+        "principle": "加成聚合重组π连接。",
+        "steps": [
+          "原双键变主链单键连接。",
+          "两端键延伸相邻单元，不画成一串互不连接乙烯。"
+        ],
+        "ans": "重复单元为—CH₂—CH₂—，无原C=C。",
+        "verification": "各碳两H加两C单键仍四价。",
+        "pitfall": "把单体图重复摆放当化学聚合。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.1",
+        "related_sections": []
+      },
+      {
+        "q": "某理想重复单元Mr100，链含500单元、端基合20，精确Mr与忽略端基近似各多少？",
+        "given": "题给端基额外组成。",
+        "analysis": "端基不应被重复500次。",
+        "method": "500×100+20。",
+        "principle": "质量相加。",
+        "steps": [
+          "精确50020。",
+          "忽略端基约50000，相差20。"
+        ],
+        "ans": "50020与约50000。",
+        "verification": "相对差20/50020很小但非0。",
+        "pitfall": "把端基每重复一次都加20。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.1",
+        "related_sections": []
+      },
+      {
+        "q": "聚合物名称相同，能保证样品只有一个链长吗？",
+        "given": "实际材料分布未给。",
+        "analysis": "高聚物样品常有链长分布。",
+        "method": "区分结构类型和分子量分布。",
+        "principle": "聚合过程统计差异。",
+        "steps": [
+          "同重复结构可有多个n。",
+          "需平均与分布数据，不能名称推唯一链长。"
+        ],
+        "ans": "不能。",
+        "verification": "平均Mr也不能恢复全部分布。",
+        "pitfall": "把纯材料商品名当单分子身份。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.1",
+        "related_sections": []
+      },
+      {
+        "q": "样品两种链数量比3:1，Mr分别1000、5000，求数均Mr，并说明不能直接按质量比3:1。",
+        "given": "给的是链分子数比。",
+        "analysis": "权重口径明确。",
+        "method": "(3×1000+1×5000)/4。",
+        "principle": "数均定义。",
+        "steps": [
+          "得2000。",
+          "质量贡献分别3000与5000，比3:5而非3:1。"
+        ],
+        "ans": "相对分子质量数均值2000（对应M_n=2000 g/mol）。",
+        "verification": "总质量8000对应4个比例单位链数。",
+        "pitfall": "把数目比当质量分数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "缩聚物的重复单元式量，能不看小分子脱除就直接等于所有相应单体式量之和吗？",
+      "given": "存在缩合连接。",
+      "analysis": "端基与脱除小分子改变组成。",
+      "method": "按连接反应列原子收支。",
+      "principle": "质量守恒。",
+      "steps": [
+        "需扣除相应水等小分子。",
+        "有限链还要明确端基，不能无条件按简单加成公式。"
+      ],
+      "ans": "不能。",
+      "verification": "二酸二胺形成酰胺键会失H₂O。",
+      "pitfall": "所有聚合都同组成直接相加。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 35,
+      "primary_section": "35.1",
+      "related_sections": []
+    },
+    "exam": [
+      "高分子计量题先定单体/重复单元/链三层对象",
+      "平均题写数目或质量权重，平均不等于每个体",
+      "M≈nM₀需说明加成、端基和缩聚失小分子条件"
+    ],
+    "quick": [
+      "单体",
+      "重复单元",
+      "聚合度",
+      "端基与分布",
+      "链/单元计量"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 16,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_35.1",
+        "url": "https://openstax.org/books/organic-chemistry/pages/31-7-polymer-structure-and-physical-properties",
+        "page_or_section": "31-7-polymer-structure-and-physical-properties",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 16,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_35.1",
+        "url": "https://openstax.org/books/organic-chemistry/pages/31-7-polymer-structure-and-physical-properties",
+        "page_or_section": "31-7-polymer-structure-and-physical-properties",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "高分子计量题先定单体/重复单元/链三层对象",
+      "method": "(1000+3000)/2。",
+      "principle": "平均不等于个体值。",
+      "worked_example_index": 2,
+      "verification": "总质量与总链数之比符合，分布仍两组。",
+      "pitfall": "平均值当所有分子唯一Mr。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "p0",
+        "review_module": 4,
+        "feedback": "目标“区分单体重复单元和聚合度”的抽样复核：各碳两H加两C单键仍四价。；若出现“把单体图重复摆放当化学聚合。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“按平均与端基假设计算高分子数量”的抽样复核：总质量与总链数之比符合，分布仍两组。；若出现“平均值当所有分子唯一Mr。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "所有聚合都同组成直接相加。",
+        "correction": "不能。",
+        "verification": "二酸二胺形成酰胺键会失H₂O。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "单体重复单元与链长分布",
+      "objects": [
+        "乙烯单体",
+        "聚乙烯连续链与括号n",
+        "端基",
+        "两链长数目分布",
+        "链mol/单元mol"
+      ],
+      "relations": [
+        "主链双键已消去",
+        "端键穿括号且价正确",
+        "数均按链数加权",
+        "M近似含端基假设"
+      ],
+      "labels": [
+        "单体",
+        "重复单元",
+        "n",
+        "端基",
+        "数均",
+        "0.00050mol链≠0.50mol单元"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "暂无对应旧图；聚合链价键和括号端键必须准确",
+      "english": "Contrast ethene monomer with connected polyethylene repeat units inside brackets, with continuation bonds and labelled end groups. Show chain-length distribution and number-average weighting, and distinguish0.00050 mol of chains from0.50 mol of repeat units for average DP1000. Do not leave the monomer double bond in the polyethylene backbone."
+    }
+  },
+  "35.2": {
+    "content_batch": "batch05",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 35,
+    "section_id": "35.2",
+    "goals": [
+      "比较线型支链交联及空间结构",
+      "由连接与链运动预测性能并说明条件"
+    ],
+    "prerequisites": [
+      "共价连接",
+      "分子间作用与重复单元"
+    ],
+    "flow": [
+      "主链侧基",
+      "线型支链",
+      "交联网络",
+      "空间排列",
+      "结构性能条件"
+    ],
+    "concept_relation": "主链侧基；线型支链；交联网络；空间排列；结构性能条件",
+    "deep": [
+      "同类聚乙烯中支化程度可影响链堆积、结晶和密度，较少支化常有较紧密堆积的趋势。实际性质还取决分子量、支链分布、加工和添加剂，不能把单一结构词当作所有牌号材料的精确数据。",
+      "链的空间构型也重要，相同组成和连接可能有不同立体排列。天然橡胶以相应cis-1,4结构为主，其链形态与其他排列不同；结构图须说明采用哪种模型，不能同分子式就画成完全相同材料。",
+      "线性或支链高分子可因温度和相互作用出现热塑行为，密集交联材料通常不能像普通热塑料那样熔融流动而可能先降解。不能把“不能简单熔融再加工”夸成任何形式回收都绝对不可能，化学处理等是另一问题。",
+      "从单体功能度推结构时，双官能组分在理想条件下可形成线性链，多官能可能促支化交联，但实际网络形成还依配比、转化和环化等。预测需要条件，不是见三个官能团就宣称全部瞬间成完美网。"
+    ],
+    "derive": [
+      "连接层次：主链/侧基/支链/链间交联，图中必须区分共价连接与链间靠近。",
+      "同化学家族内可推支化—堆积—结晶/密度趋势，但加工及分布仍会影响。",
+      "多官能单体可增加网络可能性；是否成胶/交联需转化与配比等条件。"
+    ],
+    "examples": [
+      {
+        "q": "一幅“线型聚合物”画成弯曲缠绕的单链，能仅因不笔直判画错吗？",
+        "given": "连接没有分支或交联。",
+        "analysis": "线型是拓扑不是几何直线。",
+        "method": "检查连接而非外形。",
+        "principle": "链构象可变。",
+        "steps": [
+          "若仍一条连续无分支主链，属线型模型。",
+          "弯折缠绕可存在，不需拉成直棒。"
+        ],
+        "ans": "不能仅据弯曲判错。",
+        "verification": "理想链可折叠而不新增支链。",
+        "pitfall": "把linear字面当全原子共线。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.2",
+        "related_sections": []
+      },
+      {
+        "q": "同类聚乙烯甲支化少、乙支化多，其他条件近似，哪种更易紧密堆积？能保证全部指标甲更优吗？",
+        "given": "比较同家族并控制主要其他因素。",
+        "analysis": "堆积趋势与全面性能不同。",
+        "method": "结构到结晶密度，再写限制。",
+        "principle": "支链可妨碍规整堆积。",
+        "steps": [
+          "通常甲较易紧密堆积、相应结晶密度可较高。",
+          "柔韧、加工等目标不同且受其他因素，不能全面判优。"
+        ],
+        "ans": "甲有较紧密堆积趋势，非所有性能都更优。",
+        "verification": "较多支链可带来不同柔韧用途。",
+        "pitfall": "少支链等于任何用途最好。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.2",
+        "related_sections": []
+      },
+      {
+        "q": "二酸与二醇均双官能，另一个体系加入三官能醇，结构趋势如何？是否必定立刻形成全网？",
+        "given": "理想缩合连接模型。",
+        "analysis": "功能度影响支化，但网络需更多条件。",
+        "method": "比较连接出口数。",
+        "principle": "双官能延链，多官能可成分支点。",
+        "steps": [
+          "二/二体系可形成线性链。",
+          "加入三官能可促支化交联；具体是否网络还依量比、转化与环化。"
+        ],
+        "ans": "后者网络可能性增加，非无条件立刻全网。",
+        "verification": "很低转化时多数单体尚未建立网络。",
+        "pitfall": "仅数官能团就忽略反应程度。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "两条线靠近甚至缠结，必有共价交联吗？",
+        "given": "未画连接键。",
+        "analysis": "空间靠近与化学连接不同。",
+        "method": "查键与结构证据。",
+        "principle": "交联需相应链间连接。",
+        "steps": [
+          "缠结可为物理约束。",
+          "不能仅靠接近就画共价桥，需明确结构。"
+        ],
+        "ans": "不必。",
+        "verification": "滑开链不一定需断共价键。",
+        "pitfall": "每个交叉处都补一个键。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.2",
+        "related_sections": []
+      },
+      {
+        "q": "聚丙烯每单元的CH₃是否必须画成另一条长主链？",
+        "given": "重复结构—CH₂—CH(CH₃)—。",
+        "analysis": "侧基与长支链区分。",
+        "method": "核碳连接。",
+        "principle": "主链连续路线。",
+        "steps": [
+          "CH₃是该重复单元侧基。",
+          "不等于每处都有一条长高分子链伸出。"
+        ],
+        "ans": "不是，应为甲基侧基。",
+        "verification": "补H后碳四价且主链仍连续。",
+        "pitfall": "为显示支化任意延长CH₃。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.2",
+        "related_sections": []
+      },
+      {
+        "q": "交联越密是否一定越柔软弹性越好？",
+        "given": "只改变网络约束作趋势讨论。",
+        "analysis": "恢复与可伸展性存在权衡。",
+        "method": "比较轻度与过密网络。",
+        "principle": "链运动受约束。",
+        "steps": [
+          "适度网络可帮助恢复。",
+          "过密可能更硬、可伸长性降低，不能单调宣称更柔软。"
+        ],
+        "ans": "不一定。",
+        "verification": "硬橡胶类说明网络密度目标不同。",
+        "pitfall": "将一种效益无限外推。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.2",
+        "related_sections": []
+      },
+      {
+        "q": "密集交联材料不易熔融重塑，是否表示任何回收都不可能？",
+        "given": "讨论普通热流动。",
+        "analysis": "机械热塑再加工与其他回收不同。",
+        "method": "限定结论。",
+        "principle": "结构限制某方法而非所有技术。",
+        "steps": [
+          "不能像简单热塑料熔融流动。",
+          "仍可研究适当机械、化学等处理，需具体证据和成本条件。"
+        ],
+        "ans": "不能作绝对不可能结论。",
+        "verification": "难度增加不等于逻辑上所有方式均无。",
+        "pitfall": "把一个加工限制当所有途径禁绝。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "结构示意每个链交叉点都画连结，却标题只说“物理缠结线型链”，应改图还是改标题？",
+      "given": "图和文字描述冲突。",
+      "analysis": "化学连接改变拓扑。",
+      "method": "核是否真实有交联。",
+      "principle": "结构与模型说明应一致。",
+      "steps": [
+        "若只缠结，移除假共价桥并用线型区分前后。",
+        "若确交联，应标网络及依据，不能保留线型无交联标题。"
+      ],
+      "ans": "按真实模型修正，不能两者混用。",
+      "verification": "每条新增键都需合理连接与原子价。",
+      "pitfall": "把画面交叉自动当化学反应。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 35,
+      "primary_section": "35.2",
+      "related_sections": []
+    },
+    "exam": [
+      "结构题先查连接拓扑再谈画面形状",
+      "性质题写结构—运动/堆积—趋势及控制条件",
+      "网络题审功能度、配比和转化，不能见多官能就宣布唯一材料"
+    ],
+    "quick": [
+      "主链侧基",
+      "线型支链",
+      "交联网络",
+      "空间排列",
+      "结构性能条件"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 16,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_35.2",
+        "url": "https://openstax.org/books/organic-chemistry/pages/31-7-polymer-structure-and-physical-properties",
+        "page_or_section": "31-7-polymer-structure-and-physical-properties",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 16,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_35.2",
+        "url": "https://openstax.org/books/organic-chemistry/pages/31-7-polymer-structure-and-physical-properties",
+        "page_or_section": "31-7-polymer-structure-and-physical-properties",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "结构题先查连接拓扑再谈画面形状",
+      "method": "比较连接出口数。",
+      "principle": "双官能延链，多官能可成分支点。",
+      "worked_example_index": 2,
+      "verification": "很低转化时多数单体尚未建立网络。",
+      "pitfall": "仅数官能团就忽略反应程度。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“比较线型支链交联及空间结构”的抽样复核：理想链可折叠而不新增支链。；若出现“把linear字面当全原子共线。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“由连接与链运动预测性能并说明条件”的抽样复核：很低转化时多数单体尚未建立网络。；若出现“仅数官能团就忽略反应程度。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把画面交叉自动当化学反应。",
+        "correction": "按真实模型修正，不能两者混用。",
+        "verification": "每条新增键都需合理连接与原子价。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "线型支链交联的结构区别",
+      "objects": [
+        "弯曲线型链",
+        "甲基侧基",
+        "长支链",
+        "物理缠结",
+        "共价交联网络"
+      ],
+      "relations": [
+        "交叉不自动成键",
+        "主链连续",
+        "交联点须合理价",
+        "稀密网络限制链运动不同"
+      ],
+      "labels": [
+        "线型拓扑",
+        "侧基",
+        "支链",
+        "缠结",
+        "交联",
+        "非分子真实比例"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "暂无对应旧图；结构示意必须区分交叉与成键",
+      "english": "Draw a curved unbranched chain, pendant methyl groups, true long-chain branches, physical entanglement and covalent crosslinks as distinct models. Do not add a bond at every drawn crossing. Mark crosslink density qualitatively and avoid claiming denser networks universally improve softness or recyclability."
+    }
+  },
+  "35.3": {
+    "content_batch": "batch05",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 35,
+    "section_id": "35.3",
+    "goals": [
+      "由链运动与结晶解释热机械和溶胀性质",
+      "区分玻璃转变熔融及比较指标"
+    ],
+    "prerequisites": [
+      "链结构",
+      "温度与分子间作用"
+    ],
+    "flow": [
+      "热转变",
+      "链与晶区",
+      "力学指标",
+      "溶胀溶解",
+      "时间环境条件"
+    ],
+    "concept_relation": "热转变；链与晶区；力学指标；溶胀溶解；时间环境条件",
+    "deep": [
+      "力学表现包括刚度、断裂应力、伸长和韧性等，指标不互相代替。较大拉断力也可能仅因试样截面较大；比较应力需F/A并保持测试条件相同，不能把“能挂更多重物”直接称材料本征更强。",
+      "溶解与溶胀不同。适当线性链在相应溶剂条件可逐渐分散，交联网络可能吸溶剂体积增大却仍维持连接；质量增加不自动证明已变成均一分子溶液，也不由一次溶胀量唯一推交联密度。",
+      "很多常见聚合物导电弱、耐某些化学环境，但存在导电聚合物、填料改性及可溶于水的高分子等例外。必须由载流子和结构解释，不能重复“所有塑料绝缘不溶不反应”的绝对说法。",
+      "选择材料先确定使用温度、载荷、溶剂及寿命，再看相应测试指标。短时好性能不保证长时抗蠕变或老化，尤其聚合物对时间温度敏感；题给比较数据只能在其条件内支持结论。"
+    ],
+    "derive": [
+      "T_g为无定形链段运动变化的转变，不等于所有材料T_m。",
+      "简单拉伸名义应力σ=F/A；1 N/mm²=1 MPa，需同测试口径。",
+      "溶胀比需定义是质量或体积口径，吸液不等于全部网络分子溶解。"
+    ],
+    "examples": [
+      {
+        "q": "题给无定形材料T_g=80°C，25°C与100°C相对玻璃转变怎样？能说100°C一定已晶体熔化吗？",
+        "given": "无定形材料，未给晶区T_m。",
+        "analysis": "玻璃转变与熔融不同。",
+        "method": "比较T与T_g。",
+        "principle": "链段运动模型。",
+        "steps": [
+          "25<T_g，通常较玻璃态硬脆。",
+          "100>T_g，链段运动增强，但无定形玻璃转变不等同晶体熔化，也不保证可任意流动。"
+        ],
+        "ans": "前低于、后高于T_g；不能称必已晶体熔化。",
+        "verification": "题未给可据的晶体熔点。",
+        "pitfall": "把T_g直接标成所有材料熔点。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.3",
+        "related_sections": []
+      },
+      {
+        "q": "同方法拉伸，甲截面2 mm²、断裂力50 N，乙10 mm²、断裂力100 N，名义断裂应力各多少？",
+        "given": "截面积为初始测量，条件可比。",
+        "analysis": "力大小需按面积归一。",
+        "method": "σ=F/A。",
+        "principle": "应力定义。",
+        "steps": [
+          "甲25 N/mm²=25 MPa。",
+          "乙10 N/mm²=10 MPa。"
+        ],
+        "ans": "甲25、乙10 MPa。",
+        "verification": "甲虽然断力小，但单位面积承受更大。",
+        "pitfall": "只按100>50判乙材料断裂应力高。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.3",
+        "related_sections": []
+      },
+      {
+        "q": "已知交联样品干1 g吸溶剂后3 g仍保形，能直接称已完全溶解并确定交联点数吗？",
+        "given": "有网络与吸液现象，无分子分散测量。",
+        "analysis": "溶胀与溶解不同且信息有限。",
+        "method": "按质量收支并列需证据。",
+        "principle": "网络可吸液而不解体。",
+        "steps": [
+          "吸入约2 g溶剂，符合溶胀。",
+          "保形和质量不能唯一给交联点数，也不能称完全分子溶液。"
+        ],
+        "ans": "不能，支持溶胀模型。",
+        "verification": "3g中仍含原网络1g，不能把全部质量说成新聚合物。",
+        "pitfall": "吸液就当溶解或直接数交联。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "较硬材料一定更韧吗？",
+        "given": "只给刚度或硬度。",
+        "analysis": "刚硬与断裂吸能不同。",
+        "method": "要求相应力学测试。",
+        "principle": "性能指标多维。",
+        "steps": [
+          "可硬而脆。",
+          "韧性需应力应变等吸能资料，不能只用硬度。"
+        ],
+        "ans": "不一定。",
+        "verification": "玻璃态材料可体现硬但脆。",
+        "pitfall": "强硬韧三个词完全同义。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.3",
+        "related_sections": []
+      },
+      {
+        "q": "半结晶材料T_g=−20°C、T_m约120°C，20°C超过T_g，能说已经全部液化吗？",
+        "given": "仍低于晶区熔融。",
+        "analysis": "不同结构部分转变不同。",
+        "method": "比较两个温度尺度。",
+        "principle": "无定形与晶区分开。",
+        "steps": [
+          "无定形部分链段较可动。",
+          "晶区仍可维持结构，不能称全部液化。"
+        ],
+        "ans": "不能。",
+        "verification": "20远低题给120，晶区未按模型熔融。",
+        "pitfall": "只要高于T_g就是液体。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.3",
+        "related_sections": []
+      },
+      {
+        "q": "同样塑料加入导电填料后可导电，是否违反化学规律？",
+        "given": "材料配方改变。",
+        "analysis": "常见绝缘趋势非绝对。",
+        "method": "看载流通路。",
+        "principle": "电导依载流子和网络。",
+        "steps": [
+          "填料可形成相应导电路径。",
+          "材料宏观性质可改变，不是规律失效。"
+        ],
+        "ans": "不违反。",
+        "verification": "原聚合物与复合材料不是相同配方。",
+        "pitfall": "把塑料绝缘当无例外定义。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.3",
+        "related_sections": []
+      },
+      {
+        "q": "样品干2 g，溶胀后6 g，按吸液质量/干质量定义比值多少？若另定义总湿/干呢？",
+        "given": "无聚合物损失。",
+        "analysis": "不同口径给不同值。",
+        "method": "分别(6−2)/2与6/2。",
+        "principle": "质量分项。",
+        "steps": [
+          "吸液比2 g/g。",
+          "总湿比3，不能无说明混用。"
+        ],
+        "ans": "2与3，口径不同。",
+        "verification": "干2+液4=湿6。",
+        "pitfall": "把两个溶胀指标混称同一数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "某材料短时拉伸强度高，是否足以保证长期承重在高温下永不变形？",
+      "given": "时间温度条件不同。",
+      "analysis": "聚合物可蠕变老化。",
+      "method": "要求长期和使用温度数据。",
+      "principle": "物性依时间温度及载荷。",
+      "steps": [
+        "短时数据支持对应测试。",
+        "需长期蠕变、热稳定与环境资料，不能承诺永不变形。"
+      ],
+      "ans": "不足。",
+      "verification": "链段慢运动可在较长时间累积变形。",
+      "pitfall": "把短时极限当永久工作条件。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 35,
+      "primary_section": "35.3",
+      "related_sections": []
+    },
+    "exam": [
+      "物性题用结构和链运动解释，T_g/T_m不互换",
+      "比较题归一到同指标同条件，力不直接等于应力",
+      "溶剂题定义比值并区别溶胀与溶解，长期性能另需数据"
+    ],
+    "quick": [
+      "热转变",
+      "链与晶区",
+      "力学指标",
+      "溶胀溶解",
+      "时间环境条件"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 16,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_35.3",
+        "url": "https://openstax.org/books/organic-chemistry/pages/31-7-polymer-structure-and-physical-properties",
+        "page_or_section": "31-7-polymer-structure-and-physical-properties",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 16,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_35.3",
+        "url": "https://openstax.org/books/organic-chemistry/pages/31-7-polymer-structure-and-physical-properties",
+        "page_or_section": "31-7-polymer-structure-and-physical-properties",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "物性题用结构和链运动解释，T_g/T_m不互换",
+      "method": "按质量收支并列需证据。",
+      "principle": "网络可吸液而不解体。",
+      "worked_example_index": 2,
+      "verification": "3g中仍含原网络1g，不能把全部质量说成新聚合物。",
+      "pitfall": "吸液就当溶解或直接数交联。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由链运动与结晶解释热机械和溶胀性质”的抽样复核：题未给可据的晶体熔点。；若出现“把T_g直接标成所有材料熔点。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分玻璃转变熔融及比较指标”的抽样复核：3g中仍含原网络1g，不能把全部质量说成新聚合物。；若出现“吸液就当溶解或直接数交联。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把短时极限当永久工作条件。",
+        "correction": "不足。",
+        "verification": "链段慢运动可在较长时间累积变形。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "聚合物热转变与性能口径",
+      "objects": [
+        "T_g/T_m温标",
+        "无定形/晶区示意",
+        "不同截面试条",
+        "交联溶胀",
+        "测试条件框"
+      ],
+      "relations": [
+        "T_g不等于T_m",
+        "F/A比较25与10MPa",
+        "保形溶胀非均一溶解",
+        "热塑与密交联不同"
+      ],
+      "labels": [
+        "T_g",
+        "T_m",
+        "σ=F/A",
+        "溶胀",
+        "温度/时间/配方"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "暂无对应旧图；温度标尺和数据须准确",
+      "english": "Distinguish glass transition from crystalline melting, with separate amorphous and crystalline regions. Compare tensile specimens by50N/2mm²=25MPa versus100N/10mm²=10MPa, and show solvent swelling of a connected network without depicting complete dissolution. Label time, temperature and formulation limits."
+    }
+  },
+  "35.4.1": {
+    "content_batch": "batch05",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 35,
+    "section_id": "35.4.1",
+    "goals": [
+      "由单体双键写价键正确的重复结构",
+      "用计量与条件区分加成聚合和简单加成"
+    ],
+    "prerequisites": [
+      "烯烃加成",
+      "高分子单元与质量"
+    ],
+    "flow": [
+      "单体双键",
+      "引发增长",
+      "重复结构",
+      "侧基与价",
+      "质量与产率"
+    ],
+    "concept_relation": "单体双键；引发增长；重复结构；侧基与价；质量与产率",
+    "deep": [
+      "聚合通常需要适当引发、催化、温压等，不是双键物质放在一起就必自发定量聚合。不同引发或催化会影响速率、链长、空间排列和副反应；不能把普通小分子加氢的条件当所有聚合通用配方。",
+      "链增长可概括引发、增长和终止/链转移等环节，机制依体系不同。这个概括帮助解释为什么样品有链长分布，不将每条链都固定画成n相同的精确分子；详细机理作为理解模型而非虚构官方必考细目。",
+      "反推单体时识别两个主链碳及其侧基，在合适乙烯基均聚模型下恢复双键。不是把整条主链任意剪为两半，也不能把缩聚中保留的酯/酰胺连接无条件改成烯烃单体。",
+      "计算聚合度可用链平均质量除重复单元质量近似，产率则用目标聚合物实际量比理论量；未反应单体仍有质量去向。双键消耗和结构证据可支持聚合，但“体系变稠”单一现象不证明目标重复结构正确。"
+    ],
+    "derive": [
+      "nCH₂=CH₂→[—CH₂—CH₂—]ₙ（适当聚合条件，端基简写）。",
+      "nCH₂=CHCl→[—CH₂—CH(Cl)—]ₙ；nCH₂=CHCH₃→[—CH₂—CH(CH₃)—]ₙ。",
+      "理想加成聚合不脱小分子，M重复=M单体；M链≈nM重复需端基近似。"
+    ],
+    "examples": [
+      {
+        "q": "写氯乙烯聚合的重复结构，并逐碳核价。",
+        "given": "单体CH₂=CHCl。",
+        "analysis": "侧基Cl保留。",
+        "method": "双键改主链单键并两端延伸。",
+        "principle": "加成聚合连接。",
+        "steps": [
+          "重复—CH₂—CH(Cl)—。",
+          "CH₂碳有2H和两主链键，CHCl碳有H、Cl和两主链键，均四价。"
+        ],
+        "ans": "[—CH₂—CH(Cl)—]ₙ。",
+        "verification": "重复组成C₂H₃Cl与单体同。",
+        "pitfall": "把Cl删除或保留主链C=C。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.4.1",
+        "related_sections": []
+      },
+      {
+        "q": "14.0 g乙烯按理想加成聚合，80.0%进入目标聚合物，无副产物并忽略端基，聚合物及未反应乙烯质量？",
+        "given": "质量转化口径明确。",
+        "analysis": "不脱水，目标质量按转化。",
+        "method": "m聚=14×.80。",
+        "principle": "质量守恒。",
+        "steps": [
+          "聚合物11.2 g。",
+          "余单体2.8 g。"
+        ],
+        "ans": "11.2与2.8 g。",
+        "verification": "11.2+2.8=14.0。",
+        "pitfall": "聚合就凭空失水或把剩单体当消失。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.4.1",
+        "related_sections": []
+      },
+      {
+        "q": "重复单元—CH₂—CH(CH₃)—的简单乙烯基单体是什么？为何不是把CH₃也放主链成三碳重复？",
+        "given": "单体反推限定常见均聚模型。",
+        "analysis": "恢复参与主链的两碳双键。",
+        "method": "CH₂=CH—CH₃。",
+        "principle": "侧基连接保留。",
+        "steps": [
+          "两个主链碳恢复C=C。",
+          "甲基保留连第二碳，得丙烯。"
+        ],
+        "ans": "CH₂=CHCH₃。",
+        "verification": "原子C3H6与重复单元同，连接可还原。",
+        "pitfall": "把侧基误剪为第三个主链碳。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.4.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "聚乙烯重复单元还能画CH₂=CH₂并只在外面加n吗？",
+        "given": "要求连接的主链结构。",
+        "analysis": "单体与链不同。",
+        "method": "画单键和端键。",
+        "principle": "聚合改变连接。",
+        "steps": [
+          "应为—CH₂—CH₂—并与邻单元连接。",
+          "若保留原双键且又两端接链，会使价键不符。"
+        ],
+        "ans": "不能。",
+        "verification": "每个碳四价检验可发现。",
+        "pitfall": "外括号n自动修复错误键。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.4.1",
+        "related_sections": []
+      },
+      {
+        "q": "PVC重复式量62.5，链平均Mr62500，忽略端基，DP？",
+        "given": "平均口径明确。",
+        "analysis": "比值。",
+        "method": "62500/62.5。",
+        "principle": "重复质量近似。",
+        "steps": [
+          "DP1000。",
+          "仅为相应平均，不保证各链1000。"
+        ],
+        "ans": "约1000。",
+        "verification": "1000×62.5=62500。",
+        "pitfall": "把氯原子不计质量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.4.1",
+        "related_sections": []
+      },
+      {
+        "q": "体系变稠是否唯一证明形成目标聚合物？",
+        "given": "没有结构检测。",
+        "analysis": "物性变化也可由浓缩凝聚等引起。",
+        "method": "要求单体消耗和结构证据。",
+        "principle": "单现象不唯一鉴定。",
+        "steps": [
+          "变稠与聚合可相容。",
+          "还需成分、分子量和重复结构等证据，不能单凭黏度确认。"
+        ],
+        "ans": "不是唯一证明。",
+        "verification": "溶剂蒸发也可增黏。",
+        "pitfall": "看似塑料就必为所画结构。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.4.1",
+        "related_sections": []
+      },
+      {
+        "q": "10 g纯单体完全理想加成成聚合物，实得9 g纯目标，求收率；若产品有10%溶剂，纯量与收率？",
+        "given": "以同一10 g理论聚合物边界。",
+        "analysis": "第二情境先扣溶剂。",
+        "method": "实际纯量/理论。",
+        "principle": "产率定义。",
+        "steps": [
+          "纯9g时收率90%。",
+          "含10%溶剂的9g样品纯聚合物8.1g，收率81%。"
+        ],
+        "ans": "90%；第二8.1g、81%。",
+        "verification": "差值为非目标物，不可算入产率。",
+        "pitfall": "粗产物质量直接当纯量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.4.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "加成聚合不脱水，能据此说任何双键在无条件下都会完全聚合吗？",
+      "given": "未给引发、催化与竞争过程。",
+      "analysis": "计量类型与反应可行速率不同。",
+      "method": "分别核结构条件和反应条件。",
+      "principle": "正确总式不等于自动过程。",
+      "steps": [
+        "不脱小分子描述目标反应收支。",
+        "实际需适当体系条件，可能转化不完全或有副反应。"
+      ],
+      "ans": "不能。",
+      "verification": "同一单体在储存与聚合条件下行为可不同。",
+      "pitfall": "由守恒类型推无条件100%转化。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 35,
+      "primary_section": "35.4.1",
+      "related_sections": []
+    },
+    "exam": [
+      "写结构题先保侧基、改单键、加端键再核四价",
+      "反推题限定乙烯基均聚模型，找两主链碳恢复双键",
+      "计量题加成不脱水仍要区分转化、产率、纯度和端基"
+    ],
+    "quick": [
+      "单体双键",
+      "引发增长",
+      "重复结构",
+      "侧基与价",
+      "质量与产率"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 16,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_35.4.1",
+        "url": "https://openstax.org/books/organic-chemistry/pages/31-1-chain-growth-polymers",
+        "page_or_section": "31-1-chain-growth-polymers",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 16,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_35.4.1",
+        "url": "https://openstax.org/books/organic-chemistry/pages/31-1-chain-growth-polymers",
+        "page_or_section": "31-1-chain-growth-polymers",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "写结构题先保侧基、改单键、加端键再核四价",
+      "method": "CH₂=CH—CH₃。",
+      "principle": "侧基连接保留。",
+      "worked_example_index": 2,
+      "verification": "原子C3H6与重复单元同，连接可还原。",
+      "pitfall": "把侧基误剪为第三个主链碳。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由单体双键写价键正确的重复结构”的抽样复核：重复组成C₂H₃Cl与单体同。；若出现“把Cl删除或保留主链C=C。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e1",
+        "review_module": 5,
+        "feedback": "目标“用计量与条件区分加成聚合和简单加成”的抽样复核：11.2+2.8=14.0。；若出现“聚合就凭空失水或把剩单体当消失。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "由守恒类型推无条件100%转化。",
+        "correction": "不能。",
+        "verification": "同一单体在储存与聚合条件下行为可不同。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "乙烯基加成聚合结构",
+      "objects": [
+        "乙烯/氯乙烯/丙烯单体",
+        "对应重复结构",
+        "主链端键",
+        "侧基",
+        "质量收支"
+      ],
+      "relations": [
+        "C=C改主链单键",
+        "Cl和CH₃保留",
+        "每碳四价",
+        "不画脱水副产物"
+      ],
+      "labels": [
+        "适当条件",
+        "n",
+        "连续主链",
+        "端基简写",
+        "加成不脱小分子"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "暂无对应图；每个键及括号必须确定性绘制",
+      "english": "Draw ethene, vinyl chloride and propene converting to correct polyethylene, PVC and polypropylene repeat units. Keep chlorine and methyl substituents, replace the participating double bond with the connected backbone, extend bonds through brackets and check carbon valence. Do not invent water byproducts in ideal addition polymerization."
+    }
+  },
+  "35.4.2": {
+    "content_batch": "batch05",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 35,
+    "section_id": "35.4.2",
+    "goals": [
+      "由官能团连接写聚酯聚酰胺",
+      "区分重复单元近似与有限链脱水数"
+    ],
+    "prerequisites": [
+      "酯化酰胺连接",
+      "质量和原子守恒"
+    ],
+    "flow": [
+      "官能团",
+      "酯/酰胺键",
+      "小分子",
+      "重复单元",
+      "端基与连接数"
+    ],
+    "concept_relation": "官能团；酯/酰胺键；小分子；重复单元；端基与连接数",
+    "deep": [
+      "重复单元式量等于相应单体组分减去形成重复连接所脱的小分子。对己二酸与己二胺的一对重复结构，常用146+116−2×18=226；这是长链重复单元口径，端基精确值另计。",
+      "有限开放线性链中，每建立一个连接才脱相应一分子水。若n个二酸和n个二胺全部连成一条无环链，共2n个单体分子、2n−1个连接，因此水为2n−1；端基保留使链质量为226n+18，而非无条件精确226n。",
+      "简写n重复单元反应常忽略端基并以约2n水表示长链收支，应明确是结构简式/高聚度近似。若题目给有限链、具体端基或环状结构，不能照抄近似；环化、封端与多链会改变连接数量。",
+      "判断缩聚与更广义逐步增长也要留边界：并非所有逐步增长都必放水，本节典型二酸体系确有缩合小分子。学习分类以具体反应证据和官能团为主，不把方法名称当无条件万能定义。"
+    ],
+    "derive": [
+      "二酸+二醇→聚酯（酯连接）+相应H₂O；二酸+二胺→聚酰胺（酰胺连接）+H₂O。",
+      "己二酸146+己二胺116−2H₂O36=重复单元226（题取近似式量）。",
+      "n对单体成一条无环开放链：连接2n−1，水2n−1，链Mr=226n+18；若多链/成环须改计数。"
+    ],
+    "examples": [
+      {
+        "q": "己二酸Mr146、己二胺116，长链尼龙-6,6重复单元式量多少？为什么不直接262？",
+        "given": "每重复对的长链连接口径，忽略端基。",
+        "analysis": "形成两个酰胺连接对应失2水。",
+        "method": "146+116−36。",
+        "principle": "原子质量守恒。",
+        "steps": [
+          "得到226。",
+          "262包含将脱去的小分子组成，不能全留在重复结构。"
+        ],
+        "ans": "226。",
+        "verification": "可由重复式C₁₂H₂₂N₂O₂算144+22+28+32=226。",
+        "pitfall": "忘脱水或漏羰基氧。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.4.2",
+        "related_sections": []
+      },
+      {
+        "q": "恰10个己二酸与10个己二胺全部连成一条无环开放链，脱水几分子、链Mr多少？",
+        "given": "无分支封端杂物，20单体成一链。",
+        "analysis": "有限链端基不能忽略。",
+        "method": "20分子需19连接。",
+        "principle": "每连接一水的树状开放链计数。",
+        "steps": [
+          "失19H₂O。",
+          "Mr=10×(146+116)−19×18=2620−342=2278。"
+        ],
+        "ans": "19个水分子，Mr2278。",
+        "verification": "226×10+18=2278；与忽略端基2260差18。",
+        "pitfall": "机械写20水使端基质量丢失。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.4.2",
+        "related_sections": []
+      },
+      {
+        "q": "二醇Mr62与二酸166形成题设聚酯，每重复对脱2水，平均Mr19200忽略端基，重复对数多少？",
+        "given": "指定官能团及长链近似。",
+        "analysis": "先重复式量再聚合度。",
+        "method": "M₀=62+166−36。",
+        "principle": "缩聚质量收支。",
+        "steps": [
+          "M₀=192。",
+          "n≈19200/192=100。"
+        ],
+        "ans": "约100个重复对。",
+        "verification": "每对包含两类单体单位，不能叫只有100个总单体。",
+        "pitfall": "把228当重复式量或将对数当总单体数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.4.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "聚酯与聚酰胺的关键连接怎样区分？",
+        "given": "比较羰基邻接。",
+        "analysis": "O与N连接不同。",
+        "method": "写C(=O)—O与C(=O)—NH。",
+        "principle": "官能团结构。",
+        "steps": [
+          "聚酯含酯连接。",
+          "聚酰胺含相应酰胺连接，不能互换原子。"
+        ],
+        "ans": "酯为—COO—，酰胺为—CONH—等。",
+        "verification": "羰基O都须保留。",
+        "pitfall": "只看到C和O就所有都聚酯。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.4.2",
+        "related_sections": []
+      },
+      {
+        "q": "5个二酸与5个二醇连一条无环开放链，每连接失一水，水几分子？",
+        "given": "共10个单体分子。",
+        "analysis": "连接数比节点少1。",
+        "method": "10−1。",
+        "principle": "开放单链连接计数。",
+        "steps": [
+          "9连接。",
+          "失9水分子。"
+        ],
+        "ans": "9。",
+        "verification": "若形成两条链则只需8连接，题设一链重要。",
+        "pitfall": "无条件用2n=10。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.4.2",
+        "related_sections": []
+      },
+      {
+        "q": "加入单官能醇会有怎样的链增长影响？",
+        "given": "与相应二酸/二醇缩聚体系。",
+        "analysis": "只能从一端反应的分子可封端。",
+        "method": "比较功能度。",
+        "principle": "链延伸需两侧功能。",
+        "steps": [
+          "单官能醇反应后不能在另一端同样延伸。",
+          "可降低平均链长等，实际依量与条件。"
+        ],
+        "ans": "可能封端、限制链增长。",
+        "verification": "与多官能促进分支不同。",
+        "pitfall": "所有含OH都同样形成长链。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.4.2",
+        "related_sections": []
+      },
+      {
+        "q": "n=1000重复对的尼龙模型，精确开放单链Mr与忽略端基差多少、相对差约多少？",
+        "given": "采用前述M=226n+18。",
+        "analysis": "端基为常数项。",
+        "method": "差18，除精确Mr。",
+        "principle": "有限链公式。",
+        "steps": [
+          "精确226018，近似226000。",
+          "相对18/226018≈.00796%。"
+        ],
+        "ans": "差18，约0.008%。",
+        "verification": "n大时近似好，但不使有限链端基严格消失。",
+        "pitfall": "近似好就宣称永远精确。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.4.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "聚合方程画每个酯链接却漏一个O，再把H₂O系数调到配平，看似总量相符就可接受吗？",
+      "given": "原官能团连接应为酯。",
+      "analysis": "总原子和与局部结构都要对。",
+      "method": "逐重复单元还原官能团和端基。",
+      "principle": "结构式与计量必须一致。",
+      "steps": [
+        "漏O使局部官能团错误。",
+        "不能靠任意水系数救一个错误连接，应重画并按真实连接核守恒。"
+      ],
+      "ans": "不能接受。",
+      "verification": "配平不唯一决定真实化学结构。",
+      "pitfall": "数字凑平就忽略键与价。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 35,
+      "primary_section": "35.4.2",
+      "related_sections": []
+    },
+    "exam": [
+      "缩聚题先标功能团和新键，再扣小分子与核原子",
+      "聚合度题说明单体数还是重复对数，重复单元式量先算",
+      "有限链题数连接与端基，多链/环状不可沿用一链公式"
+    ],
+    "quick": [
+      "官能团",
+      "酯/酰胺键",
+      "小分子",
+      "重复单元",
+      "端基与连接数"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 16,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_35.4.2",
+        "url": "https://openstax.org/books/organic-chemistry/pages/31-4-step-growth-polymers",
+        "page_or_section": "31-4-step-growth-polymers",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 16,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_35.4.2",
+        "url": "https://openstax.org/books/organic-chemistry/pages/31-4-step-growth-polymers",
+        "page_or_section": "31-4-step-growth-polymers",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "缩聚题先标功能团和新键，再扣小分子与核原子",
+      "method": "M₀=62+166−36。",
+      "principle": "缩聚质量收支。",
+      "worked_example_index": 2,
+      "verification": "每对包含两类单体单位，不能叫只有100个总单体。",
+      "pitfall": "把228当重复式量或将对数当总单体数。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "p0",
+        "review_module": 4,
+        "feedback": "目标“由官能团连接写聚酯聚酰胺”的抽样复核：羰基O都须保留。；若出现“只看到C和O就所有都聚酯。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e1",
+        "review_module": 5,
+        "feedback": "目标“区分重复单元近似与有限链脱水数”的抽样复核：226×10+18=2278；与忽略端基2260差18。；若出现“机械写20水使端基质量丢失。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "数字凑平就忽略键与价。",
+        "correction": "不能接受。",
+        "verification": "配平不唯一决定真实化学结构。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "缩聚连接与端基精确计数",
+      "objects": [
+        "二酸二醇聚酯",
+        "二酸二胺聚酰胺",
+        "水脱除",
+        "10对开放链端基",
+        "重复近似框"
+      ],
+      "relations": [
+        "酯与酰胺原子正确",
+        "20单体19连接",
+        "10对Mr2278非2260精确值",
+        "端基H/OH保留"
+      ],
+      "labels": [
+        "C=O",
+        "—COO—",
+        "—CONH—",
+        "2n−1水",
+        "226n+18",
+        "高n近似"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "暂无对应图；必须逐原子核价、端基与小分子数",
+      "english": "Draw valence-correct polyester and polyamide links with every carbonyl oxygen retained. Contrast repeat-unit shorthand with a finite open chain of10 diacid and10 diamine molecules:19 water molecules lost and mass2278 using146/116/18, not an exact2260. Show terminal H/OH groups and state assumptions excluding rings and multiple chains."
+    }
+  },
+  "35.5.1": {
+    "content_batch": "batch05",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 35,
+    "section_id": "35.5.1",
+    "goals": [
+      "联系异戊二烯cis-1,4结构与弹性",
+      "区分乳胶凝聚聚合和硫化交联"
+    ],
+    "prerequisites": [
+      "二烯与聚合",
+      "链运动和网络"
+    ],
+    "flow": [
+      "异戊二烯",
+      "cis-1,4链",
+      "乳胶分散",
+      "凝聚",
+      "硫化与老化"
+    ],
+    "concept_relation": "异戊二烯；cis-1,4链；乳胶分散；凝聚；硫化与老化",
+    "deep": [
+      "未适当处理的生胶会有温度敏感、黏性和形变恢复等限制，硫化可建立链间交联改善特定性能。硫桥结构实际多样，示意可用通用链间连接表示，不把每个双键全断或硫画成不合理价的统一单一产物。",
+      "交联密度有权衡，适当交联帮助恢复和耐用，过密可使材料更硬、伸展性低。配方、填料与加工也影响性质，不能把“硫越多所有性能越好”作为线性规律。",
+      "链上不饱和结构可与氧、臭氧等过程相关而发生老化，光热和机械环境也影响寿命；防护与添加剂依具体用途选择。天然来源不保证任何环境不降解或瞬间完全降解，材料寿命和末端处理需证据。",
+      "计量时异戊二烯和该加成重复单元均C₅H₈、式量约68，忽略端基可由链质量估聚合度；乳胶干胶含量则是样品质量分数，不能把湿乳胶全部质量当纯橡胶。"
+    ],
+    "derive": [
+      "异戊二烯CH₂=C(CH₃)—CH=CH₂，1,4重复片段—CH₂—C(CH₃)=CH—CH₂—。",
+      "加成重复式量C₅H₈≈68；M链≈68n忽略端基。",
+      "干胶质量≈乳胶质量×题给干胶质量分数，分散水不是橡胶链组成。"
+    ],
+    "examples": [
+      {
+        "q": "天然橡胶题给平均Mr136000，按重复C₅H₈式量68且忽略端基，平均n？",
+        "given": "相应平均模型。",
+        "analysis": "先确认加成无脱小分子。",
+        "method": "136000/68。",
+        "principle": "重复质量近似。",
+        "steps": [
+          "n≈2000。",
+          "不保证每条链恰2000。"
+        ],
+        "ans": "约2000。",
+        "verification": "2000×68=136000。",
+        "pitfall": "用单体加2水或保留不正确分子量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.5.1",
+        "related_sections": []
+      },
+      {
+        "q": "100 g乳胶题给干胶30%，理论干胶与非干胶部分各多少？凝聚是否才开始形成所有长链？",
+        "given": "按质量分数，其他组分归非干胶。",
+        "analysis": "分散体系与聚合过程不同。",
+        "method": "干胶=.30×100。",
+        "principle": "组成收支及凝聚概念。",
+        "steps": [
+          "干胶30g，其他70g。",
+          "长链原已存在，凝聚主要使颗粒聚集分离，不是首次全体聚合。"
+        ],
+        "ans": "30g与70g；不是首次聚合。",
+        "verification": "30+70=100，水等不计进重复结构。",
+        "pitfall": "把乳胶水全算胶或把凝聚等同聚合。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.5.1",
+        "related_sections": []
+      },
+      {
+        "q": "硫化后恢复更好，是否可把所有交叉链点都画成一个S原子连四个碳，并声称唯一产物？",
+        "given": "实际硫化结构有多样性。",
+        "analysis": "网络示意不能伪装唯一精确结构。",
+        "method": "用有依据通用桥并核价。",
+        "principle": "结构连接需化学合理。",
+        "steps": [
+          "可示意适当链间交联。",
+          "不无依据指定每点同一超简结构或不合理价；需标示意且保留不饱和/位点条件。"
+        ],
+        "ans": "不能，按可靠结构或明确通用示意。",
+        "verification": "宏观性能不唯一确定每个原子连接。",
+        "pitfall": "为画网络随意给硫和碳超价。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.5.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "天然橡胶重复单元是否没有任何双键？",
+        "given": "1,4聚异戊二烯模型。",
+        "analysis": "仍有剩余C=C。",
+        "method": "写重复结构。",
+        "principle": "二烯聚合连接重排。",
+        "steps": [
+          "—CH₂—C(CH₃)=CH—CH₂—保留一双键。",
+          "不是聚乙烯式全饱和链。"
+        ],
+        "ans": "仍有双键。",
+        "verification": "C5H8氢数与饱和烃链模型不同。",
+        "pitfall": "两双键参与就全都消失且不审氢数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.5.1",
+        "related_sections": []
+      },
+      {
+        "q": "线型长链卷曲为什么仍可叫线型？",
+        "given": "连接无分支网络另论。",
+        "analysis": "拓扑与构象不同。",
+        "method": "看是否一条连续链。",
+        "principle": "结构分类。",
+        "steps": [
+          "卷曲不新增主链分支。",
+          "线型指连接而不是物理直线。"
+        ],
+        "ans": "可，卷曲是构象。",
+        "verification": "拉直与再卷不必打断主链。",
+        "pitfall": "把线型画成永远硬直杆。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.5.1",
+        "related_sections": []
+      },
+      {
+        "q": "干胶含量25%的200g乳胶，若干胶回收率90%，实收干胶多少？",
+        "given": "两个百分数意义不同。",
+        "analysis": "先组成后回收。",
+        "method": "200×.25×.90。",
+        "principle": "物料及收率。",
+        "steps": [
+          "理论50g。",
+          "实收45g。"
+        ],
+        "ans": "45 g。",
+        "verification": "其余5g为未回收干胶，另150g非干胶。",
+        "pitfall": "25%和90%相加或只乘一个。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.5.1",
+        "related_sections": []
+      },
+      {
+        "q": "把交联密度不断提高，是否保证最大伸长也不断增加？",
+        "given": "其他条件近似。",
+        "analysis": "网络约束可能限制伸展。",
+        "method": "比较恢复和可动性。",
+        "principle": "结构性能权衡。",
+        "steps": [
+          "适度交联可帮助恢复。",
+          "过密限制链运动，最大伸长可降低，不能无界增加。"
+        ],
+        "ans": "不保证。",
+        "verification": "硬胶与弹性胶的目标不同。",
+        "pitfall": "恢复好就等于可拉得无限长。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.5.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "乳胶乳白且含水，能叫“橡胶完全分子溶于水的真溶液”吗？",
+      "given": "分散颗粒模型。",
+      "analysis": "胶体分散与分子溶液不同。",
+      "method": "比较分散单位。",
+      "principle": "颗粒相与溶解定义。",
+      "steps": [
+        "橡胶颗粒等分散于水。",
+        "不代表每条橡胶链完全成为均一水中分子溶液。"
+      ],
+      "ans": "不能。",
+      "verification": "凝聚行为也与颗粒稳定性有关。",
+      "pitfall": "只因看起来均匀就当真溶液。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 35,
+      "primary_section": "35.5.1",
+      "related_sections": []
+    },
+    "exam": [
+      "橡胶结构题核1,4连接、侧甲基、cis及剩余双键",
+      "工艺题区分已聚合乳胶、凝聚分离和硫化交联",
+      "计量题干胶含量与回收率分层，结构示意不冒充唯一产物"
+    ],
+    "quick": [
+      "异戊二烯",
+      "cis-1,4链",
+      "乳胶分散",
+      "凝聚",
+      "硫化与老化"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 16,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_35.5.1",
+        "url": "https://openstax.org/books/organic-chemistry/pages/14-6-diene-polymers-natural-and-synthetic-rubbers",
+        "page_or_section": "14-6-diene-polymers-natural-and-synthetic-rubbers",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 16,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_35.5.1",
+        "url": "https://openstax.org/books/organic-chemistry/pages/14-6-diene-polymers-natural-and-synthetic-rubbers",
+        "page_or_section": "14-6-diene-polymers-natural-and-synthetic-rubbers",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "橡胶结构题核1,4连接、侧甲基、cis及剩余双键",
+      "method": "用有依据通用桥并核价。",
+      "principle": "结构连接需化学合理。",
+      "worked_example_index": 2,
+      "verification": "宏观性能不唯一确定每个原子连接。",
+      "pitfall": "为画网络随意给硫和碳超价。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "p0",
+        "review_module": 4,
+        "feedback": "目标“联系异戊二烯cis-1,4结构与弹性”的抽样复核：C5H8氢数与饱和烃链模型不同。；若出现“两双键参与就全都消失且不审氢数。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e1",
+        "review_module": 5,
+        "feedback": "目标“区分乳胶凝聚聚合和硫化交联”的抽样复核：30+70=100，水等不计进重复结构。；若出现“把乳胶水全算胶或把凝聚等同聚合。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "只因看起来均匀就当真溶液。",
+        "correction": "不能。",
+        "verification": "凝聚行为也与颗粒稳定性有关。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "天然橡胶结构与硫化",
+      "objects": [
+        "异戊二烯",
+        "cis-1,4重复",
+        "卷曲伸展链",
+        "乳胶颗粒水相",
+        "通用硫交联"
+      ],
+      "relations": [
+        "每重复保留一C=C",
+        "凝聚前已有长链",
+        "交联不画超价或唯一产物",
+        "卷曲非主链断裂"
+      ],
+      "labels": [
+        "C₅H₈",
+        "cis-1,4",
+        "干胶含量",
+        "凝聚≠聚合",
+        "交联示意非唯一结构"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "暂无对应正确图；cis连接及硫桥须专项审核",
+      "english": "Draw isoprene and the cis-1,4 polyisoprene repeat retaining one C=C per repeat. Separate latex particle coagulation from polymer formation and from vulcanization. Show only chemically justified or explicitly generic crosslink bridges, with no overvalent atoms or claim of one universal sulfur-crosslink structure."
+    }
+  },
+  "35.5.2": {
+    "content_batch": "batch05",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 35,
+    "section_id": "35.5.2",
+    "goals": [
+      "由单体说明常见合成橡胶结构来源",
+      "用共聚组成和性能数据选择材料"
+    ],
+    "prerequisites": [
+      "二烯聚合",
+      "单体质量与链结构"
+    ],
+    "flow": [
+      "单体来源",
+      "统计序列",
+      "极性侧基",
+      "组成质量",
+      "性能与使用环境"
+    ],
+    "concept_relation": "单体来源；统计序列；极性侧基；组成质量；性能与使用环境",
+    "deep": [
+      "氯丁橡胶可由氯丁二烯来源形成，单体CH₂=C(Cl)—CH=CH₂与异戊二烯不同。画1,4型示意时保留Cl侧基和相应剩余双键，不把Cl替成CH₃还沿用同一物质名。",
+      "性能可通过单体、链结构、交联、填料与加工调节，所谓耐油、耐热、耐候都需具体介质、温度和时间。某材料一项较好不表示耐所有溶剂、所有气候和全部力学指标都最佳。",
+      "共聚物计量需区分摩尔比与质量比。若题设所有单体完全进入目标加成共聚物且忽略端基，质量可相加；部分转化时两单体反应性不同，实际链组成未必等于初投料比，不能默认。",
+      "天然与合成橡胶可在配方中组合，选择应按任务指标而非来源标签。磨损、添加剂和末端处置也需关注，合成不等于绝对不老化，天然也不保证所有环境都无负担。"
+    ],
+    "derive": [
+      "丁苯示例单体：1,3-丁二烯C₄H₆（Mr54）+苯乙烯C₈H₈（Mr104）。",
+      "完全进入理想加成共聚物时m聚≈ΣnᵢMᵢ；摩尔分数与质量分数一般不同。",
+      "丙烯腈CH₂=CH—C≡N含腈基，不属于只含C/H的炔烃；氯丁单体Cl不能丢。"
+    ],
+    "examples": [
+      {
+        "q": "丁苯橡胶两单体是什么？画通用链段时能无依据把全部单元严格AB交替吗？",
+        "given": "仅知共聚，未给序列控制。",
+        "analysis": "组成与序列不同。",
+        "method": "列丁二烯、苯乙烯并限定图示。",
+        "principle": "共聚可有统计结构。",
+        "steps": [
+          "两类来源单元来自1,3-丁二烯与苯乙烯。",
+          "没有顺序证据，不应画成唯一严格交替，可用标明统计示意的链。"
+        ],
+        "ans": "不能无依据严格交替。",
+        "verification": "相同总体比例可对应多种序列。",
+        "pitfall": "共聚两个单体就必ABAB。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.5.2",
+        "related_sections": []
+      },
+      {
+        "q": "3 mol丁二烯Mr54与1 mol苯乙烯Mr104全部进入理想加成共聚物，聚合物质量及苯乙烯来源质量分数？",
+        "given": "完全转化无副产物，忽略端基。",
+        "analysis": "摩尔25%不等质量25%。",
+        "method": "总质量3×54+104。",
+        "principle": "质量加和。",
+        "steps": [
+          "m=266 g。",
+          "苯乙烯来源质量分数104/266≈39.1%。"
+        ],
+        "ans": "266 g，约39.1%。",
+        "verification": "丁二烯162g加104g守恒；苯乙烯摩尔分数仍25%。",
+        "pitfall": "把数目比3:1当质量3:1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.5.2",
+        "related_sections": []
+      },
+      {
+        "q": "题给甲低温柔性好但某油中明显溶胀，乙在该油中稳定但低温较脆，常温油封与低温无油部件如何选？能定绝对最优吗？",
+        "given": "仅限给定测试环境。",
+        "analysis": "任务不同选指标不同。",
+        "method": "按使用条件匹配。",
+        "principle": "材料选择有权衡。",
+        "steps": [
+          "常温该油封可优先评乙，仍核力学寿命。",
+          "低温无油可优先评甲，仍核载荷与其他条件。"
+        ],
+        "ans": "按目标分别评估，不给无条件绝对最优。",
+        "verification": "一材的短板在另一场景可能不主导。",
+        "pitfall": "同一排行榜适用于所有用途。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.5.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "丙烯腈有C≡N，就属于炔烃吗？",
+        "given": "式CH₂=CH—CN。",
+        "analysis": "炔烃需C≡C且只C/H。",
+        "method": "核键类型与元素。",
+        "principle": "官能团分类。",
+        "steps": [
+          "三键为碳氮，不是碳碳。",
+          "分子含N，也不是烃。"
+        ],
+        "ans": "不是。",
+        "verification": "其C=C仍可参与相应加成聚合。",
+        "pitfall": "三键符号相同就当同类。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.5.2",
+        "related_sections": []
+      },
+      {
+        "q": "氯丁二烯结构CH₂=C(Cl)—CH=CH₂中有几种元素、Cl在聚合图中能否删除？",
+        "given": "普通单体结构。",
+        "analysis": "侧基原子需守恒。",
+        "method": "数C/H/Cl。",
+        "principle": "组成与结构守恒。",
+        "steps": [
+          "有C、H、Cl三种元素。",
+          "加成结构中Cl仍保留，不能为简图删掉。"
+        ],
+        "ans": "三种，Cl不能删。",
+        "verification": "删Cl会改变重复单元组成和性质。",
+        "pitfall": "只画碳骨架忘关键侧基。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.5.2",
+        "related_sections": []
+      },
+      {
+        "q": "等mol丁二烯与苯乙烯理想完全加成，来源质量比？",
+        "given": "Mr54、104。",
+        "analysis": "等数不等质量。",
+        "method": "n相同乘M。",
+        "principle": "质量关系。",
+        "steps": [
+          "质量比54:104=27:52。",
+          "苯乙烯来源质量较大。"
+        ],
+        "ans": "27:52。",
+        "verification": "分子量近两倍使等mol质量近两倍。",
+        "pitfall": "等mol直接写1:1质量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.5.2",
+        "related_sections": []
+      },
+      {
+        "q": "投料单体比已知但只反应10%，能保证所得共聚物来源比等于投料比吗？",
+        "given": "未给两类单体反应性。",
+        "analysis": "部分转化可有选择差。",
+        "method": "需要实际组成或反应性资料。",
+        "principle": "速率与投料统计不同。",
+        "steps": [
+          "一种单体可能优先进入链。",
+          "需分析反应性和转化，不能直接照抄初投料。"
+        ],
+        "ans": "不能保证。",
+        "verification": "完全都进入时总收支才强约束总体来源比。",
+        "pitfall": "把总投料自动当所有时刻链组成。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.5.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "合成橡胶耐油的常见趋势，能否扩写为“耐任何溶剂、无限温度与时间”？",
+      "given": "只有限定用途经验。",
+      "analysis": "介质和环境条件影响性质。",
+      "method": "要求规范测试范围。",
+      "principle": "材料特性有适用域。",
+      "steps": [
+        "不同油和溶剂与链作用不同。",
+        "高温老化等可改变性能，需具体测试，不能绝对无限。"
+      ],
+      "ans": "不能。",
+      "verification": "单一实验不能覆盖无限条件。",
+      "pitfall": "定性名称取代完整使用限制。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 35,
+      "primary_section": "35.5.2",
+      "related_sections": []
+    },
+    "exam": [
+      "单体题核腈基/三键及Cl等侧基，图不能掉原子",
+      "共聚题分组成和序列，摩尔比转质量必须乘M",
+      "选材题按介质温度载荷寿命匹配，不给来源决定论"
+    ],
+    "quick": [
+      "单体来源",
+      "统计序列",
+      "极性侧基",
+      "组成质量",
+      "性能与使用环境"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 16,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_35.5.2",
+        "url": "https://openstax.org/books/organic-chemistry/pages/14-6-diene-polymers-natural-and-synthetic-rubbers",
+        "page_or_section": "14-6-diene-polymers-natural-and-synthetic-rubbers",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 16,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_35.5.2",
+        "url": "https://openstax.org/books/organic-chemistry/pages/14-6-diene-polymers-natural-and-synthetic-rubbers",
+        "page_or_section": "14-6-diene-polymers-natural-and-synthetic-rubbers",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "单体题核腈基/三键及Cl等侧基，图不能掉原子",
+      "method": "按使用条件匹配。",
+      "principle": "材料选择有权衡。",
+      "worked_example_index": 2,
+      "verification": "一材的短板在另一场景可能不主导。",
+      "pitfall": "同一排行榜适用于所有用途。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由单体说明常见合成橡胶结构来源”的抽样复核：相同总体比例可对应多种序列。；若出现“共聚两个单体就必ABAB。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用共聚组成和性能数据选择材料”的抽样复核：一材的短板在另一场景可能不主导。；若出现“同一排行榜适用于所有用途。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "定性名称取代完整使用限制。",
+        "correction": "不能。",
+        "verification": "单一实验不能覆盖无限条件。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "合成橡胶的单体与共聚",
+      "objects": [
+        "丁二烯",
+        "苯乙烯",
+        "丙烯腈",
+        "氯丁二烯",
+        "统计共聚链",
+        "性能对照表"
+      ],
+      "relations": [
+        "C≡N不画C≡C",
+        "Cl侧基保留",
+        "统计链不伪装严格交替",
+        "3mol54+1mol104=266g"
+      ],
+      "labels": [
+        "丁苯",
+        "丁腈",
+        "氯丁",
+        "摩尔比≠质量比",
+        "条件性性能"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "暂无对应图；单体和重复结构逐原子核验",
+      "english": "Draw correct butadiene, styrene, acrylonitrile and chloroprene structures, retaining CN and Cl substituents. Mark copolymer sequence as statistical unless explicitly controlled. Show3 mol of54 plus1 mol of104 giving266 g and39.1% styrene-derived mass, not25% mass."
+    }
+  },
+  "35.6": {
+    "content_batch": "batch05",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 35,
+    "section_id": "35.6",
+    "goals": [
+      "追踪石油馏分到单体聚合物的变化层级",
+      "评价回收及生命周期声明的结构依据"
+    ],
+    "prerequisites": [
+      "蒸馏裂化",
+      "聚合与物料循环"
+    ],
+    "flow": [
+      "石油混合物",
+      "分馏与裂化",
+      "单体聚合",
+      "回收结构条件",
+      "生命周期收支"
+    ],
+    "concept_relation": "石油混合物；分馏与裂化；单体聚合；回收结构条件；生命周期收支",
+    "deep": [
+      "资源评价包括原料开采、单体生产、聚合加工、使用寿命及处置。轻量耐用可减少某用途负担，也可能延长环境持留；需要同功能与边界比较，不用一项优势或化石来源一个标签代所有指标。",
+      "机械回收主要通过收集分选、清洗和再加工保留部分材料身份，但污染、混配、热降解和性能要求可限制循环。热塑可熔流不等于任意混合废料都能回同质量产品，交联材料又有不同处理难点。",
+      "化学回收或解聚可能改变链连接，某些聚酯可通过相应反应回收组分，而普通聚乙烯C—C主链不能简单用水按同一酯水解机制处理。能量回收燃烧更不是所有原子都变回原单体，需清楚区分路径。",
+      "“生物基”描述碳来源，“可生物降解”描述特定条件下的转化行为，二者不等同。生物基聚乙烯若链结构相同，不因原料来自植物就自动在任何环境快速分解；可堆肥等声明还需环境与时间规范。",
+      "可持续方案要以真实回收率、能源、排放、材料寿命和有害副产物等数据支持。把污染物转入另一物流或把废料焚烧，仍应完整记物料能量去向，不以循环箭头画成永不损耗、无外界输入的闭环。"
+    ],
+    "derive": [
+      "分馏=按物性分离混合物；裂化/聚合=改变连接的化学过程。",
+      "简化裂化例C₁₀H₂₂→C₂H₄+C₈H₁₈，原子守恒但非唯一产物承诺。",
+      "回收路径分机械再加工、化学转化与能源回收；生物基来源不等于可降解性能。"
+    ],
+    "examples": [
+      {
+        "q": "石油分馏所得一馏分，能无数据称纯乙烯且已完成聚合原料制备吗？",
+        "given": "仅做分离，未测组成。",
+        "analysis": "馏分通常混合，化学转化与纯化另有过程。",
+        "method": "分层说明。",
+        "principle": "物理分离不自动制造指定单体。",
+        "steps": [
+          "分馏分出挥发范围相近组分。",
+          "还需相应裂化、分离与净化等证据，不能称全为纯单体。"
+        ],
+        "ans": "不能。",
+        "verification": "原馏分可含多种烃而非单一分子。",
+        "pitfall": "蒸馏就等于把所有大分子裂成乙烯。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.6",
+        "related_sections": []
+      },
+      {
+        "q": "核查简化反应C₁₀H₂₂→C₂H₄+C₈H₁₈的原子守恒。若10 mol按此唯一模型，乙烯理论多少mol和g？取M28。",
+        "given": "明确理想单一路径例题，非真实产品分布声明。",
+        "analysis": "先守恒再系数。",
+        "method": "C10=2+8，H22=4+18。",
+        "principle": "元素守恒。",
+        "steps": [
+          "方程配平。",
+          "10 mol原料给10 mol乙烯，质量280g。"
+        ],
+        "ans": "守恒，10mol、280g。",
+        "verification": "碳氢剩余也在C8H18，不是其余原子消失。",
+        "pitfall": "平衡就说工业实际必100%得该两物。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.6",
+        "related_sections": []
+      },
+      {
+        "q": "生物基聚乙烯与石油基聚乙烯的主链重复结构相同，能仅凭生物基断言前者必快速生物降解吗？",
+        "given": "比较相同核心链，配方另需核。",
+        "analysis": "来源和结构降解性不同概念。",
+        "method": "看键、环境与实际测试。",
+        "principle": "降解取决结构及过程条件。",
+        "steps": [
+          "来源可不同但C—C链相同。",
+          "不能由植物碳来源直接推快速降解，需具体环境时间证据。"
+        ],
+        "ans": "不能。",
+        "verification": "来源标签不自动加入可水解键。",
+        "pitfall": "生物基等于可堆肥或任意环境降解。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.6",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "分馏和裂化哪种主要物理、哪种化学？",
+        "given": "按常见工艺含义。",
+        "analysis": "是否改变组分连接。",
+        "method": "分别定义。",
+        "principle": "分离与反应。",
+        "steps": [
+          "分馏主要按物性分离。",
+          "裂化断/重组键形成新物，属化学变化。"
+        ],
+        "ans": "前物理，后化学。",
+        "verification": "温度高不单独决定类型，过程本质才是。",
+        "pitfall": "所有加热过程都化学。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.6",
+        "related_sections": []
+      },
+      {
+        "q": "聚酯可按相应水解回组分，就能对聚乙烯用相同酯水解方程吗？",
+        "given": "PE无相同酯键。",
+        "analysis": "结构靶点不同。",
+        "method": "比较主链连接。",
+        "principle": "反应需相应官能团。",
+        "steps": [
+          "聚酯有可相应水解的连接。",
+          "PE普通C—C链不含该酯键，需其他方法，不能照抄。"
+        ],
+        "ans": "不能。",
+        "verification": "把反应式套上会凭空增加氧原子和官能团。",
+        "pitfall": "所有聚合物回收反应完全一样。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.6",
+        "related_sections": []
+      },
+      {
+        "q": "100 kg单体理想加成，90%质量进入目标聚合物，其余未反应，目标与残单体多少？",
+        "given": "无副反应端基忽略。",
+        "analysis": "物料两去向。",
+        "method": "100×.9与剩余。",
+        "principle": "质量守恒。",
+        "steps": [
+          "目标90kg。",
+          "残单体10kg，后续回收需另核。"
+        ],
+        "ans": "90与10kg。",
+        "verification": "相加100，转化率不自动等于收集纯品收率。",
+        "pitfall": "把未反应质量说成能量损耗而忽略物料。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.6",
+        "related_sections": []
+      },
+      {
+        "q": "回收100 kg废料，最终得60 kg合格材料、20 kg其他物流、20 kg损失/处置，合格材料回收比例？能画100%闭环吗？",
+        "given": "流向按题给。",
+        "analysis": "目标回收口径。",
+        "method": "60/100。",
+        "principle": "完整收支。",
+        "steps": [
+          "60%。",
+          "20+20仍有其他去向，不能把全部画回等质材料。"
+        ],
+        "ans": "60%，不能画100%同质闭环。",
+        "verification": "60+20+20=100kg。",
+        "pitfall": "只要有回收工序就称全部循环。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 35,
+        "primary_section": "35.6",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "焚烧废塑料得到能量，为什么不能直接将箭头画回“原单体100%且零排放”？",
+      "given": "燃烧改变化学结构，实际有多产物与损失。",
+      "analysis": "能源与材料路径不同。",
+      "method": "追踪碳、其他元素及能量。",
+      "principle": "原子与能量守恒不等于回原物。",
+      "steps": [
+        "能量可部分利用，但碳等进入CO₂等相应产物。",
+        "回单体需不同化学转化与分离证据，不能一箭头省掉。"
+      ],
+      "ans": "因为没有原单体回收及零排放的证据。",
+      "verification": "总量守恒允许物料换形而非同物质闭环。",
+      "pitfall": "循环图替代真实工艺收支。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 35,
+      "primary_section": "35.6",
+      "related_sections": []
+    },
+    "exam": [
+      "路线题分分离、裂化、聚合和加工，方程只表示明确模型",
+      "回收题按键型与条件选方法，机械/化学/能源回收不混",
+      "环境声明区分生物基、可降解和可堆肥，量化真实去向"
+    ],
+    "quick": [
+      "石油混合物",
+      "分馏与裂化",
+      "单体聚合",
+      "回收结构条件",
+      "生命周期收支"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 16,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_35.6",
+        "url": "https://openstax.org/books/organic-chemistry/pages/31-chemistry-matters-degradable-polymers",
+        "page_or_section": "31-chemistry-matters-degradable-polymers",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 16,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_35.6",
+        "url": "https://openstax.org/books/organic-chemistry/pages/31-chemistry-matters-degradable-polymers",
+        "page_or_section": "31-chemistry-matters-degradable-polymers",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "路线题分分离、裂化、聚合和加工，方程只表示明确模型",
+      "method": "看键、环境与实际测试。",
+      "principle": "降解取决结构及过程条件。",
+      "worked_example_index": 2,
+      "verification": "来源标签不自动加入可水解键。",
+      "pitfall": "生物基等于可堆肥或任意环境降解。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“追踪石油馏分到单体聚合物的变化层级”的抽样复核：原馏分可含多种烃而非单一分子。；若出现“蒸馏就等于把所有大分子裂成乙烯。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 7,
+        "feedback": "目标“评价回收及生命周期声明的结构依据”的抽样复核：来源标签不自动加入可水解键。；若出现“生物基等于可堆肥或任意环境降解。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "循环图替代真实工艺收支。",
+        "correction": "因为没有原单体回收及零排放的证据。",
+        "verification": "总量守恒允许物料换形而非同物质闭环。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "石油到聚合物及回收路径",
+      "objects": [
+        "原油混合物",
+        "馏分",
+        "裂化单体",
+        "聚合物产品",
+        "机械/化学/能源三路径",
+        "外部输入输出"
+      ],
+      "relations": [
+        "分馏不画成自动裂化",
+        "材料与能源回收分开",
+        "PE不画酯水解",
+        "60%回收不画100%闭环"
+      ],
+      "labels": [
+        "分离",
+        "化学转化",
+        "结构条件",
+        "生物基≠可降解",
+        "真实回收率"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "暂无完整图；流程需有收支出口不画永动闭环",
+      "english": "Trace crude-oil mixture through physical fractionation, chemical cracking, monomer purification and polymerization. Separate mechanical recycling, chemical conversion and energy recovery, with explicit losses and external inputs. Do not depict polyethylene as an ester undergoing ordinary hydrolysis or equate bio-based feedstock with biodegradability."
+    }
+  }
+}

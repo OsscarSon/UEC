@@ -125,5 +125,6 @@ window.LESSONS["数学4"]={
   },
   "ex": [],
   "pr": [],
-  "vid": []
+  "vid": [],
+  "directory_groups": []
 };

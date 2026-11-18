@@ -1,5 +1,6 @@
 {
   "4.1": {
+    "content_batch": "batch05",
     "subject": "数学",
     "subject_code": "math_shared",
     "chapter_id": 4,
@@ -297,12 +298,13 @@
         "定义域"
       ],
       "format": "SVG",
-      "priority": "P0",
+      "priority": "P=0",
       "reuse": "数学暂无合格对应图；必须确定性绘制",
       "english": "Draw the exact V-shaped graph y=sqrt(x^2)=abs(x), distinguish the principal root sqrt(49)=7 from equation solutions ±7, and show a sign chart for (x-1)/(x+2) with -2 excluded and 1 included."
     }
   },
   "4.2": {
+    "content_batch": "batch05",
     "subject": "数学",
     "subject_code": "math_shared",
     "chapter_id": 4,
@@ -598,12 +600,13 @@
         "实数范围"
       ],
       "format": "SVG",
-      "priority": "P0",
+      "priority": "P=0",
       "reuse": "暂无对应旧图；公式需文字层和准确上下标",
       "english": "Explain rational exponents for positive bases: denominator as root index and numerator as power. Show 27^(2/3)=9 and 16^(-3/4)=1/8. State nonzero conditions for negative exponents and warn that power-of-a-power rules cannot be extended blindly to negative bases and principal even roots."
     }
   },
   "4.3": {
+    "content_batch": "batch05",
     "subject": "数学",
     "subject_code": "math_shared",
     "chapter_id": 4,
@@ -900,12 +903,13 @@
         "候选≠原解"
       ],
       "format": "SVG",
-      "priority": "P0",
+      "priority": "P=0",
       "reuse": "无对应旧图；坐标和面积关系应确定性构图",
       "english": "Illustrate extraction of square factors and like radicals, retain the 2ab cross term in a square-area model, and graph abs(x-1)+abs(x+1) with breakpoints -1 and 1. Show why squaring sqrt(x+2)=x gives an extraneous candidate -1 that must be rejected."
     }
   },
   "4.4": {
+    "content_batch": "batch05",
     "subject": "数学",
     "subject_code": "math_shared",
     "chapter_id": 4,
@@ -1203,7 +1207,7 @@
         "空点不是原函数值"
       ],
       "format": "SVG",
-      "priority": "P0",
+      "priority": "P=0",
       "reuse": "暂无对应旧图；代数和函数空点需确定性SVG",
       "english": "Show rationalization of 1/(sqrt(3)+sqrt(2)) by its nonzero conjugate. For (sqrt(x)-1)/(x-1), retain x>=0 and x!=1 after simplification to 1/(sqrt(x)+1), drawing an open point at x=1 rather than filling in the original undefined value."
     }

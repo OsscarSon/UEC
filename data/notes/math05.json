@@ -1,0 +1,1819 @@
+{
+  "5.1": {
+    "content_batch": "batch05",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 5,
+    "section_id": "5.1",
+    "goals": [
+      "用定义域陪域与单值对应判断函数",
+      "把不同表示法转为可验证的输入输出规则"
+    ],
+    "prerequisites": [
+      "集合与有序对",
+      "代数式求值"
+    ],
+    "flow": [
+      "定义域A",
+      "单值对应",
+      "陪域B和值域",
+      "表示法",
+      "分段边界"
+    ],
+    "concept_relation": "定义域A；单值对应；陪域B和值域；表示法；分段边界",
+    "deep": [
+      "函数可由解析式、列表、图象或文字规则表示，各自需说明范围。有限表格中未出现的输入不能随意插补；图象若无刻度与范围也不能冒充精确数据。一个有限样本可符合多个规则，不能自动确定唯一公式。",
+      "分段定义根据输入所在条件选择相应规则。区间应覆盖规定定义域，且重叠处若两规则不同会产生冲突。边界等号属于哪一段直接决定函数值，不能只看靠近哪一支曲线。",
+      "竖线检验用于判断平面关系能否表示y为x的函数：每条固定x的竖线与关系最多相交一点，且定义域内应有对应点。它不是水平线检验，后者与一对一性有关；圆整体通常不通过竖线检验，选上半圆可构成函数。",
+      "应用模型要写输入输出含义与单位，并核是否忽略了其他影响。把温度作为时间函数的实验记录，不表示所有年份同一时刻温度唯一相同；函数关系总是在指定系统、时段或规则中定义。"
+    ],
+    "derive": [
+      "f:A→B：对每个x∈A，存在且仅存在一个f(x)∈B。",
+      "值域={f(x):x∈A}⊆B；多对一仍是函数。",
+      "f(a+1)按整体代入，分段函数按输入条件选择，重叠边界须一致或排除重叠。"
+    ],
+    "examples": [
+      {
+        "q": "A={1,2,3}、B={a,b}，关系1→a、2→a、3→b是否为函数？若再加1→b呢？",
+        "given": "定义域与陪域明确。",
+        "analysis": "多对一允许，一对多不允许。",
+        "method": "逐个输入数输出。",
+        "principle": "函数每输入恰一个输出。",
+        "steps": [
+          "原关系每个A元素有一个B输出，成立。",
+          "再加1→b后输入1有a,b两个不同输出，不成立。"
+        ],
+        "ans": "原是函数；加箭头后不是。",
+        "verification": "2与1同到a不违反单值。",
+        "pitfall": "误以不同输入不能共享输出。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.1",
+        "related_sections": []
+      },
+      {
+        "q": "f(x)=2x²−3，求f(a+1)及f(a)+1，比较。",
+        "given": "a实数。",
+        "analysis": "括号位置改变代入。",
+        "method": "分别整体替换与输出加1。",
+        "principle": "函数求值定义。",
+        "steps": [
+          "f(a+1)=2(a+1)²−3=2a²+4a−1。",
+          "f(a)+1=2a²−2。"
+        ],
+        "ans": "分别2a²+4a−1、2a²−2，通常不同。",
+        "verification": "a=0时为−1与−2，直接规则可核。",
+        "pitfall": "把f(a+1)自动写f(a)+1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.1",
+        "related_sections": []
+      },
+      {
+        "q": "在全实数域定义：x≤0时f=x+1，x≥0时f=2x+c，何时边界不冲突？",
+        "given": "两段都包含x=0。",
+        "analysis": "重叠点需同一输出。",
+        "method": "在0比较两规则。",
+        "principle": "函数单值性。",
+        "steps": [
+          "第一段在0输出1。",
+          "第二段输出c，需c=1；其他x不重叠。"
+        ],
+        "ans": "c=1。",
+        "verification": "此时0两规则同得1；c≠1产生两个值。",
+        "pitfall": "认为分段函数边界重复无论如何都允许。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "f(x)=3x−2，f(−1)是多少？",
+        "given": "输入是−1整体。",
+        "analysis": "代入而非乘f。",
+        "method": "3(−1)−2。",
+        "principle": "函数规则。",
+        "steps": [
+          "−3−2=−5。",
+          "输出为−5。"
+        ],
+        "ans": "−5。",
+        "verification": "解3x−2=−5回得x=−1。",
+        "pitfall": "把负号漏掉。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.1",
+        "related_sections": []
+      },
+      {
+        "q": "全圆x²+y²=1能否整体表示y=f(x)？",
+        "given": "定义域拟为[−1,1]。",
+        "analysis": "部分x有两个y。",
+        "method": "用x=0检查。",
+        "principle": "函数对每个x单值。",
+        "steps": [
+          "x=0给y=±1。",
+          "同输入两个输出，整体不是y的函数；可选单独上半支。"
+        ],
+        "ans": "不能整体，需限制分支。",
+        "verification": "上半支y=√(1−x²)则可。",
+        "pitfall": "把一条连续图形就当函数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.1",
+        "related_sections": []
+      },
+      {
+        "q": "表中只有f(1)=2、f(2)=4，能唯一推出对所有实数f(x)=2x吗？",
+        "given": "没有模型条件。",
+        "analysis": "有限点不足唯一确定。",
+        "method": "给另一个也过两点的规则。",
+        "principle": "多个函数可有同样样本。",
+        "steps": [
+          "g(x)=2x+(x−1)(x−2)也在1、2处同值。",
+          "其他输入如0时g(0)=2而2x=0。"
+        ],
+        "ans": "不能唯一推出。",
+        "verification": "两个候选均满足已有数据。",
+        "pitfall": "把规律猜测当被数据唯一证明。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.1",
+        "related_sections": []
+      },
+      {
+        "q": "f(x)=x²（x<1），f(x)=2x（x≥1），求f(1)、f(0)、f(2)。",
+        "given": "区间条件互斥覆盖R。",
+        "analysis": "等号归第二段。",
+        "method": "逐个判断所属区间。",
+        "principle": "分段求值。",
+        "steps": [
+          "1≥1，f(1)=2。",
+          "0<1，f(0)=0；2≥1，f(2)=4。"
+        ],
+        "ans": "2、0、4。",
+        "verification": "靠近1左极限值1不等于点值2，不能替代。",
+        "pitfall": "边界1代入第一段。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "f:R→R与g:[0,+∞)→R都用平方规则，它们一定是同一函数吗？",
+      "given": "规则相同，定义域不同。",
+      "analysis": "函数包含输入集合信息。",
+      "method": "比较允许输入。",
+      "principle": "定义域是函数身份的一部分。",
+      "steps": [
+        "f接受−1并输出1。",
+        "g不接受−1，因此作为函数不相同。"
+      ],
+      "ans": "不是同一函数。",
+      "verification": "共同输入处可同值，不代表定义完全相同。",
+      "pitfall": "只看公式忽略定义域。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 5,
+      "primary_section": "5.1",
+      "related_sections": []
+    },
+    "exam": [
+      "判断题逐个查输入有无遗漏和一对多，不把多对一误判",
+      "求值题用完整括号代入，分段边界先选规则",
+      "图表题区分已给数据与外推模型，单位和时段写清"
+    ],
+    "quick": [
+      "定义域A",
+      "单值对应",
+      "陪域B和值域",
+      "表示法",
+      "分段边界"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_5.1",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-1-functions-and-function-notation",
+        "page_or_section": "3-1-functions-and-function-notation",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_5.1",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-1-functions-and-function-notation",
+        "page_or_section": "3-1-functions-and-function-notation",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "判断题逐个查输入有无遗漏和一对多，不把多对一误判",
+      "method": "在0比较两规则。",
+      "principle": "函数单值性。",
+      "worked_example_index": 2,
+      "verification": "此时0两规则同得1；c≠1产生两个值。",
+      "pitfall": "认为分段函数边界重复无论如何都允许。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用定义域陪域与单值对应判断函数”的抽样复核：2与1同到a不违反单值。；若出现“误以不同输入不能共享输出。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“把不同表示法转为可验证的输入输出规则”的抽样复核：此时0两规则同得1；c≠1产生两个值。；若出现“认为分段函数边界重复无论如何都允许。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "只看公式忽略定义域。",
+        "correction": "不是同一函数。",
+        "verification": "共同输入处可同值，不代表定义完全相同。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "函数的单值对应与边界",
+      "objects": [
+        "集合A/B箭头",
+        "多对一合法例",
+        "一对多非法例",
+        "分段边界",
+        "圆与上半圆"
+      ],
+      "relations": [
+        "每输入恰一输出",
+        "值域包含于陪域",
+        "竖线检验不是水平线"
+      ],
+      "labels": [
+        "定义域",
+        "陪域",
+        "值域",
+        "允许多对一",
+        "不允许一对多"
+      ],
+      "format": "SVG",
+      "priority": "P=0",
+      "reuse": "暂无对应旧图；箭头对应须确定性构造",
+      "english": "Show A={1,2,3} mapping to B={a,b}, with 1 and 2 both mapping to a and 3 to b as a valid function. Contrast a conflicting second output for input 1. Separate vertical-line testing of a full circle from a valid upper semicircle and mark piecewise boundary ownership."
+    }
+  },
+  "5.2": {
+    "content_batch": "batch05",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 5,
+    "section_id": "5.2",
+    "goals": [
+      "把代数限制与实际输入范围取交集",
+      "用结构和反解求值域并检查端点"
+    ],
+    "prerequisites": [
+      "函数定义",
+      "不等式与配方"
+    ],
+    "flow": [
+      "允许输入",
+      "限制交集",
+      "输出结构",
+      "可达与反解",
+      "端点并集"
+    ],
+    "concept_relation": "允许输入；限制交集；输出结构；可达与反解；端点并集",
+    "deep": [
+      "端点开闭影响是否取到最值。x∈(0,2]时x²值域(0,4]，0是可接近的下界但未取到，不能写最小值0。无穷大不是可代入的普通端点，不写函数“取到无穷”。",
+      "平方或根号变换会隐藏符号约束。反解y=f(x)后应问每个候选y是否有至少一个合法x，而不只是代数上能写式；分母不得零、主根非负和给定域都要回查。",
+      "分段函数的值域是各段实际输出范围的并集，重叠部分只计一次，可能有间隙。图象读域看水平投影，读值域看竖直投影；空心点、孤立点和渐近线不能混作普通实点。",
+      "报告定义域和值域时使用清晰集合或区间，说明变量和数域。只给几个样本输出不是完整值域；给上界也不等于证明其间每个值都能达到，必要时通过反解构造合法输入。"
+    ],
+    "derive": [
+      "实数代数域=各分母非零条件∩偶根非负条件∩题给范围。",
+      "二次函数a(x−h)²+k，结合a符号与x范围判断输出。",
+      "反解法：令y=f(x)，找满足全部原域条件的x；有合法原像的y才在值域。"
+    ],
+    "examples": [
+      {
+        "q": "求f(x)=√(2x−1)/(x−3)的定义域。",
+        "given": "实数范围，未另指定。",
+        "analysis": "根号与分母双限制。",
+        "method": "2x−1≥0且x−3≠0。",
+        "principle": "代数有意义条件。",
+        "steps": [
+          "x≥1/2。",
+          "排除x=3，得[1/2,3)∪(3,+∞)。"
+        ],
+        "ans": "[1/2,3)∪(3,+∞)。",
+        "verification": "1/2根0可，3分母0不可。",
+        "pitfall": "只查根号或把3保留。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.2",
+        "related_sections": []
+      },
+      {
+        "q": "f(x)=(x−2)²+1，定义域[0,3]，求值域。",
+        "given": "顶点x=2在域内。",
+        "analysis": "先看最小，再比端点最大。",
+        "method": "平方结构。",
+        "principle": "平方非负，闭区间端点及顶点。",
+        "steps": [
+          "最小值1在x=2。",
+          "端点f(0)=5、f(3)=2，最大5；连续平方变化覆盖其间。"
+        ],
+        "ans": "[1,5]。",
+        "verification": "x距2最大为2、最小0，平方范围[0,4]再加1。",
+        "pitfall": "只按两端值得[2,5]而漏顶点。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.2",
+        "related_sections": []
+      },
+      {
+        "q": "f(x)=1/(x−1)，定义域R去掉1，求值域并证明每个允许值可达。",
+        "given": "分母非零。",
+        "analysis": "倒数不能0，其他值可反解。",
+        "method": "y=1/(x−1)反求x。",
+        "principle": "有合法原像才可达。",
+        "steps": [
+          "y≠0时x=1+1/y，且x≠1。",
+          "因此每个非零y都有合法输入；y=0不可能。"
+        ],
+        "ans": "R去掉0。",
+        "verification": "代回1/[(1+1/y)−1]=y。",
+        "pitfall": "把水平渐近线y=0当已取到。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "f(x)=√(4−x²)定义域和值域。",
+        "given": "实主根。",
+        "analysis": "圆上半支，先域再输出。",
+        "method": "4−x²≥0，根非负。",
+        "principle": "平方与主根。",
+        "steps": [
+          "−2≤x≤2。",
+          "0≤4−x²≤4，根值[0,2]。"
+        ],
+        "ans": "域[−2,2]，值域[0,2]。",
+        "verification": "x=±2取0，x=0取2。",
+        "pitfall": "把值域写[−2,2]。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.2",
+        "related_sections": []
+      },
+      {
+        "q": "x∈(0,2]，f=x²，值域有最小值吗？",
+        "given": "仅正输入，左端开。",
+        "analysis": "下界0未取到。",
+        "method": "单调平方。",
+        "principle": "开端点不可自动取。",
+        "steps": [
+          "输出大于0且不超过4。",
+          "值域(0,4]，没有最小值，最大4。"
+        ],
+        "ans": "(0,4]，无最小值。",
+        "verification": "任意正x可取更小正输入得到更小输出。",
+        "pitfall": "把下确界0叫最小值。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.2",
+        "related_sections": []
+      },
+      {
+        "q": "x表示长方形一边，周长20，面积A=x(10−x)，实际定义域？",
+        "given": "两边均为正长度。",
+        "analysis": "实际域比所有实数小。",
+        "method": "x>0且10−x>0。",
+        "principle": "长度正约束。",
+        "steps": [
+          "x>0，x<10。",
+          "故(0,10)，面积最大25在x=5。"
+        ],
+        "ans": "实际域(0,10)。",
+        "verification": "x=0或10退化不为通常长方形。",
+        "pitfall": "只因多项式可算就答R。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.2",
+        "related_sections": []
+      },
+      {
+        "q": "f=x+1（0≤x<1），f=4−x（1≤x≤2），求值域。",
+        "given": "两段域按题给。",
+        "analysis": "分别求输出再并集。",
+        "method": "端点开闭逐段。",
+        "principle": "分段输出范围并集。",
+        "steps": [
+          "第一段[1,2)。",
+          "第二段x从1到2，输出[2,3]。",
+          "并为[1,3]。"
+        ],
+        "ans": "[1,3]。",
+        "verification": "2虽第一段未取到，却第二段x=2取到。",
+        "pitfall": "看到一个空端点就把整个并集2删除。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "陪域B=R，f:R→R且f=x²，能否说值域R？",
+      "given": "函数输入全实数。",
+      "analysis": "陪域只是允许输出集合。",
+      "method": "由平方非负与可达性求。",
+      "principle": "值域为实际输出。",
+      "steps": [
+        "所有输出≥0。",
+        "任意y≥0取x=√y可达，故值域[0,+∞)。"
+      ],
+      "ans": "不能，值域非负实数。",
+      "verification": "负y无实平方原像。",
+      "pitfall": "把箭头后的集合直接当值域。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 5,
+      "primary_section": "5.2",
+      "related_sections": []
+    },
+    "exam": [
+      "域题把每个代数/情境限制列出取交集",
+      "值域题同时证明界限与可达，注意顶点是否在输入区间",
+      "端点题区分下界与最小值，分段范围最后取并集"
+    ],
+    "quick": [
+      "允许输入",
+      "限制交集",
+      "输出结构",
+      "可达与反解",
+      "端点并集"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_5.2",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-2-domain-and-range",
+        "page_or_section": "3-2-domain-and-range",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_5.2",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-2-domain-and-range",
+        "page_or_section": "3-2-domain-and-range",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "域题把每个代数/情境限制列出取交集",
+      "method": "y=1/(x−1)反求x。",
+      "principle": "有合法原像才可达。",
+      "worked_example_index": 2,
+      "verification": "代回1/[(1+1/y)−1]=y。",
+      "pitfall": "把水平渐近线y=0当已取到。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“把代数限制与实际输入范围取交集”的抽样复核：1/2根0可，3分母0不可。；若出现“只查根号或把3保留。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用结构和反解求值域并检查端点”的抽样复核：代回1/[(1+1/y)−1]=y。；若出现“把水平渐近线y=0当已取到。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把箭头后的集合直接当值域。",
+        "correction": "不能，值域非负实数。",
+        "verification": "负y无实平方原像。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "定义域与值域的端点",
+      "objects": [
+        "二次函数顶点与[0,3]域",
+        "倒数函数空缺",
+        "分段输出范围",
+        "开闭端点"
+      ],
+      "relations": [
+        "(x−2)²+1值域[1,5]",
+        "倒数值域不含0",
+        "空端点与渐近线不当实点"
+      ],
+      "labels": [
+        "定义域",
+        "值域",
+        "顶点(2,1)",
+        "空心点",
+        "y≠0"
+      ],
+      "format": "SVG",
+      "priority": "P=0",
+      "reuse": "暂无对应图；函数必须数学绘图库或SVG准确绘制",
+      "english": "Plot y=(x-2)^2+1 restricted to [0,3], with vertex (2,1) and range [1,5]. Separately plot y=1/(x-1) with asymptotes x=1 and y=0, and use correct open/closed endpoints when projecting domains and ranges."
+    }
+  },
+  "5.3": {
+    "content_batch": "batch05",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 5,
+    "section_id": "5.3",
+    "goals": [
+      "由关键点与定义域画函数图",
+      "用点坐标映射解释平移伸缩和反射"
+    ],
+    "prerequisites": [
+      "坐标系",
+      "基本函数与绝对值"
+    ],
+    "flow": [
+      "基本图形",
+      "关键点",
+      "纵向变换",
+      "横向反解",
+      "定义域同步"
+    ],
+    "concept_relation": "基本图形；关键点；纵向变换；横向反解；定义域同步",
+    "deep": [
+      "g(x)=a f(x)改变纵坐标为a y₀，a<0还关于x轴反射；g(x)=f(bx)使横坐标变为x₀/b，b<0还关于y轴反射。横向伸缩倍数是1/|b|，不是|b|，因为要反解内层输入。",
+      "对g(x)=a f(b(x−h))+k，b≠0，原点映为(h+x₀/b,k+a y₀)。先把内式写成b(x−h)再读平移；f(2x−6)中的h是3而非6，顺序与括号不能忽略。",
+      "变换会同时改变定义域和值域。横向变化映射输入限制，纵向变化映射实际输出范围；若a=0图象退为常数但原复合表达式的输入限制仍应按题目定义处理，不能随意补入原f无定义的输入。",
+      "验证图象可用变换后的关键点、截距和范围三重检查。比例尺必须标明，纵横轴刻度不同比例时，肉眼角度或曲率不具有直接数值意义。精确图象应按坐标和定义域绘制，草图不能替代代数条件。"
+    ],
+    "derive": [
+      "g(x)=f(x−h)+k：(x₀,y₀)→(x₀+h,y₀+k)。",
+      "g(x)=a f(b(x−h))+k，b≠0：(x₀,y₀)→(h+x₀/b,k+a y₀)。",
+      "先因式提出内层b，例如2x−6=2(x−3)；再变换定义域、值域与空点。"
+    ],
+    "examples": [
+      {
+        "q": "由y=x²描述y=(x−2)²−3的顶点、对称轴和值域，并给两个对称点。",
+        "given": "定义域R。",
+        "analysis": "从基本抛物线平移。",
+        "method": "右2下3。",
+        "principle": "点坐标映射。",
+        "steps": [
+          "顶点(0,0)变(2,−3)，轴x=2。",
+          "开口仍向上，值域[−3,+∞)；原点(±1,1)变(1,−2)、(3,−2)。"
+        ],
+        "ans": "顶点(2,−3)，轴2，值域非小于−3。",
+        "verification": "x=1和3代式均−2。",
+        "pitfall": "写向左2或只平移图不改范围。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.3",
+        "related_sections": []
+      },
+      {
+        "q": "y=|x|改为y=−2|x|+1，顶点和点(2,2)怎样变？值域？",
+        "given": "定义域R。",
+        "analysis": "负系数反射并纵向伸长。",
+        "method": "y新=−2y旧+1。",
+        "principle": "纵坐标变换。",
+        "steps": [
+          "顶点变(0,1)。",
+          "点(2,2)变(2,−3)，图开口向下，值域(−∞,1]。"
+        ],
+        "ans": "顶点(0,1)、点(2,−3)，最大1。",
+        "verification": "x=2代式−4+1=−3。",
+        "pitfall": "把−2当横向伸缩。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.3",
+        "related_sections": []
+      },
+      {
+        "q": "原y=f(x)经过(6,5)，求y=−2f(3(x−1))+4对应点，并说明内层条件。",
+        "given": "只要求此原点对应新点。",
+        "analysis": "新输入须使3(x−1)=6。",
+        "method": "反解横坐标，映射纵坐标。",
+        "principle": "复合变换的坐标对应。",
+        "steps": [
+          "x−1=2，x=3。",
+          "y=−2×5+4=−6。"
+        ],
+        "ans": "(3,−6)。",
+        "verification": "新式在x=3取f(6)=5，与给定原点一致。",
+        "pitfall": "把横坐标算成6×3+1=19。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "y=f(x+4)相对原图移向哪里？",
+        "given": "同一纵值对应原输入x₀。",
+        "analysis": "解x+4=x₀。",
+        "method": "x新=x₀−4。",
+        "principle": "输入关系反解。",
+        "steps": [
+          "原x₀变x₀−4。",
+          "向左4。"
+        ],
+        "ans": "向左4单位。",
+        "verification": "原点x=0对应新x−4。",
+        "pitfall": "见+4就向右。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.3",
+        "related_sections": []
+      },
+      {
+        "q": "y=f(2x−6)应读作向右6吗？",
+        "given": "先组织内层。",
+        "analysis": "系数影响平移读法。",
+        "method": "2x−6=2(x−3)。",
+        "principle": "反解输入。",
+        "steps": [
+          "原x₀对应x=3+x₀/2。",
+          "横向缩为1/2并按该表达向右3。"
+        ],
+        "ans": "不能，平移参数为3。",
+        "verification": "原输入0对应新x=3而非6。",
+        "pitfall": "不先提出2就读常数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.3",
+        "related_sections": []
+      },
+      {
+        "q": "原函数域[−2,4]，g(x)=f(x−1)，求g域。",
+        "given": "内层必须在原域。",
+        "analysis": "输入范围随平移。",
+        "method": "−2≤x−1≤4。",
+        "principle": "复合定义。",
+        "steps": [
+          "两边加1。",
+          "−1≤x≤5。"
+        ],
+        "ans": "[−1,5]。",
+        "verification": "端点分别映原−2、4。",
+        "pitfall": "图右移但域也错向左移。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.3",
+        "related_sections": []
+      },
+      {
+        "q": "原图点(−3,2)，g(x)=f(−x/3)+5，对应点？",
+        "given": "内层系数−1/3。",
+        "analysis": "反射与横向伸长。",
+        "method": "−x/3=−3，纵加5。",
+        "principle": "坐标映射。",
+        "steps": [
+          "x=9。",
+          "y=2+5=7。"
+        ],
+        "ans": "(9,7)。",
+        "verification": "新x=9内层−3，正确回到原点。",
+        "pitfall": "横坐标乘−1/3得到1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "画y=1/x时能把原点作为两支连接点吗？",
+      "given": "域排除0。",
+      "analysis": "渐近趋势不是函数值。",
+      "method": "核定义域与曲线位置。",
+      "principle": "1/0无定义。",
+      "steps": [
+        "x=0不在图上。",
+        "正负两支应分开，坐标轴是相应渐近线，不可用连线穿原点。"
+      ],
+      "ans": "不能。",
+      "verification": "任意有限非零x的y也非0。",
+      "pitfall": "为使图连续好看补点或连线。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 5,
+      "primary_section": "5.3",
+      "related_sections": []
+    },
+    "exam": [
+      "变换题从原点坐标反解新输入，不靠左右口诀",
+      "内层先写b(x−h)，再读横向倍数和反射",
+      "绘图题核关键点、域和值域及空点，不能沿用旧图范围"
+    ],
+    "quick": [
+      "基本图形",
+      "关键点",
+      "纵向变换",
+      "横向反解",
+      "定义域同步"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_5.3",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-5-transformation-of-functions",
+        "page_or_section": "3-5-transformation-of-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_5.3",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-5-transformation-of-functions",
+        "page_or_section": "3-5-transformation-of-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "变换题从原点坐标反解新输入，不靠左右口诀",
+      "method": "反解横坐标，映射纵坐标。",
+      "principle": "复合变换的坐标对应。",
+      "worked_example_index": 2,
+      "verification": "新式在x=3取f(6)=5，与给定原点一致。",
+      "pitfall": "把横坐标算成6×3+1=19。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由关键点与定义域画函数图”的抽样复核：x=1和3代式均−2。；若出现“写向左2或只平移图不改范围。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用点坐标映射解释平移伸缩和反射”的抽样复核：新式在x=3取f(6)=5，与给定原点一致。；若出现“把横坐标算成6×3+1=19。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "为使图连续好看补点或连线。",
+        "correction": "不能。",
+        "verification": "任意有限非零x的y也非0。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "函数变换的点映射",
+      "objects": [
+        "基本抛物线",
+        "平移后抛物线",
+        "点(6,5)映射",
+        "内层输入方程",
+        "定义域区间"
+      ],
+      "relations": [
+        "顶点(2,−3)",
+        "3(x−1)=6得x=3",
+        "纵坐标−2×5+4=−6",
+        "横向缩放1/|b|"
+      ],
+      "labels": [
+        "y=x²",
+        "y=(x−2)²−3",
+        "(3,−6)",
+        "x新=h+x旧/b"
+      ],
+      "format": "SVG",
+      "priority": "P=0",
+      "reuse": "无对应旧图；必须函数绘图库确定曲线",
+      "english": "Plot y=x^2 and y=(x-2)^2-3 on consistent labelled axes, marking vertex (2,-3) and symmetric points (1,-2),(3,-2). Separately map (6,5) on f to (3,-6) on -2f(3(x-1))+4, solving the inner-input equation rather than multiplying horizontal coordinates by 3."
+    }
+  },
+  "5.4": {
+    "content_batch": "batch05",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 5,
+    "section_id": "5.4",
+    "goals": [
+      "按输入顺序求合成函数",
+      "在化简后仍保留内外层定义域条件"
+    ],
+    "prerequisites": [
+      "函数求值",
+      "根式与分母限制"
+    ],
+    "flow": [
+      "执行顺序",
+      "整体代入",
+      "内层域",
+      "外层输入条件",
+      "同式同域比较"
+    ],
+    "concept_relation": "执行顺序；整体代入；内层域；外层输入条件；同式同域比较",
+    "deep": [
+      "解析式代入应把内层表达式整体放进外层每个x的位置，括号尤其重要。外层若含平方、分母或根号，内层各部分不能拆开分别运算；先保持组合结构再化简更稳妥。",
+      "多个合成可按输入路径逐层做，合成在对应域允许时具有结合性，但这不改变各层合法输入的要求。用箭头x→g(x)→f(g(x))比一口气展开更容易定位哪层越域。",
+      "应用模型可以把单位转换、费用规则或几何计算串联，但每一步的单位要与下一步输入匹配。内层输出为长度，外层却按面积公式的输入含义使用时需核定义，不可只因数字可代就认为模型有效。",
+      "验证合成式时选合法样本逐层计算，与化简式比对，并检查被排除的点。若化简得到简单直线，原来因内层无定义排除的x仍可能形成空点；不能将代数简洁当作自动扩域授权。"
+    ],
+    "derive": [
+      "(f∘g)(x)=f(g(x))，执行顺序x→g→f。",
+      "D_(f∘g)={x∈D_g:g(x)∈D_f}。",
+      "若合成化简中约去因子，仍保留各层原定义限制；相同表达式但域不同不一定是同一函数。"
+    ],
+    "examples": [
+      {
+        "q": "f(x)=2x+1，g(x)=x²，求f∘g与g∘f，并在x=2比较。",
+        "given": "两函数全实数域。",
+        "analysis": "顺序不同。",
+        "method": "整体代入外层。",
+        "principle": "合成定义。",
+        "steps": [
+          "f(g(x))=2x²+1，x=2给9。",
+          "g(f(x))=(2x+1)²，x=2给25。"
+        ],
+        "ans": "2x²+1与(2x+1)²，通常不同。",
+        "verification": "逐层2→4→9与2→5→25。",
+        "pitfall": "把合成写(2x+1)x²。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.4",
+        "related_sections": []
+      },
+      {
+        "q": "f(x)=√x，g(x)=1/(x−2)，求两个顺序的合成域。",
+        "given": "各取实数最大代数域。",
+        "analysis": "分别核内层域与外层输入。",
+        "method": "对f∘g要求1/(x−2)≥0；对g∘f要求√x≠2。",
+        "principle": "合成域的双条件。",
+        "steps": [
+          "f∘g=√[1/(x−2)]，x≠2且商非负，得x>2。",
+          "g∘f=1/(√x−2)，要求x≥0且x≠4。"
+        ],
+        "ans": "前域(2,+∞)；后域[0,4)∪(4,+∞)。",
+        "verification": "x=0只对后者可得−1/2，对前者根内负。",
+        "pitfall": "只看外层或把两个顺序的域相同。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.4",
+        "related_sections": []
+      },
+      {
+        "q": "f(x)=1/x，g(x)=1/(x−1)，化简f∘g并写域。",
+        "given": "f域x≠0、g域x≠1。",
+        "analysis": "化简会隐藏g的排除点。",
+        "method": "先列x≠1且g(x)≠0。",
+        "principle": "合成输入限制。",
+        "steps": [
+          "g在x≠1时永不为0。",
+          "f(g(x))=1/[1/(x−1)]=x−1，但仍x≠1。"
+        ],
+        "ans": "x−1，定义域R去掉1。",
+        "verification": "x=2时逐层1→1与化简1一致；x=1原g无定义。",
+        "pitfall": "看到直线就把域改回R。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "f(x)=x−3，g(x)=4x，求f(g(2))。",
+        "given": "顺序从内到外。",
+        "analysis": "先算g(2)。",
+        "method": "g(2)=8。",
+        "principle": "合成求值。",
+        "steps": [
+          "g(2)=8。",
+          "f(8)=5。"
+        ],
+        "ans": "5。",
+        "verification": "f∘g=4x−3，x=2为5。",
+        "pitfall": "先f(2)再g得到−4。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.4",
+        "related_sections": []
+      },
+      {
+        "q": "f(x)=x²+1，g(x)=x−2，求f(g(x))。",
+        "given": "全实数域。",
+        "analysis": "代入完整括号。",
+        "method": "(x−2)²+1。",
+        "principle": "函数规则。",
+        "steps": [
+          "平方展开x²−4x+4。",
+          "加1得x²−4x+5。"
+        ],
+        "ans": "x²−4x+5。",
+        "verification": "x=0逐层−2再5，与式同。",
+        "pitfall": "写x²−2+1而不平方整个内层。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.4",
+        "related_sections": []
+      },
+      {
+        "q": "f域[0,4]且f(x)=√x，g=x+1，合成f∘g域？",
+        "given": "g全实数，但外层有给定域。",
+        "analysis": "内层值须0至4。",
+        "method": "0≤x+1≤4。",
+        "principle": "合成域条件。",
+        "steps": [
+          "减1得−1≤x≤3。",
+          "端点内层0、4均合法。"
+        ],
+        "ans": "[−1,3]。",
+        "verification": "不能只用√(x+1)代数域x≥−1忽略外层上界4。",
+        "pitfall": "仅查根号而漏题给域。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.4",
+        "related_sections": []
+      },
+      {
+        "q": "摄氏温度C=5(F−32)/9，模型费用H(C)=2C+10，求H(C(F))并说明不能把函数名直接相乘。",
+        "given": "仅作给定代数模型，不保证负费用现实适用。",
+        "analysis": "先换温度后代费用。",
+        "method": "整体代入。",
+        "principle": "合成串联及单位解释。",
+        "steps": [
+          "H=2×5(F−32)/9+10。",
+          "=10(F−32)/9+10；实际适用温区需题给。"
+        ],
+        "ans": "10(F−32)/9+10。",
+        "verification": "F=32时C0、H10，与式一致。",
+        "pitfall": "将H×C当合成或忽略适用温区。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "两合成函数化简表达式一样，能否不比较定义域就宣布相同？",
+      "given": "可能存在隐藏排除点。",
+      "analysis": "函数身份包括域。",
+      "method": "核每层限制。",
+      "principle": "同式同域才具相同输入输出定义。",
+      "steps": [
+        "一个可在某点计算而另一个原层无定义时，二者不同。",
+        "如1/[1/(x−1)]与x−1，在1的域不同。"
+      ],
+      "ans": "不能。",
+      "verification": "x=1是区分反例。",
+      "pitfall": "只比较展开式。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 5,
+      "primary_section": "5.4",
+      "related_sections": []
+    },
+    "exam": [
+      "合成题先画执行顺序，内层输出是外层输入",
+      "域题同时列内层合法与输出落外层域，再化简",
+      "比较题同时核顺序、式子和域，不凭偶然相等推广交换律"
+    ],
+    "quick": [
+      "执行顺序",
+      "整体代入",
+      "内层域",
+      "外层输入条件",
+      "同式同域比较"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_5.4",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-4-composition-of-functions",
+        "page_or_section": "3-4-composition-of-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_5.4",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-4-composition-of-functions",
+        "page_or_section": "3-4-composition-of-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "合成题先画执行顺序，内层输出是外层输入",
+      "method": "先列x≠1且g(x)≠0。",
+      "principle": "合成输入限制。",
+      "worked_example_index": 2,
+      "verification": "x=2时逐层1→1与化简1一致；x=1原g无定义。",
+      "pitfall": "看到直线就把域改回R。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“按输入顺序求合成函数”的抽样复核：逐层2→4→9与2→5→25。；若出现“把合成写(2x+1)x²。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“在化简后仍保留内外层定义域条件”的抽样复核：x=2时逐层1→1与化简1一致；x=1原g无定义。；若出现“看到直线就把域改回R。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "只比较展开式。",
+        "correction": "不能。",
+        "verification": "x=1是区分反例。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "合成函数的顺序与域",
+      "objects": [
+        "x→g→f流程",
+        "反向流程对照",
+        "根号与倒数门槛",
+        "化简直线空点"
+      ],
+      "relations": [
+        "f∘g先g后f",
+        "x∈Dg且g(x)∈Df",
+        "1/[1/(x−1)]简化后仍排除1"
+      ],
+      "labels": [
+        "内层",
+        "外层",
+        "Dg",
+        "Df",
+        "x≠1空点"
+      ],
+      "format": "SVG",
+      "priority": "P=0",
+      "reuse": "暂无对应旧图；映射箭头和函数空点须精确",
+      "english": "Draw x flowing through g then f, distinct from the reversed order. State both domain tests x in Dg and g(x) in Df. For f(x)=1/x and g(x)=1/(x-1), show the simplified line y=x-1 with an open point at x=1, not a fully defined straight line."
+    }
+  },
+  "5.5": {
+    "content_batch": "batch05",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 5,
+    "section_id": "5.5",
+    "goals": [
+      "按定义判断单射映成及双射",
+      "解释定义域陪域改变怎样影响性质"
+    ],
+    "prerequisites": [
+      "函数与值域",
+      "方程解的唯一性"
+    ],
+    "flow": [
+      "函数单值",
+      "单射唯一原像",
+      "映成覆盖",
+      "双射",
+      "集合与参数"
+    ],
+    "concept_relation": "函数单值；单射唯一原像；映成覆盖；双射；集合与参数",
+    "deep": [
+      "水平线检验检验单射：同一水平线若与图象多处相交，说明不同输入共用输出。竖线检验只判断是否为y关于x的函数，两者不可混淆。图中未显示完整域时，仅凭局部水平线情况也不能证明全域单射。",
+      "可用代数证明单射与映成。单射从相等输出推出输入相等；映成从任意y属于陪域出发，构造合法x使f(x)=y，并检查x在定义域。只验证几个值不能证明对全部元素成立。",
+      "有限集合且定义域陪域元素数相同的函数中，单射与映成可互相推出，因为没有重复就必须覆盖所有位置；这依有限等势条件，不能无条件推广所有无限集函数。",
+      "参数改变可使函数性质退化。例如f(x)=ax+b由R到R，a≠0时可唯一反解x=(y−b)/a而为双射；a=0时常值，不单射也不映成R。若陪域改为单元素{b}，映成结论又会变，显示参数与集合都重要。"
+    ],
+    "derive": [
+      "单射：f(x₁)=f(x₂)⇒x₁=x₂；映成：对任意y∈B有x∈A使f(x)=y。",
+      "双射=单射且映成；实际值域B′满足B′⊆B。",
+      "线性f:R→R、f=ax+b，a≠0时任意y唯一原像x=(y−b)/a；a=0另论。"
+    ],
+    "examples": [
+      {
+        "q": "f:R→R，f=x²，是否单射、映成或双射？若把域陪域都改为[0,+∞)呢？",
+        "given": "先后比较两组定义。",
+        "analysis": "公式不变集合变。",
+        "method": "用±1反例和任意非负y的根。",
+        "principle": "单射与映成定义。",
+        "steps": [
+          "R→R时f(1)=f(−1)=1故非单射，负y无原像故非映成。",
+          "[0,+∞)→[0,+∞)时平方严格保持正向大小，且任意y≥0由x=√y得到，为双射。"
+        ],
+        "ans": "前者两者皆非；后者双射。",
+        "verification": "非负域排除负根，输出覆盖全部非负数。",
+        "pitfall": "只看x²公式给固定性质标签。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.5",
+        "related_sections": []
+      },
+      {
+        "q": "A={1,2,3}、B={a,b}，1→a、2→a、3→b，判断。",
+        "given": "关系已为函数。",
+        "analysis": "覆盖与重复分开检查。",
+        "method": "看B是否全被到达及输入是否共享。",
+        "principle": "满射允许一个输出有多个原像。",
+        "steps": [
+          "a,b均有原像，映成。",
+          "1、2共享a，不单射，因此不双射。"
+        ],
+        "ans": "映成但非一对一。",
+        "verification": "函数单值仍满足，不与非单射矛盾。",
+        "pitfall": "把满射误认为每个输出恰一个原像。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.5",
+        "related_sections": []
+      },
+      {
+        "q": "f:R→R，f=ax+b，讨论a何时使其一一映成，并给一般反解。",
+        "given": "a,b实数。",
+        "analysis": "斜率为0是退化点。",
+        "method": "a≠0时解y=ax+b。",
+        "principle": "任意输出唯一原像证明双射。",
+        "steps": [
+          "a≠0时x=(y−b)/a为唯一实数，故双射。",
+          "a=0时所有输入到b，非单射且不能覆盖R。"
+        ],
+        "ans": "恰在a≠0时双射。",
+        "verification": "把反解代入a(y−b)/a+b=y。",
+        "pitfall": "不分a=0就除以a。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.5",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "通过竖线检验能保证一对一吗？",
+        "given": "只知y是x的函数。",
+        "analysis": "竖线与水平线问题不同。",
+        "method": "用y=x²反例。",
+        "principle": "单值不等于单射。",
+        "steps": [
+          "抛物线每x一个y。",
+          "水平y=1有x=±1两个原像，非单射。"
+        ],
+        "ans": "不能。",
+        "verification": "满足函数定义却不满足单射。",
+        "pitfall": "把两种检验混用。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.5",
+        "related_sections": []
+      },
+      {
+        "q": "f:[0,+∞)→R，f=x²，单射且映成吗？",
+        "given": "域已限制、陪域仍R。",
+        "analysis": "去重不等于覆盖负数。",
+        "method": "分别检查。",
+        "principle": "单射与满射独立条件。",
+        "steps": [
+          "非负输入平方单射。",
+          "输出仍非负，负陪域元素无原像，不映成。"
+        ],
+        "ans": "单射但不映成R。",
+        "verification": "若陪域改非负才双射。",
+        "pitfall": "限制域后自动说双射。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.5",
+        "related_sections": []
+      },
+      {
+        "q": "A、B均有3元素，函数已知单射，是否映成？",
+        "given": "有限且元素数相同。",
+        "analysis": "三个不同输出占满三个位置。",
+        "method": "有限计数。",
+        "principle": "等势有限集下单射蕴含满射。",
+        "steps": [
+          "3输入必须到3不同B元素。",
+          "B仅3个元素，故全覆盖。"
+        ],
+        "ans": "是。",
+        "verification": "若B有4个元素，结论不再由此保证。",
+        "pitfall": "忘记有限且同样多的条件。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.5",
+        "related_sections": []
+      },
+      {
+        "q": "f:R→R，f=3x−2，用定义证明一对一并证明映成。",
+        "given": "全实数域陪域。",
+        "analysis": "两性质需两段论证。",
+        "method": "相等输出比较，任意y构造输入。",
+        "principle": "单射与满射定义。",
+        "steps": [
+          "3x₁−2=3x₂−2得x₁=x₂，单射。",
+          "任意y取x=(y+2)/3∈R，f(x)=y，映成。"
+        ],
+        "ans": "双射。",
+        "verification": "两个证明都不依有限样本。",
+        "pitfall": "只说图是斜线而未说明覆盖及唯一。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.5",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "将f:R→R、f=x²的陪域改为[0,+∞)，是否已经使它双射？",
+      "given": "定义域仍全实数。",
+      "analysis": "改陪域只修复覆盖，未去掉多对一。",
+      "method": "分别重查两个定义。",
+      "principle": "单射由输入共享输出决定。",
+      "steps": [
+        "非负陪域均有平方根原像，满射。",
+        "±1仍同到1，非单射，所以非双射。"
+      ],
+      "ans": "不是，只成为映成。",
+      "verification": "要再限制域到非负或非正等适当区间。",
+      "pitfall": "把一次集合修改当全部问题解决。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 5,
+      "primary_section": "5.5",
+      "related_sections": []
+    },
+    "exam": [
+      "性质题写清A、B再分别判单射与映成",
+      "证明单射从相等输出推输入，证明映成从任意y构造合法x",
+      "参数题先分可除与不可除情境，图形检验不能替代未显示全域"
+    ],
+    "quick": [
+      "函数单值",
+      "单射唯一原像",
+      "映成覆盖",
+      "双射",
+      "集合与参数"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_5.5",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-7-inverse-functions",
+        "page_or_section": "3-7-inverse-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_5.5",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-7-inverse-functions",
+        "page_or_section": "3-7-inverse-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "性质题写清A、B再分别判单射与映成",
+      "method": "a≠0时解y=ax+b。",
+      "principle": "任意输出唯一原像证明双射。",
+      "worked_example_index": 2,
+      "verification": "把反解代入a(y−b)/a+b=y。",
+      "pitfall": "不分a=0就除以a。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e2",
+        "review_module": 4,
+        "feedback": "目标“按定义判断单射映成及双射”的抽样复核：把反解代入a(y−b)/a+b=y。；若出现“不分a=0就除以a。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e0",
+        "review_module": 5,
+        "feedback": "目标“解释定义域陪域改变怎样影响性质”的抽样复核：非负域排除负根，输出覆盖全部非负数。；若出现“只看x²公式给固定性质标签。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把一次集合修改当全部问题解决。",
+        "correction": "不是，只成为映成。",
+        "verification": "要再限制域到非负或非正等适当区间。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "单射、映成与双射对照",
+      "objects": [
+        "四种有限映射图",
+        "平方函数不同域陪域",
+        "水平线检验",
+        "线性参数分支"
+      ],
+      "relations": [
+        "多输入同输出可仍为函数",
+        "满射需覆盖陪域",
+        "双射同时覆盖且唯一"
+      ],
+      "labels": [
+        "一对一/单射",
+        "映成/满射",
+        "一一映成/双射",
+        "值域=陪域",
+        "a≠0"
+      ],
+      "format": "SVG",
+      "priority": "P=0",
+      "reuse": "暂无对应图；每个箭头必须核对定义",
+      "english": "Construct separate finite-set diagrams for injective-only, surjective-only, bijective and neither, with exactly one outgoing arrow per domain element. Compare x^2 on R versus nonnegative domains/codomains, and distinguish horizontal-line testing from vertical-line testing."
+    }
+  },
+  "5.6": {
+    "content_batch": "batch05",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 5,
+    "section_id": "5.6",
+    "goals": [
+      "在一一对应范围内求反函数",
+      "交换定义域值域并用合成和对称验证"
+    ],
+    "prerequisites": [
+      "合成函数",
+      "双射与解方程"
+    ],
+    "flow": [
+      "双射与反向",
+      "解出原输入",
+      "分支",
+      "域值域交换",
+      "双向合成与对称"
+    ],
+    "concept_relation": "双射与反向；解出原输入；分支；域值域交换；双向合成与对称",
+    "deep": [
+      "平方函数在全实数域不单射，反向给±√y不能作为单值反函数。限制原域到非负时反函数为√x，限制到非正则为−√x；选择分支由原域决定，不能永远取正根。",
+      "原函数定义域成为反函数值域，原值域成为反函数定义域。即使式子简单，也不能把题给有限区间随意扩大，例如f(x)=2x+3在[0,2]上反函数域仅[3,7]。",
+      "图象上点(a,b)与反向点(b,a)关于y=x对称。因此图形可辅助检查域和值域、端点与空点，但必须在一致比例坐标轴上比较。对称不表示每点落在y=x，两个函数交点或不动点需另分析。",
+      "最终用两个方向的合成在各自合法域验证，再检查取值范围。只验一个数或只化简一个方向不能替代域的完整核对，尤其有理式约分和平方根分支容易隐藏错误。"
+    ],
+    "derive": [
+      "f:A→B双射时，f⁻¹:B→A，f⁻¹∘f=id_A，f∘f⁻¹=id_B。",
+      "求法：y=f(x) → 在原域解x → 交换字母 → 标反函数域和值域 → 双向合成验证。",
+      "原图(a,b)反射为(b,a)，对称轴y=x；f⁻¹(x)≠1/f(x)一般成立。"
+    ],
+    "examples": [
+      {
+        "q": "f(x)=2x+3，原域[0,2]，求反函数及其域值域。",
+        "given": "线性递增且单射。",
+        "analysis": "先求原实际输出区间。",
+        "method": "y=2x+3反解x。",
+        "principle": "反向对应交换域和值域。",
+        "steps": [
+          "原值域[3,7]。",
+          "x=(y−3)/2，故f⁻¹(x)=(x−3)/2，域[3,7]、值域[0,2]。"
+        ],
+        "ans": "(x−3)/2，域[3,7]。",
+        "verification": "f⁻¹(3)=0、f⁻¹(7)=2，合成还原输入。",
+        "pitfall": "只给式不保留区间。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.6",
+        "related_sections": []
+      },
+      {
+        "q": "f(x)=(2x+1)/(x−3)，域R去掉3，求反函数并写域。",
+        "given": "原为分式线性，需排除输出2。",
+        "analysis": "反解后检查分母。",
+        "method": "y(x−3)=2x+1。",
+        "principle": "一一反解与域交换。",
+        "steps": [
+          "x(y−2)=3y+1，x=(3y+1)/(y−2)，y≠2。",
+          "反函数f⁻¹(x)=(3x+1)/(x−2)，域x≠2，值域去3。"
+        ],
+        "ans": "(3x+1)/(x−2)，x≠2。",
+        "verification": "双向合成得到原输入；反式不能取3，因为方程3x+1=3(x−2)无解。",
+        "pitfall": "把原排除3照抄为反函数排除。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.6",
+        "related_sections": []
+      },
+      {
+        "q": "f(x)=(x−2)²+1，原域x≤2，求反函数并验一个点。",
+        "given": "原取抛物线左支。",
+        "analysis": "解平方需按原域选负分支。",
+        "method": "y−1=(x−2)²且x−2≤0。",
+        "principle": "主根非负与分支条件。",
+        "steps": [
+          "x−2=−√(y−1)，x=2−√(y−1)。",
+          "f⁻¹(x)=2−√(x−1)，域x≥1、值域x≤2。"
+        ],
+        "ans": "2−√(x−1)，输入≥1。",
+        "verification": "原x=−1时f=10，反函数10→2−3=−1。",
+        "pitfall": "不看左支而选2+√(x−1)。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.6",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "f(x)=x+4全实数域，f⁻¹(x)与1/f(x)各是什么？",
+        "given": "区分两种记号。",
+        "analysis": "反操作与倒数不同。",
+        "method": "反解与分式分别写。",
+        "principle": "逆函数合成还原。",
+        "steps": [
+          "f⁻¹(x)=x−4，全实数。",
+          "1/f(x)=1/(x+4)，x≠−4。"
+        ],
+        "ans": "x−4与1/(x+4)。",
+        "verification": "f(f⁻¹(x))=x而f(x)×1/f(x)=1。",
+        "pitfall": "把上标−1按普通幂处理。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.6",
+        "related_sections": []
+      },
+      {
+        "q": "f(x)=x²，域x≥0，反函数？若原域x≤0又怎样？",
+        "given": "两个单射分支。",
+        "analysis": "原输入符号决定反向输出。",
+        "method": "解x²=y并选支。",
+        "principle": "反函数值域等于原域。",
+        "steps": [
+          "非负原域选+√y。",
+          "非正原域选−√y；两者反函数域均y≥0。"
+        ],
+        "ans": "分别√x和−√x，输入均非负。",
+        "verification": "原−3在非正支对应9，反向必须回−3。",
+        "pitfall": "两个分支都默认正根。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.6",
+        "related_sections": []
+      },
+      {
+        "q": "原函数点(2,7)在反函数图上对应哪点？",
+        "given": "反向输入输出。",
+        "analysis": "交换坐标。",
+        "method": "(a,b)→(b,a)。",
+        "principle": "关于y=x反射。",
+        "steps": [
+          "原输入2输出7。",
+          "反输入7输出2，点(7,2)。"
+        ],
+        "ans": "(7,2)。",
+        "verification": "与y=x镜像，距离对称。",
+        "pitfall": "只把y变号当反函数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.6",
+        "related_sections": []
+      },
+      {
+        "q": "f(x)=3x−1全实数，候选g=(x+1)/3，双向验证。",
+        "given": "两个线性式全域可算。",
+        "analysis": "两个合成分别核。",
+        "method": "求f(gx)、g(fx)。",
+        "principle": "反函数定义。",
+        "steps": [
+          "f(gx)=3(x+1)/3−1=x。",
+          "g(fx)=(3x−1+1)/3=x。"
+        ],
+        "ans": "g为f反函数。",
+        "verification": "域值域均R，未漏排除点。",
+        "pitfall": "只验g(1)之类单点就证明。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 5,
+        "primary_section": "5.6",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "x²全实数域画成y=±√x的反向关系，为什么不能称单一反函数？",
+      "given": "原域没有限制。",
+      "analysis": "一个非负输入可有两个反向输出。",
+      "method": "以输入4检查。",
+      "principle": "函数需单值，原函数需单射才能反向单值。",
+      "steps": [
+        "反向4可对应2或−2。",
+        "必须限制原域选分支，才有反函数。"
+      ],
+      "ans": "反向关系非单值函数。",
+      "verification": "0是特殊单值点不挽救其他输入冲突。",
+      "pitfall": "把正负两个分支同时叫一个函数。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 5,
+      "primary_section": "5.6",
+      "related_sections": []
+    },
+    "exam": [
+      "反函数题先判单射及实际值域，再反解选支",
+      "式子写完同步交换域值域，排除点不是照抄",
+      "验证题双向合成并核域，图象用y=x反射而非变号"
+    ],
+    "quick": [
+      "双射与反向",
+      "解出原输入",
+      "分支",
+      "域值域交换",
+      "双向合成与对称"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_5.6",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-7-inverse-functions",
+        "page_or_section": "3-7-inverse-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 6（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_5.6",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-7-inverse-functions",
+        "page_or_section": "3-7-inverse-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "反函数题先判单射及实际值域，再反解选支",
+      "method": "y−1=(x−2)²且x−2≤0。",
+      "principle": "主根非负与分支条件。",
+      "worked_example_index": 2,
+      "verification": "原x=−1时f=10，反函数10→2−3=−1。",
+      "pitfall": "不看左支而选2+√(x−1)。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“在一一对应范围内求反函数”的抽样复核：f⁻¹(3)=0、f⁻¹(7)=2，合成还原输入。；若出现“只给式不保留区间。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“交换定义域值域并用合成和对称验证”的抽样复核：原x=−1时f=10，反函数10→2−3=−1。；若出现“不看左支而选2+√(x−1)。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把正负两个分支同时叫一个函数。",
+        "correction": "反向关系非单值函数。",
+        "verification": "0是特殊单值点不挽救其他输入冲突。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "反函数与定义域值域交换",
+      "objects": [
+        "线性受限函数及反函数",
+        "抛物线左支",
+        "反向根式",
+        "y=x对称轴",
+        "空点"
+      ],
+      "relations": [
+        "(2,7)到(7,2)",
+        "原左支反式2−√(x−1)",
+        "原域与反值域交换",
+        "倒数另论"
+      ],
+      "labels": [
+        "f⁻¹",
+        "不是1/f",
+        "y=x",
+        "x≤2",
+        "反域x≥1"
+      ],
+      "format": "SVG",
+      "priority": "P=0",
+      "reuse": "暂无对应旧图；曲线与反射必须确定性绘制",
+      "english": "Plot a restricted function and its inverse as reflections across y=x using equal axis scales. For f(x)=(x-2)^2+1 on x<=2, draw inverse 2-sqrt(x-1) on x>=1, not the positive branch. Swap (2,7) to (7,2) and distinguish inverse notation from reciprocal."
+    }
+  }
+}

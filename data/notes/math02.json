@@ -1,0 +1,1218 @@
+{
+  "2.1": {
+    "content_batch": "batch05",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 2,
+    "section_id": "2.1",
+    "goals": [
+      "由配方推导判别式与实根数",
+      "对参数先检次数再分类并回代"
+    ],
+    "prerequisites": [
+      "配方法",
+      "实数平方与根式"
+    ],
+    "flow": [
+      "二次条件",
+      "配方",
+      "判别式",
+      "根公式",
+      "参数退化"
+    ],
+    "concept_relation": "二次条件；配方；判别式；根公式；参数退化",
+    "deep": [
+      "求根公式x=(−b±√Δ)/(2a)由配方得到，分母是整个2a，负号属于b的代数值。若b本来为负，−b应变正；两个分支都须保留，最后根据题目原域筛选。",
+      "判别式只判根的实性与重合，不单独告诉根正负、是否为整数或是否落某区间。Δ是完全平方数时在整数系数等条件下可支持有理根判断，但“Δ>0所以两正根”明显不足。",
+      "参数题先列a≠0，再把Δ作为参数不等式求解。若题求不同实根数，还要把退化一次方程贡献的根数单列合并；不能把判别式表达式在a=0的值直接套二次分类。",
+      "验证可回代根、检查和积与几何交点。近零判别式的数值题须关注给定精度，课堂精确参数题与实验近似系数的结论强度不同。本节例题用精确数据，不暗示官方评分步骤或考频。"
+    ],
+    "derive": [
+      "a≠0时，配方得(2ax+b)²=Δ=b²−4ac。",
+      "Δ>0：两不同实根；Δ=0：二重实根；Δ<0：无实根。",
+      "x=(−b±√Δ)/(2a)；参数a=0需回原式另解。"
+    ],
+    "examples": [
+      {
+        "q": "判断2x²−3x−2=0实根数并求根。",
+        "given": "a=2、b=−3、c=−2。",
+        "analysis": "先判Δ再保留±。",
+        "method": "Δ=b²−4ac，套公式。",
+        "principle": "配方推导的二次根式。",
+        "steps": [
+          "Δ=9+16=25>0。",
+          "x=(3±5)/4，得2、−1/2。"
+        ],
+        "ans": "两个不同实根2与−1/2。",
+        "verification": "代2得8−6−2=0；代−1/2得.5+1.5−2=0。",
+        "pitfall": "把−b写−3或漏分母2a。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 2,
+        "primary_section": "2.1",
+        "related_sections": []
+      },
+      {
+        "q": "x²−4x+k=0有实根时k范围？重根时何值？",
+        "given": "二次系数恒1。",
+        "analysis": "有实根包含重根。",
+        "method": "Δ=16−4k≥0。",
+        "principle": "实平方条件。",
+        "steps": [
+          "得k≤4。",
+          "Δ=0时k=4，方程(x−2)²=0。"
+        ],
+        "ans": "有实根k≤4；重根k=4。",
+        "verification": "k=4根2，k=5可写(x−2)²+1=0无实根。",
+        "pitfall": "将有实根仅写Δ>0而漏等号。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 2,
+        "primary_section": "2.1",
+        "related_sections": []
+      },
+      {
+        "q": "讨论tx²+2x+1=0的不同实根数。",
+        "given": "t为实数，可能退为一次。",
+        "analysis": "先分t=0。",
+        "method": "t≠0用Δ=4−4t，t=0直接解。",
+        "principle": "二次定义与判别式条件。",
+        "steps": [
+          "t=0时2x+1=0，一个根−1/2。",
+          "t≠0且t<1时Δ>0，两不同实根。",
+          "t=1时(x+1)²=0，一个不同根；t>1无实根。"
+        ],
+        "ans": "两根：t<1且t≠0；一个：t=0或1；无根：t>1。",
+        "verification": "t=0不能放进两根范围，原式确为一次。",
+        "pitfall": "只按Δ>0把t=0也算两根。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 2,
+        "primary_section": "2.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "3x²+2x+1=0在实数有解吗？",
+        "given": "a=3非0。",
+        "analysis": "判Δ。",
+        "method": "4−12。",
+        "principle": "Δ非负才有实根。",
+        "steps": [
+          "Δ=−8。",
+          "故无实根。"
+        ],
+        "ans": "无实根。",
+        "verification": "配方3(x+1/3)²+2/3>0。",
+        "pitfall": "写无任何数域解而未限定。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 2,
+        "primary_section": "2.1",
+        "related_sections": []
+      },
+      {
+        "q": "x²+6x+9=0的不同实根数及重数？",
+        "given": "Δ=0。",
+        "analysis": "两个相等根对应一个不同值。",
+        "method": "完全平方。",
+        "principle": "(x+3)²=0。",
+        "steps": [
+          "x=−3。",
+          "不同实根1，重数2。"
+        ],
+        "ans": "一个不同实根−3，二重。",
+        "verification": "Δ=36−36=0。",
+        "pitfall": "把两相等根当两个不同解。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 2,
+        "primary_section": "2.1",
+        "related_sections": []
+      },
+      {
+        "q": "Δ>0能推出两根都正吗？举具体反例。",
+        "given": "只给实性条件。",
+        "analysis": "正负还取决和积。",
+        "method": "取x²−1=0。",
+        "principle": "判别式不单独判正负。",
+        "steps": [
+          "Δ=4>0。",
+          "根1、−1异号。"
+        ],
+        "ans": "不能。",
+        "verification": "直接平方等1得到两符号。",
+        "pitfall": "从两实根跳到两正根。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 2,
+        "primary_section": "2.1",
+        "related_sections": []
+      },
+      {
+        "q": "求m使(m−1)x²+2x+1=0恰有一个不同实根。",
+        "given": "可能二次重根或一次。",
+        "analysis": "分类两种来源。",
+        "method": "m=1先解；m≠1令Δ=0。",
+        "principle": "退化与判别式。",
+        "steps": [
+          "m=1时一次根−1/2。",
+          "m≠1时Δ=4−4(m−1)=8−4m，等0得m=2，根−1。"
+        ],
+        "ans": "m=1或2。",
+        "verification": "m=2方程(x+1)²=0；两情境均一根。",
+        "pitfall": "只答m=2而漏退化。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 2,
+        "primary_section": "2.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "方程写作0x²+0x+0=0，可用Δ=0称有一个二重根吗？",
+      "given": "最高系数与其他系数均0。",
+      "analysis": "不是二次方程。",
+      "method": "回到原等式。",
+      "principle": "二次判别式要求a≠0。",
+      "steps": [
+        "原式0=0对所有实数成立。",
+        "不存在一个二次定义下的独有重根。"
+      ],
+      "ans": "不可以，解集R。",
+      "verification": "任何实数代入都0=0。",
+      "pitfall": "看见形式x²就无视系数。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 2,
+      "primary_section": "2.1",
+      "related_sections": []
+    },
+    "exam": [
+      "参数判根题先审a是否0，再解Δ条件",
+      "求根题写带符号系数与整个2a分母，最后代回",
+      "根数描述注明不同实根或重数，实性与正负分开"
+    ],
+    "quick": [
+      "二次条件",
+      "配方",
+      "判别式",
+      "根公式",
+      "参数退化"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_2.1",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-5-quadratic-equations",
+        "page_or_section": "2-5-quadratic-equations",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_2.1",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-5-quadratic-equations",
+        "page_or_section": "2-5-quadratic-equations",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "参数判根题先审a是否0，再解Δ条件",
+      "method": "t≠0用Δ=4−4t，t=0直接解。",
+      "principle": "二次定义与判别式条件。",
+      "worked_example_index": 2,
+      "verification": "t=0不能放进两根范围，原式确为一次。",
+      "pitfall": "只按Δ>0把t=0也算两根。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由配方推导判别式与实根数”的抽样复核：代2得8−6−2=0；代−1/2得.5+1.5−2=0。；若出现“把−b写−3或漏分母2a。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“对参数先检次数再分类并回代”的抽样复核：t=0不能放进两根范围，原式确为一次。；若出现“只按Δ>0把t=0也算两根。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "看见形式x²就无视系数。",
+        "correction": "不可以，解集R。",
+        "verification": "任何实数代入都0=0。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "判别式从配方到根数",
+      "objects": [
+        "(2ax+b)²=Δ",
+        "三种Δ情境",
+        "参数a=0分支",
+        "抛物线与x轴"
+      ],
+      "relations": [
+        "a≠0才用二次分类",
+        "Δ=0仅一个不同值",
+        "退化回原式"
+      ],
+      "labels": [
+        "Δ=b²−4ac",
+        "两不同实根",
+        "二重实根",
+        "无实根",
+        "先查a=0"
+      ],
+      "format": "SVG",
+      "priority": "P=0",
+      "reuse": "暂无对应图；三类曲线坐标必须准确",
+      "english": "Derive (2ax+b)^2=Delta and show the three real-root cases for a nonzero quadratic coefficient. Include a separate a=0 degeneration branch, distinguish a double root from two distinct roots, and do not infer root signs from Delta alone."
+    }
+  },
+  "2.2": {
+    "content_batch": "batch05",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 2,
+    "section_id": "2.2",
+    "goals": [
+      "由因式展开推导根的和积",
+      "用对称式和实根条件处理新根与参数"
+    ],
+    "prerequisites": [
+      "因式定理",
+      "二次判别式"
+    ],
+    "flow": [
+      "因式系数比较",
+      "S与P",
+      "对称式",
+      "新根方程",
+      "实性正负约束"
+    ],
+    "concept_relation": "因式系数比较；S与P；对称式；新根方程；实性正负约束",
+    "deep": [
+      "构造新根方程时先求新根和积，再写首一方程y²−S新y+P新=0。例如两根各加1，新和为S+2，新积为P+S+1；若取倒数，原根必须均非零。",
+      "判正负实根还需实性。两正实根（允许重合）可用Δ≥0、S>0、P>0；两负相应S<0，P>0；异号需P<0并在实系数二次条件下保证实根。若要求两不同根则Δ严格大于0。",
+      "参数不等式必须联合求交集，不能分别解后取并集。边界P=0意味着有零根，不属于严格正或负；Δ=0是否允许取决“不同”还是“可相等”的题意。",
+      "验算可用显式根、回乘新方程或简单参数点。韦达给必要关系，但若题目限定实根范围，必须把判别式和范围约束一起落实，不要把代数和积当作自动存在两实根的保证。"
+    ],
+    "derive": [
+      "S=α+β=−b/a，P=αβ=c/a（a≠0）。",
+      "α²+β²=S²−2P；αβ≠0时1/α+1/β=S/P。",
+      "新根α+1、β+1：S新=S+2，P新=P+S+1；方程y²−S新y+P新=0。"
+    ],
+    "examples": [
+      {
+        "q": "2x²−5x+2=0两根α,β，不先求根，求S、P及α²+β²。",
+        "given": "a=2、b=−5、c=2。",
+        "analysis": "表达式对称可由和积。",
+        "method": "韦达及平方展开。",
+        "principle": "比较a(x−α)(x−β)系数。",
+        "steps": [
+          "S=5/2，P=1。",
+          "平方和S²−2P=25/4−2=17/4。"
+        ],
+        "ans": "S=5/2、P=1、平方和17/4。",
+        "verification": "实际根2、1/2，平方4+1/4=17/4。",
+        "pitfall": "根和漏负号或平方和忘−2P。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 2,
+        "primary_section": "2.2",
+        "related_sections": []
+      },
+      {
+        "q": "原方程x²−3x+1=0两根各加1，求新根的首一方程。",
+        "given": "无需显式根。",
+        "analysis": "新和积由原S=3、P=1。",
+        "method": "S新=S+2，P新=P+S+1。",
+        "principle": "由新根因式展开。",
+        "steps": [
+          "S新5，P新1+3+1=5。",
+          "新方程y²−5y+5=0。"
+        ],
+        "ans": "y²−5y+5=0。",
+        "verification": "把原变量写y−1，(y−1)²−3(y−1)+1同得新式。",
+        "pitfall": "积只加1漏S项。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 2,
+        "primary_section": "2.2",
+        "related_sections": []
+      },
+      {
+        "q": "x²−(k+1)x+k=0何时有两个不同正实根？",
+        "given": "k实数，要求严格正且不同。",
+        "analysis": "可直接因式看根，也可和积判。",
+        "method": "(x−1)(x−k)=0。",
+        "principle": "根和积与判别式。",
+        "steps": [
+          "两根1与k，正需k>0。",
+          "不同需k≠1；Δ=(k−1)²，条件一致。"
+        ],
+        "ans": "k>0且k≠1。",
+        "verification": "k=0有零根，k=1重根，均排除。",
+        "pitfall": "只写S>0、P>0而未排除重合。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 2,
+        "primary_section": "2.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "3x²+6x−2=0两根和积？",
+        "given": "a=3非0。",
+        "analysis": "带符号取系数。",
+        "method": "S=−b/a、P=c/a。",
+        "principle": "韦达。",
+        "steps": [
+          "S=−6/3=−2。",
+          "P=−2/3。"
+        ],
+        "ans": "−2与−2/3。",
+        "verification": "P负表示实根异号，与Δ=36+24>0相容。",
+        "pitfall": "积也加负号写+2/3。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 2,
+        "primary_section": "2.2",
+        "related_sections": []
+      },
+      {
+        "q": "根和4、根积3，首一方程及根？",
+        "given": "两根按重数。",
+        "analysis": "由和积构造。",
+        "method": "x²−4x+3。",
+        "principle": "(x−α)(x−β)展开。",
+        "steps": [
+          "方程(x−1)(x−3)=0。",
+          "根1、3。"
+        ],
+        "ans": "x²−4x+3=0，根1和3。",
+        "verification": "和4、积3。",
+        "pitfall": "方程中间项写+4x。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 2,
+        "primary_section": "2.2",
+        "related_sections": []
+      },
+      {
+        "q": "α+β=3、αβ=2，求倒数和，若积为0还能用吗？",
+        "given": "先给非零积2。",
+        "analysis": "分式需非零根。",
+        "method": "S/P。",
+        "principle": "通分。",
+        "steps": [
+          "倒数和3/2。",
+          "若P=0则至少一个根0，倒数无定义，不能代公式除0。"
+        ],
+        "ans": "3/2；P=0不可用。",
+        "verification": "根1、2倒数和1+.5=1.5。",
+        "pitfall": "公式化简后忘非零条件。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 2,
+        "primary_section": "2.2",
+        "related_sections": []
+      },
+      {
+        "q": "x²+2x+k=0有两个负实根且允许相等，求k。",
+        "given": "a=1恒定。",
+        "analysis": "实性与负号联合。",
+        "method": "S=−2<0，P=k>0，Δ=4−4k≥0。",
+        "principle": "和积与判别式。",
+        "steps": [
+          "k>0且k≤1。",
+          "交集0<k≤1。"
+        ],
+        "ans": "(0,1]。",
+        "verification": "k=1为−1重根允许，k=0含0不负。",
+        "pitfall": "取并集或漏Δ上界。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 2,
+        "primary_section": "2.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "方程x²+2x+5=0的根和−2、积5，能据此说两根都是负实数吗？",
+      "given": "实系数，未核Δ。",
+      "analysis": "同号和负还不保证实根存在。",
+      "method": "计算判别式。",
+      "principle": "实根条件独立。",
+      "steps": [
+        "Δ=4−20=−16。",
+        "无实根，所以不能谈两个负实根。"
+      ],
+      "ans": "不能，缺实性且实际无实根。",
+      "verification": "配方(x+1)²+4>0。",
+      "pitfall": "仅用S<0、P>0省去Δ。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 2,
+      "primary_section": "2.2",
+      "related_sections": []
+    },
+    "exam": [
+      "韦达题从S和P组织对称式，分母含根需先排零",
+      "新根题先求新和积，再构造并以代换复核",
+      "参数根号题把Δ、S、P及不同性全部取交集"
+    ],
+    "quick": [
+      "因式系数比较",
+      "S与P",
+      "对称式",
+      "新根方程",
+      "实性正负约束"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_2.2",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-5-quadratic-equations",
+        "page_or_section": "2-5-quadratic-equations",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_2.2",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-5-quadratic-equations",
+        "page_or_section": "2-5-quadratic-equations",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "韦达题从S和P组织对称式，分母含根需先排零",
+      "method": "(x−1)(x−k)=0。",
+      "principle": "根和积与判别式。",
+      "worked_example_index": 2,
+      "verification": "k=0有零根，k=1重根，均排除。",
+      "pitfall": "只写S>0、P>0而未排除重合。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由因式展开推导根的和积”的抽样复核：实际根2、1/2，平方4+1/4=17/4。；若出现“根和漏负号或平方和忘−2P。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用对称式和实根条件处理新根与参数”的抽样复核：k=0有零根，k=1重根，均排除。；若出现“只写S>0、P>0而未排除重合。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "仅用S<0、P>0省去Δ。",
+        "correction": "不能，缺实性且实际无实根。",
+        "verification": "配方(x+1)²+4>0。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "韦达关系与新根",
+      "objects": [
+        "a(x−α)(x−β)展开",
+        "S/P框",
+        "平方和",
+        "新根平移",
+        "参数交集"
+      ],
+      "relations": [
+        "S=−b/a",
+        "P=c/a",
+        "S新=S+2",
+        "P新=P+S+1",
+        "正实根还需Δ条件"
+      ],
+      "labels": [
+        "a≠0",
+        "S",
+        "P",
+        "倒数需P≠0",
+        "条件取交集"
+      ],
+      "format": "SVG",
+      "priority": "P=1",
+      "reuse": "暂无对应旧图；代数关系图确定性排版",
+      "english": "Derive the root sum -b/a and product c/a by expansion. Show symmetric expressions, the nonzero-product requirement for reciprocal roots, and shifted-root sums/products S+2 and P+S+1. Keep discriminant and sign conditions as a joint intersection."
+    }
+  },
+  "2.3": {
+    "content_batch": "batch05",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 2,
+    "section_id": "2.3",
+    "goals": [
+      "配方确定顶点开口与值域",
+      "在给定区间和参数条件下求真正最值"
+    ],
+    "prerequisites": [
+      "函数图象",
+      "平方与区间"
+    ],
+    "flow": [
+      "配方",
+      "顶点轴开口",
+      "截距",
+      "受限区间",
+      "参数最近点"
+    ],
+    "concept_relation": "配方；顶点轴开口；截距；受限区间；参数最近点",
+    "deep": [
+      "在受限区间求最值，不能只报顶点值。先看顶点是否在区间内，再比合法端点；若区间开端点对应最佳值未被取到，可能只有上界或下界而无最大/最小值。",
+      "利用对称轴可判断区间内距顶点最远和最近的位置，避免机械求导。a>0时最小对应最近，最大对应最远；a<0时反向。这个距离思想也便于参数顶点随位置移动的分类。",
+      "参数题若顶点h随参数变化，应按它落在区间左边、内部或右边分类。每段最值表达式的边界要检查一致性，并说明在哪个x处取得；单独列公式却不写区间容易漏掉情境。",
+      "画图和计算相互验证：顶点、截距、对称点和区间端点应能全部落在同一图上。最值是具体输出且必须可取到；把向无穷的趋势叫最大值无穷是不严谨的。"
+    ],
+    "derive": [
+      "f=a(x+b/(2a))²−Δ/(4a)，a≠0；顶点(−b/(2a),−Δ/(4a))。",
+      "闭区间最值候选为合法端点及区间内顶点；开端点不能作为已取到点。",
+      "f=(x−t)²在[0,2]的最小值由t到该区间的最近距离平方得到。"
+    ],
+    "examples": [
+      {
+        "q": "f=2x²−8x+5，求顶点、轴和全实数域最值。",
+        "given": "a=2>0。",
+        "analysis": "配方结构最直接。",
+        "method": "2(x−2)²−3。",
+        "principle": "平方非负。",
+        "steps": [
+          "顶点(2,−3)，轴x=2。",
+          "最小值−3在x=2，无最大值，值域[−3,+∞)。"
+        ],
+        "ans": "顶点(2,−3)，最小−3。",
+        "verification": "代x=2得8−16+5=−3。",
+        "pitfall": "把顶点x坐标2当最小值。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 2,
+        "primary_section": "2.3",
+        "related_sections": []
+      },
+      {
+        "q": "f=−x²+4x+1，域[0,5]，求最大和最小。",
+        "given": "闭区间，开口向下。",
+        "analysis": "顶点在域内，最小需比端点。",
+        "method": "f=−(x−2)²+5。",
+        "principle": "候选顶点与合法端点。",
+        "steps": [
+          "顶点x=2得最大5。",
+          "f(0)=1，f(5)=−4，最小−4在5。"
+        ],
+        "ans": "最大5、最小−4。",
+        "verification": "距顶点3的x=5给更低输出，符合开口向下。",
+        "pitfall": "只报最大而误以无最小，忘受限域。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 2,
+        "primary_section": "2.3",
+        "related_sections": []
+      },
+      {
+        "q": "f=(x−t)²，x∈[0,2]，按t求最小值并给取得位置。",
+        "given": "t实数。",
+        "analysis": "看顶点在区间何处。",
+        "method": "用最近点。",
+        "principle": "平方距离最小。",
+        "steps": [
+          "t<0时最近x=0，最小t²。",
+          "0≤t≤2时x=t，最小0。",
+          "t>2时最近x=2，最小(t−2)²。"
+        ],
+        "ans": "三段如上。",
+        "verification": "t=0或2边界两表达式均0，连续衔接。",
+        "pitfall": "不论顶点是否在域都答最小0。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 2,
+        "primary_section": "2.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "y=(x+3)²−4的顶点和开口？",
+        "given": "系数a=1。",
+        "analysis": "读x−h形式。",
+        "method": "h=−3、k=−4。",
+        "principle": "顶点式。",
+        "steps": [
+          "顶点(−3,−4)。",
+          "开口向上，对称轴x=−3。"
+        ],
+        "ans": "(−3,−4)，向上。",
+        "verification": "x=−3平方项0。",
+        "pitfall": "把+3读成顶点x=3。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 2,
+        "primary_section": "2.3",
+        "related_sections": []
+      },
+      {
+        "q": "f=x²，域(0,1)，有最大或最小值吗？",
+        "given": "两端均开。",
+        "analysis": "最佳边界均未取。",
+        "method": "由0<x²<1。",
+        "principle": "最值须取得。",
+        "steps": [
+          "值域(0,1)。",
+          "无最小无最大，下界0上界1。"
+        ],
+        "ans": "都没有。",
+        "verification": "任意x可选更靠0或1的输入改善输出。",
+        "pitfall": "闭区间习惯直接报0与1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 2,
+        "primary_section": "2.3",
+        "related_sections": []
+      },
+      {
+        "q": "a<0、Δ>0时，顶点纵坐标−Δ/(4a)正还是负？",
+        "given": "a负Δ正。",
+        "analysis": "符号需同时看分母。",
+        "method": "负除负。",
+        "principle": "顶点公式。",
+        "steps": [
+          "−Δ负、4a负。",
+          "商为正。"
+        ],
+        "ans": "正。",
+        "verification": "开口向下且穿x轴两点，顶点在上方。",
+        "pitfall": "把Δ正统一说顶点负。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 2,
+        "primary_section": "2.3",
+        "related_sections": []
+      },
+      {
+        "q": "f=x²−6x+8，域[0,2]，求最小值并说明为什么不用全域顶点。",
+        "given": "顶点x=3在区间外。",
+        "analysis": "受限域最近点为右端。",
+        "method": "f=(x−3)²−1。",
+        "principle": "平方距离随靠近3减小。",
+        "steps": [
+          "区间[0,2]距3最近x=2。",
+          "f(2)=0为最小，最大f(0)=8。"
+        ],
+        "ans": "最小0在x=2。",
+        "verification": "顶点值−1无法在该域取到。",
+        "pitfall": "直接答−1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 2,
+        "primary_section": "2.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "若图象纵横比例尺不同，还能用曲线看起来更窄来直接断言a绝对值更大吗？",
+      "given": "比较图的比例尺可能不同。",
+      "analysis": "画面形状受尺度影响。",
+      "method": "统一坐标再比较相同Δx对应Δy。",
+      "principle": "二次项系数关系依数值坐标。",
+      "steps": [
+        "缩放纵轴可让同一函数看似更窄。",
+        "应由标尺和点计算a，或统一比例再比较。"
+      ],
+      "ans": "不能直接断言。",
+      "verification": "同一公式可因截图变形呈不同宽窄。",
+      "pitfall": "把视觉尺度当系数事实。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 2,
+      "primary_section": "2.3",
+      "related_sections": []
+    },
+    "exam": [
+      "最值题先配方并核顶点是否在域，闭端点一起比较",
+      "参数题按顶点位置分段，写取得点并核边界",
+      "图象题标同一尺度，最值须可达，别把上界下界当取得值"
+    ],
+    "quick": [
+      "配方",
+      "顶点轴开口",
+      "截距",
+      "受限区间",
+      "参数最近点"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_2.3",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-1-quadratic-functions",
+        "page_or_section": "5-1-quadratic-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_2.3",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-1-quadratic-functions",
+        "page_or_section": "5-1-quadratic-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "最值题先配方并核顶点是否在域，闭端点一起比较",
+      "method": "用最近点。",
+      "principle": "平方距离最小。",
+      "worked_example_index": 2,
+      "verification": "t=0或2边界两表达式均0，连续衔接。",
+      "pitfall": "不论顶点是否在域都答最小0。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“配方确定顶点开口与值域”的抽样复核：代x=2得8−16+5=−3。；若出现“把顶点x坐标2当最小值。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“在给定区间和参数条件下求真正最值”的抽样复核：t=0或2边界两表达式均0，连续衔接。；若出现“不论顶点是否在域都答最小0。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把视觉尺度当系数事实。",
+        "correction": "不能直接断言。",
+        "verification": "同一公式可因截图变形呈不同宽窄。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "抛物线顶点与区间最值",
+      "objects": [
+        "2(x−2)²−3图",
+        "受限区间",
+        "顶点区间外示例",
+        "参数t位置三段"
+      ],
+      "relations": [
+        "顶点(2,−3)",
+        "闭区间比端点顶点",
+        "x²在(0,1)无取得最值"
+      ],
+      "labels": [
+        "x",
+        "y",
+        "顶点",
+        "合法端点",
+        "最近点",
+        "空心/实心"
+      ],
+      "format": "SVG",
+      "priority": "P=0",
+      "reuse": "暂无对应图；曲线与端点必须数值绘制",
+      "english": "Plot 2(x-2)^2-3 with vertex (2,-3) and equal labelled scales. Contrast unrestricted and restricted-domain extrema, including a vertex outside the interval and open endpoints. Show the closest-point cases for (x-t)^2 on [0,2]."
+    }
+  },
+  "2.4": {
+    "content_batch": "batch05",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 2,
+    "section_id": "2.4",
+    "goals": [
+      "把交点问题转为二次方程并回到坐标",
+      "用判别式讨论割线切线与参数范围"
+    ],
+    "prerequisites": [
+      "二次函数",
+      "直线方程与判别式"
+    ],
+    "flow": [
+      "联立差式",
+      "交点判别式",
+      "坐标回代",
+      "切线重根",
+      "参数边界与例外"
+    ],
+    "concept_relation": "联立差式；交点判别式；坐标回代；切线重根；参数边界与例外",
+    "deep": [
+      "切点求出后可把差式写成a(x−r)²来复核交点重合。一个参数可通过Δ=0求，多个切线参数可能都合法，需逐个求切点与回代；不应只因图中草图画了一条就丢掉另一解。",
+      "若求直线在整条抛物线上方或下方，应讨论差值函数对所有x的符号，同时看二次项开口与Δ。相切意味着某点等号，不等于处处严格上/下；限定区间的上下关系又需区间最值条件，不能无条件用全域Δ。",
+      "参数改变可使交点由无到一到二，边界通常是Δ=0。写范围时标明“至少一个”“两个不同”“不相交”等词对应的严格或非严格不等式，避免边界切点被漏掉。",
+      "验算同时检查每个候选满足两条原方程，坐标和代数根的重数一致。画图用关键点与实际尺度展示相对位置，示意图不按比例时不得凭视觉给交点或切线数值。"
+    ],
+    "derive": [
+      "交点横坐标满足ax²+(b−m)x+(c−n)=0，a≠0。",
+      "非竖直线：Δ交=(b−m)²−4a(c−n)；正为两交点、零为相切、负为不交。",
+      "求完整交点需y=mx+n；竖直x=d的单交点不套上述切线判据。"
+    ],
+    "examples": [
+      {
+        "q": "求y=x²与y=3x−2的交点。",
+        "given": "非竖直线。",
+        "analysis": "先横坐标根再求y。",
+        "method": "x²=3x−2。",
+        "principle": "同一点的两个y表达相等。",
+        "steps": [
+          "x²−3x+2=(x−1)(x−2)=0，x=1、2。",
+          "代直线得y=1、4。"
+        ],
+        "ans": "(1,1)、(2,4)。",
+        "verification": "两点平方分别1、4，与直线同。",
+        "pitfall": "只报x=1、2当坐标。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 2,
+        "primary_section": "2.4",
+        "related_sections": []
+      },
+      {
+        "q": "讨论y=x²与y=2x+k随k的交点数及相切位置。",
+        "given": "k实数。",
+        "analysis": "差式判Δ并核边界。",
+        "method": "x²−2x−k=0。",
+        "principle": "交点判别式。",
+        "steps": [
+          "Δ=4+4k。",
+          "k>−1两交点，k=−1一切点，k<−1无交点。",
+          "k=−1时(x−1)²=0，切点(1,1)。"
+        ],
+        "ans": "三段如上，相切k=−1。",
+        "verification": "等价(x−1)²=k+1，直接解释实解数。",
+        "pitfall": "用原x²=0的Δ=0说任何直线都相切。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 2,
+        "primary_section": "2.4",
+        "related_sections": []
+      },
+      {
+        "q": "求直线y=mx+1与y=x²−4x+5相切时的m及切点。",
+        "given": "非竖直线族，参数m。",
+        "analysis": "切线可有两条。",
+        "method": "差式x²−(m+4)x+4=0，令Δ=0。",
+        "principle": "重交点条件。",
+        "steps": [
+          "(m+4)²−16=0，m=0或−8。",
+          "m=0时x=2、y=1；m=−8时x−2、y=17。"
+        ],
+        "ans": "m=0切点(2,1)；m−8切点(−2,17)。",
+        "verification": "差式分别(x−2)²、(x+2)²；两点代原图均成立。",
+        "pitfall": "开平方只取m+4=4而漏−4。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 2,
+        "primary_section": "2.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "y=x²与y=−1有交点吗？",
+        "given": "实数范围。",
+        "analysis": "平方不为负。",
+        "method": "x²=−1或Δ。",
+        "principle": "交点实性。",
+        "steps": [
+          "无实x满足。",
+          "故无实交点。"
+        ],
+        "ans": "没有。",
+        "verification": "抛物线全在y≥0。",
+        "pitfall": "为求交点强写±1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 2,
+        "primary_section": "2.4",
+        "related_sections": []
+      },
+      {
+        "q": "竖直线x=2与y=x²仅有一点，能据此称其为前述Δ=0切线吗？",
+        "given": "竖直线不写y=mx+n。",
+        "analysis": "单交点原因不同。",
+        "method": "代固定x并限定判据。",
+        "principle": "二次差式判据针对非竖直线。",
+        "steps": [
+          "交点(2,4)。",
+          "不能仅凭一个交点说相切，不能给无限斜率机械代Δ。"
+        ],
+        "ans": "不能这样判断。",
+        "verification": "每条竖直线对函数都单值相交。",
+        "pitfall": "把任何一交点直线都叫切线。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 2,
+        "primary_section": "2.4",
+        "related_sections": []
+      },
+      {
+        "q": "y=x²与y=c至少有一个实交点，c范围？",
+        "given": "水平非竖直线。",
+        "analysis": "至少一含相切。",
+        "method": "x²=c。",
+        "principle": "实平方非负。",
+        "steps": [
+          "c≥0有解。",
+          "c=0一个重交点，c>0两个不同。"
+        ],
+        "ans": "c≥0。",
+        "verification": "c负无平方等它。",
+        "pitfall": "只写c>0漏切线边界。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 2,
+        "primary_section": "2.4",
+        "related_sections": []
+      },
+      {
+        "q": "y=x²−2x+3与水平y=k不相交时k范围？并给相切边界。",
+        "given": "抛物线最小值2。",
+        "analysis": "低于顶点才不交。",
+        "method": "差式x²−2x+3−k=0。",
+        "principle": "Δ=4−4(3−k)=4k−8。",
+        "steps": [
+          "不交Δ<0得k<2。",
+          "k=2相切(1,2)。"
+        ],
+        "ans": "k<2不交，k=2相切。",
+        "verification": "配方(x−1)²+2与水平线比较同结论。",
+        "pitfall": "把不交写k≤2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 2,
+        "primary_section": "2.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "用抛物线与x轴的根判别式，能直接判断它与任意斜线的交点数吗？",
+      "given": "斜线y=mx+n改变联立差式系数。",
+      "analysis": "比较对象不同。",
+      "method": "重新令函数值相等。",
+      "principle": "交点根来自差函数。",
+      "steps": [
+        "应使用b−m、c−n。",
+        "原Δ只对应m=n=0的x轴特例。"
+      ],
+      "ans": "不能，需计算Δ交。",
+      "verification": "同一抛物线与不同高度斜率线可0、1、2交点。",
+      "pitfall": "忽略线的系数沿用原Δ。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 2,
+      "primary_section": "2.4",
+      "related_sections": []
+    },
+    "exam": [
+      "交点题先联立写差式，横坐标求完代回给完整坐标",
+      "切线题说明非竖直条件，Δ=0所有参数分支均验",
+      "位置范围题逐词翻译不等号，至少一与两不同不混写"
+    ],
+    "quick": [
+      "联立差式",
+      "交点判别式",
+      "坐标回代",
+      "切线重根",
+      "参数边界与例外"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_2.4",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-1-quadratic-functions",
+        "page_or_section": "5-1-quadratic-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录：Math_S1_Up_Content.indd 5（2025版；用户确认相符）",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_2.4",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/5-1-quadratic-functions",
+        "page_or_section": "5-1-quadratic-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "交点题先联立写差式，横坐标求完代回给完整坐标",
+      "method": "差式x²−(m+4)x+4=0，令Δ=0。",
+      "principle": "重交点条件。",
+      "worked_example_index": 2,
+      "verification": "差式分别(x−2)²、(x+2)²；两点代原图均成立。",
+      "pitfall": "开平方只取m+4=4而漏−4。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“把交点问题转为二次方程并回到坐标”的抽样复核：两点平方分别1、4，与直线同。；若出现“只报x=1、2当坐标。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用判别式讨论割线切线与参数范围”的抽样复核：差式分别(x−2)²、(x+2)²；两点代原图均成立。；若出现“开平方只取m+4=4而漏−4。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "忽略线的系数沿用原Δ。",
+        "correction": "不能，需计算Δ交。",
+        "verification": "同一抛物线与不同高度斜率线可0、1、2交点。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "抛物线与非竖直线的交点",
+      "objects": [
+        "y=x²",
+        "y=2x+k三位置",
+        "切点(1,1)",
+        "竖直线例外",
+        "双切线参数示例"
+      ],
+      "relations": [
+        "k=−1为切线边界",
+        "差式Δ非原抛物线Δ",
+        "竖直单点不套切线规则"
+      ],
+      "labels": [
+        "k>−1",
+        "k=−1",
+        "k<−1",
+        "Δ交",
+        "切点坐标"
+      ],
+      "format": "SVG",
+      "priority": "P=0",
+      "reuse": "暂无对应旧图；线与曲线须精确绘制",
+      "english": "Plot y=x^2 with lines y=2x+k for k above, equal to and below -1, showing the tangent at (1,1) when k=-1. Compute intersections from the difference quadratic. Include a clearly separate vertical-line example to prevent equating any single intersection with tangency."
+    }
+  }
+}

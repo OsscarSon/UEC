@@ -1,5 +1,6 @@
 {
   "7.1": {
+    "content_batch": "batch05",
     "subject": "物理",
     "subject_code": "physics",
     "chapter_id": 7,
@@ -301,6 +302,7 @@
     }
   },
   "7.2": {
+    "content_batch": "batch05",
     "subject": "物理",
     "subject_code": "physics",
     "chapter_id": 7,
@@ -601,6 +603,7 @@
     }
   },
   "7.3": {
+    "content_batch": "batch05",
     "subject": "物理",
     "subject_code": "physics",
     "chapter_id": 7,
@@ -902,6 +905,7 @@
     }
   },
   "7.4": {
+    "content_batch": "batch05",
     "subject": "物理",
     "subject_code": "physics",
     "chapter_id": 7,
@@ -1202,6 +1206,7 @@
     }
   },
   "7.5": {
+    "content_batch": "batch05",
     "subject": "物理",
     "subject_code": "physics",
     "chapter_id": 7,
@@ -1504,6 +1509,7 @@
     }
   },
   "7.6": {
+    "content_batch": "batch05",
     "subject": "物理",
     "subject_code": "physics",
     "chapter_id": 7,
@@ -1578,7 +1584,7 @@
       },
       {
         "q": "一隔离容器释放3.00×10⁸ J辐射到系统外，取c=3×10⁸，静止系统质量减少多少？若把辐射也算系统内呢？",
-        "given": "初末整体静止，其他交换忽略。",
+        "given": "初末整体静止，辐射对称发射使净动量为零，其他交换忽略。",
         "analysis": "质量变化取决边界是否含离开能量。",
         "method": "Δm大小=E离开/c²。",
         "principle": "同边界能量与质量收支。",

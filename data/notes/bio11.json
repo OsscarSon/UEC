@@ -1,5 +1,6 @@
 {
   "11.1": {
+    "content_batch": "batch05",
     "subject": "生物",
     "subject_code": "biology",
     "chapter_id": 11,
@@ -263,7 +264,7 @@
       {
         "goal_index": 1,
         "question_ref": "e2",
-        "review_module": 5,
+        "review_module": 7,
         "feedback": "目标“评估环境数据的因果边界”的抽样复核：若无排放时同样差异存在，单次比较不能归因。；若出现“把空间相关直接写成唯一因果。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
       }
     ],
@@ -301,6 +302,7 @@
     }
   },
   "11.2": {
+    "content_batch": "batch05",
     "subject": "生物",
     "subject_code": "biology",
     "chapter_id": 11,
@@ -564,7 +566,7 @@
       {
         "goal_index": 1,
         "question_ref": "e2",
-        "review_module": 5,
+        "review_module": 7,
         "feedback": "目标“依据目标设计保育监测和权衡”的抽样复核：全部树死亡或成为单一林都可能不满足目标。；若出现“把植树投入当作完整生态结果。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
       }
     ],
@@ -603,6 +605,7 @@
     }
   },
   "11.3": {
+    "content_batch": "batch05",
     "subject": "生物",
     "subject_code": "biology",
     "chapter_id": 11,
@@ -866,7 +869,7 @@
       {
         "goal_index": 1,
         "question_ref": "p0",
-        "review_module": 5,
+        "review_module": 7,
         "feedback": "目标“区分碳流、能流与可持续性指标”的抽样复核：符合能量守恒并伴可用能量分散。；若出现“把循环经济当作永动循环。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
       }
     ],

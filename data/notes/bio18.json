@@ -1,5 +1,6 @@
 {
   "18.1": {
+    "content_batch": "batch05",
     "subject": "生物",
     "subject_code": "biology",
     "chapter_id": 18,
@@ -219,8 +220,8 @@
       },
       {
         "source_id": "theory_bio_18.1",
-        "url": "https://openstax.org/books/biology-2e/pages/22-2-structure-of-prokaryotes",
-        "page_or_section": "22-2-structure-of-prokaryotes",
+        "url": "https://openstax.org/books/biology-2e/pages/22-2-structure-of-prokaryotes-bacteria-and-archaea",
+        "page_or_section": "22-2-structure-of-prokaryotes-bacteria-and-archaea",
         "version": "原理参考；不是2027范围声明",
         "access_date": "2026-11-18",
         "verification_status": "partially_verified"
@@ -237,8 +238,8 @@
       },
       {
         "source_id": "theory_bio_18.1",
-        "url": "https://openstax.org/books/biology-2e/pages/22-2-structure-of-prokaryotes",
-        "page_or_section": "22-2-structure-of-prokaryotes",
+        "url": "https://openstax.org/books/biology-2e/pages/22-2-structure-of-prokaryotes-bacteria-and-archaea",
+        "page_or_section": "22-2-structure-of-prokaryotes-bacteria-and-archaea",
         "version": "原理参考；不是2027范围声明",
         "access_date": "2026-11-18",
         "verification_status": "partially_verified"
@@ -302,6 +303,7 @@
     }
   },
   "18.2": {
+    "content_batch": "batch05",
     "subject": "生物",
     "subject_code": "biology",
     "chapter_id": 18,
@@ -526,6 +528,14 @@
         "version": "原理参考；不是2027范围声明",
         "access_date": "2026-11-18",
         "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "extra_theory_18.2_0",
+        "url": "https://openstax.org/books/microbiology/pages/9-1-how-microbes-grow",
+        "page_or_section": "9-1-how-microbes-grow",
+        "version": "专项原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
       }
     ],
     "authoring_sources": [
@@ -542,6 +552,14 @@
         "url": "https://openstax.org/books/biology-2e/pages/22-3-prokaryotic-metabolism",
         "page_or_section": "22-3-prokaryotic-metabolism",
         "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "extra_theory_18.2_0",
+        "url": "https://openstax.org/books/microbiology/pages/9-1-how-microbes-grow",
+        "page_or_section": "9-1-how-microbes-grow",
+        "version": "专项原理参考；不是2027范围声明",
         "access_date": "2026-11-18",
         "verification_status": "partially_verified"
       }
@@ -565,7 +583,7 @@
       {
         "goal_index": 1,
         "question_ref": "e2",
-        "review_module": 5,
+        "review_module": 7,
         "feedback": "目标“按可比设计评价抑菌实验”的抽样复核：扩散快即使效力不更强也可能圈更大。；若出现“把单一体外指标直接当成治疗排名。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
       }
     ],
@@ -603,6 +621,7 @@
     }
   },
   "18.3": {
+    "content_batch": "batch05",
     "subject": "生物",
     "subject_code": "biology",
     "chapter_id": 18,
@@ -866,7 +885,7 @@
       {
         "goal_index": 1,
         "question_ref": "p1",
-        "review_module": 5,
+        "review_module": 7,
         "feedback": "目标“解释病毒为何依赖宿主而非自行分裂”的抽样复核：没有基因组无法说明其稳定遗传特性。；若出现“把无独立代谢说成无遗传。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
       }
     ],
@@ -905,6 +924,7 @@
     }
   },
   "18.4": {
+    "content_batch": "batch05",
     "subject": "生物",
     "subject_code": "biology",
     "chapter_id": 18,
@@ -1168,7 +1188,7 @@
       {
         "goal_index": 1,
         "question_ref": "e1",
-        "review_module": 5,
+        "review_module": 7,
         "feedback": "目标“区分个体内增殖与个体间传播”的抽样复核：单位是颗粒而非人。；若出现“把病毒数当作感染人数。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
       }
     ],

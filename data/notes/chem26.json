@@ -1,5 +1,6 @@
 {
   "26.1": {
+    "content_batch": "batch05",
     "subject": "化学",
     "subject_code": "chemistry",
     "chapter_id": 26,
@@ -306,6 +307,7 @@
     }
   },
   "26.2": {
+    "content_batch": "batch05",
     "subject": "化学",
     "subject_code": "chemistry",
     "chapter_id": 26,
@@ -608,6 +610,7 @@
     }
   },
   "26.3": {
+    "content_batch": "batch05",
     "subject": "化学",
     "subject_code": "chemistry",
     "chapter_id": 26,
@@ -911,6 +914,7 @@
     }
   },
   "26.4": {
+    "content_batch": "batch05",
     "subject": "化学",
     "subject_code": "chemistry",
     "chapter_id": 26,
@@ -1190,7 +1194,7 @@
       {
         "goal_index": 1,
         "question_ref": "e2",
-        "review_module": 5,
+        "review_module": 7,
         "feedback": "目标“由多项资料作有限且可检验的推断”的抽样复核：结论限定这两个候选，不声称在全世界所有物质中唯一。；若出现“仅凭分子量46就直接确定乙醇。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
       }
     ],
@@ -1232,6 +1236,7 @@
     }
   },
   "26.5": {
+    "content_batch": "batch05",
     "subject": "化学",
     "subject_code": "chemistry",
     "chapter_id": 26,
@@ -1495,7 +1500,7 @@
       {
         "goal_index": 1,
         "question_ref": "e2",
-        "review_module": 5,
+        "review_module": 7,
         "feedback": "目标“依据收支和证据评价所谓绿色创新”的抽样复核：同材料在干冷或无适宜微生物处可表现不同。；若出现“把有条件声明转成绝对环保承诺。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
       }
     ],

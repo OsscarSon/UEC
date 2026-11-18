@@ -1,74 +1,52 @@
-> V22插图：149张逐图审核，71张接入12章40个真实小节。见 [V22交付](reports/v22/DELIVERY.md)、[逐图审核](reports/v22/ASSET_REVIEW.md)、[142项任务对照](reports/v22/TASK_COVERAGE.md) 与 [测试](reports/v22/TEST_RESULTS.md)。课程和笔记基线保留，未宣称全部绘图任务完成。
-
-> PR1新增化学7–11章，5章28节；当前14章86节。详见 [新增内容交付](reports/batch04/DELIVERY.md)。
-
-> 最新P0续作、全课程历史核查及未完成事项见 [本轮报告](reports/batch03/DELIVERY.md)。
-
 # UEC 2027 备考系统
 
-PR1已合并的课程基线：14章86个已保存/有目录依据小节、1032模块。PR1新增化学7–11章28节及224条原创题，累计690条题记录。目录匹配、深度及核实边界见batch04报告，未宣称全科或官方全面审定。
+保留原有116章课程框架、课程地图、学习记录、错题本、题库、日历和本地备份。学校校内考试资料与正式UEC资料分别展示；当前公开纲要的2027适用性仍待确认。
 
-[当前集中交付与未完成事项](reports/batch02/DELIVERY.md) · [全课程A/B/C/D总表](reports/batch02/COURSE_COVERAGE_MASTER.csv) · [全部后续插图Prompt](illustrations/PROMPTS_BATCH_ALL.md) · [插图主清单](illustrations/ILLUSTRATION_MASTER_MANIFEST.json)
+本轮新增20个原章节、94个真实小节的十二模块笔记，含282道原创例题、376道练习、94道独立检测题。现有笔记合计34个原章节、180小节。模块齐全不等于教师或官方审定，新增内容均保留部分核实状态。
 
-6张上传草稿已逐张核对：3张限定用途接入、3张隔离；旧73幅SVG原文件保留，已知待修旧图不进入教学视图。新11幅确定性总结SVG不替代全部结构图。图可放大，M12目标自评独立保存在原本地备份中。
+| 科目 | 本轮新增章 | 新增小节 |
+| --- | --- | ---: |
+| 物理 | 1、2、5、7、8 | 20 |
+| 化学 | 1、2、26、29、35 | 30 |
+| 生物 | 10、11、13、18、19 | 18 |
+| 高级数学 I / II 共用教材内容 | 1–5 | 26 |
 
-给自己用的手机备考网页：课程地图（116 章 × 掌握度 0–3）、今日任务（按学习计划 + 第 1/3/7/14/30 天间隔回忆）、错题本（错因分类，连续重做对 2 次算掌握）、考试日历。
+高数I按用户确认显示1–29章，高数II显示1–35章。前五章目录来自用户确认一致的2025年10月第1版《数学》高一上册。两科共用教学文本，分别保存进度、掌握度、复习、自评及错题；不复制或清除旧数学记录。统计时共用五章仅计一次，按科目入口则有25个新增章入口。
 
-## 部署到 GitHub Pages
-1. 新建仓库，把本目录所有文件放到根目录并推送。
-2. Settings → Pages → Source 选 `Deploy from a branch`，分支 `main`，目录 `/ (root)`。
-3. 几分钟后用手机打开 `https://<用户名>.github.io/<仓库名>/`，可“添加到主屏幕”。
+- [本轮交付与测试](reports/batch05/DELIVERY.md)
+- [新增全部章节、小节和题目统计](reports/batch05/CONTENT_DELIVERY.md)
+- [十二模块深度与核实边界](reports/batch05/DEPTH_REVIEW.md)
+- [116章覆盖表](reports/batch05/COURSE_COVERAGE.csv)
+- [尚未编写的82章及具体后续依据](reports/batch05/REMAINING_WORK.md)
+- [资料来源](reports/batch05/SOURCES.md) · [高数课程对应](reports/batch05/MATH_COURSE_MAPPING.csv)
+- [94项新增中英文绘图任务](illustrations/batch05/PROMPTS.md)
 
-本地预览：`python3 -m http.server`，再开 `http://localhost:8000`。
+本轮复用8张已审核V22插图，未制作新图；当前V22教学引用为79张。原始142项绘图任务及其3项完整、44项部分、95项无V22对应的历史覆盖记录保留，不以新增需求冒充旧缺口已经补齐。[V22历史交付](reports/v22/DELIVERY.md)、[原142任务清单](illustrations/PROMPTS_BATCH_ALL.md)、[总清单](illustrations/ILLUSTRATION_MASTER_MANIFEST.json)。已隔离错误图片继续隔离。
 
-## 数据与进度
-- `data/curriculum.json`：课本章节对照表，来自 `curriculum_map.csv`。`index.html` 里内嵌了同一份数据，改章节时两处一起改。
-- 进度存在浏览器 localStorage，只在同一台设备保留。换设备前在“考试日历”页底部导出，在新设备导入。
-- 考试日期（期末、预试、毕业考、2027 统考）都待填，不要当作官方日期。
+## 本地使用与数据
 
-## 内容规则
-讲解、例题、模拟题一律原创并标“原创，非官方”，不冒充真题或董总评分标准；不放课本全文；官方纲要为 2026 年版，2027 版出来后要重新核对。
+运行 `python -m http.server 8025`，打开 `http://localhost:8025`。浏览器本地存储保存学习数据；换设备前使用日历页的导出，在新设备导入。未提供官方日期的考试仍为待填。
 
-## 讲解内容（lessons/）
-每章一个文件，如 `lessons/phys03.js`，写入 `LESSONS["物理3"]`（键 = 科目+章号，数学的科目名是“数学”）。新增后在 `index.html` 里加一行 `<script src="lessons/xxx.js"></script>`。
-字段：`syl`（纲要条目）、`status`、`sections`（小节，与课本目录一一对应：id、标题、纲要号、正文、`figs` 插图 `[[路径,图注],…]`、公式、English 术语、易错/易混/记忆提醒）、`method`（考试格式、解题步骤、常见题型、评分点）、`ex`（例题）、`pr`（基础→困难练习）、`vid`（视频搜索入口，待核）。
-地图里的“必答区/选答区”标记按 2026 年版纲要的试卷结构推断，分题范围待核。
+课程基准位于 `data/curriculum.json` 和 `index.html` 的原课程数组。本轮不修改其章号、原名、顺序与ID。教学记录仍通过原 `LESSONS` 键查询，高数科目进度另设命名空间。
 
-## 待做
-混合卷生成器、进度仪表盘、其余章节讲解、数学纲要对照。当前真实小节为物理3章9节／4章8节，化学3章6节／4章7节／5章4节／6章6节，生物1章6节／2章5节／3章7节，另化学7章9节、8章6节、9章4节、10章5节、11章4节，合计86节。原73幅SVG保留，另有11幅确定性总结SVG。这里统计已有材料，不表示所有内容已通过深度与科学验收。
+## 内容构建与验证
 
-后续范围见全课程覆盖表。化学7、8章已有公开目录候选，仍需核对并完成内容；其他章先落实真实小节及适用证据。数学先核实I/II归科与学校教材目录。
-
-## 插图怎么生成
-`tools/figlib.py`及旧`make_*.py`保留作历史绘图源，旧`lesson_*.py`不再覆盖本轮已修订正文。化学5/6、生物3的当前基础正文在`data/base-lessons/*.json`，运行`python tools/build_base_lessons.py`；十二模块补充在`data/notes/*.json`，运行`python tools/build_notes.py`。`build_chem05.py`/`build_bio03.py`兼容命令也读取新基础源。11幅本轮总结SVG由`tools/build_verified_diagrams.py`确定性生成，旧73幅SVG原文件保留。
-
-## 插图
-物理等需要精确的图（s–t、v–t、受力图）应由确定性计算生成SVG，并逐图核验数值、模型和标注。现有图仍有待修项，见 [插图需求](ILLUSTRATION_REQUIREMENTS.md) 与 [114条独立中英文制作任务](illustrations/PROMPTS_BATCH_ALL.md)。本轮未调用AI生图；6张上传图及11幅总结SVG的实际状态见当前交付报告。
-
-## 考试格式的依据
-兴华校内安排以用户提供的12/11/2026学校PDF为依据；UEC正式结构以董总当前公开文件为依据，两者分别显示。2027适用版本仍待确认，不能把校内比例泛化为统考要求。
-
-## 前批六章41节与高数入口（历史范围，当前见上）
-
-物理3、4章，化学3、4章，生物1、2章共41个原有小节已加入十二模块补充，共328个原创题目记录（123例题、164练习、41检测）。内容源为 `data/notes/*.json`；运行 `python tools/build_notes.py` 生成载入文件。原有正文及章级练习仍保留。
-
-高级数学（I）、（II）是独立科目，各自有入口、个人记录、错题筛选与考试资料。**正式课程迁移未完成**：旧35章无真实数学小节表，也缺少学校教材及2027适用对照，全部保留在“数学旧资料 · 待核实映射”。两个新入口暂无已映射章节、题库或模拟卷，不计完工。
-
-完整清单、覆盖率、来源、迁移表和未完成事项见 [本批报告](reports/BATCH_COMPLETION.md)。
-
-历史审查提交daa3637：十二模块结构存在不代表内容深度充分。当时补齐203条图审查／计划和 [41节内容深度审核](reports/CONTENT_DEPTH_AUDIT.md)，尚未制作图或扩写笔记；该阶段发现的4节公式分段问题及后续深化，现已记录在 [当前深度改进报告](reports/batch02/DEPTH_IMPROVEMENTS.md)。原报告保留作整改依据，当前统计与未完成事项以上方集中交付为准。
-
-复核本次清单：`python tools/audit_illustrations.py`（兼容入口，验证当前批次；旧图审查结果保留在历史提交）。
-
-复核命令（浏览器测试另需本地服务及Playwright）：
+新增内容的逐题原稿位于 `data/authoring/`，基础正文、十二模块源与小节证据分别位于 `data/base-lessons/`、`data/notes/`、`data/batch05/`。原批次编译器跳过新批次，避免覆盖既有内容及来源。
 
 ```sh
-python tools/build_notes.py
-node tests/coverage.cjs
+# 重新构建本轮的20个作者文件，明确列出，避免运行其他批次源
+for file in phys01 phys02 phys05 phys07 phys08 chem01 chem02 chem26 chem29 chem35 bio10 bio11 bio13 bio18 bio19 math01 math02 math03 math04 math05; do
+  python data/authoring/$file.py
+done
+python tools/batch05/build.py
+python tools/batch05/reports.py
+python tools/batch05/illustrations.py
+python tests/batch05_content.py
 python tests/calculations.py
-node tests/svg.cjs
-# 在另一个终端运行 python -m http.server 8000
-node tests/browser.cjs
+# 另开终端运行上面的本地HTTP服务；需Playwright与Chromium
+UEC_TEST_BASE=http://localhost:8025/ node tests/batch05_browser.cjs
 ```
 
-浏览器测试使用本机Chromium，路径可由 `CHROMIUM_PATH` 指定。测试截图默认保存在 `/tmp/uec-qa-screenshots`，可通过 `QA_SCREENSHOT_DIR` 调整。不需要新增网站运行依赖。
+详细复核命令、截图和实际测试范围见本轮测试报告。自动检查只覆盖列明的数据保护、结构、独立算例与交互，不代表全部题目、全部教材版本和2027考试要求均已独立或官方审定。
+
+历史记录：[batch04](reports/batch04/DELIVERY.md) · [batch03](reports/batch03/DELIVERY.md) · [最初41节深度审查](reports/CONTENT_DEPTH_AUDIT.md)。历史报告按当时交付范围理解，本页与batch05报告用于当前新增统计。

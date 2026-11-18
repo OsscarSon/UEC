@@ -1,5 +1,6 @@
 {
   "3.1": {
+    "content_batch": "batch05",
     "subject": "数学",
     "subject_code": "math_shared",
     "chapter_id": 3,
@@ -125,7 +126,7 @@
           "a=2，b=1。"
         ],
         "ans": "a=2、b=1。",
-        "verification": "x=0给b1，x=1给1+a+b=4。",
+        "verification": "x=0给b=1，x=1给1+a+b=4。",
         "pitfall": "只代一个点就定两个未知量。",
         "question_origin": "original",
         "paper_no": null,
@@ -295,12 +296,13 @@
         "余R"
       ],
       "format": "SVG",
-      "priority": "P1",
+      "priority": "P=1",
       "reuse": "无对应旧图；代数关系用文字层",
       "english": "Distinguish a radical constant coefficient from a fractional variable exponent. Show how the leading coefficient a-1 vanishes at a=1, reducing degree, and illustrate F=DQ+R with the explicit degree restriction on R."
     }
   },
   "3.2": {
+    "content_batch": "batch05",
     "subject": "数学",
     "subject_code": "math_shared",
     "chapter_id": 3,
@@ -427,7 +429,7 @@
         ],
         "ans": "a=1。",
         "verification": "F(1)=1+1+2=4。",
-        "pitfall": "把余数4忘掉写F1=0。",
+        "pitfall": "把余数4忘掉写F(1)=0。",
         "question_origin": "original",
         "paper_no": null,
         "subject_code": "math_shared",
@@ -467,7 +469,7 @@
         ],
         "ans": "7x−6。",
         "verification": "(x²−3x+2)(x+3)+(7x−6)=x³。",
-        "pitfall": "只给F1=1当完整余式。",
+        "pitfall": "只给F(1)=1当完整余式。",
         "question_origin": "original",
         "paper_no": null,
         "subject_code": "math_shared",
@@ -595,12 +597,13 @@
         "独立条件"
       ],
       "format": "SVG",
-      "priority": "P1",
+      "priority": "P=1",
       "reuse": "无合格对应图；公式流程需准确",
       "english": "Derive the remainder theorem from F=(x-a)Q+r by substituting x=a. For divisor 2x-1 use a=1/2. For two distinct linear factors, show how R=ux+v is determined by two independent values; do not count a repeated root twice as independent data."
     }
   },
   "3.3": {
+    "content_batch": "batch05",
     "subject": "数学",
     "subject_code": "math_shared",
     "chapter_id": 3,
@@ -637,7 +640,7 @@
         "q": "F=x³−4x，证明x−2为因式，并求完整实因式分解。",
         "given": "F为实系数多项式。",
         "analysis": "先零值证明，再求商/共同因子。",
-        "method": "计算F2并分解。",
+        "method": "计算F(2)并分解。",
         "principle": "因式定理与平方差。",
         "steps": [
           "F(2)=8−8=0，所以x−2是因式。",
@@ -645,7 +648,7 @@
         ],
         "ans": "x(x−2)(x+2)。",
         "verification": "乘回x³−4x，根0、±2均使F为0。",
-        "pitfall": "只写F2=0就声称已给完整分解。",
+        "pitfall": "只写F(2)=0就声称已给完整分解。",
         "question_origin": "original",
         "paper_no": null,
         "subject_code": "math_shared",
@@ -657,7 +660,7 @@
         "q": "F=x³+ax²+bx−2，x−1与x+2均为因式，求a,b。",
         "given": "两个不同一次因式。",
         "analysis": "代入点1、−2。",
-        "method": "F1=0、F(−2)=0联立。",
+        "method": "F(1)=0、F(−2)=0联立。",
         "principle": "因式定理。",
         "steps": [
           "1+a+b−2=0，a+b=1。",
@@ -675,7 +678,7 @@
         "related_sections": []
       },
       {
-        "q": "F=(x−1)²(x+3)，只算F1=0能证明1是二重根吗？如何验证？",
+        "q": "F=(x−1)²(x+3)，只算F(1)=0能证明1是二重根吗？如何验证？",
         "given": "已给分解但要求说明判据。",
         "analysis": "一次取零只保证至少一重。",
         "method": "除一次后再检查商。",
@@ -686,7 +689,7 @@
         ],
         "ans": "单次取零不足；反复除得恰二重。",
         "verification": "展开(x²−2x+1)(x+3)后仍可回乘验证。",
-        "pitfall": "由F1=0直接猜任何重数。",
+        "pitfall": "由F(1)=0直接猜任何重数。",
         "question_origin": "original",
         "paper_no": null,
         "subject_code": "math_shared",
@@ -853,20 +856,20 @@
       "principle": "重数是同一因式出现次数。",
       "worked_example_index": 2,
       "verification": "展开(x²−2x+1)(x+3)后仍可回乘验证。",
-      "pitfall": "由F1=0直接猜任何重数。"
+      "pitfall": "由F(1)=0直接猜任何重数。"
     },
     "diagnostics": [
       {
         "goal_index": 0,
         "question_ref": "e0",
         "review_module": 4,
-        "feedback": "目标“以余式定理证明根与一次因式的等价”的抽样复核：乘回x³−4x，根0、±2均使F为0。；若出现“只写F2=0就声称已给完整分解。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+        "feedback": "目标“以余式定理证明根与一次因式的等价”的抽样复核：乘回x³−4x，根0、±2均使F为0。；若出现“只写F(2)=0就声称已给完整分解。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
       },
       {
         "goal_index": 1,
         "question_ref": "e2",
         "review_module": 5,
-        "feedback": "目标“求参数并核因式重数”的抽样复核：展开(x²−2x+1)(x+3)后仍可回乘验证。；若出现“由F1=0直接猜任何重数。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+        "feedback": "目标“求参数并核因式重数”的抽样复核：展开(x²−2x+1)(x+3)后仍可回乘验证。；若出现“由F(1)=0直接猜任何重数。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
       }
     ],
     "error_analysis": [
@@ -897,12 +900,13 @@
         "非零多项式"
       ],
       "format": "SVG",
-      "priority": "P1",
+      "priority": "P=1",
       "reuse": "无对应旧图；关系图与可选函数图应准确",
       "english": "Connect a numerical root a with the linear factor x-a in both directions, including a=-3 and factor x+3. Show repeated division for a double root and distinguish multiplicity from the number of distinct real roots of a nonzero polynomial."
     }
   },
   "3.4": {
+    "content_batch": "batch05",
     "subject": "数学",
     "subject_code": "math_shared",
     "chapter_id": 3,
@@ -1200,12 +1204,13 @@
         "完整回乘"
       ],
       "format": "SVG",
-      "priority": "P1",
+      "priority": "P=1",
       "reuse": "无对应图；代数结构关系可用页面图与SVG",
       "english": "Create a method-selection diagram for common factors, identities, grouping, substitution and root-based division. Work x^4-5x^2+4 through y=x^2 to four real linear factors, distinguish rational and real factorization, and require full coefficient verification."
     }
   },
   "3.5": {
+    "content_batch": "batch05",
     "subject": "数学",
     "subject_code": "math_shared",
     "chapter_id": 3,
@@ -1503,7 +1508,7 @@
         "不同根/重数"
       ],
       "format": "SVG",
-      "priority": "P0",
+      "priority": "P=0",
       "reuse": "无对应旧图；函数曲线如新增须确定性绘制",
       "english": "Show a complete solution tree for x^3=x retaining x=0, and for an even-power equation using y=x^2 with y>=0 and both square-root signs. Include parameter branches for x(x^2-a)=0, distinguishing root multiplicity from distinct real solutions."
     }

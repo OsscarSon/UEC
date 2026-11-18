@@ -125,5 +125,6 @@ window.LESSONS["物理2"]={
   },
   "ex": [],
   "pr": [],
-  "vid": []
+  "vid": [],
+  "directory_groups": []
 };

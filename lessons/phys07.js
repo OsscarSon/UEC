@@ -177,5 +177,6 @@ window.LESSONS["物理7"]={
   },
   "ex": [],
   "pr": [],
-  "vid": []
+  "vid": [],
+  "directory_groups": []
 };

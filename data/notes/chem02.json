@@ -1,0 +1,1524 @@
+{
+  "2.1.1": {
+    "content_batch": "batch05",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 2,
+    "section_id": "2.1.1",
+    "goals": [
+      "用极性和氢键解释水的物性",
+      "在温压和相态条件内计算热量密度"
+    ],
+    "prerequisites": [
+      "分子间作用",
+      "质量体积与温度"
+    ],
+    "flow": [
+      "极性氢键",
+      "相态温压",
+      "密度异常",
+      "比热与潜热",
+      "溶解导电"
+    ],
+    "concept_relation": "极性氢键；相态温压；密度异常；比热与潜热；溶解导电",
+    "deep": [
+      "比热容较大意味着同质量吸收相同热量时温升较小，不是永远不会变热。Q=mcΔT用于没有相变且c可近似恒定的过程；若跨越熔沸阶段，还需潜热，不能只把整个温差乘c。",
+      "水能溶解许多离子或极性物质，但不是万能溶剂。溶解取决离子/分子与水及原来内部作用的平衡，有的共价物可溶，有的盐难溶；不能只按“盐”或“有机”一个标签决定。",
+      "纯水导电性很弱，水中微量离子及杂质会影响导电，蒸馏水也不是逻辑上绝对没有离子。导电能力不等于是否能溶物，也不能把饮用水和实验纯水的性质无条件互相代替。",
+      "实验物性数据应带温度、压力与纯度。密度计算要区分质量守恒和体积变化，热量是传递过程量，不把“水含有多少热”当与温度完全相同的可直接读取属性。"
+    ],
+    "derive": [
+      "ρ=m/V；相变无物质损失时m可不变而V因ρ改变。",
+      "Q=mcΔT仅用于无相变、比热近似恒定的温变段。",
+      "纯水约0°C熔点与100°C沸点对应约101.325 kPa参考；其他压力与溶质需另审。"
+    ],
+    "examples": [
+      {
+        "q": "100 g水冻结成冰，题给冰密度0.92 g/mL，冰体积多少？若液水近似1.00 g/mL，体积增加多少？",
+        "given": "无损失，密度为题设。",
+        "analysis": "质量不变，体积不同。",
+        "method": "V=m/ρ。",
+        "principle": "质量体积密度关系。",
+        "steps": [
+          "V冰=100/.92≈108.7 mL。",
+          "V水100 mL，增加约8.7 mL。"
+        ],
+        "ans": "约108.7 mL，增8.7 mL。",
+        "verification": "108.7×.92≈100 g。",
+        "pitfall": "冻结后仍强令体积100 mL。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.1.1",
+        "related_sections": []
+      },
+      {
+        "q": "200 g水由20°C到40°C，取c=4.2 J/(g·°C)，无热损且无相变，需热量？",
+        "given": "c按题取常量。",
+        "analysis": "温差20而非末温40。",
+        "method": "Q=mcΔT。",
+        "principle": "显热模型。",
+        "steps": [
+          "ΔT=40−20=20°C。",
+          "Q=200×4.2×20=16800 J。"
+        ],
+        "ans": "1.68×10⁴ J。",
+        "verification": "单位g×J/(g·°C)×°C=J。",
+        "pitfall": "用40作温差或漏质量单位。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.1.1",
+        "related_sections": []
+      },
+      {
+        "q": "各100 g水和某金属，分别吸热420 J，c水4.2、c金属0.42，同单位，无相变，温升各多少？能由此说金属总内能必更高吗？",
+        "given": "只比较给定温升过程。",
+        "analysis": "比热影响ΔT，绝对内能需更多信息。",
+        "method": "ΔT=Q/(mc)。",
+        "principle": "能量温变关系。",
+        "steps": [
+          "水ΔT=420/(100×4.2)=1°C。",
+          "金属ΔT=420/(100×.42)=10°C。"
+        ],
+        "ans": "1°C与10°C；不能由此比较全部内能。",
+        "verification": "金属比热1/10，温升10倍。",
+        "pitfall": "温升大就等于总内能一定大。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.1.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "水在60°C可以蒸发吗？是否已沸腾？",
+        "given": "压力约常压。",
+        "analysis": "蒸发发生于表面多温度。",
+        "method": "区分蒸发与整体沸腾。",
+        "principle": "相变机制条件。",
+        "steps": [
+          "60°C可有蒸发。",
+          "常压纯水未达通常100°C沸点，不因此说已沸腾。"
+        ],
+        "ans": "可蒸发，未必沸腾。",
+        "verification": "晾干常在远低100°C发生。",
+        "pitfall": "只有沸腾才有水蒸气。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.1.1",
+        "related_sections": []
+      },
+      {
+        "q": "冰浮起能只用“冰比水轻”而不指同体积解释吗？",
+        "given": "比较密度不是任意总质量。",
+        "analysis": "轻需同体积基准。",
+        "method": "说密度及浮力。",
+        "principle": "相同体积冰质量较小，浮力可平衡重力。",
+        "steps": [
+          "冰密度小于液水。",
+          "浸入部分即可排开足够质量水，故浮起。"
+        ],
+        "ans": "应明确密度较小，不能任意比总质量。",
+        "verification": "一大块冰仍可能重于一滴水。",
+        "pitfall": "省比较基准造成歧义。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.1.1",
+        "related_sections": []
+      },
+      {
+        "q": "纯水沸腾是H₂O变H₂与O₂吗？",
+        "given": "普通物理汽化。",
+        "analysis": "分子身份保持。",
+        "method": "区分相态与化学变化。",
+        "principle": "汽化主要改变分子间状态。",
+        "steps": [
+          "水蒸气仍主要H₂O分子。",
+          "H₂、O₂生成需化学过程如适当电解，不是普通沸腾。"
+        ],
+        "ans": "不是。",
+        "verification": "水蒸气冷凝得水而非混合气燃烧。",
+        "pitfall": "把气态水当氢氧气。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.1.1",
+        "related_sections": []
+      },
+      {
+        "q": "50 g液水无相变温升10°C，c4.2，需要热多少？若题实际跨沸腾为何此式不足？",
+        "given": "前半题限定单一液相。",
+        "analysis": "区分显热与潜热。",
+        "method": "Q=50×4.2×10。",
+        "principle": "温变与相变能量不同。",
+        "steps": [
+          "Q=2100 J。",
+          "跨相变还需汽化等能量与对应质量，不能只加温差项。"
+        ],
+        "ans": "2100 J；相变需额外资料和能量项。",
+        "verification": "与200g、20°C例按质量温差比例为1/8。",
+        "pitfall": "一式覆盖所有相态过程。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.1.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "水能溶食盐又能溶糖，能说两溶液都靠同样数量的自由离子导电吗？",
+      "given": "溶质不同。",
+      "analysis": "溶解与离子生成不同。",
+      "method": "分别看离子盐与分子糖。",
+      "principle": "导电需要移动电荷。",
+      "steps": [
+        "食盐在水中提供离子。",
+        "糖主要以分子存在，不能仅因溶解就说提供相同离子。"
+      ],
+      "ans": "不能。",
+      "verification": "同浓度可有不同导电行为。",
+      "pitfall": "把溶解全等同电离。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 2,
+      "primary_section": "2.1.1",
+      "related_sections": []
+    },
+    "exam": [
+      "物性题从分子间作用解释，普通汽化不断O—H全部键",
+      "热量题先判相态、c条件与温差，再算单位",
+      "密度题保持质量收支，冻结体积不强行不变，比较需同基准"
+    ],
+    "quick": [
+      "极性氢键",
+      "相态温压",
+      "密度异常",
+      "比热与潜热",
+      "溶解导电"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html",
+        "page": 23,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_2.1.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/10-1-intermolecular-forces",
+        "page_or_section": "10-1-intermolecular-forces",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html",
+        "page": 23,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_2.1.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/10-1-intermolecular-forces",
+        "page_or_section": "10-1-intermolecular-forces",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "物性题从分子间作用解释，普通汽化不断O—H全部键",
+      "method": "ΔT=Q/(mc)。",
+      "principle": "能量温变关系。",
+      "worked_example_index": 2,
+      "verification": "金属比热1/10，温升10倍。",
+      "pitfall": "温升大就等于总内能一定大。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用极性和氢键解释水的物性”的抽样复核：108.7×.92≈100 g。；若出现“冻结后仍强令体积100 mL。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“在温压和相态条件内计算热量密度”的抽样复核：金属比热1/10，温升10倍。；若出现“温升大就等于总内能一定大。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把溶解全等同电离。",
+        "correction": "不能。",
+        "verification": "同浓度可有不同导电行为。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "水的氢键物性与相变",
+      "objects": [
+        "水分子间氢键",
+        "冰与液水相对结构",
+        "100g体积比较",
+        "单相加热段",
+        "相变条件框"
+      ],
+      "relations": [
+        "普通汽化仍H₂O",
+        "冰密度较小体积较大",
+        "Q=mcΔT不含潜热",
+        "沸点注明压力"
+      ],
+      "labels": [
+        "分子间氢键",
+        "O—H共价键",
+        "0.92 g/mL为题设",
+        "101.325kPa",
+        "约4°C密度最大"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "已有水氢键图可复核复用；密度与相变需准确新图",
+      "english": "Distinguish intermolecular hydrogen bonds from intramolecular O-H bonds, compare the less dense ice network with liquid water qualitatively, and show 100 g occupying about108.7 mL at the stated ice density0.92 g/mL. Label pressure-dependent phase points and keep latent heat separate from mcDeltaT."
+    }
+  },
+  "2.1.2": {
+    "content_batch": "batch05",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 2,
+    "section_id": "2.1.2",
+    "goals": [
+      "按条件描述水与金属氧化物的反应",
+      "由电解与氧化还原追踪原子和电子"
+    ],
+    "prerequisites": [
+      "化学方程配平",
+      "氧化数与气体体积"
+    ],
+    "flow": [
+      "水与金属",
+      "氧化物水合",
+      "电解条件",
+      "体积质量比",
+      "电子收支"
+    ],
+    "concept_relation": "水与金属；氧化物水合；电解条件；体积质量比；电子收支",
+    "deep": [
+      "部分碱性氧化物与水生成碱，如CaO+H₂O→Ca(OH)₂并放热；不是所有金属氧化物都与水这样反应。部分酸性氧化物可与水成酸，CO₂+H₂O⇌H₂CO₃有平衡，不能说所有溶解CO₂都完全转为强酸。",
+      "水在适当电解条件下分解为氢与氧，总式2H₂O→2H₂+O₂，电能提供驱动。惰性电极与合适电解质用于相应模型；任意加盐并不保证只得到氢氧，氯化物等可能带来其他电极产物。",
+      "在同温同压且纯气计量条件下，氢氧体积比2:1来自系数对应摩尔比，质量比却为1:8。体积比不等于质量比，湿气、溶解损失与不同条件可影响实际测量；气体鉴别不能省略规范与防混合条件。",
+      "从氧化数看，钠与水反应中Na由0到+1，水中H由+1到0，水可作氧化剂；电解中H被还原、O被氧化。一个物质可在不同过程有不同角色，不能只由元素名称固定谁永远是氧化或还原剂。"
+    ],
+    "derive": [
+      "2Na+2H₂O→2NaOH+H₂；3Fe+4H₂O(g)→Fe₃O₄+4H₂（相应高温）。",
+      "CaO+H₂O→Ca(OH)₂；CO₂+H₂O⇌H₂CO₃（不能全写单向完全）。",
+      "2H₂O→2H₂+O₂：同T/P理想气V比2:1，m比4:32=1:8。"
+    ],
+    "examples": [
+      {
+        "q": "0.20 mol Na与足量水按主反应，理论H₂、NaOH各多少？",
+        "given": "2Na+2H₂O→2NaOH+H₂。",
+        "analysis": "系数比2:1:2。",
+        "method": "先按Na摩尔数比例。",
+        "principle": "原子及电子守恒。",
+        "steps": [
+          "H₂=.10 mol。",
+          "NaOH=.20 mol。"
+        ],
+        "ans": ".10 molH₂、.20 molNaOH。",
+        "verification": "Na .20 mol由0到+1失.20 mol电子，H₂ .10接受.20 mol电子。",
+        "pitfall": "Na与H₂也按1:1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.1.2",
+        "related_sections": []
+      },
+      {
+        "q": "电解18.0 g水，取M18，理论氢氧各n、质量比及同温同压体积比。",
+        "given": "足量电能，按总反应完全，无其他反应。",
+        "analysis": "摩尔、质量、体积三个指标分开。",
+        "method": "n水1 mol，系数2:2:1。",
+        "principle": "总式及同条件气体模型。",
+        "steps": [
+          "H₂1 mol、O₂.5 mol。",
+          "质量2 g与16 g，比1:8。",
+          "体积比1:.5=2:1。"
+        ],
+        "ans": "1 molH₂、.5 molO₂，质量1:8、体积2:1。",
+        "verification": "2+16=18 g守恒。",
+        "pitfall": "把体积2:1直接写成质量比。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.1.2",
+        "related_sections": []
+      },
+      {
+        "q": "学生把铁与蒸气反应写2Fe+3H₂O→Fe₂O₃+3H₂，原子虽平衡能否替代本节经典反应？",
+        "given": "题目指定相应高温铁—水蒸气主模型。",
+        "analysis": "配平只是必要，不决定真实产物。",
+        "method": "核实验条件与已知产物。",
+        "principle": "科学方程须同时符合现象与守恒。",
+        "steps": [
+          "应使用3Fe+4H₂O(g)→Fe₃O₄+4H₂及条件。",
+          "错误产物即使配平也不能冒充指定实际反应。"
+        ],
+        "ans": "不能。",
+        "verification": "真实产物信息不能由守恒唯一推出。",
+        "pitfall": "配平通过就认为任何产物都真。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.1.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "CaO与水反应产物及反应类型线索？",
+        "given": "对应生石灰水合。",
+        "analysis": "核Ca/O/H。",
+        "method": "CaO+H₂O→Ca(OH)₂。",
+        "principle": "元素守恒与碱性氧化物例。",
+        "steps": [
+          "产物氢氧化钙。",
+          "反应放热，但不推广所有金属氧化物。"
+        ],
+        "ans": "Ca(OH)₂。",
+        "verification": "两侧Ca1、O2、H2。",
+        "pitfall": "把产物写CaOH或所有氧化物都同样。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.1.2",
+        "related_sections": []
+      },
+      {
+        "q": "铜片放普通水中，可以照活泼金属模板立刻写Cu(OH)₂与H₂吗？",
+        "given": "无特殊氧化剂或电解。",
+        "analysis": "模板适用对象有限。",
+        "method": "看活泼性与条件。",
+        "principle": "反应可行性不由形式配平保证。",
+        "steps": [
+          "铜不按该普通水直接置氢模型反应。",
+          "不能套Na/Ca式强写现象。"
+        ],
+        "ans": "不可以。",
+        "verification": "无观察支持且反应条件不符。",
+        "pitfall": "看到金属就都与水放氢。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.1.2",
+        "related_sections": []
+      },
+      {
+        "q": "同条件收得纯H₂40 mL，理想水电解模型对应O₂体积？这说明氧质量只有一半吗？",
+        "given": "相同温压，忽略损失。",
+        "analysis": "体积比2:1不代表质量比。",
+        "method": "V氧=40/2。",
+        "principle": "摩尔比与分子量。",
+        "steps": [
+          "O₂20 mL。",
+          "氧质量反而为氢8倍，需乘摩尔质量。"
+        ],
+        "ans": "20 mL；不能说质量一半。",
+        "verification": "同体积O₂的M32大于H₂2。",
+        "pitfall": "体积比直接当质量比。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.1.2",
+        "related_sections": []
+      },
+      {
+        "q": "Na与水中H氧化数各怎样变，水是哪种剂？",
+        "given": "只讨论该主反应。",
+        "analysis": "追踪电子。",
+        "method": "Na0→+1，H+1→0。",
+        "principle": "失电子氧化、得电子还原。",
+        "steps": [
+          "Na被氧化。",
+          "水中H被还原，因此水在此作氧化剂。"
+        ],
+        "ans": "水为氧化剂。",
+        "verification": "2Na失2e，对应2H得2e成H₂。",
+        "pitfall": "因为水供H就固定叫还原剂。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.1.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "为提高水导电性任意加入食盐，能保证气体仍只有H₂与O₂吗？",
+      "given": "电解质改为含Cl⁻体系。",
+      "analysis": "电极产物还受离子和条件影响。",
+      "method": "区分总水电解教学模型。",
+      "principle": "其他可反应离子可能参与电极过程。",
+      "steps": [
+        "Cl⁻等可能在阳极参与生成不同产物。",
+        "须用适当体系和条件，不能由导电增强推出产物不变。"
+      ],
+      "ans": "不能保证。",
+      "verification": "导电性与选择性是不同问题。",
+      "pitfall": "把电解质只当永远不反应背景。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 2,
+      "primary_section": "2.1.2",
+      "related_sections": []
+    },
+    "exam": [
+      "反应题既核配平也核产物和条件，水/蒸气不混",
+      "电解题分n、m、V比，同温压条件写清",
+      "氧化还原题逐元素标数及电子，不凭物质名称固定角色"
+    ],
+    "quick": [
+      "水与金属",
+      "氧化物水合",
+      "电解条件",
+      "体积质量比",
+      "电子收支"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html",
+        "page": 25,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_2.1.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis",
+        "page_or_section": "17-7-electrolysis",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html",
+        "page": 25,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_2.1.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis",
+        "page_or_section": "17-7-electrolysis",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "反应题既核配平也核产物和条件，水/蒸气不混",
+      "method": "核实验条件与已知产物。",
+      "principle": "科学方程须同时符合现象与守恒。",
+      "worked_example_index": 2,
+      "verification": "真实产物信息不能由守恒唯一推出。",
+      "pitfall": "配平通过就认为任何产物都真。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“按条件描述水与金属氧化物的反应”的抽样复核：Na .20 mol由0到+1失.20 mol电子，H₂ .10接受.20 mol电子。；若出现“Na与H₂也按1:1。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e1",
+        "review_module": 5,
+        "feedback": "目标“由电解与氧化还原追踪原子和电子”的抽样复核：2+16=18 g守恒。；若出现“把体积2:1直接写成质量比。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把电解质只当永远不反应背景。",
+        "correction": "不能保证。",
+        "verification": "导电性与选择性是不同问题。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "水反应与电解条件",
+      "objects": [
+        "Na水反应",
+        "铁蒸气Fe₃O₄",
+        "适当水电解两极",
+        "H₂/O₂量比",
+        "氧化数变化"
+      ],
+      "relations": [
+        "H₂:O₂体积2:1同T/P",
+        "质量1:8",
+        "氢在阴极氧在阳极的相应模型",
+        "电解质不任意"
+      ],
+      "labels": [
+        "2H₂O→2H₂+O₂",
+        "高温水蒸气",
+        "Fe₃O₄",
+        "惰性电极/适当电解质",
+        "非通用盐水模型"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "现有电解图须核极性、气体与电解质后复用",
+      "english": "Draw the specified water reactions with correct conditions, especially Fe3O4 from hot iron and steam. For the appropriate inert-electrode water-electrolysis model, show hydrogen at the cathode and oxygen at the anode, volume ratio2:1 at equal T/P but mass ratio1:8. Do not imply arbitrary chloride electrolyte gives the same products."
+    }
+  },
+  "2.2.1": {
+    "content_batch": "batch05",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 2,
+    "section_id": "2.2.1",
+    "goals": [
+      "按金属酸与电解条件选择制氢方法",
+      "由气路和限量计量评价实验结果"
+    ],
+    "prerequisites": [
+      "金属活动性",
+      "水电解与限量反应"
+    ],
+    "flow": [
+      "反应选择",
+      "装置气路",
+      "收集与初始空气",
+      "工业来源",
+      "限量收率"
+    ],
+    "concept_relation": "反应选择；装置气路；收集与初始空气；工业来源；限量收率",
+    "deep": [
+      "氢气难溶水且密度低，可按规范排水或用适合的排空气方式收集。收集瓶朝向和气路应由气体运动与排出空气方向解释；“气体轻”不能保证装置中没有空气混合，点燃或加热前需规范检查。",
+      "初始装置含空气，前段气体未必纯氢。气密性、漏气、溶解、湿气与原料纯度等影响实收量，实际收集不足不立刻证明方程错误；理论计量与实验偏差应分层讨论。",
+      "工业制氢可有电解水、烃重整等路线，整体物料与能量来源不同。电解的用电来源决定部分上游环境负担，烃路线可能产生含碳副产物；不能把所有氢称为无上游排放的天然能源。",
+      "计算题先配平与判限量，质量到摩尔再到目标量，最后按相应温压求体积。没有给气体纯度、压力或温度时，不能装作已得精确干气量；题设理想数据则把假设写明。"
+    ],
+    "derive": [
+      "Zn+2HCl→ZnCl₂+H₂；Zn+H₂SO₄(稀)→ZnSO₄+H₂。",
+      "n理论H₂=min(nZn,nHCl/2)；若用酸类型不同，先核反应路径。",
+      "气路检查包括密封、出口、漏斗控制、收集朝向及初始空气，不能凭方程决定全部装置正确。"
+    ],
+    "examples": [
+      {
+        "q": "6.5 g纯Zn与过量稀HCl反应，取MZn65、Vm22.4 L/mol（0°C101.325kPa），理论H₂体积？",
+        "given": "完全反应、干气理想近似。",
+        "analysis": "Zn与H₂为1:1。",
+        "method": "nZn=6.5/65。",
+        "principle": "配平方程。",
+        "steps": [
+          "n=.10 mol。",
+          "V=.10×22.4=2.24 L。"
+        ],
+        "ans": "2.24 L，指定条件。",
+        "verification": "消耗HCl .20 mol；Zn质量转化计量一致。",
+        "pitfall": "直接用6.5/2求氢摩尔数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.2.1",
+        "related_sections": []
+      },
+      {
+        "q": "Zn .10 mol与HCl .15 mol反应，求H₂和余Zn。",
+        "given": "稀盐酸模型。",
+        "analysis": "酸需2:1。",
+        "method": "比较.10与.15/2。",
+        "principle": "限量比。",
+        "steps": [
+          "HCl限量，H₂ .075 mol。",
+          "消耗Zn .075，余.025 mol。"
+        ],
+        "ans": ".075 molH₂、余.025 molZn。",
+        "verification": "消耗HCl2×.075=.15恰尽。",
+        "pitfall": "一律按金属全反应给.10。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.2.1",
+        "related_sections": []
+      },
+      {
+        "q": "要用稀盐酸制氢，选Zn还是Cu？若实际起初气体不纯，该怎样解释而非改写反应？",
+        "given": "只有普通金属酸模型。",
+        "analysis": "可反应材料与装置空气是两层。",
+        "method": "按活动性选，再查气路。",
+        "principle": "Zn可置氢，Cu不按此模型。",
+        "steps": [
+          "选Zn。",
+          "初始空气与生成气混合，需按规范排查检验，不把初段混合误称生成了新反应物。"
+        ],
+        "ans": "选Zn；不纯可来自初始空气等。",
+        "verification": "化学式正确与收集气体纯度不同。",
+        "pitfall": "因一开始气体不纯就否定Zn方程。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.2.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "锌与稀硫酸生成哪种盐？配方程。",
+        "given": "按非氧化性稀酸置氢。",
+        "analysis": "Zn转+2。",
+        "method": "Zn+H₂SO₄→ZnSO₄+H₂。",
+        "principle": "原子和电荷状态。",
+        "steps": [
+          "盐为ZnSO₄。",
+          "系数均1，两侧Zn1S1O4H2。"
+        ],
+        "ans": "ZnSO₄与H₂。",
+        "verification": "与盐酸2HCl所给H原子数对比。",
+        "pitfall": "把盐写Zn₂SO₄。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.2.1",
+        "related_sections": []
+      },
+      {
+        "q": "敞口长颈漏斗下端在液面上方，气体是否可能从漏斗逃逸？",
+        "given": "装置依液封阻气。",
+        "analysis": "缺液封可连通外界。",
+        "method": "追踪气路。",
+        "principle": "气体可沿低阻通路逸出。",
+        "steps": [
+          "若下端不入液，气体可由漏斗通向空气。",
+          "按正确规范修装置，不能仅靠瓶塞存在就说完全密封。"
+        ],
+        "ans": "可能。",
+        "verification": "分液漏斗有活塞时需另按结构分析。",
+        "pitfall": "两类漏斗混为同一控制方式。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.2.1",
+        "related_sections": []
+      },
+      {
+        "q": "所有酸都可替代稀盐酸按同一方式给H₂吗？",
+        "given": "包括氧化性酸。",
+        "analysis": "反应路线不同。",
+        "method": "审酸性质与浓度。",
+        "principle": "形式相似不保证同产物。",
+        "steps": [
+          "氧化性酸可有其他还原产物。",
+          "需具体条件，不能机械套金属+酸→氢气。"
+        ],
+        "ans": "不可以一概替代。",
+        "verification": "反应物身份是模型条件。",
+        "pitfall": "只看有H就说必生成H₂。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.2.1",
+        "related_sections": []
+      },
+      {
+        "q": "10 g样品含Zn65%，酸过量，理论H₂ .10 mol，实收.080 mol，求产率并区分65%。",
+        "given": "杂质不产气。",
+        "analysis": "纯度先决定可反应量。",
+        "method": "mZn6.5g→.10 mol；实/理论。",
+        "principle": "纯度与收率定义。",
+        "steps": [
+          "产率.080/.10=80%。",
+          "65%为原料质量分数，不是收气效率。"
+        ],
+        "ans": "80%；65%是纯度。",
+        "verification": "若用10g纯锌理论会错大。",
+        "pitfall": "把两个百分数当同一指标。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.2.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "装置有通气口但气体未检验即可对反应瓶点火，能作为正确制氢示意吗？",
+      "given": "初始空气可能存在，可燃气。",
+      "analysis": "出口不等于气体已纯。",
+      "method": "按气路与规范检查。",
+      "principle": "可燃混合物不能凭想象排除。",
+      "steps": [
+        "图需保留规范检验与防混合条件。",
+        "不能把反应瓶直接点火作为通用步骤，应修正后再使用。"
+      ],
+      "ans": "不能。",
+      "verification": "产氢化学事实不证明任意点燃位置正确。",
+      "pitfall": "有方程就忽略气路和空气。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 2,
+      "primary_section": "2.2.1",
+      "related_sections": []
+    },
+    "exam": [
+      "方法题先核金属、酸与浓度，不用通式替代条件",
+      "装置题沿气路检查漏斗、液封、出口与初始空气",
+      "计量题纯度限量理论产量先算，再解释实际收率和温压"
+    ],
+    "quick": [
+      "反应选择",
+      "装置气路",
+      "收集与初始空气",
+      "工业来源",
+      "限量收率"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html",
+        "page": 30,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_2.2.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/18-5-occurrence-preparation-and-compounds-of-hydrogen",
+        "page_or_section": "18-5-occurrence-preparation-and-compounds-of-hydrogen",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html",
+        "page": 30,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_2.2.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/18-5-occurrence-preparation-and-compounds-of-hydrogen",
+        "page_or_section": "18-5-occurrence-preparation-and-compounds-of-hydrogen",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "方法题先核金属、酸与浓度，不用通式替代条件",
+      "method": "按活动性选，再查气路。",
+      "principle": "Zn可置氢，Cu不按此模型。",
+      "worked_example_index": 2,
+      "verification": "化学式正确与收集气体纯度不同。",
+      "pitfall": "因一开始气体不纯就否定Zn方程。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“按金属酸与电解条件选择制氢方法”的抽样复核：消耗HCl .20 mol；Zn质量转化计量一致。；若出现“直接用6.5/2求氢摩尔数。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“由气路和限量计量评价实验结果”的抽样复核：化学式正确与收集气体纯度不同。；若出现“因一开始气体不纯就否定Zn方程。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "有方程就忽略气路和空气。",
+        "correction": "不能。",
+        "verification": "产氢化学事实不证明任意点燃位置正确。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "氢气制取的反应与气路",
+      "objects": [
+        "Zn稀酸反应器",
+        "敞口长颈漏斗液封",
+        "分液漏斗另图",
+        "导气出口",
+        "排水收集",
+        "初始空气框"
+      ],
+      "relations": [
+        "Zn:H₂=1:1",
+        "HCl:Zn=2:1",
+        "不把两种漏斗混画",
+        "不点燃反应瓶"
+      ],
+      "labels": [
+        "稀非氧化性酸",
+        "液封",
+        "通畅气路",
+        "规范检验",
+        "指定温压"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "需要可靠装置原图；未审核图不放正式页面",
+      "english": "Show zinc reacting with dilute nonoxidizing acid, distinguish an open thistle funnel requiring a liquid seal from a stopcock dropping funnel, and trace the gas outlet and appropriate collection route. Mark initial air and verification requirements; never show ignition at the reaction vessel or a blocked sealed gas path."
+    }
+  },
+  "2.2.2": {
+    "content_batch": "batch05",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 2,
+    "section_id": "2.2.2",
+    "goals": [
+      "由分子和反应条件说明氢的物化性质",
+      "用氧化数与计量解释燃烧和还原"
+    ],
+    "prerequisites": [
+      "氢气制取",
+      "氧化还原与气体"
+    ],
+    "flow": [
+      "低密度分子",
+      "燃烧与相态",
+      "金属氧化物还原",
+      "氧化数",
+      "实验对照"
+    ],
+    "concept_relation": "低密度分子；燃烧与相态；金属氧化物还原；氧化数；实验对照",
+    "deep": [
+      "氢可在适当加热条件下还原某些金属氧化物，例如CuO+H₂→Cu+H₂O。黑色氧化铜变为相应铜色并产生水是此模型现象；并非所有金属氧化物都能按同条件被H₂还原，不能以“还原剂”三个字覆盖可行性。",
+      "此反应中H从0到+1被氧化，Cu从+2到0被还原，所以H₂作还原剂。氢在多数非金属化合物中常+1，但在某些金属氢化物中可−1，不能把元素氢氧化数固定为一个值。",
+      "实验还原装置需按规范先处理空气与气流，再加热和冷却，不能对含氢氧混合的系统任意加热。水滴出现也要排除原来湿气，观察与对照应支持水由反应产生，而不是看见冷凝就跳到唯一来源。",
+      "解释氢性质时把物理分离、化学反应和能源功能区分。氢“轻”影响收集和储存，氢“可燃”涉及化学能释放，二者不是同一种性质，也不能由轻就说燃烧必快或单位体积能量一定最高。"
+    ],
+    "derive": [
+      "2H₂+O₂→2H₂O；同温压n/V比2:1:2只对相应气态计量条件使用。",
+      "CuO+H₂→Cu+H₂O（加热等适用条件）；H0→+1，Cu+2→0。",
+      "NaH等金属氢化物中H可为−1，H₂单质为0；氧化数依化合物。"
+    ],
+    "examples": [
+      {
+        "q": "0.30 mol H₂与0.10 mol O₂反应，求理论水n及剩余气体。",
+        "given": "按主反应完全到限量尽。",
+        "analysis": "氧需与两倍氢配合。",
+        "method": "nH₂/2与nO₂比较。",
+        "principle": "配平方程。",
+        "steps": [
+          "O₂ .10限量，消耗H₂ .20。",
+          "生成H₂O .20 mol，余H₂ .10 mol。"
+        ],
+        "ans": "水.20 mol，余H₂.10 mol。",
+        "verification": "H原子初.60，末水.40+余氢.20一致。",
+        "pitfall": "氢全部反应而忽略氧不足。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.2.2",
+        "related_sections": []
+      },
+      {
+        "q": "7.95 g CuO被足量H₂还原，取CuO79.5、Cu63.5、水18、H₂2，求铜、水及氢消耗质量。",
+        "given": "完全主反应模型。",
+        "analysis": "CuO摩尔数先求。",
+        "method": "n=.10 mol，均1:1。",
+        "principle": "原子及电子守恒。",
+        "steps": [
+          "Cu=6.35 g，水1.80 g。",
+          "H₂消耗.20 g。"
+        ],
+        "ans": "6.35g铜、1.80g水、.20g氢。",
+        "verification": "7.95+.20=6.35+1.80=8.15 g。",
+        "pitfall": "把CuO全部质量当铜质量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.2.2",
+        "related_sections": []
+      },
+      {
+        "q": "CuO还原实验见水滴，能仅此证明水全部来自CuO与H₂反应？",
+        "given": "气体与装置原本湿度未控制。",
+        "analysis": "可能有背景水。",
+        "method": "设干气/空白或前后证据。",
+        "principle": "因果结论需排除混杂。",
+        "steps": [
+          "观察到水与反应生成相容。",
+          "需排原气水蒸气、装置残水等，结合CuO变化和对照，才能更强归因。"
+        ],
+        "ans": "不能仅凭水滴。",
+        "verification": "未反应的湿气也可冷凝。",
+        "pitfall": "一个现象即唯一来源证明。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.2.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "H₂燃烧产物能写为H₂O₂吗？题设为通常完全燃烧。",
+        "given": "指定反应条件。",
+        "analysis": "守恒允许多式但实际主产物有条件。",
+        "method": "核通常产物并配平。",
+        "principle": "反应事实与守恒共同决定方程。",
+        "steps": [
+          "通常写2H₂+O₂→2H₂O。",
+          "H₂O₂不是此题通常燃烧主产物，不能因可配平而替换。"
+        ],
+        "ans": "不能。",
+        "verification": "氧氢守恒只是必要检查。",
+        "pitfall": "任意含H/O分子都当燃烧产物。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.2.2",
+        "related_sections": []
+      },
+      {
+        "q": "CuO+H₂中哪种物质被氧化、哪种被还原？",
+        "given": "适当加热反应。",
+        "analysis": "追踪H、Cu。",
+        "method": "氧化数变化。",
+        "principle": "失电子氧化、得电子还原。",
+        "steps": [
+          "H₂的H0到+1，被氧化。",
+          "CuO中Cu+2到0，被还原。"
+        ],
+        "ans": "H₂被氧化，CuO被还原。",
+        "verification": "H₂为还原剂，名称与自身被氧化不矛盾。",
+        "pitfall": "还原剂自身也被还原。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.2.2",
+        "related_sections": []
+      },
+      {
+        "q": "NaH、H₂O、H₂中H氧化数分别？",
+        "given": "Na通常+1，O通常−2。",
+        "analysis": "按电荷和。",
+        "method": "中性化合物氧化数和0。",
+        "principle": "氧化数规则。",
+        "steps": [
+          "NaH中H−1。",
+          "H₂O中H+1，单质H₂中H0。"
+        ],
+        "ans": "−1、+1、0。",
+        "verification": "各总和满足中性或单质规则。",
+        "pitfall": "氢永远+1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.2.2",
+        "related_sections": []
+      },
+      {
+        "q": "3.18 g CuO理论生成Cu多少g？若实际金属2.40 g，纯铜产率约多少？取M79.5、63.5。",
+        "given": "产品纯且反应计量为1:1。",
+        "analysis": "先理论质量再比较。",
+        "method": "3.18/79.5×63.5。",
+        "principle": "产率定义。",
+        "steps": [
+          "nCuO=.040 mol，理论Cu2.54 g。",
+          "产率2.40/2.54≈94.5%。"
+        ],
+        "ans": "理论2.54 g，产率约94.5%。",
+        "verification": ".04×63.5=2.54，与原CuO中铜比例一致。",
+        "pitfall": "直接2.40/3.18当铜产率。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.2.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "氢气很轻与氢气能还原CuO分别属于哪类性质？能由前者推出后者吗？",
+      "given": "一项不改变组成，一项发生化学转化。",
+      "analysis": "物理与化学层次不同。",
+      "method": "分类并说明证据。",
+      "principle": "化学性涉及生成新物。",
+      "steps": [
+        "低密度为物理性质。",
+        "还原CuO为化学性质，不能仅从密度推反应可行。"
+      ],
+      "ans": "物理、化学；不能直接推。",
+      "verification": "其他轻气体不一定有相同还原行为。",
+      "pitfall": "把轻、易燃、还原当同义。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 2,
+      "primary_section": "2.2.2",
+      "related_sections": []
+    },
+    "exam": [
+      "性质题分物化与反应条件，H₂稳定性不绝对",
+      "还原题逐元素标氧化数，剂与自身变化别反写",
+      "定量题从CuO摩尔到铜，产率以目标理论质量为分母"
+    ],
+    "quick": [
+      "低密度分子",
+      "燃烧与相态",
+      "金属氧化物还原",
+      "氧化数",
+      "实验对照"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html",
+        "page": 32,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_2.2.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/18-5-occurrence-preparation-and-compounds-of-hydrogen",
+        "page_or_section": "18-5-occurrence-preparation-and-compounds-of-hydrogen",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html",
+        "page": 32,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_2.2.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/18-5-occurrence-preparation-and-compounds-of-hydrogen",
+        "page_or_section": "18-5-occurrence-preparation-and-compounds-of-hydrogen",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "性质题分物化与反应条件，H₂稳定性不绝对",
+      "method": "设干气/空白或前后证据。",
+      "principle": "因果结论需排除混杂。",
+      "worked_example_index": 2,
+      "verification": "未反应的湿气也可冷凝。",
+      "pitfall": "一个现象即唯一来源证明。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由分子和反应条件说明氢的物化性质”的抽样复核：H原子初.60，末水.40+余氢.20一致。；若出现“氢全部反应而忽略氧不足。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e1",
+        "review_module": 5,
+        "feedback": "目标“用氧化数与计量解释燃烧和还原”的抽样复核：7.95+.20=6.35+1.80=8.15 g。；若出现“把CuO全部质量当铜质量。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把轻、易燃、还原当同义。",
+        "correction": "物理、化学；不能直接推。",
+        "verification": "其他轻气体不一定有相同还原行为。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "氢的燃烧与还原",
+      "objects": [
+        "H₂/O₂到水",
+        "CuO黑到Cu色",
+        "H/Cu氧化数箭头",
+        "冷凝水对照",
+        "相态条件框"
+      ],
+      "relations": [
+        "CuO:H₂:Cu:H₂O=1:1:1:1",
+        "H氧化Cu还原",
+        "冷凝不自动唯一来源",
+        "不任意加热含空气系统"
+      ],
+      "labels": [
+        "加热条件",
+        "H0→+1",
+        "Cu+2→0",
+        "水蒸气/液水区分",
+        "对照"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "暂无已审装置图；结构气路必须参考可靠教师图",
+      "english": "Balance hydrogen combustion and CuO reduction, mark H from0 to+1 and Cu from+2 to0, and distinguish water-vapour versus liquid-water energy conventions. If depicting apparatus, show verified gas-flow and air-removal conditions and include a background-moisture control rather than treating any condensate as unique proof."
+    }
+  },
+  "2.2.3": {
+    "content_batch": "batch05",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 2,
+    "section_id": "2.2.3",
+    "goals": [
+      "将氢的反应性质连到合成燃料还原用途",
+      "以能量收支评价氢能源和环境边界"
+    ],
+    "prerequisites": [
+      "氢性质",
+      "功率效率与物料收支"
+    ],
+    "flow": [
+      "合成原料",
+      "催化加氢",
+      "还原用途",
+      "燃烧/燃料电池",
+      "储运与生命周期"
+    ],
+    "concept_relation": "合成原料；催化加氢；还原用途；燃烧/燃料电池；储运与生命周期",
+    "deep": [
+      "氢燃烧可释放能量，燃料电池则通过相应电化学过程把部分化学能转为电能，总反应也可为2H₂+O₂→2H₂O。总方程相同不意味着能量转化途径、效率和装置都相同；效率定义要说明输入和有用输出。",
+      "氢通常是能源载体，制备需要原料与能量。使用端不直接排CO₂不等于全生命周期零排放，电力、烃制氢、运输、储存和设备制造等均可能有负担；不同路线需要同一功能单位比较。",
+      "氢质量轻而常温常压体积大，储运与材料要求是技术限制。高比能的质量指标不等于体积指标也高；压缩、液化或化学储氢各有条件和能耗，不能仅凭“最轻”就说储存最方便。",
+      "技术评价应连结构/反应、可测性能、条件、能耗与风险，区分理想计量和实际装置。题给热值和效率是本题模型，不冒充所有燃料电池或工业反应的统一数据；可靠使用方式仍由专业规范决定。"
+    ],
+    "derive": [
+      "N₂+3H₂⇌2NH₃：理论n比1:3:2，实际转化率另给。",
+      "燃料电池效率η=有用电能/题定化学能输入；E电=ηE输入。",
+      "0°C101.325kPa的理想近似体积V=n×22.4 L；质量与体积能量指标不同。"
+    ],
+    "examples": [
+      {
+        "q": "理论用.30 mol H₂合成氨，需N₂多少、得NH₃多少及质量？取MNH₃17。",
+        "given": "只求理论完全转化，不代表实际单程。",
+        "analysis": "1:3:2。",
+        "method": "按H₂系数。",
+        "principle": "物料守恒。",
+        "steps": [
+          "需N₂ .10 mol，NH₃ .20 mol。",
+          "m氨=.20×17=3.4 g。"
+        ],
+        "ans": ".10 molN₂、.20 molNH₃、3.4g。",
+        "verification": "原料质量H₂ .6g加N₂2.8g=3.4g。",
+        "pitfall": "把理论等同实际平衡转化率100%。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.2.3",
+        "related_sections": []
+      },
+      {
+        "q": "题给每mol H₂反应生成水蒸气可释放242 kJ，某装置电输出效率60%，1 mol可输出多少电能？",
+        "given": "效率按给定化学能基准。",
+        "analysis": "输出是输入一部分。",
+        "method": "E电=.60×242。",
+        "principle": "能量收支与效率。",
+        "steps": [
+          "E电=145.2 kJ。",
+          "其余96.8 kJ按该边界为其他能量去向。"
+        ],
+        "ans": "145.2 kJ。",
+        "verification": "145.2+96.8=242；不能混用液水热值。",
+        "pitfall": "既算满242电又加60%造成重复。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.2.3",
+        "related_sections": []
+      },
+      {
+        "q": "1.0 kg H₂在0°C101.325kPa按M2、Vm22.4近似占多少体积？这说明何种储运挑战？",
+        "given": "未压缩理想模型。",
+        "analysis": "轻质量对应大常压体积。",
+        "method": "n=m/M，再V。",
+        "principle": "气体计量。",
+        "steps": [
+          "n=1000/2=500 mol。",
+          "V=500×22.4=11200 L=11.2 m³。"
+        ],
+        "ans": "约11.2 m³，常压体积大。",
+        "verification": "1 m³=1000 L；质量比能高不自动体积小。",
+        "pitfall": "把1kg轻就等同易小罐储存。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.2.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "合成氨中.10 mol N₂、.15 mol H₂，理论氨多少？",
+        "given": "主反应完全到限量尽。",
+        "analysis": "氢需3倍而不足。",
+        "method": "比nN₂与nH₂/3。",
+        "principle": "限量计量。",
+        "steps": [
+          "H₂限量，反应进度.05 mol。",
+          "氨2×.05=.10 mol。"
+        ],
+        "ans": ".10 molNH₃。",
+        "verification": "剩N₂ .05mol，H₂消耗.15mol。",
+        "pitfall": "按N₂全转得.20mol。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.2.3",
+        "related_sections": []
+      },
+      {
+        "q": "燃烧与燃料电池总反应相同，可说装置原理完全相同吗？",
+        "given": "同总反应不含过程信息。",
+        "analysis": "化学能到热/电途径不同。",
+        "method": "分别描述转换。",
+        "principle": "总式不唯一确定过程。",
+        "steps": [
+          "燃烧主要直接放热。",
+          "燃料电池由电极反应与外电路提供电能，效率边界不同。"
+        ],
+        "ans": "不能。",
+        "verification": "同起终物质可经不同能量转换路径。",
+        "pitfall": "总式相同就认为一套器材通用。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.2.3",
+        "related_sections": []
+      },
+      {
+        "q": "用电解制H₂使用端无CO₂，就必全周期零排放吗？",
+        "given": "电力来源未给。",
+        "analysis": "上游可能排放。",
+        "method": "扩大到明确生命周期边界。",
+        "principle": "排放收支跨多个环节。",
+        "steps": [
+          "制电、设备、储运等需评估。",
+          "可说指定使用反应不直接生成CO₂，不能说全部环节0。"
+        ],
+        "ans": "不必。",
+        "verification": "电源不同会改同样氢的上游负担。",
+        "pitfall": "只看末反应无C元素。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.2.3",
+        "related_sections": []
+      },
+      {
+        "q": "题给氢能源输入1000 kJ，电输出550 kJ，求效率；若同样输出另一方案需1200 kJ，效率谁高？",
+        "given": "相同有用输出口径。",
+        "analysis": "输入输出不能互换。",
+        "method": "η=E出/E入。",
+        "principle": "效率定义。",
+        "steps": [
+          "第一55%。",
+          "第二550/1200≈45.8%，第一较高；完整环境评价仍不只效率。"
+        ],
+        "ans": "55%与约45.8%。",
+        "verification": "相同输出第一消耗输入较少。",
+        "pitfall": "效率写输入/输出大于100%。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 2,
+        "primary_section": "2.2.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "氢适合作某氧化物还原剂，能推广为相同条件还原所有金属氧化物吗？",
+      "given": "未给各反应可行性。",
+      "analysis": "用途有对象条件。",
+      "method": "审热力学和速率等。",
+      "principle": "还原性不是无限制反应许可。",
+      "steps": [
+        "CuO等在相应条件可反应。",
+        "更活泼金属氧化物等不能无条件照搬，需具体证据。"
+      ],
+      "ans": "不能。",
+      "verification": "一个成功实例不足推出全部氧化物。",
+      "pitfall": "还原剂标签等于所有氧都能取走。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 2,
+      "primary_section": "2.2.3",
+      "related_sections": []
+    },
+    "exam": [
+      "用途题用性质—反应—条件—应用链解释",
+      "能源题定义热值相态与效率边界，再算输入输出",
+      "环境题区分使用端与全周期，质量体积指标分别比较"
+    ],
+    "quick": [
+      "合成原料",
+      "催化加氢",
+      "还原用途",
+      "燃烧/燃料电池",
+      "储运与生命周期"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html",
+        "page": 35,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_2.2.3",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-5-batteries-and-fuel-cells",
+        "page_or_section": "17-5-batteries-and-fuel-cells",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://dokumen.pub/e329b58567bfcaac79ff8da5a0ecc507.html",
+        "page": 35,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_2.2.3",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-5-batteries-and-fuel-cells",
+        "page_or_section": "17-5-batteries-and-fuel-cells",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-18",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "用途题用性质—反应—条件—应用链解释",
+      "method": "n=m/M，再V。",
+      "principle": "气体计量。",
+      "worked_example_index": 2,
+      "verification": "1 m³=1000 L；质量比能高不自动体积小。",
+      "pitfall": "把1kg轻就等同易小罐储存。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“将氢的反应性质连到合成燃料还原用途”的抽样复核：原料质量H₂ .6g加N₂2.8g=3.4g。；若出现“把理论等同实际平衡转化率100%。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e1",
+        "review_module": 5,
+        "feedback": "目标“以能量收支评价氢能源和环境边界”的抽样复核：145.2+96.8=242；不能混用液水热值。；若出现“既算满242电又加60%造成重复。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "还原剂标签等于所有氧都能取走。",
+        "correction": "不能。",
+        "verification": "一个成功实例不足推出全部氧化物。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "氢用途与能量边界",
+      "objects": [
+        "合成氨1:3:2",
+        "有机加氢",
+        "CuO还原",
+        "燃料电池输入输出",
+        "制氢储运使用边界"
+      ],
+      "relations": [
+        "理论与实际转化分开",
+        "242kJ基准生成水蒸气",
+        "60%给145.2kJ电",
+        "使用端不代表全周期"
+      ],
+      "labels": [
+        "能源载体",
+        "η",
+        "物料比",
+        "上游能量",
+        "相态基准"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "暂无对应图；可用清晰收支结构图，非装饰氢能插画",
+      "english": "Map hydrogen uses to specific reactions and conditions: ammonia synthesis, hydrogenation, selected oxide reduction and electrochemical energy conversion. Show a stated water-vapour energy basis242 kJ/mol with60% electrical output145.2 kJ, and include production, storage and transport in lifecycle boundaries rather than claiming universal zero emissions."
+    }
+  }
+}
