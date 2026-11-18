@@ -1,11 +1,11 @@
-/* Course identities are independent of paper numbers. No pending legacy unit is reclassified. */
+/* Course identities are independent of paper numbers. Ranges follow the user-confirmed canonical chapter framework. */
 window.SUBJECTS = [
  {code:'physics',legacy:'物理',name:'物理'},
  {code:'chemistry',legacy:'化学',name:'化学'},
  {code:'biology',legacy:'生物',name:'生物'},
  {code:'adv_math_i',name:'高级数学（I）',official:'SC06 / SE06',source:'https://uec.dongzong.my/wp-content/uploads/2026/07/S06-2026-0730.pdf'},
  {code:'adv_math_ii',name:'高级数学（II）',official:'SC07 / SE07',source:'https://uec.dongzong.my/wp-content/uploads/2026/07/S07-2026-0730.pdf'},
- {code:'math_pending',legacy:'数学',name:'数学旧资料 · 待核实映射'}
+ {code:'math_pending',legacy:'数学',name:'旧数学记录（兼容）'}
 ];
 window.EXAM_SOURCES = {
  physics:{school:['第一学期：复习上册力学，学习电学21–23章；期末：力学＋电学。','第二学期：复习中册；学习电磁学23–24章、近代物理25–26章。预试排除几何光学和近代物理；毕业考全范围。','学校标注“统考比重”：力学30%、电磁学27%、其他43%；此为学校备考分类。','校内卷一30题、70分钟、30%；卷二120分钟、70%：必答4题24%、探究1题6%、力学／电磁学各3选2共40%。'],official:['2026纲要：卷一30题、70分钟、30%；卷二120分钟、70%。','卷二：问答4题24%（热学、几何光学、波动学、近代物理）、探究1题6%；力学／电磁学各3选2，共40%。'],file:'S12-2026-0623.pdf',page:3},

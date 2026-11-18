@@ -1,0 +1,104 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "key": "生物11",
+      "width": 320,
+      "sections": 3,
+      "modules": 36
+    },
+    {
+      "key": "生物13",
+      "width": 320,
+      "sections": 3,
+      "modules": 36
+    },
+    {
+      "key": "生物18",
+      "width": 320,
+      "sections": 4,
+      "modules": 48
+    },
+    {
+      "key": "物理1",
+      "width": 320,
+      "sections": 3,
+      "modules": 36
+    },
+    {
+      "key": "物理2",
+      "width": 320,
+      "sections": 4,
+      "modules": 48
+    },
+    {
+      "key": "生物11",
+      "width": 390,
+      "sections": 3,
+      "modules": 36
+    },
+    {
+      "key": "生物13",
+      "width": 390,
+      "sections": 3,
+      "modules": 36
+    },
+    {
+      "key": "生物18",
+      "width": 390,
+      "sections": 4,
+      "modules": 48
+    },
+    {
+      "key": "物理1",
+      "width": 390,
+      "sections": 3,
+      "modules": 36
+    },
+    {
+      "key": "物理2",
+      "width": 390,
+      "sections": 4,
+      "modules": 48
+    },
+    {
+      "key": "生物11",
+      "width": 1280,
+      "sections": 3,
+      "modules": 36
+    },
+    {
+      "key": "生物13",
+      "width": 1280,
+      "sections": 3,
+      "modules": 36
+    },
+    {
+      "key": "生物18",
+      "width": 1280,
+      "sections": 4,
+      "modules": 48
+    },
+    {
+      "key": "物理1",
+      "width": 1280,
+      "sections": 3,
+      "modules": 36
+    },
+    {
+      "key": "物理2",
+      "width": 1280,
+      "sections": 4,
+      "modules": 48
+    }
+  ],
+  "legacy_data_preserved": true,
+  "math_ranges": [
+    29,
+    35
+  ],
+  "math_chapter_state_isolated": true,
+  "backup_roundtrip": true,
+  "errors": [],
+  "bad": []
+}
