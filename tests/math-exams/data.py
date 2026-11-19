@@ -1,0 +1,44 @@
+from pathlib import Path
+import json,collections,subprocess,hashlib
+R=Path(__file__).resolve().parents[2];D=R/'data/math-exams';B=Path('/workspace/research-math-exams');checks=[]
+def L(n):return json.loads((D/n).read_text())
+def C(n,v):assert v,n;checks.append(n)
+inv=L('source-inventory.json');rows=L('research-ledger.json');pages=L('page-audit.json');C('47 unique PDF hashes',len(inv)==47 and len({x['sha256']for x in inv})==47);C('257 indexed pages',len(pages)==257 and sum(x['pages']for x in inv)==257)
+if B.exists():
+ for f in inv:C('private original SHA '+f['source_id'],hashlib.sha256((B/f['private_input_path']).read_bytes()).hexdigest()==f['sha256'])
+ pack_hashes={hashlib.sha256(p.read_bytes()).hexdigest()for p in (B/'packs').rglob('*') if p.is_file() and '.pdf'in p.name.lower()}
+ C('three split packs PDFs equal five original archives, duplicates not counted',pack_hashes=={x['sha256']for x in inv})
+C('all ids unique',len(rows)==len({r['id']for r in rows}));C('import never promoted confidence labels',all(r['formula_latex_verified']is None and r['verification_status']=='needs_review'for r in L('imported-claims.json')))
+byid={f['source_id']:f for f in inv}
+for r in rows:
+ if r['verification_status']=='visual_fields_checked':
+  C('page trace '+r['id'],r['source_pdf_id']in byid and 1<=r['source_page']<=byid[r['source_pdf_id']]['pages'])
+  C('formula/figure evidence '+r['id'],bool(r['formula_latex_verified'])and bool(r['figure_description_verified']))
+ if r['statistics_eligible']:C('unknown/ambiguous not ranked '+r['id'],r['primary_chapter']is not None and r['printed_marks']is not None and not r['scope_conflict'] and r.get('review_issue')is None)
+C('no raw PDFs in public module',not list(D.rglob('*.pdf')))
+for c,y,p,total in [('uec_math_i',2026,'mcq',30),('uec_math_i',2026,'written',70),('uec_math_ii',2026,'mcq',30),('uec_math_ii',2026,'written',70),('semester_final',2026,'mcq',30),('semester_final',2026,'written',70),('graduation_math_ii',2025,'written',120),('graduation_math_ii',2025,'mcq',40),('preexam_math_ii',2025,'mcq',40),('preexam_math_ii',2025,'written',120),('uec_math_i',2025,'written',90),('uec_math_ii',2024,'written',120),('uec_math_ii',2025,'written',120)]:
+ rs=[r for r in rows if (r['exam_type'],r['year'],r['paper'])==(c,y,p) and r['verification_status']=='visual_fields_checked']
+ C('source printed sum '+str((c,y,p)),sum((r['printed_marks']or 0)for r in rs)==total)
+ if p=='written':
+  for q in range(1,13):
+   actual=sum((r['printed_marks']or 0)for r in rs if r['question']==str(q));expected=(4 if q<=5 else 6 if q<=10 else 10)if y==2026 else (4 if c=='uec_math_i'and q<=5 else 10)
+   C('each big-question source sum '+str((c,y,q)),actual==expected)
+for st in L('statistics.json'):
+ C('five categories do not mix denominator '+st['exam_type'],st['available_pdfs']==sum(f['exam_type']==st['exam_type']for f in inv))
+ C('unverified years not zero-filled '+st['exam_type'],set(st['sample_years'])<=set(st['available_pdf_years'])and all(year in st['sample_years']for year in {r['year']for r in rows if r['exam_type']==st['exam_type']and r['statistics_eligible']}))
+ C('no actual student marks invented '+st['exam_type'],st['actual_score_weight']is None)
+ for ch in st['chapters']:
+  for paper in ['mcq','written']:
+   rr=[r for r in rows if r['exam_type']==st['exam_type']and r['statistics_eligible']and r['paper']==paper and r['primary_chapter']==ch['chapter']]
+   C('single primary mark attribution '+str((st['exam_type'],ch['chapter'],paper)),ch['papers'][paper]['printed_marks']==sum(r['printed_marks']for r in rr))
+# Preserve existing curriculum, all teaching/illustration/vendor resources and prior study state code.
+base='efd3445';tracked=subprocess.check_output(['git','ls-tree','-r','--name-only',base],cwd=R,text=True).splitlines();protected=[p for p in tracked if p.startswith(('lessons/','assets/','data/','vendor/','illustrations/','ui/','cloud/'))or p=='batch-ui.js']
+for p in protected:C('original file protected '+p,subprocess.check_output(['git','show',base+':'+p],cwd=R)==(R/p).read_bytes())
+bank=L('original-bank.json')['items'];C('original 79 distinct items',len(bank)==79 and len({q['id']for q in bank})==79);C('no invented subsection IDs',all(q['subchapter_id']is None for q in bank))
+for q in bank:
+ C('valid chapter '+q['id'],1<=q['primary_chapter']<=35)
+ C('full original solution '+q['id'],len(q['solution_steps'])>=3 and q['answer'] and q['question_origin']=='original_generated')
+ C('score sum '+q['id'],sum(p['marks']for p in q['marking_points'])==q['marks'])
+ if q['kind']=='mcq':C('unique four choices and concrete explanations '+q['id'],len(q['options'])==len({x['text']for x in q['options']})==4 and all(len(o['reason'])>=10 for o in q['options'][1:]))
+(R/'reports/math-exams/DATA_TESTS.json').write_text(json.dumps(dict(status='pass',assertions=len(checks),protected_files=len(protected),checks=checks,limits='Structural/scope/accounting checks, not a substitution for unperformed visual or teacher review.'),ensure_ascii=False,indent=2)+'\n')
+print('PASS',len(checks),'data and protection assertions;',len(protected),'old files unchanged')

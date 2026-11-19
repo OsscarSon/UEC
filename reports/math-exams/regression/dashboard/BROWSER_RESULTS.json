@@ -1,0 +1,864 @@
+{
+  "status": "pass",
+  "behavior_checks": [
+    "empty dashboard uses real zero metrics",
+    "legacy course button removed",
+    "no heavy tool downloaded on dashboard",
+    "migration preserves originals and independent fields, honors 29/35 ranges",
+    "migration idempotent across reload",
+    "old errors retain independent math copies",
+    "unassigned legacy math errors remain visible until explicit assignment",
+    "migrated error retry states isolated",
+    "custom plan uses real chapter and persists",
+    "dashboard progress calculated from actual completions",
+    "focus timer records simulated elapsed time without invented history",
+    "global search finds actual shared math sections",
+    "search query rendered as text",
+    "original twelve modules retained with explicit KaTeX cards",
+    "section favorites saved with real identity",
+    "continue reading returns to scoped module bookmark",
+    "focus mode keeps exit control",
+    "math section self-assessments remain isolated",
+    "chapters without written notes retain course framework",
+    "I excludes chapter34, II includes it",
+    "quadratic model handles a=0",
+    "zero constant model handles infinitely many roots",
+    "zero discriminant handles repeated root",
+    "quadratic model no-real-root case correct",
+    "signed F-x work remains negative",
+    "coordinate model distinguishes vertical lines",
+    "coincident points do not claim a unique line",
+    "invalid TeX stays readable with feedback",
+    "KaTeX actual render succeeds",
+    "real Excalidraw canvas drawing auto-saved",
+    "whiteboard supports actual Chinese text with local font assets",
+    "whiteboard restored after leaving and reopening",
+    "whiteboard exports actual scene",
+    "whiteboards isolated between math I and II",
+    "whiteboard tab and course context restore across full reload",
+    "complete backup round trip including whiteboard and migration snapshot",
+    "invalid imports cannot replace current state",
+    "mobile drawer opens and closes",
+    "dark dashboard and reader maintain viewport width",
+    "self-hosted tools make no external HTTP requests"
+  ],
+  "viewport_chapter_cases": [
+    {
+      "key": "物理3",
+      "width": 390,
+      "sections": 9
+    },
+    {
+      "key": "物理4",
+      "width": 390,
+      "sections": 8
+    },
+    {
+      "key": "化学3",
+      "width": 390,
+      "sections": 6
+    },
+    {
+      "key": "化学4",
+      "width": 390,
+      "sections": 7
+    },
+    {
+      "key": "生物1",
+      "width": 390,
+      "sections": 6
+    },
+    {
+      "key": "生物3",
+      "width": 390,
+      "sections": 7
+    },
+    {
+      "key": "化学5",
+      "width": 390,
+      "sections": 4
+    },
+    {
+      "key": "化学6",
+      "width": 390,
+      "sections": 6
+    },
+    {
+      "key": "化学7",
+      "width": 390,
+      "sections": 9
+    },
+    {
+      "key": "化学8",
+      "width": 390,
+      "sections": 6
+    },
+    {
+      "key": "化学9",
+      "width": 390,
+      "sections": 4
+    },
+    {
+      "key": "化学10",
+      "width": 390,
+      "sections": 5
+    },
+    {
+      "key": "化学11",
+      "width": 390,
+      "sections": 4
+    },
+    {
+      "key": "生物2",
+      "width": 390,
+      "sections": 5
+    },
+    {
+      "key": "生物10",
+      "width": 390,
+      "sections": 4
+    },
+    {
+      "key": "生物11",
+      "width": 390,
+      "sections": 3
+    },
+    {
+      "key": "生物13",
+      "width": 390,
+      "sections": 3
+    },
+    {
+      "key": "生物18",
+      "width": 390,
+      "sections": 4
+    },
+    {
+      "key": "生物19",
+      "width": 390,
+      "sections": 4
+    },
+    {
+      "key": "化学1",
+      "width": 390,
+      "sections": 7
+    },
+    {
+      "key": "化学2",
+      "width": 390,
+      "sections": 5
+    },
+    {
+      "key": "化学26",
+      "width": 390,
+      "sections": 5
+    },
+    {
+      "key": "化学29",
+      "width": 390,
+      "sections": 5
+    },
+    {
+      "key": "化学35",
+      "width": 390,
+      "sections": 8
+    },
+    {
+      "key": "数学1",
+      "width": 390,
+      "sections": 7
+    },
+    {
+      "key": "数学2",
+      "width": 390,
+      "sections": 4
+    },
+    {
+      "key": "数学3",
+      "width": 390,
+      "sections": 5
+    },
+    {
+      "key": "数学4",
+      "width": 390,
+      "sections": 4
+    },
+    {
+      "key": "数学5",
+      "width": 390,
+      "sections": 6
+    },
+    {
+      "key": "物理1",
+      "width": 390,
+      "sections": 3
+    },
+    {
+      "key": "物理2",
+      "width": 390,
+      "sections": 4
+    },
+    {
+      "key": "物理5",
+      "width": 390,
+      "sections": 3
+    },
+    {
+      "key": "物理7",
+      "width": 390,
+      "sections": 6
+    },
+    {
+      "key": "物理8",
+      "width": 390,
+      "sections": 4
+    },
+    {
+      "key": "生物4",
+      "width": 390,
+      "sections": 7
+    },
+    {
+      "key": "生物5",
+      "width": 390,
+      "sections": 7
+    },
+    {
+      "key": "生物6",
+      "width": 390,
+      "sections": 6
+    },
+    {
+      "key": "生物8",
+      "width": 390,
+      "sections": 7
+    },
+    {
+      "key": "生物14",
+      "width": 390,
+      "sections": 5
+    },
+    {
+      "key": "生物15",
+      "width": 390,
+      "sections": 4
+    },
+    {
+      "key": "生物16",
+      "width": 390,
+      "sections": 4
+    },
+    {
+      "key": "生物17",
+      "width": 390,
+      "sections": 4
+    },
+    {
+      "key": "化学15",
+      "width": 390,
+      "sections": 7
+    },
+    {
+      "key": "化学19",
+      "width": 390,
+      "sections": 7
+    },
+    {
+      "key": "化学20",
+      "width": 390,
+      "sections": 5
+    },
+    {
+      "key": "化学21",
+      "width": 390,
+      "sections": 8
+    },
+    {
+      "key": "化学22",
+      "width": 390,
+      "sections": 6
+    },
+    {
+      "key": "化学24",
+      "width": 390,
+      "sections": 8
+    },
+    {
+      "key": "化学28",
+      "width": 390,
+      "sections": 9
+    },
+    {
+      "key": "化学32",
+      "width": 390,
+      "sections": 8
+    },
+    {
+      "key": "数学6",
+      "width": 390,
+      "sections": 5
+    },
+    {
+      "key": "数学7",
+      "width": 390,
+      "sections": 5
+    },
+    {
+      "key": "数学8",
+      "width": 390,
+      "sections": 2
+    },
+    {
+      "key": "数学9",
+      "width": 390,
+      "sections": 4
+    },
+    {
+      "key": "数学10",
+      "width": 390,
+      "sections": 4
+    },
+    {
+      "key": "数学11",
+      "width": 390,
+      "sections": 4
+    },
+    {
+      "key": "数学28",
+      "width": 390,
+      "sections": 6
+    },
+    {
+      "key": "数学29",
+      "width": 390,
+      "sections": 5
+    },
+    {
+      "key": "数学30",
+      "width": 390,
+      "sections": 4
+    },
+    {
+      "key": "数学31",
+      "width": 390,
+      "sections": 4
+    },
+    {
+      "key": "数学32",
+      "width": 390,
+      "sections": 2
+    },
+    {
+      "key": "数学33",
+      "width": 390,
+      "sections": 5
+    },
+    {
+      "key": "数学34",
+      "width": 390,
+      "sections": 5
+    },
+    {
+      "key": "数学35",
+      "width": 390,
+      "sections": 5
+    },
+    {
+      "key": "物理9",
+      "width": 390,
+      "sections": 6
+    },
+    {
+      "key": "物理10",
+      "width": 390,
+      "sections": 6
+    },
+    {
+      "key": "物理12",
+      "width": 390,
+      "sections": 5
+    },
+    {
+      "key": "物理13",
+      "width": 390,
+      "sections": 6
+    },
+    {
+      "key": "物理14",
+      "width": 390,
+      "sections": 4
+    },
+    {
+      "key": "物理15",
+      "width": 390,
+      "sections": 6
+    },
+    {
+      "key": "物理17",
+      "width": 390,
+      "sections": 7
+    },
+    {
+      "key": "物理18",
+      "width": 390,
+      "sections": 6
+    },
+    {
+      "key": "物理19",
+      "width": 390,
+      "sections": 4
+    },
+    {
+      "key": "物理20",
+      "width": 390,
+      "sections": 6
+    },
+    {
+      "key": "物理3",
+      "width": 1440,
+      "sections": 9
+    },
+    {
+      "key": "物理4",
+      "width": 1440,
+      "sections": 8
+    },
+    {
+      "key": "化学3",
+      "width": 1440,
+      "sections": 6
+    },
+    {
+      "key": "化学4",
+      "width": 1440,
+      "sections": 7
+    },
+    {
+      "key": "生物1",
+      "width": 1440,
+      "sections": 6
+    },
+    {
+      "key": "生物3",
+      "width": 1440,
+      "sections": 7
+    },
+    {
+      "key": "化学5",
+      "width": 1440,
+      "sections": 4
+    },
+    {
+      "key": "化学6",
+      "width": 1440,
+      "sections": 6
+    },
+    {
+      "key": "化学7",
+      "width": 1440,
+      "sections": 9
+    },
+    {
+      "key": "化学8",
+      "width": 1440,
+      "sections": 6
+    },
+    {
+      "key": "化学9",
+      "width": 1440,
+      "sections": 4
+    },
+    {
+      "key": "化学10",
+      "width": 1440,
+      "sections": 5
+    },
+    {
+      "key": "化学11",
+      "width": 1440,
+      "sections": 4
+    },
+    {
+      "key": "生物2",
+      "width": 1440,
+      "sections": 5
+    },
+    {
+      "key": "生物10",
+      "width": 1440,
+      "sections": 4
+    },
+    {
+      "key": "生物11",
+      "width": 1440,
+      "sections": 3
+    },
+    {
+      "key": "生物13",
+      "width": 1440,
+      "sections": 3
+    },
+    {
+      "key": "生物18",
+      "width": 1440,
+      "sections": 4
+    },
+    {
+      "key": "生物19",
+      "width": 1440,
+      "sections": 4
+    },
+    {
+      "key": "化学1",
+      "width": 1440,
+      "sections": 7
+    },
+    {
+      "key": "化学2",
+      "width": 1440,
+      "sections": 5
+    },
+    {
+      "key": "化学26",
+      "width": 1440,
+      "sections": 5
+    },
+    {
+      "key": "化学29",
+      "width": 1440,
+      "sections": 5
+    },
+    {
+      "key": "化学35",
+      "width": 1440,
+      "sections": 8
+    },
+    {
+      "key": "数学1",
+      "width": 1440,
+      "sections": 7
+    },
+    {
+      "key": "数学2",
+      "width": 1440,
+      "sections": 4
+    },
+    {
+      "key": "数学3",
+      "width": 1440,
+      "sections": 5
+    },
+    {
+      "key": "数学4",
+      "width": 1440,
+      "sections": 4
+    },
+    {
+      "key": "数学5",
+      "width": 1440,
+      "sections": 6
+    },
+    {
+      "key": "物理1",
+      "width": 1440,
+      "sections": 3
+    },
+    {
+      "key": "物理2",
+      "width": 1440,
+      "sections": 4
+    },
+    {
+      "key": "物理5",
+      "width": 1440,
+      "sections": 3
+    },
+    {
+      "key": "物理7",
+      "width": 1440,
+      "sections": 6
+    },
+    {
+      "key": "物理8",
+      "width": 1440,
+      "sections": 4
+    },
+    {
+      "key": "生物4",
+      "width": 1440,
+      "sections": 7
+    },
+    {
+      "key": "生物5",
+      "width": 1440,
+      "sections": 7
+    },
+    {
+      "key": "生物6",
+      "width": 1440,
+      "sections": 6
+    },
+    {
+      "key": "生物8",
+      "width": 1440,
+      "sections": 7
+    },
+    {
+      "key": "生物14",
+      "width": 1440,
+      "sections": 5
+    },
+    {
+      "key": "生物15",
+      "width": 1440,
+      "sections": 4
+    },
+    {
+      "key": "生物16",
+      "width": 1440,
+      "sections": 4
+    },
+    {
+      "key": "生物17",
+      "width": 1440,
+      "sections": 4
+    },
+    {
+      "key": "化学15",
+      "width": 1440,
+      "sections": 7
+    },
+    {
+      "key": "化学19",
+      "width": 1440,
+      "sections": 7
+    },
+    {
+      "key": "化学20",
+      "width": 1440,
+      "sections": 5
+    },
+    {
+      "key": "化学21",
+      "width": 1440,
+      "sections": 8
+    },
+    {
+      "key": "化学22",
+      "width": 1440,
+      "sections": 6
+    },
+    {
+      "key": "化学24",
+      "width": 1440,
+      "sections": 8
+    },
+    {
+      "key": "化学28",
+      "width": 1440,
+      "sections": 9
+    },
+    {
+      "key": "化学32",
+      "width": 1440,
+      "sections": 8
+    },
+    {
+      "key": "数学6",
+      "width": 1440,
+      "sections": 5
+    },
+    {
+      "key": "数学7",
+      "width": 1440,
+      "sections": 5
+    },
+    {
+      "key": "数学8",
+      "width": 1440,
+      "sections": 2
+    },
+    {
+      "key": "数学9",
+      "width": 1440,
+      "sections": 4
+    },
+    {
+      "key": "数学10",
+      "width": 1440,
+      "sections": 4
+    },
+    {
+      "key": "数学11",
+      "width": 1440,
+      "sections": 4
+    },
+    {
+      "key": "数学28",
+      "width": 1440,
+      "sections": 6
+    },
+    {
+      "key": "数学29",
+      "width": 1440,
+      "sections": 5
+    },
+    {
+      "key": "数学30",
+      "width": 1440,
+      "sections": 4
+    },
+    {
+      "key": "数学31",
+      "width": 1440,
+      "sections": 4
+    },
+    {
+      "key": "数学32",
+      "width": 1440,
+      "sections": 2
+    },
+    {
+      "key": "数学33",
+      "width": 1440,
+      "sections": 5
+    },
+    {
+      "key": "数学34",
+      "width": 1440,
+      "sections": 5
+    },
+    {
+      "key": "数学35",
+      "width": 1440,
+      "sections": 5
+    },
+    {
+      "key": "物理9",
+      "width": 1440,
+      "sections": 6
+    },
+    {
+      "key": "物理10",
+      "width": 1440,
+      "sections": 6
+    },
+    {
+      "key": "物理12",
+      "width": 1440,
+      "sections": 5
+    },
+    {
+      "key": "物理13",
+      "width": 1440,
+      "sections": 6
+    },
+    {
+      "key": "物理14",
+      "width": 1440,
+      "sections": 4
+    },
+    {
+      "key": "物理15",
+      "width": 1440,
+      "sections": 6
+    },
+    {
+      "key": "物理17",
+      "width": 1440,
+      "sections": 7
+    },
+    {
+      "key": "物理18",
+      "width": 1440,
+      "sections": 6
+    },
+    {
+      "key": "物理19",
+      "width": 1440,
+      "sections": 4
+    },
+    {
+      "key": "物理20",
+      "width": 1440,
+      "sections": 6
+    },
+    {
+      "key": "物理3",
+      "width": 320
+    },
+    {
+      "key": "物理7",
+      "width": 320
+    },
+    {
+      "key": "化学3",
+      "width": 320
+    },
+    {
+      "key": "化学35",
+      "width": 320
+    },
+    {
+      "key": "生物13",
+      "width": 320
+    },
+    {
+      "key": "数学4",
+      "width": 320
+    },
+    {
+      "key": "物理3",
+      "width": 1024
+    },
+    {
+      "key": "物理7",
+      "width": 1024
+    },
+    {
+      "key": "化学3",
+      "width": 1024
+    },
+    {
+      "key": "化学35",
+      "width": 1024
+    },
+    {
+      "key": "生物13",
+      "width": 1024
+    },
+    {
+      "key": "数学4",
+      "width": 1024
+    },
+    {
+      "key": "物理3",
+      "width": 1920
+    },
+    {
+      "key": "物理7",
+      "width": 1920
+    },
+    {
+      "key": "化学3",
+      "width": 1920
+    },
+    {
+      "key": "化学35",
+      "width": 1920
+    },
+    {
+      "key": "生物13",
+      "width": 1920
+    },
+    {
+      "key": "数学4",
+      "width": 1920
+    }
+  ],
+  "scientific_model_cases": 8,
+  "console_errors": [],
+  "local_http_errors": [],
+  "external_requests": [],
+  "limits": "Linux Chromium模拟视窗及明确的测试数据；不是用户真实学习统计、实体设备或所有浏览器认证。"
+}

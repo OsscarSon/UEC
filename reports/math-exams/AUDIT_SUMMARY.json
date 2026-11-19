@@ -1,0 +1,29 @@
+{
+  "unique_pdfs": 47,
+  "total_pages": 257,
+  "extracted_pages": 257,
+  "visually_viewed_pages": 48,
+  "visual_units": 307,
+  "imported_claims": 778,
+  "merged_ledger_units": 795,
+  "statistics_eligible_units": 301,
+  "pending_or_excluded_units": 494,
+  "all_history_questions_verified": false,
+  "missing_papers": [
+    {
+      "exam_type": "preexam_math_ii",
+      "year": 2022,
+      "paper": "written"
+    },
+    {
+      "exam_type": "preexam_math_ii",
+      "year": 2026,
+      "paper": "both"
+    }
+  ],
+  "limits": [
+    "OCR is a locator, not formula evidence.",
+    "Unindexed questions in older papers are not included in pending-row counts.",
+    "Whole-paper confidence is not inherited from uploaded reports."
+  ]
+}

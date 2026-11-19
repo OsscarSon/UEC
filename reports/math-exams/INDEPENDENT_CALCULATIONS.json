@@ -1,0 +1,609 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "I26 M1 geometric ratio squared",
+      "status": "pass",
+      "computed": "25/36",
+      "expected": "25/36"
+    },
+    {
+      "name": "I26 M3 binomial equality parameter cubed",
+      "status": "pass",
+      "computed": "8",
+      "expected": "8"
+    },
+    {
+      "name": "I26 M4 row exchange factor",
+      "status": "pass",
+      "computed": "-2",
+      "expected": "-2"
+    },
+    {
+      "name": "I26 M5 branch ambiguity genuine",
+      "status": "pass"
+    },
+    {
+      "name": "I26 M6 sector r",
+      "status": "pass",
+      "computed": "8",
+      "expected": "8"
+    },
+    {
+      "name": "I26 M8 sin4x",
+      "status": "pass",
+      "computed": "-1/2",
+      "expected": "-1/2"
+    },
+    {
+      "name": "I26 M9 split pairs",
+      "status": "pass",
+      "computed": "10/19",
+      "expected": "10/19"
+    },
+    {
+      "name": "I26 M10 mean transform",
+      "status": "pass",
+      "computed": "-50/9",
+      "expected": "-50/9"
+    },
+    {
+      "name": "I26 M10 sd transform",
+      "status": "pass",
+      "computed": "35/9",
+      "expected": "35/9"
+    },
+    {
+      "name": "I26 M11 triangle x",
+      "status": "pass",
+      "computed": "2",
+      "expected": "2"
+    },
+    {
+      "name": "I26 M13 differentiated polynomial",
+      "status": "pass",
+      "computed": "13",
+      "expected": "13"
+    },
+    {
+      "name": "I26 M14 area",
+      "status": "pass",
+      "computed": "-8*log(17)/3 + 8*log(5)/3 + 8",
+      "expected": "8 - 8*log(17/5)/3"
+    },
+    {
+      "name": "I26 M15 change variable",
+      "status": "pass",
+      "computed": "-4",
+      "expected": "-4"
+    },
+    {
+      "name": "I26 W1 inverse verifies all9 entries",
+      "status": "pass"
+    },
+    {
+      "name": "I26 W1 solve all3 original equations",
+      "status": "pass"
+    },
+    {
+      "name": "I26 W2 vector determinant",
+      "status": "pass",
+      "computed": "0",
+      "expected": "0"
+    },
+    {
+      "name": "I26 W2 modulus",
+      "status": "pass",
+      "computed": "4*sqrt(3)",
+      "expected": "4*sqrt(3)"
+    },
+    {
+      "name": "I26 W3 unchanged colours",
+      "status": "pass",
+      "computed": "17/32",
+      "expected": "17/32"
+    },
+    {
+      "name": "I26 W4 trapezoid BC check",
+      "status": "pass",
+      "computed": "144",
+      "expected": "144"
+    },
+    {
+      "name": "I26 W4 diagonal squared",
+      "status": "pass",
+      "computed": "2025/4",
+      "expected": "2025/4"
+    },
+    {
+      "name": "I26 W6 inverse value",
+      "status": "pass",
+      "computed": "65538",
+      "expected": "65538"
+    },
+    {
+      "name": "I26 W7 triangle circumradius",
+      "status": "pass",
+      "computed": "sqrt(39)/3",
+      "expected": "sqrt(39)/3"
+    },
+    {
+      "name": "I26 W8 Sxx",
+      "status": "pass",
+      "computed": "30752/3",
+      "expected": "30752/3"
+    },
+    {
+      "name": "I26 W8 Sxy",
+      "status": "pass",
+      "computed": "21176/3",
+      "expected": "21176/3"
+    },
+    {
+      "name": "I26 W8 beta",
+      "status": "pass",
+      "computed": "2647/3844",
+      "expected": "2647/3844"
+    },
+    {
+      "name": "I26 W8 r rounded",
+      "status": "pass"
+    },
+    {
+      "name": "I26 W9 circle r2",
+      "status": "pass",
+      "computed": "20",
+      "expected": "20"
+    },
+    {
+      "name": "I26 W10 f endpoint",
+      "status": "pass",
+      "computed": "25/16",
+      "expected": "25/16"
+    },
+    {
+      "name": "I26 W11 x rotation",
+      "status": "pass",
+      "computed": "pi/(6*m**4)",
+      "expected": "pi/(6*m**4)"
+    },
+    {
+      "name": "I26 W11 y rotation",
+      "status": "pass",
+      "computed": "2*pi/(15*m**5)",
+      "expected": "2*pi/(15*m**5)"
+    },
+    {
+      "name": "I26 W12 rectangle",
+      "status": "pass",
+      "computed": "40",
+      "expected": "40"
+    },
+    {
+      "name": "I26 W12 closed disc",
+      "status": "pass",
+      "computed": "29",
+      "expected": "29"
+    },
+    {
+      "name": "I26 W12 overlap",
+      "status": "pass",
+      "computed": "18",
+      "expected": "18"
+    },
+    {
+      "name": "II26 M1 free leading coefficient",
+      "status": "pass",
+      "computed": "-12",
+      "expected": "-12"
+    },
+    {
+      "name": "II26 M3 cycle sum2027",
+      "status": "pass",
+      "computed": "-1",
+      "expected": "-1"
+    },
+    {
+      "name": "II26 M4 z=i",
+      "status": "pass",
+      "computed": "3*I",
+      "expected": "3*I"
+    },
+    {
+      "name": "II26 M5 repeated double angle",
+      "status": "pass",
+      "computed": "0",
+      "expected": "0"
+    },
+    {
+      "name": "II26 M9 shifted ellipse",
+      "status": "pass",
+      "computed": "2*x**2 - 4*x + y**2 + 4*y + 4",
+      "expected": "2*x**2 - 4*x + y**2 + 4*y + 4"
+    },
+    {
+      "name": "II26 M10 choose",
+      "status": "pass",
+      "computed": "84",
+      "expected": "84"
+    },
+    {
+      "name": "II26 M11 expectation",
+      "status": "pass",
+      "computed": "3/4",
+      "expected": "3/4"
+    },
+    {
+      "name": "II26 M12 residual non-solution",
+      "status": "pass",
+      "computed": "-6*x**2*exp(-x**3)",
+      "expected": "-6*x**2*exp(-x**3)"
+    },
+    {
+      "name": "II26 M13 differentiate choice",
+      "status": "pass",
+      "computed": "cos(3*x)/2 + cos(11*x)/2",
+      "expected": "cos(3*x)/2 + cos(11*x)/2"
+    },
+    {
+      "name": "II26 M14 Newton",
+      "status": "pass",
+      "computed": "1",
+      "expected": "1"
+    },
+    {
+      "name": "II26 M15 continuation",
+      "status": "pass",
+      "computed": "2",
+      "expected": "2"
+    },
+    {
+      "name": "II26 W1 normal z",
+      "status": "pass",
+      "computed": "420",
+      "expected": "420"
+    },
+    {
+      "name": "II26 W1 tangent angle",
+      "status": "pass",
+      "computed": "37/84",
+      "expected": "37/84"
+    },
+    {
+      "name": "II26 W2 binomial rounding",
+      "status": "pass"
+    },
+    {
+      "name": "II26 W3 quartic factor",
+      "status": "pass",
+      "computed": "4*x**4 - 4*x**3 + 5*x**2 - x + 1",
+      "expected": "4*x**4 - 4*x**3 + 5*x**2 - x + 1"
+    },
+    {
+      "name": "II26 W4 derivative",
+      "status": "pass",
+      "computed": "3/4 + x**(-2)",
+      "expected": "3/4 + x**(-2)"
+    },
+    {
+      "name": "II26 W5 integral",
+      "status": "pass",
+      "computed": "2/15",
+      "expected": "2/15"
+    },
+    {
+      "name": "II26 W6 induction algebra",
+      "status": "pass",
+      "computed": "(n*x - n - 1)/(n*x - n + x - 2)",
+      "expected": "(n*x - n - 1)/(n*x - n + x - 2)"
+    },
+    {
+      "name": "II26 W8 circular",
+      "status": "pass",
+      "computed": "144",
+      "expected": "144"
+    },
+    {
+      "name": "II26 W8 lower sum squares",
+      "status": "pass",
+      "computed": "45000",
+      "expected": "45000"
+    },
+    {
+      "name": "II26 W9 ODE residual",
+      "status": "pass",
+      "computed": "0",
+      "expected": "0"
+    },
+    {
+      "name": "II26 W9 initial",
+      "status": "pass",
+      "computed": "0",
+      "expected": "0"
+    },
+    {
+      "name": "II26 W10 plane normal",
+      "status": "pass"
+    },
+    {
+      "name": "II26 W10 intersection plane",
+      "status": "pass",
+      "computed": "0",
+      "expected": "0"
+    },
+    {
+      "name": "II26 W11 cosine",
+      "status": "pass",
+      "computed": "7*sqrt(13)/26",
+      "expected": "7*sqrt(13)/26"
+    },
+    {
+      "name": "II26 W11 foot along road",
+      "status": "pass",
+      "computed": "21/2",
+      "expected": "21/2"
+    },
+    {
+      "name": "II26 W12 square complete",
+      "status": "pass",
+      "computed": "t**4/64 - 15*t**2/16 + 16",
+      "expected": "t**4/64 - 15*t**2/16 + 16"
+    },
+    {
+      "name": "Semester26 M2 coefficients",
+      "status": "pass",
+      "computed": "47",
+      "expected": "47"
+    },
+    {
+      "name": "Semester26 M5 implicit slope",
+      "status": "pass",
+      "computed": "-2",
+      "expected": "-2"
+    },
+    {
+      "name": "Semester26 M6 differentiate",
+      "status": "pass",
+      "computed": "2*x + 6/(x + 2)",
+      "expected": "(2*x**2 + 4*x + 6)/(x + 2)"
+    },
+    {
+      "name": "Semester26 M7 exponential limit",
+      "status": "pass",
+      "computed": "exp(-6)",
+      "expected": "exp(-6)"
+    },
+    {
+      "name": "Semester26 M8 primitive",
+      "status": "pass",
+      "computed": "0",
+      "expected": "0"
+    },
+    {
+      "name": "Semester26 M9 AMGM bound",
+      "status": "pass",
+      "computed": "13.0000000000000",
+      "expected": "13"
+    },
+    {
+      "name": "Semester26 M10 powers",
+      "status": "pass",
+      "computed": "74 + 2246*I",
+      "expected": "74 + 2246*I"
+    },
+    {
+      "name": "Semester26 M12 conjugate identity",
+      "status": "pass",
+      "computed": "2 + (1 - I)*(3 + 9*I)/2 + 5*I",
+      "expected": "8 + 8*I"
+    },
+    {
+      "name": "Semester26 W2 reduced rational",
+      "status": "pass",
+      "computed": "x*(x - 3)/((x - 1)*(x + 1))",
+      "expected": "x*(x - 3)/((x - 1)*(x + 1))"
+    },
+    {
+      "name": "Semester26 W2 full set",
+      "status": "pass"
+    },
+    {
+      "name": "Semester26 W3 root 0",
+      "status": "pass",
+      "computed": "-2 + 2*sqrt(3)*I",
+      "expected": "-2 + 2*sqrt(3)*I"
+    },
+    {
+      "name": "Semester26 W3 root 1",
+      "status": "pass",
+      "computed": "-2 + 2*sqrt(3)*I",
+      "expected": "-2 + 2*sqrt(3)*I"
+    },
+    {
+      "name": "Semester26 W3 root 2",
+      "status": "pass",
+      "computed": "-2 + 2*sqrt(3)*I",
+      "expected": "-2 + 2*sqrt(3)*I"
+    },
+    {
+      "name": "Semester26 W3 root 3",
+      "status": "pass",
+      "computed": "-2 + 2*sqrt(3)*I",
+      "expected": "-2 + 2*sqrt(3)*I"
+    },
+    {
+      "name": "Semester26 W5 derivative",
+      "status": "pass",
+      "computed": "1/(4*(x + 2)) + 3/(4*(x - 2))",
+      "expected": "(x + 1)/(x**2 - 4)"
+    },
+    {
+      "name": "Semester26 W6 modulus equation",
+      "status": "pass",
+      "computed": "26",
+      "expected": "26"
+    },
+    {
+      "name": "Semester26 W7 limit",
+      "status": "pass",
+      "computed": "0",
+      "expected": "0"
+    },
+    {
+      "name": "Semester26 W8 telescoping",
+      "status": "pass",
+      "computed": "2/7",
+      "expected": "2/7"
+    },
+    {
+      "name": "Semester26 W9a",
+      "status": "pass",
+      "computed": "-3/16 - sqrt(3)/16 + pi/6",
+      "expected": "-3/16 - sqrt(3)/16 + pi/6"
+    },
+    {
+      "name": "Semester26 W9b differentiation",
+      "status": "pass",
+      "computed": "x*exp(x**2) + x/(x**2 - 1)",
+      "expected": "x*exp(x**2) + x/(x**2 - 1)"
+    },
+    {
+      "name": "Semester26 W11a second derivative",
+      "status": "pass",
+      "computed": "2*x*(x**2 + 12)/((x - 2)**3*(x + 2)**3)",
+      "expected": "2*x*(x**2 + 12)/(x**2 - 4)**3"
+    },
+    {
+      "name": "Semester26 W11b factor",
+      "status": "pass",
+      "computed": "x**4 + 3*x**3 + 4*x**2 - 8",
+      "expected": "x**4 + 3*x**3 + 4*x**2 - 8"
+    },
+    {
+      "name": "Semester26 W12 Newton root",
+      "status": "pass"
+    },
+    {
+      "name": "Semester26 W12 right-angle equality lengths",
+      "status": "pass",
+      "computed": "13",
+      "expected": "13"
+    },
+    {
+      "name": "Semester26 W12 right-angle dot",
+      "status": "pass",
+      "computed": "0",
+      "expected": "0"
+    },
+    {
+      "name": "2024II induction is n³+2n at n=2",
+      "status": "pass",
+      "computed": "12",
+      "expected": "12"
+    },
+    {
+      "name": "2024II miscopied n²+2n is false at n=2",
+      "status": "pass"
+    },
+    {
+      "name": "Pre2025 M7 expectation, no listed2/3",
+      "status": "pass",
+      "computed": "2/3",
+      "expected": "2/3"
+    },
+    {
+      "name": "Pre2025 M8 coefficient",
+      "status": "pass",
+      "computed": "6300",
+      "expected": "6300"
+    },
+    {
+      "name": "Grad2025 W1 cover third point distance2",
+      "status": "pass",
+      "computed": "39/2",
+      "expected": "39/2"
+    },
+    {
+      "name": "Grad2025 W1 containment not same as circumcircle",
+      "status": "pass"
+    },
+    {
+      "name": "Original committee exactly cases",
+      "status": "pass",
+      "computed": "50",
+      "expected": "50"
+    },
+    {
+      "name": "Original root parameter factor",
+      "status": "pass",
+      "computed": "-k*x + 2*k + x**2 - 2*x",
+      "expected": "2*k + x**2 - x*(k + 2)"
+    },
+    {
+      "name": "Original coefficient extraction",
+      "status": "pass"
+    },
+    {
+      "name": "Original total area cubic",
+      "status": "pass",
+      "computed": "72",
+      "expected": "72"
+    },
+    {
+      "name": "Original parabola rotation x",
+      "status": "pass",
+      "computed": "128*pi/5",
+      "expected": "128*pi/5"
+    },
+    {
+      "name": "Original parabola rotation y",
+      "status": "pass",
+      "computed": "8*pi",
+      "expected": "8*pi"
+    },
+    {
+      "name": "Original conditional two draws no replacement",
+      "status": "pass",
+      "computed": "1/3",
+      "expected": "1/3"
+    },
+    {
+      "name": "Original conditional replacement",
+      "status": "pass",
+      "computed": "3/7",
+      "expected": "3/7"
+    },
+    {
+      "name": "Original domain/inverse minimum",
+      "status": "pass",
+      "computed": "x**x*(log(x) + 1)",
+      "expected": "x**x*(log(x) + 1)"
+    },
+    {
+      "name": "Original mixed algebra product",
+      "status": "pass",
+      "computed": "-16",
+      "expected": "-16"
+    },
+    {
+      "name": "Original partial fractions",
+      "status": "pass",
+      "computed": "1/(x + 1) + 2/(x - 1)",
+      "expected": "(3*x + 1)/(x**2 - 1)"
+    },
+    {
+      "name": "Original induction difference",
+      "status": "pass",
+      "computed": "(x + 1)*(x + 2)",
+      "expected": "(x + 1)*(x + 2)"
+    },
+    {
+      "name": "Original three-digit even enumeration",
+      "status": "pass",
+      "computed": "30",
+      "expected": "30"
+    }
+  ],
+  "count": 104,
+  "limits": "Named computations, logic/counterexample and geometric conditions. Not all historical solutions independently verified."
+}

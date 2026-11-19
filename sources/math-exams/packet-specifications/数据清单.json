@@ -1,0 +1,103 @@
+{
+  "version": "1.0",
+  "generated_utc": "2026-11-19",
+  "original_pdfs": [
+    {
+      "exam_type": "上半年期末考",
+      "path": "上半年期末考/原始试卷/2026S3S11.pdf",
+      "sha256": "d0a63a65c7403714995df7a8225bce20d2cefbfcb436d37d02c85363f44e403a",
+      "bytes": 775591,
+      "source_archive": "上半年校内期末考.zip"
+    },
+    {
+      "exam_type": "上半年期末考",
+      "path": "上半年期末考/原始试卷/2025S3S11.pdf",
+      "sha256": "e91fd7bcf73f8b0af7ff4aa8a0fbbfe5158c9b6558aa5f638e8a08ce89c287fd",
+      "bytes": 238518,
+      "source_archive": "上半年校内期末考.zip"
+    },
+    {
+      "exam_type": "上半年期末考",
+      "path": "上半年期末考/原始试卷/2025S3S12.pdf",
+      "sha256": "ea7c750b51bfe01fc139cc5b7e8d673895e176d8e7514e4f1d1f31dc88174498",
+      "bytes": 162664,
+      "source_archive": "上半年校内期末考.zip"
+    },
+    {
+      "exam_type": "上半年期末考",
+      "path": "上半年期末考/原始试卷/2024QMK_P1.pdf",
+      "sha256": "77c82e050de925da1e2ce2014171de9e0935b284a34918576afb3a37b22fc17b",
+      "bytes": 544618,
+      "source_archive": "上半年校内期末考.zip"
+    },
+    {
+      "exam_type": "上半年期末考",
+      "path": "上半年期末考/原始试卷/2024QMK_P2.pdf",
+      "sha256": "247a5204ecac8a6949d99e0aeb40fc674ebfaeaaa19a741943b8519a4e4359ce",
+      "bytes": 466060,
+      "source_archive": "上半年校内期末考.zip"
+    },
+    {
+      "exam_type": "上半年期末考",
+      "path": "上半年期末考/原始试卷/2023期末考_选择.pdf",
+      "sha256": "ec66e5c5ba2dd8a9cffffef57ebe78093755295999bfbbca9492fbab4b5bd12c",
+      "bytes": 433477,
+      "source_archive": "上半年校内期末考.zip"
+    },
+    {
+      "exam_type": "上半年期末考",
+      "path": "上半年期末考/原始试卷/2023期末考_作答.pdf",
+      "sha256": "9c4557d490b821c8b5b9b6ee7fa57b69486e9ee4980e0ba9a53ebef07d0e17a8",
+      "bytes": 346497,
+      "source_archive": "上半年校内期末考.zip"
+    },
+    {
+      "exam_type": "上半年期末考",
+      "path": "上半年期末考/原始试卷/2022S3S期末考final.pdf",
+      "sha256": "2f4ae66605ea161740e6d5126303d4369c602bcffb68d037aee6f7ec914bb5ac",
+      "bytes": 373064,
+      "source_archive": "上半年校内期末考.zip"
+    },
+    {
+      "exam_type": "预试",
+      "path": "预试/原始试卷/23S3S21.pdf",
+      "sha256": "a086ec87542bf6a58a1fc6d7f1279377595861f2054e9631be6d61d2e984c0bf",
+      "bytes": 803125,
+      "source_archive": "预试.zip"
+    },
+    {
+      "exam_type": "预试",
+      "path": "预试/原始试卷/2024 预试_选择题.pdf",
+      "sha256": "7676888284d81c4413a433e8ed32cd52cacaa494c02fddba1a441f1c3353680d",
+      "bytes": 300244,
+      "source_archive": "预试.zip"
+    },
+    {
+      "exam_type": "预试",
+      "path": "预试/原始试卷/2024 预试_作答题.pdf",
+      "sha256": "972e2047a8a2abf1cd4f4428af741efedafaf7da9fa03870e40354eae07dd5a2",
+      "bytes": 248868,
+      "source_archive": "预试.zip"
+    },
+    {
+      "exam_type": "预试",
+      "path": "预试/原始试卷/2025 S3S预试.pdf",
+      "sha256": "6bb42e1fb3b8f6a30e8b2a112e6fe29692f920b1e7b3ae9cf3cb2ecaf40f5f2b",
+      "bytes": 381010,
+      "source_archive": "预试.zip"
+    },
+    {
+      "exam_type": "预试",
+      "path": "预试/原始试卷/2022 预试_选择题.pdf",
+      "sha256": "b2dc9d8cd35110feb672dce1a6b718d07afb314ed2eacce1e7866de3f55fc364",
+      "bytes": 217159,
+      "source_archive": "预试.zip"
+    }
+  ],
+  "limits": [
+    "历史难度为主观估计",
+    "部分原卷缺失",
+    "未核验全部题目答案",
+    "2027官方适用范围未独立确认"
+  ]
+}

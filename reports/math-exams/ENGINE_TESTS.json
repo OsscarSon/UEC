@@ -1,0 +1,39 @@
+{
+  "status": "pass",
+  "seeded_papers": 500,
+  "checks": [
+    {
+      "name": "500 five-type seeded papers satisfy score, range, diversity, uniqueness, deterministic and redaction constraints",
+      "status": "pass"
+    },
+    {
+      "name": "invalid and insufficient filters fail honestly",
+      "status": "pass"
+    },
+    {
+      "name": "new attempts do not grade or reveal answers",
+      "status": "pass"
+    },
+    {
+      "name": "foreground time clamps at wall deadline",
+      "status": "pass"
+    },
+    {
+      "name": "break cannot be silently skipped",
+      "status": "pass"
+    },
+    {
+      "name": "paper two is 120 minutes and automatically ends",
+      "status": "pass"
+    },
+    {
+      "name": "written self scores are bounded and independent from MCQ",
+      "status": "pass"
+    },
+    {
+      "name": "invalid backup state fails validation",
+      "status": "pass"
+    }
+  ],
+  "limits": "Difficulty allocation is a design target, not historical empirical calibration."
+}

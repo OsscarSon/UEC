@@ -1,0 +1,386 @@
+{
+  "official": false,
+  "questions": [
+    {
+      "id": "ME26-M003",
+      "kind": "mcq",
+      "number": 1,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M017",
+      "kind": "mcq",
+      "number": 2,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M025",
+      "kind": "mcq",
+      "number": 3,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M014",
+      "kind": "mcq",
+      "number": 4,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M036",
+      "kind": "mcq",
+      "number": 5,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M008",
+      "kind": "mcq",
+      "number": 6,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M021",
+      "kind": "mcq",
+      "number": 7,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M020",
+      "kind": "mcq",
+      "number": 8,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M034",
+      "kind": "mcq",
+      "number": 9,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M035",
+      "kind": "mcq",
+      "number": 10,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M042",
+      "kind": "mcq",
+      "number": 11,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M027",
+      "kind": "mcq",
+      "number": 12,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M026",
+      "kind": "mcq",
+      "number": 13,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M043",
+      "kind": "mcq",
+      "number": 14,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M039",
+      "kind": "mcq",
+      "number": 15,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-W002",
+      "kind": "written",
+      "number": 1,
+      "points": [
+        {
+          "description": "设置线性余式并列两条件",
+          "marks": 2
+        },
+        {
+          "description": "解出a、b并回验",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-W001",
+      "kind": "written",
+      "number": 2,
+      "points": [
+        {
+          "description": "联立求x并代回y",
+          "marks": 2
+        },
+        {
+          "description": "正确应用夹角式及绝对值",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-W005",
+      "kind": "written",
+      "number": 3,
+      "points": [
+        {
+          "description": "正确写出弧长和面积式",
+          "marks": 2
+        },
+        {
+          "description": "联立并核对单位",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-W007",
+      "kind": "written",
+      "number": 4,
+      "points": [
+        {
+          "description": "以点积0列式求t",
+          "marks": 2
+        },
+        {
+          "description": "计算模并验证垂直",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-W010",
+      "kind": "written",
+      "number": 5,
+      "points": [
+        {
+          "description": "正确积分及任意常数",
+          "marks": 2
+        },
+        {
+          "description": "用过点定常数并核查",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-W015",
+      "kind": "written",
+      "number": 6,
+      "points": [
+        {
+          "description": "临界点与定义域",
+          "marks": 2
+        },
+        {
+          "description": "符号和区间",
+          "marks": 2
+        },
+        {
+          "description": "交集整数且不含分母零点",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-W022",
+      "kind": "written",
+      "number": 7,
+      "points": [
+        {
+          "description": "正域与对数微分",
+          "marks": 2
+        },
+        {
+          "description": "点及切线",
+          "marks": 2
+        },
+        {
+          "description": "驻点变号及最小值",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-W027",
+      "kind": "written",
+      "number": 8,
+      "points": [
+        {
+          "description": "模与全部辐角",
+          "marks": 2
+        },
+        {
+          "description": "列四个互异根",
+          "marks": 2
+        },
+        {
+          "description": "几何关系与回代",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-W017",
+      "kind": "written",
+      "number": 9,
+      "points": [
+        {
+          "description": "合成参数",
+          "marks": 2
+        },
+        {
+          "description": "两支一般解",
+          "marks": 2
+        },
+        {
+          "description": "区间筛选与回代",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-W018",
+      "kind": "written",
+      "number": 10,
+      "points": [
+        {
+          "description": "三点定圆",
+          "marks": 2
+        },
+        {
+          "description": "切线法向关系",
+          "marks": 2
+        },
+        {
+          "description": "配方与位置检验",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-W030",
+      "kind": "written",
+      "number": 11,
+      "points": [
+        {
+          "description": "界限与面积",
+          "marks": 2
+        },
+        {
+          "description": "x轴垫片及积分",
+          "marks": 3
+        },
+        {
+          "description": "y轴圆盘及积分",
+          "marks": 3
+        },
+        {
+          "description": "比较和半径解释",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-W029",
+      "kind": "written",
+      "number": 12,
+      "points": [
+        {
+          "description": "驻点及正确变号分类",
+          "marks": 3
+        },
+        {
+          "description": "极值差求参数",
+          "marks": 2
+        },
+        {
+          "description": "全部交点和两块区域",
+          "marks": 2
+        },
+        {
+          "description": "分段面积及核对",
+          "marks": 3
+        }
+      ]
+    }
+  ]
+}
