@@ -3,15 +3,15 @@
   "statistics": {
     "target_unique_chapters": 40,
     "minimum_new_chapters_each_course": 8,
-    "new_unique_chapters": 23,
-    "new_real_sections": 125,
-    "new_examples": 375,
-    "new_practice": 500,
-    "new_quiz": 125,
-    "new_original_questions": 1000,
+    "new_unique_chapters": 26,
+    "new_real_sections": 145,
+    "new_examples": 435,
+    "new_practice": 580,
+    "new_quiz": 145,
+    "new_original_questions": 1160,
     "course_counts": {
-      "physics": 6,
-      "chemistry": 4,
+      "physics": 8,
+      "chemistry": 5,
       "biology": 8,
       "adv_math_i": 3,
       "adv_math_ii": 5
@@ -397,6 +397,46 @@
       "status": "authored_internal_checks_in_progress_not_teacher_approved"
     },
     {
+      "stem": "chem24",
+      "subject": "化学",
+      "chapter": 24,
+      "sections": [
+        {
+          "id": "24.1.1",
+          "title": "原电池的工作原理"
+        },
+        {
+          "id": "24.1.2",
+          "title": "常用的化学电源"
+        },
+        {
+          "id": "24.2.1",
+          "title": "标准电极电势"
+        },
+        {
+          "id": "24.2.2",
+          "title": "电极电势的应用"
+        },
+        {
+          "id": "24.3.1",
+          "title": "电解原理"
+        },
+        {
+          "id": "24.3.2",
+          "title": "电解原理的应用"
+        },
+        {
+          "id": "24.3.3",
+          "title": "电解定律"
+        },
+        {
+          "id": "24.4",
+          "title": "金属的腐蚀与防护"
+        }
+      ],
+      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+    },
+    {
       "stem": "math06",
       "subject": "数学共用内容",
       "chapter": 6,
@@ -528,6 +568,38 @@
         {
           "id": "31.4",
           "title": "数值方法"
+        }
+      ],
+      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+    },
+    {
+      "stem": "phys09",
+      "subject": "物理",
+      "chapter": 9,
+      "sections": [
+        {
+          "id": "9.1",
+          "title": "刚体及其转动"
+        },
+        {
+          "id": "9.2",
+          "title": "刚体的转动惯量"
+        },
+        {
+          "id": "9.3",
+          "title": "刚体滚动时的动能"
+        },
+        {
+          "id": "9.4",
+          "title": "刚体的转动定律"
+        },
+        {
+          "id": "9.5",
+          "title": "角动量"
+        },
+        {
+          "id": "9.6",
+          "title": "角动量守恒定律"
         }
       ],
       "status": "authored_internal_checks_in_progress_not_teacher_approved"
@@ -700,6 +772,38 @@
         {
           "id": "19.4",
           "title": "透镜焦距的测定"
+        }
+      ],
+      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+    },
+    {
+      "stem": "phys20",
+      "subject": "物理",
+      "chapter": 20,
+      "sections": [
+        {
+          "id": "20.1",
+          "title": "光的微粒说和波动说"
+        },
+        {
+          "id": "20.2",
+          "title": "光的干涉现象"
+        },
+        {
+          "id": "20.3",
+          "title": "光的衍射现象"
+        },
+        {
+          "id": "20.4",
+          "title": "光的偏振"
+        },
+        {
+          "id": "20.5",
+          "title": "光的电磁本性 电磁波谱"
+        },
+        {
+          "id": "20.6",
+          "title": "光的速度"
         }
       ],
       "status": "authored_internal_checks_in_progress_not_teacher_approved"

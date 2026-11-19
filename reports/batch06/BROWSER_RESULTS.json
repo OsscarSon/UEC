@@ -1,6 +1,6 @@
 {
   "status": "pass",
-  "new_unique_chapters": 23,
+  "new_unique_chapters": 26,
   "viewport_cases": [
     {
       "key": "生物4",
@@ -99,6 +99,14 @@
       "typeset_formulas": 0
     },
     {
+      "key": "化学24",
+      "course": null,
+      "width": 390,
+      "sections": 8,
+      "modules": 96,
+      "typeset_formulas": 0
+    },
+    {
       "key": "数学6",
       "course": "adv_math_i",
       "width": 390,
@@ -163,6 +171,14 @@
       "typeset_formulas": 4
     },
     {
+      "key": "物理9",
+      "course": null,
+      "width": 390,
+      "sections": 6,
+      "modules": 72,
+      "typeset_formulas": 0
+    },
+    {
       "key": "物理10",
       "course": null,
       "width": 390,
@@ -209,6 +225,14 @@
       "sections": 4,
       "modules": 48,
       "typeset_formulas": 4
+    },
+    {
+      "key": "物理20",
+      "course": null,
+      "width": 390,
+      "sections": 6,
+      "modules": 72,
+      "typeset_formulas": 0
     },
     {
       "key": "生物4",
@@ -307,6 +331,14 @@
       "typeset_formulas": 0
     },
     {
+      "key": "化学24",
+      "course": null,
+      "width": 1440,
+      "sections": 8,
+      "modules": 96,
+      "typeset_formulas": 0
+    },
+    {
       "key": "数学6",
       "course": "adv_math_i",
       "width": 1440,
@@ -371,6 +403,14 @@
       "typeset_formulas": 4
     },
     {
+      "key": "物理9",
+      "course": null,
+      "width": 1440,
+      "sections": 6,
+      "modules": 72,
+      "typeset_formulas": 0
+    },
+    {
       "key": "物理10",
       "course": null,
       "width": 1440,
@@ -417,6 +457,14 @@
       "sections": 4,
       "modules": 48,
       "typeset_formulas": 4
+    },
+    {
+      "key": "物理20",
+      "course": null,
+      "width": 1440,
+      "sections": 6,
+      "modules": 72,
+      "typeset_formulas": 0
     }
   ],
   "checks": [

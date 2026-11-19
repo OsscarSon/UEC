@@ -1,0 +1,1818 @@
+{
+  "9.1": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 9,
+    "section_id": "9.1",
+    "goals": [
+      "区分刚体定轴转动与平动复合运动",
+      "从角量求切向速度和两种加速度"
+    ],
+    "prerequisites": [
+      "圆周运动",
+      "弧度和导数"
+    ],
+    "flow": [
+      "刚体模型",
+      "角量",
+      "线量关系",
+      "加速度分量",
+      "复合运动"
+    ],
+    "concept_relation": "刚体模型；角量；线量关系；加速度分量；复合运动",
+    "deep": [
+      "切向加速度a_t=rα与角速度改变有关，径向加速度a_r=rω²指向轴，与方向改变有关。匀角速度时α=0但径向加速度可不为0，不能说所有点都做无加速度直线运动。两分量通常垂直，总加速度大小需按矢量合成。",
+      "若α恒定，可用ω=ω₀+αt、θ−θ₀=ω₀t+½αt²、ω²−ω₀²=2αΔθ。该运动学形式与直线匀加速类似，但量的单位与方向要独立定义，角量必须一致，不能将边缘线加速度直接当α代入。",
+      "滚动时质心平移叠加绕质心转动，不同点对地速度需矢量相加，而非全都rω。运动学只描述怎样动，不能由ω恒定就推出没有各点所需向心力，也不能由轴固定就假定总外力矩一定为零；动力学需后续方程。"
+    ],
+    "derive": [
+      "定轴刚体各点同ω、α，但v=rω，a_t=rα，a_r=rω²。",
+      "θ用rad配s=rθ；ω、α单位rad/s与rad/s²。",
+      "α恒定才用ω=ω₀+αt及Δθ=ω₀t+½αt²。"
+    ],
+    "examples": [
+      {
+        "q": "轮以120rpm匀速转，半径.20m点速率？ 条件：定轴，求大小。",
+        "given": "定轴，求大小。",
+        "analysis": "先换角速度。",
+        "method": "rpm到rad/s。",
+        "principle": "v=rω。",
+        "steps": [
+          "120rpm=2rev/s，ω=4πrad/s。",
+          "v=.20×4π=.8πm/s。"
+        ],
+        "ans": "约2.51m/s。",
+        "verification": "一圈路程.4πm每秒2圈同值。",
+        "pitfall": "120直接代ω。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.1",
+        "related_sections": []
+      },
+      {
+        "q": "ω₀=2rad/s、α=3rad/s²，4s后角速度及角位移？ 条件：定轴恒α。",
+        "given": "定轴恒α。",
+        "analysis": "用角运动学。",
+        "method": "两式。",
+        "principle": "定义积分。",
+        "steps": [
+          "ω=2+3×4=14rad/s。",
+          "Δθ=2×4+.5×3×16=32rad。"
+        ],
+        "ans": "14rad/s；32rad。",
+        "verification": "平均角速度8×4=32。",
+        "pitfall": "角位移取ω末乘全时间。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.1",
+        "related_sections": []
+      },
+      {
+        "q": "r=.50m、ω4rad/s、α6rad/s²，a_t、a_r及总大小？ 条件：定轴平面运动。",
+        "given": "定轴平面运动。",
+        "analysis": "两分量垂直。",
+        "method": "先分后合。",
+        "principle": "圆周运动。",
+        "steps": [
+          "a_t=.5×6=3m/s²，a_r=.5×16=8m/s²。",
+          "总√(3²+8²)=√73≈8.54。"
+        ],
+        "ans": "3、8、约8.54m/s²。",
+        "verification": "不能直接3+8=11。",
+        "pitfall": "切向与径向混同。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "同一刚轮距轴.10与.30m两点速率比？ 条件：同一ω非0。",
+        "given": "同一ω非0。",
+        "analysis": "速率正比r。",
+        "method": "v=rω。",
+        "principle": "定轴。",
+        "steps": [
+          ".10/.30=1/3。",
+          "角速度仍相同。"
+        ],
+        "ans": "1:3。",
+        "verification": "不是角速度也1:3。",
+        "pitfall": "所有点同v。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.1",
+        "related_sections": []
+      },
+      {
+        "q": "转5圈角位移大小？ 条件：同向连续转。",
+        "given": "同向连续转。",
+        "analysis": "一圈2π。",
+        "method": "乘。",
+        "principle": "弧度。",
+        "steps": [
+          "5×2π。",
+          "=10πrad。"
+        ],
+        "ans": "10πrad。",
+        "verification": "不能只报回原方位0。",
+        "pitfall": "方向同就角位移0。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.1",
+        "related_sections": []
+      },
+      {
+        "q": "匀角速度α0，非轴点径向加速度必0吗？ 条件：ω非0、r非0。",
+        "given": "ω非0、r非0。",
+        "analysis": "方向仍改变。",
+        "method": "a_r=rω²。",
+        "principle": "圆周。",
+        "steps": [
+          "乘积正。",
+          "因此可有非零向心加速度。"
+        ],
+        "ans": "不为0。",
+        "verification": "速率不变不等速度矢量不变。",
+        "pitfall": "α0当总a0。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.1",
+        "related_sections": []
+      },
+      {
+        "q": "刚体轴上点r0，切向速率多少？ 条件：轴固定。",
+        "given": "轴固定。",
+        "analysis": "v=rω。",
+        "method": "代r0。",
+        "principle": "运动学。",
+        "steps": [
+          "v=0×ω。",
+          "=0。"
+        ],
+        "ans": "0。",
+        "verification": "外缘同时可运动。",
+        "pitfall": "刚体转就所有点移动。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "滚动轮所有点对地速率可直接统一写Rω吗？ 条件：轮心也在平移。",
+      "given": "轮心也在平移。",
+      "analysis": "平移叠转各点不同。",
+      "method": "速度矢量合成。",
+      "principle": "刚体复合。",
+      "steps": [
+        "对地v点=v质心+相对转动速度。",
+        "位置方向不同，不能全用同一Rω。"
+      ],
+      "ans": "不能。",
+      "verification": "纯滚动底点瞬时0、顶点可2v质心。",
+      "pitfall": "将定轴式当所有对地速度。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 9,
+      "primary_section": "9.1",
+      "related_sections": []
+    },
+    "exam": [
+      "先定轴与正转向，rpm和角度统一弧度",
+      "线量看各点r，角量才同，切径加速度分开合",
+      "恒α公式先核条件，滚动改用平移叠转"
+    ],
+    "quick": [
+      "刚体模型",
+      "角量",
+      "线量关系",
+      "加速度分量",
+      "复合运动"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 300,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_9.1",
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/10-1-rotational-variables",
+        "page_or_section": "10-1-rotational-variables",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 300,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_9.1",
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/10-1-rotational-variables",
+        "page_or_section": "10-1-rotational-variables",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先定轴与正转向，rpm和角度统一弧度",
+      "method": "先分后合。",
+      "principle": "圆周运动。",
+      "worked_example_index": 2,
+      "verification": "不能直接3+8=11。",
+      "pitfall": "切向与径向混同。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“区分刚体定轴转动与平动复合运动”的抽样复核：一圈路程.4πm每秒2圈同值。；若出现“120直接代ω。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“从角量求切向速度和两种加速度”的抽样复核：不能直接3+8=11。；若出现“切向与径向混同。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "将定轴式当所有对地速度。",
+        "correction": "不能。",
+        "verification": "纯滚动底点瞬时0、顶点可2v质心。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "刚轮的角量与线量",
+      "objects": [
+        "固定轴",
+        "两半径点",
+        "切向速度",
+        "向心与切向加速度",
+        "正转向"
+      ],
+      "relations": [
+        "两点同ω不同v",
+        "径向a指轴",
+        "切向a由α给出",
+        "r0点静止"
+      ],
+      "labels": [
+        "r",
+        "ω",
+        "α",
+        "a_t",
+        "a_r"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "转动图先核参考轴、力臂和接触点速度，平动图或不同轴惯量不能直接套用",
+      "english": "Use deterministic rigid-body geometry. Label the reference axis, positive rotation sense, perpendicular lever arm and radius. Tangential and radial acceleration differ. Rolling constraints require no slip relative to the specified surface; an instantaneous contact point is not automatically a fixed inertial pivot."
+    }
+  },
+  "9.2": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 9,
+    "section_id": "9.2",
+    "goals": [
+      "按质量到指定轴的垂距计算惯量",
+      "用平行轴定理并核形状公式适用轴"
+    ],
+    "prerequisites": [
+      "质点模型",
+      "质量分布和平方"
+    ],
+    "flow": [
+      "轴与分布",
+      "平方加权",
+      "连续模型",
+      "移轴条件",
+      "量纲极限"
+    ],
+    "concept_relation": "轴与分布；平方加权；连续模型；移轴条件；量纲极限",
+    "deep": [
+      "平行轴定理I=I_cm+Md²要求新轴与通过质心的已知轴平行，d为两轴间垂距。它不是任意两轴的转换公式，也不是从任意非质心轴再随便加一次Md²。若原轴不通过质心，应先找到对应质心轴值再变换。",
+      "薄平面物体的垂直轴关系I_z=I_x+I_y另有平面与同交点条件，不能与平行轴式混为一种。质量分布非均匀时，套均匀物体表值也可能不成立；题目给转动惯量时可直接使用，但仍需核它对应哪条轴。",
+      "量纲为kg·m²，和质量kg、力矩N·m都不同。长度用cm时平方后须正确换m²，计算后可用极限检查：质量向轴靠近I应减小，平行离开质心轴时I应不小于该质心平行轴值。最后明确报告轴，脱离轴的一个I数字没有完整意义。"
+    ],
+    "derive": [
+      "I=Σm_i r_i²或∫r²dm，r为到指定轴垂距。",
+      "平行轴I=I_cm+Md²，仅对应平行轴及质心参考。",
+      "均匀环MR²、实盘½MR²、细杆中心垂直轴ML²/12，模型轴型不可省。"
+    ],
+    "examples": [
+      {
+        "q": "两质点各1kg，到给定轴垂距.20和.40m，I多少？ 条件：连接杆质量忽略。",
+        "given": "连接杆质量忽略。",
+        "analysis": "逐个平方加权。",
+        "method": "Σmr²。",
+        "principle": "惯量定义。",
+        "steps": [
+          "I=1×.20²+1×.40²。",
+          "=.04+.16=.20kg·m²。"
+        ],
+        "ans": ".20kg·m²。",
+        "verification": "远点贡献是近点4倍。",
+        "pitfall": "用距离直接相加。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.2",
+        "related_sections": []
+      },
+      {
+        "q": "M2kg、R.30m，均匀圆环和实盘绕中心垂直轴I各多少？ 条件：各自理想均匀形状。",
+        "given": "各自理想均匀形状。",
+        "analysis": "分布系数不同。",
+        "method": "对应公式。",
+        "principle": "积分质量分布。",
+        "steps": [
+          "环2×.09=.18。",
+          "盘.5×2×.09=.09。"
+        ],
+        "ans": ".18与.09kg·m²。",
+        "verification": "同质量半径，环更远离轴。",
+        "pitfall": "所有圆物都MR²。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.2",
+        "related_sections": []
+      },
+      {
+        "q": "物体M2kg，已知质心轴I_cm=.20kg·m²，平行移轴d.30m，新I？ 条件：新旧轴平行。",
+        "given": "新旧轴平行。",
+        "analysis": "质心轴为合法起点。",
+        "method": "平行轴。",
+        "principle": "惯量移轴。",
+        "steps": [
+          "Md²=2×.09=.18。",
+          "I=.20+.18=.38。"
+        ],
+        "ans": ".38kg·m²。",
+        "verification": "不小于原质心轴。",
+        "pitfall": "d不平方或从任意轴直接加。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "所有质量距轴都加倍而质量不变，I倍数？ 条件：几何中每个垂距同倍变化。",
+        "given": "几何中每个垂距同倍变化。",
+        "analysis": "平方权重。",
+        "method": "Σm(2r)²。",
+        "principle": "定义。",
+        "steps": [
+          "每项4mr²。",
+          "总4I。"
+        ],
+        "ans": "4倍。",
+        "verification": "不是2倍。",
+        "pitfall": "平方漏。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.2",
+        "related_sections": []
+      },
+      {
+        "q": "M3kg、L2m均匀细杆，中心垂直杆轴I？ 条件：细杆模型。",
+        "given": "细杆模型。",
+        "analysis": "公式轴已明确。",
+        "method": "ML²/12。",
+        "principle": "积分。",
+        "steps": [
+          "3×4/12。",
+          "=1kg·m²。"
+        ],
+        "ans": "1kg·m²。",
+        "verification": "端点平行轴会另加3×1²=3。",
+        "pitfall": "用端轴1/3公式。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.2",
+        "related_sections": []
+      },
+      {
+        "q": "上述杆绕端点平行轴I？ 条件：同杆M3,L2，中心I1。",
+        "given": "同杆M3,L2，中心I1。",
+        "analysis": "d=L/2=1。",
+        "method": "平行轴。",
+        "principle": "定理。",
+        "steps": [
+          "I=1+3×1²。",
+          "=4kg·m²。"
+        ],
+        "ans": "4kg·m²。",
+        "verification": "等ML²/3。",
+        "pitfall": "把d取整个L。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.2",
+        "related_sections": []
+      },
+      {
+        "q": "I单位是N·m吗？ 条件：SI。",
+        "given": "SI。",
+        "analysis": "mr²不同力矩。",
+        "method": "量纲。",
+        "principle": "定义。",
+        "steps": [
+          "质量kg乘m²。",
+          "得kg·m²。"
+        ],
+        "ans": "不是，是kg·m²。",
+        "verification": "力矩N·m另含s⁻²。",
+        "pitfall": "同含m就同量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "已知任意一条非质心轴的I，能直接对另一任意方向轴加Md²吗？ 条件：未满足平行与质心条件。",
+      "given": "未满足平行与质心条件。",
+      "analysis": "定理前提不足。",
+      "method": "核轴关系。",
+      "principle": "平行轴定理。",
+      "steps": [
+        "须有通过质心且平行的对应轴。",
+        "不平行或任意起轴不能直接用该加法。"
+      ],
+      "ans": "不能。",
+      "verification": "可先重建分布或合适轴数据。",
+      "pitfall": "定理当万能换轴。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 9,
+      "primary_section": "9.2",
+      "related_sections": []
+    },
+    "exam": [
+      "每题先画轴与垂距，形状表值连轴一起选",
+      "移轴确认质心轴和平行，d用轴间垂距",
+      "算后核kg·m²及质量离轴更远I增大的极限"
+    ],
+    "quick": [
+      "轴与分布",
+      "平方加权",
+      "连续模型",
+      "移轴条件",
+      "量纲极限"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 304,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_9.2",
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/10-5-calculating-moments-of-inertia",
+        "page_or_section": "10-5-calculating-moments-of-inertia",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 304,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_9.2",
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/10-5-calculating-moments-of-inertia",
+        "page_or_section": "10-5-calculating-moments-of-inertia",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "每题先画轴与垂距，形状表值连轴一起选",
+      "method": "平行轴。",
+      "principle": "惯量移轴。",
+      "worked_example_index": 2,
+      "verification": "不小于原质心轴。",
+      "pitfall": "d不平方或从任意轴直接加。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“按质量到指定轴的垂距计算惯量”的抽样复核：远点贡献是近点4倍。；若出现“用距离直接相加。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用平行轴定理并核形状公式适用轴”的抽样复核：不小于原质心轴。；若出现“d不平方或从任意轴直接加。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "定理当万能换轴。",
+        "correction": "不能。",
+        "verification": "可先重建分布或合适轴数据。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "同质量不同分布与移轴",
+      "objects": [
+        "环与实盘",
+        "中心轴",
+        "偏移平行轴",
+        "质点垂距",
+        "杆中心端轴"
+      ],
+      "relations": [
+        "环I为盘2倍",
+        "新I=I_cm+Md²",
+        "d轴间垂距",
+        "杆长L和d=L/2区分"
+      ],
+      "labels": [
+        "I",
+        "r⊥",
+        "I_cm",
+        "d",
+        "kg·m²"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "转动图先核参考轴、力臂和接触点速度，平动图或不同轴惯量不能直接套用",
+      "english": "Use deterministic rigid-body geometry. Label the reference axis, positive rotation sense, perpendicular lever arm and radius. Tangential and radial acceleration differ. Rolling constraints require no slip relative to the specified surface; an instantaneous contact point is not automatically a fixed inertial pivot."
+    }
+  },
+  "9.3": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 9,
+    "section_id": "9.3",
+    "goals": [
+      "分解质心平动与绕质心转动能",
+      "在无滑动条件下用能量比较不同形状"
+    ],
+    "prerequisites": [
+      "转动惯量",
+      "机械能守恒和接触"
+    ],
+    "flow": [
+      "质心分解",
+      "接触约束",
+      "形状系数",
+      "落高能量",
+      "摩擦与参考点"
+    ],
+    "concept_relation": "质心分解；接触约束；形状系数；落高能量；摩擦与参考点",
+    "deep": [
+      "从静止在固定斜面滚下高度h，若无其他耗散且静摩擦足以维持无滑动，可用Mgh=½Mv²+½Iω²。静摩擦可能提供转动力矩，但理想刚体固定接触面无滑动时接触点瞬时静止，相应静摩擦不作机械能耗散功；不等于摩擦力本身必须为0。",
+      "若斜面运动、物体变形、存在滚动阻力或滑动摩擦，能量账需要加入相应功与耗散。不能把理想“静摩擦不耗散”推广到所有实际轮胎，也不能见摩擦二字就无条件减去μMgs这一公式，静摩擦大小由动力学需求决定。",
+      "某瞬时可把纯滚动看作绕接触位置的运动并用适当惯量算动能，但接触点随时间更换，不因此自动成为全程固定惯性转轴。后续写力矩转动定律必须再核参考点条件，不能因为能量表达可行就把所有固定轴动力学一概移过去。"
+    ],
+    "derive": [
+      "K=½Mv_cm²+½I_cmω²；无滑动固定面v_cm=ωR。",
+      "I_cm=βMR²⇒K=½M(1+β)v_cm²。",
+      "理想静止斜面无耗散滚落：v²=2gh/(1+β)；静摩擦可非零但不耗散。"
+    ],
+    "examples": [
+      {
+        "q": "M2kg实盘R.20m，无滑动滚动v_cm3m/s，求K。 条件：I_cm=½MR²，固定平面。",
+        "given": "I_cm=½MR²，固定平面。",
+        "analysis": "平动转动分算。",
+        "method": "动能分解。",
+        "principle": "刚体能量。",
+        "steps": [
+          "ω=3/.2=15rad/s；平动K=9J。",
+          "I=.04kg·m²，转动K=.5×.04×225=4.5J，总13.5J。"
+        ],
+        "ans": "13.5J。",
+        "verification": "β.5，½×2×1.5×9同13.5。",
+        "pitfall": "只算平动9J。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.3",
+        "related_sections": []
+      },
+      {
+        "q": "实盘与环从同高静止无滑动滚落，哪个质心速度较大？ 条件：足够静摩擦、固定斜面、无耗散，形状系数如本节。",
+        "given": "足够静摩擦、固定斜面、无耗散，形状系数如本节。",
+        "analysis": "较小β留给平动比例大。",
+        "method": "能量。",
+        "principle": "v²=2gh/(1+β)。",
+        "steps": [
+          "盘分母1.5，环分母2。",
+          "同gh时盘v²较大。"
+        ],
+        "ans": "实盘较快。",
+        "verification": "不取决质量相同与否，而依比率和条件。",
+        "pitfall": "环外缘集中所以更快。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.3",
+        "related_sections": []
+      },
+      {
+        "q": "实盘滚落h=.60m，g10，求末速率。 条件：从静止无滑动、无耗散。",
+        "given": "从静止无滑动、无耗散。",
+        "analysis": "β=.5。",
+        "method": "v²=2gh/1.5。",
+        "principle": "守恒。",
+        "steps": [
+          "v²=12/1.5=8m²/s²。",
+          "v=√8≈2.83m/s。"
+        ],
+        "ans": "约2.83m/s。",
+        "verification": "小于不转滑块无摩擦的√12，部分能量为转动。",
+        "pitfall": "全Mgh只给平动。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "环β1时总K与平动K比？ 条件：无滑动。",
+        "given": "无滑动。",
+        "analysis": "总乘1+β。",
+        "method": "分解。",
+        "principle": "能量。",
+        "steps": [
+          "K_total=½M(2)v²。",
+          "K_trans=½Mv²，比2。"
+        ],
+        "ans": "2:1。",
+        "verification": "转动与平动各半。",
+        "pitfall": "所有形状各半。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.3",
+        "related_sections": []
+      },
+      {
+        "q": "纯滚动底点瞬时v对地多少？ 条件：固定平面无滑动。",
+        "given": "固定平面无滑动。",
+        "analysis": "平移与相对转动抵消。",
+        "method": "矢量加。",
+        "principle": "运动学。",
+        "steps": [
+          "质心前进v。",
+          "底点相对质心后向v，合0。"
+        ],
+        "ans": "0。",
+        "verification": "顶点同向叠加可2v。",
+        "pitfall": "底点也v_cm。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.3",
+        "related_sections": []
+      },
+      {
+        "q": "轮边滑边滚仍可直接v_cm=ωR吗？ 条件：接触有相对滑动。",
+        "given": "接触有相对滑动。",
+        "analysis": "约束已破坏。",
+        "method": "核相对速度。",
+        "principle": "无滑动条件。",
+        "steps": [
+          "关系正是零滑动条件。",
+          "已滑动不能强加，需两量分别求。"
+        ],
+        "ans": "不能。",
+        "verification": "可能转很快却几乎不前进。",
+        "pitfall": "只要转轮就该式。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.3",
+        "related_sections": []
+      },
+      {
+        "q": "同β无滑动滚落同高度，质量加倍会令末速加倍吗？ 条件：相同几何系数且理想无耗散。",
+        "given": "相同几何系数且理想无耗散。",
+        "analysis": "能量两侧M相消。",
+        "method": "比较公式。",
+        "principle": "守恒。",
+        "steps": [
+          "v²=2gh/(1+β)不含M。",
+          "末速不因M单独加倍。"
+        ],
+        "ans": "不会。",
+        "verification": "不代表所有有阻力现实情境同结论。",
+        "pitfall": "重就按2倍速。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "理想无滑动斜面静摩擦不耗散，是否表示静摩擦为0并不参与转动？ 条件：自由滚落需相应角加速度。",
+      "given": "自由滚落需相应角加速度。",
+      "analysis": "不作功不等无力矩。",
+      "method": "区分力、功和接触速度。",
+      "principle": "刚体动力学。",
+      "steps": [
+        "摩擦可提供绕质心力矩。",
+        "接触点相对固定面瞬时0使其不耗散，非力必0。"
+      ],
+      "ans": "不表示。",
+      "verification": "下一节联立动力学可算非零摩擦。",
+      "pitfall": "零功等于零力。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 9,
+      "primary_section": "9.3",
+      "related_sections": []
+    },
+    "exam": [
+      "能量分解一定用I_cm，防平动重复计",
+      "滚动先检固定面无滑动，才代v=ωR",
+      "摩擦题分力矩和耗散，模型改变时重新列功而非照搬"
+    ],
+    "quick": [
+      "质心分解",
+      "接触约束",
+      "形状系数",
+      "落高能量",
+      "摩擦与参考点"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 309,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_9.3",
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/11-1-rolling-motion",
+        "page_or_section": "11-1-rolling-motion",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 309,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_9.3",
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/11-1-rolling-motion",
+        "page_or_section": "11-1-rolling-motion",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "能量分解一定用I_cm，防平动重复计",
+      "method": "v²=2gh/1.5。",
+      "principle": "守恒。",
+      "worked_example_index": 2,
+      "verification": "小于不转滑块无摩擦的√12，部分能量为转动。",
+      "pitfall": "全Mgh只给平动。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“分解质心平动与绕质心转动能”的抽样复核：β.5，½×2×1.5×9同13.5。；若出现“只算平动9J。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“在无滑动条件下用能量比较不同形状”的抽样复核：小于不转滑块无摩擦的√12，部分能量为转动。；若出现“全Mgh只给平动。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "零功等于零力。",
+        "correction": "不表示。",
+        "verification": "下一节联立动力学可算非零摩擦。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "滚动动能与点速度",
+      "objects": [
+        "实盘滚轮",
+        "质心v",
+        "底点0",
+        "顶点2v",
+        "平动转动能条"
+      ],
+      "relations": [
+        "I_cm用于分解",
+        "无滑动v=ωR",
+        "盘能比转动平动1:2",
+        "接触点非全程固定枢轴"
+      ],
+      "labels": [
+        "K_trans",
+        "K_rot",
+        "I_cm",
+        "v_cm",
+        "ωR"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "转动图先核参考轴、力臂和接触点速度，平动图或不同轴惯量不能直接套用",
+      "english": "Use deterministic rigid-body geometry. Label the reference axis, positive rotation sense, perpendicular lever arm and radius. Tangential and radial acceleration differ. Rolling constraints require no slip relative to the specified surface; an instantaneous contact point is not automatically a fixed inertial pivot."
+    }
+  },
+  "9.4": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 9,
+    "section_id": "9.4",
+    "goals": [
+      "用垂直力臂求净力矩及角加速度",
+      "在滚动中联立质心平动、转动和约束"
+    ],
+    "prerequisites": [
+      "牛顿定律",
+      "力矩与转动惯量"
+    ],
+    "flow": [
+      "矩与作用线",
+      "合矩",
+      "固定轴条件",
+      "质心联立",
+      "约束验算"
+    ],
+    "concept_relation": "矩与作用线；合矩；固定轴条件；质心联立；约束验算",
+    "deep": [
+      "自由实盘从静止沿固定斜面滚下时，重力沿坡分量驱动平动，静摩擦可向坡上并提供绕质心转矩。由Mg sinθ−f=Ma、fR=I_cmα、a=αR可得a=g sinθ/(1+β)。摩擦方向来自具体动力学，若有外驱转矩等，不能一律背“滚轮摩擦向上”。",
+      "算出的静摩擦还需不超过μ_sN，否则无滑动假设失效，应改用滑动及转动模型。静摩擦不自动等于最大值μ_sN；把它直接代满可能给不符合约束的加速度。法向力N是否Mg cosθ也要按题设无其他法向作用等条件核。",
+      "瞬时接触点在纯滚动能用于某些运动学或能量描述，却不自动满足所有固定轴方程。选择非固定参考点时可能需额外项和条件，初学解题宜用质心联立法保持清楚。最后检单位、力臂、摩擦上限及加速度是否与能量结果一致。"
+    ],
+    "derive": [
+      "τ=rFsinθ=Fℓ，ℓ为轴到作用线垂距。",
+      "固定惯性轴且I不变：Στ=Iα；平面质心法另配ΣF=Ma。",
+      "无滑动自由滚落：a=g sinθ/(1+β)，f=βMa；须f≤μ_sN。"
+    ],
+    "examples": [
+      {
+        "q": "力20N作用线距固定轴.30m，I=.50kg·m²，净力矩仅此，α多少？ 条件：力臂为垂距，惯量恒定。",
+        "given": "力臂为垂距，惯量恒定。",
+        "analysis": "先矩后角加速。",
+        "method": "τ=Fℓ，α=τ/I。",
+        "principle": "转动定律。",
+        "steps": [
+          "τ=20×.30=6N·m。",
+          "α=6/.50=12rad/s²。"
+        ],
+        "ans": "12rad/s²。",
+        "verification": "Iα=.5×12=6。",
+        "pitfall": "用力直接除I。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.4",
+        "related_sections": []
+      },
+      {
+        "q": "M2kg实盘在30°固定斜面无滑动滚落，g10，求a和f。 条件：β=.5且静摩擦足够，无其他沿坡力。",
+        "given": "β=.5且静摩擦足够，无其他沿坡力。",
+        "analysis": "平动转动联立。",
+        "method": "a=g sinθ/(1+β)。",
+        "principle": "牛顿与力矩。",
+        "steps": [
+          "a=5/1.5=10/3m/s²。",
+          "f=βMa=.5×2×10/3=10/3N，沿坡上。"
+        ],
+        "ans": "a=10/3m/s²，f=10/3N向坡上。",
+        "verification": "Mg sinθ−f=10−10/3=20/3=Ma。",
+        "pitfall": "静摩擦直接取μN或省转动。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.4",
+        "related_sections": []
+      },
+      {
+        "q": "上述实盘若μ_s=.10，无滑动假设是否可维持？ 条件：N=Mg cos30°，使用上一模型所需f。",
+        "given": "N=Mg cos30°，使用上一模型所需f。",
+        "analysis": "要比较所需与上限。",
+        "method": "f≤μN。",
+        "principle": "静摩擦限制。",
+        "steps": [
+          "最大f=.1×20×.866≈1.73N。",
+          "所需3.33N更大，故无滑动不成立。"
+        ],
+        "ans": "不可按该无滑动解继续。",
+        "verification": "必须换有滑动模型，不把f硬改小而保原a。",
+        "pitfall": "算出无滑动a就不验条件。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "力沿穿轴半径作用，r非0，力矩大小？ 条件：作用线过轴。",
+        "given": "作用线过轴。",
+        "analysis": "垂距0。",
+        "method": "τ=Fℓ。",
+        "principle": "力矩定义。",
+        "steps": [
+          "ℓ=0。",
+          "τ=0。"
+        ],
+        "ans": "0。",
+        "verification": "不因作用点远就必有矩。",
+        "pitfall": "用rF不看夹角。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.4",
+        "related_sections": []
+      },
+      {
+        "q": "同轴两矩+8、−3N·m，I1kg·m²，α？ 条件：固定轴、惯量恒。",
+        "given": "固定轴、惯量恒。",
+        "analysis": "代数合矩。",
+        "method": "Στ/I。",
+        "principle": "定律。",
+        "steps": [
+          "净5N·m。",
+          "α=5rad/s²。"
+        ],
+        "ans": "+5rad/s²。",
+        "verification": "符号沿所定正向。",
+        "pitfall": "把8和3相加。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.4",
+        "related_sections": []
+      },
+      {
+        "q": "静摩擦能在未滑动时小于μ_sN吗？ 条件：无滑动约束可满足。",
+        "given": "无滑动约束可满足。",
+        "analysis": "μ_sN为上限。",
+        "method": "区分实际与极限。",
+        "principle": "接触力。",
+        "steps": [
+          "实际f由运动需求决定。",
+          "只需不超过最大值。"
+        ],
+        "ans": "可以。",
+        "verification": "例如水平匀速理想滚动可f0。",
+        "pitfall": "所有摩擦都取μN。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.4",
+        "related_sections": []
+      },
+      {
+        "q": "τ恒4N·m转过3rad，所作转动功？ 条件：该矩沿转向且条件适用。",
+        "given": "该矩沿转向且条件适用。",
+        "analysis": "功还乘角位移。",
+        "method": "W=τΔθ。",
+        "principle": "功定义。",
+        "steps": [
+          "4×3=12。",
+          "单位J。"
+        ],
+        "ans": "12J。",
+        "verification": "瞬时τ4N·m本身不是12J。",
+        "pitfall": "力矩直接当功。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "仅知道纯滚动底点瞬时静止，能无条件把它当全程固定惯性转轴用所有τ=Iα式吗？ 条件：接触位置随时间变化。",
+      "given": "接触位置随时间变化。",
+      "analysis": "瞬时静止不同固定参考点。",
+      "method": "核定律条件。",
+      "principle": "参考轴。",
+      "steps": [
+        "该点只在该瞬时零速度，后续接触物点更换。",
+        "需检参考点加速度等，不能一概照搬固定轴式。"
+      ],
+      "ans": "不能无条件。",
+      "verification": "质心联立法避免该混淆。",
+      "pitfall": "瞬心等于固定枢轴。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 9,
+      "primary_section": "9.4",
+      "related_sections": []
+    },
+    "exam": [
+      "先画作用线垂距再给力矩符号，别用斜距",
+      "滚动用质心平动转动及a=αR联立，不省任一方程",
+      "末尾核静摩擦上限和参考轴条件，假设失败要换模型"
+    ],
+    "quick": [
+      "矩与作用线",
+      "合矩",
+      "固定轴条件",
+      "质心联立",
+      "约束验算"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 312,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_9.4",
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/10-7-newtons-second-law-for-rotation",
+        "page_or_section": "10-7-newtons-second-law-for-rotation",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 312,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_9.4",
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/10-7-newtons-second-law-for-rotation",
+        "page_or_section": "10-7-newtons-second-law-for-rotation",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先画作用线垂距再给力矩符号，别用斜距",
+      "method": "f≤μN。",
+      "principle": "静摩擦限制。",
+      "worked_example_index": 2,
+      "verification": "必须换有滑动模型，不把f硬改小而保原a。",
+      "pitfall": "算出无滑动a就不验条件。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用垂直力臂求净力矩及角加速度”的抽样复核：Iα=.5×12=6。；若出现“用力直接除I。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“在滚动中联立质心平动、转动和约束”的抽样复核：必须换有滑动模型，不把f硬改小而保原a。；若出现“算出无滑动a就不验条件。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "瞬心等于固定枢轴。",
+        "correction": "不能无条件。",
+        "verification": "质心联立法避免该混淆。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "斜面实盘的质心联立",
+      "objects": [
+        "实盘",
+        "重力分量",
+        "支持力",
+        "上坡静摩擦",
+        "质心轴",
+        "加速箭头"
+      ],
+      "relations": [
+        "mg作用于质心不绕该点给矩",
+        "fR=I_cmα",
+        "Mg sinθ−f=Ma",
+        "无滑动须摩擦足够"
+      ],
+      "labels": [
+        "a",
+        "α",
+        "f",
+        "N",
+        "a=αR"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "转动图先核参考轴、力臂和接触点速度，平动图或不同轴惯量不能直接套用",
+      "english": "Use deterministic rigid-body geometry. Label the reference axis, positive rotation sense, perpendicular lever arm and radius. Tangential and radial acceleration differ. Rolling constraints require no slip relative to the specified surface; an instantaneous contact point is not automatically a fixed inertial pivot."
+    }
+  },
+  "9.5": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 9,
+    "section_id": "9.5",
+    "goals": [
+      "从指定参考点的r×p理解大小方向",
+      "用角冲量求变化并核轴向Iω的条件"
+    ],
+    "prerequisites": [
+      "动量",
+      "力矩与矢量"
+    ],
+    "flow": [
+      "参考几何",
+      "叉积方向",
+      "轴向分量",
+      "外矩变化率",
+      "角冲量"
+    ],
+    "concept_relation": "参考几何；叉积方向；轴向分量；外矩变化率；角冲量",
+    "deep": [
+      "刚体绕指定轴转动时常用L_axis=I_axisω描述该轴分量。对适当对称轴可把矢量也沿轴理解，但一般三维刚体L不必与ω平行，不能把一维标量关系宣称无条件所有方向都适用。I和ω也须对应同一参考轴。",
+      "在固定惯性参考点等适用条件下，净外力矩等于总角动量的变化率，角冲量∫τdt=ΔL。恒矩时ΔL=τΔt。力矩为0可有非零恒定角动量，正如合力为0不必动量为0；反之某时刻L0也不保证下一刻不变。",
+      "单位kg·m²/s可等写N·m·s，与转动惯量kg·m²、力矩N·m或能量J区分。求变化要用终减初并按矢量或分量相加，反向的两个角动量可抵消，不应把所有大小直接加。为下一节守恒准备时，先明示系统与参考轴，才讨论外力矩。"
+    ],
+    "derive": [
+      "质点L=r×p，大小mvr sinθ；切向才可简化mvr。",
+      "适用轴分量L_axis=I_axisω，非任意三维矢量都必平行。",
+      "角冲量∫τ_ext dt=ΔL；恒矩τΔt，单位N·m·s。"
+    ],
+    "examples": [
+      {
+        "q": "质点m.50kg、速率4m/s，距参考点.30m且速度垂直r，L大小？ 条件：质点切向几何。",
+        "given": "质点切向几何。",
+        "analysis": "sinθ1。",
+        "method": "mvr。",
+        "principle": "角动量。",
+        "steps": [
+          ".50×4×.30。",
+          "=.60kg·m²/s。"
+        ],
+        "ans": ".60kg·m²/s。",
+        "verification": "p2kgm/s乘.3m。",
+        "pitfall": "漏半径。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.5",
+        "related_sections": []
+      },
+      {
+        "q": "同质点若速度沿r方向，L和动能怎样？ 条件：m.50、v4、r.30。",
+        "given": "m.50、v4、r.30。",
+        "analysis": "角动量含sin0。",
+        "method": "分别计算。",
+        "principle": "叉积与能量。",
+        "steps": [
+          "L=mvr sin0=0。",
+          "K=.5×.50×16=4J。"
+        ],
+        "ans": "L0但K4J。",
+        "verification": "角动量0不等不运动。",
+        "pitfall": "L0就v0。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.5",
+        "related_sections": []
+      },
+      {
+        "q": "固定轴系统初L=2kg·m²/s，净恒外矩−.50N·m作用4s，末L？ 条件：参考轴与符号固定。",
+        "given": "参考轴与符号固定。",
+        "analysis": "先角冲量再相加。",
+        "method": "ΔL=τt。",
+        "principle": "角冲量。",
+        "steps": [
+          "ΔL=−.5×4=−2。",
+          "L_f=2−2=0。"
+        ],
+        "ans": "0kg·m²/s。",
+        "verification": "不是把变化量−2当末值。",
+        "pitfall": "忽略初量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.5",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "I=.20kg·m²、ω15rad/s，绕指定对称轴L？ 条件：轴向标量关系适用。",
+        "given": "轴向标量关系适用。",
+        "analysis": "相乘。",
+        "method": "Iω。",
+        "principle": "刚体角动量。",
+        "steps": [
+          ".20×15=3。",
+          "单位kg·m²/s。"
+        ],
+        "ans": "3kg·m²/s。",
+        "verification": "I不平方再乘。",
+        "pitfall": "用½Iω²。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.5",
+        "related_sections": []
+      },
+      {
+        "q": "同轴L₁+3、L₂−1，总量？ 条件：两个子系统关于同一轴。",
+        "given": "两个子系统关于同一轴。",
+        "analysis": "带符号加。",
+        "method": "3−1。",
+        "principle": "矢量分量。",
+        "steps": [
+          "总2。",
+          "沿正方向。"
+        ],
+        "ans": "+2kg·m²/s。",
+        "verification": "不是大小和4。",
+        "pitfall": "忽略反向。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.5",
+        "related_sections": []
+      },
+      {
+        "q": "恒力矩2N·m作用.30s，角冲量？ 条件：轴向恒定。",
+        "given": "轴向恒定。",
+        "analysis": "矩乘时。",
+        "method": "τt。",
+        "principle": "定义。",
+        "steps": [
+          "2×.30=.60。",
+          "单位N·m·s。"
+        ],
+        "ans": ".60N·m·s。",
+        "verification": "与ΔL单位相同。",
+        "pitfall": "单位写J。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.5",
+        "related_sections": []
+      },
+      {
+        "q": "L对所有参考点都必相同吗？ 条件：质点r会随参考点变。",
+        "given": "质点r会随参考点变。",
+        "analysis": "r×p依原点。",
+        "method": "核定义。",
+        "principle": "参考量。",
+        "steps": [
+          "p可不变但r改变。",
+          "角动量通常随参考点改变。"
+        ],
+        "ans": "不必相同。",
+        "verification": "必须报告关于何点轴。",
+        "pitfall": "当固有不变属性。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.5",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "角动量方向能画成沿切线，因为速度沿切线吗？ 条件：平面圆周质点。",
+      "given": "平面圆周质点。",
+      "analysis": "叉积法向不同p方向。",
+      "method": "右手规则。",
+      "principle": "r×p。",
+      "steps": [
+        "r与p在运动平面内。",
+        "L垂直该平面，不能与切向速度同箭头。"
+      ],
+      "ans": "不能。",
+      "verification": "顺逆时针对应轴向正负。",
+      "pitfall": "L与v同向。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 9,
+      "primary_section": "9.5",
+      "related_sections": []
+    },
+    "exam": [
+      "先选系统参考点轴，r与p夹角或垂距明确",
+      "求总量及变化保留方向，不把能量公式代角动量",
+      "角冲量用矩时间，Iω注明轴向适用条件"
+    ],
+    "quick": [
+      "参考几何",
+      "叉积方向",
+      "轴向分量",
+      "外矩变化率",
+      "角冲量"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 316,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_9.5",
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/11-2-angular-momentum",
+        "page_or_section": "11-2-angular-momentum",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 316,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_9.5",
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/11-2-angular-momentum",
+        "page_or_section": "11-2-angular-momentum",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先选系统参考点轴，r与p夹角或垂距明确",
+      "method": "ΔL=τt。",
+      "principle": "角冲量。",
+      "worked_example_index": 2,
+      "verification": "不是把变化量−2当末值。",
+      "pitfall": "忽略初量。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“从指定参考点的r×p理解大小方向”的抽样复核：p2kgm/s乘.3m。；若出现“漏半径。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用角冲量求变化并核轴向Iω的条件”的抽样复核：不是把变化量−2当末值。；若出现“忽略初量。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "L与v同向。",
+        "correction": "不能。",
+        "verification": "顺逆时针对应轴向正负。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "质点角动量与参考点",
+      "objects": [
+        "参考点O",
+        "r箭头",
+        "p切向箭头",
+        "轴向L",
+        "径向运动对照"
+      ],
+      "relations": [
+        "L垂直r,p平面",
+        "径向运动L0仍有p",
+        "同轴反向量代数相加"
+      ],
+      "labels": [
+        "r",
+        "p",
+        "L=r×p",
+        "向外/向内",
+        "τΔt"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "转动图先核参考轴、力臂和接触点速度，平动图或不同轴惯量不能直接套用",
+      "english": "Use deterministic rigid-body geometry. Label the reference axis, positive rotation sense, perpendicular lever arm and radius. Tangential and radial acceleration differ. Rolling constraints require no slip relative to the specified surface; an instantaneous contact point is not automatically a fixed inertial pivot."
+    }
+  },
+  "9.6": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 9,
+    "section_id": "9.6",
+    "goals": [
+      "先审系统与外力矩再选守恒轴",
+      "处理惯量改变及黏合并区分能量收支"
+    ],
+    "prerequisites": [
+      "角动量",
+      "系统内外力与能量"
+    ],
+    "flow": [
+      "系统轴",
+      "外矩审查",
+      "初末总量",
+      "惯量变化",
+      "能量分账"
+    ],
+    "concept_relation": "系统轴；外矩审查；初末总量；惯量变化；能量分账",
+    "deep": [
+      "同轴两转盘通过内部摩擦耦合，若外矩可忽略，可用初总Iω等于末总Iω求共同角速度，但机械能一般减少为内能。接触过程不弹性时，不应再额外强制初末动能相同来解一个不存在的兼容结果。",
+      "短时物体黏到固定枢轴转盘等碰撞可在关于轴的外角冲量可忽略时用总L守恒。枢轴作用力对轴力矩可为0，其他如重力在短碰撞中的角冲量需有忽略依据；并不是任何长时间碰撞都无条件不受外矩。黏附后惯量须加入新物体mr²。",
+      "写守恒式前先列初末各部分及正转向，方向相反要带负号。末态若共同转就用总惯量，若仍各自转需足够独立条件。最后验L和能量变化，找出能量输入或耗散来源；这样比只报“转快了”更能说明原理与限制。"
+    ],
+    "derive": [
+      "净外力矩为0（相同适用参考）⇒L_total守恒。",
+      "分布改变I₁ω₁=I₂ω₂；固定L时K=L²/(2I)。",
+      "黏合与摩擦耦合可守L而不守机械能；末I包含全部参与物体。"
+    ],
+    "examples": [
+      {
+        "q": "同轴转动系统I由4降2kg·m²，初ω3rad/s，外矩忽略，末ω和动能变化？ 条件：同一系统、轴向L=Iω适用。",
+        "given": "同一系统、轴向L=Iω适用。",
+        "analysis": "L守恒但I改变。",
+        "method": "先L再能。",
+        "principle": "守恒。",
+        "steps": [
+          "L=4×3=12，ω₂=12/2=6rad/s。",
+          "K₁=.5×4×9=18J，K₂=.5×2×36=36J。"
+        ],
+        "ans": "ω6rad/s，动能增18J。",
+        "verification": "两态L都12；增加能来自内部做功等，不违背总能。",
+        "pitfall": "强行K也不变。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.6",
+        "related_sections": []
+      },
+      {
+        "q": "两同轴盘I₁.10、I₂.20kg·m²，初ω₁20、ω₂0，经内部摩擦同转，末ω？ 条件：净外轴矩忽略。",
+        "given": "净外轴矩忽略。",
+        "analysis": "总角动量2。",
+        "method": "初总L=末总Iω。",
+        "principle": "守恒。",
+        "steps": [
+          "L=.1×20+.2×0=2。",
+          "ω=2/.30=20/3rad/s。"
+        ],
+        "ans": "约6.67rad/s。",
+        "verification": "K初20J、末20/3J，差40/3J转内能等。",
+        "pitfall": "按动能守恒算共同ω。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.6",
+        "related_sections": []
+      },
+      {
+        "q": "黏土m.10kg以切向速率5m/s黏到固定盘R.20m边缘，盘初静止I=.036kg·m²，末ω？ 条件：碰撞短，关于轴外角冲量忽略，黏土视质点。",
+        "given": "碰撞短，关于轴外角冲量忽略，黏土视质点。",
+        "analysis": "初L=mvR，末I要加mr²。",
+        "method": "角动量守恒。",
+        "principle": "轴参考碰撞。",
+        "steps": [
+          "L=.10×5×.20=.10；I_f=.036+.10×.20²=.040。",
+          "ω=.10/.040=2.5rad/s。"
+        ],
+        "ans": "2.5rad/s。",
+        "verification": "K初1.25J，末.125J，机械能不守但L一致。",
+        "pitfall": "漏黏土末惯量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.6",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "无外矩，I增3倍，ω如何？ 条件：同系统同轴。",
+        "given": "同系统同轴。",
+        "analysis": "Iω不变。",
+        "method": "反比例。",
+        "principle": "L守恒。",
+        "steps": [
+          "ω₂/ω₁=I₁/I₂。",
+          "得1/3。"
+        ],
+        "ans": "原三分之一。",
+        "verification": "不是L变三倍。",
+        "pitfall": "I和ω同增。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.6",
+        "related_sections": []
+      },
+      {
+        "q": "外力不为0就一定不能守关于某轴的L吗？ 条件：该外力可能穿轴。",
+        "given": "该外力可能穿轴。",
+        "analysis": "力矩由力臂决定。",
+        "method": "算τ。",
+        "principle": "守恒判据。",
+        "steps": [
+          "穿轴力的力矩可0。",
+          "只要净外矩0仍可能守轴向L。"
+        ],
+        "ans": "不一定。",
+        "verification": "不能把合力判据替换为角量判据。",
+        "pitfall": "外力0才守L。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.6",
+        "related_sections": []
+      },
+      {
+        "q": "固定L且I减半，K比？ 条件：轴向单一转动。",
+        "given": "轴向单一转动。",
+        "analysis": "K反比I。",
+        "method": "L²/(2I)。",
+        "principle": "能量式。",
+        "steps": [
+          "K₂/K₁=I₁/I₂。",
+          "得2。"
+        ],
+        "ans": "2倍。",
+        "verification": "额外能量须有来源。",
+        "pitfall": "L守就K守。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.6",
+        "related_sections": []
+      },
+      {
+        "q": "两盘初同轴L+4和−4，后完全同转且外矩0，末ω？ 条件：总惯量正。",
+        "given": "总惯量正。",
+        "analysis": "角动量相消。",
+        "method": "总L/I。",
+        "principle": "守恒。",
+        "steps": [
+          "L_total=0。",
+          "共同ω=0。"
+        ],
+        "ans": "0。",
+        "verification": "初动能可正并耗散，不能由总L0说初没运动。",
+        "pitfall": "两个大小相加。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 9,
+        "primary_section": "9.6",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "守恒题不指参考轴，只把不同点算出的L相加是否有效？ 条件：各r原点不同。",
+      "given": "各r原点不同。",
+      "analysis": "角动量基准不一致。",
+      "method": "统一参考。",
+      "principle": "定义。",
+      "steps": [
+        "先把各部分换到同一适用点轴。",
+        "再审净外矩与初末总量，不能混加。"
+      ],
+      "ans": "无效，应统一参考。",
+      "verification": "与线动量不含r的形式不同。",
+      "pitfall": "L只要单位同就能混加。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 9,
+      "primary_section": "9.6",
+      "related_sections": []
+    },
+    "exam": [
+      "先画系统边界、参考轴和外力矩，非零外力不自动否定",
+      "末I加入黏附或分布变化，反向角量带符号",
+      "守L后另算能量及来源去向，不强加机械能守恒"
+    ],
+    "quick": [
+      "系统轴",
+      "外矩审查",
+      "初末总量",
+      "惯量变化",
+      "能量分账"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 318,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_9.6",
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/11-3-conservation-of-angular-momentum",
+        "page_or_section": "11-3-conservation-of-angular-momentum",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 318,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_9.6",
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/11-3-conservation-of-angular-momentum",
+        "page_or_section": "11-3-conservation-of-angular-momentum",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先画系统边界、参考轴和外力矩，非零外力不自动否定",
+      "method": "角动量守恒。",
+      "principle": "轴参考碰撞。",
+      "worked_example_index": 2,
+      "verification": "K初1.25J，末.125J，机械能不守但L一致。",
+      "pitfall": "漏黏土末惯量。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“先审系统与外力矩再选守恒轴”的抽样复核：两态L都12；增加能来自内部做功等，不违背总能。；若出现“强行K也不变。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“处理惯量改变及黏合并区分能量收支”的抽样复核：K初1.25J，末.125J，机械能不守但L一致。；若出现“漏黏土末惯量。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "L只要单位同就能混加。",
+        "correction": "无效，应统一参考。",
+        "verification": "与线动量不含r的形式不同。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "收拢与黏合的角动量守恒",
+      "objects": [
+        "I4ω3到I2ω6",
+        "同轴盘耦合",
+        "黏土入盘",
+        "L条与K条"
+      ],
+      "relations": [
+        "两态L相同",
+        "收拢K18到36有内部功",
+        "黏合K可减",
+        "新I含mr²"
+      ],
+      "labels": [
+        "净外矩≈0",
+        "L=Iω",
+        "K=L²/(2I)",
+        "能量去向"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "转动图先核参考轴、力臂和接触点速度，平动图或不同轴惯量不能直接套用",
+      "english": "Use deterministic rigid-body geometry. Label the reference axis, positive rotation sense, perpendicular lever arm and radius. Tangential and radial acceleration differ. Rolling constraints require no slip relative to the specified surface; an instantaneous contact point is not automatically a fixed inertial pivot."
+    }
+  }
+}

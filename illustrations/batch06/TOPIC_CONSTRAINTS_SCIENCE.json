@@ -46,5 +46,31 @@
     "Time graphs x,v,a use a common time axis and different vertical units. At a positive displacement peak velocity is zero and acceleration is negative maximum. A spatial wave snapshot is not a temporal oscillator graph.",
     "Effective potential0.5kx squared and kinetic energy sum to0.5kA squared in the undamped model. Energy gives speed, not velocity sign. Halving corresponding turning-point amplitude leaves one-quarter mechanical energy.",
     "For m1,k100,F0=2 and viscous b2, amplitude at driving omega10 is0.10m, but the precise nonzero displacement peak is at square-root98rad/s. Increasing b to4 gives0.05m at omega10. Fixed steady amplitude still requires nonzero average input and dissipation."
+  ],
+  "chem24": [
+    "In a galvanic Zn/Cu model, Zn is the negative oxidation anode and Cu is the positive reduction cathode. Electrons travel externally from Zn to Cu; ions, not electrons, carry current through the salt bridge. Anions move to the anode compartment and cations to the cathode compartment in this model.",
+    "Use standard reduction potentials, Ecell=Ecathode-Eanode. Multiplying a balanced half-equation does not multiply its potential. State the specified standard conditions; standard potential is not automatically an operating voltage.",
+    "Distinguish capacity in Ah from energy in Wh. A 3.7V,2Ah constant-voltage illustration stores7.4Wh or26640J. In a lead-acid model both plates can form PbSO4 during discharge through different redox half-reactions.",
+    "For molten and aqueous electrolytes, show the phase, possible competing species and electrode material. Anode always means oxidation and cathode reduction; their electrical signs differ between electrolytic and galvanic cells. Do not imply that aqueous NaCl deposits sodium metal.",
+    "In electroplating the workpiece is the cathode. Soluble-anode replenishment depends on the stated process. Electrorefining impurity fates depend on their chemistry; aluminium extraction uses molten electrolyte rather than aqueous reduction.",
+    "Faraday accounting uses Q=It, electron amount Q/F, balanced electron ratio and current efficiency. With F96500C/mol,1930C supplies0.020mol electrons and deposits0.635g Cu at100percent efficiency for Cu2+ reduction. Gas volumes require explicit temperature and pressure.",
+    "Show spatially separated iron oxidation and oxygen reduction in aerated neutral water, with electron conduction in metal and ionic transport in water. Rust is not universally pure anhydrous Fe2O3. Salt can accelerate corrosion but is not an absolute requirement.",
+    "Distinguish barrier coatings, passivation and sacrificial protection. Zinc can act sacrificially to iron under specified conditions; a scratched copper coating can make exposed iron a local anode. Do not reverse the protected metal and sacrificial anode."
+  ],
+  "phys09": [
+    "For fixed-axis rigid rotation, all points share angular velocity but tangential speed is radius times angular velocity. Tangential acceleration r alpha and inward radial acceleration r omega squared are perpendicular components.120rpm equals4pi rad/s.",
+    "Draw each mass with its perpendicular distance to the stated axis. Moment of inertia depends on that axis. The parallel-axis relation starts at a parallel centre-of-mass axis; disk and ring formulas must identify their distinct mass distributions.",
+    "Pure rolling on a fixed surface combines centre-of-mass translation and rotation about the centre of mass. vCM=omega R requires no slip. Do not count translation twice when changing the reference axis.",
+    "Torque uses the perpendicular lever arm from the reference axis to the force line. A freely rolling uniform disk down a30degree slope with g10 has acceleration10/3m/s2; for mass2kg the uphill static friction is10/3N, only if the friction limit permits.",
+    "Angular momentum about a point is r cross p, with the right-hand direction. Fixed-axis L=I omega is the stated axis component, not a universal assertion that all three-dimensional L vectors parallel omega. Radial motion can have zero angular momentum while retaining kinetic energy.",
+    "Angular momentum is conserved only about a reference with the appropriate negligible net external torque. Pulling mass inward can increase rotational energy through internal work. Inelastic coupling of coaxial disks conserves total angular momentum but generally loses mechanical kinetic energy."
+  ],
+  "phys20": [
+    "Connect each optical model with evidence and its domain. Geometric straight-line propagation can be a short-wavelength limit of waves, so a sharp shadow alone does not uniquely prove classical corpuscles. Dark interference regions represent redistribution, not destruction of total energy.",
+    "Distinguish slit separation d, slit width a and screen distance L. Include initial phase in total phase difference. Unequal input intensities I0 and4I0 give maximum9I0 and minimumI0, not complete extinction. Paraxial fringe spacing is lambda L/d.",
+    "Single-slit dark fringes satisfy a sin theta=m lambda for nonzero integers; the centre is bright. Central near-axis width is2lambda L/a. Grating principal maxima instead satisfy d sin theta=m lambda, with geometric bound abs(m lambda)<=d. A500line/mm grating has d2micrometres.",
+    "Polarization axes follow the transverse electric field, not the propagation ray. For originally unpolarized I0 through ideal0,45,90degree polarizers, successive intensities are I0/2,I0/4,I0/8. Brewster reflected and refracted rays are perpendicular under the stated interface assumptions.",
+    "Use a right-handed mutually perpendicular electric field, magnetic field and propagation triad, with E cross B forward. Vacuum frequency increases as wavelength decreases while all spectral bands share c. Photon energy hf differs from total beam power; spectral boundaries can overlap.",
+    "A reflector at distance D gives total return path2D. Subtract calibrated electronics delay before dividing. In the specified equal-tooth-gap wheel model, first adjacent-tooth extinction takes1/(2Nf), giving c=4DNf. Label numerical examples as illustrative, not historical measurements."
   ]
 }

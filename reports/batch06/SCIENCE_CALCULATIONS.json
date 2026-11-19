@@ -752,6 +752,204 @@
       "status": "pass"
     },
     {
+      "name": "phys9 rpm speed",
+      "computed": 2.5132741228718345,
+      "expected": 2.5132741228718345,
+      "status": "pass"
+    },
+    {
+      "name": "phys9 angular displacement",
+      "computed": 32.0,
+      "expected": 32,
+      "status": "pass"
+    },
+    {
+      "name": "phys9 disk rolling acceleration",
+      "computed": 3.3333333333333335,
+      "expected": 3.3333333333333335,
+      "status": "pass"
+    },
+    {
+      "name": "phys9 required friction",
+      "computed": 3.3333333333333335,
+      "expected": 3.3333333333333335,
+      "status": "pass"
+    },
+    {
+      "name": "phys9 friction limit",
+      "computed": 1.7320508075688774,
+      "expected": 1.7320508075688772,
+      "status": "pass"
+    },
+    {
+      "name": "phys9 coaxial common omega",
+      "computed": 6.666666666666666,
+      "expected": 6.666666666666667,
+      "status": "pass"
+    },
+    {
+      "name": "phys9 inelastic disk energy lost",
+      "computed": 13.333333333333332,
+      "expected": 13.333333333333334,
+      "status": "pass"
+    },
+    {
+      "name": "chem24 copper deposited",
+      "computed": 0.635,
+      "expected": 0.635,
+      "status": "pass"
+    },
+    {
+      "name": "chem24 silver efficiency",
+      "computed": 1.7280000000000002,
+      "expected": 1.728,
+      "status": "pass"
+    },
+    {
+      "name": "chem24 hydrogen gas volume L",
+      "computed": 0.24930000000000002,
+      "expected": 0.2493,
+      "status": "pass"
+    },
+    {
+      "name": "chem24 capacity Wh",
+      "computed": 7.4,
+      "expected": 7.4,
+      "status": "pass"
+    },
+    {
+      "name": "chem24 capacity joules",
+      "computed": 26640.0,
+      "expected": 26640,
+      "status": "pass"
+    },
+    {
+      "name": "phys20 double slit spacing",
+      "computed": 0.0024,
+      "expected": 0.0024,
+      "status": "pass"
+    },
+    {
+      "name": "phys20 unequal max",
+      "computed": 9.0,
+      "expected": 9,
+      "status": "pass"
+    },
+    {
+      "name": "phys20 unequal min",
+      "computed": 1.0,
+      "expected": 1,
+      "status": "pass"
+    },
+    {
+      "name": "phys20 single slit central width",
+      "computed": 0.011999999999999999,
+      "expected": 0.012,
+      "status": "pass"
+    },
+    {
+      "name": "phys20 grating spacing",
+      "computed": 2e-06,
+      "expected": 2e-06,
+      "status": "pass"
+    },
+    {
+      "name": "phys20 highest geometric order",
+      "computed": 3,
+      "expected": 3,
+      "status": "pass"
+    },
+    {
+      "name": "phys20 third grating angle",
+      "computed": 64.15806723683286,
+      "expected": 64.1580672368,
+      "status": "pass"
+    },
+    {
+      "name": "phys20 Rayleigh angle",
+      "computed": 6.099999999999999e-06,
+      "expected": 6.1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "phys20 polarized output",
+      "computed": 20.000000000000007,
+      "expected": 20,
+      "status": "pass"
+    },
+    {
+      "name": "phys20 three polarizers",
+      "computed": 0.12500000000000003,
+      "expected": 0.125,
+      "status": "pass"
+    },
+    {
+      "name": "phys20 Brewster angle",
+      "computed": 59.99999999999999,
+      "expected": 60,
+      "status": "pass"
+    },
+    {
+      "name": "phys20 microwave frequency",
+      "computed": 10000000000.0,
+      "expected": 10000000000.0,
+      "status": "pass"
+    },
+    {
+      "name": "phys20 photon J",
+      "computed": 6.63e-19,
+      "expected": 6.63e-19,
+      "status": "pass"
+    },
+    {
+      "name": "phys20 photon eV",
+      "computed": 4.14375,
+      "expected": 4.14375,
+      "status": "pass"
+    },
+    {
+      "name": "phys20 wave electric amplitude",
+      "computed": 300.0,
+      "expected": 300,
+      "status": "pass"
+    },
+    {
+      "name": "phys20 medium wavelength nm",
+      "computed": 400.0,
+      "expected": 400,
+      "status": "pass"
+    },
+    {
+      "name": "phys20 photon flow power ratio",
+      "computed": 0.5,
+      "expected": 0.5,
+      "status": "pass"
+    },
+    {
+      "name": "phys20 return flight speed",
+      "computed": 300000000.0,
+      "expected": 300000000.0,
+      "status": "pass"
+    },
+    {
+      "name": "phys20 corrected flight speed",
+      "computed": 300000000.0,
+      "expected": 300000000.0,
+      "status": "pass"
+    },
+    {
+      "name": "phys20 wheel speed",
+      "computed": 300000000.0,
+      "expected": 300000000.0,
+      "status": "pass"
+    },
+    {
+      "name": "phys20 medium delay",
+      "computed": 5e-09,
+      "expected": 5e-09,
+      "status": "pass"
+    },
+    {
       "name": "forced displacement peak from differentiated denominator",
       "status": "pass",
       "detail": "Nonzero critical omega squared = k/m - b squared/(2m squared); source schematic simplification is not treated as exact."

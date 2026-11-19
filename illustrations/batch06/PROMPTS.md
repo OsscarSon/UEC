@@ -1,6 +1,6 @@
 # Batch06 新增真实小节绘图任务
 
-125项独立复合教学图规范；没有生成新图片，也没有将原142项缺口冒称补齐。
+145项独立复合教学图规范；没有生成新图片，也没有将原142项缺口冒称补齐。
 
 ## B06-BIO04-4-1 · 生物 4.1 细胞的分工
 
@@ -2974,6 +2974,351 @@ No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charge
 - https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
 - https://openstax.org/books/chemistry-2e/pages/15-3-coupled-equilibria
 
+## B06-CHEM24-24-1-1 · 化学 24.1.1 原电池的工作原理
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：由半反应判断两极与电子方向；用电荷收支解释盐桥和质量变化
+
+对象：Zn/Zn²⁺杯；Cu²⁺/Cu杯；外导线；惰性盐桥离子；电流箭头
+
+关系：电子Zn→Cu在外路；盐桥阴离子向Zn侧阳离子向Cu侧；Zn溶解Cu沉积；阴阳极反应守恒
+
+中文标签：阳极−；阴极+；e⁻；离子迁移
+
+公式/单位：阳极氧化、阴极还原；原电池放电阳极负、阴极正。；Zn→Zn²⁺+2e⁻；Cu²⁺+2e⁻→Cu；电子外电路Zn侧→Cu侧。；盐桥以离子迁移平衡电荷，不是自由电子穿盐桥。
+
+### 中文Prompt
+
+制作化学第24章《电化学》24.1.1《原电池的工作原理》的教学图《锌铜原电池双导电通路》。教学目标：由半反应判断两极与电子方向；用电荷收支解释盐桥和质量变化。必须对象：Zn/Zn²⁺杯；Cu²⁺/Cu杯；外导线；惰性盐桥离子；电流箭头。不可画错的关系：电子Zn→Cu在外路；盐桥阴离子向Zn侧阳离子向Cu侧；Zn溶解Cu沉积；阴阳极反应守恒。中文标签：阳极−；阴极+；e⁻；离子迁移。公式、单位和条件：阳极氧化、阴极还原；原电池放电阳极负、阴极正。；Zn→Zn²⁺+2e⁻；Cu²⁺+2e⁻→Cu；电子外电路Zn侧→Cu侧。；盐桥以离子迁移平衡电荷，不是自由电子穿盐桥。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter24, authentic subsection24.1.1, with original Chinese title 原电池的工作原理. Topic-specific mandatory science: In a galvanic Zn/Cu model, Zn is the negative oxidation anode and Cu is the positive reduction cathode. Electrons travel externally from Zn to Cu; ions, not electrons, carry current through the salt bridge. Anions move to the anode compartment and cations to the cathode compartment in this model. Draw deterministic electrochemical diagrams. Oxidation is always at the anode and reduction at the cathode. Galvanic and electrolytic electrode polarities differ. Electrons travel in the external electronic conductors, while ions carry charge through electrolyte and salt bridge. Balance atoms, charge and transferred electrons, state phase and concentration conditions. Required objects, preserving these Chinese labels: Zn/Zn²⁺杯；Cu²⁺/Cu杯；外导线；惰性盐桥离子；电流箭头. Additional literal Chinese annotation strings: 阳极−；阴极+；e⁻；离子迁移. Typeset and verify these reference formulas, units and stated conditions: 阳极氧化、阴极还原；原电池放电阳极负、阴极正。；Zn→Zn²⁺+2e⁻；Cu²⁺+2e⁻→Cu；电子外电路Zn侧→Cu侧。；盐桥以离子迁移平衡电荷，不是自由电子穿盐桥。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 电子Zn→Cu在外路
+- 盐桥阴离子向Zn侧阳离子向Cu侧
+- Zn溶解Cu沉积
+- 阴阳极反应守恒
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：电池和电解图须逐项核电极反应、电源极性、外电路电子与溶液离子；同样双杯外形不能直接复用
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/chemistry-2e/pages/17-2-galvanic-cells
+
+## B06-CHEM24-24-1-2 · 化学 24.1.2 常用的化学电源
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：区分一次、二次电池和燃料电池；把电量、能量及理想反应与实际限制分开
+
+对象：一次电池；二次充放电；燃料供给产物出口；Ah与Wh表
+
+关系：燃料电池外供反应物；二次充电需外功；Ah乘电压才近Wh；锂离子不画必需金属锂沉积
+
+中文标签：一次；二次；燃料电池；Q/C；W/Wh
+
+公式/单位：1Ah=3600C；若电压近恒定，W≈UQ，Wh=V×Ah。；铅酸简式：Pb+PbO₂+2H₂SO₄→2PbSO₄+2H₂O。；氢氧总式2H₂+O₂→2H₂O；电解质决定半反应形式，生命周期边界另核。
+
+### 中文Prompt
+
+制作化学第24章《电化学》24.1.2《常用的化学电源》的教学图《三类电源与电量能量》。教学目标：区分一次、二次电池和燃料电池；把电量、能量及理想反应与实际限制分开。必须对象：一次电池；二次充放电；燃料供给产物出口；Ah与Wh表。不可画错的关系：燃料电池外供反应物；二次充电需外功；Ah乘电压才近Wh；锂离子不画必需金属锂沉积。中文标签：一次；二次；燃料电池；Q/C；W/Wh。公式、单位和条件：1Ah=3600C；若电压近恒定，W≈UQ，Wh=V×Ah。；铅酸简式：Pb+PbO₂+2H₂SO₄→2PbSO₄+2H₂O。；氢氧总式2H₂+O₂→2H₂O；电解质决定半反应形式，生命周期边界另核。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter24, authentic subsection24.1.2, with original Chinese title 常用的化学电源. Topic-specific mandatory science: Use standard reduction potentials, Ecell=Ecathode-Eanode. Multiplying a balanced half-equation does not multiply its potential. State the specified standard conditions; standard potential is not automatically an operating voltage. Draw deterministic electrochemical diagrams. Oxidation is always at the anode and reduction at the cathode. Galvanic and electrolytic electrode polarities differ. Electrons travel in the external electronic conductors, while ions carry charge through electrolyte and salt bridge. Balance atoms, charge and transferred electrons, state phase and concentration conditions. Required objects, preserving these Chinese labels: 一次电池；二次充放电；燃料供给产物出口；Ah与Wh表. Additional literal Chinese annotation strings: 一次；二次；燃料电池；Q/C；W/Wh. Typeset and verify these reference formulas, units and stated conditions: 1Ah=3600C；若电压近恒定，W≈UQ，Wh=V×Ah。；铅酸简式：Pb+PbO₂+2H₂SO₄→2PbSO₄+2H₂O。；氢氧总式2H₂+O₂→2H₂O；电解质决定半反应形式，生命周期边界另核。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 燃料电池外供反应物
+- 二次充电需外功
+- Ah乘电压才近Wh
+- 锂离子不画必需金属锂沉积
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：电池和电解图须逐项核电极反应、电源极性、外电路电子与溶液离子；同样双杯外形不能直接复用
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/chemistry-2e/pages/17-5-batteries-and-fuel-cells
+
+## B06-CHEM24-24-2-1 · 化学 24.2.1 标准电极电势
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：按还原电势表求电池电势；解释参考电极、标准态和不随系数倍增
+
+对象：SHE零线；Zn−.76；Cu+.34；Ag+.80；E差箭头
+
+关系：Cu−Zn=1.10V；Ag−Cu=.46V；银反应乘2不改变.80V；轴单位V非J
+
+中文标签：E°red/V；SHE；阴极−阳极；n另计
+
+公式/单位：E°cell=E°cathode,red−E°anode,red；两数来自同一还原表。；半反应倍乘不倍乘E°；反向作为氧化电势时才反号，避免双反号。；标准参考SHE=0V为约定；温度与活度等条件要另核。
+
+### 中文Prompt
+
+制作化学第24章《电化学》24.2.1《标准电极电势》的教学图《还原电势差与系数不变》。教学目标：按还原电势表求电池电势；解释参考电极、标准态和不随系数倍增。必须对象：SHE零线；Zn−.76；Cu+.34；Ag+.80；E差箭头。不可画错的关系：Cu−Zn=1.10V；Ag−Cu=.46V；银反应乘2不改变.80V；轴单位V非J。中文标签：E°red/V；SHE；阴极−阳极；n另计。公式、单位和条件：E°cell=E°cathode,red−E°anode,red；两数来自同一还原表。；半反应倍乘不倍乘E°；反向作为氧化电势时才反号，避免双反号。；标准参考SHE=0V为约定；温度与活度等条件要另核。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter24, authentic subsection24.2.1, with original Chinese title 标准电极电势. Topic-specific mandatory science: Distinguish capacity in Ah from energy in Wh. A 3.7V,2Ah constant-voltage illustration stores7.4Wh or26640J. In a lead-acid model both plates can form PbSO4 during discharge through different redox half-reactions. Draw deterministic electrochemical diagrams. Oxidation is always at the anode and reduction at the cathode. Galvanic and electrolytic electrode polarities differ. Electrons travel in the external electronic conductors, while ions carry charge through electrolyte and salt bridge. Balance atoms, charge and transferred electrons, state phase and concentration conditions. Required objects, preserving these Chinese labels: SHE零线；Zn−.76；Cu+.34；Ag+.80；E差箭头. Additional literal Chinese annotation strings: E°red/V；SHE；阴极−阳极；n另计. Typeset and verify these reference formulas, units and stated conditions: E°cell=E°cathode,red−E°anode,red；两数来自同一还原表。；半反应倍乘不倍乘E°；反向作为氧化电势时才反号，避免双反号。；标准参考SHE=0V为约定；温度与活度等条件要另核。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- Cu−Zn=1.10V
+- Ag−Cu=.46V
+- 银反应乘2不改变.80V
+- 轴单位V非J
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：电池和电解图须逐项核电极反应、电源极性、外电路电子与溶液离子；同样双杯外形不能直接复用
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/chemistry-2e/pages/17-3-electrode-and-cell-potentials
+
+## B06-CHEM24-24-2-2 · 化学 24.2.2 电极电势的应用
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：在指定条件下判断方向和氧还原强弱；结合自由能与反应商说明电势判断的限制
+
+对象：E°正负轴；ΔG°相反符号；n电子计量；Q变化；反向倍增表
+
+关系：ΔG°=−nFE°；Q增大按给定方向降E；反向K倒数；倍增K平方E不变
+
+中文标签：E/V；ΔG/J·mol⁻¹；n；lnQ；lnK
+
+公式/单位：ΔG°=−nFE°；E=E°−(RT/nF)lnQ，按适用活度与模型。；平衡E=0⇒lnK=nFE°/(RT)。；反向E°与ΔG°反号、K取倒数；倍增E°不变、n倍增、K平方。
+
+### 中文Prompt
+
+制作化学第24章《电化学》24.2.2《电极电势的应用》的教学图《电势自由能与平衡》。教学目标：在指定条件下判断方向和氧还原强弱；结合自由能与反应商说明电势判断的限制。必须对象：E°正负轴；ΔG°相反符号；n电子计量；Q变化；反向倍增表。不可画错的关系：ΔG°=−nFE°；Q增大按给定方向降E；反向K倒数；倍增K平方E不变。中文标签：E/V；ΔG/J·mol⁻¹；n；lnQ；lnK。公式、单位和条件：ΔG°=−nFE°；E=E°−(RT/nF)lnQ，按适用活度与模型。；平衡E=0⇒lnK=nFE°/(RT)。；反向E°与ΔG°反号、K取倒数；倍增E°不变、n倍增、K平方。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter24, authentic subsection24.2.2, with original Chinese title 电极电势的应用. Topic-specific mandatory science: For molten and aqueous electrolytes, show the phase, possible competing species and electrode material. Anode always means oxidation and cathode reduction; their electrical signs differ between electrolytic and galvanic cells. Do not imply that aqueous NaCl deposits sodium metal. Draw deterministic electrochemical diagrams. Oxidation is always at the anode and reduction at the cathode. Galvanic and electrolytic electrode polarities differ. Electrons travel in the external electronic conductors, while ions carry charge through electrolyte and salt bridge. Balance atoms, charge and transferred electrons, state phase and concentration conditions. Required objects, preserving these Chinese labels: E°正负轴；ΔG°相反符号；n电子计量；Q变化；反向倍增表. Additional literal Chinese annotation strings: E/V；ΔG/J·mol⁻¹；n；lnQ；lnK. Typeset and verify these reference formulas, units and stated conditions: ΔG°=−nFE°；E=E°−(RT/nF)lnQ，按适用活度与模型。；平衡E=0⇒lnK=nFE°/(RT)。；反向E°与ΔG°反号、K取倒数；倍增E°不变、n倍增、K平方。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- ΔG°=−nFE°
+- Q增大按给定方向降E
+- 反向K倒数
+- 倍增K平方E不变
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：电池和电解图须逐项核电极反应、电源极性、外电路电子与溶液离子；同样双杯外形不能直接复用
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/chemistry-2e/pages/17-3-electrode-and-cell-potentials
+
+## B06-CHEM24-24-3-1 · 化学 24.3.1 电解原理
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：按外电源连接和半反应判断两极；区分熔融与水溶液、惰性与活性电极的产物
+
+对象：电源；阳极+；阴极−；熔盐对照；水溶液对照；离子流
+
+关系：电子外回路不穿溶液；阴极还原阳极氧化；水溶液不必析活泼金属；材料条件明示
+
+中文标签：外电源；e⁻；氧化；还原；熔融/水溶液
+
+公式/单位：电解：阳极(+)氧化、阴极(−)还原；与原电池的极性区别不改变反应定义。；阴极电子在半反应左，阳极在右；相加电子须完全相消。；水溶液、电极材料和浓度决定竞争路径，不能照搬熔融盐产物。
+
+### 中文Prompt
+
+制作化学第24章《电化学》24.3.1《电解原理》的教学图《电解外电源与竞争反应》。教学目标：按外电源连接和半反应判断两极；区分熔融与水溶液、惰性与活性电极的产物。必须对象：电源；阳极+；阴极−；熔盐对照；水溶液对照；离子流。不可画错的关系：电子外回路不穿溶液；阴极还原阳极氧化；水溶液不必析活泼金属；材料条件明示。中文标签：外电源；e⁻；氧化；还原；熔融/水溶液。公式、单位和条件：电解：阳极(+)氧化、阴极(−)还原；与原电池的极性区别不改变反应定义。；阴极电子在半反应左，阳极在右；相加电子须完全相消。；水溶液、电极材料和浓度决定竞争路径，不能照搬熔融盐产物。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter24, authentic subsection24.3.1, with original Chinese title 电解原理. Topic-specific mandatory science: In electroplating the workpiece is the cathode. Soluble-anode replenishment depends on the stated process. Electrorefining impurity fates depend on their chemistry; aluminium extraction uses molten electrolyte rather than aqueous reduction. Draw deterministic electrochemical diagrams. Oxidation is always at the anode and reduction at the cathode. Galvanic and electrolytic electrode polarities differ. Electrons travel in the external electronic conductors, while ions carry charge through electrolyte and salt bridge. Balance atoms, charge and transferred electrons, state phase and concentration conditions. Required objects, preserving these Chinese labels: 电源；阳极+；阴极−；熔盐对照；水溶液对照；离子流. Additional literal Chinese annotation strings: 外电源；e⁻；氧化；还原；熔融/水溶液. Typeset and verify these reference formulas, units and stated conditions: 电解：阳极(+)氧化、阴极(−)还原；与原电池的极性区别不改变反应定义。；阴极电子在半反应左，阳极在右；相加电子须完全相消。；水溶液、电极材料和浓度决定竞争路径，不能照搬熔融盐产物。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 电子外回路不穿溶液
+- 阴极还原阳极氧化
+- 水溶液不必析活泼金属
+- 材料条件明示
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：电池和电解图须逐项核电极反应、电源极性、外电路电子与溶液离子；同样双杯外形不能直接复用
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis
+
+## B06-CHEM24-24-3-2 · 化学 24.3.2 电解原理的应用
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：由目标产物设计电极角色并解释电镀精炼；辨识工业制铝和水电解的介质及计量条件
+
+对象：钢工件阴极；铜阳极；Cu²⁺迁移；粗铜杂质；制铝介质说明；水电解气体
+
+关系：铜在工件还原；铜阳极可补离子；贵金属不全在阴极共沉；H₂O气体mol比2:1
+
+中文标签：阴极−；阳极+；电镀；精炼；熔融非水液
+
+公式/单位：铜镀层工件为阴极：Cu²⁺+2e⁻→Cu；可溶铜阳极补Cu²⁺。；铜精炼的阳极、阴极与杂质去向按材料和工艺条件判断。；2H₂O→2H₂+O₂；同温同压理想无损失气体体积比2:1。
+
+### 中文Prompt
+
+制作化学第24章《电化学》24.3.2《电解原理的应用》的教学图《电镀精炼与工业介质对照》。教学目标：由目标产物设计电极角色并解释电镀精炼；辨识工业制铝和水电解的介质及计量条件。必须对象：钢工件阴极；铜阳极；Cu²⁺迁移；粗铜杂质；制铝介质说明；水电解气体。不可画错的关系：铜在工件还原；铜阳极可补离子；贵金属不全在阴极共沉；H₂O气体mol比2:1。中文标签：阴极−；阳极+；电镀；精炼；熔融非水液。公式、单位和条件：铜镀层工件为阴极：Cu²⁺+2e⁻→Cu；可溶铜阳极补Cu²⁺。；铜精炼的阳极、阴极与杂质去向按材料和工艺条件判断。；2H₂O→2H₂+O₂；同温同压理想无损失气体体积比2:1。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter24, authentic subsection24.3.2, with original Chinese title 电解原理的应用. Topic-specific mandatory science: Faraday accounting uses Q=It, electron amount Q/F, balanced electron ratio and current efficiency. With F96500C/mol,1930C supplies0.020mol electrons and deposits0.635g Cu at100percent efficiency for Cu2+ reduction. Gas volumes require explicit temperature and pressure. Draw deterministic electrochemical diagrams. Oxidation is always at the anode and reduction at the cathode. Galvanic and electrolytic electrode polarities differ. Electrons travel in the external electronic conductors, while ions carry charge through electrolyte and salt bridge. Balance atoms, charge and transferred electrons, state phase and concentration conditions. Required objects, preserving these Chinese labels: 钢工件阴极；铜阳极；Cu²⁺迁移；粗铜杂质；制铝介质说明；水电解气体. Additional literal Chinese annotation strings: 阴极−；阳极+；电镀；精炼；熔融非水液. Typeset and verify these reference formulas, units and stated conditions: 铜镀层工件为阴极：Cu²⁺+2e⁻→Cu；可溶铜阳极补Cu²⁺。；铜精炼的阳极、阴极与杂质去向按材料和工艺条件判断。；2H₂O→2H₂+O₂；同温同压理想无损失气体体积比2:1。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 铜在工件还原
+- 铜阳极可补离子
+- 贵金属不全在阴极共沉
+- H₂O气体mol比2:1
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：电池和电解图须逐项核电极反应、电源极性、外电路电子与溶液离子；同样双杯外形不能直接复用
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis
+
+## B06-CHEM24-24-3-3 · 化学 24.3.3 电解定律
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：从电荷到电子mol再到产物量完整计算；区分电流效率、能量效率和气体温压
+
+对象：I,t；Q/C；n_e/mol；z电子/产物；质量或气体；η分流
+
+关系：Q除F得电子mol；再除z；η只计目标份额；气体温压明示
+
+中文标签：Q=It；F；z；η；m；T,P
+
+公式/单位：Q=It；n_e=Q/F；n_product=ηQ/(zF)；m=ηMIt/(zF)。；同Q、同η时m₁/m₂=(M₁/z₁)/(M₂/z₂)。；气体先求mol，再按指定T、P求V；电流效率不等能量效率。
+
+### 中文Prompt
+
+制作化学第24章《电化学》24.3.3《电解定律》的教学图《法拉第计算链》。教学目标：从电荷到电子mol再到产物量完整计算；区分电流效率、能量效率和气体温压。必须对象：I,t；Q/C；n_e/mol；z电子/产物；质量或气体；η分流。不可画错的关系：Q除F得电子mol；再除z；η只计目标份额；气体温压明示。中文标签：Q=It；F；z；η；m；T,P。公式、单位和条件：Q=It；n_e=Q/F；n_product=ηQ/(zF)；m=ηMIt/(zF)。；同Q、同η时m₁/m₂=(M₁/z₁)/(M₂/z₂)。；气体先求mol，再按指定T、P求V；电流效率不等能量效率。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter24, authentic subsection24.3.3, with original Chinese title 电解定律. Topic-specific mandatory science: Show spatially separated iron oxidation and oxygen reduction in aerated neutral water, with electron conduction in metal and ionic transport in water. Rust is not universally pure anhydrous Fe2O3. Salt can accelerate corrosion but is not an absolute requirement. Draw deterministic electrochemical diagrams. Oxidation is always at the anode and reduction at the cathode. Galvanic and electrolytic electrode polarities differ. Electrons travel in the external electronic conductors, while ions carry charge through electrolyte and salt bridge. Balance atoms, charge and transferred electrons, state phase and concentration conditions. Required objects, preserving these Chinese labels: I,t；Q/C；n_e/mol；z电子/产物；质量或气体；η分流. Additional literal Chinese annotation strings: Q=It；F；z；η；m；T,P. Typeset and verify these reference formulas, units and stated conditions: Q=It；n_e=Q/F；n_product=ηQ/(zF)；m=ηMIt/(zF)。；同Q、同η时m₁/m₂=(M₁/z₁)/(M₂/z₂)。；气体先求mol，再按指定T、P求V；电流效率不等能量效率。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- Q除F得电子mol
+- 再除z
+- η只计目标份额
+- 气体温压明示
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：电池和电解图须逐项核电极反应、电源极性、外电路电子与溶液离子；同样双杯外形不能直接复用
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis
+
+## B06-CHEM24-24-4 · 化学 24.4 金属的腐蚀与防护
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：用局部氧化还原解释铁锈蚀；比较屏障、牺牲阳极和接触腐蚀并控制实验
+
+对象：铁表面水膜；局部阳阴极；氧还原；破损Zn层；破损Cu层
+
+关系：Fe阳极失2e；阴极氧还原守恒；Zn可牺牲保护Fe；Cu接触暴露Fe可能加速；真实锈层非单一纯相
+
+中文标签：Fe²⁺；OH⁻；O₂；屏障；牺牲阳极
+
+公式/单位：湿含氧中性模型：Fe→Fe²⁺+2e⁻；O₂+2H₂O+4e⁻→4OH⁻。；锌牺牲阳极可保护相连铁；贵金属接触暴露铁可能加速铁阳极腐蚀。；屏障、牺牲阳极和外加电流是不同机制；速率还受钝化环境影响。
+
+### 中文Prompt
+
+制作化学第24章《电化学》24.4《金属的腐蚀与防护》的教学图《铁腐蚀与两种镀层破损》。教学目标：用局部氧化还原解释铁锈蚀；比较屏障、牺牲阳极和接触腐蚀并控制实验。必须对象：铁表面水膜；局部阳阴极；氧还原；破损Zn层；破损Cu层。不可画错的关系：Fe阳极失2e；阴极氧还原守恒；Zn可牺牲保护Fe；Cu接触暴露Fe可能加速；真实锈层非单一纯相。中文标签：Fe²⁺；OH⁻；O₂；屏障；牺牲阳极。公式、单位和条件：湿含氧中性模型：Fe→Fe²⁺+2e⁻；O₂+2H₂O+4e⁻→4OH⁻。；锌牺牲阳极可保护相连铁；贵金属接触暴露铁可能加速铁阳极腐蚀。；屏障、牺牲阳极和外加电流是不同机制；速率还受钝化环境影响。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter24, authentic subsection24.4, with original Chinese title 金属的腐蚀与防护. Topic-specific mandatory science: Distinguish barrier coatings, passivation and sacrificial protection. Zinc can act sacrificially to iron under specified conditions; a scratched copper coating can make exposed iron a local anode. Do not reverse the protected metal and sacrificial anode. Draw deterministic electrochemical diagrams. Oxidation is always at the anode and reduction at the cathode. Galvanic and electrolytic electrode polarities differ. Electrons travel in the external electronic conductors, while ions carry charge through electrolyte and salt bridge. Balance atoms, charge and transferred electrons, state phase and concentration conditions. Required objects, preserving these Chinese labels: 铁表面水膜；局部阳阴极；氧还原；破损Zn层；破损Cu层. Additional literal Chinese annotation strings: Fe²⁺；OH⁻；O₂；屏障；牺牲阳极. Typeset and verify these reference formulas, units and stated conditions: 湿含氧中性模型：Fe→Fe²⁺+2e⁻；O₂+2H₂O+4e⁻→4OH⁻。；锌牺牲阳极可保护相连铁；贵金属接触暴露铁可能加速铁阳极腐蚀。；屏障、牺牲阳极和外加电流是不同机制；速率还受钝化环境影响。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- Fe阳极失2e
+- 阴极氧还原守恒
+- Zn可牺牲保护Fe
+- Cu接触暴露Fe可能加速
+- 真实锈层非单一纯相
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：电池和电解图须逐项核电极反应、电源极性、外电路电子与溶液离子；同样双杯外形不能直接复用
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/chemistry-2e/pages/17-6-corrosion
+
 ## B06-MATH06-6-1 · 数学 6.1 不等式及其性质
 
 优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
@@ -3984,6 +4329,263 @@ No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charge
 来源：
 - https://www.scribd.com/document/1047236315/高级数学-高三上册-1
 - https://openstax.org/books/calculus-volume-1/pages/4-9-newtons-method
+
+## B06-PHYS09-9-1 · 物理 9.1 刚体及其转动
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：区分刚体定轴转动与平动复合运动；从角量求切向速度和两种加速度
+
+对象：固定轴；两半径点；切向速度；向心与切向加速度；正转向
+
+关系：两点同ω不同v；径向a指轴；切向a由α给出；r0点静止
+
+中文标签：r；ω；α；a_t；a_r
+
+公式/单位：定轴刚体各点同ω、α，但v=rω，a_t=rα，a_r=rω²。；θ用rad配s=rθ；ω、α单位rad/s与rad/s²。；α恒定才用ω=ω₀+αt及Δθ=ω₀t+½αt²。
+
+### 中文Prompt
+
+制作物理第9章《转动》9.1《刚体及其转动》的教学图《刚轮的角量与线量》。教学目标：区分刚体定轴转动与平动复合运动；从角量求切向速度和两种加速度。必须对象：固定轴；两半径点；切向速度；向心与切向加速度；正转向。不可画错的关系：两点同ω不同v；径向a指轴；切向a由α给出；r0点静止。中文标签：r；ω；α；a_t；a_r。公式、单位和条件：定轴刚体各点同ω、α，但v=rω，a_t=rα，a_r=rω²。；θ用rad配s=rθ；ω、α单位rad/s与rad/s²。；α恒定才用ω=ω₀+αt及Δθ=ω₀t+½αt²。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter9, authentic subsection9.1, with original Chinese title 刚体及其转动. Topic-specific mandatory science: For fixed-axis rigid rotation, all points share angular velocity but tangential speed is radius times angular velocity. Tangential acceleration r alpha and inward radial acceleration r omega squared are perpendicular components.120rpm equals4pi rad/s. Use deterministic rigid-body geometry. Label the reference axis, positive rotation sense, perpendicular lever arm and radius. Tangential and radial acceleration differ. Rolling constraints require no slip relative to the specified surface; an instantaneous contact point is not automatically a fixed inertial pivot. Required objects, preserving these Chinese labels: 固定轴；两半径点；切向速度；向心与切向加速度；正转向. Additional literal Chinese annotation strings: r；ω；α；a_t；a_r. Typeset and verify these reference formulas, units and stated conditions: 定轴刚体各点同ω、α，但v=rω，a_t=rα，a_r=rω²。；θ用rad配s=rθ；ω、α单位rad/s与rad/s²。；α恒定才用ω=ω₀+αt及Δθ=ω₀t+½αt²。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 两点同ω不同v
+- 径向a指轴
+- 切向a由α给出
+- r0点静止
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：转动图先核参考轴、力臂和接触点速度，平动图或不同轴惯量不能直接套用
+
+来源：
+- https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017
+- https://openstax.org/books/university-physics-volume-1/pages/10-1-rotational-variables
+
+## B06-PHYS09-9-2 · 物理 9.2 刚体的转动惯量
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：按质量到指定轴的垂距计算惯量；用平行轴定理并核形状公式适用轴
+
+对象：环与实盘；中心轴；偏移平行轴；质点垂距；杆中心端轴
+
+关系：环I为盘2倍；新I=I_cm+Md²；d轴间垂距；杆长L和d=L/2区分
+
+中文标签：I；r⊥；I_cm；d；kg·m²
+
+公式/单位：I=Σm_i r_i²或∫r²dm，r为到指定轴垂距。；平行轴I=I_cm+Md²，仅对应平行轴及质心参考。；均匀环MR²、实盘½MR²、细杆中心垂直轴ML²/12，模型轴型不可省。
+
+### 中文Prompt
+
+制作物理第9章《转动》9.2《刚体的转动惯量》的教学图《同质量不同分布与移轴》。教学目标：按质量到指定轴的垂距计算惯量；用平行轴定理并核形状公式适用轴。必须对象：环与实盘；中心轴；偏移平行轴；质点垂距；杆中心端轴。不可画错的关系：环I为盘2倍；新I=I_cm+Md²；d轴间垂距；杆长L和d=L/2区分。中文标签：I；r⊥；I_cm；d；kg·m²。公式、单位和条件：I=Σm_i r_i²或∫r²dm，r为到指定轴垂距。；平行轴I=I_cm+Md²，仅对应平行轴及质心参考。；均匀环MR²、实盘½MR²、细杆中心垂直轴ML²/12，模型轴型不可省。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter9, authentic subsection9.2, with original Chinese title 刚体的转动惯量. Topic-specific mandatory science: Draw each mass with its perpendicular distance to the stated axis. Moment of inertia depends on that axis. The parallel-axis relation starts at a parallel centre-of-mass axis; disk and ring formulas must identify their distinct mass distributions. Use deterministic rigid-body geometry. Label the reference axis, positive rotation sense, perpendicular lever arm and radius. Tangential and radial acceleration differ. Rolling constraints require no slip relative to the specified surface; an instantaneous contact point is not automatically a fixed inertial pivot. Required objects, preserving these Chinese labels: 环与实盘；中心轴；偏移平行轴；质点垂距；杆中心端轴. Additional literal Chinese annotation strings: I；r⊥；I_cm；d；kg·m². Typeset and verify these reference formulas, units and stated conditions: I=Σm_i r_i²或∫r²dm，r为到指定轴垂距。；平行轴I=I_cm+Md²，仅对应平行轴及质心参考。；均匀环MR²、实盘½MR²、细杆中心垂直轴ML²/12，模型轴型不可省。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 环I为盘2倍
+- 新I=I_cm+Md²
+- d轴间垂距
+- 杆长L和d=L/2区分
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：转动图先核参考轴、力臂和接触点速度，平动图或不同轴惯量不能直接套用
+
+来源：
+- https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017
+- https://openstax.org/books/university-physics-volume-1/pages/10-5-calculating-moments-of-inertia
+
+## B06-PHYS09-9-3 · 物理 9.3 刚体滚动时的动能
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：分解质心平动与绕质心转动能；在无滑动条件下用能量比较不同形状
+
+对象：实盘滚轮；质心v；底点0；顶点2v；平动转动能条
+
+关系：I_cm用于分解；无滑动v=ωR；盘能比转动平动1:2；接触点非全程固定枢轴
+
+中文标签：K_trans；K_rot；I_cm；v_cm；ωR
+
+公式/单位：K=½Mv_cm²+½I_cmω²；无滑动固定面v_cm=ωR。；I_cm=βMR²⇒K=½M(1+β)v_cm²。；理想静止斜面无耗散滚落：v²=2gh/(1+β)；静摩擦可非零但不耗散。
+
+### 中文Prompt
+
+制作物理第9章《转动》9.3《刚体滚动时的动能》的教学图《滚动动能与点速度》。教学目标：分解质心平动与绕质心转动能；在无滑动条件下用能量比较不同形状。必须对象：实盘滚轮；质心v；底点0；顶点2v；平动转动能条。不可画错的关系：I_cm用于分解；无滑动v=ωR；盘能比转动平动1:2；接触点非全程固定枢轴。中文标签：K_trans；K_rot；I_cm；v_cm；ωR。公式、单位和条件：K=½Mv_cm²+½I_cmω²；无滑动固定面v_cm=ωR。；I_cm=βMR²⇒K=½M(1+β)v_cm²。；理想静止斜面无耗散滚落：v²=2gh/(1+β)；静摩擦可非零但不耗散。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter9, authentic subsection9.3, with original Chinese title 刚体滚动时的动能. Topic-specific mandatory science: Pure rolling on a fixed surface combines centre-of-mass translation and rotation about the centre of mass. vCM=omega R requires no slip. Do not count translation twice when changing the reference axis. Use deterministic rigid-body geometry. Label the reference axis, positive rotation sense, perpendicular lever arm and radius. Tangential and radial acceleration differ. Rolling constraints require no slip relative to the specified surface; an instantaneous contact point is not automatically a fixed inertial pivot. Required objects, preserving these Chinese labels: 实盘滚轮；质心v；底点0；顶点2v；平动转动能条. Additional literal Chinese annotation strings: K_trans；K_rot；I_cm；v_cm；ωR. Typeset and verify these reference formulas, units and stated conditions: K=½Mv_cm²+½I_cmω²；无滑动固定面v_cm=ωR。；I_cm=βMR²⇒K=½M(1+β)v_cm²。；理想静止斜面无耗散滚落：v²=2gh/(1+β)；静摩擦可非零但不耗散。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- I_cm用于分解
+- 无滑动v=ωR
+- 盘能比转动平动1:2
+- 接触点非全程固定枢轴
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：转动图先核参考轴、力臂和接触点速度，平动图或不同轴惯量不能直接套用
+
+来源：
+- https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017
+- https://openstax.org/books/university-physics-volume-1/pages/11-1-rolling-motion
+
+## B06-PHYS09-9-4 · 物理 9.4 刚体的转动定律
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：用垂直力臂求净力矩及角加速度；在滚动中联立质心平动、转动和约束
+
+对象：实盘；重力分量；支持力；上坡静摩擦；质心轴；加速箭头
+
+关系：mg作用于质心不绕该点给矩；fR=I_cmα；Mg sinθ−f=Ma；无滑动须摩擦足够
+
+中文标签：a；α；f；N；a=αR
+
+公式/单位：τ=rFsinθ=Fℓ，ℓ为轴到作用线垂距。；固定惯性轴且I不变：Στ=Iα；平面质心法另配ΣF=Ma。；无滑动自由滚落：a=g sinθ/(1+β)，f=βMa；须f≤μ_sN。
+
+### 中文Prompt
+
+制作物理第9章《转动》9.4《刚体的转动定律》的教学图《斜面实盘的质心联立》。教学目标：用垂直力臂求净力矩及角加速度；在滚动中联立质心平动、转动和约束。必须对象：实盘；重力分量；支持力；上坡静摩擦；质心轴；加速箭头。不可画错的关系：mg作用于质心不绕该点给矩；fR=I_cmα；Mg sinθ−f=Ma；无滑动须摩擦足够。中文标签：a；α；f；N；a=αR。公式、单位和条件：τ=rFsinθ=Fℓ，ℓ为轴到作用线垂距。；固定惯性轴且I不变：Στ=Iα；平面质心法另配ΣF=Ma。；无滑动自由滚落：a=g sinθ/(1+β)，f=βMa；须f≤μ_sN。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter9, authentic subsection9.4, with original Chinese title 刚体的转动定律. Topic-specific mandatory science: Torque uses the perpendicular lever arm from the reference axis to the force line. A freely rolling uniform disk down a30degree slope with g10 has acceleration10/3m/s2; for mass2kg the uphill static friction is10/3N, only if the friction limit permits. Use deterministic rigid-body geometry. Label the reference axis, positive rotation sense, perpendicular lever arm and radius. Tangential and radial acceleration differ. Rolling constraints require no slip relative to the specified surface; an instantaneous contact point is not automatically a fixed inertial pivot. Required objects, preserving these Chinese labels: 实盘；重力分量；支持力；上坡静摩擦；质心轴；加速箭头. Additional literal Chinese annotation strings: a；α；f；N；a=αR. Typeset and verify these reference formulas, units and stated conditions: τ=rFsinθ=Fℓ，ℓ为轴到作用线垂距。；固定惯性轴且I不变：Στ=Iα；平面质心法另配ΣF=Ma。；无滑动自由滚落：a=g sinθ/(1+β)，f=βMa；须f≤μ_sN。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- mg作用于质心不绕该点给矩
+- fR=I_cmα
+- Mg sinθ−f=Ma
+- 无滑动须摩擦足够
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：转动图先核参考轴、力臂和接触点速度，平动图或不同轴惯量不能直接套用
+
+来源：
+- https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017
+- https://openstax.org/books/university-physics-volume-1/pages/10-7-newtons-second-law-for-rotation
+
+## B06-PHYS09-9-5 · 物理 9.5 角动量
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：从指定参考点的r×p理解大小方向；用角冲量求变化并核轴向Iω的条件
+
+对象：参考点O；r箭头；p切向箭头；轴向L；径向运动对照
+
+关系：L垂直r,p平面；径向运动L0仍有p；同轴反向量代数相加
+
+中文标签：r；p；L=r×p；向外/向内；τΔt
+
+公式/单位：质点L=r×p，大小mvr sinθ；切向才可简化mvr。；适用轴分量L_axis=I_axisω，非任意三维矢量都必平行。；角冲量∫τ_ext dt=ΔL；恒矩τΔt，单位N·m·s。
+
+### 中文Prompt
+
+制作物理第9章《转动》9.5《角动量》的教学图《质点角动量与参考点》。教学目标：从指定参考点的r×p理解大小方向；用角冲量求变化并核轴向Iω的条件。必须对象：参考点O；r箭头；p切向箭头；轴向L；径向运动对照。不可画错的关系：L垂直r,p平面；径向运动L0仍有p；同轴反向量代数相加。中文标签：r；p；L=r×p；向外/向内；τΔt。公式、单位和条件：质点L=r×p，大小mvr sinθ；切向才可简化mvr。；适用轴分量L_axis=I_axisω，非任意三维矢量都必平行。；角冲量∫τ_ext dt=ΔL；恒矩τΔt，单位N·m·s。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter9, authentic subsection9.5, with original Chinese title 角动量. Topic-specific mandatory science: Angular momentum about a point is r cross p, with the right-hand direction. Fixed-axis L=I omega is the stated axis component, not a universal assertion that all three-dimensional L vectors parallel omega. Radial motion can have zero angular momentum while retaining kinetic energy. Use deterministic rigid-body geometry. Label the reference axis, positive rotation sense, perpendicular lever arm and radius. Tangential and radial acceleration differ. Rolling constraints require no slip relative to the specified surface; an instantaneous contact point is not automatically a fixed inertial pivot. Required objects, preserving these Chinese labels: 参考点O；r箭头；p切向箭头；轴向L；径向运动对照. Additional literal Chinese annotation strings: r；p；L=r×p；向外/向内；τΔt. Typeset and verify these reference formulas, units and stated conditions: 质点L=r×p，大小mvr sinθ；切向才可简化mvr。；适用轴分量L_axis=I_axisω，非任意三维矢量都必平行。；角冲量∫τ_ext dt=ΔL；恒矩τΔt，单位N·m·s。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- L垂直r,p平面
+- 径向运动L0仍有p
+- 同轴反向量代数相加
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：转动图先核参考轴、力臂和接触点速度，平动图或不同轴惯量不能直接套用
+
+来源：
+- https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017
+- https://openstax.org/books/university-physics-volume-1/pages/11-2-angular-momentum
+
+## B06-PHYS09-9-6 · 物理 9.6 角动量守恒定律
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：先审系统与外力矩再选守恒轴；处理惯量改变及黏合并区分能量收支
+
+对象：I4ω3到I2ω6；同轴盘耦合；黏土入盘；L条与K条
+
+关系：两态L相同；收拢K18到36有内部功；黏合K可减；新I含mr²
+
+中文标签：净外矩≈0；L=Iω；K=L²/(2I)；能量去向
+
+公式/单位：净外力矩为0（相同适用参考）⇒L_total守恒。；分布改变I₁ω₁=I₂ω₂；固定L时K=L²/(2I)。；黏合与摩擦耦合可守L而不守机械能；末I包含全部参与物体。
+
+### 中文Prompt
+
+制作物理第9章《转动》9.6《角动量守恒定律》的教学图《收拢与黏合的角动量守恒》。教学目标：先审系统与外力矩再选守恒轴；处理惯量改变及黏合并区分能量收支。必须对象：I4ω3到I2ω6；同轴盘耦合；黏土入盘；L条与K条。不可画错的关系：两态L相同；收拢K18到36有内部功；黏合K可减；新I含mr²。中文标签：净外矩≈0；L=Iω；K=L²/(2I)；能量去向。公式、单位和条件：净外力矩为0（相同适用参考）⇒L_total守恒。；分布改变I₁ω₁=I₂ω₂；固定L时K=L²/(2I)。；黏合与摩擦耦合可守L而不守机械能；末I包含全部参与物体。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter9, authentic subsection9.6, with original Chinese title 角动量守恒定律. Topic-specific mandatory science: Angular momentum is conserved only about a reference with the appropriate negligible net external torque. Pulling mass inward can increase rotational energy through internal work. Inelastic coupling of coaxial disks conserves total angular momentum but generally loses mechanical kinetic energy. Use deterministic rigid-body geometry. Label the reference axis, positive rotation sense, perpendicular lever arm and radius. Tangential and radial acceleration differ. Rolling constraints require no slip relative to the specified surface; an instantaneous contact point is not automatically a fixed inertial pivot. Required objects, preserving these Chinese labels: I4ω3到I2ω6；同轴盘耦合；黏土入盘；L条与K条. Additional literal Chinese annotation strings: 净外矩≈0；L=Iω；K=L²/(2I)；能量去向. Typeset and verify these reference formulas, units and stated conditions: 净外力矩为0（相同适用参考）⇒L_total守恒。；分布改变I₁ω₁=I₂ω₂；固定L时K=L²/(2I)。；黏合与摩擦耦合可守L而不守机械能；末I包含全部参与物体。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 两态L相同
+- 收拢K18到36有内部功
+- 黏合K可减
+- 新I含mr²
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：转动图先核参考轴、力臂和接触点速度，平动图或不同轴惯量不能直接套用
+
+来源：
+- https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017
+- https://openstax.org/books/university-physics-volume-1/pages/11-3-conservation-of-angular-momentum
 
 ## B06-PHYS10-10-1 · 物理 10.1 振动现象
 
@@ -5302,3 +5904,261 @@ No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charge
 来源：
 - https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html
 - https://openstax.org/books/college-physics-2e/pages/25-6-image-formation-by-lenses
+
+## B06-PHYS20-20-1 · 物理 20.1 光的微粒说和波动说
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：将模型主张与可检验现象对应；说明几何光学、波动与量子描述的边界
+
+对象：几何影子；双缝条纹；偏振片；波长尺度条；量子交换说明框
+
+关系：几何极限可由波动近似；干涉需相位；偏振显示横向方向；不画一个实验证明全部模型
+
+中文标签：模型；预测；证据；适用范围
+
+公式/单位：几何光学常在λ远小于相关结构尺度时适用，并不排除波动本性。；相干光场叠加需先加振幅及相位，再求强度，不能无条件只加亮度。；经典微粒、经典波动及量子描述各有解释范围，不把一个现象扩为全部证明。
+
+### 中文Prompt
+
+制作物理第20章《光的波动性》20.1《光的微粒说和波动说》的教学图《光学模型的证据与范围》。教学目标：将模型主张与可检验现象对应；说明几何光学、波动与量子描述的边界。必须对象：几何影子；双缝条纹；偏振片；波长尺度条；量子交换说明框。不可画错的关系：几何极限可由波动近似；干涉需相位；偏振显示横向方向；不画一个实验证明全部模型。中文标签：模型；预测；证据；适用范围。公式、单位和条件：几何光学常在λ远小于相关结构尺度时适用，并不排除波动本性。；相干光场叠加需先加振幅及相位，再求强度，不能无条件只加亮度。；经典微粒、经典波动及量子描述各有解释范围，不把一个现象扩为全部证明。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter20, authentic subsection20.1, with original Chinese title 光的微粒说和波动说. Topic-specific mandatory science: Connect each optical model with evidence and its domain. Geometric straight-line propagation can be a short-wavelength limit of waves, so a sharp shadow alone does not uniquely prove classical corpuscles. Dark interference regions represent redistribution, not destruction of total energy. Use deterministic wave-optics diagrams. Distinguish slit width from slit separation, phase from path difference, and time from position axes. Mark paraxial and coherence assumptions. Intensity is nonnegative and comes from field superposition; polarization axes are electric-field directions. Required objects, preserving these Chinese labels: 几何影子；双缝条纹；偏振片；波长尺度条；量子交换说明框. Additional literal Chinese annotation strings: 模型；预测；证据；适用范围. Typeset and verify these reference formulas, units and stated conditions: 几何光学常在λ远小于相关结构尺度时适用，并不排除波动本性。；相干光场叠加需先加振幅及相位，再求强度，不能无条件只加亮度。；经典微粒、经典波动及量子描述各有解释范围，不把一个现象扩为全部证明。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 几何极限可由波动近似
+- 干涉需相位
+- 偏振显示横向方向
+- 不画一个实验证明全部模型
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：波动光学旧图需核缝宽/缝距、光程差、偏振轴及坐标；定量图必须由公式绘制
+
+来源：
+- https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html
+- https://openstax.org/books/college-physics-2e/pages/27-1-the-wave-aspect-of-light-interference
+
+## B06-PHYS20-20-2 · 物理 20.2 光的干涉现象
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：由光程差与初相差判断明暗；应用双缝间距并检相干、等幅和近轴条件
+
+对象：两缝中心距d；单缝宽a；屏距L；路径差；亮暗条纹；不等幅强度图
+
+关系：中心差d sinθ；近轴间距λL/d；不等幅Imin非0；初相项明示
+
+中文标签：d；a；L；Δφ；I_max；I_min
+
+公式/单位：同频相位差Δφ=2πΔr/λ+φ₀；异介质用相应光程。；I=I₁+I₂+2√(I₁I₂)cosΔφ；I_min=(√I₁−√I₂)²。；同相双缝d sinθ=mλ；近轴Δx≈λL/d，d为缝中心距。
+
+### 中文Prompt
+
+制作物理第20章《光的波动性》20.2《光的干涉现象》的教学图《双缝光程差与强度》。教学目标：由光程差与初相差判断明暗；应用双缝间距并检相干、等幅和近轴条件。必须对象：两缝中心距d；单缝宽a；屏距L；路径差；亮暗条纹；不等幅强度图。不可画错的关系：中心差d sinθ；近轴间距λL/d；不等幅Imin非0；初相项明示。中文标签：d；a；L；Δφ；I_max；I_min。公式、单位和条件：同频相位差Δφ=2πΔr/λ+φ₀；异介质用相应光程。；I=I₁+I₂+2√(I₁I₂)cosΔφ；I_min=(√I₁−√I₂)²。；同相双缝d sinθ=mλ；近轴Δx≈λL/d，d为缝中心距。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter20, authentic subsection20.2, with original Chinese title 光的干涉现象. Topic-specific mandatory science: Distinguish slit separation d, slit width a and screen distance L. Include initial phase in total phase difference. Unequal input intensities I0 and4I0 give maximum9I0 and minimumI0, not complete extinction. Paraxial fringe spacing is lambda L/d. Use deterministic wave-optics diagrams. Distinguish slit width from slit separation, phase from path difference, and time from position axes. Mark paraxial and coherence assumptions. Intensity is nonnegative and comes from field superposition; polarization axes are electric-field directions. Required objects, preserving these Chinese labels: 两缝中心距d；单缝宽a；屏距L；路径差；亮暗条纹；不等幅强度图. Additional literal Chinese annotation strings: d；a；L；Δφ；I_max；I_min. Typeset and verify these reference formulas, units and stated conditions: 同频相位差Δφ=2πΔr/λ+φ₀；异介质用相应光程。；I=I₁+I₂+2√(I₁I₂)cosΔφ；I_min=(√I₁−√I₂)²。；同相双缝d sinθ=mλ；近轴Δx≈λL/d，d为缝中心距。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 中心差d sinθ
+- 近轴间距λL/d
+- 不等幅Imin非0
+- 初相项明示
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：波动光学旧图需核缝宽/缝距、光程差、偏振轴及坐标；定量图必须由公式绘制
+
+来源：
+- https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html
+- https://openstax.org/books/college-physics-2e/pages/27-3-youngs-double-slit-experiment
+
+## B06-PHYS20-20-3 · 物理 20.3 光的衍射现象
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：区分单缝暗纹与光栅主极大；由孔径尺度解释图样宽度和分辨限制
+
+对象：宽a单缝；间距d光栅；单缝强度包络；光栅主峰；屏与角
+
+关系：单缝中央宽约旁间距2倍；m0中心亮；光栅整数主亮；dλm几何可达限制
+
+中文标签：a；d；中央宽；暗纹；主极大；非比例示意
+
+公式/单位：单缝暗纹a sinθ=mλ，m=±1,±2,…；中央宽≈2λL/a。；光栅主极大d sinθ=mλ，d=1/(线密度)，|mλ|≤d。；圆孔Rayleigh角≈1.22λ/D，仅限其适用光学与判据条件。
+
+### 中文Prompt
+
+制作物理第20章《光的波动性》20.3《光的衍射现象》的教学图《单缝与光栅图样对照》。教学目标：区分单缝暗纹与光栅主极大；由孔径尺度解释图样宽度和分辨限制。必须对象：宽a单缝；间距d光栅；单缝强度包络；光栅主峰；屏与角。不可画错的关系：单缝中央宽约旁间距2倍；m0中心亮；光栅整数主亮；dλm几何可达限制。中文标签：a；d；中央宽；暗纹；主极大；非比例示意。公式、单位和条件：单缝暗纹a sinθ=mλ，m=±1,±2,…；中央宽≈2λL/a。；光栅主极大d sinθ=mλ，d=1/(线密度)，|mλ|≤d。；圆孔Rayleigh角≈1.22λ/D，仅限其适用光学与判据条件。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter20, authentic subsection20.3, with original Chinese title 光的衍射现象. Topic-specific mandatory science: Single-slit dark fringes satisfy a sin theta=m lambda for nonzero integers; the centre is bright. Central near-axis width is2lambda L/a. Grating principal maxima instead satisfy d sin theta=m lambda, with geometric bound abs(m lambda)<=d. A500line/mm grating has d2micrometres. Use deterministic wave-optics diagrams. Distinguish slit width from slit separation, phase from path difference, and time from position axes. Mark paraxial and coherence assumptions. Intensity is nonnegative and comes from field superposition; polarization axes are electric-field directions. Required objects, preserving these Chinese labels: 宽a单缝；间距d光栅；单缝强度包络；光栅主峰；屏与角. Additional literal Chinese annotation strings: a；d；中央宽；暗纹；主极大；非比例示意. Typeset and verify these reference formulas, units and stated conditions: 单缝暗纹a sinθ=mλ，m=±1,±2,…；中央宽≈2λL/a。；光栅主极大d sinθ=mλ，d=1/(线密度)，|mλ|≤d。；圆孔Rayleigh角≈1.22λ/D，仅限其适用光学与判据条件。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 单缝中央宽约旁间距2倍
+- m0中心亮
+- 光栅整数主亮
+- dλm几何可达限制
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：波动光学旧图需核缝宽/缝距、光程差、偏振轴及坐标；定量图必须由公式绘制
+
+来源：
+- https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html
+- https://openstax.org/books/college-physics-2e/pages/27-5-single-slit-diffraction
+
+## B06-PHYS20-20-4 · 物理 20.4 光的偏振
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：由电场振动方向解释偏振；逐片应用强度关系并核布儒斯特角条件
+
+对象：沿z传播光；横向电场轴；0°45°90°三片；逐片强度标签；布儒斯特界面
+
+关系：非偏振第一片I₀/2；后两片各乘1/2至I₀/8；E轴垂直传播；布儒斯特反射折射互垂
+
+中文标签：透光轴；E；I₀/2；I₀/4；I₀/8；θ_B；法线
+
+公式/单位：线偏振入射理想检偏片：I出=I入cos²θ。；非偏振光过理想第一片：I₁=I₀/2；后片按相邻轴角逐次投影。；布儒斯特角tanθ_B=n₂/n₁，适用界面中反射与折射线互成90°。
+
+### 中文Prompt
+
+制作物理第20章《光的波动性》20.4《光的偏振》的教学图《偏振轴与逐片强度》。教学目标：由电场振动方向解释偏振；逐片应用强度关系并核布儒斯特角条件。必须对象：沿z传播光；横向电场轴；0°45°90°三片；逐片强度标签；布儒斯特界面。不可画错的关系：非偏振第一片I₀/2；后两片各乘1/2至I₀/8；E轴垂直传播；布儒斯特反射折射互垂。中文标签：透光轴；E；I₀/2；I₀/4；I₀/8；θ_B；法线。公式、单位和条件：线偏振入射理想检偏片：I出=I入cos²θ。；非偏振光过理想第一片：I₁=I₀/2；后片按相邻轴角逐次投影。；布儒斯特角tanθ_B=n₂/n₁，适用界面中反射与折射线互成90°。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter20, authentic subsection20.4, with original Chinese title 光的偏振. Topic-specific mandatory science: Polarization axes follow the transverse electric field, not the propagation ray. For originally unpolarized I0 through ideal0,45,90degree polarizers, successive intensities are I0/2,I0/4,I0/8. Brewster reflected and refracted rays are perpendicular under the stated interface assumptions. Use deterministic wave-optics diagrams. Distinguish slit width from slit separation, phase from path difference, and time from position axes. Mark paraxial and coherence assumptions. Intensity is nonnegative and comes from field superposition; polarization axes are electric-field directions. Required objects, preserving these Chinese labels: 沿z传播光；横向电场轴；0°45°90°三片；逐片强度标签；布儒斯特界面. Additional literal Chinese annotation strings: 透光轴；E；I₀/2；I₀/4；I₀/8；θ_B；法线. Typeset and verify these reference formulas, units and stated conditions: 线偏振入射理想检偏片：I出=I入cos²θ。；非偏振光过理想第一片：I₁=I₀/2；后片按相邻轴角逐次投影。；布儒斯特角tanθ_B=n₂/n₁，适用界面中反射与折射线互成90°。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 非偏振第一片I₀/2
+- 后两片各乘1/2至I₀/8
+- E轴垂直传播
+- 布儒斯特反射折射互垂
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：波动光学旧图需核缝宽/缝距、光程差、偏振轴及坐标；定量图必须由公式绘制
+
+来源：
+- https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html
+- https://openstax.org/books/college-physics-2e/pages/27-8-polarization
+
+## B06-PHYS20-20-5 · 物理 20.5 光的电磁本性 电磁波谱
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：连接电磁场方向、波速与频率波长；区分光子能量、光束强度及谱段边界
+
+对象：右手三轴E B传播；对数频率与波长轴；各谱段；单光子与光束对照
+
+关系：E B传播互垂且E叉B向前；f升λ降；真空各段c相同；单能与总强度分开
+
+中文标签：E₀=cB₀；c=fλ；E光子=hf；谱段边界有约定
+
+公式/单位：真空c=fλ，E₀=cB₀；E、B、传播方向互垂，传播方向沿E×B。；单光子E=hf=hc/λ；光束强度还依光子流量。；简单介质相速度v=c/n且v=fλ；频率跨静止界面不变，注意色散与群速度。
+
+### 中文Prompt
+
+制作物理第20章《光的波动性》20.5《光的电磁本性 电磁波谱》的教学图《电磁场方向与电磁谱》。教学目标：连接电磁场方向、波速与频率波长；区分光子能量、光束强度及谱段边界。必须对象：右手三轴E B传播；对数频率与波长轴；各谱段；单光子与光束对照。不可画错的关系：E B传播互垂且E叉B向前；f升λ降；真空各段c相同；单能与总强度分开。中文标签：E₀=cB₀；c=fλ；E光子=hf；谱段边界有约定。公式、单位和条件：真空c=fλ，E₀=cB₀；E、B、传播方向互垂，传播方向沿E×B。；单光子E=hf=hc/λ；光束强度还依光子流量。；简单介质相速度v=c/n且v=fλ；频率跨静止界面不变，注意色散与群速度。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter20, authentic subsection20.5, with original Chinese title 光的电磁本性 电磁波谱. Topic-specific mandatory science: Use a right-handed mutually perpendicular electric field, magnetic field and propagation triad, with E cross B forward. Vacuum frequency increases as wavelength decreases while all spectral bands share c. Photon energy hf differs from total beam power; spectral boundaries can overlap. Use deterministic wave-optics diagrams. Distinguish slit width from slit separation, phase from path difference, and time from position axes. Mark paraxial and coherence assumptions. Intensity is nonnegative and comes from field superposition; polarization axes are electric-field directions. Required objects, preserving these Chinese labels: 右手三轴E B传播；对数频率与波长轴；各谱段；单光子与光束对照. Additional literal Chinese annotation strings: E₀=cB₀；c=fλ；E光子=hf；谱段边界有约定. Typeset and verify these reference formulas, units and stated conditions: 真空c=fλ，E₀=cB₀；E、B、传播方向互垂，传播方向沿E×B。；单光子E=hf=hc/λ；光束强度还依光子流量。；简单介质相速度v=c/n且v=fλ；频率跨静止界面不变，注意色散与群速度。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- E B传播互垂且E叉B向前
+- f升λ降
+- 真空各段c相同
+- 单能与总强度分开
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：波动光学旧图需核缝宽/缝距、光程差、偏振轴及坐标；定量图必须由公式绘制
+
+来源：
+- https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html
+- https://openstax.org/books/college-physics-2e/pages/24-3-the-electromagnetic-spectrum
+
+## B06-PHYS20-20-6 · 物理 20.6 光的速度
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：从路径及时间建立测光速模型；识别往返、仪器延迟与介质条件
+
+对象：光源探测器；距离D反射镜；两条往返光线；齿缝轮；t测对D线图
+
+关系：路程2D；总时间含固定截距t₀；斜率2/v；首次遮挡仅转1/(2N)圈
+
+中文标签：D；2D；t测−t₀；N齿N缝；c=4DNf
+
+公式/单位：同路往返v=2D/Δt；有固定延迟时Δt=t测−t₀。；理想N齿等宽齿缝轮首次相邻齿消光：Δt=1/(2Nf)，c=4DNf。；SI真空c=299792458m/s为精确规定；实验读数及介质修正仍有不确定度。
+
+### 中文Prompt
+
+制作物理第20章《光的波动性》20.6《光的速度》的教学图《往返测光速与延迟分离》。教学目标：从路径及时间建立测光速模型；识别往返、仪器延迟与介质条件。必须对象：光源探测器；距离D反射镜；两条往返光线；齿缝轮；t测对D线图。不可画错的关系：路程2D；总时间含固定截距t₀；斜率2/v；首次遮挡仅转1/(2N)圈。中文标签：D；2D；t测−t₀；N齿N缝；c=4DNf。公式、单位和条件：同路往返v=2D/Δt；有固定延迟时Δt=t测−t₀。；理想N齿等宽齿缝轮首次相邻齿消光：Δt=1/(2Nf)，c=4DNf。；SI真空c=299792458m/s为精确规定；实验读数及介质修正仍有不确定度。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter20, authentic subsection20.6, with original Chinese title 光的速度. Topic-specific mandatory science: A reflector at distance D gives total return path2D. Subtract calibrated electronics delay before dividing. In the specified equal-tooth-gap wheel model, first adjacent-tooth extinction takes1/(2Nf), giving c=4DNf. Label numerical examples as illustrative, not historical measurements. Use deterministic wave-optics diagrams. Distinguish slit width from slit separation, phase from path difference, and time from position axes. Mark paraxial and coherence assumptions. Intensity is nonnegative and comes from field superposition; polarization axes are electric-field directions. Required objects, preserving these Chinese labels: 光源探测器；距离D反射镜；两条往返光线；齿缝轮；t测对D线图. Additional literal Chinese annotation strings: D；2D；t测−t₀；N齿N缝；c=4DNf. Typeset and verify these reference formulas, units and stated conditions: 同路往返v=2D/Δt；有固定延迟时Δt=t测−t₀。；理想N齿等宽齿缝轮首次相邻齿消光：Δt=1/(2Nf)，c=4DNf。；SI真空c=299792458m/s为精确规定；实验读数及介质修正仍有不确定度。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 路程2D
+- 总时间含固定截距t₀
+- 斜率2/v
+- 首次遮挡仅转1/(2N)圈
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：波动光学旧图需核缝宽/缝距、光程差、偏振轴及坐标；定量图必须由公式绘制
+
+来源：
+- https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html
+- https://openstax.org/books/college-physics-2e/pages/25-1-the-ray-aspect-of-light
