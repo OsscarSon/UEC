@@ -3,7 +3,7 @@ import json
 R=Path(__file__).resolve().parents[2];folder=R/'reports/math-exams/generated'
 for p in sorted(folder.glob('*.json')):
  paper=json.loads(p.read_text());out=folder/p.stem;out.mkdir(exist_ok=True)
- title='# '+paper['title']+'\n\n原创教学模拟，非官方试题。种子 '+paper['seed']+'；题库 '+paper['bank_version']+'。\n\n15×2分选择＋5×4、5×6、2×10分作答，共100分，全必答。卷一60分钟，卷二120分钟。\n\n'
+ title='# '+paper['title']+'\n\n原创教学模拟，非官方试题。种子 '+paper['seed']+'；题库 '+paper['bank_version']+'；研究 '+paper.get('research_version','旧记录')+'。\n\n15×2分选择＋5×4、5×6、2×10分作答，共100分，全必答。卷一60分钟，卷二120分钟。\n\n'
  question=[title];answers=['# 答案卷\n'];solutions=['# 原创完整解析与教学评分点\n\n非官方评分细则，作答题需自主或教师核对。\n']
  for q in paper['questions']:
   heading=f'## {"选择"if q["kind"]=="mcq"else"作答"} {q["number"]} · 第{q["primary_chapter"]}章 · {q["marks"]}分\n'

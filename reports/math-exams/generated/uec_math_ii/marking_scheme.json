@@ -2,7 +2,7 @@
   "official": false,
   "questions": [
     {
-      "id": "ME26-M033",
+      "id": "ME26-M008",
       "kind": "mcq",
       "number": 1,
       "points": [
@@ -13,7 +13,7 @@
       ]
     },
     {
-      "id": "ME26-M014",
+      "id": "ME26-M025",
       "kind": "mcq",
       "number": 2,
       "points": [
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "id": "ME26-M036",
+      "id": "ME26-M001",
       "kind": "mcq",
       "number": 4,
       "points": [
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "id": "ME26-M025",
+      "id": "ME26-M009",
       "kind": "mcq",
       "number": 5,
       "points": [
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "id": "ME26-M008",
+      "id": "ME26-M033",
       "kind": "mcq",
       "number": 6,
       "points": [
@@ -68,7 +68,7 @@
       ]
     },
     {
-      "id": "ME26-M035",
+      "id": "ME26-M004",
       "kind": "mcq",
       "number": 7,
       "points": [
@@ -79,7 +79,7 @@
       ]
     },
     {
-      "id": "ME26-M029",
+      "id": "ME26-M044",
       "kind": "mcq",
       "number": 8,
       "points": [
@@ -90,7 +90,7 @@
       ]
     },
     {
-      "id": "ME26-M004",
+      "id": "ME26-M029",
       "kind": "mcq",
       "number": 9,
       "points": [
@@ -101,7 +101,7 @@
       ]
     },
     {
-      "id": "ME26-M021",
+      "id": "ME26-M030",
       "kind": "mcq",
       "number": 10,
       "points": [
@@ -112,7 +112,7 @@
       ]
     },
     {
-      "id": "ME26-M005",
+      "id": "ME26-M015",
       "kind": "mcq",
       "number": 11,
       "points": [
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "id": "ME26-M007",
+      "id": "ME26-M024",
       "kind": "mcq",
       "number": 12,
       "points": [
@@ -134,7 +134,7 @@
       ]
     },
     {
-      "id": "ME26-M031",
+      "id": "ME26-M038",
       "kind": "mcq",
       "number": 13,
       "points": [
@@ -145,7 +145,7 @@
       ]
     },
     {
-      "id": "ME26-M037",
+      "id": "ME26-M022",
       "kind": "mcq",
       "number": 14,
       "points": [
@@ -167,17 +167,21 @@
       ]
     },
     {
-      "id": "ME26-W003",
+      "id": "ME26-W004",
       "kind": "written",
       "number": 1,
       "points": [
         {
-          "description": "正确交换并解出反函数",
+          "description": "标出两个临界点并排除分母零点",
+          "marks": 1
+        },
+        {
+          "description": "作符号分析",
           "marks": 2
         },
         {
-          "description": "写出反函数定义域并解释",
-          "marks": 2
+          "description": "合并区间并正确端点",
+          "marks": 1
         }
       ]
     },
@@ -201,69 +205,65 @@
       ]
     },
     {
-      "id": "ME26-W002",
+      "id": "ME26-W003",
       "kind": "written",
       "number": 3,
       "points": [
         {
-          "description": "设置线性余式并列两条件",
+          "description": "正确交换并解出反函数",
           "marks": 2
         },
         {
-          "description": "解出a、b并回验",
+          "description": "写出反函数定义域并解释",
           "marks": 2
         }
       ]
     },
     {
-      "id": "ME26-W012",
+      "id": "ME26-W008",
       "kind": "written",
       "number": 4,
       "points": [
         {
-          "description": "说明共轭根",
-          "marks": 1
-        },
-        {
-          "description": "求和积并构造方程",
+          "description": "互斥分类并列组合数",
           "marks": 2
         },
         {
-          "description": "复核",
-          "marks": 1
+          "description": "求和并检查无序计数",
+          "marks": 2
         }
       ]
     },
     {
-      "id": "ME26-W007",
+      "id": "ME26-W009",
       "kind": "written",
       "number": 5,
       "points": [
         {
-          "description": "以点积0列式求t",
-          "marks": 2
+          "description": "求出三项",
+          "marks": 3
         },
         {
-          "description": "计算模并验证垂直",
-          "marks": 2
+          "description": "写明收敛范围",
+          "marks": 1
         }
       ]
     },
     {
-      "id": "ME26-W020",
+      "id": "ME26-W027",
       "kind": "written",
       "number": 6,
       "points": [
         {
-          "description": "交点及上下曲线",
+          "description": "模与全部辐角",
           "marks": 2
         },
         {
-          "description": "面积计算",
+          "description": "列四个互异根",
           "marks": 2
         },
         {
-          "description": "正确轴与平方半径体积",
+          "description": "几何关系与回代",
           "marks": 2
         }
       ]
@@ -288,9 +288,28 @@
       ]
     },
     {
-      "id": "ME26-W024",
+      "id": "ME26-W020",
       "kind": "written",
       "number": 8,
+      "points": [
+        {
+          "description": "交点及上下曲线",
+          "marks": 2
+        },
+        {
+          "description": "面积计算",
+          "marks": 2
+        },
+        {
+          "description": "正确轴与平方半径体积",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-W024",
+      "kind": "written",
+      "number": 9,
       "points": [
         {
           "description": "解微分方程并定初值",
@@ -307,85 +326,66 @@
       ]
     },
     {
-      "id": "ME26-W018",
-      "kind": "written",
-      "number": 9,
-      "points": [
-        {
-          "description": "三点定圆",
-          "marks": 2
-        },
-        {
-          "description": "切线法向关系",
-          "marks": 2
-        },
-        {
-          "description": "配方与位置检验",
-          "marks": 2
-        }
-      ]
-    },
-    {
-      "id": "ME26-W027",
+      "id": "ME26-W014",
       "kind": "written",
       "number": 10,
       "points": [
         {
-          "description": "模与全部辐角",
+          "description": "复合式与严格原域",
           "marks": 2
         },
         {
-          "description": "列四个互异根",
+          "description": "反函数与定义域",
           "marks": 2
         },
         {
-          "description": "几何关系与回代",
+          "description": "非单射反例",
           "marks": 2
         }
       ]
     },
     {
-      "id": "ME26-W033",
+      "id": "ME26-W028",
       "kind": "written",
       "number": 11,
       "points": [
         {
-          "description": "分部求F含定积分常数",
+          "description": "完整分段及边界",
           "marks": 3
         },
         {
-          "description": "导数号与最小值",
+          "description": "两解及区间验根",
           "marks": 2
         },
         {
-          "description": "域内解方程",
+          "description": "最小值和完整达到集",
           "marks": 2
         },
         {
-          "description": "极限条件与两次计算",
+          "description": "逆函数、域及回代",
           "marks": 3
         }
       ]
     },
     {
-      "id": "ME26-W029",
+      "id": "ME26-W032",
       "kind": "written",
       "number": 12,
       "points": [
         {
-          "description": "驻点及正确变号分类",
+          "description": "可导条件和一阶斜率",
+          "marks": 2
+        },
+        {
+          "description": "切线",
+          "marks": 2
+        },
+        {
+          "description": "完整二阶微分",
           "marks": 3
         },
         {
-          "description": "极值差求参数",
-          "marks": 2
-        },
-        {
-          "description": "全部交点和两块区域",
-          "marks": 2
-        },
-        {
-          "description": "分段面积及核对",
+          "description": "估计及有依据误差方向",
           "marks": 3
         }
       ]

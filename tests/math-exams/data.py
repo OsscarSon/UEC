@@ -31,6 +31,23 @@ for st in L('statistics.json'):
   for paper in ['mcq','written']:
    rr=[r for r in rows if r['exam_type']==st['exam_type']and r['statistics_eligible']and r['paper']==paper and r['primary_chapter']==ch['chapter']]
    C('single primary mark attribution '+str((st['exam_type'],ch['chapter'],paper)),ch['papers'][paper]['printed_marks']==sum(r['printed_marks']for r in rr))
+for y,total,n,per in [(2022,90,6,15),(2023,84,7,12),(2024,75,8,None),(2025,84,7,12)]:
+ rs=[r for r in rows if r['exam_type']=='semester_final'and r['year']==y and r['paper']=='written']
+ C('school historical printed pool '+str(y),sum(r['printed_marks']for r in rs)==total)
+ for q in range(1,n+1):
+  expected=per if per else 6 if q<=5 else 15
+  C('school historical question total '+str((y,q)),sum(r['printed_marks']for r in rs if r['question']==str(q))==expected)
+for r in rows:
+ if r.get('inferred_marks')is not None:
+  C('inference never certified as printed mark '+r['id'],r['printed_marks']is None and not r['statistics_eligible'])
+freq=L('sample-frequency.json')
+for f in freq:
+ C('frequency has explicit complete sample years '+f['exam_type']+f['format_regime'],bool(f['years'])and f['population_confidence']=='not_full_history')
+ for ch in f['chapters']:
+  C('frequency counts years not subquestions '+str((f['exam_type'],f['format_regime'],ch['chapter'])),ch['year_numerator']==len(ch['primary_years'])and ch['year_denominator']==len(f['years']))
+  if f['exam_type']=='uec_math_ii'and f['format_regime']=='old_40_60':
+   y=next(y for y in ch['annual_printed_exposure']if y['year']==2024)
+   C('missing cover leaves per-question mark share null '+str(ch['chapter']),y['papers']['mcq']['printed_share_percent']is None)
 # Preserve existing curriculum, all teaching/illustration/vendor resources and prior study state code.
 base='efd3445';tracked=subprocess.check_output(['git','ls-tree','-r','--name-only',base],cwd=R,text=True).splitlines();protected=[p for p in tracked if p.startswith(('lessons/','assets/','data/','vendor/','illustrations/','ui/','cloud/'))or p=='batch-ui.js']
 for p in protected:C('original file protected '+p,subprocess.check_output(['git','show',base+':'+p],cwd=R)==(R/p).read_bytes())

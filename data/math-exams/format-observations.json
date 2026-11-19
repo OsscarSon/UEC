@@ -142,25 +142,24 @@
       1
     ],
     "exam_date_as_printed": "2025-11-04",
-    "mcq_count": null,
+    "mcq_count": 20,
     "mcq_weight": 40,
     "written_weight": 60,
     "written_count": 12,
     "printed_written_marks": 90,
     "selection_rule": "甲5必答各4，乙7选4各10",
     "paper_minutes": [
-      null,
+      60,
       120
     ],
     "evidence": "source_pdf_cover_visually_read",
     "authenticity": "uploaded_copy_not_independently_authenticated_by_issuer",
     "notes": [
-      "本文件只含卷二；选择20来自既有卷一/报告，选择逐题仍待核。",
-      "公式表2–4未在所供4页卷二PDF中。"
+      "另已阅读所供卷一全部4个PDF页：封面与20选择；两卷印刷公式表2–4均未随所供扫描提供。"
     ],
-    "reported_mcq_count": 20,
-    "reported_paper1_minutes": 60,
-    "mcq_count_evidence": "uploaded_report_not_this_p2_cover"
+    "mcq_count_evidence": "question_pages_visually_counted",
+    "mcq_cover_source_pdf_id": "uec_math_i:5f60f26ad2a4",
+    "mcq_cover_pdf_page": 1
   },
   {
     "exam_type": "uec_math_ii",
@@ -170,25 +169,25 @@
       1
     ],
     "exam_date_as_printed": "2025-11-01",
-    "mcq_count": null,
+    "mcq_count": 20,
     "mcq_weight": 40,
     "written_weight": 60,
     "written_count": 12,
     "printed_written_marks": 120,
     "selection_rule": "12选6，四组各至少1至多2",
     "paper_minutes": [
-      null,
+      60,
       120
     ],
     "evidence": "source_pdf_cover_visually_read",
     "authenticity": "uploaded_copy_not_independently_authenticated_by_issuer",
     "notes": [
-      "本文件含公式表2–4，已定位但未逐式核验。",
-      "此处选择20来自既有报告而非本卷二封面；该字段不是题面逐题核验结果。"
+      "本卷二含公式表2–4，已定位但未逐式核验。",
+      "另已阅读卷一封面和第5–7页全部20选择；卷一公式表未逐式核验。"
     ],
-    "reported_mcq_count": 20,
-    "reported_paper1_minutes": 60,
-    "mcq_count_evidence": "uploaded_report_not_this_p2_cover"
+    "mcq_count_evidence": "question_pages_visually_counted",
+    "mcq_cover_source_pdf_id": "uec_math_ii:a571f62805dc",
+    "mcq_cover_pdf_page": 1
   },
   {
     "exam_type": "uec_math_ii",
@@ -198,7 +197,7 @@
       1
     ],
     "exam_date_as_printed": "2024-11-06",
-    "mcq_count": null,
+    "mcq_count": 20,
     "mcq_weight": 40,
     "written_weight": 60,
     "written_count": 12,
@@ -212,10 +211,112 @@
     "authenticity": "uploaded_copy_not_independently_authenticated_by_issuer",
     "notes": [
       "公式表印刷2–4未在所供5页PDF。",
-      "本卷二本身不证明选择题逐题数量；20来自既有报告。"
+      "本卷二本身不证明选择题逐题数量；所供配对卷一另有3个题面页。",
+      "另已目视数出所供3页选择卷20题，但缺卷一封面，故卷一时间未确认，单题2分仅推定、不进入精确分值统计。"
     ],
     "reported_mcq_count": 20,
     "reported_paper1_minutes": 60,
-    "mcq_count_evidence": "uploaded_report_not_this_p2_cover"
+    "mcq_count_evidence": "question_pages_visually_counted",
+    "mcq_cover_missing": true
+  },
+  {
+    "exam_type": "semester_final",
+    "year": 2025,
+    "source_pdf_id": "semester_final:ea7c750b51bf",
+    "cover_pdf_pages": [
+      1
+    ],
+    "exam_date_as_printed": "2025-06-13",
+    "mcq_count": 20,
+    "mcq_weight": 40,
+    "written_weight": 60,
+    "written_count": 7,
+    "printed_written_marks": 84,
+    "selection_rule": "甲2选1各12；乙5选4各12",
+    "paper_minutes": [
+      60,
+      90
+    ],
+    "evidence": "source_pdf_cover_visually_read",
+    "authenticity": "uploaded_copy_not_independently_authenticated_by_issuer",
+    "notes": [
+      "另已读卷一全部20题与封面；印刷84不等于实际60。"
+    ],
+    "mcq_count_evidence": "question_pages_visually_counted"
+  },
+  {
+    "exam_type": "semester_final",
+    "year": 2024,
+    "source_pdf_id": "semester_final:247a5204ecac",
+    "cover_pdf_pages": [
+      1
+    ],
+    "exam_date_as_printed": "2024-06-12",
+    "mcq_count": 20,
+    "mcq_weight": 40,
+    "written_weight": 60,
+    "written_count": 8,
+    "printed_written_marks": 75,
+    "selection_rule": "A组1–5必答各6；B组6–8选2各15",
+    "paper_minutes": [
+      60,
+      90
+    ],
+    "evidence": "source_pdf_cover_visually_read",
+    "authenticity": "uploaded_copy_not_independently_authenticated_by_issuer",
+    "notes": [
+      "另已读卷一全部20题与封面；印刷75不等于实际60。"
+    ],
+    "mcq_count_evidence": "question_pages_visually_counted"
+  },
+  {
+    "exam_type": "semester_final",
+    "year": 2023,
+    "source_pdf_id": "semester_final:9c4557d490b8",
+    "cover_pdf_pages": [
+      1
+    ],
+    "exam_date_as_printed": "2023-05-17",
+    "mcq_count": 20,
+    "mcq_weight": 40,
+    "written_weight": 60,
+    "written_count": 7,
+    "printed_written_marks": 84,
+    "selection_rule": "甲2选1各12；乙5选4各12",
+    "paper_minutes": [
+      60,
+      90
+    ],
+    "evidence": "source_pdf_cover_visually_read",
+    "authenticity": "uploaded_copy_not_independently_authenticated_by_issuer",
+    "notes": [
+      "另已读卷一全部20题与封面；此年卷二先于卷一进行（08:00–09:30与10:30–11:30），不得写成统一15分钟间隔。"
+    ],
+    "mcq_count_evidence": "question_pages_visually_counted"
+  },
+  {
+    "exam_type": "semester_final",
+    "year": 2022,
+    "source_pdf_id": "semester_final:2f4ae66605ea",
+    "cover_pdf_pages": [],
+    "exam_date_as_printed": null,
+    "mcq_count": 20,
+    "mcq_weight": null,
+    "written_weight": 60,
+    "written_count": 6,
+    "printed_written_marks": 90,
+    "selection_rule": "A组2选1各15；B组4选3各15",
+    "paper_minutes": [
+      null,
+      null
+    ],
+    "evidence": "source_question_pages_and_written_group_headers_visually_read",
+    "authenticity": "uploaded_annotated_copy_not_independently_authenticated_by_issuer",
+    "notes": [
+      "原PDF没有封面，年份来自文件名；卷一总分、单题分、时间均未核实，2分只作推定。",
+      "原件红色答案属于附带批注，未自动认证为官方正确答案。",
+      "作答分项8.5、6.5照录，不四舍五入。"
+    ],
+    "mcq_count_evidence": "question_pages_visually_counted"
   }
 ]

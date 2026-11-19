@@ -2,6 +2,10 @@
   "status": "pass",
   "checks": [
     {
+      "name": "exam tabs remain in page flow",
+      "status": "pass"
+    },
+    {
       "name": "five distinct exam research options",
       "status": "pass"
     },

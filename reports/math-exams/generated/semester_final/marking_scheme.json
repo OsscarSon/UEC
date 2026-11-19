@@ -13,7 +13,7 @@
       ]
     },
     {
-      "id": "ME26-M036",
+      "id": "ME26-M003",
       "kind": "mcq",
       "number": 2,
       "points": [
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "id": "ME26-M033",
+      "id": "ME26-M017",
       "kind": "mcq",
       "number": 3,
       "points": [
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "id": "ME26-M003",
+      "id": "ME26-M018",
       "kind": "mcq",
       "number": 4,
       "points": [
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "id": "ME26-M008",
+      "id": "ME26-M025",
       "kind": "mcq",
       "number": 5,
       "points": [
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "id": "ME26-M041",
+      "id": "ME26-M001",
       "kind": "mcq",
       "number": 6,
       "points": [
@@ -68,7 +68,7 @@
       ]
     },
     {
-      "id": "ME26-M030",
+      "id": "ME26-M010",
       "kind": "mcq",
       "number": 7,
       "points": [
@@ -79,7 +79,7 @@
       ]
     },
     {
-      "id": "ME26-M027",
+      "id": "ME26-M034",
       "kind": "mcq",
       "number": 8,
       "points": [
@@ -101,7 +101,7 @@
       ]
     },
     {
-      "id": "ME26-M034",
+      "id": "ME26-M027",
       "kind": "mcq",
       "number": 10,
       "points": [
@@ -112,7 +112,7 @@
       ]
     },
     {
-      "id": "ME26-M015",
+      "id": "ME26-M020",
       "kind": "mcq",
       "number": 11,
       "points": [
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "id": "ME26-M035",
+      "id": "ME26-M040",
       "kind": "mcq",
       "number": 12,
       "points": [
@@ -134,7 +134,7 @@
       ]
     },
     {
-      "id": "ME26-M043",
+      "id": "ME26-M022",
       "kind": "mcq",
       "number": 13,
       "points": [
@@ -145,7 +145,7 @@
       ]
     },
     {
-      "id": "ME26-M026",
+      "id": "ME26-M031",
       "kind": "mcq",
       "number": 14,
       "points": [
@@ -156,7 +156,7 @@
       ]
     },
     {
-      "id": "ME26-M031",
+      "id": "ME26-M039",
       "kind": "mcq",
       "number": 15,
       "points": [
@@ -201,24 +201,47 @@
       ]
     },
     {
-      "id": "ME26-W001",
+      "id": "ME26-W006",
       "kind": "written",
       "number": 3,
       "points": [
         {
-          "description": "联立求x并代回y",
+          "description": "列矩阵/消元并说明可解",
+          "marks": 1
+        },
+        {
+          "description": "求出u、v",
           "marks": 2
         },
         {
-          "description": "正确应用夹角式及绝对值",
+          "description": "代回两式",
+          "marks": 1
+        }
+      ]
+    },
+    {
+      "id": "ME26-W012",
+      "kind": "written",
+      "number": 4,
+      "points": [
+        {
+          "description": "说明共轭根",
+          "marks": 1
+        },
+        {
+          "description": "求和积并构造方程",
           "marks": 2
+        },
+        {
+          "description": "复核",
+          "marks": 1
         }
       ]
     },
     {
       "id": "ME26-W008",
       "kind": "written",
-      "number": 4,
+      "number": 5,
       "points": [
         {
           "description": "互斥分类并列组合数",
@@ -231,73 +254,58 @@
       ]
     },
     {
-      "id": "ME26-W011",
-      "kind": "written",
-      "number": 5,
-      "points": [
-        {
-          "description": "点在曲线及隐微分",
-          "marks": 2
-        },
-        {
-          "description": "求斜率并写切线",
-          "marks": 2
-        }
-      ]
-    },
-    {
-      "id": "ME26-W016",
+      "id": "ME26-W014",
       "kind": "written",
       "number": 6,
       "points": [
         {
-          "description": "余弦定律求边",
+          "description": "复合式与严格原域",
           "marks": 2
         },
         {
-          "description": "面积",
+          "description": "反函数与定义域",
           "marks": 2
         },
         {
-          "description": "外接圆与根号化简",
+          "description": "非单射反例",
           "marks": 2
         }
       ]
     },
     {
-      "id": "ME26-W018",
+      "id": "ME26-W017",
       "kind": "written",
       "number": 7,
       "points": [
         {
-          "description": "三点定圆",
+          "description": "合成参数",
           "marks": 2
         },
         {
-          "description": "切线法向关系",
+          "description": "两支一般解",
           "marks": 2
         },
         {
-          "description": "配方与位置检验",
+          "description": "区间筛选与回代",
           "marks": 2
         }
       ]
     },
     {
-      "id": "ME26-W023",
+      "id": "ME26-W013",
       "kind": "written",
       "number": 8,
       "points": [
         {
-          "description": "完整部分分式",
+          "description": "因式分解及两根",
           "marks": 2
         },
         {
-          "description": "积分及常数",
+          "description": "完整参数条件",
           "marks": 2
         },
         {
-          "description": "三个区间与验导",
+          "description": "区分上确界和最大值",
           "marks": 2
         }
       ]
@@ -322,66 +330,66 @@
       ]
     },
     {
-      "id": "ME26-W022",
+      "id": "ME26-W021",
       "kind": "written",
       "number": 10,
       "points": [
         {
-          "description": "正域与对数微分",
+          "description": "全概率",
           "marks": 2
         },
         {
-          "description": "点及切线",
+          "description": "一次条件概率",
           "marks": 2
         },
         {
-          "description": "驻点变号及最小值",
+          "description": "说明条件独立并求双阳后验",
           "marks": 2
         }
       ]
     },
     {
-      "id": "ME26-W031",
+      "id": "ME26-W033",
       "kind": "written",
       "number": 11,
       "points": [
         {
-          "description": "无放回同色",
-          "marks": 2
-        },
-        {
-          "description": "条件分母和两红",
+          "description": "分部求F含定积分常数",
           "marks": 3
         },
         {
-          "description": "放回条件概率",
-          "marks": 3
+          "description": "导数号与最小值",
+          "marks": 2
         },
         {
-          "description": "独立性解释",
+          "description": "域内解方程",
           "marks": 2
+        },
+        {
+          "description": "极限条件与两次计算",
+          "marks": 3
         }
       ]
     },
     {
-      "id": "ME26-W028",
+      "id": "ME26-W032",
       "kind": "written",
       "number": 12,
       "points": [
         {
-          "description": "完整分段及边界",
+          "description": "可导条件和一阶斜率",
+          "marks": 2
+        },
+        {
+          "description": "切线",
+          "marks": 2
+        },
+        {
+          "description": "完整二阶微分",
           "marks": 3
         },
         {
-          "description": "两解及区间验根",
-          "marks": 2
-        },
-        {
-          "description": "最小值和完整达到集",
-          "marks": 2
-        },
-        {
-          "description": "逆函数、域及回代",
+          "description": "估计及有依据误差方向",
           "marks": 3
         }
       ]
