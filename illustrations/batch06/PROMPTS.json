@@ -1,8 +1,8 @@
 {
   "schema_version": "batch06-1",
-  "status": "ongoing_not40_chapters_complete",
+  "status": "authoring_target_reached_drawing_tasks_unproduced",
   "statistics": {
-    "tasks": 197,
+    "tasks": 218,
     "new_images_generated": 0
   },
   "tasks": [
@@ -22493,6 +22493,2322 @@
       }
     },
     {
+      "id": "B06-MATH33-33-1",
+      "subject": "数学",
+      "chapter_id": 33,
+      "chapter_title": "圆锥曲线",
+      "section_id": "33.1",
+      "section_title": "曲线的坐标表示",
+      "title": "同轨迹的三种坐标表示",
+      "teaching_purpose": [
+        "把轨迹条件转成笛卡尔方程并双向验证",
+        "消参数时保留实际轨迹范围",
+        "连接极坐标与直角坐标且检查原点"
+      ],
+      "required_objects": [
+        "等距轨迹x1",
+        "参数上半圆",
+        "极坐标偏心圆",
+        "范围与方向箭头"
+      ],
+      "scientific_relations": [
+        "上半圆保y≥0",
+        "极式圆心2半径2",
+        "r=0原点保留",
+        "集合与走向分开"
+      ],
+      "scientific_relations_en": "The locus equidistant from(-2,1) and(4,1) is x=1. Parametric x=2cos t,y=2sin t with t in[0,pi] covers only the upper semicircle, so preserve y>=0. Polar r=4cos theta with r>=0 and theta from-pi/2 topi/2 gives the full circle centred(2,0),radius2,including the origin.",
+      "chinese_labels": [
+        "笛卡尔",
+        "参数t",
+        "极坐标",
+        "允许范围",
+        "原点"
+      ],
+      "formulas_units_variables": [
+        "轨迹等价需两向：原条件⇒方程及限制；方程及限制⇒原条件。",
+        "x=2cost,y=2sint,0≤t≤π：x²+y²=4且y≥0。",
+        "x=rcosθ,y=rsinθ,r²=x²+y²；除r前先审原点，角域与负r约定分清。"
+      ],
+      "composition": "2–3逻辑面板；主结构左/上，条件与验算右/下；不以颜色独占编码",
+      "dimensions": {
+        "width": 1280,
+        "height": 960,
+        "ratio": "4:3",
+        "min_label_px": 24,
+        "safe_margin_px": 48
+      },
+      "prompt_zh": "制作数学第33章《圆锥曲线》33.1《曲线的坐标表示》的教学图《同轨迹的三种坐标表示》。教学目标：把轨迹条件转成笛卡尔方程并双向验证；消参数时保留实际轨迹范围；连接极坐标与直角坐标且检查原点。必须对象：等距轨迹x1；参数上半圆；极坐标偏心圆；范围与方向箭头。不可画错的关系：上半圆保y≥0；极式圆心2半径2；r=0原点保留；集合与走向分开。中文标签：笛卡尔；参数t；极坐标；允许范围；原点。公式、单位和条件：轨迹等价需两向：原条件⇒方程及限制；方程及限制⇒原条件。；x=2cost,y=2sint,0≤t≤π：x²+y²=4且y≥0。；x=rcosθ,y=rsinθ,r²=x²+y²；除r前先审原点，角域与负r约定分清。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。",
+      "prompt_en": "Create a standalone UEC senior-high teaching diagram for chapter33, authentic subsection33.1, with original Chinese title 曲线的坐标表示. Topic-specific mandatory science: The locus equidistant from(-2,1) and(4,1) is x=1. Parametric x=2cos t,y=2sin t with t in[0,pi] covers only the upper semicircle, so preserve y>=0. Polar r=4cos theta with r>=0 and theta from-pi/2 topi/2 gives the full circle centred(2,0),radius2,including the origin. Generate exact conic geometry from the stated equation on equal-scale axes. Label centre or vertex, foci, directrices and asymptotes consistently. Distinguish a locus from an oriented parametrization and retain parameter restrictions after elimination. Tangents require a point on the curve; asymptotes are not curve branches. State nondegeneracy and parameter sign conditions. Required objects, preserving these Chinese labels: 等距轨迹x1；参数上半圆；极坐标偏心圆；范围与方向箭头. Additional literal Chinese annotation strings: 笛卡尔；参数t；极坐标；允许范围；原点. Typeset and verify these reference formulas, units and stated conditions: 轨迹等价需两向：原条件⇒方程及限制；方程及限制⇒原条件。；x=2cost,y=2sint,0≤t≤π：x²+y²=4且y≥0。；x=rcosθ,y=rsinθ,r²=x²+y²；除r前先审原点，角域与负r约定分清。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.",
+      "negative_prompt": "No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.",
+      "acceptance_criteria": [
+        "上半圆保y≥0",
+        "极式圆心2半径2",
+        "r=0原点保留",
+        "集合与走向分开",
+        "逐项核对对象、中文、数值、单位与定义域/模型条件",
+        "图示与原例题条件一致，不机械套用其他题的数据",
+        "检查320/390px与桌面缩放及放大，无文字裁切",
+        "XML/路径通过不代表科学审核通过，发布前需单独复核"
+      ],
+      "sources": [
+        {
+          "source_id": "directory_math",
+          "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+          "page": 14,
+          "version": "教材内容表/目录对照；非考试纲要",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "theory_math_33.1",
+          "url": "https://openstax.org/books/precalculus-2e/pages/8-6-parametric-equations",
+          "page_or_section": "8-6-parametric-equations",
+          "version": "原理参考；不是2027范围声明",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "priority": "P0",
+      "reuse": {
+        "possible": false,
+        "note": "圆锥曲线图必须核焦点、准线、参数条件及等比例轴；形似图不可替代方程生成",
+        "assets": []
+      },
+      "deterministic_drawing_required": true,
+      "recommended_format": "SVG",
+      "category": "mathematical_plot",
+      "production_status": "not_produced_pending_review",
+      "module_visual_coverage": {
+        "01": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "02": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "03": {
+          "task_ids": [
+            "B06-MATH33-33-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "04": {
+          "task_ids": [
+            "B06-MATH33-33-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "05": {
+          "task_ids": [
+            "B06-MATH33-33-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "06": {
+          "task_ids": [
+            "B06-MATH33-33-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "07": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "08": {
+          "task_ids": [
+            "B06-MATH33-33-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "09": {
+          "task_ids": [
+            "B06-MATH33-33-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "10": {
+          "task_ids": [
+            "B06-MATH33-33-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "11": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "12": {
+          "task_ids": [
+            "B06-MATH33-33-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        }
+      }
+    },
+    {
+      "id": "B06-MATH33-33-2",
+      "subject": "数学",
+      "chapter_id": 33,
+      "chapter_title": "圆锥曲线",
+      "section_id": "33.2",
+      "section_title": "圆锥曲线",
+      "title": "截锥与焦准分类",
+      "teaching_purpose": [
+        "从截锥与焦点准线理解曲线分类",
+        "用离心率和二次式辨认非退化及退化情形"
+      ],
+      "required_objects": [
+        "双锥切平面",
+        "焦F准线l",
+        "PF与垂距",
+        "e三范围",
+        "退化反例"
+      ],
+      "scientific_relations": [
+        "准线不过F",
+        "e1等距",
+        "e0直接式仅点需注",
+        "判别仍核实点"
+      ],
+      "scientific_relations_en": "Distinguish nondegenerate conics from empty or degenerate real loci. PF=e times distance to a directrix classifies0<e<1,e=1,e>1 under its conditions. Setting e=0 with a fixed finite focus/directrix gives only the focus, not a circle. The quadratic-type discriminant alone does not prove real points exist.",
+      "chinese_labels": [
+        "PF",
+        "d(P,l)",
+        "e",
+        "非退化",
+        "无实点"
+      ],
+      "formulas_units_variables": [
+        "PF=e·d(P,l)，F不在l、e>0：0<e<1椭圆，e=1抛物线，e>1双曲线（相应非退化条件）。",
+        "圆是椭圆e→0的极限，有限焦准式直接e0只给PF0。",
+        "B²−4AC是二次型线索，不能单独排除退化或无实点。"
+      ],
+      "composition": "2–3逻辑面板；主结构左/上，条件与验算右/下；不以颜色独占编码",
+      "dimensions": {
+        "width": 1280,
+        "height": 960,
+        "ratio": "4:3",
+        "min_label_px": 24,
+        "safe_margin_px": 48
+      },
+      "prompt_zh": "制作数学第33章《圆锥曲线》33.2《圆锥曲线》的教学图《截锥与焦准分类》。教学目标：从截锥与焦点准线理解曲线分类；用离心率和二次式辨认非退化及退化情形。必须对象：双锥切平面；焦F准线l；PF与垂距；e三范围；退化反例。不可画错的关系：准线不过F；e1等距；e0直接式仅点需注；判别仍核实点。中文标签：PF；d(P,l)；e；非退化；无实点。公式、单位和条件：PF=e·d(P,l)，F不在l、e>0：0<e<1椭圆，e=1抛物线，e>1双曲线（相应非退化条件）。；圆是椭圆e→0的极限，有限焦准式直接e0只给PF0。；B²−4AC是二次型线索，不能单独排除退化或无实点。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。",
+      "prompt_en": "Create a standalone UEC senior-high teaching diagram for chapter33, authentic subsection33.2, with original Chinese title 圆锥曲线. Topic-specific mandatory science: Distinguish nondegenerate conics from empty or degenerate real loci. PF=e times distance to a directrix classifies0<e<1,e=1,e>1 under its conditions. Setting e=0 with a fixed finite focus/directrix gives only the focus, not a circle. The quadratic-type discriminant alone does not prove real points exist. Generate exact conic geometry from the stated equation on equal-scale axes. Label centre or vertex, foci, directrices and asymptotes consistently. Distinguish a locus from an oriented parametrization and retain parameter restrictions after elimination. Tangents require a point on the curve; asymptotes are not curve branches. State nondegeneracy and parameter sign conditions. Required objects, preserving these Chinese labels: 双锥切平面；焦F准线l；PF与垂距；e三范围；退化反例. Additional literal Chinese annotation strings: PF；d(P,l)；e；非退化；无实点. Typeset and verify these reference formulas, units and stated conditions: PF=e·d(P,l)，F不在l、e>0：0<e<1椭圆，e=1抛物线，e>1双曲线（相应非退化条件）。；圆是椭圆e→0的极限，有限焦准式直接e0只给PF0。；B²−4AC是二次型线索，不能单独排除退化或无实点。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.",
+      "negative_prompt": "No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.",
+      "acceptance_criteria": [
+        "准线不过F",
+        "e1等距",
+        "e0直接式仅点需注",
+        "判别仍核实点",
+        "逐项核对对象、中文、数值、单位与定义域/模型条件",
+        "图示与原例题条件一致，不机械套用其他题的数据",
+        "检查320/390px与桌面缩放及放大，无文字裁切",
+        "XML/路径通过不代表科学审核通过，发布前需单独复核"
+      ],
+      "sources": [
+        {
+          "source_id": "directory_math",
+          "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+          "page": 23,
+          "version": "教材内容表/目录对照；非考试纲要",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "theory_math_33.2",
+          "url": "https://openstax.org/books/precalculus-2e/pages/10-5-conic-sections-in-polar-coordinates",
+          "page_or_section": "10-5-conic-sections-in-polar-coordinates",
+          "version": "原理参考；不是2027范围声明",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "priority": "P0",
+      "reuse": {
+        "possible": false,
+        "note": "圆锥曲线图必须核焦点、准线、参数条件及等比例轴；形似图不可替代方程生成",
+        "assets": []
+      },
+      "deterministic_drawing_required": true,
+      "recommended_format": "SVG",
+      "category": "mathematical_plot",
+      "production_status": "not_produced_pending_review",
+      "module_visual_coverage": {
+        "01": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "02": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "03": {
+          "task_ids": [
+            "B06-MATH33-33-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "04": {
+          "task_ids": [
+            "B06-MATH33-33-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "05": {
+          "task_ids": [
+            "B06-MATH33-33-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "06": {
+          "task_ids": [
+            "B06-MATH33-33-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "07": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "08": {
+          "task_ids": [
+            "B06-MATH33-33-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "09": {
+          "task_ids": [
+            "B06-MATH33-33-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "10": {
+          "task_ids": [
+            "B06-MATH33-33-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "11": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "12": {
+          "task_ids": [
+            "B06-MATH33-33-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        }
+      }
+    },
+    {
+      "id": "B06-MATH33-33-3",
+      "subject": "数学",
+      "chapter_id": 33,
+      "chapter_title": "圆锥曲线",
+      "section_id": "33.3",
+      "section_title": "抛物线",
+      "title": "抛物线焦准与切线",
+      "teaching_purpose": [
+        "由焦准等距推导标准方程",
+        "确定平移后的焦点准线并求合法切线"
+      ],
+      "required_objects": [
+        "y²=12x曲线",
+        "F3,0",
+        "准线x−3",
+        "P3,6",
+        "顶点竖线",
+        "P切线y=x3"
+      ],
+      "scientific_relations": [
+        "PF与准线距均6",
+        "p3不是12",
+        "顶点切线x=0",
+        "切线与轴不同"
+      ],
+      "scientific_relations_en": "For y squared=12x, p=3,focus(3,0),directrix x=-3 and vertex(0,0). P(3,6) has equal focal/directrix distances6 and tangent y=x+3; the vertex tangent is x=0, not no tangent. Keep actual rays separate from mathematical extension lines in any reflection application.",
+      "chinese_labels": [
+        "顶点",
+        "焦点",
+        "准线",
+        "p",
+        "切点"
+      ],
+      "formulas_units_variables": [
+        "y²=4px（p≠0）：焦点(p,0)、准线x=−p、顶点(0,0)。",
+        "(y−k)²=4p(x−h)：焦点(h+p,k)，准线x=h−p。",
+        "曲线上(x₁,y₁)的切线yy₁=2p(x+x₁)；点先验在曲线上，顶点切线竖直。"
+      ],
+      "composition": "2–3逻辑面板；主结构左/上，条件与验算右/下；不以颜色独占编码",
+      "dimensions": {
+        "width": 1280,
+        "height": 960,
+        "ratio": "4:3",
+        "min_label_px": 24,
+        "safe_margin_px": 48
+      },
+      "prompt_zh": "制作数学第33章《圆锥曲线》33.3《抛物线》的教学图《抛物线焦准与切线》。教学目标：由焦准等距推导标准方程；确定平移后的焦点准线并求合法切线。必须对象：y²=12x曲线；F3,0；准线x−3；P3,6；顶点竖线；P切线y=x3。不可画错的关系：PF与准线距均6；p3不是12；顶点切线x=0；切线与轴不同。中文标签：顶点；焦点；准线；p；切点。公式、单位和条件：y²=4px（p≠0）：焦点(p,0)、准线x=−p、顶点(0,0)。；(y−k)²=4p(x−h)：焦点(h+p,k)，准线x=h−p。；曲线上(x₁,y₁)的切线yy₁=2p(x+x₁)；点先验在曲线上，顶点切线竖直。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。",
+      "prompt_en": "Create a standalone UEC senior-high teaching diagram for chapter33, authentic subsection33.3, with original Chinese title 抛物线. Topic-specific mandatory science: For y squared=12x, p=3,focus(3,0),directrix x=-3 and vertex(0,0). P(3,6) has equal focal/directrix distances6 and tangent y=x+3; the vertex tangent is x=0, not no tangent. Keep actual rays separate from mathematical extension lines in any reflection application. Generate exact conic geometry from the stated equation on equal-scale axes. Label centre or vertex, foci, directrices and asymptotes consistently. Distinguish a locus from an oriented parametrization and retain parameter restrictions after elimination. Tangents require a point on the curve; asymptotes are not curve branches. State nondegeneracy and parameter sign conditions. Required objects, preserving these Chinese labels: y²=12x曲线；F3,0；准线x−3；P3,6；顶点竖线；P切线y=x3. Additional literal Chinese annotation strings: 顶点；焦点；准线；p；切点. Typeset and verify these reference formulas, units and stated conditions: y²=4px（p≠0）：焦点(p,0)、准线x=−p、顶点(0,0)。；(y−k)²=4p(x−h)：焦点(h+p,k)，准线x=h−p。；曲线上(x₁,y₁)的切线yy₁=2p(x+x₁)；点先验在曲线上，顶点切线竖直。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.",
+      "negative_prompt": "No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.",
+      "acceptance_criteria": [
+        "PF与准线距均6",
+        "p3不是12",
+        "顶点切线x=0",
+        "切线与轴不同",
+        "逐项核对对象、中文、数值、单位与定义域/模型条件",
+        "图示与原例题条件一致，不机械套用其他题的数据",
+        "检查320/390px与桌面缩放及放大，无文字裁切",
+        "XML/路径通过不代表科学审核通过，发布前需单独复核"
+      ],
+      "sources": [
+        {
+          "source_id": "directory_math",
+          "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+          "page": 28,
+          "version": "教材内容表/目录对照；非考试纲要",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "theory_math_33.3",
+          "url": "https://openstax.org/books/precalculus-2e/pages/10-3-the-parabola",
+          "page_or_section": "10-3-the-parabola",
+          "version": "原理参考；不是2027范围声明",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "priority": "P0",
+      "reuse": {
+        "possible": false,
+        "note": "圆锥曲线图必须核焦点、准线、参数条件及等比例轴；形似图不可替代方程生成",
+        "assets": []
+      },
+      "deterministic_drawing_required": true,
+      "recommended_format": "SVG",
+      "category": "mathematical_plot",
+      "production_status": "not_produced_pending_review",
+      "module_visual_coverage": {
+        "01": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "02": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "03": {
+          "task_ids": [
+            "B06-MATH33-33-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "04": {
+          "task_ids": [
+            "B06-MATH33-33-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "05": {
+          "task_ids": [
+            "B06-MATH33-33-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "06": {
+          "task_ids": [
+            "B06-MATH33-33-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "07": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "08": {
+          "task_ids": [
+            "B06-MATH33-33-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "09": {
+          "task_ids": [
+            "B06-MATH33-33-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "10": {
+          "task_ids": [
+            "B06-MATH33-33-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "11": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "12": {
+          "task_ids": [
+            "B06-MATH33-33-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        }
+      }
+    },
+    {
+      "id": "B06-MATH33-33-4",
+      "subject": "数学",
+      "chapter_id": 33,
+      "chapter_title": "圆锥曲线",
+      "section_id": "33.4",
+      "section_title": "椭圆",
+      "title": "椭圆参数与焦和",
+      "teaching_purpose": [
+        "由两焦距离和推导标准式及参数关系",
+        "判长轴方向并求焦点离心率和合法切线"
+      ],
+      "required_objects": [
+        "x²/25+y²/9曲线",
+        "半轴5与3",
+        "焦±4",
+        "P3,12/5两焦连线",
+        "切线"
+      ],
+      "scientific_relations": [
+        "焦和10",
+        "c4非√34",
+        "切线9x+20y=75",
+        "等比例轴",
+        "焦点在内"
+      ],
+      "scientific_relations_en": "For x squared/25+y squared/9=1, semi-axes5 and3, foci(+/-4,0),eccentricity4/5 and total focal distance10. At(3,12/5) the tangent is9x+20y=75. The larger denominator identifies the major-axis direction; foci lie inside the vertices.",
+      "chinese_labels": [
+        "a5",
+        "b3",
+        "c4",
+        "e4/5",
+        "2a10"
+      ],
+      "formulas_units_variables": [
+        "r_L+r_R=2a，r_L²−r_R²=4cx⇒r_R=a−cx/a，再平方得x²/a²+y²/b²=1。",
+        "a²=b²+c²，e=c/a；a≥b>0，横长轴时F(±c,0)。",
+        "曲线上点切线xx₁/a²+yy₁/b²=1；平移先用相对中心坐标。"
+      ],
+      "composition": "2–3逻辑面板；主结构左/上，条件与验算右/下；不以颜色独占编码",
+      "dimensions": {
+        "width": 1280,
+        "height": 960,
+        "ratio": "4:3",
+        "min_label_px": 24,
+        "safe_margin_px": 48
+      },
+      "prompt_zh": "制作数学第33章《圆锥曲线》33.4《椭圆》的教学图《椭圆参数与焦和》。教学目标：由两焦距离和推导标准式及参数关系；判长轴方向并求焦点离心率和合法切线。必须对象：x²/25+y²/9曲线；半轴5与3；焦±4；P3,12/5两焦连线；切线。不可画错的关系：焦和10；c4非√34；切线9x+20y=75；等比例轴；焦点在内。中文标签：a5；b3；c4；e4/5；2a10。公式、单位和条件：r_L+r_R=2a，r_L²−r_R²=4cx⇒r_R=a−cx/a，再平方得x²/a²+y²/b²=1。；a²=b²+c²，e=c/a；a≥b>0，横长轴时F(±c,0)。；曲线上点切线xx₁/a²+yy₁/b²=1；平移先用相对中心坐标。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。",
+      "prompt_en": "Create a standalone UEC senior-high teaching diagram for chapter33, authentic subsection33.4, with original Chinese title 椭圆. Topic-specific mandatory science: For x squared/25+y squared/9=1, semi-axes5 and3, foci(+/-4,0),eccentricity4/5 and total focal distance10. At(3,12/5) the tangent is9x+20y=75. The larger denominator identifies the major-axis direction; foci lie inside the vertices. Generate exact conic geometry from the stated equation on equal-scale axes. Label centre or vertex, foci, directrices and asymptotes consistently. Distinguish a locus from an oriented parametrization and retain parameter restrictions after elimination. Tangents require a point on the curve; asymptotes are not curve branches. State nondegeneracy and parameter sign conditions. Required objects, preserving these Chinese labels: x²/25+y²/9曲线；半轴5与3；焦±4；P3,12/5两焦连线；切线. Additional literal Chinese annotation strings: a5；b3；c4；e4/5；2a10. Typeset and verify these reference formulas, units and stated conditions: r_L+r_R=2a，r_L²−r_R²=4cx⇒r_R=a−cx/a，再平方得x²/a²+y²/b²=1。；a²=b²+c²，e=c/a；a≥b>0，横长轴时F(±c,0)。；曲线上点切线xx₁/a²+yy₁/b²=1；平移先用相对中心坐标。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.",
+      "negative_prompt": "No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.",
+      "acceptance_criteria": [
+        "焦和10",
+        "c4非√34",
+        "切线9x+20y=75",
+        "等比例轴",
+        "焦点在内",
+        "逐项核对对象、中文、数值、单位与定义域/模型条件",
+        "图示与原例题条件一致，不机械套用其他题的数据",
+        "检查320/390px与桌面缩放及放大，无文字裁切",
+        "XML/路径通过不代表科学审核通过，发布前需单独复核"
+      ],
+      "sources": [
+        {
+          "source_id": "directory_math",
+          "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+          "page": 38,
+          "version": "教材内容表/目录对照；非考试纲要",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "theory_math_33.4",
+          "url": "https://openstax.org/books/precalculus-2e/pages/10-1-the-ellipse",
+          "page_or_section": "10-1-the-ellipse",
+          "version": "原理参考；不是2027范围声明",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "priority": "P0",
+      "reuse": {
+        "possible": false,
+        "note": "圆锥曲线图必须核焦点、准线、参数条件及等比例轴；形似图不可替代方程生成",
+        "assets": []
+      },
+      "deterministic_drawing_required": true,
+      "recommended_format": "SVG",
+      "category": "mathematical_plot",
+      "production_status": "not_produced_pending_review",
+      "module_visual_coverage": {
+        "01": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "02": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "03": {
+          "task_ids": [
+            "B06-MATH33-33-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "04": {
+          "task_ids": [
+            "B06-MATH33-33-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "05": {
+          "task_ids": [
+            "B06-MATH33-33-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "06": {
+          "task_ids": [
+            "B06-MATH33-33-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "07": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "08": {
+          "task_ids": [
+            "B06-MATH33-33-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "09": {
+          "task_ids": [
+            "B06-MATH33-33-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "10": {
+          "task_ids": [
+            "B06-MATH33-33-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "11": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "12": {
+          "task_ids": [
+            "B06-MATH33-33-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        }
+      }
+    },
+    {
+      "id": "B06-MATH33-33-5",
+      "subject": "数学",
+      "chapter_id": 33,
+      "chapter_title": "圆锥曲线",
+      "section_id": "33.5",
+      "section_title": "双曲线",
+      "title": "双曲线焦差与渐近线",
+      "teaching_purpose": [
+        "由两焦距离差绝对值建立标准式",
+        "正确确定实轴焦点渐近线并区分退化与切线"
+      ],
+      "required_objects": [
+        "x²/9−y²/16两支",
+        "顶点±3",
+        "焦点±5",
+        "渐近线±4x/3",
+        "P距离"
+      ],
+      "scientific_relations": [
+        "c5在顶点外",
+        "焦差绝对值6",
+        "渐近虚线不并入曲线",
+        "a3小于b4合法"
+      ],
+      "scientific_relations_en": "For x squared/9-y squared/16=1, a3,b4,c5,e5/3 and asymptotes y=+/-4x/3. The tangent at(5,16/3) is5x-3y=9, and the absolute focal-distance difference is6. Both branches need the absolute-value definition; asymptotes are dashed and are not branches.",
+      "chinese_labels": [
+        "a3",
+        "b4",
+        "c5",
+        "e5/3",
+        "渐近线"
+      ],
+      "formulas_units_variables": [
+        "横轴双曲线x²/a²−y²/b²=1，c²=a²+b²，c>a>0，e=c/a>1。",
+        "焦差|PF₁−PF₂|=2a，渐近线y=±(b/a)x；a,b均正但不必a>b。",
+        "曲线上点切线xx₁/a²−yy₁/b²=1；平移用相对中心坐标。"
+      ],
+      "composition": "2–3逻辑面板；主结构左/上，条件与验算右/下；不以颜色独占编码",
+      "dimensions": {
+        "width": 1280,
+        "height": 960,
+        "ratio": "4:3",
+        "min_label_px": 24,
+        "safe_margin_px": 48
+      },
+      "prompt_zh": "制作数学第33章《圆锥曲线》33.5《双曲线》的教学图《双曲线焦差与渐近线》。教学目标：由两焦距离差绝对值建立标准式；正确确定实轴焦点渐近线并区分退化与切线。必须对象：x²/9−y²/16两支；顶点±3；焦点±5；渐近线±4x/3；P距离。不可画错的关系：c5在顶点外；焦差绝对值6；渐近虚线不并入曲线；a3小于b4合法。中文标签：a3；b4；c5；e5/3；渐近线。公式、单位和条件：横轴双曲线x²/a²−y²/b²=1，c²=a²+b²，c>a>0，e=c/a>1。；焦差|PF₁−PF₂|=2a，渐近线y=±(b/a)x；a,b均正但不必a>b。；曲线上点切线xx₁/a²−yy₁/b²=1；平移用相对中心坐标。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。",
+      "prompt_en": "Create a standalone UEC senior-high teaching diagram for chapter33, authentic subsection33.5, with original Chinese title 双曲线. Topic-specific mandatory science: For x squared/9-y squared/16=1, a3,b4,c5,e5/3 and asymptotes y=+/-4x/3. The tangent at(5,16/3) is5x-3y=9, and the absolute focal-distance difference is6. Both branches need the absolute-value definition; asymptotes are dashed and are not branches. Generate exact conic geometry from the stated equation on equal-scale axes. Label centre or vertex, foci, directrices and asymptotes consistently. Distinguish a locus from an oriented parametrization and retain parameter restrictions after elimination. Tangents require a point on the curve; asymptotes are not curve branches. State nondegeneracy and parameter sign conditions. Required objects, preserving these Chinese labels: x²/9−y²/16两支；顶点±3；焦点±5；渐近线±4x/3；P距离. Additional literal Chinese annotation strings: a3；b4；c5；e5/3；渐近线. Typeset and verify these reference formulas, units and stated conditions: 横轴双曲线x²/a²−y²/b²=1，c²=a²+b²，c>a>0，e=c/a>1。；焦差|PF₁−PF₂|=2a，渐近线y=±(b/a)x；a,b均正但不必a>b。；曲线上点切线xx₁/a²−yy₁/b²=1；平移用相对中心坐标。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.",
+      "negative_prompt": "No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.",
+      "acceptance_criteria": [
+        "c5在顶点外",
+        "焦差绝对值6",
+        "渐近虚线不并入曲线",
+        "a3小于b4合法",
+        "逐项核对对象、中文、数值、单位与定义域/模型条件",
+        "图示与原例题条件一致，不机械套用其他题的数据",
+        "检查320/390px与桌面缩放及放大，无文字裁切",
+        "XML/路径通过不代表科学审核通过，发布前需单独复核"
+      ],
+      "sources": [
+        {
+          "source_id": "directory_math",
+          "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+          "page": 49,
+          "version": "教材内容表/目录对照；非考试纲要",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "theory_math_33.5",
+          "url": "https://openstax.org/books/precalculus-2e/pages/10-2-the-hyperbola",
+          "page_or_section": "10-2-the-hyperbola",
+          "version": "原理参考；不是2027范围声明",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "priority": "P0",
+      "reuse": {
+        "possible": false,
+        "note": "圆锥曲线图必须核焦点、准线、参数条件及等比例轴；形似图不可替代方程生成",
+        "assets": []
+      },
+      "deterministic_drawing_required": true,
+      "recommended_format": "SVG",
+      "category": "mathematical_plot",
+      "production_status": "not_produced_pending_review",
+      "module_visual_coverage": {
+        "01": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "02": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "03": {
+          "task_ids": [
+            "B06-MATH33-33-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "04": {
+          "task_ids": [
+            "B06-MATH33-33-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "05": {
+          "task_ids": [
+            "B06-MATH33-33-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "06": {
+          "task_ids": [
+            "B06-MATH33-33-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "07": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "08": {
+          "task_ids": [
+            "B06-MATH33-33-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "09": {
+          "task_ids": [
+            "B06-MATH33-33-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "10": {
+          "task_ids": [
+            "B06-MATH33-33-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "11": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "12": {
+          "task_ids": [
+            "B06-MATH33-33-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        }
+      }
+    },
+    {
+      "id": "B06-MATH34-34-1",
+      "subject": "数学",
+      "chapter_id": 34,
+      "chapter_title": "复数",
+      "section_id": "34.1",
+      "section_title": "复数",
+      "title": "复数代数与共轭",
+      "teaching_purpose": [
+        "从i²=−1建立复数运算及共轭",
+        "用实虚部比较解方程并保除数非零条件"
+      ],
+      "required_objects": [
+        "a bi组成",
+        "乘法四项",
+        "共轭反射",
+        "除法分母平方和",
+        "实虚方程"
+      ],
+      "scientific_relations": [
+        "i²=−1",
+        "虚部b非bi",
+        "共轭仅反虚部",
+        "分母c²d²正条件"
+      ],
+      "scientific_relations_en": "Use i squared=-1, and label the imaginary part of a+bi as the real coefficient b rather than bi. Show multiplication and nonzero conjugate division. The quotient(3+4i)/(1-2i)=-1+2i, and z+2conjugate(z)=6+3i gives z=2-3i.",
+      "chinese_labels": [
+        "实部",
+        "虚部",
+        "i²",
+        "共轭",
+        "除数≠0"
+      ],
+      "formulas_units_variables": [
+        "i²=−1；a+bi=c+di⇔a=c且b=d。",
+        "z̄=a−bi，zz̄=a²+b²；(a+bi)/(c+di)乘分母共轭，c²+d²>0。",
+        "一般复数不使用实数式大小排序；主值根式乘法不能无条件扩到负数。"
+      ],
+      "composition": "2–3逻辑面板；主结构左/上，条件与验算右/下；不以颜色独占编码",
+      "dimensions": {
+        "width": 1280,
+        "height": 960,
+        "ratio": "4:3",
+        "min_label_px": 24,
+        "safe_margin_px": 48
+      },
+      "prompt_zh": "制作数学第34章《复数》34.1《复数》的教学图《复数代数与共轭》。教学目标：从i²=−1建立复数运算及共轭；用实虚部比较解方程并保除数非零条件。必须对象：a bi组成；乘法四项；共轭反射；除法分母平方和；实虚方程。不可画错的关系：i²=−1；虚部b非bi；共轭仅反虚部；分母c²d²正条件。中文标签：实部；虚部；i²；共轭；除数≠0。公式、单位和条件：i²=−1；a+bi=c+di⇔a=c且b=d。；z̄=a−bi，zz̄=a²+b²；(a+bi)/(c+di)乘分母共轭，c²+d²>0。；一般复数不使用实数式大小排序；主值根式乘法不能无条件扩到负数。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。",
+      "prompt_en": "Create a standalone UEC senior-high teaching diagram for chapter34, authentic subsection34.1, with original Chinese title 复数. Topic-specific mandatory science: Use i squared=-1, and label the imaginary part of a+bi as the real coefficient b rather than bi. Show multiplication and nonzero conjugate division. The quotient(3+4i)/(1-2i)=-1+2i, and z+2conjugate(z)=6+3i gives z=2-3i. Use equal-scale real and imaginary axes and deterministic complex arithmetic. Moduli are nonnegative; zero has no argument. Define the principal-argument interval and retain full arguments modulo2pi. Complex multiplication adds arguments and multiplies moduli. Nonzero nth roots are n distinct equally spaced points, whereas zero has only the one distinct root zero. Required objects, preserving these Chinese labels: a bi组成；乘法四项；共轭反射；除法分母平方和；实虚方程. Additional literal Chinese annotation strings: 实部；虚部；i²；共轭；除数≠0. Typeset and verify these reference formulas, units and stated conditions: i²=−1；a+bi=c+di⇔a=c且b=d。；z̄=a−bi，zz̄=a²+b²；(a+bi)/(c+di)乘分母共轭，c²+d²>0。；一般复数不使用实数式大小排序；主值根式乘法不能无条件扩到负数。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.",
+      "negative_prompt": "No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.",
+      "acceptance_criteria": [
+        "i²=−1",
+        "虚部b非bi",
+        "共轭仅反虚部",
+        "分母c²d²正条件",
+        "逐项核对对象、中文、数值、单位与定义域/模型条件",
+        "图示与原例题条件一致，不机械套用其他题的数据",
+        "检查320/390px与桌面缩放及放大，无文字裁切",
+        "XML/路径通过不代表科学审核通过，发布前需单独复核"
+      ],
+      "sources": [
+        {
+          "source_id": "directory_math",
+          "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+          "page": 68,
+          "version": "教材内容表/目录对照；非考试纲要",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "theory_math_34.1",
+          "url": "https://openstax.org/books/precalculus-2e/pages/3-1-complex-numbers",
+          "page_or_section": "3-1-complex-numbers",
+          "version": "原理参考；不是2027范围声明",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "priority": "P0",
+      "reuse": {
+        "possible": false,
+        "note": "复平面图必须核实虚轴、主辐角范围、模与根的个数；正确旧图只在同约定条件复用",
+        "assets": []
+      },
+      "deterministic_drawing_required": true,
+      "recommended_format": "SVG",
+      "category": "mathematical_plot",
+      "production_status": "not_produced_pending_review",
+      "module_visual_coverage": {
+        "01": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "02": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "03": {
+          "task_ids": [
+            "B06-MATH34-34-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "04": {
+          "task_ids": [
+            "B06-MATH34-34-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "05": {
+          "task_ids": [
+            "B06-MATH34-34-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "06": {
+          "task_ids": [
+            "B06-MATH34-34-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "07": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "08": {
+          "task_ids": [
+            "B06-MATH34-34-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "09": {
+          "task_ids": [
+            "B06-MATH34-34-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "10": {
+          "task_ids": [
+            "B06-MATH34-34-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "11": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "12": {
+          "task_ids": [
+            "B06-MATH34-34-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        }
+      }
+    },
+    {
+      "id": "B06-MATH34-34-2",
+      "subject": "数学",
+      "chapter_id": 34,
+      "chapter_title": "复数",
+      "section_id": "34.2",
+      "section_title": "复平面及复数的模与辐角",
+      "title": "复平面模辐角与距离轨迹",
+      "teaching_purpose": [
+        "用点向量解释模距离及辐角",
+        "按主值约定处理象限并建立复数轨迹"
+      ],
+      "required_objects": [
+        "z−3+4i",
+        "模5直角三角",
+        "Arg二象限弧",
+        "Re z正半平面",
+        "模2圆距点1"
+      ],
+      "scientific_relations": [
+        "轴等比例",
+        "Argπ−arctan4/3",
+        "半平面不含虚轴",
+        "距1极值点±2"
+      ],
+      "scientific_relations_en": "On equal real/imaginary axes, z=-3+4i has modulus5 and principal argument pi-arctan(4/3) in(-pi,pi]. Zero has no argument. The locus abs(z-1)<abs(z+1) is the open right half-plane. On abs(z)=2, distance to1 ranges from1 to3 at z=2 and z=-2.",
+      "chinese_labels": [
+        "Re",
+        "Im",
+        "|z|",
+        "Arg",
+        "零无辐角"
+      ],
+      "formulas_units_variables": [
+        "|x+yi|=√(x²+y²)，|z₁−z₂|为点距；z非0才有辐角。",
+        "Arg取(−π,π]；arg z=Arg z+2kπ，k∈Z。",
+        "|z+w|≤|z|+|w|；轨迹|z−z₀|=r为圆，比较距离先平方或用几何。"
+      ],
+      "composition": "2–3逻辑面板；主结构左/上，条件与验算右/下；不以颜色独占编码",
+      "dimensions": {
+        "width": 1280,
+        "height": 960,
+        "ratio": "4:3",
+        "min_label_px": 24,
+        "safe_margin_px": 48
+      },
+      "prompt_zh": "制作数学第34章《复数》34.2《复平面及复数的模与辐角》的教学图《复平面模辐角与距离轨迹》。教学目标：用点向量解释模距离及辐角；按主值约定处理象限并建立复数轨迹。必须对象：z−3+4i；模5直角三角；Arg二象限弧；Re z正半平面；模2圆距点1。不可画错的关系：轴等比例；Argπ−arctan4/3；半平面不含虚轴；距1极值点±2。中文标签：Re；Im；|z|；Arg；零无辐角。公式、单位和条件：|x+yi|=√(x²+y²)，|z₁−z₂|为点距；z非0才有辐角。；Arg取(−π,π]；arg z=Arg z+2kπ，k∈Z。；|z+w|≤|z|+|w|；轨迹|z−z₀|=r为圆，比较距离先平方或用几何。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。",
+      "prompt_en": "Create a standalone UEC senior-high teaching diagram for chapter34, authentic subsection34.2, with original Chinese title 复平面及复数的模与辐角. Topic-specific mandatory science: On equal real/imaginary axes, z=-3+4i has modulus5 and principal argument pi-arctan(4/3) in(-pi,pi]. Zero has no argument. The locus abs(z-1)<abs(z+1) is the open right half-plane. On abs(z)=2, distance to1 ranges from1 to3 at z=2 and z=-2. Use equal-scale real and imaginary axes and deterministic complex arithmetic. Moduli are nonnegative; zero has no argument. Define the principal-argument interval and retain full arguments modulo2pi. Complex multiplication adds arguments and multiplies moduli. Nonzero nth roots are n distinct equally spaced points, whereas zero has only the one distinct root zero. Required objects, preserving these Chinese labels: z−3+4i；模5直角三角；Arg二象限弧；Re z正半平面；模2圆距点1. Additional literal Chinese annotation strings: Re；Im；|z|；Arg；零无辐角. Typeset and verify these reference formulas, units and stated conditions: |x+yi|=√(x²+y²)，|z₁−z₂|为点距；z非0才有辐角。；Arg取(−π,π]；arg z=Arg z+2kπ，k∈Z。；|z+w|≤|z|+|w|；轨迹|z−z₀|=r为圆，比较距离先平方或用几何。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.",
+      "negative_prompt": "No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.",
+      "acceptance_criteria": [
+        "轴等比例",
+        "Argπ−arctan4/3",
+        "半平面不含虚轴",
+        "距1极值点±2",
+        "逐项核对对象、中文、数值、单位与定义域/模型条件",
+        "图示与原例题条件一致，不机械套用其他题的数据",
+        "检查320/390px与桌面缩放及放大，无文字裁切",
+        "XML/路径通过不代表科学审核通过，发布前需单独复核"
+      ],
+      "sources": [
+        {
+          "source_id": "directory_math",
+          "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+          "page": 76,
+          "version": "教材内容表/目录对照；非考试纲要",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "theory_math_34.2",
+          "url": "https://openstax.org/books/precalculus-2e/pages/8-5-polar-form-of-complex-numbers",
+          "page_or_section": "8-5-polar-form-of-complex-numbers",
+          "version": "原理参考；不是2027范围声明",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "priority": "P0",
+      "reuse": {
+        "possible": false,
+        "note": "复平面图必须核实虚轴、主辐角范围、模与根的个数；正确旧图只在同约定条件复用",
+        "assets": []
+      },
+      "deterministic_drawing_required": true,
+      "recommended_format": "SVG",
+      "category": "mathematical_plot",
+      "production_status": "not_produced_pending_review",
+      "module_visual_coverage": {
+        "01": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "02": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "03": {
+          "task_ids": [
+            "B06-MATH34-34-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "04": {
+          "task_ids": [
+            "B06-MATH34-34-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "05": {
+          "task_ids": [
+            "B06-MATH34-34-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "06": {
+          "task_ids": [
+            "B06-MATH34-34-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "07": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "08": {
+          "task_ids": [
+            "B06-MATH34-34-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "09": {
+          "task_ids": [
+            "B06-MATH34-34-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "10": {
+          "task_ids": [
+            "B06-MATH34-34-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "11": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "12": {
+          "task_ids": [
+            "B06-MATH34-34-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        }
+      }
+    },
+    {
+      "id": "B06-MATH34-34-3",
+      "subject": "数学",
+      "chapter_id": 34,
+      "chapter_title": "复数",
+      "section_id": "34.3",
+      "section_title": "复数的三角函数式",
+      "title": "复数乘除的旋转伸缩",
+      "teaching_purpose": [
+        "在非负模及全辐角约定下转换复数",
+        "推导乘除的旋转伸缩关系并处理主辐角回折"
+      ],
+      "required_objects": [
+        "z₁ z₂射线",
+        "积模6角π/6",
+        "商模2/3角π/2",
+        "两主角3π/4折回"
+      ],
+      "scientific_relations": [
+        "乘模不加模",
+        "角加减",
+        "i旋90非平移",
+        "主值3π/2折−π/2"
+      ],
+      "scientific_relations_en": "For nonzero polar complex numbers, multiply moduli and add arguments; divide moduli and subtract arguments.2cis(pi/3) times3cis(-pi/6)=6cis(pi/6). Principal arguments need wrapping back to(-pi,pi]; conjugate and reciprocal have different moduli unless the modulus is1.",
+      "chinese_labels": [
+        "r>0",
+        "cis",
+        "积",
+        "商",
+        "主辐角"
+      ],
+      "formulas_units_variables": [
+        "z=rcisθ=r(cosθ+i sinθ)，非0时r>0。",
+        "z₁z₂=r₁r₂cis(θ₁+θ₂)；z₁/z₂=(r₁/r₂)cis(θ₁−θ₂)，z₂≠0。",
+        "主辐角加减后须回指定区间；共轭模r，倒数模1/r。"
+      ],
+      "composition": "2–3逻辑面板；主结构左/上，条件与验算右/下；不以颜色独占编码",
+      "dimensions": {
+        "width": 1280,
+        "height": 960,
+        "ratio": "4:3",
+        "min_label_px": 24,
+        "safe_margin_px": 48
+      },
+      "prompt_zh": "制作数学第34章《复数》34.3《复数的三角函数式》的教学图《复数乘除的旋转伸缩》。教学目标：在非负模及全辐角约定下转换复数；推导乘除的旋转伸缩关系并处理主辐角回折。必须对象：z₁ z₂射线；积模6角π/6；商模2/3角π/2；两主角3π/4折回。不可画错的关系：乘模不加模；角加减；i旋90非平移；主值3π/2折−π/2。中文标签：r>0；cis；积；商；主辐角。公式、单位和条件：z=rcisθ=r(cosθ+i sinθ)，非0时r>0。；z₁z₂=r₁r₂cis(θ₁+θ₂)；z₁/z₂=(r₁/r₂)cis(θ₁−θ₂)，z₂≠0。；主辐角加减后须回指定区间；共轭模r，倒数模1/r。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。",
+      "prompt_en": "Create a standalone UEC senior-high teaching diagram for chapter34, authentic subsection34.3, with original Chinese title 复数的三角函数式. Topic-specific mandatory science: For nonzero polar complex numbers, multiply moduli and add arguments; divide moduli and subtract arguments.2cis(pi/3) times3cis(-pi/6)=6cis(pi/6). Principal arguments need wrapping back to(-pi,pi]; conjugate and reciprocal have different moduli unless the modulus is1. Use equal-scale real and imaginary axes and deterministic complex arithmetic. Moduli are nonnegative; zero has no argument. Define the principal-argument interval and retain full arguments modulo2pi. Complex multiplication adds arguments and multiplies moduli. Nonzero nth roots are n distinct equally spaced points, whereas zero has only the one distinct root zero. Required objects, preserving these Chinese labels: z₁ z₂射线；积模6角π/6；商模2/3角π/2；两主角3π/4折回. Additional literal Chinese annotation strings: r>0；cis；积；商；主辐角. Typeset and verify these reference formulas, units and stated conditions: z=rcisθ=r(cosθ+i sinθ)，非0时r>0。；z₁z₂=r₁r₂cis(θ₁+θ₂)；z₁/z₂=(r₁/r₂)cis(θ₁−θ₂)，z₂≠0。；主辐角加减后须回指定区间；共轭模r，倒数模1/r。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.",
+      "negative_prompt": "No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.",
+      "acceptance_criteria": [
+        "乘模不加模",
+        "角加减",
+        "i旋90非平移",
+        "主值3π/2折−π/2",
+        "逐项核对对象、中文、数值、单位与定义域/模型条件",
+        "图示与原例题条件一致，不机械套用其他题的数据",
+        "检查320/390px与桌面缩放及放大，无文字裁切",
+        "XML/路径通过不代表科学审核通过，发布前需单独复核"
+      ],
+      "sources": [
+        {
+          "source_id": "directory_math",
+          "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+          "page": 85,
+          "version": "教材内容表/目录对照；非考试纲要",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "theory_math_34.3",
+          "url": "https://openstax.org/books/precalculus-2e/pages/8-5-polar-form-of-complex-numbers",
+          "page_or_section": "8-5-polar-form-of-complex-numbers",
+          "version": "原理参考；不是2027范围声明",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "priority": "P0",
+      "reuse": {
+        "possible": false,
+        "note": "复平面图必须核实虚轴、主辐角范围、模与根的个数；正确旧图只在同约定条件复用",
+        "assets": []
+      },
+      "deterministic_drawing_required": true,
+      "recommended_format": "SVG",
+      "category": "mathematical_plot",
+      "production_status": "not_produced_pending_review",
+      "module_visual_coverage": {
+        "01": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "02": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "03": {
+          "task_ids": [
+            "B06-MATH34-34-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "04": {
+          "task_ids": [
+            "B06-MATH34-34-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "05": {
+          "task_ids": [
+            "B06-MATH34-34-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "06": {
+          "task_ids": [
+            "B06-MATH34-34-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "07": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "08": {
+          "task_ids": [
+            "B06-MATH34-34-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "09": {
+          "task_ids": [
+            "B06-MATH34-34-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "10": {
+          "task_ids": [
+            "B06-MATH34-34-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "11": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "12": {
+          "task_ids": [
+            "B06-MATH34-34-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        }
+      }
+    },
+    {
+      "id": "B06-MATH34-34-4",
+      "subject": "数学",
+      "chapter_id": 34,
+      "chapter_title": "复数",
+      "section_id": "34.4",
+      "section_title": "棣美弗定理",
+      "title": "整数幂与角的倍乘",
+      "teaching_purpose": [
+        "由复数乘法证明整数次幂公式",
+        "计算正负次幂并由实虚部导出三倍角关系"
+      ],
+      "required_objects": [
+        "1+i模角",
+        "八次转2π",
+        "负三次模1/8",
+        "三倍展开实虚部"
+      ],
+      "scientific_relations": [
+        "rⁿ与nθ分开",
+        "(1+i)8为16",
+        "2cisπ/3负三次−1/8",
+        "分数根需多支"
+      ],
+      "scientific_relations_en": "De Moivre applies to integer powers, with nonzero base for nonpositive powers as appropriate. (1+i)^8=16, (sqrt3-i)^6=-64, and(2cis(pi/3))^(-3)=-1/8. Do not treat an unqualified fractional power as the complete set of roots.",
+      "chinese_labels": [
+        "n∈Z",
+        "r>0条件",
+        "模幂",
+        "角倍",
+        "回乘"
+      ],
+      "formulas_units_variables": [
+        "n整数时(rcisθ)ⁿ=rⁿcis(nθ)；n≤0需相应基数非0。",
+        "归纳：cis(kθ)cisθ=cis((k+1)θ)；负幂先取逆。",
+        "cos3θ=4cos³θ−3cosθ；sin3θ=3sinθ−4sin³θ，来自三次展开比较实虚部。"
+      ],
+      "composition": "2–3逻辑面板；主结构左/上，条件与验算右/下；不以颜色独占编码",
+      "dimensions": {
+        "width": 1280,
+        "height": 960,
+        "ratio": "4:3",
+        "min_label_px": 24,
+        "safe_margin_px": 48
+      },
+      "prompt_zh": "制作数学第34章《复数》34.4《棣美弗定理》的教学图《整数幂与角的倍乘》。教学目标：由复数乘法证明整数次幂公式；计算正负次幂并由实虚部导出三倍角关系。必须对象：1+i模角；八次转2π；负三次模1/8；三倍展开实虚部。不可画错的关系：rⁿ与nθ分开；(1+i)8为16；2cisπ/3负三次−1/8；分数根需多支。中文标签：n∈Z；r>0条件；模幂；角倍；回乘。公式、单位和条件：n整数时(rcisθ)ⁿ=rⁿcis(nθ)；n≤0需相应基数非0。；归纳：cis(kθ)cisθ=cis((k+1)θ)；负幂先取逆。；cos3θ=4cos³θ−3cosθ；sin3θ=3sinθ−4sin³θ，来自三次展开比较实虚部。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。",
+      "prompt_en": "Create a standalone UEC senior-high teaching diagram for chapter34, authentic subsection34.4, with original Chinese title 棣美弗定理. Topic-specific mandatory science: De Moivre applies to integer powers, with nonzero base for nonpositive powers as appropriate. (1+i)^8=16, (sqrt3-i)^6=-64, and(2cis(pi/3))^(-3)=-1/8. Do not treat an unqualified fractional power as the complete set of roots. Use equal-scale real and imaginary axes and deterministic complex arithmetic. Moduli are nonnegative; zero has no argument. Define the principal-argument interval and retain full arguments modulo2pi. Complex multiplication adds arguments and multiplies moduli. Nonzero nth roots are n distinct equally spaced points, whereas zero has only the one distinct root zero. Required objects, preserving these Chinese labels: 1+i模角；八次转2π；负三次模1/8；三倍展开实虚部. Additional literal Chinese annotation strings: n∈Z；r>0条件；模幂；角倍；回乘. Typeset and verify these reference formulas, units and stated conditions: n整数时(rcisθ)ⁿ=rⁿcis(nθ)；n≤0需相应基数非0。；归纳：cis(kθ)cisθ=cis((k+1)θ)；负幂先取逆。；cos3θ=4cos³θ−3cosθ；sin3θ=3sinθ−4sin³θ，来自三次展开比较实虚部。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.",
+      "negative_prompt": "No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.",
+      "acceptance_criteria": [
+        "rⁿ与nθ分开",
+        "(1+i)8为16",
+        "2cisπ/3负三次−1/8",
+        "分数根需多支",
+        "逐项核对对象、中文、数值、单位与定义域/模型条件",
+        "图示与原例题条件一致，不机械套用其他题的数据",
+        "检查320/390px与桌面缩放及放大，无文字裁切",
+        "XML/路径通过不代表科学审核通过，发布前需单独复核"
+      ],
+      "sources": [
+        {
+          "source_id": "directory_math",
+          "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+          "page": 92,
+          "version": "教材内容表/目录对照；非考试纲要",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "theory_math_34.4",
+          "url": "https://openstax.org/books/precalculus-2e/pages/8-5-polar-form-of-complex-numbers",
+          "page_or_section": "8-5-polar-form-of-complex-numbers",
+          "version": "原理参考；不是2027范围声明",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "priority": "P0",
+      "reuse": {
+        "possible": false,
+        "note": "复平面图必须核实虚轴、主辐角范围、模与根的个数；正确旧图只在同约定条件复用",
+        "assets": []
+      },
+      "deterministic_drawing_required": true,
+      "recommended_format": "SVG",
+      "category": "mathematical_plot",
+      "production_status": "not_produced_pending_review",
+      "module_visual_coverage": {
+        "01": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "02": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "03": {
+          "task_ids": [
+            "B06-MATH34-34-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "04": {
+          "task_ids": [
+            "B06-MATH34-34-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "05": {
+          "task_ids": [
+            "B06-MATH34-34-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "06": {
+          "task_ids": [
+            "B06-MATH34-34-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "07": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "08": {
+          "task_ids": [
+            "B06-MATH34-34-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "09": {
+          "task_ids": [
+            "B06-MATH34-34-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "10": {
+          "task_ids": [
+            "B06-MATH34-34-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "11": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "12": {
+          "task_ids": [
+            "B06-MATH34-34-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        }
+      }
+    },
+    {
+      "id": "B06-MATH34-34-5",
+      "subject": "数学",
+      "chapter_id": 34,
+      "chapter_title": "复数",
+      "section_id": "34.5",
+      "section_title": "根的性质",
+      "title": "全部复根与共轭因式",
+      "teaching_purpose": [
+        "列出非零复数全部n次根并解释正多边形",
+        "运用实系数共轭根性质且区分重根与不同根"
+      ],
+      "required_objects": [
+        "z³8等边三点",
+        "z⁴−16四根",
+        "半径2",
+        "相邻角2π/n",
+        "共轭根对"
+      ],
+      "scientific_relations": [
+        "三根含非实两根",
+        "四根在45等分",
+        "k0到n−1不重复",
+        "零根只一个不同点"
+      ],
+      "scientific_relations_en": "All cube roots of8 are2,-1+i sqrt3,-1-i sqrt3. All fourth roots of-16 have modulus2 and angles pi/4+k pi/2 for k0..3. Roots of zero have only one distinct point with multiplicity n. Conjugate-pair guarantees require real polynomial coefficients.",
+      "chinese_labels": [
+        "全部根",
+        "重数",
+        "共轭",
+        "R^(1/n)",
+        "2π/n"
+      ],
+      "formulas_units_variables": [
+        "w=Rcisφ≠0：z_k=R^(1/n)cis((φ+2kπ)/n)，k=0,…,n−1。",
+        "w0仅一个不同根0，按重数计n；n>1单位根总和0。",
+        "实系数非实共轭根a±bi给实因式x²−2ax+a²+b²；非实系数不保证配对。"
+      ],
+      "composition": "2–3逻辑面板；主结构左/上，条件与验算右/下；不以颜色独占编码",
+      "dimensions": {
+        "width": 1280,
+        "height": 960,
+        "ratio": "4:3",
+        "min_label_px": 24,
+        "safe_margin_px": 48
+      },
+      "prompt_zh": "制作数学第34章《复数》34.5《根的性质》的教学图《全部复根与共轭因式》。教学目标：列出非零复数全部n次根并解释正多边形；运用实系数共轭根性质且区分重根与不同根。必须对象：z³8等边三点；z⁴−16四根；半径2；相邻角2π/n；共轭根对。不可画错的关系：三根含非实两根；四根在45等分；k0到n−1不重复；零根只一个不同点。中文标签：全部根；重数；共轭；R^(1/n)；2π/n。公式、单位和条件：w=Rcisφ≠0：z_k=R^(1/n)cis((φ+2kπ)/n)，k=0,…,n−1。；w0仅一个不同根0，按重数计n；n>1单位根总和0。；实系数非实共轭根a±bi给实因式x²−2ax+a²+b²；非实系数不保证配对。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。",
+      "prompt_en": "Create a standalone UEC senior-high teaching diagram for chapter34, authentic subsection34.5, with original Chinese title 根的性质. Topic-specific mandatory science: All cube roots of8 are2,-1+i sqrt3,-1-i sqrt3. All fourth roots of-16 have modulus2 and angles pi/4+k pi/2 for k0..3. Roots of zero have only one distinct point with multiplicity n. Conjugate-pair guarantees require real polynomial coefficients. Use equal-scale real and imaginary axes and deterministic complex arithmetic. Moduli are nonnegative; zero has no argument. Define the principal-argument interval and retain full arguments modulo2pi. Complex multiplication adds arguments and multiplies moduli. Nonzero nth roots are n distinct equally spaced points, whereas zero has only the one distinct root zero. Required objects, preserving these Chinese labels: z³8等边三点；z⁴−16四根；半径2；相邻角2π/n；共轭根对. Additional literal Chinese annotation strings: 全部根；重数；共轭；R^(1/n)；2π/n. Typeset and verify these reference formulas, units and stated conditions: w=Rcisφ≠0：z_k=R^(1/n)cis((φ+2kπ)/n)，k=0,…,n−1。；w0仅一个不同根0，按重数计n；n>1单位根总和0。；实系数非实共轭根a±bi给实因式x²−2ax+a²+b²；非实系数不保证配对。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.",
+      "negative_prompt": "No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.",
+      "acceptance_criteria": [
+        "三根含非实两根",
+        "四根在45等分",
+        "k0到n−1不重复",
+        "零根只一个不同点",
+        "逐项核对对象、中文、数值、单位与定义域/模型条件",
+        "图示与原例题条件一致，不机械套用其他题的数据",
+        "检查320/390px与桌面缩放及放大，无文字裁切",
+        "XML/路径通过不代表科学审核通过，发布前需单独复核"
+      ],
+      "sources": [
+        {
+          "source_id": "directory_math",
+          "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+          "page": 98,
+          "version": "教材内容表/目录对照；非考试纲要",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "theory_math_34.5",
+          "url": "https://openstax.org/books/precalculus-2e/pages/8-5-polar-form-of-complex-numbers",
+          "page_or_section": "8-5-polar-form-of-complex-numbers",
+          "version": "原理参考；不是2027范围声明",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "priority": "P0",
+      "reuse": {
+        "possible": false,
+        "note": "复平面图必须核实虚轴、主辐角范围、模与根的个数；正确旧图只在同约定条件复用",
+        "assets": []
+      },
+      "deterministic_drawing_required": true,
+      "recommended_format": "SVG",
+      "category": "mathematical_plot",
+      "production_status": "not_produced_pending_review",
+      "module_visual_coverage": {
+        "01": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "02": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "03": {
+          "task_ids": [
+            "B06-MATH34-34-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "04": {
+          "task_ids": [
+            "B06-MATH34-34-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "05": {
+          "task_ids": [
+            "B06-MATH34-34-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "06": {
+          "task_ids": [
+            "B06-MATH34-34-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "07": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "08": {
+          "task_ids": [
+            "B06-MATH34-34-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "09": {
+          "task_ids": [
+            "B06-MATH34-34-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "10": {
+          "task_ids": [
+            "B06-MATH34-34-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "11": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "12": {
+          "task_ids": [
+            "B06-MATH34-34-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        }
+      }
+    },
+    {
+      "id": "B06-MATH35-35-1",
+      "subject": "数学",
+      "chapter_id": 35,
+      "chapter_title": "空间向量",
+      "section_id": "35.1",
+      "section_title": "空间直角坐标系",
+      "title": "空间点投影与三类距离",
+      "teaching_purpose": [
+        "用三坐标及正交投影定位空间点",
+        "推导距离公式并以配方识别球面"
+      ],
+      "required_objects": [
+        "右手轴",
+        "P2,−3,4",
+        "xy投影",
+        "x轴投影",
+        "三距离线"
+      ],
+      "scientific_relations": [
+        "到xy4",
+        "到x轴5",
+        "到O√29",
+        "投影虚线垂直正确",
+        "透视非比例注明"
+      ],
+      "scientific_relations_en": "Use a right-handed orthogonal unit coordinate frame. From A(1,2,-1) to B(4,6,11), coordinate difference(3,4,12) has length13. For P(2,-3,4), distances to the xy plane,x-axis and origin are4,5,sqrt29. A sphere centred(1,-2,3),radius4 has squared distances summing16.",
+      "chinese_labels": [
+        "x",
+        "y",
+        "z",
+        "P",
+        "正交投影",
+        "真实距离"
+      ],
+      "formulas_units_variables": [
+        "AB=√[(x₂−x₁)²+(y₂−y₁)²+(z₂−z₁)²]，来自两次勾股。",
+        "到xy平面距|z|，到x轴距√(y²+z²)，不可互换。",
+        "球面(x−h)²+(y−k)²+(z−l)²=r²，r>0；r²=0或负需另论。"
+      ],
+      "composition": "2–3逻辑面板；主结构左/上，条件与验算右/下；不以颜色独占编码",
+      "dimensions": {
+        "width": 1280,
+        "height": 960,
+        "ratio": "4:3",
+        "min_label_px": 24,
+        "safe_margin_px": 48
+      },
+      "prompt_zh": "制作数学第35章《空间向量》35.1《空间直角坐标系》的教学图《空间点投影与三类距离》。教学目标：用三坐标及正交投影定位空间点；推导距离公式并以配方识别球面。必须对象：右手轴；P2,−3,4；xy投影；x轴投影；三距离线。不可画错的关系：到xy4；到x轴5；到O√29；投影虚线垂直正确；透视非比例注明。中文标签：x；y；z；P；正交投影；真实距离。公式、单位和条件：AB=√[(x₂−x₁)²+(y₂−y₁)²+(z₂−z₁)²]，来自两次勾股。；到xy平面距|z|，到x轴距√(y²+z²)，不可互换。；球面(x−h)²+(y−k)²+(z−l)²=r²，r>0；r²=0或负需另论。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。",
+      "prompt_en": "Create a standalone UEC senior-high teaching diagram for chapter35, authentic subsection35.1, with original Chinese title 空间直角坐标系. Topic-specific mandatory science: Use a right-handed orthogonal unit coordinate frame. From A(1,2,-1) to B(4,6,11), coordinate difference(3,4,12) has length13. For P(2,-3,4), distances to the xy plane,x-axis and origin are4,5,sqrt29. A sphere centred(1,-2,3),radius4 has squared distances summing16. Use a labelled right-handed three-dimensional coordinate system. Distinguish a point from a free vector, projection from true length, and direction vectors from plane normals. Perspective sketches must not imply false perpendicularity or intersection. Check dot, cross and scalar-triple products from exact coordinates; zero vectors do not define angles or unique normals. Required objects, preserving these Chinese labels: 右手轴；P2,−3,4；xy投影；x轴投影；三距离线. Additional literal Chinese annotation strings: x；y；z；P；正交投影；真实距离. Typeset and verify these reference formulas, units and stated conditions: AB=√[(x₂−x₁)²+(y₂−y₁)²+(z₂−z₁)²]，来自两次勾股。；到xy平面距|z|，到x轴距√(y²+z²)，不可互换。；球面(x−h)²+(y−k)²+(z−l)²=r²，r>0；r²=0或负需另论。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.",
+      "negative_prompt": "No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.",
+      "acceptance_criteria": [
+        "到xy4",
+        "到x轴5",
+        "到O√29",
+        "投影虚线垂直正确",
+        "透视非比例注明",
+        "逐项核对对象、中文、数值、单位与定义域/模型条件",
+        "图示与原例题条件一致，不机械套用其他题的数据",
+        "检查320/390px与桌面缩放及放大，无文字裁切",
+        "XML/路径通过不代表科学审核通过，发布前需单独复核"
+      ],
+      "sources": [
+        {
+          "source_id": "directory_math",
+          "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+          "page": 108,
+          "version": "教材内容表/目录对照；非考试纲要",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "theory_math_35.1",
+          "url": "https://openstax.org/books/calculus-volume-3/pages/2-2-vectors-in-three-dimensions",
+          "page_or_section": "2-2-vectors-in-three-dimensions",
+          "version": "原理参考；不是2027范围声明",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "priority": "P0",
+      "reuse": {
+        "possible": false,
+        "note": "空间图需核右手系、遮挡及投影；透视图仅示意角度长度，定量依坐标",
+        "assets": []
+      },
+      "deterministic_drawing_required": true,
+      "recommended_format": "SVG",
+      "category": "mathematical_plot",
+      "production_status": "not_produced_pending_review",
+      "module_visual_coverage": {
+        "01": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "02": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "03": {
+          "task_ids": [
+            "B06-MATH35-35-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "04": {
+          "task_ids": [
+            "B06-MATH35-35-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "05": {
+          "task_ids": [
+            "B06-MATH35-35-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "06": {
+          "task_ids": [
+            "B06-MATH35-35-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "07": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "08": {
+          "task_ids": [
+            "B06-MATH35-35-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "09": {
+          "task_ids": [
+            "B06-MATH35-35-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "10": {
+          "task_ids": [
+            "B06-MATH35-35-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "11": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "12": {
+          "task_ids": [
+            "B06-MATH35-35-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        }
+      }
+    },
+    {
+      "id": "B06-MATH35-35-2",
+      "subject": "数学",
+      "chapter_id": 35,
+      "chapter_title": "空间向量",
+      "section_id": "35.2",
+      "section_title": "空间向量几何",
+      "title": "空间向量分点与线性相关",
+      "teaching_purpose": [
+        "把空间向量与点坐标正确连接",
+        "用线性组合及分点关系证明几何结论"
+      ],
+      "required_objects": [
+        "A B P2比1",
+        "AB有向箭头",
+        "i j k",
+        "u v w平面"
+      ],
+      "scientific_relations": [
+        "P4,2,6",
+        "AP2PB同向",
+        "w=u+v故共面",
+        "零无单位方向"
+      ],
+      "scientific_relations_en": "A free vector differs from a point or position vector. AB=B-A; for A(1,-2,0),B(4,0,6), AB=(3,2,6),length7. Internal ratio2:1 from origin to(6,3,9) gives point(4,2,6). Three vectors with w=u+v are dependent and cannot form a three-dimensional basis.",
+      "chinese_labels": [
+        "点",
+        "位置向量",
+        "位移",
+        "2:1",
+        "基条件"
+      ],
+      "formulas_units_variables": [
+        "AB=b−a；u±v与λu逐分量，|λu|=|λ|·|u|。",
+        "非零u,v平行⇔存在实λ使u=λv，不用盲除零分量。",
+        "内分AP:PB=m:n：p=(na+mb)/(m+n)，m,n>0。"
+      ],
+      "composition": "2–3逻辑面板；主结构左/上，条件与验算右/下；不以颜色独占编码",
+      "dimensions": {
+        "width": 1280,
+        "height": 960,
+        "ratio": "4:3",
+        "min_label_px": 24,
+        "safe_margin_px": 48
+      },
+      "prompt_zh": "制作数学第35章《空间向量》35.2《空间向量几何》的教学图《空间向量分点与线性相关》。教学目标：把空间向量与点坐标正确连接；用线性组合及分点关系证明几何结论。必须对象：A B P2比1；AB有向箭头；i j k；u v w平面。不可画错的关系：P4,2,6；AP2PB同向；w=u+v故共面；零无单位方向。中文标签：点；位置向量；位移；2:1；基条件。公式、单位和条件：AB=b−a；u±v与λu逐分量，|λu|=|λ|·|u|。；非零u,v平行⇔存在实λ使u=λv，不用盲除零分量。；内分AP:PB=m:n：p=(na+mb)/(m+n)，m,n>0。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。",
+      "prompt_en": "Create a standalone UEC senior-high teaching diagram for chapter35, authentic subsection35.2, with original Chinese title 空间向量几何. Topic-specific mandatory science: A free vector differs from a point or position vector. AB=B-A; for A(1,-2,0),B(4,0,6), AB=(3,2,6),length7. Internal ratio2:1 from origin to(6,3,9) gives point(4,2,6). Three vectors with w=u+v are dependent and cannot form a three-dimensional basis. Use a labelled right-handed three-dimensional coordinate system. Distinguish a point from a free vector, projection from true length, and direction vectors from plane normals. Perspective sketches must not imply false perpendicularity or intersection. Check dot, cross and scalar-triple products from exact coordinates; zero vectors do not define angles or unique normals. Required objects, preserving these Chinese labels: A B P2比1；AB有向箭头；i j k；u v w平面. Additional literal Chinese annotation strings: 点；位置向量；位移；2:1；基条件. Typeset and verify these reference formulas, units and stated conditions: AB=b−a；u±v与λu逐分量，|λu|=|λ|·|u|。；非零u,v平行⇔存在实λ使u=λv，不用盲除零分量。；内分AP:PB=m:n：p=(na+mb)/(m+n)，m,n>0。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.",
+      "negative_prompt": "No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.",
+      "acceptance_criteria": [
+        "P4,2,6",
+        "AP2PB同向",
+        "w=u+v故共面",
+        "零无单位方向",
+        "逐项核对对象、中文、数值、单位与定义域/模型条件",
+        "图示与原例题条件一致，不机械套用其他题的数据",
+        "检查320/390px与桌面缩放及放大，无文字裁切",
+        "XML/路径通过不代表科学审核通过，发布前需单独复核"
+      ],
+      "sources": [
+        {
+          "source_id": "directory_math",
+          "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+          "page": 112,
+          "version": "教材内容表/目录对照；非考试纲要",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "theory_math_35.2",
+          "url": "https://openstax.org/books/calculus-volume-3/pages/2-2-vectors-in-three-dimensions",
+          "page_or_section": "2-2-vectors-in-three-dimensions",
+          "version": "原理参考；不是2027范围声明",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "priority": "P0",
+      "reuse": {
+        "possible": false,
+        "note": "空间图需核右手系、遮挡及投影；透视图仅示意角度长度，定量依坐标",
+        "assets": []
+      },
+      "deterministic_drawing_required": true,
+      "recommended_format": "SVG",
+      "category": "mathematical_plot",
+      "production_status": "not_produced_pending_review",
+      "module_visual_coverage": {
+        "01": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "02": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "03": {
+          "task_ids": [
+            "B06-MATH35-35-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "04": {
+          "task_ids": [
+            "B06-MATH35-35-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "05": {
+          "task_ids": [
+            "B06-MATH35-35-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "06": {
+          "task_ids": [
+            "B06-MATH35-35-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "07": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "08": {
+          "task_ids": [
+            "B06-MATH35-35-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "09": {
+          "task_ids": [
+            "B06-MATH35-35-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "10": {
+          "task_ids": [
+            "B06-MATH35-35-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "11": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "12": {
+          "task_ids": [
+            "B06-MATH35-35-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        }
+      }
+    },
+    {
+      "id": "B06-MATH35-35-3",
+      "subject": "数学",
+      "chapter_id": 35,
+      "chapter_title": "空间向量",
+      "section_id": "35.3",
+      "section_title": "向量的内积",
+      "title": "内积投影与恒力功",
+      "teaching_purpose": [
+        "由夹角定义与分量式连接正交投影",
+        "求角工作和分解并审零向量条件"
+      ],
+      "required_objects": [
+        "u3,4,0",
+        "a沿x",
+        "投影3,0,0",
+        "垂直余项",
+        "F与s夹角"
+      ],
+      "scientific_relations": [
+        "u平行余项点积0",
+        "标量与向量分栏",
+        "非单位a需模平方",
+        "功随cos可负"
+      ],
+      "scientific_relations_en": "Dot products are scalars. Nonzero vectors(1,2,2) and(2,-1,0) have dot product0 and a right angle; the zero vector has no angle. Distinguish signed scalar projection from vector projection, using division by the squared norm for a nonunit target vector. Force(2,1,-1)N dotted with displacement(3,0,4)m gives2J.",
+      "chinese_labels": [
+        "u·a",
+        "proj",
+        "comp",
+        "余项",
+        "W=F·s"
+      ],
+      "formulas_units_variables": [
+        "u·v=|u||v|cosθ=Σuᵢvᵢ（正交基）；求角需u,v非零。",
+        "comp_a u=(u·a)/|a|，proj_a u=(u·a/|a|²)a，a≠0。",
+        "恒力W=F·s；正交分解u−proj_a u与a点积0。"
+      ],
+      "composition": "2–3逻辑面板；主结构左/上，条件与验算右/下；不以颜色独占编码",
+      "dimensions": {
+        "width": 1280,
+        "height": 960,
+        "ratio": "4:3",
+        "min_label_px": 24,
+        "safe_margin_px": 48
+      },
+      "prompt_zh": "制作数学第35章《空间向量》35.3《向量的内积》的教学图《内积投影与恒力功》。教学目标：由夹角定义与分量式连接正交投影；求角工作和分解并审零向量条件。必须对象：u3,4,0；a沿x；投影3,0,0；垂直余项；F与s夹角。不可画错的关系：u平行余项点积0；标量与向量分栏；非单位a需模平方；功随cos可负。中文标签：u·a；proj；comp；余项；W=F·s。公式、单位和条件：u·v=|u||v|cosθ=Σuᵢvᵢ（正交基）；求角需u,v非零。；comp_a u=(u·a)/|a|，proj_a u=(u·a/|a|²)a，a≠0。；恒力W=F·s；正交分解u−proj_a u与a点积0。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。",
+      "prompt_en": "Create a standalone UEC senior-high teaching diagram for chapter35, authentic subsection35.3, with original Chinese title 向量的内积. Topic-specific mandatory science: Dot products are scalars. Nonzero vectors(1,2,2) and(2,-1,0) have dot product0 and a right angle; the zero vector has no angle. Distinguish signed scalar projection from vector projection, using division by the squared norm for a nonunit target vector. Force(2,1,-1)N dotted with displacement(3,0,4)m gives2J. Use a labelled right-handed three-dimensional coordinate system. Distinguish a point from a free vector, projection from true length, and direction vectors from plane normals. Perspective sketches must not imply false perpendicularity or intersection. Check dot, cross and scalar-triple products from exact coordinates; zero vectors do not define angles or unique normals. Required objects, preserving these Chinese labels: u3,4,0；a沿x；投影3,0,0；垂直余项；F与s夹角. Additional literal Chinese annotation strings: u·a；proj；comp；余项；W=F·s. Typeset and verify these reference formulas, units and stated conditions: u·v=|u||v|cosθ=Σuᵢvᵢ（正交基）；求角需u,v非零。；comp_a u=(u·a)/|a|，proj_a u=(u·a/|a|²)a，a≠0。；恒力W=F·s；正交分解u−proj_a u与a点积0。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.",
+      "negative_prompt": "No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.",
+      "acceptance_criteria": [
+        "u平行余项点积0",
+        "标量与向量分栏",
+        "非单位a需模平方",
+        "功随cos可负",
+        "逐项核对对象、中文、数值、单位与定义域/模型条件",
+        "图示与原例题条件一致，不机械套用其他题的数据",
+        "检查320/390px与桌面缩放及放大，无文字裁切",
+        "XML/路径通过不代表科学审核通过，发布前需单独复核"
+      ],
+      "sources": [
+        {
+          "source_id": "directory_math",
+          "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+          "page": 118,
+          "version": "教材内容表/目录对照；非考试纲要",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "theory_math_35.3",
+          "url": "https://openstax.org/books/calculus-volume-3/pages/2-3-the-dot-product",
+          "page_or_section": "2-3-the-dot-product",
+          "version": "原理参考；不是2027范围声明",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "priority": "P0",
+      "reuse": {
+        "possible": false,
+        "note": "空间图需核右手系、遮挡及投影；透视图仅示意角度长度，定量依坐标",
+        "assets": []
+      },
+      "deterministic_drawing_required": true,
+      "recommended_format": "SVG",
+      "category": "mathematical_plot",
+      "production_status": "not_produced_pending_review",
+      "module_visual_coverage": {
+        "01": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "02": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "03": {
+          "task_ids": [
+            "B06-MATH35-35-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "04": {
+          "task_ids": [
+            "B06-MATH35-35-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "05": {
+          "task_ids": [
+            "B06-MATH35-35-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "06": {
+          "task_ids": [
+            "B06-MATH35-35-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "07": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "08": {
+          "task_ids": [
+            "B06-MATH35-35-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "09": {
+          "task_ids": [
+            "B06-MATH35-35-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "10": {
+          "task_ids": [
+            "B06-MATH35-35-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "11": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "12": {
+          "task_ids": [
+            "B06-MATH35-35-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        }
+      }
+    },
+    {
+      "id": "B06-MATH35-35-4",
+      "subject": "数学",
+      "chapter_id": 35,
+      "chapter_title": "空间向量",
+      "section_id": "35.4",
+      "section_title": "向量的外积",
+      "title": "外积方向面积和体积",
+      "teaching_purpose": [
+        "由右手方向和行列式计算外积",
+        "用面积体积与法向量解释空间几何并审退化"
+      ],
+      "required_objects": [
+        "u v平面",
+        "法向6,−3,1",
+        "右手标记",
+        "三角半面积",
+        "三边体积"
+      ],
+      "scientific_relations": [
+        "法向点u v均0",
+        "交换法向反",
+        "三角面积√46/2",
+        "有向负值取绝对作体积"
+      ],
+      "scientific_relations_en": "In a right-handed frame,(1,2,0)cross(0,1,3)=(6,-3,1),orthogonal to both,with parallelogram area sqrt46 and triangle area sqrt46/2. Swapping order reverses the normal. Scalar-triple product sign encodes orientation; physical volume uses absolute value and tetrahedron volume divides by6.",
+      "chinese_labels": [
+        "u×v",
+        "右手",
+        "面积",
+        "三重积",
+        "退化"
+      ],
+      "formulas_units_variables": [
+        "u×v=(u₂v₃−u₃v₂,u₃v₁−u₁v₃,u₁v₂−u₂v₁)。",
+        "|u×v|=|u||v|sinθ；三角面积½|AB×AC|，非共线才给非零法向。",
+        "平行六面体V=|u·(v×w)|，四面体除6；交换两因子反向而体积大小不变。"
+      ],
+      "composition": "2–3逻辑面板；主结构左/上，条件与验算右/下；不以颜色独占编码",
+      "dimensions": {
+        "width": 1280,
+        "height": 960,
+        "ratio": "4:3",
+        "min_label_px": 24,
+        "safe_margin_px": 48
+      },
+      "prompt_zh": "制作数学第35章《空间向量》35.4《向量的外积》的教学图《外积方向面积和体积》。教学目标：由右手方向和行列式计算外积；用面积体积与法向量解释空间几何并审退化。必须对象：u v平面；法向6,−3,1；右手标记；三角半面积；三边体积。不可画错的关系：法向点u v均0；交换法向反；三角面积√46/2；有向负值取绝对作体积。中文标签：u×v；右手；面积；三重积；退化。公式、单位和条件：u×v=(u₂v₃−u₃v₂,u₃v₁−u₁v₃,u₁v₂−u₂v₁)。；|u×v|=|u||v|sinθ；三角面积½|AB×AC|，非共线才给非零法向。；平行六面体V=|u·(v×w)|，四面体除6；交换两因子反向而体积大小不变。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。",
+      "prompt_en": "Create a standalone UEC senior-high teaching diagram for chapter35, authentic subsection35.4, with original Chinese title 向量的外积. Topic-specific mandatory science: In a right-handed frame,(1,2,0)cross(0,1,3)=(6,-3,1),orthogonal to both,with parallelogram area sqrt46 and triangle area sqrt46/2. Swapping order reverses the normal. Scalar-triple product sign encodes orientation; physical volume uses absolute value and tetrahedron volume divides by6. Use a labelled right-handed three-dimensional coordinate system. Distinguish a point from a free vector, projection from true length, and direction vectors from plane normals. Perspective sketches must not imply false perpendicularity or intersection. Check dot, cross and scalar-triple products from exact coordinates; zero vectors do not define angles or unique normals. Required objects, preserving these Chinese labels: u v平面；法向6,−3,1；右手标记；三角半面积；三边体积. Additional literal Chinese annotation strings: u×v；右手；面积；三重积；退化. Typeset and verify these reference formulas, units and stated conditions: u×v=(u₂v₃−u₃v₂,u₃v₁−u₁v₃,u₁v₂−u₂v₁)。；|u×v|=|u||v|sinθ；三角面积½|AB×AC|，非共线才给非零法向。；平行六面体V=|u·(v×w)|，四面体除6；交换两因子反向而体积大小不变。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.",
+      "negative_prompt": "No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.",
+      "acceptance_criteria": [
+        "法向点u v均0",
+        "交换法向反",
+        "三角面积√46/2",
+        "有向负值取绝对作体积",
+        "逐项核对对象、中文、数值、单位与定义域/模型条件",
+        "图示与原例题条件一致，不机械套用其他题的数据",
+        "检查320/390px与桌面缩放及放大，无文字裁切",
+        "XML/路径通过不代表科学审核通过，发布前需单独复核"
+      ],
+      "sources": [
+        {
+          "source_id": "directory_math",
+          "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+          "page": 127,
+          "version": "教材内容表/目录对照；非考试纲要",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "theory_math_35.4",
+          "url": "https://openstax.org/books/calculus-volume-3/pages/2-4-the-cross-product",
+          "page_or_section": "2-4-the-cross-product",
+          "version": "原理参考；不是2027范围声明",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "priority": "P0",
+      "reuse": {
+        "possible": false,
+        "note": "空间图需核右手系、遮挡及投影；透视图仅示意角度长度，定量依坐标",
+        "assets": []
+      },
+      "deterministic_drawing_required": true,
+      "recommended_format": "SVG",
+      "category": "mathematical_plot",
+      "production_status": "not_produced_pending_review",
+      "module_visual_coverage": {
+        "01": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "02": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "03": {
+          "task_ids": [
+            "B06-MATH35-35-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "04": {
+          "task_ids": [
+            "B06-MATH35-35-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "05": {
+          "task_ids": [
+            "B06-MATH35-35-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "06": {
+          "task_ids": [
+            "B06-MATH35-35-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "07": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "08": {
+          "task_ids": [
+            "B06-MATH35-35-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "09": {
+          "task_ids": [
+            "B06-MATH35-35-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "10": {
+          "task_ids": [
+            "B06-MATH35-35-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "11": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "12": {
+          "task_ids": [
+            "B06-MATH35-35-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        }
+      }
+    },
+    {
+      "id": "B06-MATH35-35-5",
+      "subject": "数学",
+      "chapter_id": 35,
+      "chapter_title": "空间向量",
+      "section_id": "35.5",
+      "section_title": "空间中的直线与平面方程式",
+      "title": "线面位置分类与距离",
+      "teaching_purpose": [
+        "从点方向和点法向建立空间方程",
+        "联立判断相交平行异面并计算角距"
+      ],
+      "required_objects": [
+        "点方向直线",
+        "点法向平面",
+        "唯一交点3,0,2",
+        "平行包含分支",
+        "原点到面垂距"
+      ],
+      "scientific_relations": [
+        "n点d2给唯一交",
+        "点积0再验起点",
+        "面法向非面内方向",
+        "距6/3=2",
+        "异面两参数z矛盾"
+      ],
+      "scientific_relations_en": "Lines need a nonzero direction and planes a nonzero normal. The line(1,-1,3)+t(2,1,-1) intersects x+y+z=5 at(3,0,2). Dot(normal,direction)=0 requires checking a point to distinguish containment from disjoint parallelism. Nonparallel space lines can be skew. Origin-to-plane x+2y+2z=6 distance is2, including the norm denominator.",
+      "chinese_labels": [
+        "d",
+        "n",
+        "t",
+        "交点",
+        "垂距",
+        "锐夹角"
+      ],
+      "formulas_units_variables": [
+        "直线r=a+td，d≠0；平面n·(r−p)=0，n≠0。",
+        "线面：n·d≠0唯一交；=0时再验A在面否。点面距|Ax₀+By₀+Cz₀+D|/√(A²+B²+C²)。",
+        "锐线面角sinα=|d·n|/(|d||n|)，锐面面角cosβ=|n₁·n₂|/(|n₁||n₂|)。"
+      ],
+      "composition": "2–3逻辑面板；主结构左/上，条件与验算右/下；不以颜色独占编码",
+      "dimensions": {
+        "width": 1280,
+        "height": 960,
+        "ratio": "4:3",
+        "min_label_px": 24,
+        "safe_margin_px": 48
+      },
+      "prompt_zh": "制作数学第35章《空间向量》35.5《空间中的直线与平面方程式》的教学图《线面位置分类与距离》。教学目标：从点方向和点法向建立空间方程；联立判断相交平行异面并计算角距。必须对象：点方向直线；点法向平面；唯一交点3,0,2；平行包含分支；原点到面垂距。不可画错的关系：n点d2给唯一交；点积0再验起点；面法向非面内方向；距6/3=2；异面两参数z矛盾。中文标签：d；n；t；交点；垂距；锐夹角。公式、单位和条件：直线r=a+td，d≠0；平面n·(r−p)=0，n≠0。；线面：n·d≠0唯一交；=0时再验A在面否。点面距|Ax₀+By₀+Cz₀+D|/√(A²+B²+C²)。；锐线面角sinα=|d·n|/(|d||n|)，锐面面角cosβ=|n₁·n₂|/(|n₁||n₂|)。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。",
+      "prompt_en": "Create a standalone UEC senior-high teaching diagram for chapter35, authentic subsection35.5, with original Chinese title 空间中的直线与平面方程式. Topic-specific mandatory science: Lines need a nonzero direction and planes a nonzero normal. The line(1,-1,3)+t(2,1,-1) intersects x+y+z=5 at(3,0,2). Dot(normal,direction)=0 requires checking a point to distinguish containment from disjoint parallelism. Nonparallel space lines can be skew. Origin-to-plane x+2y+2z=6 distance is2, including the norm denominator. Use a labelled right-handed three-dimensional coordinate system. Distinguish a point from a free vector, projection from true length, and direction vectors from plane normals. Perspective sketches must not imply false perpendicularity or intersection. Check dot, cross and scalar-triple products from exact coordinates; zero vectors do not define angles or unique normals. Required objects, preserving these Chinese labels: 点方向直线；点法向平面；唯一交点3,0,2；平行包含分支；原点到面垂距. Additional literal Chinese annotation strings: d；n；t；交点；垂距；锐夹角. Typeset and verify these reference formulas, units and stated conditions: 直线r=a+td，d≠0；平面n·(r−p)=0，n≠0。；线面：n·d≠0唯一交；=0时再验A在面否。点面距|Ax₀+By₀+Cz₀+D|/√(A²+B²+C²)。；锐线面角sinα=|d·n|/(|d||n|)，锐面面角cosβ=|n₁·n₂|/(|n₁||n₂|)。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.",
+      "negative_prompt": "No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.",
+      "acceptance_criteria": [
+        "n点d2给唯一交",
+        "点积0再验起点",
+        "面法向非面内方向",
+        "距6/3=2",
+        "异面两参数z矛盾",
+        "逐项核对对象、中文、数值、单位与定义域/模型条件",
+        "图示与原例题条件一致，不机械套用其他题的数据",
+        "检查320/390px与桌面缩放及放大，无文字裁切",
+        "XML/路径通过不代表科学审核通过，发布前需单独复核"
+      ],
+      "sources": [
+        {
+          "source_id": "directory_math",
+          "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+          "page": 132,
+          "version": "教材内容表/目录对照；非考试纲要",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "theory_math_35.5",
+          "url": "https://openstax.org/books/calculus-volume-3/pages/2-5-equations-of-lines-and-planes-in-space",
+          "page_or_section": "2-5-equations-of-lines-and-planes-in-space",
+          "version": "原理参考；不是2027范围声明",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "priority": "P0",
+      "reuse": {
+        "possible": false,
+        "note": "空间图需核右手系、遮挡及投影；透视图仅示意角度长度，定量依坐标",
+        "assets": []
+      },
+      "deterministic_drawing_required": true,
+      "recommended_format": "SVG",
+      "category": "mathematical_plot",
+      "production_status": "not_produced_pending_review",
+      "module_visual_coverage": {
+        "01": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "02": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "03": {
+          "task_ids": [
+            "B06-MATH35-35-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "04": {
+          "task_ids": [
+            "B06-MATH35-35-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "05": {
+          "task_ids": [
+            "B06-MATH35-35-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "06": {
+          "task_ids": [
+            "B06-MATH35-35-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "07": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "08": {
+          "task_ids": [
+            "B06-MATH35-35-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "09": {
+          "task_ids": [
+            "B06-MATH35-35-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "10": {
+          "task_ids": [
+            "B06-MATH35-35-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "11": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "12": {
+          "task_ids": [
+            "B06-MATH35-35-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        }
+      }
+    },
+    {
       "id": "B06-PHYS09-9-1",
       "subject": "物理",
       "chapter_id": 9,
@@ -28603,6 +30919,945 @@
         "12": {
           "task_ids": [
             "B06-PHYS17-17-7"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        }
+      }
+    },
+    {
+      "id": "B06-PHYS18-18-1",
+      "subject": "物理",
+      "chapter_id": 18,
+      "chapter_title": "光的反射与折射",
+      "section_id": "18.1",
+      "section_title": "光的反射 平面镜成像",
+      "title": "平面镜虚像及有号位置",
+      "teaching_purpose": [
+        "用反射定律作平面镜虚像并区分实光路",
+        "由几何处理转镜视野和像距变化"
+      ],
+      "required_objects": [
+        "镜面法线",
+        "物x−2像x2",
+        "真实反射线",
+        "镜后虚线",
+        "眼与半长镜"
+      ],
+      "scientific_relations": [
+        "镜后无实箭头会聚",
+        "等角对法线",
+        "像物距各2物像4",
+        "半长镜安装条件"
+      ],
+      "scientific_relations_en": "Measure reflection angles from the normal. A plane mirror at x=0 images an object at x=-2m to x=2m; the object-image distance is4m. Real reflected rays are solid and directed, while mirror-backward virtual extensions are dashed and do not carry real rays behind the mirror.",
+      "chinese_labels": [
+        "入射",
+        "反射",
+        "虚像",
+        "延长线",
+        "法线"
+      ],
+      "formulas_units_variables": [
+        "θ反=θ入，均对法线；实反射线与虚反延长线区分。",
+        "平面镜像关于镜面对称：x像=2x镜−x物（法向一维坐标）。",
+        "固定入射、对应平面转镜δ→反射方向转2δ；全身半长镜需合适高度等理想条件。"
+      ],
+      "composition": "2–3逻辑面板；主结构左/上，条件与验算右/下；不以颜色独占编码",
+      "dimensions": {
+        "width": 1280,
+        "height": 960,
+        "ratio": "4:3",
+        "min_label_px": 24,
+        "safe_margin_px": 48
+      },
+      "prompt_zh": "制作物理第18章《光的反射与折射》18.1《光的反射 平面镜成像》的教学图《平面镜虚像及有号位置》。教学目标：用反射定律作平面镜虚像并区分实光路；由几何处理转镜视野和像距变化。必须对象：镜面法线；物x−2像x2；真实反射线；镜后虚线；眼与半长镜。不可画错的关系：镜后无实箭头会聚；等角对法线；像物距各2物像4；半长镜安装条件。中文标签：入射；反射；虚像；延长线；法线。公式、单位和条件：θ反=θ入，均对法线；实反射线与虚反延长线区分。；平面镜像关于镜面对称：x像=2x镜−x物（法向一维坐标）。；固定入射、对应平面转镜δ→反射方向转2δ；全身半长镜需合适高度等理想条件。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。",
+      "prompt_en": "Create a standalone UEC senior-high teaching diagram for chapter18, authentic subsection18.1, with original Chinese title 光的反射 平面镜成像. Topic-specific mandatory science: Measure reflection angles from the normal. A plane mirror at x=0 images an object at x=-2m to x=2m; the object-image distance is4m. Real reflected rays are solid and directed, while mirror-backward virtual extensions are dashed and do not carry real rays behind the mirror. Use deterministic ray geometry with arrows on real light paths and dashed backward extensions only for virtual constructions. Measure incidence and refraction angles from the normal. Label media, refractive indices and the mirror sign convention. Spherical-mirror and apparent-depth formulas require their stated paraxial or near-normal conditions; never draw a propagating refracted ray in the forbidden total-internal-reflection case. Required objects, preserving these Chinese labels: 镜面法线；物x−2像x2；真实反射线；镜后虚线；眼与半长镜. Additional literal Chinese annotation strings: 入射；反射；虚像；延长线；法线. Typeset and verify these reference formulas, units and stated conditions: θ反=θ入，均对法线；实反射线与虚反延长线区分。；平面镜像关于镜面对称：x像=2x镜−x物（法向一维坐标）。；固定入射、对应平面转镜δ→反射方向转2δ；全身半长镜需合适高度等理想条件。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.",
+      "negative_prompt": "No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.",
+      "acceptance_criteria": [
+        "镜后无实箭头会聚",
+        "等角对法线",
+        "像物距各2物像4",
+        "半长镜安装条件",
+        "逐项核对对象、中文、数值、单位与定义域/模型条件",
+        "图示与原例题条件一致，不机械套用其他题的数据",
+        "检查320/390px与桌面缩放及放大，无文字裁切",
+        "XML/路径通过不代表科学审核通过，发布前需单独复核"
+      ],
+      "sources": [
+        {
+          "source_id": "directory_phys",
+          "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+          "page": 240,
+          "version": "教材内容表/目录对照；非考试纲要",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "theory_phys_18.1",
+          "url": "https://openstax.org/books/college-physics-2e/pages/25-2-the-law-of-reflection",
+          "page_or_section": "25-2-the-law-of-reflection",
+          "version": "原理参考；不是2027范围声明",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "priority": "P0",
+      "reuse": {
+        "possible": false,
+        "note": "光路旧图必须核法线角、实虚线、球面镜符号及折射介质；同外形不代表可直接复用",
+        "assets": []
+      },
+      "deterministic_drawing_required": true,
+      "recommended_format": "SVG",
+      "category": "precise_scientific_svg",
+      "production_status": "not_produced_pending_review",
+      "module_visual_coverage": {
+        "01": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "02": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "03": {
+          "task_ids": [
+            "B06-PHYS18-18-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "04": {
+          "task_ids": [
+            "B06-PHYS18-18-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "05": {
+          "task_ids": [
+            "B06-PHYS18-18-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "06": {
+          "task_ids": [
+            "B06-PHYS18-18-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "07": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "08": {
+          "task_ids": [
+            "B06-PHYS18-18-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "09": {
+          "task_ids": [
+            "B06-PHYS18-18-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "10": {
+          "task_ids": [
+            "B06-PHYS18-18-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "11": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "12": {
+          "task_ids": [
+            "B06-PHYS18-18-1"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        }
+      }
+    },
+    {
+      "id": "B06-PHYS18-18-2",
+      "subject": "物理",
+      "chapter_id": 18,
+      "chapter_title": "光的反射与折射",
+      "section_id": "18.2",
+      "section_title": "球面镜成像",
+      "title": "凹凸镜三种成像条件",
+      "teaching_purpose": [
+        "用近轴光路与符号约定求球面镜成像",
+        "区分凹凸实虚并处理焦点及放大率"
+      ],
+      "required_objects": [
+        "凹u30f10v15",
+        "凹u5虚v−10",
+        "凸f−10u20",
+        "轴焦点中心",
+        "实虚线"
+      ],
+      "scientific_relations": [
+        "各公式同符号约定",
+        "凹焦内虚正2",
+        "凸虚正1/3",
+        "反射不画穿镜透射"
+      ],
+      "scientific_relations_en": "Use one explicit paraxial mirror convention: real object distance positive; concave f positive,convex f negative; real image in front v positive and virtual behind v negative. Concave f10cm,u30cm gives v15cm,m=-0.5; u5cm gives v=-10cm,m2. Convex f=-10cm,u20cm gives v=-20/3cm,m1/3. Mirrors reflect rather than transmitting lens rays.",
+      "chinese_labels": [
+        "u",
+        "v",
+        "f",
+        "m",
+        "实像",
+        "虚像",
+        "近轴"
+      ],
+      "formulas_units_variables": [
+        "近轴实物约定：1/f=1/u+1/v，m=−v/u；凹f>0、凸f<0。",
+        "v>0镜前实像，v<0镜后虚像；m符号表正倒，|m|表放缩。",
+        "球面镜近轴|f|≈R/2；u=f无有限像距，不能当v0。"
+      ],
+      "composition": "2–3逻辑面板；主结构左/上，条件与验算右/下；不以颜色独占编码",
+      "dimensions": {
+        "width": 1280,
+        "height": 960,
+        "ratio": "4:3",
+        "min_label_px": 24,
+        "safe_margin_px": 48
+      },
+      "prompt_zh": "制作物理第18章《光的反射与折射》18.2《球面镜成像》的教学图《凹凸镜三种成像条件》。教学目标：用近轴光路与符号约定求球面镜成像；区分凹凸实虚并处理焦点及放大率。必须对象：凹u30f10v15；凹u5虚v−10；凸f−10u20；轴焦点中心；实虚线。不可画错的关系：各公式同符号约定；凹焦内虚正2；凸虚正1/3；反射不画穿镜透射。中文标签：u；v；f；m；实像；虚像；近轴。公式、单位和条件：近轴实物约定：1/f=1/u+1/v，m=−v/u；凹f>0、凸f<0。；v>0镜前实像，v<0镜后虚像；m符号表正倒，|m|表放缩。；球面镜近轴|f|≈R/2；u=f无有限像距，不能当v0。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。",
+      "prompt_en": "Create a standalone UEC senior-high teaching diagram for chapter18, authentic subsection18.2, with original Chinese title 球面镜成像. Topic-specific mandatory science: Use one explicit paraxial mirror convention: real object distance positive; concave f positive,convex f negative; real image in front v positive and virtual behind v negative. Concave f10cm,u30cm gives v15cm,m=-0.5; u5cm gives v=-10cm,m2. Convex f=-10cm,u20cm gives v=-20/3cm,m1/3. Mirrors reflect rather than transmitting lens rays. Use deterministic ray geometry with arrows on real light paths and dashed backward extensions only for virtual constructions. Measure incidence and refraction angles from the normal. Label media, refractive indices and the mirror sign convention. Spherical-mirror and apparent-depth formulas require their stated paraxial or near-normal conditions; never draw a propagating refracted ray in the forbidden total-internal-reflection case. Required objects, preserving these Chinese labels: 凹u30f10v15；凹u5虚v−10；凸f−10u20；轴焦点中心；实虚线. Additional literal Chinese annotation strings: u；v；f；m；实像；虚像；近轴. Typeset and verify these reference formulas, units and stated conditions: 近轴实物约定：1/f=1/u+1/v，m=−v/u；凹f>0、凸f<0。；v>0镜前实像，v<0镜后虚像；m符号表正倒，|m|表放缩。；球面镜近轴|f|≈R/2；u=f无有限像距，不能当v0。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.",
+      "negative_prompt": "No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.",
+      "acceptance_criteria": [
+        "各公式同符号约定",
+        "凹焦内虚正2",
+        "凸虚正1/3",
+        "反射不画穿镜透射",
+        "逐项核对对象、中文、数值、单位与定义域/模型条件",
+        "图示与原例题条件一致，不机械套用其他题的数据",
+        "检查320/390px与桌面缩放及放大，无文字裁切",
+        "XML/路径通过不代表科学审核通过，发布前需单独复核"
+      ],
+      "sources": [
+        {
+          "source_id": "directory_phys",
+          "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+          "page": 246,
+          "version": "教材内容表/目录对照；非考试纲要",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "theory_phys_18.2",
+          "url": "https://openstax.org/books/college-physics-2e/pages/25-7-image-formation-by-mirrors",
+          "page_or_section": "25-7-image-formation-by-mirrors",
+          "version": "原理参考；不是2027范围声明",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "priority": "P0",
+      "reuse": {
+        "possible": false,
+        "note": "光路旧图必须核法线角、实虚线、球面镜符号及折射介质；同外形不代表可直接复用",
+        "assets": []
+      },
+      "deterministic_drawing_required": true,
+      "recommended_format": "SVG",
+      "category": "precise_scientific_svg",
+      "production_status": "not_produced_pending_review",
+      "module_visual_coverage": {
+        "01": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "02": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "03": {
+          "task_ids": [
+            "B06-PHYS18-18-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "04": {
+          "task_ids": [
+            "B06-PHYS18-18-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "05": {
+          "task_ids": [
+            "B06-PHYS18-18-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "06": {
+          "task_ids": [
+            "B06-PHYS18-18-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "07": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "08": {
+          "task_ids": [
+            "B06-PHYS18-18-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "09": {
+          "task_ids": [
+            "B06-PHYS18-18-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "10": {
+          "task_ids": [
+            "B06-PHYS18-18-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "11": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "12": {
+          "task_ids": [
+            "B06-PHYS18-18-2"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        }
+      }
+    },
+    {
+      "id": "B06-PHYS18-18-3",
+      "subject": "物理",
+      "chapter_id": 18,
+      "chapter_title": "光的反射与折射",
+      "section_id": "18.3",
+      "section_title": "光的折射 折射率",
+      "title": "折射的角速频率波长",
+      "teaching_purpose": [
+        "用相速度和边界频率解释折射关系",
+        "核法线角、波长及折射解存在条件"
+      ],
+      "required_objects": [
+        "空气玻璃界面",
+        "法线",
+        "i30r19.47",
+        "相邻波前",
+        "f不变标注"
+      ],
+      "scientific_relations": [
+        "n1sin i=n2sinr",
+        "高n向法线",
+        "600nm变400nm",
+        "f5e14不变",
+        "正入射仍可变速"
+      ],
+      "scientific_relations_en": "At a stationary transparent interface, n1 sin i=n2 sin r with angles from the normal and frequency unchanged. Air to n1.5 glass at30degrees gives r19.47degrees; vacuum600nm becomes400nm in that medium. An out-of-range refracted sine signals no ordinary propagating solution, not a value to clamp.",
+      "chinese_labels": [
+        "n",
+        "i",
+        "r",
+        "v相",
+        "λ",
+        "f"
+      ],
+      "formulas_units_variables": [
+        "n=c/v相；静止界面f通常不变，λ介=λ₀/n（相应模型）。",
+        "n₁sin i=n₂sin r，角对法线，n₂/n₁=sin i/sin r。",
+        "计算sin r须在[−1,1]，超界不能强设90°；临界与全反射另审。"
+      ],
+      "composition": "2–3逻辑面板；主结构左/上，条件与验算右/下；不以颜色独占编码",
+      "dimensions": {
+        "width": 1280,
+        "height": 960,
+        "ratio": "4:3",
+        "min_label_px": 24,
+        "safe_margin_px": 48
+      },
+      "prompt_zh": "制作物理第18章《光的反射与折射》18.3《光的折射 折射率》的教学图《折射的角速频率波长》。教学目标：用相速度和边界频率解释折射关系；核法线角、波长及折射解存在条件。必须对象：空气玻璃界面；法线；i30r19.47；相邻波前；f不变标注。不可画错的关系：n1sin i=n2sinr；高n向法线；600nm变400nm；f5e14不变；正入射仍可变速。中文标签：n；i；r；v相；λ；f。公式、单位和条件：n=c/v相；静止界面f通常不变，λ介=λ₀/n（相应模型）。；n₁sin i=n₂sin r，角对法线，n₂/n₁=sin i/sin r。；计算sin r须在[−1,1]，超界不能强设90°；临界与全反射另审。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。",
+      "prompt_en": "Create a standalone UEC senior-high teaching diagram for chapter18, authentic subsection18.3, with original Chinese title 光的折射 折射率. Topic-specific mandatory science: At a stationary transparent interface, n1 sin i=n2 sin r with angles from the normal and frequency unchanged. Air to n1.5 glass at30degrees gives r19.47degrees; vacuum600nm becomes400nm in that medium. An out-of-range refracted sine signals no ordinary propagating solution, not a value to clamp. Use deterministic ray geometry with arrows on real light paths and dashed backward extensions only for virtual constructions. Measure incidence and refraction angles from the normal. Label media, refractive indices and the mirror sign convention. Spherical-mirror and apparent-depth formulas require their stated paraxial or near-normal conditions; never draw a propagating refracted ray in the forbidden total-internal-reflection case. Required objects, preserving these Chinese labels: 空气玻璃界面；法线；i30r19.47；相邻波前；f不变标注. Additional literal Chinese annotation strings: n；i；r；v相；λ；f. Typeset and verify these reference formulas, units and stated conditions: n=c/v相；静止界面f通常不变，λ介=λ₀/n（相应模型）。；n₁sin i=n₂sin r，角对法线，n₂/n₁=sin i/sin r。；计算sin r须在[−1,1]，超界不能强设90°；临界与全反射另审。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.",
+      "negative_prompt": "No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.",
+      "acceptance_criteria": [
+        "n1sin i=n2sinr",
+        "高n向法线",
+        "600nm变400nm",
+        "f5e14不变",
+        "正入射仍可变速",
+        "逐项核对对象、中文、数值、单位与定义域/模型条件",
+        "图示与原例题条件一致，不机械套用其他题的数据",
+        "检查320/390px与桌面缩放及放大，无文字裁切",
+        "XML/路径通过不代表科学审核通过，发布前需单独复核"
+      ],
+      "sources": [
+        {
+          "source_id": "directory_phys",
+          "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+          "page": 253,
+          "version": "教材内容表/目录对照；非考试纲要",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "theory_phys_18.3",
+          "url": "https://openstax.org/books/college-physics-2e/pages/25-3-the-law-of-refraction",
+          "page_or_section": "25-3-the-law-of-refraction",
+          "version": "原理参考；不是2027范围声明",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "priority": "P0",
+      "reuse": {
+        "possible": false,
+        "note": "光路旧图必须核法线角、实虚线、球面镜符号及折射介质；同外形不代表可直接复用",
+        "assets": []
+      },
+      "deterministic_drawing_required": true,
+      "recommended_format": "SVG",
+      "category": "precise_scientific_svg",
+      "production_status": "not_produced_pending_review",
+      "module_visual_coverage": {
+        "01": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "02": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "03": {
+          "task_ids": [
+            "B06-PHYS18-18-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "04": {
+          "task_ids": [
+            "B06-PHYS18-18-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "05": {
+          "task_ids": [
+            "B06-PHYS18-18-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "06": {
+          "task_ids": [
+            "B06-PHYS18-18-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "07": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "08": {
+          "task_ids": [
+            "B06-PHYS18-18-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "09": {
+          "task_ids": [
+            "B06-PHYS18-18-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "10": {
+          "task_ids": [
+            "B06-PHYS18-18-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "11": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "12": {
+          "task_ids": [
+            "B06-PHYS18-18-3"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        }
+      }
+    },
+    {
+      "id": "B06-PHYS18-18-4",
+      "subject": "物理",
+      "chapter_id": 18,
+      "chapter_title": "光的反射与折射",
+      "section_id": "18.4",
+      "section_title": "对几个折射现象的分析",
+      "title": "视深和板侧移的两种几何",
+      "teaching_purpose": [
+        "从实际折射线解释视深与平行板侧移",
+        "辨析大气梯度折射和几何近似条件"
+      ],
+      "required_objects": [
+        "水下物点",
+        "出射折射线",
+        "虚像反延",
+        "平行板两面",
+        "侧移垂距"
+      ],
+      "scientific_relations": [
+        "视深近轴较浅",
+        "d与d_app不当两真物",
+        "板厚沿法线",
+        "δ垂直入出射线",
+        "出射平行需同外介质"
+      ],
+      "scientific_relations_en": "Near-normal apparent depth12cm through n1.5 material viewed from air is8cm; backward extensions locate a virtual image without moving the object. For a parallel slab of normal thickness5cm,i60degrees,r30degrees and equal outside media, lateral shift is5/sqrt3 cm. Distinguish normal thickness from internal slant path and state near-axis limitations.",
+      "chinese_labels": [
+        "实线",
+        "虚线",
+        "d",
+        "d_app",
+        "t",
+        "i",
+        "r",
+        "δ"
+      ],
+      "formulas_units_variables": [
+        "近法线视深d_app≈d·n观察/n物；推导用x=d tanr=d_app tani及小角。",
+        "平行板同外介质：出射平行，侧移δ=t sin(i−r)/cosr；板内斜程t/cosr。",
+        "梯度折射率可弯曲光路；具体大气现象依分布，不用虚构水面解释。"
+      ],
+      "composition": "2–3逻辑面板；主结构左/上，条件与验算右/下；不以颜色独占编码",
+      "dimensions": {
+        "width": 1280,
+        "height": 960,
+        "ratio": "4:3",
+        "min_label_px": 24,
+        "safe_margin_px": 48
+      },
+      "prompt_zh": "制作物理第18章《光的反射与折射》18.4《对几个折射现象的分析》的教学图《视深和板侧移的两种几何》。教学目标：从实际折射线解释视深与平行板侧移；辨析大气梯度折射和几何近似条件。必须对象：水下物点；出射折射线；虚像反延；平行板两面；侧移垂距。不可画错的关系：视深近轴较浅；d与d_app不当两真物；板厚沿法线；δ垂直入出射线；出射平行需同外介质。中文标签：实线；虚线；d；d_app；t；i；r；δ。公式、单位和条件：近法线视深d_app≈d·n观察/n物；推导用x=d tanr=d_app tani及小角。；平行板同外介质：出射平行，侧移δ=t sin(i−r)/cosr；板内斜程t/cosr。；梯度折射率可弯曲光路；具体大气现象依分布，不用虚构水面解释。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。",
+      "prompt_en": "Create a standalone UEC senior-high teaching diagram for chapter18, authentic subsection18.4, with original Chinese title 对几个折射现象的分析. Topic-specific mandatory science: Near-normal apparent depth12cm through n1.5 material viewed from air is8cm; backward extensions locate a virtual image without moving the object. For a parallel slab of normal thickness5cm,i60degrees,r30degrees and equal outside media, lateral shift is5/sqrt3 cm. Distinguish normal thickness from internal slant path and state near-axis limitations. Use deterministic ray geometry with arrows on real light paths and dashed backward extensions only for virtual constructions. Measure incidence and refraction angles from the normal. Label media, refractive indices and the mirror sign convention. Spherical-mirror and apparent-depth formulas require their stated paraxial or near-normal conditions; never draw a propagating refracted ray in the forbidden total-internal-reflection case. Required objects, preserving these Chinese labels: 水下物点；出射折射线；虚像反延；平行板两面；侧移垂距. Additional literal Chinese annotation strings: 实线；虚线；d；d_app；t；i；r；δ. Typeset and verify these reference formulas, units and stated conditions: 近法线视深d_app≈d·n观察/n物；推导用x=d tanr=d_app tani及小角。；平行板同外介质：出射平行，侧移δ=t sin(i−r)/cosr；板内斜程t/cosr。；梯度折射率可弯曲光路；具体大气现象依分布，不用虚构水面解释。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.",
+      "negative_prompt": "No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.",
+      "acceptance_criteria": [
+        "视深近轴较浅",
+        "d与d_app不当两真物",
+        "板厚沿法线",
+        "δ垂直入出射线",
+        "出射平行需同外介质",
+        "逐项核对对象、中文、数值、单位与定义域/模型条件",
+        "图示与原例题条件一致，不机械套用其他题的数据",
+        "检查320/390px与桌面缩放及放大，无文字裁切",
+        "XML/路径通过不代表科学审核通过，发布前需单独复核"
+      ],
+      "sources": [
+        {
+          "source_id": "directory_phys",
+          "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+          "page": 260,
+          "version": "教材内容表/目录对照；非考试纲要",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "theory_phys_18.4",
+          "url": "https://openstax.org/books/college-physics-2e/pages/25-3-the-law-of-refraction",
+          "page_or_section": "25-3-the-law-of-refraction",
+          "version": "原理参考；不是2027范围声明",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "priority": "P0",
+      "reuse": {
+        "possible": false,
+        "note": "光路旧图必须核法线角、实虚线、球面镜符号及折射介质；同外形不代表可直接复用",
+        "assets": []
+      },
+      "deterministic_drawing_required": true,
+      "recommended_format": "SVG",
+      "category": "precise_scientific_svg",
+      "production_status": "not_produced_pending_review",
+      "module_visual_coverage": {
+        "01": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "02": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "03": {
+          "task_ids": [
+            "B06-PHYS18-18-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "04": {
+          "task_ids": [
+            "B06-PHYS18-18-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "05": {
+          "task_ids": [
+            "B06-PHYS18-18-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "06": {
+          "task_ids": [
+            "B06-PHYS18-18-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "07": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "08": {
+          "task_ids": [
+            "B06-PHYS18-18-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "09": {
+          "task_ids": [
+            "B06-PHYS18-18-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "10": {
+          "task_ids": [
+            "B06-PHYS18-18-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "11": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "12": {
+          "task_ids": [
+            "B06-PHYS18-18-4"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        }
+      }
+    },
+    {
+      "id": "B06-PHYS18-18-5",
+      "subject": "物理",
+      "chapter_id": 18,
+      "chapter_title": "光的反射与折射",
+      "section_id": "18.5",
+      "section_title": "全反射",
+      "title": "临界与全反射的条件矩阵",
+      "teaching_purpose": [
+        "由折射式推导临界角和全反射两条件",
+        "分析棱镜光纤并保持介质角度及近似边界"
+      ],
+      "required_objects": [
+        "玻璃空气i45",
+        "玻璃水i45",
+        "临界r90",
+        "纤芯包层",
+        "接受端角"
+      ],
+      "scientific_relations": [
+        "玻璃空气ic41.81可全反",
+        "玻璃水ic62.73不全反",
+        "低到高无同类全反",
+        "接受角30非侧壁角"
+      ],
+      "scientific_relations_en": "Total internal reflection needs high-to-low index and internal incidence strictly above critical. Glass1.5 to air at45degrees qualifies with critical41.81degrees; the same glass to water4/3 at45degrees does not, because critical62.73degrees. Fibre input acceptance angle is not the side-wall critical angle. No ordinary far-field refracted ray is drawn beyond the TIR boundary.",
+      "chinese_labels": [
+        "n₁",
+        "n₂",
+        "i",
+        "i_c",
+        "θ接受",
+        "近场不同射线"
+      ],
+      "formulas_units_variables": [
+        "n₁>n₂时sin i_c=n₂/n₁，内部i>i_c才为相应全反射。",
+        "i=i_c是临界；倏逝近场不等普通传播折射光线。",
+        "理想直阶跃纤芯子午光线：n₀sinθ_max=√(n芯²−n包²)，耦合角与侧壁角不同。"
+      ],
+      "composition": "2–3逻辑面板；主结构左/上，条件与验算右/下；不以颜色独占编码",
+      "dimensions": {
+        "width": 1280,
+        "height": 960,
+        "ratio": "4:3",
+        "min_label_px": 24,
+        "safe_margin_px": 48
+      },
+      "prompt_zh": "制作物理第18章《光的反射与折射》18.5《全反射》的教学图《临界与全反射的条件矩阵》。教学目标：由折射式推导临界角和全反射两条件；分析棱镜光纤并保持介质角度及近似边界。必须对象：玻璃空气i45；玻璃水i45；临界r90；纤芯包层；接受端角。不可画错的关系：玻璃空气ic41.81可全反；玻璃水ic62.73不全反；低到高无同类全反；接受角30非侧壁角。中文标签：n₁；n₂；i；i_c；θ接受；近场不同射线。公式、单位和条件：n₁>n₂时sin i_c=n₂/n₁，内部i>i_c才为相应全反射。；i=i_c是临界；倏逝近场不等普通传播折射光线。；理想直阶跃纤芯子午光线：n₀sinθ_max=√(n芯²−n包²)，耦合角与侧壁角不同。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。",
+      "prompt_en": "Create a standalone UEC senior-high teaching diagram for chapter18, authentic subsection18.5, with original Chinese title 全反射. Topic-specific mandatory science: Total internal reflection needs high-to-low index and internal incidence strictly above critical. Glass1.5 to air at45degrees qualifies with critical41.81degrees; the same glass to water4/3 at45degrees does not, because critical62.73degrees. Fibre input acceptance angle is not the side-wall critical angle. No ordinary far-field refracted ray is drawn beyond the TIR boundary. Use deterministic ray geometry with arrows on real light paths and dashed backward extensions only for virtual constructions. Measure incidence and refraction angles from the normal. Label media, refractive indices and the mirror sign convention. Spherical-mirror and apparent-depth formulas require their stated paraxial or near-normal conditions; never draw a propagating refracted ray in the forbidden total-internal-reflection case. Required objects, preserving these Chinese labels: 玻璃空气i45；玻璃水i45；临界r90；纤芯包层；接受端角. Additional literal Chinese annotation strings: n₁；n₂；i；i_c；θ接受；近场不同射线. Typeset and verify these reference formulas, units and stated conditions: n₁>n₂时sin i_c=n₂/n₁，内部i>i_c才为相应全反射。；i=i_c是临界；倏逝近场不等普通传播折射光线。；理想直阶跃纤芯子午光线：n₀sinθ_max=√(n芯²−n包²)，耦合角与侧壁角不同。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.",
+      "negative_prompt": "No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.",
+      "acceptance_criteria": [
+        "玻璃空气ic41.81可全反",
+        "玻璃水ic62.73不全反",
+        "低到高无同类全反",
+        "接受角30非侧壁角",
+        "逐项核对对象、中文、数值、单位与定义域/模型条件",
+        "图示与原例题条件一致，不机械套用其他题的数据",
+        "检查320/390px与桌面缩放及放大，无文字裁切",
+        "XML/路径通过不代表科学审核通过，发布前需单独复核"
+      ],
+      "sources": [
+        {
+          "source_id": "directory_phys",
+          "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+          "page": 264,
+          "version": "教材内容表/目录对照；非考试纲要",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "theory_phys_18.5",
+          "url": "https://openstax.org/books/college-physics-2e/pages/25-4-total-internal-reflection",
+          "page_or_section": "25-4-total-internal-reflection",
+          "version": "原理参考；不是2027范围声明",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "priority": "P0",
+      "reuse": {
+        "possible": false,
+        "note": "光路旧图必须核法线角、实虚线、球面镜符号及折射介质；同外形不代表可直接复用",
+        "assets": []
+      },
+      "deterministic_drawing_required": true,
+      "recommended_format": "SVG",
+      "category": "precise_scientific_svg",
+      "production_status": "not_produced_pending_review",
+      "module_visual_coverage": {
+        "01": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "02": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "03": {
+          "task_ids": [
+            "B06-PHYS18-18-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "04": {
+          "task_ids": [
+            "B06-PHYS18-18-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "05": {
+          "task_ids": [
+            "B06-PHYS18-18-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "06": {
+          "task_ids": [
+            "B06-PHYS18-18-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "07": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "08": {
+          "task_ids": [
+            "B06-PHYS18-18-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "09": {
+          "task_ids": [
+            "B06-PHYS18-18-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "10": {
+          "task_ids": [
+            "B06-PHYS18-18-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "11": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "12": {
+          "task_ids": [
+            "B06-PHYS18-18-5"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        }
+      }
+    },
+    {
+      "id": "B06-PHYS18-18-6",
+      "subject": "物理",
+      "chapter_id": 18,
+      "chapter_title": "光的反射与折射",
+      "section_id": "18.6",
+      "section_title": "测定折射率的方法",
+      "title": "折射率测角与作图审核",
+      "teaching_purpose": [
+        "从测角图和临界视深法建立估计",
+        "用控制变量及不确定度审核折射率数据"
+      ],
+      "required_objects": [
+        "透明块真实光路",
+        "入射点法线",
+        "sin i纵sinr横图",
+        "半圆径向光",
+        "误差清单"
+      ],
+      "scientific_relations": [
+        "斜率n样/n外",
+        "交换轴倒数",
+        "曲面半径为法线",
+        "示例数据标非实测",
+        "法线偏差不被平均消除"
+      ],
+      "scientific_relations_en": "For a refractive-index graph with vertical sin i and horizontal sin r, slope is nsample/noutside; reversing axes reverses the ratio. Angles are from the normal. Radial passage through an ideal semicircular block is normal at the curved surface. Repeatability does not remove systematic normal-line error, and illustrative supplied values must not be labelled measured data.",
+      "chinese_labels": [
+        "i",
+        "r",
+        "sin i",
+        "sin r",
+        "斜率",
+        "重复性",
+        "准确性"
+      ],
+      "formulas_units_variables": [
+        "纵sin i横sin r：斜率m=n样品/n空气，换轴则倒数。",
+        "临界法n样品=n外/sin i_c；近法线视深法n样品/n观察≈d真/d视。",
+        "重复可评随机差，不自动消除法线偏差等系统误差；示例不称实测。"
+      ],
+      "composition": "2–3逻辑面板；主结构左/上，条件与验算右/下；不以颜色独占编码",
+      "dimensions": {
+        "width": 1280,
+        "height": 960,
+        "ratio": "4:3",
+        "min_label_px": 24,
+        "safe_margin_px": 48
+      },
+      "prompt_zh": "制作物理第18章《光的反射与折射》18.6《测定折射率的方法》的教学图《折射率测角与作图审核》。教学目标：从测角图和临界视深法建立估计；用控制变量及不确定度审核折射率数据。必须对象：透明块真实光路；入射点法线；sin i纵sinr横图；半圆径向光；误差清单。不可画错的关系：斜率n样/n外；交换轴倒数；曲面半径为法线；示例数据标非实测；法线偏差不被平均消除。中文标签：i；r；sin i；sin r；斜率；重复性；准确性。公式、单位和条件：纵sin i横sin r：斜率m=n样品/n空气，换轴则倒数。；临界法n样品=n外/sin i_c；近法线视深法n样品/n观察≈d真/d视。；重复可评随机差，不自动消除法线偏差等系统误差；示例不称实测。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。",
+      "prompt_en": "Create a standalone UEC senior-high teaching diagram for chapter18, authentic subsection18.6, with original Chinese title 测定折射率的方法. Topic-specific mandatory science: For a refractive-index graph with vertical sin i and horizontal sin r, slope is nsample/noutside; reversing axes reverses the ratio. Angles are from the normal. Radial passage through an ideal semicircular block is normal at the curved surface. Repeatability does not remove systematic normal-line error, and illustrative supplied values must not be labelled measured data. Use deterministic ray geometry with arrows on real light paths and dashed backward extensions only for virtual constructions. Measure incidence and refraction angles from the normal. Label media, refractive indices and the mirror sign convention. Spherical-mirror and apparent-depth formulas require their stated paraxial or near-normal conditions; never draw a propagating refracted ray in the forbidden total-internal-reflection case. Required objects, preserving these Chinese labels: 透明块真实光路；入射点法线；sin i纵sinr横图；半圆径向光；误差清单. Additional literal Chinese annotation strings: i；r；sin i；sin r；斜率；重复性；准确性. Typeset and verify these reference formulas, units and stated conditions: 纵sin i横sin r：斜率m=n样品/n空气，换轴则倒数。；临界法n样品=n外/sin i_c；近法线视深法n样品/n观察≈d真/d视。；重复可评随机差，不自动消除法线偏差等系统误差；示例不称实测。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.",
+      "negative_prompt": "No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.",
+      "acceptance_criteria": [
+        "斜率n样/n外",
+        "交换轴倒数",
+        "曲面半径为法线",
+        "示例数据标非实测",
+        "法线偏差不被平均消除",
+        "逐项核对对象、中文、数值、单位与定义域/模型条件",
+        "图示与原例题条件一致，不机械套用其他题的数据",
+        "检查320/390px与桌面缩放及放大，无文字裁切",
+        "XML/路径通过不代表科学审核通过，发布前需单独复核"
+      ],
+      "sources": [
+        {
+          "source_id": "directory_phys",
+          "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+          "page": 272,
+          "version": "教材内容表/目录对照；非考试纲要",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        },
+        {
+          "source_id": "theory_phys_18.6",
+          "url": "https://openstax.org/books/college-physics-2e/pages/25-3-the-law-of-refraction",
+          "page_or_section": "25-3-the-law-of-refraction",
+          "version": "原理参考；不是2027范围声明",
+          "access_date": "2026-11-19",
+          "verification_status": "partially_verified"
+        }
+      ],
+      "priority": "P0",
+      "reuse": {
+        "possible": false,
+        "note": "光路旧图必须核法线角、实虚线、球面镜符号及折射介质；同外形不代表可直接复用",
+        "assets": []
+      },
+      "deterministic_drawing_required": true,
+      "recommended_format": "SVG",
+      "category": "precise_scientific_svg",
+      "production_status": "not_produced_pending_review",
+      "module_visual_coverage": {
+        "01": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "02": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "03": {
+          "task_ids": [
+            "B06-PHYS18-18-6"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "04": {
+          "task_ids": [
+            "B06-PHYS18-18-6"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "05": {
+          "task_ids": [
+            "B06-PHYS18-18-6"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "06": {
+          "task_ids": [
+            "B06-PHYS18-18-6"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "07": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "08": {
+          "task_ids": [
+            "B06-PHYS18-18-6"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "09": {
+          "task_ids": [
+            "B06-PHYS18-18-6"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "10": {
+          "task_ids": [
+            "B06-PHYS18-18-6"
+          ],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "11": {
+          "task_ids": [],
+          "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
+        },
+        "12": {
+          "task_ids": [
+            "B06-PHYS18-18-6"
           ],
           "note": "主模型辅助；题目各有独立条件与数据，不能以缺图删减教学，也不强称一图涵盖所有题的不同模型"
         }

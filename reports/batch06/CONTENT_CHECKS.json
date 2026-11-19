@@ -3,12 +3,12 @@
   "baseline": "df94dd51fd7b14514eb6036af33de1228b969883",
   "protected_files": 867,
   "counts": {
-    "sections": 197,
-    "examples": 591,
-    "practice": 788,
-    "quiz": 197,
-    "chapters": 36,
-    "original_questions": 1576
+    "sections": 218,
+    "examples": 654,
+    "practice": 872,
+    "quiz": 218,
+    "chapters": 40,
+    "original_questions": 1744
   },
   "checks": [
     {
@@ -26212,6 +26212,2241 @@
       "detail": null
     },
     {
+      "name": "math33 genuinely new chapter",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "math33 real chapter",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "math33 exact identities",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "math33 all independently transcribed directory leaf rows represented",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.1 module inputs",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.1 explanatory paragraphs",
+      "result": "pass",
+      "detail": 682
+    },
+    {
+      "name": "数学33.1 examples and practice",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.1 goal feedback",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.1 honest verification",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.2 module inputs",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.2 explanatory paragraphs",
+      "result": "pass",
+      "detail": 620
+    },
+    {
+      "name": "数学33.2 examples and practice",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.2 goal feedback",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.2 honest verification",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.3 module inputs",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.3 explanatory paragraphs",
+      "result": "pass",
+      "detail": 600
+    },
+    {
+      "name": "数学33.3 examples and practice",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.3 goal feedback",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.3 honest verification",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.4 module inputs",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.4 explanatory paragraphs",
+      "result": "pass",
+      "detail": 638
+    },
+    {
+      "name": "数学33.4 examples and practice",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.4 goal feedback",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.4 honest verification",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.5 module inputs",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.5 explanatory paragraphs",
+      "result": "pass",
+      "detail": 658
+    },
+    {
+      "name": "数学33.5 examples and practice",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.5 goal feedback",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.5 honest verification",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学33.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "math34 genuinely new chapter",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "math34 real chapter",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "math34 exact identities",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "math34 all independently transcribed directory leaf rows represented",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.1 module inputs",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.1 explanatory paragraphs",
+      "result": "pass",
+      "detail": 582
+    },
+    {
+      "name": "数学34.1 examples and practice",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.1 goal feedback",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.1 honest verification",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.2 module inputs",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.2 explanatory paragraphs",
+      "result": "pass",
+      "detail": 572
+    },
+    {
+      "name": "数学34.2 examples and practice",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.2 goal feedback",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.2 honest verification",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.3 module inputs",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.3 explanatory paragraphs",
+      "result": "pass",
+      "detail": 597
+    },
+    {
+      "name": "数学34.3 examples and practice",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.3 goal feedback",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.3 honest verification",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.4 module inputs",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.4 explanatory paragraphs",
+      "result": "pass",
+      "detail": 608
+    },
+    {
+      "name": "数学34.4 examples and practice",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.4 goal feedback",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.4 honest verification",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.5 module inputs",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.5 explanatory paragraphs",
+      "result": "pass",
+      "detail": 571
+    },
+    {
+      "name": "数学34.5 examples and practice",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.5 goal feedback",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.5 honest verification",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学34.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "math35 genuinely new chapter",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "math35 real chapter",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "math35 exact identities",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "math35 all independently transcribed directory leaf rows represented",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.1 module inputs",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.1 explanatory paragraphs",
+      "result": "pass",
+      "detail": 578
+    },
+    {
+      "name": "数学35.1 examples and practice",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.1 goal feedback",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.1 honest verification",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.2 module inputs",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.2 explanatory paragraphs",
+      "result": "pass",
+      "detail": 571
+    },
+    {
+      "name": "数学35.2 examples and practice",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.2 goal feedback",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.2 honest verification",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.3 module inputs",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.3 explanatory paragraphs",
+      "result": "pass",
+      "detail": 558
+    },
+    {
+      "name": "数学35.3 examples and practice",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.3 goal feedback",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.3 honest verification",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.4 module inputs",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.4 explanatory paragraphs",
+      "result": "pass",
+      "detail": 554
+    },
+    {
+      "name": "数学35.4 examples and practice",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.4 goal feedback",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.4 honest verification",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.5 module inputs",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.5 explanatory paragraphs",
+      "result": "pass",
+      "detail": 663
+    },
+    {
+      "name": "数学35.5 examples and practice",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.5 goal feedback",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.5 honest verification",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "数学35.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
       "name": "phys09 genuinely new chapter",
       "result": "pass",
       "detail": null
@@ -32148,6 +34383,896 @@
     },
     {
       "name": "物理17.7 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "phys18 genuinely new chapter",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "phys18 real chapter",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "phys18 exact identities",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "phys18 all independently transcribed directory leaf rows represented",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.1 module inputs",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.1 explanatory paragraphs",
+      "result": "pass",
+      "detail": 571
+    },
+    {
+      "name": "物理18.1 examples and practice",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.1 goal feedback",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.1 honest verification",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.1 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.1 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.1 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.2 module inputs",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.2 explanatory paragraphs",
+      "result": "pass",
+      "detail": 594
+    },
+    {
+      "name": "物理18.2 examples and practice",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.2 goal feedback",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.2 honest verification",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.2 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.2 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.2 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.3 module inputs",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.3 explanatory paragraphs",
+      "result": "pass",
+      "detail": 600
+    },
+    {
+      "name": "物理18.3 examples and practice",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.3 goal feedback",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.3 honest verification",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.3 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.3 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.3 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.4 module inputs",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.4 explanatory paragraphs",
+      "result": "pass",
+      "detail": 642
+    },
+    {
+      "name": "物理18.4 examples and practice",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.4 goal feedback",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.4 honest verification",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.4 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.4 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.4 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.5 module inputs",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.5 explanatory paragraphs",
+      "result": "pass",
+      "detail": 626
+    },
+    {
+      "name": "物理18.5 examples and practice",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.5 goal feedback",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.5 honest verification",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.5 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.5 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.5 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.6 module inputs",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.6 explanatory paragraphs",
+      "result": "pass",
+      "detail": 626
+    },
+    {
+      "name": "物理18.6 examples and practice",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.6 goal feedback",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.6 honest verification",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.6 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.6 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.6 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.6 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.6 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.6 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.6 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.6 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.6 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.6 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.6 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.6 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.6 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.6 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.6 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.6 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.6 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.6 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.6 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.6 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.6 original not official",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.6 full answer stages",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.6 standalone assumptions",
+      "result": "pass",
+      "detail": null
+    },
+    {
+      "name": "物理18.6 original not official",
       "result": "pass",
       "detail": null
     },

@@ -1,0 +1,5 @@
+{
+  "status": "pass",
+  "cases": 6,
+  "scope": "Pure revision function shared with the actual Firebase transaction code; not a live Firestore transaction or authentication test."
+}

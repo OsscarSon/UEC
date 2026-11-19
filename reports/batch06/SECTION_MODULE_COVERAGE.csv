@@ -146,6 +146,21 @@ subject,chapter,section,title,modules,explanation_chars,examples,practice,quiz,v
 数学,31,31.4,数值方法,12,661,3,4,1,partially_verified
 数学,32,32.1,坐标轴的平移（移轴）,12,586,3,4,1,partially_verified
 数学,32,32.2,坐标系的旋转（转轴）,12,638,3,4,1,partially_verified
+数学,33,33.1,曲线的坐标表示,12,682,3,4,1,partially_verified
+数学,33,33.2,圆锥曲线,12,620,3,4,1,partially_verified
+数学,33,33.3,抛物线,12,600,3,4,1,partially_verified
+数学,33,33.4,椭圆,12,638,3,4,1,partially_verified
+数学,33,33.5,双曲线,12,658,3,4,1,partially_verified
+数学,34,34.1,复数,12,582,3,4,1,partially_verified
+数学,34,34.2,复平面及复数的模与辐角,12,572,3,4,1,partially_verified
+数学,34,34.3,复数的三角函数式,12,597,3,4,1,partially_verified
+数学,34,34.4,棣美弗定理,12,608,3,4,1,partially_verified
+数学,34,34.5,根的性质,12,571,3,4,1,partially_verified
+数学,35,35.1,空间直角坐标系,12,578,3,4,1,partially_verified
+数学,35,35.2,空间向量几何,12,571,3,4,1,partially_verified
+数学,35,35.3,向量的内积,12,558,3,4,1,partially_verified
+数学,35,35.4,向量的外积,12,554,3,4,1,partially_verified
+数学,35,35.5,空间中的直线与平面方程式,12,663,3,4,1,partially_verified
 物理,9,9.1,刚体及其转动,12,585,3,4,1,partially_verified
 物理,9,9.2,刚体的转动惯量,12,590,3,4,1,partially_verified
 物理,9,9.3,刚体滚动时的动能,12,602,3,4,1,partially_verified
@@ -186,6 +201,12 @@ subject,chapter,section,title,modules,explanation_chars,examples,practice,quiz,v
 物理,17,17.5,波的反射和折射,12,598,3,4,1,partially_verified
 物理,17,17.6,波的叠加,12,617,3,4,1,partially_verified
 物理,17,17.7,多普勒效应,12,636,3,4,1,partially_verified
+物理,18,18.1,光的反射 平面镜成像,12,571,3,4,1,partially_verified
+物理,18,18.2,球面镜成像,12,594,3,4,1,partially_verified
+物理,18,18.3,光的折射 折射率,12,600,3,4,1,partially_verified
+物理,18,18.4,对几个折射现象的分析,12,642,3,4,1,partially_verified
+物理,18,18.5,全反射,12,626,3,4,1,partially_verified
+物理,18,18.6,测定折射率的方法,12,626,3,4,1,partially_verified
 物理,19,19.1,棱镜与色散,12,637,3,4,1,partially_verified
 物理,19,19.2,光谱,12,644,3,4,1,partially_verified
 物理,19,19.3,透镜和透镜成像,12,598,3,4,1,partially_verified

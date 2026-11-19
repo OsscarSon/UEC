@@ -535,6 +535,153 @@
       "rootVerified": false
     },
     {
+      "key": "数学33/33.1",
+      "title": "坐标与参数范围",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "数学33/33.2",
+      "title": "焦准与类型",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "数学33/33.3",
+      "title": "抛物线与切线",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "数学33/33.4",
+      "title": "椭圆参数",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "数学33/33.5",
+      "title": "双曲线参数",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "数学34/34.1",
+      "title": "共轭与非零除法",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "数学34/34.2",
+      "title": "模与主辐角",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": true
+    },
+    {
+      "key": "数学34/34.3",
+      "title": "三角式乘除",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "数学34/34.4",
+      "title": "棣美弗整数幂",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "数学34/34.5",
+      "title": "全部n次根",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "数学35/35.1",
+      "title": "空间距离",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": true
+    },
+    {
+      "key": "数学35/35.2",
+      "title": "空间向量与内分",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "数学35/35.3",
+      "title": "内积与向量投影",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "数学35/35.4",
+      "title": "外积面积与体积",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "数学35/35.5",
+      "title": "线面方程与垂距",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": true
+    },
+    {
+      "key": "物理18/18.1",
+      "title": "平面镜位置",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "物理18/18.2",
+      "title": "近轴球面镜",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "物理18/18.3",
+      "title": "折射与波量",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "物理18/18.4",
+      "title": "视深与侧移",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "物理18/18.5",
+      "title": "全反射条件",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "物理18/18.6",
+      "title": "折射率正弦图",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
       "key": "数学1/1.1",
       "status": "pass",
       "scope": "legacy representative unchanged legacy storage"

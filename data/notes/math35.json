@@ -1,0 +1,1527 @@
+{
+  "35.1": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 35,
+    "section_id": "35.1",
+    "goals": [
+      "用三坐标及正交投影定位空间点",
+      "推导距离公式并以配方识别球面"
+    ],
+    "prerequisites": [
+      "平面坐标",
+      "勾股",
+      "正交方向"
+    ],
+    "flow": [
+      "三轴定位",
+      "平面投影",
+      "距离推导",
+      "球面配方",
+      "透视验算"
+    ],
+    "concept_relation": "三轴定位；平面投影；距离推导；球面配方；透视验算",
+    "deep": [
+      "到坐标平面距离分别为|z|、|x|、|y|；到x轴距离√(y²+z²)而非|x|。这区分点到平面、到直线和到原点三个问题，公式需要匹配几何对象。负值先保方向，距离最后取非负。",
+      "球面为到固定中心(h,k,l)距离恒r>0的点集，方程(x−h)²+(y−k)²+(z−l)²=r²。一般平方和式可配方识中心及半径；半径平方负无实球，0退化单点。球面边界与球体内部用等号和不等号区分。",
+      "空间示意应标轴与投影虚线，真实长度由坐标算，不能用屏幕透视像素直接量。题若轴尺度不一致，视觉角度更加不可靠。完成后回代中心距离、检查单位平方根及相应坐标0条件，为后续空间向量和直线平面建立基础。"
+    ],
+    "derive": [
+      "AB=√[(x₂−x₁)²+(y₂−y₁)²+(z₂−z₁)²]，来自两次勾股。",
+      "到xy平面距|z|，到x轴距√(y²+z²)，不可互换。",
+      "球面(x−h)²+(y−k)²+(z−l)²=r²，r>0；r²=0或负需另论。"
+    ],
+    "examples": [
+      {
+        "q": "A(1,2,−1)、B(4,6,11)，距离？ 条件：正交等单位轴。",
+        "given": "正交等单位轴。",
+        "analysis": "差为3,4,12。",
+        "method": "三维勾股。",
+        "principle": "正交距离。",
+        "steps": [
+          "平方和9+16+144=169。",
+          "距13。"
+        ],
+        "ans": "13单位。",
+        "verification": "水平差5，合竖差12得到13。",
+        "pitfall": "把差直接加19。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.1",
+        "related_sections": []
+      },
+      {
+        "q": "x²+y²+z²−2x+4y−6z−2=0中心半径？ 条件：实坐标。",
+        "given": "实坐标。",
+        "analysis": "三项分别配方。",
+        "method": "标准球面。",
+        "principle": "距离定义。",
+        "steps": [
+          "(x−1)²+(y+2)²+(z−3)²=16。",
+          "中心(1,−2,3)，半径4。"
+        ],
+        "ans": "(1,−2,3)，4。",
+        "verification": "各补1+4+9=14，加右原2得16。",
+        "pitfall": "常数项漏配方补量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.1",
+        "related_sections": []
+      },
+      {
+        "q": "P(2,−3,4)到xy平面、x轴和原点距离？ 条件：三个目标不同。",
+        "given": "三个目标不同。",
+        "analysis": "分别选垂距。",
+        "method": "正交分量。",
+        "principle": "距离。",
+        "steps": [
+          "到xy=4，到x轴√(9+16)=5。",
+          "到原点√(4+9+16)=√29。"
+        ],
+        "ans": "4、5、√29。",
+        "verification": "去掉的坐标与目标维数对应。",
+        "pitfall": "三个都取|x|2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "P(2,−3,4)在yz平面正交投影？ 条件：标准轴。",
+        "given": "标准轴。",
+        "analysis": "删垂直yz的x。",
+        "method": "投影。",
+        "principle": "坐标平面。",
+        "steps": [
+          "x设0。",
+          "得(0,−3,4)。"
+        ],
+        "ans": "(0,−3,4)。",
+        "verification": "投影点x=0，位于yz平面。",
+        "pitfall": "把z设0。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.1",
+        "related_sections": []
+      },
+      {
+        "q": "球心(0,0,0)、半径3的球面与球体内部分别怎么写？ 条件：开内部不含边界。",
+        "given": "开内部不含边界。",
+        "analysis": "距离等与小于。",
+        "method": "方程。",
+        "principle": "定义。",
+        "steps": [
+          "面x²+y²+z²=9。",
+          "开内部平方和<9。"
+        ],
+        "ans": "等9与小于9。",
+        "verification": "≤9是含边界闭球。",
+        "pitfall": "半径直接写3右边。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.1",
+        "related_sections": []
+      },
+      {
+        "q": "x²+y²+z²+1=0表示实球吗？ 条件：实坐标。",
+        "given": "实坐标。",
+        "analysis": "平方和非负。",
+        "method": "存在性。",
+        "principle": "代数。",
+        "steps": [
+          "平方和需−1。",
+          "无实解。"
+        ],
+        "ans": "不是实球。",
+        "verification": "不能开√1忽略负号。",
+        "pitfall": "任何三平方式都球。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.1",
+        "related_sections": []
+      },
+      {
+        "q": "P的z坐标为−5，到xy平面距离可答−5吗？ 条件：距离为大小。",
+        "given": "距离为大小。",
+        "analysis": "取绝对。",
+        "method": "垂距。",
+        "principle": "定义。",
+        "steps": [
+          "z表示方向有号。",
+          "距离|−5|=5。"
+        ],
+        "ans": "应5。",
+        "verification": "负高度坐标不等负长度。",
+        "pitfall": "有号坐标直接作距离。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "空间透视图两条直线投影相交能保证实际相交吗？ 条件：未给同一交点三坐标。",
+      "given": "未给同一交点三坐标。",
+      "analysis": "投影损失一维。",
+      "method": "坐标检验。",
+      "principle": "空间几何。",
+      "steps": [
+        "不同深度可在屏幕同点投影。",
+        "需解两线三坐标一致才证明相交。"
+      ],
+      "ans": "不能。",
+      "verification": "可存在异面线。",
+      "pitfall": "画在一起就真实交。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 35,
+      "primary_section": "35.1",
+      "related_sections": []
+    },
+    "exam": [
+      "定位先坐标平面0条件，投影与真实点分开",
+      "距离由正交分量勾股，点平面/轴/原点选对式",
+      "球面配方右边核正性，透视不作精确量角测长"
+    ],
+    "quick": [
+      "三轴定位",
+      "平面投影",
+      "距离推导",
+      "球面配方",
+      "透视验算"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+        "page": 108,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_35.1",
+        "url": "https://openstax.org/books/calculus-volume-3/pages/2-2-vectors-in-three-dimensions",
+        "page_or_section": "2-2-vectors-in-three-dimensions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+        "page": 108,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_35.1",
+        "url": "https://openstax.org/books/calculus-volume-3/pages/2-2-vectors-in-three-dimensions",
+        "page_or_section": "2-2-vectors-in-three-dimensions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "定位先坐标平面0条件，投影与真实点分开",
+      "method": "正交分量。",
+      "principle": "距离。",
+      "worked_example_index": 2,
+      "verification": "去掉的坐标与目标维数对应。",
+      "pitfall": "三个都取|x|2。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用三坐标及正交投影定位空间点”的抽样复核：水平差5，合竖差12得到13。；若出现“把差直接加19。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“推导距离公式并以配方识别球面”的抽样复核：去掉的坐标与目标维数对应。；若出现“三个都取|x|2。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "画在一起就真实交。",
+        "correction": "不能。",
+        "verification": "可存在异面线。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "空间点投影与三类距离",
+      "objects": [
+        "右手轴",
+        "P2,−3,4",
+        "xy投影",
+        "x轴投影",
+        "三距离线"
+      ],
+      "relations": [
+        "到xy4",
+        "到x轴5",
+        "到O√29",
+        "投影虚线垂直正确",
+        "透视非比例注明"
+      ],
+      "labels": [
+        "x",
+        "y",
+        "z",
+        "P",
+        "正交投影",
+        "真实距离"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "空间图需核右手系、遮挡及投影；透视图仅示意角度长度，定量依坐标",
+      "english": "Use a labelled right-handed three-dimensional coordinate system. Distinguish a point from a free vector, projection from true length, and direction vectors from plane normals. Perspective sketches must not imply false perpendicularity or intersection. Check dot, cross and scalar-triple products from exact coordinates; zero vectors do not define angles or unique normals."
+    }
+  },
+  "35.2": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 35,
+    "section_id": "35.2",
+    "goals": [
+      "把空间向量与点坐标正确连接",
+      "用线性组合及分点关系证明几何结论"
+    ],
+    "prerequisites": [
+      "三维坐标",
+      "平面向量",
+      "比例"
+    ],
+    "flow": [
+      "点与自由向量",
+      "分量代数",
+      "非零方向",
+      "分点位置",
+      "线性组合几何"
+    ],
+    "concept_relation": "点与自由向量；分量代数；非零方向；分点位置；线性组合几何",
+    "deep": [
+      "点P内分AB且AP:PB=m:n时，位置向量p=(na+mb)/(m+n)，m,n>0。权重是对端权，靠B越近其位置向量权重越大。外分需用有号比例或对应差分母，不能把内分式带正比例直接搬过去。",
+      "三维中三个向量线性无关才可作一组基，若w=u+v，则三者虽可能外观方向不同，仍在u,v张成平面内。共面几何可用位置向量线性组合说明，不能仅凭三个分量都出现就断铺满空间；后续标量三重积可给另一检验。",
+      "几何证明应先定原点及被表示点，写有号向量加法链如AB+BC=AC，再用已知比例。结果回坐标或长度验证，不把图透视的中点看成真实中点。所有“平行”“共面”“共线”先排退化点或明确退化约定，避免零向量让方向判断失真。"
+    ],
+    "derive": [
+      "AB=b−a；u±v与λu逐分量，|λu|=|λ|·|u|。",
+      "非零u,v平行⇔存在实λ使u=λv，不用盲除零分量。",
+      "内分AP:PB=m:n：p=(na+mb)/(m+n)，m,n>0。"
+    ],
+    "examples": [
+      {
+        "q": "A(1,−2,0)、B(4,0,6)，求AB及其长度。 条件：正交单位基。",
+        "given": "正交单位基。",
+        "analysis": "终减始。",
+        "method": "分量。",
+        "principle": "向量。",
+        "steps": [
+          "AB=(3,2,6)。",
+          "模√(9+4+36)=7。"
+        ],
+        "ans": "(3,2,6)，7。",
+        "verification": "A加AB回B，BA反号。",
+        "pitfall": "AB始减终或模分量相加。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.2",
+        "related_sections": []
+      },
+      {
+        "q": "A(0,0,0)、B(6,3,9)，P内分AP:PB=2:1，求P。 条件：m=2,n=1。",
+        "given": "m=2,n=1。",
+        "analysis": "靠B为2/3路程。",
+        "method": "内分式。",
+        "principle": "向量比例。",
+        "steps": [
+          "p=(a+2b)/3。",
+          "=(4,2,6)。"
+        ],
+        "ans": "(4,2,6)。",
+        "verification": "AP=(4,2,6)，PB=(2,1,3)，前者2倍后者。",
+        "pitfall": "权重颠倒得(2,1,3)。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.2",
+        "related_sections": []
+      },
+      {
+        "q": "u(1,0,1)、v(0,1,1)、w(1,1,2)能作三维一组基吗？ 条件：实向量。",
+        "given": "实向量。",
+        "analysis": "找非平凡线性关系。",
+        "method": "w=u+v。",
+        "principle": "线性相关。",
+        "steps": [
+          "逐分量相加确得w。",
+          "u+v−w0，系数非全0，相关。"
+        ],
+        "ans": "不能构成三维基。",
+        "verification": "三者都在前两张成平面。",
+        "pitfall": "三个向量就必空间基。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "u(0,2,4)、v(0,1,2)平行吗？ 条件：两者非零。",
+        "given": "两者非零。",
+        "analysis": "统一λ2。",
+        "method": "数乘。",
+        "principle": "平行。",
+        "steps": [
+          "u2v。",
+          "零分量也相容，无需0/0。"
+        ],
+        "ans": "平行同向。",
+        "verification": "不靠逐项除法。",
+        "pitfall": "0/0导致说不平行。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.2",
+        "related_sections": []
+      },
+      {
+        "q": "λ−3，|u|2，则|λu|？ 条件：模是非负。",
+        "given": "模是非负。",
+        "analysis": "取λ绝对值。",
+        "method": "数乘。",
+        "principle": "长度。",
+        "steps": [
+          "|−3|×2。",
+          "=6。"
+        ],
+        "ans": "6。",
+        "verification": "方向反但长度不负。",
+        "pitfall": "−6。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.2",
+        "related_sections": []
+      },
+      {
+        "q": "AB+BC等于哪个有向量？ 条件：任意三点有序。",
+        "given": "任意三点有序。",
+        "analysis": "路径拼接。",
+        "method": "终始相消。",
+        "principle": "向量加。",
+        "steps": [
+          "(b−a)+(c−b)=c−a。",
+          "=AC。"
+        ],
+        "ans": "AC。",
+        "verification": "不是CA。",
+        "pitfall": "无向线段加法忽略方向。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.2",
+        "related_sections": []
+      },
+      {
+        "q": "P为A B中点，其位置向量？ 条件：a,b同一原点。",
+        "given": "a,b同一原点。",
+        "analysis": "m=n。",
+        "method": "内分。",
+        "principle": "平均。",
+        "steps": [
+          "p=(a+b)/2。",
+          "PA与PB反向等模。"
+        ],
+        "ans": "(a+b)/2。",
+        "verification": "不是(b−a)/2，后者从A到中点位移。",
+        "pitfall": "中点位置与半差混。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "只凭零向量叉乘或比例性质，能把零向量说成具有任意指定唯一方向吗？ 条件：零向量为退化对象。",
+      "given": "零向量为退化对象。",
+      "analysis": "无方向不等指定方向。",
+      "method": "定义。",
+      "principle": "向量。",
+      "steps": [
+        "零模无法归一化。",
+        "可在某些代数平行约定中出现，但不确定几何方向。"
+      ],
+      "ans": "不能赋唯一方向。",
+      "verification": "单位向量u/|u|在0无定义。",
+      "pitfall": "零有很多方向所以任选就是真方向。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 35,
+      "primary_section": "35.2",
+      "related_sections": []
+    },
+    "exam": [
+      "向量先终始与原点，点和自由向量分开",
+      "平行找同一λ而非盲除0，零方向单列",
+      "分点回验有号比例，基与共面用线性关系而非图猜"
+    ],
+    "quick": [
+      "点与自由向量",
+      "分量代数",
+      "非零方向",
+      "分点位置",
+      "线性组合几何"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+        "page": 112,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_35.2",
+        "url": "https://openstax.org/books/calculus-volume-3/pages/2-2-vectors-in-three-dimensions",
+        "page_or_section": "2-2-vectors-in-three-dimensions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+        "page": 112,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_35.2",
+        "url": "https://openstax.org/books/calculus-volume-3/pages/2-2-vectors-in-three-dimensions",
+        "page_or_section": "2-2-vectors-in-three-dimensions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "向量先终始与原点，点和自由向量分开",
+      "method": "w=u+v。",
+      "principle": "线性相关。",
+      "worked_example_index": 2,
+      "verification": "三者都在前两张成平面。",
+      "pitfall": "三个向量就必空间基。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“把空间向量与点坐标正确连接”的抽样复核：A加AB回B，BA反号。；若出现“AB始减终或模分量相加。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用线性组合及分点关系证明几何结论”的抽样复核：三者都在前两张成平面。；若出现“三个向量就必空间基。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "零有很多方向所以任选就是真方向。",
+        "correction": "不能赋唯一方向。",
+        "verification": "单位向量u/|u|在0无定义。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "空间向量分点与线性相关",
+      "objects": [
+        "A B P2比1",
+        "AB有向箭头",
+        "i j k",
+        "u v w平面"
+      ],
+      "relations": [
+        "P4,2,6",
+        "AP2PB同向",
+        "w=u+v故共面",
+        "零无单位方向"
+      ],
+      "labels": [
+        "点",
+        "位置向量",
+        "位移",
+        "2:1",
+        "基条件"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "空间图需核右手系、遮挡及投影；透视图仅示意角度长度，定量依坐标",
+      "english": "Use a labelled right-handed three-dimensional coordinate system. Distinguish a point from a free vector, projection from true length, and direction vectors from plane normals. Perspective sketches must not imply false perpendicularity or intersection. Check dot, cross and scalar-triple products from exact coordinates; zero vectors do not define angles or unique normals."
+    }
+  },
+  "35.3": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 35,
+    "section_id": "35.3",
+    "goals": [
+      "由夹角定义与分量式连接正交投影",
+      "求角工作和分解并审零向量条件"
+    ],
+    "prerequisites": [
+      "向量长度",
+      "余弦定律",
+      "投影"
+    ],
+    "flow": [
+      "余弦推导",
+      "分量点积",
+      "角度条件",
+      "投影分解",
+      "功与几何"
+    ],
+    "concept_relation": "余弦推导；分量点积；角度条件；投影分解；功与几何",
+    "deep": [
+      "分解u=u平行+u垂直时，u平行为上述投影，余项u−u平行与a点积0。这个正交分解可用平方长度相加验证，并用于最短距离等几何问题。a不是单位向量时漏除|a|²，会让投影量错误放大。",
+      "恒力做功W=F·s与力沿位移的分量相关，方向相反可负、正交为0；不能把所有功当|F||s|或把不做功理解力不存在。变力需积分，单一常向量公式只在相应条件下适用，单位N·m=J。",
+      "夹角题、垂直题和投影题先辨所求对象，再用点积，结果检查cos在[−1,1]及单位。几何透视不保证画出真实角度，定量以给定分量为准。若要求两条直线锐夹角，可取方向点积绝对后反余弦，和有向两向量0到π夹角需分清。"
+    ],
+    "derive": [
+      "u·v=|u||v|cosθ=Σuᵢvᵢ（正交基）；求角需u,v非零。",
+      "comp_a u=(u·a)/|a|，proj_a u=(u·a/|a|²)a，a≠0。",
+      "恒力W=F·s；正交分解u−proj_a u与a点积0。"
+    ],
+    "examples": [
+      {
+        "q": "u(1,2,2)、v(2,−1,0)夹角？ 条件：两向量均非零，正交单位基。",
+        "given": "两向量均非零，正交单位基。",
+        "analysis": "内积0。",
+        "method": "点积。",
+        "principle": "cos定义。",
+        "steps": [
+          "u·v2−2+0=0。",
+          "两模正，cosθ0，θ90°。"
+        ],
+        "ans": "90°。",
+        "verification": "|u|3、|v|√5，分母非0。",
+        "pitfall": "不排零就所有点积0必角90。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.3",
+        "related_sections": []
+      },
+      {
+        "q": "u(3,4,0)在a(1,0,0)方向的标量和向量投影。 条件：a为非零单位向量。",
+        "given": "a为非零单位向量。",
+        "analysis": "u·a3。",
+        "method": "投影公式。",
+        "principle": "正交。",
+        "steps": [
+          "标量3/1=3。",
+          "向量3a=(3,0,0)，余(0,4,0)垂直a。"
+        ],
+        "ans": "标量3、向量(3,0,0)。",
+        "verification": "模平方9+16=25。",
+        "pitfall": "投影向量答标量3。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.3",
+        "related_sections": []
+      },
+      {
+        "q": "恒力F(2,1,−1)N使位移s(3,0,4)m，功？ 条件：力在全过程恒定。",
+        "given": "力在全过程恒定。",
+        "analysis": "按分量点积。",
+        "method": "F·s。",
+        "principle": "功。",
+        "steps": [
+          "2×3+1×0+(−1)×4=2。",
+          "单位J。"
+        ],
+        "ans": "2J。",
+        "verification": "z分量作负功，不能全部取正。",
+        "pitfall": "用力模乘位移模。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "u(1,1,0)、v(1,0,1)夹角？ 条件：两者非零。",
+        "given": "两者非零。",
+        "analysis": "点积1，模各√2。",
+        "method": "cos。",
+        "principle": "内积。",
+        "steps": [
+          "cosθ1/2。",
+          "θ60°。"
+        ],
+        "ans": "60°。",
+        "verification": "cos合法。",
+        "pitfall": "除模平方和4而非模乘2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.3",
+        "related_sections": []
+      },
+      {
+        "q": "u(2,2,0)投影到a(2,0,0)所得向量？ 条件：a不单位。",
+        "given": "a不单位。",
+        "analysis": "分母|a|²4。",
+        "method": "公式。",
+        "principle": "投影。",
+        "steps": [
+          "u·a4，系数4/4=1。",
+          "投影a=(2,0,0)。"
+        ],
+        "ans": "(2,0,0)。",
+        "verification": "若只除|a|会错倍。",
+        "pitfall": "漏a模平方。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.3",
+        "related_sections": []
+      },
+      {
+        "q": "F与s非零且相反，恒力功符号？ 条件：夹角π。",
+        "given": "夹角π。",
+        "analysis": "cos−1。",
+        "method": "点积。",
+        "principle": "功。",
+        "steps": [
+          "W=−|F",
+          "s|。",
+          "为负。"
+        ],
+        "ans": "负功。",
+        "verification": "力存在且能量转移有向。",
+        "pitfall": "功必非负。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.3",
+        "related_sections": []
+      },
+      {
+        "q": "u0、v非0，能由点积0求确定夹角吗？ 条件：零向量无方向。",
+        "given": "零向量无方向。",
+        "analysis": "分母0。",
+        "method": "定义域。",
+        "principle": "夹角。",
+        "steps": [
+          "|u",
+          "v|0。",
+          "不能用cos=0/0给90°。"
+        ],
+        "ans": "不能，夹角未定义。",
+        "verification": "代数点积0仍成立。",
+        "pitfall": "零向量垂直所有就有唯一角。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "内积输出的是向量还是标量？ 条件：普通欧氏向量点积。",
+      "given": "普通欧氏向量点积。",
+      "analysis": "cos定义为数。",
+      "method": "辨运算。",
+      "principle": "线性代数。",
+      "steps": [
+        "各分量乘积相加为实数。",
+        "与外积输出向量不同。"
+      ],
+      "ans": "标量。",
+      "verification": "可带单位但不是方向箭头。",
+      "pitfall": "看到两个向量相乘都画箭头。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 35,
+      "primary_section": "35.3",
+      "related_sections": []
+    },
+    "exam": [
+      "求角先排零，点积标量与方向向量区分",
+      "投影分清有号标量、非负长和向量，a非单位保模平方",
+      "恒力功保方向号，余项正交和cos范围回核"
+    ],
+    "quick": [
+      "余弦推导",
+      "分量点积",
+      "角度条件",
+      "投影分解",
+      "功与几何"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+        "page": 118,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_35.3",
+        "url": "https://openstax.org/books/calculus-volume-3/pages/2-3-the-dot-product",
+        "page_or_section": "2-3-the-dot-product",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+        "page": 118,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_35.3",
+        "url": "https://openstax.org/books/calculus-volume-3/pages/2-3-the-dot-product",
+        "page_or_section": "2-3-the-dot-product",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "求角先排零，点积标量与方向向量区分",
+      "method": "F·s。",
+      "principle": "功。",
+      "worked_example_index": 2,
+      "verification": "z分量作负功，不能全部取正。",
+      "pitfall": "用力模乘位移模。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由夹角定义与分量式连接正交投影”的抽样复核：|u|3、|v|√5，分母非0。；若出现“不排零就所有点积0必角90。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“求角工作和分解并审零向量条件”的抽样复核：z分量作负功，不能全部取正。；若出现“用力模乘位移模。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "看到两个向量相乘都画箭头。",
+        "correction": "标量。",
+        "verification": "可带单位但不是方向箭头。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "内积投影与恒力功",
+      "objects": [
+        "u3,4,0",
+        "a沿x",
+        "投影3,0,0",
+        "垂直余项",
+        "F与s夹角"
+      ],
+      "relations": [
+        "u平行余项点积0",
+        "标量与向量分栏",
+        "非单位a需模平方",
+        "功随cos可负"
+      ],
+      "labels": [
+        "u·a",
+        "proj",
+        "comp",
+        "余项",
+        "W=F·s"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "空间图需核右手系、遮挡及投影；透视图仅示意角度长度，定量依坐标",
+      "english": "Use a labelled right-handed three-dimensional coordinate system. Distinguish a point from a free vector, projection from true length, and direction vectors from plane normals. Perspective sketches must not imply false perpendicularity or intersection. Check dot, cross and scalar-triple products from exact coordinates; zero vectors do not define angles or unique normals."
+    }
+  },
+  "35.4": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 35,
+    "section_id": "35.4",
+    "goals": [
+      "由右手方向和行列式计算外积",
+      "用面积体积与法向量解释空间几何并审退化"
+    ],
+    "prerequisites": [
+      "内积",
+      "行列式",
+      "正交基"
+    ],
+    "flow": [
+      "方向定义",
+      "分量展开",
+      "面积",
+      "平面法向",
+      "带向体积"
+    ],
+    "concept_relation": "方向定义；分量展开；面积；平面法向；带向体积",
+    "deep": [
+      "三点A,B,C若不共线，可取AB×AC为其平面法向量，反序只给反向同一法线，不是另一不同平面。若三点共线，外积0表示不能由这三点唯一确定平面，需要额外独立方向；不可在方程中把法向量0当合法。",
+      "标量三重积u·(v×w)为带向体积，平行六面体实际体积取绝对，四面体对应除6。为0表示三向量线性相关、所张体积0；若将有向负值报告为负物理体积，就是没区分方向与大小。",
+      "运算保括号，外积不满足一般结合律，u×(v×w)与(u×v)×w通常不同。使用三重积恒等式需正确项次，不能沿标量乘法直觉重排。完整答案列分量、方向、模和所对应面积/体积对象，最后点积正交及量纲复核。"
+    ],
+    "derive": [
+      "u×v=(u₂v₃−u₃v₂,u₃v₁−u₁v₃,u₁v₂−u₂v₁)。",
+      "|u×v|=|u||v|sinθ；三角面积½|AB×AC|，非共线才给非零法向。",
+      "平行六面体V=|u·(v×w)|，四面体除6；交换两因子反向而体积大小不变。"
+    ],
+    "examples": [
+      {
+        "q": "u(1,2,0)、v(0,1,3)，求u×v和平行四边形面积。 条件：右手正交单位基。",
+        "given": "右手正交单位基。",
+        "analysis": "逐分量。",
+        "method": "外积。",
+        "principle": "面积模。",
+        "steps": [
+          "外积(2×3−0,0−3,1−0)=(6,−3,1)。",
+          "模√(36+9+1)=√46。"
+        ],
+        "ans": "(6,−3,1)，面积√46。",
+        "verification": "与u点积6−6=0，与v−3+3=0。",
+        "pitfall": "中间分量写+3。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.4",
+        "related_sections": []
+      },
+      {
+        "q": "u(1,0,0)、v(0,2,0)、w(0,0,3)张成体积及对应四面体体积。 条件：同一起点三边。",
+        "given": "同一起点三边。",
+        "analysis": "三重积。",
+        "method": "叉后点。",
+        "principle": "几何。",
+        "steps": [
+          "v×w=(6,0,0)，点u得6。",
+          "平行体6，四面体6/6=1。"
+        ],
+        "ans": "6与1立方单位。",
+        "verification": "矩形体边1,2,3乘积6。",
+        "pitfall": "四面体除2而非6。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.4",
+        "related_sections": []
+      },
+      {
+        "q": "A(1,0,0)、B(0,1,0)、C(0,0,1)，求平面一个法向。 条件：三点不共线。",
+        "given": "三点不共线。",
+        "analysis": "先AB与AC。",
+        "method": "叉积。",
+        "principle": "正交。",
+        "steps": [
+          "AB(−1,1,0)、AC(−1,0,1)。",
+          "AB×AC=(1,1,1)。"
+        ],
+        "ans": "(1,1,1)或任意非零倍。",
+        "verification": "与两边点积均0。",
+        "pitfall": "用位置A×B不经说明取错平面。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "j×i等多少？ 条件：右手单位基。",
+        "given": "右手单位基。",
+        "analysis": "逆序负。",
+        "method": "基叉积。",
+        "principle": "方向。",
+        "steps": [
+          "i×j=k。",
+          "j×i=−k。"
+        ],
+        "ans": "−k。",
+        "verification": "不能图上自行换左手。",
+        "pitfall": "仍k。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.4",
+        "related_sections": []
+      },
+      {
+        "q": "AB×AC模10，三角ABC面积？ 条件：同顶点边。",
+        "given": "同顶点边。",
+        "analysis": "平行面积一半。",
+        "method": "½。",
+        "principle": "几何。",
+        "steps": [
+          "面积10/2。",
+          "=5。"
+        ],
+        "ans": "5平方单位。",
+        "verification": "不是10。",
+        "pitfall": "混平行四边形与三角。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.4",
+        "related_sections": []
+      },
+      {
+        "q": "三点共线，AB×AC0可直接作唯一平面法向吗？ 条件：无其他点方向。",
+        "given": "无其他点方向。",
+        "analysis": "零无方向且平面不唯一。",
+        "method": "退化审。",
+        "principle": "几何。",
+        "steps": [
+          "共线可处多个平面。",
+          "零不能定非零法向。"
+        ],
+        "ans": "不可。",
+        "verification": "需额外非共线点或方向。",
+        "pitfall": "所有三点必唯一平面。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.4",
+        "related_sections": []
+      },
+      {
+        "q": "标量三重积−12，实际平行体体积？ 条件：长度单位一致。",
+        "given": "长度单位一致。",
+        "analysis": "取绝对。",
+        "method": "方向与大小。",
+        "principle": "体积。",
+        "steps": [
+          "有向−12。",
+          "实际12。"
+        ],
+        "ans": "12立方单位。",
+        "verification": "负号记录方向次序。",
+        "pitfall": "负体积。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "外积能像普通数乘那样任意交换与去括号吗？ 条件：三维向量。",
+      "given": "三维向量。",
+      "analysis": "反交换且非结合。",
+      "method": "反例。",
+      "principle": "运算性质。",
+      "steps": [
+        "i×j=k而j×i=−k。",
+        "i×(i×j)=i×k=−j，而(i×i)×j=0。"
+      ],
+      "ans": "不能。",
+      "verification": "括号及次序都有实质。",
+      "pitfall": "向量乘法全照数乘。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 35,
+      "primary_section": "35.4",
+      "related_sections": []
+    },
+    "exam": [
+      "右手系和次序先定，展开中项符号仔细核",
+      "外积后点原两向量验正交，模对应面积别漏半",
+      "三重积带向与实际体积分开，零外积不作单位法向"
+    ],
+    "quick": [
+      "方向定义",
+      "分量展开",
+      "面积",
+      "平面法向",
+      "带向体积"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+        "page": 127,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_35.4",
+        "url": "https://openstax.org/books/calculus-volume-3/pages/2-4-the-cross-product",
+        "page_or_section": "2-4-the-cross-product",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+        "page": 127,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_35.4",
+        "url": "https://openstax.org/books/calculus-volume-3/pages/2-4-the-cross-product",
+        "page_or_section": "2-4-the-cross-product",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "右手系和次序先定，展开中项符号仔细核",
+      "method": "叉积。",
+      "principle": "正交。",
+      "worked_example_index": 2,
+      "verification": "与两边点积均0。",
+      "pitfall": "用位置A×B不经说明取错平面。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由右手方向和行列式计算外积”的抽样复核：与u点积6−6=0，与v−3+3=0。；若出现“中间分量写+3。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用面积体积与法向量解释空间几何并审退化”的抽样复核：与两边点积均0。；若出现“用位置A×B不经说明取错平面。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "向量乘法全照数乘。",
+        "correction": "不能。",
+        "verification": "括号及次序都有实质。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "外积方向面积和体积",
+      "objects": [
+        "u v平面",
+        "法向6,−3,1",
+        "右手标记",
+        "三角半面积",
+        "三边体积"
+      ],
+      "relations": [
+        "法向点u v均0",
+        "交换法向反",
+        "三角面积√46/2",
+        "有向负值取绝对作体积"
+      ],
+      "labels": [
+        "u×v",
+        "右手",
+        "面积",
+        "三重积",
+        "退化"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "空间图需核右手系、遮挡及投影；透视图仅示意角度长度，定量依坐标",
+      "english": "Use a labelled right-handed three-dimensional coordinate system. Distinguish a point from a free vector, projection from true length, and direction vectors from plane normals. Perspective sketches must not imply false perpendicularity or intersection. Check dot, cross and scalar-triple products from exact coordinates; zero vectors do not define angles or unique normals."
+    }
+  },
+  "35.5": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 35,
+    "section_id": "35.5",
+    "goals": [
+      "从点方向和点法向建立空间方程",
+      "联立判断相交平行异面并计算角距"
+    ],
+    "prerequisites": [
+      "空间向量",
+      "内外积",
+      "线性方程"
+    ],
+    "flow": [
+      "方程建立",
+      "零分量",
+      "位置关系",
+      "角距投影",
+      "特殊回验"
+    ],
+    "concept_relation": "方程建立；零分量；位置关系；角距投影；特殊回验",
+    "deep": [
+      "直线与平面联立可用n·d判定：非0时唯一交点；为0时线方向在平面方向内，再看起点是否在面上以区分整线包含或平行无交。两平面若法向不平行则交线方向可取n₁×n₂，若平行还需判常数关系，不能见外积0就一律无交。",
+      "点到平面Ax+By+Cz+D=0的垂距为|Ax₀+By₀+Cz₀+D|/√(A²+B²+C²)。其由沿单位法向投影推得，分母不可省，方程整体乘非零常数不应改变距离。到直线距离可用|(P−A)×d|/|d|，d非0且对象需匹配。",
+      "直线与平面的锐夹角α满足sinα=|d·n|/(|d||n|)，因为点积先给线与法向夹角；两平面锐夹角则用法向点积绝对后arccos。不要两题都机械用cos；若问有向或钝二面角需按题指定。最后将交点代两式、距离核非负、角范围核0到90度，并说明平行包含等特殊情形。"
+    ],
+    "derive": [
+      "直线r=a+td，d≠0；平面n·(r−p)=0，n≠0。",
+      "线面：n·d≠0唯一交；=0时再验A在面否。点面距|Ax₀+By₀+Cz₀+D|/√(A²+B²+C²)。",
+      "锐线面角sinα=|d·n|/(|d||n|)，锐面面角cosβ=|n₁·n₂|/(|n₁||n₂|)。"
+    ],
+    "examples": [
+      {
+        "q": "线r=(1,−1,3)+t(2,1,−1)与面x+y+z=5交点。 条件：t实数。",
+        "given": "t实数。",
+        "analysis": "代三坐标。",
+        "method": "联立。",
+        "principle": "点在面。",
+        "steps": [
+          "和为1+2t−1+t+3−t=3+2t。",
+          "等5得t=1，点(3,0,2)。"
+        ],
+        "ans": "(3,0,2)。",
+        "verification": "和5且由同一t在线；n·d=2≠0唯一。",
+        "pitfall": "分别为三坐标取不同t。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.5",
+        "related_sections": []
+      },
+      {
+        "q": "过A(1,0,0)、B(0,1,0)、C(0,0,1)的平面方程。 条件：三点非共线。",
+        "given": "三点非共线。",
+        "analysis": "法向(1,1,1)。",
+        "method": "点法式。",
+        "principle": "外积法向。",
+        "steps": [
+          "n·(r−a)=x−1+y+z=0。",
+          "x+y+z=1。"
+        ],
+        "ans": "x+y+z=1。",
+        "verification": "三点各代都1，法向非0。",
+        "pitfall": "用其中一条边作法向。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.5",
+        "related_sections": []
+      },
+      {
+        "q": "原点到平面x+2y+2z=6的距离。 条件：正交等单位系。",
+        "given": "正交等单位系。",
+        "analysis": "单位法向投影。",
+        "method": "点面距。",
+        "principle": "几何。",
+        "steps": [
+          "分子|0−6|=6，分母√(1+4+4)=3。",
+          "距离2。"
+        ],
+        "ans": "2单位。",
+        "verification": "面等式乘2后分子12分母6仍2。",
+        "pitfall": "只报6。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.5",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "L₁=(t,t,0)、L₂=(s,1,1)相交吗？ 条件：t s独立实参数。",
+        "given": "t s独立实参数。",
+        "analysis": "z坐标矛盾且方向不平行。",
+        "method": "联立。",
+        "principle": "空间。",
+        "steps": [
+          "L₁的z=0，L₂的z=1，不能同点。",
+          "方向(1,1,0)与(1,0,0)非平行，故异面。"
+        ],
+        "ans": "异面，不相交。",
+        "verification": "投影可能交但第三维不同。",
+        "pitfall": "非平行就相交。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.5",
+        "related_sections": []
+      },
+      {
+        "q": "方向d(1,−1,0)的线经过原点，与面x+y+z=0关系？ 条件：线r=td。",
+        "given": "线r=td。",
+        "analysis": "n·d=0且起点在面。",
+        "method": "线面判定。",
+        "principle": "法向。",
+        "steps": [
+          "点积1−1=0。",
+          "原点满足面，所以整线包含。"
+        ],
+        "ans": "直线在平面内。",
+        "verification": "n·d=0不能只说平行无交。",
+        "pitfall": "把平行方向与不相交等同。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.5",
+        "related_sections": []
+      },
+      {
+        "q": "方向(0,1,0)、过(2,0,3)的直线分量式？ 条件：t实数。",
+        "given": "t实数。",
+        "analysis": "零分量用常坐标。",
+        "method": "向量式。",
+        "principle": "直线。",
+        "steps": [
+          "x=2,y=t,z=3。",
+          "不写除0对称式。"
+        ],
+        "ans": "x=2,y=t,z=3。",
+        "verification": "方向沿y，另两固定。",
+        "pitfall": "(x−2)/0强当合法分式。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.5",
+        "related_sections": []
+      },
+      {
+        "q": "两平面法向(1,0,0)与(1,1,0)，锐夹角？ 条件：均非零。",
+        "given": "均非零。",
+        "analysis": "cos绝对比。",
+        "method": "点积。",
+        "principle": "法向角。",
+        "steps": [
+          "cosβ=1/√2。",
+          "β=45°。"
+        ],
+        "ans": "45°。",
+        "verification": "线面角才用相应sin关系。",
+        "pitfall": "套线面正弦而未区分对象。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 35,
+        "primary_section": "35.5",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "n·d=0是否足以判断直线与平面没有交点？ 条件：尚未查起点。",
+      "given": "尚未查起点。",
+      "analysis": "方向条件只给平行于面方向。",
+      "method": "再检A。",
+      "principle": "线面分类。",
+      "steps": [
+        "若A在面，整线包含。",
+        "若A不在面，才无交。"
+      ],
+      "ans": "不足。",
+      "verification": "一个额外点代入即可区分。",
+      "pitfall": "点积0直接无交。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 35,
+      "primary_section": "35.5",
+      "related_sections": []
+    },
+    "exam": [
+      "先点方向或点法向，非零和零分量写对",
+      "空间交点用两参数三坐标同时，非平行仍可能异面",
+      "线面点积0再验点，角距区分对象并回代、不漏模分母"
+    ],
+    "quick": [
+      "方程建立",
+      "零分量",
+      "位置关系",
+      "角距投影",
+      "特殊回验"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+        "page": 132,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_35.5",
+        "url": "https://openstax.org/books/calculus-volume-3/pages/2-5-equations-of-lines-and-planes-in-space",
+        "page_or_section": "2-5-equations-of-lines-and-planes-in-space",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+        "page": 132,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_35.5",
+        "url": "https://openstax.org/books/calculus-volume-3/pages/2-5-equations-of-lines-and-planes-in-space",
+        "page_or_section": "2-5-equations-of-lines-and-planes-in-space",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先点方向或点法向，非零和零分量写对",
+      "method": "点面距。",
+      "principle": "几何。",
+      "worked_example_index": 2,
+      "verification": "面等式乘2后分子12分母6仍2。",
+      "pitfall": "只报6。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“从点方向和点法向建立空间方程”的抽样复核：和5且由同一t在线；n·d=2≠0唯一。；若出现“分别为三坐标取不同t。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“联立判断相交平行异面并计算角距”的抽样复核：面等式乘2后分子12分母6仍2。；若出现“只报6。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "点积0直接无交。",
+        "correction": "不足。",
+        "verification": "一个额外点代入即可区分。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "线面位置分类与距离",
+      "objects": [
+        "点方向直线",
+        "点法向平面",
+        "唯一交点3,0,2",
+        "平行包含分支",
+        "原点到面垂距"
+      ],
+      "relations": [
+        "n点d2给唯一交",
+        "点积0再验起点",
+        "面法向非面内方向",
+        "距6/3=2",
+        "异面两参数z矛盾"
+      ],
+      "labels": [
+        "d",
+        "n",
+        "t",
+        "交点",
+        "垂距",
+        "锐夹角"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "空间图需核右手系、遮挡及投影；透视图仅示意角度长度，定量依坐标",
+      "english": "Use a labelled right-handed three-dimensional coordinate system. Distinguish a point from a free vector, projection from true length, and direction vectors from plane normals. Perspective sketches must not imply false perpendicularity or intersection. Check dot, cross and scalar-triple products from exact coordinates; zero vectors do not define angles or unique normals."
+    }
+  }
+}

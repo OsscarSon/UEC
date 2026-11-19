@@ -530,5 +530,152 @@
       "\\sin x=a\\iff x=\\alpha+2k\\pi\\ \\text{或}\\ x=\\pi-\\alpha+2k\\pi,\\quad\\alpha=\\arcsin a,\\ k\\in\\mathbb Z",
       "|a|≤1；边界两族可能重合，最终按原域区间筛选去重回代。"
     ]
+  ],
+  "数学33/33.1": [
+    [
+      "坐标与参数范围",
+      "x=r\\cos\\theta,\\quad y=r\\sin\\theta;\\qquad x=2\\cos t,\\ y=2\\sin t,\\ 0\\le t\\le\\pi\\Rightarrow y\\ge0",
+      "消参数保留实际范围；除r前查原点。"
+    ]
+  ],
+  "数学33/33.2": [
+    [
+      "焦准与类型",
+      "PF=e\\,d(P,l);\\quad 0<e<1,\\ e=1,\\ e>1",
+      "相应非退化条件分别椭圆、抛物线、双曲线；直接e0的固定焦准式不是普通圆。"
+    ]
+  ],
+  "数学33/33.3": [
+    [
+      "抛物线与切线",
+      "y^2=4px,\\quad F=(p,0),\\quad l:x=-p;\\qquad yy_1=2p(x+x_1)",
+      "p≠0，切点先在曲线上；顶点切线竖直。"
+    ]
+  ],
+  "数学33/33.4": [
+    [
+      "椭圆参数",
+      "\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1,\\quad c^2=a^2-b^2,\\quad e=c/a",
+      "a≥b>0且长轴水平时焦点(±c,0)；较大分母定长轴。"
+    ]
+  ],
+  "数学33/33.5": [
+    [
+      "双曲线参数",
+      "\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1,\\quad c^2=a^2+b^2,\\quad y=\\pm\\frac ba x",
+      "a,b>0，不需a>b；末式为渐近线，非曲线点集。"
+    ]
+  ],
+  "数学34/34.1": [
+    [
+      "共轭与非零除法",
+      "i^2=-1,\\quad\\overline{a+bi}=a-bi,\\quad z\\bar z=a^2+b^2",
+      "虚部为b，不是bi；除数为0排除。"
+    ]
+  ],
+  "数学34/34.2": [
+    [
+      "模与主辐角",
+      "|x+yi|=\\sqrt{x^2+y^2},\\quad\\operatorname{Arg}z\\in(-\\pi,\\pi],\\ z\\ne0",
+      "零的模0，辐角未定义；主值范围在本节明确。"
+    ]
+  ],
+  "数学34/34.3": [
+    [
+      "三角式乘除",
+      "z_1z_2=r_1r_2\\operatorname{cis}(\\theta_1+\\theta_2),\\quad\\frac{z_1}{z_2}=\\frac{r_1}{r_2}\\operatorname{cis}(\\theta_1-\\theta_2)",
+      "商需z₂非0；主辐角结果回指定区间。"
+    ]
+  ],
+  "数学34/34.4": [
+    [
+      "棣美弗整数幂",
+      "(r\\operatorname{cis}\\theta)^n=r^n\\operatorname{cis}(n\\theta),\\quad n\\in\\mathbb Z",
+      "非正指数按定义排零；不能不分支直接替分数指数。"
+    ]
+  ],
+  "数学34/34.5": [
+    [
+      "全部n次根",
+      "z_k=R^{1/n}\\operatorname{cis}\\!\\left(\\frac{\\phi+2k\\pi}{n}\\right),\\quad k=0,\\ldots,n-1",
+      "w=Rcisφ≠0、n正整数；w0仅不同根0，重数n。"
+    ]
+  ],
+  "数学35/35.1": [
+    [
+      "空间距离",
+      "AB=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}",
+      "正交同单位轴；透视投影不是真实长度。"
+    ]
+  ],
+  "数学35/35.2": [
+    [
+      "空间向量与内分",
+      "\\overrightarrow{AB}=\\mathbf b-\\mathbf a,\\quad\\mathbf p=\\frac{n\\mathbf a+m\\mathbf b}{m+n}",
+      "AP:PB=m:n，m,n>0；位置向量与位移区别。"
+    ]
+  ],
+  "数学35/35.3": [
+    [
+      "内积与向量投影",
+      "\\mathbf u\\cdot\\mathbf v=\\sum u_iv_i,\\quad\\operatorname{proj}_{\\mathbf a}\\mathbf u=\\frac{\\mathbf u\\cdot\\mathbf a}{|\\mathbf a|^2}\\mathbf a",
+      "正交坐标；投影a非0，求夹角两向量均非0。"
+    ]
+  ],
+  "数学35/35.4": [
+    [
+      "外积面积与体积",
+      "K_\\triangle=\\frac12|\\overrightarrow{AB}\\times\\overrightarrow{AC}|,\\quad V=|\\mathbf u\\cdot(\\mathbf v\\times\\mathbf w)|",
+      "V为平行六面体体积，四面体再除6；非零外积才确定法向。"
+    ]
+  ],
+  "数学35/35.5": [
+    [
+      "线面方程与垂距",
+      "\\mathbf r=\\mathbf a+t\\mathbf d,\\quad\\mathbf n\\cdot(\\mathbf r-\\mathbf p)=0,\\quad d=\\frac{|Ax_0+By_0+Cz_0+D|}{\\sqrt{A^2+B^2+C^2}}",
+      "方向和法向非0；点面距离公式不可漏分母。"
+    ]
+  ],
+  "物理18/18.1": [
+    [
+      "平面镜位置",
+      "x_{\\rm image}=2x_{\\rm mirror}-x_{\\rm object}",
+      "同一法向有号坐标；像构造反延线非真实镜后传播。"
+    ]
+  ],
+  "物理18/18.2": [
+    [
+      "近轴球面镜",
+      "\\frac1f=\\frac1u+\\frac1v,\\quad m=-\\frac vu",
+      "实物u正，凹f正凸f负；镜前实v正、镜后虚v负。"
+    ]
+  ],
+  "物理18/18.3": [
+    [
+      "折射与波量",
+      "n_1\\sin i=n_2\\sin r,\\quad n=c/v_{\\rm phase},\\quad\\lambda=\\lambda_0/n",
+      "角对法线；相应静止透明介质模型f不变。"
+    ]
+  ],
+  "物理18/18.4": [
+    [
+      "视深与侧移",
+      "d_{\\rm app}\\simeq d\\frac{n_{\\rm observer}}{n_{\\rm object}},\\quad\\delta=t\\frac{\\sin(i-r)}{\\cos r}",
+      "视深近法线；侧移为平行板、同外介质且t沿法线。"
+    ]
+  ],
+  "物理18/18.5": [
+    [
+      "全反射条件",
+      "\\sin i_c=\\frac{n_2}{n_1},\\quad n_1>n_2,\\quad i>i_c",
+      "i为内部对法线角；i=ic是临界，外介质改变需重算。"
+    ]
+  ],
+  "物理18/18.6": [
+    [
+      "折射率正弦图",
+      "\\sin i=\\frac{n_{\\rm sample}}{n_{\\rm outside}}\\sin r",
+      "纵sin i横sin r；换轴斜率倒数，角度图不能直接同用。"
+    ]
   ]
 }

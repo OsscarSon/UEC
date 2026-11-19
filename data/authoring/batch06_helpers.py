@@ -6,7 +6,13 @@ BASE={};NOTES={};REG=[]
 NAMES={'bio':'生物','phys':'物理','chem':'化学','math':'数学'}
 CODES={'bio':'biology','phys':'physics','chem':'chemistry','math':'math_shared'}
 # Per-goal checks point to real worked questions; references are instructional samples.
-DIAGNOSTIC_REFS={}
+DIAGNOSTIC_REFS={
+ ('bio','4.1'):['e1','e0'],('bio','4.2'):['e0','e1'],('bio','4.5'):['e0','e1'],('bio','4.7'):['e0','e1'],
+ ('bio','5.1'):['p3','e2'],('bio','5.4'):['p2','e2'],('bio','5.6'):['p2','e1'],
+ ('bio','6.2'):['e0','e1'],('bio','6.3'):['e1','e0'],('bio','8.2'):['e0','e1'],('bio','8.3'):['e1','e0'],
+ ('bio','14.2'):['e2','e1'],('bio','14.3'):['p1','e1'],('bio','15.4'):['e2','e0'],
+ ('bio','16.1'):['p0','e2'],('bio','16.2'):['e2','e0'],('bio','16.3'):['p2','e0'],('bio','17.3'):['q0','e0']
+}
 DIAGNOSTIC_REVIEW={('bio','15.1'):[4,7],('bio','15.2'):[4,7],('bio','15.3'):[4,7],('bio','15.4'):[4,7],('bio','16.1'):[5,7],('bio','16.2'):[4,7],('bio','16.3'):[5,7],('bio','16.4'):[4,7],('bio','17.1'):[4,7],('bio','17.2'):[4,7],('bio','17.3'):[4,7],('bio','17.4'):[4,7],('phys','14.1'):[4,7]}
 EXTRA_THEORY={('bio','4.7'):['https://dokumen.pub/50366241b762a3c2b78989c47ca84b70.html'],('bio','14.4'):['https://openstax.org/books/biology-2e/pages/15-2-prokaryotic-transcription','https://openstax.org/books/biology-2e/pages/15-3-eukaryotic-transcription','https://openstax.org/books/biology-2e/pages/15-4-rna-processing-in-eukaryotes','https://openstax.org/books/biology-2e/pages/15-5-ribosomes-and-protein-synthesis']}
 DIRECTORY_GROUPS={}

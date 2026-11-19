@@ -1,23 +1,25 @@
 {
-  "status": "in_progress",
+  "status": "delivered_with_stated_review_limits",
   "statistics": {
     "target_unique_chapters": 40,
     "minimum_new_chapters_each_course": 8,
-    "new_unique_chapters": 36,
-    "new_real_sections": 197,
-    "new_examples": 591,
-    "new_practice": 788,
-    "new_quiz": 197,
-    "new_original_questions": 1576,
+    "new_unique_chapters": 40,
+    "new_real_sections": 218,
+    "new_examples": 654,
+    "new_practice": 872,
+    "new_quiz": 218,
+    "new_original_questions": 1744,
     "course_counts": {
-      "physics": 9,
+      "physics": 10,
       "chemistry": 8,
       "biology": 8,
       "adv_math_i": 8,
-      "adv_math_ii": 11
+      "adv_math_ii": 14
     },
     "math_shared_counted_once": true,
-    "request_complete": false
+    "authoring_target_reached": true,
+    "request_complete": true,
+    "teacher_or_official_approved": false
   },
   "chapters": [
     {
@@ -54,7 +56,7 @@
           "title": "万能细胞——干细胞"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "bio05",
@@ -90,7 +92,7 @@
           "title": "三大营养物质代谢的关系"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "bio06",
@@ -122,7 +124,7 @@
           "title": "物质在植物体内运输的动力是什么"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "bio08",
@@ -158,7 +160,7 @@
           "title": "尿液是如何形成的"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "bio14",
@@ -186,7 +188,7 @@
           "title": "基因突变"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "bio15",
@@ -210,7 +212,7 @@
           "title": "常见的人类遗传病"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "bio16",
@@ -234,7 +236,7 @@
           "title": "基因工程的争议"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "bio17",
@@ -258,7 +260,7 @@
           "title": "生物多样性的保护"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "chem15",
@@ -294,7 +296,7 @@
           "title": "卤氧酸"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "chem19",
@@ -330,7 +332,7 @@
           "title": "能量的充分利用"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "chem20",
@@ -358,7 +360,7 @@
           "title": "催化剂与化学反应速率"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "chem21",
@@ -398,7 +400,7 @@
           "title": "勒沙特列原理及应用"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "chem22",
@@ -430,7 +432,7 @@
           "title": "沉淀的转化"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "chem24",
@@ -470,7 +472,7 @@
           "title": "金属的腐蚀与防护"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "chem28",
@@ -514,7 +516,7 @@
           "title": "烯烃的来源和制取"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "chem32",
@@ -554,11 +556,11 @@
           "title": "苯酚的工业制法"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "math06",
-      "subject": "数学共用内容",
+      "subject": "高级数学（I／II共用）",
       "chapter": 6,
       "sections": [
         {
@@ -582,11 +584,11 @@
           "title": "线性规划"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "math07",
-      "subject": "数学共用内容",
+      "subject": "高级数学（I／II共用）",
       "chapter": 7,
       "sections": [
         {
@@ -610,11 +612,11 @@
           "title": "推理"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "math08",
-      "subject": "数学共用内容",
+      "subject": "高级数学（I／II共用）",
       "chapter": 8,
       "sections": [
         {
@@ -626,11 +628,11 @@
           "title": "弧长与扇形面积"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "math09",
-      "subject": "数学共用内容",
+      "subject": "高级数学（I／II共用）",
       "chapter": 9,
       "sections": [
         {
@@ -650,11 +652,11 @@
           "title": "反三角函数"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "math10",
-      "subject": "数学共用内容",
+      "subject": "高级数学（I／II共用）",
       "chapter": 10,
       "sections": [
         {
@@ -674,11 +676,11 @@
           "title": "测量问题"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "math11",
-      "subject": "数学共用内容",
+      "subject": "高级数学（I／II共用）",
       "chapter": 11,
       "sections": [
         {
@@ -698,11 +700,11 @@
           "title": "三角方程式"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "math28",
-      "subject": "数学共用内容",
+      "subject": "高级数学（I／II共用）",
       "chapter": 28,
       "sections": [
         {
@@ -730,11 +732,11 @@
           "title": "曲线的作图法"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "math29",
-      "subject": "数学共用内容",
+      "subject": "高级数学（I／II共用）",
       "chapter": 29,
       "sections": [
         {
@@ -758,11 +760,11 @@
           "title": "分部积分法"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "math30",
-      "subject": "数学共用内容",
+      "subject": "高级数学（II）",
       "chapter": 30,
       "sections": [
         {
@@ -782,11 +784,11 @@
           "title": "一阶常微分方程的应用"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "math31",
-      "subject": "数学共用内容",
+      "subject": "高级数学（II）",
       "chapter": 31,
       "sections": [
         {
@@ -806,11 +808,11 @@
           "title": "数值方法"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "math32",
-      "subject": "数学共用内容",
+      "subject": "高级数学（II）",
       "chapter": 32,
       "sections": [
         {
@@ -822,7 +824,91 @@
           "title": "坐标系的旋转（转轴）"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "math33",
+      "subject": "高级数学（II）",
+      "chapter": 33,
+      "sections": [
+        {
+          "id": "33.1",
+          "title": "曲线的坐标表示"
+        },
+        {
+          "id": "33.2",
+          "title": "圆锥曲线"
+        },
+        {
+          "id": "33.3",
+          "title": "抛物线"
+        },
+        {
+          "id": "33.4",
+          "title": "椭圆"
+        },
+        {
+          "id": "33.5",
+          "title": "双曲线"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "math34",
+      "subject": "高级数学（II）",
+      "chapter": 34,
+      "sections": [
+        {
+          "id": "34.1",
+          "title": "复数"
+        },
+        {
+          "id": "34.2",
+          "title": "复平面及复数的模与辐角"
+        },
+        {
+          "id": "34.3",
+          "title": "复数的三角函数式"
+        },
+        {
+          "id": "34.4",
+          "title": "棣美弗定理"
+        },
+        {
+          "id": "34.5",
+          "title": "根的性质"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "math35",
+      "subject": "高级数学（II）",
+      "chapter": 35,
+      "sections": [
+        {
+          "id": "35.1",
+          "title": "空间直角坐标系"
+        },
+        {
+          "id": "35.2",
+          "title": "空间向量几何"
+        },
+        {
+          "id": "35.3",
+          "title": "向量的内积"
+        },
+        {
+          "id": "35.4",
+          "title": "向量的外积"
+        },
+        {
+          "id": "35.5",
+          "title": "空间中的直线与平面方程式"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "phys09",
@@ -854,7 +940,7 @@
           "title": "角动量守恒定律"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "phys10",
@@ -886,7 +972,7 @@
           "title": "受迫振动 共振"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "phys12",
@@ -914,7 +1000,7 @@
           "title": "液体的性质"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "phys13",
@@ -946,7 +1032,7 @@
           "title": "液体的热膨胀"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "phys14",
@@ -970,7 +1056,7 @@
           "title": "热辐射"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "phys15",
@@ -1002,7 +1088,7 @@
           "title": "气体的等压变化 查理定律"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "phys17",
@@ -1038,7 +1124,39 @@
           "title": "多普勒效应"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "phys18",
+      "subject": "物理",
+      "chapter": 18,
+      "sections": [
+        {
+          "id": "18.1",
+          "title": "光的反射 平面镜成像"
+        },
+        {
+          "id": "18.2",
+          "title": "球面镜成像"
+        },
+        {
+          "id": "18.3",
+          "title": "光的折射 折射率"
+        },
+        {
+          "id": "18.4",
+          "title": "对几个折射现象的分析"
+        },
+        {
+          "id": "18.5",
+          "title": "全反射"
+        },
+        {
+          "id": "18.6",
+          "title": "测定折射率的方法"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "phys19",
@@ -1062,7 +1180,7 @@
           "title": "透镜焦距的测定"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     },
     {
       "stem": "phys20",
@@ -1094,7 +1212,7 @@
           "title": "光的速度"
         }
       ],
-      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
     }
   ]
 }

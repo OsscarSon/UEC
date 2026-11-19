@@ -41,7 +41,7 @@ for ev in sorted((R/'data/batch06').glob('*-sections.json')):
    C(key+' standalone assumptions',q['given'] in q['q'])
    C(key+' original not official',q['question_origin']=='original' and q['paper_no'] is None)
    allq.append(q['q'])
-  audit.append(dict(subject=u['subject'],chapter=u['chapter_id'],section=s['id'],title=s['t'],explanatory_characters=size,paragraphs=len(text),examples=len(u['examples']),practice=len(u['practice']),module_inputs=12,review_status='structural_pass_scientific_review_pending',teacher_approved=False))
+  audit.append(dict(subject=u['subject'],chapter=u['chapter_id'],section=s['id'],title=s['t'],explanatory_characters=size,paragraphs=len(text),examples=len(u['examples']),practice=len(u['practice']),module_inputs=12,review_status='structural_pass_no_automatic_scientific_certification',teacher_approved=False))
   paragraphs+=text;counts['sections']+=1;counts['examples']+=len(u['examples']);counts['practice']+=len(u['practice']);counts['quiz']+=1
  counts['chapters']+=1
 C('no identical teaching paragraphs',len(paragraphs)==len(set(paragraphs)))

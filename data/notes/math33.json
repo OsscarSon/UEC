@@ -1,0 +1,1531 @@
+{
+  "33.1": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 33,
+    "section_id": "33.1",
+    "goals": [
+      "把轨迹条件转成笛卡尔方程并双向验证",
+      "消参数时保留实际轨迹范围",
+      "连接极坐标与直角坐标且检查原点"
+    ],
+    "prerequisites": [
+      "坐标距离",
+      "参数",
+      "三角恒等式"
+    ],
+    "flow": [
+      "几何条件",
+      "双向方程",
+      "参数范围",
+      "极直转换",
+      "完整性核验"
+    ],
+    "concept_relation": "几何条件；双向方程；参数范围；极直转换；完整性核验",
+    "deep": [
+      "例如x=2cost、y=2sint、0≤t≤π得x²+y²=4且y≥0。消参数只得圆式是不完整的，需证每个上半圆点能由允许t达到，端点都包含。若用t=tan角替代，也要审原参数极点是否使某点遗漏。",
+      "极坐标以(r,θ)描述到极点距离和方向，在非负r约定下x=rcosθ、y=rsinθ。某些约定允许负r并配反向角，必须先说明；不能同时用不同约定而乱计轨迹。r=0时各角代表同原点，除r可能将该点丢掉。",
+      "由r=4cosθ及非负r相应角域，可乘r得到r²=4rcosθ，即x²+y²=4x，圆心(2,0)、半径2。反推需核r=0与允许角域，不能只代符号便说所有极坐标表示都唯一；同一点可有整周不同角。",
+      "作图与解题应区分集合、参数方向和代数表示，最后用几个点及边界反验。图形库只绘某角范围时，不能把未绘部分误称数学不存在；审查记录说明实际模型和限制，不将一幅漂亮曲线当轨迹完整性证明。"
+    ],
+    "derive": [
+      "轨迹等价需两向：原条件⇒方程及限制；方程及限制⇒原条件。",
+      "x=2cost,y=2sint,0≤t≤π：x²+y²=4且y≥0。",
+      "x=rcosθ,y=rsinθ,r²=x²+y²；除r前先审原点，角域与负r约定分清。"
+    ],
+    "examples": [
+      {
+        "q": "到A(−2,1)、B(4,1)等距点的轨迹。 条件：实平面，无其他限制。",
+        "given": "实平面，无其他限制。",
+        "analysis": "距离平方相等。",
+        "method": "坐标建式。",
+        "principle": "垂直平分。",
+        "steps": [
+          "(x+2)²+(y−1)²=(x−4)²+(y−1)²。",
+          "展开12x=12得x1，所有该线点距确相等。"
+        ],
+        "ans": "x=1。",
+        "verification": "AB中点(1,1)，轨迹与水平AB垂直。",
+        "pitfall": "只求一个中点代替整线。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.1",
+        "related_sections": []
+      },
+      {
+        "q": "消去x=2cost,y=2sint中参数并说明范围。 条件：0≤t≤π。",
+        "given": "0≤t≤π。",
+        "analysis": "平方和及sin非负。",
+        "method": "恒等式。",
+        "principle": "轨迹范围。",
+        "steps": [
+          "x²+y²=4。",
+          "且y≥0，包含(2,0)、(−2,0)，由t递增沿上半圆。"
+        ],
+        "ans": "上半圆x²+y²=4,y≥0。",
+        "verification": "下半圆不能由允许t达到。",
+        "pitfall": "消t后报整圆。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.1",
+        "related_sections": []
+      },
+      {
+        "q": "把r=4cosθ转直角坐标并核原点。 条件：r≥0、−π/2≤θ≤π/2，标准极坐标。",
+        "given": "r≥0、−π/2≤θ≤π/2，标准极坐标。",
+        "analysis": "乘r并补原点分析。",
+        "method": "x=rcosθ。",
+        "principle": "极直转换。",
+        "steps": [
+          "r²4rcosθ给x²+y²=4x，即(x−2)²+y²=4。",
+          "θ±π/2给r=0，原点包含；其余圆点有相应右半平面方向。"
+        ],
+        "ans": "圆心(2,0)半径2的圆，含原点。",
+        "verification": "x范围0到4与给定角域一致。",
+        "pitfall": "除r丢原点或半径写4。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "x=t,y=t²，t≥0，普通方程及范围？ 条件：实参数。",
+        "given": "实参数。",
+        "analysis": "消t但保t非负。",
+        "method": "替换。",
+        "principle": "参数轨迹。",
+        "steps": [
+          "y=x²。",
+          "x≥0，只有右半抛物线。"
+        ],
+        "ans": "y=x²,x≥0。",
+        "verification": "(−1,1)不应包含。",
+        "pitfall": "报整条抛物线。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.1",
+        "related_sections": []
+      },
+      {
+        "q": "r3、θπ/6，直角坐标？ 条件：r非负。",
+        "given": "r非负。",
+        "analysis": "投影。",
+        "method": "cos sin。",
+        "principle": "定义。",
+        "steps": [
+          "x3√3/2。",
+          "y3/2。"
+        ],
+        "ans": "(3√3/2,3/2)。",
+        "verification": "平方和9。",
+        "pitfall": "sin cos角色反。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.1",
+        "related_sections": []
+      },
+      {
+        "q": "同圆参数t0到4π与0到2π，轨迹集合一定不同吗？ 条件：x=cost,y=sint。",
+        "given": "x=cost,y=sint。",
+        "analysis": "多走不改集合。",
+        "method": "区分次数。",
+        "principle": "周期。",
+        "steps": [
+          "两者都覆盖单位圆。",
+          "前者走两周，运动描述不同但点集同。"
+        ],
+        "ans": "集合相同，覆盖次数不同。",
+        "verification": "不能把次数当半径倍增。",
+        "pitfall": "参数时间倍增圆也变大。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.1",
+        "related_sections": []
+      },
+      {
+        "q": "r=0极坐标点有唯一θ吗？ 条件：标准极点。",
+        "given": "标准极点。",
+        "analysis": "所有方向同一零半径。",
+        "method": "定义。",
+        "principle": "表示非唯一。",
+        "steps": [
+          "x=0cosθ=0,y=0sinθ=0。",
+          "任意θ都同原点。"
+        ],
+        "ans": "没有唯一θ。",
+        "verification": "算法atan2(0,0)需另约定。",
+        "pitfall": "原点必θ0且数学上唯一。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "消参数所得方程通过几个点验证，够证明与原轨迹完全相同吗？ 条件：原题可能有参数范围。",
+      "given": "原题可能有参数范围。",
+      "analysis": "有限点不能覆盖漏/增集合。",
+      "method": "两向与范围审。",
+      "principle": "轨迹等价。",
+      "steps": [
+        "需证明所有方程点可由允许参数或条件达到。",
+        "也需原轨迹点均满足，有限点只作验算。"
+      ],
+      "ans": "不够。",
+      "verification": "上半圆反例说明同方程可范围不同。",
+      "pitfall": "图形像就算全等价。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 33,
+      "primary_section": "33.1",
+      "related_sections": []
+    },
+    "exam": [
+      "轨迹先条件转式，再反向核所有解与边界",
+      "参数域和方向单列，普通方程不保存次数",
+      "极坐标先约r和角域，除r先查原点，不把表示唯一性假定掉"
+    ],
+    "quick": [
+      "几何条件",
+      "双向方程",
+      "参数范围",
+      "极直转换",
+      "完整性核验"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+        "page": 14,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_33.1",
+        "url": "https://openstax.org/books/precalculus-2e/pages/8-6-parametric-equations",
+        "page_or_section": "8-6-parametric-equations",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+        "page": 14,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_33.1",
+        "url": "https://openstax.org/books/precalculus-2e/pages/8-6-parametric-equations",
+        "page_or_section": "8-6-parametric-equations",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "轨迹先条件转式，再反向核所有解与边界",
+      "method": "x=rcosθ。",
+      "principle": "极直转换。",
+      "worked_example_index": 2,
+      "verification": "x范围0到4与给定角域一致。",
+      "pitfall": "除r丢原点或半径写4。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“把轨迹条件转成笛卡尔方程并双向验证”的抽样复核：AB中点(1,1)，轨迹与水平AB垂直。；若出现“只求一个中点代替整线。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e1",
+        "review_module": 5,
+        "feedback": "目标“消参数时保留实际轨迹范围”的抽样复核：下半圆不能由允许t达到。；若出现“消t后报整圆。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 2,
+        "question_ref": "e2",
+        "review_module": 7,
+        "feedback": "目标“连接极坐标与直角坐标且检查原点”的抽样复核：x范围0到4与给定角域一致。；若出现“除r丢原点或半径写4。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "图形像就算全等价。",
+        "correction": "不够。",
+        "verification": "上半圆反例说明同方程可范围不同。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "同轨迹的三种坐标表示",
+      "objects": [
+        "等距轨迹x1",
+        "参数上半圆",
+        "极坐标偏心圆",
+        "范围与方向箭头"
+      ],
+      "relations": [
+        "上半圆保y≥0",
+        "极式圆心2半径2",
+        "r=0原点保留",
+        "集合与走向分开"
+      ],
+      "labels": [
+        "笛卡尔",
+        "参数t",
+        "极坐标",
+        "允许范围",
+        "原点"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "圆锥曲线图必须核焦点、准线、参数条件及等比例轴；形似图不可替代方程生成",
+      "english": "Generate exact conic geometry from the stated equation on equal-scale axes. Label centre or vertex, foci, directrices and asymptotes consistently. Distinguish a locus from an oriented parametrization and retain parameter restrictions after elimination. Tangents require a point on the curve; asymptotes are not curve branches. State nondegeneracy and parameter sign conditions."
+    }
+  },
+  "33.2": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 33,
+    "section_id": "33.2",
+    "goals": [
+      "从截锥与焦点准线理解曲线分类",
+      "用离心率和二次式辨认非退化及退化情形"
+    ],
+    "prerequisites": [
+      "平面距离",
+      "圆锥",
+      "二次方程"
+    ],
+    "flow": [
+      "截锥几何",
+      "焦准比例",
+      "离心率",
+      "二次型线索",
+      "退化存在"
+    ],
+    "concept_relation": "截锥几何；焦准比例；离心率；二次型线索；退化存在",
+    "deep": [
+      "一般二次式Ax²+Bxy+Cy²+Dx+Ey+F₀=0，A,B,C不全0，二次型判别B²−4AC可提供类型线索：负常对应椭圆型、零抛物型、正双曲型。但实点存在、是否退化还依线性项及常数，不能只看这一数就断实际曲线。",
+      "例如x²+y²+1=0没有实点，x²+y²=0只一点，x²−y²=0是两相交直线；它们的二次项形式与非退化曲线可相似。配方、平移或转轴后再看标准式及参数正性，才是完整分类。",
+      "不同定义可互相连接：椭圆两焦距离和固定、双曲线距离差绝对值固定、抛物线到焦准等距。后续各节推导参数关系并验焦点，不将公式字母a,b,c在不同曲线中视为同一个大小约定。最后明确所画是实非退化曲线、退化轨迹还是无实解。"
+    ],
+    "derive": [
+      "PF=e·d(P,l)，F不在l、e>0：0<e<1椭圆，e=1抛物线，e>1双曲线（相应非退化条件）。",
+      "圆是椭圆e→0的极限，有限焦准式直接e0只给PF0。",
+      "B²−4AC是二次型线索，不能单独排除退化或无实点。"
+    ],
+    "examples": [
+      {
+        "q": "焦准比PF/d=.75的相应非退化轨迹属哪类？ 条件：F不在准线且距离非0的正常点。",
+        "given": "F不在准线且距离非0的正常点。",
+        "analysis": "e在0到1。",
+        "method": "离心率。",
+        "principle": "焦准定义。",
+        "steps": [
+          "e=.75。",
+          "0<e<1，属椭圆。"
+        ],
+        "ans": "椭圆。",
+        "verification": "非主观从图形长短猜。",
+        "pitfall": "e小于1就称圆。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.2",
+        "related_sections": []
+      },
+      {
+        "q": "x²+y²+1=0可因B²−4AC<0就称实椭圆吗？ 条件：实平面。",
+        "given": "实平面。",
+        "analysis": "平方和非负。",
+        "method": "存在性。",
+        "principle": "二次式。",
+        "steps": [
+          "x²+y²=−1。",
+          "左非负，无实解。"
+        ],
+        "ans": "不可，无实点。",
+        "verification": "判别负只说明二次型类型，不保证非空。",
+        "pitfall": "只看判别忽略常数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.2",
+        "related_sections": []
+      },
+      {
+        "q": "x²−y²=0是什么实轨迹？ 条件：实x,y。",
+        "given": "实x,y。",
+        "analysis": "因式分解。",
+        "method": "(x−y)(x+y)。",
+        "principle": "退化二次曲线。",
+        "steps": [
+          "零乘积给y=x或y=−x。",
+          "为两相交直线。"
+        ],
+        "ans": "两直线，退化情形。",
+        "verification": "原点交点，不是两条非退化双曲支。",
+        "pitfall": "判别正就必普通双曲线。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "e1焦准式意味着什么距离关系？ 条件：相应F与l。",
+        "given": "相应F与l。",
+        "analysis": "等距。",
+        "method": "定义。",
+        "principle": "抛物线。",
+        "steps": [
+          "PF=d(P,l)。",
+          "非退化时抛物线。"
+        ],
+        "ans": "到焦点与准线等距。",
+        "verification": "不是到两点等距。",
+        "pitfall": "混成垂直平分线。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.2",
+        "related_sections": []
+      },
+      {
+        "q": "x²+y²=0实点集？ 条件：实数平方非负。",
+        "given": "实数平方非负。",
+        "analysis": "两平方必须都0。",
+        "method": "非负和。",
+        "principle": "代数。",
+        "steps": [
+          "x=0且y=0。",
+          "只原点。"
+        ],
+        "ans": "单点(0,0)。",
+        "verification": "不是半径非零圆。",
+        "pitfall": "半径0也当普通非退化圆。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.2",
+        "related_sections": []
+      },
+      {
+        "q": "普通圆可直接用有限F,l的PF=0×d定义吗？ 条件：l不经过F且e取0。",
+        "given": "l不经过F且e取0。",
+        "analysis": "右恒0。",
+        "method": "代入定义。",
+        "principle": "极限与直接取值。",
+        "steps": [
+          "PF0只P=F。",
+          "普通圆需看椭圆极限而非此固定配置。"
+        ],
+        "ans": "不可以。",
+        "verification": "极限参数变化不能与固定参数直接取值混同。",
+        "pitfall": "e0所以任何焦准图是圆。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.2",
+        "related_sections": []
+      },
+      {
+        "q": "旋转坐标会改变同一曲线的离心率吗？ 条件：纯正交坐标改变，点与长度不变。",
+        "given": "纯正交坐标改变，点与长度不变。",
+        "analysis": "几何不变量。",
+        "method": "距离。",
+        "principle": "定义。",
+        "steps": [
+          "PF和点到准线距离保持。",
+          "比例e不变。"
+        ],
+        "ans": "不会。",
+        "verification": "方程系数可变不等几何本性变。",
+        "pitfall": "看到B项改变就e也变。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "只看二次式没有xy项，能断一定是圆吗？ 条件：A,C及其他项任意但二次项非全0。",
+      "given": "A,C及其他项任意但二次项非全0。",
+      "analysis": "无交叉不决定同系数。",
+      "method": "给反例。",
+      "principle": "标准式。",
+      "steps": [
+        "x²/4+y²=1无xy却是椭圆。",
+        "x²−y²=1亦无xy为双曲线。"
+      ],
+      "ans": "不能。",
+      "verification": "还需系数与常数及存在性。",
+      "pitfall": "无xy当圆的充分条件。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 33,
+      "primary_section": "33.2",
+      "related_sections": []
+    },
+    "exam": [
+      "焦准分类注明e和非退化条件，圆极限不硬套e0",
+      "二次型判别之后还需配方看实点与退化",
+      "图与公式保同尺度，曲线参数定义逐类核，不跨曲线背同关系"
+    ],
+    "quick": [
+      "截锥几何",
+      "焦准比例",
+      "离心率",
+      "二次型线索",
+      "退化存在"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+        "page": 23,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_33.2",
+        "url": "https://openstax.org/books/precalculus-2e/pages/10-5-conic-sections-in-polar-coordinates",
+        "page_or_section": "10-5-conic-sections-in-polar-coordinates",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+        "page": 23,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_33.2",
+        "url": "https://openstax.org/books/precalculus-2e/pages/10-5-conic-sections-in-polar-coordinates",
+        "page_or_section": "10-5-conic-sections-in-polar-coordinates",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "焦准分类注明e和非退化条件，圆极限不硬套e0",
+      "method": "(x−y)(x+y)。",
+      "principle": "退化二次曲线。",
+      "worked_example_index": 2,
+      "verification": "原点交点，不是两条非退化双曲支。",
+      "pitfall": "判别正就必普通双曲线。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“从截锥与焦点准线理解曲线分类”的抽样复核：非主观从图形长短猜。；若出现“e小于1就称圆。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用离心率和二次式辨认非退化及退化情形”的抽样复核：原点交点，不是两条非退化双曲支。；若出现“判别正就必普通双曲线。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "无xy当圆的充分条件。",
+        "correction": "不能。",
+        "verification": "还需系数与常数及存在性。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "截锥与焦准分类",
+      "objects": [
+        "双锥切平面",
+        "焦F准线l",
+        "PF与垂距",
+        "e三范围",
+        "退化反例"
+      ],
+      "relations": [
+        "准线不过F",
+        "e1等距",
+        "e0直接式仅点需注",
+        "判别仍核实点"
+      ],
+      "labels": [
+        "PF",
+        "d(P,l)",
+        "e",
+        "非退化",
+        "无实点"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "圆锥曲线图必须核焦点、准线、参数条件及等比例轴；形似图不可替代方程生成",
+      "english": "Generate exact conic geometry from the stated equation on equal-scale axes. Label centre or vertex, foci, directrices and asymptotes consistently. Distinguish a locus from an oriented parametrization and retain parameter restrictions after elimination. Tangents require a point on the curve; asymptotes are not curve branches. State nondegeneracy and parameter sign conditions."
+    }
+  },
+  "33.3": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 33,
+    "section_id": "33.3",
+    "goals": [
+      "由焦准等距推导标准方程",
+      "确定平移后的焦点准线并求合法切线"
+    ],
+    "prerequisites": [
+      "距离公式",
+      "配方",
+      "微分"
+    ],
+    "flow": [
+      "等距推导",
+      "参数几何",
+      "移轴标准",
+      "切线条件",
+      "反射边界"
+    ],
+    "concept_relation": "等距推导；参数几何；移轴标准；切线条件；反射边界",
+    "deep": [
+      "可用微分求曲线上点切线，y²=4px给2yy′=4p，在y非0时斜率2p/y。顶点y=0处是竖直切线x=0，不能因斜率除零就说没有切线；更一般切线式yy₁=2p(x+x₁)在曲线点处也能涵盖顶点。",
+      "几何光学的抛物反射性质把平行轴的理想入射光反射向焦点，需理想镜面、对应平面/旋转体与近似条件，不能把所有入射方向都画向同一焦点。实际制造、孔径和波动效应另影响，不将数学性质当所有实际装置完美成像保证。",
+      "题目依定义建立或变形标准式后，验焦点与准线对顶点对称，选点回代距离。切线先验点在曲线上再代公式；外点不能直接写成“该点切线”，需要求切点或联立重根。完整答案区分普通斜率、竖直切线及非法外点。"
+    ],
+    "derive": [
+      "y²=4px（p≠0）：焦点(p,0)、准线x=−p、顶点(0,0)。",
+      "(y−k)²=4p(x−h)：焦点(h+p,k)，准线x=h−p。",
+      "曲线上(x₁,y₁)的切线yy₁=2p(x+x₁)；点先验在曲线上，顶点切线竖直。"
+    ],
+    "examples": [
+      {
+        "q": "y²=12x的焦点准线及顶点？ 条件：实平面。",
+        "given": "实平面。",
+        "analysis": "4p12。",
+        "method": "标准式。",
+        "principle": "焦准定义。",
+        "steps": [
+          "p3。",
+          "F(3,0)，准线x−3，顶点(0,0)。"
+        ],
+        "ans": "F(3,0)、x=−3、顶点原点。",
+        "verification": "焦准距6，顶点在中间。",
+        "pitfall": "p取12或6。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.3",
+        "related_sections": []
+      },
+      {
+        "q": "求y²=12x在P(3,6)的切线。 条件：先确认P在曲线上。",
+        "given": "先确认P在曲线上。",
+        "analysis": "点成立，微分或点式。",
+        "method": "yy₁=2p(x+x₁)。",
+        "principle": "切线。",
+        "steps": [
+          "36=12×3点合法。",
+          "6y=6(x+3)，即y=x+3。"
+        ],
+        "ans": "y=x+3。",
+        "verification": "用x=y−3代入得y²−12y+36=(y−6)²0，为重交。",
+        "pitfall": "外点不验直接代切式。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.3",
+        "related_sections": []
+      },
+      {
+        "q": "(y+2)²=−8(x−1)，焦点准线和开向？ 条件：平移标准式。",
+        "given": "平移标准式。",
+        "analysis": "h1,k−2,p−2。",
+        "method": "参数。",
+        "principle": "焦准。",
+        "steps": [
+          "顶点(1,−2)。",
+          "F(−1,−2)，准线x3，开左。"
+        ],
+        "ans": "F(−1,−2)、x=3，开左。",
+        "verification": "焦点在顶点左2，准线右2。",
+        "pitfall": "负p还向右。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "x²=20y焦点？ 条件：竖轴标准式。",
+        "given": "竖轴标准式。",
+        "analysis": "p5。",
+        "method": "交换角色。",
+        "principle": "抛物线。",
+        "steps": [
+          "4p20。",
+          "F(0,5)，准线y−5。"
+        ],
+        "ans": "(0,5)。",
+        "verification": "开上。",
+        "pitfall": "写(5,0)。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.3",
+        "related_sections": []
+      },
+      {
+        "q": "y²=12x的顶点切线？ 条件：p=3，顶点原点。",
+        "given": "p=3，顶点原点。",
+        "analysis": "竖直。",
+        "method": "点式。",
+        "principle": "切线。",
+        "steps": [
+          "0=6x。",
+          "x=0。"
+        ],
+        "ans": "x=0。",
+        "verification": "y=0是轴不是切线。",
+        "pitfall": "斜率无定义等无切线。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.3",
+        "related_sections": []
+      },
+      {
+        "q": "P(3,6)到F(3,0)与准线x−3距离？ 条件：y²=12x模型。",
+        "given": "y²=12x模型。",
+        "analysis": "直接核定义。",
+        "method": "距离。",
+        "principle": "焦准等距。",
+        "steps": [
+          "PF6。",
+          "到直线距离|3+3|=6。"
+        ],
+        "ans": "各6。",
+        "verification": "点在曲线，等距吻合。",
+        "pitfall": "用y坐标作到竖线距离。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.3",
+        "related_sections": []
+      },
+      {
+        "q": "能用P(0,2)直接当y²=12x上的切点吗？ 条件：给曲线方程。",
+        "given": "给曲线方程。",
+        "analysis": "先点代。",
+        "method": "核合法。",
+        "principle": "曲线点条件。",
+        "steps": [
+          "左4右0。",
+          "不在曲线，不能用点切式当该点处切线。"
+        ],
+        "ans": "不能。",
+        "verification": "外点引切线是另一问题。",
+        "pitfall": "任何点都可代公式称该点切线。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "理想抛物镜可把任意方向来的所有平行光都汇到同一焦点吗？ 条件：仅有标准轴向反射性质。",
+      "given": "仅有标准轴向反射性质。",
+      "analysis": "入射方向条件不能删。",
+      "method": "审几何。",
+      "principle": "反射定律。",
+      "steps": [
+        "该性质针对平行抛物轴的理想入射。",
+        "非轴向光需要另分析，不能宣称同焦点完美汇聚。"
+      ],
+      "ans": "不可。",
+      "verification": "数学几何性质也需指定入射条件。",
+      "pitfall": "有抛物线就任何光都向焦。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 33,
+      "primary_section": "33.3",
+      "related_sections": []
+    },
+    "exam": [
+      "焦准定义推式，比较4p后画焦点准线",
+      "平移先定h k，负p方向与距离有号/无号分开",
+      "切点先验，顶点竖线不因斜率无定义漏掉"
+    ],
+    "quick": [
+      "等距推导",
+      "参数几何",
+      "移轴标准",
+      "切线条件",
+      "反射边界"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+        "page": 28,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_33.3",
+        "url": "https://openstax.org/books/precalculus-2e/pages/10-3-the-parabola",
+        "page_or_section": "10-3-the-parabola",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+        "page": 28,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_33.3",
+        "url": "https://openstax.org/books/precalculus-2e/pages/10-3-the-parabola",
+        "page_or_section": "10-3-the-parabola",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "焦准定义推式，比较4p后画焦点准线",
+      "method": "参数。",
+      "principle": "焦准。",
+      "worked_example_index": 2,
+      "verification": "焦点在顶点左2，准线右2。",
+      "pitfall": "负p还向右。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由焦准等距推导标准方程”的抽样复核：焦准距6，顶点在中间。；若出现“p取12或6。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“确定平移后的焦点准线并求合法切线”的抽样复核：焦点在顶点左2，准线右2。；若出现“负p还向右。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "有抛物线就任何光都向焦。",
+        "correction": "不可。",
+        "verification": "数学几何性质也需指定入射条件。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "抛物线焦准与切线",
+      "objects": [
+        "y²=12x曲线",
+        "F3,0",
+        "准线x−3",
+        "P3,6",
+        "顶点竖线",
+        "P切线y=x3"
+      ],
+      "relations": [
+        "PF与准线距均6",
+        "p3不是12",
+        "顶点切线x=0",
+        "切线与轴不同"
+      ],
+      "labels": [
+        "顶点",
+        "焦点",
+        "准线",
+        "p",
+        "切点"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "圆锥曲线图必须核焦点、准线、参数条件及等比例轴；形似图不可替代方程生成",
+      "english": "Generate exact conic geometry from the stated equation on equal-scale axes. Label centre or vertex, foci, directrices and asymptotes consistently. Distinguish a locus from an oriented parametrization and retain parameter restrictions after elimination. Tangents require a point on the curve; asymptotes are not curve branches. State nondegeneracy and parameter sign conditions."
+    }
+  },
+  "33.4": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 33,
+    "section_id": "33.4",
+    "goals": [
+      "由两焦距离和推导标准式及参数关系",
+      "判长轴方向并求焦点离心率和合法切线"
+    ],
+    "prerequisites": [
+      "距离",
+      "配方",
+      "隐函数微分"
+    ],
+    "flow": [
+      "焦和存在",
+      "标准式推导",
+      "半轴焦点",
+      "平移方向",
+      "切线验算"
+    ],
+    "concept_relation": "焦和存在；标准式推导；半轴焦点；平移方向；切线验算",
+    "deep": [
+      "平移椭圆以(x−h)²、(y−k)²表示中心，先化右边为1再比较分母。分母是半轴的平方不是轴长，完整长轴2a、短轴2b。水平椭圆在c>0时准线x=±a²/c，e0圆的该有限准线表示需另看极限。",
+      "在椭圆曲线上点(x₁,y₁)的切线为xx₁/a²+yy₁/b²=1，可由微分和点斜式推导并涵盖竖直顶点情形。代入前先验点在曲线上；若外点，要解切点条件而非把外点直接塞成切线。法线与切线垂直但斜率0或不存在时要用轴向线处理。",
+      "图示要等比例轴，焦点在长轴内部而非长轴端点，任何曲线点到两焦和应为2a。参数x=acost,y=bsint可生成全椭圆，t区间决定覆盖范围。考试最后用焦和、端点及中心回代，防止“看起来椭圆”却参数与方程矛盾。"
+    ],
+    "derive": [
+      "r_L+r_R=2a，r_L²−r_R²=4cx⇒r_R=a−cx/a，再平方得x²/a²+y²/b²=1。",
+      "a²=b²+c²，e=c/a；a≥b>0，横长轴时F(±c,0)。",
+      "曲线上点切线xx₁/a²+yy₁/b²=1；平移先用相对中心坐标。"
+    ],
+    "examples": [
+      {
+        "q": "x²/25+y²/9=1的半轴、焦点及离心率。 条件：标准横长轴椭圆。",
+        "given": "标准横长轴椭圆。",
+        "analysis": "分母开方。",
+        "method": "参数关系。",
+        "principle": "焦和定义。",
+        "steps": [
+          "a5,b3，c√(25−9)=4。",
+          "F(±4,0)，e4/5。"
+        ],
+        "ans": "a5,b3，焦点(±4,0)，e.8。",
+        "verification": "长轴10、短轴6；焦点在内部。",
+        "pitfall": "25当长轴长或c√34。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.4",
+        "related_sections": []
+      },
+      {
+        "q": "求椭圆x²/25+y²/9=1在P(3,12/5)的切线。 条件：先验P满足该方程，再用对应曲线上点切线式。",
+        "given": "先验P满足该方程，再用对应曲线上点切线式。",
+        "analysis": "归一式点切线。",
+        "method": "代合法点。",
+        "principle": "微分。",
+        "steps": [
+          "9/25+(144/25)/9=1。",
+          "3x/25+4y/15=1，乘75得9x+20y=75。"
+        ],
+        "ans": "9x+20y=75。",
+        "verification": "P代27+48=75，微分斜率−9/20。",
+        "pitfall": "漏分母平方或点不在曲线。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.4",
+        "related_sections": []
+      },
+      {
+        "q": "两焦(±4,0)，距离和固定6可成普通椭圆吗？ 条件：实平面。",
+        "given": "实平面。",
+        "analysis": "总距不得小于焦距8。",
+        "method": "三角不等式。",
+        "principle": "轨迹存在。",
+        "steps": [
+          "PF₁+PF₂≥F₁F₂=8。",
+          "固定6不可能。"
+        ],
+        "ans": "无实轨迹。",
+        "verification": "不能用a3,c4开负b²后取绝对补救。",
+        "pitfall": "任何正距和都能椭圆。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "(x−1)²/4+(y+2)²/16=1中心与焦点方向？ 条件：标准平移椭圆。",
+        "given": "标准平移椭圆。",
+        "analysis": "y分母大。",
+        "method": "半轴。",
+        "principle": "几何。",
+        "steps": [
+          "中心(1,−2)，a4沿y,b2。",
+          "c√12=2√3，焦点(1,−2±2√3)。"
+        ],
+        "ans": "竖长轴；中心与焦点如上。",
+        "verification": "不是x方向焦点。",
+        "pitfall": "默认x项在前就是长轴。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.4",
+        "related_sections": []
+      },
+      {
+        "q": "a5、e.6，c与b？ 条件：椭圆a为长半轴。",
+        "given": "椭圆a为长半轴。",
+        "analysis": "c=ae。",
+        "method": "平方差。",
+        "principle": "参数。",
+        "steps": [
+          "c3。",
+          "b√(25−9)=4。"
+        ],
+        "ans": "c3,b4。",
+        "verification": "3 4 5对应a为斜边。",
+        "pitfall": "把c作斜边。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.4",
+        "related_sections": []
+      },
+      {
+        "q": "x²/25+y²/9=1在(5,0)切线？ 条件：顶点为曲线点。",
+        "given": "顶点为曲线点。",
+        "analysis": "点式。",
+        "method": "5x/25=1。",
+        "principle": "切线。",
+        "steps": [
+          "x/5=1。",
+          "x5。"
+        ],
+        "ans": "x=5。",
+        "verification": "竖直斜率不存在但有切线。",
+        "pitfall": "答y=0。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.4",
+        "related_sections": []
+      },
+      {
+        "q": "参数x=5cost,y=3sint是否总满足x²/25+y²/9=1？ 条件：t任意实数。",
+        "given": "t任意实数。",
+        "analysis": "代归一式。",
+        "method": "平方和。",
+        "principle": "三角恒等。",
+        "steps": [
+          "x²/25=cos²t,y²/9=sin²t。",
+          "和1。"
+        ],
+        "ans": "满足；全周t可覆盖全椭圆。",
+        "verification": "给更短t域则覆盖范围另审。",
+        "pitfall": "参数系数应25和9。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "焦点能画在椭圆长轴端点(±a,0)而不变其他参数吗？ 条件：非退化且b>0。",
+      "given": "非退化且b>0。",
+      "analysis": "c²=a²−b²<a²。",
+      "method": "大小。",
+      "principle": "参数关系。",
+      "steps": [
+        "c<a。",
+        "焦点严格在两个长轴端点之间，不等端点。"
+      ],
+      "ans": "不能。",
+      "verification": "若c=a则b0退化，已不是所给椭圆。",
+      "pitfall": "顶点与焦点同一点。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 33,
+      "primary_section": "33.4",
+      "related_sections": []
+    },
+    "exam": [
+      "先右边归1再开分母根辨长轴，a b c关系按椭圆",
+      "焦和常数先审大于焦距，e与准线有条件",
+      "切点先验，竖直切线不漏，焦点在长轴内回核"
+    ],
+    "quick": [
+      "焦和存在",
+      "标准式推导",
+      "半轴焦点",
+      "平移方向",
+      "切线验算"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+        "page": 38,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_33.4",
+        "url": "https://openstax.org/books/precalculus-2e/pages/10-1-the-ellipse",
+        "page_or_section": "10-1-the-ellipse",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+        "page": 38,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_33.4",
+        "url": "https://openstax.org/books/precalculus-2e/pages/10-1-the-ellipse",
+        "page_or_section": "10-1-the-ellipse",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先右边归1再开分母根辨长轴，a b c关系按椭圆",
+      "method": "三角不等式。",
+      "principle": "轨迹存在。",
+      "worked_example_index": 2,
+      "verification": "不能用a3,c4开负b²后取绝对补救。",
+      "pitfall": "任何正距和都能椭圆。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由两焦距离和推导标准式及参数关系”的抽样复核：长轴10、短轴6；焦点在内部。；若出现“25当长轴长或c√34。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“判长轴方向并求焦点离心率和合法切线”的抽样复核：不能用a3,c4开负b²后取绝对补救。；若出现“任何正距和都能椭圆。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "顶点与焦点同一点。",
+        "correction": "不能。",
+        "verification": "若c=a则b0退化，已不是所给椭圆。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "椭圆参数与焦和",
+      "objects": [
+        "x²/25+y²/9曲线",
+        "半轴5与3",
+        "焦±4",
+        "P3,12/5两焦连线",
+        "切线"
+      ],
+      "relations": [
+        "焦和10",
+        "c4非√34",
+        "切线9x+20y=75",
+        "等比例轴",
+        "焦点在内"
+      ],
+      "labels": [
+        "a5",
+        "b3",
+        "c4",
+        "e4/5",
+        "2a10"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "圆锥曲线图必须核焦点、准线、参数条件及等比例轴；形似图不可替代方程生成",
+      "english": "Generate exact conic geometry from the stated equation on equal-scale axes. Label centre or vertex, foci, directrices and asymptotes consistently. Distinguish a locus from an oriented parametrization and retain parameter restrictions after elimination. Tangents require a point on the curve; asymptotes are not curve branches. State nondegeneracy and parameter sign conditions."
+    }
+  },
+  "33.5": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 33,
+    "section_id": "33.5",
+    "goals": [
+      "由两焦距离差绝对值建立标准式",
+      "正确确定实轴焦点渐近线并区分退化与切线"
+    ],
+    "prerequisites": [
+      "距离",
+      "渐近线",
+      "隐函数微分"
+    ],
+    "flow": [
+      "焦差两支",
+      "标准推导",
+      "实轴焦点",
+      "渐近线",
+      "切线与退化"
+    ],
+    "concept_relation": "焦差两支；标准推导；实轴焦点；渐近线；切线与退化",
+    "deep": [
+      "对横轴式，渐近线y=±(b/a)x，可由远处常数1相对二次项影响小看出，也可由双曲函数参数作极限。渐近线不是曲线自身的分支，标准非退化式不能把线直接并入点集；曲线在有限点不满足两线所对应零二次式。",
+      "曲线上点切线xx₁/a²−yy₁/b²=1，先验点再用。顶点切线竖直，渐近线与切线功能不同，不能将某点切线误认整条渐近线。矩形双曲线a=b时两渐近线互垂，xy常数的图可经适当旋轴联系，但原轴中的参数位置需保持约定。",
+      "解题依焦距差及正项确定模型，再列中心、顶点、焦点、渐近线和e。检查焦点在顶点外侧、差绝对值2a及原式正负号，可抓住许多漂亮但错误的图。若联立直线求交，应审是否真正两交、相切或无交，代数消元的特殊平行渐近方向需独立处理。"
+    ],
+    "derive": [
+      "横轴双曲线x²/a²−y²/b²=1，c²=a²+b²，c>a>0，e=c/a>1。",
+      "焦差|PF₁−PF₂|=2a，渐近线y=±(b/a)x；a,b均正但不必a>b。",
+      "曲线上点切线xx₁/a²−yy₁/b²=1；平移用相对中心坐标。"
+    ],
+    "examples": [
+      {
+        "q": "x²/9−y²/16=1的焦点、离心率和渐近线。 条件：标准横轴双曲线。",
+        "given": "标准横轴双曲线。",
+        "analysis": "a3,b4,c5。",
+        "method": "参数。",
+        "principle": "焦差模型。",
+        "steps": [
+          "c√(9+16)=5，F(±5,0)，e5/3。",
+          "渐近线y=±4x/3。"
+        ],
+        "ans": "焦点(±5,0)，e5/3，渐近线y±4x/3。",
+        "verification": "c>a，虽a<b仍合法。",
+        "pitfall": "用椭圆平方差得负c²。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.5",
+        "related_sections": []
+      },
+      {
+        "q": "求双曲线x²/9−y²/16=1在P(5,16/3)的切线，并核焦差。 条件：标准横轴双曲线a=3、b=4，焦点由c²=a²+b²确定。",
+        "given": "标准横轴双曲线a=3、b=4，焦点由c²=a²+b²确定。",
+        "analysis": "点先验。",
+        "method": "点切式与距离。",
+        "principle": "微分及定义。",
+        "steps": [
+          "25/9−(256/9)/16=1，切线5x/9−y/3=1即5x−3y=9。",
+          "到两焦距离16/3、34/3，差6=2a。"
+        ],
+        "ans": "5x−3y=9；焦距差6。",
+        "verification": "P代25−16=9，焦差吻合。",
+        "pitfall": "双曲切线减号写加。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.5",
+        "related_sections": []
+      },
+      {
+        "q": "xy=1在轴逆时针π/4后如何变标准双曲线？ 条件：x=(X−Y)/√2,y=(X+Y)/√2。",
+        "given": "x=(X−Y)/√2,y=(X+Y)/√2。",
+        "analysis": "乘积化平方差。",
+        "method": "转轴。",
+        "principle": "二次式。",
+        "steps": [
+          "xy=(X²−Y²)/2。",
+          "故X²/2−Y²/2=1。"
+        ],
+        "ans": "矩形双曲线，a=b=√2。",
+        "verification": "原渐近线x=0,y=0互垂；不能把它们画作曲线部分。",
+        "pitfall": "把xy乘积化平方和。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.5",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "y²/25−x²/9=1，焦点方向与c？ 条件：实平面。",
+        "given": "实平面。",
+        "analysis": "正项y。",
+        "method": "参数。",
+        "principle": "双曲线。",
+        "steps": [
+          "a5沿y,b3。",
+          "c√34，F(0,±√34)。"
+        ],
+        "ans": "竖轴，c√34。",
+        "verification": "不是较小分母方向。",
+        "pitfall": "总按x轴。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.5",
+        "related_sections": []
+      },
+      {
+        "q": "双曲线可a2,b5吗？ 条件：均正参数。",
+        "given": "均正参数。",
+        "analysis": "无a>b要求。",
+        "method": "参数关系。",
+        "principle": "标准式。",
+        "steps": [
+          "c√29>a2。",
+          "e√29/2>1，合法。"
+        ],
+        "ans": "可以。",
+        "verification": "椭圆长短轴约定不能搬过来。",
+        "pitfall": "b大就非法。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.5",
+        "related_sections": []
+      },
+      {
+        "q": "x²/9−y²/16=1上的点能同时在渐近线y=4x/3吗？ 条件：有限实坐标。",
+        "given": "有限实坐标。",
+        "analysis": "代后左0。",
+        "method": "联立。",
+        "principle": "方程。",
+        "steps": [
+          "y=(4/3)x使x²/9−y²/16=0。",
+          "不可能等1。"
+        ],
+        "ans": "不能。",
+        "verification": "趋近不是取到。",
+        "pitfall": "渐近线就是一条双曲支。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.5",
+        "related_sections": []
+      },
+      {
+        "q": "两焦(±5,0)距离差绝对值固定0的轨迹？ 条件：不同焦点。",
+        "given": "不同焦点。",
+        "analysis": "等距。",
+        "method": "垂直平分。",
+        "principle": "距离。",
+        "steps": [
+          "PF左=PF右。",
+          "轨迹x=0，为直线而非非退化双曲线。"
+        ],
+        "ans": "x=0。",
+        "verification": "普通双曲线定义a>0。",
+        "pitfall": "常数0也画两支。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 33,
+        "primary_section": "33.5",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "双曲线焦距差定义可去绝对值且仍保留左右两支吗？ 条件：固定焦点次序，a>0。",
+      "given": "固定焦点次序，a>0。",
+      "analysis": "两支差符号相反。",
+      "method": "比较左右顶点。",
+      "principle": "距离。",
+      "steps": [
+        "右支到左焦更远，左支相反。",
+        "固定有号差2a只留一支。"
+      ],
+      "ans": "不能，需绝对值或两种有号分支。",
+      "verification": "定义符号影响点集。",
+      "pitfall": "绝对值只是装饰。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 33,
+      "primary_section": "33.5",
+      "related_sections": []
+    },
+    "exam": [
+      "正项定实轴，c²用和，a b不强制大小",
+      "焦差绝对值保两支，参数正性与退化先核",
+      "渐近线非曲线，切线点先验，焦点在顶点外核图"
+    ],
+    "quick": [
+      "焦差两支",
+      "标准推导",
+      "实轴焦点",
+      "渐近线",
+      "切线与退化"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+        "page": 49,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_33.5",
+        "url": "https://openstax.org/books/precalculus-2e/pages/10-2-the-hyperbola",
+        "page_or_section": "10-2-the-hyperbola",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+        "page": 49,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_33.5",
+        "url": "https://openstax.org/books/precalculus-2e/pages/10-2-the-hyperbola",
+        "page_or_section": "10-2-the-hyperbola",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "正项定实轴，c²用和，a b不强制大小",
+      "method": "转轴。",
+      "principle": "二次式。",
+      "worked_example_index": 2,
+      "verification": "原渐近线x=0,y=0互垂；不能把它们画作曲线部分。",
+      "pitfall": "把xy乘积化平方和。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由两焦距离差绝对值建立标准式”的抽样复核：c>a，虽a<b仍合法。；若出现“用椭圆平方差得负c²。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“正确确定实轴焦点渐近线并区分退化与切线”的抽样复核：原渐近线x=0,y=0互垂；不能把它们画作曲线部分。；若出现“把xy乘积化平方和。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "绝对值只是装饰。",
+        "correction": "不能，需绝对值或两种有号分支。",
+        "verification": "定义符号影响点集。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "双曲线焦差与渐近线",
+      "objects": [
+        "x²/9−y²/16两支",
+        "顶点±3",
+        "焦点±5",
+        "渐近线±4x/3",
+        "P距离"
+      ],
+      "relations": [
+        "c5在顶点外",
+        "焦差绝对值6",
+        "渐近虚线不并入曲线",
+        "a3小于b4合法"
+      ],
+      "labels": [
+        "a3",
+        "b4",
+        "c5",
+        "e5/3",
+        "渐近线"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "圆锥曲线图必须核焦点、准线、参数条件及等比例轴；形似图不可替代方程生成",
+      "english": "Generate exact conic geometry from the stated equation on equal-scale axes. Label centre or vertex, foci, directrices and asymptotes consistently. Distinguish a locus from an oriented parametrization and retain parameter restrictions after elimination. Tangents require a point on the curve; asymptotes are not curve branches. State nondegeneracy and parameter sign conditions."
+    }
+  }
+}

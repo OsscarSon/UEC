@@ -67,5 +67,26 @@
     "Expand sine and cosine sums with the correct product terms and cosine sign reversal. For acute A,B with sinA3/5,cosB12/13, sine of the sum is56/65 and cosine33/65. Match3sinx+4cosx to5sin(x+phi) with cosphi3/5,sinphi4/5, and check whether maximum-phase points lie in the allowed domain.",
     "Distinguish sin(2x) from(sinx)squared. For cosx=-3/5 in quadrantII, sin(2x)=-24/25 and cos(2x)=-7/25. For x in(pi,2pi) the half-angle is in quadrantII, so sine of the half-angle is positive and cosine negative. Lowering sin squared x cos squared x gives(1-cos4x)/8.",
     "For sin(2x)=1/2 on[0,2pi), mark all four roots pi/12,5pi/12,13pi/12,17pi/12. For sin2x=sinx retain both sinx=0 and2cosx-1=0 branches; never divide away the zero factor. Square-induced candidates must be checked in the original equation, with open or closed interval endpoints respected."
+  ],
+  "math33": [
+    "The locus equidistant from(-2,1) and(4,1) is x=1. Parametric x=2cos t,y=2sin t with t in[0,pi] covers only the upper semicircle, so preserve y>=0. Polar r=4cos theta with r>=0 and theta from-pi/2 topi/2 gives the full circle centred(2,0),radius2,including the origin.",
+    "Distinguish nondegenerate conics from empty or degenerate real loci. PF=e times distance to a directrix classifies0<e<1,e=1,e>1 under its conditions. Setting e=0 with a fixed finite focus/directrix gives only the focus, not a circle. The quadratic-type discriminant alone does not prove real points exist.",
+    "For y squared=12x, p=3,focus(3,0),directrix x=-3 and vertex(0,0). P(3,6) has equal focal/directrix distances6 and tangent y=x+3; the vertex tangent is x=0, not no tangent. Keep actual rays separate from mathematical extension lines in any reflection application.",
+    "For x squared/25+y squared/9=1, semi-axes5 and3, foci(+/-4,0),eccentricity4/5 and total focal distance10. At(3,12/5) the tangent is9x+20y=75. The larger denominator identifies the major-axis direction; foci lie inside the vertices.",
+    "For x squared/9-y squared/16=1, a3,b4,c5,e5/3 and asymptotes y=+/-4x/3. The tangent at(5,16/3) is5x-3y=9, and the absolute focal-distance difference is6. Both branches need the absolute-value definition; asymptotes are dashed and are not branches."
+  ],
+  "math34": [
+    "Use i squared=-1, and label the imaginary part of a+bi as the real coefficient b rather than bi. Show multiplication and nonzero conjugate division. The quotient(3+4i)/(1-2i)=-1+2i, and z+2conjugate(z)=6+3i gives z=2-3i.",
+    "On equal real/imaginary axes, z=-3+4i has modulus5 and principal argument pi-arctan(4/3) in(-pi,pi]. Zero has no argument. The locus abs(z-1)<abs(z+1) is the open right half-plane. On abs(z)=2, distance to1 ranges from1 to3 at z=2 and z=-2.",
+    "For nonzero polar complex numbers, multiply moduli and add arguments; divide moduli and subtract arguments.2cis(pi/3) times3cis(-pi/6)=6cis(pi/6). Principal arguments need wrapping back to(-pi,pi]; conjugate and reciprocal have different moduli unless the modulus is1.",
+    "De Moivre applies to integer powers, with nonzero base for nonpositive powers as appropriate. (1+i)^8=16, (sqrt3-i)^6=-64, and(2cis(pi/3))^(-3)=-1/8. Do not treat an unqualified fractional power as the complete set of roots.",
+    "All cube roots of8 are2,-1+i sqrt3,-1-i sqrt3. All fourth roots of-16 have modulus2 and angles pi/4+k pi/2 for k0..3. Roots of zero have only one distinct point with multiplicity n. Conjugate-pair guarantees require real polynomial coefficients."
+  ],
+  "math35": [
+    "Use a right-handed orthogonal unit coordinate frame. From A(1,2,-1) to B(4,6,11), coordinate difference(3,4,12) has length13. For P(2,-3,4), distances to the xy plane,x-axis and origin are4,5,sqrt29. A sphere centred(1,-2,3),radius4 has squared distances summing16.",
+    "A free vector differs from a point or position vector. AB=B-A; for A(1,-2,0),B(4,0,6), AB=(3,2,6),length7. Internal ratio2:1 from origin to(6,3,9) gives point(4,2,6). Three vectors with w=u+v are dependent and cannot form a three-dimensional basis.",
+    "Dot products are scalars. Nonzero vectors(1,2,2) and(2,-1,0) have dot product0 and a right angle; the zero vector has no angle. Distinguish signed scalar projection from vector projection, using division by the squared norm for a nonunit target vector. Force(2,1,-1)N dotted with displacement(3,0,4)m gives2J.",
+    "In a right-handed frame,(1,2,0)cross(0,1,3)=(6,-3,1),orthogonal to both,with parallelogram area sqrt46 and triangle area sqrt46/2. Swapping order reverses the normal. Scalar-triple product sign encodes orientation; physical volume uses absolute value and tetrahedron volume divides by6.",
+    "Lines need a nonzero direction and planes a nonzero normal. The line(1,-1,3)+t(2,1,-1) intersects x+y+z=5 at(3,0,2). Dot(normal,direction)=0 requires checking a point to distinguish containment from disjoint parallelism. Nonparallel space lines can be skew. Origin-to-plane x+2y+2z=6 distance is2, including the norm denominator."
   ]
 }
