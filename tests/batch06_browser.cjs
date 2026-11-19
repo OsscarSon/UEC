@@ -5,7 +5,7 @@ const root=process.env.UEC_TEST_BASE||'http://localhost:8043/',out='reports/batc
  const page=await browser.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce',timezoneId:'Asia/Kuala_Lumpur'});
  const errors=[],bad=[],cases=[];page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.url().startsWith(root)&&r.status()>=400)bad.push([r.status(),r.url()]);});
  await page.goto(root);const keys=await page.evaluate(()=>Object.keys(BATCH_NOTES).filter(k=>Object.values(BATCH_NOTES[k])[0]?.content_batch==='batch06'));
- const courses=keys.flatMap(key=>key.startsWith('数学')?[['adv_math_i',key],['adv_math_ii',key]]:[[null,key]]);
+ const courses=keys.flatMap(key=>key.startsWith('数学')?(Number(key.slice(2))<=29?[['adv_math_i',key],['adv_math_ii',key]]:[['adv_math_ii',key]]):[[null,key]]);
  for(const width of [390,1440]){await page.setViewportSize({width,height:1000});for(const [course,key]of courses){
   const url=course?'#subject='+course+'&chapter='+key.slice(2):'#lesson='+encodeURIComponent(key);
   await page.goto(root+url);await page.locator('.lesson-section').first().waitFor();

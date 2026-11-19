@@ -3,18 +3,18 @@
   "statistics": {
     "target_unique_chapters": 40,
     "minimum_new_chapters_each_course": 8,
-    "new_unique_chapters": 12,
-    "new_real_sections": 63,
-    "new_examples": 189,
-    "new_practice": 252,
-    "new_quiz": 63,
-    "new_original_questions": 504,
+    "new_unique_chapters": 17,
+    "new_real_sections": 89,
+    "new_examples": 267,
+    "new_practice": 356,
+    "new_quiz": 89,
+    "new_original_questions": 712,
     "course_counts": {
       "physics": 3,
       "chemistry": 3,
-      "biology": 5,
-      "adv_math_i": 1,
-      "adv_math_ii": 1
+      "biology": 6,
+      "adv_math_i": 3,
+      "adv_math_ii": 5
     },
     "math_shared_counted_once": true,
     "request_complete": false
@@ -52,6 +52,42 @@
         {
           "id": "4.7",
           "title": "万能细胞——干细胞"
+        }
+      ],
+      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+    },
+    {
+      "stem": "bio08",
+      "subject": "生物",
+      "chapter": 8,
+      "sections": [
+        {
+          "id": "8.1",
+          "title": "什么是内环境恒定"
+        },
+        {
+          "id": "8.2",
+          "title": "怎样维持内环境恒定"
+        },
+        {
+          "id": "8.3",
+          "title": "水平衡的调节"
+        },
+        {
+          "id": "8.4",
+          "title": "体温恒定的调节"
+        },
+        {
+          "id": "8.5",
+          "title": "血糖平衡的调节"
+        },
+        {
+          "id": "8.6",
+          "title": "泌尿系统的结构"
+        },
+        {
+          "id": "8.7",
+          "title": "尿液是如何形成的"
         }
       ],
       "status": "authored_internal_checks_in_progress_not_teacher_approved"
@@ -280,6 +316,114 @@
         {
           "id": "6.5",
           "title": "线性规划"
+        }
+      ],
+      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+    },
+    {
+      "stem": "math28",
+      "subject": "数学共用内容",
+      "chapter": 28,
+      "sections": [
+        {
+          "id": "28.1",
+          "title": "隐函数的微分法"
+        },
+        {
+          "id": "28.2",
+          "title": "三角函数的微分法"
+        },
+        {
+          "id": "28.3",
+          "title": "对数函数的微分法"
+        },
+        {
+          "id": "28.4",
+          "title": "指数函数的微分法"
+        },
+        {
+          "id": "28.5",
+          "title": "洛必达法则"
+        },
+        {
+          "id": "28.6",
+          "title": "曲线的作图法"
+        }
+      ],
+      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+    },
+    {
+      "stem": "math29",
+      "subject": "数学共用内容",
+      "chapter": 29,
+      "sections": [
+        {
+          "id": "29.1",
+          "title": "利用原函数求积分"
+        },
+        {
+          "id": "29.2",
+          "title": "部分分式积分法"
+        },
+        {
+          "id": "29.3",
+          "title": "三角函数的积分法"
+        },
+        {
+          "id": "29.4",
+          "title": "三角代换法"
+        },
+        {
+          "id": "29.5",
+          "title": "分部积分法"
+        }
+      ],
+      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+    },
+    {
+      "stem": "math30",
+      "subject": "数学共用内容",
+      "chapter": 30,
+      "sections": [
+        {
+          "id": "30.1",
+          "title": "微分方程式与其解"
+        },
+        {
+          "id": "30.2",
+          "title": "变量可分离微分方程"
+        },
+        {
+          "id": "30.3",
+          "title": "一阶线性微分方程"
+        },
+        {
+          "id": "30.4",
+          "title": "一阶常微分方程的应用"
+        }
+      ],
+      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+    },
+    {
+      "stem": "math31",
+      "subject": "数学共用内容",
+      "chapter": 31,
+      "sections": [
+        {
+          "id": "31.1",
+          "title": "数学归纳法"
+        },
+        {
+          "id": "31.2",
+          "title": "不等式的证明"
+        },
+        {
+          "id": "31.3",
+          "title": "反证法"
+        },
+        {
+          "id": "31.4",
+          "title": "数值方法"
         }
       ],
       "status": "authored_internal_checks_in_progress_not_teacher_approved"

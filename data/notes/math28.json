@@ -1,0 +1,1809 @@
+{
+  "28.1": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 28,
+    "section_id": "28.1",
+    "goals": [
+      "对含y的式子正确使用链式与乘积法则",
+      "由点坐标判断切线、垂线及局部可微条件"
+    ],
+    "prerequisites": [
+      "链式求导",
+      "曲线方程与切线"
+    ],
+    "flow": [
+      "原关系",
+      "链式乘积",
+      "收集y′",
+      "点与分支",
+      "切线验证"
+    ],
+    "concept_relation": "原关系；链式乘积；收集y′；点与分支；切线验证",
+    "deep": [
+      "求某点切线要先确认点在曲线上，再求该点的导数值。若导数有限，切线用y−y₀=m(x−x₀)；若能确认垂直切线，则应写x=x₀而不是把无穷当普通m代入。法线斜率为−1/m仅适用非零有限m；水平切线的法线要单独写垂线。",
+      "二阶导数不能把第一阶式里的y当常量。可对含y′的方程再次求导，再代入已知y′；或者对已解出的商式求导，同样需要链式和乘积法则。结果求值前尽量保留关系，避免过早代入点把函数变化错误冻结。",
+      "这种方法也能帮助理解反函数导数，但需反函数分支和导数条件。例如由sin y=x在−π/2<y<π/2得到y′=1/cos y=1/√(1−x²)，端点不能用同一有限导数式。最终验算应同时核原曲线、分支和求导公式的有效位置。"
+    ],
+    "derive": [
+      "F(x,y)=0⇒F_x+F_y y′=0；F_y≠0时y′=−F_x/F_y。",
+      "d(xy)/dx=y+xy′；d(y²)/dx=2yy′。",
+      "切点先验原式；有限m用点斜式，垂直与水平情况另处理。"
+    ],
+    "examples": [
+      {
+        "q": "求圆x²+y²=25在(3,4)的切线。 条件：选该点附近可微分支。",
+        "given": "选该点附近可微分支。",
+        "analysis": "点在圆上且y不为0。",
+        "method": "隐微分再代点。",
+        "principle": "链式法则。",
+        "steps": [
+          "2x+2yy′=0，y′=−x/y。",
+          "在(3,4)斜率−3/4，切线y−4=−3(x−3)/4。"
+        ],
+        "ans": "3x+4y=25。",
+        "verification": "点满足9+16=25；半径斜率4/3与切线乘积−1。",
+        "pitfall": "漏y′或只给x=3不分上下支。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.1",
+        "related_sections": []
+      },
+      {
+        "q": "对x²+xy+y²=7求y′。 条件：在x+2y≠0的可微分支。",
+        "given": "在x+2y≠0的可微分支。",
+        "analysis": "xy需乘积求导。",
+        "method": "收集y′。",
+        "principle": "乘积与链式。",
+        "steps": [
+          "2x+y+xy′+2yy′=0。",
+          "y′=−(2x+y)/(x+2y)。"
+        ],
+        "ans": "−(2x+y)/(x+2y)。",
+        "verification": "各项求导后代回第一阶式可消去。",
+        "pitfall": "d(xy)=xy′漏y。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.1",
+        "related_sections": []
+      },
+      {
+        "q": "圆x²+y²=25在(5,0)有何切线？ 条件：需分析右端点局部圆弧。",
+        "given": "需分析右端点局部圆弧。",
+        "analysis": "y′=−x/y分母为0不能作为有限斜率。",
+        "method": "由圆几何或局部dx/dy判断。",
+        "principle": "半径垂直切线。",
+        "steps": [
+          "半径从原点到(5,0)为水平。",
+          "切线垂直于该半径，故为竖直线。"
+        ],
+        "ans": "x=5。",
+        "verification": "不是将m=∞代入点斜式；点确在圆上。",
+        "pitfall": "分母0就说曲线无切线。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "对y³+x=0求y′。 条件：y≠0的局部分支。",
+        "given": "y≠0的局部分支。",
+        "analysis": "y³需链式。",
+        "method": "求导解y′。",
+        "principle": "链式法则。",
+        "steps": [
+          "3y²y′+1=0。",
+          "y′=−1/(3y²)。"
+        ],
+        "ans": "−1/(3y²)。",
+        "verification": "代y³=−x可与显式导数核对，避y=0。",
+        "pitfall": "写3y²+1=0。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.1",
+        "related_sections": []
+      },
+      {
+        "q": "圆x²+y²=9在(0,3)切线与法线？ 条件：该点有效。",
+        "given": "该点有效。",
+        "analysis": "导数0单独处理法线。",
+        "method": "求y′=−x/y。",
+        "principle": "水平切线。",
+        "steps": [
+          "m=0。",
+          "切线y=3，法线x=0。"
+        ],
+        "ans": "y=3；x=0。",
+        "verification": "半径本就在x=0。",
+        "pitfall": "对0取倒数当有限斜率。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.1",
+        "related_sections": []
+      },
+      {
+        "q": "对xy=6求y′并在(2,3)求值。 条件：x≠0。",
+        "given": "x≠0。",
+        "analysis": "乘积不恒定单项。",
+        "method": "y+xy′=0。",
+        "principle": "乘积求导。",
+        "steps": [
+          "y′=−y/x。",
+          "在(2,3)为−3/2。"
+        ],
+        "ans": "−3/2。",
+        "verification": "显式6/x导数−6/x²在2同值。",
+        "pitfall": "误得y′=0。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.1",
+        "related_sections": []
+      },
+      {
+        "q": "圆x²+y²=25在y≠0处二阶导数？ 条件：局部可微分支。",
+        "given": "局部可微分支。",
+        "analysis": "y′也随x变化。",
+        "method": "对x+yy′=0再求导。",
+        "principle": "乘积与链式。",
+        "steps": [
+          "1+(y′)²+yy″=0。",
+          "代y′=−x/y得y″=−(x²+y²)/y³=−25/y³。"
+        ],
+        "ans": "−25/y³。",
+        "verification": "上半圆y正时向下弯，符号合理。",
+        "pitfall": "把分母y当常量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "只知圆x²+y²=25上x=3，能唯一报切线斜率−3/4吗？ 条件：未限定上下半圆。",
+      "given": "未限定上下半圆。",
+      "analysis": "同x有两个y。",
+      "method": "先求分支点。",
+      "principle": "隐式关系非全局单值。",
+      "steps": [
+        "y=±4。",
+        "两斜率为−3/4与3/4。"
+      ],
+      "ans": "不能唯一确定。",
+      "verification": "需给y或分支。",
+      "pitfall": "把正根当唯一。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 28,
+      "primary_section": "28.1",
+      "related_sections": []
+    },
+    "exam": [
+      "每个含y复合项标链式因子，xy另用乘积",
+      "切点先验原曲线，分母为零回几何而非直接除零",
+      "二阶导数保持y随x变化，最后才代点与曲线关系"
+    ],
+    "quick": [
+      "原关系",
+      "链式乘积",
+      "收集y′",
+      "点与分支",
+      "切线验证"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1047236315/高级数学-高三上册-1",
+        "page": 4,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_28.1",
+        "url": "https://openstax.org/books/calculus-volume-1/pages/3-8-implicit-differentiation",
+        "page_or_section": "3-8-implicit-differentiation",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1047236315/高级数学-高三上册-1",
+        "page": 4,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_28.1",
+        "url": "https://openstax.org/books/calculus-volume-1/pages/3-8-implicit-differentiation",
+        "page_or_section": "3-8-implicit-differentiation",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "每个含y复合项标链式因子，xy另用乘积",
+      "method": "由圆几何或局部dx/dy判断。",
+      "principle": "半径垂直切线。",
+      "worked_example_index": 2,
+      "verification": "不是将m=∞代入点斜式；点确在圆上。",
+      "pitfall": "分母0就说曲线无切线。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“对含y的式子正确使用链式与乘积法则”的抽样复核：点满足9+16=25；半径斜率4/3与切线乘积−1。；若出现“漏y′或只给x=3不分上下支。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“由点坐标判断切线、垂线及局部可微条件”的抽样复核：不是将m=∞代入点斜式；点确在圆上。；若出现“分母0就说曲线无切线。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把正根当唯一。",
+        "correction": "不能唯一确定。",
+        "verification": "需给y或分支。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "圆的隐式微分与垂直切线",
+      "objects": [
+        "半径5圆",
+        "(3,4)切线",
+        "(5,0)竖直切线",
+        "上下分支"
+      ],
+      "relations": [
+        "3x+4y=25切于(3,4)",
+        "x=5切于(5,0)",
+        "同x=3两支斜率异号"
+      ],
+      "labels": [
+        "y′=−x/y",
+        "(3,4)",
+        "x=5",
+        "分支"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用同式函数图；须重核定义域、切点、渐近线与开闭点，不用形似曲线代替定量图",
+      "english": "Use deterministic mathematical plotting with labeled axes, exact domains and correct tangent slopes. Separate branches and poles. Trigonometric inputs are radians unless conversion is explicit. Mark excluded points as open; do not connect across asymptotes."
+    }
+  },
+  "28.2": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 28,
+    "section_id": "28.2",
+    "goals": [
+      "用基本极限推导三角导数",
+      "在复合函数中保持弧度与链式因子"
+    ],
+    "prerequisites": [
+      "三角恒等式",
+      "导数定义与弧度"
+    ],
+    "flow": [
+      "基本极限",
+      "正余弦推导",
+      "六函数导数",
+      "复合链式",
+      "周期与应用"
+    ],
+    "concept_relation": "基本极限；正余弦推导；六函数导数；复合链式；周期与应用",
+    "deep": [
+      "其余常用导数为(cot x)′=−cosec²x、(sec x)′=sec x tan x、(cosec x)′=−cosec x cot x。复合u(x)时每项再乘u′，平方如sin²x应先把外层平方看作函数，而不是将其误认为sin(x²)；两者的链式结构不同。",
+      "三角极限可先把内角整理成标准h再用基本极限，比例系数由分子分母的角因子共同决定。若限值不是0附近，先看是否可直接代入；分母不为0时无需硬用特殊极限。三角方程求极值还要筛选指定区间，周期性会带来多个合法点。",
+      "应用位移s=A cos(ωt+φ)时，速度和加速度分别再乘ω与ω²，并核单位与正负方向。导数为零不等于位移为零，更不等于物体完全没有加速度。可用初时刻、周期及相位检查结果，避免只对最终数字验算。"
+    ],
+    "derive": [
+      "lim_(h→0) sin h/h=1（弧度），差商推出(sin x)′=cos x。",
+      "(cos x)′=−sin x，(tan x)′=sec²x；其余倒数函数按商/链式求导。",
+      "复合u时乘u′；度数变量sin(πx/180)另乘π/180。"
+    ],
+    "examples": [
+      {
+        "q": "求y=sin(3x²)的导数。 条件：x为实数，角按弧度。",
+        "given": "x为实数，角按弧度。",
+        "analysis": "外层正弦、内层二次。",
+        "method": "链式。",
+        "principle": "d sin u=cos u·u′。",
+        "steps": [
+          "u=3x²，u′=6x。",
+          "y′=6x cos(3x²)。"
+        ],
+        "ans": "6x cos(3x²)。",
+        "verification": "x=0处内层导数0，结果也0。",
+        "pitfall": "漏6x或写cos(6x)。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.2",
+        "related_sections": []
+      },
+      {
+        "q": "求lim_(x→0) sin(4x)/(7x)。 条件：角为弧度。",
+        "given": "角为弧度。",
+        "analysis": "配成sin(4x)/(4x)。",
+        "method": "标准极限。",
+        "principle": "sin u/u→1。",
+        "steps": [
+          "原式=(4/7)sin(4x)/(4x)。",
+          "x→0时比值→1。"
+        ],
+        "ans": "4/7。",
+        "verification": "分母非直接写0/0答案。",
+        "pitfall": "只记极限1漏系数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.2",
+        "related_sections": []
+      },
+      {
+        "q": "s=0.20cos(5t) m，求t=0时v和a。 条件：t以秒，角弧度。",
+        "given": "t以秒，角弧度。",
+        "analysis": "需两次链式求导。",
+        "method": "对位移微分。",
+        "principle": "v=s′，a=s″。",
+        "steps": [
+          "v=−1.0sin(5t) m/s；a=−5.0cos(5t) m/s²。",
+          "t=0给v=0、a=−5.0。"
+        ],
+        "ans": "0 m/s；−5.0 m/s²。",
+        "verification": "a=−25s，初s=.20对应−5。",
+        "pitfall": "速度零就说加速度零。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "求cos(2x−1)的导数。 条件：角弧度。",
+        "given": "角弧度。",
+        "analysis": "内层斜率2。",
+        "method": "链式。",
+        "principle": "余弦导数。",
+        "steps": [
+          "外导−sin(2x−1)。",
+          "乘2得−2sin(2x−1)。"
+        ],
+        "ans": "−2sin(2x−1)。",
+        "verification": "负号与内因子均保留。",
+        "pitfall": "漏负或2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.2",
+        "related_sections": []
+      },
+      {
+        "q": "求sin²x的导数并区分sin(x²)。 条件：角弧度。",
+        "given": "角弧度。",
+        "analysis": "外层平方不同内层平方。",
+        "method": "分别链式。",
+        "principle": "复合结构。",
+        "steps": [
+          "sin²x导数2sin x cos x。",
+          "sin(x²)导数2x cos(x²)。"
+        ],
+        "ans": "分别2sin x cos x；2x cos(x²)。",
+        "verification": "表达式自变量结构不同。",
+        "pitfall": "指数位置混读。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.2",
+        "related_sections": []
+      },
+      {
+        "q": "求tan x在x=π/4的导数。 条件：π/4处cos不为0。",
+        "given": "π/4处cos不为0。",
+        "analysis": "用sec²。",
+        "method": "代角。",
+        "principle": "商法则导数。",
+        "steps": [
+          "cos²(π/4)=1/2。",
+          "sec²=2。"
+        ],
+        "ans": "2。",
+        "verification": "也可1+tan²=2。",
+        "pitfall": "tan导数误为sec。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.2",
+        "related_sections": []
+      },
+      {
+        "q": "角以度数x表示，f(x)=sin(πx/180)，求f′(0)。 条件：对度数数值x求导。",
+        "given": "对度数数值x求导。",
+        "analysis": "需要单位转换因子。",
+        "method": "链式。",
+        "principle": "正弦弧度公式。",
+        "steps": [
+          "f′=(π/180)cos(πx/180)。",
+          "在0得π/180。"
+        ],
+        "ans": "π/180。",
+        "verification": "不是弧度输入sin x的导数1。",
+        "pitfall": "DEG设置替代换算。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "tan x导数式sec²x能在x=π/2直接使用吗？ 条件：实函数定义域。",
+      "given": "实函数定义域。",
+      "analysis": "原函数本身无定义。",
+      "method": "核cos零点。",
+      "principle": "定义域先于求导。",
+      "steps": [
+        "cos(π/2)=0。",
+        "tan与sec都未定义，不能给有限导数。"
+      ],
+      "ans": "不能。",
+      "verification": "图不能跨该竖直渐近位置连线。",
+      "pitfall": "只看导数公式不核原域。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 28,
+      "primary_section": "28.2",
+      "related_sections": []
+    },
+    "exam": [
+      "先标弧度与内角u，再写外导乘u′",
+      "特殊极限先配同内角分母，系数放外",
+      "运动题用s、v、a及单位串验，驻点不等于全静止"
+    ],
+    "quick": [
+      "基本极限",
+      "正余弦推导",
+      "六函数导数",
+      "复合链式",
+      "周期与应用"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1047236315/高级数学-高三上册-1",
+        "page": 7,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_28.2",
+        "url": "https://openstax.org/books/calculus-volume-1/pages/3-5-derivatives-of-trigonometric-functions",
+        "page_or_section": "3-5-derivatives-of-trigonometric-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1047236315/高级数学-高三上册-1",
+        "page": 7,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_28.2",
+        "url": "https://openstax.org/books/calculus-volume-1/pages/3-5-derivatives-of-trigonometric-functions",
+        "page_or_section": "3-5-derivatives-of-trigonometric-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先标弧度与内角u，再写外导乘u′",
+      "method": "对位移微分。",
+      "principle": "v=s′，a=s″。",
+      "worked_example_index": 2,
+      "verification": "a=−25s，初s=.20对应−5。",
+      "pitfall": "速度零就说加速度零。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用基本极限推导三角导数”的抽样复核：x=0处内层导数0，结果也0。；若出现“漏6x或写cos(6x)。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“在复合函数中保持弧度与链式因子”的抽样复核：a=−25s，初s=.20对应−5。；若出现“速度零就说加速度零。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "只看导数公式不核原域。",
+        "correction": "不能。",
+        "verification": "图不能跨该竖直渐近位置连线。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "正弦与导数的相位",
+      "objects": [
+        "sin x曲线",
+        "cos x曲线",
+        "同轴弧度刻度",
+        "峰值与零点"
+      ],
+      "relations": [
+        "sin峰值处cos为0",
+        "sin递增区cos正",
+        "用同一x轴尺度"
+      ],
+      "labels": [
+        "x/rad",
+        "sin x",
+        "cos x",
+        "导数"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用同式函数图；须重核定义域、切点、渐近线与开闭点，不用形似曲线代替定量图",
+      "english": "Use deterministic mathematical plotting with labeled axes, exact domains and correct tangent slopes. Separate branches and poles. Trigonometric inputs are radians unless conversion is explicit. Mark excluded points as open; do not connect across asymptotes."
+    }
+  },
+  "28.3": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 28,
+    "section_id": "28.3",
+    "goals": [
+      "推导并应用自然及一般底对数导数",
+      "用对数微分处理变指数并保留定义域"
+    ],
+    "prerequisites": [
+      "指数与对数",
+      "隐函数和链式"
+    ],
+    "flow": [
+      "对数定义域",
+      "换底推导",
+      "复合导数",
+      "对数微分",
+      "原式复核"
+    ],
+    "concept_relation": "对数定义域；换底推导；复合导数；对数微分；原式复核",
+    "deep": [
+      "变指数x^x在实数常用正x分支可取ln y=x ln x，求导得到y′=x^x(ln x+1)。不能只用固定指数幂函数法则，也不能只用固定底指数法则；底数和指数同时变化时，两种单独规则都不完整。",
+      "式子含根号、乘积及商时，对数微分往往更短，但不是必须使用的口令。把ln(ab)拆成ln a+ln b时，实数范围内a、b需分别正；若只知道ab>0却两者均负，这个拆法就不合法。可以选择绝对值形式或改用常规乘积商法则。",
+      "求导结果应核定义域、单位或变量意义及可能零点。对ln(x²)的导数2/x仅对x≠0成立；对2ln x则原域是x>0。把导数积回去也不能忽略不同连通区间的常数差，这与下一章原函数问题相连接。"
+    ],
+    "derive": [
+      "(ln x)′=1/x（x>0）；(log_a x)′=1/(x ln a)，a>0且a≠1。",
+      "(ln|u|)′=u′/u，u≠0且可微，按各区间使用。",
+      "x>0时ln(x^x)=x ln x⇒(x^x)′=x^x(ln x+1)。"
+    ],
+    "examples": [
+      {
+        "q": "求ln(2x²+3)的导数。 条件：x∈R，内式始终正。",
+        "given": "x∈R，内式始终正。",
+        "analysis": "外对数内二次。",
+        "method": "链式。",
+        "principle": "ln u导数u′/u。",
+        "steps": [
+          "u′=4x。",
+          "y′=4x/(2x²+3)。"
+        ],
+        "ans": "4x/(2x²+3)。",
+        "verification": "分母始终正，原域全实。",
+        "pitfall": "只写1/(2x²+3)。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.3",
+        "related_sections": []
+      },
+      {
+        "q": "求log_3(5x−1)的导数和定义域。 条件：底数3固定。",
+        "given": "底数3固定。",
+        "analysis": "换底并核真数正。",
+        "method": "链式换底。",
+        "principle": "log_3u=ln u/ln3。",
+        "steps": [
+          "5x−1>0给x>1/5。",
+          "导数5/((5x−1)ln3)。"
+        ],
+        "ans": "x>1/5；导数如上。",
+        "verification": "ln3是常数但不可漏。",
+        "pitfall": "漏换底系数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.3",
+        "related_sections": []
+      },
+      {
+        "q": "求x^x在x=1处的导数。 条件：x>0。",
+        "given": "x>0。",
+        "analysis": "变底又变指数。",
+        "method": "对数微分。",
+        "principle": "ln y=x ln x。",
+        "steps": [
+          "y′/y=ln x+1。",
+          "x=1时y=1，得y′=1。"
+        ],
+        "ans": "1。",
+        "verification": "固定指数误法会给不同一般式，需保留两项。",
+        "pitfall": "只写x·x^(x−1)。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "求ln|x−2|的导数。 条件：x≠2。",
+        "given": "x≠2。",
+        "analysis": "绝对值给两区间。",
+        "method": "对数复合。",
+        "principle": "ln|u|导数。",
+        "steps": [
+          "u′=1。",
+          "得1/(x−2)，保留x≠2。"
+        ],
+        "ans": "1/(x−2)。",
+        "verification": "x<2也在原域。",
+        "pitfall": "删绝对值后误限x>2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.3",
+        "related_sections": []
+      },
+      {
+        "q": "ln(x²)与2ln x的实数定义域相同吗？ 条件：分别审查。",
+        "given": "分别审查。",
+        "analysis": "代数恒等要域一致。",
+        "method": "求真数正。",
+        "principle": "实对数定义。",
+        "steps": [
+          "ln(x²)要求x≠0。",
+          "2ln x要求x>0。"
+        ],
+        "ans": "不同；前者可写2ln|x|。",
+        "verification": "负x检验可见差别。",
+        "pitfall": "对数展开无条件。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.3",
+        "related_sections": []
+      },
+      {
+        "q": "求y=x²√(x+1)的导数。 条件：x>0，用对数微分。",
+        "given": "x>0，用对数微分。",
+        "analysis": "正量乘积便于拆。",
+        "method": "ln y=2ln x+0.5ln(x+1)。",
+        "principle": "对数和链式。",
+        "steps": [
+          "y′/y=2/x+1/[2(x+1)]。",
+          "乘回y得x(5x+4)/(2√(x+1))。"
+        ],
+        "ans": "x(5x+4)/(2√(x+1))。",
+        "verification": "乘积求导可独立复核。",
+        "pitfall": "忘乘回y。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.3",
+        "related_sections": []
+      },
+      {
+        "q": "求ln(1/x)的导数及原域。 条件：实对数。",
+        "given": "实对数。",
+        "analysis": "真数正要求x>0。",
+        "method": "用−ln x。",
+        "principle": "对数恒等与域。",
+        "steps": [
+          "ln(1/x)=−ln x。",
+          "导数−1/x。"
+        ],
+        "ans": "x>0；−1/x。",
+        "verification": "直接u′/u也得−1/x。",
+        "pitfall": "只看导数允许x<0就扩域。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "已得y′/y=2/x，可以直接报y′=2/x吗？ 条件：y为非零可微函数。",
+      "given": "y为非零可微函数。",
+      "analysis": "隐微分结果有分母y。",
+      "method": "还原导数。",
+      "principle": "等价乘法。",
+      "steps": [
+        "两边乘y。",
+        "y′=2y/x，再按原y表达式代回。"
+      ],
+      "ans": "不能；还需乘y。",
+      "verification": "对y=x²，正确导数2x而非2/x。",
+      "pitfall": "忘乘函数本身。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 28,
+      "primary_section": "28.3",
+      "related_sections": []
+    },
+    "exam": [
+      "先写真数和底数条件，ln",
+      "u",
+      "与ln u区分",
+      "变指数先取对数，求到y′/y后必须乘回",
+      "展开对数前核每个因子的符号，用常规法独立验复杂结果"
+    ],
+    "quick": [
+      "对数定义域",
+      "换底推导",
+      "复合导数",
+      "对数微分",
+      "原式复核"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1047236315/高级数学-高三上册-1",
+        "page": 17,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_28.3",
+        "url": "https://openstax.org/books/calculus-volume-1/pages/3-9-derivatives-of-exponential-and-logarithmic-functions",
+        "page_or_section": "3-9-derivatives-of-exponential-and-logarithmic-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1047236315/高级数学-高三上册-1",
+        "page": 17,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_28.3",
+        "url": "https://openstax.org/books/calculus-volume-1/pages/3-9-derivatives-of-exponential-and-logarithmic-functions",
+        "page_or_section": "3-9-derivatives-of-exponential-and-logarithmic-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先写真数和底数条件，ln",
+      "method": "对数微分。",
+      "principle": "ln y=x ln x。",
+      "worked_example_index": 2,
+      "verification": "固定指数误法会给不同一般式，需保留两项。",
+      "pitfall": "只写x·x^(x−1)。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“推导并应用自然及一般底对数导数”的抽样复核：分母始终正，原域全实。；若出现“只写1/(2x²+3)。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用对数微分处理变指数并保留定义域”的抽样复核：固定指数误法会给不同一般式，需保留两项。；若出现“只写x·x^(x−1)。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "忘乘函数本身。",
+        "correction": "不能；还需乘y。",
+        "verification": "对y=x²，正确导数2x而非2/x。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "对数定义域与对数微分",
+      "objects": [
+        "ln x正半轴",
+        "ln|x|双分支",
+        "x=0排除",
+        "x^x推导框"
+      ],
+      "relations": [
+        "两对数导数同1/x但域不同",
+        "x^x限x>0",
+        "y′/y需乘回y"
+      ],
+      "labels": [
+        "ln x",
+        "ln|x|",
+        "x≠0",
+        "y′/y"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用同式函数图；须重核定义域、切点、渐近线与开闭点，不用形似曲线代替定量图",
+      "english": "Use deterministic mathematical plotting with labeled axes, exact domains and correct tangent slopes. Separate branches and poles. Trigonometric inputs are radians unless conversion is explicit. Mark excluded points as open; do not connect across asymptotes."
+    }
+  },
+  "28.4": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 28,
+    "section_id": "28.4",
+    "goals": [
+      "从导数定义理解自然底数及一般底公式",
+      "对指数复合和应用速率核单位"
+    ],
+    "prerequisites": [
+      "指数定律",
+      "链式、乘积与对数"
+    ],
+    "flow": [
+      "差商与e",
+      "一般底公式",
+      "复合乘积",
+      "单调驻点",
+      "速率单位"
+    ],
+    "concept_relation": "差商与e；一般底公式；复合乘积；单调驻点；速率单位",
+    "deep": [
+      "应用N(t)=N₀e^(kt)时，N′=kN，k单位为时间倒数。N是储量，N′是每单位时间变化量，两者单位不同。换时间单位要反向换k，保持指数无量纲；如果指数内含有量纲而未作适当比例化，式子本身的物理解释就有问题。",
+      "求驻点或比较增长时，要在原定义域用指数的正性化简，而不是将e^x=0当可解方程。可把导数因式分解，令真正可能为零的代数因子为零，再判符号。渐近趋0不等于在有限自变量处取0，图形不能把曲线机械画到横轴上。",
+      "变指数如u(x)^v(x)不属于本节固定底数公式的直接情形，通常需正底分支的对数微分。学习规则时应连同“哪一部分固定”一起记。最终用初值、单调方向、单位以及直接求导回代检查，不仅比较计算器显示的小数。"
+    ],
+    "derive": [
+      "a^x=e^(x ln a)⇒(a^x)′=a^x ln a，a>0。",
+      "(a^u)′=a^u ln a·u′；(e^u)′=e^u u′。",
+      "指数始终正可用来判导数符号，但不能令e^x=0寻找有限驻点。"
+    ],
+    "examples": [
+      {
+        "q": "求y=2^(x²+1)的导数。 条件：底2固定，x∈R。",
+        "given": "底2固定，x∈R。",
+        "analysis": "指数内部二次。",
+        "method": "链式。",
+        "principle": "a^u导数。",
+        "steps": [
+          "u′=2x。",
+          "y′=2x ln2·2^(x²+1)。"
+        ],
+        "ans": "2x ln2·2^(x²+1)。",
+        "verification": "x=0处导数0符合偶函数对称。",
+        "pitfall": "漏ln2或2x。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.4",
+        "related_sections": []
+      },
+      {
+        "q": "求y=xe^(−x)的驻点及增减。 条件：x∈R。",
+        "given": "x∈R。",
+        "analysis": "指数正，符号由1−x决定。",
+        "method": "乘积求导与符号表。",
+        "principle": "y′=e^(−x)(1−x)。",
+        "steps": [
+          "导数零得x=1。",
+          "x<1导数正，x>1导数负。"
+        ],
+        "ans": "在x=1极大，值1/e；先增后减。",
+        "verification": "左右符号变化支持极大。",
+        "pitfall": "令e^(−x)=0另找根。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.4",
+        "related_sections": []
+      },
+      {
+        "q": "N=50e^(0.3t)，求t=0的变化率。 条件：t以小时，N以单位计。",
+        "given": "t以小时，N以单位计。",
+        "analysis": "导数是每小时量。",
+        "method": "链式求导。",
+        "principle": "N′=kN。",
+        "steps": [
+          "N′=15e^(0.3t)。",
+          "t=0得15单位/h。"
+        ],
+        "ans": "15单位/h。",
+        "verification": "0.3 h⁻¹×50单位单位正确。",
+        "pitfall": "答15单位或50。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "求e^(4−3x)的导数。 条件：实数x。",
+        "given": "实数x。",
+        "analysis": "内导−3。",
+        "method": "链式。",
+        "principle": "自然指数导数。",
+        "steps": [
+          "外导仍e^(4−3x)。",
+          "乘−3。"
+        ],
+        "ans": "−3e^(4−3x)。",
+        "verification": "函数随x减，负号合理。",
+        "pitfall": "漏负。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.4",
+        "related_sections": []
+      },
+      {
+        "q": "y=(1/2)^x的导数正负？ 条件：x∈R。",
+        "given": "x∈R。",
+        "analysis": "ln(1/2)<0。",
+        "method": "看一般底公式。",
+        "principle": "指数正。",
+        "steps": [
+          "y′=(1/2)^x ln(1/2)。",
+          "前因子正、对数负。"
+        ],
+        "ans": "始终负。",
+        "verification": "正值函数可递减。",
+        "pitfall": "函数正所以导数正。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.4",
+        "related_sections": []
+      },
+      {
+        "q": "求e^(2x)+3^x的导数。 条件：固定底与弧度无关。",
+        "given": "固定底与弧度无关。",
+        "analysis": "分别线性求导。",
+        "method": "和法则。",
+        "principle": "指数链式。",
+        "steps": [
+          "首项2e^(2x)。",
+          "次项3^x ln3。"
+        ],
+        "ans": "2e^(2x)+3^x ln3。",
+        "verification": "各内因子独立。",
+        "pitfall": "把底3当乘系数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.4",
+        "related_sections": []
+      },
+      {
+        "q": "e^x在有限实数处可等于0吗？ 条件：实指数。",
+        "given": "实指数。",
+        "analysis": "严格正性。",
+        "method": "核值域。",
+        "principle": "指数性质。",
+        "steps": [
+          "e^x>0对所有实数成立。",
+          "x→−∞时趋0但不取0。"
+        ],
+        "ans": "不能。",
+        "verification": "极限与函数值不同。",
+        "pitfall": "水平渐近线当交点。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "对x^x可以直接使用(a^x)′=a^x ln a并把a写x吗？ 条件：x>0但底数也随x变。",
+      "given": "x>0但底数也随x变。",
+      "analysis": "规则的固定底前提不成立。",
+      "method": "转用对数微分。",
+      "principle": "变量依赖。",
+      "steps": [
+        "ln y=x ln x。",
+        "y′=x^x(ln x+1)，比盲套多一项。"
+      ],
+      "ans": "不能直接盲套。",
+      "verification": "完整式含底数变化的贡献。",
+      "pitfall": "将变量底当常数。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 28,
+      "primary_section": "28.4",
+      "related_sections": []
+    },
+    "exam": [
+      "先辨固定底、固定指数或双变，按结构选法",
+      "导数因式分解利用指数正性判增减，不求不存在的指数零点",
+      "应用速率标时间单位，换单位保持指数无量纲"
+    ],
+    "quick": [
+      "差商与e",
+      "一般底公式",
+      "复合乘积",
+      "单调驻点",
+      "速率单位"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1047236315/高级数学-高三上册-1",
+        "page": 25,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_28.4",
+        "url": "https://openstax.org/books/calculus-volume-1/pages/3-9-derivatives-of-exponential-and-logarithmic-functions",
+        "page_or_section": "3-9-derivatives-of-exponential-and-logarithmic-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1047236315/高级数学-高三上册-1",
+        "page": 25,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_28.4",
+        "url": "https://openstax.org/books/calculus-volume-1/pages/3-9-derivatives-of-exponential-and-logarithmic-functions",
+        "page_or_section": "3-9-derivatives-of-exponential-and-logarithmic-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先辨固定底、固定指数或双变，按结构选法",
+      "method": "链式求导。",
+      "principle": "N′=kN。",
+      "worked_example_index": 2,
+      "verification": "0.3 h⁻¹×50单位单位正确。",
+      "pitfall": "答15单位或50。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“从导数定义理解自然底数及一般底公式”的抽样复核：x=0处导数0符合偶函数对称。；若出现“漏ln2或2x。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“对指数复合和应用速率核单位”的抽样复核：0.3 h⁻¹×50单位单位正确。；若出现“答15单位或50。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "将变量底当常数。",
+        "correction": "不能直接盲套。",
+        "verification": "完整式含底数变化的贡献。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "指数函数与变化率",
+      "objects": [
+        "e^x与(1/2)^x",
+        "正值区域",
+        "导数符号",
+        "xe^(−x)驻点"
+      ],
+      "relations": [
+        "两指数不触x轴",
+        "减函数导数负",
+        "xe^(−x)在(1,1/e)极大"
+      ],
+      "labels": [
+        "a^x>0",
+        "ln a",
+        "x=1",
+        "变化率"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用同式函数图；须重核定义域、切点、渐近线与开闭点，不用形似曲线代替定量图",
+      "english": "Use deterministic mathematical plotting with labeled axes, exact domains and correct tangent slopes. Separate branches and poles. Trigonometric inputs are radians unless conversion is explicit. Mark excluded points as open; do not connect across asymptotes."
+    }
+  },
+  "28.5": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 28,
+    "section_id": "28.5",
+    "goals": [
+      "检查未定式及可用条件后求极限",
+      "区分导数之比与商的导数并处理变形"
+    ],
+    "prerequisites": [
+      "极限",
+      "指数对数和三角导数"
+    ],
+    "flow": [
+      "未定式",
+      "适用条件",
+      "导数比",
+      "变形与幂",
+      "单侧复核"
+    ],
+    "concept_relation": "未定式；适用条件；导数比；变形与幂；单侧复核",
+    "deep": [
+      "0·∞、∞−∞等形式通常要先整理成适用的商，例如乘积改为除以倒数，或利用通分、有理化。某些题因式分解、基本三角极限或代数约分更直接，使用洛必达不是唯一也未必最好方法，应比较变形后是否更简单。",
+      "变指数极限如1^∞、0^0、∞^0可在正底条件下先设y=u(x)^v(x)，研究ln y=v ln u，再将极限指数化。这里的未定记号不是真正数的运算式；不能把0^0当已知固定常数，或对负底实指数强行取对数。",
+      "最后核单侧方向、定义域与答案量级。涉及对数的x→0通常只能取适当正侧；某些极限趋正无穷或负无穷也应明确方向。独立检查可用局部近似或代数方法，但几个小数样本只能帮助发现错误，不能替代使用条件的说明。"
+    ],
+    "derive": [
+      "适用的0/0或∞/∞商在相应可微等条件下：lim f/g=lim f′/g′。",
+      "这里不是(f/g)′，也不是f/g与f′/g′处处相等。",
+      "正底幂极限：ln y=v ln u，先求对数极限，再用指数连续性还原。"
+    ],
+    "examples": [
+      {
+        "q": "求lim_(x→0)(e^(2x)−1)/x。 条件：实数去心邻域，满足所用法则条件。",
+        "given": "实数去心邻域，满足所用法则条件。",
+        "analysis": "代入呈0/0。",
+        "method": "洛必达一次。",
+        "principle": "导数之比。",
+        "steps": [
+          "分子导数2e^(2x)，分母导数1。",
+          "极限2e^0=2。"
+        ],
+        "ans": "2。",
+        "verification": "也可令u=2x，用(e^u−1)/u→1核系数。",
+        "pitfall": "把分子导数写e^(2x)。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.5",
+        "related_sections": []
+      },
+      {
+        "q": "求lim_(x→0)(1−cos(3x))/x²。 条件：角为弧度。",
+        "given": "角为弧度。",
+        "analysis": "两轮未定式。",
+        "method": "逐次洛必达。",
+        "principle": "三角链式。",
+        "steps": [
+          "第一轮得3sin(3x)/(2x)，仍0/0。",
+          "第二轮为9cos(3x)/2，极限9/2。"
+        ],
+        "ans": "9/2。",
+        "verification": "由1−cos u约u²/2也得9/2；第一轮系数为3。",
+        "pitfall": "漏链式或第一轮误写9。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.5",
+        "related_sections": []
+      },
+      {
+        "q": "求lim_(x→0⁺)(1+2x)^(1/x)。 条件：底数正且取右侧。",
+        "given": "底数正且取右侧。",
+        "analysis": "1^∞先取ln。",
+        "method": "对数化后洛必达。",
+        "principle": "ln y=ln(1+2x)/x。",
+        "steps": [
+          "对数极限=lim [2/(1+2x)]/1=2。",
+          "原极限=e²。"
+        ],
+        "ans": "e²。",
+        "verification": "与(1+u)^(1/u)标准形的2倍指数一致。",
+        "pitfall": "对整个幂直接分别求导。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.5",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "求lim_(x→∞)ln x/x。 条件：x>0。",
+        "given": "x>0。",
+        "analysis": "∞/∞且可微。",
+        "method": "洛必达。",
+        "principle": "导数比。",
+        "steps": [
+          "导数比=(1/x)/1。",
+          "极限0。"
+        ],
+        "ans": "0。",
+        "verification": "对数增长慢于一次幂。",
+        "pitfall": "∞/∞当1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.5",
+        "related_sections": []
+      },
+      {
+        "q": "求lim_(x→0)(x²+1)/(x+1)，应直接洛必达吗？ 条件：分母趋1。",
+        "given": "分母趋1。",
+        "analysis": "不是未定式。",
+        "method": "直接连续代入。",
+        "principle": "商极限。",
+        "steps": [
+          "分子趋1、分母趋1。",
+          "商趋1。"
+        ],
+        "ans": "1；无需洛必达。",
+        "verification": "盲求导得0会错。",
+        "pitfall": "所有分式都分别求导。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.5",
+        "related_sections": []
+      },
+      {
+        "q": "求lim_(x→0⁺)x ln x。 条件：正侧定义域。",
+        "given": "正侧定义域。",
+        "analysis": "0·负无穷先变商。",
+        "method": "ln x/(1/x)。",
+        "principle": "洛必达在∞/∞形式。",
+        "steps": [
+          "导数比=(1/x)/(−1/x²)=−x。",
+          "极限0。"
+        ],
+        "ans": "0。",
+        "verification": "从负侧趋0，符号符合ln x<0。",
+        "pitfall": "未变商就随意分别导。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.5",
+        "related_sections": []
+      },
+      {
+        "q": "求lim_(x→0)sin(5x)/sin(2x)。 条件：弧度。",
+        "given": "弧度。",
+        "analysis": "0/0。",
+        "method": "洛必达或基本极限。",
+        "principle": "三角导数。",
+        "steps": [
+          "导数比5cos(5x)/(2cos(2x))。",
+          "极限5/2。"
+        ],
+        "ans": "5/2。",
+        "verification": "系数比与基本极限一致。",
+        "pitfall": "把两正弦都变cos漏系数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.5",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "洛必达中的f′/g′是商f/g的导数吗？ 条件：f、g可微，相关分母非零。",
+      "given": "f、g可微，相关分母非零。",
+      "analysis": "两个运算不同。",
+      "method": "写出各公式。",
+      "principle": "商法则与极限定理。",
+      "steps": [
+        "商的导数为(f′g−fg′)/g²。",
+        "洛必达比较的是两导数之比的极限。"
+      ],
+      "ans": "不是。",
+      "verification": "如f=x²,g=x，商导数1而f′/g′=2x。",
+      "pitfall": "将极限等价写成函数恒等。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 28,
+      "primary_section": "28.5",
+      "related_sections": []
+    },
+    "exam": [
+      "每轮先标0/0或∞/∞及单侧定义条件",
+      "变形题先化适用商，幂题先核正底取ln",
+      "结果用另一简便方法和量级核验，不将定理反向使用"
+    ],
+    "quick": [
+      "未定式",
+      "适用条件",
+      "导数比",
+      "变形与幂",
+      "单侧复核"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1047236315/高级数学-高三上册-1",
+        "page": 28,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_28.5",
+        "url": "https://openstax.org/books/calculus-volume-1/pages/4-8-lhopitals-rule",
+        "page_or_section": "4-8-lhopitals-rule",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1047236315/高级数学-高三上册-1",
+        "page": 28,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_28.5",
+        "url": "https://openstax.org/books/calculus-volume-1/pages/4-8-lhopitals-rule",
+        "page_or_section": "4-8-lhopitals-rule",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "每轮先标0/0或∞/∞及单侧定义条件",
+      "method": "对数化后洛必达。",
+      "principle": "ln y=ln(1+2x)/x。",
+      "worked_example_index": 2,
+      "verification": "与(1+u)^(1/u)标准形的2倍指数一致。",
+      "pitfall": "对整个幂直接分别求导。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“检查未定式及可用条件后求极限”的抽样复核：也可令u=2x，用(e^u−1)/u→1核系数。；若出现“把分子导数写e^(2x)。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分导数之比与商的导数并处理变形”的抽样复核：与(1+u)^(1/u)标准形的2倍指数一致。；若出现“对整个幂直接分别求导。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "将极限等价写成函数恒等。",
+        "correction": "不是。",
+        "verification": "如f=x²,g=x，商导数1而f′/g′=2x。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "洛必达决策与幂极限",
+      "objects": [
+        "直接代入分支",
+        "未定式检测",
+        "导数比",
+        "正底对数化",
+        "复核"
+      ],
+      "relations": [
+        "非未定直接算",
+        "每轮重新核条件",
+        "导数比区别商导数"
+      ],
+      "labels": [
+        "0/0",
+        "∞/∞",
+        "f′/g′",
+        "不是(f/g)′"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用同式函数图；须重核定义域、切点、渐近线与开闭点，不用形似曲线代替定量图",
+      "english": "Use deterministic mathematical plotting with labeled axes, exact domains and correct tangent slopes. Separate branches and poles. Trigonometric inputs are radians unless conversion is explicit. Mark excluded points as open; do not connect across asymptotes."
+    }
+  },
+  "28.6": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 28,
+    "section_id": "28.6",
+    "goals": [
+      "整合定义域、导数、凹凸和渐近线作图",
+      "识别拐点、孔洞与驻点的不同判据"
+    ],
+    "prerequisites": [
+      "一二阶导数",
+      "极限和有理函数"
+    ],
+    "flow": [
+      "定义域",
+      "截距对称",
+      "单调极值",
+      "弯曲拐点",
+      "渐近与分支"
+    ],
+    "concept_relation": "定义域；截距对称；单调极值；弯曲拐点；渐近与分支",
+    "deep": [
+      "竖直渐近线需函数在该位置至少一侧趋无穷，单纯分母为0并不充分。可约去因子造成的孔洞可能有有限极限。水平渐近线由x趋正或负无穷的函数极限确定，两端可不同，而且曲线可穿过水平渐近线，不是永远不可相交的墙。",
+      "斜渐近线y=mx+b可由长除或极限求出，需f(x)−(mx+b)趋0，而不是仅斜率趋m。函数有竖直渐近线时左右两支应分别画，标明趋向和截距，不得用一条直线跨越缺点来制造错误连通。",
+      "最后把全部证据放回同一坐标比例，检查每段单调与凹凸是否一致、极值是否高低合理、孔洞是否空心。数值采样和绘图库有助核验，但自动连点可能越过极点，必须依数学分区。图题也应区分定性示意与按比例定量图，不能标假的精确交点。"
+    ],
+    "derive": [
+      "增减由f′符号，弯曲由f″符号；零点只是候选，不自动保证极值/拐点。",
+      "竖直渐近线要求单侧无穷极限；可去间断可为有限孔洞。",
+      "斜渐近线检f(x)−(mx+b)→0，跨缺点的连线必须断开。"
+    ],
+    "examples": [
+      {
+        "q": "分析f=x³−3x的极值和拐点。 条件：x∈R。",
+        "given": "x∈R。",
+        "analysis": "一阶定增减，二阶定弯曲。",
+        "method": "符号表。",
+        "principle": "导数判据。",
+        "steps": [
+          "f′=3(x−1)(x+1)，符号+、−、+，故(−1,2)极大、(1,−2)极小。",
+          "f″=6x过0变号，拐点(0,0)。"
+        ],
+        "ans": "极大(−1,2)，极小(1,−2)，拐点(0,0)。",
+        "verification": "代点值并核两侧符号。",
+        "pitfall": "只报导数零点而不判号。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.6",
+        "related_sections": []
+      },
+      {
+        "q": "求f=x²/(x−1)的定义域、渐近线及驻点。 条件：实函数。",
+        "given": "实函数。",
+        "analysis": "长除给斜线，导数符号另查。",
+        "method": "分区分析。",
+        "principle": "极限与商求导。",
+        "steps": [
+          "f=x+1+1/(x−1)，域x≠1，竖线x=1、斜线y=x+1。",
+          "f′=x(x−2)/(x−1)²，驻点(0,0)、(2,4)。"
+        ],
+        "ans": "上述域与渐近线；0处极大，2处极小。",
+        "verification": "导数在0左正右负，2左负右正；渐近差趋0。",
+        "pitfall": "跨x=1连接两驻点。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.6",
+        "related_sections": []
+      },
+      {
+        "q": "f=(x²−1)/(x−1)在x=1是竖直渐近线吗？ 条件：原函数域x≠1。",
+        "given": "原函数域x≠1。",
+        "analysis": "约分后极限有限。",
+        "method": "先化简但保留域。",
+        "principle": "可去间断。",
+        "steps": [
+          "x≠1时f=x+1。",
+          "x→1时趋2，非无穷。"
+        ],
+        "ans": "不是；在(1,2)有孔洞。",
+        "verification": "图应画直线缺一个空心点。",
+        "pitfall": "分母0全当渐近线。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.6",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "f=x⁴在0是拐点吗？ 条件：x∈R。",
+        "given": "x∈R。",
+        "analysis": "二阶零但不变号。",
+        "method": "看f″。",
+        "principle": "拐点判据。",
+        "steps": [
+          "f″=12x²≥0。",
+          "0两侧均向上弯。"
+        ],
+        "ans": "不是。",
+        "verification": "f″=0只是候选。",
+        "pitfall": "零二阶必拐点。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.6",
+        "related_sections": []
+      },
+      {
+        "q": "f=x³在0有极值吗？ 条件：实函数。",
+        "given": "实函数。",
+        "analysis": "驻点不必转增减。",
+        "method": "看f′符号。",
+        "principle": "极值判据。",
+        "steps": [
+          "f′=3x²，左右均正。",
+          "函数穿过0继续增。"
+        ],
+        "ans": "无极值。",
+        "verification": "该处可为水平切线拐点。",
+        "pitfall": "驻点等于极值。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.6",
+        "related_sections": []
+      },
+      {
+        "q": "f=1/(x−2)在x=2两侧极限？ 条件：分别取单侧。",
+        "given": "分别取单侧。",
+        "analysis": "分子正、分母变号。",
+        "method": "符号极限。",
+        "principle": "倒数近零行为。",
+        "steps": [
+          "左侧分母负且趋0，函数趋−∞。",
+          "右侧趋+∞。"
+        ],
+        "ans": "左−∞，右+∞。",
+        "verification": "竖直渐近线x=2，不能连线。",
+        "pitfall": "两边都写+∞。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.6",
+        "related_sections": []
+      },
+      {
+        "q": "f=x+2+3/x的斜渐近线？ 条件：x≠0，x→±∞。",
+        "given": "x≠0，x→±∞。",
+        "analysis": "余项趋0。",
+        "method": "求函数减直线。",
+        "principle": "渐近定义。",
+        "steps": [
+          "f−(x+2)=3/x。",
+          "两端均趋0。"
+        ],
+        "ans": "y=x+2。",
+        "verification": "只报斜率1会漏截距。",
+        "pitfall": "渐近线写y=x。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 28,
+        "primary_section": "28.6",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "图像拟合软件把极点两侧采样点用一线连接，能作为准确草图吗？ 条件：函数在中间未定义并趋无穷。",
+      "given": "函数在中间未定义并趋无穷。",
+      "analysis": "连点引入虚构函数值。",
+      "method": "按定义域分段。",
+      "principle": "图像须对应原函数。",
+      "steps": [
+        "极点处无函数值且单侧无穷。",
+        "应断开并分别画趋势。"
+      ],
+      "ans": "不能。",
+      "verification": "增加采样也不取代断开定义域。",
+      "pitfall": "软件输出自动准确。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 28,
+      "primary_section": "28.6",
+      "related_sections": []
+    },
+    "exam": [
+      "先定义域和分支，再列f′、f″符号表，图随证据画",
+      "导数零点逐一判号，孔洞与竖渐近用极限区别",
+      "最后核坐标、截距、渐近差及两端趋势，图形不得越缺点连线"
+    ],
+    "quick": [
+      "定义域",
+      "截距对称",
+      "单调极值",
+      "弯曲拐点",
+      "渐近与分支"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1047236315/高级数学-高三上册-1",
+        "page": 32,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_28.6",
+        "url": "https://openstax.org/books/calculus-volume-1/pages/4-5-derivatives-and-the-shape-of-a-graph",
+        "page_or_section": "4-5-derivatives-and-the-shape-of-a-graph",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1047236315/高级数学-高三上册-1",
+        "page": 32,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_28.6",
+        "url": "https://openstax.org/books/calculus-volume-1/pages/4-5-derivatives-and-the-shape-of-a-graph",
+        "page_or_section": "4-5-derivatives-and-the-shape-of-a-graph",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先定义域和分支，再列f′、f″符号表，图随证据画",
+      "method": "先化简但保留域。",
+      "principle": "可去间断。",
+      "worked_example_index": 2,
+      "verification": "图应画直线缺一个空心点。",
+      "pitfall": "分母0全当渐近线。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“整合定义域、导数、凹凸和渐近线作图”的抽样复核：代点值并核两侧符号。；若出现“只报导数零点而不判号。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“识别拐点、孔洞与驻点的不同判据”的抽样复核：图应画直线缺一个空心点。；若出现“分母0全当渐近线。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "软件输出自动准确。",
+        "correction": "不能。",
+        "verification": "增加采样也不取代断开定义域。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "有理函数分支与斜渐近线",
+      "objects": [
+        "f=x²/(x−1)",
+        "x=1",
+        "y=x+1",
+        "(0,0)",
+        "(2,4)",
+        "导数符号条"
+      ],
+      "relations": [
+        "x=1两侧断开",
+        "0极大2极小",
+        "函数与斜线差1/(x−1)",
+        "曲线不与斜线任意重合"
+      ],
+      "labels": [
+        "x≠1",
+        "极大",
+        "极小",
+        "竖直渐近线",
+        "斜渐近线"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用同式函数图；须重核定义域、切点、渐近线与开闭点，不用形似曲线代替定量图",
+      "english": "Use deterministic mathematical plotting with labeled axes, exact domains and correct tangent slopes. Separate branches and poles. Trigonometric inputs are radians unless conversion is explicit. Mark excluded points as open; do not connect across asymptotes."
+    }
+  }
+}

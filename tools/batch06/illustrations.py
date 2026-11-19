@@ -79,6 +79,7 @@ english={
 'Natural convection requires the stated density, gravity and geometry conditions. Forced convection is driven by a fan or pump. Heat itself is not a material that always rises.',
 'Radiation uses absolute temperature and distinguishes gross emission from net exchange. At equal body and surroundings temperature net radiation can be zero while emission continues.']
 }
+english.update(json.loads((out/'TOPIC_CONSTRAINTS_ADDITIONS.json').read_text()))
 tasks=[]
 curr={(r['subject'],r['chapter']):r['title'] for r in json.loads((R/'data/curriculum.json').read_text())}
 for ev in sorted((R/'data/batch06').glob('*-sections.json')):

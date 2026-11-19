@@ -1,6 +1,6 @@
 # Batch06 新增真实小节绘图任务
 
-63项独立复合教学图规范；没有生成新图片，也没有将原142项缺口冒称补齐。
+89项独立复合教学图规范；没有生成新图片，也没有将原142项缺口冒称补齐。
 
 ## B06-BIO04-4-1 · 生物 4.1 细胞的分工
 
@@ -297,6 +297,303 @@ No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charge
 来源：
 - https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf
 - https://openstax.org/books/anatomy-and-physiology-2e/pages/3-6-cellular-differentiation
+- https://dokumen.pub/50366241b762a3c2b78989c47ca84b70.html
+
+## B06-BIO08-8-1 · 生物 8.1 什么是内环境恒定
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：区分外环境、细胞内液与内环境；用动态范围解释恒定及其意义
+
+对象：毛细血管；组织液；细胞；淋巴管；肠腔对照
+
+关系：细胞内外以膜分界；血浆与组织液交换；淋巴回流
+
+中文标签：血浆；组织液；细胞内液；淋巴；外环境
+
+公式/单位：内环境以细胞外液为主；细胞内液另列。；多数组织细胞交换可概括为血浆⇄组织液⇄细胞；部分组织液经淋巴回流。；储量变化=输入−输出±与其他部分的净转移；稳定不要求通量为零。
+
+### 中文Prompt
+
+制作生物第8章《内环境的恒定和排泄系统》8.1《什么是内环境恒定》的教学图《内环境分区与交换》。教学目标：区分外环境、细胞内液与内环境；用动态范围解释恒定及其意义。必须对象：毛细血管；组织液；细胞；淋巴管；肠腔对照。不可画错的关系：细胞内外以膜分界；血浆与组织液交换；淋巴回流。中文标签：血浆；组织液；细胞内液；淋巴；外环境。公式、单位和条件：内环境以细胞外液为主；细胞内液另列。；多数组织细胞交换可概括为血浆⇄组织液⇄细胞；部分组织液经淋巴回流。；储量变化=输入−输出±与其他部分的净转移；稳定不要求通量为零。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter8, authentic subsection8.1, with original Chinese title 什么是内环境恒定. Topic-specific mandatory science: Separate extracellular plasma, tissue fluid and lymph from intracellular fluid and the gut lumen. Blood cells are not plasma. Stable storage can coexist with nonzero opposing fluxes. Draw a deterministic homeostasis diagram. Separate the controlled variable, hormone signal and effector response. Blood, filtrate, reabsorption and secretion paths must be distinct. Do not imply perfect constancy. Required objects, preserving these Chinese labels: 毛细血管；组织液；细胞；淋巴管；肠腔对照. Additional literal Chinese annotation strings: 血浆；组织液；细胞内液；淋巴；外环境. Typeset and verify these reference formulas, units and stated conditions: 内环境以细胞外液为主；细胞内液另列。；多数组织细胞交换可概括为血浆⇄组织液⇄细胞；部分组织液经淋巴回流。；储量变化=输入−输出±与其他部分的净转移；稳定不要求通量为零。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 细胞内外以膜分界
+- 血浆与组织液交换
+- 淋巴回流
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用经审核的肾单位或反馈图；须核流向、激素来源与目标变量
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf
+- https://openstax.org/books/biology-2e/pages/33-3-homeostasis
+
+## B06-BIO08-8-2 · 生物 8.2 怎样维持内环境恒定
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：从受控变量识别负反馈与正反馈；用干预定位感受、整合或效应环节
+
+对象：受控变量；感受器；整合点；信号H；效应器
+
+关系：负反馈减小偏差；信息箭头不同于物质运输；H干预绕过上游
+
+中文标签：负反馈；正反馈；终止条件；对照
+
+公式/单位：负反馈：响应减弱最初偏差；升高低值也可属负反馈。；正反馈：响应加强初始变化，通常须有终止条件。；比较自然刺激与直接下游刺激，可定位可能环节，但需对照与限制。
+
+### 中文Prompt
+
+制作生物第8章《内环境的恒定和排泄系统》8.2《怎样维持内环境恒定》的教学图《反馈方向与通路定位》。教学目标：从受控变量识别负反馈与正反馈；用干预定位感受、整合或效应环节。必须对象：受控变量；感受器；整合点；信号H；效应器。不可画错的关系：负反馈减小偏差；信息箭头不同于物质运输；H干预绕过上游。中文标签：负反馈；正反馈；终止条件；对照。公式、单位和条件：负反馈：响应减弱最初偏差；升高低值也可属负反馈。；正反馈：响应加强初始变化，通常须有终止条件。；比较自然刺激与直接下游刺激，可定位可能环节，但需对照与限制。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter8, authentic subsection8.2, with original Chinese title 怎样维持内环境恒定. Topic-specific mandatory science: Negative feedback reduces the initial controlled-variable deviation; an upward response to a low value is still negative feedback. Direct downstream hormone intervention bypasses sensing and synthesis but does not uniquely locate every upstream defect. Draw a deterministic homeostasis diagram. Separate the controlled variable, hormone signal and effector response. Blood, filtrate, reabsorption and secretion paths must be distinct. Do not imply perfect constancy. Required objects, preserving these Chinese labels: 受控变量；感受器；整合点；信号H；效应器. Additional literal Chinese annotation strings: 负反馈；正反馈；终止条件；对照. Typeset and verify these reference formulas, units and stated conditions: 负反馈：响应减弱最初偏差；升高低值也可属负反馈。；正反馈：响应加强初始变化，通常须有终止条件。；比较自然刺激与直接下游刺激，可定位可能环节，但需对照与限制。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 负反馈减小偏差
+- 信息箭头不同于物质运输
+- H干预绕过上游
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用经审核的肾单位或反馈图；须核流向、激素来源与目标变量
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf
+- https://openstax.org/books/biology-2e/pages/33-3-homeostasis
+
+## B06-BIO08-8-3 · 生物 8.3 水平衡的调节
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：解释渗透变化与ADH的因果链；从收支和尿量区分失水与补偿
+
+对象：下丘脑；垂体后叶；血液；集合管；水通道
+
+关系：下丘脑合成、后叶释放；水从管腔回体内；通透性作用须有梯度
+
+中文标签：ADH；合成；释放；水重吸收；浓度×体积
+
+公式/单位：渗透浓度升高→相关下丘脑调控→ADH作用增强→有梯度时水重吸收增多→水流失减少。；ADH在下丘脑合成，垂体后叶储存释放；作用部位不是合成部位。；净水变化=全部输入−全部输出；溶质排出量=尿浓度×尿体积。
+
+### 中文Prompt
+
+制作生物第8章《内环境的恒定和排泄系统》8.3《水平衡的调节》的教学图《ADH与水重吸收》。教学目标：解释渗透变化与ADH的因果链；从收支和尿量区分失水与补偿。必须对象：下丘脑；垂体后叶；血液；集合管；水通道。不可画错的关系：下丘脑合成、后叶释放；水从管腔回体内；通透性作用须有梯度。中文标签：ADH；合成；释放；水重吸收；浓度×体积。公式、单位和条件：渗透浓度升高→相关下丘脑调控→ADH作用增强→有梯度时水重吸收增多→水流失减少。；ADH在下丘脑合成，垂体后叶储存释放；作用部位不是合成部位。；净水变化=全部输入−全部输出；溶质排出量=尿浓度×尿体积。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter8, authentic subsection8.3, with original Chinese title 水平衡的调节. Topic-specific mandatory science: ADH is synthesized in hypothalamic neurons and stored and released from the posterior pituitary. It changes appropriate membrane water permeability; water still needs an osmotic gradient. Excreted solute amount equals urine concentration times volume. Draw a deterministic homeostasis diagram. Separate the controlled variable, hormone signal and effector response. Blood, filtrate, reabsorption and secretion paths must be distinct. Do not imply perfect constancy. Required objects, preserving these Chinese labels: 下丘脑；垂体后叶；血液；集合管；水通道. Additional literal Chinese annotation strings: ADH；合成；释放；水重吸收；浓度×体积. Typeset and verify these reference formulas, units and stated conditions: 渗透浓度升高→相关下丘脑调控→ADH作用增强→有梯度时水重吸收增多→水流失减少。；ADH在下丘脑合成，垂体后叶储存释放；作用部位不是合成部位。；净水变化=全部输入−全部输出；溶质排出量=尿浓度×尿体积。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 下丘脑合成、后叶释放
+- 水从管腔回体内
+- 通透性作用须有梯度
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用经审核的肾单位或反馈图；须核流向、激素来源与目标变量
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf
+- https://openstax.org/books/biology-2e/pages/41-5-hormonal-control-of-osmoregulatory-functions
+
+## B06-BIO08-8-4 · 生物 8.4 体温恒定的调节
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：用产热和散热解释体温变化；连接感受、下丘脑与多种效应器
+
+对象：核心；皮肤血管；汗腺；骨骼肌；环境
+
+关系：汗蒸发才带走汽化热；环境较热时干热交换可向内；寒战增产热而血管收缩减散热
+
+中文标签：核心温度；蒸发；产热；净热收支
+
+公式/单位：净储热功率=代谢产热+环境净输入−其他净散热；稳温时净储热约0。；实际蒸发吸热Q=m_evaporated L，不用所有分泌汗量替代m_evaporated。；温度偏高/偏低引出的效应，应从受控核心温度看是否减弱偏差。
+
+### 中文Prompt
+
+制作生物第8章《内环境的恒定和排泄系统》8.4《体温恒定的调节》的教学图《温度反馈及热量通路》。教学目标：用产热和散热解释体温变化；连接感受、下丘脑与多种效应器。必须对象：核心；皮肤血管；汗腺；骨骼肌；环境。不可画错的关系：汗蒸发才带走汽化热；环境较热时干热交换可向内；寒战增产热而血管收缩减散热。中文标签：核心温度；蒸发；产热；净热收支。公式、单位和条件：净储热功率=代谢产热+环境净输入−其他净散热；稳温时净储热约0。；实际蒸发吸热Q=m_evaporated L，不用所有分泌汗量替代m_evaporated。；温度偏高/偏低引出的效应，应从受控核心温度看是否减弱偏差。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter8, authentic subsection8.4, with original Chinese title 体温恒定的调节. Topic-specific mandatory science: Distinguish core temperature from skin temperature. Only evaporated sweat earns the stated latent heat. A hotter environment can transfer dry heat inward. Shivering increases heat production while cutaneous vasoconstriction can reduce heat loss. Draw a deterministic homeostasis diagram. Separate the controlled variable, hormone signal and effector response. Blood, filtrate, reabsorption and secretion paths must be distinct. Do not imply perfect constancy. Required objects, preserving these Chinese labels: 核心；皮肤血管；汗腺；骨骼肌；环境. Additional literal Chinese annotation strings: 核心温度；蒸发；产热；净热收支. Typeset and verify these reference formulas, units and stated conditions: 净储热功率=代谢产热+环境净输入−其他净散热；稳温时净储热约0。；实际蒸发吸热Q=m_evaporated L，不用所有分泌汗量替代m_evaporated。；温度偏高/偏低引出的效应，应从受控核心温度看是否减弱偏差。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 汗蒸发才带走汽化热
+- 环境较热时干热交换可向内
+- 寒战增产热而血管收缩减散热
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用经审核的肾单位或反馈图；须核流向、激素来源与目标变量
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf
+- https://openstax.org/books/biology-2e/pages/33-3-homeostasis
+
+## B06-BIO08-8-5 · 生物 8.5 血糖平衡的调节
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：解释胰岛素和胰高血糖素的作用方向；从血糖曲线区分现象、机制与证据
+
+对象：血浆葡萄糖；胰岛α/β；肝；肌肉；进食吸收
+
+关系：胰岛素帮助降低偏高血糖；胰高血糖素主要促肝供糖；肌糖原不画成同等直接血糖出口
+
+中文标签：胰岛素；胰高血糖素；摄取储存；肝输出
+
+公式/单位：进食吸收、肝输出与组织摄取储存共同影响血糖。；胰岛β细胞→胰岛素；胰岛α细胞→胰高血糖素，后者主要增强肝供糖。；负反馈以血糖偏差是否被减弱为判据，不能用单一曲线唯一确定病因。
+
+### 中文Prompt
+
+制作生物第8章《内环境的恒定和排泄系统》8.5《血糖平衡的调节》的教学图《血糖来源与激素反馈》。教学目标：解释胰岛素和胰高血糖素的作用方向；从血糖曲线区分现象、机制与证据。必须对象：血浆葡萄糖；胰岛α/β；肝；肌肉；进食吸收。不可画错的关系：胰岛素帮助降低偏高血糖；胰高血糖素主要促肝供糖；肌糖原不画成同等直接血糖出口。中文标签：胰岛素；胰高血糖素；摄取储存；肝输出。公式、单位和条件：进食吸收、肝输出与组织摄取储存共同影响血糖。；胰岛β细胞→胰岛素；胰岛α细胞→胰高血糖素，后者主要增强肝供糖。；负反馈以血糖偏差是否被减弱为判据，不能用单一曲线唯一确定病因。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter8, authentic subsection8.5, with original Chinese title 血糖平衡的调节. Topic-specific mandatory science: Beta cells release insulin; alpha cells release glucagon. Insulin affects uptake and storage in specified tissues and suppresses hepatic glucose output. Muscle glycogen must not be drawn as equivalent direct glucose export to blood. Draw a deterministic homeostasis diagram. Separate the controlled variable, hormone signal and effector response. Blood, filtrate, reabsorption and secretion paths must be distinct. Do not imply perfect constancy. Required objects, preserving these Chinese labels: 血浆葡萄糖；胰岛α/β；肝；肌肉；进食吸收. Additional literal Chinese annotation strings: 胰岛素；胰高血糖素；摄取储存；肝输出. Typeset and verify these reference formulas, units and stated conditions: 进食吸收、肝输出与组织摄取储存共同影响血糖。；胰岛β细胞→胰岛素；胰岛α细胞→胰高血糖素，后者主要增强肝供糖。；负反馈以血糖偏差是否被减弱为判据，不能用单一曲线唯一确定病因。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 胰岛素帮助降低偏高血糖
+- 胰高血糖素主要促肝供糖
+- 肌糖原不画成同等直接血糖出口
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用经审核的肾单位或反馈图；须核流向、激素来源与目标变量
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf
+- https://openstax.org/books/biology-2e/pages/33-3-homeostasis
+
+## B06-BIO08-8-6 · 生物 8.6 泌尿系统的结构
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：追踪血液与尿液的不同通路；将肾皮质髓质与肾单位结构对应
+
+对象：入球出球小动脉；肾小球与囊；各肾小管段；集合管；管周血管
+
+关系：出球小动脉到管周血管；滤液由囊腔至集合管；血路与尿路分离；标皮质髓质界线
+
+中文标签：血液；滤液；重吸收；分泌；皮质；髓质
+
+公式/单位：血：肾动脉分支→入球小动脉→肾小球→出球小动脉→管周血管→肾静脉。；滤液/尿：肾小囊腔→近曲小管→肾袢→远曲小管→集合管→肾盂→输尿管→膀胱→尿道。；重吸收与分泌箭头跨上皮，血管腔不与滤液管腔直接接通。
+
+### 中文Prompt
+
+制作生物第8章《内环境的恒定和排泄系统》8.6《泌尿系统的结构》的教学图《肾单位双通路》。教学目标：追踪血液与尿液的不同通路；将肾皮质髓质与肾单位结构对应。必须对象：入球出球小动脉；肾小球与囊；各肾小管段；集合管；管周血管。不可画错的关系：出球小动脉到管周血管；滤液由囊腔至集合管；血路与尿路分离；标皮质髓质界线。中文标签：血液；滤液；重吸收；分泌；皮质；髓质。公式、单位和条件：血：肾动脉分支→入球小动脉→肾小球→出球小动脉→管周血管→肾静脉。；滤液/尿：肾小囊腔→近曲小管→肾袢→远曲小管→集合管→肾盂→输尿管→膀胱→尿道。；重吸收与分泌箭头跨上皮，血管腔不与滤液管腔直接接通。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter8, authentic subsection8.6, with original Chinese title 泌尿系统的结构. Topic-specific mandatory science: Keep renal blood and filtrate lumens separate. Blood runs afferent arteriole to glomerulus to efferent arteriole then peritubular vessels. Filtrate runs capsule to proximal tubule, loop, distal tubule and collecting duct. Mark cortex and medulla. Draw a deterministic homeostasis diagram. Separate the controlled variable, hormone signal and effector response. Blood, filtrate, reabsorption and secretion paths must be distinct. Do not imply perfect constancy. Required objects, preserving these Chinese labels: 入球出球小动脉；肾小球与囊；各肾小管段；集合管；管周血管. Additional literal Chinese annotation strings: 血液；滤液；重吸收；分泌；皮质；髓质. Typeset and verify these reference formulas, units and stated conditions: 血：肾动脉分支→入球小动脉→肾小球→出球小动脉→管周血管→肾静脉。；滤液/尿：肾小囊腔→近曲小管→肾袢→远曲小管→集合管→肾盂→输尿管→膀胱→尿道。；重吸收与分泌箭头跨上皮，血管腔不与滤液管腔直接接通。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 出球小动脉到管周血管
+- 滤液由囊腔至集合管
+- 血路与尿路分离
+- 标皮质髓质界线
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用经审核的肾单位或反馈图；须核流向、激素来源与目标变量
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf
+- https://openstax.org/books/biology-2e/pages/41-2-the-kidneys-and-osmoregulatory-organs
+
+## B06-BIO08-8-7 · 生物 8.7 尿液是如何形成的
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：区分滤过、重吸收、分泌与排泄；用质量收支计算排出并评估条件
+
+对象：肾小球；肾小囊；肾小管；血侧；尿出口
+
+关系：滤过与分泌增加管内量；回收减少管内量；排出=滤过−回收+分泌；完整屏障通常保留血细胞
+
+中文标签：滤过；重吸收；分泌；排出率；mg/min
+
+公式/单位：无肾内生成分解时：排出率=滤过负荷−重吸收率+分泌率。；负荷或排出率=相应液体浓度×体积流率；单位先统一。；同一物质的滤过与重吸收可同时很大，最终排出接近0不代表从未滤过。
+
+### 中文Prompt
+
+制作生物第8章《内环境的恒定和排泄系统》8.7《尿液是如何形成的》的教学图《形成尿液的质量收支》。教学目标：区分滤过、重吸收、分泌与排泄；用质量收支计算排出并评估条件。必须对象：肾小球；肾小囊；肾小管；血侧；尿出口。不可画错的关系：滤过与分泌增加管内量；回收减少管内量；排出=滤过−回收+分泌；完整屏障通常保留血细胞。中文标签：滤过；重吸收；分泌；排出率；mg/min。公式、单位和条件：无肾内生成分解时：排出率=滤过负荷−重吸收率+分泌率。；负荷或排出率=相应液体浓度×体积流率；单位先统一。；同一物质的滤过与重吸收可同时很大，最终排出接近0不代表从未滤过。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter8, authentic subsection8.7, with original Chinese title 尿液是如何形成的. Topic-specific mandatory science: Excretion rate equals filtration minus reabsorption plus secretion if there is no renal production or degradation. Glucose can be filtered and then recovered; zero final excretion does not mean zero filtration. Intact filtration barriers normally retain blood cells. Draw a deterministic homeostasis diagram. Separate the controlled variable, hormone signal and effector response. Blood, filtrate, reabsorption and secretion paths must be distinct. Do not imply perfect constancy. Required objects, preserving these Chinese labels: 肾小球；肾小囊；肾小管；血侧；尿出口. Additional literal Chinese annotation strings: 滤过；重吸收；分泌；排出率；mg/min. Typeset and verify these reference formulas, units and stated conditions: 无肾内生成分解时：排出率=滤过负荷−重吸收率+分泌率。；负荷或排出率=相应液体浓度×体积流率；单位先统一。；同一物质的滤过与重吸收可同时很大，最终排出接近0不代表从未滤过。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 滤过与分泌增加管内量
+- 回收减少管内量
+- 排出=滤过−回收+分泌
+- 完整屏障通常保留血细胞
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用经审核的肾单位或反馈图；须核流向、激素来源与目标变量
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf
+- https://openstax.org/books/biology-2e/pages/41-2-the-kidneys-and-osmoregulatory-organs
 
 ## B06-BIO14-14-1 · 生物 14.1 DNA是遗传物质的证据
 
@@ -2037,6 +2334,807 @@ No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charge
 来源：
 - https://www.scribd.com/document/1058092101/数学-高一上册
 - https://math.libretexts.org/Bookshelves/Applied_Mathematics/Applied_Finite_Mathematics_%28Sekhon_and_Bloom%29/03%3A_Linear_Programming_-_A_Geometric_Approach/3.01%3A_Maximization_Applications
+
+## B06-MATH28-28-1 · 数学 28.1 隐函数的微分法
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：对含y的式子正确使用链式与乘积法则；由点坐标判断切线、垂线及局部可微条件
+
+对象：半径5圆；(3,4)切线；(5,0)竖直切线；上下分支
+
+关系：3x+4y=25切于(3,4)；x=5切于(5,0)；同x=3两支斜率异号
+
+中文标签：y′=−x/y；(3,4)；x=5；分支
+
+公式/单位：F(x,y)=0⇒F_x+F_y y′=0；F_y≠0时y′=−F_x/F_y。；d(xy)/dx=y+xy′；d(y²)/dx=2yy′。；切点先验原式；有限m用点斜式，垂直与水平情况另处理。
+
+### 中文Prompt
+
+制作数学第28章《微分及其应用（二）》28.1《隐函数的微分法》的教学图《圆的隐式微分与垂直切线》。教学目标：对含y的式子正确使用链式与乘积法则；由点坐标判断切线、垂线及局部可微条件。必须对象：半径5圆；(3,4)切线；(5,0)竖直切线；上下分支。不可画错的关系：3x+4y=25切于(3,4)；x=5切于(5,0)；同x=3两支斜率异号。中文标签：y′=−x/y；(3,4)；x=5；分支。公式、单位和条件：F(x,y)=0⇒F_x+F_y y′=0；F_y≠0时y′=−F_x/F_y。；d(xy)/dx=y+xy′；d(y²)/dx=2yy′。；切点先验原式；有限m用点斜式，垂直与水平情况另处理。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter28, authentic subsection28.1, with original Chinese title 隐函数的微分法. Topic-specific mandatory science: Plot x squared plus y squared equals25. The tangent at(3,4) is3x+4y=25. At(5,0) the tangent is x=5, not a finite slope obtained by division by zero. At x=3 both y=4 and y=-4 exist. Use deterministic mathematical plotting with labeled axes, exact domains and correct tangent slopes. Separate branches and poles. Trigonometric inputs are radians unless conversion is explicit. Mark excluded points as open; do not connect across asymptotes. Required objects, preserving these Chinese labels: 半径5圆；(3,4)切线；(5,0)竖直切线；上下分支. Additional literal Chinese annotation strings: y′=−x/y；(3,4)；x=5；分支. Typeset and verify these reference formulas, units and stated conditions: F(x,y)=0⇒F_x+F_y y′=0；F_y≠0时y′=−F_x/F_y。；d(xy)/dx=y+xy′；d(y²)/dx=2yy′。；切点先验原式；有限m用点斜式，垂直与水平情况另处理。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 3x+4y=25切于(3,4)
+- x=5切于(5,0)
+- 同x=3两支斜率异号
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用同式函数图；须重核定义域、切点、渐近线与开闭点，不用形似曲线代替定量图
+
+来源：
+- https://www.scribd.com/document/1047236315/高级数学-高三上册-1
+- https://openstax.org/books/calculus-volume-1/pages/3-8-implicit-differentiation
+
+## B06-MATH28-28-2 · 数学 28.2 三角函数的微分法
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：用基本极限推导三角导数；在复合函数中保持弧度与链式因子
+
+对象：sin x曲线；cos x曲线；同轴弧度刻度；峰值与零点
+
+关系：sin峰值处cos为0；sin递增区cos正；用同一x轴尺度
+
+中文标签：x/rad；sin x；cos x；导数
+
+公式/单位：lim_(h→0) sin h/h=1（弧度），差商推出(sin x)′=cos x。；(cos x)′=−sin x，(tan x)′=sec²x；其余倒数函数按商/链式求导。；复合u时乘u′；度数变量sin(πx/180)另乘π/180。
+
+### 中文Prompt
+
+制作数学第28章《微分及其应用（二）》28.2《三角函数的微分法》的教学图《正弦与导数的相位》。教学目标：用基本极限推导三角导数；在复合函数中保持弧度与链式因子。必须对象：sin x曲线；cos x曲线；同轴弧度刻度；峰值与零点。不可画错的关系：sin峰值处cos为0；sin递增区cos正；用同一x轴尺度。中文标签：x/rad；sin x；cos x；导数。公式、单位和条件：lim_(h→0) sin h/h=1（弧度），差商推出(sin x)′=cos x。；(cos x)′=−sin x，(tan x)′=sec²x；其余倒数函数按商/链式求导。；复合u时乘u′；度数变量sin(πx/180)另乘π/180。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter28, authentic subsection28.2, with original Chinese title 三角函数的微分法. Topic-specific mandatory science: Plot sin x and cos x on the same radian axis. Peaks of sin x coincide with zeros of its derivative cos x. A degree-valued input sin(pi*x/180) needs an additional pi/180 derivative factor. Use deterministic mathematical plotting with labeled axes, exact domains and correct tangent slopes. Separate branches and poles. Trigonometric inputs are radians unless conversion is explicit. Mark excluded points as open; do not connect across asymptotes. Required objects, preserving these Chinese labels: sin x曲线；cos x曲线；同轴弧度刻度；峰值与零点. Additional literal Chinese annotation strings: x/rad；sin x；cos x；导数. Typeset and verify these reference formulas, units and stated conditions: lim_(h→0) sin h/h=1（弧度），差商推出(sin x)′=cos x。；(cos x)′=−sin x，(tan x)′=sec²x；其余倒数函数按商/链式求导。；复合u时乘u′；度数变量sin(πx/180)另乘π/180。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- sin峰值处cos为0
+- sin递增区cos正
+- 用同一x轴尺度
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用同式函数图；须重核定义域、切点、渐近线与开闭点，不用形似曲线代替定量图
+
+来源：
+- https://www.scribd.com/document/1047236315/高级数学-高三上册-1
+- https://openstax.org/books/calculus-volume-1/pages/3-5-derivatives-of-trigonometric-functions
+
+## B06-MATH28-28-3 · 数学 28.3 对数函数的微分法
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：推导并应用自然及一般底对数导数；用对数微分处理变指数并保留定义域
+
+对象：ln x正半轴；ln|x|双分支；x=0排除；x^x推导框
+
+关系：两对数导数同1/x但域不同；x^x限x>0；y′/y需乘回y
+
+中文标签：ln x；ln|x|；x≠0；y′/y
+
+公式/单位：(ln x)′=1/x（x>0）；(log_a x)′=1/(x ln a)，a>0且a≠1。；(ln|u|)′=u′/u，u≠0且可微，按各区间使用。；x>0时ln(x^x)=x ln x⇒(x^x)′=x^x(ln x+1)。
+
+### 中文Prompt
+
+制作数学第28章《微分及其应用（二）》28.3《对数函数的微分法》的教学图《对数定义域与对数微分》。教学目标：推导并应用自然及一般底对数导数；用对数微分处理变指数并保留定义域。必须对象：ln x正半轴；ln|x|双分支；x=0排除；x^x推导框。不可画错的关系：两对数导数同1/x但域不同；x^x限x>0；y′/y需乘回y。中文标签：ln x；ln|x|；x≠0；y′/y。公式、单位和条件：(ln x)′=1/x（x>0）；(log_a x)′=1/(x ln a)，a>0且a≠1。；(ln|u|)′=u′/u，u≠0且可微，按各区间使用。；x>0时ln(x^x)=x ln x⇒(x^x)′=x^x(ln x+1)。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter28, authentic subsection28.3, with original Chinese title 对数函数的微分法. Topic-specific mandatory science: Contrast ln x on x>0 with ln absolute x on x nonzero. Their derivative expression1/x has different underlying function domains. For x>0, differentiating x to the power x requires logarithmic differentiation and yields x^x times(ln x+1). Use deterministic mathematical plotting with labeled axes, exact domains and correct tangent slopes. Separate branches and poles. Trigonometric inputs are radians unless conversion is explicit. Mark excluded points as open; do not connect across asymptotes. Required objects, preserving these Chinese labels: ln x正半轴；ln|x|双分支；x=0排除；x^x推导框. Additional literal Chinese annotation strings: ln x；ln|x|；x≠0；y′/y. Typeset and verify these reference formulas, units and stated conditions: (ln x)′=1/x（x>0）；(log_a x)′=1/(x ln a)，a>0且a≠1。；(ln|u|)′=u′/u，u≠0且可微，按各区间使用。；x>0时ln(x^x)=x ln x⇒(x^x)′=x^x(ln x+1)。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 两对数导数同1/x但域不同
+- x^x限x>0
+- y′/y需乘回y
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用同式函数图；须重核定义域、切点、渐近线与开闭点，不用形似曲线代替定量图
+
+来源：
+- https://www.scribd.com/document/1047236315/高级数学-高三上册-1
+- https://openstax.org/books/calculus-volume-1/pages/3-9-derivatives-of-exponential-and-logarithmic-functions
+
+## B06-MATH28-28-4 · 数学 28.4 指数函数的微分法
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：从导数定义理解自然底数及一般底公式；对指数复合和应用速率核单位
+
+对象：e^x与(1/2)^x；正值区域；导数符号；xe^(−x)驻点
+
+关系：两指数不触x轴；减函数导数负；xe^(−x)在(1,1/e)极大
+
+中文标签：a^x>0；ln a；x=1；变化率
+
+公式/单位：a^x=e^(x ln a)⇒(a^x)′=a^x ln a，a>0。；(a^u)′=a^u ln a·u′；(e^u)′=e^u u′。；指数始终正可用来判导数符号，但不能令e^x=0寻找有限驻点。
+
+### 中文Prompt
+
+制作数学第28章《微分及其应用（二）》28.4《指数函数的微分法》的教学图《指数函数与变化率》。教学目标：从导数定义理解自然底数及一般底公式；对指数复合和应用速率核单位。必须对象：e^x与(1/2)^x；正值区域；导数符号；xe^(−x)驻点。不可画错的关系：两指数不触x轴；减函数导数负；xe^(−x)在(1,1/e)极大。中文标签：a^x>0；ln a；x=1；变化率。公式、单位和条件：a^x=e^(x ln a)⇒(a^x)′=a^x ln a，a>0。；(a^u)′=a^u ln a·u′；(e^u)′=e^u u′。；指数始终正可用来判导数符号，但不能令e^x=0寻找有限驻点。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter28, authentic subsection28.4, with original Chinese title 指数函数的微分法. Topic-specific mandatory science: Positive exponential values need not have positive derivatives: (1/2)^x is decreasing. Plot x*exp(-x) with its maximum at(1,1/e). Exponential curves can approach but never reach zero at finite real input. Use deterministic mathematical plotting with labeled axes, exact domains and correct tangent slopes. Separate branches and poles. Trigonometric inputs are radians unless conversion is explicit. Mark excluded points as open; do not connect across asymptotes. Required objects, preserving these Chinese labels: e^x与(1/2)^x；正值区域；导数符号；xe^(−x)驻点. Additional literal Chinese annotation strings: a^x>0；ln a；x=1；变化率. Typeset and verify these reference formulas, units and stated conditions: a^x=e^(x ln a)⇒(a^x)′=a^x ln a，a>0。；(a^u)′=a^u ln a·u′；(e^u)′=e^u u′。；指数始终正可用来判导数符号，但不能令e^x=0寻找有限驻点。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 两指数不触x轴
+- 减函数导数负
+- xe^(−x)在(1,1/e)极大
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用同式函数图；须重核定义域、切点、渐近线与开闭点，不用形似曲线代替定量图
+
+来源：
+- https://www.scribd.com/document/1047236315/高级数学-高三上册-1
+- https://openstax.org/books/calculus-volume-1/pages/3-9-derivatives-of-exponential-and-logarithmic-functions
+
+## B06-MATH28-28-5 · 数学 28.5 洛必达法则
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：检查未定式及可用条件后求极限；区分导数之比与商的导数并处理变形
+
+对象：直接代入分支；未定式检测；导数比；正底对数化；复核
+
+关系：非未定直接算；每轮重新核条件；导数比区别商导数
+
+中文标签：0/0；∞/∞；f′/g′；不是(f/g)′
+
+公式/单位：适用的0/0或∞/∞商在相应可微等条件下：lim f/g=lim f′/g′。；这里不是(f/g)′，也不是f/g与f′/g′处处相等。；正底幂极限：ln y=v ln u，先求对数极限，再用指数连续性还原。
+
+### 中文Prompt
+
+制作数学第28章《微分及其应用（二）》28.5《洛必达法则》的教学图《洛必达决策与幂极限》。教学目标：检查未定式及可用条件后求极限；区分导数之比与商的导数并处理变形。必须对象：直接代入分支；未定式检测；导数比；正底对数化；复核。不可画错的关系：非未定直接算；每轮重新核条件；导数比区别商导数。中文标签：0/0；∞/∞；f′/g′；不是(f/g)′。公式、单位和条件：适用的0/0或∞/∞商在相应可微等条件下：lim f/g=lim f′/g′。；这里不是(f/g)′，也不是f/g与f′/g′处处相等。；正底幂极限：ln y=v ln u，先求对数极限，再用指数连续性还原。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter28, authentic subsection28.5, with original Chinese title 洛必达法则. Topic-specific mandatory science: Only apply the stated LHopital theorem after checking an admissible indeterminate quotient and its hypotheses, and recheck before repeating. The derivative ratio is not the quotient derivative. Positive-base power limits may first be logarithmized. Use deterministic mathematical plotting with labeled axes, exact domains and correct tangent slopes. Separate branches and poles. Trigonometric inputs are radians unless conversion is explicit. Mark excluded points as open; do not connect across asymptotes. Required objects, preserving these Chinese labels: 直接代入分支；未定式检测；导数比；正底对数化；复核. Additional literal Chinese annotation strings: 0/0；∞/∞；f′/g′；不是(f/g)′. Typeset and verify these reference formulas, units and stated conditions: 适用的0/0或∞/∞商在相应可微等条件下：lim f/g=lim f′/g′。；这里不是(f/g)′，也不是f/g与f′/g′处处相等。；正底幂极限：ln y=v ln u，先求对数极限，再用指数连续性还原。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 非未定直接算
+- 每轮重新核条件
+- 导数比区别商导数
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用同式函数图；须重核定义域、切点、渐近线与开闭点，不用形似曲线代替定量图
+
+来源：
+- https://www.scribd.com/document/1047236315/高级数学-高三上册-1
+- https://openstax.org/books/calculus-volume-1/pages/4-8-lhopitals-rule
+
+## B06-MATH28-28-6 · 数学 28.6 曲线的作图法
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：整合定义域、导数、凹凸和渐近线作图；识别拐点、孔洞与驻点的不同判据
+
+对象：f=x²/(x−1)；x=1；y=x+1；(0,0)；(2,4)；导数符号条
+
+关系：x=1两侧断开；0极大2极小；函数与斜线差1/(x−1)；曲线不与斜线任意重合
+
+中文标签：x≠1；极大；极小；竖直渐近线；斜渐近线
+
+公式/单位：增减由f′符号，弯曲由f″符号；零点只是候选，不自动保证极值/拐点。；竖直渐近线要求单侧无穷极限；可去间断可为有限孔洞。；斜渐近线检f(x)−(mx+b)→0，跨缺点的连线必须断开。
+
+### 中文Prompt
+
+制作数学第28章《微分及其应用（二）》28.6《曲线的作图法》的教学图《有理函数分支与斜渐近线》。教学目标：整合定义域、导数、凹凸和渐近线作图；识别拐点、孔洞与驻点的不同判据。必须对象：f=x²/(x−1)；x=1；y=x+1；(0,0)；(2,4)；导数符号条。不可画错的关系：x=1两侧断开；0极大2极小；函数与斜线差1/(x−1)；曲线不与斜线任意重合。中文标签：x≠1；极大；极小；竖直渐近线；斜渐近线。公式、单位和条件：增减由f′符号，弯曲由f″符号；零点只是候选，不自动保证极值/拐点。；竖直渐近线要求单侧无穷极限；可去间断可为有限孔洞。；斜渐近线检f(x)−(mx+b)→0，跨缺点的连线必须断开。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter28, authentic subsection28.6, with original Chinese title 曲线的作图法. Topic-specific mandatory science: Plot x squared divided by(x-1) as disconnected branches. The vertical asymptote is x=1 and the slant asymptote is y=x+1. Stationary points are a local maximum(0,0) and a local minimum(2,4). A zero second derivative alone is not an inflection guarantee. Use deterministic mathematical plotting with labeled axes, exact domains and correct tangent slopes. Separate branches and poles. Trigonometric inputs are radians unless conversion is explicit. Mark excluded points as open; do not connect across asymptotes. Required objects, preserving these Chinese labels: f=x²/(x−1)；x=1；y=x+1；(0,0)；(2,4)；导数符号条. Additional literal Chinese annotation strings: x≠1；极大；极小；竖直渐近线；斜渐近线. Typeset and verify these reference formulas, units and stated conditions: 增减由f′符号，弯曲由f″符号；零点只是候选，不自动保证极值/拐点。；竖直渐近线要求单侧无穷极限；可去间断可为有限孔洞。；斜渐近线检f(x)−(mx+b)→0，跨缺点的连线必须断开。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- x=1两侧断开
+- 0极大2极小
+- 函数与斜线差1/(x−1)
+- 曲线不与斜线任意重合
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用同式函数图；须重核定义域、切点、渐近线与开闭点，不用形似曲线代替定量图
+
+来源：
+- https://www.scribd.com/document/1047236315/高级数学-高三上册-1
+- https://openstax.org/books/calculus-volume-1/pages/4-5-derivatives-and-the-shape-of-a-graph
+
+## B06-MATH29-29-1 · 数学 29.1 利用原函数求积分
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：由求导反向识别原函数并核链式系数；区分不定积分族、定积分及区间常数
+
+对象：被积式2x/(x²+4)；u与du；ln u原函数；求导回箭头
+
+关系：du完整替换2x dx；x²+4正；原函数加C
+
+中文标签：u=x²+4；du=2x dx；ln(x²+4)+C
+
+公式/单位：F′=f⇒∫f dx=F+C（连通区间）；定积分为F(b)−F(a)需相应条件。；∫u′/u dx=ln|u|+C；∫e^(kx)dx=e^(kx)/k+C，k≠0。；∫dx/(a²+x²)=(1/a)arctan(x/a)+C，a>0，系数须求导验。
+
+### 中文Prompt
+
+制作数学第29章《积分法》29.1《利用原函数求积分》的教学图《原函数结构匹配》。教学目标：由求导反向识别原函数并核链式系数；区分不定积分族、定积分及区间常数。必须对象：被积式2x/(x²+4)；u与du；ln u原函数；求导回箭头。不可画错的关系：du完整替换2x dx；x²+4正；原函数加C。中文标签：u=x²+4；du=2x dx；ln(x²+4)+C。公式、单位和条件：F′=f⇒∫f dx=F+C（连通区间）；定积分为F(b)−F(a)需相应条件。；∫u′/u dx=ln|u|+C；∫e^(kx)dx=e^(kx)/k+C，k≠0。；∫dx/(a²+x²)=(1/a)arctan(x/a)+C，a>0，系数须求导验。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter29, authentic subsection29.1, with original Chinese title 利用原函数求积分. Topic-specific mandatory science: Show substitution u=x squared+4 and du=2x dx for the integrand2x/(x squared+4). Its primitive is ln(x squared+4)+C. The exponential inverse-chain coefficient and the n=-1 power exception must remain explicit. Use deterministic mathematical notation and plotting. Separate the integration variable and the substitution variable. Keep domain restrictions, absolute-value bars, Jacobian factors and transformed limits. Triangles must satisfy the stated substitution; label schematic versus exact geometry. Required objects, preserving these Chinese labels: 被积式2x/(x²+4)；u与du；ln u原函数；求导回箭头. Additional literal Chinese annotation strings: u=x²+4；du=2x dx；ln(x²+4)+C. Typeset and verify these reference formulas, units and stated conditions: F′=f⇒∫f dx=F+C（连通区间）；定积分为F(b)−F(a)需相应条件。；∫u′/u dx=ln|u|+C；∫e^(kx)dx=e^(kx)/k+C，k≠0。；∫dx/(a²+x²)=(1/a)arctan(x/a)+C，a>0，系数须求导验。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- du完整替换2x dx
+- x²+4正
+- 原函数加C
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：已有积分流程图可复核后复用；函数、区间、参数或代换三角形不同时须另绘
+
+来源：
+- https://www.scribd.com/document/1047236315/高级数学-高三上册-1
+- https://openstax.org/books/calculus-volume-1/pages/5-5-substitution
+
+## B06-MATH29-29-2 · 数学 29.2 部分分式积分法
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：按因式类型建立完整拆分并求系数；保留原分母限制和对数绝对值
+
+对象：不同一次因式；重复一次因式；不可约二次因式；通分验证
+
+关系：重复幂逐一列出；二次分子Ax+B；先处理多项式商
+
+中文标签：A/(x−a)；B/(x−a)²；(Ax+B)/(x²+c²)；原域
+
+公式/单位：先除法得真分式；不同一次因式各配常数分子。；重复(x−a)^m需Σ_(j=1)^m A_j/(x−a)^j；不可约二次项配Ax+B。；先通分验分解，再求导验积分，并保留原分母的全部排除点。
+
+### 中文Prompt
+
+制作数学第29章《积分法》29.2《部分分式积分法》的教学图《部分分式的三类结构》。教学目标：按因式类型建立完整拆分并求系数；保留原分母限制和对数绝对值。必须对象：不同一次因式；重复一次因式；不可约二次因式；通分验证。不可画错的关系：重复幂逐一列出；二次分子Ax+B；先处理多项式商。中文标签：A/(x−a)；B/(x−a)²；(Ax+B)/(x²+c²)；原域。公式、单位和条件：先除法得真分式；不同一次因式各配常数分子。；重复(x−a)^m需Σ_(j=1)^m A_j/(x−a)^j；不可约二次项配Ax+B。；先通分验分解，再求导验积分，并保留原分母的全部排除点。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter29, authentic subsection29.2, with original Chinese title 部分分式积分法. Topic-specific mandatory science: Show the complete partial-fraction forms: distinct linear factors need constants, repeated linear factors need every power, irreducible quadratics need linear numerators. Divide improper rational functions first and retain original denominator exclusions. Use deterministic mathematical notation and plotting. Separate the integration variable and the substitution variable. Keep domain restrictions, absolute-value bars, Jacobian factors and transformed limits. Triangles must satisfy the stated substitution; label schematic versus exact geometry. Required objects, preserving these Chinese labels: 不同一次因式；重复一次因式；不可约二次因式；通分验证. Additional literal Chinese annotation strings: A/(x−a)；B/(x−a)²；(Ax+B)/(x²+c²)；原域. Typeset and verify these reference formulas, units and stated conditions: 先除法得真分式；不同一次因式各配常数分子。；重复(x−a)^m需Σ_(j=1)^m A_j/(x−a)^j；不可约二次项配Ax+B。；先通分验分解，再求导验积分，并保留原分母的全部排除点。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 重复幂逐一列出
+- 二次分子Ax+B
+- 先处理多项式商
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：已有积分流程图可复核后复用；函数、区间、参数或代换三角形不同时须另绘
+
+来源：
+- https://www.scribd.com/document/1047236315/高级数学-高三上册-1
+- https://openstax.org/books/calculus-volume-2/pages/3-4-partial-fractions
+
+## B06-MATH29-29-3 · 数学 29.3 三角函数的积分法
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：根据奇偶幂或乘积选择代换与降幂；保留弧度、符号及区间限制
+
+对象：奇幂分支；偶幂分支；tan/sec匹配；换元前后式
+
+关系：奇幂留微分因子；偶幂保留1/2；du含负号须显示
+
+中文标签：u=sin x；u=cos x；u=tan x；弧度
+
+公式/单位：奇数幂留一个微分因子；偶数幂考虑sin²=(1−cos2x)/2等降幂。；d(tan x)=sec²x dx；d(sec x)=sec x tan x dx，注意原域。；换元后函数与微分、上下限应全部用同一变量。
+
+### 中文Prompt
+
+制作数学第29章《积分法》29.3《三角函数的积分法》的教学图《三角积分的方法选择》。教学目标：根据奇偶幂或乘积选择代换与降幂；保留弧度、符号及区间限制。必须对象：奇幂分支；偶幂分支；tan/sec匹配；换元前后式。不可画错的关系：奇幂留微分因子；偶幂保留1/2；du含负号须显示。中文标签：u=sin x；u=cos x；u=tan x；弧度。公式、单位和条件：奇数幂留一个微分因子；偶数幂考虑sin²=(1−cos2x)/2等降幂。；d(tan x)=sec²x dx；d(sec x)=sec x tan x dx，注意原域。；换元后函数与微分、上下限应全部用同一变量。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter29, authentic subsection29.3, with original Chinese title 三角函数的积分法. Topic-specific mandatory science: Choose substitution by derivative factors, or reduce even powers using half-angle identities. A cosine substitution introduces a minus sign through du. Transform definite-integral limits whenever changing variables. Use deterministic mathematical notation and plotting. Separate the integration variable and the substitution variable. Keep domain restrictions, absolute-value bars, Jacobian factors and transformed limits. Triangles must satisfy the stated substitution; label schematic versus exact geometry. Required objects, preserving these Chinese labels: 奇幂分支；偶幂分支；tan/sec匹配；换元前后式. Additional literal Chinese annotation strings: u=sin x；u=cos x；u=tan x；弧度. Typeset and verify these reference formulas, units and stated conditions: 奇数幂留一个微分因子；偶数幂考虑sin²=(1−cos2x)/2等降幂。；d(tan x)=sec²x dx；d(sec x)=sec x tan x dx，注意原域。；换元后函数与微分、上下限应全部用同一变量。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 奇幂留微分因子
+- 偶幂保留1/2
+- du含负号须显示
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：已有积分流程图可复核后复用；函数、区间、参数或代换三角形不同时须另绘
+
+来源：
+- https://www.scribd.com/document/1047236315/高级数学-高三上册-1
+- https://openstax.org/books/calculus-volume-2/pages/3-2-trigonometric-integrals
+
+## B06-MATH29-29-4 · 数学 29.4 三角代换法
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：由根式类型选择三角代换并写完整微分；在指定角区间处理绝对值并换回原变量
+
+对象：x=4sinθ关系；斜边4；根式边√(16−x²)；角域条；负x符号注
+
+关系：边长非负而x符号需区间解释；cosθ在选域为正；dx=4cosθ dθ
+
+中文标签：−π/2<θ<π/2；x/4=sinθ；√(16−x²)；dx
+
+公式/单位：a>0：a²−x²常用x=a sinθ；a²+x²常用x=a tanθ；x²−a²按分支用x=a secθ。；√(cos²θ)=|cosθ|，仅在所选cosθ≥0区间可写cosθ。；全部x、dx及定积分端点同时转换，最后按同一分支换回。
+
+### 中文Prompt
+
+制作数学第29章《积分法》29.4《三角代换法》的教学图《三角代换的符号与三角形》。教学目标：由根式类型选择三角代换并写完整微分；在指定角区间处理绝对值并换回原变量。必须对象：x=4sinθ关系；斜边4；根式边√(16−x²)；角域条；负x符号注。不可画错的关系：边长非负而x符号需区间解释；cosθ在选域为正；dx=4cosθ dθ。中文标签：−π/2<θ<π/2；x/4=sinθ；√(16−x²)；dx。公式、单位和条件：a>0：a²−x²常用x=a sinθ；a²+x²常用x=a tanθ；x²−a²按分支用x=a secθ。；√(cos²θ)=|cosθ|，仅在所选cosθ≥0区间可写cosθ。；全部x、dx及定积分端点同时转换，最后按同一分支换回。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter29, authentic subsection29.4, with original Chinese title 三角代换法. Topic-specific mandatory science: For x=4sin(theta), use -pi/2<theta<pi/2 so cos(theta)>0 and the radical equals4cos(theta). All occurrences of x and dx must change together. A triangle side is nonnegative and does not automatically encode signed x. Use deterministic mathematical notation and plotting. Separate the integration variable and the substitution variable. Keep domain restrictions, absolute-value bars, Jacobian factors and transformed limits. Triangles must satisfy the stated substitution; label schematic versus exact geometry. Required objects, preserving these Chinese labels: x=4sinθ关系；斜边4；根式边√(16−x²)；角域条；负x符号注. Additional literal Chinese annotation strings: −π/2<θ<π/2；x/4=sinθ；√(16−x²)；dx. Typeset and verify these reference formulas, units and stated conditions: a>0：a²−x²常用x=a sinθ；a²+x²常用x=a tanθ；x²−a²按分支用x=a secθ。；√(cos²θ)=|cosθ|，仅在所选cosθ≥0区间可写cosθ。；全部x、dx及定积分端点同时转换，最后按同一分支换回。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 边长非负而x符号需区间解释
+- cosθ在选域为正
+- dx=4cosθ dθ
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：已有积分流程图可复核后复用；函数、区间、参数或代换三角形不同时须另绘
+
+来源：
+- https://www.scribd.com/document/1047236315/高级数学-高三上册-1
+- https://openstax.org/books/calculus-volume-2/pages/3-3-trigonometric-substitution
+
+## B06-MATH29-29-5 · 数学 29.5 分部积分法
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：由乘积求导推导分部积分并合理选u与dv；处理重复、循环积分及定积分边界
+
+对象：u,dv,du,v四格；I与J关系；移项箭头；定积分边界框
+
+关系：公式uv减后积分；I=半项+J/2；J=半项−I/2；边界上下相减
+
+中文标签：∫u dv；uv−∫v du；5I/4；[uv]_a^b
+
+公式/单位：由d(uv)=u dv+v du，得∫u dv=uv−∫v du。；定积分：∫_a^b u dv=[uv]_a^b−∫_a^b v du。；循环积分回到I时移项解I；选u、dv以新积分确实简化为准。
+
+### 中文Prompt
+
+制作数学第29章《积分法》29.5《分部积分法》的教学图《分部积分与循环积分》。教学目标：由乘积求导推导分部积分并合理选u与dv；处理重复、循环积分及定积分边界。必须对象：u,dv,du,v四格；I与J关系；移项箭头；定积分边界框。不可画错的关系：公式uv减后积分；I=半项+J/2；J=半项−I/2；边界上下相减。中文标签：∫u dv；uv−∫v du；5I/4；[uv]_a^b。公式、单位和条件：由d(uv)=u dv+v du，得∫u dv=uv−∫v du。；定积分：∫_a^b u dv=[uv]_a^b−∫_a^b v du。；循环积分回到I时移项解I；选u、dv以新积分确实简化为准。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter29, authentic subsection29.5, with original Chinese title 分部积分法. Topic-specific mandatory science: Display u,dv,du,v and the subtraction in integration by parts. For I=integral exp(2x)cos x and J=integral exp(2x)sin x, I=exp(2x)cos x/2+J/2 and J=exp(2x)sin x/2-I/2, hence the coefficient5/4 when solving for I. Use deterministic mathematical notation and plotting. Separate the integration variable and the substitution variable. Keep domain restrictions, absolute-value bars, Jacobian factors and transformed limits. Triangles must satisfy the stated substitution; label schematic versus exact geometry. Required objects, preserving these Chinese labels: u,dv,du,v四格；I与J关系；移项箭头；定积分边界框. Additional literal Chinese annotation strings: ∫u dv；uv−∫v du；5I/4；[uv]_a^b. Typeset and verify these reference formulas, units and stated conditions: 由d(uv)=u dv+v du，得∫u dv=uv−∫v du。；定积分：∫_a^b u dv=[uv]_a^b−∫_a^b v du。；循环积分回到I时移项解I；选u、dv以新积分确实简化为准。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 公式uv减后积分
+- I=半项+J/2
+- J=半项−I/2
+- 边界上下相减
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：已有积分流程图可复核后复用；函数、区间、参数或代换三角形不同时须另绘
+
+来源：
+- https://www.scribd.com/document/1047236315/高级数学-高三上册-1
+- https://openstax.org/books/calculus-volume-2/pages/3-1-integration-by-parts
+
+## B06-MATH30-30-1 · 数学 30.1 微分方程式与其解
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：识别微分方程阶数及解的含义；验证函数、初值及有效区间
+
+对象：y′=6x方向场；y=3x²+C曲线族；初值(1,5)；选中曲线
+
+关系：同x斜率相同；初值选C=2；方向场不等函数值
+
+中文标签：y′=6x；y=3x²+2；(1,5)
+
+公式/单位：y′=2x⇒y=x²+C；y(x₀)=y₀⇒C=y₀−x₀²。；验证：求导→代原式→核初值→核区间；四步缺一不可。；方向场在(x,y)处的短线斜率为F(x,y)，不是y本身。
+
+### 中文Prompt
+
+制作数学第30章《微分方程式》30.1《微分方程式与其解》的教学图《微分方程函数族与初值》。教学目标：识别微分方程阶数及解的含义；验证函数、初值及有效区间。必须对象：y′=6x方向场；y=3x²+C曲线族；初值(1,5)；选中曲线。不可画错的关系：同x斜率相同；初值选C=2；方向场不等函数值。中文标签：y′=6x；y=3x²+2；(1,5)。公式、单位和条件：y′=2x⇒y=x²+C；y(x₀)=y₀⇒C=y₀−x₀²。；验证：求导→代原式→核初值→核区间；四步缺一不可。；方向场在(x,y)处的短线斜率为F(x,y)，不是y本身。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter30, authentic subsection30.1, with original Chinese title 微分方程式与其解. Topic-specific mandatory science: A direction-field segment has slope dy/dx, not ordinate y. Plot the family y=3x squared+C and select y=3x squared+2 through(1,5). Solutions must satisfy the equation on an interval, not merely at one point. Use deterministic mathematical plotting. State the differential equation, initial value and solution interval. Show equilibrium solutions separately. Direction-field slopes are dy/dx, not ordinate values. Never connect curves across poles. Required objects, preserving these Chinese labels: y′=6x方向场；y=3x²+C曲线族；初值(1,5)；选中曲线. Additional literal Chinese annotation strings: y′=6x；y=3x²+2；(1,5). Typeset and verify these reference formulas, units and stated conditions: y′=2x⇒y=x²+C；y(x₀)=y₀⇒C=y₀−x₀²。；验证：求导→代原式→核初值→核区间；四步缺一不可。；方向场在(x,y)处的短线斜率为F(x,y)，不是y本身。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 同x斜率相同
+- 初值选C=2
+- 方向场不等函数值
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：只复用满足相同方程、初值和区间的精确函数图；否则保留待绘任务
+
+来源：
+- https://www.scribd.com/document/1047236315/高级数学-高三上册-1
+- https://openstax.org/books/calculus-volume-2/pages/4-1-basics-of-differential-equations
+
+## B06-MATH30-30-2 · 数学 30.2 变量可分离微分方程
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：识别可分离形式并保留平衡解；正确处理积分常数、绝对值与初值区间
+
+对象：y′=y(4−y)；y=0和4水平线；不同初值解；符号区间
+
+关系：两平衡线不可因除法丢失；斜率在0与4间正；区间外斜率负
+
+中文标签：y=0；y=4；y′>0；y′<0
+
+公式/单位：y′=f(x)g(y)：先检g(y)=0的常值解，再在非零分支积分。；y′=ky⇒ln|y|=kx+C⇒y=Ae^(kx)，补平衡解后A∈R。；y′=y²非零解y=1/(C−x)，区间不能穿过C。
+
+### 中文Prompt
+
+制作数学第30章《微分方程式》30.2《变量可分离微分方程》的教学图《可分离方程与平衡解》。教学目标：识别可分离形式并保留平衡解；正确处理积分常数、绝对值与初值区间。必须对象：y′=y(4−y)；y=0和4水平线；不同初值解；符号区间。不可画错的关系：两平衡线不可因除法丢失；斜率在0与4间正；区间外斜率负。中文标签：y=0；y=4；y′>0；y′<0。公式、单位和条件：y′=f(x)g(y)：先检g(y)=0的常值解，再在非零分支积分。；y′=ky⇒ln|y|=kx+C⇒y=Ae^(kx)，补平衡解后A∈R。；y′=y²非零解y=1/(C−x)，区间不能穿过C。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter30, authentic subsection30.2, with original Chinese title 变量可分离微分方程. Topic-specific mandatory science: For y prime=y(4-y), constant solutions y=0 and y=4 must not disappear through division. Slopes are positive between the two equilibria and negative outside. Nonconstant branches cannot be joined arbitrarily. Use deterministic mathematical plotting. State the differential equation, initial value and solution interval. Show equilibrium solutions separately. Direction-field slopes are dy/dx, not ordinate values. Never connect curves across poles. Required objects, preserving these Chinese labels: y′=y(4−y)；y=0和4水平线；不同初值解；符号区间. Additional literal Chinese annotation strings: y=0；y=4；y′>0；y′<0. Typeset and verify these reference formulas, units and stated conditions: y′=f(x)g(y)：先检g(y)=0的常值解，再在非零分支积分。；y′=ky⇒ln|y|=kx+C⇒y=Ae^(kx)，补平衡解后A∈R。；y′=y²非零解y=1/(C−x)，区间不能穿过C。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 两平衡线不可因除法丢失
+- 斜率在0与4间正
+- 区间外斜率负
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：只复用满足相同方程、初值和区间的精确函数图；否则保留待绘任务
+
+来源：
+- https://www.scribd.com/document/1047236315/高级数学-高三上册-1
+- https://openstax.org/books/calculus-volume-2/pages/4-3-separable-equations
+
+## B06-MATH30-30-3 · 数学 30.3 一阶线性微分方程
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：推导积分因子而非死记公式；在系数定义区间内求解并验算
+
+对象：原线性方程；μ′=Pμ；乘积导数展开；初值解y=3−2e^(−2x)
+
+关系：μ同时乘每一项；曲线初值1趋向3；横线3为该方程平衡
+
+中文标签：μ；P；Q；(μy)′；y(0)=1
+
+公式/单位：μ′=Pμ⇒μ=e^(∫Pdx)，因此(μy)′=μQ。；y=μ⁻¹(∫μQdx+C)，仅在所选系数定义区间使用。；先标准化，再整式乘μ；积分因子的非零常倍不改变解族。
+
+### 中文Prompt
+
+制作数学第30章《微分方程式》30.3《一阶线性微分方程》的教学图《积分因子如何配成乘积导数》。教学目标：推导积分因子而非死记公式；在系数定义区间内求解并验算。必须对象：原线性方程；μ′=Pμ；乘积导数展开；初值解y=3−2e^(−2x)。不可画错的关系：μ同时乘每一项；曲线初值1趋向3；横线3为该方程平衡。中文标签：μ；P；Q；(μy)′；y(0)=1。公式、单位和条件：μ′=Pμ⇒μ=e^(∫Pdx)，因此(μy)′=μQ。；y=μ⁻¹(∫μQdx+C)，仅在所选系数定义区间使用。；先标准化，再整式乘μ；积分因子的非零常倍不改变解族。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter30, authentic subsection30.3, with original Chinese title 一阶线性微分方程. Topic-specific mandatory science: Multiplying a linear equation by mu affects every term. The condition mu prime=P mu makes the left side(mu*y) prime. The initial-value solution3-2exp(-2x) starts at1 and approaches3. Use deterministic mathematical plotting. State the differential equation, initial value and solution interval. Show equilibrium solutions separately. Direction-field slopes are dy/dx, not ordinate values. Never connect curves across poles. Required objects, preserving these Chinese labels: 原线性方程；μ′=Pμ；乘积导数展开；初值解y=3−2e^(−2x). Additional literal Chinese annotation strings: μ；P；Q；(μy)′；y(0)=1. Typeset and verify these reference formulas, units and stated conditions: μ′=Pμ⇒μ=e^(∫Pdx)，因此(μy)′=μQ。；y=μ⁻¹(∫μQdx+C)，仅在所选系数定义区间使用。；先标准化，再整式乘μ；积分因子的非零常倍不改变解族。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- μ同时乘每一项
+- 曲线初值1趋向3
+- 横线3为该方程平衡
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：只复用满足相同方程、初值和区间的精确函数图；否则保留待绘任务
+
+来源：
+- https://www.scribd.com/document/1047236315/高级数学-高三上册-1
+- https://openstax.org/books/calculus-volume-2/pages/4-5-first-order-linear-equations
+
+## B06-MATH30-30-4 · 数学 30.4 一阶常微分方程的应用
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：从速率收支建立模型与单位；求解后检查初值、极限和适用假设
+
+对象：指数衰减；温差冷却；良混容器；进出量箭头
+
+关系：冷却趋环境20℃非0℃；混合100 L等量进出；M′=10−M/20且M趋200g
+
+中文标签：N；T−T_env；M/g；t/min；V=100 L
+
+公式/单位：比例衰减N′=−kN⇒N=N₀e^(−kt)，k>0，t_half=ln2/k。；冷却T′=−k(T−T_env)⇒T=T_env+(T₀−T_env)e^(−kt)。；良混容器M′=q_in c_in−q_out M/V(t)，先核体积收支。
+
+### 中文Prompt
+
+制作数学第30章《微分方程式》30.4《一阶常微分方程的应用》的教学图《三类一阶应用模型》。教学目标：从速率收支建立模型与单位；求解后检查初值、极限和适用假设。必须对象：指数衰减；温差冷却；良混容器；进出量箭头。不可画错的关系：冷却趋环境20℃非0℃；混合100 L等量进出；M′=10−M/20且M趋200g。中文标签：N；T−T_env；M/g；t/min；V=100 L。公式、单位和条件：比例衰减N′=−kN⇒N=N₀e^(−kt)，k>0，t_half=ln2/k。；冷却T′=−k(T−T_env)⇒T=T_env+(T₀−T_env)e^(−kt)。；良混容器M′=q_in c_in−q_out M/V(t)，先核体积收支。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter30, authentic subsection30.4, with original Chinese title 一阶常微分方程的应用. Topic-specific mandatory science: Cooling approaches the fixed environmental temperature20C, not necessarily zero. For the100L well-mixed tank with5L/min in and out at2g/L, M prime=10-M/20 and M approaches200g; concentration is M divided by volume. Use deterministic mathematical plotting. State the differential equation, initial value and solution interval. Show equilibrium solutions separately. Direction-field slopes are dy/dx, not ordinate values. Never connect curves across poles. Required objects, preserving these Chinese labels: 指数衰减；温差冷却；良混容器；进出量箭头. Additional literal Chinese annotation strings: N；T−T_env；M/g；t/min；V=100 L. Typeset and verify these reference formulas, units and stated conditions: 比例衰减N′=−kN⇒N=N₀e^(−kt)，k>0，t_half=ln2/k。；冷却T′=−k(T−T_env)⇒T=T_env+(T₀−T_env)e^(−kt)。；良混容器M′=q_in c_in−q_out M/V(t)，先核体积收支。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 冷却趋环境20℃非0℃
+- 混合100 L等量进出
+- M′=10−M/20且M趋200g
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：只复用满足相同方程、初值和区间的精确函数图；否则保留待绘任务
+
+来源：
+- https://www.scribd.com/document/1047236315/高级数学-高三上册-1
+- https://openstax.org/books/calculus-volume-2/pages/4-5-first-order-linear-equations
+
+## B06-MATH31-31-1 · 数学 31.1 数学归纳法
+
+优先级：P1；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：完成起点和任意后继的双重证明；识别循环论证与有限检验的限制
+
+对象：P(n₀)；任意k到k+1；步长2的奇偶两链；有限检验对照
+
+关系：基例与蕴涵均必要；步长2不能单起点覆盖全部；假设不等于全称结论
+
+中文标签：基例；任意k≥n₀；P(k)⇒P(k+1)；待证
+
+公式/单位：证明P(n)对n≥n₀：先证P(n₀)，再对任意k≥n₀证P(k)⇒P(k+1)。；求和后继：S_(k+1)=S_k+新项；明确哪一步调用归纳假设。；后继步长2会分成两条奇偶链，不能仅凭一个起点覆盖全部整数。
+
+### 中文Prompt
+
+制作数学第31章《数学方法》31.1《数学归纳法》的教学图《归纳法的启动与传播》。教学目标：完成起点和任意后继的双重证明；识别循环论证与有限检验的限制。必须对象：P(n₀)；任意k到k+1；步长2的奇偶两链；有限检验对照。不可画错的关系：基例与蕴涵均必要；步长2不能单起点覆盖全部；假设不等于全称结论。中文标签：基例；任意k≥n₀；P(k)⇒P(k+1)；待证。公式、单位和条件：证明P(n)对n≥n₀：先证P(n₀)，再对任意k≥n₀证P(k)⇒P(k+1)。；求和后继：S_(k+1)=S_k+新项；明确哪一步调用归纳假设。；后继步长2会分成两条奇偶链，不能仅凭一个起点覆盖全部整数。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter31, authentic subsection31.1, with original Chinese title 数学归纳法. Topic-specific mandatory science: Induction requires both a valid starting case and the implication from arbitrary k to k+1. A step of two produces separate odd and even chains. Checking finitely many values is not proof for all natural numbers. Make a precise mathematical proof or numerical-method diagram. Quantifiers, base case, implication direction, equality conditions and domain restrictions must be explicit. Numerical approximations must not be labeled exact; plot tangents from the correct points. Required objects, preserving these Chinese labels: P(n₀)；任意k到k+1；步长2的奇偶两链；有限检验对照. Additional literal Chinese annotation strings: 基例；任意k≥n₀；P(k)⇒P(k+1)；待证. Typeset and verify these reference formulas, units and stated conditions: 证明P(n)对n≥n₀：先证P(n₀)，再对任意k≥n₀证P(k)⇒P(k+1)。；求和后继：S_(k+1)=S_k+新项；明确哪一步调用归纳假设。；后继步长2会分成两条奇偶链，不能仅凭一个起点覆盖全部整数。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 基例与蕴涵均必要
+- 步长2不能单起点覆盖全部
+- 假设不等于全称结论
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：证明流程或数值图须核每步条件；旧图只有逻辑、函数与参数完全相符才复用
+
+来源：
+- https://www.scribd.com/document/1047236315/高级数学-高三上册-1
+- https://math.libretexts.org/Courses/Mount_Royal_University/Abstract_Algebra_I/Chapter_0%3A_Preliminaries/0.0%3A_Introduction_to_proofs
+
+## B06-MATH31-31-2 · 数学 31.2 不等式的证明
+
+优先级：P1；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：选择作差、平方或均值关系并核条件；检查等号可达性后求最值
+
+对象：平方差(a−b)²；固定和矩形；x+9/x曲线；等号点
+
+关系：ab≤25在a+b10时于5,5取等；x+9/x仅画x>0分支；最小点(3,6)
+
+中文标签：a=b；x>0；(3,6)；等号条件
+
+公式/单位：a²+b²−2ab=(a−b)²≥0，等号a=b。；a,b≥0⇒(a+b)/2≥√(ab)；不可省略符号条件。；x>0,c>0⇒x+c/x≥2√c，等号x=√c，仍须核额外限制。
+
+### 中文Prompt
+
+制作数学第31章《数学方法》31.2《不等式的证明》的教学图《平方差与均值不等式》。教学目标：选择作差、平方或均值关系并核条件；检查等号可达性后求最值。必须对象：平方差(a−b)²；固定和矩形；x+9/x曲线；等号点。不可画错的关系：ab≤25在a+b10时于5,5取等；x+9/x仅画x>0分支；最小点(3,6)。中文标签：a=b；x>0；(3,6)；等号条件。公式、单位和条件：a²+b²−2ab=(a−b)²≥0，等号a=b。；a,b≥0⇒(a+b)/2≥√(ab)；不可省略符号条件。；x>0,c>0⇒x+c/x≥2√c，等号x=√c，仍须核额外限制。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter31, authentic subsection31.2, with original Chinese title 不等式的证明. Topic-specific mandatory science: For nonnegative a,b with a+b=10, ab is at most25 and equality requires a=b=5. On x>0, x+9/x is at least6 with equality only at x=3; excluding3 removes attainment without removing the lower bound. Make a precise mathematical proof or numerical-method diagram. Quantifiers, base case, implication direction, equality conditions and domain restrictions must be explicit. Numerical approximations must not be labeled exact; plot tangents from the correct points. Required objects, preserving these Chinese labels: 平方差(a−b)²；固定和矩形；x+9/x曲线；等号点. Additional literal Chinese annotation strings: a=b；x>0；(3,6)；等号条件. Typeset and verify these reference formulas, units and stated conditions: a²+b²−2ab=(a−b)²≥0，等号a=b。；a,b≥0⇒(a+b)/2≥√(ab)；不可省略符号条件。；x>0,c>0⇒x+c/x≥2√c，等号x=√c，仍须核额外限制。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- ab≤25在a+b10时于5,5取等
+- x+9/x仅画x>0分支
+- 最小点(3,6)
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：证明流程或数值图须核每步条件；旧图只有逻辑、函数与参数完全相符才复用
+
+来源：
+- https://www.scribd.com/document/1047236315/高级数学-高三上册-1
+- https://math.libretexts.org/Bookshelves/Mathematical_Logic_and_Proof/Transition_to_Higher_Mathematics_%28Dumas_and_McCarthy%29/04%3A_New_Page/4.04%3A_New_Page
+
+## B06-MATH31-31-3 · 数学 31.3 反证法
+
+优先级：P1；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：准确否定结论并从假设推出矛盾；区分反证、逆否及反例的用途
+
+对象：条件P；临时非Q；推理链；矛盾标记；Q结论
+
+关系：P与非Q同时假设；矛盾指向已知事实；唯一性另需存在
+
+中文标签：∀与∃；互质；0<0不可能；至多一个
+
+公式/单位：反证P⇒Q：保留P并暂设非Q，推得与已知事实冲突。；非“∀x A(x)”=“∃x 非A(x)”；非“a>b”=“a≤b”。；唯一性需至多一个与至少一个；两者证明责任不同。
+
+### 中文Prompt
+
+制作数学第31章《数学方法》31.3《反证法》的教学图《反证与量词的逻辑流程》。教学目标：准确否定结论并从假设推出矛盾；区分反证、逆否及反例的用途。必须对象：条件P；临时非Q；推理链；矛盾标记；Q结论。不可画错的关系：P与非Q同时假设；矛盾指向已知事实；唯一性另需存在。中文标签：∀与∃；互质；0<0不可能；至多一个。公式、单位和条件：反证P⇒Q：保留P并暂设非Q，推得与已知事实冲突。；非“∀x A(x)”=“∃x 非A(x)”；非“a>b”=“a≤b”。；唯一性需至多一个与至少一个；两者证明责任不同。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter31, authentic subsection31.3, with original Chinese title 反证法. Topic-specific mandatory science: Contradiction retains the premises and temporarily negates the precise conclusion. Negating a universal statement gives an existential counterexample. Proving at most one root does not prove existence. The product of listed primes plus1 need not itself be prime. Make a precise mathematical proof or numerical-method diagram. Quantifiers, base case, implication direction, equality conditions and domain restrictions must be explicit. Numerical approximations must not be labeled exact; plot tangents from the correct points. Required objects, preserving these Chinese labels: 条件P；临时非Q；推理链；矛盾标记；Q结论. Additional literal Chinese annotation strings: ∀与∃；互质；0<0不可能；至多一个. Typeset and verify these reference formulas, units and stated conditions: 反证P⇒Q：保留P并暂设非Q，推得与已知事实冲突。；非“∀x A(x)”=“∃x 非A(x)”；非“a>b”=“a≤b”。；唯一性需至多一个与至少一个；两者证明责任不同。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- P与非Q同时假设
+- 矛盾指向已知事实
+- 唯一性另需存在
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：证明流程或数值图须核每步条件；旧图只有逻辑、函数与参数完全相符才复用
+
+来源：
+- https://www.scribd.com/document/1047236315/高级数学-高三上册-1
+- https://math.libretexts.org/Courses/Mount_Royal_University/Abstract_Algebra_I/Chapter_0%3A_Preliminaries/0.0%3A_Introduction_to_proofs
+
+## B06-MATH31-31-4 · 数学 31.4 数值方法
+
+优先级：P1；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：实施二分与Newton迭代并保留有效条件；区分残差、误差界和显示精度
+
+对象：f=x²−5曲线；x₀=2切线；x₁=2.25；异号区间；宽度尺
+
+关系：切线在(2,−1)接触曲线；x截距2.25；不跨极点；误差界与残差分开
+
+中文标签：x_n；x_(n+1)；f′≠0；近似；区间半宽
+
+公式/单位：二分需在[a,b]连续且f(a)f(b)<0；每步保留异号半区间。；n次缩半后宽L/2^n，其新中点误差≤L/2^(n+1)。；Newton：x_(n+1)=x_n−f(x_n)/f′(x_n)，须核分母、定义域和收敛行为。
+
+### 中文Prompt
+
+制作数学第31章《数学方法》31.4《数值方法》的教学图《二分区间与Newton切线》。教学目标：实施二分与Newton迭代并保留有效条件；区分残差、误差界和显示精度。必须对象：f=x²−5曲线；x₀=2切线；x₁=2.25；异号区间；宽度尺。不可画错的关系：切线在(2,−1)接触曲线；x截距2.25；不跨极点；误差界与残差分开。中文标签：x_n；x_(n+1)；f′≠0；近似；区间半宽。公式、单位和条件：二分需在[a,b]连续且f(a)f(b)<0；每步保留异号半区间。；n次缩半后宽L/2^n，其新中点误差≤L/2^(n+1)。；Newton：x_(n+1)=x_n−f(x_n)/f′(x_n)，须核分母、定义域和收敛行为。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter31, authentic subsection31.4, with original Chinese title 数值方法. Topic-specific mandatory science: Newton tangents for f=x squared-5 start at(2,-1), meet the x axis at2.25, and next produce161/72. Bisection needs continuity plus opposite signs. After n interval halvings, midpoint error is at most initial width divided by2 to the power(n+1). Make a precise mathematical proof or numerical-method diagram. Quantifiers, base case, implication direction, equality conditions and domain restrictions must be explicit. Numerical approximations must not be labeled exact; plot tangents from the correct points. Required objects, preserving these Chinese labels: f=x²−5曲线；x₀=2切线；x₁=2.25；异号区间；宽度尺. Additional literal Chinese annotation strings: x_n；x_(n+1)；f′≠0；近似；区间半宽. Typeset and verify these reference formulas, units and stated conditions: 二分需在[a,b]连续且f(a)f(b)<0；每步保留异号半区间。；n次缩半后宽L/2^n，其新中点误差≤L/2^(n+1)。；Newton：x_(n+1)=x_n−f(x_n)/f′(x_n)，须核分母、定义域和收敛行为。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 切线在(2,−1)接触曲线
+- x截距2.25
+- 不跨极点
+- 误差界与残差分开
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：证明流程或数值图须核每步条件；旧图只有逻辑、函数与参数完全相符才复用
+
+来源：
+- https://www.scribd.com/document/1047236315/高级数学-高三上册-1
+- https://openstax.org/books/calculus-volume-1/pages/4-9-newtons-method
 
 ## B06-PHYS12-12-1 · 物理 12.1 物质的基本单元——分子
 

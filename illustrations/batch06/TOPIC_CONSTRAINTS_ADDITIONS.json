@@ -1,0 +1,38 @@
+{
+  "bio08": [
+    "Separate extracellular plasma, tissue fluid and lymph from intracellular fluid and the gut lumen. Blood cells are not plasma. Stable storage can coexist with nonzero opposing fluxes.",
+    "Negative feedback reduces the initial controlled-variable deviation; an upward response to a low value is still negative feedback. Direct downstream hormone intervention bypasses sensing and synthesis but does not uniquely locate every upstream defect.",
+    "ADH is synthesized in hypothalamic neurons and stored and released from the posterior pituitary. It changes appropriate membrane water permeability; water still needs an osmotic gradient. Excreted solute amount equals urine concentration times volume.",
+    "Distinguish core temperature from skin temperature. Only evaporated sweat earns the stated latent heat. A hotter environment can transfer dry heat inward. Shivering increases heat production while cutaneous vasoconstriction can reduce heat loss.",
+    "Beta cells release insulin; alpha cells release glucagon. Insulin affects uptake and storage in specified tissues and suppresses hepatic glucose output. Muscle glycogen must not be drawn as equivalent direct glucose export to blood.",
+    "Keep renal blood and filtrate lumens separate. Blood runs afferent arteriole to glomerulus to efferent arteriole then peritubular vessels. Filtrate runs capsule to proximal tubule, loop, distal tubule and collecting duct. Mark cortex and medulla.",
+    "Excretion rate equals filtration minus reabsorption plus secretion if there is no renal production or degradation. Glucose can be filtered and then recovered; zero final excretion does not mean zero filtration. Intact filtration barriers normally retain blood cells."
+  ],
+  "math28": [
+    "Plot x squared plus y squared equals25. The tangent at(3,4) is3x+4y=25. At(5,0) the tangent is x=5, not a finite slope obtained by division by zero. At x=3 both y=4 and y=-4 exist.",
+    "Plot sin x and cos x on the same radian axis. Peaks of sin x coincide with zeros of its derivative cos x. A degree-valued input sin(pi*x/180) needs an additional pi/180 derivative factor.",
+    "Contrast ln x on x>0 with ln absolute x on x nonzero. Their derivative expression1/x has different underlying function domains. For x>0, differentiating x to the power x requires logarithmic differentiation and yields x^x times(ln x+1).",
+    "Positive exponential values need not have positive derivatives: (1/2)^x is decreasing. Plot x*exp(-x) with its maximum at(1,1/e). Exponential curves can approach but never reach zero at finite real input.",
+    "Only apply the stated LHopital theorem after checking an admissible indeterminate quotient and its hypotheses, and recheck before repeating. The derivative ratio is not the quotient derivative. Positive-base power limits may first be logarithmized.",
+    "Plot x squared divided by(x-1) as disconnected branches. The vertical asymptote is x=1 and the slant asymptote is y=x+1. Stationary points are a local maximum(0,0) and a local minimum(2,4). A zero second derivative alone is not an inflection guarantee."
+  ],
+  "math29": [
+    "Show substitution u=x squared+4 and du=2x dx for the integrand2x/(x squared+4). Its primitive is ln(x squared+4)+C. The exponential inverse-chain coefficient and the n=-1 power exception must remain explicit.",
+    "Show the complete partial-fraction forms: distinct linear factors need constants, repeated linear factors need every power, irreducible quadratics need linear numerators. Divide improper rational functions first and retain original denominator exclusions.",
+    "Choose substitution by derivative factors, or reduce even powers using half-angle identities. A cosine substitution introduces a minus sign through du. Transform definite-integral limits whenever changing variables.",
+    "For x=4sin(theta), use -pi/2<theta<pi/2 so cos(theta)>0 and the radical equals4cos(theta). All occurrences of x and dx must change together. A triangle side is nonnegative and does not automatically encode signed x.",
+    "Display u,dv,du,v and the subtraction in integration by parts. For I=integral exp(2x)cos x and J=integral exp(2x)sin x, I=exp(2x)cos x/2+J/2 and J=exp(2x)sin x/2-I/2, hence the coefficient5/4 when solving for I."
+  ],
+  "math30": [
+    "A direction-field segment has slope dy/dx, not ordinate y. Plot the family y=3x squared+C and select y=3x squared+2 through(1,5). Solutions must satisfy the equation on an interval, not merely at one point.",
+    "For y prime=y(4-y), constant solutions y=0 and y=4 must not disappear through division. Slopes are positive between the two equilibria and negative outside. Nonconstant branches cannot be joined arbitrarily.",
+    "Multiplying a linear equation by mu affects every term. The condition mu prime=P mu makes the left side(mu*y) prime. The initial-value solution3-2exp(-2x) starts at1 and approaches3.",
+    "Cooling approaches the fixed environmental temperature20C, not necessarily zero. For the100L well-mixed tank with5L/min in and out at2g/L, M prime=10-M/20 and M approaches200g; concentration is M divided by volume."
+  ],
+  "math31": [
+    "Induction requires both a valid starting case and the implication from arbitrary k to k+1. A step of two produces separate odd and even chains. Checking finitely many values is not proof for all natural numbers.",
+    "For nonnegative a,b with a+b=10, ab is at most25 and equality requires a=b=5. On x>0, x+9/x is at least6 with equality only at x=3; excluding3 removes attainment without removing the lower bound.",
+    "Contradiction retains the premises and temporarily negates the precise conclusion. Negating a universal statement gives an existential counterexample. Proving at most one root does not prove existence. The product of listed primes plus1 need not itself be prime.",
+    "Newton tangents for f=x squared-5 start at(2,-1), meet the x axis at2.25, and next produce161/72. Bisection needs continuity plus opposite signs. After n interval halvings, midpoint error is at most initial width divided by2 to the power(n+1)."
+  ]
+}
