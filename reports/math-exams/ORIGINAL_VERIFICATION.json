@@ -1,6 +1,6 @@
 {
   "status": "pass",
-  "questions": 79,
+  "questions": 84,
   "checks": [
     {
       "id": "ME26-M001",
@@ -473,6 +473,36 @@
     {
       "id": "ME26-W035",
       "topic": "抛物线最短距离与交点数",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W036",
+      "topic": "三角形边角与双圆半径",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W037",
+      "topic": "辅助角、一般根与周期积分",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W038",
+      "topic": "因式、分式域与根的对称和",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W039",
+      "topic": "复数极式、平方根与三次根",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W040",
+      "topic": "圆、切线长度与弦距",
       "result": "pass",
       "method": "symbolic_identity_or_independent_enumeration"
     }

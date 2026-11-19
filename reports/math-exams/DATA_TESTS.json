@@ -1,6 +1,6 @@
 {
   "status": "pass",
-  "assertions": 8203,
+  "assertions": 8218,
   "protected_files": 1322,
   "checks": [
     "47 unique PDF hashes",
@@ -6530,7 +6530,7 @@
     "independent computation tied to exact reviewed formula washer outer 3exp(x)-2",
     "independent computation tied to exact reviewed formula hundredth log derivative negative factorial",
     "independent computation tied to exact reviewed formula binomial coefficient −27/16",
-    "independent computation tied to exact reviewed formula fixed P choose20points2",
+    "independent computation tied to exact reviewed formula fixed P includes other top-line vertex",
     "independent computation tied to exact reviewed formula complex quotient real−1 imaginary1",
     "independent computation tied to exact reviewed formula squared sum sin(A-B)",
     "independent computation tied to exact reviewed formula circle radius squared14",
@@ -7923,7 +7923,7 @@
     "original file protected vendor/katex/fonts/KaTeX_Typewriter-Regular.woff2",
     "original file protected vendor/katex/katex.min.css",
     "original file protected vendor/katex/katex.min.js",
-    "original 79 distinct items",
+    "original 84 distinct items",
     "no invented subsection IDs",
     "valid chapter ME26-M001",
     "full original solution ME26-M001",
@@ -8205,7 +8205,22 @@
     "score sum ME26-W034",
     "valid chapter ME26-W035",
     "full original solution ME26-W035",
-    "score sum ME26-W035"
+    "score sum ME26-W035",
+    "valid chapter ME26-W036",
+    "full original solution ME26-W036",
+    "score sum ME26-W036",
+    "valid chapter ME26-W037",
+    "full original solution ME26-W037",
+    "score sum ME26-W037",
+    "valid chapter ME26-W038",
+    "full original solution ME26-W038",
+    "score sum ME26-W038",
+    "valid chapter ME26-W039",
+    "full original solution ME26-W039",
+    "score sum ME26-W039",
+    "valid chapter ME26-W040",
+    "full original solution ME26-W040",
+    "score sum ME26-W040"
   ],
   "limits": "Structural/scope/accounting checks, not a substitution for unperformed visual or teacher review."
 }

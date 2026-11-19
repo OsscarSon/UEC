@@ -1,59 +1,671 @@
 {
-  "source": "original_reviewed_bank",
-  "historical_scope": "partial_visual_review_only",
+  "strategy": "combined",
+  "board": "combined",
   "sample_years": [
-    2022,
     2023,
     2024,
     2025
   ],
-  "observed_priority_chapters": [
-    33,
-    24,
-    11,
-    9,
-    28,
-    29,
-    30,
-    10
+  "source_format": "preexam_math_ii-2025",
+  "source_pdf_id": "preexam_math_ii:6bb42e1fb3b8",
+  "source_cover_pages": [
+    1,
+    4
   ],
-  "realized_priority_marks": 46,
-  "historical_weight_used_as_actual_scores": false,
+  "statistics_metric": "independent question count; combined/cold use mean normalized annual share",
   "actual_difficulty_calibrated": false,
   "official_marking_scheme": false,
-  "selection_reason": "Sample topic preference is a soft design policy; diversity, scope and exact score template are hard constraints.",
+  "historical_weight_used_as_actual_scores": false,
+  "selection_reason": "统计只作软偏好；真实格式、候选章域、题目唯一性与实际作答覆盖为硬约束。",
+  "statistical_evidence": [
+    {
+      "year": 2023,
+      "total_questions": 32,
+      "cells": [
+        {
+          "chapter": 1,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "preexam_math_ii:2023:written:8"
+          ]
+        },
+        {
+          "chapter": 2,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 3,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "preexam_math_ii:2023:written:6"
+          ]
+        },
+        {
+          "chapter": 4,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "preexam_math_ii:2023:mcq:2"
+          ]
+        },
+        {
+          "chapter": 5,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "preexam_math_ii:2023:mcq:4"
+          ]
+        },
+        {
+          "chapter": 7,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "preexam_math_ii:2023:mcq:1",
+            "preexam_math_ii:2023:written:3"
+          ]
+        },
+        {
+          "chapter": 8,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 10,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "preexam_math_ii:2023:mcq:10",
+            "preexam_math_ii:2023:written:2"
+          ]
+        },
+        {
+          "chapter": 11,
+          "count": 3,
+          "share": 0.09375,
+          "question_ids": [
+            "preexam_math_ii:2023:mcq:7",
+            "preexam_math_ii:2023:mcq:8",
+            "preexam_math_ii:2023:written:1"
+          ]
+        },
+        {
+          "chapter": 13,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 16,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "preexam_math_ii:2023:mcq:11"
+          ]
+        },
+        {
+          "chapter": 19,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 20,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "preexam_math_ii:2023:mcq:3"
+          ]
+        },
+        {
+          "chapter": 22,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "preexam_math_ii:2023:written:11"
+          ]
+        },
+        {
+          "chapter": 23,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 24,
+          "count": 3,
+          "share": 0.09375,
+          "question_ids": [
+            "preexam_math_ii:2023:mcq:18",
+            "preexam_math_ii:2023:mcq:19",
+            "preexam_math_ii:2023:written:12"
+          ]
+        },
+        {
+          "chapter": 25,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 26,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "preexam_math_ii:2023:mcq:5"
+          ]
+        },
+        {
+          "chapter": 28,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "preexam_math_ii:2023:mcq:15"
+          ]
+        },
+        {
+          "chapter": 29,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "preexam_math_ii:2023:written:9"
+          ]
+        },
+        {
+          "chapter": 30,
+          "count": 3,
+          "share": 0.09375,
+          "question_ids": [
+            "preexam_math_ii:2023:mcq:16",
+            "preexam_math_ii:2023:mcq:20",
+            "preexam_math_ii:2023:written:10"
+          ]
+        },
+        {
+          "chapter": 31,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "preexam_math_ii:2023:written:5"
+          ]
+        },
+        {
+          "chapter": 33,
+          "count": 3,
+          "share": 0.09375,
+          "question_ids": [
+            "preexam_math_ii:2023:mcq:13",
+            "preexam_math_ii:2023:mcq:14",
+            "preexam_math_ii:2023:written:7"
+          ]
+        },
+        {
+          "chapter": 34,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "preexam_math_ii:2023:mcq:6",
+            "preexam_math_ii:2023:written:4"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "total_questions": 32,
+      "cells": [
+        {
+          "chapter": 1,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 2,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "preexam_math_ii:2024:mcq:1"
+          ]
+        },
+        {
+          "chapter": 3,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 4,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 5,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "preexam_math_ii:2024:mcq:16",
+            "preexam_math_ii:2024:mcq:3"
+          ]
+        },
+        {
+          "chapter": 7,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 8,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 10,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "preexam_math_ii:2024:mcq:10"
+          ]
+        },
+        {
+          "chapter": 11,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "preexam_math_ii:2024:mcq:11",
+            "preexam_math_ii:2024:written:1"
+          ]
+        },
+        {
+          "chapter": 13,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "preexam_math_ii:2024:mcq:6",
+            "preexam_math_ii:2024:written:3"
+          ]
+        },
+        {
+          "chapter": 16,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "preexam_math_ii:2024:written:7"
+          ]
+        },
+        {
+          "chapter": 19,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 20,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "preexam_math_ii:2024:mcq:5",
+            "preexam_math_ii:2024:written:5"
+          ]
+        },
+        {
+          "chapter": 22,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "preexam_math_ii:2024:written:9"
+          ]
+        },
+        {
+          "chapter": 23,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 24,
+          "count": 3,
+          "share": 0.09375,
+          "question_ids": [
+            "preexam_math_ii:2024:written:10",
+            "preexam_math_ii:2024:written:11",
+            "preexam_math_ii:2024:written:12"
+          ]
+        },
+        {
+          "chapter": 25,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 26,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 28,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "preexam_math_ii:2024:mcq:17"
+          ]
+        },
+        {
+          "chapter": 29,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "preexam_math_ii:2024:mcq:19"
+          ]
+        },
+        {
+          "chapter": 30,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "preexam_math_ii:2024:mcq:20"
+          ]
+        },
+        {
+          "chapter": 31,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "preexam_math_ii:2024:written:4"
+          ]
+        },
+        {
+          "chapter": 33,
+          "count": 4,
+          "share": 0.125,
+          "question_ids": [
+            "preexam_math_ii:2024:mcq:12",
+            "preexam_math_ii:2024:mcq:13",
+            "preexam_math_ii:2024:mcq:15",
+            "preexam_math_ii:2024:written:8"
+          ]
+        },
+        {
+          "chapter": 34,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "preexam_math_ii:2024:mcq:4",
+            "preexam_math_ii:2024:written:6"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "total_questions": 32,
+      "cells": [
+        {
+          "chapter": 1,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 2,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "preexam_math_ii:2025:mcq:13"
+          ]
+        },
+        {
+          "chapter": 3,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 4,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "preexam_math_ii:2025:written:4"
+          ]
+        },
+        {
+          "chapter": 5,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "preexam_math_ii:2025:mcq:5"
+          ]
+        },
+        {
+          "chapter": 7,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 8,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 10,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "preexam_math_ii:2025:mcq:3"
+          ]
+        },
+        {
+          "chapter": 11,
+          "count": 3,
+          "share": 0.09375,
+          "question_ids": [
+            "preexam_math_ii:2025:mcq:1",
+            "preexam_math_ii:2025:mcq:4",
+            "preexam_math_ii:2025:written:2"
+          ]
+        },
+        {
+          "chapter": 13,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "preexam_math_ii:2025:written:6"
+          ]
+        },
+        {
+          "chapter": 16,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "preexam_math_ii:2025:mcq:11"
+          ]
+        },
+        {
+          "chapter": 19,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 20,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "preexam_math_ii:2025:mcq:8"
+          ]
+        },
+        {
+          "chapter": 22,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 23,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 24,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "preexam_math_ii:2025:mcq:19",
+            "preexam_math_ii:2025:written:12"
+          ]
+        },
+        {
+          "chapter": 25,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 26,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "preexam_math_ii:2025:mcq:7"
+          ]
+        },
+        {
+          "chapter": 28,
+          "count": 4,
+          "share": 0.125,
+          "question_ids": [
+            "preexam_math_ii:2025:mcq:16",
+            "preexam_math_ii:2025:mcq:17",
+            "preexam_math_ii:2025:written:11",
+            "preexam_math_ii:2025:written:9"
+          ]
+        },
+        {
+          "chapter": 29,
+          "count": 3,
+          "share": 0.09375,
+          "question_ids": [
+            "preexam_math_ii:2025:mcq:10",
+            "preexam_math_ii:2025:mcq:18",
+            "preexam_math_ii:2025:written:10"
+          ]
+        },
+        {
+          "chapter": 30,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "preexam_math_ii:2025:mcq:20"
+          ]
+        },
+        {
+          "chapter": 31,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "preexam_math_ii:2025:written:3"
+          ]
+        },
+        {
+          "chapter": 33,
+          "count": 4,
+          "share": 0.125,
+          "question_ids": [
+            "preexam_math_ii:2025:mcq:12",
+            "preexam_math_ii:2025:mcq:14",
+            "preexam_math_ii:2025:written:7",
+            "preexam_math_ii:2025:written:8"
+          ]
+        },
+        {
+          "chapter": 34,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "preexam_math_ii:2025:mcq:9"
+          ]
+        }
+      ]
+    }
+  ],
   "validation": {
     "ok": true,
     "errors": [],
     "chapter_marks": {
       "1": 2,
-      "2": 6,
-      "5": 4,
-      "6": 6,
+      "2": 2,
+      "3": 2,
+      "4": 2,
+      "5": 2,
       "7": 2,
       "8": 2,
-      "9": 2,
-      "10": 4,
+      "10": 10,
       "13": 2,
-      "15": 4,
-      "18": 2,
+      "16": 12,
       "19": 2,
       "20": 2,
-      "22": 6,
+      "22": 12,
       "23": 2,
-      "24": 12,
-      "26": 8,
-      "28": 4,
-      "29": 6,
-      "30": 6,
-      "33": 12,
-      "34": 4
+      "24": 2,
+      "25": 4,
+      "26": 2,
+      "28": 2,
+      "29": 10,
+      "30": 2,
+      "31": 10,
+      "33": 12
     },
     "difficulty_marks": {
-      "basic": 24,
-      "medium": 50,
-      "hard": 26
+      "basic": 16,
+      "medium": 38,
+      "hard": 46
     },
-    "total_marks": 100
+    "total_marks": 100,
+    "printed_marks": 160,
+    "printed_chapter_marks": {
+      "1": 2,
+      "2": 2,
+      "3": 2,
+      "4": 2,
+      "5": 12,
+      "7": 2,
+      "8": 2,
+      "10": 10,
+      "11": 10,
+      "13": 2,
+      "16": 12,
+      "19": 2,
+      "20": 2,
+      "22": 12,
+      "23": 2,
+      "24": 12,
+      "25": 4,
+      "26": 12,
+      "28": 12,
+      "29": 10,
+      "30": 2,
+      "31": 10,
+      "33": 12,
+      "34": 10
+    },
+    "required_written_numbers": [
+      2,
+      6,
+      7,
+      8,
+      9,
+      12
+    ]
   }
 }

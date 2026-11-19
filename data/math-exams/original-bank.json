@@ -1,5 +1,5 @@
 {
-  "version": "2026.1-ff43f2b3be18",
+  "version": "2026.1-e2858b4f1e05",
   "items": [
     {
       "id": "ME26-M001",
@@ -3969,6 +3969,256 @@
         "method": "symbolic_identity_or_independent_enumeration",
         "expression": "(x**4-3*x**2+4).subs(x,sqrt(Rational(3,2)))",
         "expected": "7/4",
+        "result": "pass"
+      },
+      "figure": null
+    },
+    {
+      "id": "ME26-W036",
+      "kind": "written",
+      "primary_chapter": 10,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "三角形边角与双圆半径",
+      "difficulty": "medium",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 10,
+      "stem": "三角形ABC中，a=7、b=9，且\\(\\cos C=1/3\\)。(a)求边c；(b)求面积Δ；(c)求外接圆半径R；(d)求内切圆半径r。保留根式并说明采用的角度分支。",
+      "answer": "c=2√22；Δ=21√2；R=3√11/2；r=21√2/(8+√22)。",
+      "solution_steps": [
+        "三角形内角0<C<π，cos C=1/3>0使C为锐角，sin C=√(1−1/9)=2√2/3，不能取负根。",
+        "余弦定律c²=7²+9²−2·7·9/3=88，故c=2√22；2<c<16满足三角不等式。",
+        "Δ=ab sin C/2=21√2，用海伦公式可再次核算面积平方882。",
+        "扩展正弦定律2R=c/sin C，故R=3√11/2；这里c对应C而不能用a直接除sin C。",
+        "半周长s=(7+9+2√22)/2=8+√22；用Δ=rs得r=21√2/(8+√22)>0，且r<R，量纲均为长度。"
+      ],
+      "marking_points": [
+        {
+          "description": "余弦定律求c并选正根",
+          "marks": 2
+        },
+        {
+          "description": "内角分支与面积",
+          "marks": 3
+        },
+        {
+          "description": "外接圆关系与R",
+          "marks": 2
+        },
+        {
+          "description": "半周长、内切圆关系与核对",
+          "marks": 3
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "(7**2+9**2-2*7*9/3-88)**2+(7*9*sqrt(1-Rational(1,9))/2-21*sqrt(2))**2+(2*sqrt(22)/(2*sqrt(Rational(8,9)))-3*sqrt(11)/2)**2",
+        "expected": "0",
+        "result": "pass"
+      },
+      "figure": null
+    },
+    {
+      "id": "ME26-W037",
+      "kind": "written",
+      "primary_chapter": 11,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "辅助角、一般根与周期积分",
+      "difficulty": "medium",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 10,
+      "stem": "令\\(f(x)=3\\sin x-4\\cos x\\)。(a)化为\\(R\\sin(x-\\alpha)\\)，规定R>0、0<α<π/2；(b)解f(x)=0在0≤x<2π的全部解；(c)计算\\(\\int_0^{2\\pi} f(x)^2dx\\)；(d)求f(x)+1的值域。",
+      "answer": "R=5，α=arctan(4/3)；零点α和α+π；积分25π；值域[−4,6]。",
+      "solution_steps": [
+        "展开R sin(x−α)=R cosα sinx−R sinα cosx，对比得R cosα=3、R sinα=4，故R=5、tanα=4/3，按指定范围唯一。",
+        "sin(x−α)=0给x=α+kπ；由于0<α<π/2，0≤x<2π仅k=0、1合要求，不把2π端点补进来。",
+        "平方展开为9sin²x+16cos²x−24sinx cosx；一个完整周期内前两项积分分别9π和16π，混合项为0。",
+        "也可用25sin²(x−α)的周期积分核算，结果25π；正负函数的平方积分不等于f的积分平方。",
+        "由sin范围[−1,1]，f范围[−5,5]，平移1得到[−4,6]，两端均能达到。"
+      ],
+      "marking_points": [
+        {
+          "description": "R、相位和分支",
+          "marks": 2
+        },
+        {
+          "description": "完整根与区间筛选",
+          "marks": 3
+        },
+        {
+          "description": "展开积分及核对",
+          "marks": 3
+        },
+        {
+          "description": "值域及可达端点",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "integrate((3*sin(x)-4*cos(x))**2,(x,0,2*pi))",
+        "expected": "25*pi",
+        "result": "pass"
+      },
+      "figure": null
+    },
+    {
+      "id": "ME26-W038",
+      "kind": "written",
+      "primary_chapter": 3,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "因式、分式域与根的对称和",
+      "difficulty": "medium",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 10,
+      "stem": "\\(p(x)=x^3-2x^2-5x+6\\)。(a)证明x−1是因式并求商式；(b)求p的全部实根；(c)解\\(p(x)/(x-1)\\ge0\\)，写明定义域；(d)求全部实根的平方和与倒数和。",
+      "answer": "商x²−x−6；根−2,1,3；解(−∞,−2]∪[3,∞)，原域x≠1；平方和14，倒数和5/6。",
+      "solution_steps": [
+        "p(1)=1−2−5+6=0，由因式定理可除x−1，长除或综合除得到x²−x−6。",
+        "商式分解为(x−3)(x+2)，所以p=(x−1)(x−3)(x+2)，三根互异，代回均为0。",
+        "原分式要求x≠1；约分只在此域内成立。比较(x−3)(x+2)≥0的符号，解x≤−2或x≥3，两端使分子0且分母不为0。",
+        "平方和=(−2)²+1²+3²=14；倒数和=−1/2+1+1/3=5/6。",
+        "用韦达核算：根和2、两两积−5、根积−6，平方和2²−2(−5)=14，倒数和(−5)/(−6)=5/6；没有零根才可求倒数。"
+      ],
+      "marking_points": [
+        {
+          "description": "因式验证与商",
+          "marks": 2
+        },
+        {
+          "description": "全部根",
+          "marks": 2
+        },
+        {
+          "description": "原分式域和不等式",
+          "marks": 3
+        },
+        {
+          "description": "对称和与韦达核对",
+          "marks": 3
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "expand((x-1)*(x-3)*(x+2))-(x**3-2*x**2-5*x+6)",
+        "expected": "0",
+        "result": "pass"
+      },
+      "figure": null
+    },
+    {
+      "id": "ME26-W039",
+      "kind": "written",
+      "primary_chapter": 34,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "复数极式、平方根与三次根",
+      "difficulty": "medium",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 10,
+      "stem": "\\(z=1+\\sqrt3 i\\)。(a)写出模与主辐角，主值区间(−π,π]；(b)求z³；(c)求z的两个平方根并验算；(d)求w³=z³的全部根，说明为何不能只写w=z。",
+      "answer": "|z|=2，Arg z=π/3；z³=−8；平方根±(√6/2+i√2/2)；w=1+√3i,−2,1−√3i。",
+      "solution_steps": [
+        "模√(1+3)=2，z在第一象限，主辐角π/3，故z=2(cosπ/3+i sinπ/3)。",
+        "棣美弗给z³=8(cosπ+i sinπ)=−8；代数展开中实部1−9=−8、虚部3√3−3√3=0。",
+        "设平方根u+iv，则u²−v²=1、2uv=√3，且u²+v²=2，得到u²=3/2、v²=1/2，同号；两根为±(√6/2+i√2/2)。",
+        "平方验算实部6/4−2/4=1，虚部2√12/4=√3，证明两根均成立。",
+        "w³=−8的模为2，辐角(π+2kπ)/3，k=0,1,2，得到三根1+√3i、−2、1−√3i；三次方映射不单射，不能从w³=z³约成w=z。"
+      ],
+      "marking_points": [
+        {
+          "description": "模与主辐角",
+          "marks": 2
+        },
+        {
+          "description": "三次幂",
+          "marks": 2
+        },
+        {
+          "description": "两个平方根及验算",
+          "marks": 3
+        },
+        {
+          "description": "三次根完整性及解释",
+          "marks": 3
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "(expand((1+sqrt(3)*I)**3)+8)**2+(expand((sqrt(6)/2+I*sqrt(2)/2)**2)-(1+sqrt(3)*I))**2",
+        "expected": "0",
+        "result": "pass"
+      },
+      "figure": null
+    },
+    {
+      "id": "ME26-W040",
+      "kind": "written",
+      "primary_chapter": 16,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "圆、切线长度与弦距",
+      "difficulty": "medium",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 10,
+      "stem": "圆C：\\(x^2+y^2-6x+4y-12=0\\)。(a)求圆心O与半径；(b)验证P=(8,−2)在圆上并求P处切线；(c)判断Q=(9,6)与圆的位置并求Q所引切线段长；(d)求直线3x+4y−11=0截圆的弦长。",
+      "answer": "O=(3,−2)，半径5；切线x=8；Q在圆外，切线长5√3；弦长2√21。",
+      "solution_steps": [
+        "配方得(x−3)²+(y+2)²=25，O=(3,−2)、r=5；常数配方需在两边同步。",
+        "OP=(5,0)，模5所以P在圆上。切线垂直水平半径，方程x=8，不以斜率0误写y=−2。",
+        "OQ=√(6²+8²)=10>5，故Q在圆外；半径与切线段垂直，切线长√(10²−5²)=5√3，两条切线段长相等。",
+        "O到给定直线距离=|3·3+4(−2)−11|/√25=2<5，故确有两交点。半弦长√(25−4)=√21，所以全弦2√21。",
+        "两种长度都用直角三角形，但(c)从圆心距平方减半径平方，(d)从半径平方减弦距平方，不能交换。"
+      ],
+      "marking_points": [
+        {
+          "description": "标准式与圆心半径",
+          "marks": 2
+        },
+        {
+          "description": "点与切线",
+          "marks": 2
+        },
+        {
+          "description": "圆外判断及切线段长",
+          "marks": 3
+        },
+        {
+          "description": "弦距、全弦及核对",
+          "marks": 3
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "(sqrt((9-3)**2+(6+2)**2-25)-5*sqrt(3))**2+(2*sqrt(25-(Abs(3*3+4*(-2)-11)/5)**2)-2*sqrt(21))**2",
+        "expected": "0",
         "result": "pass"
       },
       "figure": null

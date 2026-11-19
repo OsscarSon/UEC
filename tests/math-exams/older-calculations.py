@@ -33,9 +33,9 @@ E('i',2022,'written',12,'intersection positive log2',s.expand((t-1)*(t-2)),t*t-3
 E('i',2022,'written',12,'washer outer 3exp(x)-2',s.pi*s.integrate((3*s.exp(x)-2)**2-s.exp(4*x),(x,0,s.log(2))),s.pi*(4*s.log(2)-s.Rational(9,4)),'a(ii)')
 E('i',2022,'written',12,'hundredth log derivative negative factorial',s.diff(s.log(2*x),x,100),-s.factorial(99)/x**100,'b(ii)')
 E('ii',2022,'mcq',1,'binomial coefficient −27/16',s.binomial(s.Rational(1,2),3)*(-3)**3,-s.Rational(27,16))
-E('ii',2022,'mcq',4,'fixed P choose20points2',s.binomial(20,2),190)
+E('ii',2022,'mcq',4,'fixed P includes other top-line vertex',s.binomial(20,2)+3*20,250)
 E('ii',2022,'mcq',7,'complex quotient real−1 imaginary1',-1+(-1+s.I)/(1+s.I),-1+s.I)
-E('ii',2022,'mcq',10,'squared sum sin(A-B)',(9**2+2**2-12**2-5**2)/s.Integer(120),-s.Rational(7,10))
+E('ii',2022,'mcq',10,'squared sum sin(A-B)',(12**2+5**2-9**2-2**2)/s.Integer(120),s.Rational(7,10))
 E('ii',2022,'mcq',13,'circle radius squared14',3**2+(-1)**2+4,14)
 E('ii',2022,'mcq',14,'polar principal points distance squared205',(-8-5)**2+(6-12)**2,205)
 # A principal acos(-4/5) -> (-8,6), asin(12/13) -> (5,12).

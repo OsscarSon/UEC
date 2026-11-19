@@ -146,10 +146,10 @@
     },
     {
       "id": "uec_math_ii:2022:mcq:4:whole",
-      "name": "fixed P choose20points2",
+      "name": "fixed P includes other top-line vertex",
       "status": "pass",
-      "computed": "190",
-      "expected": "190",
+      "computed": "250",
+      "expected": "250",
       "formula_sha256": "4c8bb848be5fa7193b65df2a06076c979078c30a49ff7631648f7446e4496396"
     },
     {
@@ -164,8 +164,8 @@
       "id": "uec_math_ii:2022:mcq:10:whole",
       "name": "squared sum sin(A-B)",
       "status": "pass",
-      "computed": "-7/10",
-      "expected": "-7/10",
+      "computed": "7/10",
+      "expected": "7/10",
       "formula_sha256": "364b013527b34c3b3d86ebaba529f3e716fddeeb1be9dc8437cda75d11a2079a"
     },
     {

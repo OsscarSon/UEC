@@ -1,60 +1,925 @@
 {
-  "source": "original_reviewed_bank",
-  "historical_scope": "partial_visual_review_only",
+  "strategy": "combined",
+  "board": "combined",
   "sample_years": [
     2021,
     2022,
-    2023,
     2024,
     2025
   ],
-  "observed_priority_chapters": [
-    33,
-    28,
-    11,
-    24,
-    22,
-    10,
-    34,
-    29
+  "source_format": "graduation_math_ii-2025",
+  "source_pdf_id": "graduation_math_ii:58582c0245f3",
+  "source_cover_pages": [
+    1,
+    5
   ],
-  "realized_priority_marks": 50,
-  "historical_weight_used_as_actual_scores": false,
+  "statistics_metric": "independent question count; combined/cold use mean normalized annual share",
   "actual_difficulty_calibrated": false,
   "official_marking_scheme": false,
-  "selection_reason": "Sample topic preference is a soft design policy; diversity, scope and exact score template are hard constraints.",
+  "historical_weight_used_as_actual_scores": false,
+  "selection_reason": "统计只作软偏好；真实格式、候选章域、题目唯一性与实际作答覆盖为硬约束。",
+  "statistical_evidence": [
+    {
+      "year": 2021,
+      "total_questions": 32,
+      "cells": [
+        {
+          "chapter": 1,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 2,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2021:mcq:2"
+          ]
+        },
+        {
+          "chapter": 4,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2021:written:5"
+          ]
+        },
+        {
+          "chapter": 5,
+          "count": 3,
+          "share": 0.09375,
+          "question_ids": [
+            "graduation_math_ii:2021:mcq:1",
+            "graduation_math_ii:2021:mcq:11",
+            "graduation_math_ii:2021:mcq:6"
+          ]
+        },
+        {
+          "chapter": 7,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2021:written:6"
+          ]
+        },
+        {
+          "chapter": 8,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 9,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2021:written:2"
+          ]
+        },
+        {
+          "chapter": 10,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2021:mcq:10"
+          ]
+        },
+        {
+          "chapter": 11,
+          "count": 3,
+          "share": 0.09375,
+          "question_ids": [
+            "graduation_math_ii:2021:mcq:8",
+            "graduation_math_ii:2021:mcq:9",
+            "graduation_math_ii:2021:written:1"
+          ]
+        },
+        {
+          "chapter": 14,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 16,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "graduation_math_ii:2021:mcq:12",
+            "graduation_math_ii:2021:written:8"
+          ]
+        },
+        {
+          "chapter": 17,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2021:mcq:3"
+          ]
+        },
+        {
+          "chapter": 19,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 20,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 22,
+          "count": 3,
+          "share": 0.09375,
+          "question_ids": [
+            "graduation_math_ii:2021:mcq:19",
+            "graduation_math_ii:2021:written:11",
+            "graduation_math_ii:2021:written:9"
+          ]
+        },
+        {
+          "chapter": 23,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 24,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "graduation_math_ii:2021:mcq:18",
+            "graduation_math_ii:2021:written:12"
+          ]
+        },
+        {
+          "chapter": 25,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 26,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2021:mcq:4"
+          ]
+        },
+        {
+          "chapter": 28,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2021:mcq:17"
+          ]
+        },
+        {
+          "chapter": 29,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2021:written:10"
+          ]
+        },
+        {
+          "chapter": 30,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "graduation_math_ii:2021:mcq:16",
+            "graduation_math_ii:2021:mcq:20"
+          ]
+        },
+        {
+          "chapter": 31,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2021:written:4"
+          ]
+        },
+        {
+          "chapter": 32,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "graduation_math_ii:2021:mcq:14",
+            "graduation_math_ii:2021:mcq:15"
+          ]
+        },
+        {
+          "chapter": 33,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "graduation_math_ii:2021:mcq:13",
+            "graduation_math_ii:2021:written:7"
+          ]
+        },
+        {
+          "chapter": 34,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2021:mcq:7"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "total_questions": 32,
+      "cells": [
+        {
+          "chapter": 1,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 2,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 4,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 5,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "graduation_math_ii:2022:mcq:5",
+            "graduation_math_ii:2022:written:4"
+          ]
+        },
+        {
+          "chapter": 7,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2022:written:3"
+          ]
+        },
+        {
+          "chapter": 8,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2022:mcq:4"
+          ]
+        },
+        {
+          "chapter": 9,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2022:mcq:3"
+          ]
+        },
+        {
+          "chapter": 10,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "graduation_math_ii:2022:mcq:2",
+            "graduation_math_ii:2022:written:2"
+          ]
+        },
+        {
+          "chapter": 11,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "graduation_math_ii:2022:mcq:1",
+            "graduation_math_ii:2022:written:1"
+          ]
+        },
+        {
+          "chapter": 14,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 16,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2022:mcq:14"
+          ]
+        },
+        {
+          "chapter": 17,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "graduation_math_ii:2022:mcq:7",
+            "graduation_math_ii:2022:written:6"
+          ]
+        },
+        {
+          "chapter": 19,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2022:mcq:8"
+          ]
+        },
+        {
+          "chapter": 20,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 22,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2022:written:10"
+          ]
+        },
+        {
+          "chapter": 23,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 24,
+          "count": 3,
+          "share": 0.09375,
+          "question_ids": [
+            "graduation_math_ii:2022:mcq:16",
+            "graduation_math_ii:2022:mcq:19",
+            "graduation_math_ii:2022:written:11"
+          ]
+        },
+        {
+          "chapter": 25,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 26,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 28,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "graduation_math_ii:2022:mcq:15",
+            "graduation_math_ii:2022:mcq:17"
+          ]
+        },
+        {
+          "chapter": 29,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "graduation_math_ii:2022:mcq:18",
+            "graduation_math_ii:2022:written:9"
+          ]
+        },
+        {
+          "chapter": 30,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "graduation_math_ii:2022:mcq:20",
+            "graduation_math_ii:2022:written:12"
+          ]
+        },
+        {
+          "chapter": 31,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2022:written:5"
+          ]
+        },
+        {
+          "chapter": 32,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "graduation_math_ii:2022:mcq:11",
+            "graduation_math_ii:2022:mcq:12"
+          ]
+        },
+        {
+          "chapter": 33,
+          "count": 3,
+          "share": 0.09375,
+          "question_ids": [
+            "graduation_math_ii:2022:mcq:13",
+            "graduation_math_ii:2022:written:7",
+            "graduation_math_ii:2022:written:8"
+          ]
+        },
+        {
+          "chapter": 34,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2022:mcq:6"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "total_questions": 32,
+      "cells": [
+        {
+          "chapter": 1,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 2,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 4,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "graduation_math_ii:2024:mcq:10",
+            "graduation_math_ii:2024:written:3"
+          ]
+        },
+        {
+          "chapter": 5,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 7,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 8,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 9,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "graduation_math_ii:2024:mcq:1",
+            "graduation_math_ii:2024:mcq:2"
+          ]
+        },
+        {
+          "chapter": 10,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "graduation_math_ii:2024:written:1",
+            "graduation_math_ii:2024:written:2"
+          ]
+        },
+        {
+          "chapter": 11,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2024:mcq:3"
+          ]
+        },
+        {
+          "chapter": 14,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 16,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 17,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "graduation_math_ii:2024:mcq:5",
+            "graduation_math_ii:2024:written:4"
+          ]
+        },
+        {
+          "chapter": 19,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2024:mcq:6"
+          ]
+        },
+        {
+          "chapter": 20,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2024:mcq:7"
+          ]
+        },
+        {
+          "chapter": 22,
+          "count": 3,
+          "share": 0.09375,
+          "question_ids": [
+            "graduation_math_ii:2024:mcq:16",
+            "graduation_math_ii:2024:written:11",
+            "graduation_math_ii:2024:written:12"
+          ]
+        },
+        {
+          "chapter": 23,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 24,
+          "count": 3,
+          "share": 0.09375,
+          "question_ids": [
+            "graduation_math_ii:2024:mcq:18",
+            "graduation_math_ii:2024:mcq:19",
+            "graduation_math_ii:2024:written:10"
+          ]
+        },
+        {
+          "chapter": 25,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 26,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 28,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "graduation_math_ii:2024:mcq:13",
+            "graduation_math_ii:2024:written:9"
+          ]
+        },
+        {
+          "chapter": 29,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "graduation_math_ii:2024:mcq:17",
+            "graduation_math_ii:2024:mcq:9"
+          ]
+        },
+        {
+          "chapter": 30,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2024:mcq:20"
+          ]
+        },
+        {
+          "chapter": 31,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2024:written:6"
+          ]
+        },
+        {
+          "chapter": 32,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 33,
+          "count": 5,
+          "share": 0.15625,
+          "question_ids": [
+            "graduation_math_ii:2024:mcq:11",
+            "graduation_math_ii:2024:mcq:12",
+            "graduation_math_ii:2024:mcq:14",
+            "graduation_math_ii:2024:written:7",
+            "graduation_math_ii:2024:written:8"
+          ]
+        },
+        {
+          "chapter": 34,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2024:mcq:8"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "total_questions": 32,
+      "cells": [
+        {
+          "chapter": 1,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 2,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2025:mcq:5"
+          ]
+        },
+        {
+          "chapter": 4,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 5,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 7,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2025:written:6"
+          ]
+        },
+        {
+          "chapter": 8,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 9,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2025:mcq:2"
+          ]
+        },
+        {
+          "chapter": 10,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2025:mcq:3"
+          ]
+        },
+        {
+          "chapter": 11,
+          "count": 3,
+          "share": 0.09375,
+          "question_ids": [
+            "graduation_math_ii:2025:mcq:1",
+            "graduation_math_ii:2025:mcq:4",
+            "graduation_math_ii:2025:written:1"
+          ]
+        },
+        {
+          "chapter": 14,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 16,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2025:mcq:15"
+          ]
+        },
+        {
+          "chapter": 17,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 19,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 20,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "graduation_math_ii:2025:mcq:10",
+            "graduation_math_ii:2025:written:5"
+          ]
+        },
+        {
+          "chapter": 22,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 23,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 24,
+          "count": 4,
+          "share": 0.125,
+          "question_ids": [
+            "graduation_math_ii:2025:mcq:17",
+            "graduation_math_ii:2025:mcq:19",
+            "graduation_math_ii:2025:mcq:20",
+            "graduation_math_ii:2025:written:12"
+          ]
+        },
+        {
+          "chapter": 25,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 26,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2025:mcq:9"
+          ]
+        },
+        {
+          "chapter": 28,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "graduation_math_ii:2025:mcq:18",
+            "graduation_math_ii:2025:written:10"
+          ]
+        },
+        {
+          "chapter": 29,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 30,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2025:written:9"
+          ]
+        },
+        {
+          "chapter": 31,
+          "count": 1,
+          "share": 0.03125,
+          "question_ids": [
+            "graduation_math_ii:2025:written:3"
+          ]
+        },
+        {
+          "chapter": 32,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "graduation_math_ii:2025:mcq:12",
+            "graduation_math_ii:2025:mcq:13"
+          ]
+        },
+        {
+          "chapter": 33,
+          "count": 4,
+          "share": 0.125,
+          "question_ids": [
+            "graduation_math_ii:2025:mcq:11",
+            "graduation_math_ii:2025:mcq:14",
+            "graduation_math_ii:2025:written:7",
+            "graduation_math_ii:2025:written:8"
+          ]
+        },
+        {
+          "chapter": 34,
+          "count": 2,
+          "share": 0.0625,
+          "question_ids": [
+            "graduation_math_ii:2025:mcq:8",
+            "graduation_math_ii:2025:written:4"
+          ]
+        }
+      ]
+    }
+  ],
   "validation": {
     "ok": true,
     "errors": [],
     "chapter_marks": {
-      "3": 2,
+      "1": 2,
+      "2": 2,
       "4": 2,
       "5": 10,
-      "6": 4,
-      "8": 4,
+      "7": 2,
+      "8": 2,
       "9": 2,
-      "10": 6,
+      "10": 12,
       "11": 2,
       "14": 2,
-      "15": 4,
-      "16": 2,
+      "16": 12,
       "17": 2,
       "19": 2,
-      "22": 4,
-      "24": 2,
+      "20": 2,
+      "22": 2,
+      "23": 2,
+      "24": 12,
       "25": 2,
       "28": 10,
-      "29": 8,
       "30": 2,
-      "31": 10,
-      "33": 8,
-      "34": 10
+      "32": 2,
+      "33": 12
     },
     "difficulty_marks": {
-      "basic": 24,
-      "medium": 50,
-      "hard": 26
+      "basic": 16,
+      "medium": 38,
+      "hard": 46
     },
-    "total_marks": 100
+    "total_marks": 100,
+    "printed_marks": 160,
+    "printed_chapter_marks": {
+      "1": 2,
+      "2": 2,
+      "4": 2,
+      "5": 10,
+      "7": 2,
+      "8": 2,
+      "9": 2,
+      "10": 12,
+      "11": 12,
+      "14": 2,
+      "16": 12,
+      "17": 2,
+      "19": 2,
+      "20": 2,
+      "22": 12,
+      "23": 2,
+      "24": 12,
+      "25": 2,
+      "26": 10,
+      "28": 10,
+      "29": 10,
+      "30": 2,
+      "31": 10,
+      "32": 2,
+      "33": 12,
+      "34": 10
+    },
+    "required_written_numbers": [
+      1,
+      6,
+      7,
+      8,
+      9,
+      11
+    ]
   }
 }

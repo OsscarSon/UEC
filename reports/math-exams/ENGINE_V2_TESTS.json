@@ -1,0 +1,55 @@
+{
+  "status": "pass",
+  "seeded_papers": 500,
+  "checks": [
+    {
+      "name": "500 five-category strategy seeds, exact source formats and actual100/printed100or160",
+      "status": "pass"
+    },
+    {
+      "name": "correct option positions shuffled",
+      "status": "pass"
+    },
+    {
+      "name": "2026 focus refuses categories with missing 2026 originals",
+      "status": "pass"
+    },
+    {
+      "name": "invalid or insufficient chapter and strategy selections rejected",
+      "status": "pass"
+    },
+    {
+      "name": "heat strategy and evidence versions reproducible",
+      "status": "pass"
+    },
+    {
+      "name": "old format must select6 with each group1to2, no silent all-answer score",
+      "status": "pass"
+    },
+    {
+      "name": "new snapshot preserves source profile and dynamic32-answer shape",
+      "status": "pass"
+    },
+    {
+      "name": "wall time and phase transitions use actual format",
+      "status": "pass"
+    },
+    {
+      "name": "unselected questions never assessed and self-score bounds enforced",
+      "status": "pass"
+    },
+    {
+      "name": "semester break60 derives from its own0800and1000 cover times",
+      "status": "pass"
+    },
+    {
+      "name": "legacy27 snapshots remain accepted without migration or regeneration",
+      "status": "pass"
+    },
+    {
+      "name": "tampered formats or course isolation fail validation",
+      "status": "pass"
+    }
+  ],
+  "limits": "Strategies are soft design preferences; no empirical candidate difficulty certification."
+}
