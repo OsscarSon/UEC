@@ -1,0 +1,2133 @@
+{
+  "4.1": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 4,
+    "section_id": "4.1",
+    "goals": [
+      "用具体结构解释不同细胞的任务",
+      "区分细胞增殖与分化并说明协作意义"
+    ],
+    "prerequisites": [
+      "细胞器功能",
+      "DNA与蛋白质"
+    ],
+    "flow": [
+      "共同来源",
+      "增殖或分化",
+      "表达组合",
+      "结构作用",
+      "系统协作"
+    ],
+    "concept_relation": "共同来源；增殖或分化；表达组合；结构作用；系统协作",
+    "deep": [
+      "分工可提高某些任务效率，但也形成相互依赖。负责吸收的细胞需要来自其他结构的物质运输和调节；高度特化细胞可能不再具备独立完成全部生存与繁殖任务的能力。单个特化细胞高效，不等于整个系统无需协调。",
+      "结构功能题要写中间机制。例如较多线粒体在适当条件下有助持续提供ATP，不是简单“线粒体多所以功能强”；吸收细胞增大表面积，可增加交换的机会，但实际速率仍受浓度、转运蛋白和供应等限制。",
+      "比较实验可测特定RNA、蛋白或生理响应，而不是只看形状便确定全部功能。某标记表达支持候选身份，但完整分类通常需多种证据。答案把共同来源、差异表达、结构变化和具体作用连起来，避免用“各司其职”一句话代替解释。"
+    ],
+    "derive": [
+      "增殖主要改变数量；分化形成不同特征和功能类型，两者可在发育中相伴但不等同。",
+      "多数有核体细胞遗传信息大体相同，表达组合可不同。",
+      "结构→具体物理/生化作用→功能结果，比只写“结构适应功能”更完整。"
+    ],
+    "examples": [
+      {
+        "q": "同源细胞分裂后数量从1增到8，但全部保持原形态和标记，能仅由数量证明产生8种分化类型吗？ 条件：没有其他类型证据。",
+        "given": "没有其他类型证据。",
+        "analysis": "数量与类型不同。",
+        "method": "区分增殖和分化。",
+        "principle": "细胞过程定义。",
+        "steps": [
+          "数量增加支持增殖。",
+          "类型仍可能只有1种，不能直接变成8种。"
+        ],
+        "ans": "不能。",
+        "verification": "需要类型特征或功能差异证据。",
+        "pitfall": "把8个细胞当8种细胞。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.1",
+        "related_sections": []
+      },
+      {
+        "q": "某吸收细胞具有许多膜褶皱，如何写出结构与功能之间的机制？ 条件：其余交换条件适当。",
+        "given": "其余交换条件适当。",
+        "analysis": "表面积影响与外界接触。",
+        "method": "连接面积和转运机会。",
+        "principle": "交换表面积。",
+        "steps": [
+          "褶皱增加有效表面积。",
+          "在相应转运系统和供应下，可提供更多交换接触或转运位点。"
+        ],
+        "ans": "面积增加有利交换，但速率还受其他条件限制。",
+        "verification": "不能仅由褶皱断言任何浓度下无限吸收。",
+        "pitfall": "只写适应吸收而不解释怎样适应。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.1",
+        "related_sections": []
+      },
+      {
+        "q": "肌肉与神经细胞功能不同，是否必然因为它们把对方所需的全部基因删掉？ 条件：讨论多数有核体细胞的入门模型。",
+        "given": "讨论多数有核体细胞的入门模型。",
+        "analysis": "主要差异可在表达层。",
+        "method": "区分基因存在与使用。",
+        "principle": "选择性基因表达。",
+        "steps": [
+          "两者可共享大体相同DNA信息。",
+          "不同RNA、蛋白和结构组合产生不同功能。"
+        ],
+        "ans": "不必然，不能这样普遍解释。",
+        "verification": "用DNA与RNA/蛋白检测可区分两层。",
+        "pitfall": "把沉默等同基因物理删除。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "细胞分化是否一定表现为细胞体积变大？ 条件：不同类型可有不同形态。",
+        "given": "不同类型可有不同形态。",
+        "analysis": "分化由特征和功能判定。",
+        "method": "核定义。",
+        "principle": "类型变化。",
+        "steps": [
+          "细胞可变大、变小或改变形状。",
+          "大小单项不足定义分化。"
+        ],
+        "ans": "不一定。",
+        "verification": "成熟红细胞等说明不能只按体积排序。",
+        "pitfall": "分化等于长大。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.1",
+        "related_sections": []
+      },
+      {
+        "q": "线粒体较多的细胞，写ATP如何连接功能，而不只说能量多。 条件：细胞需较高持续活动。",
+        "given": "细胞需较高持续活动。",
+        "analysis": "ATP供能支持具体过程。",
+        "method": "说明能量转换作用。",
+        "principle": "细胞呼吸与ATP。",
+        "steps": [
+          "线粒体相关过程可参与ATP产生。",
+          "ATP再供收缩或主动运输等具体任务。"
+        ],
+        "ans": "写ATP供给及具体耗能任务。",
+        "verification": "不是线粒体直接制造动作本身。",
+        "pitfall": "器官数多直接等同任何功能更好。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.1",
+        "related_sections": []
+      },
+      {
+        "q": "所有特化细胞都能独立完成整个生物所有任务吗？ 条件：处于多细胞分工系统。",
+        "given": "处于多细胞分工系统。",
+        "analysis": "专门化伴随依赖。",
+        "method": "按系统关系。",
+        "principle": "分工协作。",
+        "steps": [
+          "某些特化细胞缺少其他任务的结构。",
+          "需运输、支持和调控等配合。"
+        ],
+        "ans": "不能。",
+        "verification": "系统功能不是一个细胞类型包办。",
+        "pitfall": "分工效率高就说无需其他细胞。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.1",
+        "related_sections": []
+      },
+      {
+        "q": "仅看一个RNA标记阳性，能否确定细胞全部功能均正常？ 条件：只有一项检测。",
+        "given": "只有一项检测。",
+        "analysis": "身份线索不同于完整功能证据。",
+        "method": "限定结论。",
+        "principle": "多层验证。",
+        "steps": [
+          "标记支持某表达特征。",
+          "功能和其他身份特征还需相应检验。"
+        ],
+        "ans": "不能。",
+        "verification": "标记存在可与功能受损并存。",
+        "pitfall": "一项阳性当所有功能合格。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "为什么“结构与功能相适应”本身还不是完整解题答案？ 条件：题目要求解释某具体特化细胞。",
+      "given": "题目要求解释某具体特化细胞。",
+      "analysis": "需要指出具体结构如何产生效果。",
+      "method": "补中间机制。",
+      "principle": "结构功能因果链。",
+      "steps": [
+        "写出结构特征，如膜褶皱、长突起或特定蛋白。",
+        "再说明它怎样影响接触、传递或收缩，连接本题功能。"
+      ],
+      "ans": "因为它未说明对象和机制。",
+      "verification": "换成另一细胞仍通用的空话不能解释本题。",
+      "pitfall": "所有题都只写一句适应功能。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 4,
+      "primary_section": "4.1",
+      "related_sections": []
+    },
+    "exam": [
+      "结构题按特征—作用机制—具体功能写三环",
+      "比较增殖分化先核数量和类型的指标",
+      "表达题区分DNA存在、RNA/蛋白使用和最终功能，不越过检测层"
+    ],
+    "quick": [
+      "共同来源",
+      "增殖或分化",
+      "表达组合",
+      "结构作用",
+      "系统协作"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_4.1",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-6-cellular-differentiation",
+        "page_or_section": "3-6-cellular-differentiation",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_4.1",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-6-cellular-differentiation",
+        "page_or_section": "3-6-cellular-differentiation",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "结构题按特征—作用机制—具体功能写三环",
+      "method": "区分基因存在与使用。",
+      "principle": "选择性基因表达。",
+      "worked_example_index": 2,
+      "verification": "用DNA与RNA/蛋白检测可区分两层。",
+      "pitfall": "把沉默等同基因物理删除。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用具体结构解释不同细胞的任务”的抽样复核：需要类型特征或功能差异证据。；若出现“把8个细胞当8种细胞。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分细胞增殖与分化并说明协作意义”的抽样复核：用DNA与RNA/蛋白检测可区分两层。；若出现“把沉默等同基因物理删除。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "所有题都只写一句适应功能。",
+        "correction": "因为它未说明对象和机制。",
+        "verification": "换成另一细胞仍通用的空话不能解释本题。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "细胞分工与表达组合",
+      "objects": [
+        "具体细胞类型",
+        "结构与功能对应",
+        "来源或表达关系箭头",
+        "模型限制与对照"
+      ],
+      "relations": [
+        "同源细胞可有不同表达组合",
+        "数量和类型两个轴分开",
+        "每种结构配具体功能箭头"
+      ],
+      "labels": [
+        "增殖",
+        "分化",
+        "肌肉细胞",
+        "神经细胞",
+        "吸收细胞"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "细胞结构旧图只在细胞类型、成熟状态与本文一致时复用；不能以通用细胞替代特化结构",
+      "english": "Make an accurate cell-differentiation teaching schematic. Distinguish cell proliferation, differentiation, specialization and organism-level cloning. Most nucleated somatic cells share much genomic information but express different subsets. Show mature mammalian erythrocytes without a nucleus or mitochondria, and do not generalize that structure to every species. Stem-cell potency is a conditional range, not guaranteed unlimited repair."
+    }
+  },
+  "4.2": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 4,
+    "section_id": "4.2",
+    "goals": [
+      "按细胞组织器官层级分类具体对象",
+      "用多组织协作解释器官功能"
+    ],
+    "prerequisites": [
+      "分化细胞",
+      "植物与动物的基本结构"
+    ],
+    "flow": [
+      "细胞单位",
+      "组织与基质",
+      "器官组合",
+      "系统协作",
+      "分类依据"
+    ],
+    "concept_relation": "细胞单位；组织与基质；器官组合；系统协作；分类依据",
+    "deep": [
+      "植物可按功能讨论分生、保护、基本、输导和机械等组织，也可在其他层级用组织系统分类；不同分类角度不宜放成同一层级的混乱清单。种子植物的根、茎、叶及花果实种子等可按相应器官功能比较。",
+      "器官需要多组织协作。例如胃有表面衬里、结缔支持、平滑肌及神经等，既要保护与分泌，也要运动和调控。叶的保护、叶肉和输导结构也协作，不能把一个叶肉细胞当成完整叶器官。",
+      "层级题先说明研究对象和分类体系，再按共同特征或功能判断。完整生物还可能有器官系统及整体层次，但不能据动物系统图强迫所有生物逐项对应相同组织和器官。比较应保留对象和系统关系，而不是死背一条没有例外的大小链。"
+    ],
+    "derive": [
+      "细胞→组织→器官→相应系统/个体是常见多细胞层级框架，需按对象使用。",
+      "器官由多种组织协同，不等于一种细胞的简单放大。",
+      "动物四基本组织：上皮、结缔、肌肉、神经；血液属结缔组织的一种。"
+    ],
+    "examples": [
+      {
+        "q": "叶肉细胞、叶片、叶肉组织按细胞—组织—器官排列。 条件：对象为典型种子植物。",
+        "given": "对象为典型种子植物。",
+        "analysis": "名称层级不同。",
+        "method": "按组成关系。",
+        "principle": "结构层级。",
+        "steps": [
+          "叶肉细胞组成相应组织。",
+          "多种组织共同构成叶片器官。"
+        ],
+        "ans": "叶肉细胞→叶肉组织→叶片。",
+        "verification": "叶片不只含一种叶肉细胞。",
+        "pitfall": "因叶片薄就当单一组织。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.2",
+        "related_sections": []
+      },
+      {
+        "q": "胃的运动主要依赖肌肉，能否说胃只由肌肉组织构成？ 条件：讨论整个胃器官。",
+        "given": "讨论整个胃器官。",
+        "analysis": "主要功能不等于唯一组织。",
+        "method": "列其他配合组织。",
+        "principle": "器官多组织协作。",
+        "steps": [
+          "胃还需衬里上皮、支持结缔和神经调控等。",
+          "多种组织共同实现运动、保护和分泌。"
+        ],
+        "ans": "不能。",
+        "verification": "器官与组织不可混同。",
+        "pitfall": "只按最显著功能命名所有组成。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.2",
+        "related_sections": []
+      },
+      {
+        "q": "血液会流动而骨很硬，为何仍可都放在结缔组织大类？ 条件：按动物组织分类。",
+        "given": "按动物组织分类。",
+        "analysis": "同类可有不同基质形式。",
+        "method": "按结构与支持运输联系。",
+        "principle": "结缔组织多样性。",
+        "steps": [
+          "血液有液态基质和细胞成分，骨有矿化基质。",
+          "形态不同不妨碍在该体系中归同一大类。"
+        ],
+        "ans": "分类不只看软硬与流动。",
+        "verification": "用基质和细胞等标准比凭触感更可靠。",
+        "pitfall": "流动的东西不能是组织。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "神经元与神经组织是否同一层级？ 条件：一个是细胞类型，一个是组织。",
+        "given": "一个是细胞类型，一个是组织。",
+        "analysis": "组成单位不同。",
+        "method": "按定义。",
+        "principle": "细胞与组织。",
+        "steps": [
+          "神经元是细胞。",
+          "神经组织还含相应其他细胞与组织关系。"
+        ],
+        "ans": "不同。",
+        "verification": "不能把一个神经元当整个神经系统。",
+        "pitfall": "名称相近就视为同一对象。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.2",
+        "related_sections": []
+      },
+      {
+        "q": "一片叶通常是否只有叶绿体这一种结构？ 条件：对象是器官。",
+        "given": "对象是器官。",
+        "analysis": "细胞器和器官跨度不同。",
+        "method": "检查层级。",
+        "principle": "器官由组织与细胞组成。",
+        "steps": [
+          "叶包含多组织多细胞。",
+          "叶绿体是其中某些细胞内的细胞器。"
+        ],
+        "ans": "不是。",
+        "verification": "表皮和输导等结构也参与功能。",
+        "pitfall": "把器官缩成一个细胞器。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.2",
+        "related_sections": []
+      },
+      {
+        "q": "肌肉组织主要怎样参与器官活动？ 条件：典型动物组织。",
+        "given": "典型动物组织。",
+        "analysis": "结构功能对应。",
+        "method": "说明收缩。",
+        "principle": "肌肉细胞收缩。",
+        "steps": [
+          "细胞产生相应收缩力。",
+          "协助运动或推动内容物。"
+        ],
+        "ans": "通过收缩参与运动。",
+        "verification": "仍需神经、支持和供给等协作。",
+        "pitfall": "说肌肉只负责覆盖保护。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.2",
+        "related_sections": []
+      },
+      {
+        "q": "同一种上皮组织类型能否出现在不同器官？ 条件：按分类类型讨论。",
+        "given": "按分类类型讨论。",
+        "analysis": "组织类型并非某器官专属名称。",
+        "method": "看分布。",
+        "principle": "组织与器官关系。",
+        "steps": [
+          "相同或相似类型可衬不同部位。",
+          "不能一组织唯一对应一器官。"
+        ],
+        "ans": "可以。",
+        "verification": "器官由组织组合而非一对一配对。",
+        "pitfall": "把组织与器官当唯一对应。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "题目要求说明叶能完成光合作用和运输，为什么只写“叶肉有叶绿体”不够？ 条件：问的是器官综合功能。",
+      "given": "问的是器官综合功能。",
+      "analysis": "只解释了其中一类细胞的局部功能。",
+      "method": "补组织协作。",
+      "principle": "器官多组织配合。",
+      "steps": [
+        "叶肉光合还需气体交换、保护和物质运输。",
+        "应说明相关组织如何共同供原料并运输产物。"
+      ],
+      "ans": "缺少器官层次的组织联系。",
+      "verification": "局部结构正确不等于完整器官解释。",
+      "pitfall": "一项细胞器功能代替整个器官分析。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 4,
+      "primary_section": "4.2",
+      "related_sections": []
+    },
+    "exam": [
+      "层级题先明确细胞、组织、器官，不按名称长短判断",
+      "器官功能题列多组织贡献及联系，不只说主要组织",
+      "分类时讲依据，血液和骨提醒不能只看软硬流动"
+    ],
+    "quick": [
+      "细胞单位",
+      "组织与基质",
+      "器官组合",
+      "系统协作",
+      "分类依据"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_4.2",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-1-types-of-tissues",
+        "page_or_section": "4-1-types-of-tissues",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_4.2",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-1-types-of-tissues",
+        "page_or_section": "4-1-types-of-tissues",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "层级题先明确细胞、组织、器官，不按名称长短判断",
+      "method": "按结构与支持运输联系。",
+      "principle": "结缔组织多样性。",
+      "worked_example_index": 2,
+      "verification": "用基质和细胞等标准比凭触感更可靠。",
+      "pitfall": "流动的东西不能是组织。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“按细胞组织器官层级分类具体对象”的抽样复核：叶片不只含一种叶肉细胞。；若出现“因叶片薄就当单一组织。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用多组织协作解释器官功能”的抽样复核：用基质和细胞等标准比凭触感更可靠。；若出现“流动的东西不能是组织。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "一项细胞器功能代替整个器官分析。",
+        "correction": "缺少器官层次的组织联系。",
+        "verification": "局部结构正确不等于完整器官解释。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "细胞组织器官的对应层级",
+      "objects": [
+        "具体细胞类型",
+        "结构与功能对应",
+        "来源或表达关系箭头",
+        "模型限制与对照"
+      ],
+      "relations": [
+        "叶肉细胞→叶肉组织→叶器官",
+        "胃内多种组织协作",
+        "血液和骨可同属结缔大类"
+      ],
+      "labels": [
+        "细胞",
+        "组织",
+        "器官",
+        "叶片",
+        "上皮",
+        "结缔",
+        "肌肉",
+        "神经"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "细胞结构旧图只在细胞类型、成熟状态与本文一致时复用；不能以通用细胞替代特化结构",
+      "english": "Make an accurate cell-differentiation teaching schematic. Distinguish cell proliferation, differentiation, specialization and organism-level cloning. Most nucleated somatic cells share much genomic information but express different subsets. Show mature mammalian erythrocytes without a nucleus or mitochondria, and do not generalize that structure to every species. Stem-cell potency is a conditional range, not guaranteed unlimited repair."
+    }
+  },
+  "4.3": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 4,
+    "section_id": "4.3",
+    "goals": [
+      "区分细胞更新、组织修复与完整再生",
+      "由来源和功能证据评价再生结论"
+    ],
+    "prerequisites": [
+      "细胞分裂分化",
+      "组织与器官"
+    ],
+    "flow": [
+      "损失对象",
+      "细胞来源",
+      "受控增殖分化",
+      "组织重建",
+      "验证与限制"
+    ],
+    "concept_relation": "损失对象；细胞来源；受控增殖分化；组织重建；验证与限制",
+    "deep": [
+      "细胞增殖需要适当信号、营养、血液或其他物质供应及局部环境。失去某些支持结构会限制再生；刺激分裂并不自动解决组织排列和功能连接问题。过度或失控增殖也不应直接称为理想再生。",
+      "实验推断需追踪新细胞来源，结合类型标记、结构和功能检测。仅在损伤后看到更多细胞，不能排除迁入、炎症或纤维组织增生等解释；若声称一种细胞转成另一类型，需相应谱系与身份证据。",
+      "本节按机制学习，不把再生知识当作个人治疗承诺。答题列出缺失对象、可能补充来源、分化与组织重建、验证指标及限制。有限范围的恢复证据不能推广为任何损伤都能完全逆转。"
+    ],
+    "derive": [
+      "细胞数恢复≠原组织结构与功能全部恢复。",
+      "再生需来源、分裂/分化、合适环境与组织连接等条件。",
+      "评价指标可分数量、身份、结构、功能和长期稳定性，不只看伤口闭合。"
+    ],
+    "examples": [
+      {
+        "q": "伤口表面已闭合，能否据此认定原组织全部精细结构和功能都恢复？ 条件：只给外观闭合。",
+        "given": "只给外观闭合。",
+        "analysis": "覆盖与功能不同层次。",
+        "method": "列需要补充的证据。",
+        "principle": "修复与完整再生区分。",
+        "steps": [
+          "闭合可由修复或瘢痕形成。",
+          "还需原组织类型、排列与功能检测。"
+        ],
+        "ans": "不能仅凭闭合认定。",
+        "verification": "外观相似也可能有不同内部组成。",
+        "pitfall": "表面长好等同所有功能完全正常。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.3",
+        "related_sections": []
+      },
+      {
+        "q": "损伤后细胞数上升，能否只凭计数证明原有成熟细胞重新分裂？ 条件：未追踪细胞来源。",
+        "given": "未追踪细胞来源。",
+        "analysis": "增加可有多种来源。",
+        "method": "考虑谱系与替代解释。",
+        "principle": "来源证据。",
+        "steps": [
+          "可能来自成熟细胞分裂，也可能干/祖细胞或迁入细胞。",
+          "需标记追踪和类型检测。"
+        ],
+        "ans": "不能唯一证明。",
+        "verification": "同样总数能由不同过程产生。",
+        "pitfall": "把数增加直接当某类细胞分裂。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.3",
+        "related_sections": []
+      },
+      {
+        "q": "某动物可再生肢体，能否据此保证人体相同损伤也能再生完整肢体？ 条件：物种与组织环境不同。",
+        "given": "物种与组织环境不同。",
+        "analysis": "外推范围超出证据。",
+        "method": "比较适用条件。",
+        "principle": "再生能力依对象。",
+        "steps": [
+          "物种的细胞潜能、信号与结构条件可不同。",
+          "不能直接移用完整再生结论。"
+        ],
+        "ans": "不能保证。",
+        "verification": "可作为研究线索而非人体疗效证明。",
+        "pitfall": "一个物种成功即所有生物可同样恢复。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "组织修复形成瘢痕是否必与原组织功能完全相同？ 条件：替代结构可能不同。",
+        "given": "替代结构可能不同。",
+        "analysis": "形态功能需验证。",
+        "method": "区分修复类型。",
+        "principle": "瘢痕与原组织。",
+        "steps": [
+          "纤维性修复可提供连接或覆盖。",
+          "不必恢复原精细功能。"
+        ],
+        "ans": "不必。",
+        "verification": "完整再生要求更具体证据。",
+        "pitfall": "所有修复都叫完全再生。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.3",
+        "related_sections": []
+      },
+      {
+        "q": "供血或营养不足能影响再生吗？ 条件：细胞增殖与功能需物质供应。",
+        "given": "细胞增殖与功能需物质供应。",
+        "analysis": "局部环境是条件。",
+        "method": "联系代谢。",
+        "principle": "细胞更新需求。",
+        "steps": [
+          "新细胞需原料和能量。",
+          "支持不足可限制过程。"
+        ],
+        "ans": "可以影响。",
+        "verification": "不能只看有无潜在细胞来源。",
+        "pitfall": "有干细胞就无须其他条件。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.3",
+        "related_sections": []
+      },
+      {
+        "q": "细胞无限制增殖是否可直接称为最佳再生？ 条件：没有组织控制与功能证据。",
+        "given": "没有组织控制与功能证据。",
+        "analysis": "增殖需协调。",
+        "method": "区分数量与有序重建。",
+        "principle": "组织稳态。",
+        "steps": [
+          "失控增长可能破坏结构。",
+          "理想再生需有序数量、身份和连接。"
+        ],
+        "ans": "不能。",
+        "verification": "功能性恢复不是细胞越多越好。",
+        "pitfall": "数量最大即效果最好。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.3",
+        "related_sections": []
+      },
+      {
+        "q": "评价再生至少还应看哪些非数量指标？ 条件：要求超出细胞计数。",
+        "given": "要求超出细胞计数。",
+        "analysis": "组织功能多层。",
+        "method": "列对应证据。",
+        "principle": "结构功能验证。",
+        "steps": [
+          "查细胞身份和组织排列。",
+          "查实际功能及持续稳定性。"
+        ],
+        "ans": "身份、结构、功能等。",
+        "verification": "每项需与声称恢复的对象匹配。",
+        "pitfall": "只重复“细胞更多”。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "实验声称细胞A变成细胞B，仅见某B标记增加，为什么还需更强来源证据？ 条件：B可原本存在或迁入。",
+      "given": "B可原本存在或迁入。",
+      "analysis": "标记总量不唯一指向A转分化。",
+      "method": "排除替代来源。",
+      "principle": "谱系推断。",
+      "steps": [
+        "需能追踪A来源并确认新细胞具有B的多项身份与功能。",
+        "单一标记增加还可能由原B增殖等造成。"
+      ],
+      "ans": "为确定来源及完整身份，避免把相关当转化证明。",
+      "verification": "若没有A谱系信号，不能唯一连因果链。",
+      "pitfall": "一个标记当转分化确证。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 4,
+      "primary_section": "4.3",
+      "related_sections": []
+    },
+    "exam": [
+      "再生题先分更新、覆盖修复和完整结构功能重建",
+      "证据题把来源、身份、功能分开，不由总细胞数强推来源",
+      "跨物种应用明确限制，不给无证据的完整恢复承诺"
+    ],
+    "quick": [
+      "损失对象",
+      "细胞来源",
+      "受控增殖分化",
+      "组织重建",
+      "验证与限制"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_4.3",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-6-tissue-injury-and-aging",
+        "page_or_section": "4-6-tissue-injury-and-aging",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_4.3",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-6-tissue-injury-and-aging",
+        "page_or_section": "4-6-tissue-injury-and-aging",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "再生题先分更新、覆盖修复和完整结构功能重建",
+      "method": "比较适用条件。",
+      "principle": "再生能力依对象。",
+      "worked_example_index": 2,
+      "verification": "可作为研究线索而非人体疗效证明。",
+      "pitfall": "一个物种成功即所有生物可同样恢复。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“区分细胞更新、组织修复与完整再生”的抽样复核：外观相似也可能有不同内部组成。；若出现“表面长好等同所有功能完全正常。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“由来源和功能证据评价再生结论”的抽样复核：可作为研究线索而非人体疗效证明。；若出现“一个物种成功即所有生物可同样恢复。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "一个标记当转分化确证。",
+        "correction": "为确定来源及完整身份，避免把相关当转化证明。",
+        "verification": "若没有A谱系信号，不能唯一连因果链。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "细胞更新与组织功能恢复",
+      "objects": [
+        "具体细胞类型",
+        "结构与功能对应",
+        "来源或表达关系箭头",
+        "模型限制与对照"
+      ],
+      "relations": [
+        "数量恢复与功能恢复分开",
+        "来源可有多种需追踪",
+        "瘢痕修复不自动等同完整再生"
+      ],
+      "labels": [
+        "原组织",
+        "新细胞来源",
+        "数量",
+        "身份",
+        "结构",
+        "功能"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "细胞结构旧图只在细胞类型、成熟状态与本文一致时复用；不能以通用细胞替代特化结构",
+      "english": "Make an accurate cell-differentiation teaching schematic. Distinguish cell proliferation, differentiation, specialization and organism-level cloning. Most nucleated somatic cells share much genomic information but express different subsets. Show mature mammalian erythrocytes without a nucleus or mitochondria, and do not generalize that structure to every species. Stem-cell potency is a conditional range, not guaranteed unlimited repair."
+    }
+  },
+  "4.4": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 4,
+    "section_id": "4.4",
+    "goals": [
+      "区分细胞克隆与个体克隆",
+      "用核移植证据解释遗传信息保留而不夸大同一性"
+    ],
+    "prerequisites": [
+      "细胞分裂",
+      "DNA与细胞核"
+    ],
+    "flow": [
+      "单来源",
+      "增殖或个体发育",
+      "核信息",
+      "细胞质环境",
+      "身份及潜能边界"
+    ],
+    "concept_relation": "单来源；增殖或个体发育；核信息；细胞质环境；身份及潜能边界",
+    "deep": [
+      "核供体、卵细胞质提供者与妊娠环境贡献不同。核基因主要来自所移入细胞核，线粒体等细胞质遗传信息可来自相应细胞质来源，发育还受调控与环境影响；不能把克隆个体叫作任何一个供体的所有分子和经历的完整复制。",
+      "植物组织培养等可利用适当细胞在条件下的发育能力，说明潜能与细胞状态和环境有关。也不是把任意成熟细胞放着就自然长成完整植物；本节只讨论原理和证据，不给未经监督的操作程序。",
+      "答题比较“遗传来源相近”与“表型绝对相同”，以及“可证明某潜能存在”与“每个细胞都必成功”。实验需身份与谱系控制，结论保留样本和条件；生殖克隆与细胞培养还涉及不同伦理与治理问题，不能混作一个安全性结论。"
+    ],
+    "derive": [
+      "细胞克隆=相应单来源细胞的后代群；个体克隆需完成更高层级发育。",
+      "核移植结果可支持分化核保留广泛信息，但成功有条件。",
+      "核遗传、细胞质遗传和发育环境分开追踪，不能认作供体一切特征的绝对复制。"
+    ],
+    "examples": [
+      {
+        "q": "一个细胞在理想无死亡、无新变异条件下分裂5轮，形成多少后代细胞？是否因此已有完整个体？ 条件：每轮每细胞分成2。",
+        "given": "每轮每细胞分成2。",
+        "analysis": "细胞数与发育层级不同。",
+        "method": "指数计数并限定结论。",
+        "principle": "细胞克隆与个体区别。",
+        "steps": [
+          "数量2⁵=32。",
+          "这是细胞后代群，未提供组织器官和个体发育证据。"
+        ],
+        "ans": "32个细胞；不等于完整个体。",
+        "verification": "单一来源并不能代替多层级组织形成。",
+        "pitfall": "细胞群增殖就称完整个体克隆成功。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.4",
+        "related_sections": []
+      },
+      {
+        "q": "去核卵接受某分化体细胞核后在特定条件下发育，主要支持什么，不支持什么？ 条件：讨论核移植概念证据。",
+        "given": "讨论核移植概念证据。",
+        "analysis": "区分保留信息与无条件必成功。",
+        "method": "限定推断。",
+        "principle": "分化核潜能。",
+        "steps": [
+          "支持该来源核仍保留支持相应发育的广泛遗传信息。",
+          "不支持所有细胞任何环境均必成功。"
+        ],
+        "ans": "支持信息保留和特定条件下潜能，不能无限外推。",
+        "verification": "环境和重编程条件是实验组成。",
+        "pitfall": "把一次成功当分化全可逆且必成功。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.4",
+        "related_sections": []
+      },
+      {
+        "q": "核供体A、卵细胞质来源B、妊娠环境C，能把所有遗传和表型来源都只写A吗？ 条件：采用典型核移植模型。",
+        "given": "采用典型核移植模型。",
+        "analysis": "核、细胞质与环境贡献不同。",
+        "method": "分层追踪。",
+        "principle": "遗传信息多来源及表达条件。",
+        "steps": [
+          "核基因主要来自A。",
+          "线粒体等可与B有关，发育表型亦受C等环境影响。"
+        ],
+        "ans": "不能全部归A。",
+        "verification": "克隆不是供体经历和全部分子组成的复制。",
+        "pitfall": "忽略细胞质遗传与环境。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "克隆细胞群是否必永远没有突变？ 条件：真实增殖非绝对无误。",
+        "given": "真实增殖非绝对无误。",
+        "analysis": "共同祖先不保证无限同一性。",
+        "method": "核复制误差。",
+        "principle": "遗传变化可能发生。",
+        "steps": [
+          "复制可能产生未修复变异。",
+          "群体长期可出现差异。"
+        ],
+        "ans": "不必。",
+        "verification": "理想题若明确无变异才按完全一致。",
+        "pitfall": "“克隆”自动表示永远零差异。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.4",
+        "related_sections": []
+      },
+      {
+        "q": "两个克隆来源细胞处不同环境，表达是否一定完全相同？ 条件：环境不同。",
+        "given": "环境不同。",
+        "analysis": "基因表达受条件调控。",
+        "method": "区分序列与表达。",
+        "principle": "表型与环境。",
+        "steps": [
+          "可共享相近DNA。",
+          "不同信号可使表达状态不同。"
+        ],
+        "ans": "不一定。",
+        "verification": "遗传来源相近不固定全部RNA与蛋白。",
+        "pitfall": "DNA相同就所有表型一样。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.4",
+        "related_sections": []
+      },
+      {
+        "q": "体细胞核移植中“去核”主要为了移除什么层级的信息？ 条件：卵细胞核与细胞质区分。",
+        "given": "卵细胞核与细胞质区分。",
+        "analysis": "移除原核而非全部细胞质。",
+        "method": "按结构判断。",
+        "principle": "核与细胞质来源。",
+        "steps": [
+          "去除卵原有细胞核。",
+          "卵细胞质及其部分细胞器仍存在。"
+        ],
+        "ans": "卵原核信息。",
+        "verification": "不等于把整个卵细胞所有遗传物质都清零。",
+        "pitfall": "去核就以为细胞质也全去。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.4",
+        "related_sections": []
+      },
+      {
+        "q": "植物组织培养是否意味着任意细胞无需条件都能自发成株？ 条件：发育依细胞状态和环境。",
+        "given": "发育依细胞状态和环境。",
+        "analysis": "潜能不是必然自发行为。",
+        "method": "核条件。",
+        "principle": "细胞发育受调控。",
+        "steps": [
+          "合适细胞和培养条件可支持相应过程。",
+          "不能省略全部条件。"
+        ],
+        "ans": "不是。",
+        "verification": "实验成功范围不能替代任意细胞全称。",
+        "pitfall": "全能性等于不需环境。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "若克隆动物与供体外观相似，能否仅凭外观证明核DNA身份完全符合预期？ 条件：外观证据有限。",
+      "given": "外观证据有限。",
+      "analysis": "相似表型不唯一确定基因组。",
+      "method": "补身份验证。",
+      "principle": "遗传身份需相应分子证据。",
+      "steps": [
+        "相似外观可支持某些表型判断。",
+        "还需适当DNA或来源证据验证遗传身份。"
+      ],
+      "ans": "不能仅凭外观。",
+      "verification": "不同个体也可外观相似。",
+      "pitfall": "照片相似当完整DNA验证。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 4,
+      "primary_section": "4.4",
+      "related_sections": []
+    },
+    "exam": [
+      "克隆题先明确细胞群还是个体层级",
+      "核移植按核、细胞质、环境分来源，不将线粒体遗漏",
+      "潜能证据写具体条件，DNA相近不扩大成所有表型和经历相同"
+    ],
+    "quick": [
+      "单来源",
+      "增殖或个体发育",
+      "核信息",
+      "细胞质环境",
+      "身份及潜能边界"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_4.4",
+        "url": "https://openstax.org/books/biology-2e/pages/17-1-biotechnology",
+        "page_or_section": "17-1-biotechnology",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_4.4",
+        "url": "https://openstax.org/books/biology-2e/pages/17-1-biotechnology",
+        "page_or_section": "17-1-biotechnology",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "克隆题先明确细胞群还是个体层级",
+      "method": "分层追踪。",
+      "principle": "遗传信息多来源及表达条件。",
+      "worked_example_index": 2,
+      "verification": "克隆不是供体经历和全部分子组成的复制。",
+      "pitfall": "忽略细胞质遗传与环境。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“区分细胞克隆与个体克隆”的抽样复核：单一来源并不能代替多层级组织形成。；若出现“细胞群增殖就称完整个体克隆成功。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用核移植证据解释遗传信息保留而不夸大同一性”的抽样复核：克隆不是供体经历和全部分子组成的复制。；若出现“忽略细胞质遗传与环境。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "照片相似当完整DNA验证。",
+        "correction": "不能仅凭外观。",
+        "verification": "不同个体也可外观相似。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "克隆的层级与信息来源",
+      "objects": [
+        "具体细胞类型",
+        "结构与功能对应",
+        "来源或表达关系箭头",
+        "模型限制与对照"
+      ],
+      "relations": [
+        "单细胞群增殖不等于完整个体",
+        "核供体与细胞质提供者分开",
+        "线粒体来源不能漏",
+        "表型受环境影响"
+      ],
+      "labels": [
+        "细胞克隆",
+        "个体克隆",
+        "核供体A",
+        "细胞质B",
+        "环境C"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "细胞结构旧图只在细胞类型、成熟状态与本文一致时复用；不能以通用细胞替代特化结构",
+      "english": "Make an accurate cell-differentiation teaching schematic. Distinguish cell proliferation, differentiation, specialization and organism-level cloning. Most nucleated somatic cells share much genomic information but express different subsets. Show mature mammalian erythrocytes without a nucleus or mitochondria, and do not generalize that structure to every species. Stem-cell potency is a conditional range, not guaranteed unlimited repair."
+    }
+  },
+  "4.5": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 4,
+    "section_id": "4.5",
+    "goals": [
+      "解释细胞差异表达与基因仍存在",
+      "区分RNA蛋白检测和真正功能证据"
+    ],
+    "prerequisites": [
+      "DNA转录翻译",
+      "分化细胞"
+    ],
+    "flow": [
+      "序列存在",
+      "调控可及性",
+      "转录与加工",
+      "蛋白与功能",
+      "检测与因果"
+    ],
+    "concept_relation": "序列存在；调控可及性；转录与加工；蛋白与功能；检测与因果",
+    "deep": [
+      "检测某DNA片段说明相应序列可被检出，不等于该基因此刻活跃。某RNA未检出也可能因为量低、时点不合适或技术限制，不能直接说DNA已经不存在；判断“沉默”需要明确检测对象和灵敏度。",
+      "相同序列在不同细胞表达不同可支持调控模型。实验还应控制细胞数量、样本质量及检测方法，用适当参照排除上样差等原因。若声称某信号导致基因开启，需对照和时间关系，而非只看两种不同细胞的相关。",
+      "表达改变可帮助细胞适应或分化，但不自动表示发生DNA序列突变。答题按DNA存在—RNA表达—蛋白产物—功能四层说明，注明证据在哪一层；将没有测到的层次保持为待验证，而不是凭“开启”一词把所有步骤宣布成功。"
+    ],
+    "derive": [
+      "DNA存在≠当前一定转录；RNA存在≠一定有正确功能蛋白。",
+      "表达差异可在序列大体相同的细胞间发生，不自动等于DNA删除或突变。",
+      "“未检出”应结合方法灵敏度和时点，不无条件推成绝对不存在。"
+    ],
+    "examples": [
+      {
+        "q": "两类细胞都能检出基因G的DNA，只有甲检出大量G的RNA，能否说乙把G删掉了？ 条件：DNA检测在两类均阳性，RNA方法和样本可比。",
+        "given": "DNA检测在两类均阳性，RNA方法和样本可比。",
+        "analysis": "存在与表达不同。",
+        "method": "按检测层级解释。",
+        "principle": "选择性表达。",
+        "steps": [
+          "两类的DNA证据支持G存在。",
+          "RNA差异可反映表达调控或相应时点水平，而非乙DNA删除。"
+        ],
+        "ans": "不能说删除。",
+        "verification": "需额外证据才能判断序列是否改变。",
+        "pitfall": "RNA少就当DNA没了。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.5",
+        "related_sections": []
+      },
+      {
+        "q": "某信号处理后RNA升高，是否等于目标蛋白功能已经增强？ 条件：尚无蛋白或功能测量。",
+        "given": "尚无蛋白或功能测量。",
+        "analysis": "转录与后续层次不同。",
+        "method": "限定证据。",
+        "principle": "表达多层调控。",
+        "steps": [
+          "RNA升高支持该层变化。",
+          "翻译、降解与蛋白活性仍需测定。"
+        ],
+        "ans": "不能仅此确认功能增强。",
+        "verification": "可出现RNA升高但蛋白受抑制。",
+        "pitfall": "把一个层次阳性当全链成功。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.5",
+        "related_sections": []
+      },
+      {
+        "q": "甲细胞样本数量是乙的10倍，测到G总RNA也10倍，能直接说每细胞表达10倍吗？ 条件：未按细胞数或合适参照标准化。",
+        "given": "未按细胞数或合适参照标准化。",
+        "analysis": "总量含样本量差。",
+        "method": "按单位细胞比较。",
+        "principle": "公平定量。",
+        "steps": [
+          "单位细胞RNA比=(10倍总量)/(10倍细胞)=1。",
+          "给定简化条件下未显示每细胞10倍。"
+        ],
+        "ans": "不能；该简化比较为每细胞相同。",
+        "verification": "需控制质量及适当归一化。",
+        "pitfall": "总RNA多直接等同单细胞表达更强。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.5",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "表达量升高是否一定发生DNA序列突变？ 条件：调控可改变转录。",
+        "given": "调控可改变转录。",
+        "analysis": "信息存在与使用不同。",
+        "method": "分机制。",
+        "principle": "基因调控。",
+        "steps": [
+          "信号可调节转录等。",
+          "不需先改DNA序列才能增表达。"
+        ],
+        "ans": "不一定。",
+        "verification": "同细胞状态改变可有表达差异。",
+        "pitfall": "所有表达变化都称突变。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.5",
+        "related_sections": []
+      },
+      {
+        "q": "“基因开启”是否只能表示从完全0直接变到固定最大值？ 条件：表达可连续变化。",
+        "given": "表达可连续变化。",
+        "analysis": "比喻不是严格二态。",
+        "method": "解释量的范围。",
+        "principle": "表达水平调控。",
+        "steps": [
+          "表达可能较低或较高。",
+          "不同阶段可有不同程度。"
+        ],
+        "ans": "不是。",
+        "verification": "具体检测值比开关词更精确。",
+        "pitfall": "把形象词当永恒两状态。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.5",
+        "related_sections": []
+      },
+      {
+        "q": "RNA未检出能证明该RNA在任何时刻绝不存在吗？ 条件：灵敏度和时点有限。",
+        "given": "灵敏度和时点有限。",
+        "analysis": "零信号与绝对零不同。",
+        "method": "审测量边界。",
+        "principle": "检测限。",
+        "steps": [
+          "可能低于检测限或未在合适时点取样。",
+          "不能无限外推。"
+        ],
+        "ans": "不能。",
+        "verification": "适当更敏感或另一时点可能检出。",
+        "pitfall": "一项阴性作全时间绝对证明。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.5",
+        "related_sections": []
+      },
+      {
+        "q": "为什么比较表达需控制上样或细胞数量？ 条件：不同样本总量会影响信号。",
+        "given": "不同样本总量会影响信号。",
+        "analysis": "排除数量混杂。",
+        "method": "定量基准。",
+        "principle": "单位样本比较。",
+        "steps": [
+          "同表达每细胞时，细胞多也可总信号高。",
+          "控制或标准化才能比较所问水平。"
+        ],
+        "ans": "避免将样本量当表达差异。",
+        "verification": "前例10倍细胞可给10倍总RNA。",
+        "pitfall": "信号强弱不需基准。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.5",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "只看到不同细胞表达不同，能否唯一证明某个指定转录因子就是原因？ 条件：未干预指定因子。",
+      "given": "未干预指定因子。",
+      "analysis": "多种调控机制可解释。",
+      "method": "区分相关和因果。",
+      "principle": "机制检验。",
+      "steps": [
+        "细胞间可有许多差异。",
+        "需对指定因子的恰当干预、对照和相应结果证据。"
+      ],
+      "ans": "不能唯一证明。",
+      "verification": "差异表达是现象，具体原因还需检验。",
+      "pitfall": "观察相关直接指定单一因果。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 4,
+      "primary_section": "4.5",
+      "related_sections": []
+    },
+    "exam": [
+      "表达题按DNA、RNA、蛋白、功能分层作结论",
+      "定量比较先核每细胞或每质量等归一基准",
+      "“沉默”不写成基因被删，阴性检测注明时点和检测限"
+    ],
+    "quick": [
+      "序列存在",
+      "调控可及性",
+      "转录与加工",
+      "蛋白与功能",
+      "检测与因果"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_4.5",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-6-cellular-differentiation",
+        "page_or_section": "3-6-cellular-differentiation",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_4.5",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-6-cellular-differentiation",
+        "page_or_section": "3-6-cellular-differentiation",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "表达题按DNA、RNA、蛋白、功能分层作结论",
+      "method": "按单位细胞比较。",
+      "principle": "公平定量。",
+      "worked_example_index": 2,
+      "verification": "需控制质量及适当归一化。",
+      "pitfall": "总RNA多直接等同单细胞表达更强。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“解释细胞差异表达与基因仍存在”的抽样复核：需额外证据才能判断序列是否改变。；若出现“RNA少就当DNA没了。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分RNA蛋白检测和真正功能证据”的抽样复核：需控制质量及适当归一化。；若出现“总RNA多直接等同单细胞表达更强。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "观察相关直接指定单一因果。",
+        "correction": "不能唯一证明。",
+        "verification": "差异表达是现象，具体原因还需检验。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "基因存在与表达证据分层",
+      "objects": [
+        "具体细胞类型",
+        "结构与功能对应",
+        "来源或表达关系箭头",
+        "模型限制与对照"
+      ],
+      "relations": [
+        "两细胞可有同G DNA而RNA不同",
+        "RNA到功能之间还有后续过程",
+        "总量需按样本基准解释"
+      ],
+      "labels": [
+        "DNA",
+        "RNA",
+        "蛋白",
+        "功能",
+        "细胞数",
+        "检测限"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "细胞结构旧图只在细胞类型、成熟状态与本文一致时复用；不能以通用细胞替代特化结构",
+      "english": "Make an accurate cell-differentiation teaching schematic. Distinguish cell proliferation, differentiation, specialization and organism-level cloning. Most nucleated somatic cells share much genomic information but express different subsets. Show mature mammalian erythrocytes without a nucleus or mitochondria, and do not generalize that structure to every species. Stem-cell potency is a conditional range, not guaranteed unlimited repair."
+    }
+  },
+  "4.6": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 4,
+    "section_id": "4.6",
+    "goals": [
+      "将具体形态和细胞器变化连到功能",
+      "说明特化的代价、物种范围和证据限制"
+    ],
+    "prerequisites": [
+      "细胞膜细胞器",
+      "分化和能量代谢"
+    ],
+    "flow": [
+      "对象阶段",
+      "结构变化",
+      "机制",
+      "具体任务",
+      "代价与证据"
+    ],
+    "concept_relation": "对象阶段；结构变化；机制；具体任务；代价与证据",
+    "deep": [
+      "植物根毛细胞延伸表面有利于与土壤溶液接触，但吸收仍受水势和转运机制约束；典型地下根毛不能被当成主要光合细胞。叶片保卫细胞与气孔开闭、叶肉细胞与光合作用、输导细胞与物质运输各有不同结构。",
+      "一些成熟木质部导管细胞失去活内容物仍可形成输水结构，说明“自身不再活跃”不等于在植物中无功能；筛管等又有不同成熟特征和支持关系。比较时明确细胞类型，不把一个输导细胞图套给所有维管组织。",
+      "特化伴随能力取舍，例如某些成熟细胞不再能像祖细胞一样增殖。结构相适应是有条件的功能解释，不保证该细胞在任何环境中最有效。题目应给出形态、标记或功能证据，再据具体对象分析，而非按一个特征进行所有细胞的绝对分类。"
+    ],
+    "derive": [
+      "结构特征→具体交换/传递/收缩等机制→功能结果。",
+      "成熟哺乳动物红细胞的无核/无线粒体特征具有对象与阶段条件。",
+      "特化可提高某任务适应性，也伴随分裂和其他能力的限制。"
+    ],
+    "examples": [
+      {
+        "q": "成熟哺乳动物红细胞无细胞核，能否说它不属于细胞且完全没有代谢？ 条件：限定成熟哺乳动物红细胞。",
+        "given": "限定成熟哺乳动物红细胞。",
+        "analysis": "缺部分结构不等于缺全部细胞特征。",
+        "method": "按对象结构功能。",
+        "principle": "特化与成熟。",
+        "steps": [
+          "它仍有细胞膜、胞质及相应代谢。",
+          "不能凭无核将其当非细胞或完全无代谢。"
+        ],
+        "ans": "不能。",
+        "verification": "其能量代谢方式不靠线粒体并不等于完全无ATP需求。",
+        "pitfall": "所有真核来源细胞必须终生有核。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.6",
+        "related_sections": []
+      },
+      {
+        "q": "根毛长突起如何有利吸收？是否保证任何情况下都更快吸水？ 条件：典型根毛与土壤接触。",
+        "given": "典型根毛与土壤接触。",
+        "analysis": "面积作用仍需水势等条件。",
+        "method": "写结构机制与限制。",
+        "principle": "交换表面积与水分运输。",
+        "steps": [
+          "突起增加表面和接触范围。",
+          "吸水还依内外水势等，面积大不保证逆条件下无限吸收。"
+        ],
+        "ans": "有利接触，但不能无条件保证吸水更快。",
+        "verification": "外液条件改变可限制或逆转净水流。",
+        "pitfall": "只要面积大必永远吸水。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.6",
+        "related_sections": []
+      },
+      {
+        "q": "成熟木质部导管某些细胞失去活内容物，为什么仍能有运输功能？ 条件：讨论导管结构。",
+        "given": "讨论导管结构。",
+        "analysis": "结构功能不总依每单元活代谢。",
+        "method": "联系连续通道与壁。",
+        "principle": "特化组织协作。",
+        "steps": [
+          "留下适当中空通道和支持壁。",
+          "与植物整体驱动和连接配合，可参与输水。"
+        ],
+        "ans": "因保留的结构形成运输通道。",
+        "verification": "不能据此说所有输导细胞都死亡。",
+        "pitfall": "死细胞必无任何系统功能。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.6",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "所有动物的红细胞都必无核吗？ 条件：不同物种可不同。",
+        "given": "不同物种可不同。",
+        "analysis": "对象范围须保留。",
+        "method": "检查全称。",
+        "principle": "成熟哺乳动物例不覆盖全部动物。",
+        "steps": [
+          "某些其他动物红细胞可有核。",
+          "不能把一种模式当全体。"
+        ],
+        "ans": "不是。",
+        "verification": "必须按物种与成熟状态说明。",
+        "pitfall": "删掉哺乳动物限定。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.6",
+        "related_sections": []
+      },
+      {
+        "q": "保卫细胞与叶肉细胞能只用同一功能解释吗？ 条件：同一叶片不同类型。",
+        "given": "同一叶片不同类型。",
+        "analysis": "分工不同。",
+        "method": "按具体结构。",
+        "principle": "细胞特化。",
+        "steps": [
+          "保卫细胞调节气孔。",
+          "叶肉细胞主要参与相应光合功能，虽有联系但不能混同。"
+        ],
+        "ans": "不能完全同一化。",
+        "verification": "器官协作不等于细胞任务一致。",
+        "pitfall": "叶里所有细胞都只做光合作用。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.6",
+        "related_sections": []
+      },
+      {
+        "q": "肌细胞需要ATP，只写“有线粒体”够完整吗？ 条件：题目要求解释收缩支持。",
+        "given": "题目要求解释收缩支持。",
+        "analysis": "需连接供能和任务。",
+        "method": "补生化作用。",
+        "principle": "ATP供能。",
+        "steps": [
+          "线粒体相关代谢可参与ATP供给。",
+          "ATP支持收缩装置循环等任务。"
+        ],
+        "ans": "需再写ATP及具体耗能过程。",
+        "verification": "并非一个细胞器名就给出机制。",
+        "pitfall": "结构列表代替解释。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.6",
+        "related_sections": []
+      },
+      {
+        "q": "特化是否意味着保留所有祖细胞分裂潜能？ 条件：成熟细胞可能退出细胞周期。",
+        "given": "成熟细胞可能退出细胞周期。",
+        "analysis": "能力有取舍。",
+        "method": "比较分化状态。",
+        "principle": "特化与增殖能力不同。",
+        "steps": [
+          "某任务结构可更适配。",
+          "相应分裂或分化范围可能受限。"
+        ],
+        "ans": "不意味着。",
+        "verification": "需看具体细胞类型。",
+        "pitfall": "所有成熟细胞均能任意再分化。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.6",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "仅凭一个细胞外形细长，就能确定它一定是神经细胞吗？ 条件：许多细胞可细长。",
+      "given": "许多细胞可细长。",
+      "analysis": "单一形状不唯一。",
+      "method": "列额外证据。",
+      "principle": "结构分类需组合证据。",
+      "steps": [
+        "肌细胞等也可细长。",
+        "需突起连接、标记与功能等适当信息。"
+      ],
+      "ans": "不能。",
+      "verification": "“符合一个特征”不等于唯一身份。",
+      "pitfall": "一形态特征作绝对鉴定。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 4,
+      "primary_section": "4.6",
+      "related_sections": []
+    },
+    "exam": [
+      "结构题必须说具体对象和成熟阶段，再解释作用",
+      "比较红细胞、导管等不要删去物种与组织限定",
+      "答特化的优点同时核代价和环境，不把局部适配说成万能"
+    ],
+    "quick": [
+      "对象阶段",
+      "结构变化",
+      "机制",
+      "具体任务",
+      "代价与证据"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_4.6",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-6-cellular-differentiation",
+        "page_or_section": "3-6-cellular-differentiation",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_4.6",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-6-cellular-differentiation",
+        "page_or_section": "3-6-cellular-differentiation",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "结构题必须说具体对象和成熟阶段，再解释作用",
+      "method": "联系连续通道与壁。",
+      "principle": "特化组织协作。",
+      "worked_example_index": 2,
+      "verification": "不能据此说所有输导细胞都死亡。",
+      "pitfall": "死细胞必无任何系统功能。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“将具体形态和细胞器变化连到功能”的抽样复核：其能量代谢方式不靠线粒体并不等于完全无ATP需求。；若出现“所有真核来源细胞必须终生有核。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“说明特化的代价、物种范围和证据限制”的抽样复核：不能据此说所有输导细胞都死亡。；若出现“死细胞必无任何系统功能。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "一形态特征作绝对鉴定。",
+        "correction": "不能。",
+        "verification": "“符合一个特征”不等于唯一身份。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "特化细胞的结构与功能",
+      "objects": [
+        "具体细胞类型",
+        "结构与功能对应",
+        "来源或表达关系箭头",
+        "模型限制与对照"
+      ],
+      "relations": [
+        "成熟哺乳类红细胞无核无线粒体但仍有膜胞质",
+        "根毛扩大接触面积",
+        "木质部导管与活筛管不能混画"
+      ],
+      "labels": [
+        "红细胞",
+        "根毛",
+        "保卫细胞",
+        "神经细胞",
+        "木质部导管"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "细胞结构旧图只在细胞类型、成熟状态与本文一致时复用；不能以通用细胞替代特化结构",
+      "english": "Make an accurate cell-differentiation teaching schematic. Distinguish cell proliferation, differentiation, specialization and organism-level cloning. Most nucleated somatic cells share much genomic information but express different subsets. Show mature mammalian erythrocytes without a nucleus or mitochondria, and do not generalize that structure to every species. Stem-cell potency is a conditional range, not guaranteed unlimited repair."
+    }
+  },
+  "4.7": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 4,
+    "section_id": "4.7",
+    "goals": [
+      "以自我更新和分化潜能解释干细胞",
+      "区分全能多能和较限分化范围并评价应用证据"
+    ],
+    "prerequisites": [
+      "细胞分裂分化",
+      "克隆和表达调控"
+    ],
+    "flow": [
+      "自我更新",
+      "分化范围",
+      "微环境",
+      "验证层次",
+      "伦理与应用边界"
+    ],
+    "concept_relation": "自我更新；分化范围；微环境；验证层次；伦理与应用边界",
+    "deep": [
+      "干细胞命运依所在微环境、信号、细胞状态等。相同来源在不同条件下可有不同表达与分化结果；仅将细胞移入组织，不保证它们定位、存活、连接并恢复功能。潜能、实验分化与实际应用有效性是不同证据层次。",
+      "应用涉及安全、质量、免疫相容、失控增殖风险及伦理等。研究中的预期结果不等于所有所谓干细胞产品都已获得可靠验证；本节不作个人治疗推荐，也不将“万能”标题解释成无条件修复任何器官的承诺。",
+      "实验题应分别检查来源、自我更新、分化身份、结构功能和稳定性。诱导细胞形成某标记后还需证实相关功能，不把一个阳性染色当全部成功。比较不同来源时写清潜能范围和伦理情境，而不是以来源名称简单判定必好或必坏。"
+    ],
+    "derive": [
+      "干细胞：适当条件下可自我更新，并产生相应分化后代。",
+      "全能、多能与谱系受限潜能以实际可形成范围区分；“万能”不是无限用途保证。",
+      "自我更新数量、分化身份和功能是不同验证指标。"
+    ],
+    "examples": [
+      {
+        "q": "理想模型中1个干细胞每轮分裂为1个干细胞和1个分化后代，分化后代不再分裂，5轮后两类各多少？ 条件：每轮仅现存干细胞按所述不对称分裂，无死亡。",
+        "given": "每轮仅现存干细胞按所述不对称分裂，无死亡。",
+        "analysis": "不是所有后代每轮都倍增。",
+        "method": "逐轮记干细胞与分化细胞。",
+        "principle": "自我更新与产出不同。",
+        "steps": [
+          "干细胞始终1个。",
+          "每轮新增1个分化细胞，5轮共5个。"
+        ],
+        "ans": "干细胞1、分化细胞5。",
+        "verification": "总6而不是2⁵，后者需要所有细胞继续分裂。",
+        "pitfall": "见分裂轮数就无条件套2^n。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.7",
+        "related_sections": []
+      },
+      {
+        "q": "某细胞可形成多种血液细胞，是否由此证明可独立发育完整个体？ 条件：只给血液谱系结果。",
+        "given": "只给血液谱系结果。",
+        "analysis": "实际证据范围有限。",
+        "method": "区分谱系多潜能与全能。",
+        "principle": "分化潜能层级。",
+        "steps": [
+          "多血液类型支持该相关谱系范围。",
+          "未证明胚外组织或其他全身发育能力。"
+        ],
+        "ans": "不能。",
+        "verification": "“多种”需问究竟哪些范围。",
+        "pitfall": "能分几种就称完全全能。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.7",
+        "related_sections": []
+      },
+      {
+        "q": "某诱导细胞出现心肌相关标记，能否直接宣称移入后一定恢复心脏功能？ 条件：尚无定位、存活与功能证据。",
+        "given": "尚无定位、存活与功能证据。",
+        "analysis": "标记、细胞功能和器官恢复不同。",
+        "method": "分证据层。",
+        "principle": "应用需相应验证。",
+        "steps": [
+          "标记提供候选身份线索。",
+          "需进一步证实细胞功能、安全与组织整合，不能直接作疗效保证。"
+        ],
+        "ans": "不能。",
+        "verification": "器官恢复还依其他结构与环境。",
+        "pitfall": "单标记当实际治疗成功。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.7",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "干细胞只要分裂快就足够定义吗？ 条件：普通增殖细胞也可分裂快。",
+        "given": "普通增殖细胞也可分裂快。",
+        "analysis": "需自我更新与相应分化能力。",
+        "method": "按定义。",
+        "principle": "干细胞特征。",
+        "steps": [
+          "快慢不是唯一标准。",
+          "应有维持来源及形成相应后代能力证据。"
+        ],
+        "ans": "不够。",
+        "verification": "失控增殖也不等于合适干细胞功能。",
+        "pitfall": "分裂最快就是最好的干细胞。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.7",
+        "related_sections": []
+      },
+      {
+        "q": "多能细胞是否可无条件等同全能细胞？ 条件：按所述潜能范围。",
+        "given": "按所述潜能范围。",
+        "analysis": "广泛体细胞与完整个体范围不同。",
+        "method": "比较定义。",
+        "principle": "潜能层级。",
+        "steps": [
+          "多能可形成广泛体细胞类型。",
+          "不等于独自支持全部个体及相应胚外发育。"
+        ],
+        "ans": "不能。",
+        "verification": "应以范围说明术语。",
+        "pitfall": "两个词都含能就混用。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.7",
+        "related_sections": []
+      },
+      {
+        "q": "相同干细胞来源处不同微环境，分化结果是否必相同？ 条件：信号条件不同。",
+        "given": "信号条件不同。",
+        "analysis": "命运受外界与状态调控。",
+        "method": "核条件。",
+        "principle": "干细胞微环境。",
+        "steps": [
+          "不同信号可改变表达和命运。",
+          "不能只由来源固定所有结果。"
+        ],
+        "ans": "不必。",
+        "verification": "环境是潜能实现条件。",
+        "pitfall": "潜能有就自动出现所有结果。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.7",
+        "related_sections": []
+      },
+      {
+        "q": "成体干细胞能形成多血细胞，是否意味着它只能形成一种成熟细胞？ 条件：给出多个血液谱系。",
+        "given": "给出多个血液谱系。",
+        "analysis": "成体与单一潜能不等同。",
+        "method": "按结果范围。",
+        "principle": "谱系潜能。",
+        "steps": [
+          "多个相关类型说明不止一种后代。",
+          "但范围仍不自动覆盖全部组织。"
+        ],
+        "ans": "不是；范围须具体说明。",
+        "verification": "避免全能与单能两种极端。",
+        "pitfall": "所有成体干细胞都只能一种后代。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 4,
+        "primary_section": "4.7",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "为什么教材标题“万能细胞”不能在现实应用中当作修复任何损伤的无条件保证？ 条件：教学比喻与实际证据范围不同。",
+      "given": "教学比喻与实际证据范围不同。",
+      "analysis": "潜能实现依细胞和环境，安全有效还需检验。",
+      "method": "限定术语。",
+      "principle": "证据与应用边界。",
+      "steps": [
+        "干细胞有特定潜能和状态。",
+        "任何用途仍需定位、整合、功能及风险等相应验证。"
+      ],
+      "ans": "标题不替代条件和证据。",
+      "verification": "实验潜能不等同现实人人有效。",
+      "pitfall": "将形象标题当医疗承诺。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 4,
+      "primary_section": "4.7",
+      "related_sections": []
+    },
+    "exam": [
+      "潜能题先说能形成什么范围，不只写全能多能名词",
+      "分裂计数按题设哪些细胞继续分裂，不能统一套指数",
+      "应用评价分自我更新、身份、功能、安全与整合，不凭一项标记宣布成功"
+    ],
+    "quick": [
+      "自我更新",
+      "分化范围",
+      "微环境",
+      "验证层次",
+      "伦理与应用边界"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_4.7",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-6-cellular-differentiation",
+        "page_or_section": "3-6-cellular-differentiation",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "extra_theory_4.7_0",
+        "url": "https://dokumen.pub/50366241b762a3c2b78989c47ca84b70.html",
+        "page_or_section": "50366241b762a3c2b78989c47ca84b70.html",
+        "version": "专项原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_4.7",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-6-cellular-differentiation",
+        "page_or_section": "3-6-cellular-differentiation",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "extra_theory_4.7_0",
+        "url": "https://dokumen.pub/50366241b762a3c2b78989c47ca84b70.html",
+        "page_or_section": "50366241b762a3c2b78989c47ca84b70.html",
+        "version": "专项原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "潜能题先说能形成什么范围，不只写全能多能名词",
+      "method": "分证据层。",
+      "principle": "应用需相应验证。",
+      "worked_example_index": 2,
+      "verification": "器官恢复还依其他结构与环境。",
+      "pitfall": "单标记当实际治疗成功。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“以自我更新和分化潜能解释干细胞”的抽样复核：总6而不是2⁵，后者需要所有细胞继续分裂。；若出现“见分裂轮数就无条件套2^n。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分全能多能和较限分化范围并评价应用证据”的抽样复核：器官恢复还依其他结构与环境。；若出现“单标记当实际治疗成功。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "将形象标题当医疗承诺。",
+        "correction": "标题不替代条件和证据。",
+        "verification": "实验潜能不等同现实人人有效。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "干细胞自我更新和潜能范围",
+      "objects": [
+        "具体细胞类型",
+        "结构与功能对应",
+        "来源或表达关系箭头",
+        "模型限制与对照"
+      ],
+      "relations": [
+        "不对称模型干细胞数保持1",
+        "5轮产生5个不再分裂后代",
+        "全能多能与谱系限制分层",
+        "标记不等功能"
+      ],
+      "labels": [
+        "自我更新",
+        "分化后代",
+        "全能",
+        "多能",
+        "谱系受限",
+        "需功能验证"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "细胞结构旧图只在细胞类型、成熟状态与本文一致时复用；不能以通用细胞替代特化结构",
+      "english": "Make an accurate cell-differentiation teaching schematic. Distinguish cell proliferation, differentiation, specialization and organism-level cloning. Most nucleated somatic cells share much genomic information but express different subsets. Show mature mammalian erythrocytes without a nucleus or mitochondria, and do not generalize that structure to every species. Stem-cell potency is a conditional range, not guaranteed unlimited repair."
+    }
+  }
+}

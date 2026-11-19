@@ -1,0 +1,1213 @@
+{
+  "17.1": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 17,
+    "section_id": "17.1",
+    "goals": [
+      "区分遗传、物种和生态系统层次",
+      "由样本数据比较丰富度并说明观测限制"
+    ],
+    "prerequisites": [
+      "种群与物种",
+      "抽样和比例"
+    ],
+    "flow": [
+      "遗传层次",
+      "物种与相对数量",
+      "生态系统",
+      "公平抽样",
+      "结论范围"
+    ],
+    "concept_relation": "遗传层次；物种与相对数量；生态系统；公平抽样；结论范围",
+    "deep": [
+      "观测值受样方面积、取样次数、季节和识别能力影响。更多采样通常发现更多物种，比较时应尽量保持努力相当。未检出某物种不必然表示它绝对不存在，尤其罕见或活动时间不同的对象。",
+      "遗传差异为种群面对环境改变提供潜在变异基础，但不是每个变异都适应、每个多样种群都保证存活。保育论证应连接具体压力、变异与种群持续性，而不是将“多样性高”写成任何灾害都不会受影响。",
+      "本节数据题先列各层指标、样本范围与单位，再比较。若使用某个综合指数，必须按题目给定定义计算并解释，它不能取代原始物种组成资料，也不能在未给公式时凭空制造“官方多样性得分”。"
+    ],
+    "derive": [
+      "物种丰富度S=在明确样本和分类标准下观察到的物种数。",
+      "某物种相对数量p_i=n_i/N；各p_i之和为1。",
+      "个体数、物种数、基因型数与生态系统类型数不是同一指标。"
+    ],
+    "examples": [
+      {
+        "q": "两个样地都100个个体，甲4物种各25，乙4物种为97、1、1、1。比较丰富度并说明何处不同。 条件：抽样努力及识别标准相同。",
+        "given": "抽样努力及识别标准相同。",
+        "analysis": "物种数相同不代表分布相同。",
+        "method": "先数S，再比较相对数量。",
+        "principle": "丰富度与均匀度区分。",
+        "steps": [
+          "两者S均4。",
+          "甲各占25%，乙一物种占97%，分布明显更不均匀。"
+        ],
+        "ans": "丰富度相同，甲分布较均匀。",
+        "verification": "总数各100，物种数没有因97个体而增加。",
+        "pitfall": "把个体最多的物种当97个物种。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 17,
+        "primary_section": "17.1",
+        "related_sections": []
+      },
+      {
+        "q": "同一作物有10个遗传品系，物种仍只有1个，保留这些品系主要保护哪层多样性？ 条件：各品系属于同一物种。",
+        "given": "各品系属于同一物种。",
+        "analysis": "品系差异在物种内部。",
+        "method": "按层级分类。",
+        "principle": "遗传多样性定义。",
+        "steps": [
+          "物种数未从1变10。",
+          "不同遗传组合提供种内变异。"
+        ],
+        "ans": "主要为遗传多样性。",
+        "verification": "若只保存一个克隆，物种仍存在但遗传范围更窄。",
+        "pitfall": "把每个品系都当新物种。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 17,
+        "primary_section": "17.1",
+        "related_sections": []
+      },
+      {
+        "q": "甲调查1个样方得8种，乙调查10个同面积样方得20种，能直接断言乙单位生境更丰富吗？ 条件：采样努力不同。",
+        "given": "采样努力不同。",
+        "analysis": "更多调查可能发现更多种。",
+        "method": "核比较基准。",
+        "principle": "抽样努力影响观测丰富度。",
+        "steps": [
+          "甲乙覆盖面积和样本数不同。",
+          "需等努力比较或合适标准化，并说明空间尺度。"
+        ],
+        "ans": "不能直接如此推断。",
+        "verification": "扩大甲调查也可能发现更多种。",
+        "pitfall": "忽略样本范围直接比较8和20。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 17,
+        "primary_section": "17.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "样本40个体，某物种10个，相对数量？ 条件：N=40，n=10。",
+        "given": "N=40，n=10。",
+        "analysis": "用数量比例。",
+        "method": "n/N。",
+        "principle": "相对数量定义。",
+        "steps": [
+          "10/40=0.25。",
+          "转为25%。"
+        ],
+        "ans": "25%。",
+        "verification": "其余物种比例应合75%。",
+        "pitfall": "把10直接写10%。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 17,
+        "primary_section": "17.1",
+        "related_sections": []
+      },
+      {
+        "q": "100株由同一母株无性繁殖且无新变异的克隆，能否仅凭个体多断言遗传多样性高？ 条件：给定克隆且无新变异。",
+        "given": "给定克隆且无新变异。",
+        "analysis": "数目不是遗传类型数。",
+        "method": "区分指标。",
+        "principle": "克隆遗传相同的教学模型。",
+        "steps": [
+          "个体数100。",
+          "遗传类型可仍为1。"
+        ],
+        "ans": "不能。",
+        "verification": "增加相同拷贝没有自动增加类型。",
+        "pitfall": "把个体数当基因型数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 17,
+        "primary_section": "17.1",
+        "related_sections": []
+      },
+      {
+        "q": "森林、湿地和草地并存主要体现哪层差异？ 条件：讨论生境和群落类型。",
+        "given": "讨论生境和群落类型。",
+        "analysis": "对象为不同生态系统。",
+        "method": "按层级识别。",
+        "principle": "生态系统多样性。",
+        "steps": [
+          "三种系统的环境、群落和过程可不同。",
+          "不是只在同一物种内比较。"
+        ],
+        "ans": "生态系统层次。",
+        "verification": "同一物种可跨多种生境，两个层面仍不同。",
+        "pitfall": "只答遗传多样性。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 17,
+        "primary_section": "17.1",
+        "related_sections": []
+      },
+      {
+        "q": "一次夜间调查未找到某昼行物种，能证明它不存在吗？ 条件：活动时间可能影响检出。",
+        "given": "活动时间可能影响检出。",
+        "analysis": "缺检出不等于不存在。",
+        "method": "审采样方法。",
+        "principle": "观察概率与种群存在不同。",
+        "steps": [
+          "夜间检出率可能低。",
+          "需适合时段和重复调查。"
+        ],
+        "ans": "不能。",
+        "verification": "改变时段可能获得不同记录。",
+        "pitfall": "把一次零记录当绝对灭绝证据。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 17,
+        "primary_section": "17.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "遗传多样性高是否保证种群对任何环境变化都能存活？ 条件：没有给具体变异及压力。",
+      "given": "没有给具体变异及压力。",
+      "analysis": "潜在适应基础不等于无限保证。",
+      "method": "限定结论。",
+      "principle": "选择作用依变异和环境。",
+      "steps": [
+        "某些变异可能有助应对特定压力。",
+        "极端变化或无相关变异仍可能导致衰退。"
+      ],
+      "ans": "不保证。",
+      "verification": "多样性提供可能性，不是免疫所有风险。",
+      "pitfall": "把保育价值写成绝对生存承诺。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 17,
+      "primary_section": "17.1",
+      "related_sections": []
+    },
+    "exam": [
+      "先判指标所在层次，再读个体数、物种数或遗传类型数",
+      "比较样地时核样方面积、季节与努力是否相当",
+      "结论写观测范围，零检出与绝对不存在分开"
+    ],
+    "quick": [
+      "遗传层次",
+      "物种与相对数量",
+      "生态系统",
+      "公平抽样",
+      "结论范围"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 6,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_17.1",
+        "url": "https://openstax.org/books/biology-2e/pages/47-1-the-biodiversity-crisis",
+        "page_or_section": "47-1-the-biodiversity-crisis",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 6,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_17.1",
+        "url": "https://openstax.org/books/biology-2e/pages/47-1-the-biodiversity-crisis",
+        "page_or_section": "47-1-the-biodiversity-crisis",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先判指标所在层次，再读个体数、物种数或遗传类型数",
+      "method": "核比较基准。",
+      "principle": "抽样努力影响观测丰富度。",
+      "worked_example_index": 2,
+      "verification": "扩大甲调查也可能发现更多种。",
+      "pitfall": "忽略样本范围直接比较8和20。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“区分遗传、物种和生态系统层次”的抽样复核：总数各100，物种数没有因97个体而增加。；若出现“把个体最多的物种当97个物种。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 7,
+        "feedback": "目标“由样本数据比较丰富度并说明观测限制”的抽样复核：扩大甲调查也可能发现更多种。；若出现“忽略样本范围直接比较8和20。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把保育价值写成绝对生存承诺。",
+        "correction": "不保证。",
+        "verification": "多样性提供可能性，不是免疫所有风险。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "生物多样性的三个层次",
+      "objects": [
+        "明确命名的生物或生境",
+        "层级/因果关系箭头",
+        "数据与对照框",
+        "适用范围"
+      ],
+      "relations": [
+        "同物种不同品系是遗传层次",
+        "不同物种与数量分布属物种层次",
+        "不同生境类型属生态系统层次"
+      ],
+      "labels": [
+        "遗传多样性",
+        "物种多样性",
+        "生态系统多样性",
+        "S=4",
+        "25%",
+        "97%"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "生态/分类图须与本文对象和数据对应，不能以装饰风景替代关系图",
+      "english": "Create a precise biodiversity teaching schematic. Keep genetic, species and ecosystem diversity as distinct levels. For classification trees, branch relationships represent the stated evidence and are not a ladder of progress. Conservation diagrams must distinguish observed correlation, proposed mechanism and tested intervention. Label all numbers as illustrative teaching data."
+    }
+  },
+  "17.2": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 17,
+    "section_id": "17.2",
+    "goals": [
+      "正确使用分类层级和双名法",
+      "区分分类相似、亲缘证据与系统图的局限"
+    ],
+    "prerequisites": [
+      "物种概念",
+      "遗传变异和演化"
+    ],
+    "flow": [
+      "分类证据",
+      "嵌套层级",
+      "双名法",
+      "物种概念",
+      "系统树拓扑"
+    ],
+    "concept_relation": "分类证据；嵌套层级；双名法；物种概念；系统树拓扑",
+    "deep": [
+      "物种界限可按生殖、生态或谱系等概念处理。常见生物学物种概念关注自然条件下能够或潜在能交配并与其他群体生殖隔离，但对无性生殖、化石及某些杂交情境并不总能直接适用，不能把一个定义当作任何对象的唯一识别工具。",
+      "系统发育树的分支表示在给定证据与模型下推断的亲缘关系，共同分支点对应共同祖先的假说。左右排列可以旋转而不改变分支关系，末端靠得近或画得高不自动表示亲缘更近；若树未给比例尺，枝长也不能直接读成时间或变异量。",
+      "比较分类和系统树时先核所用特征、分类层级与标尺。若DNA与形态资料出现不一致，应分析取样、同源性和推断方法，不简单说某一类数据永远正确。分类可随证据修订，科学名称变化不意味着生物实际突然改变。"
+    ],
+    "derive": [
+      "常见层级：界→门→纲→目→科→属→种；采用域体系时另注明。",
+      "双名法=属名+种加词；共享属名不等于同种。",
+      "无标尺系统树的左右顺序或图上距离不能代替共同祖先关系。"
+    ],
+    "examples": [
+      {
+        "q": "Homo sapiens与Homo neanderthalensis共享哪个双名法部分？是否因此同种？ 条件：按给定学名比较。",
+        "given": "按给定学名比较。",
+        "analysis": "属名与完整种名不同。",
+        "method": "解析两部分。",
+        "principle": "双名法定义。",
+        "steps": [
+          "两者属名均Homo。",
+          "种加词不同，给定分类将其作为不同物种名。"
+        ],
+        "ans": "同属，不因此同种。",
+        "verification": "完整学名需两部分一起使用。",
+        "pitfall": "把共享属名当同一物种。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 17,
+        "primary_section": "17.2",
+        "related_sections": []
+      },
+      {
+        "q": "分类层级“科、种、纲、属”按范围由大到小排序。 条件：使用常见林奈层级。",
+        "given": "使用常见林奈层级。",
+        "analysis": "按嵌套关系排列。",
+        "method": "回到全层级链。",
+        "principle": "分类层级。",
+        "steps": [
+          "纲下有目和科，科下有属，属下有种。",
+          "故纲→科→属→种。"
+        ],
+        "ans": "纲、科、属、种。",
+        "verification": "越小层级通常范围越窄。",
+        "pitfall": "按字面大小猜顺序。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 17,
+        "primary_section": "17.2",
+        "related_sections": []
+      },
+      {
+        "q": "系统树((A,B),C)中，把A与B左右位置互换后，亲缘关系是否改变？ 条件：分支连接未改变，未给枝长比例。",
+        "given": "分支连接未改变，未给枝长比例。",
+        "analysis": "拓扑不是页面左右排列。",
+        "method": "看最近共同分支点。",
+        "principle": "系统树关系由共同祖先决定。",
+        "steps": [
+          "A和B仍共享比与C更近的分支点。",
+          "旋转该节点不改变关系。"
+        ],
+        "ans": "不改变。",
+        "verification": "括号关系仍((A,B),C)。",
+        "pitfall": "按图上水平距离判断亲缘。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 17,
+        "primary_section": "17.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "“sapiens”单独作为完整双名法学名是否足够？ 条件：未给属名。",
+        "given": "未给属名。",
+        "analysis": "双名法需两部分。",
+        "method": "检查形式。",
+        "principle": "属名加种加词。",
+        "steps": [
+          "sapiens只是种加词。",
+          "须与相应属名合用。"
+        ],
+        "ans": "不足。",
+        "verification": "Homo sapiens才是此例完整双名。",
+        "pitfall": "把第二词当完整物种名。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 17,
+        "primary_section": "17.2",
+        "related_sections": []
+      },
+      {
+        "q": "同属不同种与同科不同属，通常哪一对分类关系更接近？ 条件：在同一分类体系中比较。",
+        "given": "在同一分类体系中比较。",
+        "analysis": "属比科更小。",
+        "method": "按嵌套层级。",
+        "principle": "共享更小分类群通常更近。",
+        "steps": [
+          "同属者已共享科及更上层级。",
+          "同科不同属者未共享属。"
+        ],
+        "ans": "通常同属不同种更近。",
+        "verification": "不据此推断具体遗传距离百分比。",
+        "pitfall": "将“科”误当比属更小。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 17,
+        "primary_section": "17.2",
+        "related_sections": []
+      },
+      {
+        "q": "无比例尺树上一条枝画长两倍，能否说演化时间两倍？ 条件：未标时间或变化量标尺。",
+        "given": "未标时间或变化量标尺。",
+        "analysis": "绘图长度不一定定量。",
+        "method": "核标尺。",
+        "principle": "树图表示需明确尺度。",
+        "steps": [
+          "无尺枝长可能只为排版。",
+          "不能换算时间。"
+        ],
+        "ans": "不能。",
+        "verification": "需明确时间树或相应单位。",
+        "pitfall": "所有树枝长度均当时间。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 17,
+        "primary_section": "17.2",
+        "related_sections": []
+      },
+      {
+        "q": "外形相似就必定是最近亲缘吗？ 条件：可能存在趋同适应。",
+        "given": "可能存在趋同适应。",
+        "analysis": "相似性有多种来源。",
+        "method": "考察同源与独立演化。",
+        "principle": "分类需多证据。",
+        "steps": [
+          "类似环境可能选择相似功能形态。",
+          "仍需其他特征和分子证据。"
+        ],
+        "ans": "不必定。",
+        "verification": "相似功能不等于同一最近祖先。",
+        "pitfall": "只凭一个外观断亲缘。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 17,
+        "primary_section": "17.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "生物学物种概念能否直接解决所有无性生物与化石分类？ 条件：其常用定义涉及自然交配和生殖隔离。",
+      "given": "其常用定义涉及自然交配和生殖隔离。",
+      "analysis": "对象可能无法观察交配。",
+      "method": "检查定义适用性。",
+      "principle": "物种概念有应用边界。",
+      "steps": [
+        "无性生物不按同样交配方式繁殖。",
+        "化石通常不能直接测生殖相容，需结合其他证据。"
+      ],
+      "ans": "不能无条件直接解决。",
+      "verification": "说明界限并不等于分类毫无依据。",
+      "pitfall": "将一个定义套给所有对象。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 17,
+      "primary_section": "17.2",
+      "related_sections": []
+    },
+    "exam": [
+      "层级题先写全链再定位，不把分类当高低价值排序",
+      "双名法分别核属名、种加词与书写形式",
+      "系统树只按分支共同祖先及明确标尺解读，不看左右或纸面距离"
+    ],
+    "quick": [
+      "分类证据",
+      "嵌套层级",
+      "双名法",
+      "物种概念",
+      "系统树拓扑"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 6,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_17.2",
+        "url": "https://openstax.org/books/biology-2e/pages/20-1-organizing-life-on-earth",
+        "page_or_section": "20-1-organizing-life-on-earth",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 6,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_17.2",
+        "url": "https://openstax.org/books/biology-2e/pages/20-1-organizing-life-on-earth",
+        "page_or_section": "20-1-organizing-life-on-earth",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "层级题先写全链再定位，不把分类当高低价值排序",
+      "method": "看最近共同分支点。",
+      "principle": "系统树关系由共同祖先决定。",
+      "worked_example_index": 2,
+      "verification": "括号关系仍((A,B),C)。",
+      "pitfall": "按图上水平距离判断亲缘。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“正确使用分类层级和双名法”的抽样复核：完整学名需两部分一起使用。；若出现“把共享属名当同一物种。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 7,
+        "feedback": "目标“区分分类相似、亲缘证据与系统图的局限”的抽样复核：括号关系仍((A,B),C)。；若出现“按图上水平距离判断亲缘。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "将一个定义套给所有对象。",
+        "correction": "不能无条件直接解决。",
+        "verification": "说明界限并不等于分类毫无依据。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "分类层级与可旋转系统树",
+      "objects": [
+        "明确命名的生物或生境",
+        "层级/因果关系箭头",
+        "数据与对照框",
+        "适用范围"
+      ],
+      "relations": [
+        "纲科属种依次嵌套",
+        "属名和种加词分开标",
+        "同一分支旋转不改变共同祖先关系"
+      ],
+      "labels": [
+        "界",
+        "门",
+        "纲",
+        "目",
+        "科",
+        "属",
+        "种",
+        "Homo sapiens",
+        "((A,B),C)"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "生态/分类图须与本文对象和数据对应，不能以装饰风景替代关系图",
+      "english": "Create a precise biodiversity teaching schematic. Keep genetic, species and ecosystem diversity as distinct levels. For classification trees, branch relationships represent the stated evidence and are not a ladder of progress. Conservation diagrams must distinguish observed correlation, proposed mechanism and tested intervention. Label all numbers as illustrative teaching data."
+    }
+  },
+  "17.3": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 17,
+    "section_id": "17.3",
+    "goals": [
+      "建立具体活动到多样性变化的因果链",
+      "用对照数据区分绝对变化、相对变化和替代解释"
+    ],
+    "prerequisites": [
+      "种群和生态系统",
+      "比例与研究设计"
+    ],
+    "flow": [
+      "活动",
+      "生境和相互作用",
+      "种群过程",
+      "调查指标",
+      "对照与机制"
+    ],
+    "concept_relation": "活动；生境和相互作用；种群过程；调查指标；对照与机制",
+    "deep": [
+      "外来物种不都必然造成显著危害，入侵影响需看能否建立、扩散及对当地系统造成何种后果。竞争、捕食、病原传播或环境改造等机制要与具体对象对应，不能把“来自外地”直接等同已证实生态破坏。",
+      "污染与气候改变也会通过耐受范围、繁殖时序或食物关系影响物种。某一地点观测到数量下降与某活动同期出现，可能支持假说，但仍需检查其他压力、取样方法和对照。时间先后与相关不自动完成因果证明。",
+      "数据题先声明基准期、调查努力与指标；绝对减少量、百分比减少和占总量比例是不同运算。结论应保留研究范围，避免用一个物种的变化直接代替整个生态系统所有层次的多样性。"
+    ],
+    "derive": [
+      "相对减少率=(原量−现量)/原量×100%，基准量不能随意换。",
+      "同总面积不同连通性可能改变迁移与基因流；效果需具体证据。",
+      "总捕获量=单位努力捕获量×努力量的简化关系可用于识别努力增加的混杂。"
+    ],
+    "examples": [
+      {
+        "q": "某生境由1000 ha降至700 ha，绝对与相对损失分别是多少？ 条件：同一测量范围与方法。",
+        "given": "同一测量范围与方法。",
+        "analysis": "比例分母为原面积。",
+        "method": "减量后除原量。",
+        "principle": "相对变化定义。",
+        "steps": [
+          "绝对损失1000−700=300 ha。",
+          "相对损失300/1000=30%。"
+        ],
+        "ans": "300 ha、30%。",
+        "verification": "剩余70%，与损失30%合100%。",
+        "pitfall": "除以现量700而非原量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 17,
+        "primary_section": "17.3",
+        "related_sections": []
+      },
+      {
+        "q": "捕捞努力从100增至200单位，捕获量从1000降至800 kg，单位努力捕获量如何变？ 条件：采用总量/努力量的简化指标，其他解释仍需查。",
+        "given": "采用总量/努力量的简化指标，其他解释仍需查。",
+        "analysis": "总量与努力同时变化。",
+        "method": "分别计算CPUE。",
+        "principle": "公平比较需校正努力。",
+        "steps": [
+          "原10 kg/努力单位，现4。",
+          "相对下降(10−4)/10=60%。"
+        ],
+        "ans": "由10降4，下降60%。",
+        "verification": "努力加倍却总量下降，不能称资源增长。",
+        "pitfall": "只看800 kg而忽略努力。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 17,
+        "primary_section": "17.3",
+        "related_sections": []
+      },
+      {
+        "q": "保留相同总面积的四小片与一连通片，是否对所有物种效果完全一样？ 条件：几何与连通性不同。",
+        "given": "几何与连通性不同。",
+        "analysis": "面积不是唯一生态条件。",
+        "method": "连接迁移、边缘与种群机制。",
+        "principle": "破碎化影响依物种。",
+        "steps": [
+          "小片可增加边缘并阻碍某些迁移。",
+          "不同物种响应可能不同，需具体证据。"
+        ],
+        "ans": "不能认定完全一样。",
+        "verification": "总面积相同未控制连通性与形状。",
+        "pitfall": "只用面积相同就说生态效果相同。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 17,
+        "primary_section": "17.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "所有外来物种都必然成为有害入侵种吗？ 条件：建立扩散与后果未知。",
+        "given": "建立扩散与后果未知。",
+        "analysis": "外来与入侵影响不同。",
+        "method": "按定义分层。",
+        "principle": "建立、传播与生态影响需证据。",
+        "steps": [
+          "有些外来种不易建立或不造成所问影响。",
+          "需分别评价。"
+        ],
+        "ans": "不必然。",
+        "verification": "来源信息不足以证明后果。",
+        "pitfall": "外来一律等于有害。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 17,
+        "primary_section": "17.3",
+        "related_sections": []
+      },
+      {
+        "q": "农药使用后昆虫减少，单一前后观察足以排除其他原因吗？ 条件：同时可能有季节变化等。",
+        "given": "同时可能有季节变化等。",
+        "analysis": "需替代解释和对照。",
+        "method": "评价研究设计。",
+        "principle": "相关不等于唯一因果。",
+        "steps": [
+          "季节、天气和取样也可改变数量。",
+          "相应对照及重复更有助归因。"
+        ],
+        "ans": "不足以排除。",
+        "verification": "没有对照就无法扣除共同季节趋势。",
+        "pitfall": "只有时间先后就说已证明唯一原因。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 17,
+        "primary_section": "17.3",
+        "related_sections": []
+      },
+      {
+        "q": "某物种从80降60只，相对减少多少？ 条件：原量80。",
+        "given": "原量80。",
+        "analysis": "基准明确。",
+        "method": "(80−60)/80。",
+        "principle": "相对减少率。",
+        "steps": [
+          "减少20。",
+          "20/80=0.25。"
+        ],
+        "ans": "25%。",
+        "verification": "不是20%。",
+        "pitfall": "把减少数量直接加百分号。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 17,
+        "primary_section": "17.3",
+        "related_sections": []
+      },
+      {
+        "q": "只测到一个物种下降，能否说遗传、物种和生态系统三层多样性都已定量降低同一比例？ 条件：未测其他层指标。",
+        "given": "未测其他层指标。",
+        "analysis": "不同层次不是一个量。",
+        "method": "检查结论范围。",
+        "principle": "指标对应对象。",
+        "steps": [
+          "单物种数量不直接给出物种数或遗传类型数。",
+          "还需相应层次数据。"
+        ],
+        "ans": "不能。",
+        "verification": "数量变化可能未改变观察到的物种数。",
+        "pitfall": "一个指标替代全部多样性层次。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 17,
+        "primary_section": "17.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "修路后数量下降，写出比“道路有害”更可检验的一条机制及所需证据。 条件：以迁移受阻假说为例。",
+      "given": "以迁移受阻假说为例。",
+      "analysis": "需将活动连到过程和结果。",
+      "method": "提出因果链与比较。",
+      "principle": "机制假说应可检验。",
+      "steps": [
+        "道路分隔生境可能降低通行与基因流。",
+        "可比较修路前后和未修路区域的通行、存活或遗传连通指标，控制调查努力。"
+      ],
+      "ans": "给出具体迁移/连通机制与匹配对照。",
+      "verification": "若通行未减少而下降来自其他压力，假说需修正。",
+      "pitfall": "只写抽象危害而无可测过程。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 17,
+      "primary_section": "17.3",
+      "related_sections": []
+    },
+    "exam": [
+      "活动题写具体途径，再连生存繁殖或基因流后果",
+      "变化率题先写基准单位，数量与百分比不混",
+      "因果评价寻找季节、努力与其他压力，提出相应对照"
+    ],
+    "quick": [
+      "活动",
+      "生境和相互作用",
+      "种群过程",
+      "调查指标",
+      "对照与机制"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 6,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_17.3",
+        "url": "https://openstax.org/books/biology-2e/pages/47-3-threats-to-biodiversity",
+        "page_or_section": "47-3-threats-to-biodiversity",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 6,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_17.3",
+        "url": "https://openstax.org/books/biology-2e/pages/47-3-threats-to-biodiversity",
+        "page_or_section": "47-3-threats-to-biodiversity",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "活动题写具体途径，再连生存繁殖或基因流后果",
+      "method": "连接迁移、边缘与种群机制。",
+      "principle": "破碎化影响依物种。",
+      "worked_example_index": 2,
+      "verification": "总面积相同未控制连通性与形状。",
+      "pitfall": "只用面积相同就说生态效果相同。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“建立具体活动到多样性变化的因果链”的抽样复核：剩余70%，与损失30%合100%。；若出现“除以现量700而非原量。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 7,
+        "feedback": "目标“用对照数据区分绝对变化、相对变化和替代解释”的抽样复核：总面积相同未控制连通性与形状。；若出现“只用面积相同就说生态效果相同。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "只写抽象危害而无可测过程。",
+        "correction": "给出具体迁移/连通机制与匹配对照。",
+        "verification": "若通行未减少而下降来自其他压力，假说需修正。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "生境破碎化与调查基准",
+      "objects": [
+        "明确命名的生物或生境",
+        "层级/因果关系箭头",
+        "数据与对照框",
+        "适用范围"
+      ],
+      "relations": [
+        "同总面积可有不同连通性",
+        "道路改变迁移不只面积",
+        "相对减少以原量作分母"
+      ],
+      "labels": [
+        "完整生境",
+        "破碎小片",
+        "迁移通道",
+        "调查努力",
+        "原量1000 ha",
+        "现量700 ha"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "生态/分类图须与本文对象和数据对应，不能以装饰风景替代关系图",
+      "english": "Create a precise biodiversity teaching schematic. Keep genetic, species and ecosystem diversity as distinct levels. For classification trees, branch relationships represent the stated evidence and are not a ladder of progress. Conservation diagrams must distinguish observed correlation, proposed mechanism and tested intervention. Label all numbers as illustrative teaching data."
+    }
+  },
+  "17.4": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 17,
+    "section_id": "17.4",
+    "goals": [
+      "按威胁机制选择就地和迁地措施",
+      "用有效指标评价保育而非只计投入"
+    ],
+    "prerequisites": [
+      "生态连通性",
+      "遗传多样性与监测"
+    ],
+    "flow": [
+      "目标与威胁",
+      "就地保护",
+      "迁地备份",
+      "参照监测",
+      "调整与长期维持"
+    ],
+    "concept_relation": "目标与威胁；就地保护；迁地备份；参照监测；调整与长期维持",
+    "deep": [
+      "走廊可改善部分物种迁移，却也可能改变边缘、病原或入侵传播，设计需与对象生态相配。保护地面积只是投入或状态指标之一，实际成效还需看生存繁殖、种群趋势、连通性和生态功能；围出边界并不保证管理有效。",
+      "恢复应设定适当参照和可衡量目标。植树数量不能直接代表天然森林多样性，若树种单一或不适合当地环境，生态功能与遗传范围可能有限。长期重复监测可判断措施是否改善目标并及时调整。",
+      "评价题可比较干预区与参照区前后变化，避免把共同天气好转等当作全部干预成效。尊重社区参与和长期执行条件，说明资源与利益权衡；以数据和机制提出修订，而不是只用“加强宣传”“多种树”等空泛结论。"
+    ],
+    "derive": [
+      "就地保护维持原环境中的种群和过程；迁地保护提供栖地外的资源保存。",
+      "简化前后参照比较：干预净变化=(干预后−干预前)−(参照后−参照前)，仅在可比设计下辅助推断。",
+      "保护成效指标应匹配目标，不能只用经费、设施数或植树株数代替。"
+    ],
+    "examples": [
+      {
+        "q": "某濒危植物原栖地保护与种子库保存，分别属于哪类措施？二者能否完全互代？ 条件：种子库位于原栖地之外。",
+        "given": "种子库位于原栖地之外。",
+        "analysis": "场所和保留过程不同。",
+        "method": "区分就地与迁地目标。",
+        "principle": "保育方式定义。",
+        "steps": [
+          "原栖地保护属就地，种子库属迁地。",
+          "种子库可备份遗传资源，却不能替代原群落及生态过程。"
+        ],
+        "ans": "分别为就地与迁地，不能完全互代。",
+        "verification": "原传粉关系等不会因种子入库就自动恢复。",
+        "pitfall": "认为有种子库即可放弃原生境。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 17,
+        "primary_section": "17.4",
+        "related_sections": []
+      },
+      {
+        "q": "干预区个体数100→140，参照区100→120，用简化前后参照法估计额外变化。 条件：两区可比且同调查努力，方法仅辅助因果判断。",
+        "given": "两区可比且同调查努力，方法仅辅助因果判断。",
+        "analysis": "扣除共同趋势。",
+        "method": "差中之差。",
+        "principle": "干预变化减参照变化。",
+        "steps": [
+          "干预增40，参照增20。",
+          "额外变化40−20=20。"
+        ],
+        "ans": "额外约20个体。",
+        "verification": "不能把全部40都自动归因措施。",
+        "pitfall": "忽略参照区也增长。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 17,
+        "primary_section": "17.4",
+        "related_sections": []
+      },
+      {
+        "q": "保存1000株来自同一个无性克隆，与保存多个野外遗传来源相比，为什么株数多不一定覆盖遗传范围广？ 条件：理想克隆无新变异。",
+        "given": "理想克隆无新变异。",
+        "analysis": "个体数和遗传来源数不同。",
+        "method": "按保护目标评价。",
+        "principle": "遗传多样性需要变异来源。",
+        "steps": [
+          "同克隆可有大量相同遗传拷贝。",
+          "多个适当来源更可能涵盖种内差异，但仍需取样策略。"
+        ],
+        "ans": "数量不等于遗传覆盖。",
+        "verification": "1000重复拷贝不能自动形成1000基因型。",
+        "pitfall": "只按株数宣称遗传资源完整。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 17,
+        "primary_section": "17.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "给受威胁动物建保护地后，只记围栏长度能评价种群恢复吗？ 条件：目标是种群持续。",
+        "given": "目标是种群持续。",
+        "analysis": "投入不等于结果。",
+        "method": "选择成效指标。",
+        "principle": "指标与目标匹配。",
+        "steps": [
+          "围栏长度是设施量。",
+          "还需存活、繁殖、数量趋势与栖地指标。"
+        ],
+        "ans": "不能仅此评价。",
+        "verification": "设施可能存在但种群仍下降。",
+        "pitfall": "把工程完成当生态恢复。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 17,
+        "primary_section": "17.4",
+        "related_sections": []
+      },
+      {
+        "q": "放归前原有捕猎压力未解决，能否保证放归成功？ 条件：原威胁仍在。",
+        "given": "原威胁仍在。",
+        "analysis": "释放个体不消除致衰原因。",
+        "method": "连措施与机制。",
+        "principle": "再引入需适宜条件。",
+        "steps": [
+          "捕猎仍可使新个体死亡。",
+          "需治理威胁并评估栖地及监测。"
+        ],
+        "ans": "不能保证。",
+        "verification": "数量短时增加也可能随后下降。",
+        "pitfall": "以放归数量代替长期成效。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 17,
+        "primary_section": "17.4",
+        "related_sections": []
+      },
+      {
+        "q": "种植单一树种一万株是否自动恢复天然森林多样性？ 条件：缺其他种群与过程数据。",
+        "given": "缺其他种群与过程数据。",
+        "analysis": "树木数量与系统多样性不同。",
+        "method": "区分目标指标。",
+        "principle": "生态恢复多层目标。",
+        "steps": [
+          "单一树种可能只形成狭窄类型种植。",
+          "未证明群落组成与功能已恢复。"
+        ],
+        "ans": "不自动。",
+        "verification": "还需本地适配、层次和功能等证据。",
+        "pitfall": "植树株数直接等于物种多样性。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 17,
+        "primary_section": "17.4",
+        "related_sections": []
+      },
+      {
+        "q": "走廊对所有物种一定同样有利吗？ 条件：物种及传播机制不同。",
+        "given": "物种及传播机制不同。",
+        "analysis": "收益和副作用依生态条件。",
+        "method": "具体对象评价。",
+        "principle": "连通性作用有条件。",
+        "steps": [
+          "某些物种迁移可改善。",
+          "也可能增加入侵或病原传播，需设计和监测。"
+        ],
+        "ans": "不一定。",
+        "verification": "不能用一物种的改善代替所有对象。",
+        "pitfall": "将走廊当无条件万能措施。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 17,
+        "primary_section": "17.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "为什么保育措施需要持续监测并允许调整，而不是只在建成时拍照？ 条件：目标包括长期种群与生态过程。",
+      "given": "目标包括长期种群与生态过程。",
+      "analysis": "结果会随环境和执行变化。",
+      "method": "将监测连到管理决策。",
+      "principle": "适应性管理。",
+      "steps": [
+        "重复测量目标指标可发现趋势与未预期后果。",
+        "据此调整措施、检验威胁是否真正缓解。"
+      ],
+      "ans": "为核成效、发现问题并修订。",
+      "verification": "照片只证明某时点有设施，不能证明长期恢复。",
+      "pitfall": "把一次验收当永久成功。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 17,
+      "primary_section": "17.4",
+      "related_sections": []
+    },
+    "exam": [
+      "措施题从具体威胁反推行动，逐项说为什么有效",
+      "先分就地迁地，再解释各保留什么与遗漏什么",
+      "成效题用目标指标、参照与重复监测，不只报投入数量"
+    ],
+    "quick": [
+      "目标与威胁",
+      "就地保护",
+      "迁地备份",
+      "参照监测",
+      "调整与长期维持"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 6,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_17.4",
+        "url": "https://openstax.org/books/biology-2e/pages/47-4-preserving-biodiversity",
+        "page_or_section": "47-4-preserving-biodiversity",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 6,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_17.4",
+        "url": "https://openstax.org/books/biology-2e/pages/47-4-preserving-biodiversity",
+        "page_or_section": "47-4-preserving-biodiversity",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "措施题从具体威胁反推行动，逐项说为什么有效",
+      "method": "按保护目标评价。",
+      "principle": "遗传多样性需要变异来源。",
+      "worked_example_index": 2,
+      "verification": "1000重复拷贝不能自动形成1000基因型。",
+      "pitfall": "只按株数宣称遗传资源完整。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“按威胁机制选择就地和迁地措施”的抽样复核：原传粉关系等不会因种子入库就自动恢复。；若出现“认为有种子库即可放弃原生境。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 7,
+        "feedback": "目标“用有效指标评价保育而非只计投入”的抽样复核：1000重复拷贝不能自动形成1000基因型。；若出现“只按株数宣称遗传资源完整。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把一次验收当永久成功。",
+        "correction": "为核成效、发现问题并修订。",
+        "verification": "照片只证明某时点有设施，不能证明长期恢复。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "保护方式与成效证据",
+      "objects": [
+        "明确命名的生物或生境",
+        "层级/因果关系箭头",
+        "数据与对照框",
+        "适用范围"
+      ],
+      "relations": [
+        "原栖地和种子库互补但不等价",
+        "干预增40扣参照增20得到额外20",
+        "监测反馈用于调整措施"
+      ],
+      "labels": [
+        "就地保护",
+        "迁地保护",
+        "目标指标",
+        "干预区",
+        "参照区",
+        "持续监测"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "生态/分类图须与本文对象和数据对应，不能以装饰风景替代关系图",
+      "english": "Create a precise biodiversity teaching schematic. Keep genetic, species and ecosystem diversity as distinct levels. For classification trees, branch relationships represent the stated evidence and are not a ladder of progress. Conservation diagrams must distinguish observed correlation, proposed mechanism and tested intervention. Label all numbers as illustrative teaching data."
+    }
+  }
+}

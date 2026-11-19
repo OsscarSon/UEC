@@ -1,0 +1,372 @@
+{
+  "status": "in_progress",
+  "statistics": {
+    "target_unique_chapters": 40,
+    "minimum_new_chapters_each_course": 8,
+    "new_unique_chapters": 12,
+    "new_real_sections": 63,
+    "new_examples": 189,
+    "new_practice": 252,
+    "new_quiz": 63,
+    "new_original_questions": 504,
+    "course_counts": {
+      "physics": 3,
+      "chemistry": 3,
+      "biology": 5,
+      "adv_math_i": 1,
+      "adv_math_ii": 1
+    },
+    "math_shared_counted_once": true,
+    "request_complete": false
+  },
+  "chapters": [
+    {
+      "stem": "bio04",
+      "subject": "生物",
+      "chapter": 4,
+      "sections": [
+        {
+          "id": "4.1",
+          "title": "细胞的分工"
+        },
+        {
+          "id": "4.2",
+          "title": "组织与器官"
+        },
+        {
+          "id": "4.3",
+          "title": "细胞的再生"
+        },
+        {
+          "id": "4.4",
+          "title": "细胞的克隆"
+        },
+        {
+          "id": "4.5",
+          "title": "基因的“沉默”和“开启”"
+        },
+        {
+          "id": "4.6",
+          "title": "细胞的特化"
+        },
+        {
+          "id": "4.7",
+          "title": "万能细胞——干细胞"
+        }
+      ],
+      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+    },
+    {
+      "stem": "bio14",
+      "subject": "生物",
+      "chapter": 14,
+      "sections": [
+        {
+          "id": "14.1",
+          "title": "DNA是遗传物质的证据"
+        },
+        {
+          "id": "14.2",
+          "title": "DNA的结构是怎样的"
+        },
+        {
+          "id": "14.3",
+          "title": "遗传信息是如何传递的"
+        },
+        {
+          "id": "14.4",
+          "title": "遗传信息是如何表达的"
+        },
+        {
+          "id": "14.5",
+          "title": "基因突变"
+        }
+      ],
+      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+    },
+    {
+      "stem": "bio15",
+      "subject": "生物",
+      "chapter": 15,
+      "sections": [
+        {
+          "id": "15.1",
+          "title": "基因分离定律"
+        },
+        {
+          "id": "15.2",
+          "title": "基因自由组合定律"
+        },
+        {
+          "id": "15.3",
+          "title": "性别决定与伴性遗传"
+        },
+        {
+          "id": "15.4",
+          "title": "常见的人类遗传病"
+        }
+      ],
+      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+    },
+    {
+      "stem": "bio16",
+      "subject": "生物",
+      "chapter": 16,
+      "sections": [
+        {
+          "id": "16.1",
+          "title": "DNA重组技术"
+        },
+        {
+          "id": "16.2",
+          "title": "基因工程"
+        },
+        {
+          "id": "16.3",
+          "title": "PCR技术"
+        },
+        {
+          "id": "16.4",
+          "title": "基因工程的争议"
+        }
+      ],
+      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+    },
+    {
+      "stem": "bio17",
+      "subject": "生物",
+      "chapter": 17,
+      "sections": [
+        {
+          "id": "17.1",
+          "title": "生物多样性"
+        },
+        {
+          "id": "17.2",
+          "title": "生物的分类"
+        },
+        {
+          "id": "17.3",
+          "title": "人类活动对生物多样性的影响"
+        },
+        {
+          "id": "17.4",
+          "title": "生物多样性的保护"
+        }
+      ],
+      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+    },
+    {
+      "stem": "chem20",
+      "subject": "化学",
+      "chapter": 20,
+      "sections": [
+        {
+          "id": "20.1",
+          "title": "化学反应速率的意义及其表示法"
+        },
+        {
+          "id": "20.2.1",
+          "title": "反应物的本性和表面积大小与化学反应速率"
+        },
+        {
+          "id": "20.2.2",
+          "title": "反应物浓度与化学反应速率"
+        },
+        {
+          "id": "20.2.3",
+          "title": "反应温度与化学反应速率"
+        },
+        {
+          "id": "20.2.4",
+          "title": "催化剂与化学反应速率"
+        }
+      ],
+      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+    },
+    {
+      "stem": "chem21",
+      "subject": "化学",
+      "chapter": 21,
+      "sections": [
+        {
+          "id": "21.1",
+          "title": "化学平衡是动态平衡"
+        },
+        {
+          "id": "21.2.1",
+          "title": "化学平衡定律"
+        },
+        {
+          "id": "21.2.2",
+          "title": "有关化学平衡的计算"
+        },
+        {
+          "id": "21.3.1",
+          "title": "浓度对化学平衡的影响"
+        },
+        {
+          "id": "21.3.2",
+          "title": "压强对化学平衡的影响"
+        },
+        {
+          "id": "21.3.3",
+          "title": "温度对化学平衡的影响"
+        },
+        {
+          "id": "21.3.4",
+          "title": "催化剂对化学平衡的影响"
+        },
+        {
+          "id": "21.4",
+          "title": "勒沙特列原理及应用"
+        }
+      ],
+      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+    },
+    {
+      "stem": "chem22",
+      "subject": "化学",
+      "chapter": 22,
+      "sections": [
+        {
+          "id": "22.1.1",
+          "title": "电解质与非电解质"
+        },
+        {
+          "id": "22.1.2",
+          "title": "溶解平衡原理"
+        },
+        {
+          "id": "22.1.3",
+          "title": "溶度积与溶解度的关系"
+        },
+        {
+          "id": "22.2",
+          "title": "影响难溶电解质溶解的因素"
+        },
+        {
+          "id": "22.3",
+          "title": "沉淀的预测和选择"
+        },
+        {
+          "id": "22.4",
+          "title": "沉淀的转化"
+        }
+      ],
+      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+    },
+    {
+      "stem": "math06",
+      "subject": "数学共用内容",
+      "chapter": 6,
+      "sections": [
+        {
+          "id": "6.1",
+          "title": "不等式及其性质"
+        },
+        {
+          "id": "6.2",
+          "title": "一元二次不等式"
+        },
+        {
+          "id": "6.3",
+          "title": "分式不等式"
+        },
+        {
+          "id": "6.4",
+          "title": "二元一次不等式"
+        },
+        {
+          "id": "6.5",
+          "title": "线性规划"
+        }
+      ],
+      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+    },
+    {
+      "stem": "phys12",
+      "subject": "物理",
+      "chapter": 12,
+      "sections": [
+        {
+          "id": "12.1",
+          "title": "物质的基本单元——分子"
+        },
+        {
+          "id": "12.2",
+          "title": "分子的大小、距离与质量"
+        },
+        {
+          "id": "12.3",
+          "title": "物质的状态"
+        },
+        {
+          "id": "12.4",
+          "title": "固体的形变"
+        },
+        {
+          "id": "12.5",
+          "title": "液体的性质"
+        }
+      ],
+      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+    },
+    {
+      "stem": "phys13",
+      "subject": "物理",
+      "chapter": 13,
+      "sections": [
+        {
+          "id": "13.1",
+          "title": "温度"
+        },
+        {
+          "id": "13.2",
+          "title": "温度计"
+        },
+        {
+          "id": "13.3",
+          "title": "热量的测量"
+        },
+        {
+          "id": "13.4",
+          "title": "热效应与物态变化"
+        },
+        {
+          "id": "13.5",
+          "title": "固体的热膨胀"
+        },
+        {
+          "id": "13.6",
+          "title": "液体的热膨胀"
+        }
+      ],
+      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+    },
+    {
+      "stem": "phys14",
+      "subject": "物理",
+      "chapter": 14,
+      "sections": [
+        {
+          "id": "14.1",
+          "title": "热传导"
+        },
+        {
+          "id": "14.2",
+          "title": "热传导的计算"
+        },
+        {
+          "id": "14.3",
+          "title": "热对流"
+        },
+        {
+          "id": "14.4",
+          "title": "热辐射"
+        }
+      ],
+      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+    }
+  ]
+}
