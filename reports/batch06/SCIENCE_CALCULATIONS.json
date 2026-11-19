@@ -1,0 +1,762 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "bio8 balance urine",
+      "computed": 1500,
+      "expected": 1500,
+      "status": "pass"
+    },
+    {
+      "name": "bio8 stable pool",
+      "computed": 105,
+      "expected": 105,
+      "status": "pass"
+    },
+    {
+      "name": "bio8 solute A",
+      "computed": 20,
+      "expected": 20,
+      "status": "pass"
+    },
+    {
+      "name": "bio8 solute B",
+      "computed": 20.0,
+      "expected": 20,
+      "status": "pass"
+    },
+    {
+      "name": "bio8 water balance",
+      "computed": -200,
+      "expected": -200,
+      "status": "pass"
+    },
+    {
+      "name": "bio8 sweat actual evaporation",
+      "computed": 144000.0,
+      "expected": 144000,
+      "status": "pass"
+    },
+    {
+      "name": "bio8 net stored heat",
+      "computed": 6000,
+      "expected": 6000,
+      "status": "pass"
+    },
+    {
+      "name": "bio8 glucose pool only",
+      "computed": 15,
+      "expected": 15,
+      "status": "pass"
+    },
+    {
+      "name": "bio8 renal excretion",
+      "computed": 30,
+      "expected": 30,
+      "status": "pass"
+    },
+    {
+      "name": "bio8 filtrate load",
+      "computed": 0.2,
+      "expected": 0.2,
+      "status": "pass"
+    },
+    {
+      "name": "bio8 transport saturation",
+      "computed": 20,
+      "expected": 20,
+      "status": "pass"
+    },
+    {
+      "name": "bio8 secretion inferred",
+      "computed": 20,
+      "expected": 20,
+      "status": "pass"
+    },
+    {
+      "name": "bio8 urine solute rate",
+      "computed": 0.01,
+      "expected": 0.01,
+      "status": "pass"
+    },
+    {
+      "name": "bio6 SA/V small",
+      "computed": 6.0,
+      "expected": 6,
+      "status": "pass"
+    },
+    {
+      "name": "bio6 SA/V large",
+      "computed": 3.0,
+      "expected": 3,
+      "status": "pass"
+    },
+    {
+      "name": "bio6 diffusion distance",
+      "computed": 9,
+      "expected": 9,
+      "status": "pass"
+    },
+    {
+      "name": "bio6 unreached cube core",
+      "computed": 0.5120000000000001,
+      "expected": 0.512,
+      "status": "pass"
+    },
+    {
+      "name": "bio6 cardiac output",
+      "computed": 4.9,
+      "expected": 4.9,
+      "status": "pass"
+    },
+    {
+      "name": "bio6 exercise output",
+      "computed": 7.2,
+      "expected": 7.2,
+      "status": "pass"
+    },
+    {
+      "name": "bio6 cardiac period",
+      "computed": 0.8,
+      "expected": 0.8,
+      "status": "pass"
+    },
+    {
+      "name": "bio6 cardiac frequency",
+      "computed": 1.25,
+      "expected": 1.25,
+      "status": "pass"
+    },
+    {
+      "name": "bio6 beats counted",
+      "computed": 150.0,
+      "expected": 150,
+      "status": "pass"
+    },
+    {
+      "name": "bio6 absolute risk difference",
+      "computed": 0.01,
+      "expected": 0.01,
+      "status": "pass"
+    },
+    {
+      "name": "bio6 relative risk reduction",
+      "computed": 0.5,
+      "expected": 0.5,
+      "status": "pass"
+    },
+    {
+      "name": "bio6 second relative risk",
+      "computed": 0.20000000000000004,
+      "expected": 0.2,
+      "status": "pass"
+    },
+    {
+      "name": "bio6 potometer volume rate",
+      "computed": 5.0,
+      "expected": 5,
+      "status": "pass"
+    },
+    {
+      "name": "bio6 total water potential",
+      "computed": -0.4,
+      "expected": -0.4,
+      "status": "pass"
+    },
+    {
+      "name": "bio6 uptake minus storage",
+      "computed": 8,
+      "expected": 8,
+      "status": "pass"
+    },
+    {
+      "name": "bio5 starch decrease",
+      "computed": 0.75,
+      "expected": 0.75,
+      "status": "pass"
+    },
+    {
+      "name": "bio5 absorption conditional",
+      "computed": 0.6,
+      "expected": 0.6,
+      "status": "pass"
+    },
+    {
+      "name": "bio5 net glycolytic ATP",
+      "computed": 2,
+      "expected": 2,
+      "status": "pass"
+    },
+    {
+      "name": "bio5 three glucose carbon",
+      "computed": 18,
+      "expected": 18,
+      "status": "pass"
+    },
+    {
+      "name": "bio5 given ATP model",
+      "computed": 75.0,
+      "expected": 75,
+      "status": "pass"
+    },
+    {
+      "name": "bio5 nitrogen retention",
+      "computed": 2,
+      "expected": 2,
+      "status": "pass"
+    },
+    {
+      "name": "bio5 urea nitrogen",
+      "computed": 2,
+      "expected": 2,
+      "status": "pass"
+    },
+    {
+      "name": "bio5 protein energy model",
+      "computed": 170,
+      "expected": 170,
+      "status": "pass"
+    },
+    {
+      "name": "bio5 C16 acetyl units",
+      "computed": 8.0,
+      "expected": 8,
+      "status": "pass"
+    },
+    {
+      "name": "bio5 C16 beta cycles",
+      "computed": 7.0,
+      "expected": 7,
+      "status": "pass"
+    },
+    {
+      "name": "bio5 C12 beta cycles",
+      "computed": 5.0,
+      "expected": 5,
+      "status": "pass"
+    },
+    {
+      "name": "bio5 untrapped energy",
+      "computed": 600.0,
+      "expected": 600,
+      "status": "pass"
+    },
+    {
+      "name": "bio5 lipid energy model",
+      "computed": 190,
+      "expected": 190,
+      "status": "pass"
+    },
+    {
+      "name": "bio5 glucose RQ",
+      "computed": 1.0,
+      "expected": 1,
+      "status": "pass"
+    },
+    {
+      "name": "bio5 fatty acid oxygen",
+      "computed": 23.0,
+      "expected": 23,
+      "status": "pass"
+    },
+    {
+      "name": "bio5 fatty acid RQ rounded",
+      "computed": 0.696,
+      "expected": 0.696,
+      "status": "pass"
+    },
+    {
+      "name": "bio5 mixed fuel oxygen A",
+      "computed": 3.333333333333333,
+      "expected": 3.3333333333333335,
+      "status": "pass"
+    },
+    {
+      "name": "bio5 mixed fuel carbon check",
+      "computed": 8.0,
+      "expected": 8,
+      "status": "pass"
+    },
+    {
+      "name": "bio5 mixed RQ",
+      "computed": 0.8,
+      "expected": 0.8,
+      "status": "pass"
+    },
+    {
+      "name": "chem19 calorimetry",
+      "computed": -2100.0,
+      "expected": -2100,
+      "status": "pass"
+    },
+    {
+      "name": "chem19 calorimeter",
+      "computed": -2700,
+      "expected": -2700,
+      "status": "pass"
+    },
+    {
+      "name": "chem19 cooling sample",
+      "computed": -840.0,
+      "expected": -840,
+      "status": "pass"
+    },
+    {
+      "name": "chem19 per ammonia",
+      "computed": -46.0,
+      "expected": -46,
+      "status": "pass"
+    },
+    {
+      "name": "chem19 reverse double",
+      "computed": 184,
+      "expected": 184,
+      "status": "pass"
+    },
+    {
+      "name": "chem19 limiting H2 heat",
+      "computed": -61.33,
+      "expected": -61.33,
+      "status": "pass"
+    },
+    {
+      "name": "chem19 formation methane",
+      "computed": -891,
+      "expected": -891,
+      "status": "pass"
+    },
+    {
+      "name": "chem19 unknown formation",
+      "computed": -90,
+      "expected": -90,
+      "status": "pass"
+    },
+    {
+      "name": "chem19 formation sum",
+      "computed": -120,
+      "expected": -120,
+      "status": "pass"
+    },
+    {
+      "name": "chem19 fuel heat",
+      "computed": -200.0,
+      "expected": -200,
+      "status": "pass"
+    },
+    {
+      "name": "chem19 useful combustion",
+      "computed": 200.0,
+      "expected": 200,
+      "status": "pass"
+    },
+    {
+      "name": "chem19 fuel mass energy",
+      "computed": 60,
+      "expected": 60,
+      "status": "pass"
+    },
+    {
+      "name": "chem19 water neutralization",
+      "computed": -57.12,
+      "expected": -57.12,
+      "status": "pass"
+    },
+    {
+      "name": "chem19 limiting hydroxide",
+      "computed": 0.04,
+      "expected": 0.04,
+      "status": "pass"
+    },
+    {
+      "name": "chem19 neutral heat",
+      "computed": 2.2800000000000002,
+      "expected": 2.28,
+      "status": "pass"
+    },
+    {
+      "name": "chem19 diprotic water",
+      "computed": 0.2,
+      "expected": 0.2,
+      "status": "pass"
+    },
+    {
+      "name": "chem19 Hess CO oxidation",
+      "computed": -283,
+      "expected": -283,
+      "status": "pass"
+    },
+    {
+      "name": "chem19 closed cycle",
+      "computed": 0,
+      "expected": 0,
+      "status": "pass"
+    },
+    {
+      "name": "chem19 bond estimate",
+      "computed": -183,
+      "expected": -183,
+      "status": "pass"
+    },
+    {
+      "name": "chem19 cycle unknown",
+      "computed": -7,
+      "expected": -7,
+      "status": "pass"
+    },
+    {
+      "name": "chem19 efficiency",
+      "computed": 0.375,
+      "expected": 0.375,
+      "status": "pass"
+    },
+    {
+      "name": "chem19 total useful",
+      "computed": 30.0,
+      "expected": 30,
+      "status": "pass"
+    },
+    {
+      "name": "chem19 carbon intensity A",
+      "computed": 0.1,
+      "expected": 0.1,
+      "status": "pass"
+    },
+    {
+      "name": "chem19 carbon intensity B",
+      "computed": 0.15,
+      "expected": 0.15,
+      "status": "pass"
+    },
+    {
+      "name": "phys19 deviation",
+      "computed": 35,
+      "expected": 35,
+      "status": "pass"
+    },
+    {
+      "name": "phys19 refractive index rounded",
+      "computed": 1.532,
+      "expected": 1.532,
+      "status": "pass"
+    },
+    {
+      "name": "phys19 optical frequency",
+      "computed": 500000000000000.0,
+      "expected": 500000000000000.0,
+      "status": "pass"
+    },
+    {
+      "name": "phys19 wavelength",
+      "computed": 4e-07,
+      "expected": 4e-07,
+      "status": "pass"
+    },
+    {
+      "name": "phys19 thin prism",
+      "computed": 0.03,
+      "expected": 0.03,
+      "status": "pass"
+    },
+    {
+      "name": "phys19 spectral frequency",
+      "computed": 600000000000000.0,
+      "expected": 600000000000000.0,
+      "status": "pass"
+    },
+    {
+      "name": "phys19 photon ratio",
+      "computed": 2.0,
+      "expected": 2,
+      "status": "pass"
+    },
+    {
+      "name": "phys19 real image",
+      "computed": 14.999999999999996,
+      "expected": 15,
+      "status": "pass"
+    },
+    {
+      "name": "phys19 convex virtual",
+      "computed": -15.000000000000004,
+      "expected": -15,
+      "status": "pass"
+    },
+    {
+      "name": "phys19 diverging virtual",
+      "computed": -8.0,
+      "expected": -8,
+      "status": "pass"
+    },
+    {
+      "name": "phys19 convex magnification",
+      "computed": 2.5,
+      "expected": 2.5,
+      "status": "pass"
+    },
+    {
+      "name": "phys19 diverging magnification",
+      "computed": 0.3333333333333333,
+      "expected": 0.3333333333333333,
+      "status": "pass"
+    },
+    {
+      "name": "phys19 conjugate method",
+      "computed": 20.0,
+      "expected": 20,
+      "status": "pass"
+    },
+    {
+      "name": "phys19 displacement method",
+      "computed": 16.0,
+      "expected": 16,
+      "status": "pass"
+    },
+    {
+      "name": "phys19 displacement conjugates",
+      "computed": 16.0,
+      "expected": 16,
+      "status": "pass"
+    },
+    {
+      "name": "phys15 positive gauge",
+      "computed": 250,
+      "expected": 250,
+      "status": "pass"
+    },
+    {
+      "name": "phys15 negative gauge",
+      "computed": 80,
+      "expected": 80,
+      "status": "pass"
+    },
+    {
+      "name": "phys15 liters",
+      "computed": 0.0025,
+      "expected": 0.0025,
+      "status": "pass"
+    },
+    {
+      "name": "phys15 cubic centimeters",
+      "computed": 0.0004,
+      "expected": 0.0004,
+      "status": "pass"
+    },
+    {
+      "name": "phys15 ideal volume",
+      "computed": 0.02493,
+      "expected": 0.02493,
+      "status": "pass"
+    },
+    {
+      "name": "phys15 ideal pressure",
+      "computed": 166200.0,
+      "expected": 166200,
+      "status": "pass"
+    },
+    {
+      "name": "phys15 combined states",
+      "computed": 100.00000000000001,
+      "expected": 100,
+      "status": "pass"
+    },
+    {
+      "name": "phys15 chamber mixing",
+      "computed": 140.0,
+      "expected": 140,
+      "status": "pass"
+    },
+    {
+      "name": "phys15 leak remaining",
+      "computed": 0.75,
+      "expected": 0.75,
+      "status": "pass"
+    },
+    {
+      "name": "phys15 molecular-mass density",
+      "computed": 0.6363636363636364,
+      "expected": 0.6363636363636364,
+      "status": "pass"
+    },
+    {
+      "name": "phys15 Boyle compression",
+      "computed": 180.0,
+      "expected": 180,
+      "status": "pass"
+    },
+    {
+      "name": "phys15 gauge compression",
+      "computed": 300,
+      "expected": 300,
+      "status": "pass"
+    },
+    {
+      "name": "phys15 dead-volume compression",
+      "computed": 2.0,
+      "expected": 2,
+      "status": "pass"
+    },
+    {
+      "name": "phys15 fixed volume heating",
+      "computed": 300.0,
+      "expected": 300,
+      "status": "pass"
+    },
+    {
+      "name": "phys15 gauge fixed-volume",
+      "computed": 200.0,
+      "expected": 200,
+      "status": "pass"
+    },
+    {
+      "name": "phys15 fixed volume cooling",
+      "computed": 320.0,
+      "expected": 320,
+      "status": "pass"
+    },
+    {
+      "name": "phys15 Charles volume",
+      "computed": 12.0,
+      "expected": 12,
+      "status": "pass"
+    },
+    {
+      "name": "phys15 loaded piston",
+      "computed": 120000.0,
+      "expected": 120000,
+      "status": "pass"
+    },
+    {
+      "name": "phys15 stop temperature",
+      "computed": 450.0,
+      "expected": 450,
+      "status": "pass"
+    },
+    {
+      "name": "phys15 two-stage pressure ratio",
+      "computed": 1.3333333333333333,
+      "expected": 1.3333333333333333,
+      "status": "pass"
+    },
+    {
+      "name": "phys15 relative expansion",
+      "computed": 0.1,
+      "expected": 0.1,
+      "status": "pass"
+    },
+    {
+      "name": "phys10 measured period",
+      "computed": 2.0,
+      "expected": 2,
+      "status": "pass"
+    },
+    {
+      "name": "phys10 counted intervals",
+      "computed": 2.0,
+      "expected": 2,
+      "status": "pass"
+    },
+    {
+      "name": "phys10 cycle path",
+      "computed": 12,
+      "expected": 12,
+      "status": "pass"
+    },
+    {
+      "name": "phys10 spring omega",
+      "computed": 20.0,
+      "expected": 20,
+      "status": "pass"
+    },
+    {
+      "name": "phys10 a-x omega",
+      "computed": 5.0,
+      "expected": 5,
+      "status": "pass"
+    },
+    {
+      "name": "phys10 initial amplitude",
+      "computed": 0.05,
+      "expected": 0.05,
+      "status": "pass"
+    },
+    {
+      "name": "phys10 phase velocity",
+      "computed": -0.2,
+      "expected": -0.2,
+      "status": "pass"
+    },
+    {
+      "name": "phys10 v amplitude",
+      "computed": 0.6000000000000001,
+      "expected": 0.6,
+      "status": "pass"
+    },
+    {
+      "name": "phys10 a amplitude",
+      "computed": 1.8,
+      "expected": 1.8,
+      "status": "pass"
+    },
+    {
+      "name": "phys10 above half displacement time fraction",
+      "computed": 0.3333333333333333,
+      "expected": 0.3333333333333333,
+      "status": "pass"
+    },
+    {
+      "name": "phys10 total energy",
+      "computed": 0.5000000000000001,
+      "expected": 0.5,
+      "status": "pass"
+    },
+    {
+      "name": "phys10 energy at .06",
+      "computed": 0.32,
+      "expected": 0.32,
+      "status": "pass"
+    },
+    {
+      "name": "phys10 speed from energy",
+      "computed": 0.4000000000000001,
+      "expected": 0.4,
+      "status": "pass"
+    },
+    {
+      "name": "phys10 damped turning-point ratio",
+      "computed": 0.25,
+      "expected": 0.25,
+      "status": "pass"
+    },
+    {
+      "name": "phys10 forced at omega0",
+      "computed": 0.1,
+      "expected": 0.1,
+      "status": "pass"
+    },
+    {
+      "name": "phys10 forced higher damping",
+      "computed": 0.05,
+      "expected": 0.05,
+      "status": "pass"
+    },
+    {
+      "name": "phys10 forced peak square",
+      "computed": 98.0,
+      "expected": 98,
+      "status": "pass"
+    },
+    {
+      "name": "phys10 mean power",
+      "computed": 1.0000000000000002,
+      "expected": 1,
+      "status": "pass"
+    },
+    {
+      "name": "forced displacement peak from differentiated denominator",
+      "status": "pass",
+      "detail": "Nonzero critical omega squared = k/m - b squared/(2m squared); source schematic simplification is not treated as exact."
+    }
+  ],
+  "scope": "Explicit numerical and algebraic samples from new biology, chemistry and physics lessons. Does not machine-certify biological pathways, scientific diagrams, textbook completeness or 2027 applicability.",
+  "teacher_approved": false
+}

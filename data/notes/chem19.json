@@ -1,0 +1,2106 @@
+{
+  "19.1": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 19,
+    "section_id": "19.1",
+    "goals": [
+      "按系统边界辨吸放热与符号",
+      "由量热数据和能量收支求反应热"
+    ],
+    "prerequisites": [
+      "能量守恒",
+      "比热容和温差"
+    ],
+    "flow": [
+      "系统边界",
+      "热量符号",
+      "微观能量",
+      "量热守恒",
+      "误差与模型"
+    ],
+    "concept_relation": "系统边界；热量符号；微观能量；量热守恒；误差与模型",
+    "deep": [
+      "若模型近似绝热并忽略未列通路，q_rxn+q_solution+q_cal=0。溶液可用mcΔT，量热器用C_calΔT，前提包括比热可视常量、温度均匀和无相变等。物质发生相变时还需潜热，不能把全段一律用同一比热乘温差。",
+      "误差方向应按漏掉的实际能量通路分析。放热实验向外散热，测得温升偏小，按简单式算出的放热量绝对值可能偏小；忽略容器吸热也会漏算一部分。不能背一句“实验误差使结果变大”而不指所说是带符号q还是其绝对值。",
+      "实验设计需混合前温度可比、搅拌与测量时点一致，并考虑质量、浓度与温度计响应。课堂模型数据不表示可随意混合未知试剂；实际实验应使用规范的学校装置与指导。最后报告热量、符号、系统及假设，不将反应热大小当反应速率的直接证据。"
+    ],
+    "derive": [
+      "系统吸热q>0，放热q<0；测得溶液升温不等于q_rxn>0。",
+      "理想隔热模型q_rxn=−(mc+C_cal)ΔT。",
+      "断键吸能、成键放能，净反应热取差；启动能垒不是ΔH。"
+    ],
+    "examples": [
+      {
+        "q": "100 g溶液温升5.0℃，c=4.2 J/(g·K)，忽略容器与外散热，反应q多少？ 条件：反应系统与溶液分别记热量。",
+        "given": "反应系统与溶液分别记热量。",
+        "analysis": "先算溶液再换符号。",
+        "method": "能量收支。",
+        "principle": "量热。",
+        "steps": [
+          "q_solution=100×4.2×5=2100 J。",
+          "q_rxn=−2100 J。"
+        ],
+        "ans": "−2.10 kJ，反应放热。",
+        "verification": "两项和0，升温溶液吸正热。",
+        "pitfall": "直接报+2.10 kJ为反应热。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.1",
+        "related_sections": []
+      },
+      {
+        "q": "200 g溶液c=4.0，量热器C=100 J/K，温升3.0 K，q_rxn？ 条件：c单位J/(g·K)，隔热且无其他通路。",
+        "given": "c单位J/(g·K)，隔热且无其他通路。",
+        "analysis": "容器也吸热。",
+        "method": "合热容。",
+        "principle": "守恒。",
+        "steps": [
+          "总热容200×4+100=900 J/K。",
+          "吸热2700 J，反应为−2700 J。"
+        ],
+        "ans": "−2.70 kJ。",
+        "verification": "溶液2400与容器300合2700。",
+        "pitfall": "漏C或把C再乘质量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.1",
+        "related_sections": []
+      },
+      {
+        "q": "一个放热反应需点燃才能明显进行，是否矛盾？ 条件：讨论净热与启动条件。",
+        "given": "讨论净热与启动条件。",
+        "analysis": "起始能垒不同于净能差。",
+        "method": "分开反应路径两量。",
+        "principle": "活化能。",
+        "steps": [
+          "初始需能量使体系越过反应能垒。",
+          "之后成键等净释放可超过断键所需，整体仍放热。"
+        ],
+        "ans": "不矛盾。",
+        "verification": "能量图可同时有正能垒和负净变化。",
+        "pitfall": "需加热就必吸热。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "反应从溶液吸走800 J，q_rxn符号？ 条件：仅该热通路。",
+        "given": "仅该热通路。",
+        "analysis": "系统获得热。",
+        "method": "按约定。",
+        "principle": "吸热为正。",
+        "steps": [
+          "反应吸热800。",
+          "q_rxn=+800 J。"
+        ],
+        "ans": "+800 J。",
+        "verification": "溶液对应−800 J。",
+        "pitfall": "吸热写负。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.1",
+        "related_sections": []
+      },
+      {
+        "q": "断开旧键是吸能还是放能？ 条件：比较分离同一对结合原子所需过程。",
+        "given": "比较分离同一对结合原子所需过程。",
+        "analysis": "破坏结合需供能。",
+        "method": "按键能定义。",
+        "principle": "键解离。",
+        "steps": [
+          "需对结合体系供能。",
+          "净燃烧放热来自形成新键的释放超过断旧键吸收。"
+        ],
+        "ans": "断键吸能。",
+        "verification": "不能由燃烧放热反推断键放热。",
+        "pitfall": "燃料断键释放全部能量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.1",
+        "related_sections": []
+      },
+      {
+        "q": "放热量热时有热漏到外界，仍只用溶液温升估算，绝对值常偏哪边？ 条件：其他条件相同且外界净吸热。",
+        "given": "其他条件相同且外界净吸热。",
+        "analysis": "溶液只吸部分。",
+        "method": "列未计热。",
+        "principle": "能量守恒。",
+        "steps": [
+          "反应放热分给溶液和外界。",
+          "只计溶液会低估总放热量绝对值。"
+        ],
+        "ans": "偏小。",
+        "verification": "带符号负q会更接近0，不能含混说数值偏小。",
+        "pitfall": "不说明符号就背偏大偏小。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.1",
+        "related_sections": []
+      },
+      {
+        "q": "100 g、c4.2的液体降2 K，自身q多少？ 条件：无相变，c单位J/(g·K)。",
+        "given": "无相变，c单位J/(g·K)。",
+        "analysis": "ΔT为终减初。",
+        "method": "q=mcΔT。",
+        "principle": "量热。",
+        "steps": [
+          "ΔT=−2。",
+          "q=100×4.2×(−2)=−840 J。"
+        ],
+        "ans": "−840 J。",
+        "verification": "降温对应放热。",
+        "pitfall": "温差只取正值。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "反应热绝对值较大是否必表示反应快？ 条件：没有速率数据与条件。",
+      "given": "没有速率数据与条件。",
+      "analysis": "热力学能差不同动力学。",
+      "method": "区分量。",
+      "principle": "反应能垒与速率。",
+      "steps": [
+        "净能差反映起末态能量变化。",
+        "速率还依能垒、温度、浓度等。"
+      ],
+      "ans": "不能据此断言。",
+      "verification": "慢反应也可能强放热。",
+      "pitfall": "ΔH大小当速率。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 19,
+      "primary_section": "19.1",
+      "related_sections": []
+    },
+    "exam": [
+      "先画系统边界，量热测得溶液q后再转换反应符号",
+      "按热容量逐项列所有吸热部分，必要时加入相变",
+      "误差写清漏热方向及比较带符号值还是绝对值"
+    ],
+    "quick": [
+      "系统边界",
+      "热量符号",
+      "微观能量",
+      "量热守恒",
+      "误差与模型"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 9,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_19.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+        "page_or_section": "5-2-calorimetry",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 9,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_19.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+        "page_or_section": "5-2-calorimetry",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先画系统边界，量热测得溶液q后再转换反应符号",
+      "method": "分开反应路径两量。",
+      "principle": "活化能。",
+      "worked_example_index": 2,
+      "verification": "能量图可同时有正能垒和负净变化。",
+      "pitfall": "需加热就必吸热。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“按系统边界辨吸放热与符号”的抽样复核：两项和0，升温溶液吸正热。；若出现“直接报+2.10 kJ为反应热。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“由量热数据和能量收支求反应热”的抽样复核：能量图可同时有正能垒和负净变化。；若出现“需加热就必吸热。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "ΔH大小当速率。",
+        "correction": "不能据此断言。",
+        "verification": "慢反应也可能强放热。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "量热系统的热量收支",
+      "objects": [
+        "反应系统",
+        "溶液",
+        "量热器",
+        "外界漏热箭头",
+        "温度计"
+      ],
+      "relations": [
+        "放热系统q负而溶液q正",
+        "隔热总q为0",
+        "漏热单列不隐藏"
+      ],
+      "labels": [
+        "q_rxn",
+        "mcΔT",
+        "C_calΔT",
+        "系统吸热为正"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "能量图可复用但须核系统边界、ΔH方向、系数和状态；不同条件不机械替换",
+      "english": "Use deterministic thermochemical diagrams. Define system and surroundings, distinguish heat from stored energy and activation energy from enthalpy change. Balance every equation and label phases, amount basis, temperature and pressure assumptions. A lower product enthalpy means negative reaction enthalpy."
+    }
+  },
+  "19.2": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 19,
+    "section_id": "19.2",
+    "goals": [
+      "把焓变与热量的适用条件区分",
+      "按方程系数、状态和反应进度缩放ΔH"
+    ],
+    "prerequisites": [
+      "物质的量",
+      "量热和化学方程式"
+    ],
+    "flow": [
+      "状态量",
+      "恒压条件",
+      "配平物态",
+      "反应进度",
+      "符号单位"
+    ],
+    "concept_relation": "状态量；恒压条件；配平物态；反应进度；符号单位",
+    "deep": [
+      "把方程逆向写，起末态互换使ΔH反号；全部系数乘某常数，ΔH也同比缩放。系数可因表示1 mol生成量而用分数，不表示真实单次分子事件切半。计算中应以物质的量和宏观反应基准理解。",
+      "标准反应焓的标准态与所选温度有关。标准压力通常取1 bar，不能与气体摩尔体积所说0℃、1 atm等条件混为一谈；“标准”也不意味着温度可忽略。若只引用题设焓值，可注明其给定条件，不自行补造未经查证的实验条件或2027考纲数值。",
+      "完整计算先配方程、认状态和基准，再用实际反应量缩放，最后核符号与单位。若有限量反应物，应先判断反应进度由谁限制；不能把过量物质全量也算入释放热。将每mol和总kJ分开报告，可避免结果看似数量正确却基准错误。"
+    ],
+    "derive": [
+      "恒压且只有适当体积功等条件下q_p=ΔH；H=U+pV。",
+      "反向方程ΔH反号；系数整体乘r，ΔH也乘r。",
+      "实际热量由反应进度ξ缩放；基准是所写整式，不自动是任一产物1 mol。"
+    ],
+    "examples": [
+      {
+        "q": "N₂(g)+3H₂(g)→2NH₃(g)，ΔH=−92 kJ。生成1 mol NH₃对应多少热？ 条件：在题设同温同状态且完全按该反应进行。",
+        "given": "在题设同温同状态且完全按该反应进行。",
+        "analysis": "方程基准为2 mol氨。",
+        "method": "按反应进度缩放。",
+        "principle": "焓为广延变化。",
+        "steps": [
+          "1/2份方程生成1 mol氨。",
+          "ΔH=(−92)/2=−46 kJ。"
+        ],
+        "ans": "−46 kJ。",
+        "verification": "每mol氨−46，与整式−92区别。",
+        "pitfall": "把−92直接当1mol氨。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.2",
+        "related_sections": []
+      },
+      {
+        "q": "将上述氨合成方程逆向且系数加倍，焓变多少？ 条件：沿用给定−92 kJ基准。",
+        "given": "沿用给定−92 kJ基准。",
+        "analysis": "两种操作各影响。",
+        "method": "先反号再乘2。",
+        "principle": "状态差线性。",
+        "steps": [
+          "逆向为+92。",
+          "加倍为+184 kJ。"
+        ],
+        "ans": "+184 kJ。",
+        "verification": "分解4 mol氨是两份逆式。",
+        "pitfall": "只反号不倍增。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.2",
+        "related_sections": []
+      },
+      {
+        "q": "1 mol N₂与2 mol H₂反应，按给定ΔH=−92 kJ的氨合成式求热量。 条件：完全反应到限量物耗尽，无副反应。",
+        "given": "完全反应到限量物耗尽，无副反应。",
+        "analysis": "H₂只够2/3份方程。",
+        "method": "限量后缩放。",
+        "principle": "计量关系。",
+        "steps": [
+          "N₂许可1份，H₂许可2/3份，取较小。",
+          "q=(2/3)(−92)=−61.33 kJ。"
+        ],
+        "ans": "约−61.3 kJ。",
+        "verification": "耗N₂2/3 mol、生成NH₃4/3 mol，余N₂1/3。",
+        "pitfall": "按全部N₂算−92。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "H₂O(l)和H₂O(g)能在热化学方程中无条件互换吗？ 条件：温度压力相同。",
+        "given": "温度压力相同。",
+        "analysis": "物态焓不同。",
+        "method": "检查状态变化。",
+        "principle": "焓是状态量。",
+        "steps": [
+          "液体变气体涉及汽化焓。",
+          "替换状态会改变反应ΔH。"
+        ],
+        "ans": "不能。",
+        "verification": "需另加入相变焓。",
+        "pitfall": "化学式相同就能量同。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.2",
+        "related_sections": []
+      },
+      {
+        "q": "某整式ΔH=+120 kJ，全部系数除3后？ 条件：同条件反应基准。",
+        "given": "同条件反应基准。",
+        "analysis": "量缩为1/3。",
+        "method": "线性缩放。",
+        "principle": "广延性。",
+        "steps": [
+          "120/3=40。",
+          "吸热符号仍正。"
+        ],
+        "ans": "+40 kJ。",
+        "verification": "不是反向故不改符号。",
+        "pitfall": "分数系数时符号改变。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.2",
+        "related_sections": []
+      },
+      {
+        "q": "恒容测得反应q，能不核其他条件直接说q=ΔH吗？ 条件：没有恒压与功条件说明。",
+        "given": "没有恒压与功条件说明。",
+        "analysis": "两者对应条件不同。",
+        "method": "回定义。",
+        "principle": "热力学能量关系。",
+        "steps": [
+          "恒容情形常联系ΔU。",
+          "q=ΔH需相应恒压及功条件，不能无条件替换。"
+        ],
+        "ans": "不能。",
+        "verification": "是否ΔpV贡献可忽略须另有依据。",
+        "pitfall": "所有反应热都等ΔH。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.2",
+        "related_sections": []
+      },
+      {
+        "q": "“标准焓变”是否自动表示0℃、1 atm？ 条件：指化学热力学标准态。",
+        "given": "指化学热力学标准态。",
+        "analysis": "与气体体积标准约定不同。",
+        "method": "核温压约定。",
+        "principle": "标准态定义。",
+        "steps": [
+          "标准压力通常1 bar。",
+          "温度应另标，不自动是0℃。"
+        ],
+        "ans": "不是。",
+        "verification": "不能由标准二字直接代22.4L/mol。",
+        "pitfall": "混用STP和标准焓。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "催化剂改变同温同起末状态反应路径，能否仅由路径改变而改ΔH？ 条件：催化剂最终再生，起末系统一致。",
+      "given": "催化剂最终再生，起末系统一致。",
+      "analysis": "状态量不依路径。",
+      "method": "对照起末焓。",
+      "principle": "焓状态函数。",
+      "steps": [
+        "起态和末态H不变。",
+        "二者差ΔH不因中间路径改变。"
+      ],
+      "ans": "不能仅因路径改变ΔH。",
+      "verification": "能垒可变而ΔH不变。",
+      "pitfall": "催化降低能垒就减反应热。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 19,
+      "primary_section": "19.2",
+      "related_sections": []
+    },
+    "exam": [
+      "热化学先标状态、整式基准、温压条件",
+      "实际热量先解限量与反应进度，再同比缩放",
+      "标准态与气体温压约定分开，不能自动套摩尔体积"
+    ],
+    "quick": [
+      "状态量",
+      "恒压条件",
+      "配平物态",
+      "反应进度",
+      "符号单位"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 9,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_19.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+        "page_or_section": "5-3-enthalpy",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 9,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_19.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+        "page_or_section": "5-3-enthalpy",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "热化学先标状态、整式基准、温压条件",
+      "method": "限量后缩放。",
+      "principle": "计量关系。",
+      "worked_example_index": 2,
+      "verification": "耗N₂2/3 mol、生成NH₃4/3 mol，余N₂1/3。",
+      "pitfall": "按全部N₂算−92。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“把焓变与热量的适用条件区分”的抽样复核：每mol氨−46，与整式−92区别。；若出现“把−92直接当1mol氨。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“按方程系数、状态和反应进度缩放ΔH”的抽样复核：耗N₂2/3 mol、生成NH₃4/3 mol，余N₂1/3。；若出现“按全部N₂算−92。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "催化降低能垒就减反应热。",
+        "correction": "不能仅因路径改变ΔH。",
+        "verification": "能垒可变而ΔH不变。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "热化学方程的基准与缩放",
+      "objects": [
+        "氨合成平衡式",
+        "2mol基准",
+        "半份整式",
+        "逆向双倍"
+      ],
+      "relations": [
+        "1mol氨对应−46kJ",
+        "逆向双倍+184kJ",
+        "状态标签保持"
+      ],
+      "labels": [
+        "N₂+3H₂→2NH₃",
+        "ΔH=−92kJ",
+        "反应进度"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "能量图可复用但须核系统边界、ΔH方向、系数和状态；不同条件不机械替换",
+      "english": "Use deterministic thermochemical diagrams. Define system and surroundings, distinguish heat from stored energy and activation energy from enthalpy change. Balance every equation and label phases, amount basis, temperature and pressure assumptions. A lower product enthalpy means negative reaction enthalpy."
+    }
+  },
+  "19.3.1": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 19,
+    "section_id": "19.3.1",
+    "goals": [
+      "按标准态元素生成1mol物质写方程",
+      "用生成焓求反应焓并区分元素参考零点"
+    ],
+    "prerequisites": [
+      "化学方程式",
+      "焓的状态函数"
+    ],
+    "flow": [
+      "定义基准",
+      "参考元素",
+      "系数求和",
+      "未知反解",
+      "适用边界"
+    ],
+    "concept_relation": "定义基准；参考元素；系数求和；未知反解；适用边界",
+    "deep": [
+      "由状态函数性质，可从共同的元素参考态比较反应物与产物，得到Δ_rH°=ΣνΔ_fH°(产物)−ΣνΔ_fH°(反应物)。每项必须乘平衡系数，并使用一致温度和物态的数据。元素零值仅在确为对应参考态时适用。",
+      "表中负生成焓表示相对所选元素参考态生成时放热，不直接保证该物质在任何环境都绝不分解，也不等于形成速率快。稳定性、反应方向与实际速率是不同问题，不能只比较一个焓值就得出所有条件下的自发性结论。",
+      "使用题给近似数据时，最终答案精度应与数据相称，并清楚标注数值为题设模型数据，而不是重新宣称标准实验常数。求未知生成焓可把上述关系当线性方程解，最后代回原反应核符号、系数与每mol基准。"
+    ],
+    "derive": [
+      "Δ_fH°基准：由标准参考态元素生成1 mol指定状态物质。",
+      "Δ_rH°=ΣνΔ_fH°_products−ΣνΔ_fH°_reactants。",
+      "参考态元素生成焓0是约定零点，不是绝对无能量。"
+    ],
+    "examples": [
+      {
+        "q": "写生成1 mol液态水的参考反应。 条件：元素参考态H₂(g)、O₂(g)。",
+        "given": "元素参考态H₂(g)、O₂(g)。",
+        "analysis": "产物基准必须1mol。",
+        "method": "配原子数。",
+        "principle": "摩尔生成焓定义。",
+        "steps": [
+          "H₂(g)+(1/2)O₂(g)→H₂O(l)。",
+          "氢2、氧1均守恒。"
+        ],
+        "ans": "上述方程。",
+        "verification": "若写2H₂+O₂→2H₂O，热量基准需除2才为摩尔生成焓。",
+        "pitfall": "不核产物为1mol。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.3.1",
+        "related_sections": []
+      },
+      {
+        "q": "CH₄(g)+2O₂(g)→CO₂(g)+2H₂O(l)，给ΔfH分别−75、0、−394、−286 kJ/mol，求ΔrH。 条件：数据仅按题设同条件使用。",
+        "given": "数据仅按题设同条件使用。",
+        "analysis": "产减反，各乘系数。",
+        "method": "生成焓法。",
+        "principle": "Hess状态差。",
+        "steps": [
+          "产物和=−394+2(−286)=−966。",
+          "反应物和−75，差−966−(−75)=−891 kJ。"
+        ],
+        "ans": "整式−891 kJ。",
+        "verification": "负号对应放热，水系数2已计。",
+        "pitfall": "反减产或减负错。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.3.1",
+        "related_sections": []
+      },
+      {
+        "q": "A→2B的ΔH=+50 kJ，给ΔfH(B)=−20 kJ/mol，求A生成焓。 条件：同状态同条件，方程按1molA。",
+        "given": "同状态同条件，方程按1molA。",
+        "analysis": "把未知放入产减反。",
+        "method": "线性求解。",
+        "principle": "生成焓关系。",
+        "steps": [
+          "50=2(−20)−ΔfH(A)。",
+          "ΔfH(A)=−90 kJ/mol。"
+        ],
+        "ans": "−90 kJ/mol。",
+        "verification": "−40−(−90)=50。",
+        "pitfall": "把未知符号移错。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.3.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "参考态元素ΔfH°=0表示没有能量吗？ 条件：讨论约定参考值。",
+        "given": "讨论约定参考值。",
+        "analysis": "相对零点不等绝对零。",
+        "method": "区分定义。",
+        "principle": "状态函数参考。",
+        "steps": [
+          "零用于比较生成过程。",
+          "不代表内能或化学键不存在。"
+        ],
+        "ans": "不表示。",
+        "verification": "像高度零点可人为约定。",
+        "pitfall": "零焓就是绝对无能量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.3.1",
+        "related_sections": []
+      },
+      {
+        "q": "CO+(1/2)O₂→CO₂是CO₂标准生成反应吗？ 条件：CO不是元素参考态。",
+        "given": "CO不是元素参考态。",
+        "analysis": "定义要求原料元素。",
+        "method": "核反应物。",
+        "principle": "生成焓定义。",
+        "steps": [
+          "CO是化合物。",
+          "因此该式不是从元素生成CO₂的定义反应。"
+        ],
+        "ans": "不是。",
+        "verification": "它可为CO燃烧反应。",
+        "pitfall": "产物1mol就一律生成热。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.3.1",
+        "related_sections": []
+      },
+      {
+        "q": "产物生成焓系数和−300、反应物和−180 kJ，ΔrH？ 条件：同条件与整式基准。",
+        "given": "同条件与整式基准。",
+        "analysis": "产减反。",
+        "method": "−300−(−180)。",
+        "principle": "状态差。",
+        "steps": [
+          "差=−120。",
+          "净放热。"
+        ],
+        "ans": "−120 kJ。",
+        "verification": "反向应+120。",
+        "pitfall": "把两个负数直接加。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.3.1",
+        "related_sections": []
+      },
+      {
+        "q": "不同同素异形体都因是元素而生成焓自动0吗？ 条件：指定标准参考态。",
+        "given": "指定标准参考态。",
+        "analysis": "参考结构只选特定状态。",
+        "method": "核定义。",
+        "principle": "同素异形体焓不同。",
+        "steps": [
+          "只有相应参考态按约定为0。",
+          "其他形态可有非零相对生成焓。"
+        ],
+        "ans": "不自动为0。",
+        "verification": "元素名称相同不等结构相同。",
+        "pitfall": "元素一律零。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.3.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "负生成焓能否单独证明该物质在所有条件下稳定且生成快？ 条件：未给熵、条件或速率资料。",
+      "given": "未给熵、条件或速率资料。",
+      "analysis": "热量指标不足。",
+      "method": "分开热力学方向与动力学。",
+      "principle": "ΔH不是全部判据。",
+      "steps": [
+        "实际方向还受温度、熵、组成等影响。",
+        "形成速率另受反应路径和能垒影响。"
+      ],
+      "ans": "不能。",
+      "verification": "不可由一个表值宣布所有环境性质。",
+      "pitfall": "单一焓值包办方向速率。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 19,
+      "primary_section": "19.3.1",
+      "related_sections": []
+    },
+    "exam": [
+      "生成反应先看元素参考态和产物1mol，物态完整",
+      "表值法逐项写系数乘值，最后产减反",
+      "未知值回代检查，零参考不解释为无能量"
+    ],
+    "quick": [
+      "定义基准",
+      "参考元素",
+      "系数求和",
+      "未知反解",
+      "适用边界"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 9,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_19.3.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+        "page_or_section": "5-3-enthalpy",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 9,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_19.3.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+        "page_or_section": "5-3-enthalpy",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "生成反应先看元素参考态和产物1mol，物态完整",
+      "method": "线性求解。",
+      "principle": "生成焓关系。",
+      "worked_example_index": 2,
+      "verification": "−40−(−90)=50。",
+      "pitfall": "把未知符号移错。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“按标准态元素生成1mol物质写方程”的抽样复核：若写2H₂+O₂→2H₂O，热量基准需除2才为摩尔生成焓。；若出现“不核产物为1mol。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用生成焓求反应焓并区分元素参考零点”的抽样复核：−40−(−90)=50。；若出现“把未知符号移错。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "单一焓值包办方向速率。",
+        "correction": "不能。",
+        "verification": "不可由一个表值宣布所有环境性质。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "生成焓共同参考态循环",
+      "objects": [
+        "参考态元素",
+        "反应物层",
+        "产物层",
+        "两条生成路径",
+        "焓差"
+      ],
+      "relations": [
+        "反应焓为产物生成和减反应物生成和",
+        "每项乘系数",
+        "零点仅参考态"
+      ],
+      "labels": [
+        "ΔfH°",
+        "1mol",
+        "标准参考态",
+        "Σ产−Σ反"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "能量图可复用但须核系统边界、ΔH方向、系数和状态；不同条件不机械替换",
+      "english": "Use deterministic thermochemical diagrams. Define system and surroundings, distinguish heat from stored energy and activation energy from enthalpy change. Balance every equation and label phases, amount basis, temperature and pressure assumptions. A lower product enthalpy means negative reaction enthalpy."
+    }
+  },
+  "19.3.2": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 19,
+    "section_id": "19.3.2",
+    "goals": [
+      "按1mol燃料完全燃烧定义热量基准",
+      "区分水物态、总放热与有效供热"
+    ],
+    "prerequisites": [
+      "生成焓",
+      "燃烧配平与物质的量"
+    ],
+    "flow": [
+      "完全燃烧",
+      "方程基准",
+      "物态",
+      "热值换算",
+      "有效能量"
+    ],
+    "concept_relation": "完全燃烧；方程基准；物态；热值换算；有效能量",
+    "deep": [
+      "水生成液态或气态会影响放热值，因为水蒸气凝结可额外向环境放热。比较高、低热值或不同数据表时应核水状态，不能仅凭同一种燃料名字就把数值混用。条件和定义不同的两热值并不一定说明其中一个计算错误。",
+      "实验中燃烧器加热水，只把水升温测得的热除以燃料量，通常还受容器吸热、外界散热及不完全燃烧影响。装置测到的是实际捕获能量，不自动等于标准完全燃烧焓。误差评价需分别说各因素怎样影响所推绝对值，不把所有差异归于“仪器不准”。",
+      "实际供能还要乘有效利用率，比较燃料可用每单位有用能量的成本或排放，不能只看每mol热量。分子较大每mol放热较多不一定每kg更好。计算后核质量、摩尔质量、反应物量和效率，避免同一个损失率被重复扣除。"
+    ],
+    "derive": [
+      "完全燃烧产物及物态明确后，q=n_fuel Δ_cH（相同条件基准）。",
+      "正热值通常为|Δ_cH|按某质量基准换算，符号要说明。",
+      "Q_useful=ηQ_released；水蒸气与液态水对应热值不能无条件混用。"
+    ],
+    "examples": [
+      {
+        "q": "某燃料摩尔质量16 g/mol，题给ΔcH=−800 kJ/mol，4.0 g完全燃烧的q？ 条件：按给定产物状态，无其他能量修正。",
+        "given": "按给定产物状态，无其他能量修正。",
+        "analysis": "先质量转mol。",
+        "method": "n=m/M。",
+        "principle": "热量随反应量缩放。",
+        "steps": [
+          "n=4/16=0.25 mol。",
+          "q=0.25×(−800)=−200 kJ。"
+        ],
+        "ans": "−200 kJ，释放200 kJ。",
+        "verification": "对应正质量热值50 kJ/g。",
+        "pitfall": "4直接乘摩尔焓。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.3.2",
+        "related_sections": []
+      },
+      {
+        "q": "燃烧释放500 kJ，有效加热效率40%，有用热多少？ 条件：释放量用正大小。",
+        "given": "释放量用正大小。",
+        "analysis": "效率乘输入能。",
+        "method": "Q_useful=ηQ。",
+        "principle": "能量利用率。",
+        "steps": [
+          "η=.40。",
+          "Q_useful=.40×500=200 kJ。"
+        ],
+        "ans": "200 kJ。",
+        "verification": "损失300，二者和500。",
+        "pitfall": "把500除.4。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.3.2",
+        "related_sections": []
+      },
+      {
+        "q": "同燃料生成水蒸气与生成液态水，哪一放热绝对值通常较大？ 条件：起始条件相同，末温相同，比较含凝结过程。",
+        "given": "起始条件相同，末温相同，比较含凝结过程。",
+        "analysis": "蒸气凝结另放热。",
+        "method": "构造末态变化。",
+        "principle": "相变焓与Hess。",
+        "steps": [
+          "蒸气产物再凝结会释放额外热。",
+          "因此生成液态水的总放热绝对值较大，ΔH更负。"
+        ],
+        "ans": "液态水产物情形。",
+        "verification": "应有相同水量和温度才可比较。",
+        "pitfall": "物态不影响燃烧热。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.3.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "配平1 mol C₂H₆的完全燃烧式。 条件：产物CO₂(g)、H₂O(l)。",
+        "given": "产物CO₂(g)、H₂O(l)。",
+        "analysis": "先C后H再O。",
+        "method": "原子守恒。",
+        "principle": "化学计量。",
+        "steps": [
+          "给2CO₂、3H₂O，共7个O原子。",
+          "需(7/2)O₂。"
+        ],
+        "ans": "C₂H₆+(7/2)O₂→2CO₂+3H₂O。",
+        "verification": "C2H6O7两侧一致。",
+        "pitfall": "为整数加倍但仍用1mol热量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.3.2",
+        "related_sections": []
+      },
+      {
+        "q": "热值30 MJ/kg，2.0 kg燃料释放多少？ 条件：完全燃烧且使用同基准热值。",
+        "given": "完全燃烧且使用同基准热值。",
+        "analysis": "质量乘质量热值。",
+        "method": "Q=mH。",
+        "principle": "广延量。",
+        "steps": [
+          "2×30=60。",
+          "单位MJ。"
+        ],
+        "ans": "60 MJ。",
+        "verification": "每kg30，两kg60。",
+        "pitfall": "与mol基准混用。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.3.2",
+        "related_sections": []
+      },
+      {
+        "q": "燃烧加热水时漏计容器吸热，对推得燃烧热绝对值常怎样？ 条件：其他条件相同且容器确实升温。",
+        "given": "其他条件相同且容器确实升温。",
+        "analysis": "水只接收部分。",
+        "method": "能量收支。",
+        "principle": "守恒。",
+        "steps": [
+          "实际释放分给水及容器等。",
+          "只计水会漏一部分。"
+        ],
+        "ans": "通常偏小。",
+        "verification": "带符号ΔH则可能偏向0。",
+        "pitfall": "只说偏大偏小不讲绝对值。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.3.2",
+        "related_sections": []
+      },
+      {
+        "q": "缺氧生成CO，还能无条件使用生成CO₂的完全燃烧热吗？ 条件：产物已改变。",
+        "given": "产物已改变。",
+        "analysis": "末态不同。",
+        "method": "检查热化学方程。",
+        "principle": "焓依状态。",
+        "steps": [
+          "CO未继续氧化成CO₂。",
+          "反应路径终点不同，需对应热效应。"
+        ],
+        "ans": "不能。",
+        "verification": "后续CO氧化还可放热。",
+        "pitfall": "同燃料质量就热相同。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.3.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "每mol释放热较多，必表示每kg释放热较多吗？ 条件：不同燃料摩尔质量可能不同。",
+      "given": "不同燃料摩尔质量可能不同。",
+      "analysis": "单位基准不同。",
+      "method": "换成同质量基准。",
+      "principle": "比量比较。",
+      "steps": [
+        "应将每mol热除以摩尔质量。",
+        "仅知分子量基准值不能保证质量基准排序。"
+      ],
+      "ans": "不必。",
+      "verification": "大分子每mol包含更多物质量。",
+      "pitfall": "不同基准直接比。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 19,
+      "primary_section": "19.3.2",
+      "related_sections": []
+    },
+    "exam": [
+      "燃烧先配平且标水物态，确认1mol燃料基准",
+      "把反应负焓、正释放量、有效热三栏分开",
+      "比较先统一mol或kg，再审效率及不完全燃烧"
+    ],
+    "quick": [
+      "完全燃烧",
+      "方程基准",
+      "物态",
+      "热值换算",
+      "有效能量"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 9,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_19.3.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+        "page_or_section": "5-3-enthalpy",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 9,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_19.3.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+        "page_or_section": "5-3-enthalpy",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "燃烧先配平且标水物态，确认1mol燃料基准",
+      "method": "构造末态变化。",
+      "principle": "相变焓与Hess。",
+      "worked_example_index": 2,
+      "verification": "应有相同水量和温度才可比较。",
+      "pitfall": "物态不影响燃烧热。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“按1mol燃料完全燃烧定义热量基准”的抽样复核：对应正质量热值50 kJ/g。；若出现“4直接乘摩尔焓。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分水物态、总放热与有效供热”的抽样复核：应有相同水量和温度才可比较。；若出现“物态不影响燃烧热。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "不同基准直接比。",
+        "correction": "不必。",
+        "verification": "大分子每mol包含更多物质量。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "燃烧热与末态水",
+      "objects": [
+        "燃料加氧",
+        "CO₂与水蒸气",
+        "水凝结支路",
+        "有效能与损失分流"
+      ],
+      "relations": [
+        "同量蒸气凝结另放热",
+        "有效能为η乘释放大小",
+        "方程原子守恒"
+      ],
+      "labels": [
+        "ΔcH<0",
+        "Q_release>0",
+        "H₂O(g)",
+        "H₂O(l)",
+        "η"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "能量图可复用但须核系统边界、ΔH方向、系数和状态；不同条件不机械替换",
+      "english": "Use deterministic thermochemical diagrams. Define system and surroundings, distinguish heat from stored energy and activation energy from enthalpy change. Balance every equation and label phases, amount basis, temperature and pressure assumptions. A lower product enthalpy means negative reaction enthalpy."
+    }
+  },
+  "19.3.3": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 19,
+    "section_id": "19.3.3",
+    "goals": [
+      "按生成1mol水定义中和焓并识别限量",
+      "解释强弱酸碱和实验条件对结果的影响"
+    ],
+    "prerequisites": [
+      "酸碱与离子方程",
+      "浓度和量热"
+    ],
+    "flow": [
+      "净反应",
+      "限量水量",
+      "量热",
+      "强弱差异",
+      "公平比较"
+    ],
+    "concept_relation": "净反应；限量水量；量热；强弱差异；公平比较",
+    "deep": [
+      "实验用温升推热量时，应计反应后混合液总质量、相应比热、容器热容及外散热。两溶液初温不同还需先处理混合能量基线；温度计读值不是直接反应焓，必须通过收支并除以实际生成水的量。",
+      "限量计算先将酸碱按可参与中和的当量比较，再求水量；若未完全反应或存在其他途径，需要题设支持。过量强酸或强碱会影响终液组成，但多加一倍过量物不意味着已经生成的水量也加倍，热量不能用总加液量机械推算。",
+      "对实验结果应明确“教学建议步骤”与官方评分依据的区别。本节数值为题设演算，不宣布固定的学校或2027统考标准答案常数。比较两个数据时先统一每mol水、温度、浓度和热损条件，再讨论理论差异而不是只比总温升。"
+    ],
+    "derive": [
+      "H⁺+OH⁻→H₂O；摩尔中和焓以生成水量n_water为基准。",
+      "在所用量热模型ΔH_neut=−(mc+C_cal)ΔT/n_water。",
+      "先求限量，再核强弱、稀释与初温条件；总温升不能直接比较摩尔焓。"
+    ],
+    "examples": [
+      {
+        "q": "100 g混合液c=4.2 J/(g·K)，升6.8 K，生成水0.050 mol，求中和焓。 条件：忽略容器及外散热，恒压适用条件。",
+        "given": "忽略容器及外散热，恒压适用条件。",
+        "analysis": "先热量再除水mol。",
+        "method": "量热与基准。",
+        "principle": "q_rxn=−mcΔT。",
+        "steps": [
+          "q=−100×4.2×6.8=−2856 J。",
+          "除.050得−57120 J/mol。"
+        ],
+        "ans": "约−57.1 kJ/mol水。",
+        "verification": "0.05×57.12=2.856 kJ，与吸热相抵。",
+        "pitfall": "只报−2856当摩尔焓。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.3.3",
+        "related_sections": []
+      },
+      {
+        "q": "0.100 L、0.50 mol/L HCl与0.080 L、0.50 mol/L NaOH反应，生成水多少，若每mol水放57 kJ，总释放多少？ 条件：均稀强电解质且完全反应，无其他热效应。",
+        "given": "均稀强电解质且完全反应，无其他热效应。",
+        "analysis": "OH⁻较少。",
+        "method": "先限量。",
+        "principle": "1:1净离子比。",
+        "steps": [
+          "酸.050 mol、碱.040 mol，水.040 mol。",
+          "释放.040×57=2.28 kJ。"
+        ],
+        "ans": "0.040 mol水；释放2.28 kJ。",
+        "verification": "酸剩.010 mol；不能按总.09mol算。",
+        "pitfall": "酸碱mol相加作水量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.3.3",
+        "related_sections": []
+      },
+      {
+        "q": "弱酸和强碱中和热为何不必等于同条件强酸强碱？ 条件：考虑弱酸电离相关热效应。",
+        "given": "考虑弱酸电离相关热效应。",
+        "analysis": "净过程多了电离调整。",
+        "method": "分解反应路径。",
+        "principle": "Hess与平衡。",
+        "steps": [
+          "弱酸需随消耗进一步电离。",
+          "电离等热效应和成水热共同决定总量。"
+        ],
+        "ans": "不能无条件视为相同。",
+        "verification": "不以弱=稀来解释。",
+        "pitfall": "所有酸碱都只有自由H⁺反应。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.3.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "0.10 mol H₂SO₄足量与OH⁻完全中和，可生成几mol水？ 条件：题设两质子全部中和。",
+        "given": "题设两质子全部中和。",
+        "analysis": "需2个OH⁻每酸。",
+        "method": "配平。",
+        "principle": "酸碱计量。",
+        "steps": [
+          "H₂SO₄+2OH⁻→SO₄²⁻+2H₂O。",
+          "水=.10×2=.20 mol。"
+        ],
+        "ans": "0.20 mol。",
+        "verification": "条件明确完全中和，不自动假设每酸1水。",
+        "pitfall": "一mol酸等一mol水。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.3.3",
+        "related_sections": []
+      },
+      {
+        "q": "25 mL与25 mL两液混合，密度均1.0 g/mL，近似总质量？ 条件：体积可近似相加，忽略损失。",
+        "given": "体积可近似相加，忽略损失。",
+        "analysis": "两液都吸热。",
+        "method": "总质量相加。",
+        "principle": "守恒。",
+        "steps": [
+          "各25 g。",
+          "总50 g。"
+        ],
+        "ans": "50 g。",
+        "verification": "不能只取其中25 g。",
+        "pitfall": "漏一半液体质量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.3.3",
+        "related_sections": []
+      },
+      {
+        "q": "同浓度强酸和弱酸的“强弱”由浓度定义吗？ 条件：比较电离性质。",
+        "given": "比较电离性质。",
+        "analysis": "强弱不同稀浓。",
+        "method": "分开属性。",
+        "principle": "电解质概念。",
+        "steps": [
+          "强弱指相应条件下电离倾向。",
+          "浓度指每体积分析量。"
+        ],
+        "ans": "不由浓度定义。",
+        "verification": "弱酸可以有较高分析浓度。",
+        "pitfall": "强酸必浓。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.3.3",
+        "related_sections": []
+      },
+      {
+        "q": "同一限量酸固定、碱已过量，再加少量碱必使中和生成水加倍吗？ 条件：酸已完全中和。",
+        "given": "酸已完全中和。",
+        "analysis": "限量已耗尽。",
+        "method": "检查反应进度。",
+        "principle": "计量限制。",
+        "steps": [
+          "无剩余可中和酸。",
+          "不因碱再增加就生成等量额外水，其他稀释热另算。"
+        ],
+        "ans": "不必，原中和水量受酸限量。",
+        "verification": "区分中和热和混合热。",
+        "pitfall": "加液多就中和热同比多。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.3.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "两个实验温升不同，能直接判每mol水的中和焓不同吗？ 条件：混合质量、水mol及热损可能不同。",
+      "given": "混合质量、水mol及热损可能不同。",
+      "analysis": "温升由热容和热量共同决定。",
+      "method": "统一基准。",
+      "principle": "q=CΔT及摩尔化。",
+      "steps": [
+        "先算各总吸热并修正适用通路。",
+        "再除各生成水量，以相同条件比较。"
+      ],
+      "ans": "不能直接判。",
+      "verification": "同摩尔焓也可因溶液质量不同而ΔT不同。",
+      "pitfall": "只比温升。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 19,
+      "primary_section": "19.3.3",
+      "related_sections": []
+    },
+    "exam": [
+      "先写净离子或完整计量求水量，再量热除mol",
+      "强弱与稀浓分开，弱电解质及稀释热按条件判断",
+      "比较实验统一初温、总质量、容器和热损，不将温升当摩尔焓"
+    ],
+    "quick": [
+      "净反应",
+      "限量水量",
+      "量热",
+      "强弱差异",
+      "公平比较"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 9,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_19.3.3",
+        "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+        "page_or_section": "5-3-enthalpy",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 9,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_19.3.3",
+        "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+        "page_or_section": "5-3-enthalpy",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先写净离子或完整计量求水量，再量热除mol",
+      "method": "分解反应路径。",
+      "principle": "Hess与平衡。",
+      "worked_example_index": 2,
+      "verification": "不以弱=稀来解释。",
+      "pitfall": "所有酸碱都只有自由H⁺反应。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“按生成1mol水定义中和焓并识别限量”的抽样复核：0.05×57.12=2.856 kJ，与吸热相抵。；若出现“只报−2856当摩尔焓。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“解释强弱酸碱和实验条件对结果的影响”的抽样复核：不以弱=稀来解释。；若出现“所有酸碱都只有自由H⁺反应。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "只比温升。",
+        "correction": "不能直接判。",
+        "verification": "同摩尔焓也可因溶液质量不同而ΔT不同。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "中和量热与限量水量",
+      "objects": [
+        "H⁺与OH⁻数目",
+        "剩余酸",
+        "水量",
+        "混合液量热杯"
+      ],
+      "relations": [
+        "1比1生成水",
+        "过量离子不算额外水",
+        "两液总质量用于mcΔT"
+      ],
+      "labels": [
+        "n_water",
+        "限量",
+        "q_rxn",
+        "kJ/mol水"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "能量图可复用但须核系统边界、ΔH方向、系数和状态；不同条件不机械替换",
+      "english": "Use deterministic thermochemical diagrams. Define system and surroundings, distinguish heat from stored energy and activation energy from enthalpy change. Balance every equation and label phases, amount basis, temperature and pressure assumptions. A lower product enthalpy means negative reaction enthalpy."
+    }
+  },
+  "19.3.4": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 19,
+    "section_id": "19.3.4",
+    "goals": [
+      "通过反向缩放和消去组合目标反应",
+      "区分生成焓与平均键焓等计算依据"
+    ],
+    "prerequisites": [
+      "焓状态函数",
+      "配平与代数消元"
+    ],
+    "flow": [
+      "目标反应",
+      "方向倍数",
+      "计量消元",
+      "焓加和",
+      "状态与模型"
+    ],
+    "concept_relation": "目标反应；方向倍数；计量消元；焓加和；状态与模型",
+    "deep": [
+      "以元素参考态为共同起点可推导生成焓求和式，这是一种黑斯应用。另一种估算用气相平均键焓：先断键吸能，再成键放能，故ΔH约为Σ断键能−Σ成键能。平均键焓依分子环境有近似性，不能与特定物态的精确生成焓法无条件等同。",
+      "图示可将各状态放在节点、反应放在箭头上，沿不同路径净焓差相同。箭头反向时符号也必须反向；闭合一周的焓变代数和为0。图中竖向高度若标焓，箭头应与数值方向一致，而不是为排版把正负随便摆。",
+      "求未知热效应后用原目标式逐物质核计量，再算数值和单位。可逆向把目标和已知步骤组合复原另一条给定反应作为交叉检查。不能用一个正确加法结果掩盖错误的反应方向，也不能编造来源数值来填循环缺口。"
+    ],
+    "derive": [
+      "若Σr_i反应_i=目标式，则ΔH_target=Σr_iΔH_i；r_i<0含反向。",
+      "消元需化学式、物态、条件匹配；闭合焓循环代数和0。",
+      "平均键焓估算ΔH≈ΣD_broken−ΣD_formed，仅按相应气相近似。"
+    ],
+    "examples": [
+      {
+        "q": "给C+O₂→CO₂，ΔH=−394 kJ；C+(1/2)O₂→CO，ΔH=−111 kJ，求CO+(1/2)O₂→CO₂的ΔH。 条件：C参考态与气体状态、温度一致。",
+        "given": "C参考态与气体状态、温度一致。",
+        "analysis": "目标消去C且CO在左。",
+        "method": "第一式加第二式逆向。",
+        "principle": "Hess。",
+        "steps": [
+          "逆第二式为CO→C+(1/2)O₂，ΔH=+111。",
+          "与第一式相加消C和半份O₂，热量−394+111=−283。"
+        ],
+        "ans": "−283 kJ。",
+        "verification": "目标再加CO生成式−111应还原−394。",
+        "pitfall": "直接−394−111。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.3.4",
+        "related_sections": []
+      },
+      {
+        "q": "A→B焓变+40，B→C焓变−70，求C→A。 条件：同一组状态，kJ为整式热量。",
+        "given": "同一组状态，kJ为整式热量。",
+        "analysis": "先求A到C再逆向。",
+        "method": "路径加和。",
+        "principle": "状态函数。",
+        "steps": [
+          "A→C为40−70=−30。",
+          "C→A反号为+30。"
+        ],
+        "ans": "+30 kJ。",
+        "verification": "闭合40−70+30=0。",
+        "pitfall": "只加不反向。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.3.4",
+        "related_sections": []
+      },
+      {
+        "q": "估算H₂(g)+Cl₂(g)→2HCl(g)的ΔH，给平均键焓H—H436、Cl—Cl243、H—Cl431 kJ/mol。 条件：只按题设气相平均键焓近似。",
+        "given": "只按题设气相平均键焓近似。",
+        "analysis": "一条H—H、一条Cl—Cl断，成两条H—Cl。",
+        "method": "断减成。",
+        "principle": "键解离吸能。",
+        "steps": [
+          "断键436+243=679。",
+          "成键释放2×431=862，差679−862=−183。"
+        ],
+        "ans": "约−183 kJ。",
+        "verification": "负值对应成键释放超过断键吸收；非精确实验值声明。",
+        "pitfall": "只计一条H—Cl或成减断。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.3.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "一条已知反应逆向且系数乘3，ΔH=−20原值应变多少？ 条件：同条件，原整式基准。",
+        "given": "同条件，原整式基准。",
+        "analysis": "反向反号且同比缩放。",
+        "method": "两步操作。",
+        "principle": "Hess线性。",
+        "steps": [
+          "逆向+20。",
+          "乘3得+60。"
+        ],
+        "ans": "+60 kJ。",
+        "verification": "与物质量3份一致。",
+        "pitfall": "忘其中一操作。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.3.4",
+        "related_sections": []
+      },
+      {
+        "q": "循环中+12、−5和未知h闭合，h多少？ 条件：三箭头方向已按一周一致。",
+        "given": "三箭头方向已按一周一致。",
+        "analysis": "闭合和0。",
+        "method": "列代数。",
+        "principle": "状态函数。",
+        "steps": [
+          "12−5+h=0。",
+          "h=−7。"
+        ],
+        "ans": "−7 kJ。",
+        "verification": "12−5−7=0。",
+        "pitfall": "把绝对值相加。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.3.4",
+        "related_sections": []
+      },
+      {
+        "q": "H₂O(g)能直接与另一式H₂O(l)抵消吗？ 条件：目标未包含额外相变。",
+        "given": "目标未包含额外相变。",
+        "analysis": "不同物态节点不同。",
+        "method": "检查状态。",
+        "principle": "焓依状态。",
+        "steps": [
+          "气与液焓不同。",
+          "须有适当汽化或凝结步骤才可联通。"
+        ],
+        "ans": "不能直接抵消。",
+        "verification": "化学式相同不足。",
+        "pitfall": "忽略相态。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.3.4",
+        "related_sections": []
+      },
+      {
+        "q": "平均断键总500、成键总650 kJ，估算ΔH？ 条件：气相平均键焓模型。",
+        "given": "气相平均键焓模型。",
+        "analysis": "吸能减放能。",
+        "method": "500−650。",
+        "principle": "能量差。",
+        "steps": [
+          "差−150。",
+          "表示模型下放热150。"
+        ],
+        "ans": "约−150 kJ。",
+        "verification": "不将平均估算声称精确。",
+        "pitfall": "正负反。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.3.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "用Hess组合出总反应后，是否也得到真实反应机理和活化能？ 条件：仅有热化学步骤与焓值。",
+      "given": "仅有热化学步骤与焓值。",
+      "analysis": "数学路径不必真实机理。",
+      "method": "区分热力学与动力学。",
+      "principle": "状态差与路径能垒不同。",
+      "steps": [
+        "总焓可由假想路径相加。",
+        "机理与活化能需其他实验或理论资料。"
+      ],
+      "ans": "没有。",
+      "verification": "不以焓循环图冒充过渡态能量曲线。",
+      "pitfall": "循环箭头当实际机理。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 19,
+      "primary_section": "19.3.4",
+      "related_sections": []
+    },
+    "exam": [
+      "先目标式再标每条正逆与倍数，消元后逐物质核",
+      "焓循环箭头带符号，物态温度一致才能消",
+      "键焓法单列断与成并标近似，不与机理混淆"
+    ],
+    "quick": [
+      "目标反应",
+      "方向倍数",
+      "计量消元",
+      "焓加和",
+      "状态与模型"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 9,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_19.3.4",
+        "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+        "page_or_section": "5-3-enthalpy",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 9,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_19.3.4",
+        "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+        "page_or_section": "5-3-enthalpy",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先目标式再标每条正逆与倍数，消元后逐物质核",
+      "method": "断减成。",
+      "principle": "键解离吸能。",
+      "worked_example_index": 2,
+      "verification": "负值对应成键释放超过断键吸收；非精确实验值声明。",
+      "pitfall": "只计一条H—Cl或成减断。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“通过反向缩放和消去组合目标反应”的抽样复核：目标再加CO生成式−111应还原−394。；若出现“直接−394−111。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分生成焓与平均键焓等计算依据”的抽样复核：负值对应成键释放超过断键吸收；非精确实验值声明。；若出现“只计一条H—Cl或成减断。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "循环箭头当实际机理。",
+        "correction": "没有。",
+        "verification": "不以焓循环图冒充过渡态能量曲线。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "Hess循环及断成键能",
+      "objects": [
+        "C、CO、CO₂节点",
+        "两条生成箭头",
+        "目标箭头",
+        "断键成键分栏"
+      ],
+      "relations": [
+        "−394=−111+(−283)",
+        "逆箭头反号",
+        "断键679−成键862=−183"
+      ],
+      "labels": [
+        "ΔH/kJ",
+        "−394",
+        "−111",
+        "−283",
+        "估算"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "能量图可复用但须核系统边界、ΔH方向、系数和状态；不同条件不机械替换",
+      "english": "Use deterministic thermochemical diagrams. Define system and surroundings, distinguish heat from stored energy and activation energy from enthalpy change. Balance every equation and label phases, amount basis, temperature and pressure assumptions. A lower product enthalpy means negative reaction enthalpy."
+    }
+  },
+  "19.4": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 19,
+    "section_id": "19.4",
+    "goals": [
+      "按能量效率和统一基准比较方案",
+      "辨别减少损失、余热利用与环境代价"
+    ],
+    "prerequisites": [
+      "燃烧热",
+      "功率、能量和百分率"
+    ],
+    "flow": [
+      "能量边界",
+      "效率",
+      "损失回收",
+      "统一比较",
+      "环境证据"
+    ],
+    "concept_relation": "能量边界；效率；损失回收；统一比较；环境证据",
+    "deep": [
+      "燃料比较需统一每质量、每物质的量或每单位有用能量等基准。每mol放热较多可能只是分子较大，成本低也可能伴随更低效率。计算每单位有用能量的排放时，应同时用正确燃烧计量和实际效率，不能只比每mol产生几molCO₂。",
+      "环境评价还包括不完全燃烧的CO、颗粒物及杂质污染，能源开采、制造与运输也可能有代价。氢在使用端与氧反应可不直接生成CO₂，却不能据此宣称制氢和运输全生命周期都零排放。区分局部边界与全流程，是证据准确的一部分。",
+      "提出改善建议应说明作用机制和限制，例如保温减少向环境的传热，热交换回收在合适温差下预热原料。定量题先列输入输出、损失项、时间与单位，再检查η在所定义常规能量转换边界内是否合理。发现大于100%时先核边界和漏项，不随意修改数据来“凑正确”。"
+    ],
+    "derive": [
+      "η=有用输出/对应输入，常规单一能量转换边界下0≤η≤1。",
+      "每单位有用能量成本或排放=相应总成本或排放/Q_useful。",
+      "余热回收、保温与燃烧改善须说明机制；局部零CO₂不等全流程零排放。"
+    ],
+    "examples": [
+      {
+        "q": "输入8 MJ，有用输出3 MJ、其余散失，效率？ 条件：同一边界同一时段。",
+        "given": "同一边界同一时段。",
+        "analysis": "有用除输入。",
+        "method": "比值。",
+        "principle": "效率定义。",
+        "steps": [
+          "η=3/8=.375。",
+          "转百分率37.5%。"
+        ],
+        "ans": "37.5%。",
+        "verification": "损失5MJ，合8。",
+        "pitfall": "输入除输出。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.4",
+        "related_sections": []
+      },
+      {
+        "q": "2 kg燃料热值25 MJ/kg，系统效率60%，有用热多少？ 条件：给定热值与效率基准一致。",
+        "given": "给定热值与效率基准一致。",
+        "analysis": "先总释放再乘效率。",
+        "method": "两步。",
+        "principle": "能量收支。",
+        "steps": [
+          "总能2×25=50 MJ。",
+          "有用=.60×50=30 MJ。"
+        ],
+        "ans": "30 MJ。",
+        "verification": "损失20，二者合50。",
+        "pitfall": "效率扣两次。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.4",
+        "related_sections": []
+      },
+      {
+        "q": "方案甲每次排2 kg CO₂、供有用能20 MJ；乙排1.5 kg、供10 MJ，哪者单位有用能排放较少？ 条件：仅比较题给运行边界。",
+        "given": "仅比较题给运行边界。",
+        "analysis": "总排放不同于强度。",
+        "method": "各除有用能。",
+        "principle": "同基准比较。",
+        "steps": [
+          "甲2/20=.10 kg/MJ。",
+          "乙1.5/10=.15 kg/MJ。"
+        ],
+        "ans": "甲较少。",
+        "verification": "乙单次总排放低但输出也低。",
+        "pitfall": "只比2和1.5。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "输入100 kJ、输出有用35 kJ，损失多少？ 条件：无其他储能变化。",
+        "given": "无其他储能变化。",
+        "analysis": "守恒差额。",
+        "method": "100−35。",
+        "principle": "能量收支。",
+        "steps": [
+          "损失65。",
+          "35+65=100。"
+        ],
+        "ans": "65 kJ。",
+        "verification": "非能量消灭，只是不计为有用。",
+        "pitfall": "损失等于消失。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.4",
+        "related_sections": []
+      },
+      {
+        "q": "提高保温主要通过什么机制节能？ 条件：相同加热目标和其他条件。",
+        "given": "相同加热目标和其他条件。",
+        "analysis": "减少不需要的向外传热。",
+        "method": "说明能量路径。",
+        "principle": "热传递。",
+        "steps": [
+          "保温增加相应热阻等。",
+          "相同有用供热所需补充输入可减少。"
+        ],
+        "ans": "减少相应热损。",
+        "verification": "不代表完全停止所有热传递。",
+        "pitfall": "保温创造热量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.4",
+        "related_sections": []
+      },
+      {
+        "q": "100℃以下的低温余热必能直接驱动任何高温过程吗？ 条件：未提供额外做功设备。",
+        "given": "未提供额外做功设备。",
+        "analysis": "热量和温度等级不同。",
+        "method": "核热源温度与任务。",
+        "principle": "传热方向与能量品质。",
+        "steps": [
+          "需有合适温差才能直接传热。",
+          "低温热不无条件给更高温对象净供热。"
+        ],
+        "ans": "不能。",
+        "verification": "额外能量和设备可能改变方案但已是新边界。",
+        "pitfall": "有足够J就可任意加热。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.4",
+        "related_sections": []
+      },
+      {
+        "q": "氢使用端不产生CO₂，能推出全过程零排放吗？ 条件：制取运输未纳入。",
+        "given": "制取运输未纳入。",
+        "analysis": "边界缺失。",
+        "method": "扩大生命周期核算。",
+        "principle": "来源可追溯。",
+        "steps": [
+          "制氢所用能源可能有排放。",
+          "储运与设备也需评估。"
+        ],
+        "ans": "不能。",
+        "verification": "可准确说题定使用反应不直接生成CO₂。",
+        "pitfall": "局部结论扩大为全流程。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 19,
+        "primary_section": "19.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "算出常规能量效率120%，应直接宣布能量守恒被推翻吗？ 条件：先审同一输入输出边界。",
+      "given": "先审同一输入输出边界。",
+      "analysis": "可能漏输入、混单位或储能释放。",
+      "method": "检查定义与数据。",
+      "principle": "守恒与边界。",
+      "steps": [
+        "核辅助能源、初始储能及时间范围。",
+        "核有用输出是否重复计与单位是否一致，再评估模型。"
+      ],
+      "ans": "不能直接宣布。",
+      "verification": "发现问题后如实记录，不能捏改原数据。",
+      "pitfall": "为让η<100%随改数字。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 19,
+      "primary_section": "19.4",
+      "related_sections": []
+    },
+    "exam": [
+      "比较先统一任务、时间和系统边界，再算效率",
+      "排放成本按同单位有用能比较，不只看总量",
+      "建议写减少哪条损失及温度条件，全流程结论需全流程证据"
+    ],
+    "quick": [
+      "能量边界",
+      "效率",
+      "损失回收",
+      "统一比较",
+      "环境证据"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 9,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_19.4",
+        "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+        "page_or_section": "5-3-enthalpy",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 9,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_19.4",
+        "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+        "page_or_section": "5-3-enthalpy",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "比较先统一任务、时间和系统边界，再算效率",
+      "method": "各除有用能。",
+      "principle": "同基准比较。",
+      "worked_example_index": 2,
+      "verification": "乙单次总排放低但输出也低。",
+      "pitfall": "只比2和1.5。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“按能量效率和统一基准比较方案”的抽样复核：损失5MJ，合8。；若出现“输入除输出。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“辨别减少损失、余热利用与环境代价”的抽样复核：乙单次总排放低但输出也低。；若出现“只比2和1.5。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "为让η<100%随改数字。",
+        "correction": "不能直接宣布。",
+        "verification": "发现问题后如实记录，不能捏改原数据。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "能量流与同基准比较",
+      "objects": [
+        "输入50MJ",
+        "有用30MJ",
+        "损失20MJ",
+        "余热回收支路",
+        "排放强度框"
+      ],
+      "relations": [
+        "各流守恒",
+        "回收不重复算能量",
+        "有用能分母统一"
+      ],
+      "labels": [
+        "η=60%",
+        "MJ",
+        "kgCO₂/MJ useful",
+        "系统边界"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "能量图可复用但须核系统边界、ΔH方向、系数和状态；不同条件不机械替换",
+      "english": "Use deterministic thermochemical diagrams. Define system and surroundings, distinguish heat from stored energy and activation energy from enthalpy change. Balance every equation and label phases, amount basis, temperature and pressure assumptions. A lower product enthalpy means negative reaction enthalpy."
+    }
+  }
+}

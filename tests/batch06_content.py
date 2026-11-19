@@ -12,6 +12,10 @@ paths=subprocess.check_output(['git','ls-tree','-r','--name-only',baseline],cwd=
 protected=[p for p in paths if p.startswith(('lessons/','assets/','data/base-lessons/','data/notes/','ui/','vendor/')) or p in ['data/curriculum.json','data/subjects.js','data/math-courses.js']]
 for p in protected:
  C('preserved '+p,subprocess.check_output(['git','show',baseline+':'+p],cwd=R)==(R/p).read_bytes())
+old_ui=subprocess.check_output(['git','show',baseline+':batch-ui.js'],cwd=R,text=True)
+old_branch="u.content_batch==='batch05'?'<a href=\"reports/batch05/SOURCES.md\">本轮逐节来源与边界</a>'"
+new_branch="u.content_batch==='batch06'?'<a href=\"reports/batch06/SOURCES.csv\">本批逐节来源与边界</a>':"+old_branch
+C('only necessary new source branch changed in batch-ui',old_ui.replace(old_branch,new_branch)==(R/'batch-ui.js').read_text())
 curr=json.loads((R/'data/curriculum.json').read_text());C('canonical116',len(curr)==116)
 raw=json.loads((R/'sources/batch06/official-directory-index.json').read_text())
 for path in ['physics-directory-index.json','math-directory-index.json']:raw+=json.loads((R/'sources/batch06'/path).read_text())

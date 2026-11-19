@@ -3,16 +3,16 @@
   "statistics": {
     "target_unique_chapters": 40,
     "minimum_new_chapters_each_course": 8,
-    "new_unique_chapters": 17,
-    "new_real_sections": 89,
-    "new_examples": 267,
-    "new_practice": 356,
-    "new_quiz": 89,
-    "new_original_questions": 712,
+    "new_unique_chapters": 23,
+    "new_real_sections": 125,
+    "new_examples": 375,
+    "new_practice": 500,
+    "new_quiz": 125,
+    "new_original_questions": 1000,
     "course_counts": {
-      "physics": 3,
-      "chemistry": 3,
-      "biology": 6,
+      "physics": 6,
+      "chemistry": 4,
+      "biology": 8,
       "adv_math_i": 3,
       "adv_math_ii": 5
     },
@@ -52,6 +52,74 @@
         {
           "id": "4.7",
           "title": "万能细胞——干细胞"
+        }
+      ],
+      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+    },
+    {
+      "stem": "bio05",
+      "subject": "生物",
+      "chapter": 5,
+      "sections": [
+        {
+          "id": "5.1",
+          "title": "食物的营养与消化作用"
+        },
+        {
+          "id": "5.2",
+          "title": "人类消化系统的结构和功能"
+        },
+        {
+          "id": "5.3",
+          "title": "营养成分的吸收"
+        },
+        {
+          "id": "5.4",
+          "title": "糖代谢"
+        },
+        {
+          "id": "5.5",
+          "title": "蛋白质代谢"
+        },
+        {
+          "id": "5.6",
+          "title": "脂质代谢"
+        },
+        {
+          "id": "5.7",
+          "title": "三大营养物质代谢的关系"
+        }
+      ],
+      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+    },
+    {
+      "stem": "bio06",
+      "subject": "生物",
+      "chapter": 6,
+      "sections": [
+        {
+          "id": "6.1",
+          "title": "为什么生物要有运输系统"
+        },
+        {
+          "id": "6.2",
+          "title": "血液在人体内是怎样流动的"
+        },
+        {
+          "id": "6.3",
+          "title": "为什么心脏能自律跳动"
+        },
+        {
+          "id": "6.4",
+          "title": "心血管疾病"
+        },
+        {
+          "id": "6.5",
+          "title": "植物是如何运输物质的"
+        },
+        {
+          "id": "6.6",
+          "title": "物质在植物体内运输的动力是什么"
         }
       ],
       "status": "authored_internal_checks_in_progress_not_teacher_approved"
@@ -188,6 +256,42 @@
         {
           "id": "17.4",
           "title": "生物多样性的保护"
+        }
+      ],
+      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+    },
+    {
+      "stem": "chem19",
+      "subject": "化学",
+      "chapter": 19,
+      "sections": [
+        {
+          "id": "19.1",
+          "title": "化学反应中的热量变化"
+        },
+        {
+          "id": "19.2",
+          "title": "反应热、焓变"
+        },
+        {
+          "id": "19.3.1",
+          "title": "生成热"
+        },
+        {
+          "id": "19.3.2",
+          "title": "燃烧热"
+        },
+        {
+          "id": "19.3.3",
+          "title": "中和热"
+        },
+        {
+          "id": "19.3.4",
+          "title": "黑斯定律"
+        },
+        {
+          "id": "19.4",
+          "title": "能量的充分利用"
         }
       ],
       "status": "authored_internal_checks_in_progress_not_teacher_approved"
@@ -429,6 +533,38 @@
       "status": "authored_internal_checks_in_progress_not_teacher_approved"
     },
     {
+      "stem": "phys10",
+      "subject": "物理",
+      "chapter": 10,
+      "sections": [
+        {
+          "id": "10.1",
+          "title": "振动现象"
+        },
+        {
+          "id": "10.2",
+          "title": "简谐运动"
+        },
+        {
+          "id": "10.3",
+          "title": "简谐运动方程"
+        },
+        {
+          "id": "10.4",
+          "title": "简谐运动的图象"
+        },
+        {
+          "id": "10.5",
+          "title": "简谐运动的能量"
+        },
+        {
+          "id": "10.6",
+          "title": "受迫振动 共振"
+        }
+      ],
+      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+    },
+    {
       "stem": "phys12",
       "subject": "物理",
       "chapter": 12,
@@ -508,6 +644,62 @@
         {
           "id": "14.4",
           "title": "热辐射"
+        }
+      ],
+      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+    },
+    {
+      "stem": "phys15",
+      "subject": "物理",
+      "chapter": 15,
+      "sections": [
+        {
+          "id": "15.1",
+          "title": "气体的状态参量"
+        },
+        {
+          "id": "15.2",
+          "title": "理想气体状态方程式"
+        },
+        {
+          "id": "15.3",
+          "title": "理想气体状态方程式的应用"
+        },
+        {
+          "id": "15.4",
+          "title": "气体的等温变化 波意耳定律"
+        },
+        {
+          "id": "15.5",
+          "title": "气体的等容变化 压强定律"
+        },
+        {
+          "id": "15.6",
+          "title": "气体的等压变化 查理定律"
+        }
+      ],
+      "status": "authored_internal_checks_in_progress_not_teacher_approved"
+    },
+    {
+      "stem": "phys19",
+      "subject": "物理",
+      "chapter": 19,
+      "sections": [
+        {
+          "id": "19.1",
+          "title": "棱镜与色散"
+        },
+        {
+          "id": "19.2",
+          "title": "光谱"
+        },
+        {
+          "id": "19.3",
+          "title": "透镜和透镜成像"
+        },
+        {
+          "id": "19.4",
+          "title": "透镜焦距的测定"
         }
       ],
       "status": "authored_internal_checks_in_progress_not_teacher_approved"

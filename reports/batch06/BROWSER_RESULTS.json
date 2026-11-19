@@ -1,286 +1,422 @@
 {
   "status": "pass",
-  "new_unique_chapters": 17,
+  "new_unique_chapters": 23,
   "viewport_cases": [
     {
       "key": "生物4",
       "course": null,
       "width": 390,
       "sections": 7,
-      "modules": 84
+      "modules": 84,
+      "typeset_formulas": 0
+    },
+    {
+      "key": "生物5",
+      "course": null,
+      "width": 390,
+      "sections": 7,
+      "modules": 84,
+      "typeset_formulas": 0
+    },
+    {
+      "key": "生物6",
+      "course": null,
+      "width": 390,
+      "sections": 6,
+      "modules": 72,
+      "typeset_formulas": 0
     },
     {
       "key": "生物8",
       "course": null,
       "width": 390,
       "sections": 7,
-      "modules": 84
+      "modules": 84,
+      "typeset_formulas": 0
     },
     {
       "key": "生物14",
       "course": null,
       "width": 390,
       "sections": 5,
-      "modules": 60
+      "modules": 60,
+      "typeset_formulas": 0
     },
     {
       "key": "生物15",
       "course": null,
       "width": 390,
       "sections": 4,
-      "modules": 48
+      "modules": 48,
+      "typeset_formulas": 0
     },
     {
       "key": "生物16",
       "course": null,
       "width": 390,
       "sections": 4,
-      "modules": 48
+      "modules": 48,
+      "typeset_formulas": 0
     },
     {
       "key": "生物17",
       "course": null,
       "width": 390,
       "sections": 4,
-      "modules": 48
+      "modules": 48,
+      "typeset_formulas": 0
+    },
+    {
+      "key": "化学19",
+      "course": null,
+      "width": 390,
+      "sections": 7,
+      "modules": 84,
+      "typeset_formulas": 0
     },
     {
       "key": "化学20",
       "course": null,
       "width": 390,
       "sections": 5,
-      "modules": 60
+      "modules": 60,
+      "typeset_formulas": 0
     },
     {
       "key": "化学21",
       "course": null,
       "width": 390,
       "sections": 8,
-      "modules": 96
+      "modules": 96,
+      "typeset_formulas": 0
     },
     {
       "key": "化学22",
       "course": null,
       "width": 390,
       "sections": 6,
-      "modules": 72
+      "modules": 72,
+      "typeset_formulas": 0
     },
     {
       "key": "数学6",
       "course": "adv_math_i",
       "width": 390,
       "sections": 5,
-      "modules": 60
+      "modules": 60,
+      "typeset_formulas": 5
     },
     {
       "key": "数学6",
       "course": "adv_math_ii",
       "width": 390,
       "sections": 5,
-      "modules": 60
+      "modules": 60,
+      "typeset_formulas": 5
     },
     {
       "key": "数学28",
       "course": "adv_math_i",
       "width": 390,
       "sections": 6,
-      "modules": 72
+      "modules": 72,
+      "typeset_formulas": 6
     },
     {
       "key": "数学28",
       "course": "adv_math_ii",
       "width": 390,
       "sections": 6,
-      "modules": 72
+      "modules": 72,
+      "typeset_formulas": 6
     },
     {
       "key": "数学29",
       "course": "adv_math_i",
       "width": 390,
       "sections": 5,
-      "modules": 60
+      "modules": 60,
+      "typeset_formulas": 5
     },
     {
       "key": "数学29",
       "course": "adv_math_ii",
       "width": 390,
       "sections": 5,
-      "modules": 60
+      "modules": 60,
+      "typeset_formulas": 5
     },
     {
       "key": "数学30",
       "course": "adv_math_ii",
       "width": 390,
       "sections": 4,
-      "modules": 48
+      "modules": 48,
+      "typeset_formulas": 4
     },
     {
       "key": "数学31",
       "course": "adv_math_ii",
       "width": 390,
       "sections": 4,
-      "modules": 48
+      "modules": 48,
+      "typeset_formulas": 4
+    },
+    {
+      "key": "物理10",
+      "course": null,
+      "width": 390,
+      "sections": 6,
+      "modules": 72,
+      "typeset_formulas": 6
     },
     {
       "key": "物理12",
       "course": null,
       "width": 390,
       "sections": 5,
-      "modules": 60
+      "modules": 60,
+      "typeset_formulas": 5
     },
     {
       "key": "物理13",
       "course": null,
       "width": 390,
       "sections": 6,
-      "modules": 72
+      "modules": 72,
+      "typeset_formulas": 6
     },
     {
       "key": "物理14",
       "course": null,
       "width": 390,
       "sections": 4,
-      "modules": 48
+      "modules": 48,
+      "typeset_formulas": 4
+    },
+    {
+      "key": "物理15",
+      "course": null,
+      "width": 390,
+      "sections": 6,
+      "modules": 72,
+      "typeset_formulas": 6
+    },
+    {
+      "key": "物理19",
+      "course": null,
+      "width": 390,
+      "sections": 4,
+      "modules": 48,
+      "typeset_formulas": 4
     },
     {
       "key": "生物4",
       "course": null,
       "width": 1440,
       "sections": 7,
-      "modules": 84
+      "modules": 84,
+      "typeset_formulas": 0
+    },
+    {
+      "key": "生物5",
+      "course": null,
+      "width": 1440,
+      "sections": 7,
+      "modules": 84,
+      "typeset_formulas": 0
+    },
+    {
+      "key": "生物6",
+      "course": null,
+      "width": 1440,
+      "sections": 6,
+      "modules": 72,
+      "typeset_formulas": 0
     },
     {
       "key": "生物8",
       "course": null,
       "width": 1440,
       "sections": 7,
-      "modules": 84
+      "modules": 84,
+      "typeset_formulas": 0
     },
     {
       "key": "生物14",
       "course": null,
       "width": 1440,
       "sections": 5,
-      "modules": 60
+      "modules": 60,
+      "typeset_formulas": 0
     },
     {
       "key": "生物15",
       "course": null,
       "width": 1440,
       "sections": 4,
-      "modules": 48
+      "modules": 48,
+      "typeset_formulas": 0
     },
     {
       "key": "生物16",
       "course": null,
       "width": 1440,
       "sections": 4,
-      "modules": 48
+      "modules": 48,
+      "typeset_formulas": 0
     },
     {
       "key": "生物17",
       "course": null,
       "width": 1440,
       "sections": 4,
-      "modules": 48
+      "modules": 48,
+      "typeset_formulas": 0
+    },
+    {
+      "key": "化学19",
+      "course": null,
+      "width": 1440,
+      "sections": 7,
+      "modules": 84,
+      "typeset_formulas": 0
     },
     {
       "key": "化学20",
       "course": null,
       "width": 1440,
       "sections": 5,
-      "modules": 60
+      "modules": 60,
+      "typeset_formulas": 0
     },
     {
       "key": "化学21",
       "course": null,
       "width": 1440,
       "sections": 8,
-      "modules": 96
+      "modules": 96,
+      "typeset_formulas": 0
     },
     {
       "key": "化学22",
       "course": null,
       "width": 1440,
       "sections": 6,
-      "modules": 72
+      "modules": 72,
+      "typeset_formulas": 0
     },
     {
       "key": "数学6",
       "course": "adv_math_i",
       "width": 1440,
       "sections": 5,
-      "modules": 60
+      "modules": 60,
+      "typeset_formulas": 5
     },
     {
       "key": "数学6",
       "course": "adv_math_ii",
       "width": 1440,
       "sections": 5,
-      "modules": 60
+      "modules": 60,
+      "typeset_formulas": 5
     },
     {
       "key": "数学28",
       "course": "adv_math_i",
       "width": 1440,
       "sections": 6,
-      "modules": 72
+      "modules": 72,
+      "typeset_formulas": 6
     },
     {
       "key": "数学28",
       "course": "adv_math_ii",
       "width": 1440,
       "sections": 6,
-      "modules": 72
+      "modules": 72,
+      "typeset_formulas": 6
     },
     {
       "key": "数学29",
       "course": "adv_math_i",
       "width": 1440,
       "sections": 5,
-      "modules": 60
+      "modules": 60,
+      "typeset_formulas": 5
     },
     {
       "key": "数学29",
       "course": "adv_math_ii",
       "width": 1440,
       "sections": 5,
-      "modules": 60
+      "modules": 60,
+      "typeset_formulas": 5
     },
     {
       "key": "数学30",
       "course": "adv_math_ii",
       "width": 1440,
       "sections": 4,
-      "modules": 48
+      "modules": 48,
+      "typeset_formulas": 4
     },
     {
       "key": "数学31",
       "course": "adv_math_ii",
       "width": 1440,
       "sections": 4,
-      "modules": 48
+      "modules": 48,
+      "typeset_formulas": 4
+    },
+    {
+      "key": "物理10",
+      "course": null,
+      "width": 1440,
+      "sections": 6,
+      "modules": 72,
+      "typeset_formulas": 6
     },
     {
       "key": "物理12",
       "course": null,
       "width": 1440,
       "sections": 5,
-      "modules": 60
+      "modules": 60,
+      "typeset_formulas": 5
     },
     {
       "key": "物理13",
       "course": null,
       "width": 1440,
       "sections": 6,
-      "modules": 72
+      "modules": 72,
+      "typeset_formulas": 6
     },
     {
       "key": "物理14",
       "course": null,
       "width": 1440,
       "sections": 4,
-      "modules": 48
+      "modules": 48,
+      "typeset_formulas": 4
+    },
+    {
+      "key": "物理15",
+      "course": null,
+      "width": 1440,
+      "sections": 6,
+      "modules": 72,
+      "typeset_formulas": 6
+    },
+    {
+      "key": "物理19",
+      "course": null,
+      "width": 1440,
+      "sections": 4,
+      "modules": 48,
+      "typeset_formulas": 4
     }
   ],
   "checks": [
@@ -288,7 +424,9 @@
     "mobile and desktop no horizontal overflow",
     "absolute-value pipes remain readable",
     "math I/II new section self-check isolation",
-    "all local resources load"
+    "all local resources load",
+    "new formula cards rendered without KaTeX errors",
+    "new source links point to batch06"
   ],
   "page_errors": [],
   "resource_errors": [],

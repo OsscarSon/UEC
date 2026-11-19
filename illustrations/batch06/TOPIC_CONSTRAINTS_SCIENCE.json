@@ -1,0 +1,50 @@
+{
+  "bio05": [
+    "Nutrients have functions beyond supplying fuel. Mechanical fragmentation changes particle size, while enzymatic hydrolysis changes molecules. A negative starch test does not prove that all products are glucose. Absorption must cross the epithelium.",
+    "Food travels along the digestive lumen, not through liver or pancreas tissue. Liver produces bile and gallbladder stores it. Bile salts assist emulsification rather than acting as lipase. Enzyme source, site of activation and site of action must be separately labeled.",
+    "Villi and microvilli require separate magnification scales. Typical monosaccharides and amino acids enter portal blood pathways. Long-chain lipid products are processed into chylomicrons that initially enter lymph. Luminal micelles are not the same particles as chylomicrons.",
+    "Glycolysis turns one six-carbon glucose into two three-carbon products and has the stated net direct yield2ATP after investment. Lactate formation recycles NAD plus and must not earn the same ATP twice. Mitochondrial inner-membrane pathways and cytosolic glycolysis are distinct.",
+    "Separate amino nitrogen from carbon skeletons during amino-acid breakdown. Liver-associated urea synthesis precedes blood transport and kidney excretion. Urea containing two nitrogen atoms is not proof of a single-step reaction of two free-ammonia molecules.",
+    "Split glycerol from fatty-acid metabolism. A saturated16-carbon even-chain fatty acid yields8acetyl units over7beta-oxidation rounds in the stated model. Even-chain fatty-acid acetyl-CoA does not ordinarily yield net glucose in humans; glycerol can contribute differently.",
+    "Connect metabolic nodes without drawing every arrow as reversible. Account separately for carbon, nitrogen and energy. Glucose complete oxidation has RQ1; palmitic-acid complete oxidation consumes23oxygen and produces16carbon dioxide, giving16/23. State the model limits."
+  ],
+  "bio06": [
+    "Compare cubes of side1and2cm. Area rises4fold but volume8fold, so surface-to-volume ratio falls from6to3percm. Under the same simple diffusion model characteristic time scales with distance squared, while bulk transport still requires terminal exchange.",
+    "Show systemic return to right atrium, right ventricle, pulmonary artery, lungs, pulmonary vein, left atrium, left ventricle and aorta. Arteries are away from the heart irrespective of oxygenation. Valves respond to pressure gradients.",
+    "Signal starts at the sinoatrial node, passes through atrial pathways and the AV node delay, then the conduction bundles and Purkinje system. Electrical activity is not the blood-flow route or a direct pressure trace. Neural modulation is not mandatory brain triggering of every beat.",
+    "Distinguish wall-associated atherosclerotic plaque, locally formed thrombus and a traveling embolus. Coronary vessels supply myocardium. A risk change2percent to1percent is1percentage point absolute and50percent relative, not50percentage points.",
+    "Separate xylem from living phloem sieve elements and companion cells. Source and sink roles depend on stage. Different phloem pathways can transport in opposite directions without showing a single bulk stream flowing both directions at once.",
+    "Xylem transpiration tension differs from phloem source-sink pressure flow. Water moves from higher total water potential to lower, so-0.2MPa to-0.8MPa. Potometer uptake Ad/t is a proxy and must account for storage and other losses."
+  ],
+  "chem19": [
+    "Define reaction system, solution and calorimeter separately. An exothermic reaction has negative reaction heat while warming solution absorbs positive heat. Include calorimeter heat capacity and any outward loss explicitly.",
+    "For N2+3H2 forming2NH3, the given reaction enthalpy-92kJ belongs to the whole written equation. One mole ammonia corresponds to-46kJ; reversing and doubling gives+184kJ. Conditions and phases must remain consistent.",
+    "Standard formation enthalpy refers to1mol of specified product from reference-state elements. A zero reference value is not zero total energy. Compute products minus reactants with stoichiometric coefficients and matching states.",
+    "Combustion enthalpy is negative for exothermic combustion, while heating value is often a positive magnitude. Condensing product water adds released heat. Useful energy equals efficiency times released magnitude; incomplete combustion changes the final state.",
+    "Neutralization heat is based on moles of water formed. Strong-acid strong-base net reaction is H plus plus OH minus forming water under specified dilute conditions. Count limiting equivalents and total solution mass; weak-electrolyte and dilution effects are separate.",
+    "Hess combinations must reverse signs and scale enthalpies with equations. In the stated carbon cycle,-394 equals-111 plus-283kJ. Matching formulas with different phases cannot cancel. Average-bond estimation is broken bonds minus formed bonds, not a precise reaction mechanism.",
+    "For50MJ input and60percent efficiency, useful energy is30MJ and other output20MJ. Do not double-count recovered heat. Compare emissions per useful energy and state the system boundary; local zero carbon dioxide is not lifecycle zero emissions."
+  ],
+  "phys15": [
+    "Label equilibrium P,V,T and gas amount independently. Absolute pressure equals ambient plus signed gauge pressure. Convert liters to cubic meters and Celsius to kelvin before ratios. Sealed is not necessarily rigid; a rigid open vessel can change amount.",
+    "Match mole amount n with R and particle count N with Boltzmann constant k. PV=nRT=NkT, N=nNA. SI pressure-volume is joules. The equation of state does not determine process heat or work and is only an approximation for real gases.",
+    "Two nonreacting rigid chambers at the same temperature and with no external leak conserve total gas amount.2L at200kPa and3L at100kPa yield140kPa in5L. Density trends depend on which constraints are fixed.",
+    "At fixed amount and temperature the absolute-pressure versus-volume plot is hyperbolic; pressure versus reciprocal volume is linear. Include apparatus dead volume. Gauge pressures cannot be directly multiplied by volume as a conserved product.",
+    "At fixed amount and volume absolute pressure is proportional to kelvin temperature. A Celsius plot is shifted. Real-gas low-temperature condensation can invalidate the extrapolation. Heating changes particle motion rather than scaling particle radii.",
+    "A loaded frictionless equilibrium piston can maintain fixed pressure only under its stated force conditions. Starting2L at300K, expansion to a3L stop reaches450K; subsequent fixed-volume heating to600K gives final pressure4/3of the original."
+  ],
+  "phys19": [
+    "Prism internal angles satisfy r1+r2=A and deviation delta=i+e-A. Minimum deviation is a special symmetric transmitted path. Stationary-interface ordinary refraction preserves frequency, while speed and wavelength change. Normal visible dispersion bends violet more than red in the stated glass.",
+    "Separate continuum, emission-line and absorption-line arrangements. Absorption needs the appropriate background and gas path. Photon energy is hf=hc/lambda, not proportional to wavelength. Unspecified lines are teaching schematics, not invented measured element spectra.",
+    "Use the stated real-positive lens convention. Converging f10cm with u30cm gives v15cm,m-0.5; with u6cm gives v-15cm,m2.5. Diverging f-12cm with u24cm gives v-8cm,m1/3. Real rays and virtual extensions differ.",
+    "For lens displacement use fixed object-screen separation D and lens-position difference d, f=(D squared-d squared)/(4D). D100cm,d60cm gives f16cm and conjugate distances80and20cm. Two real-image positions require D>4f; use a safe ordinary light source."
+  ],
+  "phys10": [
+    "Six same-side peaks define five cycles. A full one-dimensional cycle has path4A but zero displacement, and peak-to-peak is2A. Equal position with opposite velocity is not the same phase.",
+    "Net acceleration is minus omega squared times displacement from equilibrium. Restoring acceleration opposes displacement, not necessarily velocity. For a vertical spring the equilibrium origin includes static gravity extension; a pendulum is harmonic only under the stated small-angle approximation.",
+    "For x=Acos(omega*t+phi), velocity is-A*omega*sin and acceleration is-omega squared*x. Initial x0.03m and v-0.20m/s with omega5 require amplitude0.05m and first-quadrant phi with cosine0.6,sine0.8.",
+    "Time graphs x,v,a use a common time axis and different vertical units. At a positive displacement peak velocity is zero and acceleration is negative maximum. A spatial wave snapshot is not a temporal oscillator graph.",
+    "Effective potential0.5kx squared and kinetic energy sum to0.5kA squared in the undamped model. Energy gives speed, not velocity sign. Halving corresponding turning-point amplitude leaves one-quarter mechanical energy.",
+    "For m1,k100,F0=2 and viscous b2, amplitude at driving omega10 is0.10m, but the precise nonzero displacement peak is at square-root98rad/s. Increasing b to4 gives0.05m at omega10. Fixed steady amplitude still requires nonzero average input and dissipation."
+  ]
+}

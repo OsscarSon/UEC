@@ -1,6 +1,6 @@
 # Batch06 新增真实小节绘图任务
 
-89项独立复合教学图规范；没有生成新图片，也没有将原142项缺口冒称补齐。
+125项独立复合教学图规范；没有生成新图片，也没有将原142项缺口冒称补齐。
 
 ## B06-BIO04-4-1 · 生物 4.1 细胞的分工
 
@@ -298,6 +298,561 @@ No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charge
 - https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf
 - https://openstax.org/books/anatomy-and-physiology-2e/pages/3-6-cellular-differentiation
 - https://dokumen.pub/50366241b762a3c2b78989c47ca84b70.html
+
+## B06-BIO05-5-1 · 生物 5.1 食物的营养与消化作用
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：区分营养功能、消化与吸收；以酶与底物及实验对照解释化学消化
+
+对象：食物颗粒；消化酶；肠腔小分子；上皮；体内代谢
+
+关系：机械处理不直接等分子水解；吸收箭头跨上皮；代谢发生在相应细胞内
+
+中文标签：摄入；消化；吸收；代谢；底物与产物
+
+公式/单位：机械消化改变颗粒与混合，化学消化改变分子结构。；酶催化相应底物水解；小分子营养不一定需先消化。；摄入→消化→吸收→细胞代谢是不同层次，不可省略边界。
+
+### 中文Prompt
+
+制作生物第5章《食物的消化与物质代谢》5.1《食物的营养与消化作用》的教学图《营养进入体内的四层过程》。教学目标：区分营养功能、消化与吸收；以酶与底物及实验对照解释化学消化。必须对象：食物颗粒；消化酶；肠腔小分子；上皮；体内代谢。不可画错的关系：机械处理不直接等分子水解；吸收箭头跨上皮；代谢发生在相应细胞内。中文标签：摄入；消化；吸收；代谢；底物与产物。公式、单位和条件：机械消化改变颗粒与混合，化学消化改变分子结构。；酶催化相应底物水解；小分子营养不一定需先消化。；摄入→消化→吸收→细胞代谢是不同层次，不可省略边界。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter5, authentic subsection5.1, with original Chinese title 食物的营养与消化作用. Topic-specific mandatory science: Nutrients have functions beyond supplying fuel. Mechanical fragmentation changes particle size, while enzymatic hydrolysis changes molecules. A negative starch test does not prove that all products are glucose. Absorption must cross the epithelium. Draw a precise digestion or metabolism schematic. Separate ingestion, lumen digestion, epithelial absorption and intracellular metabolism. Distinguish hepatic portal transport from lymphatic chylomicron transport. Preserve reaction direction, carbon and nitrogen accounting, organ locations and model-specific energy assumptions. Required objects, preserving these Chinese labels: 食物颗粒；消化酶；肠腔小分子；上皮；体内代谢. Additional literal Chinese annotation strings: 摄入；消化；吸收；代谢；底物与产物. Typeset and verify these reference formulas, units and stated conditions: 机械消化改变颗粒与混合，化学消化改变分子结构。；酶催化相应底物水解；小分子营养不一定需先消化。；摄入→消化→吸收→细胞代谢是不同层次，不可省略边界。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 机械处理不直接等分子水解
+- 吸收箭头跨上皮
+- 代谢发生在相应细胞内
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用经审核消化与代谢图，须核器官、腔内外、血淋巴流向和不可逆步骤；不能全画双箭头
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf
+- https://openstax.org/books/biology-2e/pages/34-3-digestive-system-processes
+
+## B06-BIO05-5-2 · 生物 5.2 人类消化系统的结构和功能
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：沿消化道定位底物、分泌来源与作用部位；解释胆汁、胰液和小肠酶的协作
+
+对象：口胃小肠大肠；肝胆囊；胰腺；胆管胰管；三种箭头
+
+关系：食物不穿肝胰；胆汁肝产胆囊储；分泌物流入小肠；乳化与酶解分标
+
+中文标签：食物流；分泌流；吸收流；胆盐非酶
+
+公式/单位：食物流沿消化道，不正常经过肝或胰腺实质。；分泌来源与作用部位分开：胆汁肝产生、胆囊储存，常到小肠发挥相关作用。；乳化不同酯键水解；胰酶、胆盐与小肠相关酶各有分工。
+
+### 中文Prompt
+
+制作生物第5章《食物的消化与物质代谢》5.2《人类消化系统的结构和功能》的教学图《消化道与分泌物流》。教学目标：沿消化道定位底物、分泌来源与作用部位；解释胆汁、胰液和小肠酶的协作。必须对象：口胃小肠大肠；肝胆囊；胰腺；胆管胰管；三种箭头。不可画错的关系：食物不穿肝胰；胆汁肝产胆囊储；分泌物流入小肠；乳化与酶解分标。中文标签：食物流；分泌流；吸收流；胆盐非酶。公式、单位和条件：食物流沿消化道，不正常经过肝或胰腺实质。；分泌来源与作用部位分开：胆汁肝产生、胆囊储存，常到小肠发挥相关作用。；乳化不同酯键水解；胰酶、胆盐与小肠相关酶各有分工。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter5, authentic subsection5.2, with original Chinese title 人类消化系统的结构和功能. Topic-specific mandatory science: Food travels along the digestive lumen, not through liver or pancreas tissue. Liver produces bile and gallbladder stores it. Bile salts assist emulsification rather than acting as lipase. Enzyme source, site of activation and site of action must be separately labeled. Draw a precise digestion or metabolism schematic. Separate ingestion, lumen digestion, epithelial absorption and intracellular metabolism. Distinguish hepatic portal transport from lymphatic chylomicron transport. Preserve reaction direction, carbon and nitrogen accounting, organ locations and model-specific energy assumptions. Required objects, preserving these Chinese labels: 口胃小肠大肠；肝胆囊；胰腺；胆管胰管；三种箭头. Additional literal Chinese annotation strings: 食物流；分泌流；吸收流；胆盐非酶. Typeset and verify these reference formulas, units and stated conditions: 食物流沿消化道，不正常经过肝或胰腺实质。；分泌来源与作用部位分开：胆汁肝产生、胆囊储存，常到小肠发挥相关作用。；乳化不同酯键水解；胰酶、胆盐与小肠相关酶各有分工。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 食物不穿肝胰
+- 胆汁肝产胆囊储
+- 分泌物流入小肠
+- 乳化与酶解分标
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用经审核消化与代谢图，须核器官、腔内外、血淋巴流向和不可逆步骤；不能全画双箭头
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf
+- https://openstax.org/books/biology-2e/pages/34-3-digestive-system-processes
+
+## B06-BIO05-5-3 · 生物 5.3 营养成分的吸收
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：以绒毛结构和膜运输解释吸收；区分血门静脉与长链脂质淋巴路线
+
+对象：分层绒毛微绒毛；毛细血管；乳糜管；上皮细胞；脂质处理
+
+关系：单糖氨基酸向血路；长链脂质乳糜微粒先淋巴；微胶粒与乳糜微粒分阶段；跨膜边界清楚
+
+中文标签：门静脉；淋巴；微绒毛；乳糜微粒；微胶粒
+
+公式/单位：绒毛与微绒毛属于不同尺度；跨上皮是吸收关键边界。；常规单糖氨基酸→门静脉相关血路→肝；长链脂质乳糜微粒主要先入淋巴。；钠梯度耦联与直接ATP泵不同；微胶粒与乳糜微粒不同。
+
+### 中文Prompt
+
+制作生物第5章《食物的消化与物质代谢》5.3《营养成分的吸收》的教学图《小肠吸收双路线》。教学目标：以绒毛结构和膜运输解释吸收；区分血门静脉与长链脂质淋巴路线。必须对象：分层绒毛微绒毛；毛细血管；乳糜管；上皮细胞；脂质处理。不可画错的关系：单糖氨基酸向血路；长链脂质乳糜微粒先淋巴；微胶粒与乳糜微粒分阶段；跨膜边界清楚。中文标签：门静脉；淋巴；微绒毛；乳糜微粒；微胶粒。公式、单位和条件：绒毛与微绒毛属于不同尺度；跨上皮是吸收关键边界。；常规单糖氨基酸→门静脉相关血路→肝；长链脂质乳糜微粒主要先入淋巴。；钠梯度耦联与直接ATP泵不同；微胶粒与乳糜微粒不同。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter5, authentic subsection5.3, with original Chinese title 营养成分的吸收. Topic-specific mandatory science: Villi and microvilli require separate magnification scales. Typical monosaccharides and amino acids enter portal blood pathways. Long-chain lipid products are processed into chylomicrons that initially enter lymph. Luminal micelles are not the same particles as chylomicrons. Draw a precise digestion or metabolism schematic. Separate ingestion, lumen digestion, epithelial absorption and intracellular metabolism. Distinguish hepatic portal transport from lymphatic chylomicron transport. Preserve reaction direction, carbon and nitrogen accounting, organ locations and model-specific energy assumptions. Required objects, preserving these Chinese labels: 分层绒毛微绒毛；毛细血管；乳糜管；上皮细胞；脂质处理. Additional literal Chinese annotation strings: 门静脉；淋巴；微绒毛；乳糜微粒；微胶粒. Typeset and verify these reference formulas, units and stated conditions: 绒毛与微绒毛属于不同尺度；跨上皮是吸收关键边界。；常规单糖氨基酸→门静脉相关血路→肝；长链脂质乳糜微粒主要先入淋巴。；钠梯度耦联与直接ATP泵不同；微胶粒与乳糜微粒不同。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 单糖氨基酸向血路
+- 长链脂质乳糜微粒先淋巴
+- 微胶粒与乳糜微粒分阶段
+- 跨膜边界清楚
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用经审核消化与代谢图，须核器官、腔内外、血淋巴流向和不可逆步骤；不能全画双箭头
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf
+- https://openstax.org/books/biology-2e/pages/34-3-digestive-system-processes
+
+## B06-BIO05-5-4 · 生物 5.4 糖代谢
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：整合葡萄糖氧化、储存和血糖来源；区分有氧条件、ATP模型与物质守恒
+
+对象：葡萄糖；两三碳产物；乳酸支路；线粒体；糖原
+
+关系：糖酵解碳不全变CO₂；乳酸再生NAD⁺不另加同笔ATP；肝肌输出不同；ATP表注明模型
+
+中文标签：细胞质；内膜；净2ATP；NAD⁺；碳流
+
+公式/单位：糖酵解基本碳账：1个六碳糖→2个三碳产物，净直接ATP按基本模型为2。；氧化磷酸化依相应电子链和膜条件；氧为最终受体不是每步直接反应物。；糖原储存、肝输出与细胞氧化共同影响糖流，肝肌出口需区分。
+
+### 中文Prompt
+
+制作生物第5章《食物的消化与物质代谢》5.4《糖代谢》的教学图《糖代谢的碳与能量分账》。教学目标：整合葡萄糖氧化、储存和血糖来源；区分有氧条件、ATP模型与物质守恒。必须对象：葡萄糖；两三碳产物；乳酸支路；线粒体；糖原。不可画错的关系：糖酵解碳不全变CO₂；乳酸再生NAD⁺不另加同笔ATP；肝肌输出不同；ATP表注明模型。中文标签：细胞质；内膜；净2ATP；NAD⁺；碳流。公式、单位和条件：糖酵解基本碳账：1个六碳糖→2个三碳产物，净直接ATP按基本模型为2。；氧化磷酸化依相应电子链和膜条件；氧为最终受体不是每步直接反应物。；糖原储存、肝输出与细胞氧化共同影响糖流，肝肌出口需区分。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter5, authentic subsection5.4, with original Chinese title 糖代谢. Topic-specific mandatory science: Glycolysis turns one six-carbon glucose into two three-carbon products and has the stated net direct yield2ATP after investment. Lactate formation recycles NAD plus and must not earn the same ATP twice. Mitochondrial inner-membrane pathways and cytosolic glycolysis are distinct. Draw a precise digestion or metabolism schematic. Separate ingestion, lumen digestion, epithelial absorption and intracellular metabolism. Distinguish hepatic portal transport from lymphatic chylomicron transport. Preserve reaction direction, carbon and nitrogen accounting, organ locations and model-specific energy assumptions. Required objects, preserving these Chinese labels: 葡萄糖；两三碳产物；乳酸支路；线粒体；糖原. Additional literal Chinese annotation strings: 细胞质；内膜；净2ATP；NAD⁺；碳流. Typeset and verify these reference formulas, units and stated conditions: 糖酵解基本碳账：1个六碳糖→2个三碳产物，净直接ATP按基本模型为2。；氧化磷酸化依相应电子链和膜条件；氧为最终受体不是每步直接反应物。；糖原储存、肝输出与细胞氧化共同影响糖流，肝肌出口需区分。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 糖酵解碳不全变CO₂
+- 乳酸再生NAD⁺不另加同笔ATP
+- 肝肌输出不同
+- ATP表注明模型
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用经审核消化与代谢图，须核器官、腔内外、血淋巴流向和不可逆步骤；不能全画双箭头
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf
+- https://openstax.org/books/biology-2e/pages/7-6-connections-of-carbohydrate-protein-and-lipid-metabolic-pathways
+
+## B06-BIO05-5-5 · 生物 5.5 蛋白质代谢
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：解释氨基酸合成利用及含氮废物去路；区分脱氨、碳骨架利用与必需氨基酸限制
+
+对象：氨基酸池；蛋白合成；转氨脱氨；肝尿素；血肾；碳骨架入口
+
+关系：氮碳分别标；尿素肝合成肾排出；不同骨架不同入口；不画两氨一步作完整机制
+
+中文标签：含氮部分；碳骨架；肝；尿素；肾
+
+公式/单位：氨基酸→合成蛋白/其他含氮物；分解时含氮部分与碳骨架分路。；肝相关尿素合成→血液运输→肾排泄；合成处不等尿形成处。；在给定简化收支：氮留存=氮输入−全部氮输出，未列通路不可忽略。
+
+### 中文Prompt
+
+制作生物第5章《食物的消化与物质代谢》5.5《蛋白质代谢》的教学图《氨基酸的氮与碳去路》。教学目标：解释氨基酸合成利用及含氮废物去路；区分脱氨、碳骨架利用与必需氨基酸限制。必须对象：氨基酸池；蛋白合成；转氨脱氨；肝尿素；血肾；碳骨架入口。不可画错的关系：氮碳分别标；尿素肝合成肾排出；不同骨架不同入口；不画两氨一步作完整机制。中文标签：含氮部分；碳骨架；肝；尿素；肾。公式、单位和条件：氨基酸→合成蛋白/其他含氮物；分解时含氮部分与碳骨架分路。；肝相关尿素合成→血液运输→肾排泄；合成处不等尿形成处。；在给定简化收支：氮留存=氮输入−全部氮输出，未列通路不可忽略。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter5, authentic subsection5.5, with original Chinese title 蛋白质代谢. Topic-specific mandatory science: Separate amino nitrogen from carbon skeletons during amino-acid breakdown. Liver-associated urea synthesis precedes blood transport and kidney excretion. Urea containing two nitrogen atoms is not proof of a single-step reaction of two free-ammonia molecules. Draw a precise digestion or metabolism schematic. Separate ingestion, lumen digestion, epithelial absorption and intracellular metabolism. Distinguish hepatic portal transport from lymphatic chylomicron transport. Preserve reaction direction, carbon and nitrogen accounting, organ locations and model-specific energy assumptions. Required objects, preserving these Chinese labels: 氨基酸池；蛋白合成；转氨脱氨；肝尿素；血肾；碳骨架入口. Additional literal Chinese annotation strings: 含氮部分；碳骨架；肝；尿素；肾. Typeset and verify these reference formulas, units and stated conditions: 氨基酸→合成蛋白/其他含氮物；分解时含氮部分与碳骨架分路。；肝相关尿素合成→血液运输→肾排泄；合成处不等尿形成处。；在给定简化收支：氮留存=氮输入−全部氮输出，未列通路不可忽略。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 氮碳分别标
+- 尿素肝合成肾排出
+- 不同骨架不同入口
+- 不画两氨一步作完整机制
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用经审核消化与代谢图，须核器官、腔内外、血淋巴流向和不可逆步骤；不能全画双箭头
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf
+- https://openstax.org/books/biology-2e/pages/7-6-connections-of-carbohydrate-protein-and-lipid-metabolic-pathways
+
+## B06-BIO05-5-6 · 生物 5.6 脂质代谢
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：区分脂质消化、储存与细胞氧化；以脂肪酸和甘油分路解释碳与能量去向
+
+对象：甘油三酯；甘油；16碳脂肪酸；8个二碳单元；7轮标记
+
+关系：甘油与脂肪酸入口不同；16碳守恒为8×2；7轮不同8单元；标人体净生糖限制
+
+中文标签：β氧化；乙酰辅酶A；7轮；8单元；模型条件
+
+公式/单位：甘油三酯动员：甘油与脂肪酸分路；消化与细胞氧化不是同一步。；饱和偶数n碳脂肪酸简化β氧化：乙酰单元n/2，轮数n/2−1。；甘油可参与糖异生；人体偶数链脂肪酸经乙酰辅酶A通常不能净产葡萄糖。
+
+### 中文Prompt
+
+制作生物第5章《食物的消化与物质代谢》5.6《脂质代谢》的教学图《脂肪酸碳链与甘油分路》。教学目标：区分脂质消化、储存与细胞氧化；以脂肪酸和甘油分路解释碳与能量去向。必须对象：甘油三酯；甘油；16碳脂肪酸；8个二碳单元；7轮标记。不可画错的关系：甘油与脂肪酸入口不同；16碳守恒为8×2；7轮不同8单元；标人体净生糖限制。中文标签：β氧化；乙酰辅酶A；7轮；8单元；模型条件。公式、单位和条件：甘油三酯动员：甘油与脂肪酸分路；消化与细胞氧化不是同一步。；饱和偶数n碳脂肪酸简化β氧化：乙酰单元n/2，轮数n/2−1。；甘油可参与糖异生；人体偶数链脂肪酸经乙酰辅酶A通常不能净产葡萄糖。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter5, authentic subsection5.6, with original Chinese title 脂质代谢. Topic-specific mandatory science: Split glycerol from fatty-acid metabolism. A saturated16-carbon even-chain fatty acid yields8acetyl units over7beta-oxidation rounds in the stated model. Even-chain fatty-acid acetyl-CoA does not ordinarily yield net glucose in humans; glycerol can contribute differently. Draw a precise digestion or metabolism schematic. Separate ingestion, lumen digestion, epithelial absorption and intracellular metabolism. Distinguish hepatic portal transport from lymphatic chylomicron transport. Preserve reaction direction, carbon and nitrogen accounting, organ locations and model-specific energy assumptions. Required objects, preserving these Chinese labels: 甘油三酯；甘油；16碳脂肪酸；8个二碳单元；7轮标记. Additional literal Chinese annotation strings: β氧化；乙酰辅酶A；7轮；8单元；模型条件. Typeset and verify these reference formulas, units and stated conditions: 甘油三酯动员：甘油与脂肪酸分路；消化与细胞氧化不是同一步。；饱和偶数n碳脂肪酸简化β氧化：乙酰单元n/2，轮数n/2−1。；甘油可参与糖异生；人体偶数链脂肪酸经乙酰辅酶A通常不能净产葡萄糖。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 甘油与脂肪酸入口不同
+- 16碳守恒为8×2
+- 7轮不同8单元
+- 标人体净生糖限制
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用经审核消化与代谢图，须核器官、腔内外、血淋巴流向和不可逆步骤；不能全画双箭头
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf
+- https://openstax.org/books/biology-2e/pages/7-6-connections-of-carbohydrate-protein-and-lipid-metabolic-pathways
+
+## B06-BIO05-5-7 · 生物 5.7 三大营养物质代谢的关系
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：用共同中间体整合代谢并保留方向限制；按碳、氮和能量收支分析混合数据
+
+对象：糖酵解；乙酰辅酶A；脂肪酸甘油；氨基酸碳氮分流；ATP热
+
+关系：不可逆箭头保留；甘油可接糖相关入口；偶数脂肪酸非通常净生糖；碳氮能量用不同线型
+
+中文标签：碳流；氮流；能量流；RQ；模型边界
+
+公式/单位：共同中间体连接路径，但不代表任意逆转或无限净转化。；葡萄糖完全氧化C₆H₁₂O₆+6O₂→6CO₂+6H₂O，RQ=1。；典型饱和脂肪酸如C₁₆H₃₂O₂+23O₂→16CO₂+16H₂O，RQ=16/23，前提为所写完全氧化。
+
+### 中文Prompt
+
+制作生物第5章《食物的消化与物质代谢》5.7《三大营养物质代谢的关系》的教学图《代谢网络与三本账》。教学目标：用共同中间体整合代谢并保留方向限制；按碳、氮和能量收支分析混合数据。必须对象：糖酵解；乙酰辅酶A；脂肪酸甘油；氨基酸碳氮分流；ATP热。不可画错的关系：不可逆箭头保留；甘油可接糖相关入口；偶数脂肪酸非通常净生糖；碳氮能量用不同线型。中文标签：碳流；氮流；能量流；RQ；模型边界。公式、单位和条件：共同中间体连接路径，但不代表任意逆转或无限净转化。；葡萄糖完全氧化C₆H₁₂O₆+6O₂→6CO₂+6H₂O，RQ=1。；典型饱和脂肪酸如C₁₆H₃₂O₂+23O₂→16CO₂+16H₂O，RQ=16/23，前提为所写完全氧化。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter5, authentic subsection5.7, with original Chinese title 三大营养物质代谢的关系. Topic-specific mandatory science: Connect metabolic nodes without drawing every arrow as reversible. Account separately for carbon, nitrogen and energy. Glucose complete oxidation has RQ1; palmitic-acid complete oxidation consumes23oxygen and produces16carbon dioxide, giving16/23. State the model limits. Draw a precise digestion or metabolism schematic. Separate ingestion, lumen digestion, epithelial absorption and intracellular metabolism. Distinguish hepatic portal transport from lymphatic chylomicron transport. Preserve reaction direction, carbon and nitrogen accounting, organ locations and model-specific energy assumptions. Required objects, preserving these Chinese labels: 糖酵解；乙酰辅酶A；脂肪酸甘油；氨基酸碳氮分流；ATP热. Additional literal Chinese annotation strings: 碳流；氮流；能量流；RQ；模型边界. Typeset and verify these reference formulas, units and stated conditions: 共同中间体连接路径，但不代表任意逆转或无限净转化。；葡萄糖完全氧化C₆H₁₂O₆+6O₂→6CO₂+6H₂O，RQ=1。；典型饱和脂肪酸如C₁₆H₃₂O₂+23O₂→16CO₂+16H₂O，RQ=16/23，前提为所写完全氧化。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 不可逆箭头保留
+- 甘油可接糖相关入口
+- 偶数脂肪酸非通常净生糖
+- 碳氮能量用不同线型
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用经审核消化与代谢图，须核器官、腔内外、血淋巴流向和不可逆步骤；不能全画双箭头
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf
+- https://openstax.org/books/biology-2e/pages/7-6-connections-of-carbohydrate-protein-and-lipid-metabolic-pathways
+
+## B06-BIO06-6-1 · 生物 6.1 为什么生物要有运输系统
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：用表面积体积比和扩散距离解释运输需求；区分长距离整体运输与末端扩散交换
+
+对象：1cm与2cm立方体；表面穿透层；核心区；运输管末端
+
+关系：面积4倍体积8倍；S/V减半；末端仍有扩散路径
+
+中文标签：S/V=6/L；t∝L²；整体运输；局部交换
+
+公式/单位：立方体S=6L²，V=L³，S/V=6/L。；简单相同扩散系数模型中典型时间t∝距离²。；长距离整体流动把物质送近细胞；末端交换仍需相应扩散或膜运输。
+
+### 中文Prompt
+
+制作生物第6章《营养成分的运输》6.1《为什么生物要有运输系统》的教学图《尺度与运输需求》。教学目标：用表面积体积比和扩散距离解释运输需求；区分长距离整体运输与末端扩散交换。必须对象：1cm与2cm立方体；表面穿透层；核心区；运输管末端。不可画错的关系：面积4倍体积8倍；S/V减半；末端仍有扩散路径。中文标签：S/V=6/L；t∝L²；整体运输；局部交换。公式、单位和条件：立方体S=6L²，V=L³，S/V=6/L。；简单相同扩散系数模型中典型时间t∝距离²。；长距离整体流动把物质送近细胞；末端交换仍需相应扩散或膜运输。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter6, authentic subsection6.1, with original Chinese title 为什么生物要有运输系统. Topic-specific mandatory science: Compare cubes of side1and2cm. Area rises4fold but volume8fold, so surface-to-volume ratio falls from6to3percm. Under the same simple diffusion model characteristic time scales with distance squared, while bulk transport still requires terminal exchange. Use a precise biological transport schematic. Separate flow direction, oxygenation, pressure and chemical concentration. Arteries are defined by direction away from the heart, not oxygen content. Keep xylem and phloem distinct, and distinguish source-to-sink flow from transpiration-driven water flow. Required objects, preserving these Chinese labels: 1cm与2cm立方体；表面穿透层；核心区；运输管末端. Additional literal Chinese annotation strings: S/V=6/L；t∝L²；整体运输；局部交换. Typeset and verify these reference formulas, units and stated conditions: 立方体S=6L²，V=L³，S/V=6/L。；简单相同扩散系数模型中典型时间t∝距离²。；长距离整体流动把物质送近细胞；末端交换仍需相应扩散或膜运输。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 面积4倍体积8倍
+- S/V减半
+- 末端仍有扩散路径
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用已审核循环或植物图，必须核连接、方向与组织身份；颜色不能替代箭头证据
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf
+- https://openstax.org/books/biology-2e/pages/33-1-animal-form-and-function
+
+## B06-BIO06-6-2 · 生物 6.2 血液在人体内是怎样流动的
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：沿双循环和瓣膜追踪血流；按流向区分动静脉并计算心输出量
+
+对象：四心腔；肺体两循环；肺动静脉；主动脉腔静脉；瓣膜
+
+关系：右室到肺左房；左室到全身右房；两侧不直接混流；氧合颜色与方向独立
+
+中文标签：右房；右室；左房；左室；离心；回心
+
+公式/单位：右房→右室→肺动脉→肺→肺静脉→左房→左室→主动脉→全身→回右房。；动脉离心、静脉回心；含氧量与命名分开。；心输出量=每搏输出量×心率，单位换成L/min时需除1000。
+
+### 中文Prompt
+
+制作生物第6章《营养成分的运输》6.2《血液在人体内是怎样流动的》的教学图《人体双循环与瓣膜》。教学目标：沿双循环和瓣膜追踪血流；按流向区分动静脉并计算心输出量。必须对象：四心腔；肺体两循环；肺动静脉；主动脉腔静脉；瓣膜。不可画错的关系：右室到肺左房；左室到全身右房；两侧不直接混流；氧合颜色与方向独立。中文标签：右房；右室；左房；左室；离心；回心。公式、单位和条件：右房→右室→肺动脉→肺→肺静脉→左房→左室→主动脉→全身→回右房。；动脉离心、静脉回心；含氧量与命名分开。；心输出量=每搏输出量×心率，单位换成L/min时需除1000。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter6, authentic subsection6.2, with original Chinese title 血液在人体内是怎样流动的. Topic-specific mandatory science: Show systemic return to right atrium, right ventricle, pulmonary artery, lungs, pulmonary vein, left atrium, left ventricle and aorta. Arteries are away from the heart irrespective of oxygenation. Valves respond to pressure gradients. Use a precise biological transport schematic. Separate flow direction, oxygenation, pressure and chemical concentration. Arteries are defined by direction away from the heart, not oxygen content. Keep xylem and phloem distinct, and distinguish source-to-sink flow from transpiration-driven water flow. Required objects, preserving these Chinese labels: 四心腔；肺体两循环；肺动静脉；主动脉腔静脉；瓣膜. Additional literal Chinese annotation strings: 右房；右室；左房；左室；离心；回心. Typeset and verify these reference formulas, units and stated conditions: 右房→右室→肺动脉→肺→肺静脉→左房→左室→主动脉→全身→回右房。；动脉离心、静脉回心；含氧量与命名分开。；心输出量=每搏输出量×心率，单位换成L/min时需除1000。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 右室到肺左房
+- 左室到全身右房
+- 两侧不直接混流
+- 氧合颜色与方向独立
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用已审核循环或植物图，必须核连接、方向与组织身份；颜色不能替代箭头证据
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf
+- https://openstax.org/books/biology-2e/pages/40-3-mammalian-heart-and-blood-vessels
+
+## B06-BIO06-6-3 · 生物 6.3 为什么心脏能自律跳动
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：解释起搏与传导协调而非每搏靠脑启动；区分电活动、收缩和泵血并读周期
+
+对象：窦房结；房室结；房室束；束支；浦肯野；电机械时间条
+
+关系：房先室后；AV延迟非血液停在结点；信号路不同血路
+
+中文标签：起搏；传导；调节；电位差；T=60/HR
+
+公式/单位：常规电传导：窦房结→心房→房室结延迟→房室束/束支→浦肯野系统→心室。；自律产生基本节律；神经与内分泌可调节，不等于每搏由脑启动。；稳定节律T=60/HR秒，HR以搏/min；心电信号不同压力和血流。
+
+### 中文Prompt
+
+制作生物第6章《营养成分的运输》6.3《为什么心脏能自律跳动》的教学图《心脏电传导与机械时序》。教学目标：解释起搏与传导协调而非每搏靠脑启动；区分电活动、收缩和泵血并读周期。必须对象：窦房结；房室结；房室束；束支；浦肯野；电机械时间条。不可画错的关系：房先室后；AV延迟非血液停在结点；信号路不同血路。中文标签：起搏；传导；调节；电位差；T=60/HR。公式、单位和条件：常规电传导：窦房结→心房→房室结延迟→房室束/束支→浦肯野系统→心室。；自律产生基本节律；神经与内分泌可调节，不等于每搏由脑启动。；稳定节律T=60/HR秒，HR以搏/min；心电信号不同压力和血流。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter6, authentic subsection6.3, with original Chinese title 为什么心脏能自律跳动. Topic-specific mandatory science: Signal starts at the sinoatrial node, passes through atrial pathways and the AV node delay, then the conduction bundles and Purkinje system. Electrical activity is not the blood-flow route or a direct pressure trace. Neural modulation is not mandatory brain triggering of every beat. Use a precise biological transport schematic. Separate flow direction, oxygenation, pressure and chemical concentration. Arteries are defined by direction away from the heart, not oxygen content. Keep xylem and phloem distinct, and distinguish source-to-sink flow from transpiration-driven water flow. Required objects, preserving these Chinese labels: 窦房结；房室结；房室束；束支；浦肯野；电机械时间条. Additional literal Chinese annotation strings: 起搏；传导；调节；电位差；T=60/HR. Typeset and verify these reference formulas, units and stated conditions: 常规电传导：窦房结→心房→房室结延迟→房室束/束支→浦肯野系统→心室。；自律产生基本节律；神经与内分泌可调节，不等于每搏由脑启动。；稳定节律T=60/HR秒，HR以搏/min；心电信号不同压力和血流。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 房先室后
+- AV延迟非血液停在结点
+- 信号路不同血路
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用已审核循环或植物图，必须核连接、方向与组织身份；颜色不能替代箭头证据
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf
+- https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity
+
+## B06-BIO06-6-4 · 生物 6.4 心血管疾病
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：用血流供需解释常见病理关系；区分风险、因果、绝对风险与相对变化
+
+对象：正常管腔；壁内斑块；局部血栓；远处栓塞路径；风险条
+
+关系：斑块位于血管壁相关结构；局部形成与移动阻塞分开；2%至1%差1个百分点而相对50%
+
+中文标签：斑块；血栓；栓塞；绝对风险；相对变化
+
+公式/单位：供血不足是供需关系问题，不等于所有情况只有一个血管结构原因。；血栓、栓塞、斑块狭窄为相关但不同概念；冠状循环供给心肌。；绝对风险差=p₁−p₂；相对减少=(p₁−p₂)/p₁，注明分母与百分点。
+
+### 中文Prompt
+
+制作生物第6章《营养成分的运输》6.4《心血管疾病》的教学图《血管病变与风险数据》。教学目标：用血流供需解释常见病理关系；区分风险、因果、绝对风险与相对变化。必须对象：正常管腔；壁内斑块；局部血栓；远处栓塞路径；风险条。不可画错的关系：斑块位于血管壁相关结构；局部形成与移动阻塞分开；2%至1%差1个百分点而相对50%。中文标签：斑块；血栓；栓塞；绝对风险；相对变化。公式、单位和条件：供血不足是供需关系问题，不等于所有情况只有一个血管结构原因。；血栓、栓塞、斑块狭窄为相关但不同概念；冠状循环供给心肌。；绝对风险差=p₁−p₂；相对减少=(p₁−p₂)/p₁，注明分母与百分点。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter6, authentic subsection6.4, with original Chinese title 心血管疾病. Topic-specific mandatory science: Distinguish wall-associated atherosclerotic plaque, locally formed thrombus and a traveling embolus. Coronary vessels supply myocardium. A risk change2percent to1percent is1percentage point absolute and50percent relative, not50percentage points. Use a precise biological transport schematic. Separate flow direction, oxygenation, pressure and chemical concentration. Arteries are defined by direction away from the heart, not oxygen content. Keep xylem and phloem distinct, and distinguish source-to-sink flow from transpiration-driven water flow. Required objects, preserving these Chinese labels: 正常管腔；壁内斑块；局部血栓；远处栓塞路径；风险条. Additional literal Chinese annotation strings: 斑块；血栓；栓塞；绝对风险；相对变化. Typeset and verify these reference formulas, units and stated conditions: 供血不足是供需关系问题，不等于所有情况只有一个血管结构原因。；血栓、栓塞、斑块狭窄为相关但不同概念；冠状循环供给心肌。；绝对风险差=p₁−p₂；相对减少=(p₁−p₂)/p₁，注明分母与百分点。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 斑块位于血管壁相关结构
+- 局部形成与移动阻塞分开
+- 2%至1%差1个百分点而相对50%
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用已审核循环或植物图，必须核连接、方向与组织身份；颜色不能替代箭头证据
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf
+- https://openstax.org/books/anatomy-and-physiology-2e/pages/20-2-blood-flow-blood-pressure-and-resistance
+
+## B06-BIO06-6-5 · 生物 6.5 植物是如何运输物质的
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：将木质部与韧皮部结构功能对应；用示踪与环剥证据判断通路而不过度外推
+
+对象：导管；筛管伴胞；成熟叶；新芽；根储存器官；环剥位置
+
+关系：水矿质与糖用不同通路；筛管活而导管输导细胞通常成熟死；源库按时段定义；环剥不直接切断全部木质
+
+中文标签：木质部；韧皮部；伴胞；源；库；短期/长期
+
+公式/单位：木质部主要长距离输水矿质；韧皮部输源到库的有机同化物等。；源库角色可随发育改变；上下双向通常指不同运输通路。；环剥的短期与长期效应分开，不能将损伤现象唯一归因而无对照。
+
+### 中文Prompt
+
+制作生物第6章《营养成分的运输》6.5《植物是如何运输物质的》的教学图《木质与韧皮源库运输》。教学目标：将木质部与韧皮部结构功能对应；用示踪与环剥证据判断通路而不过度外推。必须对象：导管；筛管伴胞；成熟叶；新芽；根储存器官；环剥位置。不可画错的关系：水矿质与糖用不同通路；筛管活而导管输导细胞通常成熟死；源库按时段定义；环剥不直接切断全部木质。中文标签：木质部；韧皮部；伴胞；源；库；短期/长期。公式、单位和条件：木质部主要长距离输水矿质；韧皮部输源到库的有机同化物等。；源库角色可随发育改变；上下双向通常指不同运输通路。；环剥的短期与长期效应分开，不能将损伤现象唯一归因而无对照。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter6, authentic subsection6.5, with original Chinese title 植物是如何运输物质的. Topic-specific mandatory science: Separate xylem from living phloem sieve elements and companion cells. Source and sink roles depend on stage. Different phloem pathways can transport in opposite directions without showing a single bulk stream flowing both directions at once. Use a precise biological transport schematic. Separate flow direction, oxygenation, pressure and chemical concentration. Arteries are defined by direction away from the heart, not oxygen content. Keep xylem and phloem distinct, and distinguish source-to-sink flow from transpiration-driven water flow. Required objects, preserving these Chinese labels: 导管；筛管伴胞；成熟叶；新芽；根储存器官；环剥位置. Additional literal Chinese annotation strings: 木质部；韧皮部；伴胞；源；库；短期/长期. Typeset and verify these reference formulas, units and stated conditions: 木质部主要长距离输水矿质；韧皮部输源到库的有机同化物等。；源库角色可随发育改变；上下双向通常指不同运输通路。；环剥的短期与长期效应分开，不能将损伤现象唯一归因而无对照。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 水矿质与糖用不同通路
+- 筛管活而导管输导细胞通常成熟死
+- 源库按时段定义
+- 环剥不直接切断全部木质
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用已审核循环或植物图，必须核连接、方向与组织身份；颜色不能替代箭头证据
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf
+- https://openstax.org/books/biology-2e/pages/30-5-transport-of-water-and-solutes-in-plants
+
+## B06-BIO06-6-6 · 生物 6.6 物质在植物体内运输的动力是什么
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：解释蒸腾拉力、内聚与水势关系；用压力流解释同化物运输并评价实验代理量
+
+对象：叶蒸腾面；连续水柱；源端装糖；库端卸糖；水交换；吸水计
+
+关系：木质拉力不同韧皮压差；水由高总水势到低；源入水提膨压；代理量含储水校正
+
+中文标签：Ψ；张力；膨压；源→库；Ad/t
+
+公式/单位：简化同高水势Ψ=Ψ_s+Ψ_p，水由高Ψ向低Ψ；−.2>−.8 MPa。；木质部蒸腾张力与内聚传力；韧皮部源库压力差驱动整体流。；吸水计代理流率=Ad/t，吸水不自动严格等于蒸腾，需核储水与漏项。
+
+### 中文Prompt
+
+制作生物第6章《营养成分的运输》6.6《物质在植物体内运输的动力是什么》的教学图《木质张力与韧皮压力流》。教学目标：解释蒸腾拉力、内聚与水势关系；用压力流解释同化物运输并评价实验代理量。必须对象：叶蒸腾面；连续水柱；源端装糖；库端卸糖；水交换；吸水计。不可画错的关系：木质拉力不同韧皮压差；水由高总水势到低；源入水提膨压；代理量含储水校正。中文标签：Ψ；张力；膨压；源→库；Ad/t。公式、单位和条件：简化同高水势Ψ=Ψ_s+Ψ_p，水由高Ψ向低Ψ；−.2>−.8 MPa。；木质部蒸腾张力与内聚传力；韧皮部源库压力差驱动整体流。；吸水计代理流率=Ad/t，吸水不自动严格等于蒸腾，需核储水与漏项。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter6, authentic subsection6.6, with original Chinese title 物质在植物体内运输的动力是什么. Topic-specific mandatory science: Xylem transpiration tension differs from phloem source-sink pressure flow. Water moves from higher total water potential to lower, so-0.2MPa to-0.8MPa. Potometer uptake Ad/t is a proxy and must account for storage and other losses. Use a precise biological transport schematic. Separate flow direction, oxygenation, pressure and chemical concentration. Arteries are defined by direction away from the heart, not oxygen content. Keep xylem and phloem distinct, and distinguish source-to-sink flow from transpiration-driven water flow. Required objects, preserving these Chinese labels: 叶蒸腾面；连续水柱；源端装糖；库端卸糖；水交换；吸水计. Additional literal Chinese annotation strings: Ψ；张力；膨压；源→库；Ad/t. Typeset and verify these reference formulas, units and stated conditions: 简化同高水势Ψ=Ψ_s+Ψ_p，水由高Ψ向低Ψ；−.2>−.8 MPa。；木质部蒸腾张力与内聚传力；韧皮部源库压力差驱动整体流。；吸水计代理流率=Ad/t，吸水不自动严格等于蒸腾，需核储水与漏项。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 木质拉力不同韧皮压差
+- 水由高总水势到低
+- 源入水提膨压
+- 代理量含储水校正
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用已审核循环或植物图，必须核连接、方向与组织身份；颜色不能替代箭头证据
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf
+- https://openstax.org/books/biology-2e/pages/30-5-transport-of-water-and-solutes-in-plants
 
 ## B06-BIO08-8-1 · 生物 8.1 什么是内环境恒定
 
@@ -1320,6 +1875,300 @@ No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charge
 来源：
 - https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf
 - https://openstax.org/books/biology-2e/pages/47-4-preserving-biodiversity
+
+## B06-CHEM19-19-1 · 化学 19.1 化学反应中的热量变化
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：按系统边界辨吸放热与符号；由量热数据和能量收支求反应热
+
+对象：反应系统；溶液；量热器；外界漏热箭头；温度计
+
+关系：放热系统q负而溶液q正；隔热总q为0；漏热单列不隐藏
+
+中文标签：q_rxn；mcΔT；C_calΔT；系统吸热为正
+
+公式/单位：系统吸热q>0，放热q<0；测得溶液升温不等于q_rxn>0。；理想隔热模型q_rxn=−(mc+C_cal)ΔT。；断键吸能、成键放能，净反应热取差；启动能垒不是ΔH。
+
+### 中文Prompt
+
+制作化学第19章《化学反应和能量》19.1《化学反应中的热量变化》的教学图《量热系统的热量收支》。教学目标：按系统边界辨吸放热与符号；由量热数据和能量收支求反应热。必须对象：反应系统；溶液；量热器；外界漏热箭头；温度计。不可画错的关系：放热系统q负而溶液q正；隔热总q为0；漏热单列不隐藏。中文标签：q_rxn；mcΔT；C_calΔT；系统吸热为正。公式、单位和条件：系统吸热q>0，放热q<0；测得溶液升温不等于q_rxn>0。；理想隔热模型q_rxn=−(mc+C_cal)ΔT。；断键吸能、成键放能，净反应热取差；启动能垒不是ΔH。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter19, authentic subsection19.1, with original Chinese title 化学反应中的热量变化. Topic-specific mandatory science: Define reaction system, solution and calorimeter separately. An exothermic reaction has negative reaction heat while warming solution absorbs positive heat. Include calorimeter heat capacity and any outward loss explicitly. Use deterministic thermochemical diagrams. Define system and surroundings, distinguish heat from stored energy and activation energy from enthalpy change. Balance every equation and label phases, amount basis, temperature and pressure assumptions. A lower product enthalpy means negative reaction enthalpy. Required objects, preserving these Chinese labels: 反应系统；溶液；量热器；外界漏热箭头；温度计. Additional literal Chinese annotation strings: q_rxn；mcΔT；C_calΔT；系统吸热为正. Typeset and verify these reference formulas, units and stated conditions: 系统吸热q>0，放热q<0；测得溶液升温不等于q_rxn>0。；理想隔热模型q_rxn=−(mc+C_cal)ΔT。；断键吸能、成键放能，净反应热取差；启动能垒不是ΔH。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 放热系统q负而溶液q正
+- 隔热总q为0
+- 漏热单列不隐藏
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：能量图可复用但须核系统边界、ΔH方向、系数和状态；不同条件不机械替换
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry
+
+## B06-CHEM19-19-2 · 化学 19.2 反应热、焓变
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：把焓变与热量的适用条件区分；按方程系数、状态和反应进度缩放ΔH
+
+对象：氨合成平衡式；2mol基准；半份整式；逆向双倍
+
+关系：1mol氨对应−46kJ；逆向双倍+184kJ；状态标签保持
+
+中文标签：N₂+3H₂→2NH₃；ΔH=−92kJ；反应进度
+
+公式/单位：恒压且只有适当体积功等条件下q_p=ΔH；H=U+pV。；反向方程ΔH反号；系数整体乘r，ΔH也乘r。；实际热量由反应进度ξ缩放；基准是所写整式，不自动是任一产物1 mol。
+
+### 中文Prompt
+
+制作化学第19章《化学反应和能量》19.2《反应热、焓变》的教学图《热化学方程的基准与缩放》。教学目标：把焓变与热量的适用条件区分；按方程系数、状态和反应进度缩放ΔH。必须对象：氨合成平衡式；2mol基准；半份整式；逆向双倍。不可画错的关系：1mol氨对应−46kJ；逆向双倍+184kJ；状态标签保持。中文标签：N₂+3H₂→2NH₃；ΔH=−92kJ；反应进度。公式、单位和条件：恒压且只有适当体积功等条件下q_p=ΔH；H=U+pV。；反向方程ΔH反号；系数整体乘r，ΔH也乘r。；实际热量由反应进度ξ缩放；基准是所写整式，不自动是任一产物1 mol。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter19, authentic subsection19.2, with original Chinese title 反应热、焓变. Topic-specific mandatory science: For N2+3H2 forming2NH3, the given reaction enthalpy-92kJ belongs to the whole written equation. One mole ammonia corresponds to-46kJ; reversing and doubling gives+184kJ. Conditions and phases must remain consistent. Use deterministic thermochemical diagrams. Define system and surroundings, distinguish heat from stored energy and activation energy from enthalpy change. Balance every equation and label phases, amount basis, temperature and pressure assumptions. A lower product enthalpy means negative reaction enthalpy. Required objects, preserving these Chinese labels: 氨合成平衡式；2mol基准；半份整式；逆向双倍. Additional literal Chinese annotation strings: N₂+3H₂→2NH₃；ΔH=−92kJ；反应进度. Typeset and verify these reference formulas, units and stated conditions: 恒压且只有适当体积功等条件下q_p=ΔH；H=U+pV。；反向方程ΔH反号；系数整体乘r，ΔH也乘r。；实际热量由反应进度ξ缩放；基准是所写整式，不自动是任一产物1 mol。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 1mol氨对应−46kJ
+- 逆向双倍+184kJ
+- 状态标签保持
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：能量图可复用但须核系统边界、ΔH方向、系数和状态；不同条件不机械替换
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy
+
+## B06-CHEM19-19-3-1 · 化学 19.3.1 生成热
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：按标准态元素生成1mol物质写方程；用生成焓求反应焓并区分元素参考零点
+
+对象：参考态元素；反应物层；产物层；两条生成路径；焓差
+
+关系：反应焓为产物生成和减反应物生成和；每项乘系数；零点仅参考态
+
+中文标签：ΔfH°；1mol；标准参考态；Σ产−Σ反
+
+公式/单位：Δ_fH°基准：由标准参考态元素生成1 mol指定状态物质。；Δ_rH°=ΣνΔ_fH°_products−ΣνΔ_fH°_reactants。；参考态元素生成焓0是约定零点，不是绝对无能量。
+
+### 中文Prompt
+
+制作化学第19章《化学反应和能量》19.3.1《生成热》的教学图《生成焓共同参考态循环》。教学目标：按标准态元素生成1mol物质写方程；用生成焓求反应焓并区分元素参考零点。必须对象：参考态元素；反应物层；产物层；两条生成路径；焓差。不可画错的关系：反应焓为产物生成和减反应物生成和；每项乘系数；零点仅参考态。中文标签：ΔfH°；1mol；标准参考态；Σ产−Σ反。公式、单位和条件：Δ_fH°基准：由标准参考态元素生成1 mol指定状态物质。；Δ_rH°=ΣνΔ_fH°_products−ΣνΔ_fH°_reactants。；参考态元素生成焓0是约定零点，不是绝对无能量。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter19, authentic subsection19.3.1, with original Chinese title 生成热. Topic-specific mandatory science: Standard formation enthalpy refers to1mol of specified product from reference-state elements. A zero reference value is not zero total energy. Compute products minus reactants with stoichiometric coefficients and matching states. Use deterministic thermochemical diagrams. Define system and surroundings, distinguish heat from stored energy and activation energy from enthalpy change. Balance every equation and label phases, amount basis, temperature and pressure assumptions. A lower product enthalpy means negative reaction enthalpy. Required objects, preserving these Chinese labels: 参考态元素；反应物层；产物层；两条生成路径；焓差. Additional literal Chinese annotation strings: ΔfH°；1mol；标准参考态；Σ产−Σ反. Typeset and verify these reference formulas, units and stated conditions: Δ_fH°基准：由标准参考态元素生成1 mol指定状态物质。；Δ_rH°=ΣνΔ_fH°_products−ΣνΔ_fH°_reactants。；参考态元素生成焓0是约定零点，不是绝对无能量。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 反应焓为产物生成和减反应物生成和
+- 每项乘系数
+- 零点仅参考态
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：能量图可复用但须核系统边界、ΔH方向、系数和状态；不同条件不机械替换
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy
+
+## B06-CHEM19-19-3-2 · 化学 19.3.2 燃烧热
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：按1mol燃料完全燃烧定义热量基准；区分水物态、总放热与有效供热
+
+对象：燃料加氧；CO₂与水蒸气；水凝结支路；有效能与损失分流
+
+关系：同量蒸气凝结另放热；有效能为η乘释放大小；方程原子守恒
+
+中文标签：ΔcH<0；Q_release>0；H₂O(g)；H₂O(l)；η
+
+公式/单位：完全燃烧产物及物态明确后，q=n_fuel Δ_cH（相同条件基准）。；正热值通常为|Δ_cH|按某质量基准换算，符号要说明。；Q_useful=ηQ_released；水蒸气与液态水对应热值不能无条件混用。
+
+### 中文Prompt
+
+制作化学第19章《化学反应和能量》19.3.2《燃烧热》的教学图《燃烧热与末态水》。教学目标：按1mol燃料完全燃烧定义热量基准；区分水物态、总放热与有效供热。必须对象：燃料加氧；CO₂与水蒸气；水凝结支路；有效能与损失分流。不可画错的关系：同量蒸气凝结另放热；有效能为η乘释放大小；方程原子守恒。中文标签：ΔcH<0；Q_release>0；H₂O(g)；H₂O(l)；η。公式、单位和条件：完全燃烧产物及物态明确后，q=n_fuel Δ_cH（相同条件基准）。；正热值通常为|Δ_cH|按某质量基准换算，符号要说明。；Q_useful=ηQ_released；水蒸气与液态水对应热值不能无条件混用。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter19, authentic subsection19.3.2, with original Chinese title 燃烧热. Topic-specific mandatory science: Combustion enthalpy is negative for exothermic combustion, while heating value is often a positive magnitude. Condensing product water adds released heat. Useful energy equals efficiency times released magnitude; incomplete combustion changes the final state. Use deterministic thermochemical diagrams. Define system and surroundings, distinguish heat from stored energy and activation energy from enthalpy change. Balance every equation and label phases, amount basis, temperature and pressure assumptions. A lower product enthalpy means negative reaction enthalpy. Required objects, preserving these Chinese labels: 燃料加氧；CO₂与水蒸气；水凝结支路；有效能与损失分流. Additional literal Chinese annotation strings: ΔcH<0；Q_release>0；H₂O(g)；H₂O(l)；η. Typeset and verify these reference formulas, units and stated conditions: 完全燃烧产物及物态明确后，q=n_fuel Δ_cH（相同条件基准）。；正热值通常为|Δ_cH|按某质量基准换算，符号要说明。；Q_useful=ηQ_released；水蒸气与液态水对应热值不能无条件混用。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 同量蒸气凝结另放热
+- 有效能为η乘释放大小
+- 方程原子守恒
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：能量图可复用但须核系统边界、ΔH方向、系数和状态；不同条件不机械替换
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy
+
+## B06-CHEM19-19-3-3 · 化学 19.3.3 中和热
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：按生成1mol水定义中和焓并识别限量；解释强弱酸碱和实验条件对结果的影响
+
+对象：H⁺与OH⁻数目；剩余酸；水量；混合液量热杯
+
+关系：1比1生成水；过量离子不算额外水；两液总质量用于mcΔT
+
+中文标签：n_water；限量；q_rxn；kJ/mol水
+
+公式/单位：H⁺+OH⁻→H₂O；摩尔中和焓以生成水量n_water为基准。；在所用量热模型ΔH_neut=−(mc+C_cal)ΔT/n_water。；先求限量，再核强弱、稀释与初温条件；总温升不能直接比较摩尔焓。
+
+### 中文Prompt
+
+制作化学第19章《化学反应和能量》19.3.3《中和热》的教学图《中和量热与限量水量》。教学目标：按生成1mol水定义中和焓并识别限量；解释强弱酸碱和实验条件对结果的影响。必须对象：H⁺与OH⁻数目；剩余酸；水量；混合液量热杯。不可画错的关系：1比1生成水；过量离子不算额外水；两液总质量用于mcΔT。中文标签：n_water；限量；q_rxn；kJ/mol水。公式、单位和条件：H⁺+OH⁻→H₂O；摩尔中和焓以生成水量n_water为基准。；在所用量热模型ΔH_neut=−(mc+C_cal)ΔT/n_water。；先求限量，再核强弱、稀释与初温条件；总温升不能直接比较摩尔焓。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter19, authentic subsection19.3.3, with original Chinese title 中和热. Topic-specific mandatory science: Neutralization heat is based on moles of water formed. Strong-acid strong-base net reaction is H plus plus OH minus forming water under specified dilute conditions. Count limiting equivalents and total solution mass; weak-electrolyte and dilution effects are separate. Use deterministic thermochemical diagrams. Define system and surroundings, distinguish heat from stored energy and activation energy from enthalpy change. Balance every equation and label phases, amount basis, temperature and pressure assumptions. A lower product enthalpy means negative reaction enthalpy. Required objects, preserving these Chinese labels: H⁺与OH⁻数目；剩余酸；水量；混合液量热杯. Additional literal Chinese annotation strings: n_water；限量；q_rxn；kJ/mol水. Typeset and verify these reference formulas, units and stated conditions: H⁺+OH⁻→H₂O；摩尔中和焓以生成水量n_water为基准。；在所用量热模型ΔH_neut=−(mc+C_cal)ΔT/n_water。；先求限量，再核强弱、稀释与初温条件；总温升不能直接比较摩尔焓。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 1比1生成水
+- 过量离子不算额外水
+- 两液总质量用于mcΔT
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：能量图可复用但须核系统边界、ΔH方向、系数和状态；不同条件不机械替换
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy
+
+## B06-CHEM19-19-3-4 · 化学 19.3.4 黑斯定律
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：通过反向缩放和消去组合目标反应；区分生成焓与平均键焓等计算依据
+
+对象：C、CO、CO₂节点；两条生成箭头；目标箭头；断键成键分栏
+
+关系：−394=−111+(−283)；逆箭头反号；断键679−成键862=−183
+
+中文标签：ΔH/kJ；−394；−111；−283；估算
+
+公式/单位：若Σr_i反应_i=目标式，则ΔH_target=Σr_iΔH_i；r_i<0含反向。；消元需化学式、物态、条件匹配；闭合焓循环代数和0。；平均键焓估算ΔH≈ΣD_broken−ΣD_formed，仅按相应气相近似。
+
+### 中文Prompt
+
+制作化学第19章《化学反应和能量》19.3.4《黑斯定律》的教学图《Hess循环及断成键能》。教学目标：通过反向缩放和消去组合目标反应；区分生成焓与平均键焓等计算依据。必须对象：C、CO、CO₂节点；两条生成箭头；目标箭头；断键成键分栏。不可画错的关系：−394=−111+(−283)；逆箭头反号；断键679−成键862=−183。中文标签：ΔH/kJ；−394；−111；−283；估算。公式、单位和条件：若Σr_i反应_i=目标式，则ΔH_target=Σr_iΔH_i；r_i<0含反向。；消元需化学式、物态、条件匹配；闭合焓循环代数和0。；平均键焓估算ΔH≈ΣD_broken−ΣD_formed，仅按相应气相近似。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter19, authentic subsection19.3.4, with original Chinese title 黑斯定律. Topic-specific mandatory science: Hess combinations must reverse signs and scale enthalpies with equations. In the stated carbon cycle,-394 equals-111 plus-283kJ. Matching formulas with different phases cannot cancel. Average-bond estimation is broken bonds minus formed bonds, not a precise reaction mechanism. Use deterministic thermochemical diagrams. Define system and surroundings, distinguish heat from stored energy and activation energy from enthalpy change. Balance every equation and label phases, amount basis, temperature and pressure assumptions. A lower product enthalpy means negative reaction enthalpy. Required objects, preserving these Chinese labels: C、CO、CO₂节点；两条生成箭头；目标箭头；断键成键分栏. Additional literal Chinese annotation strings: ΔH/kJ；−394；−111；−283；估算. Typeset and verify these reference formulas, units and stated conditions: 若Σr_i反应_i=目标式，则ΔH_target=Σr_iΔH_i；r_i<0含反向。；消元需化学式、物态、条件匹配；闭合焓循环代数和0。；平均键焓估算ΔH≈ΣD_broken−ΣD_formed，仅按相应气相近似。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- −394=−111+(−283)
+- 逆箭头反号
+- 断键679−成键862=−183
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：能量图可复用但须核系统边界、ΔH方向、系数和状态；不同条件不机械替换
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy
+
+## B06-CHEM19-19-4 · 化学 19.4 能量的充分利用
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：按能量效率和统一基准比较方案；辨别减少损失、余热利用与环境代价
+
+对象：输入50MJ；有用30MJ；损失20MJ；余热回收支路；排放强度框
+
+关系：各流守恒；回收不重复算能量；有用能分母统一
+
+中文标签：η=60%；MJ；kgCO₂/MJ useful；系统边界
+
+公式/单位：η=有用输出/对应输入，常规单一能量转换边界下0≤η≤1。；每单位有用能量成本或排放=相应总成本或排放/Q_useful。；余热回收、保温与燃烧改善须说明机制；局部零CO₂不等全流程零排放。
+
+### 中文Prompt
+
+制作化学第19章《化学反应和能量》19.4《能量的充分利用》的教学图《能量流与同基准比较》。教学目标：按能量效率和统一基准比较方案；辨别减少损失、余热利用与环境代价。必须对象：输入50MJ；有用30MJ；损失20MJ；余热回收支路；排放强度框。不可画错的关系：各流守恒；回收不重复算能量；有用能分母统一。中文标签：η=60%；MJ；kgCO₂/MJ useful；系统边界。公式、单位和条件：η=有用输出/对应输入，常规单一能量转换边界下0≤η≤1。；每单位有用能量成本或排放=相应总成本或排放/Q_useful。；余热回收、保温与燃烧改善须说明机制；局部零CO₂不等全流程零排放。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter19, authentic subsection19.4, with original Chinese title 能量的充分利用. Topic-specific mandatory science: For50MJ input and60percent efficiency, useful energy is30MJ and other output20MJ. Do not double-count recovered heat. Compare emissions per useful energy and state the system boundary; local zero carbon dioxide is not lifecycle zero emissions. Use deterministic thermochemical diagrams. Define system and surroundings, distinguish heat from stored energy and activation energy from enthalpy change. Balance every equation and label phases, amount basis, temperature and pressure assumptions. A lower product enthalpy means negative reaction enthalpy. Required objects, preserving these Chinese labels: 输入50MJ；有用30MJ；损失20MJ；余热回收支路；排放强度框. Additional literal Chinese annotation strings: η=60%；MJ；kgCO₂/MJ useful；系统边界. Typeset and verify these reference formulas, units and stated conditions: η=有用输出/对应输入，常规单一能量转换边界下0≤η≤1。；每单位有用能量成本或排放=相应总成本或排放/Q_useful。；余热回收、保温与燃烧改善须说明机制；局部零CO₂不等全流程零排放。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 各流守恒
+- 回收不重复算能量
+- 有用能分母统一
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：能量图可复用但须核系统边界、ΔH方向、系数和状态；不同条件不机械替换
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy
 
 ## B06-CHEM20-20-1 · 化学 20.1 化学反应速率的意义及其表示法
 
@@ -3136,6 +3985,262 @@ No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charge
 - https://www.scribd.com/document/1047236315/高级数学-高三上册-1
 - https://openstax.org/books/calculus-volume-1/pages/4-9-newtons-method
 
+## B06-PHYS10-10-1 · 物理 10.1 振动现象
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：从同相状态定义周期、频率与振幅；区分路程、位移及计时中的间隔数
+
+对象：平衡点；±A端点；同侧六峰；五时间间隔；路程条
+
+关系：六峰只有五周期；一周期路程4A位移0；向左右过中心不同相
+
+中文标签：A；2A；4A；T；f=1/T
+
+公式/单位：稳定周期运动f=1/T，ω=2πf。；一维对称往复峰峰值2A，一周期路程4A、位移0。；从第1同侧峰到第N同侧峰共有N−1个完整周期。
+
+### 中文Prompt
+
+制作物理第10章《振动》10.1《振动现象》的教学图《振动状态与周期计数》。教学目标：从同相状态定义周期、频率与振幅；区分路程、位移及计时中的间隔数。必须对象：平衡点；±A端点；同侧六峰；五时间间隔；路程条。不可画错的关系：六峰只有五周期；一周期路程4A位移0；向左右过中心不同相。中文标签：A；2A；4A；T；f=1/T。公式、单位和条件：稳定周期运动f=1/T，ω=2πf。；一维对称往复峰峰值2A，一周期路程4A、位移0。；从第1同侧峰到第N同侧峰共有N−1个完整周期。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter10, authentic subsection10.1, with original Chinese title 振动现象. Topic-specific mandatory science: Six same-side peaks define five cycles. A full one-dimensional cycle has path4A but zero displacement, and peak-to-peak is2A. Equal position with opposite velocity is not the same phase. Use deterministic oscillator plots. Label equilibrium and positive direction. Restoring force and acceleration oppose displacement, not necessarily velocity. Distinguish time graphs from spatial wave snapshots, displacement amplitude from peak-to-peak, and damped resonance from an ideal unlimited model. Required objects, preserving these Chinese labels: 平衡点；±A端点；同侧六峰；五时间间隔；路程条. Additional literal Chinese annotation strings: A；2A；4A；T；f=1/T. Typeset and verify these reference formulas, units and stated conditions: 稳定周期运动f=1/T，ω=2πf。；一维对称往复峰峰值2A，一周期路程4A、位移0。；从第1同侧峰到第N同侧峰共有N−1个完整周期。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 六峰只有五周期
+- 一周期路程4A位移0
+- 向左右过中心不同相
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：振动图须核相位、箭头与坐标轴，只有同初值、同参数才复用；不拿波形图冒充空间波
+
+来源：
+- https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017
+- https://openstax.org/books/college-physics-2e/pages/16-3-simple-harmonic-motion-a-special-periodic-motion
+
+## B06-PHYS10-10-2 · 物理 10.2 简谐运动
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：从合回复力推导a=−ω²x；求弹簧和小角摆周期并核近似
+
+对象：水平弹簧；竖直平衡伸长；a-x负直线；小角摆弧
+
+关系：合力反x；竖直x从新平衡量；斜率−ω²；摆回复近似需小角
+
+中文标签：F=−kx；a=−ω²x；x=0；sinθ≈θ
+
+公式/单位：合力F=−kx⇒a=−(k/m)x，ω=√(k/m)，T=2π/ω。；小角摆sinθ≈θ⇒ω²≈g/L，T≈2π√(L/g)，θ用rad。；a-x斜率=−ω²，不是−ω；位移从平衡位置量。
+
+### 中文Prompt
+
+制作物理第10章《振动》10.2《简谐运动》的教学图《回复力与平衡原点》。教学目标：从合回复力推导a=−ω²x；求弹簧和小角摆周期并核近似。必须对象：水平弹簧；竖直平衡伸长；a-x负直线；小角摆弧。不可画错的关系：合力反x；竖直x从新平衡量；斜率−ω²；摆回复近似需小角。中文标签：F=−kx；a=−ω²x；x=0；sinθ≈θ。公式、单位和条件：合力F=−kx⇒a=−(k/m)x，ω=√(k/m)，T=2π/ω。；小角摆sinθ≈θ⇒ω²≈g/L，T≈2π√(L/g)，θ用rad。；a-x斜率=−ω²，不是−ω；位移从平衡位置量。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter10, authentic subsection10.2, with original Chinese title 简谐运动. Topic-specific mandatory science: Net acceleration is minus omega squared times displacement from equilibrium. Restoring acceleration opposes displacement, not necessarily velocity. For a vertical spring the equilibrium origin includes static gravity extension; a pendulum is harmonic only under the stated small-angle approximation. Use deterministic oscillator plots. Label equilibrium and positive direction. Restoring force and acceleration oppose displacement, not necessarily velocity. Distinguish time graphs from spatial wave snapshots, displacement amplitude from peak-to-peak, and damped resonance from an ideal unlimited model. Required objects, preserving these Chinese labels: 水平弹簧；竖直平衡伸长；a-x负直线；小角摆弧. Additional literal Chinese annotation strings: F=−kx；a=−ω²x；x=0；sinθ≈θ. Typeset and verify these reference formulas, units and stated conditions: 合力F=−kx⇒a=−(k/m)x，ω=√(k/m)，T=2π/ω。；小角摆sinθ≈θ⇒ω²≈g/L，T≈2π√(L/g)，θ用rad。；a-x斜率=−ω²，不是−ω；位移从平衡位置量。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 合力反x
+- 竖直x从新平衡量
+- 斜率−ω²
+- 摆回复近似需小角
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：振动图须核相位、箭头与坐标轴，只有同初值、同参数才复用；不拿波形图冒充空间波
+
+来源：
+- https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017
+- https://openstax.org/books/college-physics-2e/pages/16-3-simple-harmonic-motion-a-special-periodic-motion
+
+## B06-PHYS10-10-3 · 物理 10.3 简谐运动方程
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：由初始位置和速度确定振幅相位；求位移速度加速度并区分多解时刻
+
+对象：x,v,a同时间轴；初点x.03v−.20；相位圆；极值标记
+
+关系：a反x；v由x斜率决定；第一象限φ配正x负v；Aω与Aω²单位分开
+
+中文标签：x；v；a；φ；弧度
+
+公式/单位：x=Acos(ωt+φ)，v=−Aωsin(ωt+φ)，a=−ω²x。；A=√[x₀²+(v₀/ω)²]；cosφ=x₀/A、sinφ=−v₀/(Aω)。；求时刻需全部三角分支，并核首次、方向与时间区间。
+
+### 中文Prompt
+
+制作物理第10章《振动》10.3《简谐运动方程》的教学图《相位与三个运动量》。教学目标：由初始位置和速度确定振幅相位；求位移速度加速度并区分多解时刻。必须对象：x,v,a同时间轴；初点x.03v−.20；相位圆；极值标记。不可画错的关系：a反x；v由x斜率决定；第一象限φ配正x负v；Aω与Aω²单位分开。中文标签：x；v；a；φ；弧度。公式、单位和条件：x=Acos(ωt+φ)，v=−Aωsin(ωt+φ)，a=−ω²x。；A=√[x₀²+(v₀/ω)²]；cosφ=x₀/A、sinφ=−v₀/(Aω)。；求时刻需全部三角分支，并核首次、方向与时间区间。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter10, authentic subsection10.3, with original Chinese title 简谐运动方程. Topic-specific mandatory science: For x=Acos(omega*t+phi), velocity is-A*omega*sin and acceleration is-omega squared*x. Initial x0.03m and v-0.20m/s with omega5 require amplitude0.05m and first-quadrant phi with cosine0.6,sine0.8. Use deterministic oscillator plots. Label equilibrium and positive direction. Restoring force and acceleration oppose displacement, not necessarily velocity. Distinguish time graphs from spatial wave snapshots, displacement amplitude from peak-to-peak, and damped resonance from an ideal unlimited model. Required objects, preserving these Chinese labels: x,v,a同时间轴；初点x.03v−.20；相位圆；极值标记. Additional literal Chinese annotation strings: x；v；a；φ；弧度. Typeset and verify these reference formulas, units and stated conditions: x=Acos(ωt+φ)，v=−Aωsin(ωt+φ)，a=−ω²x。；A=√[x₀²+(v₀/ω)²]；cosφ=x₀/A、sinφ=−v₀/(Aω)。；求时刻需全部三角分支，并核首次、方向与时间区间。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- a反x
+- v由x斜率决定
+- 第一象限φ配正x负v
+- Aω与Aω²单位分开
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：振动图须核相位、箭头与坐标轴，只有同初值、同参数才复用；不拿波形图冒充空间波
+
+来源：
+- https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017
+- https://openstax.org/books/college-physics-2e/pages/16-3-simple-harmonic-motion-a-special-periodic-motion
+
+## B06-PHYS10-10-4 · 物理 10.4 简谐运动的图象
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：从时域图读振幅周期与运动方向；利用斜率面积和相位关系交叉核图
+
+对象：三条共时间轴曲线；四分之一周期线；独立纵轴；端点与过零标
+
+关系：x正峰v0a负峰；平衡处a0速率最大；三纵轴不同单位幅度
+
+中文标签：t/s；x/m；v/(m/s)；a/(m/s²)；T/4
+
+公式/单位：x-t斜率=v；v-t有向面积=位移，速率面积=路程。；x端点：v=0、|a|最大；x=0：a=0、|v|最大。；同周期x,v,a存在固定导数相位关系，但纵轴单位与振幅不同。
+
+### 中文Prompt
+
+制作物理第10章《振动》10.4《简谐运动的图象》的教学图《同一振子的x-v-a时间图》。教学目标：从时域图读振幅周期与运动方向；利用斜率面积和相位关系交叉核图。必须对象：三条共时间轴曲线；四分之一周期线；独立纵轴；端点与过零标。不可画错的关系：x正峰v0a负峰；平衡处a0速率最大；三纵轴不同单位幅度。中文标签：t/s；x/m；v/(m/s)；a/(m/s²)；T/4。公式、单位和条件：x-t斜率=v；v-t有向面积=位移，速率面积=路程。；x端点：v=0、|a|最大；x=0：a=0、|v|最大。；同周期x,v,a存在固定导数相位关系，但纵轴单位与振幅不同。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter10, authentic subsection10.4, with original Chinese title 简谐运动的图象. Topic-specific mandatory science: Time graphs x,v,a use a common time axis and different vertical units. At a positive displacement peak velocity is zero and acceleration is negative maximum. A spatial wave snapshot is not a temporal oscillator graph. Use deterministic oscillator plots. Label equilibrium and positive direction. Restoring force and acceleration oppose displacement, not necessarily velocity. Distinguish time graphs from spatial wave snapshots, displacement amplitude from peak-to-peak, and damped resonance from an ideal unlimited model. Required objects, preserving these Chinese labels: 三条共时间轴曲线；四分之一周期线；独立纵轴；端点与过零标. Additional literal Chinese annotation strings: t/s；x/m；v/(m/s)；a/(m/s²)；T/4. Typeset and verify these reference formulas, units and stated conditions: x-t斜率=v；v-t有向面积=位移，速率面积=路程。；x端点：v=0、|a|最大；x=0：a=0、|v|最大。；同周期x,v,a存在固定导数相位关系，但纵轴单位与振幅不同。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- x正峰v0a负峰
+- 平衡处a0速率最大
+- 三纵轴不同单位幅度
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：振动图须核相位、箭头与坐标轴，只有同初值、同参数才复用；不拿波形图冒充空间波
+
+来源：
+- https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017
+- https://openstax.org/books/college-physics-2e/pages/16-3-simple-harmonic-motion-a-special-periodic-motion
+
+## B06-PHYS10-10-5 · 物理 10.5 简谐运动的能量
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：以能量守恒求速率与动势能比例；说明平衡参考及阻尼时机械能变化
+
+对象：U-x抛物线；E水平线；K=E-U；两转折点；幅减半对照
+
+关系：U非负有效参考；端点K0；x0K最大；幅减半E四分之一
+
+中文标签：½kx²；½mv²；½kA²；速度±；能量去向
+
+公式/单位：理想线性振子E=½kA²=½mv²+½kx²，ω²=k/m。；速率|v|=ω√(A²−x²)，速度正负由方向另判。；相同k下E∝A²；对应转折点能量比=(A₂/A₁)²。
+
+### 中文Prompt
+
+制作物理第10章《振动》10.5《简谐运动的能量》的教学图《动势能与振幅平方》。教学目标：以能量守恒求速率与动势能比例；说明平衡参考及阻尼时机械能变化。必须对象：U-x抛物线；E水平线；K=E-U；两转折点；幅减半对照。不可画错的关系：U非负有效参考；端点K0；x0K最大；幅减半E四分之一。中文标签：½kx²；½mv²；½kA²；速度±；能量去向。公式、单位和条件：理想线性振子E=½kA²=½mv²+½kx²，ω²=k/m。；速率|v|=ω√(A²−x²)，速度正负由方向另判。；相同k下E∝A²；对应转折点能量比=(A₂/A₁)²。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter10, authentic subsection10.5, with original Chinese title 简谐运动的能量. Topic-specific mandatory science: Effective potential0.5kx squared and kinetic energy sum to0.5kA squared in the undamped model. Energy gives speed, not velocity sign. Halving corresponding turning-point amplitude leaves one-quarter mechanical energy. Use deterministic oscillator plots. Label equilibrium and positive direction. Restoring force and acceleration oppose displacement, not necessarily velocity. Distinguish time graphs from spatial wave snapshots, displacement amplitude from peak-to-peak, and damped resonance from an ideal unlimited model. Required objects, preserving these Chinese labels: U-x抛物线；E水平线；K=E-U；两转折点；幅减半对照. Additional literal Chinese annotation strings: ½kx²；½mv²；½kA²；速度±；能量去向. Typeset and verify these reference formulas, units and stated conditions: 理想线性振子E=½kA²=½mv²+½kx²，ω²=k/m。；速率|v|=ω√(A²−x²)，速度正负由方向另判。；相同k下E∝A²；对应转折点能量比=(A₂/A₁)²。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- U非负有效参考
+- 端点K0
+- x0K最大
+- 幅减半E四分之一
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：振动图须核相位、箭头与坐标轴，只有同初值、同参数才复用；不拿波形图冒充空间波
+
+来源：
+- https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017
+- https://openstax.org/books/college-physics-2e/pages/16-5-energy-and-the-simple-harmonic-oscillator
+
+## B06-PHYS10-10-6 · 物理 10.6 受迫振动 共振
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：区分固有频率、驱动频率与阻尼作用；用明确线性模型解释共振峰与稳态能量
+
+对象：A-ω曲线；不同b固定F₀；ω₀与ω_r标记；输入耗散能流
+
+关系：b2峰在√98非10精确；ω10处A.10与.05；弱阻尼峰近ω₀；稳态能流非0
+
+中文标签：m=1；k=100；F₀=2；b=2或4；ω/rad·s⁻¹
+
+公式/单位：线性稳态A=F₀/√[(k−mω²)²+(bω)²]，b>0时有耗散。；非零位移峰若存在：ω_r²=k/m−b²/(2m²)，弱阻尼时ω_r≈ω₀。；ω=ω₀时A=F₀/(bω₀)；稳态平均驱动功率补偿耗散，不等无能量流。
+
+### 中文Prompt
+
+制作物理第10章《振动》10.6《受迫振动 共振》的教学图《带阻尼的精确共振曲线》。教学目标：区分固有频率、驱动频率与阻尼作用；用明确线性模型解释共振峰与稳态能量。必须对象：A-ω曲线；不同b固定F₀；ω₀与ω_r标记；输入耗散能流。不可画错的关系：b2峰在√98非10精确；ω10处A.10与.05；弱阻尼峰近ω₀；稳态能流非0。中文标签：m=1；k=100；F₀=2；b=2或4；ω/rad·s⁻¹。公式、单位和条件：线性稳态A=F₀/√[(k−mω²)²+(bω)²]，b>0时有耗散。；非零位移峰若存在：ω_r²=k/m−b²/(2m²)，弱阻尼时ω_r≈ω₀。；ω=ω₀时A=F₀/(bω₀)；稳态平均驱动功率补偿耗散，不等无能量流。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter10, authentic subsection10.6, with original Chinese title 受迫振动 共振. Topic-specific mandatory science: For m1,k100,F0=2 and viscous b2, amplitude at driving omega10 is0.10m, but the precise nonzero displacement peak is at square-root98rad/s. Increasing b to4 gives0.05m at omega10. Fixed steady amplitude still requires nonzero average input and dissipation. Use deterministic oscillator plots. Label equilibrium and positive direction. Restoring force and acceleration oppose displacement, not necessarily velocity. Distinguish time graphs from spatial wave snapshots, displacement amplitude from peak-to-peak, and damped resonance from an ideal unlimited model. Required objects, preserving these Chinese labels: A-ω曲线；不同b固定F₀；ω₀与ω_r标记；输入耗散能流. Additional literal Chinese annotation strings: m=1；k=100；F₀=2；b=2或4；ω/rad·s⁻¹. Typeset and verify these reference formulas, units and stated conditions: 线性稳态A=F₀/√[(k−mω²)²+(bω)²]，b>0时有耗散。；非零位移峰若存在：ω_r²=k/m−b²/(2m²)，弱阻尼时ω_r≈ω₀。；ω=ω₀时A=F₀/(bω₀)；稳态平均驱动功率补偿耗散，不等无能量流。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- b2峰在√98非10精确
+- ω10处A.10与.05
+- 弱阻尼峰近ω₀
+- 稳态能流非0
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：振动图须核相位、箭头与坐标轴，只有同初值、同参数才复用；不拿波形图冒充空间波
+
+来源：
+- https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017
+- https://openstax.org/books/university-physics-volume-1/pages/15-6-forced-oscillations
+
 ## B06-PHYS12-12-1 · 物理 12.1 物质的基本单元——分子
 
 优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
@@ -3770,3 +4875,430 @@ No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charge
 来源：
 - https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html
 - https://openstax.org/books/college-physics-2e/pages/14-7-radiation
+
+## B06-PHYS15-15-1 · 物理 15.1 气体的状态参量
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：定义平衡状态P、V、T及气体量；区分绝对压与表压并统一温度和体积单位
+
+对象：封闭活塞；刚性开阀容器；真空零点；大气线；状态表
+
+关系：密闭固定量不必固定V；开阀刚性可变n；绝对压从真空计
+
+中文标签：P_abs；P_gauge；V/m³；T/K；n/mol
+
+公式/单位：P_abs=P_atm+P_gauge，按代数符号使用，气体式不用未换算表压。；T/K=t/℃+273.15；1 L=10⁻³m³，1cm³=10⁻⁶m³。；密闭、刚性、恒温分别约束不同量，不能互相代替。
+
+### 中文Prompt
+
+制作物理第15章《气体定律》15.1《气体的状态参量》的教学图《气体状态表与压力参考》。教学目标：定义平衡状态P、V、T及气体量；区分绝对压与表压并统一温度和体积单位。必须对象：封闭活塞；刚性开阀容器；真空零点；大气线；状态表。不可画错的关系：密闭固定量不必固定V；开阀刚性可变n；绝对压从真空计。中文标签：P_abs；P_gauge；V/m³；T/K；n/mol。公式、单位和条件：P_abs=P_atm+P_gauge，按代数符号使用，气体式不用未换算表压。；T/K=t/℃+273.15；1 L=10⁻³m³，1cm³=10⁻⁶m³。；密闭、刚性、恒温分别约束不同量，不能互相代替。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter15, authentic subsection15.1, with original Chinese title 气体的状态参量. Topic-specific mandatory science: Label equilibrium P,V,T and gas amount independently. Absolute pressure equals ambient plus signed gauge pressure. Convert liters to cubic meters and Celsius to kelvin before ratios. Sealed is not necessarily rigid; a rigid open vessel can change amount. Use deterministic gas-law plots and piston schematics. Explicitly label which of amount, pressure, volume and temperature is fixed. All ratios use absolute pressure and kelvin temperature. Particle sizes remain unchanged in simple expansion pictures; do not imply the molecular material volume equals the vessel volume. Required objects, preserving these Chinese labels: 封闭活塞；刚性开阀容器；真空零点；大气线；状态表. Additional literal Chinese annotation strings: P_abs；P_gauge；V/m³；T/K；n/mol. Typeset and verify these reference formulas, units and stated conditions: P_abs=P_atm+P_gauge，按代数符号使用，气体式不用未换算表压。；T/K=t/℃+273.15；1 L=10⁻³m³，1cm³=10⁻⁶m³。；密闭、刚性、恒温分别约束不同量，不能互相代替。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 密闭固定量不必固定V
+- 开阀刚性可变n
+- 绝对压从真空计
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用气体图但须核固定量、绝对压力、开尔文及体积单位；恒温恒压恒容图不可互换
+
+来源：
+- https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html
+- https://openstax.org/books/college-physics-2e/pages/13-3-the-ideal-gas-law
+
+## B06-PHYS15-15-2 · 物理 15.2 理想气体状态方程式
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：在统一单位下应用PV=nRT及粒子形式；解释模型条件及固定量时综合关系
+
+对象：同容器粒子；n与N换算；R与k_B对应；状态单位框
+
+关系：N=nN_A；两方程一致；粒子数不乘错常量
+
+中文标签：PV=nRT；PV=Nk_BT；T/K；Pa·m³=J
+
+公式/单位：PV=nRT=Nk_BT，N=nN_A，R=N_Ak_B。；固定n：P₁V₁/T₁=P₂V₂/T₂；变n：PV/(nT)=R。；SI：Pa·m³=J，T用K；状态方程不独自决定过程热与功。
+
+### 中文Prompt
+
+制作物理第15章《气体定律》15.2《理想气体状态方程式》的教学图《理想气体的两种计量》。教学目标：在统一单位下应用PV=nRT及粒子形式；解释模型条件及固定量时综合关系。必须对象：同容器粒子；n与N换算；R与k_B对应；状态单位框。不可画错的关系：N=nN_A；两方程一致；粒子数不乘错常量。中文标签：PV=nRT；PV=Nk_BT；T/K；Pa·m³=J。公式、单位和条件：PV=nRT=Nk_BT，N=nN_A，R=N_Ak_B。；固定n：P₁V₁/T₁=P₂V₂/T₂；变n：PV/(nT)=R。；SI：Pa·m³=J，T用K；状态方程不独自决定过程热与功。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter15, authentic subsection15.2, with original Chinese title 理想气体状态方程式. Topic-specific mandatory science: Match mole amount n with R and particle count N with Boltzmann constant k. PV=nRT=NkT, N=nNA. SI pressure-volume is joules. The equation of state does not determine process heat or work and is only an approximation for real gases. Use deterministic gas-law plots and piston schematics. Explicitly label which of amount, pressure, volume and temperature is fixed. All ratios use absolute pressure and kelvin temperature. Particle sizes remain unchanged in simple expansion pictures; do not imply the molecular material volume equals the vessel volume. Required objects, preserving these Chinese labels: 同容器粒子；n与N换算；R与k_B对应；状态单位框. Additional literal Chinese annotation strings: PV=nRT；PV=Nk_BT；T/K；Pa·m³=J. Typeset and verify these reference formulas, units and stated conditions: PV=nRT=Nk_BT，N=nN_A，R=N_Ak_B。；固定n：P₁V₁/T₁=P₂V₂/T₂；变n：PV/(nT)=R。；SI：Pa·m³=J，T用K；状态方程不独自决定过程热与功。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- N=nN_A
+- 两方程一致
+- 粒子数不乘错常量
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用气体图但须核固定量、绝对压力、开尔文及体积单位；恒温恒压恒容图不可互换
+
+来源：
+- https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html
+- https://openstax.org/books/college-physics-2e/pages/13-3-the-ideal-gas-law
+
+## B06-PHYS15-15-3 · 物理 15.3 理想气体状态方程式的应用
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：识别开闭系统并由守恒求混合或漏气量；用密度、压强与温度的组合检查推理
+
+对象：2L200kPa室；3L100kPa室；阀门；恒温浴；末态5L140kPa
+
+关系：末mol为两室之和；P以体积加权；恒温条件外标；开系统n可变
+
+中文标签：同T；无反应；无外漏；P_f=140kPa；n守恒
+
+公式/单位：开系统先分别n=PV/(RT)，再用总量守恒；固定n综合式不可盲套。；同温、理想、不反应且无外漏的双刚室：P_f=(P₁V₁+P₂V₂)/(V₁+V₂)。；同种理想气体ρ=PM/(RT)，比较密度时须说明P、T或m,V约束。
+
+### 中文Prompt
+
+制作物理第15章《气体定律》15.3《理想气体状态方程式的应用》的教学图《双气室连通与开系统》。教学目标：识别开闭系统并由守恒求混合或漏气量；用密度、压强与温度的组合检查推理。必须对象：2L200kPa室；3L100kPa室；阀门；恒温浴；末态5L140kPa。不可画错的关系：末mol为两室之和；P以体积加权；恒温条件外标；开系统n可变。中文标签：同T；无反应；无外漏；P_f=140kPa；n守恒。公式、单位和条件：开系统先分别n=PV/(RT)，再用总量守恒；固定n综合式不可盲套。；同温、理想、不反应且无外漏的双刚室：P_f=(P₁V₁+P₂V₂)/(V₁+V₂)。；同种理想气体ρ=PM/(RT)，比较密度时须说明P、T或m,V约束。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter15, authentic subsection15.3, with original Chinese title 理想气体状态方程式的应用. Topic-specific mandatory science: Two nonreacting rigid chambers at the same temperature and with no external leak conserve total gas amount.2L at200kPa and3L at100kPa yield140kPa in5L. Density trends depend on which constraints are fixed. Use deterministic gas-law plots and piston schematics. Explicitly label which of amount, pressure, volume and temperature is fixed. All ratios use absolute pressure and kelvin temperature. Particle sizes remain unchanged in simple expansion pictures; do not imply the molecular material volume equals the vessel volume. Required objects, preserving these Chinese labels: 2L200kPa室；3L100kPa室；阀门；恒温浴；末态5L140kPa. Additional literal Chinese annotation strings: 同T；无反应；无外漏；P_f=140kPa；n守恒. Typeset and verify these reference formulas, units and stated conditions: 开系统先分别n=PV/(RT)，再用总量守恒；固定n综合式不可盲套。；同温、理想、不反应且无外漏的双刚室：P_f=(P₁V₁+P₂V₂)/(V₁+V₂)。；同种理想气体ρ=PM/(RT)，比较密度时须说明P、T或m,V约束。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 末mol为两室之和
+- P以体积加权
+- 恒温条件外标
+- 开系统n可变
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用气体图但须核固定量、绝对压力、开尔文及体积单位；恒温恒压恒容图不可互换
+
+来源：
+- https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html
+- https://openstax.org/books/college-physics-2e/pages/13-3-the-ideal-gas-law
+
+## B06-PHYS15-15-4 · 物理 15.4 气体的等温变化 波意耳定律
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：在固定量恒温条件下应用PV常量；读双曲线并处理表压和实验控制
+
+对象：P-V双曲线；P-1/V直线；压缩活塞；死体积；压力表
+
+关系：同nT曲线PV不变；两种图轴不同；表压换绝对压；连接死体积计入
+
+中文标签：PV=nRT；P_abs；1/V；T固定
+
+公式/单位：固定n、T且理想：P₁V₁=P₂V₂。；P对V为双曲线；P对1/V为直线，斜率nRT。；表压先换绝对压；过程功不是随意用某一个端点PV代替。
+
+### 中文Prompt
+
+制作物理第15章《气体定律》15.4《气体的等温变化 波意耳定律》的教学图《等温双曲线与线性化》。教学目标：在固定量恒温条件下应用PV常量；读双曲线并处理表压和实验控制。必须对象：P-V双曲线；P-1/V直线；压缩活塞；死体积；压力表。不可画错的关系：同nT曲线PV不变；两种图轴不同；表压换绝对压；连接死体积计入。中文标签：PV=nRT；P_abs；1/V；T固定。公式、单位和条件：固定n、T且理想：P₁V₁=P₂V₂。；P对V为双曲线；P对1/V为直线，斜率nRT。；表压先换绝对压；过程功不是随意用某一个端点PV代替。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter15, authentic subsection15.4, with original Chinese title 气体的等温变化 波意耳定律. Topic-specific mandatory science: At fixed amount and temperature the absolute-pressure versus-volume plot is hyperbolic; pressure versus reciprocal volume is linear. Include apparatus dead volume. Gauge pressures cannot be directly multiplied by volume as a conserved product. Use deterministic gas-law plots and piston schematics. Explicitly label which of amount, pressure, volume and temperature is fixed. All ratios use absolute pressure and kelvin temperature. Particle sizes remain unchanged in simple expansion pictures; do not imply the molecular material volume equals the vessel volume. Required objects, preserving these Chinese labels: P-V双曲线；P-1/V直线；压缩活塞；死体积；压力表. Additional literal Chinese annotation strings: PV=nRT；P_abs；1/V；T固定. Typeset and verify these reference formulas, units and stated conditions: 固定n、T且理想：P₁V₁=P₂V₂。；P对V为双曲线；P对1/V为直线，斜率nRT。；表压先换绝对压；过程功不是随意用某一个端点PV代替。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 同nT曲线PV不变
+- 两种图轴不同
+- 表压换绝对压
+- 连接死体积计入
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用气体图但须核固定量、绝对压力、开尔文及体积单位；恒温恒压恒容图不可互换
+
+来源：
+- https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html
+- https://openstax.org/books/college-physics-2e/pages/13-3-the-ideal-gas-law
+
+## B06-PHYS15-15-5 · 物理 15.5 气体的等容变化 压强定律
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：在固定V与气量下应用P/T；审查泄漏、容器膨胀和低温外推
+
+对象：密闭刚室；速度箭头；P-T/K直线；P-t/℃平移图；相变限制注
+
+关系：加热V不变P升；K图过理想原点；℃图截距−273.15外推；粒子大小不变
+
+中文标签：n,V固定；P_abs；T/K；理想外推
+
+公式/单位：固定n,V：P₁/T₁=P₂/T₂，P为绝对、T为K。；摄氏轴上P=(nR/V)(t+273.15)，理想外推截点约−273.15℃。；恒V不自动恒n；开阀、反应与相变须另计。
+
+### 中文Prompt
+
+制作物理第15章《气体定律》15.5《气体的等容变化 压强定律》的教学图《定容压力与两种温标》。教学目标：在固定V与气量下应用P/T；审查泄漏、容器膨胀和低温外推。必须对象：密闭刚室；速度箭头；P-T/K直线；P-t/℃平移图；相变限制注。不可画错的关系：加热V不变P升；K图过理想原点；℃图截距−273.15外推；粒子大小不变。中文标签：n,V固定；P_abs；T/K；理想外推。公式、单位和条件：固定n,V：P₁/T₁=P₂/T₂，P为绝对、T为K。；摄氏轴上P=(nR/V)(t+273.15)，理想外推截点约−273.15℃。；恒V不自动恒n；开阀、反应与相变须另计。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter15, authentic subsection15.5, with original Chinese title 气体的等容变化 压强定律. Topic-specific mandatory science: At fixed amount and volume absolute pressure is proportional to kelvin temperature. A Celsius plot is shifted. Real-gas low-temperature condensation can invalidate the extrapolation. Heating changes particle motion rather than scaling particle radii. Use deterministic gas-law plots and piston schematics. Explicitly label which of amount, pressure, volume and temperature is fixed. All ratios use absolute pressure and kelvin temperature. Particle sizes remain unchanged in simple expansion pictures; do not imply the molecular material volume equals the vessel volume. Required objects, preserving these Chinese labels: 密闭刚室；速度箭头；P-T/K直线；P-t/℃平移图；相变限制注. Additional literal Chinese annotation strings: n,V固定；P_abs；T/K；理想外推. Typeset and verify these reference formulas, units and stated conditions: 固定n,V：P₁/T₁=P₂/T₂，P为绝对、T为K。；摄氏轴上P=(nR/V)(t+273.15)，理想外推截点约−273.15℃。；恒V不自动恒n；开阀、反应与相变须另计。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 加热V不变P升
+- K图过理想原点
+- ℃图截距−273.15外推
+- 粒子大小不变
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用气体图但须核固定量、绝对压力、开尔文及体积单位；恒温恒压恒容图不可互换
+
+来源：
+- https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html
+- https://openstax.org/books/college-physics-2e/pages/13-3-the-ideal-gas-law
+
+## B06-PHYS15-15-6 · 物理 15.6 气体的等压变化 查理定律
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：在固定量恒压下应用V/T并解释活塞平衡；区分气体膨胀、分子大小和其他约束
+
+对象：负载活塞；初2L300K；挡块3L450K；末600K；P-V与状态表
+
+关系：前段P₀不变；后段V3L不变；末P=4P₀/3；粒子数大小保持
+
+中文标签：n固定；P_atm+mg/A；挡块；T/K；分段
+
+公式/单位：固定n,P：V₁/T₁=V₂/T₂；ΔV/V₁=ΔT/T₁。；简化静力活塞P_gas=P_atm+mg/A，恒压需各项与过程条件相应稳定。；触挡块后不再恒压自由膨胀，需分段换用等容关系。
+
+### 中文Prompt
+
+制作物理第15章《气体定律》15.6《气体的等压变化 查理定律》的教学图《恒压活塞与触挡后的分段》。教学目标：在固定量恒压下应用V/T并解释活塞平衡；区分气体膨胀、分子大小和其他约束。必须对象：负载活塞；初2L300K；挡块3L450K；末600K；P-V与状态表。不可画错的关系：前段P₀不变；后段V3L不变；末P=4P₀/3；粒子数大小保持。中文标签：n固定；P_atm+mg/A；挡块；T/K；分段。公式、单位和条件：固定n,P：V₁/T₁=V₂/T₂；ΔV/V₁=ΔT/T₁。；简化静力活塞P_gas=P_atm+mg/A，恒压需各项与过程条件相应稳定。；触挡块后不再恒压自由膨胀，需分段换用等容关系。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter15, authentic subsection15.6, with original Chinese title 气体的等压变化 查理定律. Topic-specific mandatory science: A loaded frictionless equilibrium piston can maintain fixed pressure only under its stated force conditions. Starting2L at300K, expansion to a3L stop reaches450K; subsequent fixed-volume heating to600K gives final pressure4/3of the original. Use deterministic gas-law plots and piston schematics. Explicitly label which of amount, pressure, volume and temperature is fixed. All ratios use absolute pressure and kelvin temperature. Particle sizes remain unchanged in simple expansion pictures; do not imply the molecular material volume equals the vessel volume. Required objects, preserving these Chinese labels: 负载活塞；初2L300K；挡块3L450K；末600K；P-V与状态表. Additional literal Chinese annotation strings: n固定；P_atm+mg/A；挡块；T/K；分段. Typeset and verify these reference formulas, units and stated conditions: 固定n,P：V₁/T₁=V₂/T₂；ΔV/V₁=ΔT/T₁。；简化静力活塞P_gas=P_atm+mg/A，恒压需各项与过程条件相应稳定。；触挡块后不再恒压自由膨胀，需分段换用等容关系。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 前段P₀不变
+- 后段V3L不变
+- 末P=4P₀/3
+- 粒子数大小保持
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用气体图但须核固定量、绝对压力、开尔文及体积单位；恒温恒压恒容图不可互换
+
+来源：
+- https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html
+- https://openstax.org/books/college-physics-2e/pages/13-3-the-ideal-gas-law
+
+## B06-PHYS19-19-1 · 物理 19.1 棱镜与色散
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：以折射定律和棱镜几何求偏向；区分色散与频率改变并核最小偏向条件
+
+对象：棱镜截面；两面法线；入射出射线；延长方向；红紫分光
+
+关系：r₁+r₂=A；δ在入出射方向间；最小偏向i=e；正常色散紫偏更多
+
+中文标签：i；r₁；r₂；e；A；δ_min
+
+公式/单位：r₁+r₂=A；δ=i+e−A，角i,r,e均相对对应法线。；最小偏向透射：i=e，r₁=r₂=A/2，n=sin[(A+δ_min)/2]/sin(A/2)。；静止界面普通折射频率不变，v=fλ；薄棱镜δ≈(n−1)A需小角近似。
+
+### 中文Prompt
+
+制作物理第19章《棱镜和透镜》19.1《棱镜与色散》的教学图《棱镜透射与最小偏向》。教学目标：以折射定律和棱镜几何求偏向；区分色散与频率改变并核最小偏向条件。必须对象：棱镜截面；两面法线；入射出射线；延长方向；红紫分光。不可画错的关系：r₁+r₂=A；δ在入出射方向间；最小偏向i=e；正常色散紫偏更多。中文标签：i；r₁；r₂；e；A；δ_min。公式、单位和条件：r₁+r₂=A；δ=i+e−A，角i,r,e均相对对应法线。；最小偏向透射：i=e，r₁=r₂=A/2，n=sin[(A+δ_min)/2]/sin(A/2)。；静止界面普通折射频率不变，v=fλ；薄棱镜δ≈(n−1)A需小角近似。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter19, authentic subsection19.1, with original Chinese title 棱镜与色散. Topic-specific mandatory science: Prism internal angles satisfy r1+r2=A and deviation delta=i+e-A. Minimum deviation is a special symmetric transmitted path. Stationary-interface ordinary refraction preserves frequency, while speed and wavelength change. Normal visible dispersion bends violet more than red in the stated glass. Use deterministic optical ray tracing. Incidence and refraction angles are measured from local normals. Real rays have forward arrowheads; backward extensions are dashed without forward-light implications. State the thin paraxial lens approximation and sign convention, and never connect rays to a false focal point. Required objects, preserving these Chinese labels: 棱镜截面；两面法线；入射出射线；延长方向；红紫分光. Additional literal Chinese annotation strings: i；r₁；r₂；e；A；δ_min. Typeset and verify these reference formulas, units and stated conditions: r₁+r₂=A；δ=i+e−A，角i,r,e均相对对应法线。；最小偏向透射：i=e，r₁=r₂=A/2，n=sin[(A+δ_min)/2]/sin(A/2)。；静止界面普通折射频率不变，v=fλ；薄棱镜δ≈(n−1)A需小角近似。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- r₁+r₂=A
+- δ在入出射方向间
+- 最小偏向i=e
+- 正常色散紫偏更多
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用已有P38凸透镜图前须核物距、光线交点、符号约定；不同成像情形不机械替换
+
+来源：
+- https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html
+- https://openstax.org/books/college-physics-2e/pages/25-5-dispersion-the-rainbow-and-prisms
+
+## B06-PHYS19-19-2 · 物理 19.2 光谱
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：区分连续、线状及吸收光谱的形成条件；由谱线和对照数据推断成分并保留局限
+
+对象：连续热源；稀薄受激气体；冷吸收气体；三条谱图；能级箭头
+
+关系：吸收装置有背景穿气体；对应线位置匹配；向下跃迁发射向上吸收；轴注明λ或f
+
+中文标签：连续谱；发射线；吸收线；ΔE=hf；示意非实测
+
+公式/单位：真空中f=c/λ，光子能量E=hf=hc/λ；波长短不代表能量低。；发射线：向低能态跃迁发光；吸收线需背景及相应吸收气体等条件。；比对多条参考线与检测条件，不以单色点唯一鉴定成分。
+
+### 中文Prompt
+
+制作物理第19章《棱镜和透镜》19.2《光谱》的教学图《发射与吸收光谱对照》。教学目标：区分连续、线状及吸收光谱的形成条件；由谱线和对照数据推断成分并保留局限。必须对象：连续热源；稀薄受激气体；冷吸收气体；三条谱图；能级箭头。不可画错的关系：吸收装置有背景穿气体；对应线位置匹配；向下跃迁发射向上吸收；轴注明λ或f。中文标签：连续谱；发射线；吸收线；ΔE=hf；示意非实测。公式、单位和条件：真空中f=c/λ，光子能量E=hf=hc/λ；波长短不代表能量低。；发射线：向低能态跃迁发光；吸收线需背景及相应吸收气体等条件。；比对多条参考线与检测条件，不以单色点唯一鉴定成分。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter19, authentic subsection19.2, with original Chinese title 光谱. Topic-specific mandatory science: Separate continuum, emission-line and absorption-line arrangements. Absorption needs the appropriate background and gas path. Photon energy is hf=hc/lambda, not proportional to wavelength. Unspecified lines are teaching schematics, not invented measured element spectra. Use deterministic optical ray tracing. Incidence and refraction angles are measured from local normals. Real rays have forward arrowheads; backward extensions are dashed without forward-light implications. State the thin paraxial lens approximation and sign convention, and never connect rays to a false focal point. Required objects, preserving these Chinese labels: 连续热源；稀薄受激气体；冷吸收气体；三条谱图；能级箭头. Additional literal Chinese annotation strings: 连续谱；发射线；吸收线；ΔE=hf；示意非实测. Typeset and verify these reference formulas, units and stated conditions: 真空中f=c/λ，光子能量E=hf=hc/λ；波长短不代表能量低。；发射线：向低能态跃迁发光；吸收线需背景及相应吸收气体等条件。；比对多条参考线与检测条件，不以单色点唯一鉴定成分。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 吸收装置有背景穿气体
+- 对应线位置匹配
+- 向下跃迁发射向上吸收
+- 轴注明λ或f
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用已有P38凸透镜图前须核物距、光线交点、符号约定；不同成像情形不机械替换
+
+来源：
+- https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html
+- https://openstax.org/books/college-physics-2e/pages/30-3-bohrs-theory-of-the-hydrogen-atom
+
+## B06-PHYS19-19-3 · 物理 19.3 透镜和透镜成像
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：用正确主光线构建实像与虚像；统一符号求像距和放大率并核模型
+
+对象：凸镜u30f10实像；凸镜u6f10虚像；凹镜u24f−12虚像；主轴焦点
+
+关系：实像v15倒立半大；凸镜虚像v−15正立2.5倍；凹镜v−8正立1/3；延长线虚线
+
+中文标签：u；v；f；m=−v/u；近轴薄镜
+
+公式/单位：本节约定：实物u>0，实像v>0，虚像v<0；会聚f>0、发散f<0。；1/f=1/u+1/v；m=h_image/h_object=−v/u。；实际会聚才为实像；反向延长交点为虚像，延长线不表示光反向传播。
+
+### 中文Prompt
+
+制作物理第19章《棱镜和透镜》19.3《透镜和透镜成像》的教学图《会聚与发散透镜三种成像》。教学目标：用正确主光线构建实像与虚像；统一符号求像距和放大率并核模型。必须对象：凸镜u30f10实像；凸镜u6f10虚像；凹镜u24f−12虚像；主轴焦点。不可画错的关系：实像v15倒立半大；凸镜虚像v−15正立2.5倍；凹镜v−8正立1/3；延长线虚线。中文标签：u；v；f；m=−v/u；近轴薄镜。公式、单位和条件：本节约定：实物u>0，实像v>0，虚像v<0；会聚f>0、发散f<0。；1/f=1/u+1/v；m=h_image/h_object=−v/u。；实际会聚才为实像；反向延长交点为虚像，延长线不表示光反向传播。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter19, authentic subsection19.3, with original Chinese title 透镜和透镜成像. Topic-specific mandatory science: Use the stated real-positive lens convention. Converging f10cm with u30cm gives v15cm,m-0.5; with u6cm gives v-15cm,m2.5. Diverging f-12cm with u24cm gives v-8cm,m1/3. Real rays and virtual extensions differ. Use deterministic optical ray tracing. Incidence and refraction angles are measured from local normals. Real rays have forward arrowheads; backward extensions are dashed without forward-light implications. State the thin paraxial lens approximation and sign convention, and never connect rays to a false focal point. Required objects, preserving these Chinese labels: 凸镜u30f10实像；凸镜u6f10虚像；凹镜u24f−12虚像；主轴焦点. Additional literal Chinese annotation strings: u；v；f；m=−v/u；近轴薄镜. Typeset and verify these reference formulas, units and stated conditions: 本节约定：实物u>0，实像v>0，虚像v<0；会聚f>0、发散f<0。；1/f=1/u+1/v；m=h_image/h_object=−v/u。；实际会聚才为实像；反向延长交点为虚像，延长线不表示光反向传播。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 实像v15倒立半大
+- 凸镜虚像v−15正立2.5倍
+- 凹镜v−8正立1/3
+- 延长线虚线
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用已有P38凸透镜图前须核物距、光线交点、符号约定；不同成像情形不机械替换
+
+来源：
+- https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html
+- https://openstax.org/books/college-physics-2e/pages/25-6-image-formation-by-lenses
+
+## B06-PHYS19-19-4 · 物理 19.4 透镜焦距的测定
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：用物像距或位移法测焦距并推导条件；设计清晰成像、重复与误差评估
+
+对象：物；屏；两镜位置；光轴；D与d尺寸线
+
+关系：D100d60对应u80v20互换；f16且D>4f；距离从同一规定参考面量
+
+中文标签：D；d；u；v；f=(D²−d²)/(4D)；安全普通光源
+
+公式/单位：共轭法f=uv/(u+v)，每组u、v须来自同次清晰成像。；位移法D=u+v、d=|u−v|⇒f=(D²−d²)/(4D)，双实像位置需D>4f。；远物法v≈f需u≫f；凹透镜对普通实物不可单独屏接虚像。
+
+### 中文Prompt
+
+制作物理第19章《棱镜和透镜》19.4《透镜焦距的测定》的教学图《共轭法与位移法装置》。教学目标：用物像距或位移法测焦距并推导条件；设计清晰成像、重复与误差评估。必须对象：物；屏；两镜位置；光轴；D与d尺寸线。不可画错的关系：D100d60对应u80v20互换；f16且D>4f；距离从同一规定参考面量。中文标签：D；d；u；v；f=(D²−d²)/(4D)；安全普通光源。公式、单位和条件：共轭法f=uv/(u+v)，每组u、v须来自同次清晰成像。；位移法D=u+v、d=|u−v|⇒f=(D²−d²)/(4D)，双实像位置需D>4f。；远物法v≈f需u≫f；凹透镜对普通实物不可单独屏接虚像。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter19, authentic subsection19.4, with original Chinese title 透镜焦距的测定. Topic-specific mandatory science: For lens displacement use fixed object-screen separation D and lens-position difference d, f=(D squared-d squared)/(4D). D100cm,d60cm gives f16cm and conjugate distances80and20cm. Two real-image positions require D>4f; use a safe ordinary light source. Use deterministic optical ray tracing. Incidence and refraction angles are measured from local normals. Real rays have forward arrowheads; backward extensions are dashed without forward-light implications. State the thin paraxial lens approximation and sign convention, and never connect rays to a false focal point. Required objects, preserving these Chinese labels: 物；屏；两镜位置；光轴；D与d尺寸线. Additional literal Chinese annotation strings: D；d；u；v；f=(D²−d²)/(4D)；安全普通光源. Typeset and verify these reference formulas, units and stated conditions: 共轭法f=uv/(u+v)，每组u、v须来自同次清晰成像。；位移法D=u+v、d=|u−v|⇒f=(D²−d²)/(4D)，双实像位置需D>4f。；远物法v≈f需u≫f；凹透镜对普通实物不可单独屏接虚像。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- D100d60对应u80v20互换
+- f16且D>4f
+- 距离从同一规定参考面量
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：可复用已有P38凸透镜图前须核物距、光线交点、符号约定；不同成像情形不机械替换
+
+来源：
+- https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html
+- https://openstax.org/books/college-physics-2e/pages/25-6-image-formation-by-lenses

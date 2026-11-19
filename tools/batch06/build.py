@@ -29,3 +29,9 @@ tag=''.join('<script src="lessons/'+stem+'.js"></script>' for stem in stems+['ba
 anchor='<script src="batch-ui.js"></script>';assert text.count(anchor)==1
 html.write_text(text.replace(anchor,tag+anchor))
 print('Built',len(stems),'new canonical chapters and',len(register),'real sections')
+
+formulas=json.loads((R/'data/batch06/formulas.json').read_text())
+(R/'lessons/batch06-formulas.js').write_text('// Additive verified batch06 formula cards; original cards remain unchanged.\nObject.assign(window.STUDY_FORMULAS,'+json.dumps(formulas,ensure_ascii=False,indent=2)+');\n')
+text=html.read_text();tag='<script src="lessons/batch06-formulas.js"></script>'
+text=text.replace(tag,'');anchor='<script src="data/formula-cards.js"></script>';assert text.count(anchor)==1
+html.write_text(text.replace(anchor,anchor+tag))

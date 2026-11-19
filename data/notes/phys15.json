@@ -1,0 +1,1814 @@
+{
+  "15.1": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 15,
+    "section_id": "15.1",
+    "goals": [
+      "定义平衡状态P、V、T及气体量",
+      "区分绝对压与表压并统一温度和体积单位"
+    ],
+    "prerequisites": [
+      "压强",
+      "温标与物质的量"
+    ],
+    "flow": [
+      "平衡状态",
+      "压力参考",
+      "体积单位",
+      "绝对温度",
+      "约束识别"
+    ],
+    "concept_relation": "平衡状态；压力参考；体积单位；绝对温度；约束识别",
+    "deep": [
+      "温度比例必须采用开尔文T=t_℃+273.15，近似题有时指定273。摄氏温差与K温差数值相同，但摄氏温度比不是绝对温度比。0℃并不表示分子没有热运动，也不允许把气体式分母直接写成0。",
+      "一定质量同种气体在无漏气、反应或相变改变气相量等条件下，n可视为常数。密闭不是自动恒容，活塞可以移动；刚性容器也不自动保证n不变，阀门打开会出入气体。固定条件应逐一核，而不能靠某个生活物体名称猜。",
+      "记录状态表时两行表示两个平衡状态，列出P、V、T、n及单位，圈明已知与未知。若状态不均匀或正处剧烈过程，应说明只讨论初末态近似。这样后续选择等温、等容、等压或一般状态式才有依据，不会把不同约束混在一起。"
+    ],
+    "derive": [
+      "P_abs=P_atm+P_gauge，按代数符号使用，气体式不用未换算表压。",
+      "T/K=t/℃+273.15；1 L=10⁻³m³，1cm³=10⁻⁶m³。",
+      "密闭、刚性、恒温分别约束不同量，不能互相代替。"
+    ],
+    "examples": [
+      {
+        "q": "大气100 kPa，表压150 kPa，绝对压力多少？ 条件：表压定义为内外压差。",
+        "given": "表压定义为内外压差。",
+        "analysis": "参考零点不同。",
+        "method": "相加。",
+        "principle": "压差定义。",
+        "steps": [
+          "P_abs=100+150。",
+          "得250 kPa。"
+        ],
+        "ans": "250 kPa。",
+        "verification": "内压比外压高150，差值一致。",
+        "pitfall": "150直接代气体定律。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.1",
+        "related_sections": []
+      },
+      {
+        "q": "27℃与127℃的绝对温度约比多少？ 条件：本题近似取T=t+273。",
+        "given": "本题近似取T=t+273。",
+        "analysis": "摄氏不可直接比。",
+        "method": "换K。",
+        "principle": "绝对温标。",
+        "steps": [
+          "T₁=300K，T₂=400K。",
+          "T₂/T₁=4/3。"
+        ],
+        "ans": "4/3。",
+        "verification": "不是127/27。",
+        "pitfall": "只将℃字样换K。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.1",
+        "related_sections": []
+      },
+      {
+        "q": "密闭且无反应的可动活塞气缸加热，n和V哪些可先认固定？ 条件：活塞可移动，未给恒容条件。",
+        "given": "活塞可移动，未给恒容条件。",
+        "analysis": "边界交换和几何不同。",
+        "method": "逐项核约束。",
+        "principle": "状态参量。",
+        "steps": [
+          "密闭支持气体量n不变。",
+          "活塞可移动使V未必固定，需额外力学条件。"
+        ],
+        "ans": "n可按条件固定，V不能直接固定。",
+        "verification": "密闭不等刚性。",
+        "pitfall": "封口就恒容。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "2.5 L换m³。 条件：SI体积。",
+        "given": "SI体积。",
+        "analysis": "升是千分之一立方米。",
+        "method": "乘10⁻³。",
+        "principle": "单位。",
+        "steps": [
+          "2.5×10⁻³。",
+          "单位m³。"
+        ],
+        "ans": "0.0025 m³。",
+        "verification": "1000L=1m³。",
+        "pitfall": "乘1000。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.1",
+        "related_sections": []
+      },
+      {
+        "q": "400 cm³换m³。 条件：立方单位。",
+        "given": "立方单位。",
+        "analysis": "cm到m立方。",
+        "method": "400×10⁻⁶。",
+        "principle": "单位。",
+        "steps": [
+          "得4×10⁻⁴。",
+          "单位m³。"
+        ],
+        "ans": "4×10⁻⁴ m³。",
+        "verification": "相当.4L。",
+        "pitfall": "只除100。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.1",
+        "related_sections": []
+      },
+      {
+        "q": "大气100 kPa、表压−20 kPa，内部绝对压？ 条件：表压可为负。",
+        "given": "表压可为负。",
+        "analysis": "内压低于外压。",
+        "method": "代数相加。",
+        "principle": "压差。",
+        "steps": [
+          "100+(−20)=80。",
+          "绝对压仍正。"
+        ],
+        "ans": "80 kPa。",
+        "verification": "80−100=−20。",
+        "pitfall": "取表压绝对值加成120。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.1",
+        "related_sections": []
+      },
+      {
+        "q": "体积V等于分子实体占据体积之和吗？ 条件：普通稀薄气体。",
+        "given": "普通稀薄气体。",
+        "analysis": "容积包含粒子间空间。",
+        "method": "区分宏观与实体。",
+        "principle": "粒子模型。",
+        "steps": [
+          "分子分散于可及容器。",
+          "大量容积可为粒子间间隔，非分子实体之和。"
+        ],
+        "ans": "不等于。",
+        "verification": "压缩主要改变间距不必改变分子大小。",
+        "pitfall": "把平均容积当分子体积。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "刚性容器打开阀门，是否仍可无条件把n视常数？ 条件：允许气体进出。",
+      "given": "允许气体进出。",
+      "analysis": "恒V不同恒n。",
+      "method": "核质量边界。",
+      "principle": "守恒。",
+      "steps": [
+        "刚性只限制容积。",
+        "开阀允许n变化，需计进出量。"
+      ],
+      "ans": "不可无条件。",
+      "verification": "若题另给无净交换才可固定。",
+      "pitfall": "刚性等于密闭。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 15,
+      "primary_section": "15.1",
+      "related_sections": []
+    },
+    "exam": [
+      "先画初末状态表，P,V,T,n各列单位和固定条件",
+      "压力先判表压或绝对压，温度比先换K",
+      "容器名称不代替约束，密闭与刚性分别解释"
+    ],
+    "quick": [
+      "平衡状态",
+      "压力参考",
+      "体积单位",
+      "绝对温度",
+      "约束识别"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 98,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_15.1",
+        "url": "https://openstax.org/books/college-physics-2e/pages/13-3-the-ideal-gas-law",
+        "page_or_section": "13-3-the-ideal-gas-law",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 98,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_15.1",
+        "url": "https://openstax.org/books/college-physics-2e/pages/13-3-the-ideal-gas-law",
+        "page_or_section": "13-3-the-ideal-gas-law",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先画初末状态表，P,V,T,n各列单位和固定条件",
+      "method": "逐项核约束。",
+      "principle": "状态参量。",
+      "worked_example_index": 2,
+      "verification": "密闭不等刚性。",
+      "pitfall": "封口就恒容。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“定义平衡状态P、V、T及气体量”的抽样复核：内压比外压高150，差值一致。；若出现“150直接代气体定律。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分绝对压与表压并统一温度和体积单位”的抽样复核：密闭不等刚性。；若出现“封口就恒容。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "刚性等于密闭。",
+        "correction": "不可无条件。",
+        "verification": "若题另给无净交换才可固定。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "气体状态表与压力参考",
+      "objects": [
+        "封闭活塞",
+        "刚性开阀容器",
+        "真空零点",
+        "大气线",
+        "状态表"
+      ],
+      "relations": [
+        "密闭固定量不必固定V",
+        "开阀刚性可变n",
+        "绝对压从真空计"
+      ],
+      "labels": [
+        "P_abs",
+        "P_gauge",
+        "V/m³",
+        "T/K",
+        "n/mol"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用气体图但须核固定量、绝对压力、开尔文及体积单位；恒温恒压恒容图不可互换",
+      "english": "Use deterministic gas-law plots and piston schematics. Explicitly label which of amount, pressure, volume and temperature is fixed. All ratios use absolute pressure and kelvin temperature. Particle sizes remain unchanged in simple expansion pictures; do not imply the molecular material volume equals the vessel volume."
+    }
+  },
+  "15.2": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 15,
+    "section_id": "15.2",
+    "goals": [
+      "在统一单位下应用PV=nRT及粒子形式",
+      "解释模型条件及固定量时综合关系"
+    ],
+    "prerequisites": [
+      "状态参量",
+      "摩尔和阿伏加德罗常数"
+    ],
+    "flow": [
+      "理想模型",
+      "两种计量",
+      "单位",
+      "综合关系",
+      "适用与路径"
+    ],
+    "concept_relation": "理想模型；两种计量；单位；综合关系；适用与路径",
+    "deep": [
+      "固定n时PV/T=nR为常数，初末态可用P₁V₁/T₁=P₂V₂/T₂；若n改变，则两侧还需除各自n。综合状态关系只连接状态，不告诉过程怎样传热或做功，不能从初末PV相同就宣布沿途温度、压强全恒定。",
+      "真实气体在较低密度且远离明显凝结等条件时常较接近理想模型，高压、低温接近相变时偏差可能明显。模型“忽略相互作用”不等于物理上粒子永远没有任何相互作用；更不代表可把液体或固体随意代入同一气体状态式。",
+      "应用后检查正压力、正绝对温度和气体量是否合理，判断结果会怎样随某一量改变。若式子给负体积或在接近液化时与实验不符，应先核输入、单位、量是否固定以及模型适用，而不是擅改数据或声称自然规律失效。"
+    ],
+    "derive": [
+      "PV=nRT=Nk_BT，N=nN_A，R=N_Ak_B。",
+      "固定n：P₁V₁/T₁=P₂V₂/T₂；变n：PV/(nT)=R。",
+      "SI：Pa·m³=J，T用K；状态方程不独自决定过程热与功。"
+    ],
+    "examples": [
+      {
+        "q": "1.0 mol理想气体在300 K、100 kPa时体积？ 条件：R=8.31 J/(mol·K)，理想模型。",
+        "given": "R=8.31 J/(mol·K)，理想模型。",
+        "analysis": "P先换Pa。",
+        "method": "V=nRT/P。",
+        "principle": "状态式。",
+        "steps": [
+          "V=1×8.31×300/100000=.02493 m³。",
+          "换为24.93 L。"
+        ],
+        "ans": "约24.9 L。",
+        "verification": "PV=2493J与nRT同值。",
+        "pitfall": "100kPa直接作100Pa。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.2",
+        "related_sections": []
+      },
+      {
+        "q": "固定n，初P100 kPa、V2L、T300K；末V3L、T450K，求P。 条件：同一封闭理想气体初末平衡。",
+        "given": "同一封闭理想气体初末平衡。",
+        "analysis": "V与T同时变。",
+        "method": "综合式。",
+        "principle": "PV/T常数。",
+        "steps": [
+          "P₂=P₁(V₁/V₂)(T₂/T₁)。",
+          "=100×(2/3)×(450/300)=100 kPa。"
+        ],
+        "ans": "100 kPa。",
+        "verification": "T/V两态均150K/L。",
+        "pitfall": "只计温升或只计膨胀。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.2",
+        "related_sections": []
+      },
+      {
+        "q": "用粒子数N代PV=nRT中的n是否正确？ 条件：R与k_B为不同常量。",
+        "given": "R与k_B为不同常量。",
+        "analysis": "单位基准不配。",
+        "method": "对应两种形式。",
+        "principle": "N=nN_A。",
+        "steps": [
+          "mol数n应配R。",
+          "若用N，方程应PV=Nk_BT，不能仍用R。"
+        ],
+        "ans": "不正确。",
+        "verification": "否则能量差阿伏加德罗倍量级。",
+        "pitfall": "N和n混作同符号。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "0.5mol、T400K、V.010m³，求P。 条件：R8.31，理想气体。",
+        "given": "R8.31，理想气体。",
+        "analysis": "单位齐。",
+        "method": "nRT/V。",
+        "principle": "状态式。",
+        "steps": [
+          "分子.5×8.31×400=1662J。",
+          "P=166200Pa。"
+        ],
+        "ans": "166.2 kPa。",
+        "verification": "V若加倍P应减半。",
+        "pitfall": "漏体积换算。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.2",
+        "related_sections": []
+      },
+      {
+        "q": "气体n加倍但P、T固定，V如何？ 条件：理想模型。",
+        "given": "理想模型。",
+        "analysis": "V∝n。",
+        "method": "比值。",
+        "principle": "V=nRT/P。",
+        "steps": [
+          "V₂/V₁=n₂/n₁。",
+          "得2。"
+        ],
+        "ans": "加倍。",
+        "verification": "不是固定n公式。",
+        "pitfall": "量增加仍强用PV/T常数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.2",
+        "related_sections": []
+      },
+      {
+        "q": "初末PV相同是否保证整个过程中T恒定？ 条件：若n固定只知初末态。",
+        "given": "若n固定只知初末态。",
+        "analysis": "端点不定义路径。",
+        "method": "区分状态和过程。",
+        "principle": "状态式。",
+        "steps": [
+          "可推两端温度相同。",
+          "中间可先升再降，并不必全程恒温。"
+        ],
+        "ans": "不能保证。",
+        "verification": "需过程条件或全程资料。",
+        "pitfall": "端点相等当全程固定。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.2",
+        "related_sections": []
+      },
+      {
+        "q": "高压近凝结气体能无条件视为精确理想气体吗？ 条件：未给误差容许。",
+        "given": "未给误差容许。",
+        "analysis": "体积与相互作用效应可能显著。",
+        "method": "核适用性。",
+        "principle": "模型。",
+        "steps": [
+          "这些条件常使理想近似变差。",
+          "需真实气体或实测资料判断偏差。"
+        ],
+        "ans": "不能无条件。",
+        "verification": "不是解析通过就模型正确。",
+        "pitfall": "公式普遍可用无近似。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "PV=nRT能单独给出这段过程的热量Q吗？ 条件：只给两端状态，未给过程或其他条件。",
+      "given": "只给两端状态，未给过程或其他条件。",
+      "analysis": "热量依过程。",
+      "method": "区分状态与能量路径。",
+      "principle": "热力学。",
+      "steps": [
+        "方程约束宏观状态。",
+        "求Q还需过程功、内能模型等信息。"
+      ],
+      "ans": "不能单独确定。",
+      "verification": "不同路径可有同起末态。",
+      "pitfall": "状态方程包办所有热学量。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 15,
+      "primary_section": "15.2",
+      "related_sections": []
+    },
+    "exam": [
+      "先决定mol或粒子计量，R与k_B不混",
+      "统一P,V,T和R单位，再判断n是否固定",
+      "结果区分状态关系与过程结论，高压低温主动标近似边界"
+    ],
+    "quick": [
+      "理想模型",
+      "两种计量",
+      "单位",
+      "综合关系",
+      "适用与路径"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 102,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_15.2",
+        "url": "https://openstax.org/books/college-physics-2e/pages/13-3-the-ideal-gas-law",
+        "page_or_section": "13-3-the-ideal-gas-law",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 102,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_15.2",
+        "url": "https://openstax.org/books/college-physics-2e/pages/13-3-the-ideal-gas-law",
+        "page_or_section": "13-3-the-ideal-gas-law",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先决定mol或粒子计量，R与k_B不混",
+      "method": "对应两种形式。",
+      "principle": "N=nN_A。",
+      "worked_example_index": 2,
+      "verification": "否则能量差阿伏加德罗倍量级。",
+      "pitfall": "N和n混作同符号。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“在统一单位下应用PV=nRT及粒子形式”的抽样复核：PV=2493J与nRT同值。；若出现“100kPa直接作100Pa。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“解释模型条件及固定量时综合关系”的抽样复核：否则能量差阿伏加德罗倍量级。；若出现“N和n混作同符号。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "状态方程包办所有热学量。",
+        "correction": "不能单独确定。",
+        "verification": "不同路径可有同起末态。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "理想气体的两种计量",
+      "objects": [
+        "同容器粒子",
+        "n与N换算",
+        "R与k_B对应",
+        "状态单位框"
+      ],
+      "relations": [
+        "N=nN_A",
+        "两方程一致",
+        "粒子数不乘错常量"
+      ],
+      "labels": [
+        "PV=nRT",
+        "PV=Nk_BT",
+        "T/K",
+        "Pa·m³=J"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用气体图但须核固定量、绝对压力、开尔文及体积单位；恒温恒压恒容图不可互换",
+      "english": "Use deterministic gas-law plots and piston schematics. Explicitly label which of amount, pressure, volume and temperature is fixed. All ratios use absolute pressure and kelvin temperature. Particle sizes remain unchanged in simple expansion pictures; do not imply the molecular material volume equals the vessel volume."
+    }
+  },
+  "15.3": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 15,
+    "section_id": "15.3",
+    "goals": [
+      "识别开闭系统并由守恒求混合或漏气量",
+      "用密度、压强与温度的组合检查推理"
+    ],
+    "prerequisites": [
+      "理想气体式",
+      "质量守恒和比例"
+    ],
+    "flow": [
+      "边界",
+      "粒子守恒",
+      "混合权重",
+      "密度关系",
+      "信息充分性"
+    ],
+    "concept_relation": "边界；粒子守恒；混合权重；密度关系；信息充分性",
+    "deep": [
+      "由n=m/M与PV=nRT可得ρ=m/V=PM/(RT)。在同种气体同温下密度随绝对压力正比，在同压下与K温度反比；不同气体比较还需摩尔质量。不能见较热就无条件断言密度较小，若封闭刚性容器质量与体积都不变，密度仍不变而压强上升。",
+      "充气泵或气囊题还要辨“每次吸入的体积”是在什么压力温度下定义。将该状态的n算出再累加，比直接把各体积相加可靠。气体进入不同压强容器后体积基准改变，标准升数与实际容积不能不加条件混作一个几何空间。",
+      "验算可用总粒子或质量守恒、末压是否处于可解释范围以及单位核对。真实混合可能有非理想或温升等效应，题设若忽略应明写；若信息不足以确定末温，就说明缺少该条件，而不造一个看似合理的温度继续算。"
+    ],
+    "derive": [
+      "开系统先分别n=PV/(RT)，再用总量守恒；固定n综合式不可盲套。",
+      "同温、理想、不反应且无外漏的双刚室：P_f=(P₁V₁+P₂V₂)/(V₁+V₂)。",
+      "同种理想气体ρ=PM/(RT)，比较密度时须说明P、T或m,V约束。"
+    ],
+    "examples": [
+      {
+        "q": "同温两刚室P₁200kPa、V₁2L，P₂100kPa、V₂3L，连通恒温后P？ 条件：不反应、理想、无外漏，连接体积忽略。",
+        "given": "不反应、理想、无外漏，连接体积忽略。",
+        "analysis": "总mol守恒。",
+        "method": "加权压力式。",
+        "principle": "PV与n正比。",
+        "steps": [
+          "P_f=(200×2+100×3)/(2+3)。",
+          "=700/5=140kPa。"
+        ],
+        "ans": "140 kPa。",
+        "verification": "在100和200之间且较靠大容积100一侧。",
+        "pitfall": "简单平均150。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.3",
+        "related_sections": []
+      },
+      {
+        "q": "同种气体同压，温度300变450K，密度比？ 条件：气体可交换或体积可变以维持P。",
+        "given": "气体可交换或体积可变以维持P。",
+        "analysis": "ρ反比T。",
+        "method": "比值。",
+        "principle": "ρ=PM/RT。",
+        "steps": [
+          "ρ₂/ρ₁=T₁/T₂。",
+          "=300/450=2/3。"
+        ],
+        "ans": "2/3。",
+        "verification": "不是所有加热情形都此比。",
+        "pitfall": "固定V情境也套反比。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.3",
+        "related_sections": []
+      },
+      {
+        "q": "刚性容器P保持相同，气体300升400K且允许外漏，剩余mol占原多少？ 条件：理想气体，V固定，最终各状态已平衡。",
+        "given": "理想气体，V固定，最终各状态已平衡。",
+        "analysis": "n随P V/T变化。",
+        "method": "n₂/n₁=T₁/T₂。",
+        "principle": "状态式。",
+        "steps": [
+          "比=300/400=.75。",
+          "漏出原量25%。"
+        ],
+        "ans": "剩75%，漏25%。",
+        "verification": "固定n加热本应升压，故维持P需减少n。",
+        "pitfall": "仍设n固定导致矛盾。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "真空刚室V₂与装气刚室V₁=V₂等容，同温连通后压力？ 条件：原P₁，气体理想无漏，初另一室真空。",
+        "given": "原P₁，气体理想无漏，初另一室真空。",
+        "analysis": "总体积翻倍。",
+        "method": "同温总量。",
+        "principle": "守恒。",
+        "steps": [
+          "P_f=P₁V₁/(2V₁)。",
+          "得P₁/2。"
+        ],
+        "ans": "原一半。",
+        "verification": "真空室不贡献原mol。",
+        "pitfall": "真空压力取大气。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.3",
+        "related_sections": []
+      },
+      {
+        "q": "同温同压两气体摩尔质量28与44，密度比ρ28/ρ44？ 条件：理想模型。",
+        "given": "理想模型。",
+        "analysis": "同P,T密度比等M比。",
+        "method": "28/44。",
+        "principle": "密度式。",
+        "steps": [
+          "约分7/11。",
+          "约.636。"
+        ],
+        "ans": "7/11。",
+        "verification": "较轻摩尔质量密度较低。",
+        "pitfall": "由分子大小猜。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.3",
+        "related_sections": []
+      },
+      {
+        "q": "密闭刚性容器加热，密度必减小吗？ 条件：无漏气反应，容器膨胀忽略。",
+        "given": "无漏气反应，容器膨胀忽略。",
+        "analysis": "m和V固定。",
+        "method": "ρ=m/V。",
+        "principle": "定义。",
+        "steps": [
+          "质量不变。",
+          "容积不变故密度不变，P可升。"
+        ],
+        "ans": "不必，此条件不变。",
+        "verification": "温度反比密度关系需恒P。",
+        "pitfall": "热气体一律更稀。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.3",
+        "related_sections": []
+      },
+      {
+        "q": "气泵一次吸入1L大气，能直接说高压容器几何体积增加1L吗？ 条件：泵中与容器状态不同。",
+        "given": "泵中与容器状态不同。",
+        "analysis": "体积不是守恒物质量。",
+        "method": "先算吸入n。",
+        "principle": "状态转换。",
+        "steps": [
+          "按吸入P,T求n。",
+          "进入后状态变化，不能把1L直接当目标几何增量。"
+        ],
+        "ans": "不能。",
+        "verification": "守恒的是相应粒子量而非各态体积。",
+        "pitfall": "气体体积无条件相加。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "两室初温不同且绝热连通，只给P,V,T，能不核气体内能模型就把末温算术平均吗？ 条件：未给气体类型与能量假设。",
+      "given": "未给气体类型与能量假设。",
+      "analysis": "温度不普遍按普通平均守恒。",
+      "method": "先列能量。",
+      "principle": "内能与热容。",
+      "steps": [
+        "需要气体量和适用热容等能量模型。",
+        "不同权重或过程条件会影响末温。"
+      ],
+      "ans": "不能无条件取算术平均。",
+      "verification": "恒温例题不能照搬到绝热。",
+      "pitfall": "任何混合温度都平均。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 15,
+      "primary_section": "15.3",
+      "related_sections": []
+    },
+    "exam": [
+      "开闭系统先选边界，再算各态n并守恒",
+      "混合式注明同温不反应无漏，未知末温需能量资料",
+      "密度比较先看固定P还是固定m,V，不能只用热冷直觉"
+    ],
+    "quick": [
+      "边界",
+      "粒子守恒",
+      "混合权重",
+      "密度关系",
+      "信息充分性"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 106,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_15.3",
+        "url": "https://openstax.org/books/college-physics-2e/pages/13-3-the-ideal-gas-law",
+        "page_or_section": "13-3-the-ideal-gas-law",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 106,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_15.3",
+        "url": "https://openstax.org/books/college-physics-2e/pages/13-3-the-ideal-gas-law",
+        "page_or_section": "13-3-the-ideal-gas-law",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "开闭系统先选边界，再算各态n并守恒",
+      "method": "n₂/n₁=T₁/T₂。",
+      "principle": "状态式。",
+      "worked_example_index": 2,
+      "verification": "固定n加热本应升压，故维持P需减少n。",
+      "pitfall": "仍设n固定导致矛盾。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“识别开闭系统并由守恒求混合或漏气量”的抽样复核：在100和200之间且较靠大容积100一侧。；若出现“简单平均150。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用密度、压强与温度的组合检查推理”的抽样复核：固定n加热本应升压，故维持P需减少n。；若出现“仍设n固定导致矛盾。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "任何混合温度都平均。",
+        "correction": "不能无条件取算术平均。",
+        "verification": "恒温例题不能照搬到绝热。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "双气室连通与开系统",
+      "objects": [
+        "2L200kPa室",
+        "3L100kPa室",
+        "阀门",
+        "恒温浴",
+        "末态5L140kPa"
+      ],
+      "relations": [
+        "末mol为两室之和",
+        "P以体积加权",
+        "恒温条件外标",
+        "开系统n可变"
+      ],
+      "labels": [
+        "同T",
+        "无反应",
+        "无外漏",
+        "P_f=140kPa",
+        "n守恒"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用气体图但须核固定量、绝对压力、开尔文及体积单位；恒温恒压恒容图不可互换",
+      "english": "Use deterministic gas-law plots and piston schematics. Explicitly label which of amount, pressure, volume and temperature is fixed. All ratios use absolute pressure and kelvin temperature. Particle sizes remain unchanged in simple expansion pictures; do not imply the molecular material volume equals the vessel volume."
+    }
+  },
+  "15.4": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 15,
+    "section_id": "15.4",
+    "goals": [
+      "在固定量恒温条件下应用PV常量",
+      "读双曲线并处理表压和实验控制"
+    ],
+    "prerequisites": [
+      "状态方程",
+      "反比例图像"
+    ],
+    "flow": [
+      "恒温约束",
+      "反比例",
+      "绝对压",
+      "总可及V",
+      "图与实验"
+    ],
+    "concept_relation": "恒温约束；反比例；绝对压；总可及V；图与实验",
+    "deep": [
+      "用压力表做压缩实验必须先换绝对压。表压零并非气体无压，往往表示内压等于大气；若直接令表压乘体积恒定，会在初表压零时给出荒谬结论。活塞摩擦、连接软管的死体积及温度未恢复也会影响测量，应列入模型和误差。",
+      "过程中的体积可及空间包括题设连接管容积，若不可忽略应加入，不应只读注射筒刻度就当全体积。对液柱压力差的题，先由液柱和外界压确定气体绝对压，再将该气体体积代入定律；不要把高度h直接当P，除非明确采用等效压强单位。",
+      "P−V图曲线下的面积与准静态功有关，但PV常数这个端点乘积不是任意有限等温过程的总功。若题目未要求或未给过程功模型，只处理状态变化即可。最终检压缩V减小对应P增大、单位一致，以及是否仍远离非理想和相变等限制。"
+    ],
+    "derive": [
+      "固定n、T且理想：P₁V₁=P₂V₂。",
+      "P对V为双曲线；P对1/V为直线，斜率nRT。",
+      "表压先换绝对压；过程功不是随意用某一个端点PV代替。"
+    ],
+    "examples": [
+      {
+        "q": "封闭理想气体恒温由3.0L、120kPa压到2.0L，末P？ 条件：压力均绝对，量固定。",
+        "given": "压力均绝对，量固定。",
+        "analysis": "压缩应升压。",
+        "method": "PV常数。",
+        "principle": "波意耳定律。",
+        "steps": [
+          "P₂=120×3/2。",
+          "得180kPa。"
+        ],
+        "ans": "180 kPa。",
+        "verification": "两态PV均360kPa·L。",
+        "pitfall": "按体积正比得80。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.4",
+        "related_sections": []
+      },
+      {
+        "q": "初大气100kPa、表压100kPa，恒温压缩到原体积一半，末表压多少？ 条件：外大气不变，固定气量。",
+        "given": "外大气不变，固定气量。",
+        "analysis": "初绝对200。",
+        "method": "先绝对压缩再减大气。",
+        "principle": "PV常数与表压。",
+        "steps": [
+          "P₂_abs=200×2=400kPa。",
+          "P₂_gauge=400−100=300kPa。"
+        ],
+        "ans": "300 kPa。",
+        "verification": "初表压翻倍200并非正确末表压。",
+        "pitfall": "直接表压乘2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.4",
+        "related_sections": []
+      },
+      {
+        "q": "装置刻度容积10mL，另有不可忽略死体积2mL，压到刻度4mL，恒温末P是原几倍？ 条件：气体占据两部分，死体积恒2。",
+        "given": "气体占据两部分，死体积恒2。",
+        "analysis": "定律用总容积。",
+        "method": "总V比。",
+        "principle": "守恒n,T。",
+        "steps": [
+          "初总12mL，末总6mL。",
+          "P₂/P₁=12/6=2。"
+        ],
+        "ans": "2倍。",
+        "verification": "不是10/4=2.5。",
+        "pitfall": "忽略死体积。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "同温同量P增3倍，V比？ 条件：理想模型。",
+        "given": "理想模型。",
+        "analysis": "反比例。",
+        "method": "P₁V₁=P₂V₂。",
+        "principle": "波意耳。",
+        "steps": [
+          "V₂/V₁=P₁/P₂。",
+          "得1/3。"
+        ],
+        "ans": "三分之一。",
+        "verification": "PV不变。",
+        "pitfall": "V也3倍。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.4",
+        "related_sections": []
+      },
+      {
+        "q": "P对1/V直线斜率是什么？ 条件：固定n,T、SI单位。",
+        "given": "固定n,T、SI单位。",
+        "analysis": "P=nRT(1/V)。",
+        "method": "比较线性式。",
+        "principle": "状态方程。",
+        "steps": [
+          "纵轴P，横轴1/V。",
+          "斜率为nRT，单位Pa·m³=J。"
+        ],
+        "ans": "nRT。",
+        "verification": "不是横轴V下的固定斜率。",
+        "pitfall": "P-V双曲线也说常斜率。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.4",
+        "related_sections": []
+      },
+      {
+        "q": "快速压缩后立刻读压力，是否保证等温数据？ 条件：温度尚未恢复的可能性。",
+        "given": "温度尚未恢复的可能性。",
+        "analysis": "过程可升温。",
+        "method": "审控制。",
+        "principle": "热交换时间。",
+        "steps": [
+          "快速压缩可能改变温度。",
+          "需等热平衡或测T确认，不能仅说室温环境就全程恒温。"
+        ],
+        "ans": "不保证。",
+        "verification": "可在温度恢复后比较端态。",
+        "pitfall": "环境恒温等于气体瞬时恒温。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.4",
+        "related_sections": []
+      },
+      {
+        "q": "初末温度同300K能证明全程T不变吗？ 条件：中间未测。",
+        "given": "中间未测。",
+        "analysis": "端点不同全路径。",
+        "method": "反例思路。",
+        "principle": "过程定义。",
+        "steps": [
+          "中间可先升温再回300。",
+          "两端同值不足以证明全过程。"
+        ],
+        "ans": "不能。",
+        "verification": "等温还需全程约束。",
+        "pitfall": "端点条件替代过程。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "等温PV常量是否可把任何有限压缩功直接写为同一个PV？ 条件：只知准静态P−V曲线。",
+      "given": "只知准静态P−V曲线。",
+      "analysis": "功为沿路径积分。",
+      "method": "区分端点乘积与面积。",
+      "principle": "功的定义。",
+      "steps": [
+        "有限功需累加各小段P dV。",
+        "曲线下有界区段面积随端点变，不固定等于nRT。"
+      ],
+      "ans": "不能这样直接代替。",
+      "verification": "零体积变化功为0，而PV仍可非零。",
+      "pitfall": "PV量纲像功就等总功。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 15,
+      "primary_section": "15.4",
+      "related_sections": []
+    },
+    "exam": [
+      "先核固定n,T，表压与死体积独立处理",
+      "图像写清P-V还是P-1/V，不能直线双曲线混读",
+      "实验用热平衡和摩擦等具体条件解释偏差，状态与过程功分开"
+    ],
+    "quick": [
+      "恒温约束",
+      "反比例",
+      "绝对压",
+      "总可及V",
+      "图与实验"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 108,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_15.4",
+        "url": "https://openstax.org/books/college-physics-2e/pages/13-3-the-ideal-gas-law",
+        "page_or_section": "13-3-the-ideal-gas-law",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 108,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_15.4",
+        "url": "https://openstax.org/books/college-physics-2e/pages/13-3-the-ideal-gas-law",
+        "page_or_section": "13-3-the-ideal-gas-law",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先核固定n,T，表压与死体积独立处理",
+      "method": "总V比。",
+      "principle": "守恒n,T。",
+      "worked_example_index": 2,
+      "verification": "不是10/4=2.5。",
+      "pitfall": "忽略死体积。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“在固定量恒温条件下应用PV常量”的抽样复核：两态PV均360kPa·L。；若出现“按体积正比得80。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“读双曲线并处理表压和实验控制”的抽样复核：不是10/4=2.5。；若出现“忽略死体积。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "PV量纲像功就等总功。",
+        "correction": "不能这样直接代替。",
+        "verification": "零体积变化功为0，而PV仍可非零。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "等温双曲线与线性化",
+      "objects": [
+        "P-V双曲线",
+        "P-1/V直线",
+        "压缩活塞",
+        "死体积",
+        "压力表"
+      ],
+      "relations": [
+        "同nT曲线PV不变",
+        "两种图轴不同",
+        "表压换绝对压",
+        "连接死体积计入"
+      ],
+      "labels": [
+        "PV=nRT",
+        "P_abs",
+        "1/V",
+        "T固定"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用气体图但须核固定量、绝对压力、开尔文及体积单位；恒温恒压恒容图不可互换",
+      "english": "Use deterministic gas-law plots and piston schematics. Explicitly label which of amount, pressure, volume and temperature is fixed. All ratios use absolute pressure and kelvin temperature. Particle sizes remain unchanged in simple expansion pictures; do not imply the molecular material volume equals the vessel volume."
+    }
+  },
+  "15.5": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 15,
+    "section_id": "15.5",
+    "goals": [
+      "在固定V与气量下应用P/T",
+      "审查泄漏、容器膨胀和低温外推"
+    ],
+    "prerequisites": [
+      "绝对温度",
+      "压强与状态式"
+    ],
+    "flow": [
+      "定容约束",
+      "P/T",
+      "温标图像",
+      "微观解释",
+      "实验偏差"
+    ],
+    "concept_relation": "定容约束；P/T；温标图像；微观解释；实验偏差",
+    "deep": [
+      "真实气体降温可能先凝结或偏离理想，不能将直线外推当作实际样品能始终保持同气相且到0K压强精确归零的实验路径。绝对零度是温标与理论边界，课堂图应注明理想外推而非描画负绝对温度或负物理气压的普通气体状态。",
+      "表压随温度的变化不直接按T比缩放，需要先加大气压得到绝对P，再算新态后减去相应外压。若外界压也变，最后表读值还要用新的外压。不同位置或时刻环境压不能被悄悄当同一个常数。",
+      "若加热同时开阀使压力受控，n会改变，便不再是本节固定量压强定律，而应回到PV=nRT求剩余量。实验结果不随T正比可能来自这些前提失效，也可能测温未平衡，需检查模型与装置，不能直接宣布理想关系的代数错误。"
+    ],
+    "derive": [
+      "固定n,V：P₁/T₁=P₂/T₂，P为绝对、T为K。",
+      "摄氏轴上P=(nR/V)(t+273.15)，理想外推截点约−273.15℃。",
+      "恒V不自动恒n；开阀、反应与相变须另计。"
+    ],
+    "examples": [
+      {
+        "q": "刚性密闭气体300K、200kPa，加热至450K，末P？ 条件：理想，量及容积不变，绝对压。",
+        "given": "理想，量及容积不变，绝对压。",
+        "analysis": "P正比T。",
+        "method": "P₂=P₁T₂/T₁。",
+        "principle": "压强定律。",
+        "steps": [
+          "200×450/300。",
+          "得300kPa。"
+        ],
+        "ans": "300 kPa。",
+        "verification": "温度1.5倍，压同1.5。",
+        "pitfall": "使用摄氏27到177比。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.5",
+        "related_sections": []
+      },
+      {
+        "q": "外压100kPa不变，初表压150kPa、T300K，升至360K后表压？ 条件：密闭刚性、理想。",
+        "given": "密闭刚性、理想。",
+        "analysis": "初绝对250。",
+        "method": "先换参考再比例。",
+        "principle": "P/T常数。",
+        "steps": [
+          "P₂_abs=250×360/300=300kPa。",
+          "表压=300−100=200kPa。"
+        ],
+        "ans": "200 kPa。",
+        "verification": "非150×1.2=180。",
+        "pitfall": "直接缩放表压。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.5",
+        "related_sections": []
+      },
+      {
+        "q": "摄氏0℃时容器内气体压强非零，是否违反P∝T？ 条件：T指开尔文，气体仍在理想近似范围。",
+        "given": "T指开尔文，气体仍在理想近似范围。",
+        "analysis": "摄氏零不等绝对零。",
+        "method": "换温标。",
+        "principle": "T=t+273.15。",
+        "steps": [
+          "0℃对应273.15K。",
+          "正T有正P，与正比并不矛盾。"
+        ],
+        "ans": "不违反。",
+        "verification": "图轴必须标K或℃。",
+        "pitfall": "两种零点混用。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.5",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "固定n,V，绝对压由100变80kPa，T由400K变多少？ 条件：理想状态。",
+        "given": "理想状态。",
+        "analysis": "T按压比。",
+        "method": "T₂=T₁P₂/P₁。",
+        "principle": "压强定律。",
+        "steps": [
+          "400×.8。",
+          "得320K。"
+        ],
+        "ans": "320 K。",
+        "verification": "P/T两态相同。",
+        "pitfall": "错用反比。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.5",
+        "related_sections": []
+      },
+      {
+        "q": "定容实验发现加热后容器微膨胀，若忽略它，对预测P影响？ 条件：n不变，同最终T，比较固定V理想预测。",
+        "given": "n不变，同最终T，比较固定V理想预测。",
+        "analysis": "实际V较大。",
+        "method": "P=nRT/V。",
+        "principle": "状态式。",
+        "steps": [
+          "较大末V使实际P较固定V预测小。",
+          "忽略膨胀可能高估P。"
+        ],
+        "ans": "可能高估。",
+        "verification": "需其他因素相同才能确定方向。",
+        "pitfall": "膨胀让同T压更高。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.5",
+        "related_sections": []
+      },
+      {
+        "q": "封闭刚室加热必使所有分子实体变大吗？ 条件：简单理想粒子模型。",
+        "given": "简单理想粒子模型。",
+        "analysis": "温度主要联系动能。",
+        "method": "微观解释。",
+        "principle": "分子运动。",
+        "steps": [
+          "模型粒子尺寸不随图任意膨大。",
+          "平均动能与碰撞动量通量改变导致升压。"
+        ],
+        "ans": "不应这样解释。",
+        "verification": "图用速度箭头变化而非分子尺寸。",
+        "pitfall": "热胀全靠分子膨胀。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.5",
+        "related_sections": []
+      },
+      {
+        "q": "固定V加热但持续漏气，还能P/T恒定吗？ 条件：量在变。",
+        "given": "量在变。",
+        "analysis": "比值为nR/V。",
+        "method": "核右侧。",
+        "principle": "状态式。",
+        "steps": [
+          "n下降则P/T也可下降。",
+          "必须另计n才能连接状态。"
+        ],
+        "ans": "不能无条件。",
+        "verification": "容积固定只是一项前提。",
+        "pitfall": "恒容就自动套。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.5",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "把气体P-T直线延伸到极低温就证明实际气体不相变吗？ 条件：真实材料可能凝结。",
+      "given": "真实材料可能凝结。",
+      "analysis": "数学外推不保证相态维持。",
+      "method": "审适用边界。",
+      "principle": "模型近似。",
+      "steps": [
+        "低温可偏离理想并改变气相量。",
+        "直线外推只是该模型的预测，不是全过程实测保证。"
+      ],
+      "ans": "不能证明。",
+      "verification": "需相态与实际数据。",
+      "pitfall": "外推画线当真实全过程。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 15,
+      "primary_section": "15.5",
+      "related_sections": []
+    },
+    "exam": [
+      "定容题除V还核n，温度与压力用绝对量",
+      "摄氏图用平移关系解释截点，实际低温相变单列",
+      "误差题从P=nRT/V判断容器膨胀、漏气和测温的具体影响"
+    ],
+    "quick": [
+      "定容约束",
+      "P/T",
+      "温标图像",
+      "微观解释",
+      "实验偏差"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 114,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_15.5",
+        "url": "https://openstax.org/books/college-physics-2e/pages/13-3-the-ideal-gas-law",
+        "page_or_section": "13-3-the-ideal-gas-law",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 114,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_15.5",
+        "url": "https://openstax.org/books/college-physics-2e/pages/13-3-the-ideal-gas-law",
+        "page_or_section": "13-3-the-ideal-gas-law",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "定容题除V还核n，温度与压力用绝对量",
+      "method": "换温标。",
+      "principle": "T=t+273.15。",
+      "worked_example_index": 2,
+      "verification": "图轴必须标K或℃。",
+      "pitfall": "两种零点混用。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“在固定V与气量下应用P/T”的抽样复核：温度1.5倍，压同1.5。；若出现“使用摄氏27到177比。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“审查泄漏、容器膨胀和低温外推”的抽样复核：图轴必须标K或℃。；若出现“两种零点混用。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "外推画线当真实全过程。",
+        "correction": "不能证明。",
+        "verification": "需相态与实际数据。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "定容压力与两种温标",
+      "objects": [
+        "密闭刚室",
+        "速度箭头",
+        "P-T/K直线",
+        "P-t/℃平移图",
+        "相变限制注"
+      ],
+      "relations": [
+        "加热V不变P升",
+        "K图过理想原点",
+        "℃图截距−273.15外推",
+        "粒子大小不变"
+      ],
+      "labels": [
+        "n,V固定",
+        "P_abs",
+        "T/K",
+        "理想外推"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用气体图但须核固定量、绝对压力、开尔文及体积单位；恒温恒压恒容图不可互换",
+      "english": "Use deterministic gas-law plots and piston schematics. Explicitly label which of amount, pressure, volume and temperature is fixed. All ratios use absolute pressure and kelvin temperature. Particle sizes remain unchanged in simple expansion pictures; do not imply the molecular material volume equals the vessel volume."
+    }
+  },
+  "15.6": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 15,
+    "section_id": "15.6",
+    "goals": [
+      "在固定量恒压下应用V/T并解释活塞平衡",
+      "区分气体膨胀、分子大小和其他约束"
+    ],
+    "prerequisites": [
+      "温标",
+      "活塞受力与密度"
+    ],
+    "flow": [
+      "恒压条件",
+      "活塞平衡",
+      "V/T",
+      "相对膨胀",
+      "分段与密度"
+    ],
+    "concept_relation": "恒压条件；活塞平衡；V/T；相对膨胀；分段与密度",
+    "deep": [
+      "V对T/K正比，V对摄氏t则为平移直线。体积膨胀率的相对变化ΔV/V₁=ΔT/T₁，仅在固定n,P的理想关系下成立；分母是初绝对温度，不能一律用273或摄氏初值。温差数值虽相同，比例基准仍不能混用。",
+      "同种气体若质量固定，恒压加热使V增、密度降；若开放刚性容器在同压加热，体积不能增，便可能通过气量减少实现，已不满足固定n的查理情形。热气球等真实系统还涉及开口、浮力和质量，不能只用V/T一式包办全部现象。",
+      "题目若有活塞先移动后触挡块，应先在恒压段求V到边界，再在等容段用相应关系。计算后核可用空间、绝对压与初末温度，并判断最终状态是否仍为气相理想近似。宏观关系不替代能量收支，若问做功或加热量还需另外模型。"
+    ],
+    "derive": [
+      "固定n,P：V₁/T₁=V₂/T₂；ΔV/V₁=ΔT/T₁。",
+      "简化静力活塞P_gas=P_atm+mg/A，恒压需各项与过程条件相应稳定。",
+      "触挡块后不再恒压自由膨胀，需分段换用等容关系。"
+    ],
+    "examples": [
+      {
+        "q": "固定气量、压强，300K时10L，升360K体积？ 条件：理想且活塞空间足够。",
+        "given": "理想且活塞空间足够。",
+        "analysis": "V正比T。",
+        "method": "V₂=V₁T₂/T₁。",
+        "principle": "查理定律。",
+        "steps": [
+          "10×360/300。",
+          "得12L。"
+        ],
+        "ans": "12 L。",
+        "verification": "温度增20%，体积也20%。",
+        "pitfall": "℃比计算。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.6",
+        "related_sections": []
+      },
+      {
+        "q": "活塞面积.010m²，质量及负载合20kg，大气100kPa，平衡内P？ 条件：g=10m/s²，忽略摩擦与附加力。",
+        "given": "g=10m/s²，忽略摩擦与附加力。",
+        "analysis": "重量提供附加压。",
+        "method": "P=P_atm+mg/A。",
+        "principle": "力平衡。",
+        "steps": [
+          "mg/A=200/.010=20000Pa=20kPa。",
+          "内压=120kPa。"
+        ],
+        "ans": "120 kPa绝对压。",
+        "verification": "气体力1200N，外大气1000加重200。",
+        "pitfall": "mg直接作压强。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.6",
+        "related_sections": []
+      },
+      {
+        "q": "气体300K、2L，恒压加热至挡块3L，之后恒容再升至600K，末P是初几倍？ 条件：n固定，初P=P₀，理想两阶段。",
+        "given": "n固定，初P=P₀，理想两阶段。",
+        "analysis": "先求触挡温度。",
+        "method": "分段。",
+        "principle": "V/T与P/T。",
+        "steps": [
+          "触挡T=300×3/2=450K，压仍P₀。",
+          "随后P_f/P₀=600/450=4/3。"
+        ],
+        "ans": "4/3倍。",
+        "verification": "不可从300到600全程恒压或全程恒容。",
+        "pitfall": "忽略挡块换条件。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.6",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "恒压同量气体T减半，V怎样？ 条件：理想且仍气相、空间条件允许。",
+        "given": "理想且仍气相、空间条件允许。",
+        "analysis": "正比。",
+        "method": "比值。",
+        "principle": "V/T常数。",
+        "steps": [
+          "V₂/V₁=T₂/T₁。",
+          "得1/2。"
+        ],
+        "ans": "减半。",
+        "verification": "温度指K。",
+        "pitfall": "摄氏减半同结论。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.6",
+        "related_sections": []
+      },
+      {
+        "q": "初T400K，恒压升温40K，相对体积增多少？ 条件：固定n理想。",
+        "given": "固定n理想。",
+        "analysis": "ΔV/V₁=ΔT/T₁。",
+        "method": "40/400。",
+        "principle": "查理关系。",
+        "steps": [
+          "=.10。",
+          "即10%。"
+        ],
+        "ans": "10%。",
+        "verification": "不能一律除273。",
+        "pitfall": "用摄氏初温127作分母。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.6",
+        "related_sections": []
+      },
+      {
+        "q": "固定质量恒压体积由4L到5L，密度比？ 条件：同种气体。",
+        "given": "同种气体。",
+        "analysis": "质量不变。",
+        "method": "ρ=m/V。",
+        "principle": "定义。",
+        "steps": [
+          "ρ₂/ρ₁=V₁/V₂。",
+          "=4/5。"
+        ],
+        "ans": ".8。",
+        "verification": "V增密度降。",
+        "pitfall": "密度也5/4。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.6",
+        "related_sections": []
+      },
+      {
+        "q": "活塞到挡块仍加热，容积继续按V/T增大吗？ 条件：挡块刚性，容器膨胀忽略。",
+        "given": "挡块刚性，容器膨胀忽略。",
+        "analysis": "几何约束改变。",
+        "method": "改判等容。",
+        "principle": "受限边界。",
+        "steps": [
+          "活塞不能继续移动。",
+          "V固定，P可升，不能继续套恒压V/T。"
+        ],
+        "ans": "不继续。",
+        "verification": "须按新阶段方程。",
+        "pitfall": "一个过程名用到底。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 15,
+        "primary_section": "15.6",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "恒压加热V增，是否表示每个气体分子直径都按相同比例增大？ 条件：简单理想气体模型。",
+      "given": "简单理想气体模型。",
+      "analysis": "宏观间距不同实体尺寸。",
+      "method": "微观图解释。",
+      "principle": "稀薄粒子。",
+      "steps": [
+        "同样粒子分布于更大容器。",
+        "平均间距改变，模型粒子大小不需同比变。"
+      ],
+      "ans": "不是。",
+      "verification": "图保持粒子数和大小、改变容积间距。",
+      "pitfall": "用变大分子解释全部膨胀。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 15,
+      "primary_section": "15.6",
+      "related_sections": []
+    },
+    "exam": [
+      "恒压先用活塞受力核条件，不能只见活塞就认P固定",
+      "比例分母用初绝对T，密度另按质量和V算",
+      "挡块等边界分段处理，图中粒子数大小与条件一致"
+    ],
+    "quick": [
+      "恒压条件",
+      "活塞平衡",
+      "V/T",
+      "相对膨胀",
+      "分段与密度"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 120,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_15.6",
+        "url": "https://openstax.org/books/college-physics-2e/pages/13-3-the-ideal-gas-law",
+        "page_or_section": "13-3-the-ideal-gas-law",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 120,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_15.6",
+        "url": "https://openstax.org/books/college-physics-2e/pages/13-3-the-ideal-gas-law",
+        "page_or_section": "13-3-the-ideal-gas-law",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "恒压先用活塞受力核条件，不能只见活塞就认P固定",
+      "method": "分段。",
+      "principle": "V/T与P/T。",
+      "worked_example_index": 2,
+      "verification": "不可从300到600全程恒压或全程恒容。",
+      "pitfall": "忽略挡块换条件。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“在固定量恒压下应用V/T并解释活塞平衡”的抽样复核：温度增20%，体积也20%。；若出现“℃比计算。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分气体膨胀、分子大小和其他约束”的抽样复核：不可从300到600全程恒压或全程恒容。；若出现“忽略挡块换条件。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "用变大分子解释全部膨胀。",
+        "correction": "不是。",
+        "verification": "图保持粒子数和大小、改变容积间距。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "恒压活塞与触挡后的分段",
+      "objects": [
+        "负载活塞",
+        "初2L300K",
+        "挡块3L450K",
+        "末600K",
+        "P-V与状态表"
+      ],
+      "relations": [
+        "前段P₀不变",
+        "后段V3L不变",
+        "末P=4P₀/3",
+        "粒子数大小保持"
+      ],
+      "labels": [
+        "n固定",
+        "P_atm+mg/A",
+        "挡块",
+        "T/K",
+        "分段"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用气体图但须核固定量、绝对压力、开尔文及体积单位；恒温恒压恒容图不可互换",
+      "english": "Use deterministic gas-law plots and piston schematics. Explicitly label which of amount, pressure, volume and temperature is fixed. All ratios use absolute pressure and kelvin temperature. Particle sizes remain unchanged in simple expansion pictures; do not imply the molecular material volume equals the vessel volume."
+    }
+  }
+}
