@@ -88,5 +88,5 @@ for st in summary:
  lines.extend([f'## {st["title"]}','','|榜|有效年份|主指标|','|---|---|---|'])
  for mode,b in st['boards'].items():lines.append(f'|{mode}|'+(','.join(map(str,b['years']))or'无有效样本')+f'|{b["ranking_metric"]}|')
  lines+=['','未进主榜的来源年份：'+('；'.join(f'{a["year"]} {a["status"]}'for a in st['annual']if not a['valid'])or'无')+'。','']
-(O/'HEAT_METHOD.md').write_text('\n'.join(lines)+'\n')
+(O/'HEAT_METHOD.md').write_text('\n'.join(lines).rstrip()+'\n')
 print('Built',len(questions),'independent questions and three boards for',len(summary),'exam categories')

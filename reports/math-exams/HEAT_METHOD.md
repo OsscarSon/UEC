@@ -59,4 +59,3 @@
 |combined|2018,2019,2021,2022,2023,2024,2025,2026|mean_annual_share|
 
 未进主榜的来源年份：2020 year_unconfirmed。
-
