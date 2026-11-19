@@ -1,0 +1,2724 @@
+{
+  "28.1": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 28,
+    "section_id": "28.1",
+    "goals": [
+      "由价键与结构推导单烯烃通式",
+      "说明双键几何、转动限制及通式边界"
+    ],
+    "prerequisites": [
+      "碳四价",
+      "σ与π键",
+      "烷烃通式"
+    ],
+    "flow": [
+      "通式条件",
+      "逐碳价键",
+      "σπ结构",
+      "几何限制",
+      "证据边界"
+    ],
+    "concept_relation": "通式条件；逐碳价键；σπ结构；几何限制；证据边界",
+    "deep": [
+      "绕碳碳双键自由转动会破坏π重叠，通常存在较高能垒，所以某些取代烯烃可分离出不同几何异构体。普通碳碳单键的构象转动不与双键几何异构混为一谈；也不能说任何情况下双键永远绝对不可能发生光化学等异构化。",
+      "由同碳数开链烷烃CₙH₂ₙ₊₂少一个H₂可得到单双键的不饱和程度。该计数只说明少一对氢的结构可能性，并未确定双键在哪或碳链是否支化。建立结构仍需结合反应、谱学或给定骨架等额外证据。",
+      "结构题应逐碳补氢并检查总数，特别是双键上已有三个碳键级的碳最多再带一个氢。若双键碳另接两条碳单键，就不能再加氢。先保证价键合法，再讨论名称和反应；分子式凑对而某碳五价仍是错误结构。"
+    ],
+    "derive": [
+      "开链单烯烃CₙH₂ₙ（n≥2），不是所有CₙH₂ₙ都为烯烃。",
+      "C=C含1σ+1π；双键碳局部近似平面、键角约120°。",
+      "每个中性碳键级总数4，逐碳补氢后复核总分子式。"
+    ],
+    "examples": [
+      {
+        "q": "开链单烯烃含6个碳，分子式及相对分子质量？ 条件：C=12、H=1，无环且仅一个双键。",
+        "given": "C=12、H=1，无环且仅一个双键。",
+        "analysis": "适用通式。",
+        "method": "CₙH₂ₙ。",
+        "principle": "碳价计数。",
+        "steps": [
+          "n=6给C₆H₁₂。",
+          "M_r=6×12+12=84。"
+        ],
+        "ans": "C₆H₁₂，84。",
+        "verification": "同碳烷烃为C₆H₁₄，少H₂。",
+        "pitfall": "漏开链单双键条件。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.1",
+        "related_sections": []
+      },
+      {
+        "q": "CH₂=C(CH₃)₂中央双键碳带几个氢？ 条件：图示中该碳连双键及两个甲基。",
+        "given": "图示中该碳连双键及两个甲基。",
+        "analysis": "先加键级。",
+        "method": "碳四价。",
+        "principle": "价键。",
+        "steps": [
+          "双键计2，另两单键各1，总4。",
+          "不再有可配氢键。"
+        ],
+        "ans": "0个。",
+        "verification": "全式C₄H₈。",
+        "pitfall": "看到碳符号就机械加H。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.1",
+        "related_sections": []
+      },
+      {
+        "q": "检测分子式C₄H₈，能唯一断定是丁-1-烯吗？ 条件：尚无连结或反应证据。",
+        "given": "尚无连结或反应证据。",
+        "analysis": "同式可有多种连结。",
+        "method": "列反例。",
+        "principle": "同分异构。",
+        "steps": [
+          "丁-2-烯和2-甲基丙烯也可同式。",
+          "环丁烷等环烷烃亦可同式。"
+        ],
+        "ans": "不能唯一确定，甚至不能仅凭该式排除环烷烃。",
+        "verification": "所有反例碳氢总数均4、8。",
+        "pitfall": "通式相符即唯一结构。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "乙烯分子碳碳之间几个σ及π键？ 条件：讨论一个C=C。",
+        "given": "讨论一个C=C。",
+        "analysis": "双键类型。",
+        "method": "分解轨道重叠。",
+        "principle": "价键。",
+        "steps": [
+          "轴向形成1σ。",
+          "侧向形成1π。"
+        ],
+        "ans": "1σ、1π。",
+        "verification": "不计四个C—H时只答碳碳键。",
+        "pitfall": "2σ。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.1",
+        "related_sections": []
+      },
+      {
+        "q": "C₅H₁₀是否必为含两个双键的开链烃？ 条件：普通中性烃。",
+        "given": "普通中性烃。",
+        "analysis": "两个双键会少两对氢。",
+        "method": "与C₅H₁₂比较。",
+        "principle": "不饱和度。",
+        "steps": [
+          "一个双键式H10。",
+          "两个双键开链应H8。"
+        ],
+        "ans": "不是，所述两双键式不符。",
+        "verification": "也可能一环无双键。",
+        "pitfall": "每增加双键只少1H。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.1",
+        "related_sections": []
+      },
+      {
+        "q": "CH₃—CH=CH₂逐碳氢数？ 条件：合法三碳单烯烃。",
+        "given": "合法三碳单烯烃。",
+        "analysis": "各碳总价4。",
+        "method": "逐碳数。",
+        "principle": "碳四价。",
+        "steps": [
+          "端甲基3，中碳1，末端双键碳2。",
+          "总H6。"
+        ],
+        "ans": "3、1、2；C₃H₆。",
+        "verification": "双键两碳不各都带2H。",
+        "pitfall": "忽略连接邻碳的单键。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.1",
+        "related_sections": []
+      },
+      {
+        "q": "能将乙烯两碳局部σ键画成四面体约109.5°吗？ 条件：常见基态局部模型。",
+        "given": "常见基态局部模型。",
+        "analysis": "sp²不是sp³。",
+        "method": "辨杂化几何。",
+        "principle": "平面三角。",
+        "steps": [
+          "双键碳局部约120°。",
+          "π轨道在局部σ平面两侧。"
+        ],
+        "ans": "不合适，应近似平面三角。",
+        "verification": "整个长链可非全平面。",
+        "pitfall": "所有碳固定四面体。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "两个环且一个双键的烃可直接套开链单烯烃通式吗？ 条件：普通闭壳层烃，n足够。",
+      "given": "普通闭壳层烃，n足够。",
+      "analysis": "少氢来自环及多键。",
+      "method": "列通式条件。",
+      "principle": "氢缺失计数。",
+      "steps": [
+        "两个环各少H₂，双键再少H₂。",
+        "相对烷烃少6H，成为CₙH₂ₙ₋₄。"
+      ],
+      "ans": "不可直接套CₙH₂ₙ。",
+      "verification": "不饱和度共3。",
+      "pitfall": "只看有一个双键就忽略环。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 28,
+      "primary_section": "28.1",
+      "related_sections": []
+    },
+    "exam": [
+      "先写通式适用条件，再由分子式提出候选而非确证",
+      "结构式逐碳检四价，σπ与局部平面须配合解释",
+      "名称、同式与反应证据分层，避免一条通式包办结构鉴定"
+    ],
+    "quick": [
+      "通式条件",
+      "逐碳价键",
+      "σπ结构",
+      "几何限制",
+      "证据边界"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 13,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_28.1",
+        "url": "https://openstax.org/books/organic-chemistry/pages/7-2-calculating-the-degree-of-unsaturation",
+        "page_or_section": "7-2-calculating-the-degree-of-unsaturation",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 13,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_28.1",
+        "url": "https://openstax.org/books/organic-chemistry/pages/7-2-calculating-the-degree-of-unsaturation",
+        "page_or_section": "7-2-calculating-the-degree-of-unsaturation",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先写通式适用条件，再由分子式提出候选而非确证",
+      "method": "列反例。",
+      "principle": "同分异构。",
+      "worked_example_index": 2,
+      "verification": "所有反例碳氢总数均4、8。",
+      "pitfall": "通式相符即唯一结构。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由价键与结构推导单烯烃通式”的抽样复核：同碳烷烃为C₆H₁₄，少H₂。；若出现“漏开链单双键条件。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“说明双键几何、转动限制及通式边界”的抽样复核：所有反例碳氢总数均4、8。；若出现“通式相符即唯一结构。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "只看有一个双键就忽略环。",
+        "correction": "不可直接套CₙH₂ₙ。",
+        "verification": "不饱和度共3。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "烯烃通式与双键局部结构",
+      "objects": [
+        "乙烯平面σ键",
+        "平行p轨道与π区",
+        "C₄H₈连结候选",
+        "通式条件框"
+      ],
+      "relations": [
+        "碳四价",
+        "双键1σ1π",
+        "局部约120°",
+        "同分子式非唯一结构"
+      ],
+      "labels": [
+        "开链单烯烃",
+        "CₙH₂ₙ",
+        "σ",
+        "π",
+        "约120°"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "核对碳骨架、双键位置、取代基及反应条件后才可复用；原正确SVG不覆盖",
+      "english": "Use deterministic structural formulas. Every neutral carbon has valence four. Preserve carbon skeleton and double-bond position unless the stated reaction changes them. Distinguish molecular formula from connectivity, cis/trans geometry from single-bond conformations, and reaction stoichiometry from reaction conditions. Do not draw a mechanism without checking electron arrows."
+    }
+  },
+  "28.2": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 28,
+    "section_id": "28.2",
+    "goals": [
+      "系统区分碳链、位置和几何异构",
+      "用双键两端取代基判是否有几何异构"
+    ],
+    "prerequisites": [
+      "结构式",
+      "双键转动限制"
+    ],
+    "flow": [
+      "连结枚举",
+      "位置检重",
+      "两端条件",
+      "顺反结构",
+      "计数范围"
+    ],
+    "concept_relation": "连结枚举；位置检重；两端条件；顺反结构；计数范围",
+    "deep": [
+      "丁-2-烯有两端各一个H和CH₃，两个甲基在双键同侧为顺式，异侧为反式。图上同侧按双键两侧的平面关系判断，不是甲基到纸边的远近。单键自由转动造成的不同画法通常只是同一构象体系，不能当稳定双键异构多计。",
+      "对于四个取代基不便用同一组比较的烯烃，可用E/Z规则按各端优先序确定；该规则需完整优先序依据，不能把“体积大”当通用标准，也不把所有顺必Z、反必E无条件扩展。本节基础计数题若只要求连结异构，应明确不再加立体种数。",
+      "统计范围决定答案。C₄H₈若限定开链单烯烃，连结异构3种；把丁-2-烯的两几何形式分别计则为4种。若不限定开链，还要考虑环烷烃，此时不能拿上述数字作为全部C₄H₈异构体总数。答前写计数约定比只报一个数更可靠。"
+    ],
+    "derive": [
+      "开链C₄H₈连结式：丁-1-烯、丁-2-烯、2-甲基丙烯，共3种。",
+      "双键几何异构要求两端各自都有两个不同取代基。",
+      "若分别计丁-2-烯顺反，开链C₄H₈共4种；范围不含环烷烃。"
+    ],
+    "examples": [
+      {
+        "q": "列C₄H₈开链单烯烃连结异构，不计几何形式。 条件：限定普通中性结构。",
+        "given": "限定普通中性结构。",
+        "analysis": "先直链后支链。",
+        "method": "枚举检重。",
+        "principle": "骨架与位置。",
+        "steps": [
+          "直链有丁-1-烯、丁-2-烯。",
+          "支链有2-甲基丙烯，反向写双键不另计。"
+        ],
+        "ans": "3种。",
+        "verification": "逐式四价且总式C₄H₈。",
+        "pitfall": "把丁-3-烯另算。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.2",
+        "related_sections": []
+      },
+      {
+        "q": "CH₂=C(CH₃)CH₂CH₃有顺反吗？ 条件：检查该双键。",
+        "given": "检查该双键。",
+        "analysis": "末端CH₂两H相同。",
+        "method": "两端逐一审。",
+        "principle": "几何异构条件。",
+        "steps": [
+          "左双键碳连H,H。",
+          "有一端重复，故不满足。"
+        ],
+        "ans": "没有该双键顺反异构。",
+        "verification": "右端两个基团不同也不能补救左端。",
+        "pitfall": "一端不同就算有。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.2",
+        "related_sections": []
+      },
+      {
+        "q": "C₄H₈开链单烯烃计各几何形式有几种？ 条件：不计构象，不含环。",
+        "given": "不计构象，不含环。",
+        "analysis": "连结3种中仅丁-2-烯分2。",
+        "method": "在连结清单加立体。",
+        "principle": "几何异构。",
+        "steps": [
+          "丁-1-烯1、丁-2-烯2、2-甲基丙烯1。",
+          "总1+2+1=4。"
+        ],
+        "ans": "4种。",
+        "verification": "与只计连结3种的题目约定不同。",
+        "pitfall": "所有双键结构都乘2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "CH₃CH=CHCH₃能有顺反吗？ 条件：双键碳两端均连H与CH₃。",
+        "given": "双键碳两端均连H与CH₃。",
+        "analysis": "两端不同。",
+        "method": "审条件。",
+        "principle": "转动受限。",
+        "steps": [
+          "左端H/CH₃不同。",
+          "右端亦不同，满足。"
+        ],
+        "ans": "能。",
+        "verification": "顺反连结相同。",
+        "pitfall": "当成双键位置异构。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.2",
+        "related_sections": []
+      },
+      {
+        "q": "CH₃CH₂CH=CH₂与CH₂=CHCH₂CH₃是两个连结异构吗？ 条件：单独比较这两写法。",
+        "given": "单独比较这两写法。",
+        "analysis": "反向读同一链。",
+        "method": "统一编号。",
+        "principle": "连结同一性。",
+        "steps": [
+          "从双键近端编号均丁-1-烯。",
+          "连接图一致。"
+        ],
+        "ans": "不是，是同一物质两种书写方向。",
+        "verification": "分子式相同只是必要非充分，需比连接。",
+        "pitfall": "左右图不同就加1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.2",
+        "related_sections": []
+      },
+      {
+        "q": "(CH₃)₂C=C(CH₃)₂有双键几何异构吗？ 条件：普通取代基识别。",
+        "given": "普通取代基识别。",
+        "analysis": "两端各有相同甲基。",
+        "method": "逐端检查。",
+        "principle": "必要条件。",
+        "steps": [
+          "左两个CH₃相同。",
+          "右也相同，不满足。"
+        ],
+        "ans": "没有。",
+        "verification": "双键转动受限本身不足以保证有异构。",
+        "pitfall": "所有内双键必有。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.2",
+        "related_sections": []
+      },
+      {
+        "q": "只转动碳碳单键得到新画法，能自动计为另一连结异构吗？ 条件：未改键连接。",
+        "given": "未改键连接。",
+        "analysis": "构象不是连结变化。",
+        "method": "比较连接图。",
+        "principle": "异构层次。",
+        "steps": [
+          "转动不改谁与谁相连。",
+          "通常属构象变化，不能自动增加所求连结数。"
+        ],
+        "ans": "不能。",
+        "verification": "题若专门问构象应另按约定。",
+        "pitfall": "画法数等物质数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "“分子有四种基团”足以证明双键E/Z吗？ 条件：尚未说明各双键碳各连什么。",
+      "given": "尚未说明各双键碳各连什么。",
+      "analysis": "局部两端而非整体名单。",
+      "method": "重画双键邻接。",
+      "principle": "几何异构必要条件。",
+      "steps": [
+        "逐端列两个取代基。",
+        "必须每端各不相同，整体有几种名称不能替代。"
+      ],
+      "ans": "不充分。",
+      "verification": "含相同端基的反例可否定。",
+      "pitfall": "用整个分子的基团总数判断。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 28,
+      "primary_section": "28.2",
+      "related_sections": []
+    },
+    "exam": [
+      "计数先声明开链/含环、连结/立体/构象范围",
+      "骨架→双键不等价位置→两端条件，最后统一编号检重",
+      "顺反与E/Z适用比较规则分清，不凭取代基体积猜优先序"
+    ],
+    "quick": [
+      "连结枚举",
+      "位置检重",
+      "两端条件",
+      "顺反结构",
+      "计数范围"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 13,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_28.2",
+        "url": "https://openstax.org/books/organic-chemistry/pages/7-4-cis-trans-isomerism-in-alkenes",
+        "page_or_section": "7-4-cis-trans-isomerism-in-alkenes",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 13,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_28.2",
+        "url": "https://openstax.org/books/organic-chemistry/pages/7-4-cis-trans-isomerism-in-alkenes",
+        "page_or_section": "7-4-cis-trans-isomerism-in-alkenes",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "计数先声明开链/含环、连结/立体/构象范围",
+      "method": "在连结清单加立体。",
+      "principle": "几何异构。",
+      "worked_example_index": 2,
+      "verification": "与只计连结3种的题目约定不同。",
+      "pitfall": "所有双键结构都乘2。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“系统区分碳链、位置和几何异构”的抽样复核：逐式四价且总式C₄H₈。；若出现“把丁-3-烯另算。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用双键两端取代基判是否有几何异构”的抽样复核：与只计连结3种的题目约定不同。；若出现“所有双键结构都乘2。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "用整个分子的基团总数判断。",
+        "correction": "不充分。",
+        "verification": "含相同端基的反例可否定。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "C₄H₈异构枚举树",
+      "objects": [
+        "3种连结结构",
+        "丁-2-烯顺反两图",
+        "无几何异构反例",
+        "编号检重线"
+      ],
+      "relations": [
+        "先3连结后4立体个体",
+        "两端各不同才有",
+        "CH₂端无顺反",
+        "无环限定清晰"
+      ],
+      "labels": [
+        "连结异构3",
+        "含几何形式4",
+        "相同取代基",
+        "不计构象"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "核对碳骨架、双键位置、取代基及反应条件后才可复用；原正确SVG不覆盖",
+      "english": "Use deterministic structural formulas. Every neutral carbon has valence four. Preserve carbon skeleton and double-bond position unless the stated reaction changes them. Distinguish molecular formula from connectivity, cis/trans geometry from single-bond conformations, and reaction stoichiometry from reaction conditions. Do not draw a mechanism without checking electron arrows."
+    }
+  },
+  "28.3": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 28,
+    "section_id": "28.3",
+    "goals": [
+      "以包含双键的母链正确编号命名",
+      "由名称反向构造并检验唯一连结"
+    ],
+    "prerequisites": [
+      "碳链编号",
+      "烷基命名",
+      "双键位置"
+    ],
+    "flow": [
+      "母链选择",
+      "双键编号",
+      "支链定位",
+      "立体信息",
+      "反画验算"
+    ],
+    "concept_relation": "母链选择；双键编号；支链定位；立体信息；反画验算",
+    "deep": [
+      "若存在几何异构，名称还需按题目所用规范标顺反或E/Z，单写丁-2-烯可能只给连结而未指定其几何形式。不能从没有立体前缀的名字凭空画出唯一空间排列，也不能给不满足几何异构条件的末端烯强加顺式。",
+      "反向作图先画母链及指定双键，再在指定位置加支链，最后按碳四价补氢。这样可检查名称是否给出不合法的五价碳，或自己把支链加到相邻位置。所有碳数要包括支链，不能把母链碳数当总分子碳数直接代分子式。",
+      "综合题中常把命名接异构或加成。先保留结构作为中间证据，再讨论产物；只凭一个俗名或“有五个碳”无法可靠判区域选择。若出现同样长度母链和复杂多官能团，应查完整命名规则，不把本节简单单烯烃口诀无条件扩展到全部有机物。"
+    ],
+    "derive": [
+      "简单单烯烃：包含C=C的适当最长链→双键较低位次→支链位次→必要立体描述。",
+      "双键位次为相连两碳编号中较小者；母链碳数不等总碳数。",
+      "反画先主链与双键，再支链，最后补氢检四价。"
+    ],
+    "examples": [
+      {
+        "q": "CH₂=CHCH(CH₃)CH₂CH₃命名。 条件：只需连结名称。",
+        "given": "只需连结名称。",
+        "analysis": "主链含双键有5碳。",
+        "method": "编号后列支链。",
+        "principle": "双键优先低位次。",
+        "steps": [
+          "从CH₂端编号双键1。",
+          "甲基在3位。"
+        ],
+        "ans": "3-甲基戊-1-烯。",
+        "verification": "总6碳12氢，主链5不等总6。",
+        "pitfall": "命成3-甲基戊-4-烯。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.3",
+        "related_sections": []
+      },
+      {
+        "q": "由2-甲基丁-2-烯写缩合式并判顺反。 条件：名称依简单单烯烃规范。",
+        "given": "名称依简单单烯烃规范。",
+        "analysis": "四碳母链2位双键，2位甲基。",
+        "method": "反向构造。",
+        "principle": "四价与两端条件。",
+        "steps": [
+          "写CH₃C(CH₃)=CHCH₃。",
+          "2位碳连两个相同甲基，不能该双键顺反。"
+        ],
+        "ans": "CH₃C(CH₃)=CHCH₃，无该双键顺反。",
+        "verification": "总C₅H₁₀且2位碳无H。",
+        "pitfall": "给2位碳再加H。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.3",
+        "related_sections": []
+      },
+      {
+        "q": "CH₃CH(CH₃)CH=CH₂由哪端编号并命名？ 条件：不指定立体。",
+        "given": "不指定立体。",
+        "analysis": "双键低号优先于支链低号。",
+        "method": "从CH₂端。",
+        "principle": "单烯烃编号。",
+        "steps": [
+          "四碳母链双键1。",
+          "甲基在3，得3-甲基丁-1-烯。"
+        ],
+        "ans": "3-甲基丁-1-烯。",
+        "verification": "反向会双键3、甲基2，不优。",
+        "pitfall": "为甲基2牺牲双键1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "CH₃CH=CHCH₂CH₂CH₃双键位次与名称？ 条件：直链六碳。",
+        "given": "直链六碳。",
+        "analysis": "就近双键。",
+        "method": "编号。",
+        "principle": "母链。",
+        "steps": [
+          "由左双键2，由右4。",
+          "取2。"
+        ],
+        "ans": "己-2-烯。",
+        "verification": "未给顺反不能唯一立体形式。",
+        "pitfall": "从右读己-4-烯。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.3",
+        "related_sections": []
+      },
+      {
+        "q": "3-甲基戊-1-烯有几个总碳？ 条件：只计原子。",
+        "given": "只计原子。",
+        "analysis": "母链5再加支链1。",
+        "method": "相加。",
+        "principle": "结构。",
+        "steps": [
+          "5+1=6。",
+          "开链单双键总式C₆H₁₂。"
+        ],
+        "ans": "6。",
+        "verification": "不是戊字就只有5。",
+        "pitfall": "忽略支链。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.3",
+        "related_sections": []
+      },
+      {
+        "q": "“顺-丙-1-烯”作为该分子几何指定合理吗？ 条件：普通CH₂=CHCH₃。",
+        "given": "普通CH₂=CHCH₃。",
+        "analysis": "末端两H同。",
+        "method": "审前缀。",
+        "principle": "异构必要条件。",
+        "steps": [
+          "CH₂端不能区分同侧两不同组。",
+          "无该双键顺反，前缀不适用。"
+        ],
+        "ans": "不合理。",
+        "verification": "连结名称丙烯本身可用。",
+        "pitfall": "见烯一律加顺反。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.3",
+        "related_sections": []
+      },
+      {
+        "q": "画丁-1-烯，第一碳应补几H？ 条件：第一与第二碳双键，第一无其他碳邻居。",
+        "given": "第一与第二碳双键，第一无其他碳邻居。",
+        "analysis": "总键级4。",
+        "method": "补氢。",
+        "principle": "四价。",
+        "steps": [
+          "双键占2。",
+          "余2键给2H。"
+        ],
+        "ans": "2H，CH₂=。",
+        "verification": "整个式CH₂=CHCH₂CH₃。",
+        "pitfall": "端碳一律CH₃。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "若两条候选链一条较长却不含双键，能单凭长就作本节烯烃母链吗？ 条件：简单单烯烃命名。",
+      "given": "简单单烯烃命名。",
+      "analysis": "母链须体现主不饱和键。",
+      "method": "先筛包含双键。",
+      "principle": "命名信息。",
+      "steps": [
+        "排除未含C=C的不合适候选。",
+        "再在含C=C的适当链中选长并编号。"
+      ],
+      "ans": "不能只凭总长。",
+      "verification": "名称必须恢复双键结构。",
+      "pitfall": "最长路径不管双键。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 28,
+      "primary_section": "28.3",
+      "related_sections": []
+    },
+    "exam": [
+      "用结构作命名证据，顺序为母链→双键号→支链号→立体条件",
+      "反向作图逐碳检价及总碳数，命名不只背词尾",
+      "复杂规则超出本节时标明，不将简单单烯口诀泛化"
+    ],
+    "quick": [
+      "母链选择",
+      "双键编号",
+      "支链定位",
+      "立体信息",
+      "反画验算"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 13,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_28.3",
+        "url": "https://openstax.org/books/organic-chemistry/pages/7-3-naming-alkenes",
+        "page_or_section": "7-3-naming-alkenes",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 13,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_28.3",
+        "url": "https://openstax.org/books/organic-chemistry/pages/7-3-naming-alkenes",
+        "page_or_section": "7-3-naming-alkenes",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "用结构作命名证据，顺序为母链→双键号→支链号→立体条件",
+      "method": "从CH₂端。",
+      "principle": "单烯烃编号。",
+      "worked_example_index": 2,
+      "verification": "反向会双键3、甲基2，不优。",
+      "pitfall": "为甲基2牺牲双键1。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“以包含双键的母链正确编号命名”的抽样复核：总6碳12氢，主链5不等总6。；若出现“命成3-甲基戊-4-烯。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“由名称反向构造并检验唯一连结”的抽样复核：反向会双键3、甲基2，不优。；若出现“为甲基2牺牲双键1。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "最长路径不管双键。",
+        "correction": "不能只凭总长。",
+        "verification": "名称必须恢复双键结构。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "烯烃命名与反画流程",
+      "objects": [
+        "3-甲基戊-1-烯结构",
+        "两端编号对比",
+        "主链高亮",
+        "支链与补氢框"
+      ],
+      "relations": [
+        "主链含双键",
+        "双键取1非4",
+        "甲基3位",
+        "全式C₆H₁₂"
+      ],
+      "labels": [
+        "母链5碳",
+        "总6碳",
+        "双键1",
+        "甲基3"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "核对碳骨架、双键位置、取代基及反应条件后才可复用；原正确SVG不覆盖",
+      "english": "Use deterministic structural formulas. Every neutral carbon has valence four. Preserve carbon skeleton and double-bond position unless the stated reaction changes them. Distinguish molecular formula from connectivity, cis/trans geometry from single-bond conformations, and reaction stoichiometry from reaction conditions. Do not draw a mechanism without checking electron arrows."
+    }
+  },
+  "28.4": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 28,
+    "section_id": "28.4",
+    "goals": [
+      "由分子间作用解释状态与溶解性趋势",
+      "区分定性趋势、实测性质与鉴别证据"
+    ],
+    "prerequisites": [
+      "分子间力",
+      "极性",
+      "相对分子质量"
+    ],
+    "flow": [
+      "分子间作用",
+      "状态趋势",
+      "分层机制",
+      "气体密度",
+      "证据范围"
+    ],
+    "concept_relation": "分子间作用；状态趋势；分层机制；气体密度；证据范围",
+    "deep": [
+      "支化与几何异构可改变分子形状、接触和偶极矩，因此同分子式物质的沸点和熔点未必相同。熔点尤其受晶体堆积影响，不能把“支化多沸点常较低”的某些同系比较口诀机械移为所有熔点排序。数据不够时应给机制与不确定边界而非编精确数值。",
+      "气体密度题可在相同温压、近似理想条件下用ρ=PM/(RT)，相对密度比等于摩尔质量比。此式不能直接把常温液态烯烃密度也按M排序，亦不能在不同P、T下取消条件。质量和体积单位需配合R，特别注意g/L与kg/m³数值转换。",
+      "物理观察通常只能缩小候选，不单独证明双键位置。易燃、气态、难溶等不是烯烃独占性质；结构鉴别要结合反应及其他独立证据。所有示例数据明确为给定模型，不编造某烯烃的标准实测沸点或把化学褪色现象称作纯物理性质。"
+    ],
+    "derive": [
+      "同系成员链长增加时沸点通常上升；具体状态需温压与数据。",
+      "难溶性与密度是不同性质，分层方向由密度决定。",
+      "近似理想气体ρ=PM/(RT)，同温同压密度比=M₁/M₂。"
+    ],
+    "examples": [
+      {
+        "q": "同温同压乙烯与丙烯气体密度比？ 条件：均近似理想气体，C12、H1。",
+        "given": "均近似理想气体，C12、H1。",
+        "analysis": "先求M。",
+        "method": "ρ比=M比。",
+        "principle": "理想气体。",
+        "steps": [
+          "M乙28、M丙42g/mol。",
+          "比28:42=2:3。"
+        ],
+        "ans": "2:3。",
+        "verification": "同体积粒子数相同，质量比即摩尔质量比。",
+        "pitfall": "按碳数但忽略条件。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.4",
+        "related_sections": []
+      },
+      {
+        "q": "某液态烯烃密度.75g/mL，50mL质量？ 条件：给定温度下均匀液体，忽略挥发损失。",
+        "given": "给定温度下均匀液体，忽略挥发损失。",
+        "analysis": "直接质量体积关系。",
+        "method": "m=ρV。",
+        "principle": "密度定义。",
+        "steps": [
+          "m=.75×50=37.5g。",
+          "若与水分层且水密度约1，烯烃层在上。"
+        ],
+        "ans": "37.5g；所述分层条件下在上。",
+        "verification": "37.5/50=.75，浮层说明密度不是溶解度。",
+        "pitfall": "密度低就说一定完全不溶。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.4",
+        "related_sections": []
+      },
+      {
+        "q": "A、B同式，给定沸点分别30°C、40°C，能仅凭式相同说数据必错吗？ 条件：可能不同连接或几何异构。",
+        "given": "可能不同连接或几何异构。",
+        "analysis": "相同M不等相同作用与堆积。",
+        "method": "结构性质联系。",
+        "principle": "分子形状和相互作用。",
+        "steps": [
+          "异构体形状和极性可不同。",
+          "因此沸点可不同，需核具体结构与测量条件。"
+        ],
+        "ans": "不能仅凭分子式否定。",
+        "verification": "若是同一种纯物质还要比较压力。",
+        "pitfall": "同式全部物理性质相同。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "给定气体M56g/mol，300K、100kPa，理想密度g/L？ 条件：R8.31kPa·L/(mol·K)。",
+        "given": "R8.31kPa·L/(mol·K)。",
+        "analysis": "单位匹配。",
+        "method": "PM/RT。",
+        "principle": "气体状态。",
+        "steps": [
+          "ρ=100×56/(8.31×300)。",
+          "≈2.25g/L。"
+        ],
+        "ans": "约2.25g/L。",
+        "verification": "1mol体积24.93L，56/24.93同值。",
+        "pitfall": "摄氏温度代K。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.4",
+        "related_sections": []
+      },
+      {
+        "q": "碳氢烯烃难溶于水能解释为分子不含任何电子吗？ 条件：分子有共价电子。",
+        "given": "分子有共价电子。",
+        "analysis": "溶解是相互作用竞争。",
+        "method": "辨机制。",
+        "principle": "极性与分子间力。",
+        "steps": [
+          "分子当然含电子。",
+          "缺少与水相当强的溶剂化相互作用等才是相关因素。"
+        ],
+        "ans": "不能。",
+        "verification": "难溶也不等绝对零溶解。",
+        "pitfall": "没电荷就没电子。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.4",
+        "related_sections": []
+      },
+      {
+        "q": "两理想气体同P，T分别300与600K且M相同，密度比ρ600/ρ300？ 条件：不发生反应。",
+        "given": "不发生反应。",
+        "analysis": "ρ反比T。",
+        "method": "比例。",
+        "principle": "状态方程。",
+        "steps": [
+          "比=300/600。",
+          "=1/2。"
+        ],
+        "ans": "1/2。",
+        "verification": "不同T时不能只用M比得1。",
+        "pitfall": "同M必同密度。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.4",
+        "related_sections": []
+      },
+      {
+        "q": "观察液层浮水，能唯一证明它含C=C吗？ 条件：只知分层与相对密度。",
+        "given": "只知分层与相对密度。",
+        "analysis": "许多低密度有机液有同现象。",
+        "method": "证据边界。",
+        "principle": "性质非唯一。",
+        "steps": [
+          "浮层支持相应密度及互溶条件。",
+          "不直接定位官能团，需要其他证据。"
+        ],
+        "ans": "不能。",
+        "verification": "物理性质不能独占烯烃。",
+        "pitfall": "浮水就是双键检验。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "同系烯烃沸点趋势能直接给所有异构体熔点精确顺序吗？ 条件：未给晶体或实测资料。",
+      "given": "未给晶体或实测资料。",
+      "analysis": "熔化还涉及堆积。",
+      "method": "分清性质与证据。",
+      "principle": "相变与结构。",
+      "steps": [
+        "链长趋势不覆盖全部异构形状效应。",
+        "熔点须考虑晶体堆积和数据。"
+      ],
+      "ans": "不能。",
+      "verification": "可提出趋势假设而非伪造实测数。",
+      "pitfall": "把一种趋势无条件搬到另一性质。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 28,
+      "primary_section": "28.4",
+      "related_sections": []
+    },
+    "exam": [
+      "先辨气体/液体及温压，ρ式只在相应模型用",
+      "分层分别解释互溶与密度，不能一词包办",
+      "性质排序有数据用数据，无数据给作用机制与边界"
+    ],
+    "quick": [
+      "分子间作用",
+      "状态趋势",
+      "分层机制",
+      "气体密度",
+      "证据范围"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 13,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_28.4",
+        "url": "https://openstax.org/books/organic-chemistry/pages/3-5-properties-of-alkanes",
+        "page_or_section": "3-5-properties-of-alkanes",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 13,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_28.4",
+        "url": "https://openstax.org/books/organic-chemistry/pages/3-5-properties-of-alkanes",
+        "page_or_section": "3-5-properties-of-alkanes",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先辨气体/液体及温压，ρ式只在相应模型用",
+      "method": "结构性质联系。",
+      "principle": "分子形状和相互作用。",
+      "worked_example_index": 2,
+      "verification": "若是同一种纯物质还要比较压力。",
+      "pitfall": "同式全部物理性质相同。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由分子间作用解释状态与溶解性趋势”的抽样复核：同体积粒子数相同，质量比即摩尔质量比。；若出现“按碳数但忽略条件。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分定性趋势、实测性质与鉴别证据”的抽样复核：若是同一种纯物质还要比较压力。；若出现“同式全部物理性质相同。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把一种趋势无条件搬到另一性质。",
+        "correction": "不能。",
+        "verification": "可提出趋势假设而非伪造实测数。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "烯烃物理性质的条件关系",
+      "objects": [
+        "链长与沸点趋势箭头",
+        "油水分层",
+        "气体密度条件框",
+        "异构形状"
+      ],
+      "relations": [
+        "趋势不标伪造实测点",
+        "上层由较小密度说明",
+        "理想ρ依P M T",
+        "熔点另含堆积"
+      ],
+      "labels": [
+        "给定温压",
+        "难溶≠零溶解",
+        "ρ=PM/RT",
+        "非唯一鉴别"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "核对碳骨架、双键位置、取代基及反应条件后才可复用；原正确SVG不覆盖",
+      "english": "Use deterministic structural formulas. Every neutral carbon has valence four. Preserve carbon skeleton and double-bond position unless the stated reaction changes them. Distinguish molecular formula from connectivity, cis/trans geometry from single-bond conformations, and reaction stoichiometry from reaction conditions. Do not draw a mechanism without checking electron arrows."
+    }
+  },
+  "28.5.1": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 28,
+    "section_id": "28.5.1",
+    "goals": [
+      "配平烯烃完全燃烧并计算气量",
+      "用氧供给和物态审查燃烧产物结论"
+    ],
+    "prerequisites": [
+      "物质的量",
+      "气体体积",
+      "配平"
+    ],
+    "flow": [
+      "完全配平",
+      "摩尔比例",
+      "气体条件",
+      "不完全燃烧",
+      "元素反推"
+    ],
+    "concept_relation": "完全配平；摩尔比例；气体条件；不完全燃烧；元素反推",
+    "deep": [
+      "供氧不足可能生成CO和碳烟等，产物分布还受混合、温度和反应条件影响，不能见黄焰就量化唯一CO比例。烯烃某些条件下比相应饱和烃更易出现明亮烟焰是定性观察，不可代替反应配平或把所有烯烃都画成只出碳黑。",
+      "混合燃烧要先分别列燃料物质的量，再加总氧耗及CO₂和水的产量。若氧不够，原本完全燃烧式不再能保证全部燃料按该产物结束；只知氧缺乏还不足以唯一求CO、CO₂及剩余燃料全部分配，需题目额外约束。",
+      "燃烧分析可由CO₂与H₂O反推碳氢比，再结合摩尔质量求分子式，但比例本身不能定位双键。实验涉及易燃气体及有毒CO，笔记以纸上模型与正规实验安全原则解释，不提供无监管制气点火流程。考试答题同时核原子守恒、氧是否足量和气体测量条件。"
+    ],
+    "derive": [
+      "CₙH₂ₙ+(3n/2)O₂→nCO₂+nH₂O，完全燃烧且物态另注明。",
+      "同温同压理想气体体积比等于相应气态计量比。",
+      "冷却、干燥改变所测气体组成；氧不足时不能强套唯一完全燃烧产物。"
+    ],
+    "examples": [
+      {
+        "q": "0.20mol乙烯完全燃烧需O₂并生CO₂多少？ 条件：氧足量，C₂H₄+3O₂→2CO₂+2H₂O。",
+        "given": "氧足量，C₂H₄+3O₂→2CO₂+2H₂O。",
+        "analysis": "按1:3:2。",
+        "method": "摩尔比例。",
+        "principle": "原子守恒。",
+        "steps": [
+          "nO₂=.20×3=.60mol。",
+          "nCO₂=.20×2=.40mol。"
+        ],
+        "ans": "O₂ .60mol、CO₂ .40mol。",
+        "verification": "C原子 .20×2=.40mol全部入CO₂。",
+        "pitfall": "把氧原子数当O₂量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.5.1",
+        "related_sections": []
+      },
+      {
+        "q": "10mL丙烯和60mL氧完全反应，冷却除水后气体体积？ 条件：各体积折合同温同压理想气体，燃料全燃，水完全除去。",
+        "given": "各体积折合同温同压理想气体，燃料全燃，水完全除去。",
+        "analysis": "丙烯氧比1:4.5，CO₂比1:3。",
+        "method": "余氧加CO₂。",
+        "principle": "配平。",
+        "steps": [
+          "耗O₂45mL，余15mL。",
+          "CO₂30mL，合45mL。"
+        ],
+        "ans": "45mL干气。",
+        "verification": "若把水气也计会多30mL，违题。",
+        "pitfall": "只求CO₂漏余氧。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.5.1",
+        "related_sections": []
+      },
+      {
+        "q": "烃.10mol燃烧得.30molCO₂和.30molH₂O，求式并判断可否定位双键。 条件：纯烃完全燃烧。",
+        "given": "纯烃完全燃烧。",
+        "analysis": "每分子C3，H6。",
+        "method": "元素计量。",
+        "principle": "碳氢守恒。",
+        "steps": [
+          "C=.30/.10=3，H=2×.30/.10=6。",
+          "式C₃H₆，仍可能丙烯或环丙烷。"
+        ],
+        "ans": "C₃H₆，不能单凭燃烧确定双键。",
+        "verification": "式与产物原子数一致。",
+        "pitfall": "燃烧分析直接确证烯烃。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.5.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "1mol C₄H₈完全燃烧氧耗？ 条件：产物CO₂和H₂O。",
+        "given": "产物CO₂和H₂O。",
+        "analysis": "3n/2。",
+        "method": "代n4。",
+        "principle": "配平。",
+        "steps": [
+          "3×4/2=6。",
+          "生成4CO₂、4H₂O。"
+        ],
+        "ans": "6molO₂。",
+        "verification": "产物共12mol氧原子。",
+        "pitfall": "4+4=8molO₂。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.5.1",
+        "related_sections": []
+      },
+      {
+        "q": "乙烯0.10mol与丙烯0.10mol完全燃烧CO₂？ 条件：氧足量。",
+        "given": "氧足量。",
+        "analysis": "分别乘碳数。",
+        "method": "加总。",
+        "principle": "碳守恒。",
+        "steps": [
+          ".10×2=.20。",
+          ".10×3=.30，合.50mol。"
+        ],
+        "ans": ".50mol。",
+        "verification": "总燃料碳mol等产物CO₂mol。",
+        "pitfall": "混合物统一当一个平均式却漏权重。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.5.1",
+        "related_sections": []
+      },
+      {
+        "q": "乙烯14g完全燃烧水质量？ 条件：M乙28，水18g/mol。",
+        "given": "M乙28，水18g/mol。",
+        "analysis": "先燃料mol再水mol。",
+        "method": "1:2。",
+        "principle": "计量。",
+        "steps": [
+          "乙烯14/28=.5mol。",
+          "水1mol，18g。"
+        ],
+        "ans": "18g。",
+        "verification": "氢质量乙烯2g与水中2g相同。",
+        "pitfall": "质量比也1:2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.5.1",
+        "related_sections": []
+      },
+      {
+        "q": "只知氧不足，能唯一写全产物只有CO吗？ 条件：未给具体燃烧条件或分布。",
+        "given": "未给具体燃烧条件或分布。",
+        "analysis": "可能CO₂、CO、碳及残余混合。",
+        "method": "判信息量。",
+        "principle": "反应条件。",
+        "steps": [
+          "氧不足不规定碳全部到同氧化态。",
+          "缺分配约束不能唯一确定。"
+        ],
+        "ans": "不能。",
+        "verification": "仅原子守恒可能有多组解。",
+        "pitfall": "不完全燃烧必100%CO。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.5.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "同一燃烧式产物水液态与气态，ΔH必相同吗？ 条件：同温及其他条件可比。",
+      "given": "同温及其他条件可比。",
+      "analysis": "水相变含能量。",
+      "method": "比较反应终态。",
+      "principle": "焓为状态函数。",
+      "steps": [
+        "液水与水蒸气焓不同。",
+        "故反应热不同，需注明物态。"
+      ],
+      "ans": "不必相同。",
+      "verification": "气量计算也随是否冷凝改变。",
+      "pitfall": "化学式一样就忽略物态。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 28,
+      "primary_section": "28.5.1",
+      "related_sections": []
+    },
+    "exam": [
+      "先配碳氢后氧，再算限量与余量",
+      "读冷却、干燥、吸收词确定气体清单，体积比附同温压条件",
+      "燃烧分析给组成不定位骨架；不完全燃烧需额外分配证据"
+    ],
+    "quick": [
+      "完全配平",
+      "摩尔比例",
+      "气体条件",
+      "不完全燃烧",
+      "元素反推"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 13,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_28.5.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons",
+        "page_or_section": "20-1-hydrocarbons",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 13,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_28.5.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons",
+        "page_or_section": "20-1-hydrocarbons",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先配碳氢后氧，再算限量与余量",
+      "method": "元素计量。",
+      "principle": "碳氢守恒。",
+      "worked_example_index": 2,
+      "verification": "式与产物原子数一致。",
+      "pitfall": "燃烧分析直接确证烯烃。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“配平烯烃完全燃烧并计算气量”的抽样复核：C原子 .20×2=.40mol全部入CO₂。；若出现“把氧原子数当O₂量。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用氧供给和物态审查燃烧产物结论”的抽样复核：式与产物原子数一致。；若出现“燃烧分析直接确证烯烃。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "化学式一样就忽略物态。",
+        "correction": "不必相同。",
+        "verification": "气量计算也随是否冷凝改变。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "烯烃燃烧的物料账",
+      "objects": [
+        "丙烯与氧输入",
+        "CO₂水输出",
+        "冷却除水框",
+        "余氧",
+        "碳氢氧计数表"
+      ],
+      "relations": [
+        "10mL丙烯耗45mL氧",
+        "剩15mL氧与30mLCO₂",
+        "水冷凝不算干气",
+        "各气同温压"
+      ],
+      "labels": [
+        "完全燃烧",
+        "干气45mL",
+        "O₂余量",
+        "水物态"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "核对碳骨架、双键位置、取代基及反应条件后才可复用；原正确SVG不覆盖",
+      "english": "Use deterministic structural formulas. Every neutral carbon has valence four. Preserve carbon skeleton and double-bond position unless the stated reaction changes them. Distinguish molecular formula from connectivity, cis/trans geometry from single-bond conformations, and reaction stoichiometry from reaction conditions. Do not draw a mechanism without checking electron arrows."
+    }
+  },
+  "28.5.2": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 28,
+    "section_id": "28.5.2",
+    "goals": [
+      "由双键及试剂判断加成产物",
+      "区分反应条件、区域选择与化学计量"
+    ],
+    "prerequisites": [
+      "σπ键",
+      "结构式",
+      "原子守恒"
+    ],
+    "flow": [
+      "反应对象",
+      "试剂条件",
+      "结构产物",
+      "区域选择",
+      "计量证据"
+    ],
+    "concept_relation": "反应对象；试剂条件；结构产物；区域选择；计量证据",
+    "deep": [
+      "不对称烯烃与HX的加成可能有区域选择。通常的离子型HBr加成丙烯，主要得到2-溴丙烷，可用较稳定中间体等解释主产物；“主要”不等所有条件唯一。过氧化物引发的某些HBr自由基条件可改变区域选择，不能将其无条件推广到全部HX。",
+      "酸催化水合给相应醇，碳骨架和区域选择应逐项画出。乙烯对称，水合得乙醇；丙烯常见酸催化条件主要得丙-2-醇。水合为可逆并受条件影响，试剂“水”与实际需要催化、温压条件必须分别写，不以一杯冷水冒充高转化制备。",
+      "解题先锁定结构、试剂、介质和催化条件，再讨论主产物和计量。条件不足时明确列可能路径，不靠一个“加成”标签乱选。机制箭头若画，必须从电子来源指向接受位置，不能从正电荷出发画成电子流，图示不确定则用已核配平结构和文字解释。"
+    ],
+    "derive": [
+      "每个孤立C=C完全加氢通常消耗1molH₂/mol双键。",
+      "CH₂=CH₂+Br₂→CH₂BrCH₂Br（相应简化非水条件）。",
+      "区域选择依底物及机制条件；溴水褪色非双键唯一确证。"
+    ],
+    "examples": [
+      {
+        "q": "5.6g乙烯完全催化加氢需氢多少mol？ 条件：M乙28，只有一个双键且反应完全。",
+        "given": "M乙28，只有一个双键且反应完全。",
+        "analysis": "先mol再1:1。",
+        "method": "双键计量。",
+        "principle": "加成守恒。",
+        "steps": [
+          "n乙=5.6/28=.20mol。",
+          "nH₂=.20mol，产乙烷.20mol。"
+        ],
+        "ans": ".20molH₂。",
+        "verification": "加入氢质量.40g，产物质量6.0g。",
+        "pitfall": "因双键两条线就耗2H₂。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.5.2",
+        "related_sections": []
+      },
+      {
+        "q": "丙烯与HBr通常离子型加成主产物？ 条件：无过氧化物自由基引发，按通常区域选择模型。",
+        "given": "无过氧化物自由基引发，按通常区域选择模型。",
+        "analysis": "比较卤素接入位置。",
+        "method": "画两碳加H与Br。",
+        "principle": "区域选择。",
+        "steps": [
+          "CH₂端主要加H。",
+          "中间碳接Br，得CH₃CHBrCH₃。"
+        ],
+        "ans": "主要2-溴丙烷。",
+        "verification": "原3碳未断，式C₃H₇Br。",
+        "pitfall": "不写条件或称一切情况唯一。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.5.2",
+        "related_sections": []
+      },
+      {
+        "q": "某样品使溴水褪色，能唯一证明为纯乙烯吗？ 条件：样品成分未知。",
+        "given": "样品成分未知。",
+        "analysis": "现象并非物质专属。",
+        "method": "比较其他反应来源。",
+        "principle": "证据特异性。",
+        "steps": [
+          "其他烯烃或能与溴反应的还原性物质也可褪色。",
+          "需结合分子式、产物及独立证据。"
+        ],
+        "ans": "不能唯一确定。",
+        "verification": "现象支持某类反应，不等纯度或唯一结构。",
+        "pitfall": "一个颜色现象当身份证。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.5.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "CH₃CH=CHCH₃加1molBr₂的简化非水产物结构？ 条件：足量Br₂，忽略立体细分和其他反应。",
+        "given": "足量Br₂，忽略立体细分和其他反应。",
+        "analysis": "原双键两碳各接Br。",
+        "method": "加成。",
+        "principle": "碳骨架守恒。",
+        "steps": [
+          "双键改单键。",
+          "写CH₃CHBrCHBrCH₃。"
+        ],
+        "ans": "2,3-二溴丁烷连结式。",
+        "verification": "原C4H8加Br2，H不被替换。",
+        "pitfall": "删两H当取代。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.5.2",
+        "related_sections": []
+      },
+      {
+        "q": "0.30mol单烯烃全加氢生成烷烃，氢质量？ 条件：每分子一个C=C，H=1。",
+        "given": "每分子一个C=C，H=1。",
+        "analysis": "1:1mol。",
+        "method": "质量换算。",
+        "principle": "计量。",
+        "steps": [
+          "nH₂=.30。",
+          "m=.30×2=.60g。"
+        ],
+        "ans": ".60g。",
+        "verification": "不是.30g。",
+        "pitfall": "用H原子摩尔质量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.5.2",
+        "related_sections": []
+      },
+      {
+        "q": "乙烯水合产物式及官能团？ 条件：适当酸催化水合模型。",
+        "given": "适当酸催化水合模型。",
+        "analysis": "加H和OH。",
+        "method": "画结构。",
+        "principle": "原子守恒。",
+        "steps": [
+          "CH₂=CH₂+H₂O→CH₃CH₂OH。",
+          "官能团为羟基。"
+        ],
+        "ans": "乙醇，—OH。",
+        "verification": "C2H6O与反应物总数一致。",
+        "pitfall": "得到乙二醇多一个氧。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.5.2",
+        "related_sections": []
+      },
+      {
+        "q": "二烯有两个可完全加氢的双键，每mol全加氢需H₂？ 条件：不含其他可还原基团，反应完全。",
+        "given": "不含其他可还原基团，反应完全。",
+        "analysis": "按双键数。",
+        "method": "2×1。",
+        "principle": "加成计量。",
+        "steps": [
+          "每双键1mol。",
+          "两双键共2mol。"
+        ],
+        "ans": "2mol。",
+        "verification": "不能因统称烯烃永远取1。",
+        "pitfall": "套单烯烃条件到二烯。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.5.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "加成时把C=C两碳完全分离再分别加溴，保留原式总原子数就算正确吗？ 条件：指普通卤素加成。",
+      "given": "指普通卤素加成。",
+      "analysis": "连结也受反应规律约束。",
+      "method": "检查骨架。",
+      "principle": "加成结构。",
+      "steps": [
+        "一般π键转为新σ连接并各加基团，原C—Cσ键保留。",
+        "完全断碳骨架不是所述普通加成。"
+      ],
+      "ans": "不正确。",
+      "verification": "原子守恒必要但不保证机制及连结正确。",
+      "pitfall": "配平对就结构一定对。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 28,
+      "primary_section": "28.5.2",
+      "related_sections": []
+    },
+    "exam": [
+      "先结构与条件，再主产物，最后摩尔账",
+      "非水溴加成与溴水潜在竞争路径分清，褪色非唯一证据",
+      "区域选择注明机制，画产物逐碳检四价，不滥画未核电子箭头"
+    ],
+    "quick": [
+      "反应对象",
+      "试剂条件",
+      "结构产物",
+      "区域选择",
+      "计量证据"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 13,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_28.5.2",
+        "url": "https://openstax.org/books/organic-chemistry/pages/7-8-orientation-of-electrophilic-additions-markovnikovs-rule",
+        "page_or_section": "7-8-orientation-of-electrophilic-additions-markovnikovs-rule",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 13,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_28.5.2",
+        "url": "https://openstax.org/books/organic-chemistry/pages/7-8-orientation-of-electrophilic-additions-markovnikovs-rule",
+        "page_or_section": "7-8-orientation-of-electrophilic-additions-markovnikovs-rule",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先结构与条件，再主产物，最后摩尔账",
+      "method": "比较其他反应来源。",
+      "principle": "证据特异性。",
+      "worked_example_index": 2,
+      "verification": "现象支持某类反应，不等纯度或唯一结构。",
+      "pitfall": "一个颜色现象当身份证。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由双键及试剂判断加成产物”的抽样复核：加入氢质量.40g，产物质量6.0g。；若出现“因双键两条线就耗2H₂。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分反应条件、区域选择与化学计量”的抽样复核：现象支持某类反应，不等纯度或唯一结构。；若出现“一个颜色现象当身份证。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "配平对就结构一定对。",
+        "correction": "不正确。",
+        "verification": "原子守恒必要但不保证机制及连结正确。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "烯烃加成的结构与条件",
+      "objects": [
+        "乙烯加氢",
+        "乙烯非水溴加成",
+        "丙烯离子HBr加成",
+        "条件提示框"
+      ],
+      "relations": [
+        "原碳骨架保留",
+        "双键改单键",
+        "各碳四价",
+        "HBr主产物注明无自由基引发"
+      ],
+      "labels": [
+        "催化剂",
+        "非水简化",
+        "主要产物",
+        "介质与机制"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "核对碳骨架、双键位置、取代基及反应条件后才可复用；原正确SVG不覆盖",
+      "english": "Use deterministic structural formulas. Every neutral carbon has valence four. Preserve carbon skeleton and double-bond position unless the stated reaction changes them. Distinguish molecular formula from connectivity, cis/trans geometry from single-bond conformations, and reaction stoichiometry from reaction conditions. Do not draw a mechanism without checking electron arrows."
+    }
+  },
+  "28.5.3": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 28,
+    "section_id": "28.5.3",
+    "goals": [
+      "按氧化剂及条件判断双键温和氧化或断裂",
+      "由原双键碳上的氢推断指定断裂产物"
+    ],
+    "prerequisites": [
+      "氧化还原",
+      "醇酮羧酸官能团"
+    ],
+    "flow": [
+      "氧化层次",
+      "温和保链",
+      "强氧化断裂",
+      "条件差异",
+      "逆推与守恒"
+    ],
+    "concept_relation": "氧化层次；温和保链；强氧化断裂；条件差异；逆推与守恒",
+    "deep": [
+      "臭氧化后处理也是双键断裂方法，但还原性和氧化性后处理给的终产物不同。还原性后处理可保留醛而不自动变酸，不能把高锰酸根强氧化规则无条件移到所有臭氧化。若题目未说明后处理，应标可能差异而非任取一个终点。",
+      "颜色检验只能作为证据链一部分。高锰酸根褪色还可能由醛等其他还原性物质造成，褪色或棕色锰产物也受酸碱介质影响。不能把“观察到褪色”写成已经唯一确定哪条双键和分子纯度，需结合产物碳数、官能团或其他分析。",
+      "逆推题从断裂产物重建双键时，先找对应羰基碳及其邻接碳基，再将两端恢复C=C并去掉相应氧表示，最后补氢核分子式。强氧化可把原醛继续氧化，导致信息损失，因此所得结构可能非唯一；所有唯一结论须说明题目限制和证据。"
+    ],
+    "derive": [
+      "温和羟基化：C=C两碳各接OH，碳骨架可保留。",
+      "指定强氧化断裂：双键碳有H→相应羧酸；无H且连两碳基→酮；末端CH₂可到CO₂。",
+      "臭氧化终产物依后处理；[O]是简化当量记号，不是实际试剂身份。"
+    ],
+    "examples": [
+      {
+        "q": "乙烯温和氧化为邻二醇，写结构并验原子。 条件：按给定保留碳骨架的羟基化模型。",
+        "given": "按给定保留碳骨架的羟基化模型。",
+        "analysis": "两个碳各加OH。",
+        "method": "结构映射。",
+        "principle": "双键氧化。",
+        "steps": [
+          "CH₂=CH₂→HOCH₂CH₂OH。",
+          "产物C₂H₆O₂，两碳仍相连。"
+        ],
+        "ans": "乙二醇。",
+        "verification": "碳数保持2；与水和氧化剂的完整配平另列。",
+        "pitfall": "把C—C完全断开或只加一个OH。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.5.3",
+        "related_sections": []
+      },
+      {
+        "q": "丁-2-烯按指定强氧化断裂，碳有H端终到羧酸，主要含碳片段？ 条件：只求本模型有机片段，条件足以完全断裂。",
+        "given": "只求本模型有机片段，条件足以完全断裂。",
+        "analysis": "两端均CH(CH₃)。",
+        "method": "逐端映射。",
+        "principle": "氧化断键。",
+        "steps": [
+          "每端生成CH₃COOH。",
+          "一分子对应两个乙酸分子。"
+        ],
+        "ans": "2分子乙酸/分子丁-2-烯。",
+        "verification": "总碳2×2=4。",
+        "pitfall": "只写一份漏一半碳。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.5.3",
+        "related_sections": []
+      },
+      {
+        "q": "2-甲基丁-2-烯强氧化断裂所得碳片段？ 条件：无H双键碳到酮，有H端到酸的给定模型。",
+        "given": "无H双键碳到酮，有H端到酸的给定模型。",
+        "analysis": "先列双键两端取代基。",
+        "method": "独立处理。",
+        "principle": "氧化结构。",
+        "steps": [
+          "(CH₃)₂C端无H→丙酮CH₃COCH₃。",
+          "CH(CH₃)端有H→乙酸CH₃COOH。"
+        ],
+        "ans": "丙酮与乙酸。",
+        "verification": "碳3+2=5，原分子C5。",
+        "pitfall": "两端都当酸或用名称猜。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.5.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "丙烯温和羟基化产物？ 条件：保留碳骨架。",
+        "given": "保留碳骨架。",
+        "analysis": "双键两碳加OH。",
+        "method": "画结构。",
+        "principle": "羟基化。",
+        "steps": [
+          "CH₃CH=CH₂。",
+          "变CH₃CH(OH)CH₂OH。"
+        ],
+        "ans": "丙烷-1,2-二醇。",
+        "verification": "不是1,3-二醇。",
+        "pitfall": "OH位置画到非双键端。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.5.3",
+        "related_sections": []
+      },
+      {
+        "q": "丁-1-烯强氧化末端CH₂到CO₂，另一端到酸，产物碳数？ 条件：采用给定强氧化模型。",
+        "given": "采用给定强氧化模型。",
+        "analysis": "端CH₂一碳，另一片三碳。",
+        "method": "断键。",
+        "principle": "碳守恒。",
+        "steps": [
+          "末端给CO₂。",
+          "另一端给丙酸CH₃CH₂COOH。"
+        ],
+        "ans": "CO₂与丙酸；1+3=4碳。",
+        "verification": "不是乙酸少一碳。",
+        "pitfall": "把双键碳从片段中删掉。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.5.3",
+        "related_sections": []
+      },
+      {
+        "q": "还原性后处理臭氧化可否一律把所有醛写成酸？ 条件：题设后处理不继续强氧化醛。",
+        "given": "题设后处理不继续强氧化醛。",
+        "analysis": "条件不同终点不同。",
+        "method": "按给定路径。",
+        "principle": "选择性氧化。",
+        "steps": [
+          "还原后处理可保留醛。",
+          "不能套强氧化全部到酸。"
+        ],
+        "ans": "不可。",
+        "verification": "需题给氧化性后处理才另审。",
+        "pitfall": "所有断双键只有同一终点。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.5.3",
+        "related_sections": []
+      },
+      {
+        "q": "高锰酸根褪色是否烯烃唯一检验？ 条件：未知有机混合物。",
+        "given": "未知有机混合物。",
+        "analysis": "其他还原性结构也可反应。",
+        "method": "审特异性。",
+        "principle": "氧化还原。",
+        "steps": [
+          "醛等也可能被氧化并令其褪色。",
+          "应结合其他证据。"
+        ],
+        "ans": "不是唯一。",
+        "verification": "颜色本身不提供双键位置。",
+        "pitfall": "褪色就定位双键。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.5.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "断裂后两片总碳数少于原烯烃，可直接忽略未出现的碳吗？ 条件：题设要求完整碳产物账。",
+      "given": "题设要求完整碳产物账。",
+      "analysis": "可能漏CO₂或其他片段。",
+      "method": "逐碳追踪。",
+      "principle": "元素守恒。",
+      "steps": [
+        "标记原双键两碳及所有取代基。",
+        "检查是否漏小分子或结构写错，再报告。"
+      ],
+      "ans": "不能直接忽略。",
+      "verification": "完整守恒是必要验算但仍需条件吻合。",
+      "pitfall": "只看最大有机产物。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 28,
+      "primary_section": "28.5.3",
+      "related_sections": []
+    },
+    "exam": [
+      "先读温和/强氧化与后处理，再决定保链或断链",
+      "每个双键碳单独数H和碳基，产物合计全部碳",
+      "褪色不独占，[O]简写不冒充完整试剂与离子配平"
+    ],
+    "quick": [
+      "氧化层次",
+      "温和保链",
+      "强氧化断裂",
+      "条件差异",
+      "逆推与守恒"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 13,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_28.5.3",
+        "url": "https://openstax.org/books/organic-chemistry/pages/8-8-oxidation-of-alkenes-cleavage-to-carbonyl-compounds",
+        "page_or_section": "8-8-oxidation-of-alkenes-cleavage-to-carbonyl-compounds",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 13,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_28.5.3",
+        "url": "https://openstax.org/books/organic-chemistry/pages/8-8-oxidation-of-alkenes-cleavage-to-carbonyl-compounds",
+        "page_or_section": "8-8-oxidation-of-alkenes-cleavage-to-carbonyl-compounds",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先读温和/强氧化与后处理，再决定保链或断链",
+      "method": "独立处理。",
+      "principle": "氧化结构。",
+      "worked_example_index": 2,
+      "verification": "碳3+2=5，原分子C5。",
+      "pitfall": "两端都当酸或用名称猜。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“按氧化剂及条件判断双键温和氧化或断裂”的抽样复核：碳数保持2；与水和氧化剂的完整配平另列。；若出现“把C—C完全断开或只加一个OH。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“由原双键碳上的氢推断指定断裂产物”的抽样复核：碳3+2=5，原分子C5。；若出现“两端都当酸或用名称猜。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "只看最大有机产物。",
+        "correction": "不能直接忽略。",
+        "verification": "完整守恒是必要验算但仍需条件吻合。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "双键氧化的条件分支",
+      "objects": [
+        "烯烃双键",
+        "温和二醇路径",
+        "强氧化断裂两片",
+        "臭氧后处理提示"
+      ],
+      "relations": [
+        "每双键碳逐端追踪",
+        "有H无H端产物区分",
+        "末端CO₂不漏碳",
+        "所有路径注明条件"
+      ],
+      "labels": [
+        "冷稀适当介质",
+        "强氧化",
+        "还原性后处理",
+        "碳收支"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "核对碳骨架、双键位置、取代基及反应条件后才可复用；原正确SVG不覆盖",
+      "english": "Use deterministic structural formulas. Every neutral carbon has valence four. Preserve carbon skeleton and double-bond position unless the stated reaction changes them. Distinguish molecular formula from connectivity, cis/trans geometry from single-bond conformations, and reaction stoichiometry from reaction conditions. Do not draw a mechanism without checking electron arrows."
+    }
+  },
+  "28.5.4": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 28,
+    "section_id": "28.5.4",
+    "goals": [
+      "从单体写正确重复单元并反推",
+      "区分重复单元、聚合度、物料收率与结构性能"
+    ],
+    "prerequisites": [
+      "烯烃加成",
+      "相对分子质量",
+      "碳四价"
+    ],
+    "flow": [
+      "单体映射",
+      "链连接",
+      "聚合度",
+      "物料比例",
+      "结构性能"
+    ],
+    "concept_relation": "单体映射；链连接；聚合度；物料比例；结构性能",
+    "deep": [
+      "简单加聚的理想物料关系通常没有每加入一单体便放出一个水分子，不能把缩聚规则照搬。给定转化率时，聚合物质量可按实际进入链的单体质量估算；未反应单体、助剂及端基另核。聚合度高不等转化率必高，也不等已分离纯产品收率100%。",
+      "链的侧基排列、支化、交联及结晶程度都会影响性质，即使重复单元式相同也可能有不同密度和机械行为。不能只凭“分子量大”就推断所有塑料耐高温且可生物降解。热塑与交联材料的受热行为应联系链间连接，而不把所有聚合物都画成松散同长度线。",
+      "考试题先明确单体、重复单元及n的位置，再核原子和主链价态。涉及回收或环境时区分可熔融再加工、化学回收和生物降解，并指出实际条件；不可把一个回收标记当作任何地方都能回收或已完全无环境影响的证明。"
+    ],
+    "derive": [
+      "nCH₂=CH₂→[—CH₂—CH₂—]ₙ；原双键转为链内单键。",
+      "丙烯重复单元[—CH₂—CH(CH₃)—]，侧基不丢。",
+      "忽略端基且指定平均量：平均聚合度≈M聚合物/M重复单元。"
+    ],
+    "examples": [
+      {
+        "q": "乙烯形成的重复单元及理想n1000时链相对分子质量？ 条件：忽略端基，重复单元C₂H₄质量28。",
+        "given": "忽略端基，重复单元C₂H₄质量28。",
+        "analysis": "先结构再倍数。",
+        "method": "加聚与聚合度。",
+        "principle": "原子守恒。",
+        "steps": [
+          "单元[—CH₂—CH₂—]。",
+          "M_r≈1000×28=28000。"
+        ],
+        "ans": "单元如上，约28000。",
+        "verification": "不可仍保留主链C=C；n在括号外。",
+        "pitfall": "n当原子下标或留双键。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.5.4",
+        "related_sections": []
+      },
+      {
+        "q": "反推[—CH₂—CH(CH₃)—]ₙ的单体。 条件：简单对应双键加聚模型。",
+        "given": "简单对应双键加聚模型。",
+        "analysis": "相邻主链两碳恢复双键。",
+        "method": "保留侧基。",
+        "principle": "连接映射。",
+        "steps": [
+          "主链两碳变CH₂=CH。",
+          "CH上原侧基CH₃保留，得CH₂=CHCH₃。"
+        ],
+        "ans": "丙烯。",
+        "verification": "C₃H₆与重复单元一致。",
+        "pitfall": "将侧甲基并进重复主链后猜环烷烃。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.5.4",
+        "related_sections": []
+      },
+      {
+        "q": "10.0kg乙烯有85%质量进入已分离聚合物，按理想不脱小分子模型质量多少？ 条件：给定85%为入产品比例，忽略端基和添加剂。",
+        "given": "给定85%为入产品比例，忽略端基和添加剂。",
+        "analysis": "质量按进入量算。",
+        "method": "m×比例。",
+        "principle": "加聚物料。",
+        "steps": [
+          "10.0×.85=8.50kg。",
+          "余1.50kg未进入所计产品。"
+        ],
+        "ans": "8.50kg。",
+        "verification": "不再因聚合度大把质量乘n。",
+        "pitfall": "n越大总质量越多。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.5.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "平均M42000g/mol的聚丙烯平均聚合度？ 条件：单元C₃H₆为42g/mol，忽略端基。",
+        "given": "单元C₃H₆为42g/mol，忽略端基。",
+        "analysis": "除单元质量。",
+        "method": "比值。",
+        "principle": "链质量。",
+        "steps": [
+          "42000/42=1000。",
+          "为指定平均量近似。"
+        ],
+        "ans": "约1000。",
+        "verification": "不保证所有链恰1000。",
+        "pitfall": "平均值当每条精确长度。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.5.4",
+        "related_sections": []
+      },
+      {
+        "q": "简单乙烯加聚每加入一乙烯必放出一水吗？ 条件：非缩聚，常规加成聚合模型。",
+        "given": "非缩聚，常规加成聚合模型。",
+        "analysis": "单体全部原子可入链。",
+        "method": "比较聚合类型。",
+        "principle": "加成。",
+        "steps": [
+          "C₂H₄单元保持C₂H₄。",
+          "没有每单元固定失H₂O规则。"
+        ],
+        "ans": "不必且该模型不放出该计量水。",
+        "verification": "终止端基另讨论不等每单元脱水。",
+        "pitfall": "所有聚合都是缩聚。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.5.4",
+        "related_sections": []
+      },
+      {
+        "q": "重复单元相同是否足以证明两塑料所有物理性质相同？ 条件：链长、支化等未给。",
+        "given": "链长、支化等未给。",
+        "analysis": "宏观结构仍不同。",
+        "method": "列结构变量。",
+        "principle": "结构性能。",
+        "steps": [
+          "分布、支化、交联和结晶可不同。",
+          "性质因而未必相同。"
+        ],
+        "ans": "不足。",
+        "verification": "化学单元相同不等超分子结构相同。",
+        "pitfall": "只看分子式。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.5.4",
+        "related_sections": []
+      },
+      {
+        "q": "聚乙烯单元画成[—CH₂=CH₂—]合法吗？ 条件：两端还连接前后单元。",
+        "given": "两端还连接前后单元。",
+        "analysis": "中碳价数过大。",
+        "method": "逐碳检价。",
+        "principle": "碳四价。",
+        "steps": [
+          "若CH₂又双键又端连单键，则每碳键级5。",
+          "应主链单键[—CH₂—CH₂—]。"
+        ],
+        "ans": "不合法，应去双键。",
+        "verification": "氢数保留但π键参与形成链键。",
+        "pitfall": "双键和外接链键全保留。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.5.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "平均聚合度增大就能断定单体转化率提高吗？ 条件：两量独立测量，未给关系。",
+      "given": "两量独立测量，未给关系。",
+      "analysis": "链长与进入链比例不同。",
+      "method": "区分统计对象。",
+      "principle": "物料与分子量。",
+      "steps": [
+        "少量单体可形成少数长链，也可大量转化成多条短链。",
+        "需分别测转化和链长分布。"
+      ],
+      "ans": "不能。",
+      "verification": "举反例能区分两个指标。",
+      "pitfall": "把所有百分率和n混为一项。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 28,
+      "primary_section": "28.5.4",
+      "related_sections": []
+    },
+    "exam": [
+      "重复单元先圈双键两碳、留侧基、向外接链并检四价",
+      "M除单元量只得给定平均近似，n不乘总投料质量",
+      "加聚与缩聚、聚合度与转化率、回收与降解分别说明"
+    ],
+    "quick": [
+      "单体映射",
+      "链连接",
+      "聚合度",
+      "物料比例",
+      "结构性能"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 13,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_28.5.4",
+        "url": "https://openstax.org/books/organic-chemistry/pages/31-summary",
+        "page_or_section": "31-summary",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 13,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_28.5.4",
+        "url": "https://openstax.org/books/organic-chemistry/pages/31-summary",
+        "page_or_section": "31-summary",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "重复单元先圈双键两碳、留侧基、向外接链并检四价",
+      "method": "m×比例。",
+      "principle": "加聚物料。",
+      "worked_example_index": 2,
+      "verification": "不再因聚合度大把质量乘n。",
+      "pitfall": "n越大总质量越多。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“从单体写正确重复单元并反推”的抽样复核：不可仍保留主链C=C；n在括号外。；若出现“n当原子下标或留双键。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分重复单元、聚合度、物料收率与结构性能”的抽样复核：不再因聚合度大把质量乘n。；若出现“n越大总质量越多。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把所有百分率和n混为一项。",
+        "correction": "不能。",
+        "verification": "举反例能区分两个指标。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "从丙烯到重复单元",
+      "objects": [
+        "丙烯标出两双键碳",
+        "三单元链段",
+        "括号外n",
+        "侧甲基",
+        "平均链长分布"
+      ],
+      "relations": [
+        "C=C转C—C",
+        "每单元C₃H₆",
+        "侧甲基保留",
+        "端键伸出括号",
+        "不固定脱水"
+      ],
+      "labels": [
+        "单体",
+        "重复单元",
+        "n",
+        "M平均≈nM单元"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "核对碳骨架、双键位置、取代基及反应条件后才可复用；原正确SVG不覆盖",
+      "english": "Use deterministic structural formulas. Every neutral carbon has valence four. Preserve carbon skeleton and double-bond position unless the stated reaction changes them. Distinguish molecular formula from connectivity, cis/trans geometry from single-bond conformations, and reaction stoichiometry from reaction conditions. Do not draw a mechanism without checking electron arrows."
+    }
+  },
+  "28.6": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 28,
+    "section_id": "28.6",
+    "goals": [
+      "比较裂解、脱水与消去制烯路径",
+      "按产率及纯度计算并解释实验控制"
+    ],
+    "prerequisites": [
+      "烷烃醇卤代烃",
+      "消去与加成",
+      "气体收集原理"
+    ],
+    "flow": [
+      "工业来源",
+      "消去路径",
+      "条件竞争",
+      "产率纯度",
+      "测量控制"
+    ],
+    "concept_relation": "工业来源；消去路径；条件竞争；产率纯度；测量控制",
+    "deep": [
+      "卤代烷消去HX也可制烯烃，常见教学比较酒精性碱与水溶液碱的反应倾向。实际取代和消去比例还依底物、碱、溶剂、温度等，不能把溶剂一词当绝对开关。若相邻碳没有可被消去的相应氢，画出双键前必须重新核结构。",
+      "理论产量由限量反应物及计量决定，实际量还受转化、选择性、分离和纯度影响。计算气体体积应给温压，不固定用22.4L/mol套所有条件；实验水蒸气、杂质或溶解损失也使读数不自动等纯烯烃物质的量。",
+      "装置分析以规范实验的风险控制和测量原理为主：防倒吸、检查气密、排除可能干扰及说明收集方法适用性，不把易燃制气变成居家操作指南。来源与制取题的得分推理是结构变化、条件、物料与验证四层，缺任何层都可能得出貌似配平却不可实行的路线。"
+    ],
+    "derive": [
+      "示例裂解C₁₀H₂₂→C₈H₁₈+C₂H₄，只表示一条守恒配分而非唯一产物。",
+      "乙醇适当催化脱水：C₂H₅OH→C₂H₄+H₂O。",
+      "理论产量先算限量与比例；实际气量需纯度、收率及明确温压。"
+    ],
+    "examples": [
+      {
+        "q": "9.2g纯乙醇按1:1脱水理论乙烯量及80%收率质量？ 条件：M醇46、乙烯28，给定选择性和收率综合为80%。",
+        "given": "M醇46、乙烯28，给定选择性和收率综合为80%。",
+        "analysis": "先理论再比例。",
+        "method": "计量。",
+        "principle": "脱水守恒。",
+        "steps": [
+          "n乙醇9.2/46=.20mol，理论乙烯5.6g。",
+          "实际5.6×.80=4.48g。"
+        ],
+        "ans": "理论.20mol、5.6g；实际4.48g。",
+        "verification": "未把收率重复乘两次。",
+        "pitfall": "质量按1:1直接9.2g。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.6",
+        "related_sections": []
+      },
+      {
+        "q": "乙烯.16mol在300K、100kPa的理想体积？ 条件：R8.31kPa·L/(mol·K)，气体干燥纯净。",
+        "given": "R8.31kPa·L/(mol·K)，气体干燥纯净。",
+        "analysis": "非标准状况。",
+        "method": "V=nRT/P。",
+        "principle": "气体状态。",
+        "steps": [
+          "V=.16×8.31×300/100。",
+          "=3.9888L。"
+        ],
+        "ans": "约3.99L。",
+        "verification": "每mol24.93L，不是固定22.4。",
+        "pitfall": "见气体必用22.4。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.6",
+        "related_sections": []
+      },
+      {
+        "q": "给定C₁₀H₂₂裂成一C₂H₄与另一烃，求另一式并说明唯一性。 条件：只求指定一对产物的守恒式。",
+        "given": "只求指定一对产物的守恒式。",
+        "analysis": "相减C和H。",
+        "method": "原子账。",
+        "principle": "裂解。",
+        "steps": [
+          "另一烃C₈H₁₈。",
+          "这仅是题给配分，不证明真实裂解只走该路线。"
+        ],
+        "ans": "C₈H₁₈；不是普适唯一产物。",
+        "verification": "C8+2=10，H18+4=22。",
+        "pitfall": "配平一式就当产物谱全定。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.6",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "含乙醇质量分数50%的18.4g样品，理论乙烯mol？ 条件：其余组分不反应，目标脱水1:1完全模型。",
+        "given": "其余组分不反应，目标脱水1:1完全模型。",
+        "analysis": "先取纯醇质量。",
+        "method": "质量分数。",
+        "principle": "计量。",
+        "steps": [
+          "m醇9.2g。",
+          "n9.2/46=.20mol。"
+        ],
+        "ans": ".20mol。",
+        "verification": "杂质质量不进醇mol。",
+        "pitfall": "总样品除46。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.6",
+        "related_sections": []
+      },
+      {
+        "q": "丙-2-醇消去一水生成的烯连结式？ 条件：只考虑相邻消去，不讨论副反应。",
+        "given": "只考虑相邻消去，不讨论副反应。",
+        "analysis": "三碳骨架保留。",
+        "method": "失H₂O成双键。",
+        "principle": "结构映射。",
+        "steps": [
+          "CH₃CH(OH)CH₃→CH₂=CHCH₃+H₂O。",
+          "碳氢氧逐项守恒。"
+        ],
+        "ans": "丙烯。",
+        "verification": "C3H8O变C3H6+H2O。",
+        "pitfall": "脱OH却不脱相邻H。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.6",
+        "related_sections": []
+      },
+      {
+        "q": "分馏本身能把每个烷烃分子改成烯烃吗？ 条件：只指物理分馏，无裂解。",
+        "given": "只指物理分馏，无裂解。",
+        "analysis": "按挥发性分离。",
+        "method": "辨物理化学。",
+        "principle": "分离机制。",
+        "steps": [
+          "分馏主要分离已有组分。",
+          "不以断键制新官能团为定义。"
+        ],
+        "ans": "不能据此说改成烯烃。",
+        "verification": "制烯需相应化学转化。",
+        "pitfall": "分馏等于裂解。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.6",
+        "related_sections": []
+      },
+      {
+        "q": "气体总.20mol、乙烯摩尔分数.80，实际乙烯量？ 条件：给定干混合气组成。",
+        "given": "给定干混合气组成。",
+        "analysis": "纯度按摩尔分数。",
+        "method": "相乘。",
+        "principle": "组成定义。",
+        "steps": [
+          ".20×.80=.16mol。",
+          "其他气体.04mol。"
+        ],
+        "ans": ".16mol。",
+        "verification": "总量守恒但不全是目标物。",
+        "pitfall": "把总体积全当乙烯。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 28,
+        "primary_section": "28.6",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "酒精性碱条件是否足以保证任意卤代烷只发生消去？ 条件：未给底物、温度及竞争路径。",
+      "given": "未给底物、温度及竞争路径。",
+      "analysis": "反应选择依多因素。",
+      "method": "先审结构及条件。",
+      "principle": "消去与取代竞争。",
+      "steps": [
+        "底物与相邻氢可用性需检查。",
+        "取代/消去比例还受碱、溶剂、温度等影响。"
+      ],
+      "ans": "不足以保证。",
+      "verification": "课堂趋势需注明适用而非绝对开关。",
+      "pitfall": "一个溶剂词决定一切。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 28,
+      "primary_section": "28.6",
+      "related_sections": []
+    },
+    "exam": [
+      "制备题同时写结构变化、必要条件、物料和验证",
+      "先纯度再限量，再理论与实际，气体RT/P不漏温压",
+      "分馏与裂解分开，装置解释风险控制不提供无监管制气操作"
+    ],
+    "quick": [
+      "工业来源",
+      "消去路径",
+      "条件竞争",
+      "产率纯度",
+      "测量控制"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 13,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_28.6",
+        "url": "https://openstax.org/books/organic-chemistry/pages/8-1-preparing-alkenes-a-preview-of-elimination-reactions",
+        "page_or_section": "8-1-preparing-alkenes-a-preview-of-elimination-reactions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 13,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_28.6",
+        "url": "https://openstax.org/books/organic-chemistry/pages/8-1-preparing-alkenes-a-preview-of-elimination-reactions",
+        "page_or_section": "8-1-preparing-alkenes-a-preview-of-elimination-reactions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "制备题同时写结构变化、必要条件、物料和验证",
+      "method": "原子账。",
+      "principle": "裂解。",
+      "worked_example_index": 2,
+      "verification": "C8+2=10，H18+4=22。",
+      "pitfall": "配平一式就当产物谱全定。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“比较裂解、脱水与消去制烯路径”的抽样复核：未把收率重复乘两次。；若出现“质量按1:1直接9.2g。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“按产率及纯度计算并解释实验控制”的抽样复核：C8+2=10，H18+4=22。；若出现“配平一式就当产物谱全定。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "一个溶剂词决定一切。",
+        "correction": "不足以保证。",
+        "verification": "课堂趋势需注明适用而非绝对开关。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "烯烃来源与制备物料图",
+      "objects": [
+        "裂解混合产物框",
+        "醇脱水",
+        "卤代烷消去",
+        "理论实际产量",
+        "气体条件"
+      ],
+      "relations": [
+        "分馏不改连接",
+        "脱水保碳骨架",
+        "纯度收率各按定义",
+        "气量注明300K100kPa"
+      ],
+      "labels": [
+        "裂解",
+        "消去",
+        "理论",
+        "实际",
+        "nRT/P"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "核对碳骨架、双键位置、取代基及反应条件后才可复用；原正确SVG不覆盖",
+      "english": "Use deterministic structural formulas. Every neutral carbon has valence four. Preserve carbon skeleton and double-bond position unless the stated reaction changes them. Distinguish molecular formula from connectivity, cis/trans geometry from single-bond conformations, and reaction stoichiometry from reaction conditions. Do not draw a mechanism without checking electron arrows."
+    }
+  }
+}

@@ -1,0 +1,1214 @@
+{
+  "11.1": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 11,
+    "section_id": "11.1",
+    "goals": [
+      "从单位圆推导同角关系并应用符号条件",
+      "在共同定义域证明恒等式并审查约分扩域"
+    ],
+    "prerequisites": [
+      "任意角",
+      "勾股",
+      "分式运算"
+    ],
+    "flow": [
+      "单位圆关系",
+      "倒数商域",
+      "平方选号",
+      "恒等证明",
+      "化简保域"
+    ],
+    "concept_relation": "单位圆关系；倒数商域；平方选号；恒等证明；化简保域",
+    "deep": [
+      "恒等式断言共同域每个角都相等，证明可从一边有效化简到另一边，或两边分别化成同一表达式。不能先假设所要证明的等式成立，再只做可疑非等价操作得到真式便宣布证明；若采用双向等价，必须每步确实可逆且不丢条件。",
+      "化简会产生可去的代数表达差异，简式在原来排除点可能有值，但原函数仍未定义。例(1−cos²x)/sinx可化sinx，只在sinx≠0的原域；图上原式可能有洞，不能用简式将洞无说明填上后称完全同一函数。",
+      "考试先列域，再选统一sin cos、平方关系或因式分解，尽量减少不必要通分。一个数值核验可以抓错而不能全证；完整证明还需写合法变形及最终条件。例题后的错误分析会指出哪一步越域或错号，帮助从计算正确推进到逻辑正确。"
+    ],
+    "derive": [
+      "sin²x+cos²x=1；cosx≠0时1+tan²x=sec²x。",
+      "sinx≠0时1+cot²x=cosec²x；倒数/商式按共同域。",
+      "√(sin²x)=|sinx|；代数化简不补原函数排除点。"
+    ],
+    "examples": [
+      {
+        "q": "sinx=4/5且x第二象限，求cosx与tanx。 条件：x不在坐标轴。",
+        "given": "x不在坐标轴。",
+        "analysis": "cos负。",
+        "method": "平方关系。",
+        "principle": "单位圆。",
+        "steps": [
+          "cos²=1−16/25=9/25，取−3/5。",
+          "tan=(4/5)/(−3/5)=−4/3。"
+        ],
+        "ans": "−3/5、−4/3。",
+        "verification": "二象限sin正cos负，平方和1。",
+        "pitfall": "开方固定正号。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 11,
+        "primary_section": "11.1",
+        "related_sections": []
+      },
+      {
+        "q": "证明(secx−1)(secx+1)=tan²x并注明域。 条件：x为实角。",
+        "given": "x为实角。",
+        "analysis": "平方差接平方关系。",
+        "method": "从左化简。",
+        "principle": "1+tan²=sec²。",
+        "steps": [
+          "需cosx≠0。",
+          "左边sec²x−1=tan²x，均在该域定义。"
+        ],
+        "ans": "恒等成立于cosx≠0。",
+        "verification": "不代π/2等极点。",
+        "pitfall": "证明不写分母条件。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 11,
+        "primary_section": "11.1",
+        "related_sections": []
+      },
+      {
+        "q": "化简(1−cos²x)/sinx，并判断能否将x0补进原域。 条件：实角，先按原式域。",
+        "given": "实角，先按原式域。",
+        "analysis": "分子sin²。",
+        "method": "因式约分。",
+        "principle": "商定义。",
+        "steps": [
+          "原域sinx≠0。",
+          "在此域商=sinx，x0原式0/0仍未定义。"
+        ],
+        "ans": "简式sinx，保留x≠kπ。",
+        "verification": "可延拓为另一个函数，但不是原式自动有值。",
+        "pitfall": "约分后全实域。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 11,
+        "primary_section": "11.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "若tanx=2，sec²x？ 条件：cosx≠0。",
+        "given": "cosx≠0。",
+        "analysis": "平方关系。",
+        "method": "1+tan²。",
+        "principle": "恒等式。",
+        "steps": [
+          "1+4=5。",
+          "只能定sec²，sec本身还需符号。"
+        ],
+        "ans": "5。",
+        "verification": "不据此一定sec√5。",
+        "pitfall": "平方量与有号量混淆。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 11,
+        "primary_section": "11.1",
+        "related_sections": []
+      },
+      {
+        "q": "x第三象限时√(sin²x)应写什么？ 条件：sinx负。",
+        "given": "sinx负。",
+        "analysis": "绝对值。",
+        "method": "根号主值。",
+        "principle": "非负平方根。",
+        "steps": [
+          "√sin²=|sinx|。",
+          "第三象限等−sinx。"
+        ],
+        "ans": "−sinx。",
+        "verification": "结果非负。",
+        "pitfall": "根号平方直接消。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 11,
+        "primary_section": "11.1",
+        "related_sections": []
+      },
+      {
+        "q": "tanx·cotx=1在x0可直接用吗？ 条件：原函数各自定义。",
+        "given": "原函数各自定义。",
+        "analysis": "cot分母sin0。",
+        "method": "核共同域。",
+        "principle": "倒数关系。",
+        "steps": [
+          "tan0=0而cot0未定义。",
+          "原乘积未定义。"
+        ],
+        "ans": "不能。",
+        "verification": "关系需sinx cosx均非0。",
+        "pitfall": "0乘无定义当1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 11,
+        "primary_section": "11.1",
+        "related_sections": []
+      },
+      {
+        "q": "检验一个角两边相等足以证明恒等式吗？ 条件：目标对全共同域。",
+        "given": "目标对全共同域。",
+        "analysis": "样本非全证。",
+        "method": "一般变形。",
+        "principle": "逻辑。",
+        "steps": [
+          "一角相等只说明该点。",
+          "还需基于关系式的一般推导。"
+        ],
+        "ans": "不足。",
+        "verification": "一角不等可反驳，真样本不能全证。",
+        "pitfall": "验算当证明。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 11,
+        "primary_section": "11.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "sin²A+cos²B可在未知A B关系时直接化1吗？ 条件：两个角未必相同。",
+      "given": "两个角未必相同。",
+      "analysis": "同角条件不能漏。",
+      "method": "取反例。",
+      "principle": "恒等式适用。",
+      "steps": [
+        "A0、Bπ/2时两项都0。",
+        "和0不为1。"
+      ],
+      "ans": "不可。",
+      "verification": "原关系要求同一个角或额外等效条件。",
+      "pitfall": "见sin²加cos²就1。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 11,
+      "primary_section": "11.1",
+      "related_sections": []
+    },
+    "exam": [
+      "先共同域，再选平方关系或统一sin cos",
+      "求符号用象限，根号主值保绝对",
+      "恒等证明用合法一般变形，约分保洞，数值只验算"
+    ],
+    "quick": [
+      "单位圆关系",
+      "倒数商域",
+      "平方选号",
+      "恒等证明",
+      "化简保域"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 100,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_11.1",
+        "url": "https://openstax.org/books/precalculus-2e/pages/7-1-solving-trigonometric-equations-with-identities",
+        "page_or_section": "7-1-solving-trigonometric-equations-with-identities",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 100,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_11.1",
+        "url": "https://openstax.org/books/precalculus-2e/pages/7-1-solving-trigonometric-equations-with-identities",
+        "page_or_section": "7-1-solving-trigonometric-equations-with-identities",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先共同域，再选平方关系或统一sin cos",
+      "method": "因式约分。",
+      "principle": "商定义。",
+      "worked_example_index": 2,
+      "verification": "可延拓为另一个函数，但不是原式自动有值。",
+      "pitfall": "约分后全实域。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“从单位圆推导同角关系并应用符号条件”的抽样复核：二象限sin正cos负，平方和1。；若出现“开方固定正号。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“在共同定义域证明恒等式并审查约分扩域”的抽样复核：可延拓为另一个函数，但不是原式自动有值。；若出现“约分后全实域。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "见sin²加cos²就1。",
+        "correction": "不可。",
+        "verification": "原关系要求同一个角或额外等效条件。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "同角关系与原域洞点",
+      "objects": [
+        "单位圆三角",
+        "平方关系推导",
+        "sec平方差",
+        "sin商化简数轴洞"
+      ],
+      "relations": [
+        "同角才平方和1",
+        "除cos需非0",
+        "√sin²取绝对",
+        "xkπ原商未定义"
+      ],
+      "labels": [
+        "共同域",
+        "sin²+cos²",
+        "绝对值",
+        "排除点"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "旧三角图必须核角单位、原域和周期分支；不得把有限区间图冒称一般解",
+      "english": "Use exact trigonometric identities and deterministic graphs. State the common domain before cancellation, distinguish identities from equations, and retain zero-factor branches. General solutions require all periodic families; interval solutions must be filtered against the original equation and endpoint conventions. Square roots of squares require absolute values unless sign conditions are given."
+    }
+  },
+  "11.2": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 11,
+    "section_id": "11.2",
+    "goals": [
+      "推导和差式并求精确值",
+      "把线性正余弦组合化成单一振幅相位形式"
+    ],
+    "prerequisites": [
+      "同角恒等式",
+      "特殊角",
+      "向量投影"
+    ],
+    "flow": [
+      "旋转推导",
+      "和差精确值",
+      "正切条件",
+      "辅助角系数",
+      "受限最值"
+    ],
+    "concept_relation": "旋转推导；和差精确值；正切条件；辅助角系数；受限最值",
+    "deep": [
+      "若给sinA、cosB及各自象限，应先用平方关系和符号补出cosA、sinB，再代和差。A+B落哪个象限也可从结果正负核，不应默认两个锐角相加仍锐。分子分母精确分数可保留到最后，减少近似误差。",
+      "线性组合a sinx+b cosx可写R sin(x+φ)，其中R=√(a²+b²)>0，Rcosφ=a、Rsinφ=b。φ象限由a,b共同决定，不只用arctan(b/a)主值；a0或负值都需审。这样可读值域[−R,R]和相位条件，R0则退化常值。",
+      "化合后求最值仍要检查x允许区间是否包含取等相位，不能任何受限区间都报R。证明或计算末可展开恢复系数作为独立验算。完整方案保留定义域及相位分支，不以“辅助角已算”省略其对应的正负条件。"
+    ],
+    "derive": [
+      "sin(A±B)=sinAcosB±cosAsinB；cos(A±B)=cosAcosB∓sinAsinB。",
+      "tan(A±B)=(tanA±tanB)/(1∓tanAtanB)，须各tan及商定义。",
+      "a sinx+b cosx=R sin(x+φ)，Rcosφ=a、Rsinφ=b，R=√(a²+b²)。"
+    ],
+    "examples": [
+      {
+        "q": "用和差公式求sin15°精确值。 条件：15°=45°−30°。",
+        "given": "15°=45°−30°。",
+        "analysis": "特殊角差。",
+        "method": "正弦差。",
+        "principle": "旋转关系。",
+        "steps": [
+          "sin15=sin45cos30−cos45sin30。",
+          "=√6/4−√2/4。"
+        ],
+        "ans": "(√6−√2)/4。",
+        "verification": "约.2588为第一象限正。",
+        "pitfall": "sin45−sin30。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 11,
+        "primary_section": "11.2",
+        "related_sections": []
+      },
+      {
+        "q": "A B均锐角，sinA3/5、cosB12/13，求sin(A+B)、cos(A+B)。 条件：两角都在0到π/2。",
+        "given": "两角都在0到π/2。",
+        "analysis": "补cosA4/5、sinB5/13。",
+        "method": "和角。",
+        "principle": "同角与和差。",
+        "steps": [
+          "sin和=(3×12+4×5)/65=56/65。",
+          "cos和=(4×12−3×5)/65=33/65。"
+        ],
+        "ans": "56/65、33/65。",
+        "verification": "56²+33²=65²，二者正说明和仍在第一象限。",
+        "pitfall": "cos和用加号。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 11,
+        "primary_section": "11.2",
+        "related_sections": []
+      },
+      {
+        "q": "将3sinx+4cosx化辅助角式并求全实数最大值。 条件：x为rad，全实域。",
+        "given": "x为rad，全实域。",
+        "analysis": "R5，φ第一象限。",
+        "method": "比较系数。",
+        "principle": "和角展开。",
+        "steps": [
+          "取cosφ3/5、sinφ4/5，φ=arctan(4/3)。",
+          "原式5sin(x+φ)，最大5，在x=π/2−φ+2kπ取到。"
+        ],
+        "ans": "5sin(x+φ)，最大5，取等相位如上。",
+        "verification": "展开得3sin+4cos，不能φarctan3/4。",
+        "pitfall": "振幅用3+4=7。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 11,
+        "primary_section": "11.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "cos105°精确值？ 条件：105=60+45度。",
+        "given": "105=60+45度。",
+        "analysis": "余弦和。",
+        "method": "展开。",
+        "principle": "公式。",
+        "steps": [
+          "cos60cos45−sin60sin45。",
+          "=(√2−√6)/4。"
+        ],
+        "ans": "(√2−√6)/4。",
+        "verification": "105第二象限cos负。",
+        "pitfall": "负号漏掉变正。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 11,
+        "primary_section": "11.2",
+        "related_sections": []
+      },
+      {
+        "q": "tan75°精确值？ 条件：75=45+30，正切公式分母非0。",
+        "given": "75=45+30，正切公式分母非0。",
+        "analysis": "和角商。",
+        "method": "代。",
+        "principle": "公式。",
+        "steps": [
+          "(1+1/√3)/(1−1/√3)。",
+          "有理化得2+√3。"
+        ],
+        "ans": "2+√3。",
+        "verification": "75近90，值大于1。",
+        "pitfall": "分母写加号。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 11,
+        "primary_section": "11.2",
+        "related_sections": []
+      },
+      {
+        "q": "sin(A+B)=sinA+sinB普适吗？ 条件：实角。",
+        "given": "实角。",
+        "analysis": "反例。",
+        "method": "A B均π/2。",
+        "principle": "函数非线性。",
+        "steps": [
+          "左sinπ0。",
+          "右1+1=2。"
+        ],
+        "ans": "不普适。",
+        "verification": "正确式含cos乘积。",
+        "pitfall": "函数对加法一律分配。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 11,
+        "primary_section": "11.2",
+        "related_sections": []
+      },
+      {
+        "q": "a=b=0时辅助角振幅R及是否唯一φ？ 条件：原式常0。",
+        "given": "原式常0。",
+        "analysis": "退化。",
+        "method": "系数。",
+        "principle": "表示。",
+        "steps": [
+          "R0。",
+          "任何φ都给0sin(x+φ)=0，φ不唯一。"
+        ],
+        "ans": "R0，φ不唯一。",
+        "verification": "不能除R求比值。",
+        "pitfall": "统一除零取arctan。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 11,
+        "primary_section": "11.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "在x限制很小的区间时，a sinx+b cosx的最大值总能直接报R吗？ 条件：相位取等点未确认在区间。",
+      "given": "相位取等点未确认在区间。",
+      "analysis": "上界未必可达。",
+      "method": "检查x+φ=π/2+2kπ。",
+      "principle": "受限最值。",
+      "steps": [
+        "若无取等点，只能比较区间端点及内驻点。",
+        "R是全域上界不能自动作本域最大。"
+      ],
+      "ans": "不总能。",
+      "verification": "开放区间还可能仅有上确界。",
+      "pitfall": "振幅等任何区间最大。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 11,
+      "primary_section": "11.2",
+      "related_sections": []
+    },
+    "exam": [
+      "和差先写完整乘积与符号，再代精确值",
+      "正切式先审各tan和分母，必要改sin cos式",
+      "辅助角比较两系数定象限，最值需验取等相位可达"
+    ],
+    "quick": [
+      "旋转推导",
+      "和差精确值",
+      "正切条件",
+      "辅助角系数",
+      "受限最值"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 105,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_11.2",
+        "url": "https://openstax.org/books/precalculus-2e/pages/7-2-sum-and-difference-identities",
+        "page_or_section": "7-2-sum-and-difference-identities",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 105,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_11.2",
+        "url": "https://openstax.org/books/precalculus-2e/pages/7-2-sum-and-difference-identities",
+        "page_or_section": "7-2-sum-and-difference-identities",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "和差先写完整乘积与符号，再代精确值",
+      "method": "比较系数。",
+      "principle": "和角展开。",
+      "worked_example_index": 2,
+      "verification": "展开得3sin+4cos，不能φarctan3/4。",
+      "pitfall": "振幅用3+4=7。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“推导和差式并求精确值”的抽样复核：约.2588为第一象限正。；若出现“sin45−sin30。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“把线性正余弦组合化成单一振幅相位形式”的抽样复核：展开得3sin+4cos，不能φarctan3/4。；若出现“振幅用3+4=7。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "振幅等任何区间最大。",
+        "correction": "不总能。",
+        "verification": "开放区间还可能仅有上确界。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "和差与辅助角的系数匹配",
+      "objects": [
+        "单位圆旋转",
+        "15°拆45减30",
+        "3sin+4cos",
+        "R5直角三角",
+        "相位取等点"
+      ],
+      "relations": [
+        "cosφ3/5 sinφ4/5",
+        "R√25非7",
+        "15精确根式",
+        "域限制须检相位"
+      ],
+      "labels": [
+        "R",
+        "φ",
+        "展开系数",
+        "取等条件"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "旧三角图必须核角单位、原域和周期分支；不得把有限区间图冒称一般解",
+      "english": "Use exact trigonometric identities and deterministic graphs. State the common domain before cancellation, distinguish identities from equations, and retain zero-factor branches. General solutions require all periodic families; interval solutions must be filtered against the original equation and endpoint conventions. Square roots of squares require absolute values unless sign conditions are given."
+    }
+  },
+  "11.3": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 11,
+    "section_id": "11.3",
+    "goals": [
+      "由和角推导倍角及降幂形式",
+      "用半角符号条件和定义域完成计算证明"
+    ],
+    "prerequisites": [
+      "和角",
+      "根号主值",
+      "象限区间"
+    ],
+    "flow": [
+      "和角倍角",
+      "等价形式",
+      "降幂",
+      "半角选号",
+      "除法条件"
+    ],
+    "concept_relation": "和角倍角；等价形式；降幂；半角选号；除法条件",
+    "deep": [
+      "半角由替x/2再开根得到sin(x/2)=±√[(1−cosx)/2]、cos(x/2)=±√[(1+cosx)/2]。±需依半角所在象限，不是依原角sin或cos直接猜。若原角在(π,2π)，半角在(π/2,π)，sin半角正、cos半角负。",
+      "恒等式化简仍检查除数，例如sin2x/sinx=2cosx保留sinx≠0。若把方程两边除cosx，会丢cosx0的分支，需先分类或因式分解。公式使用熟练不应降低对定义域和零因子的审查。",
+      "解题先辨是倍角、平方还是半角，再选最短公式，写下角单位与范围。可通过代特殊角、平方和及数量级核错误；半角结果正负必须说明来源，不能只给计算器主值。后续方程题将这些公式作为等价变形工具，而非随意消去解的快捷口令。"
+    ],
+    "derive": [
+      "sin2x=2sinxcosx；cos2x=1−2sin²x=2cos²x−1。",
+      "sin²x=(1−cos2x)/2，cos²x=(1+cos2x)/2。",
+      "sin(x/2)=±√[(1−cosx)/2]，cos(x/2)=±√[(1+cosx)/2]；符号看半角象限。"
+    ],
+    "examples": [
+      {
+        "q": "cosx=−3/5、x第二象限，求sin2x与cos2x。 条件：x在π/2到π之间。",
+        "given": "x在π/2到π之间。",
+        "analysis": "sinx正4/5。",
+        "method": "倍角。",
+        "principle": "和角与平方。",
+        "steps": [
+          "sin2x=2×4/5×(−3/5)=−24/25。",
+          "cos2x=2×9/25−1=−7/25。"
+        ],
+        "ans": "−24/25、−7/25。",
+        "verification": "576+49=625；2x在第三或第四，此处两值负对应第三。",
+        "pitfall": "sin2x漏cos负号。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 11,
+        "primary_section": "11.3",
+        "related_sections": []
+      },
+      {
+        "q": "cosx=−3/5且x在(π,2π)，求sin(x/2)与cos(x/2)。 条件：半角落(π/2,π)。",
+        "given": "半角落(π/2,π)。",
+        "analysis": "半角sin正cos负。",
+        "method": "半角根式。",
+        "principle": "主值与象限。",
+        "steps": [
+          "sin半=√[(1+3/5)/2]=2/√5。",
+          "cos半=−√[(1−3/5)/2]=−1/√5。"
+        ],
+        "ans": "2/√5、−1/√5。",
+        "verification": "平方和4/5+1/5=1，半角二象限。",
+        "pitfall": "看原cos负就两半角都负。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 11,
+        "primary_section": "11.3",
+        "related_sections": []
+      },
+      {
+        "q": "化简sin²xcos²x为含cos4x形式。 条件：x任意实数。",
+        "given": "x任意实数。",
+        "analysis": "先sin2x再降幂。",
+        "method": "倍角。",
+        "principle": "恒等式。",
+        "steps": [
+          "sin²xcos²x=¼sin²2x。",
+          "=⅛(1−cos4x)。"
+        ],
+        "ans": "(1−cos4x)/8。",
+        "verification": "xπ/4左1/4，右(1−cosπ)/8=1/4。",
+        "pitfall": "系数漏4或2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 11,
+        "primary_section": "11.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "sin2x与sin²x在xπ/2各值？ 条件：弧度。",
+        "given": "弧度。",
+        "analysis": "括号辨义。",
+        "method": "直接代。",
+        "principle": "函数记号。",
+        "steps": [
+          "sinπ0。",
+          "sin²π/2=1。"
+        ],
+        "ans": "0、1。",
+        "verification": "不是同表达。",
+        "pitfall": "上标和角倍数混读。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 11,
+        "primary_section": "11.3",
+        "related_sections": []
+      },
+      {
+        "q": "tanx=1时能由倍角式给tan2x有限值吗？ 条件：x相应π/4+kπ。",
+        "given": "x相应π/4+kπ。",
+        "analysis": "分母0。",
+        "method": "定义域。",
+        "principle": "正切。",
+        "steps": [
+          "1−tan²x=0。",
+          "2x=π/2+2kπ，tan未定义。"
+        ],
+        "ans": "不能，未定义。",
+        "verification": "不能除零给无限当函数值。",
+        "pitfall": "分子2分母0当0。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 11,
+        "primary_section": "11.3",
+        "related_sections": []
+      },
+      {
+        "q": "cos²x用降幂式怎样写？ 条件：全实数。",
+        "given": "全实数。",
+        "analysis": "cos2x=2cos²−1。",
+        "method": "移项除2。",
+        "principle": "倍角。",
+        "steps": [
+          "2cos²x=1+cos2x。",
+          "cos²x=(1+cos2x)/2。"
+        ],
+        "ans": "(1+cos2x)/2。",
+        "verification": "x0给1。",
+        "pitfall": "正负号与sin²混。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 11,
+        "primary_section": "11.3",
+        "related_sections": []
+      },
+      {
+        "q": "sin2x/sinx化简时原排除点？ 条件：实角。",
+        "given": "实角。",
+        "analysis": "分母sin非0。",
+        "method": "原域。",
+        "principle": "除法。",
+        "steps": [
+          "x≠kπ。",
+          "该域商2cosx。"
+        ],
+        "ans": "排除所有kπ。",
+        "verification": "简式有值不补原商洞。",
+        "pitfall": "倍角约分后忘域。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 11,
+        "primary_section": "11.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "半角公式给±根式，能不看半角区间一律取正吗？ 条件：原角可能多周或任意象限。",
+      "given": "原角可能多周或任意象限。",
+      "analysis": "半角可正可负。",
+      "method": "按x/2范围。",
+      "principle": "三角符号。",
+      "steps": [
+        "原角先转成半角范围。",
+        "各函数再依该象限选号，未知则保分支。"
+      ],
+      "ans": "不能。",
+      "verification": "与根号主值本身非负不同，外号决定函数值。",
+      "pitfall": "根号正等半角函数必正。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 11,
+      "primary_section": "11.3",
+      "related_sections": []
+    },
+    "exam": [
+      "先辨sin2x与sin²x，选择已知量匹配倍角形式",
+      "半角先除区间再选符号，不看原角符号猜",
+      "降幂系数逐层保留，除式先列原排除点"
+    ],
+    "quick": [
+      "和角倍角",
+      "等价形式",
+      "降幂",
+      "半角选号",
+      "除法条件"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 111,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_11.3",
+        "url": "https://openstax.org/books/precalculus-2e/pages/7-3-double-angle-half-angle-and-reduction-formulas",
+        "page_or_section": "7-3-double-angle-half-angle-and-reduction-formulas",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 111,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_11.3",
+        "url": "https://openstax.org/books/precalculus-2e/pages/7-3-double-angle-half-angle-and-reduction-formulas",
+        "page_or_section": "7-3-double-angle-half-angle-and-reduction-formulas",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先辨sin2x与sin²x，选择已知量匹配倍角形式",
+      "method": "倍角。",
+      "principle": "恒等式。",
+      "worked_example_index": 2,
+      "verification": "xπ/4左1/4，右(1−cosπ)/8=1/4。",
+      "pitfall": "系数漏4或2。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由和角推导倍角及降幂形式”的抽样复核：576+49=625；2x在第三或第四，此处两值负对应第三。；若出现“sin2x漏cos负号。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用半角符号条件和定义域完成计算证明”的抽样复核：xπ/4左1/4，右(1−cosπ)/8=1/4。；若出现“系数漏4或2。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "根号正等半角函数必正。",
+        "correction": "不能。",
+        "verification": "与根号主值本身非负不同，外号决定函数值。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "倍角半角与降幂关系",
+      "objects": [
+        "和角x+x",
+        "sin2x对sin²x",
+        "半角区间映射",
+        "根式外号",
+        "降幂系数树"
+      ],
+      "relations": [
+        "sin2x2sin cos",
+        "cos半角二象限负",
+        "sin²cos²系数1/8",
+        "原域洞点保留"
+      ],
+      "labels": [
+        "2x",
+        "x/2",
+        "平方",
+        "±符号",
+        "区间"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "旧三角图必须核角单位、原域和周期分支；不得把有限区间图冒称一般解",
+      "english": "Use exact trigonometric identities and deterministic graphs. State the common domain before cancellation, distinguish identities from equations, and retain zero-factor branches. General solutions require all periodic families; interval solutions must be filtered against the original equation and endpoint conventions. Square roots of squares require absolute values unless sign conditions are given."
+    }
+  },
+  "11.4": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 11,
+    "section_id": "11.4",
+    "goals": [
+      "完整求基本三角方程的一般解及区间解",
+      "通过因式分解和原式检验避免除零漏解及平方增根"
+    ],
+    "prerequisites": [
+      "三角周期",
+      "反三角主值",
+      "倍角与代数方程"
+    ],
+    "flow": [
+      "原域区间",
+      "同值分支",
+      "代数换元",
+      "零因子",
+      "周期回代"
+    ],
+    "concept_relation": "原域区间；同值分支；代数换元；零因子；周期回代",
+    "deep": [
+      "可化代数型方程先取t=sinx等并保t∈[−1,1]，例如2sin²x−sinx−1=0先解t1或−1/2，再求各角。t超界应剔除，不能给不存在的arcsin。若因式分解出现sinx(2cosx−1)=0，则两因子零各是一支，除sinx会漏第一支。",
+      "平方、两边乘可能为零的式、取倒数等操作可能增根或丢根。每个候选回原式，特别是分母零、tan极点或根号符号条件。保留一般解参数k为整数，不能一条“加360”只列一个后继角冒充完整无限解。",
+      "完整答案包括原域、变形依据、各分支、周期、区间筛选、去重及回代。考试方法可由方程结构触发：同角多项式先代数，倍角与同角混合先恒等变换，复杂和差可辅助角；不凭题目看似熟悉就跳过条件。检测反馈定位漏的是哪一分支或哪一个端点，便于针对复习。"
+    ],
+    "derive": [
+      "sinx=a：x=α+2kπ或π−α+2kπ，α=arcsin a，|a|≤1。",
+      "cosx=a：x=±arccos a+2kπ；tanx=a：x=arctan a+kπ，k∈Z。",
+      "零乘积各因子分支均保留；最后筛原定义域及指定区间并去重回代。"
+    ],
+    "examples": [
+      {
+        "q": "解sin(2x)=1/2，0≤x<2π。 条件：弧度。",
+        "given": "弧度。",
+        "analysis": "2x有两族，除2后筛。",
+        "method": "正弦同值。",
+        "principle": "周期。",
+        "steps": [
+          "2x=π/6+2kπ或5π/6+2kπ。",
+          "x=π/12+kπ或5π/12+kπ，区间内π/12、5π/12、13π/12、17π/12。"
+        ],
+        "ans": "四解如上。",
+        "verification": "代2x均sin1/2且端点不另增加。",
+        "pitfall": "只主值π/12漏三解。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 11,
+        "primary_section": "11.4",
+        "related_sections": []
+      },
+      {
+        "q": "解2sin²x−sinx−1=0，0≤x<2π。 条件：原式全域定义。",
+        "given": "原式全域定义。",
+        "analysis": "代t并保范围。",
+        "method": "因式分解。",
+        "principle": "代数与三角。",
+        "steps": [
+          "(2t+1)(t−1)=0，t−1/2或1。",
+          "sin1给π/2；sin−1/2给7π/6、11π/6。"
+        ],
+        "ans": "π/2、7π/6、11π/6。",
+        "verification": "三解回代多项式0，t均合域。",
+        "pitfall": "t值当角或只求两解。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 11,
+        "primary_section": "11.4",
+        "related_sections": []
+      },
+      {
+        "q": "解sin2x=sinx，0≤x<2π。 条件：实角全域。",
+        "given": "实角全域。",
+        "analysis": "倍角后零乘积，不除sin。",
+        "method": "因式分解。",
+        "principle": "2sinxcosx−sinx=0。",
+        "steps": [
+          "sinx(2cosx−1)=0。",
+          "sin支x0、π；cos1/2支π/3、5π/3。"
+        ],
+        "ans": "0、π/3、π、5π/3。",
+        "verification": "四解原式均成立，2π不在半开域。",
+        "pitfall": "除sin漏0和π。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 11,
+        "primary_section": "11.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "cosx=−1/2在[0,2π)的解？ 条件：rad。",
+        "given": "rad。",
+        "analysis": "二三象限。",
+        "method": "同值。",
+        "principle": "单位圆。",
+        "steps": [
+          "参考角π/3。",
+          "x2π/3、4π/3。"
+        ],
+        "ans": "2π/3、4π/3。",
+        "verification": "两角cos均−.5。",
+        "pitfall": "只arccos给2π/3。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 11,
+        "primary_section": "11.4",
+        "related_sections": []
+      },
+      {
+        "q": "tanx=−1的一般解？ 条件：x实角，排极点。",
+        "given": "x实角，排极点。",
+        "analysis": "主值−π/4，加π。",
+        "method": "正切周期。",
+        "principle": "函数。",
+        "steps": [
+          "x=−π/4+kπ。",
+          "k整数。"
+        ],
+        "ans": "−π/4+kπ，k∈Z。",
+        "verification": "每支cos非0，tan−1。",
+        "pitfall": "周期加2π漏半数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 11,
+        "primary_section": "11.4",
+        "related_sections": []
+      },
+      {
+        "q": "解sinx=2有实角吗？ 条件：实数域。",
+        "given": "实数域。",
+        "analysis": "值域不达。",
+        "method": "范围审查。",
+        "principle": "正弦。",
+        "steps": [
+          "sinx∈[−1,1]。",
+          "2超界。"
+        ],
+        "ans": "无实解。",
+        "verification": "不是把arcsin2设π/2。",
+        "pitfall": "反函数报错就硬改值。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 11,
+        "primary_section": "11.4",
+        "related_sections": []
+      },
+      {
+        "q": "[0,2π]与[0,2π)解sinx=0有何差？ 条件：端点约定不同。",
+        "given": "端点约定不同。",
+        "analysis": "2π是否含。",
+        "method": "筛解。",
+        "principle": "周期。",
+        "steps": [
+          "闭区间0、π、2π。",
+          "半开只有0、π。"
+        ],
+        "ans": "前3解，后2解。",
+        "verification": "同终边但变量数值不同可分别属于闭区间。",
+        "pitfall": "同终边就自动删掉合法端点。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 11,
+        "primary_section": "11.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "将sinx=−1两边平方成sin²x=1后，所得π/2能接受吗？ 条件：原式求解，x在[0,2π)。",
+      "given": "原式求解，x在[0,2π)。",
+      "analysis": "平方丢符号。",
+      "method": "回原式。",
+      "principle": "增根。",
+      "steps": [
+        "π/2使sin1不等−1。",
+        "应剔除，原解仅3π/2。"
+      ],
+      "ans": "不能，π/2为增根。",
+      "verification": "平方方程两角都合，原式只一角。",
+      "pitfall": "平方后不用回代。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 11,
+      "primary_section": "11.4",
+      "related_sections": []
+    },
+    "exam": [
+      "先原域角区间和单位，再结构变形",
+      "代数t要限[−1,1]，零因子每支保，基本同值加全周期",
+      "最后区间端点、去重和原式回代，反馈指出具体漏支"
+    ],
+    "quick": [
+      "原域区间",
+      "同值分支",
+      "代数换元",
+      "零因子",
+      "周期回代"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 116,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_11.4",
+        "url": "https://openstax.org/books/precalculus-2e/pages/7-5-solving-trigonometric-equations",
+        "page_or_section": "7-5-solving-trigonometric-equations",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 116,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_11.4",
+        "url": "https://openstax.org/books/precalculus-2e/pages/7-5-solving-trigonometric-equations",
+        "page_or_section": "7-5-solving-trigonometric-equations",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先原域角区间和单位，再结构变形",
+      "method": "因式分解。",
+      "principle": "2sinxcosx−sinx=0。",
+      "worked_example_index": 2,
+      "verification": "四解原式均成立，2π不在半开域。",
+      "pitfall": "除sin漏0和π。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“完整求基本三角方程的一般解及区间解”的抽样复核：代2x均sin1/2且端点不另增加。；若出现“只主值π/12漏三解。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“通过因式分解和原式检验避免除零漏解及平方增根”的抽样复核：四解原式均成立，2π不在半开域。；若出现“除sin漏0和π。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "平方后不用回代。",
+        "correction": "不能，π/2为增根。",
+        "verification": "平方方程两角都合，原式只一角。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "三角方程分支与区间筛选",
+      "objects": [
+        "sin2x=.5两族",
+        "[0,2π)数轴四根",
+        "零乘积分支树",
+        "平方增根标记"
+      ],
+      "relations": [
+        "四根π/12 5π/12 13π/12 17π/12",
+        "sin支不除掉",
+        "端点2π开",
+        "回原式剔增根"
+      ],
+      "labels": [
+        "k∈Z",
+        "原定义域",
+        "两分支",
+        "区间筛选",
+        "回代"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "旧三角图必须核角单位、原域和周期分支；不得把有限区间图冒称一般解",
+      "english": "Use exact trigonometric identities and deterministic graphs. State the common domain before cancellation, distinguish identities from equations, and retain zero-factor branches. General solutions require all periodic families; interval solutions must be filtered against the original equation and endpoint conventions. Square roots of squares require absolute values unless sign conditions are given."
+    }
+  }
+}

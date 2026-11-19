@@ -1,6 +1,6 @@
 # Batch06 新增真实小节绘图任务
 
-145项独立复合教学图规范；没有生成新图片，也没有将原142项缺口冒称补齐。
+197项独立复合教学图规范；没有生成新图片，也没有将原142项缺口冒称补齐。
 
 ## B06-BIO04-4-1 · 生物 4.1 细胞的分工
 
@@ -1876,6 +1876,309 @@ No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charge
 - https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf
 - https://openstax.org/books/biology-2e/pages/47-4-preserving-biodiversity
 
+## B06-CHEM15-15-1 · 化学 15.1 卤素的性质与用途
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：从原子和分子层次解释卤素趋势；依据氧化还原判断置换及证据边界
+
+对象：Cl₂ Br₂ I₂物态卡；Cl₂和Br⁻半反应；电子相消；单质离子对照
+
+关系：Cl₂得2e；2Br⁻失2e；X₂与X⁻分开；物态有温压
+
+中文标签：单质；卤离子；氧化剂；分子间力
+
+公式/单位：卤素单质X₂与卤离子X⁻不同；半反应X₂+2e⁻→2X⁻。；Cl₂+2Br⁻→2Cl⁻+Br₂；Cl₂氧化剂，Br⁻还原剂。；常见卤素单质相变趋势与分子间力相关，条件和具体物种不可省略。
+
+### 中文Prompt
+
+制作化学第15章《VIIA族元素：卤素》15.1《卤素的性质与用途》的教学图《卤素趋势与置换电子账》。教学目标：从原子和分子层次解释卤素趋势；依据氧化还原判断置换及证据边界。必须对象：Cl₂ Br₂ I₂物态卡；Cl₂和Br⁻半反应；电子相消；单质离子对照。不可画错的关系：Cl₂得2e；2Br⁻失2e；X₂与X⁻分开；物态有温压。中文标签：单质；卤离子；氧化剂；分子间力。公式、单位和条件：卤素单质X₂与卤离子X⁻不同；半反应X₂+2e⁻→2X⁻。；Cl₂+2Br⁻→2Cl⁻+Br₂；Cl₂氧化剂，Br⁻还原剂。；常见卤素单质相变趋势与分子间力相关，条件和具体物种不可省略。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter15, authentic subsection15.1, with original Chinese title 卤素的性质与用途. Topic-specific mandatory science: Distinguish neutral diatomic halogens X2 from halide ions X-. In Cl2+2Br- to2Cl-+Br2, chlorine gains2electrons and two bromide ions lose2electrons. Molecular phase trends involve intermolecular forces rather than simply breaking internal halogen bonds. Use deterministic halogen chemistry diagrams. Distinguish elemental diatomic halogen X2 from halide X-. Balance atoms, charge and electrons. Mark aqueous versus molten phases, concentration and electrode conditions. Gas-flow arrows must not send toxic gases into an open room or mix chlorine with hydrogen. An educational apparatus is not an unsupervised preparation protocol. Required objects, preserving these Chinese labels: Cl₂ Br₂ I₂物态卡；Cl₂和Br⁻半反应；电子相消；单质离子对照. Additional literal Chinese annotation strings: 单质；卤离子；氧化剂；分子间力. Typeset and verify these reference formulas, units and stated conditions: 卤素单质X₂与卤离子X⁻不同；半反应X₂+2e⁻→2X⁻。；Cl₂+2Br⁻→2Cl⁻+Br₂；Cl₂氧化剂，Br⁻还原剂。；常见卤素单质相变趋势与分子间力相关，条件和具体物种不可省略。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- Cl₂得2e
+- 2Br⁻失2e
+- X₂与X⁻分开
+- 物态有温压
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：卤素图需核物态温压、卤离子电荷及装置流向；有毒气体示意不得作为自行操作流程
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/chemistry-2e/pages/18-11-occurrence-preparation-and-properties-of-halogens
+
+## B06-CHEM15-15-2-1 · 化学 15.2.1 氯气的实验室制法
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：用氧化还原说明氯气制备反应；从杂质与气流分析洗涤干燥收集及尾气控制
+
+对象：反应方程；半反应电子账；去HCl；干燥；目标收集；末端尾气处理
+
+关系：气流顺序不误接；尾气吸收在目标后；2Cl被氧化另2留盐；不画向室内敞放
+
+中文标签：浓酸条件；去杂；干燥；尾气；原理示意非操作
+
+公式/单位：MnO₂+4HCl→MnCl₂+Cl₂+2H₂O（指定浓酸与相应条件）。；Mn(+4)得2e成+2；2Cl(−1)失2e成Cl₂，其余Cl留盐。；冷稀碱吸收：Cl₂+2OH⁻→Cl⁻+ClO⁻+H₂O；去杂、干燥与尾气吸收不同。
+
+### 中文Prompt
+
+制作化学第15章《VIIA族元素：卤素》15.2.1《氯气的实验室制法》的教学图《氯气制备原理与气流审核》。教学目标：用氧化还原说明氯气制备反应；从杂质与气流分析洗涤干燥收集及尾气控制。必须对象：反应方程；半反应电子账；去HCl；干燥；目标收集；末端尾气处理。不可画错的关系：气流顺序不误接；尾气吸收在目标后；2Cl被氧化另2留盐；不画向室内敞放。中文标签：浓酸条件；去杂；干燥；尾气；原理示意非操作。公式、单位和条件：MnO₂+4HCl→MnCl₂+Cl₂+2H₂O（指定浓酸与相应条件）。；Mn(+4)得2e成+2；2Cl(−1)失2e成Cl₂，其余Cl留盐。；冷稀碱吸收：Cl₂+2OH⁻→Cl⁻+ClO⁻+H₂O；去杂、干燥与尾气吸收不同。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter15, authentic subsection15.2.1, with original Chinese title 氯气的实验室制法. Topic-specific mandatory science: Balance MnO2+4HCl toMnCl2+Cl2+2H2O for the stated concentrated-acid model. Only two of four chloride atoms are oxidized; the other two remain in MnCl2. Separate impurity removal, drying, target collection and final waste-gas absorption. Do not depict uncontrolled toxic-gas release. Use deterministic halogen chemistry diagrams. Distinguish elemental diatomic halogen X2 from halide X-. Balance atoms, charge and electrons. Mark aqueous versus molten phases, concentration and electrode conditions. Gas-flow arrows must not send toxic gases into an open room or mix chlorine with hydrogen. An educational apparatus is not an unsupervised preparation protocol. Required objects, preserving these Chinese labels: 反应方程；半反应电子账；去HCl；干燥；目标收集；末端尾气处理. Additional literal Chinese annotation strings: 浓酸条件；去杂；干燥；尾气；原理示意非操作. Typeset and verify these reference formulas, units and stated conditions: MnO₂+4HCl→MnCl₂+Cl₂+2H₂O（指定浓酸与相应条件）。；Mn(+4)得2e成+2；2Cl(−1)失2e成Cl₂，其余Cl留盐。；冷稀碱吸收：Cl₂+2OH⁻→Cl⁻+ClO⁻+H₂O；去杂、干燥与尾气吸收不同。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 气流顺序不误接
+- 尾气吸收在目标后
+- 2Cl被氧化另2留盐
+- 不画向室内敞放
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：卤素图需核物态温压、卤离子电荷及装置流向；有毒气体示意不得作为自行操作流程
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/chemistry-2e/pages/18-11-occurrence-preparation-and-properties-of-halogens
+
+## B06-CHEM15-15-2-2 · 化学 15.2.2 氯气的工业制法
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：区分盐水与熔盐电解的产物；由半反应解释膜分离及工业计量
+
+对象：阳极氯室；阴极氢碱室；电源；离子膜；分离气口
+
+关系：阳极正氧化；阴极负水还原；Na⁺迁移非电子穿膜；Cl₂ H₂各独立出口；2NaOH每Cl₂
+
+中文标签：浓盐水；Na⁺；OH⁻；Cl₂；H₂；非操作图
+
+公式/单位：浓盐水适当阳极2Cl⁻→Cl₂+2e⁻；阴极2H₂O+2e⁻→H₂+2OH⁻。；净式2NaCl+2H₂O→Cl₂+H₂+2NaOH；膜与分室限制产品混合。；n(Cl₂)=Q/(2F)×相应电流效率，NaOH理论量为Q/F。
+
+### 中文Prompt
+
+制作化学第15章《VIIA族元素：卤素》15.2.2《氯气的工业制法》的教学图《膜法氯碱工业原理》。教学目标：区分盐水与熔盐电解的产物；由半反应解释膜分离及工业计量。必须对象：阳极氯室；阴极氢碱室；电源；离子膜；分离气口。不可画错的关系：阳极正氧化；阴极负水还原；Na⁺迁移非电子穿膜；Cl₂ H₂各独立出口；2NaOH每Cl₂。中文标签：浓盐水；Na⁺；OH⁻；Cl₂；H₂；非操作图。公式、单位和条件：浓盐水适当阳极2Cl⁻→Cl₂+2e⁻；阴极2H₂O+2e⁻→H₂+2OH⁻。；净式2NaCl+2H₂O→Cl₂+H₂+2NaOH；膜与分室限制产品混合。；n(Cl₂)=Q/(2F)×相应电流效率，NaOH理论量为Q/F。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter15, authentic subsection15.2.2, with original Chinese title 氯气的工业制法. Topic-specific mandatory science: For the specified concentrated-brine membrane cell, oxidize chloride at the positive anode and reduce water at the negative cathode. Electrons stay in the external circuit; ions cross the membrane. Chlorine and hydrogen outlets stay separate. Aqueous Na+ migration is not sodium-metal deposition. Use deterministic halogen chemistry diagrams. Distinguish elemental diatomic halogen X2 from halide X-. Balance atoms, charge and electrons. Mark aqueous versus molten phases, concentration and electrode conditions. Gas-flow arrows must not send toxic gases into an open room or mix chlorine with hydrogen. An educational apparatus is not an unsupervised preparation protocol. Required objects, preserving these Chinese labels: 阳极氯室；阴极氢碱室；电源；离子膜；分离气口. Additional literal Chinese annotation strings: 浓盐水；Na⁺；OH⁻；Cl₂；H₂；非操作图. Typeset and verify these reference formulas, units and stated conditions: 浓盐水适当阳极2Cl⁻→Cl₂+2e⁻；阴极2H₂O+2e⁻→H₂+2OH⁻。；净式2NaCl+2H₂O→Cl₂+H₂+2NaOH；膜与分室限制产品混合。；n(Cl₂)=Q/(2F)×相应电流效率，NaOH理论量为Q/F。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 阳极正氧化
+- 阴极负水还原
+- Na⁺迁移非电子穿膜
+- Cl₂ H₂各独立出口
+- 2NaOH每Cl₂
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：卤素图需核物态温压、卤离子电荷及装置流向；有毒气体示意不得作为自行操作流程
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis
+
+## B06-CHEM15-15-3-1 · 化学 15.3.1 氯化氢的性质和用途
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：区分HCl气体与盐酸的粒子及酸性表现；用溶解、电离与电解质模型解释观察
+
+对象：HCl分子；水中H₃O⁺Cl⁻；潮湿雾滴；NH₄Cl固粒；密度浓度账
+
+关系：气相不画全电离；雾液烟固区分；酸强与浓度分开；Cl⁻非HCl唯一证据
+
+中文标签：HCl(g)；盐酸；H₃O⁺；白雾；白烟
+
+公式/单位：HCl(g)为分子；水中HCl+H₂O→H₃O⁺+Cl⁻。；HCl+NH₃→NH₄Cl(s)白烟；潮湿空气酸性液滴为白雾，二者不同。；由质量分数w和密度ρ算浓度需先m溶液=ρV，再nHCl=m溶液w/M。
+
+### 中文Prompt
+
+制作化学第15章《VIIA族元素：卤素》15.3.1《氯化氢的性质和用途》的教学图《HCl气相与水相对照》。教学目标：区分HCl气体与盐酸的粒子及酸性表现；用溶解、电离与电解质模型解释观察。必须对象：HCl分子；水中H₃O⁺Cl⁻；潮湿雾滴；NH₄Cl固粒；密度浓度账。不可画错的关系：气相不画全电离；雾液烟固区分；酸强与浓度分开；Cl⁻非HCl唯一证据。中文标签：HCl(g)；盐酸；H₃O⁺；白雾；白烟。公式、单位和条件：HCl(g)为分子；水中HCl+H₂O→H₃O⁺+Cl⁻。；HCl+NH₃→NH₄Cl(s)白烟；潮湿空气酸性液滴为白雾，二者不同。；由质量分数w和密度ρ算浓度需先m溶液=ρV，再nHCl=m溶液w/M。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter15, authentic subsection15.3.1, with original Chinese title 氯化氢的性质和用途. Topic-specific mandatory science: HCl gas is molecular, while aqueous hydrochloric acid contains hydronium and chloride. Acid mist consists of liquid droplets, whereas HCl with NH3 forms solid NH4Cl smoke. Acid strength and concentration are different properties. Chloride detection alone does not identify hydrochloric acid. Use deterministic halogen chemistry diagrams. Distinguish elemental diatomic halogen X2 from halide X-. Balance atoms, charge and electrons. Mark aqueous versus molten phases, concentration and electrode conditions. Gas-flow arrows must not send toxic gases into an open room or mix chlorine with hydrogen. An educational apparatus is not an unsupervised preparation protocol. Required objects, preserving these Chinese labels: HCl分子；水中H₃O⁺Cl⁻；潮湿雾滴；NH₄Cl固粒；密度浓度账. Additional literal Chinese annotation strings: HCl(g)；盐酸；H₃O⁺；白雾；白烟. Typeset and verify these reference formulas, units and stated conditions: HCl(g)为分子；水中HCl+H₂O→H₃O⁺+Cl⁻。；HCl+NH₃→NH₄Cl(s)白烟；潮湿空气酸性液滴为白雾，二者不同。；由质量分数w和密度ρ算浓度需先m溶液=ρV，再nHCl=m溶液w/M。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 气相不画全电离
+- 雾液烟固区分
+- 酸强与浓度分开
+- Cl⁻非HCl唯一证据
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：卤素图需核物态温压、卤离子电荷及装置流向；有毒气体示意不得作为自行操作流程
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/chemistry-2e/pages/18-11-occurrence-preparation-and-properties-of-halogens
+
+## B06-CHEM15-15-3-2 · 化学 15.3.2 氯化氢与盐酸的制取
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：用挥发性酸及工艺反应说明HCl来源；由吸收原理解释盐酸制备与防倒吸
+
+对象：两种对应盐反应；HCl生成量；吸收效率；最终溶液；压差示意
+
+关系：NaHSO₄式与Na₂SO₄式不拼接；吸收量≤生成量；浓度需最终V；倒吸箭头符合压差
+
+中文标签：生成；吸收；最终V；质量分数；原理示意
+
+公式/单位：对应条件下NaCl+H₂SO₄→NaHSO₄+HCl；另给条件总式可为2NaCl+H₂SO₄→Na₂SO₄+2HCl。；工业净式H₂+Cl₂→2HCl，不等无风险操作流程。；wHCl=m已吸收HCl/(m水+m已吸收HCl)，无损且无其他组分时适用。
+
+### 中文Prompt
+
+制作化学第15章《VIIA族元素：卤素》15.3.2《氯化氢与盐酸的制取》的教学图《HCl生成与吸收的两本账》。教学目标：用挥发性酸及工艺反应说明HCl来源；由吸收原理解释盐酸制备与防倒吸。必须对象：两种对应盐反应；HCl生成量；吸收效率；最终溶液；压差示意。不可画错的关系：NaHSO₄式与Na₂SO₄式不拼接；吸收量≤生成量；浓度需最终V；倒吸箭头符合压差。中文标签：生成；吸收；最终V；质量分数；原理示意。公式、单位和条件：对应条件下NaCl+H₂SO₄→NaHSO₄+HCl；另给条件总式可为2NaCl+H₂SO₄→Na₂SO₄+2HCl。；工业净式H₂+Cl₂→2HCl，不等无风险操作流程。；wHCl=m已吸收HCl/(m水+m已吸收HCl)，无损且无其他组分时适用。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter15, authentic subsection15.3.2, with original Chinese title 氯化氢与盐酸的制取. Topic-specific mandatory science: Keep the NaHSO4-forming and Na2SO4-forming preparation equations with their corresponding conditions rather than combining their coefficients. Separate generated HCl from absorbed HCl and final solution concentration. Absorption pressure drops can cause backflow, so flow arrows and protective concepts must be physically consistent. Use deterministic halogen chemistry diagrams. Distinguish elemental diatomic halogen X2 from halide X-. Balance atoms, charge and electrons. Mark aqueous versus molten phases, concentration and electrode conditions. Gas-flow arrows must not send toxic gases into an open room or mix chlorine with hydrogen. An educational apparatus is not an unsupervised preparation protocol. Required objects, preserving these Chinese labels: 两种对应盐反应；HCl生成量；吸收效率；最终溶液；压差示意. Additional literal Chinese annotation strings: 生成；吸收；最终V；质量分数；原理示意. Typeset and verify these reference formulas, units and stated conditions: 对应条件下NaCl+H₂SO₄→NaHSO₄+HCl；另给条件总式可为2NaCl+H₂SO₄→Na₂SO₄+2HCl。；工业净式H₂+Cl₂→2HCl，不等无风险操作流程。；wHCl=m已吸收HCl/(m水+m已吸收HCl)，无损且无其他组分时适用。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- NaHSO₄式与Na₂SO₄式不拼接
+- 吸收量≤生成量
+- 浓度需最终V
+- 倒吸箭头符合压差
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：卤素图需核物态温压、卤离子电荷及装置流向；有毒气体示意不得作为自行操作流程
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/chemistry-2e/pages/18-11-occurrence-preparation-and-properties-of-halogens
+
+## B06-CHEM15-15-4 · 化学 15.4 卤化物在水中的溶解性
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：按具体盐和条件应用卤化物溶解规律；由沉淀、配位及计量形成可靠检验链
+
+对象：AgCl AgBr AgI AgF卡；Ag⁺Cl⁻沉淀；氨配银；空白对照；纯干称量
+
+关系：AgF不套难溶；络合降游离Ag⁺；氨浓度条件区分；不以HCl引入待测Cl⁻
+
+中文标签：Ag⁺；Cl⁻；[Ag(NH₃)₂]⁺；空白；条件
+
+公式/单位：Ag⁺+X⁻⇌AgX(s)，X=Cl、Br、I；AgF等须另审，不是所有卤化物同规则。；AgCl+2NH₃⇌[Ag(NH₃)₂]⁺+Cl⁻，配位改变游离Ag⁺。；定量AgCl模型nCl⁻=mAgCl/M，需唯一目标及纯干沉淀等条件。
+
+### 中文Prompt
+
+制作化学第15章《VIIA族元素：卤素》15.4《卤化物在水中的溶解性》的教学图《银卤化物检验与配位》。教学目标：按具体盐和条件应用卤化物溶解规律；由沉淀、配位及计量形成可靠检验链。必须对象：AgCl AgBr AgI AgF卡；Ag⁺Cl⁻沉淀；氨配银；空白对照；纯干称量。不可画错的关系：AgF不套难溶；络合降游离Ag⁺；氨浓度条件区分；不以HCl引入待测Cl⁻。中文标签：Ag⁺；Cl⁻；[Ag(NH₃)₂]⁺；空白；条件。公式、单位和条件：Ag⁺+X⁻⇌AgX(s)，X=Cl、Br、I；AgF等须另审，不是所有卤化物同规则。；AgCl+2NH₃⇌[Ag(NH₃)₂]⁺+Cl⁻，配位改变游离Ag⁺。；定量AgCl模型nCl⁻=mAgCl/M，需唯一目标及纯干沉淀等条件。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter15, authentic subsection15.4, with original Chinese title 卤化物在水中的溶解性. Topic-specific mandatory science: AgCl,AgBr andAgI have different precipitation and ammonia-complexation behaviour; AgF is not the same insoluble-salt case. Complexation lowers free Ag+ while total dissolved silver can rise. Do not acidify a chloride test with HCl and attribute all precipitation to the original sample. Use deterministic halogen chemistry diagrams. Distinguish elemental diatomic halogen X2 from halide X-. Balance atoms, charge and electrons. Mark aqueous versus molten phases, concentration and electrode conditions. Gas-flow arrows must not send toxic gases into an open room or mix chlorine with hydrogen. An educational apparatus is not an unsupervised preparation protocol. Required objects, preserving these Chinese labels: AgCl AgBr AgI AgF卡；Ag⁺Cl⁻沉淀；氨配银；空白对照；纯干称量. Additional literal Chinese annotation strings: Ag⁺；Cl⁻；[Ag(NH₃)₂]⁺；空白；条件. Typeset and verify these reference formulas, units and stated conditions: Ag⁺+X⁻⇌AgX(s)，X=Cl、Br、I；AgF等须另审，不是所有卤化物同规则。；AgCl+2NH₃⇌[Ag(NH₃)₂]⁺+Cl⁻，配位改变游离Ag⁺。；定量AgCl模型nCl⁻=mAgCl/M，需唯一目标及纯干沉淀等条件。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- AgF不套难溶
+- 络合降游离Ag⁺
+- 氨浓度条件区分
+- 不以HCl引入待测Cl⁻
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：卤素图需核物态温压、卤离子电荷及装置流向；有毒气体示意不得作为自行操作流程
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/chemistry-2e/pages/18-11-occurrence-preparation-and-properties-of-halogens
+
+## B06-CHEM15-15-5 · 化学 15.5 卤氧酸
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：由化学式求氯氧化数并比较相应酸性；用歧化和介质条件解释含氧氯物种而不混淆反应性
+
+对象：四酸式与价数；Cl₂分流；冷稀ClO⁻；热浓ClO₃⁻；酸性与速率分栏
+
+关系：价数1 3 5 7正确；冷稀Cl分流1:1；热浓Cl原子5:1；电子升降守恒；pH影响物种
+
+中文标签：氧化数；冷稀；热浓；酸性≠速率；介质条件
+
+公式/单位：HClO/HClO₂/HClO₃/HClO₄中Cl氧化数依次+1/+3/+5/+7。；冷稀碱：Cl₂+2OH⁻→Cl⁻+ClO⁻+H₂O。；热浓碱相应模型：3Cl₂+6OH⁻→5Cl⁻+ClO₃⁻+3H₂O；酸强非速率榜。
+
+### 中文Prompt
+
+制作化学第15章《VIIA族元素：卤素》15.5《卤氧酸》的教学图《含氧氯物种与歧化条件》。教学目标：由化学式求氯氧化数并比较相应酸性；用歧化和介质条件解释含氧氯物种而不混淆反应性。必须对象：四酸式与价数；Cl₂分流；冷稀ClO⁻；热浓ClO₃⁻；酸性与速率分栏。不可画错的关系：价数1 3 5 7正确；冷稀Cl分流1:1；热浓Cl原子5:1；电子升降守恒；pH影响物种。中文标签：氧化数；冷稀；热浓；酸性≠速率；介质条件。公式、单位和条件：HClO/HClO₂/HClO₃/HClO₄中Cl氧化数依次+1/+3/+5/+7。；冷稀碱：Cl₂+2OH⁻→Cl⁻+ClO⁻+H₂O。；热浓碱相应模型：3Cl₂+6OH⁻→5Cl⁻+ClO₃⁻+3H₂O；酸强非速率榜。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter15, authentic subsection15.5, with original Chinese title 卤氧酸. Topic-specific mandatory science: For HClO,HClO2,HClO3,HClO4, chlorine oxidation numbers are+1,+3,+5,+7. Cold dilute alkali gives chloride and hypochlorite in a1:1Cl-atom split; the stated hot concentrated model gives chloride and chlorate in a5:1split. Acid strength, oxidation tendency and kinetic rate are distinct. Use deterministic halogen chemistry diagrams. Distinguish elemental diatomic halogen X2 from halide X-. Balance atoms, charge and electrons. Mark aqueous versus molten phases, concentration and electrode conditions. Gas-flow arrows must not send toxic gases into an open room or mix chlorine with hydrogen. An educational apparatus is not an unsupervised preparation protocol. Required objects, preserving these Chinese labels: 四酸式与价数；Cl₂分流；冷稀ClO⁻；热浓ClO₃⁻；酸性与速率分栏. Additional literal Chinese annotation strings: 氧化数；冷稀；热浓；酸性≠速率；介质条件. Typeset and verify these reference formulas, units and stated conditions: HClO/HClO₂/HClO₃/HClO₄中Cl氧化数依次+1/+3/+5/+7。；冷稀碱：Cl₂+2OH⁻→Cl⁻+ClO⁻+H₂O。；热浓碱相应模型：3Cl₂+6OH⁻→5Cl⁻+ClO₃⁻+3H₂O；酸强非速率榜。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 价数1 3 5 7正确
+- 冷稀Cl分流1:1
+- 热浓Cl原子5:1
+- 电子升降守恒
+- pH影响物种
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：卤素图需核物态温压、卤离子电荷及装置流向；有毒气体示意不得作为自行操作流程
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/chemistry-2e/pages/18-11-occurrence-preparation-and-properties-of-halogens
+
 ## B06-CHEM19-19-1 · 化学 19.1 化学反应中的热量变化
 
 优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
@@ -3319,6 +3622,741 @@ No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charge
 - https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
 - https://openstax.org/books/chemistry-2e/pages/17-6-corrosion
 
+## B06-CHEM28-28-1 · 化学 28.1 烯烃的通式和结构
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：由价键与结构推导单烯烃通式；说明双键几何、转动限制及通式边界
+
+对象：乙烯平面σ键；平行p轨道与π区；C₄H₈连结候选；通式条件框
+
+关系：碳四价；双键1σ1π；局部约120°；同分子式非唯一结构
+
+中文标签：开链单烯烃；CₙH₂ₙ；σ；π；约120°
+
+公式/单位：开链单烯烃CₙH₂ₙ（n≥2），不是所有CₙH₂ₙ都为烯烃。；C=C含1σ+1π；双键碳局部近似平面、键角约120°。；每个中性碳键级总数4，逐碳补氢后复核总分子式。
+
+### 中文Prompt
+
+制作化学第28章《烯烃》28.1《烯烃的通式和结构》的教学图《烯烃通式与双键局部结构》。教学目标：由价键与结构推导单烯烃通式；说明双键几何、转动限制及通式边界。必须对象：乙烯平面σ键；平行p轨道与π区；C₄H₈连结候选；通式条件框。不可画错的关系：碳四价；双键1σ1π；局部约120°；同分子式非唯一结构。中文标签：开链单烯烃；CₙH₂ₙ；σ；π；约120°。公式、单位和条件：开链单烯烃CₙH₂ₙ（n≥2），不是所有CₙH₂ₙ都为烯烃。；C=C含1σ+1π；双键碳局部近似平面、键角约120°。；每个中性碳键级总数4，逐碳补氢后复核总分子式。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter28, authentic subsection28.1, with original Chinese title 烯烃的通式和结构. Topic-specific mandatory science: For acyclic hydrocarbons with exactly one C=C, use CnH2n for n at least2. Each neutral carbon has total bond order4. Show one sigma and one pi bond, locally planar sp2 geometry near120degrees, and distinguish a molecular formula from unique connectivity. Use deterministic structural formulas. Every neutral carbon has valence four. Preserve carbon skeleton and double-bond position unless the stated reaction changes them. Distinguish molecular formula from connectivity, cis/trans geometry from single-bond conformations, and reaction stoichiometry from reaction conditions. Do not draw a mechanism without checking electron arrows. Required objects, preserving these Chinese labels: 乙烯平面σ键；平行p轨道与π区；C₄H₈连结候选；通式条件框. Additional literal Chinese annotation strings: 开链单烯烃；CₙH₂ₙ；σ；π；约120°. Typeset and verify these reference formulas, units and stated conditions: 开链单烯烃CₙH₂ₙ（n≥2），不是所有CₙH₂ₙ都为烯烃。；C=C含1σ+1π；双键碳局部近似平面、键角约120°。；每个中性碳键级总数4，逐碳补氢后复核总分子式。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 碳四价
+- 双键1σ1π
+- 局部约120°
+- 同分子式非唯一结构
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：核对碳骨架、双键位置、取代基及反应条件后才可复用；原正确SVG不覆盖
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/organic-chemistry/pages/7-2-calculating-the-degree-of-unsaturation
+
+## B06-CHEM28-28-2 · 化学 28.2 烯烃的同分异构体
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：系统区分碳链、位置和几何异构；用双键两端取代基判是否有几何异构
+
+对象：3种连结结构；丁-2-烯顺反两图；无几何异构反例；编号检重线
+
+关系：先3连结后4立体个体；两端各不同才有；CH₂端无顺反；无环限定清晰
+
+中文标签：连结异构3；含几何形式4；相同取代基；不计构象
+
+公式/单位：开链C₄H₈连结式：丁-1-烯、丁-2-烯、2-甲基丙烯，共3种。；双键几何异构要求两端各自都有两个不同取代基。；若分别计丁-2-烯顺反，开链C₄H₈共4种；范围不含环烷烃。
+
+### 中文Prompt
+
+制作化学第28章《烯烃》28.2《烯烃的同分异构体》的教学图《C₄H₈异构枚举树》。教学目标：系统区分碳链、位置和几何异构；用双键两端取代基判是否有几何异构。必须对象：3种连结结构；丁-2-烯顺反两图；无几何异构反例；编号检重线。不可画错的关系：先3连结后4立体个体；两端各不同才有；CH₂端无顺反；无环限定清晰。中文标签：连结异构3；含几何形式4；相同取代基；不计构象。公式、单位和条件：开链C₄H₈连结式：丁-1-烯、丁-2-烯、2-甲基丙烯，共3种。；双键几何异构要求两端各自都有两个不同取代基。；若分别计丁-2-烯顺反，开链C₄H₈共4种；范围不含环烷烃。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter28, authentic subsection28.2, with original Chinese title 烯烃的同分异构体. Topic-specific mandatory science: Enumerate only the stated domain: acyclic C4H8 has3 constitutional alkenes, or4 species when cis and trans but-2-ene are separate. Each double-bond carbon must have two different substituents for the relevant geometric isomerism. Reversing a chain drawing does not add an isomer. Use deterministic structural formulas. Every neutral carbon has valence four. Preserve carbon skeleton and double-bond position unless the stated reaction changes them. Distinguish molecular formula from connectivity, cis/trans geometry from single-bond conformations, and reaction stoichiometry from reaction conditions. Do not draw a mechanism without checking electron arrows. Required objects, preserving these Chinese labels: 3种连结结构；丁-2-烯顺反两图；无几何异构反例；编号检重线. Additional literal Chinese annotation strings: 连结异构3；含几何形式4；相同取代基；不计构象. Typeset and verify these reference formulas, units and stated conditions: 开链C₄H₈连结式：丁-1-烯、丁-2-烯、2-甲基丙烯，共3种。；双键几何异构要求两端各自都有两个不同取代基。；若分别计丁-2-烯顺反，开链C₄H₈共4种；范围不含环烷烃。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 先3连结后4立体个体
+- 两端各不同才有
+- CH₂端无顺反
+- 无环限定清晰
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：核对碳骨架、双键位置、取代基及反应条件后才可复用；原正确SVG不覆盖
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/organic-chemistry/pages/7-4-cis-trans-isomerism-in-alkenes
+
+## B06-CHEM28-28-3 · 化学 28.3 系统命名法
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：以包含双键的母链正确编号命名；由名称反向构造并检验唯一连结
+
+对象：3-甲基戊-1-烯结构；两端编号对比；主链高亮；支链与补氢框
+
+关系：主链含双键；双键取1非4；甲基3位；全式C₆H₁₂
+
+中文标签：母链5碳；总6碳；双键1；甲基3
+
+公式/单位：简单单烯烃：包含C=C的适当最长链→双键较低位次→支链位次→必要立体描述。；双键位次为相连两碳编号中较小者；母链碳数不等总碳数。；反画先主链与双键，再支链，最后补氢检四价。
+
+### 中文Prompt
+
+制作化学第28章《烯烃》28.3《系统命名法》的教学图《烯烃命名与反画流程》。教学目标：以包含双键的母链正确编号命名；由名称反向构造并检验唯一连结。必须对象：3-甲基戊-1-烯结构；两端编号对比；主链高亮；支链与补氢框。不可画错的关系：主链含双键；双键取1非4；甲基3位；全式C₆H₁₂。中文标签：母链5碳；总6碳；双键1；甲基3。公式、单位和条件：简单单烯烃：包含C=C的适当最长链→双键较低位次→支链位次→必要立体描述。；双键位次为相连两碳编号中较小者；母链碳数不等总碳数。；反画先主链与双键，再支链，最后补氢检四价。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter28, authentic subsection28.3, with original Chinese title 系统命名法. Topic-specific mandatory science: Choose an appropriate longest parent containing C=C and number the double bond low before side-group locants in the simple monoalkene examples. CH2=CHCH(CH3)CH2CH3 is3-methylpent-1-ene, with5 parent carbons but6 total carbons. Verify every valence. Use deterministic structural formulas. Every neutral carbon has valence four. Preserve carbon skeleton and double-bond position unless the stated reaction changes them. Distinguish molecular formula from connectivity, cis/trans geometry from single-bond conformations, and reaction stoichiometry from reaction conditions. Do not draw a mechanism without checking electron arrows. Required objects, preserving these Chinese labels: 3-甲基戊-1-烯结构；两端编号对比；主链高亮；支链与补氢框. Additional literal Chinese annotation strings: 母链5碳；总6碳；双键1；甲基3. Typeset and verify these reference formulas, units and stated conditions: 简单单烯烃：包含C=C的适当最长链→双键较低位次→支链位次→必要立体描述。；双键位次为相连两碳编号中较小者；母链碳数不等总碳数。；反画先主链与双键，再支链，最后补氢检四价。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 主链含双键
+- 双键取1非4
+- 甲基3位
+- 全式C₆H₁₂
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：核对碳骨架、双键位置、取代基及反应条件后才可复用；原正确SVG不覆盖
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/organic-chemistry/pages/7-3-naming-alkenes
+
+## B06-CHEM28-28-4 · 化学 28.4 烯烃的物理性质
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：由分子间作用解释状态与溶解性趋势；区分定性趋势、实测性质与鉴别证据
+
+对象：链长与沸点趋势箭头；油水分层；气体密度条件框；异构形状
+
+关系：趋势不标伪造实测点；上层由较小密度说明；理想ρ依P M T；熔点另含堆积
+
+中文标签：给定温压；难溶≠零溶解；ρ=PM/RT；非唯一鉴别
+
+公式/单位：同系成员链长增加时沸点通常上升；具体状态需温压与数据。；难溶性与密度是不同性质，分层方向由密度决定。；近似理想气体ρ=PM/(RT)，同温同压密度比=M₁/M₂。
+
+### 中文Prompt
+
+制作化学第28章《烯烃》28.4《烯烃的物理性质》的教学图《烯烃物理性质的条件关系》。教学目标：由分子间作用解释状态与溶解性趋势；区分定性趋势、实测性质与鉴别证据。必须对象：链长与沸点趋势箭头；油水分层；气体密度条件框；异构形状。不可画错的关系：趋势不标伪造实测点；上层由较小密度说明；理想ρ依P M T；熔点另含堆积。中文标签：给定温压；难溶≠零溶解；ρ=PM/RT；非唯一鉴别。公式、单位和条件：同系成员链长增加时沸点通常上升；具体状态需温压与数据。；难溶性与密度是不同性质，分层方向由密度决定。；近似理想气体ρ=PM/(RT)，同温同压密度比=M₁/M₂。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter28, authentic subsection28.4, with original Chinese title 烯烃的物理性质. Topic-specific mandatory science: Separate low water solubility from density. In the given illustrative liquid,0.75g/mL times50mL gives37.5g; if immiscible with water near1g/mL it forms an upper layer. Ideal gas density PM/RT applies only with stated phase, temperature and pressure; qualitative trends are not invented measured data. Use deterministic structural formulas. Every neutral carbon has valence four. Preserve carbon skeleton and double-bond position unless the stated reaction changes them. Distinguish molecular formula from connectivity, cis/trans geometry from single-bond conformations, and reaction stoichiometry from reaction conditions. Do not draw a mechanism without checking electron arrows. Required objects, preserving these Chinese labels: 链长与沸点趋势箭头；油水分层；气体密度条件框；异构形状. Additional literal Chinese annotation strings: 给定温压；难溶≠零溶解；ρ=PM/RT；非唯一鉴别. Typeset and verify these reference formulas, units and stated conditions: 同系成员链长增加时沸点通常上升；具体状态需温压与数据。；难溶性与密度是不同性质，分层方向由密度决定。；近似理想气体ρ=PM/(RT)，同温同压密度比=M₁/M₂。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 趋势不标伪造实测点
+- 上层由较小密度说明
+- 理想ρ依P M T
+- 熔点另含堆积
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：核对碳骨架、双键位置、取代基及反应条件后才可复用；原正确SVG不覆盖
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/organic-chemistry/pages/3-5-properties-of-alkanes
+
+## B06-CHEM28-28-5-1 · 化学 28.5.1 燃烧
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：配平烯烃完全燃烧并计算气量；用氧供给和物态审查燃烧产物结论
+
+对象：丙烯与氧输入；CO₂水输出；冷却除水框；余氧；碳氢氧计数表
+
+关系：10mL丙烯耗45mL氧；剩15mL氧与30mLCO₂；水冷凝不算干气；各气同温压
+
+中文标签：完全燃烧；干气45mL；O₂余量；水物态
+
+公式/单位：CₙH₂ₙ+(3n/2)O₂→nCO₂+nH₂O，完全燃烧且物态另注明。；同温同压理想气体体积比等于相应气态计量比。；冷却、干燥改变所测气体组成；氧不足时不能强套唯一完全燃烧产物。
+
+### 中文Prompt
+
+制作化学第28章《烯烃》28.5.1《燃烧》的教学图《烯烃燃烧的物料账》。教学目标：配平烯烃完全燃烧并计算气量；用氧供给和物态审查燃烧产物结论。必须对象：丙烯与氧输入；CO₂水输出；冷却除水框；余氧；碳氢氧计数表。不可画错的关系：10mL丙烯耗45mL氧；剩15mL氧与30mLCO₂；水冷凝不算干气；各气同温压。中文标签：完全燃烧；干气45mL；O₂余量；水物态。公式、单位和条件：CₙH₂ₙ+(3n/2)O₂→nCO₂+nH₂O，完全燃烧且物态另注明。；同温同压理想气体体积比等于相应气态计量比。；冷却、干燥改变所测气体组成；氧不足时不能强套唯一完全燃烧产物。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter28, authentic subsection28.5.1, with original Chinese title 燃烧. Topic-specific mandatory science: Complete combustion of CnH2n consumes3n/2 O2 and produces nCO2 and nH2O. For10mL propene with60mL O2 at equivalent ideal-gas conditions,45mL O2 is consumed, leaving15mL O2 plus30mL CO2 after water removal. Do not count condensed water as dry gas. Use deterministic structural formulas. Every neutral carbon has valence four. Preserve carbon skeleton and double-bond position unless the stated reaction changes them. Distinguish molecular formula from connectivity, cis/trans geometry from single-bond conformations, and reaction stoichiometry from reaction conditions. Do not draw a mechanism without checking electron arrows. Required objects, preserving these Chinese labels: 丙烯与氧输入；CO₂水输出；冷却除水框；余氧；碳氢氧计数表. Additional literal Chinese annotation strings: 完全燃烧；干气45mL；O₂余量；水物态. Typeset and verify these reference formulas, units and stated conditions: CₙH₂ₙ+(3n/2)O₂→nCO₂+nH₂O，完全燃烧且物态另注明。；同温同压理想气体体积比等于相应气态计量比。；冷却、干燥改变所测气体组成；氧不足时不能强套唯一完全燃烧产物。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 10mL丙烯耗45mL氧
+- 剩15mL氧与30mLCO₂
+- 水冷凝不算干气
+- 各气同温压
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：核对碳骨架、双键位置、取代基及反应条件后才可复用；原正确SVG不覆盖
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons
+
+## B06-CHEM28-28-5-2 · 化学 28.5.2 加成反应
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：由双键及试剂判断加成产物；区分反应条件、区域选择与化学计量
+
+对象：乙烯加氢；乙烯非水溴加成；丙烯离子HBr加成；条件提示框
+
+关系：原碳骨架保留；双键改单键；各碳四价；HBr主产物注明无自由基引发
+
+中文标签：催化剂；非水简化；主要产物；介质与机制
+
+公式/单位：每个孤立C=C完全加氢通常消耗1molH₂/mol双键。；CH₂=CH₂+Br₂→CH₂BrCH₂Br（相应简化非水条件）。；区域选择依底物及机制条件；溴水褪色非双键唯一确证。
+
+### 中文Prompt
+
+制作化学第28章《烯烃》28.5.2《加成反应》的教学图《烯烃加成的结构与条件》。教学目标：由双键及试剂判断加成产物；区分反应条件、区域选择与化学计量。必须对象：乙烯加氢；乙烯非水溴加成；丙烯离子HBr加成；条件提示框。不可画错的关系：原碳骨架保留；双键改单键；各碳四价；HBr主产物注明无自由基引发。中文标签：催化剂；非水简化；主要产物；介质与机制。公式、单位和条件：每个孤立C=C完全加氢通常消耗1molH₂/mol双键。；CH₂=CH₂+Br₂→CH₂BrCH₂Br（相应简化非水条件）。；区域选择依底物及机制条件；溴水褪色非双键唯一确证。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter28, authentic subsection28.5.2, with original Chinese title 加成反应. Topic-specific mandatory science: Ordinary alkene addition retains the C-C sigma skeleton while replacing the pi bond with new bonds. Non-aqueous simple bromine addition gives vicinal dibromides; aqueous competing pathways and other bromine-consuming substances limit diagnostic specificity. Mark ionic versus radical HBr conditions before assigning regional preference. Use deterministic structural formulas. Every neutral carbon has valence four. Preserve carbon skeleton and double-bond position unless the stated reaction changes them. Distinguish molecular formula from connectivity, cis/trans geometry from single-bond conformations, and reaction stoichiometry from reaction conditions. Do not draw a mechanism without checking electron arrows. Required objects, preserving these Chinese labels: 乙烯加氢；乙烯非水溴加成；丙烯离子HBr加成；条件提示框. Additional literal Chinese annotation strings: 催化剂；非水简化；主要产物；介质与机制. Typeset and verify these reference formulas, units and stated conditions: 每个孤立C=C完全加氢通常消耗1molH₂/mol双键。；CH₂=CH₂+Br₂→CH₂BrCH₂Br（相应简化非水条件）。；区域选择依底物及机制条件；溴水褪色非双键唯一确证。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 原碳骨架保留
+- 双键改单键
+- 各碳四价
+- HBr主产物注明无自由基引发
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：核对碳骨架、双键位置、取代基及反应条件后才可复用；原正确SVG不覆盖
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/organic-chemistry/pages/7-8-orientation-of-electrophilic-additions-markovnikovs-rule
+
+## B06-CHEM28-28-5-3 · 化学 28.5.3 氧化反应
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：按氧化剂及条件判断双键温和氧化或断裂；由原双键碳上的氢推断指定断裂产物
+
+对象：烯烃双键；温和二醇路径；强氧化断裂两片；臭氧后处理提示
+
+关系：每双键碳逐端追踪；有H无H端产物区分；末端CO₂不漏碳；所有路径注明条件
+
+中文标签：冷稀适当介质；强氧化；还原性后处理；碳收支
+
+公式/单位：温和羟基化：C=C两碳各接OH，碳骨架可保留。；指定强氧化断裂：双键碳有H→相应羧酸；无H且连两碳基→酮；末端CH₂可到CO₂。；臭氧化终产物依后处理；[O]是简化当量记号，不是实际试剂身份。
+
+### 中文Prompt
+
+制作化学第28章《烯烃》28.5.3《氧化反应》的教学图《双键氧化的条件分支》。教学目标：按氧化剂及条件判断双键温和氧化或断裂；由原双键碳上的氢推断指定断裂产物。必须对象：烯烃双键；温和二醇路径；强氧化断裂两片；臭氧后处理提示。不可画错的关系：每双键碳逐端追踪；有H无H端产物区分；末端CO₂不漏碳；所有路径注明条件。中文标签：冷稀适当介质；强氧化；还原性后处理；碳收支。公式、单位和条件：温和羟基化：C=C两碳各接OH，碳骨架可保留。；指定强氧化断裂：双键碳有H→相应羧酸；无H且连两碳基→酮；末端CH₂可到CO₂。；臭氧化终产物依后处理；[O]是简化当量记号，不是实际试剂身份。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter28, authentic subsection28.5.3, with original Chinese title 氧化反应. Topic-specific mandatory science: Distinguish mild hydroxylation, strong oxidative cleavage and ozonolysis workup. Track each original double-bond carbon. Under the specified strong-oxidation model, but-2-ene yields two ethanoic-acid fragments;2-methylbut-2-ene gives acetone plus ethanoic acid. Account for terminal-carbon CO2 and all carbon atoms. Use deterministic structural formulas. Every neutral carbon has valence four. Preserve carbon skeleton and double-bond position unless the stated reaction changes them. Distinguish molecular formula from connectivity, cis/trans geometry from single-bond conformations, and reaction stoichiometry from reaction conditions. Do not draw a mechanism without checking electron arrows. Required objects, preserving these Chinese labels: 烯烃双键；温和二醇路径；强氧化断裂两片；臭氧后处理提示. Additional literal Chinese annotation strings: 冷稀适当介质；强氧化；还原性后处理；碳收支. Typeset and verify these reference formulas, units and stated conditions: 温和羟基化：C=C两碳各接OH，碳骨架可保留。；指定强氧化断裂：双键碳有H→相应羧酸；无H且连两碳基→酮；末端CH₂可到CO₂。；臭氧化终产物依后处理；[O]是简化当量记号，不是实际试剂身份。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 每双键碳逐端追踪
+- 有H无H端产物区分
+- 末端CO₂不漏碳
+- 所有路径注明条件
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：核对碳骨架、双键位置、取代基及反应条件后才可复用；原正确SVG不覆盖
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/organic-chemistry/pages/8-8-oxidation-of-alkenes-cleavage-to-carbonyl-compounds
+
+## B06-CHEM28-28-5-4 · 化学 28.5.4 聚合反应
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：从单体写正确重复单元并反推；区分重复单元、聚合度、物料收率与结构性能
+
+对象：丙烯标出两双键碳；三单元链段；括号外n；侧甲基；平均链长分布
+
+关系：C=C转C—C；每单元C₃H₆；侧甲基保留；端键伸出括号；不固定脱水
+
+中文标签：单体；重复单元；n；M平均≈nM单元
+
+公式/单位：nCH₂=CH₂→[—CH₂—CH₂—]ₙ；原双键转为链内单键。；丙烯重复单元[—CH₂—CH(CH₃)—]，侧基不丢。；忽略端基且指定平均量：平均聚合度≈M聚合物/M重复单元。
+
+### 中文Prompt
+
+制作化学第28章《烯烃》28.5.4《聚合反应》的教学图《从丙烯到重复单元》。教学目标：从单体写正确重复单元并反推；区分重复单元、聚合度、物料收率与结构性能。必须对象：丙烯标出两双键碳；三单元链段；括号外n；侧甲基；平均链长分布。不可画错的关系：C=C转C—C；每单元C₃H₆；侧甲基保留；端键伸出括号；不固定脱水。中文标签：单体；重复单元；n；M平均≈nM单元。公式、单位和条件：nCH₂=CH₂→[—CH₂—CH₂—]ₙ；原双键转为链内单键。；丙烯重复单元[—CH₂—CH(CH₃)—]，侧基不丢。；忽略端基且指定平均量：平均聚合度≈M聚合物/M重复单元。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter28, authentic subsection28.5.4, with original Chinese title 聚合反应. Topic-specific mandatory science: In polypropene the repeating unit is [-CH2-CH(CH3)-]n, with single backbone bonds and the methyl side group preserved. Extend chain bonds through both bracket edges. An average chain mass42000 with unit42 implies approximate average degree1000, not identical length for every chain. Simple addition polymerization does not release one water per unit. Use deterministic structural formulas. Every neutral carbon has valence four. Preserve carbon skeleton and double-bond position unless the stated reaction changes them. Distinguish molecular formula from connectivity, cis/trans geometry from single-bond conformations, and reaction stoichiometry from reaction conditions. Do not draw a mechanism without checking electron arrows. Required objects, preserving these Chinese labels: 丙烯标出两双键碳；三单元链段；括号外n；侧甲基；平均链长分布. Additional literal Chinese annotation strings: 单体；重复单元；n；M平均≈nM单元. Typeset and verify these reference formulas, units and stated conditions: nCH₂=CH₂→[—CH₂—CH₂—]ₙ；原双键转为链内单键。；丙烯重复单元[—CH₂—CH(CH₃)—]，侧基不丢。；忽略端基且指定平均量：平均聚合度≈M聚合物/M重复单元。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- C=C转C—C
+- 每单元C₃H₆
+- 侧甲基保留
+- 端键伸出括号
+- 不固定脱水
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：核对碳骨架、双键位置、取代基及反应条件后才可复用；原正确SVG不覆盖
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/organic-chemistry/pages/31-summary
+
+## B06-CHEM28-28-6 · 化学 28.6 烯烃的来源和制取
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：比较裂解、脱水与消去制烯路径；按产率及纯度计算并解释实验控制
+
+对象：裂解混合产物框；醇脱水；卤代烷消去；理论实际产量；气体条件
+
+关系：分馏不改连接；脱水保碳骨架；纯度收率各按定义；气量注明300K100kPa
+
+中文标签：裂解；消去；理论；实际；nRT/P
+
+公式/单位：示例裂解C₁₀H₂₂→C₈H₁₈+C₂H₄，只表示一条守恒配分而非唯一产物。；乙醇适当催化脱水：C₂H₅OH→C₂H₄+H₂O。；理论产量先算限量与比例；实际气量需纯度、收率及明确温压。
+
+### 中文Prompt
+
+制作化学第28章《烯烃》28.6《烯烃的来源和制取》的教学图《烯烃来源与制备物料图》。教学目标：比较裂解、脱水与消去制烯路径；按产率及纯度计算并解释实验控制。必须对象：裂解混合产物框；醇脱水；卤代烷消去；理论实际产量；气体条件。不可画错的关系：分馏不改连接；脱水保碳骨架；纯度收率各按定义；气量注明300K100kPa。中文标签：裂解；消去；理论；实际；nRT/P。公式、单位和条件：示例裂解C₁₀H₂₂→C₈H₁₈+C₂H₄，只表示一条守恒配分而非唯一产物。；乙醇适当催化脱水：C₂H₅OH→C₂H₄+H₂O。；理论产量先算限量与比例；实际气量需纯度、收率及明确温压。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter28, authentic subsection28.6, with original Chinese title 烯烃的来源和制取. Topic-specific mandatory science: Distinguish physical fractional distillation from chemical cracking or elimination. Ethanol dehydration gives ethene plus water in the stated catalysed model;9.2g ethanol theoretically yields5.6g ethene and80percent isolated mass yield gives4.48g. Gas volumes need explicit T and P; cracking equations are illustrative channels rather than unique product spectra. Use deterministic structural formulas. Every neutral carbon has valence four. Preserve carbon skeleton and double-bond position unless the stated reaction changes them. Distinguish molecular formula from connectivity, cis/trans geometry from single-bond conformations, and reaction stoichiometry from reaction conditions. Do not draw a mechanism without checking electron arrows. Required objects, preserving these Chinese labels: 裂解混合产物框；醇脱水；卤代烷消去；理论实际产量；气体条件. Additional literal Chinese annotation strings: 裂解；消去；理论；实际；nRT/P. Typeset and verify these reference formulas, units and stated conditions: 示例裂解C₁₀H₂₂→C₈H₁₈+C₂H₄，只表示一条守恒配分而非唯一产物。；乙醇适当催化脱水：C₂H₅OH→C₂H₄+H₂O。；理论产量先算限量与比例；实际气量需纯度、收率及明确温压。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 分馏不改连接
+- 脱水保碳骨架
+- 纯度收率各按定义
+- 气量注明300K100kPa
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：核对碳骨架、双键位置、取代基及反应条件后才可复用；原正确SVG不覆盖
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/organic-chemistry/pages/8-1-preparing-alkenes-a-preview-of-elimination-reactions
+
+## B06-CHEM32-32-1-1 · 化学 32.1.1 醇的类别和命名
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：由羟基连接对象与数目分类；按连OH碳的碳邻居区别一级二级三级并正确命名
+
+对象：苯甲醇与苯酚；一二三级醇局部；乙二醇与甘油；OH碳圈选
+
+关系：OH直接连接不同；数碳邻居非总碳；元数数OH；中心不超四价
+
+中文标签：饱和碳；芳香环碳；一级；二级；三级；二元
+
+公式/单位：醇OH连饱和碳；酚OH直接连芳香环碳；C₆H₅CH₂OH为苯甲醇。；常见一/二/三级醇按连OH碳有1/2/3个碳邻居判断。；开链饱和一元醇CₙH₂ₙ₊₂O，分子式同样可有醚异构。
+
+### 中文Prompt
+
+制作化学第32章《羟基化合物：醇、酚》32.1.1《醇的类别和命名》的教学图《醇酚及醇级数对照》。教学目标：由羟基连接对象与数目分类；按连OH碳的碳邻居区别一级二级三级并正确命名。必须对象：苯甲醇与苯酚；一二三级醇局部；乙二醇与甘油；OH碳圈选。不可画错的关系：OH直接连接不同；数碳邻居非总碳；元数数OH；中心不超四价。中文标签：饱和碳；芳香环碳；一级；二级；三级；二元。公式、单位和条件：醇OH连饱和碳；酚OH直接连芳香环碳；C₆H₅CH₂OH为苯甲醇。；常见一/二/三级醇按连OH碳有1/2/3个碳邻居判断。；开链饱和一元醇CₙH₂ₙ₊₂O，分子式同样可有醚异构。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter32, authentic subsection32.1.1, with original Chinese title 醇的类别和命名. Topic-specific mandatory science: Classify by the hydroxyl attachment: benzyl alcohol C6H5CH2OH is an alcohol, whereas C6H5OH is phenol. Count hydroxyl groups separately from the carbon neighbours of the OH-bearing carbon.2-methylpropan-2-ol has three carbon neighbours at that carbon and no attached hydrogen. Use exact organic structural formulas. Distinguish an alcohol hydroxyl attached to a saturated carbon from a phenol hydroxyl directly attached to an aromatic carbon. Oxygen has the stated valence and charge. Preserve the carbon skeleton and label reaction conditions, equilibrium and competing pathways. Hydrogen bonds are intermolecular interactions, not additional covalent O-H bonds. Required objects, preserving these Chinese labels: 苯甲醇与苯酚；一二三级醇局部；乙二醇与甘油；OH碳圈选. Additional literal Chinese annotation strings: 饱和碳；芳香环碳；一级；二级；三级；二元. Typeset and verify these reference formulas, units and stated conditions: 醇OH连饱和碳；酚OH直接连芳香环碳；C₆H₅CH₂OH为苯甲醇。；常见一/二/三级醇按连OH碳有1/2/3个碳邻居判断。；开链饱和一元醇CₙH₂ₙ₊₂O，分子式同样可有醚异构。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- OH直接连接不同
+- 数碳邻居非总碳
+- 元数数OH
+- 中心不超四价
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：只有羟基连接对象、试剂条件及原子守恒一致才复用；不得以通用酒瓶图代替官能团结构
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/organic-chemistry/pages/17-1-naming-alcohols-and-phenols
+
+## B06-CHEM32-32-1-2 · 化学 32.1.2 醇的物理性质
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：用氢键解释沸点和溶解趋势；区分分子内共价键、分子间作用及混合体积
+
+对象：醇分子O H；水分子；虚线氢键；短长碳链比较；质量体积记账
+
+关系：O正常2共价键；虚线氢键与实线区别；链长影响溶解性；质量可加非体积必加
+
+中文标签：共价O—H；分子间氢键；最终溶液体积；温度条件
+
+公式/单位：醇间氢键不同于分子内共价O—H键；汽化不等分子全部断键。；溶解性由OH亲水作用与碳氢部分共同影响，不能全醇一概互溶。；无损混合质量可加，体积未必可加；浓度使用最终溶液体积。
+
+### 中文Prompt
+
+制作化学第32章《羟基化合物：醇、酚》32.1.2《醇的物理性质》的教学图《醇水氢键与混合体积》。教学目标：用氢键解释沸点和溶解趋势；区分分子内共价键、分子间作用及混合体积。必须对象：醇分子O H；水分子；虚线氢键；短长碳链比较；质量体积记账。不可画错的关系：O正常2共价键；虚线氢键与实线区别；链长影响溶解性；质量可加非体积必加。中文标签：共价O—H；分子间氢键；最终溶液体积；温度条件。公式、单位和条件：醇间氢键不同于分子内共价O—H键；汽化不等分子全部断键。；溶解性由OH亲水作用与碳氢部分共同影响，不能全醇一概互溶。；无损混合质量可加，体积未必可加；浓度使用最终溶液体积。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter32, authentic subsection32.1.2, with original Chinese title 醇的物理性质. Topic-specific mandatory science: Distinguish intermolecular hydrogen bonds from covalent O-H bonds using dashed versus solid lines. Neutral alcohol oxygen has two ordinary covalent bonds. Long hydrocarbon segments can limit water solubility. Closed-system masses add, but pure-liquid volumes need not add to the final mixture volume. Use exact organic structural formulas. Distinguish an alcohol hydroxyl attached to a saturated carbon from a phenol hydroxyl directly attached to an aromatic carbon. Oxygen has the stated valence and charge. Preserve the carbon skeleton and label reaction conditions, equilibrium and competing pathways. Hydrogen bonds are intermolecular interactions, not additional covalent O-H bonds. Required objects, preserving these Chinese labels: 醇分子O H；水分子；虚线氢键；短长碳链比较；质量体积记账. Additional literal Chinese annotation strings: 共价O—H；分子间氢键；最终溶液体积；温度条件. Typeset and verify these reference formulas, units and stated conditions: 醇间氢键不同于分子内共价O—H键；汽化不等分子全部断键。；溶解性由OH亲水作用与碳氢部分共同影响，不能全醇一概互溶。；无损混合质量可加，体积未必可加；浓度使用最终溶液体积。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- O正常2共价键
+- 虚线氢键与实线区别
+- 链长影响溶解性
+- 质量可加非体积必加
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：只有羟基连接对象、试剂条件及原子守恒一致才复用；不得以通用酒瓶图代替官能团结构
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/organic-chemistry/pages/17-2-properties-of-alcohols-and-phenols
+
+## B06-CHEM32-32-1-3 · 化学 32.1.3 醇的化学性质
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：按断键位置及条件区分醇反应；由OH碳邻居和氢判断指定氧化产物并完整计算
+
+对象：一二三级醇；醛酸酮分支；醇盐和氢；酯化平衡；条件框
+
+关系：一级到醛酸依条件；二级到酮；三级不可套保链羰基；2OH当量给1H₂；酯化可逆
+
+中文标签：OH碳；氧化条件；2ROH；H₂；⇌
+
+公式/单位：2ROH+2Na→2RONa+H₂；一元醇与H₂量比2:1（指定无水模型）。；通常保骨架氧化：一级醇→醛→酸；二级醇→酮；三级醇不能套同式简单氧化。；羧酸+醇⇌酯+水，适当酸催化；投料计量不等平衡完全。
+
+### 中文Prompt
+
+制作化学第32章《羟基化合物：醇、酚》32.1.3《醇的化学性质》的教学图《醇反应的结构决策树》。教学目标：按断键位置及条件区分醇反应；由OH碳邻居和氢判断指定氧化产物并完整计算。必须对象：一二三级醇；醛酸酮分支；醇盐和氢；酯化平衡；条件框。不可画错的关系：一级到醛酸依条件；二级到酮；三级不可套保链羰基；2OH当量给1H₂；酯化可逆。中文标签：OH碳；氧化条件；2ROH；H₂；⇌。公式、单位和条件：2ROH+2Na→2RONa+H₂；一元醇与H₂量比2:1（指定无水模型）。；通常保骨架氧化：一级醇→醛→酸；二级醇→酮；三级醇不能套同式简单氧化。；羧酸+醇⇌酯+水，适当酸催化；投料计量不等平衡完全。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter32, authentic subsection32.1.3, with original Chinese title 醇的化学性质. Topic-specific mandatory science: Show separate alcohol pathways and their conditions: primary alcohol to aldehyde or acid, secondary alcohol to ketone, and no automatic same-skeleton carbonyl from tertiary alcohol.2ROH with2Na gives2RONa plusH2 in the specified dry model; water is an interfering source of hydrogen. Use exact organic structural formulas. Distinguish an alcohol hydroxyl attached to a saturated carbon from a phenol hydroxyl directly attached to an aromatic carbon. Oxygen has the stated valence and charge. Preserve the carbon skeleton and label reaction conditions, equilibrium and competing pathways. Hydrogen bonds are intermolecular interactions, not additional covalent O-H bonds. Required objects, preserving these Chinese labels: 一二三级醇；醛酸酮分支；醇盐和氢；酯化平衡；条件框. Additional literal Chinese annotation strings: OH碳；氧化条件；2ROH；H₂；⇌. Typeset and verify these reference formulas, units and stated conditions: 2ROH+2Na→2RONa+H₂；一元醇与H₂量比2:1（指定无水模型）。；通常保骨架氧化：一级醇→醛→酸；二级醇→酮；三级醇不能套同式简单氧化。；羧酸+醇⇌酯+水，适当酸催化；投料计量不等平衡完全。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 一级到醛酸依条件
+- 二级到酮
+- 三级不可套保链羰基
+- 2OH当量给1H₂
+- 酯化可逆
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：只有羟基连接对象、试剂条件及原子守恒一致才复用；不得以通用酒瓶图代替官能团结构
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/organic-chemistry/pages/17-7-oxidation-of-alcohols
+
+## B06-CHEM32-32-1-4 · 化学 32.1.4 醇的制取
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：按目标骨架选择水合取代或羰基还原路线；把发酵计量与实际转化分离并核产率
+
+对象：目标OH碳；烯烃水合；醛酮还原；葡萄糖发酵；转化选择回收链
+
+关系：骨架与OH位置核对；1糖2乙醇2CO₂；三个比例按定义依次作用；富集与无水不同
+
+中文标签：主产物；理论量；转化率；选择性；回收率
+
+公式/单位：适当水合：乙烯→乙醇；通常丙烯酸催化水合主要→丙-2-醇。；简单羰基还原：RCHO→RCH₂OH；R₂CO→R₂CHOH。；发酵净式C₆H₁₂O₆→2C₂H₅OH+2CO₂；180g葡萄糖理论给92g乙醇。
+
+### 中文Prompt
+
+制作化学第32章《羟基化合物：醇、酚》32.1.4《醇的制取》的教学图《醇制备路线与产率链》。教学目标：按目标骨架选择水合取代或羰基还原路线；把发酵计量与实际转化分离并核产率。必须对象：目标OH碳；烯烃水合；醛酮还原；葡萄糖发酵；转化选择回收链。不可画错的关系：骨架与OH位置核对；1糖2乙醇2CO₂；三个比例按定义依次作用；富集与无水不同。中文标签：主产物；理论量；转化率；选择性；回收率。公式、单位和条件：适当水合：乙烯→乙醇；通常丙烯酸催化水合主要→丙-2-醇。；简单羰基还原：RCHO→RCH₂OH；R₂CO→R₂CHOH。；发酵净式C₆H₁₂O₆→2C₂H₅OH+2CO₂；180g葡萄糖理论给92g乙醇。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter32, authentic subsection32.1.4, with original Chinese title 醇的制取. Topic-specific mandatory science: Preserve carbon skeleton and OH position when mapping preparation routes. Ordinary acid hydration of propene mainly gives propan-2-ol; acetone reduction also gives propan-2-ol. The net fermentation equation glucose to2ethanol plus2CO2 is not a one-step mechanism. Separate conversion, selectivity and product recovery. Use exact organic structural formulas. Distinguish an alcohol hydroxyl attached to a saturated carbon from a phenol hydroxyl directly attached to an aromatic carbon. Oxygen has the stated valence and charge. Preserve the carbon skeleton and label reaction conditions, equilibrium and competing pathways. Hydrogen bonds are intermolecular interactions, not additional covalent O-H bonds. Required objects, preserving these Chinese labels: 目标OH碳；烯烃水合；醛酮还原；葡萄糖发酵；转化选择回收链. Additional literal Chinese annotation strings: 主产物；理论量；转化率；选择性；回收率. Typeset and verify these reference formulas, units and stated conditions: 适当水合：乙烯→乙醇；通常丙烯酸催化水合主要→丙-2-醇。；简单羰基还原：RCHO→RCH₂OH；R₂CO→R₂CHOH。；发酵净式C₆H₁₂O₆→2C₂H₅OH+2CO₂；180g葡萄糖理论给92g乙醇。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 骨架与OH位置核对
+- 1糖2乙醇2CO₂
+- 三个比例按定义依次作用
+- 富集与无水不同
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：只有羟基连接对象、试剂条件及原子守恒一致才复用；不得以通用酒瓶图代替官能团结构
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/organic-chemistry/pages/17-3-preparation-of-alcohols-a-review
+
+## B06-CHEM32-32-1-5 · 化学 32.1.5 几种重要的醇
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：联系甲醇乙醇乙二醇甘油的结构与用途；用明确组成模型计算并识别用途不等安全
+
+对象：甲醇乙醇乙二醇甘油结构；OH高亮；摩尔质量表；等质量OH对比
+
+关系：逐原子匹配32 46 62 92；OH数1 1 2 3；9.2g甘油.30molOH对乙醇.20；危害注记不写饮用量
+
+中文标签：分子mol；OH mol；M；用途依配方
+
+公式/单位：甲醇CH₃OH：32；乙醇C₂H₅OH：46；乙二醇C₂H₆O₂：62；甘油C₃H₈O₃：92g/mol。；OH物质的量=物质mol×每分子OH数；单位质量须再除摩尔质量。；产品用途不等可饮用、安全等级或具体纯度；所有应用依配方与条件。
+
+### 中文Prompt
+
+制作化学第32章《羟基化合物：醇、酚》32.1.5《几种重要的醇》的教学图《四种醇的结构与OH当量》。教学目标：联系甲醇乙醇乙二醇甘油的结构与用途；用明确组成模型计算并识别用途不等安全。必须对象：甲醇乙醇乙二醇甘油结构；OH高亮；摩尔质量表；等质量OH对比。不可画错的关系：逐原子匹配32 46 62 92；OH数1 1 2 3；9.2g甘油.30molOH对乙醇.20；危害注记不写饮用量。中文标签：分子mol；OH mol；M；用途依配方。公式、单位和条件：甲醇CH₃OH：32；乙醇C₂H₅OH：46；乙二醇C₂H₆O₂：62；甘油C₃H₈O₃：92g/mol。；OH物质的量=物质mol×每分子OH数；单位质量须再除摩尔质量。；产品用途不等可饮用、安全等级或具体纯度；所有应用依配方与条件。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter32, authentic subsection32.1.5, with original Chinese title 几种重要的醇. Topic-specific mandatory science: Draw methanol, ethanol, ethylene glycol and glycerol with respective molar masses32,46,62,92g/mol and OH counts1,1,2,3. For9.2g samples, glycerol contains0.30mol OH versus ethanol0.20mol OH. Product uses are conditional and never imply drinkability or universal safety. Use exact organic structural formulas. Distinguish an alcohol hydroxyl attached to a saturated carbon from a phenol hydroxyl directly attached to an aromatic carbon. Oxygen has the stated valence and charge. Preserve the carbon skeleton and label reaction conditions, equilibrium and competing pathways. Hydrogen bonds are intermolecular interactions, not additional covalent O-H bonds. Required objects, preserving these Chinese labels: 甲醇乙醇乙二醇甘油结构；OH高亮；摩尔质量表；等质量OH对比. Additional literal Chinese annotation strings: 分子mol；OH mol；M；用途依配方. Typeset and verify these reference formulas, units and stated conditions: 甲醇CH₃OH：32；乙醇C₂H₅OH：46；乙二醇C₂H₆O₂：62；甘油C₃H₈O₃：92g/mol。；OH物质的量=物质mol×每分子OH数；单位质量须再除摩尔质量。；产品用途不等可饮用、安全等级或具体纯度；所有应用依配方与条件。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 逐原子匹配32 46 62 92
+- OH数1 1 2 3
+- 9.2g甘油.30molOH对乙醇.20
+- 危害注记不写饮用量
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：只有羟基连接对象、试剂条件及原子守恒一致才复用；不得以通用酒瓶图代替官能团结构
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/organic-chemistry/pages/17-2-properties-of-alcohols-and-phenols
+
+## B06-CHEM32-32-2-1 · 化学 32.2.1 苯酚的物理性质
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：从结构解释苯酚的氢键与溶解行为；区分溶解、熔化及形成盐后的性质变化
+
+对象：中性苯酚；水相有限溶解；加OH⁻成盐；酸化返回；浓度阈值
+
+关系：物理溶解不改连结；成盐OH失质子且O负电；低浓度酸化可无沉淀；无伪造实测溶解度
+
+中文标签：中性分子；苯酚盐；温度；浓度条件
+
+公式/单位：苯酚OH直接连芳香环，氢键与疏水部分共同影响物性。；溶解≠熔化≠分解；有限溶解不等零溶解。；加碱成苯酚盐为化学改变；酸化后是否析出仍需浓度温度条件。
+
+### 中文Prompt
+
+制作化学第32章《羟基化合物：醇、酚》32.2.1《苯酚的物理性质》的教学图《苯酚溶解与成盐的区别》。教学目标：从结构解释苯酚的氢键与溶解行为；区分溶解、熔化及形成盐后的性质变化。必须对象：中性苯酚；水相有限溶解；加OH⁻成盐；酸化返回；浓度阈值。不可画错的关系：物理溶解不改连结；成盐OH失质子且O负电；低浓度酸化可无沉淀；无伪造实测溶解度。中文标签：中性分子；苯酚盐；温度；浓度条件。公式、单位和条件：苯酚OH直接连芳香环，氢键与疏水部分共同影响物性。；溶解≠熔化≠分解；有限溶解不等零溶解。；加碱成苯酚盐为化学改变；酸化后是否析出仍需浓度温度条件。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter32, authentic subsection32.2.1, with original Chinese title 苯酚的物理性质. Topic-specific mandatory science: Phenol has an OH directly on aromatic carbon. Separate neutral phenol dissolution, melting and chemical conversion to phenoxide. Acidification can produce dissolved neutral phenol without a visible precipitate when below solubility. Do not depict illustrative solubility values as measured constants. Use exact organic structural formulas. Distinguish an alcohol hydroxyl attached to a saturated carbon from a phenol hydroxyl directly attached to an aromatic carbon. Oxygen has the stated valence and charge. Preserve the carbon skeleton and label reaction conditions, equilibrium and competing pathways. Hydrogen bonds are intermolecular interactions, not additional covalent O-H bonds. Required objects, preserving these Chinese labels: 中性苯酚；水相有限溶解；加OH⁻成盐；酸化返回；浓度阈值. Additional literal Chinese annotation strings: 中性分子；苯酚盐；温度；浓度条件. Typeset and verify these reference formulas, units and stated conditions: 苯酚OH直接连芳香环，氢键与疏水部分共同影响物性。；溶解≠熔化≠分解；有限溶解不等零溶解。；加碱成苯酚盐为化学改变；酸化后是否析出仍需浓度温度条件。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 物理溶解不改连结
+- 成盐OH失质子且O负电
+- 低浓度酸化可无沉淀
+- 无伪造实测溶解度
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：只有羟基连接对象、试剂条件及原子守恒一致才复用；不得以通用酒瓶图代替官能团结构
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/organic-chemistry/pages/17-2-properties-of-alcohols-and-phenols
+
+## B06-CHEM32-32-2-2 · 化学 32.2.2 苯酚的化学性质
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：由共轭碱与活化环解释苯酚反应；依据酸碱强弱及条件区分鉴别证据
+
+对象：苯氧离子负电；NaOH成盐；HCO₃⁻比较；2 4 6溴取代环；3HBr
+
+关系：负电不画成丢O；OH氢与环氢区分；3Br₂守恒6Br；环芳香骨架保留；碳酸两步分开
+
+中文标签：OH；O⁻；邻对位；取代；鉴别有条件
+
+公式/单位：C₆H₅OH+OH⁻→C₆H₅O⁻+H₂O；比较共轭碱稳定性。；常规NaHCO₃不与苯酚给羧酸式定量放CO₂；CO₃²⁻须另审酸碱对。；足量溴水：C₆H₅OH+3Br₂→C₆H₂Br₃OH+3HBr，环取代非苯环加成。
+
+### 中文Prompt
+
+制作化学第32章《羟基化合物：醇、酚》32.2.2《苯酚的化学性质》的教学图《苯酚酸碱与溴取代》。教学目标：由共轭碱与活化环解释苯酚反应；依据酸碱强弱及条件区分鉴别证据。必须对象：苯氧离子负电；NaOH成盐；HCO₃⁻比较；2 4 6溴取代环；3HBr。不可画错的关系：负电不画成丢O；OH氢与环氢区分；3Br₂守恒6Br；环芳香骨架保留；碳酸两步分开。中文标签：OH；O⁻；邻对位；取代；鉴别有条件。公式、单位和条件：C₆H₅OH+OH⁻→C₆H₅O⁻+H₂O；比较共轭碱稳定性。；常规NaHCO₃不与苯酚给羧酸式定量放CO₂；CO₃²⁻须另审酸碱对。；足量溴水：C₆H₅OH+3Br₂→C₆H₂Br₃OH+3HBr，环取代非苯环加成。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter32, authentic subsection32.2.2, with original Chinese title 苯酚的化学性质. Topic-specific mandatory science: Phenol plus OH- forms phenoxide plus water. Carbonate and hydrogen carbonate are different bases and require the correct acid-base pair. In the specified excess bromine-water model, substitute ring H at2,4,6 to give tribromophenol plus3HBr from3Br2; retain the aromatic skeleton and account for all six bromine atoms. Use exact organic structural formulas. Distinguish an alcohol hydroxyl attached to a saturated carbon from a phenol hydroxyl directly attached to an aromatic carbon. Oxygen has the stated valence and charge. Preserve the carbon skeleton and label reaction conditions, equilibrium and competing pathways. Hydrogen bonds are intermolecular interactions, not additional covalent O-H bonds. Required objects, preserving these Chinese labels: 苯氧离子负电；NaOH成盐；HCO₃⁻比较；2 4 6溴取代环；3HBr. Additional literal Chinese annotation strings: OH；O⁻；邻对位；取代；鉴别有条件. Typeset and verify these reference formulas, units and stated conditions: C₆H₅OH+OH⁻→C₆H₅O⁻+H₂O；比较共轭碱稳定性。；常规NaHCO₃不与苯酚给羧酸式定量放CO₂；CO₃²⁻须另审酸碱对。；足量溴水：C₆H₅OH+3Br₂→C₆H₂Br₃OH+3HBr，环取代非苯环加成。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 负电不画成丢O
+- OH氢与环氢区分
+- 3Br₂守恒6Br
+- 环芳香骨架保留
+- 碳酸两步分开
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：只有羟基连接对象、试剂条件及原子守恒一致才复用；不得以通用酒瓶图代替官能团结构
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/organic-chemistry/pages/17-10-reactions-of-phenols
+
+## B06-CHEM32-32-2-3 · 化学 32.2.3 苯酚的工业制法
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：从异丙苯氧化裂解说明苯酚与丙酮联产；完整核碳氧和理论收率而不混淆各步骤
+
+对象：异丙苯；过氧中间体示意；苯酚丙酮；O₂入口；质量平衡
+
+关系：9碳分6加3；O—O—H连接正确；净1:1联产；120+32=94+58；非操作流程
+
+中文标签：氧化；酸催化裂解；净物料式；理论联产
+
+公式/单位：异丙苯C₆H₅CH(CH₃)₂，经相应氧化及酸催化裂解联产苯酚、丙酮。；净式C₉H₁₂+O₂→C₆H₆O+C₃H₆O；摩尔比1:1:1:1。；120g异丙苯+32gO₂理论给94g苯酚+58g丙酮；净式非一步操作。
+
+### 中文Prompt
+
+制作化学第32章《羟基化合物：醇、酚》32.2.3《苯酚的工业制法》的教学图《异丙苯法的结构与物料》。教学目标：从异丙苯氧化裂解说明苯酚与丙酮联产；完整核碳氧和理论收率而不混淆各步骤。必须对象：异丙苯；过氧中间体示意；苯酚丙酮；O₂入口；质量平衡。不可画错的关系：9碳分6加3；O—O—H连接正确；净1:1联产；120+32=94+58；非操作流程。中文标签：氧化；酸催化裂解；净物料式；理论联产。公式、单位和条件：异丙苯C₆H₅CH(CH₃)₂，经相应氧化及酸催化裂解联产苯酚、丙酮。；净式C₉H₁₂+O₂→C₆H₆O+C₃H₆O；摩尔比1:1:1:1。；120g异丙苯+32gO₂理论给94g苯酚+58g丙酮；净式非一步操作。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter32, authentic subsection32.2.3, with original Chinese title 苯酚的工业制法. Topic-specific mandatory science: Cumene is C6H5CH(CH3)2, not n-propylbenzene. Show a correctly connected hydroperoxide intermediate and condition-labelled cleavage to phenol plus acetone. The net balance C9H12+O2 toC6H6O+C3H6O gives120+32=94+58g, and is not a single-step or operational safety diagram. Use exact organic structural formulas. Distinguish an alcohol hydroxyl attached to a saturated carbon from a phenol hydroxyl directly attached to an aromatic carbon. Oxygen has the stated valence and charge. Preserve the carbon skeleton and label reaction conditions, equilibrium and competing pathways. Hydrogen bonds are intermolecular interactions, not additional covalent O-H bonds. Required objects, preserving these Chinese labels: 异丙苯；过氧中间体示意；苯酚丙酮；O₂入口；质量平衡. Additional literal Chinese annotation strings: 氧化；酸催化裂解；净物料式；理论联产. Typeset and verify these reference formulas, units and stated conditions: 异丙苯C₆H₅CH(CH₃)₂，经相应氧化及酸催化裂解联产苯酚、丙酮。；净式C₉H₁₂+O₂→C₆H₆O+C₃H₆O；摩尔比1:1:1:1。；120g异丙苯+32gO₂理论给94g苯酚+58g丙酮；净式非一步操作。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 9碳分6加3
+- O—O—H连接正确
+- 净1:1联产
+- 120+32=94+58
+- 非操作流程
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：只有羟基连接对象、试剂条件及原子守恒一致才复用；不得以通用酒瓶图代替官能团结构
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf
+- https://openstax.org/books/organic-chemistry/pages/17-9-phenols-and-their-uses
+
 ## B06-MATH06-6-1 · 数学 6.1 不等式及其性质
 
 优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
@@ -3528,6 +4566,823 @@ No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charge
 来源：
 - https://www.scribd.com/document/1058092101/数学-高一上册
 - https://math.libretexts.org/Bookshelves/Applied_Mathematics/Applied_Finite_Mathematics_%28Sekhon_and_Bloom%29/03%3A_Linear_Programming_-_A_Geometric_Approach/3.01%3A_Maximization_Applications
+
+## B06-MATH07-7-1 · 数学 7.1 命题
+
+优先级：P1；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：判断陈述是否为有确定真值的命题；区分命题真假、开放语句与带条件陈述
+
+对象：真陈述；假陈述；命令问句；P(x)；赋值量化分支
+
+关系：假陈述仍命题；未定x可能真值不同；量词需域；全称反例合域
+
+中文标签：命题；真/假；开放语句；定义域；反例
+
+公式/单位：命题可真可假；问题和命令通常不是真假陈述。；开放语句P(x)需指定x或给量词与域后才成完整命题。；反驳全称p⇒q需合域对象使p真、q假。
+
+### 中文Prompt
+
+制作数学第7章《逻辑》7.1《命题》的教学图《命题开放语句的判别树》。教学目标：判断陈述是否为有确定真值的命题；区分命题真假、开放语句与带条件陈述。必须对象：真陈述；假陈述；命令问句；P(x)；赋值量化分支。不可画错的关系：假陈述仍命题；未定x可能真值不同；量词需域；全称反例合域。中文标签：命题；真/假；开放语句；定义域；反例。公式、单位和条件：命题可真可假；问题和命令通常不是真假陈述。；开放语句P(x)需指定x或给量词与域后才成完整命题。；反驳全称p⇒q需合域对象使p真、q假。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter7, authentic subsection7.1, with original Chinese title 命题. Topic-specific mandatory science: A false statement is still a proposition. Contrast a fixed statement with an unassigned open sentence and with a question or command. A counterexample to a universal implication must lie in the domain and make its antecedent true and consequent false. Use exact logical diagrams and truth tables. Define the domain and every proposition. Inclusive OR differs from exclusive OR. Implication fails only when the antecedent is true and the consequent false; arrows do not claim causality. Quantifier order and negation must be preserved, and examples are not universal proofs. Required objects, preserving these Chinese labels: 真陈述；假陈述；命令问句；P(x)；赋值量化分支. Additional literal Chinese annotation strings: 命题；真/假；开放语句；定义域；反例. Typeset and verify these reference formulas, units and stated conditions: 命题可真可假；问题和命令通常不是真假陈述。；开放语句P(x)需指定x或给量词与域后才成完整命题。；反驳全称p⇒q需合域对象使p真、q假。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 假陈述仍命题
+- 未定x可能真值不同
+- 量词需域
+- 全称反例合域
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：逻辑图须核量词域、箭头及真值；普通流程图不得自动当蕴含证明
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf
+- https://math.libretexts.org/Bookshelves/Mathematical_Logic_and_Proof/Book%3A_Mathematical_Reasoning__Writing_and_Proof_(Sundstrom)/02%3A_Logical_Reasoning
+
+## B06-MATH07-7-2 · 数学 7.2 逻辑联结词“非”、“且”及“或”
+
+优先级：P1；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：构造否定合取析取的真值表；正确否定复合条件和不等式而不漏边界
+
+对象：四行真值表；集合并交图；1<x≤5数轴；否定范围括号
+
+关系：∨的TT行真；非且为或；原1不含5含；否定1含5不含
+
+中文标签：¬；∧；∨；实数域；等号边界
+
+公式/单位：非p反真值；p∧q只TT真；p∨q只FF假，∨通常包容或。；¬(p∧q)≡¬p∨¬q；¬(p∨q)≡¬p∧¬q。；实数域¬(x>a)为x≤a；复合不等式否定注意等号与域。
+
+### 中文Prompt
+
+制作数学第7章《逻辑》7.2《逻辑联结词“非”、“且”及“或”》的教学图《联结词真值与区间否定》。教学目标：构造否定合取析取的真值表；正确否定复合条件和不等式而不漏边界。必须对象：四行真值表；集合并交图；1<x≤5数轴；否定范围括号。不可画错的关系：∨的TT行真；非且为或；原1不含5含；否定1含5不含。中文标签：¬；∧；∨；实数域；等号边界。公式、单位和条件：非p反真值；p∧q只TT真；p∨q只FF假，∨通常包容或。；¬(p∧q)≡¬p∨¬q；¬(p∨q)≡¬p∧¬q。；实数域¬(x>a)为x≤a；复合不等式否定注意等号与域。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter7, authentic subsection7.2, with original Chinese title 逻辑联结词“非”、“且”及“或”. Topic-specific mandatory science: Give all four truth assignments for two independent propositions. OR is inclusive unless stated otherwise. Negating1<x<=5 over the real numbers gives x<=1 OR x>5, with the correct endpoint circles. Use exact logical diagrams and truth tables. Define the domain and every proposition. Inclusive OR differs from exclusive OR. Implication fails only when the antecedent is true and the consequent false; arrows do not claim causality. Quantifier order and negation must be preserved, and examples are not universal proofs. Required objects, preserving these Chinese labels: 四行真值表；集合并交图；1<x≤5数轴；否定范围括号. Additional literal Chinese annotation strings: ¬；∧；∨；实数域；等号边界. Typeset and verify these reference formulas, units and stated conditions: 非p反真值；p∧q只TT真；p∨q只FF假，∨通常包容或。；¬(p∧q)≡¬p∨¬q；¬(p∨q)≡¬p∧¬q。；实数域¬(x>a)为x≤a；复合不等式否定注意等号与域。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- ∨的TT行真
+- 非且为或
+- 原1不含5含
+- 否定1含5不含
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：逻辑图须核量词域、箭头及真值；普通流程图不得自动当蕴含证明
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf
+- https://math.libretexts.org/Bookshelves/Mathematical_Logic_and_Proof/Book%3A_Mathematical_Reasoning__Writing_and_Proof_(Sundstrom)/02%3A_Logical_Reasoning
+
+## B06-MATH07-7-3 · 数学 7.3 全称量词与存在量词
+
+优先级：P1；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：明确量词顺序和变量依赖；正确否定全称存在陈述并给证明或反例
+
+对象：∀x后选y=x+1；固定y再遍历x；量词否定箭头；合域见证
+
+关系：逐x可选不同y；固定y被x=y+1反驳；∀∃否定为∃∀；内不等式含等号
+
+中文标签：定义域R；依赖；见证；反例；唯一性另证
+
+公式/单位：¬(∀x∈D,P)≡∃x∈D,¬P；¬(∃x∈D,P)≡∀x∈D,¬P。；∀x∃y允许y依赖x；∃y∀x要求先固定同一个y。；存在不等唯一；否定与证明都保留同一定义域。
+
+### 中文Prompt
+
+制作数学第7章《逻辑》7.3《全称量词与存在量词》的教学图《量词顺序与否定》。教学目标：明确量词顺序和变量依赖；正确否定全称存在陈述并给证明或反例。必须对象：∀x后选y=x+1；固定y再遍历x；量词否定箭头；合域见证。不可画错的关系：逐x可选不同y；固定y被x=y+1反驳；∀∃否定为∃∀；内不等式含等号。中文标签：定义域R；依赖；见证；反例；唯一性另证。公式、单位和条件：¬(∀x∈D,P)≡∃x∈D,¬P；¬(∃x∈D,P)≡∀x∈D,¬P。；∀x∃y允许y依赖x；∃y∀x要求先固定同一个y。；存在不等唯一；否定与证明都保留同一定义域。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter7, authentic subsection7.3, with original Chinese title 全称量词与存在量词. Topic-specific mandatory science: Preserve domains and quantifier order. For every real x there is a real y>x via y=x+1, but one fixed real y cannot exceed every real x. Negating all-exists gives exists-all with the inner predicate negated. Use exact logical diagrams and truth tables. Define the domain and every proposition. Inclusive OR differs from exclusive OR. Implication fails only when the antecedent is true and the consequent false; arrows do not claim causality. Quantifier order and negation must be preserved, and examples are not universal proofs. Required objects, preserving these Chinese labels: ∀x后选y=x+1；固定y再遍历x；量词否定箭头；合域见证. Additional literal Chinese annotation strings: 定义域R；依赖；见证；反例；唯一性另证. Typeset and verify these reference formulas, units and stated conditions: ¬(∀x∈D,P)≡∃x∈D,¬P；¬(∃x∈D,P)≡∀x∈D,¬P。；∀x∃y允许y依赖x；∃y∀x要求先固定同一个y。；存在不等唯一；否定与证明都保留同一定义域。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 逐x可选不同y
+- 固定y被x=y+1反驳
+- ∀∃否定为∃∀
+- 内不等式含等号
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：逻辑图须核量词域、箭头及真值；普通流程图不得自动当蕴含证明
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf
+- https://math.libretexts.org/Bookshelves/Mathematical_Logic_and_Proof/Book%3A_Mathematical_Reasoning__Writing_and_Proof_(Sundstrom)/02%3A_Logical_Reasoning
+
+## B06-MATH07-7-4 · 数学 7.4 充分条件、必要条件及充要条件
+
+优先级：P1；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：由蕴含方向准确解释充分必要；用解集包含及反例判定双向关系
+
+对象：域框；P在Q内；P等Q对照；x3与−3标点；方向箭头
+
+关系：P⊆Q表示p充分于q；q必要于p；充要双包含；非负域去−3
+
+中文标签：p⇒q；充分；必要；P⊆Q；反例
+
+公式/单位：p⇒q：p为q充分条件，q为p必要条件；p⇔q需两向。；P⊆Q对应p⇒q；P=Q对应充要，域必须相同。；p⇒q等价¬q⇒¬p，一般不等逆q⇒p。
+
+### 中文Prompt
+
+制作数学第7章《逻辑》7.4《充分条件、必要条件及充要条件》的教学图《充分必要的解集包含》。教学目标：由蕴含方向准确解释充分必要；用解集包含及反例判定双向关系。必须对象：域框；P在Q内；P等Q对照；x3与−3标点；方向箭头。不可画错的关系：P⊆Q表示p充分于q；q必要于p；充要双包含；非负域去−3。中文标签：p⇒q；充分；必要；P⊆Q；反例。公式、单位和条件：p⇒q：p为q充分条件，q为p必要条件；p⇔q需两向。；P⊆Q对应p⇒q；P=Q对应充要，域必须相同。；p⇒q等价¬q⇒¬p，一般不等逆q⇒p。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter7, authentic subsection7.4, with original Chinese title 充分条件、必要条件及充要条件. Topic-specific mandatory science: For truth sets P and Q in one domain, P subset Q means p is sufficient for q and q necessary for p. In the real domain x=3 implies x squared=9 but not conversely because x=-3; in the nonnegative domain they are equivalent. Use exact logical diagrams and truth tables. Define the domain and every proposition. Inclusive OR differs from exclusive OR. Implication fails only when the antecedent is true and the consequent false; arrows do not claim causality. Quantifier order and negation must be preserved, and examples are not universal proofs. Required objects, preserving these Chinese labels: 域框；P在Q内；P等Q对照；x3与−3标点；方向箭头. Additional literal Chinese annotation strings: p⇒q；充分；必要；P⊆Q；反例. Typeset and verify these reference formulas, units and stated conditions: p⇒q：p为q充分条件，q为p必要条件；p⇔q需两向。；P⊆Q对应p⇒q；P=Q对应充要，域必须相同。；p⇒q等价¬q⇒¬p，一般不等逆q⇒p。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- P⊆Q表示p充分于q
+- q必要于p
+- 充要双包含
+- 非负域去−3
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：逻辑图须核量词域、箭头及真值；普通流程图不得自动当蕴含证明
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf
+- https://math.libretexts.org/Bookshelves/Mathematical_Logic_and_Proof/Book%3A_Mathematical_Reasoning__Writing_and_Proof_(Sundstrom)/02%3A_Logical_Reasoning
+
+## B06-MATH07-7-5 · 数学 7.5 推理
+
+优先级：P1；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：区分有效演绎与有限归纳猜想；识别常见无效形式并写完整数学论证
+
+对象：肯前否后两卡；肯后否前反例；整数奇偶分类树；n40合数核验
+
+关系：形式有效需全真前提保结论；n2驳偶数逆推4倍数；分类覆盖整数；1681=41²
+
+中文标签：前提；结论；有效；反例；基步与递推
+
+公式/单位：有效：p⇒q,p⊢q；p⇒q,¬q⊢¬p。；一般无效：p⇒q,q⊢p；p⇒q,¬p⊢¬q。；有限经验例不能代全称证明；数学归纳法需基步及有效递推。
+
+### 中文Prompt
+
+制作数学第7章《逻辑》7.5《推理》的教学图《有效推理与反例检验》。教学目标：区分有效演绎与有限归纳猜想；识别常见无效形式并写完整数学论证。必须对象：肯前否后两卡；肯后否前反例；整数奇偶分类树；n40合数核验。不可画错的关系：形式有效需全真前提保结论；n2驳偶数逆推4倍数；分类覆盖整数；1681=41²。中文标签：前提；结论；有效；反例；基步与递推。公式、单位和条件：有效：p⇒q,p⊢q；p⇒q,¬q⊢¬p。；一般无效：p⇒q,q⊢p；p⇒q,¬p⊢¬q。；有限经验例不能代全称证明；数学归纳法需基步及有效递推。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter7, authentic subsection7.5, with original Chinese title 推理. Topic-specific mandatory science: Modus ponens and modus tollens are valid; affirming the consequent and denying the antecedent are generally invalid. Cover all integer parity cases to prove n(n+1) even. The sample n=40 gives n squared+n+41=1681=41 squared, refuting a universal prime conjecture. Use exact logical diagrams and truth tables. Define the domain and every proposition. Inclusive OR differs from exclusive OR. Implication fails only when the antecedent is true and the consequent false; arrows do not claim causality. Quantifier order and negation must be preserved, and examples are not universal proofs. Required objects, preserving these Chinese labels: 肯前否后两卡；肯后否前反例；整数奇偶分类树；n40合数核验. Additional literal Chinese annotation strings: 前提；结论；有效；反例；基步与递推. Typeset and verify these reference formulas, units and stated conditions: 有效：p⇒q,p⊢q；p⇒q,¬q⊢¬p。；一般无效：p⇒q,q⊢p；p⇒q,¬p⊢¬q。；有限经验例不能代全称证明；数学归纳法需基步及有效递推。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 形式有效需全真前提保结论
+- n2驳偶数逆推4倍数
+- 分类覆盖整数
+- 1681=41²
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：逻辑图须核量词域、箭头及真值；普通流程图不得自动当蕴含证明
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf
+- https://math.libretexts.org/Bookshelves/Mathematical_Logic_and_Proof/Book%3A_Mathematical_Reasoning__Writing_and_Proof_(Sundstrom)/02%3A_Logical_Reasoning
+
+## B06-MATH08-8-1 · 数学 8.1 任意角的概念与度量
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：用旋转和终边说明任意角及同终边角；准确换算角度弧度并连接角速度
+
+对象：坐标轴与始边；−150°顺时针弧；210°逆时针弧；半径r和弧s；累计转数
+
+关系：两角终边相同差一周；θ=s/r用rad；[0,2π)端点清晰；累计不强制取模
+
+中文标签：始边；终边；−5π/6；7π/6；2π
+
+公式/单位：360°=2πrad；θ_rad=θ_degπ/180，θ_deg=θ_rad180/π。；同终边角α+2πk（rad），k∈Z；区间代表按端点筛选。；ω=2πf；rpm先除60，累计角不先模一周。
+
+### 中文Prompt
+
+制作数学第8章《角度与弧度》8.1《任意角的概念与度量》的教学图《任意角与同终边代表》。教学目标：用旋转和终边说明任意角及同终边角；准确换算角度弧度并连接角速度。必须对象：坐标轴与始边；−150°顺时针弧；210°逆时针弧；半径r和弧s；累计转数。不可画错的关系：两角终边相同差一周；θ=s/r用rad；[0,2π)端点清晰；累计不强制取模。中文标签：始边；终边；−5π/6；7π/6；2π。公式、单位和条件：360°=2πrad；θ_rad=θ_degπ/180，θ_deg=θ_rad180/π。；同终边角α+2πk（rad），k∈Z；区间代表按端点筛选。；ω=2πf；rpm先除60，累计角不先模一周。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter8, authentic subsection8.1, with original Chinese title 任意角的概念与度量. Topic-specific mandatory science: Use counterclockwise positive accumulated angles. Minus150degrees and210degrees share a terminal ray but differ by one revolution.180degrees equals pi radians. Standard-position axis rays are not inside quadrants; reducing modulo one turn must not erase accumulated rotational distance. Draw exact angular geometry with a defined initial ray, orientation and radius. Distinguish a directed accumulated angle from a smaller geometric angle and from its coterminal representative. Arc and sector formulas require radians. Show dimensions and endpoints, with no decorative perspective distorting the quantitative relations. Required objects, preserving these Chinese labels: 坐标轴与始边；−150°顺时针弧；210°逆时针弧；半径r和弧s；累计转数. Additional literal Chinese annotation strings: 始边；终边；−5π/6；7π/6；2π. Typeset and verify these reference formulas, units and stated conditions: 360°=2πrad；θ_rad=θ_degπ/180，θ_deg=θ_rad180/π。；同终边角α+2πk（rad），k∈Z；区间代表按端点筛选。；ω=2πf；rpm先除60，累计角不先模一周。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 两角终边相同差一周
+- θ=s/r用rad
+- [0,2π)端点清晰
+- 累计不强制取模
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：角度图核有向旋转、弧度及半径；旧图正确且条件一致才复用
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf
+- https://openstax.org/books/precalculus-2e/pages/5-1-angles
+
+## B06-MATH08-8-2 · 数学 8.2 弧长与扇形面积
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：从整圆比例推导弧长与扇形面积；在组合周界、弓形及优化中使用正确几何条件
+
+对象：r6 θ120扇形；弧和弦不同线；两半径周界；环扇；小弓形阴影
+
+关系：s4π与A12π单位不同；P含2r；弓形扇减三角；环扇平方差
+
+中文标签：r；θ(rad)；弧s；弦；面积；周长
+
+公式/单位：θ为rad：s=rθ，A扇=½r²θ，P扇=rθ+2r。；对应0≤θ≤π的小弓形A弓=½r²(θ−sinθ)，弦2r sin(θ/2)。；环形扇A=½(R²−r²)θ，周界需两弧加两条R−r。
+
+### 中文Prompt
+
+制作数学第8章《角度与弧度》8.2《弧长与扇形面积》的教学图《扇形弧弦与组合面积》。教学目标：从整圆比例推导弧长与扇形面积；在组合周界、弓形及优化中使用正确几何条件。必须对象：r6 θ120扇形；弧和弦不同线；两半径周界；环扇；小弓形阴影。不可画错的关系：s4π与A12π单位不同；P含2r；弓形扇减三角；环扇平方差。中文标签：r；θ(rad)；弧s；弦；面积；周长。公式、单位和条件：θ为rad：s=rθ，A扇=½r²θ，P扇=rθ+2r。；对应0≤θ≤π的小弓形A弓=½r²(θ−sinθ)，弦2r sin(θ/2)。；环形扇A=½(R²−r²)θ，周界需两弧加两条R−r。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter8, authentic subsection8.2, with original Chinese title 弧长与扇形面积. Topic-specific mandatory science: For radius6cm and angle120degrees=2pi/3 radians, arc length4pi cm and sector area12pi cm squared. The sector perimeter also includes2r. Distinguish chord from arc and minor segment from sector. The formulas s=r theta and area=r squared theta/2 require radians. Draw exact angular geometry with a defined initial ray, orientation and radius. Distinguish a directed accumulated angle from a smaller geometric angle and from its coterminal representative. Arc and sector formulas require radians. Show dimensions and endpoints, with no decorative perspective distorting the quantitative relations. Required objects, preserving these Chinese labels: r6 θ120扇形；弧和弦不同线；两半径周界；环扇；小弓形阴影. Additional literal Chinese annotation strings: r；θ(rad)；弧s；弦；面积；周长. Typeset and verify these reference formulas, units and stated conditions: θ为rad：s=rθ，A扇=½r²θ，P扇=rθ+2r。；对应0≤θ≤π的小弓形A弓=½r²(θ−sinθ)，弦2r sin(θ/2)。；环形扇A=½(R²−r²)θ，周界需两弧加两条R−r。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- s4π与A12π单位不同
+- P含2r
+- 弓形扇减三角
+- 环扇平方差
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：角度图核有向旋转、弧度及半径；旧图正确且条件一致才复用
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf
+- https://openstax.org/books/precalculus-2e/pages/5-1-angles
+
+## B06-MATH09-9-1 · 数学 9.1 任意角的三角函数
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：用终边坐标统一定义任意角三角值；由象限与已知值确定符号及未定义点
+
+对象：等比例单位圆；P(−5,12)相似射线；x y r直角三角；象限符号；轴上排除点
+
+关系：r13正；sin12/13 cos−5/13；tan在x0未定义；单位圆坐标cos sin
+
+中文标签：x；y；r；θ；定义域
+
+公式/单位：r>0：sinθ=y/r，cosθ=x/r，tanθ=y/x（x≠0）。；sin²θ+cos²θ=1；求平方根符号依象限，未给范围需分支。；单位圆P=(cosθ,sinθ)，θ为有向角；函数分母零处单独排除。
+
+### 中文Prompt
+
+制作数学第9章《任意角的三角函数》9.1《任意角的三角函数》的教学图《任意角的坐标定义》。教学目标：用终边坐标统一定义任意角三角值；由象限与已知值确定符号及未定义点。必须对象：等比例单位圆；P(−5,12)相似射线；x y r直角三角；象限符号；轴上排除点。不可画错的关系：r13正；sin12/13 cos−5/13；tan在x0未定义；单位圆坐标cos sin。中文标签：x；y；r；θ；定义域。公式、单位和条件：r>0：sinθ=y/r，cosθ=x/r，tanθ=y/x（x≠0）。；sin²θ+cos²θ=1；求平方根符号依象限，未给范围需分支。；单位圆P=(cosθ,sinθ)，θ为有向角；函数分母零处单独排除。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter9, authentic subsection9.1, with original Chinese title 任意角的三角函数. Topic-specific mandatory science: On equal-scale Cartesian axes use r positive. A terminal-ray point(-5,12) gives r13,sine12/13,cosine-5/13,tangent-12/5. Axis angles require explicit denominator checks; tangent undefined need not mean cotangent undefined under its coordinate definition. Plot from exact trigonometric formulas with labelled radian axes and domains. Preserve quadrant signs, open asymptotes and principal inverse branches. A pole is not joined by a curve. The reciprocal function is not the inverse function. Mark amplitude, period, horizontal shift and vertical shift separately. Required objects, preserving these Chinese labels: 等比例单位圆；P(−5,12)相似射线；x y r直角三角；象限符号；轴上排除点. Additional literal Chinese annotation strings: x；y；r；θ；定义域. Typeset and verify these reference formulas, units and stated conditions: r>0：sinθ=y/r，cosθ=x/r，tanθ=y/x（x≠0）。；sin²θ+cos²θ=1；求平方根符号依象限，未给范围需分支。；单位圆P=(cosθ,sinθ)，θ为有向角；函数分母零处单独排除。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- r13正
+- sin12/13 cos−5/13
+- tan在x0未定义
+- 单位圆坐标cos sin
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：三角函数图须核角单位、定义域断点与缩放；已有正确图条件相同才可复用
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf
+- https://openstax.org/books/precalculus-2e/pages/5-2-unit-circle-sine-and-cosine-functions
+
+## B06-MATH09-9-2 · 数学 9.2 三角函数的诱导公式
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：由单位圆对称推导诱导关系；化大角负角为参考角并保留函数及符号条件
+
+对象：θ点；−θ反射；π−θ反射；π+θ半周；π/2+θ旋转
+
+关系：反射x或y符号正确；半周两坐标反；四分之一周坐标交换带号；角单位统一
+
+中文标签：cosθ；sinθ；对称；周期2π；原域
+
+公式/单位：sin(−θ)=−sinθ，cos(−θ)=cosθ；sin(π±θ)=∓sinθ（按±对应）。；sin(π/2−θ)=cosθ，cos(π/2−θ)=sinθ。；sin(θ+2kπ)=sinθ，cos同；tan(θ+kπ)=tanθ，原定义域保留。
+
+### 中文Prompt
+
+制作数学第9章《任意角的三角函数》9.2《三角函数的诱导公式》的教学图《单位圆诱导公式的坐标来源》。教学目标：由单位圆对称推导诱导关系；化大角负角为参考角并保留函数及符号条件。必须对象：θ点；−θ反射；π−θ反射；π+θ半周；π/2+θ旋转。不可画错的关系：反射x或y符号正确；半周两坐标反；四分之一周坐标交换带号；角单位统一。中文标签：cosθ；sinθ；对称；周期2π；原域。公式、单位和条件：sin(−θ)=−sinθ，cos(−θ)=cosθ；sin(π±θ)=∓sinθ（按±对应）。；sin(π/2−θ)=cosθ，cos(π/2−θ)=sinθ。；sin(θ+2kπ)=sinθ，cos同；tan(θ+kπ)=tanθ，原定义域保留。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter9, authentic subsection9.2, with original Chinese title 三角函数的诱导公式. Topic-specific mandatory science: Derive reductions from unit-circle reflection and rotation. Sine is odd, cosine even; a half-turn reverses both coordinates. Sin765degrees=sqrt2/2,cos(-330degrees)=sqrt3/2 andtan225degrees=1. Preserve the original domain after cancellation. Plot from exact trigonometric formulas with labelled radian axes and domains. Preserve quadrant signs, open asymptotes and principal inverse branches. A pole is not joined by a curve. The reciprocal function is not the inverse function. Mark amplitude, period, horizontal shift and vertical shift separately. Required objects, preserving these Chinese labels: θ点；−θ反射；π−θ反射；π+θ半周；π/2+θ旋转. Additional literal Chinese annotation strings: cosθ；sinθ；对称；周期2π；原域. Typeset and verify these reference formulas, units and stated conditions: sin(−θ)=−sinθ，cos(−θ)=cosθ；sin(π±θ)=∓sinθ（按±对应）。；sin(π/2−θ)=cosθ，cos(π/2−θ)=sinθ。；sin(θ+2kπ)=sinθ，cos同；tan(θ+kπ)=tanθ，原定义域保留。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 反射x或y符号正确
+- 半周两坐标反
+- 四分之一周坐标交换带号
+- 角单位统一
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：三角函数图须核角单位、定义域断点与缩放；已有正确图条件相同才可复用
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf
+- https://openstax.org/books/precalculus-2e/pages/5-3-the-other-trigonometric-functions
+
+## B06-MATH09-9-3 · 数学 9.3 三角函数的图像
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：由标准图解释幅度周期与平移；正确处理正切极点、定义域及参数退化
+
+对象：−3sin2(x−π/4)+1曲线；五关键点；中线；tan2x分支；渐近虚线
+
+关系：正弦范围−2至4；周期π；tan极点π/4和3π/4不连；横轴rad
+
+中文标签：中线1；振幅3；周期π；未定义点
+
+公式/单位：A,B≠0时y=A sin(B(x−h))+D：振幅|A|，周期2π/|B|，中线D。；正切周期π/|B|，极点x=h+(π/2+kπ)/B，不跨极点连线。；Bx+C=B(x+C/B)，水平移量−C/B；常值退化需另论。
+
+### 中文Prompt
+
+制作数学第9章《任意角的三角函数》9.3《三角函数的图像》的教学图《正弦变换与正切断点》。教学目标：由标准图解释幅度周期与平移；正确处理正切极点、定义域及参数退化。必须对象：−3sin2(x−π/4)+1曲线；五关键点；中线；tan2x分支；渐近虚线。不可画错的关系：正弦范围−2至4；周期π；tan极点π/4和3π/4不连；横轴rad。中文标签：中线1；振幅3；周期π；未定义点。公式、单位和条件：A,B≠0时y=A sin(B(x−h))+D：振幅|A|，周期2π/|B|，中线D。；正切周期π/|B|，极点x=h+(π/2+kπ)/B，不跨极点连线。；Bx+C=B(x+C/B)，水平移量−C/B；常值退化需另论。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter9, authentic subsection9.3, with original Chinese title 三角函数的图像. Topic-specific mandatory science: Plot y=-3sin(2(x-pi/4))+1 with range[-2,4],midline1,amplitude3 and periodpi. For tan(2x) on[0,pi], exclude pi/4 and3pi/4 and never connect across the vertical asymptotes. Horizontal shift for Bx+C is-C/B. Plot from exact trigonometric formulas with labelled radian axes and domains. Preserve quadrant signs, open asymptotes and principal inverse branches. A pole is not joined by a curve. The reciprocal function is not the inverse function. Mark amplitude, period, horizontal shift and vertical shift separately. Required objects, preserving these Chinese labels: −3sin2(x−π/4)+1曲线；五关键点；中线；tan2x分支；渐近虚线. Additional literal Chinese annotation strings: 中线1；振幅3；周期π；未定义点. Typeset and verify these reference formulas, units and stated conditions: A,B≠0时y=A sin(B(x−h))+D：振幅|A|，周期2π/|B|，中线D。；正切周期π/|B|，极点x=h+(π/2+kπ)/B，不跨极点连线。；Bx+C=B(x+C/B)，水平移量−C/B；常值退化需另论。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 正弦范围−2至4
+- 周期π
+- tan极点π/4和3π/4不连
+- 横轴rad
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：三角函数图须核角单位、定义域断点与缩放；已有正确图条件相同才可复用
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf
+- https://openstax.org/books/precalculus-2e/pages/6-1-graphs-of-the-sine-and-cosine-functions
+
+## B06-MATH09-9-4 · 数学 9.4 反三角函数
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：由限制单射说明反三角主值范围；正确化简复合式并区别倒数与全部方程解
+
+对象：限制sin主支；y=x反射；arcsin曲线；5π/6折回π/6；端点
+
+关系：输入−1至1；输出−π/2至π/2；只反射单射支；arctan±π/2不取
+
+中文标签：主值；arcsin；倒数不同；定义域；值域
+
+公式/单位：arcsin:[−1,1]→[−π/2,π/2]；arccos:[−1,1]→[0,π]。；arctan:R→(−π/2,π/2)，端点不取。；arcsin(sin x)只在主值区间直接为x；cos(arcsin u)=√(1−u²)，|u|≤1。
+
+### 中文Prompt
+
+制作数学第9章《任意角的三角函数》9.4《反三角函数》的教学图《反三角限制与反射》。教学目标：由限制单射说明反三角主值范围；正确化简复合式并区别倒数与全部方程解。必须对象：限制sin主支；y=x反射；arcsin曲线；5π/6折回π/6；端点。不可画错的关系：输入−1至1；输出−π/2至π/2；只反射单射支；arctan±π/2不取。中文标签：主值；arcsin；倒数不同；定义域；值域。公式、单位和条件：arcsin:[−1,1]→[−π/2,π/2]；arccos:[−1,1]→[0,π]。；arctan:R→(−π/2,π/2)，端点不取。；arcsin(sin x)只在主值区间直接为x；cos(arcsin u)=√(1−u²)，|u|≤1。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter9, authentic subsection9.4, with original Chinese title 反三角函数. Topic-specific mandatory science: Inverse trigonometric functions use restricted principal branches, not reciprocal values. Arcsin(sin(5pi/6))=pi/6; arccos(cos(5pi/3))=pi/3; arctan(tan(3pi/4))=-pi/4. Arctangent output endpoints plus/minuspi/2 are open, and arcsin(2x-1) has real domain[0,1]. Plot from exact trigonometric formulas with labelled radian axes and domains. Preserve quadrant signs, open asymptotes and principal inverse branches. A pole is not joined by a curve. The reciprocal function is not the inverse function. Mark amplitude, period, horizontal shift and vertical shift separately. Required objects, preserving these Chinese labels: 限制sin主支；y=x反射；arcsin曲线；5π/6折回π/6；端点. Additional literal Chinese annotation strings: 主值；arcsin；倒数不同；定义域；值域. Typeset and verify these reference formulas, units and stated conditions: arcsin:[−1,1]→[−π/2,π/2]；arccos:[−1,1]→[0,π]。；arctan:R→(−π/2,π/2)，端点不取。；arcsin(sin x)只在主值区间直接为x；cos(arcsin u)=√(1−u²)，|u|≤1。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 输入−1至1
+- 输出−π/2至π/2
+- 只反射单射支
+- arctan±π/2不取
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：三角函数图须核角单位、定义域断点与缩放；已有正确图条件相同才可复用
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf
+- https://openstax.org/books/precalculus-2e/pages/6-3-inverse-trigonometric-functions
+
+## B06-MATH10-10-1 · 数学 10.1 正弦定律
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：由高或外接圆推导正弦定律并建立边角对应；完整处理SSA多解和三角形存在条件
+
+对象：A30°；b8固定边；a5可达两交点；辅助高4；两B C标签
+
+关系：5介于4与8故两解；B53.13或126.87；各角和180；边对角一致
+
+中文标签：a；A；b；B；h=4；两分支
+
+公式/单位：a/sinA=b/sinB=c/sinC=2R，a与A对位，角0<A<π。；SSA先求s=b sinA/a，若0<s<1检B₁=arcsin s、B₂=π−B₁。；各分支须A+B<π；s>1无实三角形，端点另审。
+
+### 中文Prompt
+
+制作数学第10章《三角学的应用》10.1《正弦定律》的教学图《正弦定律的SSA双解》。教学目标：由高或外接圆推导正弦定律并建立边角对应；完整处理SSA多解和三角形存在条件。必须对象：A30°；b8固定边；a5可达两交点；辅助高4；两B C标签。不可画错的关系：5介于4与8故两解；B53.13或126.87；各角和180；边对角一致。中文标签：a；A；b；B；h=4；两分支。公式、单位和条件：a/sinA=b/sinB=c/sinC=2R，a与A对位，角0<A<π。；SSA先求s=b sinA/a，若0<s<1检B₁=arcsin s、B₂=π−B₁。；各分支须A+B<π；s>1无实三角形，端点另审。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter10, authentic subsection10.1, with original Chinese title 正弦定律. Topic-specific mandatory science: Label each side opposite its matching angle. For SSA A30degrees,a5,b8, sinB=0.8 permits B53.130degrees or126.870degrees, with both corresponding third angles positive. Draw two distinct valid triangles and distinguish circumradius R from diameter2R. Construct exact plane geometry with each side opposite its matching angle. Distinguish included angles from arbitrary given angles and test triangle existence. SSA can have zero, one or two triangles; draw every admissible branch. Bearings are clockwise from north, not from the x-axis, and elevation angles require the stated horizontal projection. Required objects, preserving these Chinese labels: A30°；b8固定边；a5可达两交点；辅助高4；两B C标签. Additional literal Chinese annotation strings: a；A；b；B；h=4；两分支. Typeset and verify these reference formulas, units and stated conditions: a/sinA=b/sinB=c/sinC=2R，a与A对位，角0<A<π。；SSA先求s=b sinA/a，若0<s<1检B₁=arcsin s、B₂=π−B₁。；各分支须A+B<π；s>1无实三角形，端点另审。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 5介于4与8故两解
+- B53.13或126.87
+- 各角和180
+- 边对角一致
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：只复用边角对应和题设相同的三角图；方位角、仰角及空间投影必须重新核
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf
+- https://openstax.org/books/precalculus-2e/pages/8-1-non-right-triangles-law-of-sines
+
+## B06-MATH10-10-2 · 数学 10.2 余弦定律
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：用投影或坐标推导余弦定律；根据SAS或SSS选择求边角并检查存在性
+
+对象：一般夹角三角形；投影bcosC；锐钝两面板；2 3 6不闭合反例
+
+关系：c对夹角C；−2abcosC正确；钝角对边平方较大；不成立先拒绝不硬画
+
+中文标签：a；b；c；C；投影；三角不等式
+
+公式/单位：c²=a²+b²−2abcosC，C是a,b夹角且c对C。；cosC=(a²+b²−c²)/(2ab)，a,b>0，三角形需满足严格三角不等式。；最大边c：比较c²与a²+b²判锐直钝，前提先有三角形。
+
+### 中文Prompt
+
+制作数学第10章《三角学的应用》10.2《余弦定律》的教学图《余弦定律的投影与存在》。教学目标：用投影或坐标推导余弦定律；根据SAS或SSS选择求边角并检查存在性。必须对象：一般夹角三角形；投影bcosC；锐钝两面板；2 3 6不闭合反例。不可画错的关系：c对夹角C；−2abcosC正确；钝角对边平方较大；不成立先拒绝不硬画。中文标签：a；b；c；C；投影；三角不等式。公式、单位和条件：c²=a²+b²−2abcosC，C是a,b夹角且c对C。；cosC=(a²+b²−c²)/(2ab)，a,b>0，三角形需满足严格三角不等式。；最大边c：比较c²与a²+b²判锐直钝，前提先有三角形。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter10, authentic subsection10.2, with original Chinese title 余弦定律. Topic-specific mandatory science: For SAS a5,b7,included C60degrees, c squared=39. For SSS13,14,15,the angle opposite15 has cosine5/13. Triangle existence must precede angle classification:2,3,6 cannot form a triangle. Do not clamp out-of-range cosines to create a fake solution. Construct exact plane geometry with each side opposite its matching angle. Distinguish included angles from arbitrary given angles and test triangle existence. SSA can have zero, one or two triangles; draw every admissible branch. Bearings are clockwise from north, not from the x-axis, and elevation angles require the stated horizontal projection. Required objects, preserving these Chinese labels: 一般夹角三角形；投影bcosC；锐钝两面板；2 3 6不闭合反例. Additional literal Chinese annotation strings: a；b；c；C；投影；三角不等式. Typeset and verify these reference formulas, units and stated conditions: c²=a²+b²−2abcosC，C是a,b夹角且c对C。；cosC=(a²+b²−c²)/(2ab)，a,b>0，三角形需满足严格三角不等式。；最大边c：比较c²与a²+b²判锐直钝，前提先有三角形。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- c对夹角C
+- −2abcosC正确
+- 钝角对边平方较大
+- 不成立先拒绝不硬画
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：只复用边角对应和题设相同的三角图；方位角、仰角及空间投影必须重新核
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf
+- https://openstax.org/books/precalculus-2e/pages/8-2-non-right-triangles-law-of-cosines
+
+## B06-MATH10-10-3 · 数学 10.3 三角形的面积
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：按已知边角选择面积公式并说明依据；使用Heron及外接圆关系并核最大面积条件
+
+对象：底高三角；夹角sin高；7 8 9三边；内切三小三角；固定边最大面积
+
+关系：s12非24；7 8 9面积12√5；Krs中的s半周；最大需90可行
+
+中文标签：K；高；s；r内切；R外接；夹角
+
+公式/单位：K=½ab sinC（C为a,b夹角）；s=(a+b+c)/2。；Heron：K=√[s(s−a)(s−b)(s−c)]，先核非退化。；K=abc/(4R)=rs；两边固定且90°可行时K最大½ab。
+
+### 中文Prompt
+
+制作数学第10章《三角学的应用》10.3《三角形的面积》的教学图《面积公式的已知量选择》。教学目标：按已知边角选择面积公式并说明依据；使用Heron及外接圆关系并核最大面积条件。必须对象：底高三角；夹角sin高；7 8 9三边；内切三小三角；固定边最大面积。不可画错的关系：s12非24；7 8 9面积12√5；Krs中的s半周；最大需90可行。中文标签：K；高；s；r内切；R外接；夹角。公式、单位和条件：K=½ab sinC（C为a,b夹角）；s=(a+b+c)/2。；Heron：K=√[s(s−a)(s−b)(s−c)]，先核非退化。；K=abc/(4R)=rs；两边固定且90°可行时K最大½ab。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter10, authentic subsection10.3, with original Chinese title 三角形的面积. Topic-specific mandatory science: Use included-angle area, Heron with semiperimeter, and distinct inradius/circumradius relations. Sides7,8,9 give s12 and area12sqrt5;13,14,15 give area84. With two fixed sides, maximum area occurs at90degrees only if that angle is allowed. Construct exact plane geometry with each side opposite its matching angle. Distinguish included angles from arbitrary given angles and test triangle existence. SSA can have zero, one or two triangles; draw every admissible branch. Bearings are clockwise from north, not from the x-axis, and elevation angles require the stated horizontal projection. Required objects, preserving these Chinese labels: 底高三角；夹角sin高；7 8 9三边；内切三小三角；固定边最大面积. Additional literal Chinese annotation strings: K；高；s；r内切；R外接；夹角. Typeset and verify these reference formulas, units and stated conditions: K=½ab sinC（C为a,b夹角）；s=(a+b+c)/2。；Heron：K=√[s(s−a)(s−b)(s−c)]，先核非退化。；K=abc/(4R)=rs；两边固定且90°可行时K最大½ab。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- s12非24
+- 7 8 9面积12√5
+- Krs中的s半周
+- 最大需90可行
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：只复用边角对应和题设相同的三角图；方位角、仰角及空间投影必须重新核
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf
+- https://openstax.org/books/precalculus-2e/pages/8-2-non-right-triangles-law-of-cosines
+
+## B06-MATH10-10-4 · 数学 10.4 测量问题
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：把方位仰俯角转成正确平面几何；用互补测量约束求距离高度并核模型误差
+
+对象：北东罗盘；船两位移；塔与眼高；同侧两观测点；共线条件框
+
+关系：方位从北顺时针；东d sinβ北d cosβ；塔高加眼高；同侧x与x20非相加
+
+中文标签：北；东；水平；眼高1.5m；仰角；共线条件
+
+公式/单位：东x北y，方位β从北顺时针：Δx=d sinβ，Δy=d cosβ。；相对眼高H=d水平tanα；绝对高=H+h₀，视线斜距不能直接当d水平。；同侧近远两点：H=x tanα=(x+d)tanγ；目标两侧需另画距离和。
+
+### 中文Prompt
+
+制作数学第10章《三角学的应用》10.4《测量问题》的教学图《方位与仰角的参照线》。教学目标：把方位仰俯角转成正确平面几何；用互补测量约束求距离高度并核模型误差。必须对象：北东罗盘；船两位移；塔与眼高；同侧两观测点；共线条件框。不可画错的关系：方位从北顺时针；东d sinβ北d cosβ；塔高加眼高；同侧x与x20非相加。中文标签：北；东；水平；眼高1.5m；仰角；共线条件。公式、单位和条件：东x北y，方位β从北顺时针：Δx=d sinβ，Δy=d cosβ。；相对眼高H=d水平tanα；绝对高=H+h₀，视线斜距不能直接当d水平。；同侧近远两点：H=x tanα=(x+d)tanγ；目标两侧需另画距离和。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter10, authentic subsection10.4, with original Chinese title 测量问题. Topic-specific mandatory science: Bearings are clockwise from north with east displacement d sin(beta) and north displacement d cos(beta). A30m horizontal sightline to a vertical tower at45degrees from eye height1.5m gives tower height31.5m. Same-side collinear observation distances differ by the baseline; opposite-side distances add. Construct exact plane geometry with each side opposite its matching angle. Distinguish included angles from arbitrary given angles and test triangle existence. SSA can have zero, one or two triangles; draw every admissible branch. Bearings are clockwise from north, not from the x-axis, and elevation angles require the stated horizontal projection. Required objects, preserving these Chinese labels: 北东罗盘；船两位移；塔与眼高；同侧两观测点；共线条件框. Additional literal Chinese annotation strings: 北；东；水平；眼高1.5m；仰角；共线条件. Typeset and verify these reference formulas, units and stated conditions: 东x北y，方位β从北顺时针：Δx=d sinβ，Δy=d cosβ。；相对眼高H=d水平tanα；绝对高=H+h₀，视线斜距不能直接当d水平。；同侧近远两点：H=x tanα=(x+d)tanγ；目标两侧需另画距离和。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 方位从北顺时针
+- 东d sinβ北d cosβ
+- 塔高加眼高
+- 同侧x与x20非相加
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：只复用边角对应和题设相同的三角图；方位角、仰角及空间投影必须重新核
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf
+- https://openstax.org/books/precalculus-2e/pages/8-1-non-right-triangles-law-of-sines
+
+## B06-MATH11-11-1 · 数学 11.1 同角三角函数的基本关系式
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：从单位圆推导同角关系并应用符号条件；在共同定义域证明恒等式并审查约分扩域
+
+对象：单位圆三角；平方关系推导；sec平方差；sin商化简数轴洞
+
+关系：同角才平方和1；除cos需非0；√sin²取绝对；xkπ原商未定义
+
+中文标签：共同域；sin²+cos²；绝对值；排除点
+
+公式/单位：sin²x+cos²x=1；cosx≠0时1+tan²x=sec²x。；sinx≠0时1+cot²x=cosec²x；倒数/商式按共同域。；√(sin²x)=|sinx|；代数化简不补原函数排除点。
+
+### 中文Prompt
+
+制作数学第11章《三角恒等式与三角方程式》11.1《同角三角函数的基本关系式》的教学图《同角关系与原域洞点》。教学目标：从单位圆推导同角关系并应用符号条件；在共同定义域证明恒等式并审查约分扩域。必须对象：单位圆三角；平方关系推导；sec平方差；sin商化简数轴洞。不可画错的关系：同角才平方和1；除cos需非0；√sin²取绝对；xkπ原商未定义。中文标签：共同域；sin²+cos²；绝对值；排除点。公式、单位和条件：sin²x+cos²x=1；cosx≠0时1+tan²x=sec²x。；sinx≠0时1+cot²x=cosec²x；倒数/商式按共同域。；√(sin²x)=|sinx|；代数化简不补原函数排除点。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter11, authentic subsection11.1, with original Chinese title 同角三角函数的基本关系式. Topic-specific mandatory science: All identities refer to the same angle and their common domain. From sin squared+cos squared=1 derive the secant and cosecant square identities only where division is allowed. Simplifying(1-cos squared x)/sin x tosin x must retain x not equal to integer multiples of pi. Square-root of sine squared is absolute sine. Use exact trigonometric identities and deterministic graphs. State the common domain before cancellation, distinguish identities from equations, and retain zero-factor branches. General solutions require all periodic families; interval solutions must be filtered against the original equation and endpoint conventions. Square roots of squares require absolute values unless sign conditions are given. Required objects, preserving these Chinese labels: 单位圆三角；平方关系推导；sec平方差；sin商化简数轴洞. Additional literal Chinese annotation strings: 共同域；sin²+cos²；绝对值；排除点. Typeset and verify these reference formulas, units and stated conditions: sin²x+cos²x=1；cosx≠0时1+tan²x=sec²x。；sinx≠0时1+cot²x=cosec²x；倒数/商式按共同域。；√(sin²x)=|sinx|；代数化简不补原函数排除点。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 同角才平方和1
+- 除cos需非0
+- √sin²取绝对
+- xkπ原商未定义
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：旧三角图必须核角单位、原域和周期分支；不得把有限区间图冒称一般解
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf
+- https://openstax.org/books/precalculus-2e/pages/7-1-solving-trigonometric-equations-with-identities
+
+## B06-MATH11-11-2 · 数学 11.2 两角之和与差的三角函数
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：推导和差式并求精确值；把线性正余弦组合化成单一振幅相位形式
+
+对象：单位圆旋转；15°拆45减30；3sin+4cos；R5直角三角；相位取等点
+
+关系：cosφ3/5 sinφ4/5；R√25非7；15精确根式；域限制须检相位
+
+中文标签：R；φ；展开系数；取等条件
+
+公式/单位：sin(A±B)=sinAcosB±cosAsinB；cos(A±B)=cosAcosB∓sinAsinB。；tan(A±B)=(tanA±tanB)/(1∓tanAtanB)，须各tan及商定义。；a sinx+b cosx=R sin(x+φ)，Rcosφ=a、Rsinφ=b，R=√(a²+b²)。
+
+### 中文Prompt
+
+制作数学第11章《三角恒等式与三角方程式》11.2《两角之和与差的三角函数》的教学图《和差与辅助角的系数匹配》。教学目标：推导和差式并求精确值；把线性正余弦组合化成单一振幅相位形式。必须对象：单位圆旋转；15°拆45减30；3sin+4cos；R5直角三角；相位取等点。不可画错的关系：cosφ3/5 sinφ4/5；R√25非7；15精确根式；域限制须检相位。中文标签：R；φ；展开系数；取等条件。公式、单位和条件：sin(A±B)=sinAcosB±cosAsinB；cos(A±B)=cosAcosB∓sinAsinB。；tan(A±B)=(tanA±tanB)/(1∓tanAtanB)，须各tan及商定义。；a sinx+b cosx=R sin(x+φ)，Rcosφ=a、Rsinφ=b，R=√(a²+b²)。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter11, authentic subsection11.2, with original Chinese title 两角之和与差的三角函数. Topic-specific mandatory science: Expand sine and cosine sums with the correct product terms and cosine sign reversal. For acute A,B with sinA3/5,cosB12/13, sine of the sum is56/65 and cosine33/65. Match3sinx+4cosx to5sin(x+phi) with cosphi3/5,sinphi4/5, and check whether maximum-phase points lie in the allowed domain. Use exact trigonometric identities and deterministic graphs. State the common domain before cancellation, distinguish identities from equations, and retain zero-factor branches. General solutions require all periodic families; interval solutions must be filtered against the original equation and endpoint conventions. Square roots of squares require absolute values unless sign conditions are given. Required objects, preserving these Chinese labels: 单位圆旋转；15°拆45减30；3sin+4cos；R5直角三角；相位取等点. Additional literal Chinese annotation strings: R；φ；展开系数；取等条件. Typeset and verify these reference formulas, units and stated conditions: sin(A±B)=sinAcosB±cosAsinB；cos(A±B)=cosAcosB∓sinAsinB。；tan(A±B)=(tanA±tanB)/(1∓tanAtanB)，须各tan及商定义。；a sinx+b cosx=R sin(x+φ)，Rcosφ=a、Rsinφ=b，R=√(a²+b²)。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- cosφ3/5 sinφ4/5
+- R√25非7
+- 15精确根式
+- 域限制须检相位
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：旧三角图必须核角单位、原域和周期分支；不得把有限区间图冒称一般解
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf
+- https://openstax.org/books/precalculus-2e/pages/7-2-sum-and-difference-identities
+
+## B06-MATH11-11-3 · 数学 11.3 倍角的三角函数
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：由和角推导倍角及降幂形式；用半角符号条件和定义域完成计算证明
+
+对象：和角x+x；sin2x对sin²x；半角区间映射；根式外号；降幂系数树
+
+关系：sin2x2sin cos；cos半角二象限负；sin²cos²系数1/8；原域洞点保留
+
+中文标签：2x；x/2；平方；±符号；区间
+
+公式/单位：sin2x=2sinxcosx；cos2x=1−2sin²x=2cos²x−1。；sin²x=(1−cos2x)/2，cos²x=(1+cos2x)/2。；sin(x/2)=±√[(1−cosx)/2]，cos(x/2)=±√[(1+cosx)/2]；符号看半角象限。
+
+### 中文Prompt
+
+制作数学第11章《三角恒等式与三角方程式》11.3《倍角的三角函数》的教学图《倍角半角与降幂关系》。教学目标：由和角推导倍角及降幂形式；用半角符号条件和定义域完成计算证明。必须对象：和角x+x；sin2x对sin²x；半角区间映射；根式外号；降幂系数树。不可画错的关系：sin2x2sin cos；cos半角二象限负；sin²cos²系数1/8；原域洞点保留。中文标签：2x；x/2；平方；±符号；区间。公式、单位和条件：sin2x=2sinxcosx；cos2x=1−2sin²x=2cos²x−1。；sin²x=(1−cos2x)/2，cos²x=(1+cos2x)/2。；sin(x/2)=±√[(1−cosx)/2]，cos(x/2)=±√[(1+cosx)/2]；符号看半角象限。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter11, authentic subsection11.3, with original Chinese title 倍角的三角函数. Topic-specific mandatory science: Distinguish sin(2x) from(sinx)squared. For cosx=-3/5 in quadrantII, sin(2x)=-24/25 and cos(2x)=-7/25. For x in(pi,2pi) the half-angle is in quadrantII, so sine of the half-angle is positive and cosine negative. Lowering sin squared x cos squared x gives(1-cos4x)/8. Use exact trigonometric identities and deterministic graphs. State the common domain before cancellation, distinguish identities from equations, and retain zero-factor branches. General solutions require all periodic families; interval solutions must be filtered against the original equation and endpoint conventions. Square roots of squares require absolute values unless sign conditions are given. Required objects, preserving these Chinese labels: 和角x+x；sin2x对sin²x；半角区间映射；根式外号；降幂系数树. Additional literal Chinese annotation strings: 2x；x/2；平方；±符号；区间. Typeset and verify these reference formulas, units and stated conditions: sin2x=2sinxcosx；cos2x=1−2sin²x=2cos²x−1。；sin²x=(1−cos2x)/2，cos²x=(1+cos2x)/2。；sin(x/2)=±√[(1−cosx)/2]，cos(x/2)=±√[(1+cosx)/2]；符号看半角象限。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- sin2x2sin cos
+- cos半角二象限负
+- sin²cos²系数1/8
+- 原域洞点保留
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：旧三角图必须核角单位、原域和周期分支；不得把有限区间图冒称一般解
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf
+- https://openstax.org/books/precalculus-2e/pages/7-3-double-angle-half-angle-and-reduction-formulas
+
+## B06-MATH11-11-4 · 数学 11.4 三角方程式
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：完整求基本三角方程的一般解及区间解；通过因式分解和原式检验避免除零漏解及平方增根
+
+对象：sin2x=.5两族；[0,2π)数轴四根；零乘积分支树；平方增根标记
+
+关系：四根π/12 5π/12 13π/12 17π/12；sin支不除掉；端点2π开；回原式剔增根
+
+中文标签：k∈Z；原定义域；两分支；区间筛选；回代
+
+公式/单位：sinx=a：x=α+2kπ或π−α+2kπ，α=arcsin a，|a|≤1。；cosx=a：x=±arccos a+2kπ；tanx=a：x=arctan a+kπ，k∈Z。；零乘积各因子分支均保留；最后筛原定义域及指定区间并去重回代。
+
+### 中文Prompt
+
+制作数学第11章《三角恒等式与三角方程式》11.4《三角方程式》的教学图《三角方程分支与区间筛选》。教学目标：完整求基本三角方程的一般解及区间解；通过因式分解和原式检验避免除零漏解及平方增根。必须对象：sin2x=.5两族；[0,2π)数轴四根；零乘积分支树；平方增根标记。不可画错的关系：四根π/12 5π/12 13π/12 17π/12；sin支不除掉；端点2π开；回原式剔增根。中文标签：k∈Z；原定义域；两分支；区间筛选；回代。公式、单位和条件：sinx=a：x=α+2kπ或π−α+2kπ，α=arcsin a，|a|≤1。；cosx=a：x=±arccos a+2kπ；tanx=a：x=arctan a+kπ，k∈Z。；零乘积各因子分支均保留；最后筛原定义域及指定区间并去重回代。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter11, authentic subsection11.4, with original Chinese title 三角方程式. Topic-specific mandatory science: For sin(2x)=1/2 on[0,2pi), mark all four roots pi/12,5pi/12,13pi/12,17pi/12. For sin2x=sinx retain both sinx=0 and2cosx-1=0 branches; never divide away the zero factor. Square-induced candidates must be checked in the original equation, with open or closed interval endpoints respected. Use exact trigonometric identities and deterministic graphs. State the common domain before cancellation, distinguish identities from equations, and retain zero-factor branches. General solutions require all periodic families; interval solutions must be filtered against the original equation and endpoint conventions. Square roots of squares require absolute values unless sign conditions are given. Required objects, preserving these Chinese labels: sin2x=.5两族；[0,2π)数轴四根；零乘积分支树；平方增根标记. Additional literal Chinese annotation strings: k∈Z；原定义域；两分支；区间筛选；回代. Typeset and verify these reference formulas, units and stated conditions: sinx=a：x=α+2kπ或π−α+2kπ，α=arcsin a，|a|≤1。；cosx=a：x=±arccos a+2kπ；tanx=a：x=arctan a+kπ，k∈Z。；零乘积各因子分支均保留；最后筛原定义域及指定区间并去重回代。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 四根π/12 5π/12 13π/12 17π/12
+- sin支不除掉
+- 端点2π开
+- 回原式剔增根
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：旧三角图必须核角单位、原域和周期分支；不得把有限区间图冒称一般解
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf
+- https://openstax.org/books/precalculus-2e/pages/7-5-solving-trigonometric-equations
 
 ## B06-MATH28-28-1 · 数学 28.1 隐函数的微分法
 
@@ -4329,6 +6184,92 @@ No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charge
 来源：
 - https://www.scribd.com/document/1047236315/高级数学-高三上册-1
 - https://openstax.org/books/calculus-volume-1/pages/4-9-newtons-method
+
+## B06-MATH32-32-1 · 数学 32.1 坐标轴的平移（移轴）
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：由向量分解推导新旧坐标关系；用移轴化简曲线并区别点移动与轴移动
+
+对象：旧轴xy；新轴XY；O′(2,−3)；同一半径5圆；P坐标分解
+
+关系：x=X+2 y=Y−3；曲线物理位置不变；新原点在旧中心；半径不变
+
+中文标签：旧坐标；新坐标；O′；X²+Y²=25
+
+公式/单位：新原点旧坐标(h,k)：x=X+h，y=Y+k；X=x−h，Y=y−k。；旧原点新坐标(−h,−k)，新原点新坐标(0,0)。；纯移轴保持坐标差及距离，曲线换式需用新变量表达旧变量再代入。
+
+### 中文Prompt
+
+制作数学第32章《坐标变换》32.1《坐标轴的平移（移轴）》的教学图《同一圆的两套平移坐标》。教学目标：由向量分解推导新旧坐标关系；用移轴化简曲线并区别点移动与轴移动。必须对象：旧轴xy；新轴XY；O′(2,−3)；同一半径5圆；P坐标分解。不可画错的关系：x=X+2 y=Y−3；曲线物理位置不变；新原点在旧中心；半径不变。中文标签：旧坐标；新坐标；O′；X²+Y²=25。公式、单位和条件：新原点旧坐标(h,k)：x=X+h，y=Y+k；X=x−h，Y=y−k。；旧原点新坐标(−h,−k)，新原点新坐标(0,0)。；纯移轴保持坐标差及距离，曲线换式需用新变量表达旧变量再代入。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter32, authentic subsection32.1, with original Chinese title 坐标轴的平移（移轴）. Topic-specific mandatory science: Passive translation with new origin(h,k) in old coordinates gives old x=X+h,y=Y+k. The point and locus stay fixed. For x squared+y squared-4x+6y-12=0, use origin(2,-3) and obtain X squared+Y squared=25, radius5. Use deterministic Cartesian geometry. For a passive coordinate change the physical point stays fixed while the axes move. Define positive axis rotation and the old/new coordinate symbols. Keep unit scales equal and verify distance preservation. Draw the same locus in both frames rather than moving the locus without explanation. Required objects, preserving these Chinese labels: 旧轴xy；新轴XY；O′(2,−3)；同一半径5圆；P坐标分解. Additional literal Chinese annotation strings: 旧坐标；新坐标；O′；X²+Y²=25. Typeset and verify these reference formulas, units and stated conditions: 新原点旧坐标(h,k)：x=X+h，y=Y+k；X=x−h，Y=y−k。；旧原点新坐标(−h,−k)，新原点新坐标(0,0)。；纯移轴保持坐标差及距离，曲线换式需用新变量表达旧变量再代入。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- x=X+2 y=Y−3
+- 曲线物理位置不变
+- 新原点在旧中心
+- 半径不变
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：只复用坐标变换约定一致的旧图；移动轴与移动点的箭头不可互换
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf
+- https://openstax.org/books/precalculus-2e/pages/10-4-rotation-of-axes
+
+## B06-MATH32-32-2 · 数学 32.2 坐标系的旋转（转轴）
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：由投影推导被动转轴公式及逆式；消去二次式交叉项并核几何不变量
+
+对象：旧新正交轴；逆时针θ弧；固定点P；旋转椭圆；交叉项系数
+
+关系：点不动轴动；X=xcosθ+ysinθ；距离保持；π/4将5−6xy+5式变主轴椭圆
+
+中文标签：被动转轴；θ；X；Y；x；y；非主动移点
+
+公式/单位：新轴逆时针θ：x=Xcosθ−Ysinθ，y=Xsinθ+Ycosθ。；逆式X=xcosθ+ysinθ，Y=−xsinθ+ycosθ；x²+y²=X²+Y²。；新交叉系数Bcos2θ+(C−A)sin2θ；先设0，分母非0才用tan2θ=B/(A−C)。
+
+### 中文Prompt
+
+制作数学第32章《坐标变换》32.2《坐标系的旋转（转轴）》的教学图《被动转轴与主轴椭圆》。教学目标：由投影推导被动转轴公式及逆式；消去二次式交叉项并核几何不变量。必须对象：旧新正交轴；逆时针θ弧；固定点P；旋转椭圆；交叉项系数。不可画错的关系：点不动轴动；X=xcosθ+ysinθ；距离保持；π/4将5−6xy+5式变主轴椭圆。中文标签：被动转轴；θ；X；Y；x；y；非主动移点。公式、单位和条件：新轴逆时针θ：x=Xcosθ−Ysinθ，y=Xsinθ+Ycosθ。；逆式X=xcosθ+ysinθ，Y=−xsinθ+ycosθ；x²+y²=X²+Y²。；新交叉系数Bcos2θ+(C−A)sin2θ；先设0，分母非0才用tan2θ=B/(A−C)。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter32, authentic subsection32.2, with original Chinese title 坐标系的旋转（转轴）. Topic-specific mandatory science: For passive counterclockwise axis rotation theta, old x=Xcos(theta)-Ysin(theta) and old y=Xsin(theta)+Ycos(theta). The inverse differs from active point rotation. At theta pi/4,5x squared-6xy+5y squared=16 becomes X squared/8+Y squared/2=1; preserve orthogonal equal-scale axes and distances. Use deterministic Cartesian geometry. For a passive coordinate change the physical point stays fixed while the axes move. Define positive axis rotation and the old/new coordinate symbols. Keep unit scales equal and verify distance preservation. Draw the same locus in both frames rather than moving the locus without explanation. Required objects, preserving these Chinese labels: 旧新正交轴；逆时针θ弧；固定点P；旋转椭圆；交叉项系数. Additional literal Chinese annotation strings: 被动转轴；θ；X；Y；x；y；非主动移点. Typeset and verify these reference formulas, units and stated conditions: 新轴逆时针θ：x=Xcosθ−Ysinθ，y=Xsinθ+Ycosθ。；逆式X=xcosθ+ysinθ，Y=−xsinθ+ycosθ；x²+y²=X²+Y²。；新交叉系数Bcos2θ+(C−A)sin2θ；先设0，分母非0才用tan2θ=B/(A−C)。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 点不动轴动
+- X=xcosθ+ysinθ
+- 距离保持
+- π/4将5−6xy+5式变主轴椭圆
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：只复用坐标变换约定一致的旧图；移动轴与移动点的箭头不可互换
+
+来源：
+- https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf
+- https://openstax.org/books/precalculus-2e/pages/10-4-rotation-of-axes
 
 ## B06-PHYS09-9-1 · 物理 9.1 刚体及其转动
 
@@ -5733,6 +7674,308 @@ No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charge
 来源：
 - https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html
 - https://openstax.org/books/college-physics-2e/pages/13-3-the-ideal-gas-law
+
+## B06-PHYS17-17-1 · 物理 17.1 机械波
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：由介质相互作用解释扰动和能量传播；区分横纵波、质点运动与波速并应用v=fλ
+
+对象：横波绳；纵波疏密；标记质点；λ标尺；传播箭头
+
+关系：质点振动非随峰输运；横纵方向正确；同相距λ；vT=λ
+
+中文标签：传播方向；质点方向；T；λ；v
+
+公式/单位：稳定周期波v=fλ=λ/T；T=1/f。；横纵波按质点振动相对传播方向分类，波速不同于质点速度。；均匀传播延迟t=x/v；空间图需同一时刻，振动图需同一位置。
+
+### 中文Prompt
+
+制作物理第17章《机械波》17.1《机械波》的教学图《机械波的质点与传播》。教学目标：由介质相互作用解释扰动和能量传播；区分横纵波、质点运动与波速并应用v=fλ。必须对象：横波绳；纵波疏密；标记质点；λ标尺；传播箭头。不可画错的关系：质点振动非随峰输运；横纵方向正确；同相距λ；vT=λ。中文标签：传播方向；质点方向；T；λ；v。公式、单位和条件：稳定周期波v=fλ=λ/T；T=1/f。；横纵波按质点振动相对传播方向分类，波速不同于质点速度。；均匀传播延迟t=x/v；空间图需同一时刻，振动图需同一位置。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter17, authentic subsection17.1, with original Chinese title 机械波. Topic-specific mandatory science: Distinguish particle oscillation from phase propagation in transverse and longitudinal mechanical waves. A longitudinal displacement-versus-position sine plot is not a literal transverse path. For a periodic wave v=f lambda and T=1/f; the phase advances one wavelength per period. Use deterministic wave plots with explicit space or time axes, units and a stated instant or position. Distinguish particle displacement from wave propagation. Draw phase, boundary conditions and medium consistently. Quantitative curves must be generated from the displayed equation; longitudinal displacement plots are not literal transverse shapes. Required objects, preserving these Chinese labels: 横波绳；纵波疏密；标记质点；λ标尺；传播箭头. Additional literal Chinese annotation strings: 传播方向；质点方向；T；λ；v. Typeset and verify these reference formulas, units and stated conditions: 稳定周期波v=fλ=λ/T；T=1/f。；横纵波按质点振动相对传播方向分类，波速不同于质点速度。；均匀传播延迟t=x/v；空间图需同一时刻，振动图需同一位置。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 质点振动非随峰输运
+- 横纵方向正确
+- 同相距λ
+- vT=λ
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：波形图须核时间/空间轴、传播向、质点向及边界条件；不能把相似正弦图无条件互换
+
+来源：
+- https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html
+- https://openstax.org/books/university-physics-volume-1/pages/16-1-traveling-waves
+
+## B06-PHYS17-17-2 · 物理 17.2 声波和超声波
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：联系压力疏密与介质解释声音传播；区分频率响度和声级并分析回声测距
+
+对象：空气疏密；f与λ；点源球面；两等强源；回声往返线
+
+关系：疏密沿传播方向；距离3倍强度1/9；两60dB合约63dB；回声总路2D
+
+中文标签：I；β；dB；v声条件；超声频率
+
+公式/单位：指定空气条件可取v声；超声指频率超通常听觉上限，不是更高传播速度。；理想各向同性远点源I=P/(4πr²)；β=10log₁₀(I/I₀)。；回声距离D=vΔt/2；两个非相干等强源声级增10log₁₀2≈3.01dB。
+
+### 中文Prompt
+
+制作物理第17章《机械波》17.2《声波和超声波》的教学图《声强声级与回声》。教学目标：联系压力疏密与介质解释声音传播；区分频率响度和声级并分析回声测距。必须对象：空气疏密；f与λ；点源球面；两等强源；回声往返线。不可画错的关系：疏密沿传播方向；距离3倍强度1/9；两60dB合约63dB；回声总路2D。中文标签：I；β；dB；v声条件；超声频率。公式、单位和条件：指定空气条件可取v声；超声指频率超通常听觉上限，不是更高传播速度。；理想各向同性远点源I=P/(4πr²)；β=10log₁₀(I/I₀)。；回声距离D=vΔt/2；两个非相干等强源声级增10log₁₀2≈3.01dB。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter17, authentic subsection17.2, with original Chinese title 声波和超声波. Topic-specific mandatory science: In the stated340m/s medium,40kHz ultrasound has wavelength8.5mm. Echo time includes the return path2D. Sound intensity level is logarithmic: two independent incoherent60dB sources give about63.01dB, not120dB. Specify reference intensity, medium and conditions. Use deterministic wave plots with explicit space or time axes, units and a stated instant or position. Distinguish particle displacement from wave propagation. Draw phase, boundary conditions and medium consistently. Quantitative curves must be generated from the displayed equation; longitudinal displacement plots are not literal transverse shapes. Required objects, preserving these Chinese labels: 空气疏密；f与λ；点源球面；两等强源；回声往返线. Additional literal Chinese annotation strings: I；β；dB；v声条件；超声频率. Typeset and verify these reference formulas, units and stated conditions: 指定空气条件可取v声；超声指频率超通常听觉上限，不是更高传播速度。；理想各向同性远点源I=P/(4πr²)；β=10log₁₀(I/I₀)。；回声距离D=vΔt/2；两个非相干等强源声级增10log₁₀2≈3.01dB。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 疏密沿传播方向
+- 距离3倍强度1/9
+- 两60dB合约63dB
+- 回声总路2D
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：波形图须核时间/空间轴、传播向、质点向及边界条件；不能把相似正弦图无条件互换
+
+来源：
+- https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html
+- https://openstax.org/books/university-physics-volume-1/pages/17-3-sound-intensity
+
+## B06-PHYS17-17-3 · 物理 17.3 波的图象
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：从空间和时间图分别读取波长周期；结合传播方向由局部斜率判断质点瞬时运动
+
+对象：y对x曲线；y对t曲线；右移短步虚线；P点斜率与上下箭头
+
+关系：λ与T轴单位不同；右行正斜率质点向下；A为半峰谷差；固定变量注明
+
+中文标签：t固定；x固定；λ；T；传播v；质点v_y
+
+公式/单位：空间y—x图读λ，固定时刻；振动y—t图读T，固定位置。；右行y=F(x−vt)：v质点,y=−v波∂y/∂x；左行符号相反。；周期图形可有整数λ歧义，需方向、时间范围等筛选。
+
+### 中文Prompt
+
+制作物理第17章《机械波》17.3《波的图象》的教学图《同一波的空间图与振动图》。教学目标：从空间和时间图分别读取波长周期；结合传播方向由局部斜率判断质点瞬时运动。必须对象：y对x曲线；y对t曲线；右移短步虚线；P点斜率与上下箭头。不可画错的关系：λ与T轴单位不同；右行正斜率质点向下；A为半峰谷差；固定变量注明。中文标签：t固定；x固定；λ；T；传播v；质点v_y。公式、单位和条件：空间y—x图读λ，固定时刻；振动y—t图读T，固定位置。；右行y=F(x−vt)：v质点,y=−v波∂y/∂x；左行符号相反。；周期图形可有整数λ歧义，需方向、时间范围等筛选。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter17, authentic subsection17.3, with original Chinese title 波的图象. Topic-specific mandatory science: Plot displacement versus position at fixed time separately from displacement versus time at fixed position. For right-travelling y=F(x-vt), a positive spatial slope means negative particle velocity. Peak-to-trough displacement is2A. Two snapshots can differ by an unknown integer number of wavelengths. Use deterministic wave plots with explicit space or time axes, units and a stated instant or position. Distinguish particle displacement from wave propagation. Draw phase, boundary conditions and medium consistently. Quantitative curves must be generated from the displayed equation; longitudinal displacement plots are not literal transverse shapes. Required objects, preserving these Chinese labels: y对x曲线；y对t曲线；右移短步虚线；P点斜率与上下箭头. Additional literal Chinese annotation strings: t固定；x固定；λ；T；传播v；质点v_y. Typeset and verify these reference formulas, units and stated conditions: 空间y—x图读λ，固定时刻；振动y—t图读T，固定位置。；右行y=F(x−vt)：v质点,y=−v波∂y/∂x；左行符号相反。；周期图形可有整数λ歧义，需方向、时间范围等筛选。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- λ与T轴单位不同
+- 右行正斜率质点向下
+- A为半峰谷差
+- 固定变量注明
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：波形图须核时间/空间轴、传播向、质点向及边界条件；不能把相似正弦图无条件互换
+
+来源：
+- https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html
+- https://openstax.org/books/university-physics-volume-1/pages/16-2-mathematics-of-waves
+
+## B06-PHYS17-17-4 · 物理 17.4 简谐波的方程式
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：由方向和初始条件建立简谐行波式；从方程分别求介质质点运动和传播相位
+
+对象：标准式参数表；固定相位轨迹；固定点振动；初相0π对比
+
+关系：ω/k为相位速度；Aω为质点速率幅；kx−ωt向正x；初位移零仍两方向
+
+中文标签：A；k；ω；φ；rad/m；rad/s
+
+公式/单位：右行约定y=A sin(kx−ωt+φ)，k=2π/λ，ω=2πf，v波=ω/k。；v质点,y=−Aω cos(kx−ωt+φ)，a_y=−ω²y；v最大=Aω。；同刻Δ相位=kΔx；同位Δ相位=−ωΔt，均为弧度。
+
+### 中文Prompt
+
+制作物理第17章《机械波》17.4《简谐波的方程式》的教学图《简谐行波式与两种速度》。教学目标：由方向和初始条件建立简谐行波式；从方程分别求介质质点运动和传播相位。必须对象：标准式参数表；固定相位轨迹；固定点振动；初相0π对比。不可画错的关系：ω/k为相位速度；Aω为质点速率幅；kx−ωt向正x；初位移零仍两方向。中文标签：A；k；ω；φ；rad/m；rad/s。公式、单位和条件：右行约定y=A sin(kx−ωt+φ)，k=2π/λ，ω=2πf，v波=ω/k。；v质点,y=−Aω cos(kx−ωt+φ)，a_y=−ω²y；v最大=Aω。；同刻Δ相位=kΔx；同位Δ相位=−ωΔt，均为弧度。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter17, authentic subsection17.4, with original Chinese title 简谐波的方程式. Topic-specific mandatory science: For y=0.020sin(4pi x-20pi t) with SI coordinates, wavelength0.50m, frequency10Hz and phase speed5m/s to+x. At x=t=0 the transverse particle velocity is-0.4pi m/s, not the phase speed. Initial zero displacement alone does not select a unique velocity sign. Use deterministic wave plots with explicit space or time axes, units and a stated instant or position. Distinguish particle displacement from wave propagation. Draw phase, boundary conditions and medium consistently. Quantitative curves must be generated from the displayed equation; longitudinal displacement plots are not literal transverse shapes. Required objects, preserving these Chinese labels: 标准式参数表；固定相位轨迹；固定点振动；初相0π对比. Additional literal Chinese annotation strings: A；k；ω；φ；rad/m；rad/s. Typeset and verify these reference formulas, units and stated conditions: 右行约定y=A sin(kx−ωt+φ)，k=2π/λ，ω=2πf，v波=ω/k。；v质点,y=−Aω cos(kx−ωt+φ)，a_y=−ω²y；v最大=Aω。；同刻Δ相位=kΔx；同位Δ相位=−ωΔt，均为弧度。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- ω/k为相位速度
+- Aω为质点速率幅
+- kx−ωt向正x
+- 初位移零仍两方向
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：波形图须核时间/空间轴、传播向、质点向及边界条件；不能把相似正弦图无条件互换
+
+来源：
+- https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html
+- https://openstax.org/books/university-physics-volume-1/pages/16-2-mathematics-of-waves
+
+## B06-PHYS17-17-5 · 物理 17.5 波的反射和折射
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：由边界解释反射相位与透射波长；运用波前及折射关系并辨角度和介质条件
+
+对象：固定自由绳端；平面界面法线；快慢波前；能流比例框
+
+关系：固定端位移反相自由不反；慢介质向法线；f连续λ随v；角从法线量
+
+中文标签：位移；法线；θ₁；θ₂；v₁；v₂
+
+公式/单位：理想固定端位移反射反相，自由端相应位移反射不反相。；静止平面边界θ反=θ入，角对法线；sinθ₁/v₁=sinθ₂/v₂。；同频透射λ₂/λ₁=v₂/v₁，能量系数不等任意位移振幅简单相加。
+
+### 中文Prompt
+
+制作物理第17章《机械波》17.5《波的反射和折射》的教学图《波反射折射的边界与角》。教学目标：由边界解释反射相位与透射波长；运用波前及折射关系并辨角度和介质条件。必须对象：固定自由绳端；平面界面法线；快慢波前；能流比例框。不可画错的关系：固定端位移反相自由不反；慢介质向法线；f连续λ随v；角从法线量。中文标签：位移；法线；θ₁；θ₂；v₁；v₂。公式、单位和条件：理想固定端位移反射反相，自由端相应位移反射不反相。；静止平面边界θ反=θ入，角对法线；sinθ₁/v₁=sinθ₂/v₂。；同频透射λ₂/λ₁=v₂/v₁，能量系数不等任意位移振幅简单相加。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter17, authentic subsection17.5, with original Chinese title 波的反射和折射. Topic-specific mandatory science: Label angles from the interface normal and distinguish the plotted wave variable. Fixed-end string displacement reflects with inversion; free-end displacement does not. At a stationary interface frequency stays fixed, and sin(theta1)/v1=sin(theta2)/v2. Energy coefficients are not arbitrary displacement-amplitude ratios. Use deterministic wave plots with explicit space or time axes, units and a stated instant or position. Distinguish particle displacement from wave propagation. Draw phase, boundary conditions and medium consistently. Quantitative curves must be generated from the displayed equation; longitudinal displacement plots are not literal transverse shapes. Required objects, preserving these Chinese labels: 固定自由绳端；平面界面法线；快慢波前；能流比例框. Additional literal Chinese annotation strings: 位移；法线；θ₁；θ₂；v₁；v₂. Typeset and verify these reference formulas, units and stated conditions: 理想固定端位移反射反相，自由端相应位移反射不反相。；静止平面边界θ反=θ入，角对法线；sinθ₁/v₁=sinθ₂/v₂。；同频透射λ₂/λ₁=v₂/v₁，能量系数不等任意位移振幅简单相加。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 固定端位移反相自由不反
+- 慢介质向法线
+- f连续λ随v
+- 角从法线量
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：波形图须核时间/空间轴、传播向、质点向及边界条件；不能把相似正弦图无条件互换
+
+来源：
+- https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html
+- https://openstax.org/books/university-physics-volume-1/pages/16-5-interference-of-waves
+
+## B06-PHYS17-17-6 · 物理 17.6 波的叠加
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：由位移叠加解释干涉与驻波；应用边界条件求节点腹点和允许频率
+
+对象：两反向行波；三腹固定弦；单开单闭管；声压位移两图
+
+关系：节点隔λ/2；节腹λ/4；固定弦两端节点；闭端位移节压力腹；管奇次模式
+
+中文标签：节点；波腹；L；λ；f₁；变量名称
+
+公式/单位：线性叠加y=y₁+y₂；等幅同频合振幅2A|cos(Δφ/2)|。；驻波y=2A sin(kx)cos(ωt)，节点间λ/2，邻节腹λ/4。；两端固定弦f_n=nv/(2L)；理想单开单闭管f_n=(2n−1)v/(4L)，须注明端点变量。
+
+### 中文Prompt
+
+制作物理第17章《机械波》17.6《波的叠加》的教学图《驻波边界与节点腹点》。教学目标：由位移叠加解释干涉与驻波；应用边界条件求节点腹点和允许频率。必须对象：两反向行波；三腹固定弦；单开单闭管；声压位移两图。不可画错的关系：节点隔λ/2；节腹λ/4；固定弦两端节点；闭端位移节压力腹；管奇次模式。中文标签：节点；波腹；L；λ；f₁；变量名称。公式、单位和条件：线性叠加y=y₁+y₂；等幅同频合振幅2A|cos(Δφ/2)|。；驻波y=2A sin(kx)cos(ωt)，节点间λ/2，邻节腹λ/4。；两端固定弦f_n=nv/(2L)；理想单开单闭管f_n=(2n−1)v/(4L)，须注明端点变量。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter17, authentic subsection17.6, with original Chinese title 波的叠加. Topic-specific mandatory science: For equal opposite waves y=2A sin(kx)cos(omega t), adjacent nodes are lambda/2 apart and node-to-antinode spacing is lambda/4. Both-fixed strings allow all positive integer modes; ideal one-open-one-closed pipes allow odd modes. A closed pipe end is a displacement node and pressure antinode. Use deterministic wave plots with explicit space or time axes, units and a stated instant or position. Distinguish particle displacement from wave propagation. Draw phase, boundary conditions and medium consistently. Quantitative curves must be generated from the displayed equation; longitudinal displacement plots are not literal transverse shapes. Required objects, preserving these Chinese labels: 两反向行波；三腹固定弦；单开单闭管；声压位移两图. Additional literal Chinese annotation strings: 节点；波腹；L；λ；f₁；变量名称. Typeset and verify these reference formulas, units and stated conditions: 线性叠加y=y₁+y₂；等幅同频合振幅2A|cos(Δφ/2)|。；驻波y=2A sin(kx)cos(ωt)，节点间λ/2，邻节腹λ/4。；两端固定弦f_n=nv/(2L)；理想单开单闭管f_n=(2n−1)v/(4L)，须注明端点变量。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 节点隔λ/2
+- 节腹λ/4
+- 固定弦两端节点
+- 闭端位移节压力腹
+- 管奇次模式
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：波形图须核时间/空间轴、传播向、质点向及边界条件；不能把相似正弦图无条件互换
+
+来源：
+- https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html
+- https://openstax.org/books/university-physics-volume-1/pages/16-6-standing-waves-and-resonance
+
+## B06-PHYS17-17-7 · 物理 17.7 多普勒效应
+
+优先级：P0；状态：not_produced_pending_review；推荐SVG1280×960。
+
+用途：分别推导移动观察者与移动声源的频率；依介质参考系及运动方向完整计算
+
+对象：等间隔静源波前；移动观察者；移动源压密前方；有号速度轴
+
+关系：源动改λ；观察者改遇波率；同相对20m/s两频不同；亚声速条件显式
+
+中文标签：v；u_s；u_o；λ前；f观；介质系
+
+公式/单位：静源、观察者朝源u：f观=f(v+u)/v；远离用v−u。；静观察者、源朝观察者u：f观=fv/(v−u)，亚声速相应条件。；沿源→观察者方向，介质系速度u_s,u_o：f观=f(v−u_o)/(v−u_s)。
+
+### 中文Prompt
+
+制作物理第17章《机械波》17.7《多普勒效应》的教学图《声源与观察者移动的两种机制》。教学目标：分别推导移动观察者与移动声源的频率；依介质参考系及运动方向完整计算。必须对象：等间隔静源波前；移动观察者；移动源压密前方；有号速度轴。不可画错的关系：源动改λ；观察者改遇波率；同相对20m/s两频不同；亚声速条件显式。中文标签：v；u_s；u_o；λ前；f观；介质系。公式、单位和条件：静源、观察者朝源u：f观=f(v+u)/v；远离用v−u。；静观察者、源朝观察者u：f观=fv/(v−u)，亚声速相应条件。；沿源→观察者方向，介质系速度u_s,u_o：f观=f(v−u_o)/(v−u_s)。。采用2至3个逻辑面板，主关系在左/上，条件与验算在右/下。建议1280×960、4:3，最小标签24px，四周留48px，不靠颜色单独区分。图形须SVG或数学绘图库确定性构造；AI只可作构图草稿，科学校验通过前不得教学发布。图中数据是原创教学示例，不是实测或官方考题。手机缩放和放大应可读，文字不裁切。
+
+### English Prompt
+
+Create a standalone UEC senior-high teaching diagram for chapter17, authentic subsection17.7, with original Chinese title 多普勒效应. Topic-specific mandatory science: Distinguish a moving observer, which changes wavefront encounter rate, from a moving source, which changes wavelength in the medium. With sound speed340m/s and source500Hz, observer approach20m/s gives529.41Hz, while source approach20m/s toward a fixed observer gives531.25Hz. Define signed velocities relative to the medium and state the subsonic assumptions. Use deterministic wave plots with explicit space or time axes, units and a stated instant or position. Distinguish particle displacement from wave propagation. Draw phase, boundary conditions and medium consistently. Quantitative curves must be generated from the displayed equation; longitudinal displacement plots are not literal transverse shapes. Required objects, preserving these Chinese labels: 等间隔静源波前；移动观察者；移动源压密前方；有号速度轴. Additional literal Chinese annotation strings: v；u_s；u_o；λ前；f观；介质系. Typeset and verify these reference formulas, units and stated conditions: 静源、观察者朝源u：f观=f(v+u)/v；远离用v−u。；静观察者、源朝观察者u：f观=fv/(v−u)，亚声速相应条件。；沿源→观察者方向，介质系速度u_s,u_o：f观=f(v−u_o)/(v−u_s)。. Use two or three separated panels, main relationship on the left or top and conditions/checks on the right or bottom. Size1280x960,ratio4:3,minimum label24px,safe margin48px. Use SVG or a deterministic plotting library for scientific geometry, structure, arrows and numbers. AI output may only be a draft layout and cannot be published before scientific review. Values are illustrative teaching data, not measurements or official examination figures. Ensure mobile scaling, zoom readability and no clipped labels.
+
+### Negative Prompt
+
+No incorrect arrow directions, reversed DNA polarity, unbalanced chemical charges, omitted denominator exclusions, Celsius in absolute-temperature powers, invented data, fake official scoring, impossible cell structures, decorative curves replacing equations, duplicate labels, tiny low-contrast text, clipping, watermark or photorealism replacing a scientific schematic.
+
+### 科学验收
+
+- 源动改λ
+- 观察者改遇波率
+- 同相对20m/s两频不同
+- 亚声速条件显式
+- 逐项核对对象、中文、数值、单位与定义域/模型条件
+- 图示与原例题条件一致，不机械套用其他题的数据
+- 检查320/390px与桌面缩放及放大，无文字裁切
+- XML/路径通过不代表科学审核通过，发布前需单独复核
+
+旧图复用：波形图须核时间/空间轴、传播向、质点向及边界条件；不能把相似正弦图无条件互换
+
+来源：
+- https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html
+- https://openstax.org/books/university-physics-volume-1/pages/17-7-the-doppler-effect
 
 ## B06-PHYS19-19-1 · 物理 19.1 棱镜与色散
 

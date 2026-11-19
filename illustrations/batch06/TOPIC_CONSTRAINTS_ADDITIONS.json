@@ -34,5 +34,38 @@
     "For nonnegative a,b with a+b=10, ab is at most25 and equality requires a=b=5. On x>0, x+9/x is at least6 with equality only at x=3; excluding3 removes attainment without removing the lower bound.",
     "Contradiction retains the premises and temporarily negates the precise conclusion. Negating a universal statement gives an existential counterexample. Proving at most one root does not prove existence. The product of listed primes plus1 need not itself be prime.",
     "Newton tangents for f=x squared-5 start at(2,-1), meet the x axis at2.25, and next produce161/72. Bisection needs continuity plus opposite signs. After n interval halvings, midpoint error is at most initial width divided by2 to the power(n+1)."
+  ],
+  "math07": [
+    "A false statement is still a proposition. Contrast a fixed statement with an unassigned open sentence and with a question or command. A counterexample to a universal implication must lie in the domain and make its antecedent true and consequent false.",
+    "Give all four truth assignments for two independent propositions. OR is inclusive unless stated otherwise. Negating1<x<=5 over the real numbers gives x<=1 OR x>5, with the correct endpoint circles.",
+    "Preserve domains and quantifier order. For every real x there is a real y>x via y=x+1, but one fixed real y cannot exceed every real x. Negating all-exists gives exists-all with the inner predicate negated.",
+    "For truth sets P and Q in one domain, P subset Q means p is sufficient for q and q necessary for p. In the real domain x=3 implies x squared=9 but not conversely because x=-3; in the nonnegative domain they are equivalent.",
+    "Modus ponens and modus tollens are valid; affirming the consequent and denying the antecedent are generally invalid. Cover all integer parity cases to prove n(n+1) even. The sample n=40 gives n squared+n+41=1681=41 squared, refuting a universal prime conjecture."
+  ],
+  "math08": [
+    "Use counterclockwise positive accumulated angles. Minus150degrees and210degrees share a terminal ray but differ by one revolution.180degrees equals pi radians. Standard-position axis rays are not inside quadrants; reducing modulo one turn must not erase accumulated rotational distance.",
+    "For radius6cm and angle120degrees=2pi/3 radians, arc length4pi cm and sector area12pi cm squared. The sector perimeter also includes2r. Distinguish chord from arc and minor segment from sector. The formulas s=r theta and area=r squared theta/2 require radians."
+  ],
+  "math32": [
+    "Passive translation with new origin(h,k) in old coordinates gives old x=X+h,y=Y+k. The point and locus stay fixed. For x squared+y squared-4x+6y-12=0, use origin(2,-3) and obtain X squared+Y squared=25, radius5.",
+    "For passive counterclockwise axis rotation theta, old x=Xcos(theta)-Ysin(theta) and old y=Xsin(theta)+Ycos(theta). The inverse differs from active point rotation. At theta pi/4,5x squared-6xy+5y squared=16 becomes X squared/8+Y squared/2=1; preserve orthogonal equal-scale axes and distances."
+  ],
+  "math09": [
+    "On equal-scale Cartesian axes use r positive. A terminal-ray point(-5,12) gives r13,sine12/13,cosine-5/13,tangent-12/5. Axis angles require explicit denominator checks; tangent undefined need not mean cotangent undefined under its coordinate definition.",
+    "Derive reductions from unit-circle reflection and rotation. Sine is odd, cosine even; a half-turn reverses both coordinates. Sin765degrees=sqrt2/2,cos(-330degrees)=sqrt3/2 andtan225degrees=1. Preserve the original domain after cancellation.",
+    "Plot y=-3sin(2(x-pi/4))+1 with range[-2,4],midline1,amplitude3 and periodpi. For tan(2x) on[0,pi], exclude pi/4 and3pi/4 and never connect across the vertical asymptotes. Horizontal shift for Bx+C is-C/B.",
+    "Inverse trigonometric functions use restricted principal branches, not reciprocal values. Arcsin(sin(5pi/6))=pi/6; arccos(cos(5pi/3))=pi/3; arctan(tan(3pi/4))=-pi/4. Arctangent output endpoints plus/minuspi/2 are open, and arcsin(2x-1) has real domain[0,1]."
+  ],
+  "math10": [
+    "Label each side opposite its matching angle. For SSA A30degrees,a5,b8, sinB=0.8 permits B53.130degrees or126.870degrees, with both corresponding third angles positive. Draw two distinct valid triangles and distinguish circumradius R from diameter2R.",
+    "For SAS a5,b7,included C60degrees, c squared=39. For SSS13,14,15,the angle opposite15 has cosine5/13. Triangle existence must precede angle classification:2,3,6 cannot form a triangle. Do not clamp out-of-range cosines to create a fake solution.",
+    "Use included-angle area, Heron with semiperimeter, and distinct inradius/circumradius relations. Sides7,8,9 give s12 and area12sqrt5;13,14,15 give area84. With two fixed sides, maximum area occurs at90degrees only if that angle is allowed.",
+    "Bearings are clockwise from north with east displacement d sin(beta) and north displacement d cos(beta). A30m horizontal sightline to a vertical tower at45degrees from eye height1.5m gives tower height31.5m. Same-side collinear observation distances differ by the baseline; opposite-side distances add."
+  ],
+  "math11": [
+    "All identities refer to the same angle and their common domain. From sin squared+cos squared=1 derive the secant and cosecant square identities only where division is allowed. Simplifying(1-cos squared x)/sin x tosin x must retain x not equal to integer multiples of pi. Square-root of sine squared is absolute sine.",
+    "Expand sine and cosine sums with the correct product terms and cosine sign reversal. For acute A,B with sinA3/5,cosB12/13, sine of the sum is56/65 and cosine33/65. Match3sinx+4cosx to5sin(x+phi) with cosphi3/5,sinphi4/5, and check whether maximum-phase points lie in the allowed domain.",
+    "Distinguish sin(2x) from(sinx)squared. For cosx=-3/5 in quadrantII, sin(2x)=-24/25 and cos(2x)=-7/25. For x in(pi,2pi) the half-angle is in quadrantII, so sine of the half-angle is positive and cosine negative. Lowering sin squared x cos squared x gives(1-cos4x)/8.",
+    "For sin(2x)=1/2 on[0,2pi), mark all four roots pi/12,5pi/12,13pi/12,17pi/12. For sin2x=sinx retain both sinx=0 and2cosx-1=0 branches; never divide away the zero factor. Square-induced candidates must be checked in the original equation, with open or closed interval endpoints respected."
   ]
 }

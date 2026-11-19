@@ -1,0 +1,1519 @@
+{
+  "7.1": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 7,
+    "section_id": "7.1",
+    "goals": [
+      "判断陈述是否为有确定真值的命题",
+      "区分命题真假、开放语句与带条件陈述"
+    ],
+    "prerequisites": [
+      "整数实数",
+      "方程",
+      "反例"
+    ],
+    "flow": [
+      "陈述真值",
+      "语句类型",
+      "开放语句",
+      "条件反例",
+      "域与证据"
+    ],
+    "concept_relation": "陈述真值；语句类型；开放语句；条件反例；域与证据",
+    "deep": [
+      "条件命题“若p则q”断言在p成立的情形q成立。对一个全称的数学蕴含，找出p真而q假的对象即可反驳，不能只找一组两者都真就称已证明。条件关系不自动意味着时间先后或因果，也不保证其逆命题成立。",
+      "判断真假要依定义和推理，不以句子长短或是否出现公式决定。涉及未知但客观确定数学结论时，不能因为自己不会算就说不是命题；同时自指悖论等超出简单二值讨论的句子不应硬塞入基础真值表。",
+      "考试表达先写定义域与限定，再给判定依据。全称反驳需一个合域反例，存在证明需一个满足对象，单纯写“显然”不能替代说明。模块后的检测要求解释为什么，不只是背T/F符号，让真假判断可追溯。"
+    ],
+    "derive": [
+      "命题可真可假；问题和命令通常不是真假陈述。",
+      "开放语句P(x)需指定x或给量词与域后才成完整命题。",
+      "反驳全称p⇒q需合域对象使p真、q假。"
+    ],
+    "examples": [
+      {
+        "q": "“15是偶数”虽错，是否仍为命题？ 条件：普通整数定义。",
+        "given": "普通整数定义。",
+        "analysis": "真值可确定。",
+        "method": "定义判别。",
+        "principle": "命题不等真命题。",
+        "steps": [
+          "15除2余1，所以该陈述假。",
+          "但它确有确定真值，因此是命题。"
+        ],
+        "ans": "是，假命题。",
+        "verification": "不能以错就排除。",
+        "pitfall": "只正确陈述才叫命题。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.1",
+        "related_sections": []
+      },
+      {
+        "q": "“x²=4”在未指定实数x时与“存在实数x使x²=4”有何区别？ 条件：域为实数。",
+        "given": "域为实数。",
+        "analysis": "开放与量化。",
+        "method": "补对象。",
+        "principle": "真值依赋值。",
+        "steps": [
+          "原式x2成立、x0不成立，未固定真值。",
+          "存在命题以x2为见证，是真。"
+        ],
+        "ans": "前者开放语句，后者真命题。",
+        "verification": "见证2在实数域且平方4。",
+        "pitfall": "变量句不加量词也都固定真。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.1",
+        "related_sections": []
+      },
+      {
+        "q": "反驳“所有实数x若x²>4则x>2”。 条件：全称实数，严格不等号。",
+        "given": "全称实数，严格不等号。",
+        "analysis": "需前真后假。",
+        "method": "选负数反例。",
+        "principle": "蕴含反驳。",
+        "steps": [
+          "取x−3，则x²9>4真。",
+          "x>2假，所以全称不成立。"
+        ],
+        "ans": "反例x=−3，原命题假。",
+        "verification": "取x3两者真只支持一个例，不证明全称。",
+        "pitfall": "举成功例当全称证明。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "“请计算3²”是命题吗？ 条件：按真假陈述定义。",
+        "given": "按真假陈述定义。",
+        "analysis": "命令句。",
+        "method": "语句功能。",
+        "principle": "命题定义。",
+        "steps": [
+          "它要求执行计算。",
+          "未陈述一个可真假的断言。"
+        ],
+        "ans": "通常不是。",
+        "verification": "“3²=9”则是真命题。",
+        "pitfall": "有数字就命题。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.1",
+        "related_sections": []
+      },
+      {
+        "q": "“存在整数x，2x=1”真假？ 条件：域整数。",
+        "given": "域整数。",
+        "analysis": "唯一实解不在域。",
+        "method": "解方程并查域。",
+        "principle": "存在量词。",
+        "steps": [
+          "2x1得x1/2。",
+          "不是整数，故不存在。"
+        ],
+        "ans": "假命题。",
+        "verification": "域改实数会真。",
+        "pitfall": "解出值就不查域。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.1",
+        "related_sections": []
+      },
+      {
+        "q": "“每个正实数x都有x²>0”如何说明？ 条件：域正实数。",
+        "given": "域正实数。",
+        "analysis": "正数乘正数。",
+        "method": "任取对象。",
+        "principle": "乘法正性。",
+        "steps": [
+          "任意x>0。",
+          "x×x>0，故对所有该域对象成立。"
+        ],
+        "ans": "真。",
+        "verification": "未把x0包括进域。",
+        "pitfall": "只举x1证明全称。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.1",
+        "related_sections": []
+      },
+      {
+        "q": "自己暂不会判某完整数学断言真假，能据此断不是命题吗？ 条件：断言有明确对象和二值含义。",
+        "given": "断言有明确对象和二值含义。",
+        "analysis": "知识状态不同于真值属性。",
+        "method": "定义。",
+        "principle": "逻辑。",
+        "steps": [
+          "不知道答案不改变陈述性质。",
+          "仍可能是命题，需研究其真假。"
+        ],
+        "ans": "不能。",
+        "verification": "未解与不具真值概念不同。",
+        "pitfall": "我不会所以没有真假。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "“若x=2则x²=4”允许逆向说x²=4必x=2吗？ 条件：x为实数。",
+      "given": "x为实数。",
+      "analysis": "逆命题需另证。",
+      "method": "检查另一根。",
+      "principle": "方程。",
+      "steps": [
+        "x²4还可能x−2。",
+        "原条件充分但不保证唯一逆向。"
+      ],
+      "ans": "不允许直接逆推。",
+      "verification": "−2是逆命题反例。",
+      "pitfall": "箭头自动双向。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 7,
+      "primary_section": "7.1",
+      "related_sections": []
+    },
+    "exam": [
+      "判命题先对象与语句类型，真假另判",
+      "开放式先赋值或量化，域不可省",
+      "全称反驳找前真后假，成功例不等全证"
+    ],
+    "quick": [
+      "陈述真值",
+      "语句类型",
+      "开放语句",
+      "条件反例",
+      "域与证据"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 4,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_7.1",
+        "url": "https://math.libretexts.org/Bookshelves/Mathematical_Logic_and_Proof/Book%3A_Mathematical_Reasoning__Writing_and_Proof_(Sundstrom)/02%3A_Logical_Reasoning",
+        "page_or_section": "02%3A_Logical_Reasoning",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 4,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_7.1",
+        "url": "https://math.libretexts.org/Bookshelves/Mathematical_Logic_and_Proof/Book%3A_Mathematical_Reasoning__Writing_and_Proof_(Sundstrom)/02%3A_Logical_Reasoning",
+        "page_or_section": "02%3A_Logical_Reasoning",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "判命题先对象与语句类型，真假另判",
+      "method": "选负数反例。",
+      "principle": "蕴含反驳。",
+      "worked_example_index": 2,
+      "verification": "取x3两者真只支持一个例，不证明全称。",
+      "pitfall": "举成功例当全称证明。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“判断陈述是否为有确定真值的命题”的抽样复核：不能以错就排除。；若出现“只正确陈述才叫命题。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分命题真假、开放语句与带条件陈述”的抽样复核：取x3两者真只支持一个例，不证明全称。；若出现“举成功例当全称证明。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "箭头自动双向。",
+        "correction": "不允许直接逆推。",
+        "verification": "−2是逆命题反例。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "命题开放语句的判别树",
+      "objects": [
+        "真陈述",
+        "假陈述",
+        "命令问句",
+        "P(x)",
+        "赋值量化分支"
+      ],
+      "relations": [
+        "假陈述仍命题",
+        "未定x可能真值不同",
+        "量词需域",
+        "全称反例合域"
+      ],
+      "labels": [
+        "命题",
+        "真/假",
+        "开放语句",
+        "定义域",
+        "反例"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "逻辑图须核量词域、箭头及真值；普通流程图不得自动当蕴含证明",
+      "english": "Use exact logical diagrams and truth tables. Define the domain and every proposition. Inclusive OR differs from exclusive OR. Implication fails only when the antecedent is true and the consequent false; arrows do not claim causality. Quantifier order and negation must be preserved, and examples are not universal proofs."
+    }
+  },
+  "7.2": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 7,
+    "section_id": "7.2",
+    "goals": [
+      "构造否定合取析取的真值表",
+      "正确否定复合条件和不等式而不漏边界"
+    ],
+    "prerequisites": [
+      "命题",
+      "集合并交",
+      "不等式"
+    ],
+    "flow": [
+      "联结定义",
+      "完整真值表",
+      "De Morgan",
+      "不等式补集",
+      "作用域"
+    ],
+    "concept_relation": "联结定义；完整真值表；De Morgan；不等式补集；作用域",
+    "deep": [
+      "De Morgan律说明非(p且q)等价(非p)或(非q)，非(p或q)等价(非p)且(非q)。意思是“并非全部成立”只需至少一项失败，“并非至少一项成立”则要求全部失败。只逐项加非而不换且或会得到不同真值。",
+      "用区间可检验规则：非(0<x<2)是在实数域x≤0或x≥2，原条件包含两个且；不能写x≤0且x≥2，那会变成空集。若原题已有域0≤x≤3，否定应在此域内取补集，而不把负数和大于3都带入。",
+      "复杂表达先加括号明确联结优先次序，再求否定或解集。一个反例赋值可以驳倒错误等价式，但证明真值等价需覆盖所有赋值或作有效逻辑推导。考试解答给表格、区间或文字理由，让“不是”究竟否定哪一层清楚可读。"
+    ],
+    "derive": [
+      "非p反真值；p∧q只TT真；p∨q只FF假，∨通常包容或。",
+      "¬(p∧q)≡¬p∨¬q；¬(p∨q)≡¬p∧¬q。",
+      "实数域¬(x>a)为x≤a；复合不等式否定注意等号与域。"
+    ],
+    "examples": [
+      {
+        "q": "p真q真，p或q与“恰一为真”各真假？ 条件：数学或指包容或。",
+        "given": "数学或指包容或。",
+        "analysis": "两种联结不同。",
+        "method": "定义赋值。",
+        "principle": "析取与异或。",
+        "steps": [
+          "至少一真满足，所以p∨q真。",
+          "恰一不满足，因为两项真，故异或假。"
+        ],
+        "ans": "包容或真，恰一假。",
+        "verification": "TT行直接区分。",
+        "pitfall": "或一律只能一个。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.2",
+        "related_sections": []
+      },
+      {
+        "q": "在实数域否定1<x≤5，并给解集。 条件：原句为x>1且x≤5。",
+        "given": "原句为x>1且x≤5。",
+        "analysis": "否定且变或。",
+        "method": "De Morgan。",
+        "principle": "补集。",
+        "steps": [
+          "非(x>1)为x≤1。",
+          "非(x≤5)为x>5，合为x≤1或x>5。"
+        ],
+        "ans": "(−∞,1]∪(5,∞)。",
+        "verification": "x1与x6不满足原句；x5仍满足原句故否定不含5。",
+        "pitfall": "只反符号不换且或或漏端点。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.2",
+        "related_sections": []
+      },
+      {
+        "q": "非(p或q)与非p或非q是否等价？ 条件：用二值真值。",
+        "given": "用二值真值。",
+        "analysis": "可找反例赋值。",
+        "method": "令p真q假。",
+        "principle": "逻辑等价要求所有行同值。",
+        "steps": [
+          "p∨q真，其非为假。",
+          "非p假、非q真，二者或为真。"
+        ],
+        "ans": "不等价；正确为非p且非q。",
+        "verification": "一行不同足以否定等价。",
+        "pitfall": "否定逐项加非却保留或。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "p假q真，p且q、p或q、非q？ 条件：标准联结。",
+        "given": "标准联结。",
+        "analysis": "逐项。",
+        "method": "定义。",
+        "principle": "真值。",
+        "steps": [
+          "且假，或真。",
+          "非q假。"
+        ],
+        "ans": "假、真、假。",
+        "verification": "只且要两真。",
+        "pitfall": "将且当至少一真。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.2",
+        "related_sections": []
+      },
+      {
+        "q": "实数域x=0的否定是什么？ 条件：对象同一x。",
+        "given": "对象同一x。",
+        "analysis": "不等于包括两侧。",
+        "method": "补集。",
+        "principle": "否定。",
+        "steps": [
+          "x≠0。",
+          "等价x<0或x>0。"
+        ],
+        "ans": "x≠0。",
+        "verification": "x1与−1都应包含。",
+        "pitfall": "只写x<0。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.2",
+        "related_sections": []
+      },
+      {
+        "q": "域[0,3]内0<x<2的否定解集？ 条件：只在给定域讨论。",
+        "given": "只在给定域讨论。",
+        "analysis": "先全实补再交域。",
+        "method": "集合。",
+        "principle": "相对补集。",
+        "steps": [
+          "全实补x≤0或x≥2。",
+          "交[0,3]得{0}∪[2,3]。"
+        ],
+        "ans": "{0}∪[2,3]。",
+        "verification": "不包含负数。",
+        "pitfall": "忽略原域写无限区间。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.2",
+        "related_sections": []
+      },
+      {
+        "q": "构造两命题完整真值表应有几行赋值？ 条件：p,q独立可真可假。",
+        "given": "p,q独立可真可假。",
+        "analysis": "每项两可能。",
+        "method": "2²。",
+        "principle": "组合。",
+        "steps": [
+          "TT,TF,FT,FF。",
+          "共4行。"
+        ],
+        "ans": "4行。",
+        "verification": "表头不计为赋值行。",
+        "pitfall": "只列两者同真同假。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "“不是所有条件都满足”与“所有条件都不满足”相同吗？ 条件：至少两个可独立条件。",
+      "given": "至少两个可独立条件。",
+      "analysis": "非合取不同合取否定。",
+      "method": "一真一假反例。",
+      "principle": "De Morgan。",
+      "steps": [
+        "一真一假时不是全部满足为真。",
+        "所有不满足为假。"
+      ],
+      "ans": "不相同。",
+      "verification": "前者至少一失败，后者全部失败。",
+      "pitfall": "自然语言的非作用域不清。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 7,
+      "primary_section": "7.2",
+      "related_sections": []
+    },
+    "exam": [
+      "括号标否定范围，且或按真值定义",
+      "否定不等式包含边界，最后与原域相交",
+      "等价表列完整四行，反驳可用一行不同"
+    ],
+    "quick": [
+      "联结定义",
+      "完整真值表",
+      "De Morgan",
+      "不等式补集",
+      "作用域"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 7,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_7.2",
+        "url": "https://math.libretexts.org/Bookshelves/Mathematical_Logic_and_Proof/Book%3A_Mathematical_Reasoning__Writing_and_Proof_(Sundstrom)/02%3A_Logical_Reasoning",
+        "page_or_section": "02%3A_Logical_Reasoning",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 7,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_7.2",
+        "url": "https://math.libretexts.org/Bookshelves/Mathematical_Logic_and_Proof/Book%3A_Mathematical_Reasoning__Writing_and_Proof_(Sundstrom)/02%3A_Logical_Reasoning",
+        "page_or_section": "02%3A_Logical_Reasoning",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "括号标否定范围，且或按真值定义",
+      "method": "令p真q假。",
+      "principle": "逻辑等价要求所有行同值。",
+      "worked_example_index": 2,
+      "verification": "一行不同足以否定等价。",
+      "pitfall": "否定逐项加非却保留或。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“构造否定合取析取的真值表”的抽样复核：TT行直接区分。；若出现“或一律只能一个。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“正确否定复合条件和不等式而不漏边界”的抽样复核：一行不同足以否定等价。；若出现“否定逐项加非却保留或。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "自然语言的非作用域不清。",
+        "correction": "不相同。",
+        "verification": "前者至少一失败，后者全部失败。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "联结词真值与区间否定",
+      "objects": [
+        "四行真值表",
+        "集合并交图",
+        "1<x≤5数轴",
+        "否定范围括号"
+      ],
+      "relations": [
+        "∨的TT行真",
+        "非且为或",
+        "原1不含5含",
+        "否定1含5不含"
+      ],
+      "labels": [
+        "¬",
+        "∧",
+        "∨",
+        "实数域",
+        "等号边界"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "逻辑图须核量词域、箭头及真值；普通流程图不得自动当蕴含证明",
+      "english": "Use exact logical diagrams and truth tables. Define the domain and every proposition. Inclusive OR differs from exclusive OR. Implication fails only when the antecedent is true and the consequent false; arrows do not claim causality. Quantifier order and negation must be preserved, and examples are not universal proofs."
+    }
+  },
+  "7.3": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 7,
+    "section_id": "7.3",
+    "goals": [
+      "明确量词顺序和变量依赖",
+      "正确否定全称存在陈述并给证明或反例"
+    ],
+    "prerequisites": [
+      "命题域",
+      "否定",
+      "函数与不等式"
+    ],
+    "flow": [
+      "域与对象",
+      "全称存在",
+      "量词否定",
+      "依赖顺序",
+      "证明类型"
+    ],
+    "concept_relation": "域与对象；全称存在；量词否定；依赖顺序；证明类型",
+    "deep": [
+      "多个量词的先后影响依赖。∀x∈R∃y∈R使y>x为真，可以在每个x之后选择y=x+1；∃y∈R∀x∈R使y>x则要一个固定y超过所有实数，不成立，取x=y+1即可反驳。不能把随x选择的y当不依赖x的单一常数。",
+      "存在性与唯一性也不同，∃xP(x)不保证只一个。若题要求恰一个，需要证明至少一个且任意两个解相同；例如x²=4实数解有两个，不能因找到x2就说唯一。符号∃!或文字“唯一”增加了需要证明的内容。",
+      "解答先写域、量词和变量依赖，再选择任取推理、构造见证或反例。否定多量词时逐层换∀∃并否定最内性质，避免只把最后不等号改掉。检验可用简单对象，但全称正确仍需一般理由，题目不得将抽样统计当逻辑必然。"
+    ],
+    "derive": [
+      "¬(∀x∈D,P)≡∃x∈D,¬P；¬(∃x∈D,P)≡∀x∈D,¬P。",
+      "∀x∃y允许y依赖x；∃y∀x要求先固定同一个y。",
+      "存在不等唯一；否定与证明都保留同一定义域。"
+    ],
+    "examples": [
+      {
+        "q": "否定“所有实数x都满足x²>x”。 条件：在实数域，内部严格大于。",
+        "given": "在实数域，内部严格大于。",
+        "analysis": "全称换存在且反不等式。",
+        "method": "逐层否定。",
+        "principle": "量词律。",
+        "steps": [
+          "写存在实数x，使x²≤x。",
+          "例如x0给0≤0，确为反例。"
+        ],
+        "ans": "∃x∈R，x²≤x。",
+        "verification": "只写x²<x会漏等号反例。",
+        "pitfall": "量词不换或漏等号。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.3",
+        "related_sections": []
+      },
+      {
+        "q": "证明∀x∈R∃y∈R，y>x，并审其换序。 条件：两变量实数。",
+        "given": "两变量实数。",
+        "analysis": "构造y依赖x。",
+        "method": "y=x+1。",
+        "principle": "实数无最大值。",
+        "steps": [
+          "任取x，y=x+1为实数且更大。",
+          "换成先固定y时，取x=y+1使条件失败。"
+        ],
+        "ans": "原命题真，换序命题假。",
+        "verification": "同一y不可能超过y+1。",
+        "pitfall": "构造依赖y却冒称常数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.3",
+        "related_sections": []
+      },
+      {
+        "q": "找到x=2满足x²=4，是否证明实数唯一解？ 条件：问题含唯一要求。",
+        "given": "问题含唯一要求。",
+        "analysis": "另一个解可能存在。",
+        "method": "检−2。",
+        "principle": "存在与唯一。",
+        "steps": [
+          "−2平方也4。",
+          "至少两不同解，唯一性不成立。"
+        ],
+        "ans": "未证明唯一，且实际不唯一。",
+        "verification": "解集{−2,2}。",
+        "pitfall": "一个见证证明唯一。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "否定“存在整数n使n²<0”。 条件：域整数。",
+        "given": "域整数。",
+        "analysis": "存在换全称。",
+        "method": "否定不等式。",
+        "principle": "逻辑律。",
+        "steps": [
+          "对所有整数n，有n²≥0。",
+          "非负平方支持该否定。"
+        ],
+        "ans": "∀n∈Z，n²≥0。",
+        "verification": "不能只写不存在并无内部形式。",
+        "pitfall": "把<换>漏0。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.3",
+        "related_sections": []
+      },
+      {
+        "q": "证明存在偶整数大于100。 条件：只需见证。",
+        "given": "只需见证。",
+        "analysis": "选102。",
+        "method": "构造。",
+        "principle": "偶数定义。",
+        "steps": [
+          "102=2×51为偶。",
+          "102>100。"
+        ],
+        "ans": "102可为见证。",
+        "verification": "无需列所有整数。",
+        "pitfall": "存在证明必须穷举。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.3",
+        "related_sections": []
+      },
+      {
+        "q": "检查1至100都真能保证所有整数均真吗？ 条件：未给另一个一般证明。",
+        "given": "未给另一个一般证明。",
+        "analysis": "有限样本不覆盖无限域。",
+        "method": "审量词。",
+        "principle": "全称。",
+        "steps": [
+          "尚有100以外整数。",
+          "需一般推理或完整论证。"
+        ],
+        "ans": "不能保证。",
+        "verification": "可以形成猜想，不能升级证明。",
+        "pitfall": "样本多等逻辑必然。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.3",
+        "related_sections": []
+      },
+      {
+        "q": "∃y∀x与∀x∃y可总交换吗？ 条件：同一非空域。",
+        "given": "同一非空域。",
+        "analysis": "依赖关系不同。",
+        "method": "反例。",
+        "principle": "量词顺序。",
+        "steps": [
+          "取性质y>x于R。",
+          "后一真前一假。"
+        ],
+        "ans": "不可总交换。",
+        "verification": "两个全称等某些情形另审，不泛化。",
+        "pitfall": "所有量词顺序无关。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "否定∀x∈R∃y∈R，y>x应怎样？ 条件：原域保持。",
+      "given": "原域保持。",
+      "analysis": "外∀变∃，内∃变∀。",
+      "method": "逐层否定。",
+      "principle": "De Morgan量词版。",
+      "steps": [
+        "写∃x∈R∀y∈R，y≤x。",
+        "即存在实数上界能压住所有y。"
+      ],
+      "ans": "∃x∀y，y≤x。",
+      "verification": "该否定实际假，但形式正确与真值另判。",
+      "pitfall": "只改>为≤却保留量词顺序。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 7,
+      "primary_section": "7.3",
+      "related_sections": []
+    },
+    "exam": [
+      "先写域与量词顺序，变量可依赖谁明确标",
+      "存在用合域见证，全称用任取推理，反驳全称用合域反例",
+      "多量词否定逐层换，存在和唯一分两步审"
+    ],
+    "quick": [
+      "域与对象",
+      "全称存在",
+      "量词否定",
+      "依赖顺序",
+      "证明类型"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 11,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_7.3",
+        "url": "https://math.libretexts.org/Bookshelves/Mathematical_Logic_and_Proof/Book%3A_Mathematical_Reasoning__Writing_and_Proof_(Sundstrom)/02%3A_Logical_Reasoning",
+        "page_or_section": "02%3A_Logical_Reasoning",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 11,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_7.3",
+        "url": "https://math.libretexts.org/Bookshelves/Mathematical_Logic_and_Proof/Book%3A_Mathematical_Reasoning__Writing_and_Proof_(Sundstrom)/02%3A_Logical_Reasoning",
+        "page_or_section": "02%3A_Logical_Reasoning",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先写域与量词顺序，变量可依赖谁明确标",
+      "method": "检−2。",
+      "principle": "存在与唯一。",
+      "worked_example_index": 2,
+      "verification": "解集{−2,2}。",
+      "pitfall": "一个见证证明唯一。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“明确量词顺序和变量依赖”的抽样复核：只写x²<x会漏等号反例。；若出现“量词不换或漏等号。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“正确否定全称存在陈述并给证明或反例”的抽样复核：解集{−2,2}。；若出现“一个见证证明唯一。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "只改>为≤却保留量词顺序。",
+        "correction": "∃x∀y，y≤x。",
+        "verification": "该否定实际假，但形式正确与真值另判。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "量词顺序与否定",
+      "objects": [
+        "∀x后选y=x+1",
+        "固定y再遍历x",
+        "量词否定箭头",
+        "合域见证"
+      ],
+      "relations": [
+        "逐x可选不同y",
+        "固定y被x=y+1反驳",
+        "∀∃否定为∃∀",
+        "内不等式含等号"
+      ],
+      "labels": [
+        "定义域R",
+        "依赖",
+        "见证",
+        "反例",
+        "唯一性另证"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "逻辑图须核量词域、箭头及真值；普通流程图不得自动当蕴含证明",
+      "english": "Use exact logical diagrams and truth tables. Define the domain and every proposition. Inclusive OR differs from exclusive OR. Implication fails only when the antecedent is true and the consequent false; arrows do not claim causality. Quantifier order and negation must be preserved, and examples are not universal proofs."
+    }
+  },
+  "7.4": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 7,
+    "section_id": "7.4",
+    "goals": [
+      "由蕴含方向准确解释充分必要",
+      "用解集包含及反例判定双向关系"
+    ],
+    "prerequisites": [
+      "命题",
+      "集合包含",
+      "逆否"
+    ],
+    "flow": [
+      "蕴含方向",
+      "充分必要",
+      "解集包含",
+      "逆否等价",
+      "域与反例"
+    ],
+    "concept_relation": "蕴含方向；充分必要；解集包含；逆否等价；域与反例",
+    "deep": [
+      "p⇒q与逆否¬q⇒¬p逻辑等价，逆命题q⇒p一般不同，否命题¬p⇒¬q也不保证。反证必要性可尝试假设¬q，若能推出¬p，等价支持原方向；但“没达到某充分条件”不代表目标一定失败，因为还可能有其他路径。",
+      "代数题更要注意域与附加条件。在实数域x=3是x²=9的充分不必要条件，反例−3；若域限制x≥0则两者变充要。变换两边平方、取根、除变量等步骤会改变等价性，只有适用条件满足才可画双向箭头。",
+      "考试作答先把被比较条件命名p,q，再分别测试两个方向，最后落中文结论。反例要在同一域内且前提真结论假，不能取被题目排除的0或负数。把方向、域及反例三件事写清，胜过背一句容易颠倒的充分必要口诀。"
+    ],
+    "derive": [
+      "p⇒q：p为q充分条件，q为p必要条件；p⇔q需两向。",
+      "P⊆Q对应p⇒q；P=Q对应充要，域必须相同。",
+      "p⇒q等价¬q⇒¬p，一般不等逆q⇒p。"
+    ],
+    "examples": [
+      {
+        "q": "实数域p:x=3，q:x²=9，p对q是什么条件？ 条件：不限制x非负。",
+        "given": "不限制x非负。",
+        "analysis": "原向成立逆向有−3。",
+        "method": "分两向。",
+        "principle": "平方根。",
+        "steps": [
+          "p时平方9，p⇒q真。",
+          "q可x−3不满足p，q⇒p假。"
+        ],
+        "ans": "充分不必要。",
+        "verification": "两个方向及反例同域。",
+        "pitfall": "只看到方程有根就称充要。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.4",
+        "related_sections": []
+      },
+      {
+        "q": "将上一题域改x≥0，关系如何？ 条件：同样p,q但新域。",
+        "given": "同样p,q但新域。",
+        "analysis": "负根不再合域。",
+        "method": "重审解集。",
+        "principle": "域对等价的影响。",
+        "steps": [
+          "q解±3，域内只3。",
+          "两向均成立，P=Q={3}。"
+        ],
+        "ans": "充要条件。",
+        "verification": "不能再用−3反驳，因不在域。",
+        "pitfall": "忽略域沿用反例。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.4",
+        "related_sections": []
+      },
+      {
+        "q": "整数域p:n能被6整除，q:n能被3整除，q对p何条件？ 条件：整除指存在整数商。",
+        "given": "整除指存在整数商。",
+        "analysis": "p⇒q但q不必p。",
+        "method": "一般证明加反例。",
+        "principle": "倍数。",
+        "steps": [
+          "若n6k则n3(2k)，所以p⇒q。",
+          "n3满足q不满足p。"
+        ],
+        "ans": "q为p必要不充分条件。",
+        "verification": "“p对q”则充分不必要，问法对象不同。",
+        "pitfall": "结论方向不看问谁对谁。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "p:x>5，q:x>2，在R中p对q？ 条件：严格不等式。",
+        "given": "严格不等式。",
+        "analysis": "范围包含。",
+        "method": "区间。",
+        "principle": "蕴含。",
+        "steps": [
+          "x>5必>2。",
+          "x3满足q不p。"
+        ],
+        "ans": "充分不必要。",
+        "verification": "P(5,∞)⊂Q(2,∞)。",
+        "pitfall": "阈值大就必要。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.4",
+        "related_sections": []
+      },
+      {
+        "q": "p:x²<0，q:x<0在R，p⇒q是否成立？ 条件：逻辑蕴含，p无满足对象。",
+        "given": "逻辑蕴含，p无满足对象。",
+        "analysis": "无前真后假。",
+        "method": "空集包含。",
+        "principle": "真值定义。",
+        "steps": [
+          "P为空。",
+          "P⊆Q，故蕴含逻辑成立但不表示有实际满足p者。"
+        ],
+        "ans": "成立（空前提情形）。",
+        "verification": "要区分逻辑关系与存在性。",
+        "pitfall": "前提不可能就所有蕴含都假。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.4",
+        "related_sections": []
+      },
+      {
+        "q": "p⇒q可否推出¬p⇒¬q？ 条件：一般逻辑，无额外条件。",
+        "given": "一般逻辑，无额外条件。",
+        "analysis": "否命题非逆否。",
+        "method": "反例赋值。",
+        "principle": "真值。",
+        "steps": [
+          "令p假q真，则p⇒q真。",
+          "¬p真、¬q假，目标蕴含假。"
+        ],
+        "ans": "不可一般推出。",
+        "verification": "正确等价逆否是¬q⇒¬p。",
+        "pitfall": "把两个否都加上就等价。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.4",
+        "related_sections": []
+      },
+      {
+        "q": "若p为q充要，解集应满足什么？ 条件：同一域。",
+        "given": "同一域。",
+        "analysis": "两向包含。",
+        "method": "集合等。",
+        "principle": "逻辑等价。",
+        "steps": [
+          "P⊆Q且Q⊆P。",
+          "故P=Q。"
+        ],
+        "ans": "P=Q。",
+        "verification": "只重叠不是相等。",
+        "pitfall": "画相交就称充要。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "证明p对q充分，只给一组p、q均真够吗？ 条件：结论要求域内一般关系。",
+      "given": "结论要求域内一般关系。",
+      "analysis": "成功样本不覆盖全部。",
+      "method": "区分例与证明。",
+      "principle": "全称蕴含。",
+      "steps": [
+        "需证明任意满足p者都满足q。",
+        "一组同真不能排除另一前真后假。"
+      ],
+      "ans": "不够。",
+      "verification": "反例一组可反驳，一成功例不全证。",
+      "pitfall": "证伪与证真样本需求混淆。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 7,
+      "primary_section": "7.4",
+      "related_sections": []
+    },
+    "exam": [
+      "先命名p q并写箭头，再翻译充分必要",
+      "逐向做一般证明或合域反例，充要不可只一向",
+      "解集包含辅助，域变关系可能变，逆否不混否命题"
+    ],
+    "quick": [
+      "蕴含方向",
+      "充分必要",
+      "解集包含",
+      "逆否等价",
+      "域与反例"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 14,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_7.4",
+        "url": "https://math.libretexts.org/Bookshelves/Mathematical_Logic_and_Proof/Book%3A_Mathematical_Reasoning__Writing_and_Proof_(Sundstrom)/02%3A_Logical_Reasoning",
+        "page_or_section": "02%3A_Logical_Reasoning",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 14,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_7.4",
+        "url": "https://math.libretexts.org/Bookshelves/Mathematical_Logic_and_Proof/Book%3A_Mathematical_Reasoning__Writing_and_Proof_(Sundstrom)/02%3A_Logical_Reasoning",
+        "page_or_section": "02%3A_Logical_Reasoning",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先命名p q并写箭头，再翻译充分必要",
+      "method": "一般证明加反例。",
+      "principle": "倍数。",
+      "worked_example_index": 2,
+      "verification": "“p对q”则充分不必要，问法对象不同。",
+      "pitfall": "结论方向不看问谁对谁。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由蕴含方向准确解释充分必要”的抽样复核：两个方向及反例同域。；若出现“只看到方程有根就称充要。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用解集包含及反例判定双向关系”的抽样复核：“p对q”则充分不必要，问法对象不同。；若出现“结论方向不看问谁对谁。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "证伪与证真样本需求混淆。",
+        "correction": "不够。",
+        "verification": "反例一组可反驳，一成功例不全证。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "充分必要的解集包含",
+      "objects": [
+        "域框",
+        "P在Q内",
+        "P等Q对照",
+        "x3与−3标点",
+        "方向箭头"
+      ],
+      "relations": [
+        "P⊆Q表示p充分于q",
+        "q必要于p",
+        "充要双包含",
+        "非负域去−3"
+      ],
+      "labels": [
+        "p⇒q",
+        "充分",
+        "必要",
+        "P⊆Q",
+        "反例"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "逻辑图须核量词域、箭头及真值；普通流程图不得自动当蕴含证明",
+      "english": "Use exact logical diagrams and truth tables. Define the domain and every proposition. Inclusive OR differs from exclusive OR. Implication fails only when the antecedent is true and the consequent false; arrows do not claim causality. Quantifier order and negation must be preserved, and examples are not universal proofs."
+    }
+  },
+  "7.5": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 7,
+    "section_id": "7.5",
+    "goals": [
+      "区分有效演绎与有限归纳猜想",
+      "识别常见无效形式并写完整数学论证"
+    ],
+    "prerequisites": [
+      "联结词",
+      "蕴含与量词",
+      "整数奇偶"
+    ],
+    "flow": [
+      "前提真实性",
+      "有效形式",
+      "常见谬误",
+      "分类证明",
+      "猜想与反例"
+    ],
+    "concept_relation": "前提真实性；有效形式；常见谬误；分类证明；猜想与反例",
+    "deep": [
+      "数学直接证明常从定义开始，任取满足条件对象，用已知规则逐步推导。例如n(n+1)对整数n为偶，可按n偶或奇两类覆盖全部整数，再分别把乘积写成2倍整数。这不是列n1、2、3观察规律，而是穷尽一般情形的演绎。",
+      "从有限例子归纳的模式可产生有价值猜想，但需一般证明或额外范围保证才能升级为定理。多项式n²+n+41在不少小n给素数，n40时为1681=41²并非素数；“之前都成功”不能排除之后反例。数学归纳法是有基步和递推的严格证明，不能与经验归纳混为同义。",
+      "综合答题可按前提及域→选择推理形式→逐步结论→验证适用条件。反证、分类和构造需各有完整收尾，不能在中间除掉可能为零的量后漏解。检测要求找出错误推理的具体一步，再给修正条件或反例，不以“我觉得不对”代替证明。"
+    ],
+    "derive": [
+      "有效：p⇒q,p⊢q；p⇒q,¬q⊢¬p。",
+      "一般无效：p⇒q,q⊢p；p⇒q,¬p⊢¬q。",
+      "有限经验例不能代全称证明；数学归纳法需基步及有效递推。"
+    ],
+    "examples": [
+      {
+        "q": "已知若n能被4整除则为偶数，现n偶，能断n被4整除吗？ 条件：n整数，只有这两前提。",
+        "given": "n整数，只有这两前提。",
+        "analysis": "肯定后件。",
+        "method": "找反例2。",
+        "principle": "推理有效性。",
+        "steps": [
+          "n2是偶数。",
+          "但2不被4整除，全部前提可真而结论假。"
+        ],
+        "ans": "不能。",
+        "verification": "正确方向4倍数⇒偶，逆不必。",
+        "pitfall": "有结果就必指定原因。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.5",
+        "related_sections": []
+      },
+      {
+        "q": "证明任意整数n的n(n+1)为偶。 条件：整数域含正负与0。",
+        "given": "整数域含正负与0。",
+        "analysis": "相邻整数奇偶不同。",
+        "method": "分类演绎。",
+        "principle": "偶数为2k。",
+        "steps": [
+          "若n2k，积2[k(n+1)]。",
+          "若n2k+1，n+1=2(k+1)，积2[(2k+1)(k+1)]。"
+        ],
+        "ans": "两类均2倍整数，故全称成立。",
+        "verification": "奇偶两类覆盖所有整数，0与负数亦适用。",
+        "pitfall": "只算前几个n。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.5",
+        "related_sections": []
+      },
+      {
+        "q": "测试n0到10发现n²+n+41均素数，能据此断所有非负整数都素数吗？ 条件：只讨论该猜想，不需重算所列小样本。",
+        "given": "只讨论该猜想，不需重算所列小样本。",
+        "analysis": "反例可在样本外。",
+        "method": "取n40。",
+        "principle": "全称检验。",
+        "steps": [
+          "40²+40+41=1681。",
+          "1681=41²为合数。"
+        ],
+        "ans": "不能，n40反驳。",
+        "verification": "41²确为非平凡因子分解。",
+        "pitfall": "样本连续成功就当定理。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.5",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "p⇒q且p真，q怎样？ 条件：前提均真。",
+        "given": "前提均真。",
+        "analysis": "肯定前件。",
+        "method": "有效形式。",
+        "principle": "蕴含。",
+        "steps": [
+          "p真时若q假会违反p⇒q。",
+          "所以q真。"
+        ],
+        "ans": "q真。",
+        "verification": "不存在前提真结论假赋值。",
+        "pitfall": "仍随意猜q。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.5",
+        "related_sections": []
+      },
+      {
+        "q": "p⇒q且q假，p怎样？ 条件：前提均真。",
+        "given": "前提均真。",
+        "analysis": "否定后件。",
+        "method": "逆否。",
+        "principle": "逻辑。",
+        "steps": [
+          "若p真便q真矛盾。",
+          "故p假。"
+        ],
+        "ans": "p假。",
+        "verification": "与¬q⇒¬p一致。",
+        "pitfall": "把¬q推出p。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.5",
+        "related_sections": []
+      },
+      {
+        "q": "推理结论碰巧正确可保证形式有效吗？ 条件：单一实例。",
+        "given": "单一实例。",
+        "analysis": "有效性是全部符合赋值。",
+        "method": "审一般反例。",
+        "principle": "逻辑。",
+        "steps": [
+          "无效形式也可能碰巧到真结论。",
+          "需保证所有真前提情形结论真。"
+        ],
+        "ans": "不能。",
+        "verification": "真假结果与论证有效性不同。",
+        "pitfall": "答案对就过程必对。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.5",
+        "related_sections": []
+      },
+      {
+        "q": "数学归纳法只要验证n1到100够吗？ 条件：要求无限正整数结论。",
+        "given": "要求无限正整数结论。",
+        "analysis": "缺一般递推。",
+        "method": "审证明结构。",
+        "principle": "归纳法。",
+        "steps": [
+          "还要证明任意k成立能推k+1。",
+          "有限核验不能代此一般步骤。"
+        ],
+        "ans": "不够。",
+        "verification": "基步与递推两者缺一不可。",
+        "pitfall": "把经验归纳叫归纳法就算证明。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 7,
+        "primary_section": "7.5",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "否定前件的错误如何用x=3⇒x²=9说明？ 条件：x实数。",
+      "given": "x实数。",
+      "analysis": "x不3仍可平方9。",
+      "method": "构造x−3。",
+      "principle": "反例推理。",
+      "steps": [
+        "x−3使原蕴含真且前件假。",
+        "平方仍9，故从¬p推出¬q失败。"
+      ],
+      "ans": "x=−3为反例。",
+      "verification": "结论应标不能推出，而非宣称一定相反。",
+      "pitfall": "错误推理无效就说其结论永远假。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 7,
+      "primary_section": "7.5",
+      "related_sections": []
+    },
+    "exam": [
+      "先列前提与欲证，检有效形式及域",
+      "错误形式给前提全真结论假的反例，不只说方向错",
+      "一般证明覆盖全部情形，经验样本与严格归纳分开"
+    ],
+    "quick": [
+      "前提真实性",
+      "有效形式",
+      "常见谬误",
+      "分类证明",
+      "猜想与反例"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 17,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_7.5",
+        "url": "https://math.libretexts.org/Bookshelves/Mathematical_Logic_and_Proof/Book%3A_Mathematical_Reasoning__Writing_and_Proof_(Sundstrom)/02%3A_Logical_Reasoning",
+        "page_or_section": "02%3A_Logical_Reasoning",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 17,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_7.5",
+        "url": "https://math.libretexts.org/Bookshelves/Mathematical_Logic_and_Proof/Book%3A_Mathematical_Reasoning__Writing_and_Proof_(Sundstrom)/02%3A_Logical_Reasoning",
+        "page_or_section": "02%3A_Logical_Reasoning",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先列前提与欲证，检有效形式及域",
+      "method": "取n40。",
+      "principle": "全称检验。",
+      "worked_example_index": 2,
+      "verification": "41²确为非平凡因子分解。",
+      "pitfall": "样本连续成功就当定理。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“区分有效演绎与有限归纳猜想”的抽样复核：正确方向4倍数⇒偶，逆不必。；若出现“有结果就必指定原因。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“识别常见无效形式并写完整数学论证”的抽样复核：41²确为非平凡因子分解。；若出现“样本连续成功就当定理。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "错误推理无效就说其结论永远假。",
+        "correction": "x=−3为反例。",
+        "verification": "结论应标不能推出，而非宣称一定相反。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "有效推理与反例检验",
+      "objects": [
+        "肯前否后两卡",
+        "肯后否前反例",
+        "整数奇偶分类树",
+        "n40合数核验"
+      ],
+      "relations": [
+        "形式有效需全真前提保结论",
+        "n2驳偶数逆推4倍数",
+        "分类覆盖整数",
+        "1681=41²"
+      ],
+      "labels": [
+        "前提",
+        "结论",
+        "有效",
+        "反例",
+        "基步与递推"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "逻辑图须核量词域、箭头及真值；普通流程图不得自动当蕴含证明",
+      "english": "Use exact logical diagrams and truth tables. Define the domain and every proposition. Inclusive OR differs from exclusive OR. Implication fails only when the antecedent is true and the consequent false; arrows do not claim causality. Quantifier order and negation must be preserved, and examples are not universal proofs."
+    }
+  }
+}

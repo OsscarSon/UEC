@@ -950,6 +950,312 @@
       "status": "pass"
     },
     {
+      "name": "chem28 C6 mass",
+      "computed": 84,
+      "expected": 84,
+      "status": "pass"
+    },
+    {
+      "name": "chem28 ideal density",
+      "computed": 2.2462896109105497,
+      "expected": 2.24628961091,
+      "status": "pass"
+    },
+    {
+      "name": "chem28 ethene oxygen",
+      "computed": 0.6000000000000001,
+      "expected": 0.6,
+      "status": "pass"
+    },
+    {
+      "name": "chem28 propene dry residual",
+      "computed": 45.0,
+      "expected": 45,
+      "status": "pass"
+    },
+    {
+      "name": "chem28 mixed combustion CO2",
+      "computed": 0.5,
+      "expected": 0.5,
+      "status": "pass"
+    },
+    {
+      "name": "chem28 water produced g",
+      "computed": 18.0,
+      "expected": 18,
+      "status": "pass"
+    },
+    {
+      "name": "chem28 hydrogen mass",
+      "computed": 0.6,
+      "expected": 0.6,
+      "status": "pass"
+    },
+    {
+      "name": "chem28 polypropylene DP",
+      "computed": 1000.0,
+      "expected": 1000,
+      "status": "pass"
+    },
+    {
+      "name": "chem28 polymer recovered kg",
+      "computed": 8.5,
+      "expected": 8.5,
+      "status": "pass"
+    },
+    {
+      "name": "chem28 dehydration yield g",
+      "computed": 4.4799999999999995,
+      "expected": 4.48,
+      "status": "pass"
+    },
+    {
+      "name": "chem28 ethene volume L",
+      "computed": 3.9888000000000003,
+      "expected": 3.9888,
+      "status": "pass"
+    },
+    {
+      "name": "chem32 mass percent",
+      "computed": 20.0,
+      "expected": 20,
+      "status": "pass"
+    },
+    {
+      "name": "chem32 final concentration",
+      "computed": 2.0,
+      "expected": 2,
+      "status": "pass"
+    },
+    {
+      "name": "chem32 ethanol hydrogen mol",
+      "computed": 0.049999999999999996,
+      "expected": 0.05,
+      "status": "pass"
+    },
+    {
+      "name": "chem32 ester yield",
+      "computed": 13.200000000000001,
+      "expected": 13.2,
+      "status": "pass"
+    },
+    {
+      "name": "chem32 fermentation ethanol",
+      "computed": 7.360000000000001,
+      "expected": 7.36,
+      "status": "pass"
+    },
+    {
+      "name": "chem32 independent yield factors",
+      "computed": 5.4,
+      "expected": 5.4,
+      "status": "pass"
+    },
+    {
+      "name": "chem32 glycol hydroxyl mol",
+      "computed": 0.2,
+      "expected": 0.2,
+      "status": "pass"
+    },
+    {
+      "name": "chem32 glycerol OH vs ethanol ratio",
+      "computed": 1.5,
+      "expected": 1.5,
+      "status": "pass"
+    },
+    {
+      "name": "chem32 phenol mol",
+      "computed": 0.02,
+      "expected": 0.02,
+      "status": "pass"
+    },
+    {
+      "name": "chem32 illustrative phenol solubility",
+      "computed": 1.6,
+      "expected": 1.6,
+      "status": "pass"
+    },
+    {
+      "name": "chem32 tribromination bromine",
+      "computed": 0.06,
+      "expected": 0.06,
+      "status": "pass"
+    },
+    {
+      "name": "chem32 phenol NaOH mass",
+      "computed": 4.0,
+      "expected": 4,
+      "status": "pass"
+    },
+    {
+      "name": "chem32 cumene phenol mass",
+      "computed": 9.4,
+      "expected": 9.4,
+      "status": "pass"
+    },
+    {
+      "name": "chem32 cumene acetone mass",
+      "computed": 5.800000000000001,
+      "expected": 5.8,
+      "status": "pass"
+    },
+    {
+      "name": "chem32 cumene mass balance",
+      "computed": 152,
+      "expected": 152,
+      "status": "pass"
+    },
+    {
+      "name": "chem15 chlorine bromide limit",
+      "computed": 0.05,
+      "expected": 0.05,
+      "status": "pass"
+    },
+    {
+      "name": "chem15 MnO2 chlorine mol",
+      "computed": 0.09999999999999999,
+      "expected": 0.1,
+      "status": "pass"
+    },
+    {
+      "name": "chem15 HCl limiting chlorine",
+      "computed": 0.05,
+      "expected": 0.05,
+      "status": "pass"
+    },
+    {
+      "name": "chem15 brine chlorine yield g",
+      "computed": 6.390000000000001,
+      "expected": 6.39,
+      "status": "pass"
+    },
+    {
+      "name": "chem15 brine NaOH mol",
+      "computed": 0.2,
+      "expected": 0.2,
+      "status": "pass"
+    },
+    {
+      "name": "chem15 HCl mass percent molarity",
+      "computed": 6.027397260273973,
+      "expected": 6.02739726027,
+      "status": "pass"
+    },
+    {
+      "name": "chem15 HCl absorbed concentration",
+      "computed": 0.4000000000000001,
+      "expected": 0.4,
+      "status": "pass"
+    },
+    {
+      "name": "chem15 AgCl chloride mol",
+      "computed": 0.01,
+      "expected": 0.01,
+      "status": "pass"
+    },
+    {
+      "name": "chem15 cold alkali NaOH",
+      "computed": 8.0,
+      "expected": 8,
+      "status": "pass"
+    },
+    {
+      "name": "phys17 wave speed",
+      "computed": 4.0,
+      "expected": 4,
+      "status": "pass"
+    },
+    {
+      "name": "phys17 source frequency wavelength",
+      "computed": 0.3,
+      "expected": 0.3,
+      "status": "pass"
+    },
+    {
+      "name": "phys17 ultrasound wavelength",
+      "computed": 0.0085,
+      "expected": 0.0085,
+      "status": "pass"
+    },
+    {
+      "name": "phys17 incoherent dB sum",
+      "computed": 63.01029995663981,
+      "expected": 63.01029995664,
+      "status": "pass"
+    },
+    {
+      "name": "phys17 echo distance",
+      "computed": 34.0,
+      "expected": 34,
+      "status": "pass"
+    },
+    {
+      "name": "phys17 right wave speed",
+      "computed": 5.0,
+      "expected": 5,
+      "status": "pass"
+    },
+    {
+      "name": "phys17 particle initial velocity",
+      "computed": -1.2566370614359172,
+      "expected": -1.2566370614359172,
+      "status": "pass"
+    },
+    {
+      "name": "phys17 phase separation",
+      "computed": 1.5707963267948966,
+      "expected": 1.5707963267948966,
+      "status": "pass"
+    },
+    {
+      "name": "phys17 refracted angle",
+      "computed": 14.477512185929925,
+      "expected": 14.47751218593,
+      "status": "pass"
+    },
+    {
+      "name": "phys17 two waves resultant",
+      "computed": 3.000000000000001,
+      "expected": 3,
+      "status": "pass"
+    },
+    {
+      "name": "phys17 fixed string fundamental",
+      "computed": 100.0,
+      "expected": 100,
+      "status": "pass"
+    },
+    {
+      "name": "phys17 closed pipe fundamental",
+      "computed": 100.0,
+      "expected": 100,
+      "status": "pass"
+    },
+    {
+      "name": "phys17 observer approach",
+      "computed": 529.4117647058823,
+      "expected": 529.41176470588,
+      "status": "pass"
+    },
+    {
+      "name": "phys17 source approach",
+      "computed": 531.25,
+      "expected": 531.25,
+      "status": "pass"
+    },
+    {
+      "name": "phys17 both moving",
+      "computed": 581.8181818181819,
+      "expected": 581.81818181818,
+      "status": "pass"
+    },
+    {
+      "name": "phys17 moving source front wavelength",
+      "computed": 0.5,
+      "expected": 0.5,
+      "status": "pass"
+    },
+    {
       "name": "forced displacement peak from differentiated denominator",
       "status": "pass",
       "detail": "Nonzero critical omega squared = k/m - b squared/(2m squared); source schematic simplification is not treated as exact."

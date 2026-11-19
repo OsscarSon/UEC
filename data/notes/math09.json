@@ -1,0 +1,1216 @@
+{
+  "9.1": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 9,
+    "section_id": "9.1",
+    "goals": [
+      "用终边坐标统一定义任意角三角值",
+      "由象限与已知值确定符号及未定义点"
+    ],
+    "prerequisites": [
+      "坐标距离",
+      "任意角",
+      "比值与勾股"
+    ],
+    "flow": [
+      "终边坐标",
+      "符号象限",
+      "轴上定义域",
+      "平方关系",
+      "特殊角与分支"
+    ],
+    "concept_relation": "终边坐标；符号象限；轴上定义域；平方关系；特殊角与分支",
+    "deep": [
+      "由x²+y²=r²得sin²θ+cos²θ=1，这是所有实角的基本恒等式。已知sin后求cos，平方根必须依象限选正负，不能只取正根；若角范围未给，可能需要保留两个符号或分别讨论，不擅自默认锐角。",
+      "单位圆r1时坐标(cosθ,sinθ)，便于连接特殊角。π/6、π/4、π/3的值可由等边三角形或等腰直角三角形推导，再依终边反射延伸其他象限。角本身与三角值不同，同一个正弦值通常不唯一确定角。",
+      "题目先核角域、单位和是否存在所求函数，再由定义或恒等式算。计算器给小数可作验算但不能替代符号与精确值论证；接近极点的小数巨大不意味着该极点有某个有限值。单位圆图要等比例轴，点坐标与角对应，不能用装饰椭圆冒充定量圆。"
+    ],
+    "derive": [
+      "r>0：sinθ=y/r，cosθ=x/r，tanθ=y/x（x≠0）。",
+      "sin²θ+cos²θ=1；求平方根符号依象限，未给范围需分支。",
+      "单位圆P=(cosθ,sinθ)，θ为有向角；函数分母零处单独排除。"
+    ],
+    "examples": [
+      {
+        "q": "终边经过P(−5,12)，求sin、cos、tan。 条件：P非原点，标准位置角。",
+        "given": "P非原点，标准位置角。",
+        "analysis": "r取正。",
+        "method": "坐标定义。",
+        "principle": "相似比例。",
+        "steps": [
+          "r√(25+144)=13。",
+          "sin12/13、cos−5/13、tan−12/5。"
+        ],
+        "ans": "12/13、−5/13、−12/5。",
+        "verification": "第二象限符号吻合，平方和1。",
+        "pitfall": "r也取负。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 9,
+        "primary_section": "9.1",
+        "related_sections": []
+      },
+      {
+        "q": "sinθ=−3/5且θ在第三象限，求cos和tan。 条件：只需精确比值。",
+        "given": "只需精确比值。",
+        "analysis": "cos负。",
+        "method": "平方恒等式后选号。",
+        "principle": "单位圆。",
+        "steps": [
+          "cos²=1−9/25=16/25，cos−4/5。",
+          "tan=(−3/5)/(−4/5)=3/4。"
+        ],
+        "ans": "cos−4/5，tan3/4。",
+        "verification": "第三象限tan正。",
+        "pitfall": "开方一律+4/5。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 9,
+        "primary_section": "9.1",
+        "related_sections": []
+      },
+      {
+        "q": "θπ/2时sin、cos、tan、cot分别怎样？ 条件：按坐标及cos/sin定义cot。",
+        "given": "按坐标及cos/sin定义cot。",
+        "analysis": "终边正y轴。",
+        "method": "单位圆点(0,1)。",
+        "principle": "分母条件。",
+        "steps": [
+          "sin1、cos0。",
+          "tan1/0未定义，cot0/1=0。"
+        ],
+        "ans": "1、0、未定义、0。",
+        "verification": "不能用未定义tan倒数推cot也不存在。",
+        "pitfall": "tan与cot定义域永远相同。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 9,
+        "primary_section": "9.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "θ第四象限，sin cos tan符号？ 条件：轴上角除外。",
+        "given": "轴上角除外。",
+        "analysis": "x正y负。",
+        "method": "坐标。",
+        "principle": "定义。",
+        "steps": [
+          "sin负、cos正。",
+          "tan负。"
+        ],
+        "ans": "−、+、−。",
+        "verification": "r始终正。",
+        "pitfall": "按角正负判函数全同号。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 9,
+        "primary_section": "9.1",
+        "related_sections": []
+      },
+      {
+        "q": "cosθ=5/13，sin符号范围未给，sin值？ 条件：θ实数且存在。",
+        "given": "θ实数且存在。",
+        "analysis": "平方只定大小。",
+        "method": "恒等式。",
+        "principle": "单位圆。",
+        "steps": [
+          "sin²1−25/169=144/169。",
+          "sin=±12/13。"
+        ],
+        "ans": "±12/13，需范围选支。",
+        "verification": "正cos可在第一或第四象限。",
+        "pitfall": "只取正。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 9,
+        "primary_section": "9.1",
+        "related_sections": []
+      },
+      {
+        "q": "单位圆θπ时点及sin cos？ 条件：角为rad。",
+        "given": "角为rad。",
+        "analysis": "负x轴。",
+        "method": "圆坐标。",
+        "principle": "定义。",
+        "steps": [
+          "点(−1,0)。",
+          "sin0、cos−1。"
+        ],
+        "ans": "(−1,0)，0、−1。",
+        "verification": "平方和1。",
+        "pitfall": "sinπ误1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 9,
+        "primary_section": "9.1",
+        "related_sections": []
+      },
+      {
+        "q": "终边点坐标同时乘正2，三角值改变吗？ 条件：仍在同一射线。",
+        "given": "仍在同一射线。",
+        "analysis": "r也乘2。",
+        "method": "比值约去。",
+        "principle": "相似。",
+        "steps": [
+          "y/r与x/r均倍数相消。",
+          "y/x也不变，原分母非0条件保持。"
+        ],
+        "ans": "不变。",
+        "verification": "若乘负则射线反向需另审。",
+        "pitfall": "任何正负缩放都同终边。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 9,
+        "primary_section": "9.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "sinθ=.5可唯一确定θ30°吗？ 条件：实角范围未指定。",
+      "given": "实角范围未指定。",
+      "analysis": "同值有多角。",
+      "method": "单位圆反例。",
+      "principle": "函数非全域单射。",
+      "steps": [
+        "150°同样sin.5。",
+        "另可加整周，不能只给30°唯一。"
+      ],
+      "ans": "不能唯一。",
+      "verification": "需区间和分支条件。",
+      "pitfall": "反正弦主值当全部原角。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 9,
+      "primary_section": "9.1",
+      "related_sections": []
+    },
+    "exam": [
+      "先角域与函数分母，再取终边坐标及正r",
+      "平方恒等式后用象限选号，范围缺失保留分支",
+      "轴上角按定义审，不把倒数关系扩到不共同定义处"
+    ],
+    "quick": [
+      "终边坐标",
+      "符号象限",
+      "轴上定义域",
+      "平方关系",
+      "特殊角与分支"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 38,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_9.1",
+        "url": "https://openstax.org/books/precalculus-2e/pages/5-2-unit-circle-sine-and-cosine-functions",
+        "page_or_section": "5-2-unit-circle-sine-and-cosine-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 38,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_9.1",
+        "url": "https://openstax.org/books/precalculus-2e/pages/5-2-unit-circle-sine-and-cosine-functions",
+        "page_or_section": "5-2-unit-circle-sine-and-cosine-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先角域与函数分母，再取终边坐标及正r",
+      "method": "单位圆点(0,1)。",
+      "principle": "分母条件。",
+      "worked_example_index": 2,
+      "verification": "不能用未定义tan倒数推cot也不存在。",
+      "pitfall": "tan与cot定义域永远相同。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用终边坐标统一定义任意角三角值”的抽样复核：第二象限符号吻合，平方和1。；若出现“r也取负。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“由象限与已知值确定符号及未定义点”的抽样复核：不能用未定义tan倒数推cot也不存在。；若出现“tan与cot定义域永远相同。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "反正弦主值当全部原角。",
+        "correction": "不能唯一。",
+        "verification": "需区间和分支条件。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "任意角的坐标定义",
+      "objects": [
+        "等比例单位圆",
+        "P(−5,12)相似射线",
+        "x y r直角三角",
+        "象限符号",
+        "轴上排除点"
+      ],
+      "relations": [
+        "r13正",
+        "sin12/13 cos−5/13",
+        "tan在x0未定义",
+        "单位圆坐标cos sin"
+      ],
+      "labels": [
+        "x",
+        "y",
+        "r",
+        "θ",
+        "定义域"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "三角函数图须核角单位、定义域断点与缩放；已有正确图条件相同才可复用",
+      "english": "Plot from exact trigonometric formulas with labelled radian axes and domains. Preserve quadrant signs, open asymptotes and principal inverse branches. A pole is not joined by a curve. The reciprocal function is not the inverse function. Mark amplitude, period, horizontal shift and vertical shift separately."
+    }
+  },
+  "9.2": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 9,
+    "section_id": "9.2",
+    "goals": [
+      "由单位圆对称推导诱导关系",
+      "化大角负角为参考角并保留函数及符号条件"
+    ],
+    "prerequisites": [
+      "单位圆",
+      "同终边角",
+      "坐标对称"
+    ],
+    "flow": [
+      "圆对称",
+      "半周余角",
+      "周期降角",
+      "参考角符号",
+      "定义域"
+    ],
+    "concept_relation": "圆对称；半周余角；周期降角；参考角符号；定义域",
+    "deep": [
+      "整周重复给sin、cos周期2π，tan周期π。化大角可先减整周期再找参考锐角，负角也可先用奇偶或加整周；路径不同但最终精确值应相同。角单位必须统一，式里π代表弧度，不能与90无度符号随意相加。",
+      "参考角只给三角值大小，象限决定正负；“函数名是否改变”与“符号如何改变”是两个判断。例如sin(π/2+θ)会换cos，而sin(π+θ)保留sin但反号。若θ本身任意，不应把所有参考值都假设正，需要保留函数值的代数符号。",
+      "复杂化简先列原定义域，再分组用诱导式。若最后得到较简单表达，仍保留原先排除点；用一个允许角代入可发现符号错误，却不能单凭一例证明恒等。完整证明基于坐标或已证公式，考试书写要让每一步适用清楚。"
+    ],
+    "derive": [
+      "sin(−θ)=−sinθ，cos(−θ)=cosθ；sin(π±θ)=∓sinθ（按±对应）。",
+      "sin(π/2−θ)=cosθ，cos(π/2−θ)=sinθ。",
+      "sin(θ+2kπ)=sinθ，cos同；tan(θ+kπ)=tanθ，原定义域保留。"
+    ],
+    "examples": [
+      {
+        "q": "求sin765°精确值。 条件：度制。",
+        "given": "度制。",
+        "analysis": "减两周。",
+        "method": "同终边再特殊角。",
+        "principle": "周期。",
+        "steps": [
+          "765−720=45°。",
+          "sin765=sin45=√2/2。"
+        ],
+        "ans": "√2/2。",
+        "verification": "终边第一象限正。",
+        "pitfall": "减360时算错或转成cos。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 9,
+        "primary_section": "9.2",
+        "related_sections": []
+      },
+      {
+        "q": "求cos(−330°)及tan225°。 条件：度制，函数均定义。",
+        "given": "度制，函数均定义。",
+        "analysis": "偶性与半周周期。",
+        "method": "诱导公式。",
+        "principle": "圆对称。",
+        "steps": [
+          "cos−330=cos330=cos30=√3/2。",
+          "tan225=tan45=1。"
+        ],
+        "ans": "√3/2、1。",
+        "verification": "330第四cos正，225第三tan正。",
+        "pitfall": "负角cos一律负。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 9,
+        "primary_section": "9.2",
+        "related_sections": []
+      },
+      {
+        "q": "化简sin(π+θ)cos(−θ)+cos(π−θ)sin(−θ)。 条件：θ任意实数，两函数无分母限制。",
+        "given": "θ任意实数，两函数无分母限制。",
+        "analysis": "分别替换四项。",
+        "method": "诱导公式。",
+        "principle": "单位圆对称。",
+        "steps": [
+          "第一项(−sinθ)cosθ。",
+          "第二项(−cosθ)(−sinθ)=+sinθcosθ，相加0。"
+        ],
+        "ans": "0。",
+        "verification": "θ0两项均0，θπ/4两项±1/2相消。",
+        "pitfall": "第二项漏负负变正。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 9,
+        "primary_section": "9.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "sin(π−θ)等于什么？ 条件：θ实角。",
+        "given": "θ实角。",
+        "analysis": "y轴对称。",
+        "method": "单位圆。",
+        "principle": "纵坐标不变。",
+        "steps": [
+          "π−θ点x反号y不变。",
+          "sin仍sinθ。"
+        ],
+        "ans": "sinθ。",
+        "verification": "θπ/6与5π/6同sin1/2。",
+        "pitfall": "见π就负。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 9,
+        "primary_section": "9.2",
+        "related_sections": []
+      },
+      {
+        "q": "cos(π/2+θ)等于什么？ 条件：θ实角。",
+        "given": "θ实角。",
+        "analysis": "四分之一周旋转。",
+        "method": "坐标变换。",
+        "principle": "投影。",
+        "steps": [
+          "新x=−sinθ。",
+          "因此cos=−sinθ。"
+        ],
+        "ans": "−sinθ。",
+        "verification": "θ0给0，θπ/2给−1。",
+        "pitfall": "只换函数不判号。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 9,
+        "primary_section": "9.2",
+        "related_sections": []
+      },
+      {
+        "q": "tan(θ+π)原排除哪些θ？ 条件：弧度。",
+        "given": "弧度。",
+        "analysis": "cos不为0。",
+        "method": "原域。",
+        "principle": "正切。",
+        "steps": [
+          "cos(θ+π)=−cosθ。",
+          "需θ≠π/2+kπ。"
+        ],
+        "ans": "排除π/2+kπ，k整数。",
+        "verification": "变tanθ后域相同。",
+        "pitfall": "周期公式抹去极点。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 9,
+        "primary_section": "9.2",
+        "related_sections": []
+      },
+      {
+        "q": "sin(π/2−θ)/cosθ能何时化1？ 条件：实数θ。",
+        "given": "实数θ。",
+        "analysis": "分子=cosθ但分母须非0。",
+        "method": "先域再约分。",
+        "principle": "除法。",
+        "steps": [
+          "cosθ≠0时比值1。",
+          "cosθ0原式0/0未定义。"
+        ],
+        "ans": "1，但θ≠π/2+kπ。",
+        "verification": "原域不能补点。",
+        "pitfall": "约分后全实数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 9,
+        "primary_section": "9.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "只验θ30°一例就能证明某诱导公式对所有角吗？ 条件：目标全称恒等式。",
+      "given": "目标全称恒等式。",
+      "analysis": "有限值不能全证。",
+      "method": "用几何或代数推导。",
+      "principle": "数学证明。",
+      "steps": [
+        "一例可排除某些错误。",
+        "全称仍需基于单位圆或已证恒等式的一般推理。"
+      ],
+      "ans": "不能。",
+      "verification": "符号域也需一起核。",
+      "pitfall": "验一个数等证明。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 9,
+      "primary_section": "9.2",
+      "related_sections": []
+    },
+    "exam": [
+      "先周期降角，再按对称确认函数名与符号",
+      "任意θ的公式保留代数符号，不偷偷假设锐角",
+      "化简前标域，约分不补极点，数值验算只作辅助"
+    ],
+    "quick": [
+      "圆对称",
+      "半周余角",
+      "周期降角",
+      "参考角符号",
+      "定义域"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 47,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_9.2",
+        "url": "https://openstax.org/books/precalculus-2e/pages/5-3-the-other-trigonometric-functions",
+        "page_or_section": "5-3-the-other-trigonometric-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 47,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_9.2",
+        "url": "https://openstax.org/books/precalculus-2e/pages/5-3-the-other-trigonometric-functions",
+        "page_or_section": "5-3-the-other-trigonometric-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先周期降角，再按对称确认函数名与符号",
+      "method": "诱导公式。",
+      "principle": "单位圆对称。",
+      "worked_example_index": 2,
+      "verification": "θ0两项均0，θπ/4两项±1/2相消。",
+      "pitfall": "第二项漏负负变正。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由单位圆对称推导诱导关系”的抽样复核：终边第一象限正。；若出现“减360时算错或转成cos。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“化大角负角为参考角并保留函数及符号条件”的抽样复核：θ0两项均0，θπ/4两项±1/2相消。；若出现“第二项漏负负变正。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "验一个数等证明。",
+        "correction": "不能。",
+        "verification": "符号域也需一起核。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "单位圆诱导公式的坐标来源",
+      "objects": [
+        "θ点",
+        "−θ反射",
+        "π−θ反射",
+        "π+θ半周",
+        "π/2+θ旋转"
+      ],
+      "relations": [
+        "反射x或y符号正确",
+        "半周两坐标反",
+        "四分之一周坐标交换带号",
+        "角单位统一"
+      ],
+      "labels": [
+        "cosθ",
+        "sinθ",
+        "对称",
+        "周期2π",
+        "原域"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "三角函数图须核角单位、定义域断点与缩放；已有正确图条件相同才可复用",
+      "english": "Plot from exact trigonometric formulas with labelled radian axes and domains. Preserve quadrant signs, open asymptotes and principal inverse branches. A pole is not joined by a curve. The reciprocal function is not the inverse function. Mark amplitude, period, horizontal shift and vertical shift separately."
+    }
+  },
+  "9.3": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 9,
+    "section_id": "9.3",
+    "goals": [
+      "由标准图解释幅度周期与平移",
+      "正确处理正切极点、定义域及参数退化"
+    ],
+    "prerequisites": [
+      "正弦余弦正切",
+      "函数图变换"
+    ],
+    "flow": [
+      "标准曲线",
+      "参数变换",
+      "关键点",
+      "正切定义域",
+      "反推退化"
+    ],
+    "concept_relation": "标准曲线；参数变换；关键点；正切定义域；反推退化",
+    "deep": [
+      "正切变换y=A tan(B(x−h))+D的极点满足B(x−h)=π/2+kπ，周期π/|B|。每个连续分支两侧趋向无界，不可用一条线跨过渐近线连接，否则把未定义点画成函数的一部分。斜率方向还受A、B乘积号影响。",
+      "退化情况需单列：A0时原正弦表达成为常值D，不再有按常规意义的唯一最小正周期；B0时输入相位固定，同样可能常值。题若先约定A,B>0则不用另引负支，但求参数时必须遵守题给限制，不擅自忽略其他等价表示。",
+      "从图反推参数，振幅可用(最大−最小)/2，中线用平均，周期用同相点间距。只给零点间距未必就是周期，邻零通常半周期且还受平移影响。回代至少两个关键点及趋势，并核图示单位；图非比例时不凭像素当精确条件。"
+    ],
+    "derive": [
+      "A,B≠0时y=A sin(B(x−h))+D：振幅|A|，周期2π/|B|，中线D。",
+      "正切周期π/|B|，极点x=h+(π/2+kπ)/B，不跨极点连线。",
+      "Bx+C=B(x+C/B)，水平移量−C/B；常值退化需另论。"
+    ],
+    "examples": [
+      {
+        "q": "y=−3sin(2(x−π/4))+1的振幅周期值域。 条件：x为rad，A B均非0。",
+        "given": "x为rad，A B均非0。",
+        "analysis": "分开反射与范围。",
+        "method": "标准变换。",
+        "principle": "正弦值界。",
+        "steps": [
+          "振幅3，周期π。",
+          "值域1±3即[−2,4]，中线1。"
+        ],
+        "ans": "3、π、[−2,4]。",
+        "verification": "xπ/4给1且初向下，因A负。",
+        "pitfall": "振幅写−3或周期2π。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 9,
+        "primary_section": "9.3",
+        "related_sections": []
+      },
+      {
+        "q": "y=2cos(3x+π/2)水平移量及周期？ 条件：角用rad。",
+        "given": "角用rad。",
+        "analysis": "先提3。",
+        "method": "3(x+π/6)。",
+        "principle": "图像变换。",
+        "steps": [
+          "水平左移π/6。",
+          "周期2π/3。"
+        ],
+        "ans": "左π/6，周期2π/3。",
+        "verification": "x−π/6使相位0、y2。",
+        "pitfall": "直接左π/2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 9,
+        "primary_section": "9.3",
+        "related_sections": []
+      },
+      {
+        "q": "y=tan(2x)在[0,π]内的未定义点？ 条件：含端点，x用rad。",
+        "given": "含端点，x用rad。",
+        "analysis": "2x=π/2+kπ。",
+        "method": "解极点。",
+        "principle": "正切域。",
+        "steps": [
+          "xπ/4+kπ/2。",
+          "区间内π/4、3π/4。"
+        ],
+        "ans": "π/4、3π/4。",
+        "verification": "x0、π定义且值0；图不跨两极点连线。",
+        "pitfall": "只找一个极点或把y0当极点。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 9,
+        "primary_section": "9.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "曲线最大7最小−1，中线和振幅？ 条件：非恒定正弦型。",
+        "given": "非恒定正弦型。",
+        "analysis": "半和半差。",
+        "method": "参数。",
+        "principle": "值域。",
+        "steps": [
+          "D=(7−1)/2=3。",
+          "A幅=(7+1)/2=4。"
+        ],
+        "ans": "中线3，振幅4。",
+        "verification": "3±4回7、−1。",
+        "pitfall": "振幅等最大7。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 9,
+        "primary_section": "9.3",
+        "related_sections": []
+      },
+      {
+        "q": "sin(4x)周期？ 条件：x为rad。",
+        "given": "x为rad。",
+        "analysis": "2π/4。",
+        "method": "周期。",
+        "principle": "相位整周。",
+        "steps": [
+          "Tπ/2。",
+          "4T2π。"
+        ],
+        "ans": "π/2。",
+        "verification": "不是4π。",
+        "pitfall": "横向系数大周期大。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 9,
+        "primary_section": "9.3",
+        "related_sections": []
+      },
+      {
+        "q": "tan x可把最大值当1定义振幅吗？ 条件：标准正切。",
+        "given": "标准正切。",
+        "analysis": "无界。",
+        "method": "值域。",
+        "principle": "函数图。",
+        "steps": [
+          "靠近π/2分支可任意大。",
+          "无有限最大最小，通常不定义正弦式振幅。"
+        ],
+        "ans": "不可。",
+        "verification": "tanπ/4=1不是上界。",
+        "pitfall": "特殊值当极值。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 9,
+        "primary_section": "9.3",
+        "related_sections": []
+      },
+      {
+        "q": "y=0sin(2x)+5是否仍必须有最小正周期π？ 条件：表达已退化为常值。",
+        "given": "表达已退化为常值。",
+        "analysis": "任意正位移都周期。",
+        "method": "化简。",
+        "principle": "周期定义。",
+        "steps": [
+          "y恒5。",
+          "任意T>0满足，因而没有唯一最小正周期。"
+        ],
+        "ans": "不是，常值无最小正周期。",
+        "verification": "不能无条件套A≠0时公式。",
+        "pitfall": "参数公式漏非零条件。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 9,
+        "primary_section": "9.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "y=sin x的相邻零点0和π，能说周期π吗？ 条件：标准曲线。",
+      "given": "标准曲线。",
+      "analysis": "零点相同不够同相。",
+      "method": "检其他点。",
+      "principle": "周期要求全部x函数值重复。",
+      "steps": [
+        "sinπ/2=1。",
+        "sin(π/2+π)=−1，不重复。"
+      ],
+      "ans": "不能；基本周期2π。",
+      "verification": "邻零可为半周期。",
+      "pitfall": "任意同值点间距等周期。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 9,
+      "primary_section": "9.3",
+      "related_sections": []
+    },
+    "exam": [
+      "图参量先括号提系数，幅度取绝对、平移除B",
+      "周期找同相关键点，正切极点按方程求且不连线",
+      "回代关键点与趋势，A或B零的退化先排"
+    ],
+    "quick": [
+      "标准曲线",
+      "参数变换",
+      "关键点",
+      "正切定义域",
+      "反推退化"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 55,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_9.3",
+        "url": "https://openstax.org/books/precalculus-2e/pages/6-1-graphs-of-the-sine-and-cosine-functions",
+        "page_or_section": "6-1-graphs-of-the-sine-and-cosine-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 55,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_9.3",
+        "url": "https://openstax.org/books/precalculus-2e/pages/6-1-graphs-of-the-sine-and-cosine-functions",
+        "page_or_section": "6-1-graphs-of-the-sine-and-cosine-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "图参量先括号提系数，幅度取绝对、平移除B",
+      "method": "解极点。",
+      "principle": "正切域。",
+      "worked_example_index": 2,
+      "verification": "x0、π定义且值0；图不跨两极点连线。",
+      "pitfall": "只找一个极点或把y0当极点。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由标准图解释幅度周期与平移”的抽样复核：xπ/4给1且初向下，因A负。；若出现“振幅写−3或周期2π。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“正确处理正切极点、定义域及参数退化”的抽样复核：x0、π定义且值0；图不跨两极点连线。；若出现“只找一个极点或把y0当极点。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "任意同值点间距等周期。",
+        "correction": "不能；基本周期2π。",
+        "verification": "邻零可为半周期。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "正弦变换与正切断点",
+      "objects": [
+        "−3sin2(x−π/4)+1曲线",
+        "五关键点",
+        "中线",
+        "tan2x分支",
+        "渐近虚线"
+      ],
+      "relations": [
+        "正弦范围−2至4",
+        "周期π",
+        "tan极点π/4和3π/4不连",
+        "横轴rad"
+      ],
+      "labels": [
+        "中线1",
+        "振幅3",
+        "周期π",
+        "未定义点"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "三角函数图须核角单位、定义域断点与缩放；已有正确图条件相同才可复用",
+      "english": "Plot from exact trigonometric formulas with labelled radian axes and domains. Preserve quadrant signs, open asymptotes and principal inverse branches. A pole is not joined by a curve. The reciprocal function is not the inverse function. Mark amplitude, period, horizontal shift and vertical shift separately."
+    }
+  },
+  "9.4": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 9,
+    "section_id": "9.4",
+    "goals": [
+      "由限制单射说明反三角主值范围",
+      "正确化简复合式并区别倒数与全部方程解"
+    ],
+    "prerequisites": [
+      "反函数",
+      "三角图像",
+      "定义域"
+    ],
+    "flow": [
+      "限制单射",
+      "三主值域",
+      "反函数倒数",
+      "复合选号",
+      "图像与方程"
+    ],
+    "concept_relation": "限制单射；三主值域；反函数倒数；复合选号；图像与方程",
+    "deep": [
+      "sin(arcsin u)=u在u∈[−1,1]成立；arcsin(sin x)=x只在x位于选定主值区间时直接成立。其他x要利用同值和主值范围折回，例如x5π/6的sin1/2，返回π/6。先应用正向三角再选主值，而不是把符号机械互消。",
+      "求复合反三角式可画辅助三角形或用恒等式，但根号符号依主值范围。例如cos(arcsin u)=√(1−u²)因arcsin范围内cos非负；sin(arccos u)=同样非负根。若计算tan(arccos u)，分母u需排0且其符号影响结果。",
+      "图像从限制后的原曲线关于y=x反射得到，不能将整条无限周期sin曲线全部反射后称单值arcsin。解三角方程时反函数只给参考主值，仍需找区间内其他解或一般周期解。完成后核输入范围、输出范围及原式定义域三层条件。"
+    ],
+    "derive": [
+      "arcsin:[−1,1]→[−π/2,π/2]；arccos:[−1,1]→[0,π]。",
+      "arctan:R→(−π/2,π/2)，端点不取。",
+      "arcsin(sin x)只在主值区间直接为x；cos(arcsin u)=√(1−u²)，|u|≤1。"
+    ],
+    "examples": [
+      {
+        "q": "求arcsin(sin5π/6)。 条件：标准主值范围。",
+        "given": "标准主值范围。",
+        "analysis": "先sin再返主值。",
+        "method": "单位圆。",
+        "principle": "反函数限制。",
+        "steps": [
+          "sin5π/6=1/2。",
+          "[−π/2,π/2]内sin1/2角为π/6。"
+        ],
+        "ans": "π/6。",
+        "verification": "5π/6不在arcsin主值范围。",
+        "pitfall": "机械互消答5π/6。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 9,
+        "primary_section": "9.4",
+        "related_sections": []
+      },
+      {
+        "q": "求cos(arcsin(−3/5))。 条件：标准arcsin。",
+        "given": "标准arcsin。",
+        "analysis": "主角在第四或负角范围，cos非负。",
+        "method": "平方恒等式选号。",
+        "principle": "主值。",
+        "steps": [
+          "cos²=1−9/25=16/25。",
+          "cos=4/5。"
+        ],
+        "ans": "4/5。",
+        "verification": "arcsin负给负sin但cos仍正。",
+        "pitfall": "因输入负就所有函数负。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 9,
+        "primary_section": "9.4",
+        "related_sections": []
+      },
+      {
+        "q": "arcsin(2x−1)的实数定义域？ 条件：arcsin输入须[−1,1]。",
+        "given": "arcsin输入须[−1,1]。",
+        "analysis": "解双边不等式。",
+        "method": "−1≤2x−1≤1。",
+        "principle": "复合函数域。",
+        "steps": [
+          "加1得0≤2x≤2。",
+          "除2得0≤x≤1。"
+        ],
+        "ans": "[0,1]。",
+        "verification": "端点分别输入−1与1，均可取。",
+        "pitfall": "把输出范围套给x。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 9,
+        "primary_section": "9.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "arccos(cos5π/3)主值？ 条件：范围[0,π]。",
+        "given": "范围[0,π]。",
+        "analysis": "cos为1/2。",
+        "method": "选主角。",
+        "principle": "反函数。",
+        "steps": [
+          "cos5π/3=.5。",
+          "arccos.5=π/3。"
+        ],
+        "ans": "π/3。",
+        "verification": "5π/3不在范围。",
+        "pitfall": "直接消得5π/3。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 9,
+        "primary_section": "9.4",
+        "related_sections": []
+      },
+      {
+        "q": "arctan(tan3π/4)主值？ 条件：范围(−π/2,π/2)。",
+        "given": "范围(−π/2,π/2)。",
+        "analysis": "tan−1。",
+        "method": "主值。",
+        "principle": "正切周期。",
+        "steps": [
+          "tan3π/4=−1。",
+          "arctan−1=−π/4。"
+        ],
+        "ans": "−π/4。",
+        "verification": "两角相差π。",
+        "pitfall": "主角必须正。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 9,
+        "primary_section": "9.4",
+        "related_sections": []
+      },
+      {
+        "q": "sin(arccos(−5/13))值？ 条件：主角在[0,π]。",
+        "given": "主角在[0,π]。",
+        "analysis": "sin非负。",
+        "method": "平方关系。",
+        "principle": "主值符号。",
+        "steps": [
+          "sin²=1−25/169=144/169。",
+          "sin12/13。"
+        ],
+        "ans": "12/13。",
+        "verification": "cos负主角第二象限。",
+        "pitfall": "开负根。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 9,
+        "primary_section": "9.4",
+        "related_sections": []
+      },
+      {
+        "q": "arctan实数输入能输出π/2吗？ 条件：有限实数输入。",
+        "given": "有限实数输入。",
+        "analysis": "正切极点不在单射域。",
+        "method": "值域。",
+        "principle": "反函数。",
+        "steps": [
+          "arctan值严格小于π/2且大于−π/2。",
+          "可趋近不取到。"
+        ],
+        "ans": "不能。",
+        "verification": "无限趋近不同实际取值。",
+        "pitfall": "水平渐近线是能取到的点。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 9,
+        "primary_section": "9.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "arcsin x和1/sin x可视为同一函数吗？ 条件：采用标准符号约定。",
+      "given": "采用标准符号约定。",
+      "analysis": "输入输出角色不同。",
+      "method": "比定义域与值。",
+      "principle": "反函数非倒数。",
+      "steps": [
+        "arcsin0=0。",
+        "1/sin0未定义，已给反例。"
+      ],
+      "ans": "不是。",
+      "verification": "把sin⁻¹记号解释清楚再算。",
+      "pitfall": "上标−1一律倒数。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 9,
+      "primary_section": "9.4",
+      "related_sections": []
+    },
+    "exam": [
+      "三层核输入域、主值范围、原式域",
+      "复合先算三角值再选主角，根号号由主值决定",
+      "反函数非倒数，解方程还需其他分支及周期"
+    ],
+    "quick": [
+      "限制单射",
+      "三主值域",
+      "反函数倒数",
+      "复合选号",
+      "图像与方程"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 66,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_9.4",
+        "url": "https://openstax.org/books/precalculus-2e/pages/6-3-inverse-trigonometric-functions",
+        "page_or_section": "6-3-inverse-trigonometric-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 66,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_9.4",
+        "url": "https://openstax.org/books/precalculus-2e/pages/6-3-inverse-trigonometric-functions",
+        "page_or_section": "6-3-inverse-trigonometric-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "三层核输入域、主值范围、原式域",
+      "method": "−1≤2x−1≤1。",
+      "principle": "复合函数域。",
+      "worked_example_index": 2,
+      "verification": "端点分别输入−1与1，均可取。",
+      "pitfall": "把输出范围套给x。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由限制单射说明反三角主值范围”的抽样复核：5π/6不在arcsin主值范围。；若出现“机械互消答5π/6。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“正确化简复合式并区别倒数与全部方程解”的抽样复核：端点分别输入−1与1，均可取。；若出现“把输出范围套给x。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "上标−1一律倒数。",
+        "correction": "不是。",
+        "verification": "把sin⁻¹记号解释清楚再算。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "反三角限制与反射",
+      "objects": [
+        "限制sin主支",
+        "y=x反射",
+        "arcsin曲线",
+        "5π/6折回π/6",
+        "端点"
+      ],
+      "relations": [
+        "输入−1至1",
+        "输出−π/2至π/2",
+        "只反射单射支",
+        "arctan±π/2不取"
+      ],
+      "labels": [
+        "主值",
+        "arcsin",
+        "倒数不同",
+        "定义域",
+        "值域"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "三角函数图须核角单位、定义域断点与缩放；已有正确图条件相同才可复用",
+      "english": "Plot from exact trigonometric formulas with labelled radian axes and domains. Preserve quadrant signs, open asymptotes and principal inverse branches. A pole is not joined by a curve. The reciprocal function is not the inverse function. Mark amplitude, period, horizontal shift and vertical shift separately."
+    }
+  }
+}

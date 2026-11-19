@@ -475,6 +475,311 @@
       "name": "31.1 step inequality",
       "status": "pass",
       "detail": ""
+    },
+    {
+      "name": "8.1 degrees to rad",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "8.1 coterminal",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "8.1 accumulated rpm angle",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "8.2 arc",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "8.2 area",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "8.2 fixed perimeter square",
+      "status": "pass",
+      "detail": "x*(20 - 2*x)/2 + (x - 5)**2 - 25"
+    },
+    {
+      "name": "32.1 translated circle",
+      "status": "pass",
+      "detail": "-X**2 - 4*X - Y**2 + 6*Y + (X + 2)**2 + (Y - 3)**2 - 13"
+    },
+    {
+      "name": "32.2 rotated ellipse",
+      "status": "pass",
+      "detail": "-2*X**2 - 8*Y**2 + 5*(X - Y)**2/2 - 3*(X - Y)*(X + Y) + 5*(X + Y)**2/2"
+    },
+    {
+      "name": "32.2 orthogonal invariant",
+      "status": "pass",
+      "detail": "-X**2 - Y**2 + (X - Y)**2/2 + (X + Y)**2/2"
+    },
+    {
+      "name": "7.1 universal counterexample",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.4 real counterexample",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.5 sample conjecture failure",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.2 de Morgan conjunction (False, False)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.2 de Morgan disjunction (False, False)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.5 modus ponens (False, False)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.5 modus tollens (False, False)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.2 de Morgan conjunction (False, True)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.2 de Morgan disjunction (False, True)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.5 modus ponens (False, True)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.5 modus tollens (False, True)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.2 de Morgan conjunction (True, False)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.2 de Morgan disjunction (True, False)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.5 modus ponens (True, False)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.5 modus tollens (True, False)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.2 de Morgan conjunction (True, True)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.2 de Morgan disjunction (True, True)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.5 modus ponens (True, True)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.5 modus tollens (True, True)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "9.1 coordinate radius",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "9.2 large angle",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "9.2 composite reduction",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "9.4 arcsin fold",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "9.4 arccos fold",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "9.4 arctan fold",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "10.1 AAS side",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "10.1 SSA two branches valid",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "10.1 SSA impossible",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "10.2 SAS",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "10.2 SSS cosine",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "10.3 Heron",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "10.3 cross check area",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "10.4 tower",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "10.4 two observations",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.1 secant identity",
+      "status": "pass",
+      "detail": "(-1 + 1/cos(x))*(1 + 1/cos(x)) - tan(x)**2"
+    },
+    {
+      "name": "11.2 sine15",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.2 sine sum",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.2 cosine sum",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.2 tangent75",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.3 lower power",
+      "status": "pass",
+      "detail": "sin(x)**2*cos(x)**2 + cos(4*x)/8 - 1/8"
+    },
+    {
+      "name": "11.4 double sine root pi/12",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.4 double sine root 5*pi/12",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.4 double sine root 13*pi/12",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.4 double sine root 17*pi/12",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.4 polynomial root pi/2",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.4 polynomial root 7*pi/6",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.4 polynomial root 11*pi/6",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.4 zero factor retained 0",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.4 zero factor retained pi/3",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.4 zero factor retained pi",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.4 zero factor retained 5*pi/3",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.4 squared extraneous rejected",
+      "status": "pass",
+      "detail": ""
     }
   ],
   "scope": "Independently entered symbolic derivatives, primitives, limits, ODEs and numerical arithmetic. Domains and proof logic additionally reviewed in prose; this is not a teacher or official approval.",

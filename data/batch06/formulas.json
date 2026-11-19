@@ -383,5 +383,152 @@
       "f=\\frac{uv}{u+v}=\\frac{D^2-d^2}{4D}",
       "第一式配对共轭数据；位移式双实像位置要求D>4f，d为镜位差。"
     ]
+  ],
+  "数学7/7.1": [
+    [
+      "条件反例",
+      "p\\Rightarrow q\\quad\\text{的反例须有}\\quad p=\\mathrm T,\\ q=\\mathrm F",
+      "域内成功样本不能替代全称证明。"
+    ]
+  ],
+  "数学7/7.2": [
+    [
+      "联结否定",
+      "\\neg(p\\land q)\\equiv\\neg p\\lor\\neg q;\\quad\\neg(p\\lor q)\\equiv\\neg p\\land\\neg q",
+      "或通常为包容或，否定作用域用括号标清。"
+    ]
+  ],
+  "数学7/7.3": [
+    [
+      "量词否定",
+      "\\neg(\\forall x\\in D:P(x))\\iff\\exists x\\in D:\\neg P(x)",
+      "保留定义域；多量词需逐层反转。"
+    ]
+  ],
+  "数学7/7.4": [
+    [
+      "充分必要",
+      "p\\Rightarrow q\\iff P\\subseteq Q;\\qquad p\\Leftrightarrow q\\iff P=Q",
+      "P、Q分别为同一域内满足p、q的对象集合。"
+    ]
+  ],
+  "数学7/7.5": [
+    [
+      "有效推理",
+      "(p\\Rightarrow q)\\land p\\Rightarrow q;\\qquad(p\\Rightarrow q)\\land\\neg q\\Rightarrow\\neg p",
+      "肯定后件和否定前件一般无效。"
+    ]
+  ],
+  "数学8/8.1": [
+    [
+      "弧度与同终边角",
+      "180^\\circ=\\pi\\,\\mathrm{rad};\\qquad\\alpha+2k\\pi,\\quad k\\in\\mathbb Z",
+      "同终边不等累计转角相同。"
+    ]
+  ],
+  "数学8/8.2": [
+    [
+      "扇形量",
+      "s=r\\theta,\\quad A=\\frac12r^2\\theta,\\quad P=r\\theta+2r",
+      "θ为rad；周长含两条半径。"
+    ]
+  ],
+  "数学32/32.1": [
+    [
+      "被动移轴",
+      "x=X+h,\\quad y=Y+k;\\qquad X=x-h,\\quad Y=y-k",
+      "新原点的旧坐标(h,k)，方向与尺度不变，点不动。"
+    ]
+  ],
+  "数学32/32.2": [
+    [
+      "被动转轴",
+      "\\begin{pmatrix}x\\\\y\\end{pmatrix}=\\begin{pmatrix}\\cos\\theta&-\\sin\\theta\\\\\\sin\\theta&\\cos\\theta\\end{pmatrix}\\begin{pmatrix}X\\\\Y\\end{pmatrix}",
+      "新轴逆时针θ、点不动；不混主动移点。"
+    ]
+  ],
+  "数学9/9.1": [
+    [
+      "坐标定义",
+      "r=\\sqrt{x^2+y^2}>0,\\quad\\sin\\theta=\\frac yr,\\quad\\cos\\theta=\\frac xr,\\quad\\tan\\theta=\\frac yx",
+      "tan另需x≠0；平方根号选支按象限。"
+    ]
+  ],
+  "数学9/9.2": [
+    [
+      "对称诱导",
+      "\\sin(-\\theta)=-\\sin\\theta,\\quad\\cos(-\\theta)=\\cos\\theta,\\quad\\sin(\\pi-\\theta)=\\sin\\theta",
+      "使用恒等式保留原表达式定义域。"
+    ]
+  ],
+  "数学9/9.3": [
+    [
+      "正弦变换",
+      "y=A\\sin(B(x-h))+D,\\quad T=\\frac{2\\pi}{|B|},\\quad y\\in[D-|A|,D+|A|]",
+      "A、B非零；常值退化需另论；正切没有此振幅界。"
+    ]
+  ],
+  "数学9/9.4": [
+    [
+      "反三角主值",
+      "\\arcsin:[-1,1]\\to[-\\pi/2,\\pi/2],\\quad\\arccos:[-1,1]\\to[0,\\pi]",
+      "反函数不是倒数；arctan值域端点±π/2不取。"
+    ]
+  ],
+  "数学10/10.1": [
+    [
+      "正弦定律",
+      "\\frac a{\\sin A}=\\frac b{\\sin B}=\\frac c{\\sin C}=2R",
+      "标准对边，非退化三角形；SSA候选需分别验内角和。"
+    ]
+  ],
+  "数学10/10.2": [
+    [
+      "余弦定律",
+      "c^2=a^2+b^2-2ab\\cos C",
+      "C为a,b夹角；SSS先验三角不等式。"
+    ]
+  ],
+  "数学10/10.3": [
+    [
+      "面积与半周长",
+      "K=\\frac12 ab\\sin C=\\sqrt{s(s-a)(s-b)(s-c)},\\quad s=\\frac{a+b+c}{2}",
+      "C为夹角，先验三角形存在；R外接、r内切不可混。"
+    ]
+  ],
+  "数学10/10.4": [
+    [
+      "方位与仰角",
+      "\\Delta x=d\\sin\\beta,\\quad\\Delta y=d\\cos\\beta;\\qquad H=d_{\\rm horizontal}\\tan\\alpha",
+      "东x北y，方位β从北顺时针；相对眼高H需按题加仪器高。"
+    ]
+  ],
+  "数学11/11.1": [
+    [
+      "同角平方关系",
+      "\\sin^2x+\\cos^2x=1,\\quad1+\\tan^2x=\\sec^2x,\\quad\\sqrt{\\sin^2x}=|\\sin x|",
+      "正切关系需cosx≠0；所有式使用共同定义域。"
+    ]
+  ],
+  "数学11/11.2": [
+    [
+      "和差与辅助角",
+      "\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B;\\quad a\\sin x+b\\cos x=R\\sin(x+\\phi)",
+      "R>0且Rcosφ=a、Rsinφ=b，角象限须匹配系数。"
+    ]
+  ],
+  "数学11/11.3": [
+    [
+      "倍角与降幂",
+      "\\sin2x=2\\sin x\\cos x,\\quad\\cos2x=1-2\\sin^2x;\\quad\\sin^2x\\cos^2x=\\frac{1-\\cos4x}{8}",
+      "半角根式外的正负由半角象限决定。"
+    ]
+  ],
+  "数学11/11.4": [
+    [
+      "正弦方程全部周期解",
+      "\\sin x=a\\iff x=\\alpha+2k\\pi\\ \\text{或}\\ x=\\pi-\\alpha+2k\\pi,\\quad\\alpha=\\arcsin a,\\ k\\in\\mathbb Z",
+      "|a|≤1；边界两族可能重合，最终按原域区间筛选去重回代。"
+    ]
   ]
 }

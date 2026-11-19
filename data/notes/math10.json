@@ -1,0 +1,1221 @@
+{
+  "10.1": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 10,
+    "section_id": "10.1",
+    "goals": [
+      "由高或外接圆推导正弦定律并建立边角对应",
+      "完整处理SSA多解和三角形存在条件"
+    ],
+    "prerequisites": [
+      "三角函数",
+      "三角形内角和",
+      "圆周角"
+    ],
+    "flow": [
+      "公共高推导",
+      "外接圆关系",
+      "已知对位",
+      "SSA分支",
+      "存在验算"
+    ],
+    "concept_relation": "公共高推导；外接圆关系；已知对位；SSA分支；存在验算",
+    "deep": [
+      "SSA即给两边及其中一边对角，求sinB=b sinA/a时要先核其不超过1。若介于0和1，B可能为arcsin值或180°减该值，分别再核A+B<180°。只取反正弦主值常漏第二个三角形，但两分支也不是永远都合法。",
+      "对于给定锐角A，令h=b sinA，a<h无解，a=h直角一解，h<a<b可两解，a≥b通常只保一合法解；该分类要随角是否锐另审，不可直接搬到钝角A。用分支和内角和逐个验算比死记全部表更通用。",
+      "题目先画示意并标对边，再识别是否含已知边角对。结果需回代比例、边大小与角大小关系，SSA还列每分支第三角及必要边。所有题为原创教学，不将分支检查步骤冒称官方固定分值；方法选择依据已知量而不是出题频率猜测。"
+    ],
+    "derive": [
+      "a/sinA=b/sinB=c/sinC=2R，a与A对位，角0<A<π。",
+      "SSA先求s=b sinA/a，若0<s<1检B₁=arcsin s、B₂=π−B₁。",
+      "各分支须A+B<π；s>1无实三角形，端点另审。"
+    ],
+    "examples": [
+      {
+        "q": "A30°、B45°、a6cm，求b及外接圆R。 条件：a为A对边，非退化三角形。",
+        "given": "a为A对边，非退化三角形。",
+        "analysis": "已知边角对。",
+        "method": "正弦比例。",
+        "principle": "正弦定律。",
+        "steps": [
+          "a/sinA=6/.5=12cm。",
+          "b=12sin45=6√2cm，2R12故R6cm。"
+        ],
+        "ans": "b6√2cm，R6cm。",
+        "verification": "C105°，b>a对应B>A。",
+        "pitfall": "把12当R。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 10,
+        "primary_section": "10.1",
+        "related_sections": []
+      },
+      {
+        "q": "A30°、a5、b8，求所有可能B和C。 条件：角度制，边分别对位。",
+        "given": "角度制，边分别对位。",
+        "analysis": "SSA可能两支。",
+        "method": "sinB=b sinA/a。",
+        "principle": "定律及内角和。",
+        "steps": [
+          "sinB=.8，B₁≈53.130°、B₂≈126.870°。",
+          "C₁≈96.870°、C₂≈23.130°均正。"
+        ],
+        "ans": "两三角形；(B,C)约(53.13°,96.87°)或(126.87°,23.13°)。",
+        "verification": "两者A+B<180且sinB均.8。",
+        "pitfall": "只取计算器主值。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 10,
+        "primary_section": "10.1",
+        "related_sections": []
+      },
+      {
+        "q": "A30°、a3、b8是否有三角形？ 条件：SSA对位定义。",
+        "given": "SSA对位定义。",
+        "analysis": "先核sin可达。",
+        "method": "sinB。",
+        "principle": "实角范围。",
+        "steps": [
+          "sinB=8×.5/3=4/3。",
+          "大于1，不存在实B。"
+        ],
+        "ans": "无非退化三角形。",
+        "verification": "高度b sinA=4>a3，几何也不可达。",
+        "pitfall": "把arcsin错误强取90°。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 10,
+        "primary_section": "10.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "A40°、B80°，第三角？ 条件：非退化三角形。",
+        "given": "非退化三角形。",
+        "analysis": "内角和。",
+        "method": "180−A−B。",
+        "principle": "平面几何。",
+        "steps": [
+          "180−120=60。",
+          "为正。"
+        ],
+        "ans": "60°。",
+        "verification": "总180。",
+        "pitfall": "用360。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 10,
+        "primary_section": "10.1",
+        "related_sections": []
+      },
+      {
+        "q": "a10、A90°，R？ 条件：a对直角。",
+        "given": "a对直角。",
+        "analysis": "a=2R。",
+        "method": "外接圆。",
+        "principle": "正弦定律。",
+        "steps": [
+          "sin90=1。",
+          "R10/2=5。"
+        ],
+        "ans": "5。",
+        "verification": "直角三角形斜边为外接圆直径。",
+        "pitfall": "R10。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 10,
+        "primary_section": "10.1",
+        "related_sections": []
+      },
+      {
+        "q": "A120°、a5、b4，sinB及大角候选合法吗？ 条件：SSA。",
+        "given": "SSA。",
+        "analysis": "sinB=4sin120/5。",
+        "method": "两分支后筛角和。",
+        "principle": "内角限制。",
+        "steps": [
+          "sinB=2√3/5≈.6928，B主≈43.85°。",
+          "另一≈136.15°与A和超180，剔除。"
+        ],
+        "ans": "仅主角约43.85°合法。",
+        "verification": "已知A钝，另两角必须锐。",
+        "pitfall": "见SSA必两解。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 10,
+        "primary_section": "10.1",
+        "related_sections": []
+      },
+      {
+        "q": "给A100°、B90°及一边能继续求其他边吗？ 条件：非退化三角形要求。",
+        "given": "非退化三角形要求。",
+        "analysis": "角和已超180。",
+        "method": "先审存在。",
+        "principle": "内角和。",
+        "steps": [
+          "A+B190°。",
+          "第三角−10°不合法。"
+        ],
+        "ans": "无该三角形。",
+        "verification": "不能把sin负角当负边继续。",
+        "pitfall": "只机械套比例。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 10,
+        "primary_section": "10.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "正弦定律可以a配邻角B、b配A而仍普适吗？ 条件：a,b为标准对边。",
+      "given": "a,b为标准对边。",
+      "analysis": "匹配决定公式。",
+      "method": "用异边反例。",
+      "principle": "公共高推导。",
+      "steps": [
+        "定律要求a/sinA=b/sinB。",
+        "对角不匹配一般不成立，等腰等特殊巧合不能推广。"
+      ],
+      "ans": "不可以。",
+      "verification": "先标对位是必要步骤。",
+      "pitfall": "图上靠近哪个字母就配哪个角。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 10,
+      "primary_section": "10.1",
+      "related_sections": []
+    },
+    "exam": [
+      "先对边角，再选已知边角对建立比例",
+      "SSA反正弦给两候选，各核内角和和范围",
+      "先存在后计算，R别漏2，结果边大角大作验算"
+    ],
+    "quick": [
+      "公共高推导",
+      "外接圆关系",
+      "已知对位",
+      "SSA分支",
+      "存在验算"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 76,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_10.1",
+        "url": "https://openstax.org/books/precalculus-2e/pages/8-1-non-right-triangles-law-of-sines",
+        "page_or_section": "8-1-non-right-triangles-law-of-sines",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 76,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_10.1",
+        "url": "https://openstax.org/books/precalculus-2e/pages/8-1-non-right-triangles-law-of-sines",
+        "page_or_section": "8-1-non-right-triangles-law-of-sines",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先对边角，再选已知边角对建立比例",
+      "method": "sinB。",
+      "principle": "实角范围。",
+      "worked_example_index": 2,
+      "verification": "高度b sinA=4>a3，几何也不可达。",
+      "pitfall": "把arcsin错误强取90°。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由高或外接圆推导正弦定律并建立边角对应”的抽样复核：C105°，b>a对应B>A。；若出现“把12当R。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“完整处理SSA多解和三角形存在条件”的抽样复核：高度b sinA=4>a3，几何也不可达。；若出现“把arcsin错误强取90°。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "图上靠近哪个字母就配哪个角。",
+        "correction": "不可以。",
+        "verification": "先标对位是必要步骤。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "正弦定律的SSA双解",
+      "objects": [
+        "A30°",
+        "b8固定边",
+        "a5可达两交点",
+        "辅助高4",
+        "两B C标签"
+      ],
+      "relations": [
+        "5介于4与8故两解",
+        "B53.13或126.87",
+        "各角和180",
+        "边对角一致"
+      ],
+      "labels": [
+        "a",
+        "A",
+        "b",
+        "B",
+        "h=4",
+        "两分支"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "只复用边角对应和题设相同的三角图；方位角、仰角及空间投影必须重新核",
+      "english": "Construct exact plane geometry with each side opposite its matching angle. Distinguish included angles from arbitrary given angles and test triangle existence. SSA can have zero, one or two triangles; draw every admissible branch. Bearings are clockwise from north, not from the x-axis, and elevation angles require the stated horizontal projection."
+    }
+  },
+  "10.2": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 10,
+    "section_id": "10.2",
+    "goals": [
+      "用投影或坐标推导余弦定律",
+      "根据SAS或SSS选择求边角并检查存在性"
+    ],
+    "prerequisites": [
+      "勾股",
+      "坐标投影",
+      "反余弦"
+    ],
+    "flow": [
+      "投影推导",
+      "SAS求边",
+      "SSS求角",
+      "存在范围",
+      "符号精度验算"
+    ],
+    "concept_relation": "投影推导；SAS求边；SSS求角；存在范围；符号精度验算",
+    "deep": [
+      "SSS求角可用cosC=(a²+b²−c²)/(2ab)，再以arccos取0到π内的三角形内角。先查正边长及三角不等式，两边和必须大于第三边；若cos计算出超[−1,1]，应查输入存在性和舍入，不能截成±1掩盖错误。",
+      "由最大边可优先判最大角和三角形类型，以最大边平方与另外两平方和比较锐直钝，但必须已是非退化三角形。若只给2、3、6，虽然6²大，也不能称钝角三角形，因为根本无法闭合。",
+      "实际计算保留足够中间精度，最终角按题要求取位，切勿先把cos近似为0再决定直角。完整步骤是标边角→选式→代数→取合法根或主内角→存在及量纲验算，若与正弦法交叉核可检查对位与分支。"
+    ],
+    "derive": [
+      "c²=a²+b²−2abcosC，C是a,b夹角且c对C。",
+      "cosC=(a²+b²−c²)/(2ab)，a,b>0，三角形需满足严格三角不等式。",
+      "最大边c：比较c²与a²+b²判锐直钝，前提先有三角形。"
+    ],
+    "examples": [
+      {
+        "q": "a5cm、b7cm、夹角C60°，求c。 条件：标准对边定义，非退化。",
+        "given": "标准对边定义，非退化。",
+        "analysis": "SAS。",
+        "method": "余弦定律。",
+        "principle": "投影距离。",
+        "steps": [
+          "c²25+49−2×5×7×.5=39。",
+          "c√39cm≈6.245cm。"
+        ],
+        "ans": "√39cm。",
+        "verification": "C锐，39<74符合；2<c<12。",
+        "pitfall": "夹角不是对边角或漏系数2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 10,
+        "primary_section": "10.2",
+        "related_sections": []
+      },
+      {
+        "q": "三边13、14、15，求15对角余弦。 条件：均为正且三角不等式成立。",
+        "given": "均为正且三角不等式成立。",
+        "analysis": "SSS。",
+        "method": "倒解余弦。",
+        "principle": "定律。",
+        "steps": [
+          "cosC=(169+196−225)/(2×13×14)。",
+          "=140/364=5/13。"
+        ],
+        "ans": "5/13。",
+        "verification": "最大角仍锐，225<365。",
+        "pitfall": "将15作为夹角邻边却仍求最大角。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 10,
+        "primary_section": "10.2",
+        "related_sections": []
+      },
+      {
+        "q": "边2、3、6能否用SSS求一个真实三角形角？ 条件：普通欧氏平面。",
+        "given": "普通欧氏平面。",
+        "analysis": "先三角不等式。",
+        "method": "存在性。",
+        "principle": "几何。",
+        "steps": [
+          "2+3=5<6。",
+          "不存在三角形，求cos得超界不能硬修。"
+        ],
+        "ans": "不能，无该三角形。",
+        "verification": "最大边平方判型必须在存在后。",
+        "pitfall": "称极钝角或把cos夹到−1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 10,
+        "primary_section": "10.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "边3、4、5，5对角？ 条件：非退化。",
+        "given": "非退化。",
+        "analysis": "勾股特例。",
+        "method": "余弦。",
+        "principle": "定律。",
+        "steps": [
+          "cos=(9+16−25)/24=0。",
+          "角90°。"
+        ],
+        "ans": "90°。",
+        "verification": "斜边5最大。",
+        "pitfall": "把cos0读角0。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 10,
+        "primary_section": "10.2",
+        "related_sections": []
+      },
+      {
+        "q": "a4,b4,C120°，c²？ 条件：夹角。",
+        "given": "夹角。",
+        "analysis": "cos−1/2。",
+        "method": "代式。",
+        "principle": "钝角投影。",
+        "steps": [
+          "c²16+16−32×(−.5)。",
+          "=48。"
+        ],
+        "ans": "48，c4√3。",
+        "verification": "比32大，钝角正确。",
+        "pitfall": "负负仍减。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 10,
+        "primary_section": "10.2",
+        "related_sections": []
+      },
+      {
+        "q": "正边a,b，C趋近0时c趋近什么？ 条件：作为极限，C0本身退化另论。",
+        "given": "作为极限，C0本身退化另论。",
+        "analysis": "cos趋1。",
+        "method": "定律。",
+        "principle": "代数。",
+        "steps": [
+          "c²趋(a−b)²。",
+          "c趋|a−b|。"
+        ],
+        "ans": "|a−b|。",
+        "verification": "不能答a−b可能负。",
+        "pitfall": "长度不开绝对。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 10,
+        "primary_section": "10.2",
+        "related_sections": []
+      },
+      {
+        "q": "已知两边及非夹角，可否无需审就当SAS唯一？ 条件：信息为SSA可能。",
+        "given": "信息为SSA可能。",
+        "analysis": "缺夹角结构。",
+        "method": "标对位。",
+        "principle": "三角解法。",
+        "steps": [
+          "两边一角未必夹角。",
+          "需检查SSA分支或其他条件。"
+        ],
+        "ans": "不可。",
+        "verification": "可与正弦法两解例对照。",
+        "pitfall": "所有两边一角都唯一。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 10,
+        "primary_section": "10.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "算出cosC=1.02时可无说明改成1并说角0吗？ 条件：数据可能不成立或舍入误差。",
+      "given": "数据可能不成立或舍入误差。",
+      "analysis": "越界需查原因。",
+      "method": "存在与精度核。",
+      "principle": "实角范围。",
+      "steps": [
+        "真实cos不能超1。",
+        "先查边长、模型和舍入证据，不能任意改数。"
+      ],
+      "ans": "不可。",
+      "verification": "即使0°也非非退化三角形。",
+      "pitfall": "计算器报错就强行截断。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 10,
+      "primary_section": "10.2",
+      "related_sections": []
+    },
+    "exam": [
+      "先判SAS夹角或SSS，非夹角别硬代",
+      "三角不等式先于判型，cos越界先查输入",
+      "符号用锐钝对比、长度取正、保中间精度后回代"
+    ],
+    "quick": [
+      "投影推导",
+      "SAS求边",
+      "SSS求角",
+      "存在范围",
+      "符号精度验算"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 83,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_10.2",
+        "url": "https://openstax.org/books/precalculus-2e/pages/8-2-non-right-triangles-law-of-cosines",
+        "page_or_section": "8-2-non-right-triangles-law-of-cosines",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 83,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_10.2",
+        "url": "https://openstax.org/books/precalculus-2e/pages/8-2-non-right-triangles-law-of-cosines",
+        "page_or_section": "8-2-non-right-triangles-law-of-cosines",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先判SAS夹角或SSS，非夹角别硬代",
+      "method": "存在性。",
+      "principle": "几何。",
+      "worked_example_index": 2,
+      "verification": "最大边平方判型必须在存在后。",
+      "pitfall": "称极钝角或把cos夹到−1。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用投影或坐标推导余弦定律”的抽样复核：C锐，39<74符合；2<c<12。；若出现“夹角不是对边角或漏系数2。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“根据SAS或SSS选择求边角并检查存在性”的抽样复核：最大边平方判型必须在存在后。；若出现“称极钝角或把cos夹到−1。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "计算器报错就强行截断。",
+        "correction": "不可。",
+        "verification": "即使0°也非非退化三角形。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "余弦定律的投影与存在",
+      "objects": [
+        "一般夹角三角形",
+        "投影bcosC",
+        "锐钝两面板",
+        "2 3 6不闭合反例"
+      ],
+      "relations": [
+        "c对夹角C",
+        "−2abcosC正确",
+        "钝角对边平方较大",
+        "不成立先拒绝不硬画"
+      ],
+      "labels": [
+        "a",
+        "b",
+        "c",
+        "C",
+        "投影",
+        "三角不等式"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "只复用边角对应和题设相同的三角图；方位角、仰角及空间投影必须重新核",
+      "english": "Construct exact plane geometry with each side opposite its matching angle. Distinguish included angles from arbitrary given angles and test triangle existence. SSA can have zero, one or two triangles; draw every admissible branch. Bearings are clockwise from north, not from the x-axis, and elevation angles require the stated horizontal projection."
+    }
+  },
+  "10.3": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 10,
+    "section_id": "10.3",
+    "goals": [
+      "按已知边角选择面积公式并说明依据",
+      "使用Heron及外接圆关系并核最大面积条件"
+    ],
+    "prerequisites": [
+      "高与底",
+      "正弦余弦定律",
+      "根式"
+    ],
+    "flow": [
+      "底高推导",
+      "夹角面积",
+      "Heron",
+      "半径关系",
+      "上界与信息量"
+    ],
+    "concept_relation": "底高推导；夹角面积；Heron；半径关系；上界与信息量",
+    "deep": [
+      "同两边固定时K=½ab sinC≤½ab，在允许C90°的情况下最大。当角被限制在不含90°的范围，最大可能在允许端点或只有上确界；不能忽略可行角域说任何两边题都一定能达到直角最大。",
+      "组合图形面积可分割相加或补形相减，每片使用自己对应边角。坐标三角形可用行列式或鞋带式交叉核，但面积取非负，带方向的代数面积与实际面积分清。图比例不准时依数据，边单位统一后面积平方单位自然出现。",
+      "考试解题先列可用数据，再选择最少新未知的公式。只有一角一边一般不足唯一面积，不能硬借“常见三角形”添边；给SSA两可能三角形时面积也可能不同，应分别算。最后用底高上界、量纲和另一公式核值，避免只得到计算器数而无结构依据。"
+    ],
+    "derive": [
+      "K=½ab sinC（C为a,b夹角）；s=(a+b+c)/2。",
+      "Heron：K=√[s(s−a)(s−b)(s−c)]，先核非退化。",
+      "K=abc/(4R)=rs；两边固定且90°可行时K最大½ab。"
+    ],
+    "examples": [
+      {
+        "q": "两边8、10cm夹角30°，面积？ 条件：所给角为两边夹角。",
+        "given": "所给角为两边夹角。",
+        "analysis": "直接高。",
+        "method": "½ab sinC。",
+        "principle": "底高。",
+        "steps": [
+          "K=.5×8×10×.5。",
+          "=20cm²。"
+        ],
+        "ans": "20cm²。",
+        "verification": "高相对8底可5cm，½×8×5同。",
+        "pitfall": "漏1/2或错夹角。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 10,
+        "primary_section": "10.3",
+        "related_sections": []
+      },
+      {
+        "q": "三边7、8、9cm，面积精确值。 条件：正边三角不等式满足。",
+        "given": "正边三角不等式满足。",
+        "analysis": "三边选Heron。",
+        "method": "半周长。",
+        "principle": "面积定理。",
+        "steps": [
+          "s12。",
+          "K√(12×5×4×3)=√720=12√5cm²。"
+        ],
+        "ans": "12√5cm²。",
+        "verification": "约26.83，低于½×7×8=28。",
+        "pitfall": "s用24。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 10,
+        "primary_section": "10.3",
+        "related_sections": []
+      },
+      {
+        "q": "边13、14、15cm，已知15对角cos=5/13，用两式验面积。 条件：该角在0到π，sin正。",
+        "given": "该角在0到π，sin正。",
+        "analysis": "求sin再与Heron比。",
+        "method": "三角面积。",
+        "principle": "sin²+cos²=1。",
+        "steps": [
+          "sin=12/13，K=.5×13×14×12/13=84。",
+          "s21，Heron√(21×8×7×6)=√7056=84。"
+        ],
+        "ans": "84cm²。",
+        "verification": "两个独立数据路线相符。",
+        "pitfall": "sin选负或公式边角未对位。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 10,
+        "primary_section": "10.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "两边6、9m固定且夹角任意非退化，最大面积及角？ 条件：允许90°。",
+        "given": "允许90°。",
+        "analysis": "sin≤1。",
+        "method": "上界可达。",
+        "principle": "面积。",
+        "steps": [
+          "K≤.5×6×9=27。",
+          "C90°取等。"
+        ],
+        "ans": "27m²，90°。",
+        "verification": "非所有限制角域都可达。",
+        "pitfall": "未验角可行。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 10,
+        "primary_section": "10.3",
+        "related_sections": []
+      },
+      {
+        "q": "abc=240、外接半径R5，面积？ 条件：同一非退化三角形，单位配套。",
+        "given": "同一非退化三角形，单位配套。",
+        "analysis": "4R分母。",
+        "method": "abc/(4R)。",
+        "principle": "正弦定律。",
+        "steps": [
+          "K240/20=12。",
+          "单位为长度平方。"
+        ],
+        "ans": "12平方单位。",
+        "verification": "不是240/5。",
+        "pitfall": "漏4。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 10,
+        "primary_section": "10.3",
+        "related_sections": []
+      },
+      {
+        "q": "内切半径2cm、周长18cm，面积？ 条件：普通三角形。",
+        "given": "普通三角形。",
+        "analysis": "半周长9。",
+        "method": "K=rs。",
+        "principle": "分割三小三角。",
+        "steps": [
+          "K2×9=18cm²。",
+          "不是2×18。"
+        ],
+        "ans": "18cm²。",
+        "verification": "½r(a+b+c)同值。",
+        "pitfall": "把s当周长。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 10,
+        "primary_section": "10.3",
+        "related_sections": []
+      },
+      {
+        "q": "只给一边5及一角30°，可唯一求面积吗？ 条件：无其他形状长度约束。",
+        "given": "无其他形状长度约束。",
+        "analysis": "自由度还在。",
+        "method": "构造改变另一边。",
+        "principle": "信息量。",
+        "steps": [
+          "可取该角夹边另一长度2或4形成不同三角。",
+          "面积分别2.5与5，均满足所给条件。"
+        ],
+        "ans": "不能唯一。",
+        "verification": "需明确该边角位置也不足补全全部尺寸。",
+        "pitfall": "默认另一边也5。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 10,
+        "primary_section": "10.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "Heron根号内为负时，可直接取绝对值当面积吗？ 条件：按给定真实正边输入。",
+      "given": "按给定真实正边输入。",
+      "analysis": "可能不满足三角不等式。",
+      "method": "先存在性审。",
+      "principle": "几何。",
+      "steps": [
+        "检查边和及半周长因子。",
+        "若无三角形应报告不成立，不能改公式取绝对。"
+      ],
+      "ans": "不可以。",
+      "verification": "数值舍入问题需证据单列。",
+      "pitfall": "任何负面积开绝对就修好。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 10,
+      "primary_section": "10.3",
+      "related_sections": []
+    },
+    "exam": [
+      "由已知量选夹角式或三边式，先核边角对应",
+      "s半周长，r与R分清；SSA分支面积另算",
+      "最值写上界与可达条件，根号不合法先查存在"
+    ],
+    "quick": [
+      "底高推导",
+      "夹角面积",
+      "Heron",
+      "半径关系",
+      "上界与信息量"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 86,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_10.3",
+        "url": "https://openstax.org/books/precalculus-2e/pages/8-2-non-right-triangles-law-of-cosines",
+        "page_or_section": "8-2-non-right-triangles-law-of-cosines",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 86,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_10.3",
+        "url": "https://openstax.org/books/precalculus-2e/pages/8-2-non-right-triangles-law-of-cosines",
+        "page_or_section": "8-2-non-right-triangles-law-of-cosines",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "由已知量选夹角式或三边式，先核边角对应",
+      "method": "三角面积。",
+      "principle": "sin²+cos²=1。",
+      "worked_example_index": 2,
+      "verification": "两个独立数据路线相符。",
+      "pitfall": "sin选负或公式边角未对位。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“按已知边角选择面积公式并说明依据”的抽样复核：高相对8底可5cm，½×8×5同。；若出现“漏1/2或错夹角。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“使用Heron及外接圆关系并核最大面积条件”的抽样复核：两个独立数据路线相符。；若出现“sin选负或公式边角未对位。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "任何负面积开绝对就修好。",
+        "correction": "不可以。",
+        "verification": "数值舍入问题需证据单列。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "面积公式的已知量选择",
+      "objects": [
+        "底高三角",
+        "夹角sin高",
+        "7 8 9三边",
+        "内切三小三角",
+        "固定边最大面积"
+      ],
+      "relations": [
+        "s12非24",
+        "7 8 9面积12√5",
+        "Krs中的s半周",
+        "最大需90可行"
+      ],
+      "labels": [
+        "K",
+        "高",
+        "s",
+        "r内切",
+        "R外接",
+        "夹角"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "只复用边角对应和题设相同的三角图；方位角、仰角及空间投影必须重新核",
+      "english": "Construct exact plane geometry with each side opposite its matching angle. Distinguish included angles from arbitrary given angles and test triangle existence. SSA can have zero, one or two triangles; draw every admissible branch. Bearings are clockwise from north, not from the x-axis, and elevation angles require the stated horizontal projection."
+    }
+  },
+  "10.4": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 10,
+    "section_id": "10.4",
+    "goals": [
+      "把方位仰俯角转成正确平面几何",
+      "用互补测量约束求距离高度并核模型误差"
+    ],
+    "prerequisites": [
+      "三角形解法",
+      "直角投影",
+      "单位与方位"
+    ],
+    "flow": [
+      "语言建模",
+      "方位分量",
+      "高度投影",
+      "多点约束",
+      "精度与缺证"
+    ],
+    "concept_relation": "语言建模；方位分量；高度投影；多点约束；精度与缺证",
+    "deep": [
+      "同一直线同侧两个观测点可用两次仰角联立，靠近目标仰角通常较大。应先用图确认哪段距离相差已知基线，设近端到脚x、远端x+d，再列H=x tanα=(x+d)tanγ。若观测点在目标两侧，则距离之和为基线而非差，不能照搬。",
+      "非共线的平面测距可用方位差得夹角，再正弦或余弦定律；三维问题应先投影到水平面再处理高度。所谓“同一张纸”不等所有线都共面，资料缺少高程或基线方位时应说明无法唯一建模，而不是自创直角。",
+      "最终核单位、合理角域、目标是否在所画方向和测距误差。角接近0°或90°时小角误差可能显著影响高度或距离，实际测量须带精度条件；原创算例结果为模型值，不冒称学校实测数据、地形精确值或官方评分点。"
+    ],
+    "derive": [
+      "东x北y，方位β从北顺时针：Δx=d sinβ，Δy=d cosβ。",
+      "相对眼高H=d水平tanα；绝对高=H+h₀，视线斜距不能直接当d水平。",
+      "同侧近远两点：H=x tanα=(x+d)tanγ；目标两侧需另画距离和。"
+    ],
+    "examples": [
+      {
+        "q": "船先航10km方位090°，再10km方位000°，距起点及方位？ 条件：平面无漂流，东x北y。",
+        "given": "平面无漂流，东x北y。",
+        "analysis": "分量合成。",
+        "method": "向量。",
+        "principle": "方位定义。",
+        "steps": [
+          "第一(10,0)，第二(0,10)，合(10,10)。",
+          "距离10√2km，位于东北，方位045°。"
+        ],
+        "ans": "10√2km，045°。",
+        "verification": "不是路径总长20km；总路程20。",
+        "pitfall": "把北当x或位移当路程。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 10,
+        "primary_section": "10.4",
+        "related_sections": []
+      },
+      {
+        "q": "水平距塔脚30m，仪器高1.5m，仰角45°，塔高？ 条件：地面水平、塔铅垂。",
+        "given": "地面水平、塔铅垂。",
+        "analysis": "先相对眼高。",
+        "method": "tan。",
+        "principle": "直角三角。",
+        "steps": [
+          "相对高30tan45=30m。",
+          "绝对高30+1.5=31.5m。"
+        ],
+        "ans": "31.5m。",
+        "verification": "从眼到顶高差仍30，不是塔脚到眼0。",
+        "pitfall": "漏仪器高度。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 10,
+        "primary_section": "10.4",
+        "related_sections": []
+      },
+      {
+        "q": "同高同侧两点相距20m，近点仰60°远点30°，目标相对观测水平面的高？ 条件：两点与目标脚共线、地面水平，忽略仪器高。",
+        "given": "两点与目标脚共线、地面水平，忽略仪器高。",
+        "analysis": "设近距x，远x+20。",
+        "method": "联立tan。",
+        "principle": "共同高度。",
+        "steps": [
+          "H=√3x=(x+20)/√3。",
+          "3x=x+20得x10，H10√3m。"
+        ],
+        "ans": "10√3m。",
+        "verification": "远距30，tan30×30=10√3；近角确较大。",
+        "pitfall": "将两距离之和20用于同侧。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 10,
+        "primary_section": "10.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "方位180°、距离5km的东西北分量？ 条件：东x北y。",
+        "given": "东x北y。",
+        "analysis": "朝南。",
+        "method": "sin cos。",
+        "principle": "方位。",
+        "steps": [
+          "Δx5sin180=0。",
+          "Δy5cos180=−5。"
+        ],
+        "ans": "(0,−5)km。",
+        "verification": "不是(+5,0)。",
+        "pitfall": "从东起量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 10,
+        "primary_section": "10.4",
+        "related_sections": []
+      },
+      {
+        "q": "视线长10m、仰30°，相对眼高和水平距离？ 条件：直角模型。",
+        "given": "直角模型。",
+        "analysis": "斜边已知。",
+        "method": "sin cos投影。",
+        "principle": "三角。",
+        "steps": [
+          "H10sin30=5m。",
+          "d10cos30=5√3m。"
+        ],
+        "ans": "5m，5√3m。",
+        "verification": "平方25+75=100。",
+        "pitfall": "H10tan30把斜距当底。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 10,
+        "primary_section": "10.4",
+        "related_sections": []
+      },
+      {
+        "q": "同点两目标方位020°与080°，水平射线夹角？ 条件：取较小夹角，均同水平面。",
+        "given": "取较小夹角，均同水平面。",
+        "analysis": "差60。",
+        "method": "方位差。",
+        "principle": "角度。",
+        "steps": [
+          "80−20=60°。",
+          "不需从不同始边相加。"
+        ],
+        "ans": "60°。",
+        "verification": "若跨000需考虑周角与较小角。",
+        "pitfall": "方位直接相加100。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 10,
+        "primary_section": "10.4",
+        "related_sections": []
+      },
+      {
+        "q": "目标两侧观测点间100m，设两脚距x,y，应x+y还是x−y=100？ 条件：目标脚在线段内，三者共线。",
+        "given": "目标脚在线段内，三者共线。",
+        "analysis": "基线分成两段。",
+        "method": "线段相加。",
+        "principle": "几何。",
+        "steps": [
+          "x+y=100。",
+          "同侧才常用距离差。"
+        ],
+        "ans": "x+y=100。",
+        "verification": "图先确定位置关系。",
+        "pitfall": "机械沿用同侧差。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 10,
+        "primary_section": "10.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "题给两点距离和两个仰角，未说明两点与目标脚共线，可以无说明按同侧共线求唯一高吗？ 条件：水平位置关系未确定。",
+      "given": "水平位置关系未确定。",
+      "analysis": "基线不必等径向距离差。",
+      "method": "列所缺几何。",
+      "principle": "建模信息量。",
+      "steps": [
+        "两个脚距与基线之间还依水平夹角。",
+        "需共线或额外方位/夹角证据才能用同侧差式。"
+      ],
+      "ans": "不能无说明。",
+      "verification": "可以给条件解，但不能当已知事实。",
+      "pitfall": "为了能算就补共线。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 10,
+      "primary_section": "10.4",
+      "related_sections": []
+    },
+    "exam": [
+      "先画水平铅垂与北向，所有角写参照线",
+      "视线投影后算高度，眼高和地形高差另加",
+      "同侧用差两侧用和须由位置证据支持，缺共线不擅补"
+    ],
+    "quick": [
+      "语言建模",
+      "方位分量",
+      "高度投影",
+      "多点约束",
+      "精度与缺证"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 90,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_10.4",
+        "url": "https://openstax.org/books/precalculus-2e/pages/8-1-non-right-triangles-law-of-sines",
+        "page_or_section": "8-1-non-right-triangles-law-of-sines",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+        "page": 90,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_10.4",
+        "url": "https://openstax.org/books/precalculus-2e/pages/8-1-non-right-triangles-law-of-sines",
+        "page_or_section": "8-1-non-right-triangles-law-of-sines",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先画水平铅垂与北向，所有角写参照线",
+      "method": "联立tan。",
+      "principle": "共同高度。",
+      "worked_example_index": 2,
+      "verification": "远距30，tan30×30=10√3；近角确较大。",
+      "pitfall": "将两距离之和20用于同侧。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“把方位仰俯角转成正确平面几何”的抽样复核：不是路径总长20km；总路程20。；若出现“把北当x或位移当路程。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用互补测量约束求距离高度并核模型误差”的抽样复核：远距30，tan30×30=10√3；近角确较大。；若出现“将两距离之和20用于同侧。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "为了能算就补共线。",
+        "correction": "不能无说明。",
+        "verification": "可以给条件解，但不能当已知事实。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "方位与仰角的参照线",
+      "objects": [
+        "北东罗盘",
+        "船两位移",
+        "塔与眼高",
+        "同侧两观测点",
+        "共线条件框"
+      ],
+      "relations": [
+        "方位从北顺时针",
+        "东d sinβ北d cosβ",
+        "塔高加眼高",
+        "同侧x与x20非相加"
+      ],
+      "labels": [
+        "北",
+        "东",
+        "水平",
+        "眼高1.5m",
+        "仰角",
+        "共线条件"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "只复用边角对应和题设相同的三角图；方位角、仰角及空间投影必须重新核",
+      "english": "Construct exact plane geometry with each side opposite its matching angle. Distinguish included angles from arbitrary given angles and test triangle existence. SSA can have zero, one or two triangles; draw every admissible branch. Bearings are clockwise from north, not from the x-axis, and elevation angles require the stated horizontal projection."
+    }
+  }
+}

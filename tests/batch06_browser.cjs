@@ -11,7 +11,7 @@ const root=process.env.UEC_TEST_BASE||'http://localhost:8043/',out='reports/batc
   await page.goto(root+url);await page.locator('.lesson-section').first().waitFor();
   const expected=await page.evaluate(k=>LESSONS[k].sections.length,key);
   const formulaCount=await page.evaluate(k=>LESSONS[k].sections.reduce((n,s)=>n+(STUDY_FORMULAS[k+'/'+s.id]?.length||0),0),key);
-  if(formulaCount){await page.waitForFunction(n=>document.querySelectorAll('.lesson-section [data-typeset=\"true\"]').length===n,formulaCount);assert.equal(await page.locator('.katex-error').count(),0,key);}
+  if(formulaCount){await page.waitForFunction(n=>document.querySelectorAll('.lesson-section [data-typeset=\"true\"]').length===n,formulaCount);assert.equal(await page.locator('.katex-error').count(),0,key);assert.ok(await page.evaluate(()=>[...document.querySelectorAll('.lesson-section [data-tex]')].every(el=>!(/\\(?:d?frac)/.test(el.dataset.tex))||!!el.querySelector('.mfrac'))),key+' real fractions');}
   assert.ok(await page.locator('a[href=\"reports/batch06/SOURCES.csv\"]').count()===expected,key);
   assert.equal(await page.locator('.lesson-section').count(),expected,key);
   assert.equal(await page.locator('.note-module').count(),expected*12,key);

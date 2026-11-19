@@ -1,0 +1,553 @@
+{
+  "status": "pass",
+  "scope": "TeX parse plus fraction/root structure checks; scientific derivations separately reviewed. Legacy source files remain unchanged.",
+  "checks": [
+    {
+      "key": "数学6/6.1",
+      "title": "不等号与绝对值",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "数学6/6.2",
+      "title": "二次式符号",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "数学6/6.3",
+      "title": "分式不等式的排除点",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "数学6/6.4",
+      "title": "半平面与可行域",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "数学6/6.5",
+      "title": "目标值",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "数学28/28.1",
+      "title": "隐微分",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "数学28/28.2",
+      "title": "三角复合导数",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "数学28/28.3",
+      "title": "对数与变指数",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "数学28/28.4",
+      "title": "固定底指数",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "数学28/28.5",
+      "title": "洛必达法则",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "数学28/28.6",
+      "title": "渐近与导数",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "数学29/29.1",
+      "title": "基本原函数",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "数学29/29.2",
+      "title": "重因式的完整分解",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "数学29/29.3",
+      "title": "三角降幂与换元",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "数学29/29.4",
+      "title": "三角代换的符号",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": true
+    },
+    {
+      "key": "数学29/29.5",
+      "title": "分部积分",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "数学30/30.1",
+      "title": "解与初值",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "数学30/30.2",
+      "title": "分离变量",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "数学30/30.3",
+      "title": "积分因子",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "数学30/30.4",
+      "title": "冷却与良混收支",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "数学31/31.1",
+      "title": "归纳双条件",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "数学31/31.2",
+      "title": "平方与均值",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": true
+    },
+    {
+      "key": "数学31/31.3",
+      "title": "准确否定",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "数学31/31.4",
+      "title": "数值迭代与界",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "物理10/10.1",
+      "title": "周期、频率与路程",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "物理10/10.2",
+      "title": "简谐动力学",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": true
+    },
+    {
+      "key": "物理10/10.3",
+      "title": "运动与初值",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "物理10/10.4",
+      "title": "图像关系",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "物理10/10.5",
+      "title": "简谐能量",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": true
+    },
+    {
+      "key": "物理10/10.6",
+      "title": "线性受迫振幅",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": true
+    },
+    {
+      "key": "物理12/12.1",
+      "title": "能量与力的区别",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "物理12/12.2",
+      "title": "粒子尺度估算",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "物理12/12.3",
+      "title": "相态中的质量关系",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "物理12/12.4",
+      "title": "应力、应变与伸长",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "物理12/12.5",
+      "title": "薄膜与毛细",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "物理13/13.1",
+      "title": "温标",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "物理13/13.2",
+      "title": "线性校准",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "物理13/13.3",
+      "title": "量热收支",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "物理13/13.4",
+      "title": "升温与相变",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "物理13/13.5",
+      "title": "自由热膨胀",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "物理13/13.6",
+      "title": "真实与表观膨胀",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "物理14/14.1",
+      "title": "传热与储能",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "物理14/14.2",
+      "title": "平板热阻",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "物理14/14.3",
+      "title": "给定对流模型",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "物理14/14.4",
+      "title": "辐射总量与净量",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "物理15/15.1",
+      "title": "绝对参量",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "物理15/15.2",
+      "title": "理想状态式",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "物理15/15.3",
+      "title": "混合与密度",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "物理15/15.4",
+      "title": "等温",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "物理15/15.5",
+      "title": "等容",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "物理15/15.6",
+      "title": "等压与活塞",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "物理19/19.1",
+      "title": "棱镜",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "物理19/19.2",
+      "title": "光谱关系",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "物理19/19.3",
+      "title": "薄透镜与放大率",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "物理19/19.4",
+      "title": "焦距测量",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "数学7/7.1",
+      "title": "条件反例",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "数学7/7.2",
+      "title": "联结否定",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "数学7/7.3",
+      "title": "量词否定",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "数学7/7.4",
+      "title": "充分必要",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "数学7/7.5",
+      "title": "有效推理",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "数学8/8.1",
+      "title": "弧度与同终边角",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "数学8/8.2",
+      "title": "扇形量",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "数学32/32.1",
+      "title": "被动移轴",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "数学32/32.2",
+      "title": "被动转轴",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "数学9/9.1",
+      "title": "坐标定义",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": true
+    },
+    {
+      "key": "数学9/9.2",
+      "title": "对称诱导",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "数学9/9.3",
+      "title": "正弦变换",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "数学9/9.4",
+      "title": "反三角主值",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "数学10/10.1",
+      "title": "正弦定律",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "数学10/10.2",
+      "title": "余弦定律",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "数学10/10.3",
+      "title": "面积与半周长",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": true
+    },
+    {
+      "key": "数学10/10.4",
+      "title": "方位与仰角",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "数学11/11.1",
+      "title": "同角平方关系",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": true
+    },
+    {
+      "key": "数学11/11.2",
+      "title": "和差与辅助角",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "数学11/11.3",
+      "title": "倍角与降幂",
+      "status": "pass",
+      "fractionVerified": true,
+      "rootVerified": false
+    },
+    {
+      "key": "数学11/11.4",
+      "title": "正弦方程全部周期解",
+      "status": "pass",
+      "fractionVerified": false,
+      "rootVerified": false
+    },
+    {
+      "key": "数学1/1.1",
+      "status": "pass",
+      "scope": "legacy representative unchanged legacy storage"
+    },
+    {
+      "key": "数学1/1.2",
+      "status": "pass",
+      "scope": "legacy representative unchanged legacy storage"
+    },
+    {
+      "key": "数学4/4.1",
+      "status": "pass",
+      "scope": "legacy representative unchanged legacy storage"
+    }
+  ]
+}

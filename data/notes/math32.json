@@ -1,0 +1,611 @@
+{
+  "32.1": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 32,
+    "section_id": "32.1",
+    "goals": [
+      "由向量分解推导新旧坐标关系",
+      "用移轴化简曲线并区别点移动与轴移动"
+    ],
+    "prerequisites": [
+      "坐标差",
+      "配方",
+      "圆与二次曲线"
+    ],
+    "flow": [
+      "原点分解",
+      "点坐标双向",
+      "方程替换",
+      "配方化简",
+      "一致性验算"
+    ],
+    "concept_relation": "原点分解；点坐标双向；方程替换；配方化简；一致性验算",
+    "deep": [
+      "对无交叉项二次式，配方常能识别平移中心。例如x²+y²−4x+6y−12=0可写(x−2)²+(y+3)²=25，取新原点(2,−3)，变X²+Y²=25。曲线未搬家，圆心在新描述下归零，半径仍5。",
+      "平移保持两点距离、夹角及面积，因为坐标差不变；但截距数值、点到新原点距离及方程线性项可变。不能把“图形形状不变”扩大成所有坐标数值不变。若单位尺度也改了，就超出本节纯平移模型。",
+      "综合题可先求新原点使指定点有目标坐标，再验第二点的相对差。若给两点的新旧变化不一致，可能不存在同一纯移轴，不能分别挑两个原点勉强完成。最后回代一个点和方程、核不变量，避免只得到看似简洁的式子。"
+    ],
+    "derive": [
+      "新原点旧坐标(h,k)：x=X+h，y=Y+k；X=x−h，Y=y−k。",
+      "旧原点新坐标(−h,−k)，新原点新坐标(0,0)。",
+      "纯移轴保持坐标差及距离，曲线换式需用新变量表达旧变量再代入。"
+    ],
+    "examples": [
+      {
+        "q": "新原点旧坐标(−2,5)，P旧坐标(4,1)，求P新坐标及旧原点新坐标。 条件：轴方向单位不变。",
+        "given": "轴方向单位不变。",
+        "analysis": "减新原点。",
+        "method": "X=x−h。",
+        "principle": "位置分解。",
+        "steps": [
+          "P新(4−(−2),1−5)=(6,−4)。",
+          "旧原点新(2,−5)。"
+        ],
+        "ans": "P(6,−4)，旧O(2,−5)。",
+        "verification": "P回旧(6−2,−4+5)=(4,1)。",
+        "pitfall": "新坐标加h,k。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 32,
+        "primary_section": "32.1",
+        "related_sections": []
+      },
+      {
+        "q": "移轴化简x²+y²−4x+6y−12=0。 条件：保持单位及方向，选择圆心作新原点。",
+        "given": "保持单位及方向，选择圆心作新原点。",
+        "analysis": "配方识中心。",
+        "method": "平方完成。",
+        "principle": "曲线坐标替换。",
+        "steps": [
+          "(x−2)²+(y+3)²=25。",
+          "O′(2,−3)，x=X+2,y=Y−3，得X²+Y²=25。"
+        ],
+        "ans": "中心新原点如上，新式X²+Y²=25。",
+        "verification": "半径5且新中心(0,0)。",
+        "pitfall": "将圆也实际平移再算一次。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 32,
+        "primary_section": "32.1",
+        "related_sections": []
+      },
+      {
+        "q": "A旧(7,−1)新(2,3)，求O′旧坐标，并检B旧(0,0)若称新(−5,4)能否同一移轴？ 条件：纯轴平移。",
+        "given": "纯轴平移。",
+        "analysis": "用旧减新求h,k。",
+        "method": "两点一致性。",
+        "principle": "坐标差。",
+        "steps": [
+          "h7−2=5，k−1−3=−4。",
+          "B新应(−5,4)，符合。"
+        ],
+        "ans": "O′(5,−4)，所述B相容。",
+        "verification": "A新加O′回(7,−1)。",
+        "pitfall": "每点可任取不同原点还叫同一移轴。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 32,
+        "primary_section": "32.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "O′旧(3,−2)，P新(−1,4)，P旧？ 条件：纯移轴。",
+        "given": "纯移轴。",
+        "analysis": "新加原点。",
+        "method": "x=X+h。",
+        "principle": "分解。",
+        "steps": [
+          "x−1+3=2，y4−2=2。",
+          "P旧(2,2)。"
+        ],
+        "ans": "(2,2)。",
+        "verification": "再减(3,−2)回(−1,4)。",
+        "pitfall": "再减一次。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 32,
+        "primary_section": "32.1",
+        "related_sections": []
+      },
+      {
+        "q": "两点旧差向量(3,4)，纯移轴后距离？ 条件：长度单位不变。",
+        "given": "长度单位不变。",
+        "analysis": "差不变。",
+        "method": "勾股。",
+        "principle": "平移不变量。",
+        "steps": [
+          "距离√(9+16)=5。",
+          "新坐标差仍(3,4)。"
+        ],
+        "ans": "5单位。",
+        "verification": "原点位置不影响两点间距。",
+        "pitfall": "把到原点距离当两点距。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 32,
+        "primary_section": "32.1",
+        "related_sections": []
+      },
+      {
+        "q": "旧直线2x−y=7，新原点(1,2)，新式？ 条件：轴平行单位不变。",
+        "given": "轴平行单位不变。",
+        "analysis": "x=X+1,y=Y+2。",
+        "method": "代换。",
+        "principle": "同一轨迹。",
+        "steps": [
+          "2(X+1)−(Y+2)=7。",
+          "2X−Y=7。"
+        ],
+        "ans": "2X−Y=7。",
+        "verification": "此特定平移沿线方向，常数恰不变。",
+        "pitfall": "以为所有平移常数必改变。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 32,
+        "primary_section": "32.1",
+        "related_sections": []
+      },
+      {
+        "q": "A旧(0,0)新(1,1)，B旧(2,0)新(4,1)，可同一纯移轴吗？ 条件：保持方向尺度。",
+        "given": "保持方向尺度。",
+        "analysis": "旧差2,0，新差3,0。",
+        "method": "差向量一致性。",
+        "principle": "平移。",
+        "steps": [
+          "坐标差不同。",
+          "无单一h,k同时满足。"
+        ],
+        "ans": "不可。",
+        "verification": "可能还含缩放等，不能无证补模型。",
+        "pitfall": "分别配两个h。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 32,
+        "primary_section": "32.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "同一曲线在新式中心归零，能说物体实际搬到旧原点了吗？ 条件：讨论被动坐标轴平移。",
+      "given": "讨论被动坐标轴平移。",
+      "analysis": "坐标改变不等点移动。",
+      "method": "比较参考系。",
+      "principle": "几何描述。",
+      "steps": [
+        "物理点位置固定。",
+        "只是新原点取在中心，旧系位置未改。"
+      ],
+      "ans": "不能。",
+      "verification": "图应画两套轴与同一圆。",
+      "pitfall": "被动移轴当主动移物。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 32,
+      "primary_section": "32.1",
+      "related_sections": []
+    },
+    "exam": [
+      "先标旧新变量与O′旧坐标，点新坐标用减、回旧用加",
+      "换方程先写x=X+h再代，配方识中心",
+      "验新原点归零、点回代和距离不变量，不将换轴说成搬图"
+    ],
+    "quick": [
+      "原点分解",
+      "点坐标双向",
+      "方程替换",
+      "配方化简",
+      "一致性验算"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+        "page": 4,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_32.1",
+        "url": "https://openstax.org/books/precalculus-2e/pages/10-4-rotation-of-axes",
+        "page_or_section": "10-4-rotation-of-axes",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+        "page": 4,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_32.1",
+        "url": "https://openstax.org/books/precalculus-2e/pages/10-4-rotation-of-axes",
+        "page_or_section": "10-4-rotation-of-axes",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先标旧新变量与O′旧坐标，点新坐标用减、回旧用加",
+      "method": "两点一致性。",
+      "principle": "坐标差。",
+      "worked_example_index": 2,
+      "verification": "A新加O′回(7,−1)。",
+      "pitfall": "每点可任取不同原点还叫同一移轴。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由向量分解推导新旧坐标关系”的抽样复核：P回旧(6−2,−4+5)=(4,1)。；若出现“新坐标加h,k。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用移轴化简曲线并区别点移动与轴移动”的抽样复核：A新加O′回(7,−1)。；若出现“每点可任取不同原点还叫同一移轴。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "被动移轴当主动移物。",
+        "correction": "不能。",
+        "verification": "图应画两套轴与同一圆。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "同一圆的两套平移坐标",
+      "objects": [
+        "旧轴xy",
+        "新轴XY",
+        "O′(2,−3)",
+        "同一半径5圆",
+        "P坐标分解"
+      ],
+      "relations": [
+        "x=X+2 y=Y−3",
+        "曲线物理位置不变",
+        "新原点在旧中心",
+        "半径不变"
+      ],
+      "labels": [
+        "旧坐标",
+        "新坐标",
+        "O′",
+        "X²+Y²=25"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "只复用坐标变换约定一致的旧图；移动轴与移动点的箭头不可互换",
+      "english": "Use deterministic Cartesian geometry. For a passive coordinate change the physical point stays fixed while the axes move. Define positive axis rotation and the old/new coordinate symbols. Keep unit scales equal and verify distance preservation. Draw the same locus in both frames rather than moving the locus without explanation."
+    }
+  },
+  "32.2": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 32,
+    "section_id": "32.2",
+    "goals": [
+      "由投影推导被动转轴公式及逆式",
+      "消去二次式交叉项并核几何不变量"
+    ],
+    "prerequisites": [
+      "三角和差",
+      "矩阵",
+      "二次式"
+    ],
+    "flow": [
+      "基向量推导",
+      "正逆关系",
+      "不变量",
+      "消交叉",
+      "分类回代"
+    ],
+    "concept_relation": "基向量推导；正逆关系；不变量；消交叉；分类回代",
+    "deep": [
+      "二次式Ax²+Bxy+Cy²代换后，XY交叉系数为Bcos2θ+(C−A)sin2θ。要求该系数0，可在适当条件下用tan2θ=B/(A−C)，但A=C时不应盲除零，直接求原正弦余弦关系较稳。解角还要匹配允许范围，差π/2通常交换主轴。",
+      "消去交叉项不保证一定椭圆，仍需看新二次系数和常数及可能线性项。5x²−6xy+5y²=16在θπ/4下成为2X²+8Y²=16为椭圆；若系数有正负可能双曲线，退化情形也要独立判断，不以“转轴成功”自动宣称圆。",
+      "计算按定义→正逆式→代换展开→新式→点回代和不变量验算。若另含平移，写清先后顺序及两个原点，不混成一个未经定义矩阵。题目只给θ时，不要把教材别题的曲线方向照搬；确定性图需由同一方程生成。"
+    ],
+    "derive": [
+      "新轴逆时针θ：x=Xcosθ−Ysinθ，y=Xsinθ+Ycosθ。",
+      "逆式X=xcosθ+ysinθ，Y=−xsinθ+ycosθ；x²+y²=X²+Y²。",
+      "新交叉系数Bcos2θ+(C−A)sin2θ；先设0，分母非0才用tan2θ=B/(A−C)。"
+    ],
+    "examples": [
+      {
+        "q": "新轴逆时针π/2，点旧(2,−3)，新坐标？ 条件：点不动，原点单位不变。",
+        "given": "点不动，原点单位不变。",
+        "analysis": "用逆式。",
+        "method": "X=xcosθ+ysinθ。",
+        "principle": "正交投影。",
+        "steps": [
+          "cos0、sin1，X=−3。",
+          "Y=−2。"
+        ],
+        "ans": "(−3,−2)。",
+        "verification": "新平方和9+4=13等旧4+9。",
+        "pitfall": "主动旋点公式得(3,2)误用。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 32,
+        "primary_section": "32.2",
+        "related_sections": []
+      },
+      {
+        "q": "将5x²−6xy+5y²=16的轴逆时针π/4，求新式和类型。 条件：按所定被动约定。",
+        "given": "按所定被动约定。",
+        "analysis": "x=(X−Y)/√2,y=(X+Y)/√2。",
+        "method": "展开系数。",
+        "principle": "交叉消去。",
+        "steps": [
+          "x²+y²=X²+Y²，xy=(X²−Y²)/2。",
+          "得5X²+5Y²−3X²+3Y²=16，即X²/8+Y²/2=1。"
+        ],
+        "ans": "椭圆，新式如上。",
+        "verification": "X=√8,Y0代回旧x=y=2，原20−24+20=16。",
+        "pitfall": "把−6xy符号反了交换主轴却不检点。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 32,
+        "primary_section": "32.2",
+        "related_sections": []
+      },
+      {
+        "q": "二次式A=C且B≠0，tan2θ公式分母0如何处理？ 条件：只求消交叉条件。",
+        "given": "只求消交叉条件。",
+        "analysis": "用未除式。",
+        "method": "Bcos2θ=0。",
+        "principle": "系数原方程。",
+        "steps": [
+          "cos2θ=0。",
+          "可取θπ/4；另解依角范围筛。"
+        ],
+        "ans": "不作除零，可取π/4等符合条件角。",
+        "verification": "sin2θ不需0，直接代交叉系数为0。",
+        "pitfall": "见分母0说不存在转轴。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 32,
+        "primary_section": "32.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "θ0转轴公式应怎样？ 条件：点固定。",
+        "given": "点固定。",
+        "analysis": "cos1sin0。",
+        "method": "代入。",
+        "principle": "恒等变换。",
+        "steps": [
+          "x=X，y=Y。",
+          "新旧坐标相同。"
+        ],
+        "ans": "恒等。",
+        "verification": "是符号检查起点。",
+        "pitfall": "零角仍加负号。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 32,
+        "primary_section": "32.2",
+        "related_sections": []
+      },
+      {
+        "q": "新坐标(1,0)，新轴逆时针π/3，旧坐标？ 条件：被动转轴，原点不变。",
+        "given": "被动转轴，原点不变。",
+        "analysis": "新X单位基。",
+        "method": "正向分解。",
+        "principle": "投影。",
+        "steps": [
+          "xcosπ/3=1/2。",
+          "y sinπ/3=√3/2。"
+        ],
+        "ans": "(1/2,√3/2)。",
+        "verification": "长度仍1。",
+        "pitfall": "给(1/2,−√3/2)混主动逆式。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 32,
+        "primary_section": "32.2",
+        "related_sections": []
+      },
+      {
+        "q": "圆x²+y²=9经任意纯转轴，新式？ 条件：原点及尺度不变。",
+        "given": "原点及尺度不变。",
+        "analysis": "平方和不变量。",
+        "method": "正交性。",
+        "principle": "距离保持。",
+        "steps": [
+          "代后X²+Y²=9。",
+          "半径仍3。"
+        ],
+        "ans": "X²+Y²=9。",
+        "verification": "纯旋转不把圆变椭圆。",
+        "pitfall": "轴画斜了就认为半径变。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 32,
+        "primary_section": "32.2",
+        "related_sections": []
+      },
+      {
+        "q": "新二次式X²−Y²=1能因无交叉项就称椭圆吗？ 条件：实平面。",
+        "given": "实平面。",
+        "analysis": "系数正负异号。",
+        "method": "分类。",
+        "principle": "轨迹。",
+        "steps": [
+          "两平方异号。",
+          "为双曲线而非椭圆。"
+        ],
+        "ans": "不能，是双曲线。",
+        "verification": "如X0无实Y，形状不同。",
+        "pitfall": "无XY等于椭圆。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 32,
+        "primary_section": "32.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "轴逆时针45°与点在旧轴下逆时针45°的坐标变换是否相同？ 条件：比较同方向角的主动/被动。",
+      "given": "比较同方向角的主动/被动。",
+      "analysis": "两变换互逆。",
+      "method": "基向量投影。",
+      "principle": "参考系。",
+      "steps": [
+        "被动点坐标乘R(−θ)。",
+        "主动点坐标乘R(+θ)，除特殊点角外不相同。"
+      ],
+      "ans": "通常不同，互逆。",
+      "verification": "用旧(1,0)比较可见y符号反。",
+      "pitfall": "都叫旋转所以一个矩阵通用。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 32,
+      "primary_section": "32.2",
+      "related_sections": []
+    },
+    "exam": [
+      "写清轴逆时针的被动约定再用公式，主动移点另论",
+      "消交叉先保未除系数式，A=C不盲除零",
+      "展开后仍分类并验原点、平方和和一个点，不以图像似圆替证据"
+    ],
+    "quick": [
+      "基向量推导",
+      "正逆关系",
+      "不变量",
+      "消交叉",
+      "分类回代"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+        "page": 6,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_32.2",
+        "url": "https://openstax.org/books/precalculus-2e/pages/10-4-rotation-of-axes",
+        "page_or_section": "10-4-rotation-of-axes",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+        "page": 6,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_32.2",
+        "url": "https://openstax.org/books/precalculus-2e/pages/10-4-rotation-of-axes",
+        "page_or_section": "10-4-rotation-of-axes",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "写清轴逆时针的被动约定再用公式，主动移点另论",
+      "method": "Bcos2θ=0。",
+      "principle": "系数原方程。",
+      "worked_example_index": 2,
+      "verification": "sin2θ不需0，直接代交叉系数为0。",
+      "pitfall": "见分母0说不存在转轴。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由投影推导被动转轴公式及逆式”的抽样复核：新平方和9+4=13等旧4+9。；若出现“主动旋点公式得(3,2)误用。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“消去二次式交叉项并核几何不变量”的抽样复核：sin2θ不需0，直接代交叉系数为0。；若出现“见分母0说不存在转轴。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "都叫旋转所以一个矩阵通用。",
+        "correction": "通常不同，互逆。",
+        "verification": "用旧(1,0)比较可见y符号反。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "被动转轴与主轴椭圆",
+      "objects": [
+        "旧新正交轴",
+        "逆时针θ弧",
+        "固定点P",
+        "旋转椭圆",
+        "交叉项系数"
+      ],
+      "relations": [
+        "点不动轴动",
+        "X=xcosθ+ysinθ",
+        "距离保持",
+        "π/4将5−6xy+5式变主轴椭圆"
+      ],
+      "labels": [
+        "被动转轴",
+        "θ",
+        "X",
+        "Y",
+        "x",
+        "y",
+        "非主动移点"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "只复用坐标变换约定一致的旧图；移动轴与移动点的箭头不可互换",
+      "english": "Use deterministic Cartesian geometry. For a passive coordinate change the physical point stays fixed while the axes move. Define positive axis rotation and the old/new coordinate symbols. Keep unit scales equal and verify distance preservation. Draw the same locus in both frames rather than moving the locus without explanation."
+    }
+  }
+}
