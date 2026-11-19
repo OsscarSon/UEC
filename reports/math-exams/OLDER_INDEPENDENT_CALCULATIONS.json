@@ -1,0 +1,713 @@
+{
+  "status": "pass",
+  "count": 89,
+  "checks": [
+    {
+      "id": "uec_math_i:2022:mcq:2:whole",
+      "name": "negative sum selects r=-2/3",
+      "status": "pass",
+      "computed": "-9/10",
+      "expected": "-9/10",
+      "formula_sha256": "63e4ac251ddba34eb7290795c76ed2bff5eda0fbb83cb95c226755bf1ea6ac8d"
+    },
+    {
+      "id": "uec_math_i:2022:mcq:2:whole",
+      "name": "second term is1 not third",
+      "status": "pass",
+      "computed": "1",
+      "expected": "1",
+      "formula_sha256": "63e4ac251ddba34eb7290795c76ed2bff5eda0fbb83cb95c226755bf1ea6ac8d"
+    },
+    {
+      "id": "uec_math_i:2022:mcq:5:whole",
+      "name": "target exponent gives index3 and coefficient−280",
+      "status": "pass",
+      "computed": "-280",
+      "expected": "-280",
+      "formula_sha256": "a06124d1780d9cf55132f99615d0a5a3edc4ae955d59899ef36d110c9da38796"
+    },
+    {
+      "id": "uec_math_i:2022:mcq:8:whole",
+      "name": "fixed last0 and distinct digits4001..6999",
+      "status": "pass",
+      "computed": "168",
+      "expected": "168",
+      "formula_sha256": "e2a1cc0b6ce07046dfcb75f79723ce5e4b6ff7087b72fbee527e4389485de359"
+    },
+    {
+      "id": "uec_math_i:2022:mcq:11:whole",
+      "name": "outer minus inner sector ratio",
+      "status": "pass",
+      "computed": "160",
+      "expected": "160",
+      "formula_sha256": "3f3d809a810517c96f28b005ed05bae26d3cdc6d6f437fcc99d53ec53311044a"
+    },
+    {
+      "id": "uec_math_i:2022:mcq:16:whole",
+      "name": "distance yields two constants sum4",
+      "status": "pass",
+      "computed": "4",
+      "expected": "4",
+      "formula_sha256": "ce5915d43ab00ddef6a2df0096428c077a9f1b2890f7be4df9e527847d688585"
+    },
+    {
+      "id": "uec_math_i:2022:mcq:18:whole",
+      "name": "radius5 shrinks area rate",
+      "status": "pass",
+      "computed": "-10*pi",
+      "expected": "-10*pi",
+      "formula_sha256": "eae90a8a14809fd83f66996a3f5476dedf4b6e050e6c9876d90be12c369a61bf"
+    },
+    {
+      "id": "uec_math_i:2022:written:2:whole",
+      "name": "depression height rounds25.1",
+      "status": "pass",
+      "computed": "251/10",
+      "expected": "251/10",
+      "formula_sha256": "6008b6ef5cf351b6c1262461b913e40db3cd1d42610cc47b919ae0a6a9049b61"
+    },
+    {
+      "id": "uec_math_i:2022:written:4:b",
+      "name": "at least one independent event",
+      "status": "pass",
+      "computed": "23/24",
+      "expected": "23/24",
+      "formula_sha256": "cf39b424c73eedc171b7b9ffbdf1f21bcb24227a63dadee5d407bda553727af5"
+    },
+    {
+      "id": "uec_math_i:2022:written:8:b(i)",
+      "name": "square pyramid height sqrt2",
+      "status": "pass",
+      "computed": "sqrt(2)",
+      "expected": "sqrt(2)",
+      "formula_sha256": "983fc641666dfb1a25d9f9340b23445dd5c6b82e5907f1054d3212f92d9e8fba"
+    },
+    {
+      "id": "uec_math_i:2022:written:9:a",
+      "name": "at least10 beads circular rotation only",
+      "status": "pass",
+      "computed": "362880",
+      "expected": "362880",
+      "formula_sha256": "0b553d4b3b2999041710f15c462b4422637000ff3601ae66d15ecd71e0ddfafe"
+    },
+    {
+      "id": "uec_math_i:2022:written:9:a",
+      "name": "9 beads insufficient",
+      "status": "pass",
+      "formula_sha256": "0b553d4b3b2999041710f15c462b4422637000ff3601ae66d15ecd71e0ddfafe"
+    },
+    {
+      "id": "uec_math_i:2022:written:9:c(i)",
+      "name": "grouped median uses continuous boundaries",
+      "status": "pass",
+      "computed": "107/20",
+      "expected": "107/20",
+      "formula_sha256": "94f1099189d4faa54a07a7055acafc8a8c962872c2bd80143b7c7a7259a09df2"
+    },
+    {
+      "id": "uec_math_i:2022:written:11:b",
+      "name": "microapprox 3.9^1.5 near4",
+      "status": "pass",
+      "computed": "77/10",
+      "expected": "77/10",
+      "formula_sha256": "8355ca873eb031152e9a1b6dfaeb085aadae7992eb33c864a7d2a3b519bb4a58"
+    },
+    {
+      "id": "uec_math_i:2022:written:12:a(i)",
+      "name": "intersection positive log2",
+      "status": "pass",
+      "computed": "t**2 - 3*t + 2",
+      "expected": "t**2 - 3*t + 2",
+      "formula_sha256": "87d2e2e5aa340e573182a3622d05d3dcd39a1b221e64c3a15a04c674efe915de"
+    },
+    {
+      "id": "uec_math_i:2022:written:12:a(ii)",
+      "name": "washer outer 3exp(x)-2",
+      "status": "pass",
+      "computed": "pi*(-9/4 + 4*log(2))",
+      "expected": "pi*(-9/4 + 4*log(2))",
+      "formula_sha256": "8baa618abe1adad78fc4b59eaceb5e7e224db7bd6b18affdff0c2c90101a810a"
+    },
+    {
+      "id": "uec_math_i:2022:written:12:b(ii)",
+      "name": "hundredth log derivative negative factorial",
+      "status": "pass",
+      "computed": "-933262154439441526816992388562667004907159682643816214685929638952175999932299156089414639761565182862536979208272237582511852109168640000000000000000000000/x**100",
+      "expected": "-933262154439441526816992388562667004907159682643816214685929638952175999932299156089414639761565182862536979208272237582511852109168640000000000000000000000/x**100",
+      "formula_sha256": "5c9c7f11e8264b84252ece1cbcec6e58d662fb891c04cb688e15d96e353c9398"
+    },
+    {
+      "id": "uec_math_ii:2022:mcq:1:whole",
+      "name": "binomial coefficient −27/16",
+      "status": "pass",
+      "computed": "-27/16",
+      "expected": "-27/16",
+      "formula_sha256": "b642b99b40b517f6d8ed21ef349ec81bf746fe65d87d28e36aa405329502c0cb"
+    },
+    {
+      "id": "uec_math_ii:2022:mcq:4:whole",
+      "name": "fixed P choose20points2",
+      "status": "pass",
+      "computed": "190",
+      "expected": "190",
+      "formula_sha256": "4c8bb848be5fa7193b65df2a06076c979078c30a49ff7631648f7446e4496396"
+    },
+    {
+      "id": "uec_math_ii:2022:mcq:7:whole",
+      "name": "complex quotient real−1 imaginary1",
+      "status": "pass",
+      "computed": "-1 + (-1 + I)*(1 - I)/2",
+      "expected": "-1 + I",
+      "formula_sha256": "2ea9d04603a5ddf6b0209fe9a3712408fcae5153452a316eed45028aa2d81305"
+    },
+    {
+      "id": "uec_math_ii:2022:mcq:10:whole",
+      "name": "squared sum sin(A-B)",
+      "status": "pass",
+      "computed": "-7/10",
+      "expected": "-7/10",
+      "formula_sha256": "364b013527b34c3b3d86ebaba529f3e716fddeeb1be9dc8437cda75d11a2079a"
+    },
+    {
+      "id": "uec_math_ii:2022:mcq:13:whole",
+      "name": "circle radius squared14",
+      "status": "pass",
+      "computed": "14",
+      "expected": "14",
+      "formula_sha256": "c34211214379fc0dac438d91ed7dfa509fd94a6ce2b2b628bff6d58fd3bab840"
+    },
+    {
+      "id": "uec_math_ii:2022:mcq:14:whole",
+      "name": "polar principal points distance squared205",
+      "status": "pass",
+      "computed": "205",
+      "expected": "205",
+      "formula_sha256": "fbcfffd090b759735fbeeb2572fff9d31aff9cea456e595f3d2ed11820392aee"
+    },
+    {
+      "id": "uec_math_ii:2022:mcq:17:whole",
+      "name": "horizontal tangent candidate dxdt0 nonzero",
+      "status": "pass",
+      "computed": "-9",
+      "expected": "-9",
+      "formula_sha256": "998c9355cca2dab5b0c09c898d0b1247e5399b7e0a993559ce7d17b02535fa2a"
+    },
+    {
+      "id": "uec_math_ii:2022:mcq:17:whole",
+      "name": "dxdt at2/3 nonzero",
+      "status": "pass",
+      "formula_sha256": "998c9355cca2dab5b0c09c898d0b1247e5399b7e0a993559ce7d17b02535fa2a"
+    },
+    {
+      "id": "uec_math_ii:2022:mcq:20:whole",
+      "name": "five petals counted once",
+      "status": "pass",
+      "computed": "pi/4",
+      "expected": "pi/4",
+      "formula_sha256": "e13bac3eb18629910557ea14b6fb6fe633324f12c025336157660ae26d4398e8"
+    },
+    {
+      "id": "uec_math_ii:2022:written:1:a(i)",
+      "name": "side product12 from b+c7",
+      "status": "pass",
+      "computed": "12",
+      "expected": "12",
+      "formula_sha256": "a7e6346072a243234461baa05843924f33ca9cef4cd988d7fea70a3a7774414d"
+    },
+    {
+      "id": "uec_math_ii:2022:written:1:a(ii)",
+      "name": "triangle area3sqrt15/4",
+      "status": "pass",
+      "computed": "3*sqrt(15)/4",
+      "expected": "3*sqrt(15)/4",
+      "formula_sha256": "ef433eb9b79c9ab385459746da327d65fa1653582628e44e4dbca9c6b1db7c72"
+    },
+    {
+      "id": "uec_math_ii:2022:written:3:b(i)",
+      "name": "both unit complex candidates satisfy polynomial",
+      "status": "pass",
+      "computed": "0",
+      "expected": "0",
+      "formula_sha256": "c53fb4d566cece186fa7fe7d69af24cf0a1ab20c9d6dd6e006463859c548a8c1"
+    },
+    {
+      "id": "uec_math_ii:2022:written:4:a",
+      "name": "numerator after subtract1 factor",
+      "status": "pass",
+      "computed": "(x - 1)*(x**2 - 6*x + 4)",
+      "expected": "(x - 1)*(x**2 - 6*x + 4)",
+      "formula_sha256": "dba089cbcdbced8ef343ac465d86f404fc6672738a98144e5a331b19fdbee380"
+    },
+    {
+      "id": "uec_math_ii:2022:written:5:c",
+      "name": "weighted infinite GP at1/5",
+      "status": "pass",
+      "computed": "25/16",
+      "expected": "25/16",
+      "formula_sha256": "00ed5c796e0e5a529234801fb82723e3f75a2b302ac849f9a044246116d8f34c"
+    },
+    {
+      "id": "uec_math_ii:2022:written:6:c(i)",
+      "name": "keyring all reflected configurations",
+      "status": "pass",
+      "computed": "181440",
+      "expected": "181440",
+      "formula_sha256": "c18f9f635ed0fea0dfdc32cbb7d1efb01d3ea464bc92daf67e08b70439082517"
+    },
+    {
+      "id": "uec_math_ii:2022:written:6:c(ii)",
+      "name": "keyring silver block copper nonadjacent",
+      "status": "pass",
+      "computed": "10800",
+      "expected": "10800",
+      "formula_sha256": "3c5a3f210c007645281c41e70efd58a3bc82d96f29e0d4839d6fe4288a801505"
+    },
+    {
+      "id": "uec_math_ii:2022:written:8:b",
+      "name": "parallel tangents distance",
+      "status": "pass",
+      "computed": "2*sqrt(3)/3",
+      "expected": "2*sqrt(3)/3",
+      "formula_sha256": "85723aa24cff51c1f2c6acdc007d28ee299f70e715fece64c1fa1234c708ac83"
+    },
+    {
+      "id": "uec_math_ii:2022:written:9:a",
+      "name": "differentiable right derivative equals27",
+      "status": "pass",
+      "computed": "27",
+      "expected": "27",
+      "formula_sha256": "a0d7180efba876ca4c6bb4a9414575410e93c4aaea7efde26d285f004b8ed660"
+    },
+    {
+      "id": "uec_math_ii:2022:written:9:b",
+      "name": "chain derivative lnln power",
+      "status": "pass",
+      "computed": "5/(x*log(x)*log(log(x)))",
+      "expected": "5/(x*log(x)*log(log(x)))",
+      "formula_sha256": "84405c9da8a751fdf0bf2d7a71eb66163607411ff25eb9a91ed7992587ef7b48"
+    },
+    {
+      "id": "uec_math_ii:2022:written:9:c",
+      "name": "offaxis washer volume",
+      "status": "pass",
+      "computed": "pi*(-9/2 + exp(4)/2 + 4*exp(2))",
+      "expected": "pi*(-9/2 + exp(4)/2 + 4*exp(2))",
+      "formula_sha256": "f03e2774ca75adf6226010fc970d6cc48bfbac79f7d13d034b9f1ff358e259d5"
+    },
+    {
+      "id": "uec_math_ii:2022:written:10:a",
+      "name": "rationalized limit sqrt2",
+      "status": "pass",
+      "computed": "sqrt(2)",
+      "expected": "sqrt(2)",
+      "formula_sha256": "93e66b9306bd4bebf372d566f514c032d13c148ad6e0355350f1974a8ff7e5be"
+    },
+    {
+      "id": "uec_math_ii:2022:written:10:c",
+      "name": "sphere surface rate7pi",
+      "status": "pass",
+      "computed": "7*pi",
+      "expected": "7*pi",
+      "formula_sha256": "1bbed7624df3968ef292f4457ae1fbcea916680369be869e7dd78d7862defbfe"
+    },
+    {
+      "id": "uec_math_ii:2022:written:11:a",
+      "name": "cyclic integral derivative",
+      "status": "pass",
+      "computed": "4*(-sin(x/2)/2 + cos(x/2)/4)*exp(x)/5 + 4*(sin(x/2)/2 + cos(x/2))*exp(x)/5",
+      "expected": "exp(x)*cos(x/2)",
+      "formula_sha256": "f989b634bd43629a44038d62b34993a52c42a95ff29143093966f713627d8a81"
+    },
+    {
+      "id": "uec_math_ii:2022:written:11:c",
+      "name": "repeated root initial derivative6",
+      "status": "pass",
+      "computed": "6",
+      "expected": "6",
+      "formula_sha256": "286737cd8013eabbfbb0e3d8074a9155963b076678c62d7e0973cff56566d0a3"
+    },
+    {
+      "id": "uec_math_i:2021:mcq:1:whole",
+      "name": "ordered median enforces x11",
+      "status": "pass",
+      "computed": "11",
+      "expected": "11",
+      "formula_sha256": "3e5797fac869cb1025f7a43aa93d251101b92256980c552ef98c2a35b146bc4e"
+    },
+    {
+      "id": "uec_math_i:2021:mcq:3:whole",
+      "name": "choose internships0..4",
+      "status": "pass",
+      "computed": "2941",
+      "expected": "2941",
+      "formula_sha256": "71ccea65736c99193970bc03fd38fe4fea8214905d9e0ce66ad180cdc283061a"
+    },
+    {
+      "id": "uec_math_i:2021:mcq:14:whole",
+      "name": "dihedral projection ratio4/3",
+      "status": "pass",
+      "computed": "4/3",
+      "expected": "4/3",
+      "formula_sha256": "aca31fa98fedcf63c665bb980cd2bbb7d762d82ad6c97674fcb2b6befed2ae51"
+    },
+    {
+      "id": "uec_math_i:2021:written:7:a",
+      "name": "minimum flour kg3 exceeds2.5",
+      "status": "pass",
+      "computed": "3",
+      "expected": "3",
+      "formula_sha256": "f728ed39102bda6556730522842cc81ff9f919b044ee907db705cf639a4db435"
+    },
+    {
+      "id": "uec_math_i:2021:written:10:b",
+      "name": "same price ratio gives total4125",
+      "status": "pass",
+      "computed": "4125",
+      "expected": "4125",
+      "formula_sha256": "8fa7c1b128912477310f8049f983600e15a667a8aa7d2fc1aea5e526671109c3"
+    },
+    {
+      "id": "uec_math_i:2021:written:12:a",
+      "name": "horizontal chord area",
+      "status": "pass",
+      "computed": "15/2 - 4*log(4)",
+      "expected": "15/2 - 8*log(2)",
+      "formula_sha256": "b94551a535c69750b9d755c1864e67c312317a547826c79906a05a35dcad74f1"
+    },
+    {
+      "id": "uec_math_i:2021:written:12:b",
+      "name": "horizontal chord washer volume",
+      "status": "pass",
+      "computed": "18*pi",
+      "expected": "18*pi",
+      "formula_sha256": "08884e53951cf7825e2e547dde63673025de335353fb879c048d193dd3fafc45"
+    },
+    {
+      "id": "uec_math_ii:2021:mcq:4:whole",
+      "name": "binomial product second coefficient",
+      "status": "pass",
+      "computed": "19/8",
+      "expected": "19/8",
+      "formula_sha256": "987649a7361c464aa3a8478eee56b3d00ec5e6667b83c77f44ffccb8b1f32eff"
+    },
+    {
+      "id": "uec_math_ii:2021:mcq:7:whole",
+      "name": "indistinguishable bills at leastRM5",
+      "status": "pass",
+      "computed": "32",
+      "expected": "32",
+      "formula_sha256": "c388746e106a207caca88b36200d95fe9107f0c7bc6d9e0bb43704f30c9c8786"
+    },
+    {
+      "id": "uec_math_ii:2021:written:4:b(iii)",
+      "name": "test posterior",
+      "status": "pass",
+      "computed": "47/102",
+      "expected": "47/102",
+      "formula_sha256": "37724457de840129d528c46974964b2fd073c6cb1e7e6f3dd3ad066354f69ebb"
+    },
+    {
+      "id": "uec_math_ii:2021:written:5:a",
+      "name": "nested radical original root x5",
+      "status": "pass",
+      "computed": "-sqrt(-1 + sqrt(5))/sqrt(1 + sqrt(5)) + sqrt(1 + sqrt(5))/sqrt(-1 + sqrt(5))",
+      "expected": "1",
+      "formula_sha256": "50952b5a6574e25c81a1f6ff0689dfc2e0131acb781fb74adafcd28f8075cfd9"
+    },
+    {
+      "id": "uec_math_ii:2021:written:11:a(ii)",
+      "name": "motion full6second road",
+      "status": "pass",
+      "computed": "72",
+      "expected": "72",
+      "formula_sha256": "1a448cf6083cf0e14447fcf625be793d98f845bc29784864df296206d3c7d6ae"
+    },
+    {
+      "id": "uec_math_ii:2021:written:11:b",
+      "name": "shell includes low horizontal annulus",
+      "status": "pass",
+      "computed": "15*pi/2",
+      "expected": "15*pi/2",
+      "formula_sha256": "97bef37790d1ea888f3f2737c3c88de76269dc05ef2af5a3968a64f7e86da84f"
+    },
+    {
+      "id": "uec_math_ii:2021:written:12:b",
+      "name": "equal area algebra (1-m)^3=1/2",
+      "status": "pass",
+      "computed": "(1/2 - t/2)*(1 - t)**2 - (1 - t)**3/3",
+      "expected": "(1 - t)**3/6",
+      "formula_sha256": "d48566bd8e372129a43e6f2fb5ede65a6f097539a8f72ec414a4c82a3c5232c4"
+    },
+    {
+      "id": "uec_math_i:2020:mcq:8:whole",
+      "name": "positive natural convention48 vs49 withzero",
+      "status": "pass",
+      "computed": "48",
+      "expected": "48",
+      "formula_sha256": "5ea08a465f6e8d67a799cedc3aff5f96a9fa5c5aecefc6f0c87f5c9072b28039"
+    },
+    {
+      "id": "uec_math_i:2020:mcq:10:whole",
+      "name": "greatcircle through pole only60degrees",
+      "status": "pass",
+      "computed": "3600",
+      "expected": "3600",
+      "formula_sha256": "301e1fea432fa488dfd25dd9f7f67cf0352587819d872dc7f09fd9154fb0ffd2"
+    },
+    {
+      "id": "uec_math_i:2020:written:9:c",
+      "name": "variance symbol sigma means sqrt before scaling",
+      "status": "pass",
+      "computed": "2*Abs(t)",
+      "expected": "2*Abs(t)",
+      "formula_sha256": "c70110b30aedbbad82659c7e2e83c3fadfafecb1af0b6ca2c57dc2705229c9fa"
+    },
+    {
+      "id": "uec_math_i:2020:written:11:b(i)",
+      "name": "microapprox cube997 uses x1000",
+      "status": "pass",
+      "computed": "3003/10000",
+      "expected": "3003/10000",
+      "formula_sha256": "53403f83850aad07751efee5b8f92e6d261ef11f3432eda77b9b8e851a514040"
+    },
+    {
+      "id": "uec_math_i:2020:written:12:a",
+      "name": "split lower-envelope area",
+      "status": "pass",
+      "computed": "2 - sqrt(2)",
+      "expected": "2 - sqrt(2)",
+      "formula_sha256": "758cdd39824588fbd2ae8ea7a218f7dbd88b7d3def6aaa442db7029eaf3cfded"
+    },
+    {
+      "id": "uec_math_i:2020:written:12:b",
+      "name": "split lower-envelope volume",
+      "status": "pass",
+      "computed": "pi*(-1/2 + pi/4)",
+      "expected": "pi*(-1/2 + pi/4)",
+      "formula_sha256": "03e58076311f141582cb56b4fcb83647cc19bef0a1c4b8f761661f8207278073"
+    },
+    {
+      "id": "uec_math_ii:2020:mcq:7:whole",
+      "name": "10circle points right triangle exclusion",
+      "status": "pass",
+      "computed": "80",
+      "expected": "80",
+      "formula_sha256": "9bd15a84ecd9c522946c08fc6c15366ac47ed5684887241e7181ba7d2fbacfbf"
+    },
+    {
+      "id": "uec_math_ii:2020:mcq:8:whole",
+      "name": "D negative branch does not solve positive tan8theta",
+      "status": "pass",
+      "formula_sha256": "67f5a1da20c14841af006209580b2b9383928a35b1f5e78bdb083edeeb5e700a"
+    },
+    {
+      "id": "uec_math_ii:2020:mcq:15:whole",
+      "name": "confocal positive k11",
+      "status": "pass",
+      "computed": "11",
+      "expected": "11",
+      "formula_sha256": "f6d9abfb7fc83e25f30688ee5ae152b713fa1517ef26e23a7d15174a62c6f786"
+    },
+    {
+      "id": "uec_math_ii:2020:written:8:b(ii)",
+      "name": "common tangent cubic condition",
+      "status": "pass",
+      "computed": "(1 - t**3)/t**2",
+      "expected": "(1 - t**3)/t**2",
+      "formula_sha256": "99a26143a934c4fe8f6f7480aa845ef5b1ec742a9f45e88a8a8c5adcfcbe1099"
+    },
+    {
+      "id": "uec_math_ii:2020:written:10:b",
+      "name": "signed inverse tangent definite integral",
+      "status": "pass",
+      "computed": "-sqrt(3)/3 + 5*pi/9",
+      "expected": "-sqrt(3)/3 + 5*pi/9",
+      "formula_sha256": "56471e4ea0ce50669d1023f9996b468504caab46b5cc2b73916c127190d371a9"
+    },
+    {
+      "id": "uec_math_ii:2020:written:12:a",
+      "name": "offaxis shell rotation",
+      "status": "pass",
+      "computed": "224*pi/15",
+      "expected": "224*pi/15",
+      "formula_sha256": "d09edf8f3712ff252eb79c71423a7da95e7768bfc65d78fb5044e5991307bffc"
+    },
+    {
+      "id": "uec_math_i:2019:mcq:15:whole",
+      "name": "cyclic order quadrilateral area10",
+      "status": "pass",
+      "computed": "10",
+      "expected": "10",
+      "formula_sha256": "4efe1181370b89fa6e49897b3ed31f4b7f662b138f413372bdac64e9192cfc0e"
+    },
+    {
+      "id": "uec_math_i:2019:written:4:whole",
+      "name": "updated variance",
+      "status": "pass",
+      "computed": "1831/100",
+      "expected": "1831/100",
+      "formula_sha256": "9cbc84abd70af12af22e7ec124ca496fa5f603598c31c26f72405af69c2f5182"
+    },
+    {
+      "id": "uec_math_i:2019:written:6:a",
+      "name": "fourth degree factorization",
+      "status": "pass",
+      "computed": "2*x**4 + x**3 - 3*x**2 + 5*x - 2",
+      "expected": "2*x**4 + x**3 - 3*x**2 + 5*x - 2",
+      "formula_sha256": "aef7fe19926c10b8eebab83fdce7f6eb75ae274efd882d1f246cc46179dd8933"
+    },
+    {
+      "id": "uec_math_i:2019:written:12:b(ii)",
+      "name": "triangle area changes +7/12 despite shrink s",
+      "status": "pass",
+      "computed": "7/12",
+      "expected": "7/12",
+      "formula_sha256": "d2b494857179cc0971caa43f2014a7d4ece25d9b35d4f3eb5c43090a9040ddde"
+    },
+    {
+      "id": "uec_math_ii:2019:mcq:5:whole",
+      "name": "restaurant6days no consecutive repeats",
+      "status": "pass",
+      "computed": "18750",
+      "expected": "18750",
+      "formula_sha256": "8da2e303d87ed5991c4526162624f83ca8424809abb36cddf7ec3aff8a06319d"
+    },
+    {
+      "id": "uec_math_ii:2019:mcq:7:whole",
+      "name": "middle root cube =−1/8",
+      "status": "pass",
+      "computed": "-1/8",
+      "expected": "-1/8",
+      "formula_sha256": "41133b03209fbcfd900eb5c823c29ae5cdfa89f81e95349d35ed4f8559314ba6"
+    },
+    {
+      "id": "uec_math_ii:2019:mcq:15:whole",
+      "name": "actual k solution 1/2",
+      "status": "pass",
+      "computed": "sqrt(5)/2",
+      "expected": "sqrt(5)/2",
+      "formula_sha256": "3ac077c00e6245b77dc2c3d0c325339ea98626a1f87990be6fe2730e8abec2ea"
+    },
+    {
+      "id": "uec_math_ii:2019:written:3:b",
+      "name": "telescoping n120",
+      "status": "pass",
+      "computed": "10",
+      "expected": "10",
+      "formula_sha256": "6b294ce3143e15d70aca57e2ef06e7af6fdc20032641e5deef301fc6990a41d8"
+    },
+    {
+      "id": "uec_math_ii:2019:written:7:b",
+      "name": "ellipse linear maximum−4+sqrt25",
+      "status": "pass",
+      "computed": "1",
+      "expected": "1",
+      "formula_sha256": "bbd1ab338ffed94b384fd015327faa2019d60d213919bd8955de707505b75911"
+    },
+    {
+      "id": "uec_math_ii:2019:written:11:b",
+      "name": "lower semicircle offaxis volume",
+      "status": "pass",
+      "computed": "pi*(-32/3 + 12*pi)",
+      "expected": "pi*(-32/3 + 12*pi)",
+      "formula_sha256": "f61201f37ce5e57905c80d17b15017ceca9986135616ffdb09f07ac14db2b003"
+    },
+    {
+      "id": "uec_math_ii:2019:written:12:b(ii)",
+      "name": "cooling temperature after2minutes",
+      "status": "pass",
+      "computed": "662/25",
+      "expected": "662/25",
+      "formula_sha256": "86dafb36b27758d08528a34077bd01e8372fb306e135943a77dd646de917d096"
+    },
+    {
+      "id": "uec_math_ii:2018:mcq:3:whole",
+      "name": "coefficient5/2048",
+      "status": "pass",
+      "computed": "5/2048",
+      "expected": "5/2048",
+      "formula_sha256": "4c55149184a311715e312a65ddedc4be703bc1c7cc841675b5ed5561753652ba"
+    },
+    {
+      "id": "uec_math_ii:2018:mcq:7:whole",
+      "name": "grid through B",
+      "status": "pass",
+      "computed": "700",
+      "expected": "700",
+      "formula_sha256": "f838adce2a44da9aff45986aac4c498f69e0b706c0a1ae4d8762620edba0dcc6"
+    },
+    {
+      "id": "uec_math_ii:2018:mcq:12:whole",
+      "name": "focus y−23/8",
+      "status": "pass",
+      "computed": "-23/8",
+      "expected": "-23/8",
+      "formula_sha256": "67f5cdaaca28e611ffb8737d758f6fb2b66fb084c3d1f0bbb32d67877cf502e5"
+    },
+    {
+      "id": "uec_math_ii:2018:written:3:a",
+      "name": "rational range endpoints2±sqrt2",
+      "status": "pass",
+      "computed": "-4*t**2 + 16*t - 8",
+      "expected": "-4*t**2 + 16*t - 8",
+      "formula_sha256": "3e3f9cc3551035c15608478d4ef66ce0c76ef33e6193fb82014057af6751fe56"
+    },
+    {
+      "id": "uec_math_ii:2018:written:5:b",
+      "name": "conjugate polynomial factor",
+      "status": "pass",
+      "computed": "x**5 + x**3 - 6*x**2 - 5*x - 6",
+      "expected": "x**5 + x**3 - 6*x**2 - 5*x - 6",
+      "formula_sha256": "39db4e9e101df10a490bb1ffd1b58642755a76609a261723d3f0e328deb599c9"
+    },
+    {
+      "id": "uec_math_ii:2018:written:7:a",
+      "name": "circle through 2and8 touchingyaxis centre y±4",
+      "status": "pass",
+      "computed": "4",
+      "expected": "4",
+      "formula_sha256": "27839eec4524c34a5f3a9c512051076fe9a74e29dd94b1d5fdc55ea74f0f9335"
+    },
+    {
+      "id": "uec_math_ii:2018:written:10:a",
+      "name": "through point circle constant13",
+      "status": "pass",
+      "computed": "13",
+      "expected": "13",
+      "formula_sha256": "f33b917a9e7d0d0ae5d451d8c36a60c5cd9c6e354e4cf57853d14dec9f018fea"
+    },
+    {
+      "id": "uec_math_ii:2018:written:11:a",
+      "name": "sin2xcos3x integral minus4/5",
+      "status": "pass",
+      "computed": "-4/5",
+      "expected": "-4/5",
+      "formula_sha256": "f59b37e269efba98df6b828028ad99fb6cf6e76e5256aaf130225cee71048f42"
+    },
+    {
+      "id": "uec_math_ii:2018:written:12:a",
+      "name": "triangle side rate1",
+      "status": "pass",
+      "computed": "1",
+      "expected": "1",
+      "formula_sha256": "8064ac0bb0b4c722ee45ffd4ba6ca5d807a77e09d19238b90f588b6087770704"
+    },
+    {
+      "id": "uec_math_ii:2018:written:12:b",
+      "name": "integration by parts −pi/2",
+      "status": "pass",
+      "computed": "-pi/2",
+      "expected": "-pi/2",
+      "formula_sha256": "66824c5fb30ba61f3d69af7bb30fd256ac2561d70ba35ea8b64a7eacfa24330d"
+    },
+    {
+      "id": "uec_math_ii:2018:written:12:c",
+      "name": "quadrant ellipse area pi/2",
+      "status": "pass",
+      "computed": "pi/2",
+      "expected": "pi/2",
+      "formula_sha256": "54d98dd02bf4daa9e3ef82ffcd8a3893bd2924d7f631766affda8d40d45d5d5d"
+    }
+  ],
+  "limits": "Individual named calculations/counterexamples; not full answer certification of historical papers."
+}

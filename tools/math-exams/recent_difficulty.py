@@ -8,6 +8,18 @@ R=Path(__file__).resolve().parents[2];D=R/'data/math-exams'
 p=D/'visual-difficulty-review.json';grades=json.loads(p.read_text())
 level={'B':'basic','M':'medium','H':'hard'}
 mcq={
+ ('uec_math_i',2019):'B B M M M B M M M H B M M B M B M B B B',
+ ('uec_math_i',2020):'B B B B M M M M B M M M M M B B B B M H',
+ ('uec_math_i',2021):'M M M B M M B M B M M B M M B B M B M B',
+ ('uec_math_i',2022):'B M B B B M B M B M M M M M B B M B B M',
+ ('uec_math_i',2023):'B M M M B M M M B M M M M B B M B M B M',
+ ('uec_math_i',2024):'B B M M B M M M B M M M B B M M B B B B',
+ ('uec_math_ii',2018):'B B M M M M M B B M M B M B M B M M B B',
+ ('uec_math_ii',2019):'M B M B B B M M B M B M M B M B B B B M',
+ ('uec_math_ii',2020):'M B B B M M M H M M M B M M M B B B M M',
+ ('uec_math_ii',2021):'B M B M B M M B M M M M M M M H M M M B',
+ ('uec_math_ii',2022):'B M B B M M B M M M M M M M M B M M M M',
+ ('uec_math_ii',2023):'M M M M M M M M M M M M M M H B M H M M',
  ('uec_math_i',2025):'B M M B M M B B B M B M M B B M B M B B',
  ('uec_math_ii',2024):'B M M B M B M M B M M B M M M M B M M M',
  ('uec_math_ii',2025):'B B M M B B M M M M M B M M B B M B H B',
@@ -33,7 +45,7 @@ assert set(added)<=ids
 grades.update(added);p.write_text(json.dumps(grades,ensure_ascii=False,indent=2)+'\n')
 (R/'reports/math-exams/RECENT_DIFFICULTY_METHOD.md').write_text('''# 本轮题面难度估计
 
-明确复读2024/2025统考选择及2022–2025校内期末题面后，按题逐项记录作者估计。basic指直接应用或单一条件转换；medium指多步代数、主值/端点筛选、标准综合方法；hard指较长证明、隐含条件、非常规建模或多重方法结合。
+明确阅读所供2018–2025统考选择（高数I自2019）及2022–2025校内期末题面后，按题逐项记录作者估计。basic指直接应用或单一条件转换；medium指多步代数、主值/端点筛选、标准综合方法；hard指较长证明、隐含条件、非常规建模或多重方法结合。
 
 评级代码和逐题列表在tools/math-exams/recent_difficulty.py；未列条目保持未估计。题号、知识点、完整定义域和公式仍须读research-ledger.json，不能只由章节名称推测难度。分值不自动等于难度，原件红色答案不充当评级依据。
 

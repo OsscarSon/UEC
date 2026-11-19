@@ -16,7 +16,7 @@ for r in rows:
   C('formula/figure evidence '+r['id'],bool(r['formula_latex_verified'])and bool(r['figure_description_verified']))
  if r['statistics_eligible']:C('unknown/ambiguous not ranked '+r['id'],r['primary_chapter']is not None and r['printed_marks']is not None and not r['scope_conflict'] and r.get('review_issue')is None)
 C('no raw PDFs in public module',not list(D.rglob('*.pdf')))
-for c,y,p,total in [('uec_math_i',2026,'mcq',30),('uec_math_i',2026,'written',70),('uec_math_ii',2026,'mcq',30),('uec_math_ii',2026,'written',70),('semester_final',2026,'mcq',30),('semester_final',2026,'written',70),('graduation_math_ii',2025,'written',120),('graduation_math_ii',2025,'mcq',40),('preexam_math_ii',2025,'mcq',40),('preexam_math_ii',2025,'written',120),('uec_math_i',2025,'written',90),('uec_math_ii',2024,'written',120),('uec_math_ii',2025,'written',120),('uec_math_i',2024,'written',90),('uec_math_i',2023,'written',90),('uec_math_i',2023,'mcq',40),('uec_math_ii',2023,'written',120),('uec_math_ii',2023,'mcq',40),('graduation_math_ii',2021,'written',120),('graduation_math_ii',2021,'mcq',40),('graduation_math_ii',2022,'written',120),('graduation_math_ii',2022,'mcq',40),('graduation_math_ii',2023,'written',120),('graduation_math_ii',2024,'written',120),('graduation_math_ii',2024,'mcq',40),('preexam_math_ii',2022,'mcq',40),('preexam_math_ii',2023,'mcq',40),('preexam_math_ii',2023,'written',120),('preexam_math_ii',2024,'mcq',40),('preexam_math_ii',2024,'written',120)]:
+for c,y,p,total in [('uec_math_i',2026,'mcq',30),('uec_math_i',2026,'written',70),('uec_math_ii',2026,'mcq',30),('uec_math_ii',2026,'written',70),('semester_final',2026,'mcq',30),('semester_final',2026,'written',70),('graduation_math_ii',2025,'written',120),('graduation_math_ii',2025,'mcq',40),('preexam_math_ii',2025,'mcq',40),('preexam_math_ii',2025,'written',120),('uec_math_i',2025,'written',90),('uec_math_ii',2024,'written',120),('uec_math_ii',2025,'written',120),('uec_math_i',2024,'written',90),('uec_math_i',2019,'written',90),('uec_math_i',2019,'mcq',40),('uec_math_ii',2019,'written',120),('uec_math_ii',2019,'mcq',40),('uec_math_i',2020,'written',90),('uec_math_ii',2020,'written',120),('uec_math_i',2021,'written',90),('uec_math_i',2021,'mcq',40),('uec_math_ii',2021,'written',120),('uec_math_ii',2021,'mcq',40),('uec_math_ii',2018,'written',120),('uec_math_ii',2018,'mcq',40),('uec_math_i',2022,'written',90),('uec_math_i',2022,'mcq',40),('uec_math_ii',2022,'written',120),('uec_math_ii',2022,'mcq',40),('uec_math_i',2023,'written',90),('uec_math_i',2023,'mcq',40),('uec_math_ii',2023,'written',120),('uec_math_ii',2023,'mcq',40),('graduation_math_ii',2021,'written',120),('graduation_math_ii',2021,'mcq',40),('graduation_math_ii',2022,'written',120),('graduation_math_ii',2022,'mcq',40),('graduation_math_ii',2023,'written',120),('graduation_math_ii',2024,'written',120),('graduation_math_ii',2024,'mcq',40),('preexam_math_ii',2022,'mcq',40),('preexam_math_ii',2023,'mcq',40),('preexam_math_ii',2023,'written',120),('preexam_math_ii',2024,'mcq',40),('preexam_math_ii',2024,'written',120)]:
  rs=[r for r in rows if (r['exam_type'],r['year'],r['paper'])==(c,y,p) and r['verification_status']=='visual_fields_checked']
  C('source printed sum '+str((c,y,p)),sum((r['printed_marks']or 0)for r in rs)==total)
  if p=='written':
@@ -48,6 +48,23 @@ for f in freq:
   if f['exam_type']=='uec_math_ii'and f['format_regime']=='old_40_60':
    y=next(y for y in ch['annual_printed_exposure']if y['year']==2024)
    C('missing cover leaves per-question mark share null '+str(ch['chapter']),y['papers']['mcq']['printed_share_percent']is None)
+C('all supplied original pages actually reviewed',all(p['visual_status']=='viewed_source_page'and not p['needs_visual_review']for p in pages))
+coverage=L('paper-coverage.json');C('61 supplied paper populations, missing pre22 written not invented',len(coverage)==61 and not any(p['exam_type']=='preexam_math_ii'and p['year_candidate']==2022 and p['paper']=='written'for p in coverage))
+for p in coverage:
+ C('all supplied big-question numbers accounted '+str((p['exam_type'],p['year_candidate'],p['paper'])),p['observed_question_numbers']==p['expected_question_numbers']and not p['independent_full_solution_certification'])
+for r in rows:
+ if r['year']==2020 and r['exam_type']in['uec_math_i','uec_math_ii']:
+  C('2020 filename evidence never promoted to cover evidence '+r['id'],r['evidence_fields']['year']=='source_filename_2020_without_printed_cover')
+ if r['paper']=='mcq'and r['year']==2020:
+  C('2020 unknown MCQ marks remain unknown '+r['id'],r['printed_marks']is None)
+reconciled=json.loads((R/'reports/math-exams/REPORT_CLAIM_RECONCILIATION.json').read_text())
+C('all778 report claims reconciled without deleting original claims',reconciled['count']==len(L('imported-claims.json'))==778)
+known_ids={r['id']for r in rows}
+for c in reconciled['claims']:
+ C('claim locator references actual reviewed unit '+c['claim_id'],bool(c['source_unit_ids'])and set(c['source_unit_ids'])<=known_ids and c['original_claim_verification_status']=='needs_review')
+older=json.loads((R/'reports/math-exams/OLDER_INDEPENDENT_CALCULATIONS.json').read_text());by_q={r['id']:r for r in rows}
+for c in older['checks']:
+ C('independent computation tied to exact reviewed formula '+c['name'],c['status']=='pass'and hashlib.sha256(by_q[c['id']]['formula_latex_verified'].encode()).hexdigest()==c['formula_sha256'])
 # Preserve existing curriculum, all teaching/illustration/vendor resources and prior study state code.
 base='efd3445';tracked=subprocess.check_output(['git','ls-tree','-r','--name-only',base],cwd=R,text=True).splitlines();protected=[p for p in tracked if p.startswith(('lessons/','assets/','data/','vendor/','illustrations/','ui/','cloud/'))or p=='batch-ui.js']
 for p in protected:C('original file protected '+p,subprocess.check_output(['git','show',base+':'+p],cwd=R)==(R/p).read_bytes())

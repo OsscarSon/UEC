@@ -2,7 +2,7 @@
   "official": false,
   "questions": [
     {
-      "id": "ME26-M003",
+      "id": "ME26-M009",
       "kind": "mcq",
       "number": 1,
       "points": [
@@ -13,20 +13,9 @@
       ]
     },
     {
-      "id": "ME26-M033",
+      "id": "ME26-M023",
       "kind": "mcq",
       "number": 2,
-      "points": [
-        {
-          "description": "选中唯一正确选项",
-          "marks": 2
-        }
-      ]
-    },
-    {
-      "id": "ME26-M018",
-      "kind": "mcq",
-      "number": 3,
       "points": [
         {
           "description": "选中唯一正确选项",
@@ -37,6 +26,17 @@
     {
       "id": "ME26-M008",
       "kind": "mcq",
+      "number": 3,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M033",
+      "kind": "mcq",
       "number": 4,
       "points": [
         {
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "id": "ME26-M014",
+      "id": "ME26-M001",
       "kind": "mcq",
       "number": 5,
       "points": [
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "id": "ME26-M009",
+      "id": "ME26-M018",
       "kind": "mcq",
       "number": 6,
       "points": [
@@ -68,7 +68,7 @@
       ]
     },
     {
-      "id": "ME26-M012",
+      "id": "ME26-M010",
       "kind": "mcq",
       "number": 7,
       "points": [
@@ -79,7 +79,7 @@
       ]
     },
     {
-      "id": "ME26-M015",
+      "id": "ME26-M007",
       "kind": "mcq",
       "number": 8,
       "points": [
@@ -90,7 +90,7 @@
       ]
     },
     {
-      "id": "ME26-M021",
+      "id": "ME26-M013",
       "kind": "mcq",
       "number": 9,
       "points": [
@@ -101,7 +101,7 @@
       ]
     },
     {
-      "id": "ME26-M029",
+      "id": "ME26-M040",
       "kind": "mcq",
       "number": 10,
       "points": [
@@ -112,7 +112,7 @@
       ]
     },
     {
-      "id": "ME26-M035",
+      "id": "ME26-M019",
       "kind": "mcq",
       "number": 11,
       "points": [
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "id": "ME26-M024",
+      "id": "ME26-M020",
       "kind": "mcq",
       "number": 12,
       "points": [
@@ -134,7 +134,7 @@
       ]
     },
     {
-      "id": "ME26-M011",
+      "id": "ME26-M038",
       "kind": "mcq",
       "number": 13,
       "points": [
@@ -145,7 +145,7 @@
       ]
     },
     {
-      "id": "ME26-M039",
+      "id": "ME26-M037",
       "kind": "mcq",
       "number": 14,
       "points": [
@@ -156,7 +156,7 @@
       ]
     },
     {
-      "id": "ME26-M038",
+      "id": "ME26-M026",
       "kind": "mcq",
       "number": 15,
       "points": [
@@ -167,24 +167,9 @@
       ]
     },
     {
-      "id": "ME26-W005",
-      "kind": "written",
-      "number": 1,
-      "points": [
-        {
-          "description": "正确写出弧长和面积式",
-          "marks": 2
-        },
-        {
-          "description": "联立并核对单位",
-          "marks": 2
-        }
-      ]
-    },
-    {
       "id": "ME26-W003",
       "kind": "written",
-      "number": 2,
+      "number": 1,
       "points": [
         {
           "description": "正确交换并解出反函数",
@@ -193,6 +178,25 @@
         {
           "description": "写出反函数定义域并解释",
           "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-W006",
+      "kind": "written",
+      "number": 2,
+      "points": [
+        {
+          "description": "列矩阵/消元并说明可解",
+          "marks": 1
+        },
+        {
+          "description": "求出u、v",
+          "marks": 2
+        },
+        {
+          "description": "代回两式",
+          "marks": 1
         }
       ]
     },
@@ -216,9 +220,28 @@
       ]
     },
     {
-      "id": "ME26-W011",
+      "id": "ME26-W012",
       "kind": "written",
       "number": 4,
+      "points": [
+        {
+          "description": "说明共轭根",
+          "marks": 1
+        },
+        {
+          "description": "求和积并构造方程",
+          "marks": 2
+        },
+        {
+          "description": "复核",
+          "marks": 1
+        }
+      ]
+    },
+    {
+      "id": "ME26-W011",
+      "kind": "written",
+      "number": 5,
       "points": [
         {
           "description": "点在曲线及隐微分",
@@ -231,54 +254,20 @@
       ]
     },
     {
-      "id": "ME26-W008",
-      "kind": "written",
-      "number": 5,
-      "points": [
-        {
-          "description": "互斥分类并列组合数",
-          "marks": 2
-        },
-        {
-          "description": "求和并检查无序计数",
-          "marks": 2
-        }
-      ]
-    },
-    {
-      "id": "ME26-W024",
+      "id": "ME26-W019",
       "kind": "written",
       "number": 6,
       "points": [
         {
-          "description": "解微分方程并定初值",
+          "description": "驻点及增减判断",
           "marks": 2
         },
         {
-          "description": "由半衰期定k及单位",
+          "description": "端点与驻点值完整",
           "marks": 2
         },
         {
-          "description": "求时刻并代回",
-          "marks": 2
-        }
-      ]
-    },
-    {
-      "id": "ME26-W016",
-      "kind": "written",
-      "number": 7,
-      "points": [
-        {
-          "description": "余弦定律求边",
-          "marks": 2
-        },
-        {
-          "description": "面积",
-          "marks": 2
-        },
-        {
-          "description": "外接圆与根号化简",
+          "description": "全局最值及所有达到点",
           "marks": 2
         }
       ]
@@ -286,7 +275,7 @@
     {
       "id": "ME26-W013",
       "kind": "written",
-      "number": 8,
+      "number": 7,
       "points": [
         {
           "description": "因式分解及两根",
@@ -303,85 +292,104 @@
       ]
     },
     {
-      "id": "ME26-W020",
+      "id": "ME26-W024",
+      "kind": "written",
+      "number": 8,
+      "points": [
+        {
+          "description": "解微分方程并定初值",
+          "marks": 2
+        },
+        {
+          "description": "由半衰期定k及单位",
+          "marks": 2
+        },
+        {
+          "description": "求时刻并代回",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-W021",
       "kind": "written",
       "number": 9,
       "points": [
         {
-          "description": "交点及上下曲线",
+          "description": "全概率",
           "marks": 2
         },
         {
-          "description": "面积计算",
+          "description": "一次条件概率",
           "marks": 2
         },
         {
-          "description": "正确轴与平方半径体积",
+          "description": "说明条件独立并求双阳后验",
           "marks": 2
         }
       ]
     },
     {
-      "id": "ME26-W022",
+      "id": "ME26-W023",
       "kind": "written",
       "number": 10,
       "points": [
         {
-          "description": "正域与对数微分",
+          "description": "完整部分分式",
           "marks": 2
         },
         {
-          "description": "点及切线",
+          "description": "积分及常数",
           "marks": 2
         },
         {
-          "description": "驻点变号及最小值",
+          "description": "三个区间与验导",
           "marks": 2
         }
       ]
     },
     {
-      "id": "ME26-W033",
+      "id": "ME26-W035",
       "kind": "written",
       "number": 11,
       "points": [
         {
-          "description": "分部求F含定积分常数",
-          "marks": 3
-        },
-        {
-          "description": "导数号与最小值",
+          "description": "正确距离平方及u域",
           "marks": 2
         },
         {
-          "description": "域内解方程",
-          "marks": 2
+          "description": "配方最短与两个最近点",
+          "marks": 3
         },
         {
-          "description": "极限条件与两次计算",
+          "description": "两个正且异的u条件",
           "marks": 3
+        },
+        {
+          "description": "合并范围及端点解释",
+          "marks": 2
         }
       ]
     },
     {
-      "id": "ME26-W034",
+      "id": "ME26-W030",
       "kind": "written",
       "number": 12,
       "points": [
         {
-          "description": "基步和完整归纳",
-          "marks": 3
-        },
-        {
-          "description": "严格整数阈值",
+          "description": "界限与面积",
           "marks": 2
         },
         {
-          "description": "导数迭代及x1",
+          "description": "x轴垫片及积分",
           "marks": 3
         },
         {
-          "description": "方程近似与严格不等式的区别",
+          "description": "y轴圆盘及积分",
+          "marks": 3
+        },
+        {
+          "description": "比较和半径解释",
           "marks": 2
         }
       ]

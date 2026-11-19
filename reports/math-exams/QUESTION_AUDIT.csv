@@ -1,4 +1,261 @@
 id,exam_type,year,paper,question,subquestion,source_pdf_id,source_page,primary_chapter,printed_marks,verification_status,statistics_eligible,scope_conflict,notes
+uec_math_ii:2018:mcq:1:whole,uec_math_ii,2018,mcq,1,whole,uec_math_ii:d34ee4a4b584,5,5,2,visual_fields_checked,True,False,
+uec_math_ii:2018:mcq:2:whole,uec_math_ii,2018,mcq,2,whole,uec_math_ii:d34ee4a4b584,5,3,2,visual_fields_checked,True,False,
+uec_math_ii:2018:mcq:3:whole,uec_math_ii,2018,mcq,3,whole,uec_math_ii:d34ee4a4b584,5,20,2,visual_fields_checked,True,False,
+uec_math_ii:2018:mcq:4:whole,uec_math_ii,2018,mcq,4,whole,uec_math_ii:d34ee4a4b584,5,4,2,visual_fields_checked,True,False,
+uec_math_ii:2018:mcq:5:whole,uec_math_ii,2018,mcq,5,whole,uec_math_ii:d34ee4a4b584,5,12,2,visual_fields_checked,True,False,
+uec_math_ii:2018:mcq:6:whole,uec_math_ii,2018,mcq,6,whole,uec_math_ii:d34ee4a4b584,5,26,2,visual_fields_checked,True,False,
+uec_math_ii:2018:mcq:7:whole,uec_math_ii,2018,mcq,7,whole,uec_math_ii:d34ee4a4b584,6,19,2,visual_fields_checked,True,False,
+uec_math_ii:2018:mcq:8:whole,uec_math_ii,2018,mcq,8,whole,uec_math_ii:d34ee4a4b584,6,11,2,visual_fields_checked,True,False,
+uec_math_ii:2018:mcq:9:whole,uec_math_ii,2018,mcq,9,whole,uec_math_ii:d34ee4a4b584,6,10,2,visual_fields_checked,True,False,
+uec_math_ii:2018:mcq:10:whole,uec_math_ii,2018,mcq,10,whole,uec_math_ii:d34ee4a4b584,6,11,2,visual_fields_checked,True,False,
+uec_math_ii:2018:mcq:11:whole,uec_math_ii,2018,mcq,11,whole,uec_math_ii:d34ee4a4b584,6,11,2,visual_fields_checked,True,False,
+uec_math_ii:2018:mcq:12:whole,uec_math_ii,2018,mcq,12,whole,uec_math_ii:d34ee4a4b584,6,33,2,visual_fields_checked,True,False,
+uec_math_ii:2018:mcq:13:whole,uec_math_ii,2018,mcq,13,whole,uec_math_ii:d34ee4a4b584,6,32,2,visual_fields_checked,True,False,
+uec_math_ii:2018:mcq:14:whole,uec_math_ii,2018,mcq,14,whole,uec_math_ii:d34ee4a4b584,7,33,2,visual_fields_checked,True,False,
+uec_math_ii:2018:mcq:15:whole,uec_math_ii,2018,mcq,15,whole,uec_math_ii:d34ee4a4b584,7,32,2,visual_fields_checked,True,False,平方得到9x²−16y²−160y−256=0；若约定r≥0，另保留16+5y≥0所选分支，不能丢掉符号条件。
+uec_math_ii:2018:mcq:16:whole,uec_math_ii,2018,mcq,16,whole,uec_math_ii:d34ee4a4b584,7,21,2,visual_fields_checked,True,False,
+uec_math_ii:2018:mcq:17:whole,uec_math_ii,2018,mcq,17,whole,uec_math_ii:d34ee4a4b584,7,22,2,visual_fields_checked,True,False,
+uec_math_ii:2018:mcq:18:whole,uec_math_ii,2018,mcq,18,whole,uec_math_ii:d34ee4a4b584,7,22,2,visual_fields_checked,True,False,
+uec_math_ii:2018:mcq:19:whole,uec_math_ii,2018,mcq,19,whole,uec_math_ii:d34ee4a4b584,7,24,2,visual_fields_checked,True,False,
+uec_math_ii:2018:mcq:20:whole,uec_math_ii,2018,mcq,20,whole,uec_math_ii:d34ee4a4b584,7,29,2,visual_fields_checked,True,False,
+uec_math_ii:2018:written:1:a,uec_math_ii,2018,written,1,a,uec_math_ii:09384fa8f14d,5,18,2,visual_fields_checked,True,False,
+uec_math_ii:2018:written:1:b,uec_math_ii,2018,written,1,b,uec_math_ii:09384fa8f14d,5,18,3,visual_fields_checked,True,False,
+uec_math_ii:2018:written:1:c,uec_math_ii,2018,written,1,c,uec_math_ii:09384fa8f14d,5,18,5,visual_fields_checked,True,False,需说明内部二面角或无向平面锐角约定；同一法向量点积可给补角，不能只看透视图选符号。
+uec_math_ii:2018:written:2:a,uec_math_ii,2018,written,2,a,uec_math_ii:09384fa8f14d,5,11,7,visual_fields_checked,True,False,
+uec_math_ii:2018:written:2:b,uec_math_ii,2018,written,2,b,uec_math_ii:09384fa8f14d,5,9,3,visual_fields_checked,True,False,
+uec_math_ii:2018:written:3:a,uec_math_ii,2018,written,3,a,uec_math_ii:09384fa8f14d,5,5,4,visual_fields_checked,True,False,
+uec_math_ii:2018:written:3:b,uec_math_ii,2018,written,3,b,uec_math_ii:09384fa8f14d,5,31,6,visual_fields_checked,True,False,
+uec_math_ii:2018:written:4:a,uec_math_ii,2018,written,4,a,uec_math_ii:09384fa8f14d,6,3,4,visual_fields_checked,True,False,
+uec_math_ii:2018:written:4:b,uec_math_ii,2018,written,4,b,uec_math_ii:09384fa8f14d,6,4,4,visual_fields_checked,True,False,
+uec_math_ii:2018:written:4:c,uec_math_ii,2018,written,4,c,uec_math_ii:09384fa8f14d,6,7,2,visual_fields_checked,True,False,
+uec_math_ii:2018:written:5:a,uec_math_ii,2018,written,5,a,uec_math_ii:09384fa8f14d,6,12,4,visual_fields_checked,True,False,
+uec_math_ii:2018:written:5:b,uec_math_ii,2018,written,5,b,uec_math_ii:09384fa8f14d,6,34,6,visual_fields_checked,True,False,
+uec_math_ii:2018:written:6:a,uec_math_ii,2018,written,6,a,uec_math_ii:09384fa8f14d,6,13,5,visual_fields_checked,True,False,
+uec_math_ii:2018:written:6:b(i),uec_math_ii,2018,written,6,b(i),uec_math_ii:09384fa8f14d,6,17,2.5,visual_fields_checked,True,False,
+uec_math_ii:2018:written:6:b(ii),uec_math_ii,2018,written,6,b(ii),uec_math_ii:09384fa8f14d,6,17,2.5,visual_fields_checked,True,False,
+uec_math_ii:2018:written:7:a,uec_math_ii,2018,written,7,a,uec_math_ii:09384fa8f14d,6,16,5,visual_fields_checked,True,False,
+uec_math_ii:2018:written:7:b,uec_math_ii,2018,written,7,b,uec_math_ii:09384fa8f14d,6,16,5,visual_fields_checked,True,False,须校验反射点在x轴、入射及反射射线方向；仅找过镜像点的无向切线可能保留不合射线路径的候选。
+uec_math_ii:2018:written:8:a,uec_math_ii,2018,written,8,a,uec_math_ii:09384fa8f14d,6,33,4,visual_fields_checked,True,False,
+uec_math_ii:2018:written:8:b,uec_math_ii,2018,written,8,b,uec_math_ii:09384fa8f14d,6,33,1,visual_fields_checked,True,False,
+uec_math_ii:2018:written:8:c,uec_math_ii,2018,written,8,c,uec_math_ii:09384fa8f14d,6,33,5,visual_fields_checked,True,False,"椭圆实际要求a,b非零；若只写a≠b不足排除a=−b导致两椭圆相同。通常半轴a,b>0约定需明确。"
+uec_math_ii:2018:written:9:a,uec_math_ii,2018,written,9,a,uec_math_ii:09384fa8f14d,7,22,3,visual_fields_checked,True,False,
+uec_math_ii:2018:written:9:b(i),uec_math_ii,2018,written,9,b(i),uec_math_ii:09384fa8f14d,7,29,4,visual_fields_checked,True,False,
+uec_math_ii:2018:written:9:b(ii),uec_math_ii,2018,written,9,b(ii),uec_math_ii:09384fa8f14d,7,29,3,visual_fields_checked,True,False,
+uec_math_ii:2018:written:10:a,uec_math_ii,2018,written,10,a,uec_math_ii:09384fa8f14d,7,30,4,visual_fields_checked,True,False,"积分可得隐式圆，若要求经典函数解，须选择通过(−2,4)的上分支并排除y=2处原ODE不可给有限导数的端点。"
+uec_math_ii:2018:written:10:b,uec_math_ii,2018,written,10,b,uec_math_ii:09384fa8f14d,7,22,6,visual_fields_checked,True,False,
+uec_math_ii:2018:written:11:a,uec_math_ii,2018,written,11,a,uec_math_ii:09384fa8f14d,7,29,4,visual_fields_checked,True,False,
+uec_math_ii:2018:written:11:b,uec_math_ii,2018,written,11,b,uec_math_ii:09384fa8f14d,7,21,3,visual_fields_checked,True,False,
+uec_math_ii:2018:written:11:c,uec_math_ii,2018,written,11,c,uec_math_ii:09384fa8f14d,7,29,3,visual_fields_checked,True,False,
+uec_math_ii:2018:written:12:a,uec_math_ii,2018,written,12,a,uec_math_ii:09384fa8f14d,7,22,3,visual_fields_checked,True,False,
+uec_math_ii:2018:written:12:b,uec_math_ii,2018,written,12,b,uec_math_ii:09384fa8f14d,7,29,3,visual_fields_checked,True,False,
+uec_math_ii:2018:written:12:c,uec_math_ii,2018,written,12,c,uec_math_ii:09384fa8f14d,7,24,4,visual_fields_checked,True,False,
+uec_math_i:2019:mcq:1:whole,uec_math_i,2019,mcq,1,whole,uec_math_i:c473afc19717,2,2,2,visual_fields_checked,True,False,
+uec_math_i:2019:mcq:2:whole,uec_math_i,2019,mcq,2,whole,uec_math_i:c473afc19717,2,3,2,visual_fields_checked,True,False,
+uec_math_i:2019:mcq:3:whole,uec_math_i,2019,mcq,3,whole,uec_math_i:c473afc19717,2,13,2,visual_fields_checked,True,False,
+uec_math_i:2019:mcq:4:whole,uec_math_i,2019,mcq,4,whole,uec_math_i:c473afc19717,2,6,2,visual_fields_checked,True,False,
+uec_math_i:2019:mcq:5:whole,uec_math_i,2019,mcq,5,whole,uec_math_i:c473afc19717,2,14,2,visual_fields_checked,True,False,
+uec_math_i:2019:mcq:6:whole,uec_math_i,2019,mcq,6,whole,uec_math_i:c473afc19717,2,20,2,visual_fields_checked,True,False,
+uec_math_i:2019:mcq:7:whole,uec_math_i,2019,mcq,7,whole,uec_math_i:c473afc19717,2,5,2,visual_fields_checked,True,False,
+uec_math_i:2019:mcq:8:whole,uec_math_i,2019,mcq,8,whole,uec_math_i:c473afc19717,2,26,2,visual_fields_checked,True,False,常见解法使用两人命中独立；原句仅列边际概率，应用解析需明确独立假设。
+uec_math_i:2019:mcq:9:whole,uec_math_i,2019,mcq,9,whole,uec_math_i:c473afc19717,3,19,2,visual_fields_checked,True,False,
+uec_math_i:2019:mcq:10:whole,uec_math_i,2019,mcq,10,whole,uec_math_i:c473afc19717,3,18,2,visual_fields_checked,True,False,
+uec_math_i:2019:mcq:11:whole,uec_math_i,2019,mcq,11,whole,uec_math_i:c473afc19717,3,10,2,visual_fields_checked,True,False,
+uec_math_i:2019:mcq:12:whole,uec_math_i,2019,mcq,12,whole,uec_math_i:c473afc19717,3,11,2,visual_fields_checked,True,False,
+uec_math_i:2019:mcq:13:whole,uec_math_i,2019,mcq,13,whole,uec_math_i:c473afc19717,3,11,2,visual_fields_checked,True,False,
+uec_math_i:2019:mcq:14:whole,uec_math_i,2019,mcq,14,whole,uec_math_i:c473afc19717,3,1,2,visual_fields_checked,True,False,
+uec_math_i:2019:mcq:15:whole,uec_math_i,2019,mcq,15,whole,uec_math_i:c473afc19717,4,1,2,visual_fields_checked,True,False,不能直接按给出顺序套鞋带得到自交代数面积；须先确定简单四边形边界顺序。
+uec_math_i:2019:mcq:16:whole,uec_math_i,2019,mcq,16,whole,uec_math_i:c473afc19717,4,16,2,visual_fields_checked,True,False,
+uec_math_i:2019:mcq:17:whole,uec_math_i,2019,mcq,17,whole,uec_math_i:c473afc19717,4,28,2,visual_fields_checked,True,False,
+uec_math_i:2019:mcq:18:whole,uec_math_i,2019,mcq,18,whole,uec_math_i:c473afc19717,4,29,2,visual_fields_checked,True,False,
+uec_math_i:2019:mcq:19:whole,uec_math_i,2019,mcq,19,whole,uec_math_i:c473afc19717,4,22,2,visual_fields_checked,True,False,
+uec_math_i:2019:mcq:20:whole,uec_math_i,2019,mcq,20,whole,uec_math_i:c473afc19717,4,24,2,visual_fields_checked,True,False,
+uec_math_i:2019:written:1:a,uec_math_i,2019,written,1,a,uec_math_i:c473afc19717,6,5,1,visual_fields_checked,True,False,
+uec_math_i:2019:written:1:b,uec_math_i,2019,written,1,b,uec_math_i:c473afc19717,6,5,3,visual_fields_checked,True,False,
+uec_math_i:2019:written:2:whole,uec_math_i,2019,written,2,whole,uec_math_i:c473afc19717,6,10,4,visual_fields_checked,True,False,
+uec_math_i:2019:written:3:a,uec_math_i,2019,written,3,a,uec_math_i:c473afc19717,6,1,2,visual_fields_checked,True,False,
+uec_math_i:2019:written:3:b,uec_math_i,2019,written,3,b,uec_math_i:c473afc19717,6,17,2,visual_fields_checked,True,False,
+uec_math_i:2019:written:4:whole,uec_math_i,2019,written,4,whole,uec_math_i:c473afc19717,6,25,4,visual_fields_checked,True,False,
+uec_math_i:2019:written:5:whole,uec_math_i,2019,written,5,whole,uec_math_i:c473afc19717,6,22,4,visual_fields_checked,True,False,
+uec_math_i:2019:written:6:a,uec_math_i,2019,written,6,a,uec_math_i:c473afc19717,7,3,4,visual_fields_checked,True,False,
+uec_math_i:2019:written:6:b,uec_math_i,2019,written,6,b,uec_math_i:c473afc19717,7,15,6,visual_fields_checked,True,False,
+uec_math_i:2019:written:7:a,uec_math_i,2019,written,7,a,uec_math_i:c473afc19717,7,6,4,visual_fields_checked,True,False,
+uec_math_i:2019:written:7:b,uec_math_i,2019,written,7,b,uec_math_i:c473afc19717,7,12,3,visual_fields_checked,True,False,平方作用于真数(x+1)，不能误作[log10(x+1)]²；负的x+1也可能合定义域。
+uec_math_i:2019:written:7:c,uec_math_i,2019,written,7,c,uec_math_i:c473afc19717,7,17,3,visual_fields_checked,True,False,
+uec_math_i:2019:written:8:a(i),uec_math_i,2019,written,8,a(i),uec_math_i:c473afc19717,7,10,2,visual_fields_checked,True,False,
+uec_math_i:2019:written:8:a(ii),uec_math_i,2019,written,8,a(ii),uec_math_i:c473afc19717,7,10,2,visual_fields_checked,True,False,
+uec_math_i:2019:written:8:a(iii),uec_math_i,2019,written,8,a(iii),uec_math_i:c473afc19717,7,10,2,visual_fields_checked,True,False,
+uec_math_i:2019:written:8:b,uec_math_i,2019,written,8,b,uec_math_i:c473afc19717,7,11,4,visual_fields_checked,True,False,
+uec_math_i:2019:written:9:a(i),uec_math_i,2019,written,9,a(i),uec_math_i:c473afc19717,8,19,2,visual_fields_checked,True,False,
+uec_math_i:2019:written:9:a(ii),uec_math_i,2019,written,9,a(ii),uec_math_i:c473afc19717,8,19,2,visual_fields_checked,True,False,
+uec_math_i:2019:written:9:b(i),uec_math_i,2019,written,9,b(i),uec_math_i:c473afc19717,8,26,4,visual_fields_checked,True,False,
+uec_math_i:2019:written:9:b(ii),uec_math_i,2019,written,9,b(ii),uec_math_i:c473afc19717,8,26,2,visual_fields_checked,True,False,
+uec_math_i:2019:written:10:a(i),uec_math_i,2019,written,10,a(i),uec_math_i:c473afc19717,8,16,2,visual_fields_checked,True,False,
+uec_math_i:2019:written:10:a(ii),uec_math_i,2019,written,10,a(ii),uec_math_i:c473afc19717,8,16,3,visual_fields_checked,True,False,
+uec_math_i:2019:written:10:b,uec_math_i,2019,written,10,b,uec_math_i:c473afc19717,8,16,5,visual_fields_checked,True,False,
+uec_math_i:2019:written:11:a,uec_math_i,2019,written,11,a,uec_math_i:c473afc19717,8,21,4,visual_fields_checked,True,False,
+uec_math_i:2019:written:11:b,uec_math_i,2019,written,11,b,uec_math_i:c473afc19717,8,29,6,visual_fields_checked,True,False,
+uec_math_i:2019:written:12:a,uec_math_i,2019,written,12,a,uec_math_i:c473afc19717,9,24,5,visual_fields_checked,True,False,
+uec_math_i:2019:written:12:b(i),uec_math_i,2019,written,12,b(i),uec_math_i:c473afc19717,9,5,1.5,visual_fields_checked,True,False,
+uec_math_i:2019:written:12:b(ii),uec_math_i,2019,written,12,b(ii),uec_math_i:c473afc19717,9,22,3.5,visual_fields_checked,True,False,
+uec_math_ii:2019:mcq:1:whole,uec_math_ii,2019,mcq,1,whole,uec_math_ii:4e526e114339,2,11,2,visual_fields_checked,True,False,
+uec_math_ii:2019:mcq:2:whole,uec_math_ii,2019,mcq,2,whole,uec_math_ii:4e526e114339,2,18,2,visual_fields_checked,True,False,
+uec_math_ii:2019:mcq:3:whole,uec_math_ii,2019,mcq,3,whole,uec_math_ii:4e526e114339,2,11,2,visual_fields_checked,True,False,
+uec_math_ii:2019:mcq:4:whole,uec_math_ii,2019,mcq,4,whole,uec_math_ii:4e526e114339,2,10,2,visual_fields_checked,True,False,
+uec_math_ii:2019:mcq:5:whole,uec_math_ii,2019,mcq,5,whole,uec_math_ii:4e526e114339,2,19,2,visual_fields_checked,True,False,
+uec_math_ii:2019:mcq:6:whole,uec_math_ii,2019,mcq,6,whole,uec_math_ii:4e526e114339,2,17,2,visual_fields_checked,True,False,
+uec_math_ii:2019:mcq:7:whole,uec_math_ii,2019,mcq,7,whole,uec_math_ii:4e526e114339,3,13,2,visual_fields_checked,True,False,
+uec_math_ii:2019:mcq:8:whole,uec_math_ii,2019,mcq,8,whole,uec_math_ii:4e526e114339,3,3,2,visual_fields_checked,True,False,
+uec_math_ii:2019:mcq:9:whole,uec_math_ii,2019,mcq,9,whole,uec_math_ii:4e526e114339,3,34,2,visual_fields_checked,True,False,
+uec_math_ii:2019:mcq:10:whole,uec_math_ii,2019,mcq,10,whole,uec_math_ii:4e526e114339,3,7,2,visual_fields_checked,True,False,
+uec_math_ii:2019:mcq:11:whole,uec_math_ii,2019,mcq,11,whole,uec_math_ii:4e526e114339,3,4,2,visual_fields_checked,True,False,
+uec_math_ii:2019:mcq:12:whole,uec_math_ii,2019,mcq,12,whole,uec_math_ii:4e526e114339,3,32,2,visual_fields_checked,True,False,
+uec_math_ii:2019:mcq:13:whole,uec_math_ii,2019,mcq,13,whole,uec_math_ii:4e526e114339,3,16,2,visual_fields_checked,True,False,
+uec_math_ii:2019:mcq:14:whole,uec_math_ii,2019,mcq,14,whole,uec_math_ii:4e526e114339,3,33,2,visual_fields_checked,True,False,
+uec_math_ii:2019:mcq:15:whole,uec_math_ii,2019,mcq,15,whole,uec_math_ii:4e526e114339,4,33,2,visual_fields_checked,True,False,e原式为sqrt5乘k，根号不覆盖k。
+uec_math_ii:2019:mcq:16:whole,uec_math_ii,2019,mcq,16,whole,uec_math_ii:4e526e114339,4,22,2,visual_fields_checked,True,False,
+uec_math_ii:2019:mcq:17:whole,uec_math_ii,2019,mcq,17,whole,uec_math_ii:4e526e114339,4,28,2,visual_fields_checked,True,False,
+uec_math_ii:2019:mcq:18:whole,uec_math_ii,2019,mcq,18,whole,uec_math_ii:4e526e114339,4,29,2,visual_fields_checked,True,False,
+uec_math_ii:2019:mcq:19:whole,uec_math_ii,2019,mcq,19,whole,uec_math_ii:4e526e114339,4,24,2,visual_fields_checked,True,False,
+uec_math_ii:2019:mcq:20:whole,uec_math_ii,2019,mcq,20,whole,uec_math_ii:4e526e114339,4,29,2,visual_fields_checked,True,False,
+uec_math_ii:2019:written:1:a,uec_math_ii,2019,written,1,a,uec_math_ii:4e526e114339,6,10,4,visual_fields_checked,True,False,
+uec_math_ii:2019:written:1:b,uec_math_ii,2019,written,1,b,uec_math_ii:4e526e114339,6,11,6,visual_fields_checked,True,False,
+uec_math_ii:2019:written:2:a,uec_math_ii,2019,written,2,a,uec_math_ii:4e526e114339,6,11,4,visual_fields_checked,True,False,
+uec_math_ii:2019:written:2:b(i),uec_math_ii,2019,written,2,b(i),uec_math_ii:4e526e114339,6,11,4,visual_fields_checked,True,False,
+uec_math_ii:2019:written:2:b(ii),uec_math_ii,2019,written,2,b(ii),uec_math_ii:4e526e114339,6,5,2,visual_fields_checked,True,False,
+uec_math_ii:2019:written:3:a,uec_math_ii,2019,written,3,a,uec_math_ii:4e526e114339,6,5,4,visual_fields_checked,True,False,
+uec_math_ii:2019:written:3:b,uec_math_ii,2019,written,3,b,uec_math_ii:4e526e114339,6,13,3,visual_fields_checked,True,False,
+uec_math_ii:2019:written:3:c(i),uec_math_ii,2019,written,3,c(i),uec_math_ii:4e526e114339,6,19,1.5,visual_fields_checked,True,False,
+uec_math_ii:2019:written:3:c(ii),uec_math_ii,2019,written,3,c(ii),uec_math_ii:4e526e114339,6,19,1.5,visual_fields_checked,True,False,
+uec_math_ii:2019:written:4:a,uec_math_ii,2019,written,4,a,uec_math_ii:4e526e114339,7,12,4,visual_fields_checked,True,False,
+uec_math_ii:2019:written:4:b,uec_math_ii,2019,written,4,b,uec_math_ii:4e526e114339,7,6,3,visual_fields_checked,True,False,
+uec_math_ii:2019:written:4:c,uec_math_ii,2019,written,4,c,uec_math_ii:4e526e114339,7,20,3,visual_fields_checked,True,False,
+uec_math_ii:2019:written:5:a,uec_math_ii,2019,written,5,a,uec_math_ii:4e526e114339,7,12,4,visual_fields_checked,True,False,
+uec_math_ii:2019:written:5:b,uec_math_ii,2019,written,5,b,uec_math_ii:4e526e114339,7,17,2,visual_fields_checked,True,False,AB、AC、BD均为带箭头向量；不是三个标量长度。
+uec_math_ii:2019:written:5:c,uec_math_ii,2019,written,5,c,uec_math_ii:4e526e114339,7,34,4,visual_fields_checked,True,False,
+uec_math_ii:2019:written:6:a,uec_math_ii,2019,written,6,a,uec_math_ii:4e526e114339,7,20,5,visual_fields_checked,True,False,
+uec_math_ii:2019:written:6:b,uec_math_ii,2019,written,6,b,uec_math_ii:4e526e114339,7,31,5,visual_fields_checked,True,False,
+uec_math_ii:2019:written:7:a,uec_math_ii,2019,written,7,a,uec_math_ii:4e526e114339,7,16,4,visual_fields_checked,True,False,
+uec_math_ii:2019:written:7:b,uec_math_ii,2019,written,7,b,uec_math_ii:4e526e114339,7,33,6,visual_fields_checked,True,False,
+uec_math_ii:2019:written:8:a,uec_math_ii,2019,written,8,a,uec_math_ii:4e526e114339,7,33,4,visual_fields_checked,True,False,
+uec_math_ii:2019:written:8:b(i),uec_math_ii,2019,written,8,b(i),uec_math_ii:4e526e114339,7,33,3,visual_fields_checked,True,False,
+uec_math_ii:2019:written:8:b(ii),uec_math_ii,2019,written,8,b(ii),uec_math_ii:4e526e114339,7,33,3,visual_fields_checked,False,False,放大确认(ii)原印“(a)小题”，不能静默改成(i)；按字面求(a)焦点与按上下文求中点轨迹焦点不同，待原版/教师确认。
+uec_math_ii:2019:written:9:a,uec_math_ii,2019,written,9,a,uec_math_ii:4e526e114339,8,22,6,visual_fields_checked,True,False,
+uec_math_ii:2019:written:9:b,uec_math_ii,2019,written,9,b,uec_math_ii:4e526e114339,8,29,4,visual_fields_checked,True,False,
+uec_math_ii:2019:written:10:a(i),uec_math_ii,2019,written,10,a(i),uec_math_ii:4e526e114339,8,22,2,visual_fields_checked,True,False,
+uec_math_ii:2019:written:10:a(ii),uec_math_ii,2019,written,10,a(ii),uec_math_ii:4e526e114339,8,22,3,visual_fields_checked,True,False,
+uec_math_ii:2019:written:10:b(i),uec_math_ii,2019,written,10,b(i),uec_math_ii:4e526e114339,8,29,3,visual_fields_checked,True,False,
+uec_math_ii:2019:written:10:b(ii),uec_math_ii,2019,written,10,b(ii),uec_math_ii:4e526e114339,8,29,2,visual_fields_checked,True,False,
+uec_math_ii:2019:written:11:a,uec_math_ii,2019,written,11,a,uec_math_ii:4e526e114339,8,30,4,visual_fields_checked,True,False,代换仅适用于y≠0；原ODE另有y=0解。
+uec_math_ii:2019:written:11:b,uec_math_ii,2019,written,11,b,uec_math_ii:4e526e114339,8,24,6,visual_fields_checked,True,False,
+uec_math_ii:2019:written:12:a,uec_math_ii,2019,written,12,a,uec_math_ii:4e526e114339,8,29,6,visual_fields_checked,True,False,
+uec_math_ii:2019:written:12:b(i),uec_math_ii,2019,written,12,b(i),uec_math_ii:4e526e114339,8,30,2,visual_fields_checked,True,False,冷却至周围温度时k<0，且A=0平衡解另列；不得把k>0也称降温。
+uec_math_ii:2019:written:12:b(ii),uec_math_ii,2019,written,12,b(ii),uec_math_ii:4e526e114339,8,30,2,visual_fields_checked,True,False,
+uec_math_i:2020:mcq:1:whole,uec_math_i,2020,mcq,1,whole,uec_math_i:edddd203dbbe,1,2,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:mcq:2:whole,uec_math_i,2020,mcq,2,whole,uec_math_i:edddd203dbbe,1,15,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:mcq:3:whole,uec_math_i,2020,mcq,3,whole,uec_math_i:edddd203dbbe,1,17,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:mcq:4:whole,uec_math_i,2020,mcq,4,whole,uec_math_i:edddd203dbbe,1,29,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:mcq:5:whole,uec_math_i,2020,mcq,5,whole,uec_math_i:edddd203dbbe,1,4,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:mcq:6:whole,uec_math_i,2020,mcq,6,whole,uec_math_i:edddd203dbbe,1,4,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:mcq:7:whole,uec_math_i,2020,mcq,7,whole,uec_math_i:edddd203dbbe,1,6,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:mcq:8:whole,uec_math_i,2020,mcq,8,whole,uec_math_i:edddd203dbbe,1,19,,visual_fields_checked,False,False,原文自然数是否包括0影响计数48或49，候选同时有48、49；保留约定争议，不无依据宣称唯一答案。 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:mcq:9:whole,uec_math_i,2020,mcq,9,whole,uec_math_i:edddd203dbbe,2,26,,visual_fields_checked,False,False,乘法解法需各局独立假设，原题仅给每局胜率；保留通常独立比赛模型的使用条件。 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:mcq:10:whole,uec_math_i,2020,mcq,10,whole,uec_math_i:edddd203dbbe,2,18,,visual_fields_checked,False,False,两点经度差180度；最短经北极60度大圆弧，不是沿60N小圆绕半周。 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:mcq:11:whole,uec_math_i,2020,mcq,11,whole,uec_math_i:edddd203dbbe,2,8,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:mcq:12:whole,uec_math_i,2020,mcq,12,whole,uec_math_i:edddd203dbbe,2,10,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:mcq:13:whole,uec_math_i,2020,mcq,13,whole,uec_math_i:edddd203dbbe,2,11,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:mcq:14:whole,uec_math_i,2020,mcq,14,whole,uec_math_i:edddd203dbbe,2,1,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:mcq:15:whole,uec_math_i,2020,mcq,15,whole,uec_math_i:edddd203dbbe,3,1,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:mcq:16:whole,uec_math_i,2020,mcq,16,whole,uec_math_i:edddd203dbbe,3,16,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:mcq:17:whole,uec_math_i,2020,mcq,17,whole,uec_math_i:edddd203dbbe,3,21,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:mcq:18:whole,uec_math_i,2020,mcq,18,whole,uec_math_i:edddd203dbbe,3,22,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:mcq:19:whole,uec_math_i,2020,mcq,19,whole,uec_math_i:edddd203dbbe,3,29,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:mcq:20:whole,uec_math_i,2020,mcq,20,whole,uec_math_i:edddd203dbbe,3,24,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:written:1:whole,uec_math_i,2020,written,1,whole,uec_math_i:743f2c449dc2,1,6,4,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:written:2:whole,uec_math_i,2020,written,2,whole,uec_math_i:743f2c449dc2,1,18,4,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:written:3:a,uec_math_i,2020,written,3,a,uec_math_i:743f2c449dc2,1,1,3,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:written:3:b,uec_math_i,2020,written,3,b,uec_math_i:743f2c449dc2,1,1,1,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:written:4:a,uec_math_i,2020,written,4,a,uec_math_i:743f2c449dc2,1,26,2,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:written:4:b,uec_math_i,2020,written,4,b,uec_math_i:743f2c449dc2,1,26,2,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:written:5:a,uec_math_i,2020,written,5,a,uec_math_i:743f2c449dc2,1,22,2,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:written:5:b,uec_math_i,2020,written,5,b,uec_math_i:743f2c449dc2,1,28,2,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:written:6:a,uec_math_i,2020,written,6,a,uec_math_i:743f2c449dc2,2,12,4,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:written:6:b,uec_math_i,2020,written,6,b,uec_math_i:743f2c449dc2,2,13,6,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:written:7:a(i),uec_math_i,2020,written,7,a(i),uec_math_i:743f2c449dc2,2,5,4,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:written:7:a(ii),uec_math_i,2020,written,7,a(ii),uec_math_i:743f2c449dc2,2,5,2,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:written:7:b,uec_math_i,2020,written,7,b,uec_math_i:743f2c449dc2,2,20,4,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:written:8:a,uec_math_i,2020,written,8,a,uec_math_i:743f2c449dc2,2,11,2,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:written:8:b,uec_math_i,2020,written,8,b,uec_math_i:743f2c449dc2,2,11,4,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:written:8:c,uec_math_i,2020,written,8,c,uec_math_i:743f2c449dc2,2,10,4,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:written:9:a,uec_math_i,2020,written,9,a,uec_math_i:743f2c449dc2,2,26,3,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:written:9:b,uec_math_i,2020,written,9,b,uec_math_i:743f2c449dc2,2,26,3,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:written:9:c,uec_math_i,2020,written,9,c,uec_math_i:743f2c449dc2,2,25,4,visual_fields_checked,True,False,题设符号σ在本题表示“方差”，不是通常约定的标准差；不能机械写成2σ，应为2sqrtσ。 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:written:10:a,uec_math_i,2020,written,10,a,uec_math_i:743f2c449dc2,3,1,3,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:written:10:b,uec_math_i,2020,written,10,b,uec_math_i:743f2c449dc2,3,1,3,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:written:10:c,uec_math_i,2020,written,10,c,uec_math_i:743f2c449dc2,3,16,4,visual_fields_checked,True,False,P不能等于A或C，角才有定义；轨迹是以AC为直径圆去掉两端点。 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:written:11:a,uec_math_i,2020,written,11,a,uec_math_i:743f2c449dc2,3,22,5,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:written:11:b(i),uec_math_i,2020,written,11,b(i),uec_math_i:743f2c449dc2,3,22,3,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:written:11:b(ii),uec_math_i,2020,written,11,b(ii),uec_math_i:743f2c449dc2,3,22,2,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:written:12:a,uec_math_i,2020,written,12,a,uec_math_i:743f2c449dc2,3,24,4,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_i:2020:written:12:b,uec_math_i,2020,written,12,b,uec_math_i:743f2c449dc2,3,24,6,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:mcq:1:whole,uec_math_ii,2020,mcq,1,whole,uec_math_ii:ad52af0a91f9,1,3,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:mcq:2:whole,uec_math_ii,2020,mcq,2,whole,uec_math_ii:ad52af0a91f9,1,4,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:mcq:3:whole,uec_math_ii,2020,mcq,3,whole,uec_math_ii:ad52af0a91f9,1,12,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:mcq:4:whole,uec_math_ii,2020,mcq,4,whole,uec_math_ii:ad52af0a91f9,1,34,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:mcq:5:whole,uec_math_ii,2020,mcq,5,whole,uec_math_ii:ad52af0a91f9,1,13,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:mcq:6:whole,uec_math_ii,2020,mcq,6,whole,uec_math_ii:ad52af0a91f9,1,10,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:mcq:7:whole,uec_math_ii,2020,mcq,7,whole,uec_math_ii:ad52af0a91f9,1,19,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:mcq:8:whole,uec_math_ii,2020,mcq,8,whole,uec_math_ii:ad52af0a91f9,2,11,,visual_fields_checked,False,False,所见候选D含±，但原式化为tan8θ=√3/2，负号分支并非解；不擅改选项为正确式，待原版/教师确认。 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:mcq:9:whole,uec_math_ii,2020,mcq,9,whole,uec_math_ii:ad52af0a91f9,2,11,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:mcq:10:whole,uec_math_ii,2020,mcq,10,whole,uec_math_ii:ad52af0a91f9,2,11,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:mcq:11:whole,uec_math_ii,2020,mcq,11,whole,uec_math_ii:ad52af0a91f9,2,9,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:mcq:12:whole,uec_math_ii,2020,mcq,12,whole,uec_math_ii:ad52af0a91f9,2,16,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:mcq:13:whole,uec_math_ii,2020,mcq,13,whole,uec_math_ii:ad52af0a91f9,2,32,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:mcq:14:whole,uec_math_ii,2020,mcq,14,whole,uec_math_ii:ad52af0a91f9,3,16,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:mcq:15:whole,uec_math_ii,2020,mcq,15,whole,uec_math_ii:ad52af0a91f9,3,33,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:mcq:16:whole,uec_math_ii,2020,mcq,16,whole,uec_math_ii:ad52af0a91f9,3,21,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:mcq:17:whole,uec_math_ii,2020,mcq,17,whole,uec_math_ii:ad52af0a91f9,3,22,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:mcq:18:whole,uec_math_ii,2020,mcq,18,whole,uec_math_ii:ad52af0a91f9,3,22,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:mcq:19:whole,uec_math_ii,2020,mcq,19,whole,uec_math_ii:ad52af0a91f9,3,29,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:mcq:20:whole,uec_math_ii,2020,mcq,20,whole,uec_math_ii:ad52af0a91f9,3,24,,visual_fields_checked,False,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:1:a,uec_math_ii,2020,written,1,a,uec_math_ii:2e52060547b0,1,11,3,visual_fields_checked,True,False,恒等式按原式定义域sin A≠0证明，不能无条件扩展至分母为零。 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:1:b(i),uec_math_ii,2020,written,1,b(i),uec_math_ii:2e52060547b0,1,10,3,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:1:b(ii),uec_math_ii,2020,written,1,b(ii),uec_math_ii:2e52060547b0,1,10,4,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:2:a(i),uec_math_ii,2020,written,2,a(i),uec_math_ii:2e52060547b0,1,10,4.5,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:2:a(ii),uec_math_ii,2020,written,2,a(ii),uec_math_ii:2e52060547b0,1,10,1,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:2:b,uec_math_ii,2020,written,2,b,uec_math_ii:2e52060547b0,1,18,4.5,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:3:a,uec_math_ii,2020,written,3,a,uec_math_ii:2e52060547b0,1,12,3,visual_fields_checked,True,False,还须满足所有对数底≠1；给定正数条件本身未排除r=1或p−4q=1，推导中明确限制，不直接除零。 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:3:b,uec_math_ii,2020,written,3,b,uec_math_ii:2e52060547b0,1,2,4,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:3:c,uec_math_ii,2020,written,3,c,uec_math_ii:2e52060547b0,1,5,3,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:4:a,uec_math_ii,2020,written,4,a,uec_math_ii:2e52060547b0,2,4,3,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:4:b,uec_math_ii,2020,written,4,b,uec_math_ii:2e52060547b0,2,7,4,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:4:c,uec_math_ii,2020,written,4,c,uec_math_ii:2e52060547b0,2,17,3,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:5:a,uec_math_ii,2020,written,5,a,uec_math_ii:2e52060547b0,2,31,4,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:5:b(i),uec_math_ii,2020,written,5,b(i),uec_math_ii:2e52060547b0,2,20,2,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:5:b(ii),uec_math_ii,2020,written,5,b(ii),uec_math_ii:2e52060547b0,2,20,2,visual_fields_checked,True,False,原题两句分别各印2%，用i/ii作为审计切分标签，原件未印罗马小问编号。 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:6:a,uec_math_ii,2020,written,6,a,uec_math_ii:2e52060547b0,2,3,4,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:5:c,uec_math_ii,2020,written,5,c,uec_math_ii:2e52060547b0,2,19,2,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:6:b(i),uec_math_ii,2020,written,6,b(i),uec_math_ii:2e52060547b0,2,26,2,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:6:b(ii),uec_math_ii,2020,written,6,b(ii),uec_math_ii:2e52060547b0,2,26,2,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:6:b(iii),uec_math_ii,2020,written,6,b(iii),uec_math_ii:2e52060547b0,2,26,2,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:7:a,uec_math_ii,2020,written,7,a,uec_math_ii:2e52060547b0,3,16,4,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:7:b(i),uec_math_ii,2020,written,7,b(i),uec_math_ii:2e52060547b0,3,33,2,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:7:b(ii),uec_math_ii,2020,written,7,b(ii),uec_math_ii:2e52060547b0,3,33,4,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:8:a,uec_math_ii,2020,written,8,a,uec_math_ii:2e52060547b0,3,32,3,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:8:b(i),uec_math_ii,2020,written,8,b(i),uec_math_ii:2e52060547b0,3,33,4,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:8:b(ii),uec_math_ii,2020,written,8,b(ii),uec_math_ii:2e52060547b0,3,33,3,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:9:a,uec_math_ii,2020,written,9,a,uec_math_ii:2e52060547b0,3,28,3,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:9:b,uec_math_ii,2020,written,9,b,uec_math_ii:2e52060547b0,3,28,3,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:9:c,uec_math_ii,2020,written,9,c,uec_math_ii:2e52060547b0,3,30,4,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:10:a,uec_math_ii,2020,written,10,a,uec_math_ii:2e52060547b0,3,22,3.5,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:10:b,uec_math_ii,2020,written,10,b,uec_math_ii:2e52060547b0,3,29,4,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:10:c,uec_math_ii,2020,written,10,c,uec_math_ii:2e52060547b0,3,21,2.5,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:11:a(i),uec_math_ii,2020,written,11,a(i),uec_math_ii:2e52060547b0,4,10,2,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:11:a(ii),uec_math_ii,2020,written,11,a(ii),uec_math_ii:2e52060547b0,4,22,3,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:11:b,uec_math_ii,2020,written,11,b,uec_math_ii:2e52060547b0,4,30,5,visual_fields_checked,True,False,需明确比例量纲。若以份额x=.02、x+y=1则增长系数1；若直接数值百分数x=2、x+y=100，系数为100。原题未给时间单位，解析必须说明所取比例约定。 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:12:a,uec_math_ii,2020,written,12,a,uec_math_ii:2e52060547b0,4,24,5,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:12:b(i),uec_math_ii,2020,written,12,b(i),uec_math_ii:2e52060547b0,4,29,2,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
+uec_math_ii:2020:written:12:b(ii),uec_math_ii,2020,written,12,b(ii),uec_math_ii:2e52060547b0,4,24,3,visual_fields_checked,True,False, 所供扫描缺封面，年份依文件名；选择单题分值未知。
 graduation_math_ii:2021:mcq:1:whole,graduation_math_ii,2021,mcq,1,whole,graduation_math_ii:e88da7483556,2,5,2,visual_fields_checked,True,False,
 graduation_math_ii:2021:mcq:2:whole,graduation_math_ii,2021,mcq,2,whole,graduation_math_ii:e88da7483556,2,2,2,visual_fields_checked,True,False,
 graduation_math_ii:2021:mcq:3:whole,graduation_math_ii,2021,mcq,3,whole,graduation_math_ii:e88da7483556,2,17,2,visual_fields_checked,True,False,
@@ -52,6 +309,106 @@ graduation_math_ii:2021:written:11:b,graduation_math_ii,2021,written,11,b,gradua
 graduation_math_ii:2021:written:12:a,graduation_math_ii,2021,written,12,a,graduation_math_ii:0ffd31629b21,4,24,5,visual_fields_checked,True,False,
 graduation_math_ii:2021:written:12:b,graduation_math_ii,2021,written,12,b,graduation_math_ii:0ffd31629b21,4,28,2.5,visual_fields_checked,True,False,
 graduation_math_ii:2021:written:12:c,graduation_math_ii,2021,written,12,c,graduation_math_ii:0ffd31629b21,4,28,2.5,visual_fields_checked,True,False,
+uec_math_i:2021:mcq:1:whole,uec_math_i,2021,mcq,1,whole,uec_math_i:41907526b627,2,25,2,visual_fields_checked,True,False,
+uec_math_i:2021:mcq:2:whole,uec_math_i,2021,mcq,2,whole,uec_math_i:41907526b627,2,26,2,visual_fields_checked,True,False,表1延期档为<30天、31–60天、61–90天，且肯定不超过90天；保留原分档文字，不将其改成连续的≤30档。
+uec_math_i:2021:mcq:3:whole,uec_math_i,2021,mcq,3,whole,uec_math_i:41907526b627,2,19,2,visual_fields_checked,True,False,
+uec_math_i:2021:mcq:4:whole,uec_math_i,2021,mcq,4,whole,uec_math_i:41907526b627,2,15,2,visual_fields_checked,True,False,
+uec_math_i:2021:mcq:5:whole,uec_math_i,2021,mcq,5,whole,uec_math_i:41907526b627,2,2,2,visual_fields_checked,True,False,
+uec_math_i:2021:mcq:6:whole,uec_math_i,2021,mcq,6,whole,uec_math_i:41907526b627,2,5,2,visual_fields_checked,True,False,
+uec_math_i:2021:mcq:7:whole,uec_math_i,2021,mcq,7,whole,uec_math_i:41907526b627,2,20,2,visual_fields_checked,True,False,
+uec_math_i:2021:mcq:8:whole,uec_math_i,2021,mcq,8,whole,uec_math_i:41907526b627,3,13,2,visual_fields_checked,True,False,
+uec_math_i:2021:mcq:9:whole,uec_math_i,2021,mcq,9,whole,uec_math_i:41907526b627,3,17,2,visual_fields_checked,True,False,
+uec_math_i:2021:mcq:10:whole,uec_math_i,2021,mcq,10,whole,uec_math_i:41907526b627,3,13,2,visual_fields_checked,True,False,
+uec_math_i:2021:mcq:11:whole,uec_math_i,2021,mcq,11,whole,uec_math_i:41907526b627,3,11,2,visual_fields_checked,True,False,
+uec_math_i:2021:mcq:12:whole,uec_math_i,2021,mcq,12,whole,uec_math_i:41907526b627,3,10,2,visual_fields_checked,True,False,
+uec_math_i:2021:mcq:13:whole,uec_math_i,2021,mcq,13,whole,uec_math_i:41907526b627,3,11,2,visual_fields_checked,True,False,
+uec_math_i:2021:mcq:14:whole,uec_math_i,2021,mcq,14,whole,uec_math_i:41907526b627,3,18,2,visual_fields_checked,True,False,
+uec_math_i:2021:mcq:15:whole,uec_math_i,2021,mcq,15,whole,uec_math_i:41907526b627,4,1,2,visual_fields_checked,True,False,
+uec_math_i:2021:mcq:16:whole,uec_math_i,2021,mcq,16,whole,uec_math_i:41907526b627,4,16,2,visual_fields_checked,True,False,
+uec_math_i:2021:mcq:17:whole,uec_math_i,2021,mcq,17,whole,uec_math_i:41907526b627,4,21,2,visual_fields_checked,True,False,
+uec_math_i:2021:mcq:18:whole,uec_math_i,2021,mcq,18,whole,uec_math_i:41907526b627,4,22,2,visual_fields_checked,True,False,
+uec_math_i:2021:mcq:19:whole,uec_math_i,2021,mcq,19,whole,uec_math_i:41907526b627,4,22,2,visual_fields_checked,True,False,
+uec_math_i:2021:mcq:20:whole,uec_math_i,2021,mcq,20,whole,uec_math_i:41907526b627,4,23,2,visual_fields_checked,True,False,
+uec_math_i:2021:written:1:whole,uec_math_i,2021,written,1,whole,uec_math_i:41907526b627,6,4,4,visual_fields_checked,True,False,
+uec_math_i:2021:written:2:a,uec_math_i,2021,written,2,a,uec_math_i:41907526b627,6,26,2,visual_fields_checked,True,False,
+uec_math_i:2021:written:2:b,uec_math_i,2021,written,2,b,uec_math_i:41907526b627,6,19,2,visual_fields_checked,True,False,
+uec_math_i:2021:written:3:a,uec_math_i,2021,written,3,a,uec_math_i:41907526b627,6,8,1,visual_fields_checked,True,False,
+uec_math_i:2021:written:3:b,uec_math_i,2021,written,3,b,uec_math_i:41907526b627,6,8,3,visual_fields_checked,True,False,
+uec_math_i:2021:written:4:whole,uec_math_i,2021,written,4,whole,uec_math_i:41907526b627,6,16,4,visual_fields_checked,True,False,
+uec_math_i:2021:written:5:whole,uec_math_i,2021,written,5,whole,uec_math_i:41907526b627,6,29,4,visual_fields_checked,True,False,
+uec_math_i:2021:written:6:a(i),uec_math_i,2021,written,6,a(i),uec_math_i:41907526b627,7,2,3,visual_fields_checked,True,False,
+uec_math_i:2021:written:6:a(ii),uec_math_i,2021,written,6,a(ii),uec_math_i:41907526b627,7,2,3,visual_fields_checked,True,False,
+uec_math_i:2021:written:6:b,uec_math_i,2021,written,6,b,uec_math_i:41907526b627,7,3,4,visual_fields_checked,True,False,
+uec_math_i:2021:written:7:a,uec_math_i,2021,written,7,a,uec_math_i:41907526b627,7,6,3,visual_fields_checked,True,False,
+uec_math_i:2021:written:7:b,uec_math_i,2021,written,7,b,uec_math_i:41907526b627,7,2,4,visual_fields_checked,True,False,
+uec_math_i:2021:written:7:c,uec_math_i,2021,written,7,c,uec_math_i:41907526b627,7,13,3,visual_fields_checked,True,False,
+uec_math_i:2021:written:8:a,uec_math_i,2021,written,8,a,uec_math_i:41907526b627,8,10,3,visual_fields_checked,True,False,
+uec_math_i:2021:written:8:b,uec_math_i,2021,written,8,b,uec_math_i:41907526b627,8,10,1,visual_fields_checked,True,False,
+uec_math_i:2021:written:8:c,uec_math_i,2021,written,8,c,uec_math_i:41907526b627,8,10,2,visual_fields_checked,True,False,
+uec_math_i:2021:written:8:d,uec_math_i,2021,written,8,d,uec_math_i:41907526b627,8,10,2,visual_fields_checked,True,False,
+uec_math_i:2021:written:8:e,uec_math_i,2021,written,8,e,uec_math_i:41907526b627,8,10,2,visual_fields_checked,True,False,
+uec_math_i:2021:written:9:a(i),uec_math_i,2021,written,9,a(i),uec_math_i:41907526b627,8,16,3,visual_fields_checked,True,False,
+uec_math_i:2021:written:9:a(ii),uec_math_i,2021,written,9,a(ii),uec_math_i:41907526b627,8,16,4,visual_fields_checked,True,False,
+uec_math_i:2021:written:9:b,uec_math_i,2021,written,9,b,uec_math_i:41907526b627,8,1,3,visual_fields_checked,True,False,
+uec_math_i:2021:written:10:a(i),uec_math_i,2021,written,10,a(i),uec_math_i:41907526b627,9,26,4,visual_fields_checked,True,False,
+uec_math_i:2021:written:10:a(ii),uec_math_i,2021,written,10,a(ii),uec_math_i:41907526b627,9,19,3,visual_fields_checked,True,False,
+uec_math_i:2021:written:10:b,uec_math_i,2021,written,10,b,uec_math_i:41907526b627,9,,3,visual_fields_checked,False,False,当前35章字典没有独立价格指数章节；保留原题及分值，主章待映射，不强塞指数与对数。
+uec_math_i:2021:written:11:a,uec_math_i,2021,written,11,a,uec_math_i:41907526b627,9,22,3,visual_fields_checked,True,False,
+uec_math_i:2021:written:11:b,uec_math_i,2021,written,11,b,uec_math_i:41907526b627,9,22,3,visual_fields_checked,True,False,
+uec_math_i:2021:written:11:c,uec_math_i,2021,written,11,c,uec_math_i:41907526b627,9,22,4,visual_fields_checked,True,False,
+uec_math_i:2021:written:12:a,uec_math_i,2021,written,12,a,uec_math_i:41907526b627,9,24,5,visual_fields_checked,True,False,
+uec_math_i:2021:written:12:b,uec_math_i,2021,written,12,b,uec_math_i:41907526b627,9,24,5,visual_fields_checked,True,False,
+uec_math_ii:2021:mcq:1:whole,uec_math_ii,2021,mcq,1,whole,uec_math_ii:70a96f772b7b,2,5,2,visual_fields_checked,True,False,
+uec_math_ii:2021:mcq:2:whole,uec_math_ii,2021,mcq,2,whole,uec_math_ii:70a96f772b7b,2,3,2,visual_fields_checked,True,False,
+uec_math_ii:2021:mcq:3:whole,uec_math_ii,2021,mcq,3,whole,uec_math_ii:70a96f772b7b,2,7,2,visual_fields_checked,True,False,
+uec_math_ii:2021:mcq:4:whole,uec_math_ii,2021,mcq,4,whole,uec_math_ii:70a96f772b7b,2,20,2,visual_fields_checked,True,False,
+uec_math_ii:2021:mcq:5:whole,uec_math_ii,2021,mcq,5,whole,uec_math_ii:70a96f772b7b,2,17,2,visual_fields_checked,True,False,
+uec_math_ii:2021:mcq:6:whole,uec_math_ii,2021,mcq,6,whole,uec_math_ii:70a96f772b7b,2,34,2,visual_fields_checked,True,False,
+uec_math_ii:2021:mcq:7:whole,uec_math_ii,2021,mcq,7,whole,uec_math_ii:70a96f772b7b,2,19,2,visual_fields_checked,True,False,
+uec_math_ii:2021:mcq:8:whole,uec_math_ii,2021,mcq,8,whole,uec_math_ii:70a96f772b7b,2,11,2,visual_fields_checked,True,False,
+uec_math_ii:2021:mcq:9:whole,uec_math_ii,2021,mcq,9,whole,uec_math_ii:70a96f772b7b,3,18,2,visual_fields_checked,True,False,
+uec_math_ii:2021:mcq:10:whole,uec_math_ii,2021,mcq,10,whole,uec_math_ii:70a96f772b7b,3,9,2,visual_fields_checked,True,False,
+uec_math_ii:2021:mcq:11:whole,uec_math_ii,2021,mcq,11,whole,uec_math_ii:70a96f772b7b,3,13,2,visual_fields_checked,True,False,
+uec_math_ii:2021:mcq:12:whole,uec_math_ii,2021,mcq,12,whole,uec_math_ii:70a96f772b7b,3,33,2,visual_fields_checked,True,False,
+uec_math_ii:2021:mcq:13:whole,uec_math_ii,2021,mcq,13,whole,uec_math_ii:70a96f772b7b,3,16,2,visual_fields_checked,True,False,
+uec_math_ii:2021:mcq:14:whole,uec_math_ii,2021,mcq,14,whole,uec_math_ii:70a96f772b7b,3,32,2,visual_fields_checked,True,False,
+uec_math_ii:2021:mcq:15:whole,uec_math_ii,2021,mcq,15,whole,uec_math_ii:70a96f772b7b,3,32,2,visual_fields_checked,True,False,
+uec_math_ii:2021:mcq:16:whole,uec_math_ii,2021,mcq,16,whole,uec_math_ii:70a96f772b7b,4,22,2,visual_fields_checked,True,False,
+uec_math_ii:2021:mcq:17:whole,uec_math_ii,2021,mcq,17,whole,uec_math_ii:70a96f772b7b,4,21,2,visual_fields_checked,True,False,
+uec_math_ii:2021:mcq:18:whole,uec_math_ii,2021,mcq,18,whole,uec_math_ii:70a96f772b7b,4,22,2,visual_fields_checked,True,False,
+uec_math_ii:2021:mcq:19:whole,uec_math_ii,2021,mcq,19,whole,uec_math_ii:70a96f772b7b,4,24,2,visual_fields_checked,True,False,
+uec_math_ii:2021:mcq:20:whole,uec_math_ii,2021,mcq,20,whole,uec_math_ii:70a96f772b7b,4,24,2,visual_fields_checked,True,False,
+uec_math_ii:2021:written:1:a,uec_math_ii,2021,written,1,a,uec_math_ii:b3be3bccbd2f,2,11,4,visual_fields_checked,True,False,
+uec_math_ii:2021:written:1:b,uec_math_ii,2021,written,1,b,uec_math_ii:b3be3bccbd2f,2,11,6,visual_fields_checked,True,False,
+uec_math_ii:2021:written:2:a,uec_math_ii,2021,written,2,a,uec_math_ii:b3be3bccbd2f,2,10,5,visual_fields_checked,True,False,
+uec_math_ii:2021:written:2:b,uec_math_ii,2021,written,2,b,uec_math_ii:b3be3bccbd2f,2,9,5,visual_fields_checked,True,False,
+uec_math_ii:2021:written:3:a,uec_math_ii,2021,written,3,a,uec_math_ii:b3be3bccbd2f,2,3,4,visual_fields_checked,True,False,
+uec_math_ii:2021:written:3:b,uec_math_ii,2021,written,3,b,uec_math_ii:b3be3bccbd2f,2,19,3,visual_fields_checked,True,False,
+uec_math_ii:2021:written:3:c,uec_math_ii,2021,written,3,c,uec_math_ii:b3be3bccbd2f,2,13,3,visual_fields_checked,True,False,
+uec_math_ii:2021:written:4:a,uec_math_ii,2021,written,4,a,uec_math_ii:b3be3bccbd2f,3,6,4,visual_fields_checked,True,False,
+uec_math_ii:2021:written:4:b(i),uec_math_ii,2021,written,4,b(i),uec_math_ii:b3be3bccbd2f,3,26,2,visual_fields_checked,True,False,
+uec_math_ii:2021:written:4:b(ii),uec_math_ii,2021,written,4,b(ii),uec_math_ii:b3be3bccbd2f,3,26,2,visual_fields_checked,True,False,
+uec_math_ii:2021:written:4:b(iii),uec_math_ii,2021,written,4,b(iii),uec_math_ii:b3be3bccbd2f,3,26,2,visual_fields_checked,True,False,
+uec_math_ii:2021:written:5:a,uec_math_ii,2021,written,5,a,uec_math_ii:b3be3bccbd2f,3,4,5,visual_fields_checked,True,False,
+uec_math_ii:2021:written:5:b,uec_math_ii,2021,written,5,b,uec_math_ii:b3be3bccbd2f,3,34,5,visual_fields_checked,True,False,
+uec_math_ii:2021:written:6:a,uec_math_ii,2021,written,6,a,uec_math_ii:b3be3bccbd2f,3,17,5,visual_fields_checked,True,False,
+uec_math_ii:2021:written:6:b,uec_math_ii,2021,written,6,b,uec_math_ii:b3be3bccbd2f,3,31,5,visual_fields_checked,True,False,
+uec_math_ii:2021:written:7:a,uec_math_ii,2021,written,7,a,uec_math_ii:b3be3bccbd2f,3,32,3,visual_fields_checked,True,False,
+uec_math_ii:2021:written:7:b,uec_math_ii,2021,written,7,b,uec_math_ii:b3be3bccbd2f,3,33,7,visual_fields_checked,True,False,
+uec_math_ii:2021:written:8:a,uec_math_ii,2021,written,8,a,uec_math_ii:b3be3bccbd2f,4,33,3,visual_fields_checked,True,False,
+uec_math_ii:2021:written:8:b,uec_math_ii,2021,written,8,b,uec_math_ii:b3be3bccbd2f,4,33,4,visual_fields_checked,True,False,
+uec_math_ii:2021:written:8:c,uec_math_ii,2021,written,8,c,uec_math_ii:b3be3bccbd2f,4,33,3,visual_fields_checked,True,False,
+uec_math_ii:2021:written:9:a,uec_math_ii,2021,written,9,a,uec_math_ii:b3be3bccbd2f,4,21,3,visual_fields_checked,True,False,
+uec_math_ii:2021:written:9:b,uec_math_ii,2021,written,9,b,uec_math_ii:b3be3bccbd2f,4,29,3,visual_fields_checked,True,False,
+uec_math_ii:2021:written:9:c(i),uec_math_ii,2021,written,9,c(i),uec_math_ii:b3be3bccbd2f,4,31,2,visual_fields_checked,True,False,
+uec_math_ii:2021:written:9:c(ii),uec_math_ii,2021,written,9,c(ii),uec_math_ii:b3be3bccbd2f,4,31,2,visual_fields_checked,True,False,
+uec_math_ii:2021:written:10:a,uec_math_ii,2021,written,10,a,uec_math_ii:b3be3bccbd2f,4,29,5,visual_fields_checked,True,False,
+uec_math_ii:2021:written:10:b,uec_math_ii,2021,written,10,b,uec_math_ii:b3be3bccbd2f,4,31,5,visual_fields_checked,True,False,根号只覆盖sin x；曲线在x轴下，面积取1−sqrt(sin x)，不可把被积函数写成sqrt(sin x−1)。
+uec_math_ii:2021:written:11:a(i),uec_math_ii,2021,written,11,a(i),uec_math_ii:b3be3bccbd2f,5,22,3,visual_fields_checked,True,False,
+uec_math_ii:2021:written:11:a(ii),uec_math_ii,2021,written,11,a(ii),uec_math_ii:b3be3bccbd2f,5,24,3,visual_fields_checked,True,False,
+uec_math_ii:2021:written:11:b,uec_math_ii,2021,written,11,b,uec_math_ii:b3be3bccbd2f,5,24,4,visual_fields_checked,True,False,
+uec_math_ii:2021:written:12:a,uec_math_ii,2021,written,12,a,uec_math_ii:b3be3bccbd2f,5,30,4,visual_fields_checked,True,False,
+uec_math_ii:2021:written:12:b,uec_math_ii,2021,written,12,b,uec_math_ii:b3be3bccbd2f,5,24,6,visual_fields_checked,True,False,直线须确实穿过R，0<m<1；不能将直线下方至x=1全都算进曲线内的同一三角形。
 graduation_math_ii:2022:mcq:1:whole,graduation_math_ii,2022,mcq,1,whole,graduation_math_ii:f77a351cea2b,2,11,2,visual_fields_checked,True,False,
 graduation_math_ii:2022:mcq:2:whole,graduation_math_ii,2022,mcq,2,whole,graduation_math_ii:f77a351cea2b,2,10,2,visual_fields_checked,True,False,
 graduation_math_ii:2022:mcq:3:whole,graduation_math_ii,2022,mcq,3,whole,graduation_math_ii:f77a351cea2b,2,9,2,visual_fields_checked,True,False,
@@ -159,6 +516,112 @@ semester_final:2022:written:6:a(I),semester_final,2022,written,6,a(I),semester_f
 semester_final:2022:written:6:a(II),semester_final,2022,written,6,a(II),semester_final:2f4ae66605ea,4,3,3,visual_fields_checked,True,False,
 semester_final:2022:written:6:a(III),semester_final,2022,written,6,a(III),semester_final:2f4ae66605ea,4,3,3,visual_fields_checked,True,False,
 semester_final:2022:written:6:b,semester_final,2022,written,6,b,semester_final:2f4ae66605ea,4,22,7,visual_fields_checked,True,False,
+uec_math_i:2022:mcq:1:whole,uec_math_i,2022,mcq,1,whole,uec_math_i:dc168892b945,5,3,2,visual_fields_checked,True,False,
+uec_math_i:2022:mcq:2:whole,uec_math_i,2022,mcq,2,whole,uec_math_i:dc168892b945,5,13,2,visual_fields_checked,True,False,放大确认和为负9/10、给的是第二项，不是正9/10或第三项。
+uec_math_i:2022:mcq:3:whole,uec_math_i,2022,mcq,3,whole,uec_math_i:dc168892b945,5,2,2,visual_fields_checked,True,False,
+uec_math_i:2022:mcq:4:whole,uec_math_i,2022,mcq,4,whole,uec_math_i:dc168892b945,5,17,2,visual_fields_checked,True,False,
+uec_math_i:2022:mcq:5:whole,uec_math_i,2022,mcq,5,whole,uec_math_i:dc168892b945,5,20,2,visual_fields_checked,True,False,
+uec_math_i:2022:mcq:6:whole,uec_math_i,2022,mcq,6,whole,uec_math_i:dc168892b945,5,6,2,visual_fields_checked,True,False,
+uec_math_i:2022:mcq:7:whole,uec_math_i,2022,mcq,7,whole,uec_math_i:dc168892b945,5,16,2,visual_fields_checked,True,False,
+uec_math_i:2022:mcq:8:whole,uec_math_i,2022,mcq,8,whole,uec_math_i:dc168892b945,5,19,2,visual_fields_checked,True,False,
+uec_math_i:2022:mcq:9:whole,uec_math_i,2022,mcq,9,whole,uec_math_i:dc168892b945,5,26,2,visual_fields_checked,True,False,
+uec_math_i:2022:mcq:10:whole,uec_math_i,2022,mcq,10,whole,uec_math_i:dc168892b945,6,11,2,visual_fields_checked,True,False,
+uec_math_i:2022:mcq:11:whole,uec_math_i,2022,mcq,11,whole,uec_math_i:dc168892b945,6,8,2,visual_fields_checked,True,False,
+uec_math_i:2022:mcq:12:whole,uec_math_i,2022,mcq,12,whole,uec_math_i:dc168892b945,6,9,2,visual_fields_checked,True,False,
+uec_math_i:2022:mcq:13:whole,uec_math_i,2022,mcq,13,whole,uec_math_i:dc168892b945,6,18,2,visual_fields_checked,True,False,
+uec_math_i:2022:mcq:14:whole,uec_math_i,2022,mcq,14,whole,uec_math_i:dc168892b945,7,1,2,visual_fields_checked,True,False,
+uec_math_i:2022:mcq:15:whole,uec_math_i,2022,mcq,15,whole,uec_math_i:dc168892b945,7,16,2,visual_fields_checked,True,False,
+uec_math_i:2022:mcq:16:whole,uec_math_i,2022,mcq,16,whole,uec_math_i:dc168892b945,7,1,2,visual_fields_checked,True,False,
+uec_math_i:2022:mcq:17:whole,uec_math_i,2022,mcq,17,whole,uec_math_i:dc168892b945,7,28,2,visual_fields_checked,True,False,
+uec_math_i:2022:mcq:18:whole,uec_math_i,2022,mcq,18,whole,uec_math_i:dc168892b945,7,22,2,visual_fields_checked,True,False,
+uec_math_i:2022:mcq:19:whole,uec_math_i,2022,mcq,19,whole,uec_math_i:dc168892b945,7,24,2,visual_fields_checked,True,False,
+uec_math_i:2022:mcq:20:whole,uec_math_i,2022,mcq,20,whole,uec_math_i:dc168892b945,7,24,2,visual_fields_checked,True,False,
+uec_math_i:2022:written:1:whole,uec_math_i,2022,written,1,whole,uec_math_i:807c42156a63,5,29,4,visual_fields_checked,True,False,
+uec_math_i:2022:written:2:whole,uec_math_i,2022,written,2,whole,uec_math_i:807c42156a63,5,10,4,visual_fields_checked,True,False,放大原文确认“俯角”。
+uec_math_i:2022:written:3:a,uec_math_i,2022,written,3,a,uec_math_i:807c42156a63,5,16,2,visual_fields_checked,True,False,
+uec_math_i:2022:written:3:b,uec_math_i,2022,written,3,b,uec_math_i:807c42156a63,5,1,2,visual_fields_checked,True,False,
+uec_math_i:2022:written:4:a,uec_math_i,2022,written,4,a,uec_math_i:807c42156a63,5,26,2,visual_fields_checked,True,False,
+uec_math_i:2022:written:4:b,uec_math_i,2022,written,4,b,uec_math_i:807c42156a63,5,26,2,visual_fields_checked,True,False,
+uec_math_i:2022:written:5:whole,uec_math_i,2022,written,5,whole,uec_math_i:807c42156a63,5,22,4,visual_fields_checked,True,False,
+uec_math_i:2022:written:6:a(i),uec_math_i,2022,written,6,a(i),uec_math_i:807c42156a63,6,15,2,visual_fields_checked,True,False,
+uec_math_i:2022:written:6:a(ii),uec_math_i,2022,written,6,a(ii),uec_math_i:807c42156a63,6,15,3,visual_fields_checked,True,False,
+uec_math_i:2022:written:6:b,uec_math_i,2022,written,6,b,uec_math_i:807c42156a63,6,2,5,visual_fields_checked,True,False,
+uec_math_i:2022:written:7:a,uec_math_i,2022,written,7,a,uec_math_i:807c42156a63,6,12,3,visual_fields_checked,True,False,
+uec_math_i:2022:written:7:b,uec_math_i,2022,written,7,b,uec_math_i:807c42156a63,6,17,3,visual_fields_checked,True,False,
+uec_math_i:2022:written:7:c,uec_math_i,2022,written,7,c,uec_math_i:807c42156a63,6,6,4,visual_fields_checked,True,False,
+uec_math_i:2022:written:8:a,uec_math_i,2022,written,8,a,uec_math_i:807c42156a63,6,11,5,visual_fields_checked,True,False,
+uec_math_i:2022:written:8:b(i),uec_math_i,2022,written,8,b(i),uec_math_i:807c42156a63,6,18,2,visual_fields_checked,True,False,
+uec_math_i:2022:written:8:b(ii),uec_math_i,2022,written,8,b(ii),uec_math_i:807c42156a63,6,18,3,visual_fields_checked,True,False,
+uec_math_i:2022:written:9:a,uec_math_i,2022,written,9,a,uec_math_i:807c42156a63,7,19,2,visual_fields_checked,True,False,
+uec_math_i:2022:written:9:b,uec_math_i,2022,written,9,b,uec_math_i:807c42156a63,7,26,2,visual_fields_checked,True,False,
+uec_math_i:2022:written:9:c(i),uec_math_i,2022,written,9,c(i),uec_math_i:807c42156a63,7,25,2,visual_fields_checked,True,False,
+uec_math_i:2022:written:9:c(ii),uec_math_i,2022,written,9,c(ii),uec_math_i:807c42156a63,7,25,4,visual_fields_checked,True,False,原表是直径；先按组中点求直径总体SD，再乘1/2得到半径SD。
+uec_math_i:2022:written:10:a,uec_math_i,2022,written,10,a,uec_math_i:807c42156a63,7,16,2,visual_fields_checked,True,False,
+uec_math_i:2022:written:10:b,uec_math_i,2022,written,10,b,uec_math_i:807c42156a63,7,16,3,visual_fields_checked,True,False,
+uec_math_i:2022:written:10:c,uec_math_i,2022,written,10,c,uec_math_i:807c42156a63,7,16,5,visual_fields_checked,True,False,
+uec_math_i:2022:written:11:a,uec_math_i,2022,written,11,a,uec_math_i:807c42156a63,7,21,2,visual_fields_checked,True,False,
+uec_math_i:2022:written:11:b,uec_math_i,2022,written,11,b,uec_math_i:807c42156a63,7,22,3,visual_fields_checked,True,False,
+uec_math_i:2022:written:11:c,uec_math_i,2022,written,11,c,uec_math_i:807c42156a63,7,29,5,visual_fields_checked,True,False,
+uec_math_i:2022:written:12:a(i),uec_math_i,2022,written,12,a(i),uec_math_i:807c42156a63,8,12,3,visual_fields_checked,True,False,
+uec_math_i:2022:written:12:a(ii),uec_math_i,2022,written,12,a(ii),uec_math_i:807c42156a63,8,24,3,visual_fields_checked,True,False,
+uec_math_i:2022:written:12:b(i),uec_math_i,2022,written,12,b(i),uec_math_i:807c42156a63,8,22,2,visual_fields_checked,True,False,
+uec_math_i:2022:written:12:b(ii),uec_math_i,2022,written,12,b(ii),uec_math_i:807c42156a63,8,28,2,visual_fields_checked,True,False,
+uec_math_ii:2022:mcq:1:whole,uec_math_ii,2022,mcq,1,whole,uec_math_ii:3ccd40a68140,5,20,2,visual_fields_checked,True,False,
+uec_math_ii:2022:mcq:2:whole,uec_math_ii,2022,mcq,2,whole,uec_math_ii:3ccd40a68140,5,12,2,visual_fields_checked,True,False,
+uec_math_ii:2022:mcq:3:whole,uec_math_ii,2022,mcq,3,whole,uec_math_ii:3ccd40a68140,5,5,2,visual_fields_checked,True,False,
+uec_math_ii:2022:mcq:4:whole,uec_math_ii,2022,mcq,4,whole,uec_math_ii:3ccd40a68140,5,19,2,visual_fields_checked,True,False,
+uec_math_ii:2022:mcq:5:whole,uec_math_ii,2022,mcq,5,whole,uec_math_ii:3ccd40a68140,5,26,2,visual_fields_checked,True,False,
+uec_math_ii:2022:mcq:6:whole,uec_math_ii,2022,mcq,6,whole,uec_math_ii:3ccd40a68140,5,12,2,visual_fields_checked,True,False,
+uec_math_ii:2022:mcq:7:whole,uec_math_ii,2022,mcq,7,whole,uec_math_ii:3ccd40a68140,5,34,2,visual_fields_checked,True,False,
+uec_math_ii:2022:mcq:8:whole,uec_math_ii,2022,mcq,8,whole,uec_math_ii:3ccd40a68140,6,10,2,visual_fields_checked,True,False,
+uec_math_ii:2022:mcq:9:whole,uec_math_ii,2022,mcq,9,whole,uec_math_ii:3ccd40a68140,6,18,2,visual_fields_checked,True,False,
+uec_math_ii:2022:mcq:10:whole,uec_math_ii,2022,mcq,10,whole,uec_math_ii:3ccd40a68140,6,11,2,visual_fields_checked,True,False,
+uec_math_ii:2022:mcq:11:whole,uec_math_ii,2022,mcq,11,whole,uec_math_ii:3ccd40a68140,6,9,2,visual_fields_checked,True,False,
+uec_math_ii:2022:mcq:12:whole,uec_math_ii,2022,mcq,12,whole,uec_math_ii:3ccd40a68140,6,32,2,visual_fields_checked,True,False,
+uec_math_ii:2022:mcq:13:whole,uec_math_ii,2022,mcq,13,whole,uec_math_ii:3ccd40a68140,6,16,2,visual_fields_checked,True,False,
+uec_math_ii:2022:mcq:14:whole,uec_math_ii,2022,mcq,14,whole,uec_math_ii:3ccd40a68140,7,32,2,visual_fields_checked,True,False,
+uec_math_ii:2022:mcq:15:whole,uec_math_ii,2022,mcq,15,whole,uec_math_ii:3ccd40a68140,7,33,2,visual_fields_checked,True,False,
+uec_math_ii:2022:mcq:16:whole,uec_math_ii,2022,mcq,16,whole,uec_math_ii:3ccd40a68140,7,22,2,visual_fields_checked,True,False,
+uec_math_ii:2022:mcq:17:whole,uec_math_ii,2022,mcq,17,whole,uec_math_ii:3ccd40a68140,7,28,2,visual_fields_checked,True,False,y原式第二项是−t²，不是−2t²；候选0和2/3须同时检验dx/dt。
+uec_math_ii:2022:mcq:18:whole,uec_math_ii,2022,mcq,18,whole,uec_math_ii:3ccd40a68140,7,22,2,visual_fields_checked,True,False,
+uec_math_ii:2022:mcq:19:whole,uec_math_ii,2022,mcq,19,whole,uec_math_ii:3ccd40a68140,7,29,2,visual_fields_checked,True,False,
+uec_math_ii:2022:mcq:20:whole,uec_math_ii,2022,mcq,20,whole,uec_math_ii:3ccd40a68140,7,24,2,visual_fields_checked,True,False,
+uec_math_ii:2022:written:1:a(i),uec_math_ii,2022,written,1,a(i),uec_math_ii:72db0fb5237b,5,10,4,visual_fields_checked,True,False,
+uec_math_ii:2022:written:1:a(ii),uec_math_ii,2022,written,1,a(ii),uec_math_ii:72db0fb5237b,5,10,1,visual_fields_checked,True,False,
+uec_math_ii:2022:written:1:b,uec_math_ii,2022,written,1,b,uec_math_ii:72db0fb5237b,5,9,5,visual_fields_checked,True,False,
+uec_math_ii:2022:written:2:a(i),uec_math_ii,2022,written,2,a(i),uec_math_ii:72db0fb5237b,5,18,2,visual_fields_checked,True,False,
+uec_math_ii:2022:written:2:a(ii),uec_math_ii,2022,written,2,a(ii),uec_math_ii:72db0fb5237b,5,18,3,visual_fields_checked,True,False,应区分内部二面角与无向两平面锐角，保留作图解释后再选余弦符号。
+uec_math_ii:2022:written:2:b,uec_math_ii,2022,written,2,b,uec_math_ii:72db0fb5237b,5,11,5,visual_fields_checked,True,False,
+uec_math_ii:2022:written:3:a,uec_math_ii,2022,written,3,a,uec_math_ii:72db0fb5237b,5,12,5,visual_fields_checked,True,False,
+uec_math_ii:2022:written:3:b(i),uec_math_ii,2022,written,3,b(i),uec_math_ii:72db0fb5237b,5,34,4,visual_fields_checked,True,False,
+uec_math_ii:2022:written:3:b(ii),uec_math_ii,2022,written,3,b(ii),uec_math_ii:72db0fb5237b,5,34,1,visual_fields_checked,True,False,原式z上横线是共轭，不能看成两个相同z的平方。
+uec_math_ii:2022:written:4:a,uec_math_ii,2022,written,4,a,uec_math_ii:72db0fb5237b,6,6,5,visual_fields_checked,True,False,
+uec_math_ii:2022:written:4:b,uec_math_ii,2022,written,4,b,uec_math_ii:72db0fb5237b,6,31,5,visual_fields_checked,True,False,
+uec_math_ii:2022:written:5:a,uec_math_ii,2022,written,5,a,uec_math_ii:72db0fb5237b,6,3,4,visual_fields_checked,True,False,
+uec_math_ii:2022:written:5:b,uec_math_ii,2022,written,5,b,uec_math_ii:72db0fb5237b,6,7,3,visual_fields_checked,True,False,
+uec_math_ii:2022:written:5:c,uec_math_ii,2022,written,5,c,uec_math_ii:72db0fb5237b,6,13,3,visual_fields_checked,True,False,
+uec_math_ii:2022:written:6:a,uec_math_ii,2022,written,6,a,uec_math_ii:72db0fb5237b,6,4,4,visual_fields_checked,True,False,
+uec_math_ii:2022:written:6:b,uec_math_ii,2022,written,6,b,uec_math_ii:72db0fb5237b,6,17,3,visual_fields_checked,True,False,原卷AB、AC、AF均带向量箭头，不能用标量边长关系代替。
+uec_math_ii:2022:written:6:c(i),uec_math_ii,2022,written,6,c(i),uec_math_ii:72db0fb5237b,6,19,1,visual_fields_checked,True,False,按钥匙环旋转和翻面均等价的约定；需在解析明确，不将普通有向圆排列直接除错。
+uec_math_ii:2022:written:6:c(ii),uec_math_ii,2022,written,6,c(ii),uec_math_ii:72db0fb5237b,6,19,2,visual_fields_checked,True,False,
+uec_math_ii:2022:written:7:a,uec_math_ii,2022,written,7,a,uec_math_ii:72db0fb5237b,7,33,4,visual_fields_checked,True,False,
+uec_math_ii:2022:written:7:b,uec_math_ii,2022,written,7,b,uec_math_ii:72db0fb5237b,7,32,3,visual_fields_checked,True,False,
+uec_math_ii:2022:written:7:c,uec_math_ii,2022,written,7,c,uec_math_ii:72db0fb5237b,7,33,3,visual_fields_checked,True,False,
+uec_math_ii:2022:written:8:a,uec_math_ii,2022,written,8,a,uec_math_ii:72db0fb5237b,7,33,4,visual_fields_checked,True,False,
+uec_math_ii:2022:written:8:b,uec_math_ii,2022,written,8,b,uec_math_ii:72db0fb5237b,7,1,2,visual_fields_checked,True,False,
+uec_math_ii:2022:written:8:c,uec_math_ii,2022,written,8,c,uec_math_ii:72db0fb5237b,7,33,4,visual_fields_checked,True,False,
+uec_math_ii:2022:written:9:a,uec_math_ii,2022,written,9,a,uec_math_ii:72db0fb5237b,7,21,3,visual_fields_checked,True,False,
+uec_math_ii:2022:written:9:b,uec_math_ii,2022,written,9,b,uec_math_ii:72db0fb5237b,7,28,3,visual_fields_checked,True,False,原式是e^y等于整个ln(ln x)的五次方，不能误读为e乘y或ln ln(x⁵)。
+uec_math_ii:2022:written:9:c,uec_math_ii,2022,written,9,c,uec_math_ii:72db0fb5237b,7,24,4,visual_fields_checked,True,False,
+uec_math_ii:2022:written:10:a,uec_math_ii,2022,written,10,a,uec_math_ii:72db0fb5237b,8,21,3,visual_fields_checked,True,False,分母第一根号仅覆盖2x，后接两个根式之差，不把整个乘积置于同一根号。
+uec_math_ii:2022:written:10:b,uec_math_ii,2022,written,10,b,uec_math_ii:72db0fb5237b,8,31,3,visual_fields_checked,True,False,
+uec_math_ii:2022:written:10:c,uec_math_ii,2022,written,10,c,uec_math_ii:72db0fb5237b,8,22,4,visual_fields_checked,True,False,
+uec_math_ii:2022:written:11:a,uec_math_ii,2022,written,11,a,uec_math_ii:72db0fb5237b,8,29,4,visual_fields_checked,True,False,
+uec_math_ii:2022:written:11:b,uec_math_ii,2022,written,11,b,uec_math_ii:72db0fb5237b,8,29,3,visual_fields_checked,True,False,
+uec_math_ii:2022:written:11:c,uec_math_ii,2022,written,11,c,uec_math_ii:72db0fb5237b,8,30,3,visual_fields_checked,True,False,
+uec_math_ii:2022:written:12:a,uec_math_ii,2022,written,12,a,uec_math_ii:72db0fb5237b,8,5,2,visual_fields_checked,True,False,
+uec_math_ii:2022:written:12:b,uec_math_ii,2022,written,12,b,uec_math_ii:72db0fb5237b,8,22,4,visual_fields_checked,True,False,
+uec_math_ii:2022:written:12:c,uec_math_ii,2022,written,12,c,uec_math_ii:72db0fb5237b,8,22,4,visual_fields_checked,True,False,
 graduation_math_ii:2023:mcq:1:whole,graduation_math_ii,2023,mcq,1,whole,graduation_math_ii:e780522689f1,1,5,,visual_fields_checked,False,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
 graduation_math_ii:2023:mcq:2:whole,graduation_math_ii,2023,mcq,2,whole,graduation_math_ii:e780522689f1,1,5,,visual_fields_checked,False,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
 graduation_math_ii:2023:mcq:3:whole,graduation_math_ii,2023,mcq,3,whole,graduation_math_ii:e780522689f1,1,26,,visual_fields_checked,False,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。

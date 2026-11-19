@@ -1,5 +1,713 @@
 [
   {
+    "id": "uec_math_ii:2018:mcq:15:whole",
+    "note": "平方得到9x²−16y²−160y−256=0；若约定r≥0，另保留16+5y≥0所选分支，不能丢掉符号条件。",
+    "pdf": "uec_math_ii:d34ee4a4b584",
+    "page": 7
+  },
+  {
+    "id": "uec_math_ii:2018:written:1:c",
+    "note": "需说明内部二面角或无向平面锐角约定；同一法向量点积可给补角，不能只看透视图选符号。",
+    "pdf": "uec_math_ii:09384fa8f14d",
+    "page": 5
+  },
+  {
+    "id": "uec_math_ii:2018:written:7:b",
+    "note": "须校验反射点在x轴、入射及反射射线方向；仅找过镜像点的无向切线可能保留不合射线路径的候选。",
+    "pdf": "uec_math_ii:09384fa8f14d",
+    "page": 6
+  },
+  {
+    "id": "uec_math_ii:2018:written:8:c",
+    "note": "椭圆实际要求a,b非零；若只写a≠b不足排除a=−b导致两椭圆相同。通常半轴a,b>0约定需明确。",
+    "pdf": "uec_math_ii:09384fa8f14d",
+    "page": 6
+  },
+  {
+    "id": "uec_math_ii:2018:written:10:a",
+    "note": "积分可得隐式圆，若要求经典函数解，须选择通过(−2,4)的上分支并排除y=2处原ODE不可给有限导数的端点。",
+    "pdf": "uec_math_ii:09384fa8f14d",
+    "page": 7
+  },
+  {
+    "id": "uec_math_i:2019:mcq:8:whole",
+    "note": "常见解法使用两人命中独立；原句仅列边际概率，应用解析需明确独立假设。",
+    "pdf": "uec_math_i:c473afc19717",
+    "page": 2
+  },
+  {
+    "id": "uec_math_i:2019:mcq:15:whole",
+    "note": "不能直接按给出顺序套鞋带得到自交代数面积；须先确定简单四边形边界顺序。",
+    "pdf": "uec_math_i:c473afc19717",
+    "page": 4
+  },
+  {
+    "id": "uec_math_i:2019:written:7:b",
+    "note": "平方作用于真数(x+1)，不能误作[log10(x+1)]²；负的x+1也可能合定义域。",
+    "pdf": "uec_math_i:c473afc19717",
+    "page": 7
+  },
+  {
+    "id": "uec_math_ii:2019:mcq:15:whole",
+    "note": "e原式为sqrt5乘k，根号不覆盖k。",
+    "pdf": "uec_math_ii:4e526e114339",
+    "page": 4
+  },
+  {
+    "id": "uec_math_ii:2019:written:5:b",
+    "note": "AB、AC、BD均为带箭头向量；不是三个标量长度。",
+    "pdf": "uec_math_ii:4e526e114339",
+    "page": 7
+  },
+  {
+    "id": "uec_math_ii:2019:written:8:b(ii)",
+    "note": "放大确认(ii)原印“(a)小题”，不能静默改成(i)；按字面求(a)焦点与按上下文求中点轨迹焦点不同，待原版/教师确认。",
+    "pdf": "uec_math_ii:4e526e114339",
+    "page": 7
+  },
+  {
+    "id": "uec_math_ii:2019:written:11:a",
+    "note": "代换仅适用于y≠0；原ODE另有y=0解。",
+    "pdf": "uec_math_ii:4e526e114339",
+    "page": 8
+  },
+  {
+    "id": "uec_math_ii:2019:written:12:b(i)",
+    "note": "冷却至周围温度时k<0，且A=0平衡解另列；不得把k>0也称降温。",
+    "pdf": "uec_math_ii:4e526e114339",
+    "page": 8
+  },
+  {
+    "id": "uec_math_i:2020:mcq:1:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:edddd203dbbe",
+    "page": 1
+  },
+  {
+    "id": "uec_math_i:2020:mcq:2:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:edddd203dbbe",
+    "page": 1
+  },
+  {
+    "id": "uec_math_i:2020:mcq:3:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:edddd203dbbe",
+    "page": 1
+  },
+  {
+    "id": "uec_math_i:2020:mcq:4:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:edddd203dbbe",
+    "page": 1
+  },
+  {
+    "id": "uec_math_i:2020:mcq:5:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:edddd203dbbe",
+    "page": 1
+  },
+  {
+    "id": "uec_math_i:2020:mcq:6:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:edddd203dbbe",
+    "page": 1
+  },
+  {
+    "id": "uec_math_i:2020:mcq:7:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:edddd203dbbe",
+    "page": 1
+  },
+  {
+    "id": "uec_math_i:2020:mcq:8:whole",
+    "note": "原文自然数是否包括0影响计数48或49，候选同时有48、49；保留约定争议，不无依据宣称唯一答案。 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:edddd203dbbe",
+    "page": 1
+  },
+  {
+    "id": "uec_math_i:2020:mcq:9:whole",
+    "note": "乘法解法需各局独立假设，原题仅给每局胜率；保留通常独立比赛模型的使用条件。 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:edddd203dbbe",
+    "page": 2
+  },
+  {
+    "id": "uec_math_i:2020:mcq:10:whole",
+    "note": "两点经度差180度；最短经北极60度大圆弧，不是沿60N小圆绕半周。 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:edddd203dbbe",
+    "page": 2
+  },
+  {
+    "id": "uec_math_i:2020:mcq:11:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:edddd203dbbe",
+    "page": 2
+  },
+  {
+    "id": "uec_math_i:2020:mcq:12:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:edddd203dbbe",
+    "page": 2
+  },
+  {
+    "id": "uec_math_i:2020:mcq:13:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:edddd203dbbe",
+    "page": 2
+  },
+  {
+    "id": "uec_math_i:2020:mcq:14:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:edddd203dbbe",
+    "page": 2
+  },
+  {
+    "id": "uec_math_i:2020:mcq:15:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:edddd203dbbe",
+    "page": 3
+  },
+  {
+    "id": "uec_math_i:2020:mcq:16:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:edddd203dbbe",
+    "page": 3
+  },
+  {
+    "id": "uec_math_i:2020:mcq:17:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:edddd203dbbe",
+    "page": 3
+  },
+  {
+    "id": "uec_math_i:2020:mcq:18:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:edddd203dbbe",
+    "page": 3
+  },
+  {
+    "id": "uec_math_i:2020:mcq:19:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:edddd203dbbe",
+    "page": 3
+  },
+  {
+    "id": "uec_math_i:2020:mcq:20:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:edddd203dbbe",
+    "page": 3
+  },
+  {
+    "id": "uec_math_i:2020:written:1:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:743f2c449dc2",
+    "page": 1
+  },
+  {
+    "id": "uec_math_i:2020:written:2:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:743f2c449dc2",
+    "page": 1
+  },
+  {
+    "id": "uec_math_i:2020:written:3:a",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:743f2c449dc2",
+    "page": 1
+  },
+  {
+    "id": "uec_math_i:2020:written:3:b",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:743f2c449dc2",
+    "page": 1
+  },
+  {
+    "id": "uec_math_i:2020:written:4:a",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:743f2c449dc2",
+    "page": 1
+  },
+  {
+    "id": "uec_math_i:2020:written:4:b",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:743f2c449dc2",
+    "page": 1
+  },
+  {
+    "id": "uec_math_i:2020:written:5:a",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:743f2c449dc2",
+    "page": 1
+  },
+  {
+    "id": "uec_math_i:2020:written:5:b",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:743f2c449dc2",
+    "page": 1
+  },
+  {
+    "id": "uec_math_i:2020:written:6:a",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:743f2c449dc2",
+    "page": 2
+  },
+  {
+    "id": "uec_math_i:2020:written:6:b",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:743f2c449dc2",
+    "page": 2
+  },
+  {
+    "id": "uec_math_i:2020:written:7:a(i)",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:743f2c449dc2",
+    "page": 2
+  },
+  {
+    "id": "uec_math_i:2020:written:7:a(ii)",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:743f2c449dc2",
+    "page": 2
+  },
+  {
+    "id": "uec_math_i:2020:written:7:b",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:743f2c449dc2",
+    "page": 2
+  },
+  {
+    "id": "uec_math_i:2020:written:8:a",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:743f2c449dc2",
+    "page": 2
+  },
+  {
+    "id": "uec_math_i:2020:written:8:b",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:743f2c449dc2",
+    "page": 2
+  },
+  {
+    "id": "uec_math_i:2020:written:8:c",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:743f2c449dc2",
+    "page": 2
+  },
+  {
+    "id": "uec_math_i:2020:written:9:a",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:743f2c449dc2",
+    "page": 2
+  },
+  {
+    "id": "uec_math_i:2020:written:9:b",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:743f2c449dc2",
+    "page": 2
+  },
+  {
+    "id": "uec_math_i:2020:written:9:c",
+    "note": "题设符号σ在本题表示“方差”，不是通常约定的标准差；不能机械写成2σ，应为2sqrtσ。 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:743f2c449dc2",
+    "page": 2
+  },
+  {
+    "id": "uec_math_i:2020:written:10:a",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:743f2c449dc2",
+    "page": 3
+  },
+  {
+    "id": "uec_math_i:2020:written:10:b",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:743f2c449dc2",
+    "page": 3
+  },
+  {
+    "id": "uec_math_i:2020:written:10:c",
+    "note": "P不能等于A或C，角才有定义；轨迹是以AC为直径圆去掉两端点。 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:743f2c449dc2",
+    "page": 3
+  },
+  {
+    "id": "uec_math_i:2020:written:11:a",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:743f2c449dc2",
+    "page": 3
+  },
+  {
+    "id": "uec_math_i:2020:written:11:b(i)",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:743f2c449dc2",
+    "page": 3
+  },
+  {
+    "id": "uec_math_i:2020:written:11:b(ii)",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:743f2c449dc2",
+    "page": 3
+  },
+  {
+    "id": "uec_math_i:2020:written:12:a",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:743f2c449dc2",
+    "page": 3
+  },
+  {
+    "id": "uec_math_i:2020:written:12:b",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_i:743f2c449dc2",
+    "page": 3
+  },
+  {
+    "id": "uec_math_ii:2020:mcq:1:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:ad52af0a91f9",
+    "page": 1
+  },
+  {
+    "id": "uec_math_ii:2020:mcq:2:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:ad52af0a91f9",
+    "page": 1
+  },
+  {
+    "id": "uec_math_ii:2020:mcq:3:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:ad52af0a91f9",
+    "page": 1
+  },
+  {
+    "id": "uec_math_ii:2020:mcq:4:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:ad52af0a91f9",
+    "page": 1
+  },
+  {
+    "id": "uec_math_ii:2020:mcq:5:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:ad52af0a91f9",
+    "page": 1
+  },
+  {
+    "id": "uec_math_ii:2020:mcq:6:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:ad52af0a91f9",
+    "page": 1
+  },
+  {
+    "id": "uec_math_ii:2020:mcq:7:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:ad52af0a91f9",
+    "page": 1
+  },
+  {
+    "id": "uec_math_ii:2020:mcq:8:whole",
+    "note": "所见候选D含±，但原式化为tan8θ=√3/2，负号分支并非解；不擅改选项为正确式，待原版/教师确认。 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:ad52af0a91f9",
+    "page": 2
+  },
+  {
+    "id": "uec_math_ii:2020:mcq:9:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:ad52af0a91f9",
+    "page": 2
+  },
+  {
+    "id": "uec_math_ii:2020:mcq:10:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:ad52af0a91f9",
+    "page": 2
+  },
+  {
+    "id": "uec_math_ii:2020:mcq:11:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:ad52af0a91f9",
+    "page": 2
+  },
+  {
+    "id": "uec_math_ii:2020:mcq:12:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:ad52af0a91f9",
+    "page": 2
+  },
+  {
+    "id": "uec_math_ii:2020:mcq:13:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:ad52af0a91f9",
+    "page": 2
+  },
+  {
+    "id": "uec_math_ii:2020:mcq:14:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:ad52af0a91f9",
+    "page": 3
+  },
+  {
+    "id": "uec_math_ii:2020:mcq:15:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:ad52af0a91f9",
+    "page": 3
+  },
+  {
+    "id": "uec_math_ii:2020:mcq:16:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:ad52af0a91f9",
+    "page": 3
+  },
+  {
+    "id": "uec_math_ii:2020:mcq:17:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:ad52af0a91f9",
+    "page": 3
+  },
+  {
+    "id": "uec_math_ii:2020:mcq:18:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:ad52af0a91f9",
+    "page": 3
+  },
+  {
+    "id": "uec_math_ii:2020:mcq:19:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:ad52af0a91f9",
+    "page": 3
+  },
+  {
+    "id": "uec_math_ii:2020:mcq:20:whole",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:ad52af0a91f9",
+    "page": 3
+  },
+  {
+    "id": "uec_math_ii:2020:written:1:a",
+    "note": "恒等式按原式定义域sin A≠0证明，不能无条件扩展至分母为零。 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 1
+  },
+  {
+    "id": "uec_math_ii:2020:written:1:b(i)",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 1
+  },
+  {
+    "id": "uec_math_ii:2020:written:1:b(ii)",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 1
+  },
+  {
+    "id": "uec_math_ii:2020:written:2:a(i)",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 1
+  },
+  {
+    "id": "uec_math_ii:2020:written:2:a(ii)",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 1
+  },
+  {
+    "id": "uec_math_ii:2020:written:2:b",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 1
+  },
+  {
+    "id": "uec_math_ii:2020:written:3:a",
+    "note": "还须满足所有对数底≠1；给定正数条件本身未排除r=1或p−4q=1，推导中明确限制，不直接除零。 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 1
+  },
+  {
+    "id": "uec_math_ii:2020:written:3:b",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 1
+  },
+  {
+    "id": "uec_math_ii:2020:written:3:c",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 1
+  },
+  {
+    "id": "uec_math_ii:2020:written:4:a",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 2
+  },
+  {
+    "id": "uec_math_ii:2020:written:4:b",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 2
+  },
+  {
+    "id": "uec_math_ii:2020:written:4:c",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 2
+  },
+  {
+    "id": "uec_math_ii:2020:written:5:a",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 2
+  },
+  {
+    "id": "uec_math_ii:2020:written:5:b(i)",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 2
+  },
+  {
+    "id": "uec_math_ii:2020:written:5:b(ii)",
+    "note": "原题两句分别各印2%，用i/ii作为审计切分标签，原件未印罗马小问编号。 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 2
+  },
+  {
+    "id": "uec_math_ii:2020:written:6:a",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 2
+  },
+  {
+    "id": "uec_math_ii:2020:written:5:c",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 2
+  },
+  {
+    "id": "uec_math_ii:2020:written:6:b(i)",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 2
+  },
+  {
+    "id": "uec_math_ii:2020:written:6:b(ii)",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 2
+  },
+  {
+    "id": "uec_math_ii:2020:written:6:b(iii)",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 2
+  },
+  {
+    "id": "uec_math_ii:2020:written:7:a",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 3
+  },
+  {
+    "id": "uec_math_ii:2020:written:7:b(i)",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 3
+  },
+  {
+    "id": "uec_math_ii:2020:written:7:b(ii)",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 3
+  },
+  {
+    "id": "uec_math_ii:2020:written:8:a",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 3
+  },
+  {
+    "id": "uec_math_ii:2020:written:8:b(i)",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 3
+  },
+  {
+    "id": "uec_math_ii:2020:written:8:b(ii)",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 3
+  },
+  {
+    "id": "uec_math_ii:2020:written:9:a",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 3
+  },
+  {
+    "id": "uec_math_ii:2020:written:9:b",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 3
+  },
+  {
+    "id": "uec_math_ii:2020:written:9:c",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 3
+  },
+  {
+    "id": "uec_math_ii:2020:written:10:a",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 3
+  },
+  {
+    "id": "uec_math_ii:2020:written:10:b",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 3
+  },
+  {
+    "id": "uec_math_ii:2020:written:10:c",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 3
+  },
+  {
+    "id": "uec_math_ii:2020:written:11:a(i)",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 4
+  },
+  {
+    "id": "uec_math_ii:2020:written:11:a(ii)",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 4
+  },
+  {
+    "id": "uec_math_ii:2020:written:11:b",
+    "note": "需明确比例量纲。若以份额x=.02、x+y=1则增长系数1；若直接数值百分数x=2、x+y=100，系数为100。原题未给时间单位，解析必须说明所取比例约定。 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 4
+  },
+  {
+    "id": "uec_math_ii:2020:written:12:a",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 4
+  },
+  {
+    "id": "uec_math_ii:2020:written:12:b(i)",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 4
+  },
+  {
+    "id": "uec_math_ii:2020:written:12:b(ii)",
+    "note": " 所供扫描缺封面，年份依文件名；选择单题分值未知。",
+    "pdf": "uec_math_ii:2e52060547b0",
+    "page": 4
+  },
+  {
     "id": "graduation_math_ii:2021:mcq:10:whole",
     "note": "若2a+b−3c≠0可约分得R=5/2；但原题未排除该组合为0，任意尺度等边三角形即反例，不能认证唯一半径。",
     "pdf": "graduation_math_ii:e88da7483556",
@@ -22,6 +730,30 @@
     "note": "原题函数后另印y²=8x，疑似上一题残留；不把它并入f定义。",
     "pdf": "graduation_math_ii:0ffd31629b21",
     "page": 4
+  },
+  {
+    "id": "uec_math_i:2021:mcq:2:whole",
+    "note": "表1延期档为<30天、31–60天、61–90天，且肯定不超过90天；保留原分档文字，不将其改成连续的≤30档。",
+    "pdf": "uec_math_i:41907526b627",
+    "page": 2
+  },
+  {
+    "id": "uec_math_i:2021:written:10:b",
+    "note": "当前35章字典没有独立价格指数章节；保留原题及分值，主章待映射，不强塞指数与对数。",
+    "pdf": "uec_math_i:41907526b627",
+    "page": 9
+  },
+  {
+    "id": "uec_math_ii:2021:written:10:b",
+    "note": "根号只覆盖sin x；曲线在x轴下，面积取1−sqrt(sin x)，不可把被积函数写成sqrt(sin x−1)。",
+    "pdf": "uec_math_ii:b3be3bccbd2f",
+    "page": 4
+  },
+  {
+    "id": "uec_math_ii:2021:written:12:b",
+    "note": "直线须确实穿过R，0<m<1；不能将直线下方至x=1全都算进曲线内的同一三角形。",
+    "pdf": "uec_math_ii:b3be3bccbd2f",
+    "page": 5
   },
   {
     "id": "graduation_math_ii:2022:written:7:b",
@@ -166,6 +898,66 @@
     "note": "ln(y^x)在通常实数对数推导中另需y>0。",
     "pdf": "semester_final:2f4ae66605ea",
     "page": 3
+  },
+  {
+    "id": "uec_math_i:2022:mcq:2:whole",
+    "note": "放大确认和为负9/10、给的是第二项，不是正9/10或第三项。",
+    "pdf": "uec_math_i:dc168892b945",
+    "page": 5
+  },
+  {
+    "id": "uec_math_i:2022:written:2:whole",
+    "note": "放大原文确认“俯角”。",
+    "pdf": "uec_math_i:807c42156a63",
+    "page": 5
+  },
+  {
+    "id": "uec_math_i:2022:written:9:c(ii)",
+    "note": "原表是直径；先按组中点求直径总体SD，再乘1/2得到半径SD。",
+    "pdf": "uec_math_i:807c42156a63",
+    "page": 7
+  },
+  {
+    "id": "uec_math_ii:2022:mcq:17:whole",
+    "note": "y原式第二项是−t²，不是−2t²；候选0和2/3须同时检验dx/dt。",
+    "pdf": "uec_math_ii:3ccd40a68140",
+    "page": 7
+  },
+  {
+    "id": "uec_math_ii:2022:written:2:a(ii)",
+    "note": "应区分内部二面角与无向两平面锐角，保留作图解释后再选余弦符号。",
+    "pdf": "uec_math_ii:72db0fb5237b",
+    "page": 5
+  },
+  {
+    "id": "uec_math_ii:2022:written:3:b(ii)",
+    "note": "原式z上横线是共轭，不能看成两个相同z的平方。",
+    "pdf": "uec_math_ii:72db0fb5237b",
+    "page": 5
+  },
+  {
+    "id": "uec_math_ii:2022:written:6:b",
+    "note": "原卷AB、AC、AF均带向量箭头，不能用标量边长关系代替。",
+    "pdf": "uec_math_ii:72db0fb5237b",
+    "page": 6
+  },
+  {
+    "id": "uec_math_ii:2022:written:6:c(i)",
+    "note": "按钥匙环旋转和翻面均等价的约定；需在解析明确，不将普通有向圆排列直接除错。",
+    "pdf": "uec_math_ii:72db0fb5237b",
+    "page": 6
+  },
+  {
+    "id": "uec_math_ii:2022:written:9:b",
+    "note": "原式是e^y等于整个ln(ln x)的五次方，不能误读为e乘y或ln ln(x⁵)。",
+    "pdf": "uec_math_ii:72db0fb5237b",
+    "page": 7
+  },
+  {
+    "id": "uec_math_ii:2022:written:10:a",
+    "note": "分母第一根号仅覆盖2x，后接两个根式之差，不把整个乘积置于同一根号。",
+    "pdf": "uec_math_ii:72db0fb5237b",
+    "page": 8
   },
   {
     "id": "graduation_math_ii:2023:mcq:1:whole",

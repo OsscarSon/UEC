@@ -7,11 +7,11 @@ REGISTRY={
  'semester_final':{'old_40_60':[2023,2024,2025],'new_30_70':[2026]},
  'graduation_math_ii':{'old_40_60':[2021,2022,2024,2025]},
  'preexam_math_ii':{'old_40_60':[2023,2024,2025]},
- 'uec_math_i':{'old_40_60':[2023,2025],'new_30_70':[2026]},
- 'uec_math_ii':{'old_40_60':[2023,2024,2025],'new_30_70':[2026]},
+ 'uec_math_i':{'old_40_60':[2019,2021,2022,2023,2025],'new_30_70':[2026]},
+ 'uec_math_ii':{'old_40_60':[2018,2019,2021,2022,2023,2024,2025],'new_30_70':[2026]},
 }
 def build(records,dictionary,labels,out):
- result=[];lines=['# 限定样本的年度出现频率','','这里仅对已逐页阅读题面的年份计算，不代表全部已提供历史年份均已完成。按五类考试和旧40/60、新30/70分开，不将不同考试或制度的分值混算。题面字段复核不等于每道历史答案已独立验算。','','热门/冷门只在至少3个完整题面样本年内作描述：≥2/3年出现称“样本常见”，零年称“样本未见”；不足3年不作稳定冷热结论。出现频率只数年度，不把一题的多个小问当作多个年度。副章和主章分列。','','毕业考2023原件缺封面，年份只由文件名确定，不计入此处确认年份频率，但逐题记录保留；不能把2023当零出现。学校2022选择缺封面、单题分值未知，年份仅文件名，不纳入这组年度频率。2024统考II选择虽已看完，分值未知，保留题目与年度出现记录，分值占比保持null。已核实题面中的答案歧义不会被假装解决；对应题的主题出现单列，不使用其答案训练命题。','']
+ result=[];lines=['# 限定样本的年度出现频率','','这里仅对已逐页阅读题面的年份计算，不代表全部已提供历史年份均已完成。按五类考试和旧40/60、新30/70分开，不将不同考试或制度的分值混算。题面字段复核不等于每道历史答案已独立验算。','','热门/冷门只在至少3个完整题面样本年内作描述：≥2/3年出现称“样本常见”，零年称“样本未见”；不足3年不作稳定冷热结论。出现频率只数年度，不把一题的多个小问当作多个年度。副章和主章分列。','','毕业考2023原件缺封面，年份只由文件名确定，不计入此处确认年份频率，但逐题记录保留；不能把2023当零出现。学校2022选择缺封面、单题分值未知，年份仅文件名，不纳入这组年度频率。2020两科缺封面、年份仅文件名，不纳入确认年份频率；逐题记录保留。2021高数I价格比题没有可靠章号，年度内存在未映射分值，不把它强行归类。2024统考II选择虽已看完，分值未知，保留题目与年度出现记录，分值占比保持null。已核实题面中的答案歧义不会被假装解决；对应题的主题出现单列，不使用其答案训练命题。','']
  for code,regimes in REGISTRY.items():
   for regime,years in regimes.items():
    rs=[r for r in records if r['exam_type']==code and r['year']in years and r.get('verification_status')=='visual_fields_checked']
@@ -19,6 +19,8 @@ def build(records,dictionary,labels,out):
    for y in years:
     expected=15 if y==2026 else 20
     assert len([r for r in rs if r['year']==y and r['paper']=='mcq'])==expected,(code,y)
+    written_expected=({2023:7,2024:8,2025:7,2026:12}[y]if code=='semester_final'else 12)
+    assert {int(r['question'])for r in rs if r['year']==y and r['paper']=='written'}==set(range(1,written_expected+1)),(code,y,'written population')
    chs=[]
    lines.extend([f'## {labels[code]} · {regime}','','题面样本年份：'+', '.join(map(str,years))+'。完整历史总体：未完成；独立答案核算：非全量。','','|章|名称|主考年份|出现频率|样本说明|','|---:|---|---|---|---|'])
    for ch in dictionary:
@@ -39,7 +41,7 @@ def build(records,dictionary,labels,out):
       marks=sum((r['printed_marks']or 0)for r in rr)
       parts[paper]=dict(printed_marks=marks if known else None,denominator_printed_marks=denom if known else None,printed_share_percent=round(marks/denom*100,3)if known and denom else None,actual_student_weight=None,missing_mark_unit_ids=[r['id']for r in unknown])
      annual.append(dict(year=y,papers=parts))
-    item=dict(chapter=n,title=ch['title'],primary_years=seen,secondary_years=secondary,year_numerator=len(seen),year_denominator=len(years),sample_year_frequency_percent=round(100*len(seen)/len(years),3),heat_label=heat,topic_units=len(primary),estimated_difficulty_counts=dict(Counter(r['difficulty']['level']for r in primary if r.get('difficulty')and r['difficulty']['level'])),annual_printed_exposure=annual)
+    item=dict(chapter=n,title=ch['title'],primary_years=seen,secondary_years=secondary,year_numerator=len(seen),year_denominator=len(years),sample_year_frequency_percent=round(100*len(seen)/len(years),3),heat_label=heat,topic_units=len(primary),difficulty_not_estimated_units=sum(not r.get('difficulty',{}).get('level')for r in primary),estimated_difficulty_counts=dict(Counter(r['difficulty']['level']for r in primary if r.get('difficulty')and r['difficulty']['level'])),annual_printed_exposure=annual)
     chs.append(item);lines.append(f'|{n}|{ch["title"]}|'+(', '.join(map(str,seen))or'未见')+f'|{len(seen)}/{len(years)}|{heat}|')
    result.append(dict(exam_type=code,title=labels[code],format_regime=regime,years=years,sample_confidence='source_field_reviewed_author_chapter_classification',population_confidence='not_full_history',empirical_difficulty=False,chapters=chs))
  (out/'SAMPLE_FREQUENCY_REPORT.md').write_text('\n'.join(lines)+'\n')
