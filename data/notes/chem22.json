@@ -1,0 +1,1814 @@
+{
+  "22.1.1": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 22,
+    "section_id": "22.1.1",
+    "goals": [
+      "以离子产生和可移动性解释导电",
+      "区分强弱电解质、浓稀及溶解难易"
+    ],
+    "prerequisites": [
+      "离子与共价键",
+      "溶液和电流"
+    ],
+    "flow": [
+      "物质和状态",
+      "形成离子",
+      "可迁移",
+      "电离程度",
+      "浓度与实验"
+    ],
+    "concept_relation": "物质和状态；形成离子；可迁移；电离程度；浓度与实验",
+    "deep": [
+      "溶解度与电离程度也不同。某难溶离子盐仅少量进入水中，但其已溶解部分可主要为离子；不能因难溶就断言它属于弱电解质。导电测量还受离子浓度、迁移能力、温度与装置几何影响。",
+      "比较溶液导电能力需控制浓度口径、温度、电极间距与仪器条件。不同离子迁移率可使同浓度溶液导电性不同，因此“灯亮更亮”只能在适当对照下支持结论，不能不加条件直接读作某物质一定更强电离。",
+      "本节为后续沉淀和离子平衡建立语言。作答时依次说物质能否形成离子、该状态离子能否自由迁移、实际浓度是多少。把这三层分开，就能解释固盐、盐溶液、糖溶液和金属导线为何不能用同一句机制描述。"
+    ],
+    "derive": [
+      "溶液导电需要可移动电荷载体，电解质溶液主要为离子。",
+      "强弱电解质描述适当条件下电离程度，不等于浓稀或易难溶。",
+      "难溶盐的溶解平衡与已溶解部分的离子状态须分别分析。"
+    ],
+    "examples": [
+      {
+        "q": "NaCl固体由离子组成，为何通常不具有NaCl水溶液那样的导电性？ 条件：普通固态，未熔融。",
+        "given": "普通固态，未熔融。",
+        "analysis": "电荷存在不等于可迁移。",
+        "method": "比较离子运动限制。",
+        "principle": "导电需移动载体。",
+        "steps": [
+          "固态离子受晶格位置限制。",
+          "溶液中离子可迁移携带电荷。"
+        ],
+        "ans": "主要区别为离子可移动性。",
+        "verification": "熔融也可使离子较自由移动。",
+        "pitfall": "固态有离子就断言导电一样好。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.1.1",
+        "related_sections": []
+      },
+      {
+        "q": "0.001 mol/L强电解质与1 mol/L弱电解质，能否只由浓度判断前者“较弱”？ 条件：分类依电离程度。",
+        "given": "分类依电离程度。",
+        "analysis": "浓度与强弱不同。",
+        "method": "分别读取指标。",
+        "principle": "强弱电解质定义。",
+        "steps": [
+          "前者虽稀，已溶解部分仍可近乎完全电离。",
+          "后者浓不代表完全电离。"
+        ],
+        "ans": "不能用浓度改定强弱。",
+        "verification": "浓与强是不同描述维度。",
+        "pitfall": "把稀等同弱。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.1.1",
+        "related_sections": []
+      },
+      {
+        "q": "某难溶离子盐少量溶解后主要以离子存在，能否因溶得少就认定它为弱电解质？ 条件：讨论已溶解部分。",
+        "given": "讨论已溶解部分。",
+        "analysis": "溶解量和电离程度不同。",
+        "method": "区分两个过程。",
+        "principle": "溶解度不等于电离度。",
+        "steps": [
+          "溶得少说明溶解平衡偏向固体。",
+          "已溶解部分仍可几乎全是离子。"
+        ],
+        "ans": "不能据此判弱。",
+        "verification": "难溶盐仍需用相应K_sp分析溶解。",
+        "pitfall": "溶解度小就当部分电离小。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.1.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "糖溶液有大量分子，是否因此一定有大量载流离子？ 条件：糖主要以中性分子溶解的模型。",
+        "given": "糖主要以中性分子溶解的模型。",
+        "analysis": "粒子数与带电数不同。",
+        "method": "检查粒子电荷。",
+        "principle": "导电载体。",
+        "steps": [
+          "中性糖分子不因溶解自动变成大量离子。",
+          "不能仅凭总粒子数判断导电。"
+        ],
+        "ans": "不是。",
+        "verification": "应区分溶解和电离。",
+        "pitfall": "所有溶质溶解都成离子。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.1.1",
+        "related_sections": []
+      },
+      {
+        "q": "金属铜导电能否用“Cu²⁺在水中移动”解释其固体导线？ 条件：导线是金属固体。",
+        "given": "导线是金属固体。",
+        "analysis": "载流机制不同。",
+        "method": "按材料状态。",
+        "principle": "金属自由电子。",
+        "steps": [
+          "金属中主要为电子传导。",
+          "不是把导线当成铜盐水溶液。"
+        ],
+        "ans": "不能。",
+        "verification": "相同“导电”宏观现象可有不同载体。",
+        "pitfall": "不分金属和电解质溶液。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.1.1",
+        "related_sections": []
+      },
+      {
+        "q": "比较导电实验为何控制温度？ 条件：离子运动与电导受温度影响。",
+        "given": "离子运动与电导受温度影响。",
+        "analysis": "排除混杂变量。",
+        "method": "列控制量。",
+        "principle": "公平对照。",
+        "steps": [
+          "温度不同可改变迁移和状态。",
+          "同温更利于比较所问成分因素。"
+        ],
+        "ans": "避免温度影响混入。",
+        "verification": "相同浓度不足以控制所有因素。",
+        "pitfall": "只控制溶液体积。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.1.1",
+        "related_sections": []
+      },
+      {
+        "q": "强电解质一词是否保证任何浓度下导电性都超过一切弱电解质？ 条件：离子浓度及迁移率未知。",
+        "given": "离子浓度及迁移率未知。",
+        "analysis": "分类不是绝对电导排行。",
+        "method": "审缺少条件。",
+        "principle": "电导依多因素。",
+        "steps": [
+          "极稀溶液离子总浓度可很低。",
+          "需具体浓度和离子性质才比较电导。"
+        ],
+        "ans": "不保证。",
+        "verification": "不能仅靠分类标签给数值排序。",
+        "pitfall": "强字等同任何情况下电流大。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.1.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "解释溶液能否导电，怎样避免只写“因为有离子”的不完整答案？ 条件：需同时讨论状态和浓度。",
+      "given": "需同时讨论状态和浓度。",
+      "analysis": "载体存在与自由运动都重要。",
+      "method": "构建三层说明。",
+      "principle": "导电微观机制。",
+      "steps": [
+        "说明物质在该条件是否形成离子及其种类。",
+        "说明是否可迁移及实际浓度、温度等影响。"
+      ],
+      "ans": "按离子产生、可移动性、浓度与条件解释。",
+      "verification": "固态盐是只写有离子不足的反例。",
+      "pitfall": "省略移动条件。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 22,
+      "primary_section": "22.1.1",
+      "related_sections": []
+    },
+    "exam": [
+      "分类先分物质、状态与溶剂，不用“能导电”一句包办",
+      "强弱、浓稀、难易溶分别回答",
+      "实验比较控制温度和几何，导电强弱不直接当电离程度的无条件刻度"
+    ],
+    "quick": [
+      "物质和状态",
+      "形成离子",
+      "可迁移",
+      "电离程度",
+      "浓度与实验"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 10,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_22.1.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/11-2-electrolytes",
+        "page_or_section": "11-2-electrolytes",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 10,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_22.1.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/11-2-electrolytes",
+        "page_or_section": "11-2-electrolytes",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "分类先分物质、状态与溶剂，不用“能导电”一句包办",
+      "method": "区分两个过程。",
+      "principle": "溶解度不等于电离度。",
+      "worked_example_index": 2,
+      "verification": "难溶盐仍需用相应K_sp分析溶解。",
+      "pitfall": "溶解度小就当部分电离小。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“以离子产生和可移动性解释导电”的抽样复核：熔融也可使离子较自由移动。；若出现“固态有离子就断言导电一样好。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分强弱电解质、浓稀及溶解难易”的抽样复核：难溶盐仍需用相应K_sp分析溶解。；若出现“溶解度小就当部分电离小。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "省略移动条件。",
+        "correction": "按离子产生、可移动性、浓度与条件解释。",
+        "verification": "固态盐是只写有离子不足的反例。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "电解质导电的三层条件",
+      "objects": [
+        "配平溶解式",
+        "固相与溶液离子",
+        "K_sp与Q比较",
+        "浓度/混合体积条件"
+      ],
+      "relations": [
+        "固体晶格离子位置受限",
+        "溶液离子可移动",
+        "强弱与浓稀分开"
+      ],
+      "labels": [
+        "固态NaCl",
+        "Na⁺(aq)",
+        "Cl⁻(aq)",
+        "可移动离子",
+        "强弱≠浓稀"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "旧沉淀图须核离子计量和自由离子条件；不同数据不机械替换",
+      "english": "Construct an exact solubility-equilibrium teaching diagram. Balance charge and atoms. Keep solid amount, molar solubility and free-ion concentration distinct. Dilute mixed solutions using total volume before comparing Q with Ksp. State temperature and dilute-solution assumptions. Supersaturation gives a thermodynamic tendency, not a guaranteed instantaneous kinetic event."
+    }
+  },
+  "22.1.2": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 22,
+    "section_id": "22.1.2",
+    "goals": [
+      "以溶解与析出速率解释饱和动态平衡",
+      "写出K_sp并用Q限定方向和模型"
+    ],
+    "prerequisites": [
+      "动态平衡",
+      "浓度与物态"
+    ],
+    "flow": [
+      "固相与离子",
+      "动态平衡",
+      "K_sp",
+      "自由离子积Q",
+      "热力学与成核"
+    ],
+    "concept_relation": "固相与离子；动态平衡；K_sp；自由离子积Q；热力学与成核",
+    "deep": [
+      "任意时刻相同形式计算得到离子积Q。Q<K_sp表示在相应模型下对该盐不饱和，若有固体可继续溶解；Q>K_sp有析出倾向；Q=K_sp与饱和平衡相容。要用自由离子浓度，不能将已络合或沉淀的总分析量全部当自由离子。",
+      "过饱和与实际出现沉淀的速度不同。成核可能有延迟，因此Q>K_sp是热力学判断，不保证肉眼瞬时可见；有限样本、极少沉淀量和仪器灵敏度也影响观察。不能反过来用“没看到”便否定所有过饱和计算。",
+      "分析题应写配平溶解式、物态、K_sp及Q比较，最后说明可能的变化方向和条件。若所有固体已经消失，溶液可能不饱和；不能继续要求它必达到同样饱和浓度，因为维持该相平衡的固体已不足。"
+    ],
+    "derive": [
+      "A_mB_n(s)⇌mA+nB，稀溶液浓度近似K_sp=[A]^m[B]^n。",
+      "Q<K_sp不饱和；Q=K_sp与相应饱和平衡相容；Q>K_sp有析出倾向。",
+      "纯固体量不列入K_sp，但固相存在与否影响是否能维持饱和平衡。"
+    ],
+    "examples": [
+      {
+        "q": "写CaF₂(s)⇌Ca²⁺+2F⁻的K_sp浓度近似式。 条件：溶解式已配平。",
+        "given": "溶解式已配平。",
+        "analysis": "系数成为指数。",
+        "method": "按离子积。",
+        "principle": "溶解平衡表达式。",
+        "steps": [
+          "Ca²⁺项一次。",
+          "F⁻项二次。"
+        ],
+        "ans": "K_sp=[Ca²⁺][F⁻]²。",
+        "verification": "电荷+2与2×−1相抵。",
+        "pitfall": "写成[Ca²⁺]×2[F⁻]。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.1.2",
+        "related_sections": []
+      },
+      {
+        "q": "题设某AB盐K_sp=1.0×10⁻¹⁰，当前自由离子[A]=[B]=1.0×10⁻⁴ mol/L，判断。 条件：同温、稀溶液近似。",
+        "given": "同温、稀溶液近似。",
+        "analysis": "Q与K比较。",
+        "method": "计算乘积。",
+        "principle": "离子积判据。",
+        "steps": [
+          "Q=10⁻⁴×10⁻⁴=10⁻⁸。",
+          "Q>K_sp=10⁻¹⁰，存在析出倾向。"
+        ],
+        "ans": "热力学上过饱和，有沉淀倾向。",
+        "verification": "不能据此给出未经动力学验证的立即成核时间。",
+        "pitfall": "将Q大直接说更易继续溶解。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.1.2",
+        "related_sections": []
+      },
+      {
+        "q": "只加入极少盐后全部溶解且Q<K_sp，是否必须继续提高离子浓度至K_sp？ 条件：已无剩余固体且没有继续加料。",
+        "given": "已无剩余固体且没有继续加料。",
+        "analysis": "固体不足不能自动产生新离子。",
+        "method": "检查物料和相存在。",
+        "principle": "不饱和溶液可稳定存在。",
+        "steps": [
+          "无固相可继续供给离子。",
+          "溶液可以保持低于饱和的浓度。"
+        ],
+        "ans": "不必须。",
+        "verification": "平衡饱和值不是每份盐水都强制达到的固定浓度。",
+        "pitfall": "忽略已无固体而强令Q=K_sp。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.1.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "AB盐Q=K_sp时微观溶解是否必停止？ 条件：有相应纯固相。",
+        "given": "有相应纯固相。",
+        "analysis": "动态过程可相等。",
+        "method": "比较速率。",
+        "principle": "动态平衡。",
+        "steps": [
+          "溶解和析出可继续。",
+          "净量为0。"
+        ],
+        "ans": "不必停止。",
+        "verification": "与化学平衡同样区分各向与净量。",
+        "pitfall": "净零即所有过程零。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.1.2",
+        "related_sections": []
+      },
+      {
+        "q": "固定温度增加已存在固体的质量会直接改K_sp吗？ 条件：固相保持且无其他变化。",
+        "given": "固相保持且无其他变化。",
+        "analysis": "常数不含固体质量项。",
+        "method": "按定义。",
+        "principle": "纯相活度近似1。",
+        "steps": [
+          "表达式仍原式。",
+          "K_sp在该温度不因此改变。"
+        ],
+        "ans": "不会。",
+        "verification": "增大表面可影响达到时间但非该常数。",
+        "pitfall": "固体越多K_sp越大。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.1.2",
+        "related_sections": []
+      },
+      {
+        "q": "Mg(OH)₂溶解式中OH⁻系数与K_sp指数多少？ 条件：Mg²⁺电荷+2。",
+        "given": "Mg²⁺电荷+2。",
+        "analysis": "需两OH⁻配平。",
+        "method": "配平电荷。",
+        "principle": "离子计量。",
+        "steps": [
+          "Mg(OH)₂⇌Mg²⁺+2OH⁻。",
+          "OH⁻指数2。"
+        ],
+        "ans": "系数2、指数2。",
+        "verification": "总电荷0。",
+        "pitfall": "只写一个OH⁻。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.1.2",
+        "related_sections": []
+      },
+      {
+        "q": "Q>K_sp却暂时无可见沉淀，能直接说热力学判据错误吗？ 条件：成核和检测有限。",
+        "given": "成核和检测有限。",
+        "analysis": "动力学与可见性不同。",
+        "method": "核观察限制。",
+        "principle": "过饱和可有成核延迟。",
+        "steps": [
+          "可能尚未形成可见颗粒。",
+          "也需检查计算和检测，但暂不可见不单独反证判据。"
+        ],
+        "ans": "不能仅此断言。",
+        "verification": "热力学不提供瞬时成核时间。",
+        "pitfall": "把肉眼观察当无限灵敏即时测量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.1.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "溶液中金属离子有一部分与配体结合，能否用金属总分析浓度直接代自由离子K_sp项？ 条件：络合态与游离态不同。",
+      "given": "络合态与游离态不同。",
+      "analysis": "有效平衡物种需按定义。",
+      "method": "区分总量和自由浓度。",
+      "principle": "活度/自由离子关系。",
+      "steps": [
+        "总分析量含已结合物种。",
+        "K_sp相应项要求所写游离离子，需考虑络合平衡。"
+      ],
+      "ans": "不能无条件直接代入。",
+      "verification": "否则可高估自由离子积。",
+      "pitfall": "将所有含金属物种都当同一个离子。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 22,
+      "primary_section": "22.1.2",
+      "related_sections": []
+    },
+    "exam": [
+      "先配平溶解式和物态，再写离子幂",
+      "Q/K判断用同温自由离子浓度，不混总分析量",
+      "方向结论注明热力学倾向，不捏造立即可见沉淀或成核时间"
+    ],
+    "quick": [
+      "固相与离子",
+      "动态平衡",
+      "K_sp",
+      "自由离子积Q",
+      "热力学与成核"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 10,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_22.1.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/15-1-precipitation-and-dissolution",
+        "page_or_section": "15-1-precipitation-and-dissolution",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 10,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_22.1.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/15-1-precipitation-and-dissolution",
+        "page_or_section": "15-1-precipitation-and-dissolution",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先配平溶解式和物态，再写离子幂",
+      "method": "检查物料和相存在。",
+      "principle": "不饱和溶液可稳定存在。",
+      "worked_example_index": 2,
+      "verification": "平衡饱和值不是每份盐水都强制达到的固定浓度。",
+      "pitfall": "忽略已无固体而强令Q=K_sp。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“以溶解与析出速率解释饱和动态平衡”的抽样复核：电荷+2与2×−1相抵。；若出现“写成[Ca²⁺]×2[F⁻]。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“写出K_sp并用Q限定方向和模型”的抽样复核：平衡饱和值不是每份盐水都强制达到的固定浓度。；若出现“忽略已无固体而强令Q=K_sp。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "将所有含金属物种都当同一个离子。",
+        "correction": "不能无条件直接代入。",
+        "verification": "否则可高估自由离子积。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "溶解动态平衡与Q判据",
+      "objects": [
+        "配平溶解式",
+        "固相与溶液离子",
+        "K_sp与Q比较",
+        "浓度/混合体积条件"
+      ],
+      "relations": [
+        "CaF₂释1Ca²⁺和2F⁻",
+        "固体不列质量项",
+        "Q与K_sp分三种",
+        "析出倾向不等于瞬时可见"
+      ],
+      "labels": [
+        "CaF₂(s)",
+        "Ca²⁺",
+        "F⁻",
+        "Q<K_sp",
+        "Q=K_sp",
+        "Q>K_sp"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "旧沉淀图须核离子计量和自由离子条件；不同数据不机械替换",
+      "english": "Construct an exact solubility-equilibrium teaching diagram. Balance charge and atoms. Keep solid amount, molar solubility and free-ion concentration distinct. Dilute mixed solutions using total volume before comparing Q with Ksp. State temperature and dilute-solution assumptions. Supersaturation gives a thermodynamic tendency, not a guaranteed instantaneous kinetic event."
+    }
+  },
+  "22.1.3": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 22,
+    "section_id": "22.1.3",
+    "goals": [
+      "按溶解计量由s写出自由离子浓度",
+      "区分不同计量盐与共同离子条件"
+    ],
+    "prerequisites": [
+      "K_sp",
+      "摩尔浓度和化学计量"
+    ],
+    "flow": [
+      "摩尔溶解度s",
+      "计量浓度",
+      "K_sp幂式",
+      "单位转换",
+      "条件与回代"
+    ],
+    "concept_relation": "摩尔溶解度s；计量浓度；K_sp幂式；单位转换；条件与回代",
+    "deep": [
+      "K_sp大小不能在所有盐之间直接作溶解度排序，因为不同计量的s幂次与系数不同。只有在相同温度、相同计量形式及适当相同条件等前提下，较大K_sp才有相应较大s的简单比较。",
+      "若水中已有共同离子、发生酸碱反应或络合，[A]=ms等关系要加背景量或其他平衡。尤其对含OH⁻等离子且很低浓度的体系，溶剂自电离也可能不可忽略；此时纯水简单幂式只是有条件近似。",
+      "答案需回代K_sp并检查离子比和质量守恒。对于近似共同离子计算，应检验新溶出贡献是否确实远小于背景浓度，不可只因为背景有一个小数就自动忽略。说“溶解度”时注明是mol/L还是g及对应温度条件。"
+    ],
+    "derive": [
+      "纯水、仅该盐供离子且无副平衡：A_mB_n的K_sp=(ms)^m(ns)^n。",
+      "AB：K_sp=s²；AB₂：K_sp=s(2s)²=4s³。",
+      "质量浓度g/L=sM；每100g溶剂与每L溶液不能直接互换。"
+    ],
+    "examples": [
+      {
+        "q": "题设AB盐K_sp=1.0×10⁻¹⁰，纯水且无副平衡，求s。 条件：AB⇌A+B。",
+        "given": "AB⇌A+B。",
+        "analysis": "两离子各为s。",
+        "method": "平方根。",
+        "principle": "K_sp=s²。",
+        "steps": [
+          "s²=10⁻¹⁰。",
+          "s=1.0×10⁻⁵ mol/L，取非负。"
+        ],
+        "ans": "1.0×10⁻⁵ mol/L。",
+        "verification": "两离子积回得10⁻¹⁰。",
+        "pitfall": "直接令s=K_sp。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.1.3",
+        "related_sections": []
+      },
+      {
+        "q": "题设AB₂盐K_sp=4.0×10⁻¹²，纯水无副平衡，求s及B浓度。 条件：A与B生成1:2。",
+        "given": "A与B生成1:2。",
+        "analysis": "B=2s不等s。",
+        "method": "4s³关系。",
+        "principle": "溶解计量。",
+        "steps": [
+          "4s³=4×10⁻¹²，s³=10⁻¹²。",
+          "s=10⁻⁴，[B]=2×10⁻⁴ mol/L。"
+        ],
+        "ans": "s=1.0×10⁻⁴；[B]=2.0×10⁻⁴ mol/L。",
+        "verification": "10⁻⁴×(2×10⁻⁴)²=4×10⁻¹²。",
+        "pitfall": "套AB的平方根。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.1.3",
+        "related_sections": []
+      },
+      {
+        "q": "盐摩尔质量100 g/mol，s=2.0×10⁻⁴ mol/L，求每升溶解质量。 条件：给的是摩尔溶解度。",
+        "given": "给的是摩尔溶解度。",
+        "analysis": "质量=物质的量×M。",
+        "method": "单位转换。",
+        "principle": "m=nM。",
+        "steps": [
+          "1 L中n=2.0×10⁻⁴ mol。",
+          "m=2.0×10⁻⁴×100=0.020 g。"
+        ],
+        "ans": "0.020 g/L。",
+        "verification": "除以100 g/mol可还原s。",
+        "pitfall": "把mol/L与g/L数值直接相同。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.1.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "A₂B₃纯水中A、B浓度分别用s怎样表示？ 条件：无其他离子源和副平衡。",
+        "given": "无其他离子源和副平衡。",
+        "analysis": "计量2:3。",
+        "method": "按溶解量换算。",
+        "principle": "物质守恒。",
+        "steps": [
+          "每溶1份盐生2份A、3份B。",
+          "[A]=2s、[B]=3s。"
+        ],
+        "ans": "2s与3s。",
+        "verification": "K_sp=(2s)²(3s)³。",
+        "pitfall": "都写s。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.1.3",
+        "related_sections": []
+      },
+      {
+        "q": "AB₂盐纯水K_sp可写2s²吗？ 条件：相应离子浓度s、2s。",
+        "given": "相应离子浓度s、2s。",
+        "analysis": "指数不能省略。",
+        "method": "代完整式。",
+        "principle": "K_sp=[A][B]²。",
+        "steps": [
+          "s(2s)²。",
+          "等于4s³。"
+        ],
+        "ans": "不可，应4s³。",
+        "verification": "幂次总和3。",
+        "pitfall": "只把系数2乘进去。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.1.3",
+        "related_sections": []
+      },
+      {
+        "q": "两盐计量不同，K_sp较大的就必定摩尔溶解度较大吗？ 条件：同温但计量不同。",
+        "given": "同温但计量不同。",
+        "analysis": "s与K关系不同。",
+        "method": "比较幂式。",
+        "principle": "溶解度与计量有关。",
+        "steps": [
+          "一盐可能s²，另一盐可能4s³。",
+          "需分别算s，不能只比K。"
+        ],
+        "ans": "不一定。",
+        "verification": "数值的直接大小不等同统一s排序。",
+        "pitfall": "跨计量直接排序。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.1.3",
+        "related_sections": []
+      },
+      {
+        "q": "溶液已有0.10 mol/L共同离子B，AB溶解后[B]仍可直接写s吗？ 条件：背景B不可忽略。",
+        "given": "背景B不可忽略。",
+        "analysis": "总自由B有初始贡献。",
+        "method": "列初始加变化。",
+        "principle": "质量守恒。",
+        "steps": [
+          "[B]=0.10+s，若无其他反应。",
+          "不是s。"
+        ],
+        "ans": "不能。",
+        "verification": "s只对应新溶出量。",
+        "pitfall": "忽略共同离子初始量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.1.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "已知某盐溶解度为每100g水2g，可否直接写s=2/M mol/L？ 条件：未给溶液体积或密度。",
+      "given": "未给溶液体积或密度。",
+      "analysis": "分母口径不同。",
+      "method": "检查单位。",
+      "principle": "mol/L以溶液升数为基准。",
+      "steps": [
+        "2/M给每100g水所溶的mol数。",
+        "需溶液体积才能换mol/L。"
+      ],
+      "ans": "不能直接这样写。",
+      "verification": "100g溶剂并非1L溶液。",
+      "pitfall": "把溶剂质量当溶液体积。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 22,
+      "primary_section": "22.1.3",
+      "related_sections": []
+    },
+    "exam": [
+      "求s先写配平溶解式与各离子浓度，不背错幂次",
+      "比较溶解性先查计量和背景离子，再分别算s",
+      "报告单位与温度口径，用原K_sp回代验算"
+    ],
+    "quick": [
+      "摩尔溶解度s",
+      "计量浓度",
+      "K_sp幂式",
+      "单位转换",
+      "条件与回代"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 10,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_22.1.3",
+        "url": "https://openstax.org/books/chemistry-2e/pages/15-1-precipitation-and-dissolution",
+        "page_or_section": "15-1-precipitation-and-dissolution",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 10,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_22.1.3",
+        "url": "https://openstax.org/books/chemistry-2e/pages/15-1-precipitation-and-dissolution",
+        "page_or_section": "15-1-precipitation-and-dissolution",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "求s先写配平溶解式与各离子浓度，不背错幂次",
+      "method": "单位转换。",
+      "principle": "m=nM。",
+      "worked_example_index": 2,
+      "verification": "除以100 g/mol可还原s。",
+      "pitfall": "把mol/L与g/L数值直接相同。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“按溶解计量由s写出自由离子浓度”的抽样复核：两离子积回得10⁻¹⁰。；若出现“直接令s=K_sp。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分不同计量盐与共同离子条件”的抽样复核：除以100 g/mol可还原s。；若出现“把mol/L与g/L数值直接相同。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把溶剂质量当溶液体积。",
+        "correction": "不能直接这样写。",
+        "verification": "100g溶剂并非1L溶液。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "摩尔溶解度的计量换算",
+      "objects": [
+        "配平溶解式",
+        "固相与溶液离子",
+        "K_sp与Q比较",
+        "浓度/混合体积条件"
+      ],
+      "relations": [
+        "AB离子各s",
+        "AB₂对应s和2s",
+        "K_sp分别s²和4s³",
+        "背景离子须另外相加"
+      ],
+      "labels": [
+        "s/(mol·L⁻¹)",
+        "[A]=s",
+        "[B]=2s",
+        "K_sp=4s³"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "旧沉淀图须核离子计量和自由离子条件；不同数据不机械替换",
+      "english": "Construct an exact solubility-equilibrium teaching diagram. Balance charge and atoms. Keep solid amount, molar solubility and free-ion concentration distinct. Dilute mixed solutions using total volume before comparing Q with Ksp. State temperature and dilute-solution assumptions. Supersaturation gives a thermodynamic tendency, not a guaranteed instantaneous kinetic event."
+    }
+  },
+  "22.2": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 22,
+    "section_id": "22.2",
+    "goals": [
+      "解释共同离子、酸碱及络合改变溶解度",
+      "判断K_sp保持与模型失效的边界"
+    ],
+    "prerequisites": [
+      "本章K_sp和溶解度",
+      "动态平衡"
+    ],
+    "flow": [
+      "操作",
+      "自由离子",
+      "Q改变",
+      "耦合调整",
+      "近似与终态"
+    ],
+    "concept_relation": "操作；自由离子；Q改变；耦合调整；近似与终态",
+    "deep": [
+      "络合也可降低某游离金属离子浓度，使固体继续溶解来满足K_sp。此时总溶解金属量可增大，而游离金属离子仍较低；若把总分析浓度直接代K_sp，会得错误结论。具体配体、络合强度和竞争反应需题设资料。",
+      "温度变化可能改变K_sp，但方向依溶解过程热效应和实际数据，不应一律说加热所有盐都更易溶。粒度和搅拌主要影响达到过程；在相同物态、平衡条件等模型下，不可直接把加速溶解等同提高平衡溶解度。",
+      "作题先列操作改变哪一个自由物种及是否引入耦合反应，再判断K_sp是否因温度变而改变。近似计算要标明忽略项并后验；真实高离子强度等情况可能需要活度修正，不把高中浓度模型的趋势无条件推广到任意浓溶液。"
+    ],
+    "derive": [
+      "AB在背景B浓度c₀中：s(c₀+s)=K_sp；s≪c₀时s≈K_sp/c₀。",
+      "自由离子被酸碱或络合平衡消耗，可使更多固体溶解而同温K_sp不变。",
+      "加热对K_sp和s的方向依体系，不是所有盐统一增加。"
+    ],
+    "examples": [
+      {
+        "q": "AB盐题设K_sp=10⁻¹⁰，在B背景0.10 mol/L中求s的共同离子近似并验合理性。 条件：同温稀溶液模型，无副平衡。",
+        "given": "同温稀溶液模型，无副平衡。",
+        "analysis": "背景远大于预期s。",
+        "method": "s≈K_sp/c₀。",
+        "principle": "s(c₀+s)=K_sp。",
+        "steps": [
+          "s≈10⁻¹⁰/0.10=10⁻⁹ mol/L。",
+          "s/c₀=10⁻⁸，忽略s相对背景自洽。"
+        ],
+        "ans": "约10⁻⁹ mol/L。",
+        "verification": "乘0.10约回得10⁻¹⁰；纯水s=10⁻⁵，显著较大。",
+        "pitfall": "共同离子使K_sp本身减小。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.2",
+        "related_sections": []
+      },
+      {
+        "q": "某难溶碳酸盐加酸后溶解增多，如何用自由离子解释，而不说K_sp必变大？ 条件：温度固定，酸能消耗所溶出的碳酸根相关物种。",
+        "given": "温度固定，酸能消耗所溶出的碳酸根相关物种。",
+        "analysis": "另一个平衡降低自由阴离子。",
+        "method": "耦合平衡。",
+        "principle": "离子移除促溶解。",
+        "steps": [
+          "酸反应降低自由碳酸根活度。",
+          "固体可继续溶解，使相应自由离子积回到K_sp条件。"
+        ],
+        "ans": "自由离子被消耗而促进溶解；K_sp同温不必改变。",
+        "verification": "总反应含酸碱过程，不能只看一个孤立溶解式。",
+        "pitfall": "所有促溶都解释成K_sp增大。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.2",
+        "related_sections": []
+      },
+      {
+        "q": "加入配体后总溶解金属增加，但游离金属浓度降低，这与K_sp矛盾吗？ 条件：配体能形成相应络合物。",
+        "given": "配体能形成相应络合物。",
+        "analysis": "总量和自由量不同。",
+        "method": "分别列物种。",
+        "principle": "络合与溶解耦合。",
+        "steps": [
+          "金属进入络合态，使游离项下降。",
+          "更多固体可溶解，K_sp仍由自由离子决定。"
+        ],
+        "ans": "不矛盾。",
+        "verification": "将总金属量代自由离子项才会制造假矛盾。",
+        "pitfall": "总金属多就认为游离金属必多。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "搅拌使更快达到饱和，是否自动使平衡s增加？ 条件：温度等条件不变。",
+        "given": "温度等条件不变。",
+        "analysis": "快慢不同于终态。",
+        "method": "分动力学与平衡。",
+        "principle": "传质加快不必改K_sp。",
+        "steps": [
+          "搅拌可改善接触和传质。",
+          "同模型平衡溶解度未因此必变。"
+        ],
+        "ans": "不自动。",
+        "verification": "平台达到更早不代表平台更高。",
+        "pitfall": "把溶解速度当溶解度。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.2",
+        "related_sections": []
+      },
+      {
+        "q": "任何盐加酸都必溶解更多吗？ 条件：离子与副反应未知。",
+        "given": "离子与副反应未知。",
+        "analysis": "缺少可消耗物种信息。",
+        "method": "检查具体平衡。",
+        "principle": "酸碱耦合有对象。",
+        "steps": [
+          "若酸不有效消耗相应离子，不能套该机制。",
+          "还可能有共同离子或其他效应。"
+        ],
+        "ans": "不能一概而论。",
+        "verification": "需按盐与酸的实际物种判断。",
+        "pitfall": "把碳酸盐例子泛化全部盐。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.2",
+        "related_sections": []
+      },
+      {
+        "q": "加共同离子但温度未变，K_sp是否因此改变？ 条件：同一溶解反应。",
+        "given": "同一溶解反应。",
+        "analysis": "组成影响Q和s。",
+        "method": "区分常数。",
+        "principle": "同温K_sp。",
+        "steps": [
+          "K_sp仍原值。",
+          "自由浓度重新调整。"
+        ],
+        "ans": "不因此改变。",
+        "verification": "可有s下降而K_sp不变。",
+        "pitfall": "认为溶解度变必是K_sp变。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.2",
+        "related_sections": []
+      },
+      {
+        "q": "s≈K_sp/c₀算得s接近c₀，还可保留忽略s近似吗？ 条件：使用的条件是s≪c₀。",
+        "given": "使用的条件是s≪c₀。",
+        "analysis": "后验失败。",
+        "method": "回原式。",
+        "principle": "近似自洽性。",
+        "steps": [
+          "s与c₀同量级。",
+          "必须解s(c₀+s)=K_sp或更完整模型。"
+        ],
+        "ans": "不可继续无条件采用。",
+        "verification": "近似前提不满足。",
+        "pitfall": "只要有背景就永远忽略新溶出。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "加热使某盐更易溶，是否能推出所有难溶盐升温都会提高s？ 条件：各溶解过程热效应不同。",
+      "given": "各溶解过程热效应不同。",
+      "analysis": "单例不支持全称。",
+      "method": "检查体系差异。",
+      "principle": "K随T依反应热关系。",
+      "steps": [
+        "不同体系K_sp随温度趋势可不同。",
+        "应查该盐数据或题设热效应。"
+      ],
+      "ans": "不能。",
+      "verification": "一个温区趋势也未必无限延续。",
+      "pitfall": "把常见经验当所有盐定律。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 22,
+      "primary_section": "22.2",
+      "related_sections": []
+    },
+    "exam": [
+      "促溶/沉淀题先指出改变的自由物种和耦合反应",
+      "共同离子计算先列完整式再近似，最后验s/c₀",
+      "温度、搅拌和配体分机制回答，避免全部写成K_sp变大"
+    ],
+    "quick": [
+      "操作",
+      "自由离子",
+      "Q改变",
+      "耦合调整",
+      "近似与终态"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 10,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_22.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/15-1-precipitation-and-dissolution",
+        "page_or_section": "15-1-precipitation-and-dissolution",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 10,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_22.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/15-1-precipitation-and-dissolution",
+        "page_or_section": "15-1-precipitation-and-dissolution",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "促溶/沉淀题先指出改变的自由物种和耦合反应",
+      "method": "分别列物种。",
+      "principle": "络合与溶解耦合。",
+      "worked_example_index": 2,
+      "verification": "将总金属量代自由离子项才会制造假矛盾。",
+      "pitfall": "总金属多就认为游离金属必多。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“解释共同离子、酸碱及络合改变溶解度”的抽样复核：乘0.10约回得10⁻¹⁰；纯水s=10⁻⁵，显著较大。；若出现“共同离子使K_sp本身减小。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“判断K_sp保持与模型失效的边界”的抽样复核：将总金属量代自由离子项才会制造假矛盾。；若出现“总金属多就认为游离金属必多。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把常见经验当所有盐定律。",
+        "correction": "不能。",
+        "verification": "一个温区趋势也未必无限延续。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "共同离子和络合的不同作用",
+      "objects": [
+        "配平溶解式",
+        "固相与溶液离子",
+        "K_sp与Q比较",
+        "浓度/混合体积条件"
+      ],
+      "relations": [
+        "共同离子增大自由一项抑制溶解",
+        "络合降低自由金属可促溶",
+        "两者同温K_sp不必改变"
+      ],
+      "labels": [
+        "K_sp固定T",
+        "c₀+s",
+        "自由离子",
+        "络合态",
+        "总分析浓度"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "旧沉淀图须核离子计量和自由离子条件；不同数据不机械替换",
+      "english": "Construct an exact solubility-equilibrium teaching diagram. Balance charge and atoms. Keep solid amount, molar solubility and free-ion concentration distinct. Dilute mixed solutions using total volume before comparing Q with Ksp. State temperature and dilute-solution assumptions. Supersaturation gives a thermodynamic tendency, not a guaranteed instantaneous kinetic event."
+    }
+  },
+  "22.3": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 22,
+    "section_id": "22.3",
+    "goals": [
+      "混合后先计算自由离子积再判断",
+      "用起沉阈值设计有条件的选择性沉淀"
+    ],
+    "prerequisites": [
+      "浓度与混合体积",
+      "K_sp和不等式"
+    ],
+    "flow": [
+      "混合量",
+      "自由浓度",
+      "Q/K_sp",
+      "起沉阈值",
+      "窗口与残余"
+    ],
+    "concept_relation": "混合量；自由浓度；Q/K_sp；起沉阈值；窗口与残余",
+    "deep": [
+      "选择窗口意味着第一种已开始沉淀而第二种尚未达到阈值，不代表第一种已经完全除去。若题问分离程度，要计算第二种起沉时第一种剩余自由离子，并据此估计去除比例；“先沉淀”与“定量分离”是不同要求。",
+      "随着第一种沉淀析出，其自由金属浓度下降，不能在全过程中把它固定在初始值。配体、pH、共同离子及沉淀剂加入体积也可能改变窗口。题目给简化定容和自由离子模型时应注明，现实体系需更完整分析。",
+      "答题列混合前量、混合后浓度、Q、K_sp及比较，或列各盐起沉阈值与允许区间。结论写是哪一种盐、在何条件下有倾向，必要时提醒可见性和动力学限制；不虚构具体实验安全性或实际分离纯度。"
+    ],
+    "derive": [
+      "混合瞬间c_i=n_i/V_total，在无副反应等题设条件下使用。",
+      "AB盐起沉阈值[B]=K_sp/[A]；AB₂为[B]=√(K_sp/[A])。",
+      "选择性窗口须同时满足第一盐Q>K_sp、第二盐Q<K_sp；起沉不等于完全分离。"
+    ],
+    "examples": [
+      {
+        "q": "等体积0.0020 mol/L Ag⁺和0.0020 mol/L Cl⁻溶液混合，题设K_sp(AgCl)=10⁻¹⁰，判断。 条件：体积可相加，无络合。",
+        "given": "体积可相加，无络合。",
+        "analysis": "混合后各浓度减半。",
+        "method": "先稀释再求Q。",
+        "principle": "离子积判据。",
+        "steps": [
+          "[Ag⁺]=[Cl⁻]=0.0010 mol/L。",
+          "Q=10⁻⁶>10⁻¹⁰，有AgCl析出倾向。"
+        ],
+        "ans": "有析出倾向。",
+        "verification": "原瓶浓度直接相乘会给4倍的错误Q。",
+        "pitfall": "不计总体积。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.3",
+        "related_sections": []
+      },
+      {
+        "q": "某AB盐K_sp=10⁻¹⁰，[A]=0.010 mol/L，在该初始自由A近似不变时B起沉阈值？ 条件：只求开始时阈值。",
+        "given": "只求开始时阈值。",
+        "analysis": "令Q等于K_sp。",
+        "method": "解[A][B]=K_sp。",
+        "principle": "饱和边界。",
+        "steps": [
+          "[B]=10⁻¹⁰/0.010。",
+          "得10⁻⁸ mol/L。"
+        ],
+        "ans": "10⁻⁸ mol/L。",
+        "verification": "乘0.010回得10⁻¹⁰。",
+        "pitfall": "把K_sp当阈值本身。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.3",
+        "related_sections": []
+      },
+      {
+        "q": "题设两金属各0.010 mol/L，AX的K_sp=10⁻¹⁰，BX₂的K_sp=10⁻⁵，求X自由浓度为10⁻⁴时哪种开始有析出倾向。 条件：同温、无其他平衡，先按给定自由金属初值检方向。",
+        "given": "同温、无其他平衡，先按给定自由金属初值检方向。",
+        "analysis": "各自计量不同。",
+        "method": "分别算Q。",
+        "principle": "各盐独立比较K_sp。",
+        "steps": [
+          "AX：Q=0.010×10⁻⁴=10⁻⁶>10⁻¹⁰。",
+          "BX₂：Q=0.010×(10⁻⁴)²=10⁻¹⁰<10⁻⁵。"
+        ],
+        "ans": "AX有析出倾向，BX₂未达阈值。",
+        "verification": "BX₂起沉X=√(10⁻⁵/0.010)≈0.0316 mol/L。",
+        "pitfall": "两个盐都按一次X处理。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "50 mL、0.020 mol/L离子溶液混入150 mL不含该离子的水，初始混合浓度？ 条件：无反应，体积相加。",
+        "given": "无反应，体积相加。",
+        "analysis": "n守恒。",
+        "method": "c₁V₁/V总。",
+        "principle": "稀释。",
+        "steps": [
+          "n=0.020×0.050=0.0010 mol。",
+          "c=0.0010/0.200=0.0050 mol/L。"
+        ],
+        "ans": "0.0050 mol/L。",
+        "verification": "体积变4倍，浓度1/4。",
+        "pitfall": "只用加入水150 mL作分母。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.3",
+        "related_sections": []
+      },
+      {
+        "q": "Q=10⁻¹²、K_sp=10⁻¹⁰，对该盐有析出倾向吗？ 条件：相同温度定义。",
+        "given": "相同温度定义。",
+        "analysis": "低于饱和。",
+        "method": "比较指数。",
+        "principle": "Q<K_sp。",
+        "steps": [
+          "10⁻¹²<10⁻¹⁰。",
+          "未达饱和。"
+        ],
+        "ans": "按该模型无析出倾向。",
+        "verification": "若有固体可能继续溶解。",
+        "pitfall": "负指数绝对值大就认为数值大。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.3",
+        "related_sections": []
+      },
+      {
+        "q": "AB₂起沉条件能否写[B]=K_sp/[A]？ 条件：K_sp=[A][B]²。",
+        "given": "K_sp=[A][B]²。",
+        "analysis": "需要开平方。",
+        "method": "解方程。",
+        "principle": "计量指数。",
+        "steps": [
+          "[B]²=K_sp/[A]。",
+          "[B]=√(K_sp/[A])，取非负。"
+        ],
+        "ans": "不能，应平方根。",
+        "verification": "代回原式核验。",
+        "pitfall": "漏二次幂。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.3",
+        "related_sections": []
+      },
+      {
+        "q": "先沉淀的盐是否自动已被完全除去？ 条件：只是刚过饱和。",
+        "given": "只是刚过饱和。",
+        "analysis": "仍有残余自由离子。",
+        "method": "区分起沉和去除比例。",
+        "principle": "溶解平衡。",
+        "steps": [
+          "起沉时仅达到阈值。",
+          "后续残余量仍须结合K_sp与物料求。"
+        ],
+        "ans": "不是。",
+        "verification": "有限K_sp一般仍有溶解部分。",
+        "pitfall": "先后顺序代替定量分离。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "当第一种盐持续沉淀时，能否永远将其自由金属浓度当初始值求所有后续阈值和质量？ 条件：沉淀消耗该自由离子。",
+      "given": "沉淀消耗该自由离子。",
+      "analysis": "过程状态会改变。",
+      "method": "列质量守恒。",
+      "principle": "析出与剩余浓度耦合。",
+      "steps": [
+        "初值只适合起始近似或明确条件。",
+        "后续需用实际剩余自由浓度与K_sp共同求解。"
+      ],
+      "ans": "不能无条件固定。",
+      "verification": "否则可预测析出超过初始物料。",
+      "pitfall": "全程沿用初值而不守物料。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 22,
+      "primary_section": "22.3",
+      "related_sections": []
+    },
+    "exam": [
+      "混合题先算mol和总体积，之后才算Q",
+      "选择性题给各盐单独阈值，再写共同允许窗口",
+      "若要求分离效率，继续算残余，不把“先起沉”当“完全去除”"
+    ],
+    "quick": [
+      "混合量",
+      "自由浓度",
+      "Q/K_sp",
+      "起沉阈值",
+      "窗口与残余"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 10,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_22.3",
+        "url": "https://openstax.org/books/chemistry-2e/pages/15-1-precipitation-and-dissolution",
+        "page_or_section": "15-1-precipitation-and-dissolution",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 10,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_22.3",
+        "url": "https://openstax.org/books/chemistry-2e/pages/15-1-precipitation-and-dissolution",
+        "page_or_section": "15-1-precipitation-and-dissolution",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "混合题先算mol和总体积，之后才算Q",
+      "method": "分别算Q。",
+      "principle": "各盐独立比较K_sp。",
+      "worked_example_index": 2,
+      "verification": "BX₂起沉X=√(10⁻⁵/0.010)≈0.0316 mol/L。",
+      "pitfall": "两个盐都按一次X处理。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“混合后先计算自由离子积再判断”的抽样复核：原瓶浓度直接相乘会给4倍的错误Q。；若出现“不计总体积。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用起沉阈值设计有条件的选择性沉淀”的抽样复核：BX₂起沉X=√(10⁻⁵/0.010)≈0.0316 mol/L。；若出现“两个盐都按一次X处理。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "全程沿用初值而不守物料。",
+        "correction": "不能无条件固定。",
+        "verification": "否则可预测析出超过初始物料。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "混合稀释与选择窗口",
+      "objects": [
+        "配平溶解式",
+        "固相与溶液离子",
+        "K_sp与Q比较",
+        "浓度/混合体积条件"
+      ],
+      "relations": [
+        "等体积混合浓度减半",
+        "AB与AB₂阈值公式不同",
+        "选择窗口不等于第一盐完全除去"
+      ],
+      "labels": [
+        "V_total",
+        "Q",
+        "K_sp",
+        "起沉阈值",
+        "自由离子",
+        "残余浓度"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "旧沉淀图须核离子计量和自由离子条件；不同数据不机械替换",
+      "english": "Construct an exact solubility-equilibrium teaching diagram. Balance charge and atoms. Keep solid amount, molar solubility and free-ion concentration distinct. Dilute mixed solutions using total volume before comparing Q with Ksp. State temperature and dilute-solution assumptions. Supersaturation gives a thermodynamic tendency, not a guaranteed instantaneous kinetic event."
+    }
+  },
+  "22.4": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 22,
+    "section_id": "22.4",
+    "goals": [
+      "由耦合溶解平衡推导转化反应常数",
+      "按离子条件判断方向而非只比难溶标签"
+    ],
+    "prerequisites": [
+      "K_sp变换",
+      "Q与K及质量守恒"
+    ],
+    "flow": [
+      "原固体溶解",
+      "新固体析出",
+      "总式与K",
+      "Q判断",
+      "物料及动力学"
+    ],
+    "concept_relation": "原固体溶解；新固体析出；总式与K；Q判断；物料及动力学",
+    "deep": [
+      "不同计量沉淀之间的转化必须先配平，再按各反应的倍式与反向关系组合常数。直接拿两个不同类型K_sp相除而不处理计量，可能得到错误的K和反应式；比较溶解性本来就不只看K_sp原数值。",
+      "完整转化还受加入物料量、平衡残余、固相是否仍存在和动力学等限制。即使K很大，转化所需离子不足时也不可能超过计量上限。生成新固体的包覆等实际过程还可能影响达到速度，不由热力学K直接给出时间。",
+      "作答从两个溶解式相加开始，检查电荷与原子守恒，写总K、Q和方向，再用物料约束评价“完全”。图示将旧固相、溶液自由离子和新固相分开，不把任何颜色变化当作无需鉴别的新物质唯一证明。"
+    ],
+    "derive": [
+      "AgCl(s)⇌Ag⁺+Cl⁻，K₁；Ag⁺+Br⁻⇌AgBr(s)，K₂逆=1/K₂。",
+      "相加得AgCl(s)+Br⁻⇌AgBr(s)+Cl⁻，K=K₁/K₂。",
+      "Q=[Cl⁻]/[Br⁻]（相应活度近似）；Q<K正向，物料仍须守恒。"
+    ],
+    "examples": [
+      {
+        "q": "题设K_sp(AgCl)=10⁻¹⁰、K_sp(AgBr)=10⁻¹³，同温下求AgCl(s)+Br⁻⇌AgBr(s)+Cl⁻的K。 条件：使用相同活度/浓度近似，纯固相取1。",
+        "given": "使用相同活度/浓度近似，纯固相取1。",
+        "analysis": "一溶解加另一反向。",
+        "method": "常数相乘。",
+        "principle": "平衡式相加规则。",
+        "steps": [
+          "K=10⁻¹⁰×1/(10⁻¹³)。",
+          "得10³。"
+        ],
+        "ans": "1000。",
+        "verification": "Ag⁺在两式相消，Cl与Br各守恒。",
+        "pitfall": "将两K相减。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.4",
+        "related_sections": []
+      },
+      {
+        "q": "对AgCl(s)+Br⁻⇌AgBr(s)+Cl⁻，K=1000，当前自由[Cl⁻]=0.10、[Br⁻]=0.010 mol/L，净方向？ 条件：纯相模型和同温。",
+        "given": "纯相模型和同温。",
+        "analysis": "实际Q决定当前方向。",
+        "method": "算离子比。",
+        "principle": "Q与K比较。",
+        "steps": [
+          "Q=0.10/0.010=10。",
+          "10<1000，净正向生成AgBr。"
+        ],
+        "ans": "正向。",
+        "verification": "正向提高Cl、降低Br，使Q升高。",
+        "pitfall": "只说更难溶却不使用给定浓度。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.4",
+        "related_sections": []
+      },
+      {
+        "q": "对AgCl(s)+Br⁻⇌AgBr(s)+Cl⁻，K=1000，若[Cl⁻]/[Br⁻]=10⁶，仍必正向吗？ 条件：两固相适用且条件明确。",
+        "given": "两固相适用且条件明确。",
+        "analysis": "Q已大于K。",
+        "method": "比较。",
+        "principle": "平衡方向。",
+        "steps": [
+          "10⁶>10³。",
+          "当前净趋势为逆向。"
+        ],
+        "ans": "不是，按该模型逆向。",
+        "verification": "反例说明难溶标签不能替代实际离子条件。",
+        "pitfall": "K大就认任何组成都正向。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "相加平衡反应时，常数一般相加还是相乘？ 条件：相同温度、匹配定义。",
+        "given": "相同温度、匹配定义。",
+        "analysis": "反应商相乘对应反应式相加。",
+        "method": "代数规则。",
+        "principle": "平衡常数组合。",
+        "steps": [
+          "Q总=Q₁Q₂。",
+          "K总=K₁K₂。"
+        ],
+        "ans": "相乘。",
+        "verification": "取反向先倒数。",
+        "pitfall": "常数与化学式一起直接相加。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.4",
+        "related_sections": []
+      },
+      {
+        "q": "反向溶解反应的常数与K_sp什么关系？ 条件：同温同物态。",
+        "given": "同温同物态。",
+        "analysis": "反应商倒数。",
+        "method": "取倒数。",
+        "principle": "反应逆向。",
+        "steps": [
+          "原K_sp为离子积。",
+          "析出逆式常数1/K_sp。"
+        ],
+        "ans": "1/K_sp。",
+        "verification": "不是−K_sp。",
+        "pitfall": "反向取负号。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.4",
+        "related_sections": []
+      },
+      {
+        "q": "0.010 mol AgCl转成AgBr至少按计量需多少Br⁻？ 条件：总式1:1，不讨论实际平衡过量需求。",
+        "given": "总式1:1，不讨论实际平衡过量需求。",
+        "analysis": "Br每份对应一份旧固体。",
+        "method": "计量换算。",
+        "principle": "配平方程。",
+        "steps": [
+          "n_Br至少计量0.010 mol。",
+          "若不足，不能全转0.010 mol。"
+        ],
+        "ans": "计量下限0.010 mol。",
+        "verification": "实际完全程度仍受平衡条件等限制。",
+        "pitfall": "K大就忽略物料不足。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.4",
+        "related_sections": []
+      },
+      {
+        "q": "K很大是否直接给出转化一秒完成？ 条件：未给速率数据。",
+        "given": "未给速率数据。",
+        "analysis": "热力学与时间不同。",
+        "method": "核量的含义。",
+        "principle": "K不是速率常数。",
+        "steps": [
+          "K描述平衡倾向。",
+          "达到速度需机制、表面积等信息。"
+        ],
+        "ans": "不能。",
+        "verification": "包覆或传质可能使过程慢。",
+        "pitfall": "用K数字作反应时间。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 22,
+        "primary_section": "22.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "两个沉淀计量不同，为什么不能不写总式就直接用K_sp比值判断转化？ 条件：需相消离子并保持原子电荷。",
+      "given": "需相消离子并保持原子电荷。",
+      "analysis": "倍式会使常数取幂。",
+      "method": "先配平再组合。",
+      "principle": "平衡反应代数。",
+      "steps": [
+        "相消所需离子数可能要求反应倍乘。",
+        "对应K也须按幂变换后相乘，不能任意原值相除。"
+      ],
+      "ans": "因为反应计量与常数变换必须匹配。",
+      "verification": "检查总式电荷守恒可发现许多错误。",
+      "pitfall": "所有沉淀转化都同一1:1比值。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 22,
+      "primary_section": "22.4",
+      "related_sections": []
+    },
+    "exam": [
+      "转化题从两个带物态溶解式推总反应，电荷原子都核",
+      "常数先按逆向和倍式处理，再相乘",
+      "给离子比时必须算Q；“完全转化”另查物料与平衡残余"
+    ],
+    "quick": [
+      "原固体溶解",
+      "新固体析出",
+      "总式与K",
+      "Q判断",
+      "物料及动力学"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 10,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_22.4",
+        "url": "https://openstax.org/books/chemistry-2e/pages/15-3-coupled-equilibria",
+        "page_or_section": "15-3-coupled-equilibria",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 10,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_22.4",
+        "url": "https://openstax.org/books/chemistry-2e/pages/15-3-coupled-equilibria",
+        "page_or_section": "15-3-coupled-equilibria",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "转化题从两个带物态溶解式推总反应，电荷原子都核",
+      "method": "比较。",
+      "principle": "平衡方向。",
+      "worked_example_index": 2,
+      "verification": "反例说明难溶标签不能替代实际离子条件。",
+      "pitfall": "K大就认任何组成都正向。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由耦合溶解平衡推导转化反应常数”的抽样复核：Ag⁺在两式相消，Cl与Br各守恒。；若出现“将两K相减。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“按离子条件判断方向而非只比难溶标签”的抽样复核：反例说明难溶标签不能替代实际离子条件。；若出现“K大就认任何组成都正向。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "所有沉淀转化都同一1:1比值。",
+        "correction": "因为反应计量与常数变换必须匹配。",
+        "verification": "检查总式电荷守恒可发现许多错误。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "沉淀转化的耦合平衡",
+      "objects": [
+        "配平溶解式",
+        "固相与溶液离子",
+        "K_sp与Q比较",
+        "浓度/混合体积条件"
+      ],
+      "relations": [
+        "两步Ag⁺相消",
+        "K=K_sp(AgCl)/K_sp(AgBr)",
+        "实际方向依Cl/Br与K比较",
+        "物料上限保留"
+      ],
+      "labels": [
+        "AgCl(s)",
+        "AgBr(s)",
+        "Ag⁺",
+        "Cl⁻",
+        "Br⁻",
+        "K=10³",
+        "Q=[Cl⁻]/[Br⁻]"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "旧沉淀图须核离子计量和自由离子条件；不同数据不机械替换",
+      "english": "Construct an exact solubility-equilibrium teaching diagram. Balance charge and atoms. Keep solid amount, molar solubility and free-ion concentration distinct. Dilute mixed solutions using total volume before comparing Q with Ksp. State temperature and dilute-solution assumptions. Supersaturation gives a thermodynamic tendency, not a guaranteed instantaneous kinetic event."
+    }
+  }
+}

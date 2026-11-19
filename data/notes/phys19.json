@@ -1,0 +1,1214 @@
+{
+  "19.1": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 19,
+    "section_id": "19.1",
+    "goals": [
+      "以折射定律和棱镜几何求偏向",
+      "区分色散与频率改变并核最小偏向条件"
+    ],
+    "prerequisites": [
+      "Snell折射定律",
+      "角度与法线"
+    ],
+    "flow": [
+      "两界面",
+      "几何角和",
+      "最小偏向",
+      "正常色散",
+      "频率波长"
+    ],
+    "concept_relation": "两界面；几何角和；最小偏向；正常色散；频率波长",
+    "deep": [
+      "普通可见光范围的正常色散中，折射率随波长不同，常见玻璃对紫光n较大、红光较小，使白光出射方向分开。不能说棱镜制造了原来不存在的颜色，也不能把所有材料所有频段都宣布同一排序，异常色散需另外条件。",
+      "在静止界面发生普通折射时频率保持，由光源和连续边界条件决定；传播速度与波长随介质改变，v=fλ。因而进入玻璃波长变短不代表颜色按真空频率被任意改成另一光源。比较色散图时应把颜色标注与折射率条件一起解释。",
+      "薄棱镜小角近似可得δ≈(n−1)A，但需所有相关角足够小，并在使用sinθ≈θ的推导中采用弧度。精确最小偏向公式可用一致角单位计算三角值。最终核光路朝基底偏折的通常情形、角和与是否有实际射出路径，不只看公式外观。"
+    ],
+    "derive": [
+      "r₁+r₂=A；δ=i+e−A，角i,r,e均相对对应法线。",
+      "最小偏向透射：i=e，r₁=r₂=A/2，n=sin[(A+δ_min)/2]/sin(A/2)。",
+      "静止界面普通折射频率不变，v=fλ；薄棱镜δ≈(n−1)A需小角近似。"
+    ],
+    "examples": [
+      {
+        "q": "棱镜A=60°，某透射路径i=50°、e=45°，求偏向角。 条件：各角按本节定义。",
+        "given": "各角按本节定义。",
+        "analysis": "偏向非出射角。",
+        "method": "几何角和。",
+        "principle": "δ=i+e−A。",
+        "steps": [
+          "δ=50+45−60。",
+          "得35°。"
+        ],
+        "ans": "35°。",
+        "verification": "i≠e说明不是该定义下的对称最小偏向情形。",
+        "pitfall": "把e=45当δ。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 19,
+        "primary_section": "19.1",
+        "related_sections": []
+      },
+      {
+        "q": "空气中棱镜A=60°、最小偏向40°，求n。 条件：单色光、对称透射，空气n近似1。",
+        "given": "单色光、对称透射，空气n近似1。",
+        "analysis": "可用最小偏向式。",
+        "method": "代角。",
+        "principle": "Snell与r=A/2。",
+        "steps": [
+          "n=sin50°/sin30°。",
+          "≈.7660/.5=1.532。"
+        ],
+        "ans": "约1.53。",
+        "verification": "n>1且i=e=50°。",
+        "pitfall": "把A+δ整个作sin而不除2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 19,
+        "primary_section": "19.1",
+        "related_sections": []
+      },
+      {
+        "q": "真空波长600 nm的光进入n=1.50介质，频率与波长？ 条件：c=3.00×10⁸ m/s，界面静止。",
+        "given": "c=3.00×10⁸ m/s，界面静止。",
+        "analysis": "频率不变，速度和波长变。",
+        "method": "先求f再v和λ。",
+        "principle": "v=fλ。",
+        "steps": [
+          "f=c/λ₀=5.00×10¹⁴ Hz，v=c/n=2.00×10⁸ m/s。",
+          "λ=v/f=4.00×10⁻⁷ m。"
+        ],
+        "ans": "f=5.00×10¹⁴ Hz，λ=400 nm。",
+        "verification": "nλ=600nm，界面频率连续。",
+        "pitfall": "波长缩短就把频率乘n。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 19,
+        "primary_section": "19.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "A=40°且r₁=15°，r₂多少？ 条件：标准透射几何。",
+        "given": "标准透射几何。",
+        "analysis": "内部角和。",
+        "method": "A−r₁。",
+        "principle": "棱镜关系。",
+        "steps": [
+          "40−15=25。",
+          "r₂=25°。"
+        ],
+        "ans": "25°。",
+        "verification": "15+25=40。",
+        "pitfall": "内部角和等180。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 19,
+        "primary_section": "19.1",
+        "related_sections": []
+      },
+      {
+        "q": "最小偏向时A=50°，两内部折射角？ 条件：对称透射。",
+        "given": "对称透射。",
+        "analysis": "均分顶角。",
+        "method": "A/2。",
+        "principle": "最小偏向条件。",
+        "steps": [
+          "r₁=r₂。",
+          "各25°。"
+        ],
+        "ans": "25°、25°。",
+        "verification": "和50。",
+        "pitfall": "把入射角也直接设25。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 19,
+        "primary_section": "19.1",
+        "related_sections": []
+      },
+      {
+        "q": "薄棱镜A=.050 rad，n=1.60，近似δ？ 条件：小角条件适用。",
+        "given": "小角条件适用。",
+        "analysis": "线性式。",
+        "method": "(n−1)A。",
+        "principle": "薄棱镜近似。",
+        "steps": [
+          "δ=.60×.050。",
+          "=.030 rad。"
+        ],
+        "ans": ".030 rad。",
+        "verification": "相对A为.6倍，角仍小。",
+        "pitfall": "用nA或混度弧度。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 19,
+        "primary_section": "19.1",
+        "related_sections": []
+      },
+      {
+        "q": "正常色散玻璃中红与紫通常谁偏折较大？ 条件：普通可见区且其余相同。",
+        "given": "普通可见区且其余相同。",
+        "analysis": "紫对应较大n。",
+        "method": "比较折射。",
+        "principle": "色散。",
+        "steps": [
+          "n紫通常较大。",
+          "透射棱镜中紫通常偏向更多。"
+        ],
+        "ans": "紫光。",
+        "verification": "限定材料频段，非全域断言。",
+        "pitfall": "不标条件一律所有介质。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 19,
+        "primary_section": "19.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "任意透射光路都可设i=e使用最小偏向公式吗？ 条件：没有达到最小偏向的证据。",
+      "given": "没有达到最小偏向的证据。",
+      "analysis": "对称是特殊条件。",
+      "method": "检查可用前提。",
+      "principle": "几何与折射。",
+      "steps": [
+        "一般i与e可不同。",
+        "仅在相应最小偏向条件下才可设相等。"
+      ],
+      "ans": "不可以。",
+      "verification": "e不同的给定例题展示一般情形。",
+      "pitfall": "看到棱镜就套δ_min。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 19,
+      "primary_section": "19.1",
+      "related_sections": []
+    },
+    "exam": [
+      "先画各面法线，标i、r₁、r₂、e和整段偏向",
+      "只有明确最小偏向才设对称，普通光路按两界面解",
+      "频率、波速、波长分栏，小角式标适用条件"
+    ],
+    "quick": [
+      "两界面",
+      "几何角和",
+      "最小偏向",
+      "正常色散",
+      "频率波长"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 282,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_19.1",
+        "url": "https://openstax.org/books/college-physics-2e/pages/25-5-dispersion-the-rainbow-and-prisms",
+        "page_or_section": "25-5-dispersion-the-rainbow-and-prisms",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 282,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_19.1",
+        "url": "https://openstax.org/books/college-physics-2e/pages/25-5-dispersion-the-rainbow-and-prisms",
+        "page_or_section": "25-5-dispersion-the-rainbow-and-prisms",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先画各面法线，标i、r₁、r₂、e和整段偏向",
+      "method": "先求f再v和λ。",
+      "principle": "v=fλ。",
+      "worked_example_index": 2,
+      "verification": "nλ=600nm，界面频率连续。",
+      "pitfall": "波长缩短就把频率乘n。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“以折射定律和棱镜几何求偏向”的抽样复核：i≠e说明不是该定义下的对称最小偏向情形。；若出现“把e=45当δ。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分色散与频率改变并核最小偏向条件”的抽样复核：nλ=600nm，界面频率连续。；若出现“波长缩短就把频率乘n。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "看到棱镜就套δ_min。",
+        "correction": "不可以。",
+        "verification": "e不同的给定例题展示一般情形。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "棱镜透射与最小偏向",
+      "objects": [
+        "棱镜截面",
+        "两面法线",
+        "入射出射线",
+        "延长方向",
+        "红紫分光"
+      ],
+      "relations": [
+        "r₁+r₂=A",
+        "δ在入出射方向间",
+        "最小偏向i=e",
+        "正常色散紫偏更多"
+      ],
+      "labels": [
+        "i",
+        "r₁",
+        "r₂",
+        "e",
+        "A",
+        "δ_min"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用已有P38凸透镜图前须核物距、光线交点、符号约定；不同成像情形不机械替换",
+      "english": "Use deterministic optical ray tracing. Incidence and refraction angles are measured from local normals. Real rays have forward arrowheads; backward extensions are dashed without forward-light implications. State the thin paraxial lens approximation and sign convention, and never connect rays to a false focal point."
+    }
+  },
+  "19.2": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 19,
+    "section_id": "19.2",
+    "goals": [
+      "区分连续、线状及吸收光谱的形成条件",
+      "由谱线和对照数据推断成分并保留局限"
+    ],
+    "prerequisites": [
+      "光的频率波长",
+      "原子能级的基础概念"
+    ],
+    "flow": [
+      "光谱坐标",
+      "辐射类型",
+      "能级跃迁",
+      "吸收几何",
+      "成分证据"
+    ],
+    "concept_relation": "光谱坐标；辐射类型；能级跃迁；吸收几何；成分证据",
+    "deep": [
+      "较连续背景光经过适当较冷、较稀薄的气体后，某些频率被吸收，在观察方向的背景谱上出现暗线。气体也可能向其他方向再辐射，因此“暗线”表示相对背景的强度降低，不意味着吸收光子后能量凭空消失。装置几何与背景条件应在图中呈现。",
+      "元素特征线可用于成分辨认，但应比较一组可分辨谱线与参考样品，考虑仪器分辨率、重叠、强度及环境效应。仅有一个颜色相似的亮点不等于唯一识别元素；某线未检出也可能因浓度低、激发或检测范围限制，不能直接断言完全不存在。",
+      "谱图题先辨图的类型和轴，再读峰位、暗线位置与给定参考。数值计算应统一nm到m，区分真空与介质波长。题中模拟谱线位置需标示教学模型，不能把自定数字写成真实元素实测线；结论应按证据强弱使用“支持”“仍不能排除”等准确措辞。"
+    ],
+    "derive": [
+      "真空中f=c/λ，光子能量E=hf=hc/λ；波长短不代表能量低。",
+      "发射线：向低能态跃迁发光；吸收线需背景及相应吸收气体等条件。",
+      "比对多条参考线与检测条件，不以单色点唯一鉴定成分。"
+    ],
+    "examples": [
+      {
+        "q": "真空谱线波长500 nm，频率多少？ 条件：c=3.0×10⁸ m/s。",
+        "given": "c=3.0×10⁸ m/s。",
+        "analysis": "nm需转m。",
+        "method": "f=c/λ。",
+        "principle": "波动关系。",
+        "steps": [
+          "λ=5.0×10⁻⁷ m。",
+          "f=3.0×10⁸/(5.0×10⁻⁷)=6.0×10¹⁴ Hz。"
+        ],
+        "ans": "6.0×10¹⁴ Hz。",
+        "verification": "数量级应为可见光频率。",
+        "pitfall": "500直接作m。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 19,
+        "primary_section": "19.2",
+        "related_sections": []
+      },
+      {
+        "q": "两谱线真空波长400与800 nm，其光子能量之比？ 条件：比较同一h与c。",
+        "given": "比较同一h与c。",
+        "analysis": "E反比λ。",
+        "method": "比值。",
+        "principle": "E=hc/λ。",
+        "steps": [
+          "E400/E800=800/400。",
+          "得2。"
+        ],
+        "ans": "2:1。",
+        "verification": "短波长更高能，非更低。",
+        "pitfall": "能量随波长正比。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 19,
+        "primary_section": "19.2",
+        "related_sections": []
+      },
+      {
+        "q": "连续背景通过较冷稀薄气体出现暗线，是否表示这些能量消失？ 条件：气体可吸收并再辐射或转移能量。",
+        "given": "气体可吸收并再辐射或转移能量。",
+        "analysis": "观测方向强度减少不同总能消失。",
+        "method": "区分路径。",
+        "principle": "能量守恒及吸收。",
+        "steps": [
+          "特定频率从直达背景束中被吸收。",
+          "能量可进气体并再发射到其他方向等，不凭空消失。"
+        ],
+        "ans": "不是。",
+        "verification": "需核完整能量与观测几何。",
+        "pitfall": "把暗线当能量毁灭。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 19,
+        "primary_section": "19.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "稀薄受激原子气体常见连续谱还是分立发射线？ 条件：忽略显著谱线展宽与重叠。",
+        "given": "忽略显著谱线展宽与重叠。",
+        "analysis": "离散能级。",
+        "method": "对应跃迁。",
+        "principle": "原子光谱。",
+        "steps": [
+          "允许能级差离散。",
+          "可见相应频率发射线。"
+        ],
+        "ans": "分立发射线。",
+        "verification": "不同气体可有不同线组。",
+        "pitfall": "所有发光物都连续彩带。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 19,
+        "primary_section": "19.2",
+        "related_sections": []
+      },
+      {
+        "q": "同一光真空波长加倍，频率怎样？ 条件：c不变。",
+        "given": "c不变。",
+        "analysis": "反比。",
+        "method": "f=c/λ。",
+        "principle": "波动关系。",
+        "steps": [
+          "f₂/f₁=λ₁/λ₂。",
+          "得1/2。"
+        ],
+        "ans": "减半。",
+        "verification": "波长轴与频率轴顺序相反。",
+        "pitfall": "也加倍。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 19,
+        "primary_section": "19.2",
+        "related_sections": []
+      },
+      {
+        "q": "单条谱线碰巧重合，足以唯一识别元素吗？ 条件：其他参考线和分辨率未知。",
+        "given": "其他参考线和分辨率未知。",
+        "analysis": "可能重叠。",
+        "method": "审证据。",
+        "principle": "特征线组比较。",
+        "steps": [
+          "不同物质可能有接近或重叠的线。",
+          "应结合多条线及检测条件。"
+        ],
+        "ans": "不足以。",
+        "verification": "更完整匹配可增强而不无限保证。",
+        "pitfall": "一个色点就定成分。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 19,
+        "primary_section": "19.2",
+        "related_sections": []
+      },
+      {
+        "q": "某元素参考线未出现，可立即说该元素浓度严格为0吗？ 条件：检测限、激发和波段未知。",
+        "given": "检测限、激发和波段未知。",
+        "analysis": "未检出不等绝不存在。",
+        "method": "列限制。",
+        "principle": "测量证据。",
+        "steps": [
+          "可能低于检测限或未被适当激发。",
+          "也可能不在观察波段。"
+        ],
+        "ans": "不能立即断言。",
+        "verification": "应给检测条件下未检出。",
+        "pitfall": "未检出当零。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 19,
+        "primary_section": "19.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "谱图横轴从波长改频率，原来均匀波长刻度可原样均匀改标签吗？ 条件：f=c/λ。",
+      "given": "f=c/λ。",
+      "analysis": "非线性反比映射。",
+      "method": "变换刻度。",
+      "principle": "函数关系。",
+      "steps": [
+        "相等Δλ不对应相等Δf。",
+        "还会反转升序方向，必须重算。"
+      ],
+      "ans": "不能。",
+      "verification": "可用两组端点差验证不均匀。",
+      "pitfall": "只把λ字母改f。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 19,
+      "primary_section": "19.2",
+      "related_sections": []
+    },
+    "exam": [
+      "先辨连续、发射或吸收并写形成装置",
+      "波长频率能量三量分开用反比关系，nm先换m",
+      "成分题比多线并写分辨率和检测限，不把模拟数值冒充真实谱"
+    ],
+    "quick": [
+      "光谱坐标",
+      "辐射类型",
+      "能级跃迁",
+      "吸收几何",
+      "成分证据"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 287,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_19.2",
+        "url": "https://openstax.org/books/college-physics-2e/pages/30-3-bohrs-theory-of-the-hydrogen-atom",
+        "page_or_section": "30-3-bohrs-theory-of-the-hydrogen-atom",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 287,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_19.2",
+        "url": "https://openstax.org/books/college-physics-2e/pages/30-3-bohrs-theory-of-the-hydrogen-atom",
+        "page_or_section": "30-3-bohrs-theory-of-the-hydrogen-atom",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先辨连续、发射或吸收并写形成装置",
+      "method": "区分路径。",
+      "principle": "能量守恒及吸收。",
+      "worked_example_index": 2,
+      "verification": "需核完整能量与观测几何。",
+      "pitfall": "把暗线当能量毁灭。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“区分连续、线状及吸收光谱的形成条件”的抽样复核：数量级应为可见光频率。；若出现“500直接作m。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“由谱线和对照数据推断成分并保留局限”的抽样复核：需核完整能量与观测几何。；若出现“把暗线当能量毁灭。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "只把λ字母改f。",
+        "correction": "不能。",
+        "verification": "可用两组端点差验证不均匀。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "发射与吸收光谱对照",
+      "objects": [
+        "连续热源",
+        "稀薄受激气体",
+        "冷吸收气体",
+        "三条谱图",
+        "能级箭头"
+      ],
+      "relations": [
+        "吸收装置有背景穿气体",
+        "对应线位置匹配",
+        "向下跃迁发射向上吸收",
+        "轴注明λ或f"
+      ],
+      "labels": [
+        "连续谱",
+        "发射线",
+        "吸收线",
+        "ΔE=hf",
+        "示意非实测"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用已有P38凸透镜图前须核物距、光线交点、符号约定；不同成像情形不机械替换",
+      "english": "Use deterministic optical ray tracing. Incidence and refraction angles are measured from local normals. Real rays have forward arrowheads; backward extensions are dashed without forward-light implications. State the thin paraxial lens approximation and sign convention, and never connect rays to a false focal point."
+    }
+  },
+  "19.3": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 19,
+    "section_id": "19.3",
+    "goals": [
+      "用正确主光线构建实像与虚像",
+      "统一符号求像距和放大率并核模型"
+    ],
+    "prerequisites": [
+      "折射",
+      "相似三角形与代数"
+    ],
+    "flow": [
+      "模型约定",
+      "主光线",
+      "像距",
+      "有向放大",
+      "图式互验"
+    ],
+    "concept_relation": "模型约定；主光线；像距；有向放大；图式互验",
+    "deep": [
+      "实像由实际出射光会聚，可在适当屏幕位置承接；虚像由出射线反向延长相交，屏幕不能在虚像位置直接接到来自该物点的会聚像。虚像不是“假到完全看不见”，眼睛接收实际到达的发散光仍可看见其视像。",
+      "会聚镜实物在2f外成缩小倒立实像，在f与2f间成放大倒立实像，在f内可成正立放大虚像；物在焦平面时出射近似平行，有限像距不适用。发散镜对普通实物通常成正立缩小虚像。各结论要以给定模型和实物条件理解。",
+      "数值题先列约定再算，v的负号告诉像的侧别，m的符号告诉相对正倒，绝对值给尺寸比。最后用作图、极限与数量级检查，例如u远大于f时会聚实像接近焦平面；若算出所有物距都同尺寸，就应回查倒数与符号。"
+    ],
+    "derive": [
+      "本节约定：实物u>0，实像v>0，虚像v<0；会聚f>0、发散f<0。",
+      "1/f=1/u+1/v；m=h_image/h_object=−v/u。",
+      "实际会聚才为实像；反向延长交点为虚像，延长线不表示光反向传播。"
+    ],
+    "examples": [
+      {
+        "q": "会聚薄透镜f=10 cm，实物距30 cm，求像距与放大率。 条件：近轴、空气中，采用本节符号。",
+        "given": "近轴、空气中，采用本节符号。",
+        "analysis": "u>2f预期缩小实像。",
+        "method": "薄镜公式。",
+        "principle": "折射近轴成像。",
+        "steps": [
+          "1/v=1/10−1/30=1/15，v=15 cm。",
+          "m=−15/30=−0.5。"
+        ],
+        "ans": "v=15 cm；倒立缩小实像，m=−0.5。",
+        "verification": "像在f与2f之间，与光线图一致。",
+        "pitfall": "把倒数差当v。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 19,
+        "primary_section": "19.3",
+        "related_sections": []
+      },
+      {
+        "q": "同镜f=10 cm，实物距6 cm，求像。 条件：薄镜近轴符号同上。",
+        "given": "薄镜近轴符号同上。",
+        "analysis": "物在焦距内。",
+        "method": "公式解负v。",
+        "principle": "虚像符号。",
+        "steps": [
+          "1/v=1/10−1/6=−1/15，v=−15 cm。",
+          "m=−(−15)/6=2.5。"
+        ],
+        "ans": "物侧15 cm处正立放大虚像。",
+        "verification": "m正且>1，屏不能在该点承接实会聚像。",
+        "pitfall": "v负就说无像。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 19,
+        "primary_section": "19.3",
+        "related_sections": []
+      },
+      {
+        "q": "发散镜f=−12 cm，实物距24 cm，求像。 条件：空气、薄镜实物模型。",
+        "given": "空气、薄镜实物模型。",
+        "analysis": "发散预期缩小虚像。",
+        "method": "倒数式。",
+        "principle": "同符号体系。",
+        "steps": [
+          "1/v=−1/12−1/24=−1/8，v=−8 cm。",
+          "m=−(−8)/24=1/3。"
+        ],
+        "ans": "正立缩小虚像，v=−8 cm。",
+        "verification": "像位于镜与物方焦点之间。",
+        "pitfall": "凹镜仍用正f。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 19,
+        "primary_section": "19.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "会聚镜f=8 cm，物距16 cm，像距与大小？ 条件：薄镜实物。",
+        "given": "薄镜实物。",
+        "analysis": "物在2f。",
+        "method": "公式。",
+        "principle": "1/v=1/f−1/u。",
+        "steps": [
+          "1/v=1/8−1/16=1/16。",
+          "v=16，m=−1。"
+        ],
+        "ans": "等大倒立实像，16 cm。",
+        "verification": "物像共轭对称。",
+        "pitfall": "等大误说正立。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 19,
+        "primary_section": "19.3",
+        "related_sections": []
+      },
+      {
+        "q": "实像高−3 cm、物高6 cm，m多少？ 条件：高度符号按方向。",
+        "given": "高度符号按方向。",
+        "analysis": "有向比。",
+        "method": "m=h_i/h_o。",
+        "principle": "放大率定义。",
+        "steps": [
+          "m=−3/6。",
+          "得−.5。"
+        ],
+        "ans": "−0.5。",
+        "verification": "负号倒立、绝对值一半。",
+        "pitfall": "只保大小漏方向。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 19,
+        "primary_section": "19.3",
+        "related_sections": []
+      },
+      {
+        "q": "物在会聚镜焦点，有限v为何算不出？ 条件：薄镜近轴模型。",
+        "given": "薄镜近轴模型。",
+        "analysis": "出射平行。",
+        "method": "代u=f。",
+        "principle": "薄镜公式。",
+        "steps": [
+          "1/v=1/f−1/f=0。",
+          "对应像在无穷远的理想描述，非某个有限v=0。"
+        ],
+        "ans": "无有限像距。",
+        "verification": "平行出射光线不在有限屏位会聚。",
+        "pitfall": "倒数0当v0。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 19,
+        "primary_section": "19.3",
+        "related_sections": []
+      },
+      {
+        "q": "反向延长线交点能画实线并标光朝物侧传播吗？ 条件：实际出射光向另一方向。",
+        "given": "实际出射光向另一方向。",
+        "analysis": "构图线不同实际光线。",
+        "method": "核线型箭头。",
+        "principle": "虚像定义。",
+        "steps": [
+          "延长线只定位视像。",
+          "应虚线且不能暗示实际反向能流。"
+        ],
+        "ans": "不能。",
+        "verification": "实际到眼的光仍沿真实出射线。",
+        "pitfall": "虚线变真实反射光。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 19,
+        "primary_section": "19.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "虚像不能用屏直接承接，是否等于眼睛也不能看见？ 条件：正常观测且光进入眼睛。",
+      "given": "正常观测且光进入眼睛。",
+      "analysis": "可见性与实会聚成像不同。",
+      "method": "解释到眼光线。",
+      "principle": "视觉定位。",
+      "steps": [
+        "真实发散光可进入眼睛。",
+        "眼将其定位为来自反向延长交点，因而可见虚像。"
+      ],
+      "ans": "不等于。",
+      "verification": "放大镜和镜中像可观察但非屏上直接承接。",
+      "pitfall": "虚像就是不存在任何观测。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 19,
+      "primary_section": "19.3",
+      "related_sections": []
+    },
+    "exam": [
+      "先写完整符号体系再代倒数式，v与m分别解释",
+      "画至少两条真正主光线，虚像延长线与实际箭头分开",
+      "用物距相对f、2f及远物极限复核像性质"
+    ],
+    "quick": [
+      "模型约定",
+      "主光线",
+      "像距",
+      "有向放大",
+      "图式互验"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 292,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_19.3",
+        "url": "https://openstax.org/books/college-physics-2e/pages/25-6-image-formation-by-lenses",
+        "page_or_section": "25-6-image-formation-by-lenses",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 292,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_19.3",
+        "url": "https://openstax.org/books/college-physics-2e/pages/25-6-image-formation-by-lenses",
+        "page_or_section": "25-6-image-formation-by-lenses",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先写完整符号体系再代倒数式，v与m分别解释",
+      "method": "倒数式。",
+      "principle": "同符号体系。",
+      "worked_example_index": 2,
+      "verification": "像位于镜与物方焦点之间。",
+      "pitfall": "凹镜仍用正f。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用正确主光线构建实像与虚像”的抽样复核：像在f与2f之间，与光线图一致。；若出现“把倒数差当v。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“统一符号求像距和放大率并核模型”的抽样复核：像位于镜与物方焦点之间。；若出现“凹镜仍用正f。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "虚像就是不存在任何观测。",
+        "correction": "不等于。",
+        "verification": "放大镜和镜中像可观察但非屏上直接承接。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "会聚与发散透镜三种成像",
+      "objects": [
+        "凸镜u30f10实像",
+        "凸镜u6f10虚像",
+        "凹镜u24f−12虚像",
+        "主轴焦点"
+      ],
+      "relations": [
+        "实像v15倒立半大",
+        "凸镜虚像v−15正立2.5倍",
+        "凹镜v−8正立1/3",
+        "延长线虚线"
+      ],
+      "labels": [
+        "u",
+        "v",
+        "f",
+        "m=−v/u",
+        "近轴薄镜"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用已有P38凸透镜图前须核物距、光线交点、符号约定；不同成像情形不机械替换",
+      "english": "Use deterministic optical ray tracing. Incidence and refraction angles are measured from local normals. Real rays have forward arrowheads; backward extensions are dashed without forward-light implications. State the thin paraxial lens approximation and sign convention, and never connect rays to a false focal point."
+    }
+  },
+  "19.4": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 19,
+    "section_id": "19.4",
+    "goals": [
+      "用物像距或位移法测焦距并推导条件",
+      "设计清晰成像、重复与误差评估"
+    ],
+    "prerequisites": [
+      "薄透镜公式",
+      "测量误差和配对数据"
+    ],
+    "flow": [
+      "共轴装置",
+      "清晰实像",
+      "配对距离",
+      "位移推导",
+      "误差与方法"
+    ],
+    "concept_relation": "共轴装置；清晰实像；配对距离；位移推导；误差与方法",
+    "deep": [
+      "位移法固定物屏距离D，若D>4f，可有两个清晰成像镜位，物距像距互换。两镜位间距d=|u−v|，且u+v=D、uv=fD，故D²−d²=4uv=4fD，得f=(D²−d²)/(4D)。D=4f时两位置重合，D<4f时没有这两个实像位置。",
+      "实验误差包括屏面倾斜、透镜偏轴、像差、厚透镜近似、位置读数及清晰像判断。应说明改善如何对应误差，例如小孔限制近轴范围可能减像差但也降低亮度；不可用“多测几次”代替所有系统误差修正，也不能在无不确定度模型时宣布精确到任意多位。",
+      "发散透镜对普通实物形成虚像，单独用屏在像侧移动找清晰实像一般不能测其负焦距。可用辅助会聚系统等适当方法，但须交代有效物像和符号，不直接把凸镜操作照搬。报告应注明所测镜型、方法、原始配对数据、合理精度及模型限制。"
+    ],
+    "derive": [
+      "共轭法f=uv/(u+v)，每组u、v须来自同次清晰成像。",
+      "位移法D=u+v、d=|u−v|⇒f=(D²−d²)/(4D)，双实像位置需D>4f。",
+      "远物法v≈f需u≫f；凹透镜对普通实物不可单独屏接虚像。"
+    ],
+    "examples": [
+      {
+        "q": "一次清晰成像u=30 cm、v=60 cm，求f。 条件：薄会聚镜、参考平面一致。",
+        "given": "薄会聚镜、参考平面一致。",
+        "analysis": "使用配对距离。",
+        "method": "f=uv/(u+v)。",
+        "principle": "薄镜关系。",
+        "steps": [
+          "uv=1800 cm²，和90 cm。",
+          "f=1800/90=20 cm。"
+        ],
+        "ans": "20 cm。",
+        "verification": "1/30+1/60=1/20。",
+        "pitfall": "直接把v当f。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 19,
+        "primary_section": "19.4",
+        "related_sections": []
+      },
+      {
+        "q": "固定物屏D=100 cm，两镜位差d=60 cm，求焦距。 条件：两处均清晰实像且薄镜模型适用。",
+        "given": "两处均清晰实像且薄镜模型适用。",
+        "analysis": "位移法。",
+        "method": "f=(D²−d²)/(4D)。",
+        "principle": "共轭与和差。",
+        "steps": [
+          "(10000−3600)/400=16 cm。",
+          "4f=64<D100，条件一致。"
+        ],
+        "ans": "16 cm。",
+        "verification": "u,v=(100±60)/2为80、20，uv/(u+v)=16。",
+        "pitfall": "把d当物像距离D。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 19,
+        "primary_section": "19.4",
+        "related_sections": []
+      },
+      {
+        "q": "某会聚镜f=20 cm，物屏距60 cm，能否有两个清晰实像镜位？ 条件：普通实物与屏固定，薄镜。",
+        "given": "普通实物与屏固定，薄镜。",
+        "analysis": "先查D>4f。",
+        "method": "条件比较。",
+        "principle": "位移法判据。",
+        "steps": [
+          "4f=80 cm。",
+          "D60<80，不满足。"
+        ],
+        "ans": "不能在此模型下得到两位置。",
+        "verification": "判别式D²−4fD为负。",
+        "pitfall": "一直移动等待两像。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 19,
+        "primary_section": "19.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "u=v=40 cm时f多少？ 条件：清晰实像薄镜。",
+        "given": "清晰实像薄镜。",
+        "analysis": "等距为2f。",
+        "method": "公式。",
+        "principle": "薄镜。",
+        "steps": [
+          "1/f=2/40。",
+          "f=20 cm。"
+        ],
+        "ans": "20 cm。",
+        "verification": "物镜屏总距80=4f。",
+        "pitfall": "f=40。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 19,
+        "primary_section": "19.4",
+        "related_sections": []
+      },
+      {
+        "q": "同一镜两组(u,v)=(30,60)、(40,40) cm可交叉用u30与v40吗？ 条件：需计算原始测量各组焦距。",
+        "given": "需计算原始测量各组焦距。",
+        "analysis": "共轭关系逐组成立。",
+        "method": "保配对。",
+        "principle": "实验数据对应。",
+        "steps": [
+          "两原组均给f20。",
+          "交叉会得1200/70约17.14，非真实一组。"
+        ],
+        "ans": "不能随意交叉。",
+        "verification": "不匹配造成假差异。",
+        "pitfall": "数据同镜就任意组合。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 19,
+        "primary_section": "19.4",
+        "related_sections": []
+      },
+      {
+        "q": "远物u=100f时，v是否精确等f？ 条件：理想薄镜。",
+        "given": "理想薄镜。",
+        "analysis": "有限u仍有修正。",
+        "method": "解公式。",
+        "principle": "v=fu/(u−f)。",
+        "steps": [
+          "v/f=100/99。",
+          "略大于1，并非精确相等。"
+        ],
+        "ans": "只是近似，v=100f/99。",
+        "verification": "u→∞才趋f。",
+        "pitfall": "远物近似当恒等。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 19,
+        "primary_section": "19.4",
+        "related_sections": []
+      },
+      {
+        "q": "重复十次能自动消除尺零点偏移吗？ 条件：偏移每次相同。",
+        "given": "偏移每次相同。",
+        "analysis": "系统误差不会随机抵消。",
+        "method": "审误差来源。",
+        "principle": "测量统计。",
+        "steps": [
+          "各读数共享同方向偏移。",
+          "平均仍可能带相同偏差，需校零或校正。"
+        ],
+        "ans": "不能自动消除。",
+        "verification": "重复有助随机离散估计而非所有误差。",
+        "pitfall": "多次平均治所有问题。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 19,
+        "primary_section": "19.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "单凹镜对普通实物在屏上找不到清晰像，是否证明透镜坏了？ 条件：空气中薄发散镜。",
+      "given": "空气中薄发散镜。",
+      "analysis": "预期本来是虚像。",
+      "method": "核镜型与方法适用。",
+      "principle": "成像原理。",
+      "steps": [
+        "该配置出射光发散。",
+        "需要辅助系统等合适测法，不能直接以屏接失败判坏。"
+      ],
+      "ans": "不是。",
+      "verification": "应先检查方法与镜型匹配。",
+      "pitfall": "凸镜实验无条件套凹镜。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 19,
+      "primary_section": "19.4",
+      "related_sections": []
+    },
+    "exam": [
+      "先核镜型和能否屏接实像，再选择远物、共轭或位移法",
+      "每组保留u,v配对，位移法先验D>4f并标D,d",
+      "误差改善针对偏轴、零点和清晰度，报告合理精度"
+    ],
+    "quick": [
+      "共轴装置",
+      "清晰实像",
+      "配对距离",
+      "位移推导",
+      "误差与方法"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 300,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_19.4",
+        "url": "https://openstax.org/books/college-physics-2e/pages/25-6-image-formation-by-lenses",
+        "page_or_section": "25-6-image-formation-by-lenses",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 300,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_19.4",
+        "url": "https://openstax.org/books/college-physics-2e/pages/25-6-image-formation-by-lenses",
+        "page_or_section": "25-6-image-formation-by-lenses",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先核镜型和能否屏接实像，再选择远物、共轭或位移法",
+      "method": "条件比较。",
+      "principle": "位移法判据。",
+      "worked_example_index": 2,
+      "verification": "判别式D²−4fD为负。",
+      "pitfall": "一直移动等待两像。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用物像距或位移法测焦距并推导条件”的抽样复核：1/30+1/60=1/20。；若出现“直接把v当f。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“设计清晰成像、重复与误差评估”的抽样复核：判别式D²−4fD为负。；若出现“一直移动等待两像。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "凸镜实验无条件套凹镜。",
+        "correction": "不是。",
+        "verification": "应先检查方法与镜型匹配。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "共轭法与位移法装置",
+      "objects": [
+        "物",
+        "屏",
+        "两镜位置",
+        "光轴",
+        "D与d尺寸线"
+      ],
+      "relations": [
+        "D100d60对应u80v20互换",
+        "f16且D>4f",
+        "距离从同一规定参考面量"
+      ],
+      "labels": [
+        "D",
+        "d",
+        "u",
+        "v",
+        "f=(D²−d²)/(4D)",
+        "安全普通光源"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用已有P38凸透镜图前须核物距、光线交点、符号约定；不同成像情形不机械替换",
+      "english": "Use deterministic optical ray tracing. Incidence and refraction angles are measured from local normals. Real rays have forward arrowheads; backward extensions are dashed without forward-light implications. State the thin paraxial lens approximation and sign convention, and never connect rays to a false focal point."
+    }
+  }
+}

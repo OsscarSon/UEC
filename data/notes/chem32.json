@@ -1,0 +1,2432 @@
+{
+  "32.1.1": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 32,
+    "section_id": "32.1.1",
+    "goals": [
+      "由羟基连接对象与数目分类",
+      "按连OH碳的碳邻居区别一级二级三级并正确命名"
+    ],
+    "prerequisites": [
+      "官能团",
+      "碳四价",
+      "母链编号"
+    ],
+    "flow": [
+      "连接对象",
+      "羟基元数",
+      "碳邻居级数",
+      "系统命名",
+      "异构证据"
+    ],
+    "concept_relation": "连接对象；羟基元数；碳邻居级数；系统命名；异构证据",
+    "deep": [
+      "系统命名先选适当包含羟基碳的母链并使OH有较低位次，再列取代基；多羟基则列各位置。丙-1-醇与丙-2-醇连接不同，名称须保留位置。简单醇的编号口诀不能无条件盖过更高优先级官能团的完整命名规则。",
+      "分子式CₙH₂ₙ₊₂O可适用于开链饱和一元醇，但也可能为醚；只凭氧原子和氢碳比不能唯一确证醇。C₃H₈O可对应丙-1-醇、丙-2-醇及甲氧基乙烷等，连结证据需来自反应或其他独立分析。",
+      "结构题把OH所在碳圈出、列其碳邻居和氢，再给类别及名称，能为后续氧化产物建立依据。若某碳既四个碳单键又另接OH，便是五价错误；不能因总分子式勉强凑对而接受。分类、命名和官能团判定是三个相连但不同的问题。"
+    ],
+    "derive": [
+      "醇OH连饱和碳；酚OH直接连芳香环碳；C₆H₅CH₂OH为苯甲醇。",
+      "常见一/二/三级醇按连OH碳有1/2/3个碳邻居判断。",
+      "开链饱和一元醇CₙH₂ₙ₊₂O，分子式同样可有醚异构。"
+    ],
+    "examples": [
+      {
+        "q": "CH₃CH(OH)CH₂CH₃命名和醇级数。 条件：简单饱和一元醇。",
+        "given": "简单饱和一元醇。",
+        "analysis": "圈OH碳，母链四。",
+        "method": "编号与邻居计数。",
+        "principle": "结构分类。",
+        "steps": [
+          "OH取2位，名丁-2-醇。",
+          "该碳连两个碳邻居及一个H，为二级。"
+        ],
+        "ans": "丁-2-醇，二级醇。",
+        "verification": "不是分子4碳就四级。",
+        "pitfall": "把位置2当级数原因而不数连接。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.1",
+        "related_sections": []
+      },
+      {
+        "q": "C₆H₅CH₂OH与C₆H₅OH各属于醇还是酚？ 条件：按OH直接连接的碳判断。",
+        "given": "按OH直接连接的碳判断。",
+        "analysis": "先看局部连接。",
+        "method": "对照官能团。",
+        "principle": "结构反应关系。",
+        "steps": [
+          "前者OH连CH₂，为苯甲醇。",
+          "后者OH直接连芳香环碳，为苯酚。"
+        ],
+        "ans": "前醇，后酚。",
+        "verification": "有苯环不是充分判据。",
+        "pitfall": "含苯就都是酚。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.1",
+        "related_sections": []
+      },
+      {
+        "q": "2-甲基丙-2-醇写结构并判级数。 条件：只考虑普通中性分子。",
+        "given": "只考虑普通中性分子。",
+        "analysis": "2位碳连3个甲基与OH。",
+        "method": "反向命名。",
+        "principle": "碳四价。",
+        "steps": [
+          "结构(CH₃)₃COH。",
+          "OH碳连3个碳、无H，为三级。"
+        ],
+        "ans": "(CH₃)₃COH，三级醇。",
+        "verification": "总C₄H₁₀O，中心碳4单键。",
+        "pitfall": "中心再添H成五价。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "乙二醇与甘油分别几元醇？ 条件：结构分别HOCH₂CH₂OH、HOCH₂CH(OH)CH₂OH。",
+        "given": "结构分别HOCH₂CH₂OH、HOCH₂CH(OH)CH₂OH。",
+        "analysis": "数OH。",
+        "method": "分类。",
+        "principle": "元数定义。",
+        "steps": [
+          "前者2个OH。",
+          "后者3个OH。"
+        ],
+        "ans": "二元、三元醇。",
+        "verification": "不是按总碳数通用判断。",
+        "pitfall": "元数与级数混淆。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.1",
+        "related_sections": []
+      },
+      {
+        "q": "CH₃CH₂CH₂OH几级？ 条件：常见按碳邻居分类。",
+        "given": "常见按碳邻居分类。",
+        "analysis": "OH碳只连1碳。",
+        "method": "数邻居。",
+        "principle": "一级醇结构。",
+        "steps": [
+          "末端CH₂OH连相邻CH₂。",
+          "为一级。"
+        ],
+        "ans": "一级。",
+        "verification": "总3碳不等三级。",
+        "pitfall": "按总碳3计三级。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.1",
+        "related_sections": []
+      },
+      {
+        "q": "C₂H₆O是否唯一是乙醇？ 条件：仅给分子式。",
+        "given": "仅给分子式。",
+        "analysis": "醚也可同式。",
+        "method": "给反例。",
+        "principle": "官能团异构。",
+        "steps": [
+          "CH₃CH₂OH为醇。",
+          "CH₃OCH₃为醚，同为C₂H₆O。"
+        ],
+        "ans": "不是唯一。",
+        "verification": "两式均氧二价碳四价。",
+        "pitfall": "有O就有OH。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.1",
+        "related_sections": []
+      },
+      {
+        "q": "丙-1-醇改写为从OH端绘图，是否新异构？ 条件：连接未变。",
+        "given": "连接未变。",
+        "analysis": "图方向非结构变化。",
+        "method": "比较图连接。",
+        "principle": "同一性。",
+        "steps": [
+          "CH₃CH₂CH₂OH与HOCH₂CH₂CH₃同连接。",
+          "同一种物质。"
+        ],
+        "ans": "不是新异构。",
+        "verification": "位置改变才需重审。",
+        "pitfall": "反向书写加一种。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "“二元醇”是否说明每个OH碳都为二级？ 条件：两个分类维度不同。",
+      "given": "两个分类维度不同。",
+      "analysis": "元数看OH数，级数看碳邻居。",
+      "method": "用乙二醇反例。",
+      "principle": "局部与整体分类。",
+      "steps": [
+        "乙二醇有两个OH。",
+        "每个CH₂OH碳仅1个碳邻居，不能据二元称二级。"
+      ],
+      "ans": "不是。",
+      "verification": "两个维度分别回答才不冲突。",
+      "pitfall": "元与级当同一个数。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 32,
+      "primary_section": "32.1.1",
+      "related_sections": []
+    },
+    "exam": [
+      "先圈OH连接对象，再分别数OH与OH碳邻居",
+      "命名从含OH母链及位次着手，反画最后检四价",
+      "通式不唯一识别官能团，含苯环不自动归酚"
+    ],
+    "quick": [
+      "连接对象",
+      "羟基元数",
+      "碳邻居级数",
+      "系统命名",
+      "异构证据"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 15,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_32.1.1",
+        "url": "https://openstax.org/books/organic-chemistry/pages/17-1-naming-alcohols-and-phenols",
+        "page_or_section": "17-1-naming-alcohols-and-phenols",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 15,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_32.1.1",
+        "url": "https://openstax.org/books/organic-chemistry/pages/17-1-naming-alcohols-and-phenols",
+        "page_or_section": "17-1-naming-alcohols-and-phenols",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先圈OH连接对象，再分别数OH与OH碳邻居",
+      "method": "反向命名。",
+      "principle": "碳四价。",
+      "worked_example_index": 2,
+      "verification": "总C₄H₁₀O，中心碳4单键。",
+      "pitfall": "中心再添H成五价。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由羟基连接对象与数目分类”的抽样复核：不是分子4碳就四级。；若出现“把位置2当级数原因而不数连接。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“按连OH碳的碳邻居区别一级二级三级并正确命名”的抽样复核：总C₄H₁₀O，中心碳4单键。；若出现“中心再添H成五价。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "元与级当同一个数。",
+        "correction": "不是。",
+        "verification": "两个维度分别回答才不冲突。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "醇酚及醇级数对照",
+      "objects": [
+        "苯甲醇与苯酚",
+        "一二三级醇局部",
+        "乙二醇与甘油",
+        "OH碳圈选"
+      ],
+      "relations": [
+        "OH直接连接不同",
+        "数碳邻居非总碳",
+        "元数数OH",
+        "中心不超四价"
+      ],
+      "labels": [
+        "饱和碳",
+        "芳香环碳",
+        "一级",
+        "二级",
+        "三级",
+        "二元"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "只有羟基连接对象、试剂条件及原子守恒一致才复用；不得以通用酒瓶图代替官能团结构",
+      "english": "Use exact organic structural formulas. Distinguish an alcohol hydroxyl attached to a saturated carbon from a phenol hydroxyl directly attached to an aromatic carbon. Oxygen has the stated valence and charge. Preserve the carbon skeleton and label reaction conditions, equilibrium and competing pathways. Hydrogen bonds are intermolecular interactions, not additional covalent O-H bonds."
+    }
+  },
+  "32.1.2": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 32,
+    "section_id": "32.1.2",
+    "goals": [
+      "用氢键解释沸点和溶解趋势",
+      "区分分子内共价键、分子间作用及混合体积"
+    ],
+    "prerequisites": [
+      "极性",
+      "氢键",
+      "溶液组成"
+    ],
+    "flow": [
+      "极性与氢键",
+      "沸点机制",
+      "水溶性",
+      "测量条件",
+      "混合组成"
+    ],
+    "concept_relation": "极性与氢键；沸点机制；水溶性；测量条件；混合组成",
+    "deep": [
+      "液体密度、黏度和沸点是不同性质。多羟基可能增加氢键作用并影响黏度，但定量值需资料与温度，不从OH个数编造精确倍数。不同醇分子间作用与几何堆积也不同，不能将一个同系趋势机械用于所有异构体和所有相变。",
+      "醇水混合后总体积可能不等各纯液体体积之和，因相互作用与分子排列改变。质量在封闭无损条件下仍可相加，质量分数计算较直接；体积分数或物质的量浓度则应使用定义规定的最终溶液体积，不能把混合前两量筒读数相加当已测最终体积。",
+      "物理性质题要把比较对象和控制量写清，如相近摩尔质量、相同温度、相同测量压力。若题给沸点随链长数据，解释色散与氢键共同作用，不用“OH一样所以一切相同”搪塞。所有实际接触风险另依规范，闻味或尝味不能作为鉴定未知醇的安全方法。"
+    ],
+    "derive": [
+      "醇间氢键不同于分子内共价O—H键；汽化不等分子全部断键。",
+      "溶解性由OH亲水作用与碳氢部分共同影响，不能全醇一概互溶。",
+      "无损混合质量可加，体积未必可加；浓度使用最终溶液体积。"
+    ],
+    "examples": [
+      {
+        "q": "乙醇和同式二甲醚为何沸点可明显不同？ 条件：比较纯物质，相应相同压力。",
+        "given": "比较纯物质，相应相同压力。",
+        "analysis": "OH供氢能力不同。",
+        "method": "结构到分子间力。",
+        "principle": "氢键。",
+        "steps": [
+          "乙醇分子可相互形成OH参与的氢键。",
+          "二甲醚缺OH供氢，纯物质作用模式不同。"
+        ],
+        "ans": "乙醇通常较高，需具体数据给精确值。",
+        "verification": "醚仍可接受水氢键，不是完全无极性。",
+        "pitfall": "同式必同沸点或醚完全无作用。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.2",
+        "related_sections": []
+      },
+      {
+        "q": "20g乙醇与80g水封闭无损混合，乙醇质量分数？ 条件：忽略蒸发，不给最终体积。",
+        "given": "忽略蒸发，不给最终体积。",
+        "analysis": "质量可直接加。",
+        "method": "w=m质/m总。",
+        "principle": "组成定义。",
+        "steps": [
+          "总质量100g。",
+          "w20/100=.20。"
+        ],
+        "ans": "20%。",
+        "verification": "不需假设体积相加。",
+        "pitfall": "把20g当20mL。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.2",
+        "related_sections": []
+      },
+      {
+        "q": "某溶液含.50mol醇，最终实测250mL，浓度？ 条件：均匀溶液，体积为混合后的最终值。",
+        "given": "均匀溶液，体积为混合后的最终值。",
+        "analysis": "mL换L。",
+        "method": "c=n/V。",
+        "principle": "浓度定义。",
+        "steps": [
+          ".250L。",
+          "c=.50/.250=2.0mol/L。"
+        ],
+        "ans": "2.0mol/L。",
+        "verification": "n=cV=.50mol。",
+        "pitfall": "用混合前某一组分体积。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "普通沸腾是否须把所有O—H共价键断为原子？ 条件：未发生热分解。",
+        "given": "未发生热分解。",
+        "analysis": "分子可仍完整。",
+        "method": "区分相变与反应。",
+        "principle": "分子间作用。",
+        "steps": [
+          "汽化克服分子间作用。",
+          "不是所有内部共价键断裂。"
+        ],
+        "ans": "不是。",
+        "verification": "蒸气仍可主要是原醇分子。",
+        "pitfall": "高沸点因共价键必全断。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.2",
+        "related_sections": []
+      },
+      {
+        "q": "长链一元醇有OH就必与水任意比例混合吗？ 条件：未给具体物质数据。",
+        "given": "未给具体物质数据。",
+        "analysis": "疏水部分不可忽略。",
+        "method": "比较结构部分。",
+        "principle": "溶剂化。",
+        "steps": [
+          "OH可与水作用。",
+          "较长碳链可使水溶性降低，不保证全比例互溶。"
+        ],
+        "ans": "不必。",
+        "verification": "需要给温度与实际数据。",
+        "pitfall": "亲水基一个包办全部。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.2",
+        "related_sections": []
+      },
+      {
+        "q": "10mL醇加10mL水能保证最终恰20mL吗？ 条件：实际混合，未给理想体积假设。",
+        "given": "实际混合，未给理想体积假设。",
+        "analysis": "混合排列可变。",
+        "method": "审可加性。",
+        "principle": "部分摩尔体积影响。",
+        "steps": [
+          "纯液体体积之和不必等混合体积。",
+          "需实测最终V。"
+        ],
+        "ans": "不能保证。",
+        "verification": "质量无损仍可相加。",
+        "pitfall": "质量守恒推出体积守恒。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.2",
+        "related_sections": []
+      },
+      {
+        "q": "同一醇黏度比较可忽略温度差吗？ 条件：题要求归因某一结构或组成变量。",
+        "given": "题要求归因某一结构或组成变量。",
+        "analysis": "温度可影响流动。",
+        "method": "控制条件。",
+        "principle": "物理测量。",
+        "steps": [
+          "不同温度可造成黏度差。",
+          "须同温或校正后比较。"
+        ],
+        "ans": "不可随意忽略。",
+        "verification": "不能把所有差异归OH数量。",
+        "pitfall": "未控制变量直接归因。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "画醇间氢键，可把每个氧画成三个无电荷普通共价单键吗？ 条件：中性普通醇，无另说明质子化。",
+      "given": "中性普通醇，无另说明质子化。",
+      "analysis": "虚线作用不同价键。",
+      "method": "检氧价态。",
+      "principle": "氢键示意规范。",
+      "steps": [
+        "正常中性醇O有两共价键。",
+        "额外分子间氢键以区别的作用线表示，不添第三无标电荷共价键。"
+      ],
+      "ans": "不可以。",
+      "verification": "若画质子化氧须另标正电荷及条件。",
+      "pitfall": "氢键画成普通第三键。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 32,
+      "primary_section": "32.1.2",
+      "related_sections": []
+    },
+    "exam": [
+      "比较沸点说明相近质量与相同压力，再讲氢键和色散",
+      "混合质量与体积可加性分开，浓度用最终V",
+      "图中氢键用虚线并检O价态，不以气化代断全部共价键"
+    ],
+    "quick": [
+      "极性与氢键",
+      "沸点机制",
+      "水溶性",
+      "测量条件",
+      "混合组成"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 15,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_32.1.2",
+        "url": "https://openstax.org/books/organic-chemistry/pages/17-2-properties-of-alcohols-and-phenols",
+        "page_or_section": "17-2-properties-of-alcohols-and-phenols",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 15,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_32.1.2",
+        "url": "https://openstax.org/books/organic-chemistry/pages/17-2-properties-of-alcohols-and-phenols",
+        "page_or_section": "17-2-properties-of-alcohols-and-phenols",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "比较沸点说明相近质量与相同压力，再讲氢键和色散",
+      "method": "c=n/V。",
+      "principle": "浓度定义。",
+      "worked_example_index": 2,
+      "verification": "n=cV=.50mol。",
+      "pitfall": "用混合前某一组分体积。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用氢键解释沸点和溶解趋势”的抽样复核：醚仍可接受水氢键，不是完全无极性。；若出现“同式必同沸点或醚完全无作用。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分分子内共价键、分子间作用及混合体积”的抽样复核：n=cV=.50mol。；若出现“用混合前某一组分体积。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "氢键画成普通第三键。",
+        "correction": "不可以。",
+        "verification": "若画质子化氧须另标正电荷及条件。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "醇水氢键与混合体积",
+      "objects": [
+        "醇分子O H",
+        "水分子",
+        "虚线氢键",
+        "短长碳链比较",
+        "质量体积记账"
+      ],
+      "relations": [
+        "O正常2共价键",
+        "虚线氢键与实线区别",
+        "链长影响溶解性",
+        "质量可加非体积必加"
+      ],
+      "labels": [
+        "共价O—H",
+        "分子间氢键",
+        "最终溶液体积",
+        "温度条件"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "只有羟基连接对象、试剂条件及原子守恒一致才复用；不得以通用酒瓶图代替官能团结构",
+      "english": "Use exact organic structural formulas. Distinguish an alcohol hydroxyl attached to a saturated carbon from a phenol hydroxyl directly attached to an aromatic carbon. Oxygen has the stated valence and charge. Preserve the carbon skeleton and label reaction conditions, equilibrium and competing pathways. Hydrogen bonds are intermolecular interactions, not additional covalent O-H bonds."
+    }
+  },
+  "32.1.3": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 32,
+    "section_id": "32.1.3",
+    "goals": [
+      "按断键位置及条件区分醇反应",
+      "由OH碳邻居和氢判断指定氧化产物并完整计算"
+    ],
+    "prerequisites": [
+      "醇级数",
+      "氧化还原",
+      "消去与酯化"
+    ],
+    "flow": [
+      "断键分类",
+      "金属反应",
+      "氧化结构",
+      "取代消去",
+      "酯化计量"
+    ],
+    "concept_relation": "断键分类；金属反应；氧化结构；取代消去；酯化计量",
+    "deep": [
+      "脱水成烯烃需要相邻可消去氢及适当催化条件，多个不等价相邻位置可给产物混合。分子间脱水也可能形成醚，不能仅看“加热”就判唯一烯烃。取代同样有底物结构与条件差异，OH不是在任何条件下都能直接良好离去的游离OH⁻。",
+      "醇与羧酸在适当酸催化条件下可逆生成酯和水，记账时酸的羟基与醇的羟基位置要明晰，不把氧数或碳链错误交换。平衡使投料1:1不自动意味着完全转化；算收率先依据限量物和1:1比例，再按题给实际量，不伪造官方实验收率。",
+      "解答综合路线先圈官能团和碳骨架，写反应类型、条件及主产物，最后核原子与量。颜色、气泡或气味都不是单独的唯一身份证，未知样品不能靠品尝或直接闻气判断。考试策略是呈现结构证据和条件选择，而非背一张无条件万用反应箭头表。"
+    ],
+    "derive": [
+      "2ROH+2Na→2RONa+H₂；一元醇与H₂量比2:1（指定无水模型）。",
+      "通常保骨架氧化：一级醇→醛→酸；二级醇→酮；三级醇不能套同式简单氧化。",
+      "羧酸+醇⇌酯+水，适当酸催化；投料计量不等平衡完全。"
+    ],
+    "examples": [
+      {
+        "q": "4.6g无水乙醇与足量Na按给定模型反应，H₂mol？ 条件：M乙46，仅OH氢计反应，忽略副反应。",
+        "given": "M乙46，仅OH氢计反应，忽略副反应。",
+        "analysis": "醇mol后除2。",
+        "method": "2:1。",
+        "principle": "OH取代金属。",
+        "steps": [
+          "n醇4.6/46=.10mol。",
+          "nH₂=.10/2=.050mol。"
+        ],
+        "ans": ".050molH₂。",
+        "verification": "消耗Na .10mol，氢原子.10mol成.05molH₂。",
+        "pitfall": "每醇给1H₂。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.3",
+        "related_sections": []
+      },
+      {
+        "q": "丁-1-醇与丁-2-醇适当氧化，各给第一阶段保骨架产物。 条件：一级条件控制到醛，二级到酮。",
+        "given": "一级条件控制到醛，二级到酮。",
+        "analysis": "先判OH碳。",
+        "method": "结构氧化。",
+        "principle": "去相应氢形成C=O。",
+        "steps": [
+          "丁-1-醇→丁醛CH₃CH₂CH₂CHO。",
+          "丁-2-醇→丁-2-酮CH₃COCH₂CH₃。"
+        ],
+        "ans": "丁醛与丁-2-酮。",
+        "verification": "均保4碳，第一产物可进一步氧化需另给条件。",
+        "pitfall": "只看同分子式就给同产物。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.3",
+        "related_sections": []
+      },
+      {
+        "q": "乙酸.20mol、乙醇.30mol理论酯量及给定75%收率质量？ 条件：乙酸乙酯M88，按1:1计理论上限。",
+        "given": "乙酸乙酯M88，按1:1计理论上限。",
+        "analysis": "酸限量。",
+        "method": "限量后收率。",
+        "principle": "酯化计量。",
+        "steps": [
+          "理论酯.20mol，17.6g。",
+          "实际17.6×.75=13.2g。"
+        ],
+        "ans": "理论.20mol；实际13.2g。",
+        "verification": "不是以较多的醇算；75%已给不再猜平衡。",
+        "pitfall": "两者相加算酯mol。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "丙-2-醇保骨架氧化的羰基产物？ 条件：适当通常氧化模型。",
+        "given": "适当通常氧化模型。",
+        "analysis": "二级。",
+        "method": "C—OH转C=O。",
+        "principle": "氧化。",
+        "steps": [
+          "CH₃CH(OH)CH₃→CH₃COCH₃。",
+          "失相应两H，由氧化剂接受。"
+        ],
+        "ans": "丙酮。",
+        "verification": "碳数3保持。",
+        "pitfall": "写丙醛。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.3",
+        "related_sections": []
+      },
+      {
+        "q": "三级醇可按普通一级醇规则直接变同骨架醛吗？ 条件：只指本节简单保骨架氧化。",
+        "given": "只指本节简单保骨架氧化。",
+        "analysis": "OH碳无所需氢且连接不同。",
+        "method": "审结构。",
+        "principle": "价键与氧化。",
+        "steps": [
+          "若保3个碳邻居又C=O会超碳四价。",
+          "不能套该简单式。"
+        ],
+        "ans": "不可。",
+        "verification": "不等强条件绝不反应。",
+        "pitfall": "任何醇都先醛。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.3",
+        "related_sections": []
+      },
+      {
+        "q": ".10mol乙二醇全部两个OH按无水金属模型反应，H₂理论量？ 条件：每OH贡献1H原子，无其他路径。",
+        "given": "每OH贡献1H原子，无其他路径。",
+        "analysis": "先OHmol。",
+        "method": "2OH给1H₂。",
+        "principle": "计量。",
+        "steps": [
+          "OH=.10×2=.20mol。",
+          "H₂=.10mol。"
+        ],
+        "ans": ".10mol。",
+        "verification": "多元醇不能仍按每分子一个OH。",
+        "pitfall": "忽略第二OH。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.3",
+        "related_sections": []
+      },
+      {
+        "q": "醇与酸等mol混合且有催化剂，是否必100%变酯？ 条件：普通可逆酯化，未移走产物等。",
+        "given": "普通可逆酯化，未移走产物等。",
+        "analysis": "催化不改K。",
+        "method": "平衡条件。",
+        "principle": "可逆反应。",
+        "steps": [
+          "催化加快达到平衡。",
+          "不保证平衡全部在产物。"
+        ],
+        "ans": "不是。",
+        "verification": "理论上限与平衡/实际收率分开。",
+        "pitfall": "催化剂保证完全。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "含水乙醇放氢量能不加修正唯一反推乙醇mol吗？ 条件：与Na反应时水也可给H₂。",
+      "given": "与Na反应时水也可给H₂。",
+      "analysis": "有竞争来源。",
+      "method": "辨分析选择性。",
+      "principle": "物料收支。",
+      "steps": [
+        "总氢可能来自水与醇OH。",
+        "缺水含量等信息不能唯一拆分。"
+      ],
+      "ans": "不能。",
+      "verification": "需要独立纯度证据或合适选择性方法。",
+      "pitfall": "把气泡全算醇。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 32,
+      "primary_section": "32.1.3",
+      "related_sections": []
+    },
+    "exam": [
+      "先分类OH碳再判氧化，三级例外用价态解释",
+      "Na反应按OH数而非总H数，水干扰必须列",
+      "酯化先限量再收率，催化与平衡分开，不虚构步骤分"
+    ],
+    "quick": [
+      "断键分类",
+      "金属反应",
+      "氧化结构",
+      "取代消去",
+      "酯化计量"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 15,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_32.1.3",
+        "url": "https://openstax.org/books/organic-chemistry/pages/17-7-oxidation-of-alcohols",
+        "page_or_section": "17-7-oxidation-of-alcohols",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 15,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_32.1.3",
+        "url": "https://openstax.org/books/organic-chemistry/pages/17-7-oxidation-of-alcohols",
+        "page_or_section": "17-7-oxidation-of-alcohols",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先分类OH碳再判氧化，三级例外用价态解释",
+      "method": "限量后收率。",
+      "principle": "酯化计量。",
+      "worked_example_index": 2,
+      "verification": "不是以较多的醇算；75%已给不再猜平衡。",
+      "pitfall": "两者相加算酯mol。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“按断键位置及条件区分醇反应”的抽样复核：消耗Na .10mol，氢原子.10mol成.05molH₂。；若出现“每醇给1H₂。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“由OH碳邻居和氢判断指定氧化产物并完整计算”的抽样复核：不是以较多的醇算；75%已给不再猜平衡。；若出现“两者相加算酯mol。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把气泡全算醇。",
+        "correction": "不能。",
+        "verification": "需要独立纯度证据或合适选择性方法。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "醇反应的结构决策树",
+      "objects": [
+        "一二三级醇",
+        "醛酸酮分支",
+        "醇盐和氢",
+        "酯化平衡",
+        "条件框"
+      ],
+      "relations": [
+        "一级到醛酸依条件",
+        "二级到酮",
+        "三级不可套保链羰基",
+        "2OH当量给1H₂",
+        "酯化可逆"
+      ],
+      "labels": [
+        "OH碳",
+        "氧化条件",
+        "2ROH",
+        "H₂",
+        "⇌"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "只有羟基连接对象、试剂条件及原子守恒一致才复用；不得以通用酒瓶图代替官能团结构",
+      "english": "Use exact organic structural formulas. Distinguish an alcohol hydroxyl attached to a saturated carbon from a phenol hydroxyl directly attached to an aromatic carbon. Oxygen has the stated valence and charge. Preserve the carbon skeleton and label reaction conditions, equilibrium and competing pathways. Hydrogen bonds are intermolecular interactions, not additional covalent O-H bonds."
+    }
+  },
+  "32.1.4": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 32,
+    "section_id": "32.1.4",
+    "goals": [
+      "按目标骨架选择水合取代或羰基还原路线",
+      "把发酵计量与实际转化分离并核产率"
+    ],
+    "prerequisites": [
+      "烯烃羰基卤代烃",
+      "反应选择",
+      "计量"
+    ],
+    "flow": [
+      "目标反推",
+      "水合取代",
+      "羰基还原",
+      "发酵模型",
+      "收率分离"
+    ],
+    "concept_relation": "目标反推；水合取代；羰基还原；发酵模型；收率分离",
+    "deep": [
+      "醛还原可给相应一级醇，酮还原可给二级醇，碳骨架在这些简单模型中保留。丙酮还原得到丙-2-醇，不是丙-1-醇；为生成三级醇通常需不同形成C—C键等路径，不能把所有羰基还原都画成三级。",
+      "葡萄糖发酵的常用总反应为C₆H₁₂O₆→2C₂H₅OH+2CO₂，需要合适生物催化及环境，实际还含生长和副产物等。总方程是净物料模型，不意味着酵母只一步完成，也不保证在任意糖浓度、温度或氧条件都有理论产率。",
+      "计算先将纯反应物量换成理论目标，再按定义应用转化率、选择性或分离收率，多个百分数仅在各自定义独立时才相乘。蒸馏可分离富集醇但不等于无条件得到绝对无水产品；涉及共沸及残水需实际工艺证据，不能从普通沸点一句话得全纯结论。"
+    ],
+    "derive": [
+      "适当水合：乙烯→乙醇；通常丙烯酸催化水合主要→丙-2-醇。",
+      "简单羰基还原：RCHO→RCH₂OH；R₂CO→R₂CHOH。",
+      "发酵净式C₆H₁₂O₆→2C₂H₅OH+2CO₂；180g葡萄糖理论给92g乙醇。"
+    ],
+    "examples": [
+      {
+        "q": "18.0g纯葡萄糖按净发酵式理论乙醇质量，实际为理论80%呢？ 条件：M糖180、乙醇46，题给综合收率80%。",
+        "given": "M糖180、乙醇46，题给综合收率80%。",
+        "analysis": "1糖给2醇。",
+        "method": "计量后比例。",
+        "principle": "净反应守恒。",
+        "steps": [
+          "糖.100mol给醇.200mol，理论9.20g。",
+          "实际7.36g。"
+        ],
+        "ans": "理论9.20g，实际7.36g。",
+        "verification": "碳产物乙醇4碳及CO₂2碳合6。",
+        "pitfall": "糖醇质量按1:2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.4",
+        "related_sections": []
+      },
+      {
+        "q": "用丙酮简单还原制哪种丙醇？ 条件：保碳骨架和通常羰基还原。",
+        "given": "保碳骨架和通常羰基还原。",
+        "analysis": "羰基碳在2位。",
+        "method": "加氢到C=O。",
+        "principle": "酮还原。",
+        "steps": [
+          "CH₃COCH₃→CH₃CH(OH)CH₃。",
+          "OH仍在中间碳。"
+        ],
+        "ans": "丙-2-醇。",
+        "verification": "3碳位置未重排。",
+        "pitfall": "写成丙-1-醇。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.4",
+        "related_sections": []
+      },
+      {
+        "q": "希望从丙烯制丙-1-醇，能只把通常酸水合的主产物改成目标吗？ 条件：只允许通常离子酸水合规则。",
+        "given": "只允许通常离子酸水合规则。",
+        "analysis": "目标不符合该主选择。",
+        "method": "先验路线。",
+        "principle": "区域选择。",
+        "steps": [
+          "通常主要生成丙-2-醇。",
+          "要目标需另有合适路线与条件证据，不能改画。"
+        ],
+        "ans": "不能。",
+        "verification": "路线可行性先于产率计算。",
+        "pitfall": "目标需要什么就画什么。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "乙醛CH₃CHO简单还原结构？ 条件：保链。",
+        "given": "保链。",
+        "analysis": "C=O变CHOH。",
+        "method": "补H。",
+        "principle": "还原。",
+        "steps": [
+          "CH₃CHO接受相应氢。",
+          "得CH₃CH₂OH。"
+        ],
+        "ans": "乙醇。",
+        "verification": "C2不变，O1保留。",
+        "pitfall": "生成甲醇少碳。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.4",
+        "related_sections": []
+      },
+      {
+        "q": "1mol葡萄糖按净式给多少molCO₂？ 条件：完全按给定总式。",
+        "given": "完全按给定总式。",
+        "analysis": "系数2。",
+        "method": "比例。",
+        "principle": "配平。",
+        "steps": [
+          "1×2=2。",
+          "合乙醇两分子总碳4加CO₂2为6。"
+        ],
+        "ans": "2mol。",
+        "verification": "气量还需温压。",
+        "pitfall": "因酵母呼吸就套6CO₂。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.4",
+        "related_sections": []
+      },
+      {
+        "q": "理论10g，转化80%、转化部分选择性75%、分离回收90%，产品多少？ 条件：三个比例定义如题且依次作用。",
+        "given": "三个比例定义如题且依次作用。",
+        "analysis": "顺序各乘一次。",
+        "method": "物料链。",
+        "principle": "收率定义。",
+        "steps": [
+          "10×.80×.75=6.0g形成目标。",
+          "回收6.0×.90=5.4g。"
+        ],
+        "ans": "5.4g。",
+        "verification": "总综合54%，不重复再乘54%。",
+        "pitfall": "同一综合收率重复应用。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.4",
+        "related_sections": []
+      },
+      {
+        "q": "普通蒸馏取得富乙醇馏分就一定绝对无水吗？ 条件：未给脱水及组成分析。",
+        "given": "未给脱水及组成分析。",
+        "analysis": "分离富集非自动全纯。",
+        "method": "审证据。",
+        "principle": "汽液平衡。",
+        "steps": [
+          "混合物可存在共沸和残水。",
+          "需相应工艺与检测支持纯度。"
+        ],
+        "ans": "不能断定。",
+        "verification": "纯度应由实际资料给出。",
+        "pitfall": "沸点较低必100%单组分馏出。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "选制醇路线时可忽略碳骨架，只看最终有OH吗？ 条件：目标是指定连结的纯物质。",
+      "given": "目标是指定连结的纯物质。",
+      "analysis": "官能团相同仍可能错异构。",
+      "method": "追踪碳与位置。",
+      "principle": "结构映射。",
+      "steps": [
+        "每一步记录碳数及连接。",
+        "同时核OH位置与竞争路径，才是该目标路线。"
+      ],
+      "ans": "不可。",
+      "verification": "产物分子式相同也需验连接。",
+      "pitfall": "有OH都算目标醇。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 32,
+      "primary_section": "32.1.4",
+      "related_sections": []
+    },
+    "exam": [
+      "先画目标局部反推可行前体，水合主选择不能按愿望改",
+      "发酵净式与生物条件分开，理论与实际量依百分数定义",
+      "蒸馏是分离，不能不经检测冒称绝对无水"
+    ],
+    "quick": [
+      "目标反推",
+      "水合取代",
+      "羰基还原",
+      "发酵模型",
+      "收率分离"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 15,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_32.1.4",
+        "url": "https://openstax.org/books/organic-chemistry/pages/17-3-preparation-of-alcohols-a-review",
+        "page_or_section": "17-3-preparation-of-alcohols-a-review",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 15,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_32.1.4",
+        "url": "https://openstax.org/books/organic-chemistry/pages/17-3-preparation-of-alcohols-a-review",
+        "page_or_section": "17-3-preparation-of-alcohols-a-review",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先画目标局部反推可行前体，水合主选择不能按愿望改",
+      "method": "先验路线。",
+      "principle": "区域选择。",
+      "worked_example_index": 2,
+      "verification": "路线可行性先于产率计算。",
+      "pitfall": "目标需要什么就画什么。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“按目标骨架选择水合取代或羰基还原路线”的抽样复核：碳产物乙醇4碳及CO₂2碳合6。；若出现“糖醇质量按1:2。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“把发酵计量与实际转化分离并核产率”的抽样复核：路线可行性先于产率计算。；若出现“目标需要什么就画什么。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "有OH都算目标醇。",
+        "correction": "不可。",
+        "verification": "产物分子式相同也需验连接。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "醇制备路线与产率链",
+      "objects": [
+        "目标OH碳",
+        "烯烃水合",
+        "醛酮还原",
+        "葡萄糖发酵",
+        "转化选择回收链"
+      ],
+      "relations": [
+        "骨架与OH位置核对",
+        "1糖2乙醇2CO₂",
+        "三个比例按定义依次作用",
+        "富集与无水不同"
+      ],
+      "labels": [
+        "主产物",
+        "理论量",
+        "转化率",
+        "选择性",
+        "回收率"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "只有羟基连接对象、试剂条件及原子守恒一致才复用；不得以通用酒瓶图代替官能团结构",
+      "english": "Use exact organic structural formulas. Distinguish an alcohol hydroxyl attached to a saturated carbon from a phenol hydroxyl directly attached to an aromatic carbon. Oxygen has the stated valence and charge. Preserve the carbon skeleton and label reaction conditions, equilibrium and competing pathways. Hydrogen bonds are intermolecular interactions, not additional covalent O-H bonds."
+    }
+  },
+  "32.1.5": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 32,
+    "section_id": "32.1.5",
+    "goals": [
+      "联系甲醇乙醇乙二醇甘油的结构与用途",
+      "用明确组成模型计算并识别用途不等安全"
+    ],
+    "prerequisites": [
+      "醇分类",
+      "氢键",
+      "燃烧与溶液组成"
+    ],
+    "flow": [
+      "四种结构",
+      "OH与氢键",
+      "用途条件",
+      "官能团计量",
+      "产品证据"
+    ],
+    "concept_relation": "四种结构；OH与氢键；用途条件；官能团计量；产品证据",
+    "deep": [
+      "甘油HOCH₂CH(OH)CH₂OH有三个OH，可与水作用并表现较高黏度、吸湿等性质，应用于保湿和工业原料等需看产品等级。OH数多改变相互作用，但不能推出所有三元醇都无毒或每多一OH黏度恰乘某固定倍数。",
+      "比较燃烧计量、摩尔质量和OH反应当量时，须分别数碳、氢、氧及羟基。甲醇摩尔质量32、乙醇46、乙二醇62、甘油92g/mol（C12H1O16），仅用碳数近似会错。单位质量OH数也并非按分子OH个数直接比较，需除各自摩尔质量。",
+      "实际配方还含水和添加剂，纯物质结构不能代替产品检测。纸上计算明确给定质量分数或摩尔分数，混合体积非必可加；对于用途和危害，只写有证据的概括及条件，不编造安全摄入量、万能防护或官方考试评分点。"
+    ],
+    "derive": [
+      "甲醇CH₃OH：32；乙醇C₂H₅OH：46；乙二醇C₂H₆O₂：62；甘油C₃H₈O₃：92g/mol。",
+      "OH物质的量=物质mol×每分子OH数；单位质量须再除摩尔质量。",
+      "产品用途不等可饮用、安全等级或具体纯度；所有应用依配方与条件。"
+    ],
+    "examples": [
+      {
+        "q": "6.2g乙二醇含多少mol分子及OH？ 条件：M62g/mol，每分子两个OH。",
+        "given": "M62g/mol，每分子两个OH。",
+        "analysis": "先mol再官能团数。",
+        "method": "n=m/M。",
+        "principle": "结构计量。",
+        "steps": [
+          "分子n=6.2/62=.10mol。",
+          "OH=.10×2=.20mol。"
+        ],
+        "ans": ".10mol分子，.20molOH。",
+        "verification": "不能OH .20mol再当分子 .20mol。",
+        "pitfall": "分子mol与OHmol混用。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.5",
+        "related_sections": []
+      },
+      {
+        "q": "9.2g甘油与9.2g乙醇，谁OHmol多？ 条件：M甘92、乙46，OH数3与1。",
+        "given": "M甘92、乙46，OH数3与1。",
+        "analysis": "等质量不等分子数。",
+        "method": "各算OH当量。",
+        "principle": "结构组成。",
+        "steps": [
+          "甘油9.2/92×3=.30molOH。",
+          "乙醇9.2/46=.20molOH。"
+        ],
+        "ans": "甘油OH量较多，比例1.5。",
+        "verification": "不是因3个OH直接比3倍。",
+        "pitfall": "忽略不同M。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.5",
+        "related_sections": []
+      },
+      {
+        "q": "100g给定混合物含乙二醇质量40%，其中乙二醇mol？ 条件：其余不计乙二醇。",
+        "given": "其余不计乙二醇。",
+        "analysis": "先质量分数。",
+        "method": "40/62。",
+        "principle": "组成定义。",
+        "steps": [
+          "m=100×.40=40g。",
+          "n=40/62≈.645mol。"
+        ],
+        "ans": "约.645mol。",
+        "verification": "总100g不是全部纯乙二醇。",
+        "pitfall": "总质量直接除62。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.5",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "甲醇2mol质量？ 条件：C12H1O16。",
+        "given": "C12H1O16。",
+        "analysis": "M32。",
+        "method": "m=nM。",
+        "principle": "组成。",
+        "steps": [
+          "M=12+4+16=32g/mol。",
+          "m64g。"
+        ],
+        "ans": "64g。",
+        "verification": "甲醇分子有4H不是3。",
+        "pitfall": "只数CH₃漏OH氢。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.5",
+        "related_sections": []
+      },
+      {
+        "q": "甘油一个分子OH数与总H数？ 条件：HOCH₂CH(OH)CH₂OH。",
+        "given": "HOCH₂CH(OH)CH₂OH。",
+        "analysis": "分组计数。",
+        "method": "结构展开。",
+        "principle": "原子账。",
+        "steps": [
+          "OH3个。",
+          "碳上H2+1+2=5，加OH的3H共8。"
+        ],
+        "ans": "3个OH、8个H。",
+        "verification": "式C₃H₈O₃。",
+        "pitfall": "将H总数3。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.5",
+        "related_sections": []
+      },
+      {
+        "q": "乙二醇用于防冻是否说明纯品及任意混合比例永不冻结？ 条件：未给相图温度。",
+        "given": "未给相图温度。",
+        "analysis": "用途有组成范围。",
+        "method": "审条件。",
+        "principle": "溶液相平衡。",
+        "steps": [
+          "冻结行为随组成和温度。",
+          "不能推出所有条件永不冻结。"
+        ],
+        "ans": "不是。",
+        "verification": "需配方和相图数据。",
+        "pitfall": "用途名当绝对物理定律。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.5",
+        "related_sections": []
+      },
+      {
+        "q": "未知无色醇液可否以尝味区分甲乙醇？ 条件：成分和等级未知。",
+        "given": "成分和等级未知。",
+        "analysis": "鉴别方法需安全与特异性。",
+        "method": "选规范分析。",
+        "principle": "毒性与证据。",
+        "steps": [
+          "甲醇等可能有严重危害。",
+          "不得尝试，以合适分析及来源检测鉴别。"
+        ],
+        "ans": "不可以。",
+        "verification": "外观和味觉也不唯一可靠。",
+        "pitfall": "无色常见就可尝。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.1.5",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "“三元醇”能单独证明产品无毒且适用于所有皮肤吗？ 条件：仅知分子官能团类别。",
+      "given": "仅知分子官能团类别。",
+      "analysis": "结构类别不等完整安全评价。",
+      "method": "区分用途与证据。",
+      "principle": "性质依具体物质及配方。",
+      "steps": [
+        "不同分子、浓度、杂质和暴露条件不同。",
+        "需具体产品与证据，不能从OH数给普适保证。"
+      ],
+      "ans": "不能。",
+      "verification": "课堂用途不是医疗或产品认证。",
+      "pitfall": "甘油有用途所以所有三元醇都同样。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 32,
+      "primary_section": "32.1.5",
+      "related_sections": []
+    },
+    "exam": [
+      "比较用途从结构及条件解释，不写无证万能效果",
+      "计量分别数分子、OH及总H，等质量比较先除M",
+      "产品与纯物质分开，未知醇不通过尝闻鉴别"
+    ],
+    "quick": [
+      "四种结构",
+      "OH与氢键",
+      "用途条件",
+      "官能团计量",
+      "产品证据"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 15,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_32.1.5",
+        "url": "https://openstax.org/books/organic-chemistry/pages/17-2-properties-of-alcohols-and-phenols",
+        "page_or_section": "17-2-properties-of-alcohols-and-phenols",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 15,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_32.1.5",
+        "url": "https://openstax.org/books/organic-chemistry/pages/17-2-properties-of-alcohols-and-phenols",
+        "page_or_section": "17-2-properties-of-alcohols-and-phenols",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "比较用途从结构及条件解释，不写无证万能效果",
+      "method": "40/62。",
+      "principle": "组成定义。",
+      "worked_example_index": 2,
+      "verification": "总100g不是全部纯乙二醇。",
+      "pitfall": "总质量直接除62。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“联系甲醇乙醇乙二醇甘油的结构与用途”的抽样复核：不能OH .20mol再当分子 .20mol。；若出现“分子mol与OHmol混用。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用明确组成模型计算并识别用途不等安全”的抽样复核：总100g不是全部纯乙二醇。；若出现“总质量直接除62。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "甘油有用途所以所有三元醇都同样。",
+        "correction": "不能。",
+        "verification": "课堂用途不是医疗或产品认证。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "四种醇的结构与OH当量",
+      "objects": [
+        "甲醇乙醇乙二醇甘油结构",
+        "OH高亮",
+        "摩尔质量表",
+        "等质量OH对比"
+      ],
+      "relations": [
+        "逐原子匹配32 46 62 92",
+        "OH数1 1 2 3",
+        "9.2g甘油.30molOH对乙醇.20",
+        "危害注记不写饮用量"
+      ],
+      "labels": [
+        "分子mol",
+        "OH mol",
+        "M",
+        "用途依配方"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "只有羟基连接对象、试剂条件及原子守恒一致才复用；不得以通用酒瓶图代替官能团结构",
+      "english": "Use exact organic structural formulas. Distinguish an alcohol hydroxyl attached to a saturated carbon from a phenol hydroxyl directly attached to an aromatic carbon. Oxygen has the stated valence and charge. Preserve the carbon skeleton and label reaction conditions, equilibrium and competing pathways. Hydrogen bonds are intermolecular interactions, not additional covalent O-H bonds."
+    }
+  },
+  "32.2.1": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 32,
+    "section_id": "32.2.1",
+    "goals": [
+      "从结构解释苯酚的氢键与溶解行为",
+      "区分溶解、熔化及形成盐后的性质变化"
+    ],
+    "prerequisites": [
+      "芳香环",
+      "氢键",
+      "相变与溶液"
+    ],
+    "flow": [
+      "双重结构",
+      "氢键物性",
+      "溶解条件",
+      "成盐分配",
+      "现象与证据"
+    ],
+    "concept_relation": "双重结构；氢键物性；溶解条件；成盐分配；现象与证据",
+    "deep": [
+      "与NaOH反应可形成苯酚盐，离子性改变可显著影响水相分配；这涉及化学转变，不是原中性苯酚物理水溶性突然无限提高。酸化若重新生成中性苯酚，是否析出还依浓度、温度与溶解度，不能任何微量酸化都必有肉眼沉淀。",
+      "苯酚具有有害和腐蚀风险，历史用途不代表可直接接触或作为学生自行消毒用品。外观、气味和颜色也不是安全鉴定方案；陈放变色可能与杂质或氧化有关，不能把所有颜色变化直接当纯物质结构的唯一指纹。",
+      "物理性质分析应写清比较物、温度、组成和是否反应。若只给分层读数，可计算分配但不推出化学计量；若已加碱，则应同时考虑酸碱平衡。将现象和机制分层，可以避免用“溶了”一句话掩盖分子溶解与生成盐的不同原因。"
+    ],
+    "derive": [
+      "苯酚OH直接连芳香环，氢键与疏水部分共同影响物性。",
+      "溶解≠熔化≠分解；有限溶解不等零溶解。",
+      "加碱成苯酚盐为化学改变；酸化后是否析出仍需浓度温度条件。"
+    ],
+    "examples": [
+      {
+        "q": "1.88g苯酚的物质的量？ 条件：C6H6O，C12H1O16。",
+        "given": "C6H6O，C12H1O16。",
+        "analysis": "先算M。",
+        "method": "n=m/M。",
+        "principle": "组成。",
+        "steps": [
+          "M=72+6+16=94g/mol。",
+          "n=1.88/94=.0200mol。"
+        ],
+        "ans": ".0200mol。",
+        "verification": "OH氢也在总6H中。",
+        "pitfall": "C₆H₅OH误数只有5H。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.2.1",
+        "related_sections": []
+      },
+      {
+        "q": "苯酚加NaOH后更易进入水相，能只称原苯酚物理溶解度增加吗？ 条件：发生明显酸碱转化为苯酚盐的条件。",
+        "given": "发生明显酸碱转化为苯酚盐的条件。",
+        "analysis": "物种身份变了。",
+        "method": "分开平衡物种。",
+        "principle": "离子形成。",
+        "steps": [
+          "C₆H₅OH+OH⁻→C₆H₅O⁻+H₂O。",
+          "离子与中性分子的溶剂化不同。"
+        ],
+        "ans": "不能只作同一中性物质物理性质变化。",
+        "verification": "须同时记化学反应与分配。",
+        "pitfall": "反应生成盐也当原物质未变。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.2.1",
+        "related_sections": []
+      },
+      {
+        "q": "某温度溶解度假定每100g水可溶8.0g苯酚，20g水最多溶多少？ 条件：示例给定值，不冒称实测常数，未发生反应。",
+        "given": "示例给定值，不冒称实测常数，未发生反应。",
+        "analysis": "按溶剂质量比例。",
+        "method": "8×20/100。",
+        "principle": "溶解度定义。",
+        "steps": [
+          "最大1.60g。",
+          "若加2.0g，按模型至少.40g未溶。"
+        ],
+        "ans": "1.60g；剩.40g。",
+        "verification": "8g是每100g水，不是每100g溶液。",
+        "pitfall": "把溶液质量当水质量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.2.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "苯酚分子总氢数？ 条件：结构C₆H₅OH。",
+        "given": "结构C₆H₅OH。",
+        "analysis": "环5加OH1。",
+        "method": "数原子。",
+        "principle": "结构式。",
+        "steps": [
+          "5+1=6。",
+          "式C₆H₆O。"
+        ],
+        "ans": "6。",
+        "verification": "M94g/mol。",
+        "pitfall": "漏OH氢。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.2.1",
+        "related_sections": []
+      },
+      {
+        "q": "晶体在水中消失必然先纯品熔化吗？ 条件：观察为溶解，无加热到熔点证据。",
+        "given": "观察为溶解，无加热到熔点证据。",
+        "analysis": "溶剂参与不同过程。",
+        "method": "区分相变和溶解。",
+        "principle": "溶剂化。",
+        "steps": [
+          "分子可离开晶体进入溶液。",
+          "无需整块先成为纯液体。"
+        ],
+        "ans": "不必。",
+        "verification": "溶液状态不等纯液态。",
+        "pitfall": "溶解就是熔化。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.2.1",
+        "related_sections": []
+      },
+      {
+        "q": "极少量苯酚盐酸化后没沉淀，是否证明没有生成苯酚？ 条件：中性产物可能低于溶解度。",
+        "given": "中性产物可能低于溶解度。",
+        "analysis": "可溶量非0。",
+        "method": "核浓度阈值。",
+        "principle": "溶解平衡。",
+        "steps": [
+          "生成苯酚可仍溶于水。",
+          "无肉眼析出不足以否定反应。"
+        ],
+        "ans": "不能证明。",
+        "verification": "需浓度及分析证据。",
+        "pitfall": "所有生成中性物都沉淀。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.2.1",
+        "related_sections": []
+      },
+      {
+        "q": "苯酚与乙醇都有OH，水溶性必完全相同吗？ 条件：骨架不同。",
+        "given": "骨架不同。",
+        "analysis": "疏水大小及电子结构不同。",
+        "method": "结构比较。",
+        "principle": "溶剂相互作用。",
+        "steps": [
+          "苯酚有较大芳香部分。",
+          "OH共同特征不保证整体水溶性相同。"
+        ],
+        "ans": "不必。",
+        "verification": "精确量需给温度数据。",
+        "pitfall": "官能团相同全部物性相同。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.2.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "由升温后混合液变清就能唯一断定苯酚已分解吗？ 条件：未测物种或反应产物。",
+      "given": "未测物种或反应产物。",
+      "analysis": "溶解度变化也能解释。",
+      "method": "列竞争机制。",
+      "principle": "证据与现象。",
+      "steps": [
+        "升温可影响溶解与相行为。",
+        "需组成分析等才能确定分解，不能只凭透明。"
+      ],
+      "ans": "不能。",
+      "verification": "恢复温度后的现象可补证但仍注意条件。",
+      "pitfall": "透明必有化学反应。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 32,
+      "primary_section": "32.2.1",
+      "related_sections": []
+    },
+    "exam": [
+      "读题先分温度组成与是否加酸碱，确定是物性还是物种转变",
+      "溶解度按溶剂质量定义，不当溶液质量",
+      "无沉淀不等无生成，外观不替代物种证据"
+    ],
+    "quick": [
+      "双重结构",
+      "氢键物性",
+      "溶解条件",
+      "成盐分配",
+      "现象与证据"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 15,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_32.2.1",
+        "url": "https://openstax.org/books/organic-chemistry/pages/17-2-properties-of-alcohols-and-phenols",
+        "page_or_section": "17-2-properties-of-alcohols-and-phenols",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 15,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_32.2.1",
+        "url": "https://openstax.org/books/organic-chemistry/pages/17-2-properties-of-alcohols-and-phenols",
+        "page_or_section": "17-2-properties-of-alcohols-and-phenols",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "读题先分温度组成与是否加酸碱，确定是物性还是物种转变",
+      "method": "8×20/100。",
+      "principle": "溶解度定义。",
+      "worked_example_index": 2,
+      "verification": "8g是每100g水，不是每100g溶液。",
+      "pitfall": "把溶液质量当水质量。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“从结构解释苯酚的氢键与溶解行为”的抽样复核：OH氢也在总6H中。；若出现“C₆H₅OH误数只有5H。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分溶解、熔化及形成盐后的性质变化”的抽样复核：8g是每100g水，不是每100g溶液。；若出现“把溶液质量当水质量。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "透明必有化学反应。",
+        "correction": "不能。",
+        "verification": "恢复温度后的现象可补证但仍注意条件。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "苯酚溶解与成盐的区别",
+      "objects": [
+        "中性苯酚",
+        "水相有限溶解",
+        "加OH⁻成盐",
+        "酸化返回",
+        "浓度阈值"
+      ],
+      "relations": [
+        "物理溶解不改连结",
+        "成盐OH失质子且O负电",
+        "低浓度酸化可无沉淀",
+        "无伪造实测溶解度"
+      ],
+      "labels": [
+        "中性分子",
+        "苯酚盐",
+        "温度",
+        "浓度条件"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "只有羟基连接对象、试剂条件及原子守恒一致才复用；不得以通用酒瓶图代替官能团结构",
+      "english": "Use exact organic structural formulas. Distinguish an alcohol hydroxyl attached to a saturated carbon from a phenol hydroxyl directly attached to an aromatic carbon. Oxygen has the stated valence and charge. Preserve the carbon skeleton and label reaction conditions, equilibrium and competing pathways. Hydrogen bonds are intermolecular interactions, not additional covalent O-H bonds."
+    }
+  },
+  "32.2.2": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 32,
+    "section_id": "32.2.2",
+    "goals": [
+      "由共轭碱与活化环解释苯酚反应",
+      "依据酸碱强弱及条件区分鉴别证据"
+    ],
+    "prerequisites": [
+      "弱酸平衡",
+      "芳香取代",
+      "结构与电子效应"
+    ],
+    "flow": [
+      "离域酸性",
+      "成盐反应",
+      "碱种差异",
+      "环活化取代",
+      "鉴别证据"
+    ],
+    "concept_relation": "离域酸性；成盐反应；碱种差异；环活化取代；鉴别证据",
+    "deep": [
+      "OH还可活化芳香环，使相应取代较苯容易并影响邻对位。常见足量溴水条件下，可形成2,4,6-三溴苯酚白色沉淀，总式C₆H₅OH+3Br₂→C₆H₂Br₃OH+3HBr。其本质是环上H被Br取代，不能画成苯环双键全部加成，条件改变产物选择可能不同。",
+      "适当氯化铁试验可产生有色配合等现象，用于提示某些酚类结构，但颜色依结构与条件且并非绝对独占。不能将一切颜色都固定紫色或将有色反应当定量测纯度。硝化、氧化及缩合等也需具体条件，苯酚并非保留苯的一切难反应特征。",
+      "综合鉴别应设计互补证据：酸碱行为、溴水产物和其他结构信息共同判断。每条方程核环上H是否足够及卤素量，若求混合物组成，要证明所用反应选择性及完成程度。教学方法不等官方评分表，未有真题依据不编出高频分数或标准步骤分。"
+    ],
+    "derive": [
+      "C₆H₅OH+OH⁻→C₆H₅O⁻+H₂O；比较共轭碱稳定性。",
+      "常规NaHCO₃不与苯酚给羧酸式定量放CO₂；CO₃²⁻须另审酸碱对。",
+      "足量溴水：C₆H₅OH+3Br₂→C₆H₂Br₃OH+3HBr，环取代非苯环加成。"
+    ],
+    "examples": [
+      {
+        "q": "苯酚.020mol按三溴取代模型需Br₂多少mol？ 条件：足量溴水，目标反应完全且不计其他反应。",
+        "given": "足量溴水，目标反应完全且不计其他反应。",
+        "analysis": "每分子3环H取代。",
+        "method": "1:3。",
+        "principle": "取代守恒。",
+        "steps": [
+          "nBr₂=.020×3=.060mol。",
+          "HBr也.060mol。"
+        ],
+        "ans": ".060molBr₂。",
+        "verification": "6个Br原子中3入有机物、3入HBr。",
+        "pitfall": "误把每Br₂两个Br都装进环只耗1.5。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.2.2",
+        "related_sections": []
+      },
+      {
+        "q": "9.4g苯酚恰与NaOH反应所需质量？ 条件：苯酚M94、NaOH40，按1:1成盐模型。",
+        "given": "苯酚M94、NaOH40，按1:1成盐模型。",
+        "analysis": "先mol。",
+        "method": "酸碱计量。",
+        "principle": "一元失质子。",
+        "steps": [
+          "苯酚9.4/94=.10mol。",
+          "NaOH .10mol×40=4.0g。"
+        ],
+        "ans": "4.0g。",
+        "verification": "只取OH氢不是环5H全中和。",
+        "pitfall": "按6个H当六元酸。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.2.2",
+        "related_sections": []
+      },
+      {
+        "q": "区分乙醇、苯酚、乙酸，只靠与Na放H₂够吗？ 条件：三者均有能与Na反应的相应氢，按常规模型。",
+        "given": "三者均有能与Na反应的相应氢，按常规模型。",
+        "analysis": "反应非专属。",
+        "method": "设计互补证据。",
+        "principle": "选择性鉴别。",
+        "steps": [
+          "Na反应不能唯一分三者。",
+          "结合NaOH成盐、NaHCO₃放CO₂及适当酚试验，逐项说明条件。"
+        ],
+        "ans": "不够。",
+        "verification": "每项现象须与候选对应且留干扰边界。",
+        "pitfall": "有H₂就必乙醇。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.2.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "苯酚失质子后负电主要记在何处的结构式？ 条件：简式不画全部离域贡献。",
+        "given": "简式不画全部离域贡献。",
+        "analysis": "OH失H保留O。",
+        "method": "离子式。",
+        "principle": "酸碱。",
+        "steps": [
+          "C₆H₅OH→C₆H₅O⁻+H⁺。",
+          "简式O带负电。"
+        ],
+        "ans": "苯氧负离子C₆H₅O⁻。",
+        "verification": "不是丢掉整个OH。",
+        "pitfall": "变成C₆H₅⁻。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.2.2",
+        "related_sections": []
+      },
+      {
+        "q": "三溴苯酚式中环氢几个，OH氢几个？ 条件：取代位置2、4、6。",
+        "given": "取代位置2、4、6。",
+        "analysis": "原环5H减3。",
+        "method": "数原子。",
+        "principle": "取代。",
+        "steps": [
+          "环H2。",
+          "OH保1，总H3。"
+        ],
+        "ans": "环2、OH1，分子C₆H₃Br₃O。",
+        "verification": "常写C₆H₂Br₃OH，不能漏OH氢。",
+        "pitfall": "把三溴式总H2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.2.2",
+        "related_sections": []
+      },
+      {
+        "q": "苯酚加NaHCO₃可直接按乙酸同样定量CO₂算吗？ 条件：常规水溶液课堂条件，无其他强酸。",
+        "given": "常规水溶液课堂条件，无其他强酸。",
+        "analysis": "对应酸性不足以支持同样模型。",
+        "method": "比较酸碱对。",
+        "principle": "平衡。",
+        "steps": [
+          "苯酚通常弱于碳酸第一步。",
+          "不应套羧酸定量放CO₂。"
+        ],
+        "ans": "不可。",
+        "verification": "碳酸盐CO₃²⁻是不同碱要另审。",
+        "pitfall": "所有含OH都是羧酸行为。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.2.2",
+        "related_sections": []
+      },
+      {
+        "q": "溴水后白色三溴产物是环加成还是取代？ 条件：题已指定三溴苯酚。",
+        "given": "题已指定三溴苯酚。",
+        "analysis": "原环H被Br替换。",
+        "method": "比较反应物产物。",
+        "principle": "芳香取代。",
+        "steps": [
+          "三环H转入3HBr。",
+          "芳香骨架保留。"
+        ],
+        "ans": "取代。",
+        "verification": "和烯烃加Br₂保全H的反应不同。",
+        "pitfall": "褪色都算加成。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.2.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "苯酚与FeCl₃的有色现象能直接证明样品100%纯且所有酚固定同色吗？ 条件：未给校准或其他组成证据。",
+      "given": "未给校准或其他组成证据。",
+      "analysis": "显色依结构条件，非全纯度测定。",
+      "method": "核特异性与定量依据。",
+      "principle": "配位与分析。",
+      "steps": [
+        "不同酚及介质可有不同颜色和干扰。",
+        "有色支持线索，不能直接给纯度100%。"
+      ],
+      "ans": "不能。",
+      "verification": "需合适分析校准及多证据。",
+      "pitfall": "一个颜色等唯一物质与纯度。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 32,
+      "primary_section": "32.2.2",
+      "related_sections": []
+    },
+    "exam": [
+      "酸性用相应酸碱对，CO₃²⁻不与HCO₃⁻混算",
+      "溴取代画3处及3HBr并核全部Br，褪色不一律加成",
+      "鉴别要互补证据和干扰边界，显色非无条件定量纯度"
+    ],
+    "quick": [
+      "离域酸性",
+      "成盐反应",
+      "碱种差异",
+      "环活化取代",
+      "鉴别证据"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 15,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_32.2.2",
+        "url": "https://openstax.org/books/organic-chemistry/pages/17-10-reactions-of-phenols",
+        "page_or_section": "17-10-reactions-of-phenols",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 15,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_32.2.2",
+        "url": "https://openstax.org/books/organic-chemistry/pages/17-10-reactions-of-phenols",
+        "page_or_section": "17-10-reactions-of-phenols",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "酸性用相应酸碱对，CO₃²⁻不与HCO₃⁻混算",
+      "method": "设计互补证据。",
+      "principle": "选择性鉴别。",
+      "worked_example_index": 2,
+      "verification": "每项现象须与候选对应且留干扰边界。",
+      "pitfall": "有H₂就必乙醇。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由共轭碱与活化环解释苯酚反应”的抽样复核：6个Br原子中3入有机物、3入HBr。；若出现“误把每Br₂两个Br都装进环只耗1.5。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“依据酸碱强弱及条件区分鉴别证据”的抽样复核：每项现象须与候选对应且留干扰边界。；若出现“有H₂就必乙醇。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "一个颜色等唯一物质与纯度。",
+        "correction": "不能。",
+        "verification": "需合适分析校准及多证据。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "苯酚酸碱与溴取代",
+      "objects": [
+        "苯氧离子负电",
+        "NaOH成盐",
+        "HCO₃⁻比较",
+        "2 4 6溴取代环",
+        "3HBr"
+      ],
+      "relations": [
+        "负电不画成丢O",
+        "OH氢与环氢区分",
+        "3Br₂守恒6Br",
+        "环芳香骨架保留",
+        "碳酸两步分开"
+      ],
+      "labels": [
+        "OH",
+        "O⁻",
+        "邻对位",
+        "取代",
+        "鉴别有条件"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "只有羟基连接对象、试剂条件及原子守恒一致才复用；不得以通用酒瓶图代替官能团结构",
+      "english": "Use exact organic structural formulas. Distinguish an alcohol hydroxyl attached to a saturated carbon from a phenol hydroxyl directly attached to an aromatic carbon. Oxygen has the stated valence and charge. Preserve the carbon skeleton and label reaction conditions, equilibrium and competing pathways. Hydrogen bonds are intermolecular interactions, not additional covalent O-H bonds."
+    }
+  },
+  "32.2.3": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 32,
+    "section_id": "32.2.3",
+    "goals": [
+      "从异丙苯氧化裂解说明苯酚与丙酮联产",
+      "完整核碳氧和理论收率而不混淆各步骤"
+    ],
+    "prerequisites": [
+      "芳香结构",
+      "氧化还原",
+      "原子与质量守恒"
+    ],
+    "flow": [
+      "前体结构",
+      "受控氧化",
+      "裂解联产",
+      "限量物料",
+      "流程边界"
+    ],
+    "concept_relation": "前体结构；受控氧化；裂解联产；限量物料；流程边界",
+    "deep": [
+      "工业流程还可能包含制异丙苯、反应物回收、产物分离与副产物处理。联产使经济性依两种产品需求及工艺条件，不能只按苯酚市场忽略丙酮物料。实际转化与选择性不等净方程理论100%，给数据时应注明各比例定义。",
+      "其他苯酚制法可有不同前体、步骤与条件，不能将某一工艺称全部工厂唯一方法。比较路线时考虑原料、能耗、腐蚀、选择性和废物流，不凭某一配平方程就声称绝对环保。涉及过氧中间体的风险需专业工艺控制，笔记只作原理与纸上分析。",
+      "定量题先按纯异丙苯和氧气核限量，再由1:1求两产品，验算总质量。若有苯酚实际收率，不能未经说明把同一百分数也用于所有副产物；理论联产比例与真实分离收率是不同概念。报告明确哪些是总式模型、哪些是实际数据。"
+    ],
+    "derive": [
+      "异丙苯C₆H₅CH(CH₃)₂，经相应氧化及酸催化裂解联产苯酚、丙酮。",
+      "净式C₉H₁₂+O₂→C₆H₆O+C₃H₆O；摩尔比1:1:1:1。",
+      "120g异丙苯+32gO₂理论给94g苯酚+58g丙酮；净式非一步操作。"
+    ],
+    "examples": [
+      {
+        "q": "12.0g纯异丙苯理论生成苯酚与丙酮质量？ 条件：氧足量，M异120、苯酚94、丙酮58，按给定净式。",
+        "given": "氧足量，M异120、苯酚94、丙酮58，按给定净式。",
+        "analysis": "两产品各1mol/mol。",
+        "method": "计量。",
+        "principle": "原子守恒。",
+        "steps": [
+          "n异=.100mol。",
+          "苯酚9.40g，丙酮5.80g。"
+        ],
+        "ans": "9.40g与5.80g。",
+        "verification": "产品15.20g=12.0g+3.20g氧。",
+        "pitfall": "把投料12g当产品质量上限忽略氧。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.2.3",
+        "related_sections": []
+      },
+      {
+        "q": "24.0g异丙苯与3.20g氧按净式完全反应，理论苯酚及剩异丙苯？ 条件：忽略副反应。",
+        "given": "忽略副反应。",
+        "analysis": "n异.20，氧.10，氧限量。",
+        "method": "先限量。",
+        "principle": "1:1净式。",
+        "steps": [
+          "反应异.10mol，剩.10mol=12.0g。",
+          "苯酚.10mol=9.40g。"
+        ],
+        "ans": "苯酚9.40g，剩异丙苯12.0g。",
+        "verification": "氧耗完；另产丙酮5.8g核质量。",
+        "pitfall": "总用.20mol异不看氧。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.2.3",
+        "related_sections": []
+      },
+      {
+        "q": "理论苯酚18.8g，实际分离15.04g，收率？ 条件：只定义苯酚实际/理论。",
+        "given": "只定义苯酚实际/理论。",
+        "analysis": "比值。",
+        "method": "百分收率。",
+        "principle": "产物统计。",
+        "steps": [
+          "15.04/18.8=.80。",
+          "×100%=80%。"
+        ],
+        "ans": "80%。",
+        "verification": "不能未经数据就断丙酮分离收率也80%。",
+        "pitfall": "联产比例当实际各收率一致。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.2.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "异丙苯分子碳总数？ 条件：C₆H₅CH(CH₃)₂。",
+        "given": "C₆H₅CH(CH₃)₂。",
+        "analysis": "环6侧链3。",
+        "method": "数原子。",
+        "principle": "结构。",
+        "steps": [
+          "6+1+2=9。",
+          "H5+1+6=12。"
+        ],
+        "ans": "9，式C₉H₁₂。",
+        "verification": "不是C8。",
+        "pitfall": "漏中间CH。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.2.3",
+        "related_sections": []
+      },
+      {
+        "q": ".50mol异丙苯按净式理论氧耗？ 条件：氧不另参与副反应。",
+        "given": "氧不另参与副反应。",
+        "analysis": "1:1。",
+        "method": "比例。",
+        "principle": "配平。",
+        "steps": [
+          ".50molO₂。",
+          "质量16.0g。"
+        ],
+        "ans": ".50mol、16.0g。",
+        "verification": "一个O₂给两产物各1O。",
+        "pitfall": "每产物都再配一O₂。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.2.3",
+        "related_sections": []
+      },
+      {
+        "q": "两产品各.10mol，总碳mol是多少？ 条件：苯酚C6、丙酮C3。",
+        "given": "苯酚C6、丙酮C3。",
+        "analysis": "加碳。",
+        "method": "元素收支。",
+        "principle": "守恒。",
+        "steps": [
+          ".10×6=.60molC。",
+          ".10×3=.30，总.90molC。"
+        ],
+        "ans": ".90molC。",
+        "verification": "初异丙苯.10×9=.90。",
+        "pitfall": "把分子mol相加作碳mol。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.2.3",
+        "related_sections": []
+      },
+      {
+        "q": "净反应配平是否证明工业生产只一步且无危险？ 条件：未给动力学与过程资料。",
+        "given": "未给动力学与过程资料。",
+        "analysis": "物料式不能说明操作风险。",
+        "method": "区分净式与流程。",
+        "principle": "反应工程。",
+        "steps": [
+          "存在氧化中间体及裂解等步骤。",
+          "需专业控制，配平不证明无危险或无副产物。"
+        ],
+        "ans": "不证明。",
+        "verification": "只证所列元素量可守恒。",
+        "pitfall": "方程短等工艺简单无风险。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 32,
+        "primary_section": "32.2.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "为何该路线理论产品质量可大于异丙苯质量而不违反守恒？ 条件：氧气也计入反应物。",
+      "given": "氧气也计入反应物。",
+      "analysis": "不能漏另一个物料入口。",
+      "method": "总质量账。",
+      "principle": "质量守恒。",
+      "steps": [
+        "120g异+32g氧总152g。",
+        "94g苯酚+58g丙酮亦152g。"
+      ],
+      "ans": "因氧的质量进入产品。",
+      "verification": "比较总投入而非单一原料。",
+      "pitfall": "有机原料质量必须等所有产品质量。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 32,
+      "primary_section": "32.2.3",
+      "related_sections": []
+    },
+    "exam": [
+      "先画异丙基连结及过氧中间体，再写净式与联产比例",
+      "限量含氧气，质量验算含全部入口",
+      "净式不当一步流程，理论联产不当实际同收率或环保认证"
+    ],
+    "quick": [
+      "前体结构",
+      "受控氧化",
+      "裂解联产",
+      "限量物料",
+      "流程边界"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 15,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_32.2.3",
+        "url": "https://openstax.org/books/organic-chemistry/pages/17-9-phenols-and-their-uses",
+        "page_or_section": "17-9-phenols-and-their-uses",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 15,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_32.2.3",
+        "url": "https://openstax.org/books/organic-chemistry/pages/17-9-phenols-and-their-uses",
+        "page_or_section": "17-9-phenols-and-their-uses",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先画异丙基连结及过氧中间体，再写净式与联产比例",
+      "method": "百分收率。",
+      "principle": "产物统计。",
+      "worked_example_index": 2,
+      "verification": "不能未经数据就断丙酮分离收率也80%。",
+      "pitfall": "联产比例当实际各收率一致。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“从异丙苯氧化裂解说明苯酚与丙酮联产”的抽样复核：产品15.20g=12.0g+3.20g氧。；若出现“把投料12g当产品质量上限忽略氧。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“完整核碳氧和理论收率而不混淆各步骤”的抽样复核：不能未经数据就断丙酮分离收率也80%。；若出现“联产比例当实际各收率一致。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "有机原料质量必须等所有产品质量。",
+        "correction": "因氧的质量进入产品。",
+        "verification": "比较总投入而非单一原料。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "异丙苯法的结构与物料",
+      "objects": [
+        "异丙苯",
+        "过氧中间体示意",
+        "苯酚丙酮",
+        "O₂入口",
+        "质量平衡"
+      ],
+      "relations": [
+        "9碳分6加3",
+        "O—O—H连接正确",
+        "净1:1联产",
+        "120+32=94+58",
+        "非操作流程"
+      ],
+      "labels": [
+        "氧化",
+        "酸催化裂解",
+        "净物料式",
+        "理论联产"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "只有羟基连接对象、试剂条件及原子守恒一致才复用；不得以通用酒瓶图代替官能团结构",
+      "english": "Use exact organic structural formulas. Distinguish an alcohol hydroxyl attached to a saturated carbon from a phenol hydroxyl directly attached to an aromatic carbon. Oxygen has the stated valence and charge. Preserve the carbon skeleton and label reaction conditions, equilibrium and competing pathways. Hydrogen bonds are intermolecular interactions, not additional covalent O-H bonds."
+    }
+  }
+}

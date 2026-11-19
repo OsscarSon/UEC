@@ -1,0 +1,1203 @@
+{
+  "30.1": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 30,
+    "section_id": "30.1",
+    "goals": [
+      "识别微分方程阶数及解的含义",
+      "验证函数、初值及有效区间"
+    ],
+    "prerequisites": [
+      "导数的意义",
+      "不定积分与定义域"
+    ],
+    "flow": [
+      "方程与函数",
+      "阶数分类",
+      "通解初值",
+      "代入验证",
+      "有效区间"
+    ],
+    "concept_relation": "方程与函数；阶数分类；通解初值；代入验证；有效区间",
+    "deep": [
+      "验证解应先求所需导数，再代回原方程，最后验初值与定义域。只在某一点满足等式，不等于在整个区间是解。代入时也不能只验经过变形后的式子，因为变形若除以可能为零的量，会丢失或引入不合原式的情况。",
+      "某些方程可有常值平衡解，也可能在特殊初值附近不满足唯一性所需条件。高中课堂通常按给定可处理模型求解，但不能未经条件说明便断言任意初值永远对应一条全实轴唯一解。解出现分母零点、对数或根式时，更要限定区间。",
+      "方向场把各点允许的斜率画成短线，可帮助理解曲线趋势，却不是解析证明的替代。短线斜率由方程右侧代入点坐标得到，不能把y值当斜率。阅读数值或绘图结果后仍要回到原式检验，并说明图形只是指定窗口与精度内的显示。"
+    ],
+    "derive": [
+      "y′=2x⇒y=x²+C；y(x₀)=y₀⇒C=y₀−x₀²。",
+      "验证：求导→代原式→核初值→核区间；四步缺一不可。",
+      "方向场在(x,y)处的短线斜率为F(x,y)，不是y本身。"
+    ],
+    "examples": [
+      {
+        "q": "求y′=6x且y(1)=5的解。 条件：在实数区间求可微函数。",
+        "given": "在实数区间求可微函数。",
+        "analysis": "积分给函数族，初值选常数。",
+        "method": "积分再代点。",
+        "principle": "导数与原函数。",
+        "steps": [
+          "y=3x²+C。",
+          "5=3+C，故C=2。"
+        ],
+        "ans": "y=3x²+2，x∈R。",
+        "verification": "导数6x，代x=1得5。",
+        "pitfall": "直接C=5。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 30,
+        "primary_section": "30.1",
+        "related_sections": []
+      },
+      {
+        "q": "y=e^(2x)是否为y′−2y=0的解？ 条件：x∈R。",
+        "given": "x∈R。",
+        "analysis": "需验证整个区间。",
+        "method": "求导代原式。",
+        "principle": "链式法则。",
+        "steps": [
+          "y′=2e^(2x)。",
+          "y′−2y=0对所有实数x成立。"
+        ],
+        "ans": "是。",
+        "verification": "指数函数全实数有定义。",
+        "pitfall": "只代x=0验证。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 30,
+        "primary_section": "30.1",
+        "related_sections": []
+      },
+      {
+        "q": "y=1/(1−x)解y′=y²且y(0)=1，应取包含0的何区间？ 条件：求不穿过奇点的最大连通区间。",
+        "given": "求不穿过奇点的最大连通区间。",
+        "analysis": "分母在1为0。",
+        "method": "求导、验点并分区。",
+        "principle": "解的定义域。",
+        "steps": [
+          "y′=1/(1−x)²=y²，y(0)=1。",
+          "函数在x=1无定义，含0的最大连通区间为x<1。"
+        ],
+        "ans": "(−∞,1)。",
+        "verification": "不能用一条连续解跨到x>1。",
+        "pitfall": "只报x≠1而忽略初值所在连通区间。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 30,
+        "primary_section": "30.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "y′′+(y′)³=x属于几阶？ 条件：最高导数为y′′。",
+        "given": "最高导数为y′′。",
+        "analysis": "幂不决定阶。",
+        "method": "识别最高导数。",
+        "principle": "阶数定义。",
+        "steps": [
+          "y′′为二阶。",
+          "即使y′立方仍不提高阶。"
+        ],
+        "ans": "二阶。",
+        "verification": "与三次幂分开。",
+        "pitfall": "答三阶。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 30,
+        "primary_section": "30.1",
+        "related_sections": []
+      },
+      {
+        "q": "y=x²+C解y′=2x，若y(2)=1，C多少？ 条件：实数函数族。",
+        "given": "实数函数族。",
+        "analysis": "代给定点。",
+        "method": "1=4+C。",
+        "principle": "初值约束。",
+        "steps": [
+          "x=2时x²=4。",
+          "C=−3。"
+        ],
+        "ans": "−3。",
+        "verification": "4−3=1。",
+        "pitfall": "C=1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 30,
+        "primary_section": "30.1",
+        "related_sections": []
+      },
+      {
+        "q": "函数只在x=0满足微分方程，足以为某区间的解吗？ 条件：所问区间非单点。",
+        "given": "所问区间非单点。",
+        "analysis": "解须逐点满足。",
+        "method": "核定义。",
+        "principle": "区间上恒等关系。",
+        "steps": [
+          "一点成立不保证其他点。",
+          "必须在整个允许区间满足。"
+        ],
+        "ans": "不足以。",
+        "verification": "可另代非零点反证候选。",
+        "pitfall": "一点验算当全区间证明。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 30,
+        "primary_section": "30.1",
+        "related_sections": []
+      },
+      {
+        "q": "方程y′=x+y在点(1,2)的方向场斜率？ 条件：坐标单位按题设。",
+        "given": "坐标单位按题设。",
+        "analysis": "斜率由右侧算。",
+        "method": "代x和y。",
+        "principle": "方向场定义。",
+        "steps": [
+          "1+2=3。",
+          "短线斜率为3，不是纵坐标2。"
+        ],
+        "ans": "3。",
+        "verification": "每右移小量h约上升3h。",
+        "pitfall": "把y=2当斜率。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 30,
+        "primary_section": "30.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "y=常数0是否可能是微分方程的解？ 条件：考察y′=y(1−y)。",
+      "given": "考察y′=y(1−y)。",
+      "analysis": "常值导数为0。",
+      "method": "直接代原式。",
+      "principle": "平衡解。",
+      "steps": [
+        "y′=0。",
+        "右侧0×1=0。"
+      ],
+      "ans": "y=0是该方程的平衡解。",
+      "verification": "不应先除y再丢掉它。",
+      "pitfall": "把所有解都限定非恒定。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 30,
+      "primary_section": "30.1",
+      "related_sections": []
+    },
+    "exam": [
+      "先判最高导数阶，不把幂次和阶混淆",
+      "初值题写积分族再代点，最后验导数和初值",
+      "遇奇点按初值所在连通区间取解，绘图不得跨越"
+    ],
+    "quick": [
+      "方程与函数",
+      "阶数分类",
+      "通解初值",
+      "代入验证",
+      "有效区间"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1047236315/高级数学-高三上册-1",
+        "page": 96,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_30.1",
+        "url": "https://openstax.org/books/calculus-volume-2/pages/4-1-basics-of-differential-equations",
+        "page_or_section": "4-1-basics-of-differential-equations",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1047236315/高级数学-高三上册-1",
+        "page": 96,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_30.1",
+        "url": "https://openstax.org/books/calculus-volume-2/pages/4-1-basics-of-differential-equations",
+        "page_or_section": "4-1-basics-of-differential-equations",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先判最高导数阶，不把幂次和阶混淆",
+      "method": "求导、验点并分区。",
+      "principle": "解的定义域。",
+      "worked_example_index": 2,
+      "verification": "不能用一条连续解跨到x>1。",
+      "pitfall": "只报x≠1而忽略初值所在连通区间。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“识别微分方程阶数及解的含义”的抽样复核：导数6x，代x=1得5。；若出现“直接C=5。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“验证函数、初值及有效区间”的抽样复核：不能用一条连续解跨到x>1。；若出现“只报x≠1而忽略初值所在连通区间。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把所有解都限定非恒定。",
+        "correction": "y=0是该方程的平衡解。",
+        "verification": "不应先除y再丢掉它。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "微分方程函数族与初值",
+      "objects": [
+        "y′=6x方向场",
+        "y=3x²+C曲线族",
+        "初值(1,5)",
+        "选中曲线"
+      ],
+      "relations": [
+        "同x斜率相同",
+        "初值选C=2",
+        "方向场不等函数值"
+      ],
+      "labels": [
+        "y′=6x",
+        "y=3x²+2",
+        "(1,5)"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "只复用满足相同方程、初值和区间的精确函数图；否则保留待绘任务",
+      "english": "Use deterministic mathematical plotting. State the differential equation, initial value and solution interval. Show equilibrium solutions separately. Direction-field slopes are dy/dx, not ordinate values. Never connect curves across poles."
+    }
+  },
+  "30.2": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 30,
+    "section_id": "30.2",
+    "goals": [
+      "识别可分离形式并保留平衡解",
+      "正确处理积分常数、绝对值与初值区间"
+    ],
+    "prerequisites": [
+      "对数积分",
+      "指数函数与定义域"
+    ],
+    "flow": [
+      "可分离识别",
+      "平衡解",
+      "积分常数",
+      "分支定义域",
+      "回代"
+    ],
+    "concept_relation": "可分离识别；平衡解；积分常数；分支定义域；回代",
+    "deep": [
+      "解含倒数或对数时要保留定义条件。例如y′=y²的非零解有有限位置奇点，初值确定常数后还必须选择不越过奇点的区间。微分方程右侧看似处处有定义，也不保证每条解都能延伸至全部实数。",
+      "隐式积分式也可以表达解，但若要改写显式式子，根号的正负分支需由初值或区间决定。两边平方可能引入错误分支，取对数可能丢掉零值；每次非等价变形都需要回代检查。定积分方式可减少常数混乱，但积分区间仍须落在同一有效分支内。",
+      "方法选择先看能否把右侧拆成一个纯x函数乘一个纯y函数，不要见到x+y就硬分成dy/y=dx/x。可先因式分解，但若确实不能分离，应转用适用的其他方法。答题应交代平衡解、分离积分、常数确定、有效区间和回代，而不是只列最终指数式。"
+    ],
+    "derive": [
+      "y′=f(x)g(y)：先检g(y)=0的常值解，再在非零分支积分。",
+      "y′=ky⇒ln|y|=kx+C⇒y=Ae^(kx)，补平衡解后A∈R。",
+      "y′=y²非零解y=1/(C−x)，区间不能穿过C。"
+    ],
+    "examples": [
+      {
+        "q": "求y′=3xy且y(0)=2。 条件：求包含0的解。",
+        "given": "求包含0的解。",
+        "analysis": "右侧可分离。",
+        "method": "先核y=0，再分离积分。",
+        "principle": "链式积分。",
+        "steps": [
+          "dy/y=3x dx，ln|y|=3x²/2+C。",
+          "y=Ae^(3x²/2)，初值给A=2。"
+        ],
+        "ans": "y=2e^(3x²/2)，x∈R。",
+        "verification": "求导为3xy，x=0给2。",
+        "pitfall": "积分3x写成3x²。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 30,
+        "primary_section": "30.2",
+        "related_sections": []
+      },
+      {
+        "q": "求y′=(y−2)²且y(0)=3的解及区间。 条件：取包含0的最大连通解区间。",
+        "given": "取包含0的最大连通解区间。",
+        "analysis": "平衡解2另核，当前初值非平衡。",
+        "method": "分离。",
+        "principle": "∫(y−2)⁻²dy=−1/(y−2)。",
+        "steps": [
+          "−1/(y−2)=x+C，初值给C=−1。",
+          "y=2+1/(1−x)，奇点x=1。"
+        ],
+        "ans": "y=2+1/(1−x)，x<1。",
+        "verification": "导数1/(1−x)²=(y−2)²，初值3。",
+        "pitfall": "漏平衡解或跨奇点。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 30,
+        "primary_section": "30.2",
+        "related_sections": []
+      },
+      {
+        "q": "某人从y′=y(y−1)除以y，声称y=0不可能是解，如何修正？ 条件：只审查常值分支。",
+        "given": "只审查常值分支。",
+        "analysis": "除法排除了待检值。",
+        "method": "回代原式。",
+        "principle": "非等价变形。",
+        "steps": [
+          "y=0时y′=0，右侧为0。",
+          "y=1也有右侧0，均需单列。"
+        ],
+        "ans": "0和1都是平衡解；除法只适用于非零分支。",
+        "verification": "原方程能直接核两者。",
+        "pitfall": "用已除式反驳被除掉的解。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 30,
+        "primary_section": "30.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "求y′=2x、y(0)=−1。 条件：y因子为1。",
+        "given": "y因子为1。",
+        "analysis": "直接积分也是可分离特例。",
+        "method": "积分代初值。",
+        "principle": "原函数。",
+        "steps": [
+          "y=x²+C。",
+          "C=−1。"
+        ],
+        "ans": "y=x²−1。",
+        "verification": "导数2x、初值−1。",
+        "pitfall": "忘常数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 30,
+        "primary_section": "30.2",
+        "related_sections": []
+      },
+      {
+        "q": "y′=−2y、y(0)=−3的解？ 条件：包含平衡但初值非零。",
+        "given": "包含平衡但初值非零。",
+        "analysis": "符号归入A。",
+        "method": "指数解。",
+        "principle": "可分离。",
+        "steps": [
+          "y=Ae^(−2x)。",
+          "A=−3。"
+        ],
+        "ans": "−3e^(−2x)。",
+        "verification": "导数6e^(−2x)=−2y。",
+        "pitfall": "e^C只能正就说负初值无解。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 30,
+        "primary_section": "30.2",
+        "related_sections": []
+      },
+      {
+        "q": "y′=y(4−y)有哪些常值解？ 条件：只找常值解。",
+        "given": "只找常值解。",
+        "analysis": "常值导数0。",
+        "method": "解y(4−y)=0。",
+        "principle": "平衡条件。",
+        "steps": [
+          "因子为0给y=0或4。",
+          "两者代回都成立。"
+        ],
+        "ans": "0、4。",
+        "verification": "不需要先除任一因子。",
+        "pitfall": "漏0。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 30,
+        "primary_section": "30.2",
+        "related_sections": []
+      },
+      {
+        "q": "y′=x+y可直接写dy/y=x dx吗？ 条件：x、y独立变化。",
+        "given": "x、y独立变化。",
+        "analysis": "右侧非该乘积。",
+        "method": "反向检变形。",
+        "principle": "等价关系。",
+        "steps": [
+          "dy/y=x dx会对应y′=xy。",
+          "与原式x+y一般不同。"
+        ],
+        "ans": "不能这样分离。",
+        "verification": "取x=1,y=2，两右侧3与2不同。",
+        "pitfall": "把和拆成积。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 30,
+        "primary_section": "30.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "积分得到y²=x²+1，若y(0)=−1，可只取正根吗？ 条件：要求含0的连续分支。",
+      "given": "要求含0的连续分支。",
+      "analysis": "初值选择负分支。",
+      "method": "解显式并验点。",
+      "principle": "平方与分支。",
+      "steps": [
+        "正根在0为1，不满足。",
+        "负根y=−√(x²+1)在0为−1。"
+      ],
+      "ans": "应取负根。",
+      "verification": "根内始终正，不需跨零换支。",
+      "pitfall": "平方式成立就两支混用。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 30,
+      "primary_section": "30.2",
+      "related_sections": []
+    },
+    "exam": [
+      "分离前先圈要除的y因子，单独检零点",
+      "对数积分保留绝对值，指数常数与分支符号重新命名",
+      "初值确定后核奇点和分支，不能把所有x≠奇点当单一连续区间"
+    ],
+    "quick": [
+      "可分离识别",
+      "平衡解",
+      "积分常数",
+      "分支定义域",
+      "回代"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1047236315/高级数学-高三上册-1",
+        "page": 100,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_30.2",
+        "url": "https://openstax.org/books/calculus-volume-2/pages/4-3-separable-equations",
+        "page_or_section": "4-3-separable-equations",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1047236315/高级数学-高三上册-1",
+        "page": 100,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_30.2",
+        "url": "https://openstax.org/books/calculus-volume-2/pages/4-3-separable-equations",
+        "page_or_section": "4-3-separable-equations",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "分离前先圈要除的y因子，单独检零点",
+      "method": "回代原式。",
+      "principle": "非等价变形。",
+      "worked_example_index": 2,
+      "verification": "原方程能直接核两者。",
+      "pitfall": "用已除式反驳被除掉的解。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“识别可分离形式并保留平衡解”的抽样复核：求导为3xy，x=0给2。；若出现“积分3x写成3x²。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“正确处理积分常数、绝对值与初值区间”的抽样复核：原方程能直接核两者。；若出现“用已除式反驳被除掉的解。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "平方式成立就两支混用。",
+        "correction": "应取负根。",
+        "verification": "根内始终正，不需跨零换支。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "可分离方程与平衡解",
+      "objects": [
+        "y′=y(4−y)",
+        "y=0和4水平线",
+        "不同初值解",
+        "符号区间"
+      ],
+      "relations": [
+        "两平衡线不可因除法丢失",
+        "斜率在0与4间正",
+        "区间外斜率负"
+      ],
+      "labels": [
+        "y=0",
+        "y=4",
+        "y′>0",
+        "y′<0"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "只复用满足相同方程、初值和区间的精确函数图；否则保留待绘任务",
+      "english": "Use deterministic mathematical plotting. State the differential equation, initial value and solution interval. Show equilibrium solutions separately. Direction-field slopes are dy/dx, not ordinate values. Never connect curves across poles."
+    }
+  },
+  "30.3": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 30,
+    "section_id": "30.3",
+    "goals": [
+      "推导积分因子而非死记公式",
+      "在系数定义区间内求解并验算"
+    ],
+    "prerequisites": [
+      "乘积求导",
+      "指数与对数积分"
+    ],
+    "flow": [
+      "标准形式",
+      "积分因子推导",
+      "乘积积分",
+      "初值",
+      "区间与验算"
+    ],
+    "concept_relation": "标准形式；积分因子推导；乘积积分；初值；区间与验算",
+    "deep": [
+      "初值应在化成标准式的有效区间内代入。P或Q含1/x、ln x等时，x=0或其他边界必须保留；μ可能化为|x|或在选定区间用x等常倍代表，但需解释区间。不能以最终公式看起来在某点可补值就自动宣告原方程在那里成立。",
+      "这种方法与变量分离不同，有的线性方程同时可分离，有的不可。出现y²、yy′等未知量乘积通常不属于此标准线性形式；但若只因x²作系数就否定线性，也会误判。方法选择看未知函数的结构，而非式子是否“看起来复杂”。",
+      "验算应将y′与Py分别代回原式，也核初值。长计算可先利用(μy)′关系复核中间步骤，再回原式避免遗漏先前除掉的点。答案里若只给通用公式而没有实际算出积分或解释区间，就仍未解决具体题目。"
+    ],
+    "derive": [
+      "μ′=Pμ⇒μ=e^(∫Pdx)，因此(μy)′=μQ。",
+      "y=μ⁻¹(∫μQdx+C)，仅在所选系数定义区间使用。",
+      "先标准化，再整式乘μ；积分因子的非零常倍不改变解族。"
+    ],
+    "examples": [
+      {
+        "q": "解y′+2y=6，y(0)=1。 条件：x∈R。",
+        "given": "x∈R。",
+        "analysis": "一阶线性，稳态候选为3。",
+        "method": "积分因子e^(2x)。",
+        "principle": "乘积求导。",
+        "steps": [
+          "(e^(2x)y)′=6e^(2x)，积分得e^(2x)y=3e^(2x)+C。",
+          "y=3+Ce^(−2x)，初值给C=−2。"
+        ],
+        "ans": "y=3−2e^(−2x)。",
+        "verification": "y′=4e^(−2x)，加2y恰6，初值1。",
+        "pitfall": "μ只乘部分项。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 30,
+        "primary_section": "30.3",
+        "related_sections": []
+      },
+      {
+        "q": "解y′+y/x=x，y(1)=2。 条件：限定x>0。",
+        "given": "限定x>0。",
+        "analysis": "系数在0无定义。",
+        "method": "μ=x。",
+        "principle": "乘积求导与区间。",
+        "steps": [
+          "(xy)′=x²，故xy=x³/3+C。",
+          "y=x²/3+C/x，初值给C=5/3。"
+        ],
+        "ans": "y=x²/3+5/(3x)，x>0。",
+        "verification": "y′+y/x=x，代1得2。",
+        "pitfall": "跨x=0或漏1/x项。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 30,
+        "primary_section": "30.3",
+        "related_sections": []
+      },
+      {
+        "q": "积分因子取2e^(2x)而非e^(2x)，会得到不同的解族吗？ 条件：同一方程y′+2y=6。",
+        "given": "同一方程y′+2y=6。",
+        "analysis": "常倍可吸收入积分常数。",
+        "method": "完整乘并除回。",
+        "principle": "非零常倍。",
+        "steps": [
+          "(2e^(2x)y)′=12e^(2x)。",
+          "积分并除2e^(2x)仍得3+Ce^(−2x)，C重命名。"
+        ],
+        "ans": "同一解族。",
+        "verification": "非零常倍不会改变等价方程。",
+        "pitfall": "把积分因子唯一化。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 30,
+        "primary_section": "30.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "y′+x²y=sin x是关于y的线性方程吗？ 条件：系数为x的函数。",
+        "given": "系数为x的函数。",
+        "analysis": "非线性x系数允许。",
+        "method": "看y及导数次数。",
+        "principle": "线性定义。",
+        "steps": [
+          "y和y′均一次。",
+          "系数只依x。"
+        ],
+        "ans": "是。",
+        "verification": "x²不代表y²。",
+        "pitfall": "系数有平方就非线性。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 30,
+        "primary_section": "30.3",
+        "related_sections": []
+      },
+      {
+        "q": "y′+y²=x符合该一阶线性标准式吗？ 条件：未知函数为y。",
+        "given": "未知函数为y。",
+        "analysis": "y平方破坏线性。",
+        "method": "对应标准式。",
+        "principle": "线性定义。",
+        "steps": [
+          "出现y²。",
+          "不能以仅依x的P乘y表示该项。"
+        ],
+        "ans": "不符合。",
+        "verification": "一阶与线性分类分开。",
+        "pitfall": "一阶必线性。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 30,
+        "primary_section": "30.3",
+        "related_sections": []
+      },
+      {
+        "q": "y′−y=e^x的积分因子可取什么？ 条件：x∈R。",
+        "given": "x∈R。",
+        "analysis": "P=−1。",
+        "method": "e^(∫−1dx)。",
+        "principle": "积分因子。",
+        "steps": [
+          "积分−x。",
+          "μ=e^(−x)。"
+        ],
+        "ans": "e^(−x)。",
+        "verification": "μ′=−μ=Pμ。",
+        "pitfall": "漏负号。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 30,
+        "primary_section": "30.3",
+        "related_sections": []
+      },
+      {
+        "q": "解y′−y=e^x，y(0)=0。 条件：使用μ=e^(−x)。",
+        "given": "使用μ=e^(−x)。",
+        "analysis": "右侧乘后为1。",
+        "method": "乘积积分。",
+        "principle": "(μy)′=μQ。",
+        "steps": [
+          "(e^(−x)y)′=1，得e^(−x)y=x+C。",
+          "初值C=0。"
+        ],
+        "ans": "y=xe^x。",
+        "verification": "y′−y=(1+x)e^x−xe^x=e^x。",
+        "pitfall": "把右侧积分成e^x。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 30,
+        "primary_section": "30.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "方程xy′+y=x²能在x=0直接除以x吗？ 条件：原式在0有意义但标准式含1/x。",
+      "given": "原式在0有意义但标准式含1/x。",
+      "analysis": "变形区间有限制。",
+      "method": "分开原式与除后式。",
+      "principle": "除法条件。",
+      "steps": [
+        "x≠0时可得y′+y/x=x。",
+        "在0须另检原式及解的可微延拓，不能由除后式自动覆盖。"
+      ],
+      "ans": "不能在0直接除；需另核。",
+      "verification": "原式在0要求y(0)=0但这不是全部延拓证明。",
+      "pitfall": "消去x后忘原边界。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 30,
+      "primary_section": "30.3",
+      "related_sections": []
+    },
+    "exam": [
+      "先检查最高导数系数与区间，再识别P、Q",
+      "写出μ′=Pμ说明积分因子，整式乘后核乘积导数",
+      "解完用原方程和初值双验，定义域不因约分自动扩大"
+    ],
+    "quick": [
+      "标准形式",
+      "积分因子推导",
+      "乘积积分",
+      "初值",
+      "区间与验算"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1047236315/高级数学-高三上册-1",
+        "page": 104,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_30.3",
+        "url": "https://openstax.org/books/calculus-volume-2/pages/4-5-first-order-linear-equations",
+        "page_or_section": "4-5-first-order-linear-equations",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1047236315/高级数学-高三上册-1",
+        "page": 104,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_30.3",
+        "url": "https://openstax.org/books/calculus-volume-2/pages/4-5-first-order-linear-equations",
+        "page_or_section": "4-5-first-order-linear-equations",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先检查最高导数系数与区间，再识别P、Q",
+      "method": "完整乘并除回。",
+      "principle": "非零常倍。",
+      "worked_example_index": 2,
+      "verification": "非零常倍不会改变等价方程。",
+      "pitfall": "把积分因子唯一化。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“推导积分因子而非死记公式”的抽样复核：y′=4e^(−2x)，加2y恰6，初值1。；若出现“μ只乘部分项。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“在系数定义区间内求解并验算”的抽样复核：非零常倍不会改变等价方程。；若出现“把积分因子唯一化。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "消去x后忘原边界。",
+        "correction": "不能在0直接除；需另核。",
+        "verification": "原式在0要求y(0)=0但这不是全部延拓证明。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "积分因子如何配成乘积导数",
+      "objects": [
+        "原线性方程",
+        "μ′=Pμ",
+        "乘积导数展开",
+        "初值解y=3−2e^(−2x)"
+      ],
+      "relations": [
+        "μ同时乘每一项",
+        "曲线初值1趋向3",
+        "横线3为该方程平衡"
+      ],
+      "labels": [
+        "μ",
+        "P",
+        "Q",
+        "(μy)′",
+        "y(0)=1"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "只复用满足相同方程、初值和区间的精确函数图；否则保留待绘任务",
+      "english": "Use deterministic mathematical plotting. State the differential equation, initial value and solution interval. Show equilibrium solutions separately. Direction-field slopes are dy/dx, not ordinate values. Never connect curves across poles."
+    }
+  },
+  "30.4": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 30,
+    "section_id": "30.4",
+    "goals": [
+      "从速率收支建立模型与单位",
+      "求解后检查初值、极限和适用假设"
+    ],
+    "prerequisites": [
+      "指数模型",
+      "质量能量收支"
+    ],
+    "flow": [
+      "定义变量",
+      "收支模型",
+      "方法选择",
+      "初值求参",
+      "单位极限"
+    ],
+    "concept_relation": "定义变量；收支模型；方法选择；初值求参；单位极限",
+    "deep": [
+      "混合容器应对溶质量M列进入率减流出率。若充分混匀，流出浓度为M/V；体积V只有在进出体积流率相等等条件下才恒定。变体积时先求V(t)，再把M/V(t)代入，浓度并不是M本身，单位必须逐项一致。",
+      "初值用于确定常数；实际时间通常从t=0开始，容器抽空、模型参数改变或题设范围结束时应停止使用。求极限可检模型是否合理，例如固定体积、固定流入浓度的良混容器常渐趋该流入浓度，而不应无故出现负质量。",
+      "完整答案应交代方程、求解、参数单位和结果解释。用另一组时间点或直接微分检验关系，比仅将计算器数值抄一次更有意义。得到数学解也不表示现实已精确符合模型，更不能把教学衰减或冷却题冒充未经验证的实验定律参数。"
+    ],
+    "derive": [
+      "比例衰减N′=−kN⇒N=N₀e^(−kt)，k>0，t_half=ln2/k。",
+      "冷却T′=−k(T−T_env)⇒T=T_env+(T₀−T_env)e^(−kt)。",
+      "良混容器M′=q_in c_in−q_out M/V(t)，先核体积收支。"
+    ],
+    "examples": [
+      {
+        "q": "教学样本每4小时剩一半，初量80单位，12小时后多少？ 条件：恒比例衰减，不计外源加入。",
+        "given": "恒比例衰减，不计外源加入。",
+        "analysis": "12小时为3个半衰期。",
+        "method": "指数或重复减半。",
+        "principle": "N′=−kN。",
+        "steps": [
+          "k=ln2/4 h⁻¹。",
+          "N=80e^(−12ln2/4)=80/8。"
+        ],
+        "ans": "10单位。",
+        "verification": "80→40→20→10三轮相符。",
+        "pitfall": "每4小时减固定40。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 30,
+        "primary_section": "30.4",
+        "related_sections": []
+      },
+      {
+        "q": "环境20℃，物体初80℃，10分钟后50℃，按恒环境冷却模型，20分钟后？ 条件：k恒定。",
+        "given": "k恒定。",
+        "analysis": "衰减的是温差。",
+        "method": "用温差比定k。",
+        "principle": "T−20=60e^(−kt)。",
+        "steps": [
+          "10分钟温差30，是原60的一半。",
+          "20分钟温差15，故T=35℃。"
+        ],
+        "ans": "35℃。",
+        "verification": "仍高于20并趋向环境。",
+        "pitfall": "把50℃再减半得25℃。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 30,
+        "primary_section": "30.4",
+        "related_sections": []
+      },
+      {
+        "q": "100 L良混容器初溶质0，流入浓度2 g/L、5 L/min，等量流出，求M(t)。 条件：体积恒100 L，无反应，t≥0。",
+        "given": "体积恒100 L，无反应，t≥0。",
+        "analysis": "进入10 g/min，流出M/20 g/min。",
+        "method": "一阶线性。",
+        "principle": "质量守恒。",
+        "steps": [
+          "M′=10−M/20，平衡M=200 g。",
+          "初值给M=200(1−e^(−t/20)) g。"
+        ],
+        "ans": "M(t)=200(1−e^(−t/20)) g。",
+        "verification": "初0、初速10、长时浓度200/100=2 g/L。",
+        "pitfall": "流出浓度永远用流入浓度。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 30,
+        "primary_section": "30.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "衰减常数0.2 min⁻¹的模型N′=−0.2N，半衰期？ 条件：恒比例。",
+        "given": "恒比例。",
+        "analysis": "设剩1/2。",
+        "method": "解指数。",
+        "principle": "e^(−0.2t)=1/2。",
+        "steps": [
+          "−0.2t=−ln2。",
+          "t=5ln2 min。"
+        ],
+        "ans": "约3.47 min。",
+        "verification": "单位为min。",
+        "pitfall": "半衰期=1/0.2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 30,
+        "primary_section": "30.4",
+        "related_sections": []
+      },
+      {
+        "q": "容器初100 L，入3、出5 L/min，V(t)？ 条件：无其他体积变化。",
+        "given": "无其他体积变化。",
+        "analysis": "体积净减2。",
+        "method": "列体积收支。",
+        "principle": "守恒。",
+        "steps": [
+          "V′=3−5=−2。",
+          "V=100−2t L，物理区间0≤t<50 min。"
+        ],
+        "ans": "100−2t L，抽空前。",
+        "verification": "50分钟为0，之后不能继续良混液体模型。",
+        "pitfall": "继续算负体积。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 30,
+        "primary_section": "30.4",
+        "related_sections": []
+      },
+      {
+        "q": "冷却物初温等于固定环境温度，模型预言什么？ 条件：T′=−k(T−T_env)。",
+        "given": "T′=−k(T−T_env)。",
+        "analysis": "温差零。",
+        "method": "检查平衡解。",
+        "principle": "该模型驱动力。",
+        "steps": [
+          "初始温差0。",
+          "T=T_env恒定满足方程和初值。"
+        ],
+        "ans": "温度维持环境值。",
+        "verification": "此模型不含额外热源。",
+        "pitfall": "仍持续指数降到0℃。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 30,
+        "primary_section": "30.4",
+        "related_sections": []
+      },
+      {
+        "q": "N=N₀e^(−kt)，若时间从小时改分钟，原k=0.6 h⁻¹应改多少？ 条件：同一物理过程。",
+        "given": "同一物理过程。",
+        "analysis": "指数必须无量纲。",
+        "method": "统一时间单位。",
+        "principle": "0.6t_h=k_min t_min。",
+        "steps": [
+          "t_min=60t_h。",
+          "k_min=0.6/60=0.01 min⁻¹。"
+        ],
+        "ans": "0.01 min⁻¹。",
+        "verification": "60min时指数均−0.6。",
+        "pitfall": "k也乘60。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 30,
+        "primary_section": "30.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "给出容器M(t)后，可以不除体积就把M当浓度吗？ 条件：M为溶质质量，V可变化。",
+      "given": "M为溶质质量，V可变化。",
+      "analysis": "变量及单位不同。",
+      "method": "c=M/V。",
+      "principle": "浓度定义。",
+      "steps": [
+        "质量单位g，浓度单位g/L。",
+        "必须求相同时刻V再相除。"
+      ],
+      "ans": "不可以。",
+      "verification": "变体积时比例还随时间改变。",
+      "pitfall": "质量曲线当浓度曲线。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 30,
+      "primary_section": "30.4",
+      "related_sections": []
+    },
+    "exam": [
+      "先列速率的物理意义和单位，再判分离或线性",
+      "冷却先换温差，混合先求体积、流出浓度",
+      "用初值、初始导数和长期极限三检模型，不越抽空或参数变更时点"
+    ],
+    "quick": [
+      "定义变量",
+      "收支模型",
+      "方法选择",
+      "初值求参",
+      "单位极限"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1047236315/高级数学-高三上册-1",
+        "page": 108,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_30.4",
+        "url": "https://openstax.org/books/calculus-volume-2/pages/4-5-first-order-linear-equations",
+        "page_or_section": "4-5-first-order-linear-equations",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1047236315/高级数学-高三上册-1",
+        "page": 108,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_30.4",
+        "url": "https://openstax.org/books/calculus-volume-2/pages/4-5-first-order-linear-equations",
+        "page_or_section": "4-5-first-order-linear-equations",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先列速率的物理意义和单位，再判分离或线性",
+      "method": "一阶线性。",
+      "principle": "质量守恒。",
+      "worked_example_index": 2,
+      "verification": "初0、初速10、长时浓度200/100=2 g/L。",
+      "pitfall": "流出浓度永远用流入浓度。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“从速率收支建立模型与单位”的抽样复核：80→40→20→10三轮相符。；若出现“每4小时减固定40。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“求解后检查初值、极限和适用假设”的抽样复核：初0、初速10、长时浓度200/100=2 g/L。；若出现“流出浓度永远用流入浓度。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "质量曲线当浓度曲线。",
+        "correction": "不可以。",
+        "verification": "变体积时比例还随时间改变。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "三类一阶应用模型",
+      "objects": [
+        "指数衰减",
+        "温差冷却",
+        "良混容器",
+        "进出量箭头"
+      ],
+      "relations": [
+        "冷却趋环境20℃非0℃",
+        "混合100 L等量进出",
+        "M′=10−M/20且M趋200g"
+      ],
+      "labels": [
+        "N",
+        "T−T_env",
+        "M/g",
+        "t/min",
+        "V=100 L"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "只复用满足相同方程、初值和区间的精确函数图；否则保留待绘任务",
+      "english": "Use deterministic mathematical plotting. State the differential equation, initial value and solution interval. Show equilibrium solutions separately. Direction-field slopes are dy/dx, not ordinate values. Never connect curves across poles."
+    }
+  }
+}

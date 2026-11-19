@@ -1,0 +1,2122 @@
+{
+  "5.1": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 5,
+    "section_id": "5.1",
+    "goals": [
+      "区分营养功能、消化与吸收",
+      "以酶与底物及实验对照解释化学消化"
+    ],
+    "prerequisites": [
+      "有机分子",
+      "酶和细胞膜"
+    ],
+    "flow": [
+      "营养功能",
+      "机械化学",
+      "酶底物",
+      "证据对照",
+      "过程边界"
+    ],
+    "concept_relation": "营养功能；机械化学；酶底物；证据对照；过程边界",
+    "deep": [
+      "酶有底物与环境条件的选择性。淀粉酶作用于相应糖苷键，蛋白酶作用于肽键；温度和酸碱度可改变活性。加热失活酶可用作对照之一，但加热还可能改变其他样品条件，冷却后与实验组维持一致才有可比性。",
+      "验证消化应同时看底物减少与适当产物增加，不能只因混浊变清就唯一判特定化学键水解。碘反应可反映淀粉存在，但无淀粉不自动证明产物全部为葡萄糖；若要证明葡萄糖需选择相应检测并有对照。",
+      "消化发生在适当消化道腔或相关部位，吸收是产物越过上皮进入体内，细胞代谢又是之后的利用转化。摄入多、消化多、吸收多与最终储存多不是同一命题。解题按这四个层次定位，才能正确解释未吸收残渣与代谢排泄的区别。"
+    ],
+    "derive": [
+      "机械消化改变颗粒与混合，化学消化改变分子结构。",
+      "酶催化相应底物水解；小分子营养不一定需先消化。",
+      "摄入→消化→吸收→细胞代谢是不同层次，不可省略边界。"
+    ],
+    "examples": [
+      {
+        "q": "咀嚼把食物切碎是否等于淀粉已变葡萄糖？ 条件：仅指机械过程。",
+        "given": "仅指机械过程。",
+        "analysis": "颗粒变小不同分子水解。",
+        "method": "区分层级。",
+        "principle": "结构变化。",
+        "steps": [
+          "咀嚼增加面积与混合。",
+          "淀粉化学分解仍需相应酶等过程。"
+        ],
+        "ans": "不等于。",
+        "verification": "可与化学消化协同但非同一件事。",
+        "pitfall": "碎粒当单糖。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.1",
+        "related_sections": []
+      },
+      {
+        "q": "淀粉样品加酶后碘不变蓝，能证明全部产物为葡萄糖吗？ 条件：只做了碘检测。",
+        "given": "只做了碘检测。",
+        "analysis": "检测对底物不对特定产物。",
+        "method": "审证据。",
+        "principle": "检验特异性。",
+        "steps": [
+          "结果支持淀粉已减少到该检测条件不显色。",
+          "产物可能有其他糖，需葡萄糖对应检测和对照。"
+        ],
+        "ans": "不能证明全部为葡萄糖。",
+        "verification": "无底物信号不等唯一产物身份。",
+        "pitfall": "阴性底物检验当阳性葡萄糖证据。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.1",
+        "related_sections": []
+      },
+      {
+        "q": "比较酶作用，实验组37℃、对照组煮沸后仍90℃直接比，问题在哪？ 条件：目标只比较酶活性而非不同反应温度。",
+        "given": "目标只比较酶活性而非不同反应温度。",
+        "analysis": "温度被同时改变。",
+        "method": "修对照。",
+        "principle": "变量控制。",
+        "steps": [
+          "对照酶可预热失活。",
+          "之后应冷却并使反应温度、底物量、pH和时间可比。"
+        ],
+        "ans": "存在温度混杂，应同条件测。",
+        "verification": "不是只要有煮沸组就足够。",
+        "pitfall": "忽略测量阶段条件。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "水必须先被消化成更小营养分子才能吸收吗？ 条件：普通人体消化吸收。",
+        "given": "普通人体消化吸收。",
+        "analysis": "水本身无需酶消化。",
+        "method": "核概念。",
+        "principle": "小分子吸收。",
+        "steps": [
+          "水可经相应通路进入体内。",
+          "不需先由消化酶拆成其他分子。"
+        ],
+        "ans": "不必。",
+        "verification": "消化需求不能推广所有营养。",
+        "pitfall": "所有摄入物都必须先水解。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.1",
+        "related_sections": []
+      },
+      {
+        "q": "样品底物从20降至5单位，减少比例？ 条件：同体积与同检测校准，数值为模型。",
+        "given": "同体积与同检测校准，数值为模型。",
+        "analysis": "以初值为分母。",
+        "method": "(20−5)/20。",
+        "principle": "比例。",
+        "steps": [
+          "减少15。",
+          "15/20=.75。"
+        ],
+        "ans": "75%。",
+        "verification": "剩余25%。",
+        "pitfall": "用末值作分母。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.1",
+        "related_sections": []
+      },
+      {
+        "q": "蛋白酶能因都是酶而代替淀粉酶吗？ 条件：对应底物结构。",
+        "given": "对应底物结构。",
+        "analysis": "酶并非通用剪刀。",
+        "method": "按特异性。",
+        "principle": "酶底物作用。",
+        "steps": [
+          "肽键与相应糖苷键不同。",
+          "普通蛋白酶不能据同名酶类别代替相应淀粉酶作用。"
+        ],
+        "ans": "不能这样代替。",
+        "verification": "需直接底物实验验证特定作用。",
+        "pitfall": "所有酶可互换。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.1",
+        "related_sections": []
+      },
+      {
+        "q": "营养有用是否必须自身提供大量能量？ 条件：比较维生素矿质等。",
+        "given": "比较维生素矿质等。",
+        "analysis": "功能不止供能。",
+        "method": "分类。",
+        "principle": "营养功能。",
+        "steps": [
+          "可作为结构、辅因子或调节相关成分。",
+          "不因缺少燃料热值就无用。"
+        ],
+        "ans": "不必须。",
+        "verification": "功能与量分开。",
+        "pitfall": "只按热量判断全部营养。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "消化后产物仍在肠腔，就能说已经吸收入血吗？ 条件：尚未跨上皮。",
+      "given": "尚未跨上皮。",
+      "analysis": "空间边界未跨。",
+      "method": "定位过程。",
+      "principle": "吸收定义。",
+      "steps": [
+        "腔内分解是消化。",
+        "吸收需越过相关上皮进入体内运输通路。"
+      ],
+      "ans": "不能。",
+      "verification": "与摄入、代谢也分别区分。",
+      "pitfall": "消化等于吸收。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 5,
+      "primary_section": "5.1",
+      "related_sections": []
+    },
+    "exam": [
+      "实验题先说测的是底物还是产物，阴性结果不冒充唯一产物证明",
+      "层级题分机械颗粒、化学分子、跨上皮吸收与细胞代谢",
+      "对照列温度、pH、量和时间，失活酶组也需反应条件可比"
+    ],
+    "quick": [
+      "营养功能",
+      "机械化学",
+      "酶底物",
+      "证据对照",
+      "过程边界"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_5.1",
+        "url": "https://openstax.org/books/biology-2e/pages/34-3-digestive-system-processes",
+        "page_or_section": "34-3-digestive-system-processes",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_5.1",
+        "url": "https://openstax.org/books/biology-2e/pages/34-3-digestive-system-processes",
+        "page_or_section": "34-3-digestive-system-processes",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "实验题先说测的是底物还是产物，阴性结果不冒充唯一产物证明",
+      "method": "修对照。",
+      "principle": "变量控制。",
+      "worked_example_index": 2,
+      "verification": "不是只要有煮沸组就足够。",
+      "pitfall": "忽略测量阶段条件。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "p3",
+        "review_module": 4,
+        "feedback": "目标“区分营养功能、消化与吸收”的抽样复核：功能与量分开。；若出现“只按热量判断全部营养。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“以酶与底物及实验对照解释化学消化”的抽样复核：不是只要有煮沸组就足够。；若出现“忽略测量阶段条件。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "消化等于吸收。",
+        "correction": "不能。",
+        "verification": "与摄入、代谢也分别区分。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "营养进入体内的四层过程",
+      "objects": [
+        "食物颗粒",
+        "消化酶",
+        "肠腔小分子",
+        "上皮",
+        "体内代谢"
+      ],
+      "relations": [
+        "机械处理不直接等分子水解",
+        "吸收箭头跨上皮",
+        "代谢发生在相应细胞内"
+      ],
+      "labels": [
+        "摄入",
+        "消化",
+        "吸收",
+        "代谢",
+        "底物与产物"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用经审核消化与代谢图，须核器官、腔内外、血淋巴流向和不可逆步骤；不能全画双箭头",
+      "english": "Draw a precise digestion or metabolism schematic. Separate ingestion, lumen digestion, epithelial absorption and intracellular metabolism. Distinguish hepatic portal transport from lymphatic chylomicron transport. Preserve reaction direction, carbon and nitrogen accounting, organ locations and model-specific energy assumptions."
+    }
+  },
+  "5.2": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 5,
+    "section_id": "5.2",
+    "goals": [
+      "沿消化道定位底物、分泌来源与作用部位",
+      "解释胆汁、胰液和小肠酶的协作"
+    ],
+    "prerequisites": [
+      "消化与酶",
+      "器官系统"
+    ],
+    "flow": [
+      "消化主路",
+      "附属分泌",
+      "胃与酸",
+      "小肠协作",
+      "大肠回收"
+    ],
+    "concept_relation": "消化主路；附属分泌；胃与酸；小肠协作；大肠回收",
+    "deep": [
+      "肝脏产生胆汁，胆囊储存并浓缩相应胆汁，胆汁进入小肠帮助脂质乳化与消化产物处理。胆盐不是脂肪酶，乳化主要改变脂滴分散与界面接触，并不单独水解全部酯键。胆囊也不能被写成制造所有胆汁的器官。",
+      "小肠腔内酶与上皮刷状缘酶继续把相应产物处理为可吸收形式，例如双糖经相应酶变单糖，蛋白质逐步变小肽和氨基酸。胰脂肪酶对甘油三酯常产生游离脂肪酸与单酰甘油等，不能为简图就把全部过程固定成唯一“甘油加三脂肪酸”的单一步实际产物。",
+      "大肠可回收水和电解质等，并与菌群过程有关；大部分常规营养吸收仍在小肠。不能将大肠“没有主要消化酶”误说成绝无物质变化或绝不吸收。读结构图应分别标食物流、分泌流及吸收流，再用每个器官的适用功能解释。"
+    ],
+    "derive": [
+      "食物流沿消化道，不正常经过肝或胰腺实质。",
+      "分泌来源与作用部位分开：胆汁肝产生、胆囊储存，常到小肠发挥相关作用。",
+      "乳化不同酯键水解；胰酶、胆盐与小肠相关酶各有分工。"
+    ],
+    "examples": [
+      {
+        "q": "胆囊产生胆汁，胆汁里的脂肪酶直接把所有脂肪水解，这句话怎样修正？ 条件：普通人体消化。",
+        "given": "普通人体消化。",
+        "analysis": "来源、性质与作用三处混淆。",
+        "method": "逐项纠错。",
+        "principle": "器官分工。",
+        "steps": [
+          "胆汁由肝产生，胆囊储存浓缩。",
+          "胆盐帮助乳化等，非脂肪酶；酯键水解需相应酶。"
+        ],
+        "ans": "按上述三点修正。",
+        "verification": "不能只改一个器官名而保留酶错误。",
+        "pitfall": "胆汁当通用消化酶。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.2",
+        "related_sections": []
+      },
+      {
+        "q": "胰蛋白酶相关成分由胰腺分泌，是否主要在胰腺内消化食物？ 条件：正常分泌进入小肠。",
+        "given": "正常分泌进入小肠。",
+        "analysis": "来源与作用地不同。",
+        "method": "追踪分泌管。",
+        "principle": "酶原与部位。",
+        "steps": [
+          "分泌物输送到十二指肠等部位。",
+          "在适当激活和环境下参与消化，非食物正常流入胰腺。"
+        ],
+        "ans": "不是。",
+        "verification": "食物路径不应进入胰腺。",
+        "pitfall": "分泌处就是食物消化处。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.2",
+        "related_sections": []
+      },
+      {
+        "q": "脂滴分成更小滴、化学组成暂未改变，是乳化还是已完成化学消化？ 条件：仅给分散现象。",
+        "given": "仅给分散现象。",
+        "analysis": "面积增与键水解不同。",
+        "method": "区分物理化学。",
+        "principle": "乳化。",
+        "steps": [
+          "小滴增加总接触界面。",
+          "尚不能据此说酯键已被全部水解。"
+        ],
+        "ans": "乳化，不等完成化学消化。",
+        "verification": "随后酶作用可更便利。",
+        "pitfall": "脂滴小就是分子变单体。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "食物从胃到小肠通常需先进入肝实质吗？ 条件：正常通路。",
+        "given": "正常通路。",
+        "analysis": "肝是分泌及代谢器官非食物管。",
+        "method": "追腔连接。",
+        "principle": "系统结构。",
+        "steps": [
+          "胃后通向十二指肠。",
+          "胆汁可由肝胆通路进入肠腔，食物不因此进入肝。"
+        ],
+        "ans": "不需也不正常如此。",
+        "verification": "分泌箭头和食物箭头分开。",
+        "pitfall": "画成胃→肝→肠。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.2",
+        "related_sections": []
+      },
+      {
+        "q": "大肠不承担主要营养酶消化，等于绝不吸收吗？ 条件：常规生理。",
+        "given": "常规生理。",
+        "analysis": "功能不是全有全无。",
+        "method": "核水电解质。",
+        "principle": "部位分工。",
+        "steps": [
+          "大肠能吸收水和部分电解质等。",
+          "不能把非主要营养消化推为零吸收。"
+        ],
+        "ans": "不等于。",
+        "verification": "大部分常规营养吸收仍在小肠。",
+        "pitfall": "非主要等于没有。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.2",
+        "related_sections": []
+      },
+      {
+        "q": "胃内酸度改变可影响酶吗？ 条件：酶活性依环境。",
+        "given": "酶活性依环境。",
+        "analysis": "不同酶适pH不同。",
+        "method": "结构功能。",
+        "principle": "蛋白质与催化。",
+        "steps": [
+          "某些酶在胃环境适用。",
+          "其他酶可受抑制或失活，不能全说同样增强。"
+        ],
+        "ans": "可影响，方向依具体酶。",
+        "verification": "需比较对应酶活曲线。",
+        "pitfall": "胃酸增强所有酶。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.2",
+        "related_sections": []
+      },
+      {
+        "q": "酶原先分泌后在适当部位激活有何意义？ 条件：以蛋白酶相关通路为例。",
+        "given": "以蛋白酶相关通路为例。",
+        "analysis": "减少不适当位置活性。",
+        "method": "联系保护。",
+        "principle": "时空控制。",
+        "steps": [
+          "暂以较少活性形式输送。",
+          "适当部位激活以支持消化并减少对自身组织的损伤风险。"
+        ],
+        "ans": "控制作用时空。",
+        "verification": "不是保证任何异常都绝不自损。",
+        "pitfall": "酶原完全无生理意义。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "图中胆管箭头能和食物到肝的箭头画成同一方向同一路吗？ 条件：箭头代表不同物流。",
+      "given": "箭头代表不同物流。",
+      "analysis": "来源和去处必须真实。",
+      "method": "审拓扑。",
+      "principle": "系统连接。",
+      "steps": [
+        "胆汁由肝胆通路进入肠。",
+        "食物主要沿胃肠腔前进，两者不能混为一管。"
+      ],
+      "ans": "不能。",
+      "verification": "用不同线型和图例。",
+      "pitfall": "图漂亮就忽略接线。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 5,
+      "primary_section": "5.2",
+      "related_sections": []
+    },
+    "exam": [
+      "结构题沿食物主路走，再旁列各腺分泌",
+      "来源、作用地、底物、产物四栏分清，胆汁非酶",
+      "乳化与水解分开，器官非主要功能不等零作用"
+    ],
+    "quick": [
+      "消化主路",
+      "附属分泌",
+      "胃与酸",
+      "小肠协作",
+      "大肠回收"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_5.2",
+        "url": "https://openstax.org/books/biology-2e/pages/34-3-digestive-system-processes",
+        "page_or_section": "34-3-digestive-system-processes",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_5.2",
+        "url": "https://openstax.org/books/biology-2e/pages/34-3-digestive-system-processes",
+        "page_or_section": "34-3-digestive-system-processes",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "结构题沿食物主路走，再旁列各腺分泌",
+      "method": "区分物理化学。",
+      "principle": "乳化。",
+      "worked_example_index": 2,
+      "verification": "随后酶作用可更便利。",
+      "pitfall": "脂滴小就是分子变单体。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“沿消化道定位底物、分泌来源与作用部位”的抽样复核：不能只改一个器官名而保留酶错误。；若出现“胆汁当通用消化酶。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“解释胆汁、胰液和小肠酶的协作”的抽样复核：随后酶作用可更便利。；若出现“脂滴小就是分子变单体。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "图漂亮就忽略接线。",
+        "correction": "不能。",
+        "verification": "用不同线型和图例。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "消化道与分泌物流",
+      "objects": [
+        "口胃小肠大肠",
+        "肝胆囊",
+        "胰腺",
+        "胆管胰管",
+        "三种箭头"
+      ],
+      "relations": [
+        "食物不穿肝胰",
+        "胆汁肝产胆囊储",
+        "分泌物流入小肠",
+        "乳化与酶解分标"
+      ],
+      "labels": [
+        "食物流",
+        "分泌流",
+        "吸收流",
+        "胆盐非酶"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用经审核消化与代谢图，须核器官、腔内外、血淋巴流向和不可逆步骤；不能全画双箭头",
+      "english": "Draw a precise digestion or metabolism schematic. Separate ingestion, lumen digestion, epithelial absorption and intracellular metabolism. Distinguish hepatic portal transport from lymphatic chylomicron transport. Preserve reaction direction, carbon and nitrogen accounting, organ locations and model-specific energy assumptions."
+    }
+  },
+  "5.3": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 5,
+    "section_id": "5.3",
+    "goals": [
+      "以绒毛结构和膜运输解释吸收",
+      "区分血门静脉与长链脂质淋巴路线"
+    ],
+    "prerequisites": [
+      "细胞膜运输",
+      "消化小分子和循环"
+    ],
+    "flow": [
+      "跨上皮",
+      "增面积层级",
+      "血路",
+      "淋巴脂质",
+      "机制与证据"
+    ],
+    "concept_relation": "跨上皮；增面积层级；血路；淋巴脂质；机制与证据",
+    "deep": [
+      "长链脂质消化产物常经胆盐相关微胶粒递送至上皮，再在细胞内重组并以乳糜微粒形式进入乳糜管，随后经淋巴回到血液。微胶粒和乳糜微粒是不同阶段结构，不能画成胆盐整团直接穿进乳糜管。部分较短链脂质可走不同路线，不能说所有脂肪绝对只经淋巴。",
+      "水按相应渗透与运输环境吸收，电解质、维生素等有各自机制。大肠仍能吸收部分水盐，不表示小肠不吸水。说明吸收面积、停留时间和血流有利作用时，也要保留膜转运、浓度和疾病等限制，不能说面积大就任何物质无限量通过。",
+      "题目若给腔内减少量，需核是否由吸收、消化转化、样品体积变化或其他过程造成。用示踪比较应分清血液和淋巴取样位置及时间，未立即检出不代表永远不吸收。完整结论应对应所测物质与路径，不把一个标记模型无限推广。"
+    ],
+    "derive": [
+      "绒毛与微绒毛属于不同尺度；跨上皮是吸收关键边界。",
+      "常规单糖氨基酸→门静脉相关血路→肝；长链脂质乳糜微粒主要先入淋巴。",
+      "钠梯度耦联与直接ATP泵不同；微胶粒与乳糜微粒不同。"
+    ],
+    "examples": [
+      {
+        "q": "绒毛和微绒毛都是增面积结构，可以画成完全同一级器官吗？ 条件：按真实组织层级。",
+        "given": "按真实组织层级。",
+        "analysis": "层级尺度不同。",
+        "method": "定位。",
+        "principle": "组织与细胞表面。",
+        "steps": [
+          "绒毛是黏膜组织突起。",
+          "微绒毛是上皮细胞膜层面的突起。"
+        ],
+        "ans": "不能；需分级放大。",
+        "verification": "二者功能有关但非同一结构。",
+        "pitfall": "名称相近就同级。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.3",
+        "related_sections": []
+      },
+      {
+        "q": "葡萄糖已进入肠上皮细胞，是否必已完成到血液的一切步骤？ 条件：仍需基底侧运输。",
+        "given": "仍需基底侧运输。",
+        "analysis": "进入细胞不是到血。",
+        "method": "追踪边界。",
+        "principle": "跨上皮运输。",
+        "steps": [
+          "先越腔侧膜。",
+          "还需离开上皮到相关体内液体和血路。"
+        ],
+        "ans": "不必。",
+        "verification": "定位取样可区分两阶段。",
+        "pitfall": "细胞内检出就等血检出。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.3",
+        "related_sections": []
+      },
+      {
+        "q": "长链脂质主要吸收路线能否直接写肠腔完整甘油三酯→门静脉？ 条件：按常规乳糜微粒途径。",
+        "given": "按常规乳糜微粒途径。",
+        "analysis": "需消化、细胞处理和淋巴步骤。",
+        "method": "按阶段改路线。",
+        "principle": "脂质运输。",
+        "steps": [
+          "产物递送入上皮后可重组脂质并装配乳糜微粒。",
+          "先入乳糜管淋巴，再回血，不是全量完整脂肪直接门静脉。"
+        ],
+        "ans": "不能如此简写。",
+        "verification": "部分其他链长可有不同路径，需限定。",
+        "pitfall": "所有营养同一直接入血。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "微胶粒与乳糜微粒完全相同吗？ 条件：比较腔内递送与细胞后运输。",
+        "given": "比较腔内递送与细胞后运输。",
+        "analysis": "阶段结构不同。",
+        "method": "按位置与成分。",
+        "principle": "脂质处理。",
+        "steps": [
+          "微胶粒帮助腔内脂质产物递送。",
+          "乳糜微粒在上皮处理后作为脂蛋白运输颗粒。"
+        ],
+        "ans": "不相同。",
+        "verification": "胆盐不随整团按同一结构直接入淋巴。",
+        "pitfall": "两者中文相似当同物。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.3",
+        "related_sections": []
+      },
+      {
+        "q": "腔内初10单位，最终4，若只有吸收这一去路，吸收比例？ 条件：体积及检测基准一致，无转化。",
+        "given": "体积及检测基准一致，无转化。",
+        "analysis": "先明确唯一去路假设。",
+        "method": "差/初值。",
+        "principle": "收支。",
+        "steps": [
+          "吸收量6。",
+          "6/10=60%。"
+        ],
+        "ans": "60%。",
+        "verification": "若有分解等不能沿用唯一归因。",
+        "pitfall": "无条件把减少全当吸收。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.3",
+        "related_sections": []
+      },
+      {
+        "q": "钠葡萄糖协同过程一定由该蛋白直接分解ATP吗？ 条件：讨论次级主动运输。",
+        "given": "讨论次级主动运输。",
+        "analysis": "能量可经离子梯度间接提供。",
+        "method": "区分耦联层次。",
+        "principle": "膜能量。",
+        "steps": [
+          "协同利用钠梯度。",
+          "维持梯度的泵等可用ATP，并非协同位点都直接水解ATP。"
+        ],
+        "ans": "不一定，不能这样等同。",
+        "verification": "能量依赖不等每一载体直接ATP酶。",
+        "pitfall": "主动全部直接泵。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.3",
+        "related_sections": []
+      },
+      {
+        "q": "绒毛内乳糜管主要属于血管还是淋巴通路？ 条件：典型小肠绒毛。",
+        "given": "典型小肠绒毛。",
+        "analysis": "结构系统不同。",
+        "method": "按连接。",
+        "principle": "淋巴吸收。",
+        "steps": [
+          "乳糜管为淋巴毛细管。",
+          "接收相应脂质运输颗粒后经淋巴回流。"
+        ],
+        "ans": "淋巴通路。",
+        "verification": "不能与门静脉画为同一管腔。",
+        "pitfall": "都叫毛细就同血路。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "肠腔某物质减少，未控制体积和化学转化，能唯一算吸收量吗？ 条件：可能还有其他去路。",
+      "given": "可能还有其他去路。",
+      "analysis": "浓度和质量收支均受影响。",
+      "method": "补测。",
+      "principle": "实验识别。",
+      "steps": [
+        "需核体积得到总量。",
+        "还要排除转化或其他损失，不能唯一归因吸收。"
+      ],
+      "ans": "不能。",
+      "verification": "加入体内侧示踪和适当对照可增强证据。",
+      "pitfall": "浓度降全算吸收。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 5,
+      "primary_section": "5.3",
+      "related_sections": []
+    },
+    "exam": [
+      "结构图先分组织绒毛与膜微绒毛，血淋巴分路",
+      "运输题分别画腔侧入细胞和基底侧出去，机制不混",
+      "数据题先核总量和其他去路，不把腔内浓度下降直接当吸收"
+    ],
+    "quick": [
+      "跨上皮",
+      "增面积层级",
+      "血路",
+      "淋巴脂质",
+      "机制与证据"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_5.3",
+        "url": "https://openstax.org/books/biology-2e/pages/34-3-digestive-system-processes",
+        "page_or_section": "34-3-digestive-system-processes",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_5.3",
+        "url": "https://openstax.org/books/biology-2e/pages/34-3-digestive-system-processes",
+        "page_or_section": "34-3-digestive-system-processes",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "结构图先分组织绒毛与膜微绒毛，血淋巴分路",
+      "method": "按阶段改路线。",
+      "principle": "脂质运输。",
+      "worked_example_index": 2,
+      "verification": "部分其他链长可有不同路径，需限定。",
+      "pitfall": "所有营养同一直接入血。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“以绒毛结构和膜运输解释吸收”的抽样复核：二者功能有关但非同一结构。；若出现“名称相近就同级。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分血门静脉与长链脂质淋巴路线”的抽样复核：部分其他链长可有不同路径，需限定。；若出现“所有营养同一直接入血。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "浓度降全算吸收。",
+        "correction": "不能。",
+        "verification": "加入体内侧示踪和适当对照可增强证据。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "小肠吸收双路线",
+      "objects": [
+        "分层绒毛微绒毛",
+        "毛细血管",
+        "乳糜管",
+        "上皮细胞",
+        "脂质处理"
+      ],
+      "relations": [
+        "单糖氨基酸向血路",
+        "长链脂质乳糜微粒先淋巴",
+        "微胶粒与乳糜微粒分阶段",
+        "跨膜边界清楚"
+      ],
+      "labels": [
+        "门静脉",
+        "淋巴",
+        "微绒毛",
+        "乳糜微粒",
+        "微胶粒"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用经审核消化与代谢图，须核器官、腔内外、血淋巴流向和不可逆步骤；不能全画双箭头",
+      "english": "Draw a precise digestion or metabolism schematic. Separate ingestion, lumen digestion, epithelial absorption and intracellular metabolism. Distinguish hepatic portal transport from lymphatic chylomicron transport. Preserve reaction direction, carbon and nitrogen accounting, organ locations and model-specific energy assumptions."
+    }
+  },
+  "5.4": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 5,
+    "section_id": "5.4",
+    "goals": [
+      "整合葡萄糖氧化、储存和血糖来源",
+      "区分有氧条件、ATP模型与物质守恒"
+    ],
+    "prerequisites": [
+      "糖酵解和细胞器",
+      "血糖调节"
+    ],
+    "flow": [
+      "葡萄糖去路",
+      "糖酵解",
+      "有氧区室",
+      "再生辅酶",
+      "组织与模型"
+    ],
+    "concept_relation": "葡萄糖去路；糖酵解；有氧区室；再生辅酶；组织与模型",
+    "deep": [
+      "在某些条件下乳酸形成可帮助再生NAD⁺支持糖酵解继续。乳酸形成步骤本身不额外产生一大批ATP，不能把糖酵解的2 ATP又在后续再重复记一次。乳酸代谢也不只发生在“全身绝对无氧”的极端情境，局部通量与条件要具体说明。",
+      "有氧ATP总产量依穿梭、膜耦联效率、细胞类型及计算模型等可不同。若题目指定旧式理论值或某ATP换算，按其模型算并标明，而不宣称所有真核细胞恒定同数。真实细胞还有能量散失和其他用途，理论账本与实测通量不应混淆。",
+      "肝糖原动员及糖异生可参与维持血糖，肌糖原则主要支持肌自身活动；二者不是完全同样的直接血糖出口。解题把物质的量、碳去向、ATP直接生成与电子转移分栏，结合酶和激素条件解释，避免把路径图当无约束双向箭头网络。"
+    ],
+    "derive": [
+      "糖酵解基本碳账：1个六碳糖→2个三碳产物，净直接ATP按基本模型为2。",
+      "氧化磷酸化依相应电子链和膜条件；氧为最终受体不是每步直接反应物。",
+      "糖原储存、肝输出与细胞氧化共同影响糖流，肝肌出口需区分。"
+    ],
+    "examples": [
+      {
+        "q": "基本糖酵解投入2 ATP、生成4 ATP，一分子糖净ATP多少？ 条件：只算此阶段直接底物水平磷酸化，不计后续。",
+        "given": "只算此阶段直接底物水平磷酸化，不计后续。",
+        "analysis": "净不同总生成。",
+        "method": "生成减投资。",
+        "principle": "能量账。",
+        "steps": [
+          "4−2=2。",
+          "不能把4作为净收益。"
+        ],
+        "ans": "2 ATP。",
+        "verification": "2投入加2净增合4生成。",
+        "pitfall": "不扣投资。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.4",
+        "related_sections": []
+      },
+      {
+        "q": "3分子六碳糖经糖酵解形成几分子三碳产物，是否此步全部变CO₂？ 条件：按1糖给2三碳基本模型。",
+        "given": "按1糖给2三碳基本模型。",
+        "analysis": "碳数守恒。",
+        "method": "比例与碳账。",
+        "principle": "糖酵解。",
+        "steps": [
+          "3×2=6个三碳产物。",
+          "原18碳仍在6×3碳中，非全部此时变CO₂。"
+        ],
+        "ans": "6个；不是此步全部CO₂。",
+        "verification": "18=18碳守恒。",
+        "pitfall": "呼吸终产物塞入第一步。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.4",
+        "related_sections": []
+      },
+      {
+        "q": "乳酸形成帮助糖酵解继续，能把每糖净2 ATP再算一遍吗？ 条件：按该简化乳酸发酵模型。",
+        "given": "按该简化乳酸发酵模型。",
+        "analysis": "再生辅酶不同额外ATP。",
+        "method": "分阶段记账。",
+        "principle": "NAD⁺循环。",
+        "steps": [
+          "糖酵解已计净2。",
+          "乳酸形成主要再生NAD⁺，不再另加相同一笔ATP。"
+        ],
+        "ans": "不能重复；该模型净仍2。",
+        "verification": "同一笔能量不能因命名两过程计两次。",
+        "pitfall": "发酵与糖酵解各2再相加。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "糖酵解主要在真核线粒体内膜吗？ 条件：普通真核细胞。",
+        "given": "普通真核细胞。",
+        "analysis": "阶段场所不同。",
+        "method": "定位。",
+        "principle": "细胞代谢区室。",
+        "steps": [
+          "糖酵解在细胞质基质。",
+          "内膜相关的是呼吸链与氧化磷酸化等。"
+        ],
+        "ans": "不是。",
+        "verification": "不把整套呼吸都放同一室。",
+        "pitfall": "全部有氧途径线粒体。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.4",
+        "related_sections": []
+      },
+      {
+        "q": "给定教学模型每mol葡萄糖总ATP=30，2.5mol糖理论ATP多少？ 条件：严格按题设模型，不声明普适总产量。",
+        "given": "严格按题设模型，不声明普适总产量。",
+        "analysis": "按指定换算。",
+        "method": "2.5×30。",
+        "principle": "计量。",
+        "steps": [
+          "得75 mol ATP。",
+          "结果限该理论模型。"
+        ],
+        "ans": "75 mol。",
+        "verification": "若模型变化应重算而非争用固定旧值。",
+        "pitfall": "将指定值宣称所有细胞恒数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.4",
+        "related_sections": []
+      },
+      {
+        "q": "肝与肌糖原都可无条件同等直接给血葡萄糖吗？ 条件：普通人体分工。",
+        "given": "普通人体分工。",
+        "analysis": "代谢出口不同。",
+        "method": "按组织。",
+        "principle": "肝供糖与肌自用。",
+        "steps": [
+          "肝可参与输出血葡萄糖。",
+          "肌糖原主要支持局部活动，不能当同样直接血糖来源。"
+        ],
+        "ans": "不能无条件等同。",
+        "verification": "与血糖调节章节一致。",
+        "pitfall": "所有糖原同出口。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.4",
+        "related_sections": []
+      },
+      {
+        "q": "葡萄糖氧化一定将全部能量储进ATP吗？ 条件：真实耦联过程。",
+        "given": "真实耦联过程。",
+        "analysis": "有散热及其他用途。",
+        "method": "守恒分流。",
+        "principle": "能量转换效率。",
+        "steps": [
+          "部分能量可被ATP等捕获。",
+          "另有热与其他能量通路。"
+        ],
+        "ans": "不是全部。",
+        "verification": "总能守恒不等100%ATP捕获。",
+        "pitfall": "把能量守恒当全储ATP。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "每个呼吸步骤都必须直接用O₂作反应物吗？ 条件：整体有氧呼吸。",
+      "given": "整体有氧呼吸。",
+      "analysis": "总体依氧不同各步直接耗氧。",
+      "method": "定位最终受体。",
+      "principle": "阶段化机制。",
+      "steps": [
+        "氧在相应末端电子接受过程中重要。",
+        "糖酵解等步骤不因此每步都直接消耗O₂。"
+      ],
+      "ans": "不必每步直接用。",
+      "verification": "可依阶段反应式分别核。",
+      "pitfall": "整体名称覆盖每步。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 5,
+      "primary_section": "5.4",
+      "related_sections": []
+    },
+    "exam": [
+      "代谢题先画碳流与区室，再另列ATP投资回收",
+      "明确题设ATP模型，净与总及阶段计数分开",
+      "组织题肝肌分工不混，氧需求定位到机制而非所有箭头"
+    ],
+    "quick": [
+      "葡萄糖去路",
+      "糖酵解",
+      "有氧区室",
+      "再生辅酶",
+      "组织与模型"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_5.4",
+        "url": "https://openstax.org/books/biology-2e/pages/7-6-connections-of-carbohydrate-protein-and-lipid-metabolic-pathways",
+        "page_or_section": "7-6-connections-of-carbohydrate-protein-and-lipid-metabolic-pathways",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_5.4",
+        "url": "https://openstax.org/books/biology-2e/pages/7-6-connections-of-carbohydrate-protein-and-lipid-metabolic-pathways",
+        "page_or_section": "7-6-connections-of-carbohydrate-protein-and-lipid-metabolic-pathways",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "代谢题先画碳流与区室，再另列ATP投资回收",
+      "method": "分阶段记账。",
+      "principle": "NAD⁺循环。",
+      "worked_example_index": 2,
+      "verification": "同一笔能量不能因命名两过程计两次。",
+      "pitfall": "发酵与糖酵解各2再相加。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "p2",
+        "review_module": 4,
+        "feedback": "目标“整合葡萄糖氧化、储存和血糖来源”的抽样复核：与血糖调节章节一致。；若出现“所有糖原同出口。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分有氧条件、ATP模型与物质守恒”的抽样复核：同一笔能量不能因命名两过程计两次。；若出现“发酵与糖酵解各2再相加。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "整体名称覆盖每步。",
+        "correction": "不必每步直接用。",
+        "verification": "可依阶段反应式分别核。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "糖代谢的碳与能量分账",
+      "objects": [
+        "葡萄糖",
+        "两三碳产物",
+        "乳酸支路",
+        "线粒体",
+        "糖原"
+      ],
+      "relations": [
+        "糖酵解碳不全变CO₂",
+        "乳酸再生NAD⁺不另加同笔ATP",
+        "肝肌输出不同",
+        "ATP表注明模型"
+      ],
+      "labels": [
+        "细胞质",
+        "内膜",
+        "净2ATP",
+        "NAD⁺",
+        "碳流"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用经审核消化与代谢图，须核器官、腔内外、血淋巴流向和不可逆步骤；不能全画双箭头",
+      "english": "Draw a precise digestion or metabolism schematic. Separate ingestion, lumen digestion, epithelial absorption and intracellular metabolism. Distinguish hepatic portal transport from lymphatic chylomicron transport. Preserve reaction direction, carbon and nitrogen accounting, organ locations and model-specific energy assumptions."
+    }
+  },
+  "5.5": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 5,
+    "section_id": "5.5",
+    "goals": [
+      "解释氨基酸合成利用及含氮废物去路",
+      "区分脱氨、碳骨架利用与必需氨基酸限制"
+    ],
+    "prerequisites": [
+      "氨基酸和蛋白质",
+      "肝肾分工"
+    ],
+    "flow": [
+      "氨基酸池",
+      "蛋白更新",
+      "氮碳分路",
+      "肝肾协同",
+      "必需条件"
+    ],
+    "concept_relation": "氨基酸池；蛋白更新；氮碳分路；肝肾协同；必需条件",
+    "deep": [
+      "氨等含氮产物对机体处理有要求，人体肝脏尿素合成途径把相应氮转为尿素等，随后经血液运输并由肾排泄。不能画成肾脏先把所有蛋白直接变尿素，也不应把尿素主要合成处与尿液形成处混同。尿素含两个氮，但详细氮供体不是简单两分子游离氨直接一步反应。",
+      "必需氨基酸指在所论个体和生理条件下不能足量自行合成而需从食物等获得，并非“其他氨基酸不重要”。非必需也要有原料、酶和能量才能合成，不能说身体可以从空气凭空制造。不同物种和发育状态的需求还可能不同。",
+      "解题可用氮收支追踪输入、留存和输出，但需明确是否达到稳定及还有哪些含氮通路。蛋白质提供的供能计算若给了每克能量，只能按题设模型使用，不能据此提出个人高蛋白处方或以单次尿素量唯一确定蛋白质分解病因。"
+    ],
+    "derive": [
+      "氨基酸→合成蛋白/其他含氮物；分解时含氮部分与碳骨架分路。",
+      "肝相关尿素合成→血液运输→肾排泄；合成处不等尿形成处。",
+      "在给定简化收支：氮留存=氮输入−全部氮输出，未列通路不可忽略。"
+    ],
+    "examples": [
+      {
+        "q": "食物蛋白被消化后，是否以原完整序列直接变人体同名组织？ 条件：常规消化吸收与细胞合成。",
+        "given": "常规消化吸收与细胞合成。",
+        "analysis": "材料不同序列模板。",
+        "method": "追踪氨基酸。",
+        "principle": "翻译。",
+        "steps": [
+          "消化提供氨基酸等材料。",
+          "人体按自身基因表达合成蛋白，不直接复制食物组织。"
+        ],
+        "ans": "不是。",
+        "verification": "相同氨基酸可用于不同蛋白。",
+        "pitfall": "吃哪补哪作为分子机制。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.5",
+        "related_sections": []
+      },
+      {
+        "q": "教学收支氮输入12 g、全部输出10 g，留存多少？ 条件：同一时段且输入输出完整，无未计交换。",
+        "given": "同一时段且输入输出完整，无未计交换。",
+        "analysis": "净差。",
+        "method": "输入减输出。",
+        "principle": "氮守恒。",
+        "steps": [
+          "12−10=2。",
+          "净留存2 g氮。"
+        ],
+        "ans": "2 g。",
+        "verification": "不能直接等于2g蛋白，物质量不同。",
+        "pitfall": "氮量直接当蛋白量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.5",
+        "related_sections": []
+      },
+      {
+        "q": "尿素在尿中排出，能推出主要由肾合成吗？ 条件：比较合成与排泄。",
+        "given": "比较合成与排泄。",
+        "analysis": "运输连接不同器官。",
+        "method": "追踪肝血肾。",
+        "principle": "器官分工。",
+        "steps": [
+          "人体主要尿素合成与肝途径相关。",
+          "经血到肾后排出，排出位置不是主要合成位置证据。"
+        ],
+        "ans": "不能。",
+        "verification": "尿中可含来自全身其他部位产物。",
+        "pitfall": "在哪排就在哪制。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.5",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "必需氨基酸以外的氨基酸不重要吗？ 条件：“必需”采用营养定义。",
+        "given": "“必需”采用营养定义。",
+        "analysis": "需外源不同生理重要性。",
+        "method": "区分术语。",
+        "principle": "合成能力。",
+        "steps": [
+          "非必需通常可自行足量合成。",
+          "仍可能是生命蛋白的重要组成。"
+        ],
+        "ans": "不是。",
+        "verification": "名词不作价值排行。",
+        "pitfall": "非必需可完全没有。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.5",
+        "related_sections": []
+      },
+      {
+        "q": "一mol尿素含几mol氮原子？ 条件：尿素CO(NH₂)₂。",
+        "given": "尿素CO(NH₂)₂。",
+        "analysis": "按化学式计原子。",
+        "method": "下标计量。",
+        "principle": "物质的量。",
+        "steps": [
+          "每分子2个N。",
+          "1mol分子含2mol氮原子。"
+        ],
+        "ans": "2 mol。",
+        "verification": "不意味着生理机制直接由2mol游离氨一步合成。",
+        "pitfall": "化学式当完整反应机理。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.5",
+        "related_sections": []
+      },
+      {
+        "q": "所有氨基酸碳骨架都必先变葡萄糖吗？ 条件：不同代谢入口。",
+        "given": "不同代谢入口。",
+        "analysis": "有生糖、生酮等不同去路。",
+        "method": "按结构分类。",
+        "principle": "代谢网络。",
+        "steps": [
+          "可进入不同中间体。",
+          "不都按同一葡萄糖前置路线。"
+        ],
+        "ans": "不必。",
+        "verification": "需按具体氨基酸和条件判断。",
+        "pitfall": "所有有机物先糖化。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.5",
+        "related_sections": []
+      },
+      {
+        "q": "10 g蛋白质，题设每克供17 kJ，理论能量多少？ 条件：仅按该教学换算。",
+        "given": "仅按该教学换算。",
+        "analysis": "质量乘能量密度。",
+        "method": "10×17。",
+        "principle": "比能。",
+        "steps": [
+          "得170 kJ。",
+          "不据此比较全部营养价值。"
+        ],
+        "ans": "170 kJ。",
+        "verification": "单位g×kJ/g。",
+        "pitfall": "热量等于全部功能。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.5",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "可以无代价大量分解肌蛋白，等同使用专门储油库吗？ 条件：涉及结构功能蛋白。",
+      "given": "涉及结构功能蛋白。",
+      "analysis": "能动员不同无功能后果。",
+      "method": "联系组织作用。",
+      "principle": "蛋白更新与功能。",
+      "steps": [
+        "肌蛋白承担结构收缩等作用。",
+        "分解过多会影响功能，不能等同无代价备用仓。"
+      ],
+      "ans": "不能这样等同。",
+      "verification": "本节不据教学模型制定个人营养方案。",
+      "pitfall": "能供能就无其他代价。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 5,
+      "primary_section": "5.5",
+      "related_sections": []
+    },
+    "exam": [
+      "氨基酸题把材料、序列信息与合成分开",
+      "分解流程分氮和碳两路，肝制尿素与肾排泄不混",
+      "氮收支标完整边界，术语必需不代表其他无用"
+    ],
+    "quick": [
+      "氨基酸池",
+      "蛋白更新",
+      "氮碳分路",
+      "肝肾协同",
+      "必需条件"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_5.5",
+        "url": "https://openstax.org/books/biology-2e/pages/7-6-connections-of-carbohydrate-protein-and-lipid-metabolic-pathways",
+        "page_or_section": "7-6-connections-of-carbohydrate-protein-and-lipid-metabolic-pathways",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_5.5",
+        "url": "https://openstax.org/books/biology-2e/pages/7-6-connections-of-carbohydrate-protein-and-lipid-metabolic-pathways",
+        "page_or_section": "7-6-connections-of-carbohydrate-protein-and-lipid-metabolic-pathways",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "氨基酸题把材料、序列信息与合成分开",
+      "method": "追踪肝血肾。",
+      "principle": "器官分工。",
+      "worked_example_index": 2,
+      "verification": "尿中可含来自全身其他部位产物。",
+      "pitfall": "在哪排就在哪制。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“解释氨基酸合成利用及含氮废物去路”的抽样复核：相同氨基酸可用于不同蛋白。；若出现“吃哪补哪作为分子机制。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分脱氨、碳骨架利用与必需氨基酸限制”的抽样复核：尿中可含来自全身其他部位产物。；若出现“在哪排就在哪制。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "能供能就无其他代价。",
+        "correction": "不能这样等同。",
+        "verification": "本节不据教学模型制定个人营养方案。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "氨基酸的氮与碳去路",
+      "objects": [
+        "氨基酸池",
+        "蛋白合成",
+        "转氨脱氨",
+        "肝尿素",
+        "血肾",
+        "碳骨架入口"
+      ],
+      "relations": [
+        "氮碳分别标",
+        "尿素肝合成肾排出",
+        "不同骨架不同入口",
+        "不画两氨一步作完整机制"
+      ],
+      "labels": [
+        "含氮部分",
+        "碳骨架",
+        "肝",
+        "尿素",
+        "肾"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用经审核消化与代谢图，须核器官、腔内外、血淋巴流向和不可逆步骤；不能全画双箭头",
+      "english": "Draw a precise digestion or metabolism schematic. Separate ingestion, lumen digestion, epithelial absorption and intracellular metabolism. Distinguish hepatic portal transport from lymphatic chylomicron transport. Preserve reaction direction, carbon and nitrogen accounting, organ locations and model-specific energy assumptions."
+    }
+  },
+  "5.6": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 5,
+    "section_id": "5.6",
+    "goals": [
+      "区分脂质消化、储存与细胞氧化",
+      "以脂肪酸和甘油分路解释碳与能量去向"
+    ],
+    "prerequisites": [
+      "甘油三酯",
+      "乙酰辅酶A与细胞呼吸"
+    ],
+    "flow": [
+      "脂质分类",
+      "动员分路",
+      "β氧化",
+      "能量分账",
+      "转化限制"
+    ],
+    "concept_relation": "脂质分类；动员分路；β氧化；能量分账；转化限制",
+    "deep": [
+      "真核细胞许多脂肪酸氧化与线粒体相关，但不同链长与特定代谢可有过氧化物酶体等参与，不能用“全部脂质每一步都在同一细胞器”概括。运输、活化、氧化和合成各有不同条件，分解与合成也不只是同一组反应完全倒放。",
+      "人体中偶数链脂肪酸经乙酰辅酶A不能通常净转成葡萄糖，这与甘油可参与糖异生不同；某些奇数链等情形又需另论。因此“脂肪任何部分都可无限量变糖”是错误的，也不能反向极端说脂质相关任何成分都绝不参与糖代谢。",
+      "脂肪储存变化是合成输入与动员氧化等收支的结果，单次餐食或单个激素值不足以唯一解释长期变化。题设能量或ATP换算应标为模型，真实效率、组织和状态不同。知识讲解不转为未经个体资料支持的减重承诺或饮食处方。"
+    ],
+    "derive": [
+      "甘油三酯动员：甘油与脂肪酸分路；消化与细胞氧化不是同一步。",
+      "饱和偶数n碳脂肪酸简化β氧化：乙酰单元n/2，轮数n/2−1。",
+      "甘油可参与糖异生；人体偶数链脂肪酸经乙酰辅酶A通常不能净产葡萄糖。"
+    ],
+    "examples": [
+      {
+        "q": "16碳饱和偶数链脂肪酸在给定完整β氧化模型中产几个乙酰单元、几轮？ 条件：只算碳链切分，不算激活与ATP。",
+        "given": "只算碳链切分，不算激活与ATP。",
+        "analysis": "最后一轮把4碳分成两个2碳。",
+        "method": "n/2与n/2−1。",
+        "principle": "碳守恒。",
+        "steps": [
+          "16/2=8个乙酰单元。",
+          "轮数8−1=7。"
+        ],
+        "ans": "8个、7轮。",
+        "verification": "8×2=16碳，轮数不等单元数。",
+        "pitfall": "8轮。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.6",
+        "related_sections": []
+      },
+      {
+        "q": "为何甘油和偶数链脂肪酸不能都画成无条件直接净生成葡萄糖？ 条件：普通人体代谢。",
+        "given": "普通人体代谢。",
+        "analysis": "入口与不可逆限制不同。",
+        "method": "分路。",
+        "principle": "代谢拓扑。",
+        "steps": [
+          "甘油可进入糖代谢相关中间体并参与糖异生。",
+          "偶数链脂肪酸经乙酰辅酶A通常无净产葡萄糖通路。"
+        ],
+        "ans": "两部分必须分开标条件。",
+        "verification": "不能将一个部分可转推全部可转。",
+        "pitfall": "脂肪全双向变糖。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.6",
+        "related_sections": []
+      },
+      {
+        "q": "给定模型释放1000 kJ，其中40%捕获为ATP相关能量，其余热等多少？ 条件：只按题设两类输出收支。",
+        "given": "只按题设两类输出收支。",
+        "analysis": "有效捕获不等全部。",
+        "method": "余量。",
+        "principle": "守恒。",
+        "steps": [
+          "捕获400 kJ。",
+          "其余1000−400=600 kJ。"
+        ],
+        "ans": "600 kJ。",
+        "verification": "400+600=1000。",
+        "pitfall": "剩余能量消失。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.6",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "12碳饱和偶数链完整β氧化给多少乙酰单元？ 条件：同简化模型。",
+        "given": "同简化模型。",
+        "analysis": "二碳单元。",
+        "method": "12/2。",
+        "principle": "碳数。",
+        "steps": [
+          "得6。",
+          "对应轮数5而非6。"
+        ],
+        "ans": "6个。",
+        "verification": "6×2=12。",
+        "pitfall": "单元轮数混同。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.6",
+        "related_sections": []
+      },
+      {
+        "q": "胆固醇可因属于脂质就只解释为主要储油形式吗？ 条件：比较脂质类别。",
+        "given": "比较脂质类别。",
+        "analysis": "结构功能不同。",
+        "method": "分类。",
+        "principle": "生物分子。",
+        "steps": [
+          "主要储存形式常为甘油三酯。",
+          "胆固醇有膜和前体等不同功能。"
+        ],
+        "ans": "不能只这样解释。",
+        "verification": "类名相同不等作用唯一。",
+        "pitfall": "所有脂质同一功能。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.6",
+        "related_sections": []
+      },
+      {
+        "q": "细胞脂肪酸β氧化与肠腔脂肪酶消化是同一步吗？ 条件：部位和目的不同。",
+        "given": "部位和目的不同。",
+        "analysis": "消化供吸收，氧化供代谢。",
+        "method": "区分层次。",
+        "principle": "代谢区室。",
+        "steps": [
+          "肠腔酶解处理食物。",
+          "细胞内氧化处理可利用脂肪酸并接能量途径。"
+        ],
+        "ans": "不是。",
+        "verification": "化学底物联系不等同一步。",
+        "pitfall": "都叫分解就合并。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.6",
+        "related_sections": []
+      },
+      {
+        "q": "若题给脂质能量密度38 kJ/g，5 g理论能量？ 条件：仅给定教学数值。",
+        "given": "仅给定教学数值。",
+        "analysis": "统一质量单位。",
+        "method": "乘法。",
+        "principle": "比能。",
+        "steps": [
+          "38×5=190。",
+          "单位kJ。"
+        ],
+        "ans": "190 kJ。",
+        "verification": "不由此推全部进入ATP。",
+        "pitfall": "比能就是ATP捕获率。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.6",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "知道脂肪酸有8个乙酰单元就可直接说生成8 ATP吗？ 条件：ATP收益需还原当量及后续模型。",
+      "given": "ATP收益需还原当量及后续模型。",
+      "analysis": "产物计量不同能量币计量。",
+      "method": "分账。",
+      "principle": "耦联能量。",
+      "steps": [
+        "乙酰单元数只给碳分割。",
+        "还需β氧化还原当量、循环、电子链及激活成本等换算。"
+      ],
+      "ans": "不可直接等同。",
+      "verification": "本节未给固定总ATP模型。",
+      "pitfall": "任何代谢产物1比1ATP。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 5,
+      "primary_section": "5.6",
+      "related_sections": []
+    },
+    "exam": [
+      "先区分脂质类别与消化/细胞利用层级",
+      "偶数碳题碳单元与轮数分别数，ATP另按模型算",
+      "糖脂转化画甘油和脂肪酸不同入口，不用任意双向箭头"
+    ],
+    "quick": [
+      "脂质分类",
+      "动员分路",
+      "β氧化",
+      "能量分账",
+      "转化限制"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_5.6",
+        "url": "https://openstax.org/books/biology-2e/pages/7-6-connections-of-carbohydrate-protein-and-lipid-metabolic-pathways",
+        "page_or_section": "7-6-connections-of-carbohydrate-protein-and-lipid-metabolic-pathways",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_5.6",
+        "url": "https://openstax.org/books/biology-2e/pages/7-6-connections-of-carbohydrate-protein-and-lipid-metabolic-pathways",
+        "page_or_section": "7-6-connections-of-carbohydrate-protein-and-lipid-metabolic-pathways",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先区分脂质类别与消化/细胞利用层级",
+      "method": "余量。",
+      "principle": "守恒。",
+      "worked_example_index": 2,
+      "verification": "400+600=1000。",
+      "pitfall": "剩余能量消失。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "p2",
+        "review_module": 4,
+        "feedback": "目标“区分脂质消化、储存与细胞氧化”的抽样复核：化学底物联系不等同一步。；若出现“都叫分解就合并。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e1",
+        "review_module": 5,
+        "feedback": "目标“以脂肪酸和甘油分路解释碳与能量去向”的抽样复核：不能将一个部分可转推全部可转。；若出现“脂肪全双向变糖。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "任何代谢产物1比1ATP。",
+        "correction": "不可直接等同。",
+        "verification": "本节未给固定总ATP模型。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "脂肪酸碳链与甘油分路",
+      "objects": [
+        "甘油三酯",
+        "甘油",
+        "16碳脂肪酸",
+        "8个二碳单元",
+        "7轮标记"
+      ],
+      "relations": [
+        "甘油与脂肪酸入口不同",
+        "16碳守恒为8×2",
+        "7轮不同8单元",
+        "标人体净生糖限制"
+      ],
+      "labels": [
+        "β氧化",
+        "乙酰辅酶A",
+        "7轮",
+        "8单元",
+        "模型条件"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用经审核消化与代谢图，须核器官、腔内外、血淋巴流向和不可逆步骤；不能全画双箭头",
+      "english": "Draw a precise digestion or metabolism schematic. Separate ingestion, lumen digestion, epithelial absorption and intracellular metabolism. Distinguish hepatic portal transport from lymphatic chylomicron transport. Preserve reaction direction, carbon and nitrogen accounting, organ locations and model-specific energy assumptions."
+    }
+  },
+  "5.7": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 5,
+    "section_id": "5.7",
+    "goals": [
+      "用共同中间体整合代谢并保留方向限制",
+      "按碳、氮和能量收支分析混合数据"
+    ],
+    "prerequisites": [
+      "糖脂蛋白代谢",
+      "守恒与实验变量"
+    ],
+    "flow": [
+      "共同节点",
+      "方向限制",
+      "氮分流",
+      "能量耦联",
+      "气体与联立"
+    ],
+    "concept_relation": "共同节点；方向限制；氮分流；能量耦联；气体与联立",
+    "deep": [
+      "碳骨架进入共同氧化途径前，蛋白相关氮需另处理，因此只守碳不守氮的图不完整。氮可参与新合成或经相应排废途径，尿素合成与排泄分属不同环节。能量则通过ATP及还原当量等传递并伴随热散失，不是碳箭头本身就是能量流箭头。",
+      "呼吸商RQ=生成CO₂的物质的量/消耗O₂的物质的量，可在规定底物完全氧化等条件下反映底物特点。葡萄糖完全氧化比为1，典型脂肪酸常较低；真实混合代谢、合成、酸碱变化与非稳态会限制解释，不能凭一个比值唯一推断个人吃了哪种食物。",
+      "综合题先确定系统与时段，按碳、氮和能量分栏，再识别可用的计量方程。混合底物题若给两个底物的耗氧与产CO₂数据，可联立求比例，但须足够独立条件；只有总能量往往不能唯一确定三类营养量。结论写清模型与不确定性，不编造官方营养或评分标准。"
+    ],
+    "derive": [
+      "共同中间体连接路径，但不代表任意逆转或无限净转化。",
+      "葡萄糖完全氧化C₆H₁₂O₆+6O₂→6CO₂+6H₂O，RQ=1。",
+      "典型饱和脂肪酸如C₁₆H₃₂O₂+23O₂→16CO₂+16H₂O，RQ=16/23，前提为所写完全氧化。"
+    ],
+    "examples": [
+      {
+        "q": "葡萄糖完全氧化消耗6 mol O₂、生成6 mol CO₂，RQ多少？ 条件：按完整计量，气体量同单位。",
+        "given": "按完整计量，气体量同单位。",
+        "analysis": "产除耗。",
+        "method": "RQ=CO₂/O₂。",
+        "principle": "比值。",
+        "steps": [
+          "6/6=1。",
+          "无需把水计入分子分母。"
+        ],
+        "ans": "1。",
+        "verification": "与配平碳氧数一致。",
+        "pitfall": "反比或加水。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.7",
+        "related_sections": []
+      },
+      {
+        "q": "C₁₆H₃₂O₂完全氧化为16CO₂+16H₂O需多少O₂、RQ？ 条件：只按该单一底物模型。",
+        "given": "只按该单一底物模型。",
+        "analysis": "先配氧再比。",
+        "method": "原子守恒。",
+        "principle": "化学计量。",
+        "steps": [
+          "产物48个O，底物已有2，还需46个即23O₂。",
+          "RQ=16/23≈.696。"
+        ],
+        "ans": "23 mol O₂/mol底物；RQ约.70。",
+        "verification": "C16、H32及O48两侧守恒。",
+        "pitfall": "全部48O都由O₂供。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.7",
+        "related_sections": []
+      },
+      {
+        "q": "混合代谢模型总耗O₂10 mol、CO₂8 mol；甲每耗1O₂产1CO₂，乙每耗1O₂产.7CO₂，分别耗氧多少？ 条件：只有这两类且无其他产耗。",
+        "given": "只有这两类且无其他产耗。",
+        "analysis": "以各自耗氧量为未知，不是底物mol。",
+        "method": "联立。",
+        "principle": "气体收支。",
+        "steps": [
+          "设甲a、乙b，a+b=10、a+.7b=8。",
+          "相减.3b=2，b=20/3，a=10/3。"
+        ],
+        "ans": "甲10/3、乙20/3 mol O₂。",
+        "verification": "相加10；CO₂10/3+14/3=8。",
+        "pitfall": "耗氧比例直接当底物分子比例。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.7",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "糖可用于脂质合成，能推出所有脂质也等量逆变糖吗？ 条件：人体常规路径。",
+        "given": "人体常规路径。",
+        "analysis": "有方向限制。",
+        "method": "核不同入口。",
+        "principle": "代谢不可逆与碳账。",
+        "steps": [
+          "偶数链脂肪酸常经乙酰辅酶A。",
+          "不能通常净生糖，甘油另论。"
+        ],
+        "ans": "不能。",
+        "verification": "共同节点不等每箭头可倒转。",
+        "pitfall": "图全双箭头。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.7",
+        "related_sections": []
+      },
+      {
+        "q": "蛋白质分解图只有碳进呼吸、没有氮去路，完整吗？ 条件：氨基酸含氮。",
+        "given": "氨基酸含氮。",
+        "analysis": "元素账缺项。",
+        "method": "补氮分流。",
+        "principle": "守恒。",
+        "steps": [
+          "氮必须进入其他含氮物或相应排废。",
+          "应标氮处理及肝尿素等相关通路。"
+        ],
+        "ans": "不完整。",
+        "verification": "不能让氮在图中消失。",
+        "pitfall": "只核能量不核元素。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.7",
+        "related_sections": []
+      },
+      {
+        "q": "耗O₂4 mol、产CO₂3.2 mol，RQ？ 条件：同一时段与系统。",
+        "given": "同一时段与系统。",
+        "analysis": "比值。",
+        "method": "3.2/4。",
+        "principle": "定义。",
+        "steps": [
+          "得.8。",
+          "无单位。"
+        ],
+        "ans": ".8。",
+        "verification": "此比值不唯一给底物种类。",
+        "pitfall": "报.8mol。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.7",
+        "related_sections": []
+      },
+      {
+        "q": "仅知总能量输入，能唯一求三类营养各多少吗？ 条件：三类量均未知，无其他独立关系。",
+        "given": "三类量均未知，无其他独立关系。",
+        "analysis": "方程少于未知量。",
+        "method": "审可识别性。",
+        "principle": "联立方程。",
+        "steps": [
+          "一条能量式可有多组解。",
+          "需其他成分或气体、氮等独立资料。"
+        ],
+        "ans": "通常不能。",
+        "verification": "非负条件也未必唯一。",
+        "pitfall": "一个总量解三个未知。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 5,
+        "primary_section": "5.7",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "观察某中间体存在，是否证明当时某条路径有很大的净通量？ 条件：只测储量未测速率。",
+      "given": "只测储量未测速率。",
+      "analysis": "浓度与流率不同。",
+      "method": "区分池与通量。",
+      "principle": "动态代谢。",
+      "steps": [
+        "中间体可由多个来源产生并被多个去路消耗。",
+        "存在或浓度高不唯一确定特定方向净通量。"
+      ],
+      "ans": "不能。",
+      "verification": "需示踪时间变化等补证。",
+      "pitfall": "有节点就所有箭头大量运行。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 5,
+      "primary_section": "5.7",
+      "related_sections": []
+    },
+    "exam": [
+      "综合题先分碳、氮、能量三账，明确时段与系统",
+      "RQ先配平、按产CO₂除耗O₂，限制真实混合外推",
+      "联立题说明未知量代表底物还是耗氧量，条件不足就不强解"
+    ],
+    "quick": [
+      "共同节点",
+      "方向限制",
+      "氮分流",
+      "能量耦联",
+      "气体与联立"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_5.7",
+        "url": "https://openstax.org/books/biology-2e/pages/7-6-connections-of-carbohydrate-protein-and-lipid-metabolic-pathways",
+        "page_or_section": "7-6-connections-of-carbohydrate-protein-and-lipid-metabolic-pathways",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_5.7",
+        "url": "https://openstax.org/books/biology-2e/pages/7-6-connections-of-carbohydrate-protein-and-lipid-metabolic-pathways",
+        "page_or_section": "7-6-connections-of-carbohydrate-protein-and-lipid-metabolic-pathways",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "综合题先分碳、氮、能量三账，明确时段与系统",
+      "method": "联立。",
+      "principle": "气体收支。",
+      "worked_example_index": 2,
+      "verification": "相加10；CO₂10/3+14/3=8。",
+      "pitfall": "耗氧比例直接当底物分子比例。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用共同中间体整合代谢并保留方向限制”的抽样复核：与配平碳氧数一致。；若出现“反比或加水。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“按碳、氮和能量收支分析混合数据”的抽样复核：相加10；CO₂10/3+14/3=8。；若出现“耗氧比例直接当底物分子比例。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "有节点就所有箭头大量运行。",
+        "correction": "不能。",
+        "verification": "需示踪时间变化等补证。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "代谢网络与三本账",
+      "objects": [
+        "糖酵解",
+        "乙酰辅酶A",
+        "脂肪酸甘油",
+        "氨基酸碳氮分流",
+        "ATP热"
+      ],
+      "relations": [
+        "不可逆箭头保留",
+        "甘油可接糖相关入口",
+        "偶数脂肪酸非通常净生糖",
+        "碳氮能量用不同线型"
+      ],
+      "labels": [
+        "碳流",
+        "氮流",
+        "能量流",
+        "RQ",
+        "模型边界"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用经审核消化与代谢图，须核器官、腔内外、血淋巴流向和不可逆步骤；不能全画双箭头",
+      "english": "Draw a precise digestion or metabolism schematic. Separate ingestion, lumen digestion, epithelial absorption and intracellular metabolism. Distinguish hepatic portal transport from lymphatic chylomicron transport. Preserve reaction direction, carbon and nitrogen accounting, organ locations and model-specific energy assumptions."
+    }
+  }
+}

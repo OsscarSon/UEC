@@ -1,0 +1,1811 @@
+{
+  "13.1": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 13,
+    "section_id": "13.1",
+    "goals": [
+      "用热平衡与温标解释温度",
+      "区分绝对温度、温差与内能总量"
+    ],
+    "prerequisites": [
+      "热传递",
+      "实数比例与单位"
+    ],
+    "flow": [
+      "热平衡",
+      "温度定义",
+      "温标零点",
+      "温差与比",
+      "测量条件"
+    ],
+    "concept_relation": "热平衡；温度定义；温标零点；温差与比；测量条件",
+    "deep": [
+      "温度与内能有关，却不是同一个量。即使同种材料同温，质量更多的一份通常有更多总内能；相变或物质种类不同还涉及不同状态关系。不能仅凭温度较高就断言某物体总内能一定比另一物体大。",
+      "在理想气体等特定模型中，温度可联系平均分子动能；这不等于所有材料的内能都只由同一种平动动能构成。解释微观意义时保留模型对象，避免把宏观冷热判断扩成任何情况下的简单粒子速度比较。",
+      "测温应等待温度计与对象达到适当热平衡，并考虑测温装置对小样本的扰动。若温度正在迅速变化，读数可能有响应延迟；一个仪器读数与真实瞬时温度的差异需要根据测量条件分析，不是所有偏差都能通过更精细刻度解决。"
+    ],
+    "derive": [
+      "T/K=t/℃+273.15；ΔT/K=Δt/℃（数值关系）。",
+      "热平衡的传递性支持用温度计比较温度。",
+      "温度是状态指标；热量Q是过程中的能量转移，单位J。"
+    ],
+    "examples": [
+      {
+        "q": "把25℃换为K；从25℃升到40℃的温差是多少K？ 条件：使用273.15的精确零点差。",
+        "given": "使用273.15的精确零点差。",
+        "analysis": "绝对值换算与温差换算不同。",
+        "method": "分别加常数和相减。",
+        "principle": "两温标线性关系。",
+        "steps": [
+          "T=25+273.15=298.15 K。",
+          "温差40−25=15 K。"
+        ],
+        "ans": "298.15 K；温差15 K。",
+        "verification": "温差不能再加273.15。",
+        "pitfall": "将15℃温差写288.15 K。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.1",
+        "related_sections": []
+      },
+      {
+        "q": "20℃到40℃是否意味着理想气体分子平均平动动能加倍？ 条件：气体满足相应理想模型。",
+        "given": "气体满足相应理想模型。",
+        "analysis": "动能比对应绝对温度比。",
+        "method": "先化K再取比。",
+        "principle": "平均平动动能∝T。",
+        "steps": [
+          "两温度293.15和313.15 K。",
+          "比313.15/293.15≈1.068。"
+        ],
+        "ans": "不是加倍，模型下约1.068倍。",
+        "verification": "与40/20=2不同。",
+        "pitfall": "用摄氏温度直接成比。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.1",
+        "related_sections": []
+      },
+      {
+        "q": "一小滴80℃水与一大桶30℃水，能只凭温度断言哪者总内能更大吗？ 条件：未给质量、状态参考及总量信息。",
+        "given": "未给质量、状态参考及总量信息。",
+        "analysis": "温度不是总能量。",
+        "method": "核量的广延/强度区别。",
+        "principle": "内能与质量、物态等有关。",
+        "steps": [
+          "80℃只说明该滴更热。",
+          "总内能还取决于水量与状态等，不能仅由温度排序。"
+        ],
+        "ans": "不能仅凭温度。",
+        "verification": "大桶较低温仍可含大量内能。",
+        "pitfall": "温度高就一定总内能高。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "0℃等于0 K吗？ 条件：两温标零点不同。",
+        "given": "两温标零点不同。",
+        "analysis": "摄氏零点不是绝对零度。",
+        "method": "换算。",
+        "principle": "T=t+273.15。",
+        "steps": [
+          "0+273.15。",
+          "得273.15 K。"
+        ],
+        "ans": "不是，为273.15 K。",
+        "verification": "0 K对应−273.15℃。",
+        "pitfall": "混淆零点。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.1",
+        "related_sections": []
+      },
+      {
+        "q": "A与C热平衡，B与C也热平衡，在同样条件下A、B温度关系？ 条件：适用热平衡传递性。",
+        "given": "适用热平衡传递性。",
+        "analysis": "共同温度参照。",
+        "method": "逻辑传递。",
+        "principle": "热平衡基础。",
+        "steps": [
+          "A与C同温，B与C同温。",
+          "A与B同温。"
+        ],
+        "ans": "相同。",
+        "verification": "可用同一温度计作比较。",
+        "pitfall": "以物体质量不同否认同温。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.1",
+        "related_sections": []
+      },
+      {
+        "q": "热量单位是℃还是J？ 条件：指温差导致能量传递。",
+        "given": "指温差导致能量传递。",
+        "analysis": "状态温度和过程能量分开。",
+        "method": "按物理量定义。",
+        "principle": "热量是能量。",
+        "steps": [
+          "能量用焦耳计。",
+          "℃用于温度或温差。"
+        ],
+        "ans": "J。",
+        "verification": "Q=mcΔT的单位也给J。",
+        "pitfall": "热量和温度共用单位。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.1",
+        "related_sections": []
+      },
+      {
+        "q": "温度计放入正在快速冷却的液体，刻度再细能完全消除响应延迟吗？ 条件：装置有有限热容量和传热时间。",
+        "given": "装置有有限热容量和传热时间。",
+        "analysis": "分辨率不是响应速度。",
+        "method": "区分误差来源。",
+        "principle": "测量动态。",
+        "steps": [
+          "刻度细只改善读数分辨。",
+          "热交换仍需时间，延迟仍可能存在。"
+        ],
+        "ans": "不能。",
+        "verification": "需更合适响应装置或动态校正。",
+        "pitfall": "所有测量问题只归刻度粗。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "物体之间无净热流时能否说双方没有内能或微观运动？ 条件：假设达到热平衡。",
+      "given": "假设达到热平衡。",
+      "analysis": "净传递与内部状态不同。",
+      "method": "分别解释。",
+      "principle": "热平衡不等于绝对零度。",
+      "steps": [
+        "同温可使净热流为零。",
+        "双方仍有内能及微观运动。"
+      ],
+      "ans": "不能。",
+      "verification": "室温同温物体是常见反例。",
+      "pitfall": "把净零热流当无能量。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 13,
+      "primary_section": "13.1",
+      "related_sections": []
+    },
+    "exam": [
+      "温标题先分绝对温度、温差和比值，再决定是否加273.15",
+      "解释题把温度、内能、热量分别定义，避免用“热多”代替物理量",
+      "测量题同时考虑热平衡等待和仪器扰动，不只谈刻度"
+    ],
+    "quick": [
+      "热平衡",
+      "温度定义",
+      "温标零点",
+      "温差与比",
+      "测量条件"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 36,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_13.1",
+        "url": "https://openstax.org/books/college-physics-2e/pages/13-1-temperature",
+        "page_or_section": "13-1-temperature",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 36,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_13.1",
+        "url": "https://openstax.org/books/college-physics-2e/pages/13-1-temperature",
+        "page_or_section": "13-1-temperature",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "温标题先分绝对温度、温差和比值，再决定是否加273.15",
+      "method": "核量的广延/强度区别。",
+      "principle": "内能与质量、物态等有关。",
+      "worked_example_index": 2,
+      "verification": "大桶较低温仍可含大量内能。",
+      "pitfall": "温度高就一定总内能高。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用热平衡与温标解释温度”的抽样复核：温差不能再加273.15。；若出现“将15℃温差写288.15 K。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分绝对温度、温差与内能总量”的抽样复核：大桶较低温仍可含大量内能。；若出现“温度高就一定总内能高。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把净零热流当无能量。",
+        "correction": "不能。",
+        "verification": "室温同温物体是常见反例。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "温度、温差与过程热量",
+      "objects": [
+        "测量对象或受热物",
+        "温标/能量或体积轴",
+        "已知数值",
+        "条件与误差框"
+      ],
+      "relations": [
+        "25℃=298.15 K",
+        "25至40℃温差15 K",
+        "Q为跨边界转移不是物体内含物"
+      ],
+      "labels": [
+        "t/℃",
+        "T/K",
+        "ΔT=15 K",
+        "Q/J",
+        "热平衡"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "P55量热图等仅在温度、质量和热容条件一致或明确作另一示例时复用",
+      "english": "Draw an exact thermal-physics teaching schematic. Distinguish temperature, temperature interval, heat transfer and internal energy. Energy arrows and calorimetry sums must conserve energy. Label mass in kg and heat capacity in J per K. Phase-change plateaus require the stated pure substance and pressure; expansion relations are small-change models, not exact unlimited laws."
+    }
+  },
+  "13.2": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 13,
+    "section_id": "13.2",
+    "goals": [
+      "由测温物理量与标定建立读数关系",
+      "说明量程、灵敏度、分辨率和响应的区别"
+    ],
+    "prerequisites": [
+      "温标",
+      "线性函数和热膨胀"
+    ],
+    "flow": [
+      "测温性质",
+      "固定点与条件",
+      "线性标定",
+      "灵敏度与分辨",
+      "量程及扰动"
+    ],
+    "concept_relation": "测温性质；固定点与条件；线性标定；灵敏度与分辨；量程及扰动",
+    "deep": [
+      "灵敏度说明物理读数量对温度变化的响应大小，如液柱每升1℃增长多少；分辨率说明可分辨的最小读数，准确度还涉及校准和系统偏差。刻度密、显示小数多不保证读数更接近真实温度，也不保证量程更大。",
+      "接触式温度计需要足够热接触并考虑达到平衡的时间与自身热容量。红外测温不需要与对象接触，但受发射率、反射背景和测量视场等影响，不能仅因“不接触”就当作完全不受表面性质影响。",
+      "选择仪器应与对象温区、反应速度、样本大小与安全条件匹配。超量程会损坏或失准；给小液滴测温时过大的探头还会改变对象温度。答实验题应把校准、读数、接触与响应分别说明，不能只写“用更精密温度计”。"
+    ],
+    "derive": [
+      "线性标定：t=100(X−X₀)/(X₁₀₀−X₀)，以固定点条件和适用温区为前提。",
+      "液柱灵敏度可用Δl/Δt表示；分辨率、准确度与响应时间不是同一指标。",
+      "用沸点标定必须说明气压；实际测温量未必在全量程线性。"
+    ],
+    "examples": [
+      {
+        "q": "线性液柱温度计0℃柱长2 cm、100℃柱长22 cm，柱长10 cm时温度？ 条件：采用两点间线性模型。",
+        "given": "采用两点间线性模型。",
+        "analysis": "要先扣2 cm偏置。",
+        "method": "比例标定。",
+        "principle": "线性温标。",
+        "steps": [
+          "t=100(10−2)/(22−2)。",
+          "得40℃。"
+        ],
+        "ans": "40℃。",
+        "verification": "柱长增加8占全增量20的40%。",
+        "pitfall": "直接10/22×100。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.2",
+        "related_sections": []
+      },
+      {
+        "q": "0至100℃液柱增加20 cm，每1℃增长多少？若可分辨0.1 cm，对应温度分辨约多少？ 条件：线性且其他误差未计。",
+        "given": "线性且其他误差未计。",
+        "analysis": "灵敏度与可分辨温差不同。",
+        "method": "先算每度增长，再倒换。",
+        "principle": "Δl/Δt。",
+        "steps": [
+          "灵敏度20/100=0.20 cm/℃。",
+          "0.1/0.20=0.5℃。"
+        ],
+        "ans": "0.20 cm/℃；约0.5℃分辨。",
+        "verification": "不代表准确度必为±0.5℃，校准误差另计。",
+        "pitfall": "把0.1 cm直接当0.1℃。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.2",
+        "related_sections": []
+      },
+      {
+        "q": "高海拔沸水实际温度小于100℃，若仍将该点刻成100℃，中间读数会怎样偏？ 条件：冰点标为0℃且测温量随温度近似线性。",
+        "given": "冰点标为0℃且测温量随温度近似线性。",
+        "analysis": "固定点真实跨度变小但刻成100格。",
+        "method": "用比例关系判断。",
+        "principle": "标定偏差。",
+        "steps": [
+          "例如真实沸点90℃被标100℃。",
+          "真实45℃对应半段，会显示50℃，正温区相应偏高。"
+        ],
+        "ans": "在此模型和0至沸点区间读数偏高。",
+        "verification": "用具体90与45例可检验方向。",
+        "pitfall": "只说不准确而未说明原因与方向。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "温度计显示两位小数，是否必比显示一位小数更准确？ 条件：校准和误差未说明。",
+        "given": "校准和误差未说明。",
+        "analysis": "显示位数是分辨表现。",
+        "method": "区分准确度。",
+        "principle": "测量指标不同。",
+        "steps": [
+          "更多小数不消除系统偏差。",
+          "需校准与误差资料比较准确度。"
+        ],
+        "ans": "不必然。",
+        "verification": "稳定偏差1℃仍可显示很多位。",
+        "pitfall": "把小数位数当准确度保证。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.2",
+        "related_sections": []
+      },
+      {
+        "q": "液柱0℃为5 mm、100℃为55 mm，30℃柱长？ 条件：线性模型。",
+        "given": "线性模型。",
+        "analysis": "加上零点偏置。",
+        "method": "l=l₀+斜率t。",
+        "principle": "线性标定。",
+        "steps": [
+          "每度(55−5)/100=0.5 mm。",
+          "l=5+0.5×30=20 mm。"
+        ],
+        "ans": "20 mm。",
+        "verification": "0℃回到5 mm。",
+        "pitfall": "只算15 mm漏零点。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.2",
+        "related_sections": []
+      },
+      {
+        "q": "红外测温是否完全不依赖物体表面性质？ 条件：不同发射率和反射背景可能存在。",
+        "given": "不同发射率和反射背景可能存在。",
+        "analysis": "接收辐射有表面因素。",
+        "method": "核测量原理。",
+        "principle": "热辐射测温。",
+        "steps": [
+          "同温不同发射率可产生不同辐射信号。",
+          "仪器需相应设定或修正。"
+        ],
+        "ans": "不是。",
+        "verification": "不接触不等于无误差。",
+        "pitfall": "将红外仪当直接读取唯一温度。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.2",
+        "related_sections": []
+      },
+      {
+        "q": "量程不够时能否继续加热后将读数外推当作可靠测温？ 条件：可能失准或损坏。",
+        "given": "可能失准或损坏。",
+        "analysis": "超适用范围。",
+        "method": "按仪器条件判断。",
+        "principle": "模型和仪器均有量程。",
+        "steps": [
+          "超范围可能不再满足标定规律。",
+          "应选适当量程并遵守安全条件。"
+        ],
+        "ans": "不能无条件可靠外推。",
+        "verification": "外推不是实际校准证据。",
+        "pitfall": "量程外照样读并多写小数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "用大冷探头测一小滴温液，为什么等待平衡后读数也可能低于原液滴温度？ 条件：探头初温较低且热容量不可忽略。",
+      "given": "探头初温较低且热容量不可忽略。",
+      "analysis": "测量改变了对象。",
+      "method": "按能量交换判断。",
+      "principle": "热平衡与仪器扰动。",
+      "steps": [
+        "液滴向探头传能。",
+        "平衡温度是二者共同的新状态，不必等于液滴原温。"
+      ],
+      "ans": "探头吸热改变液滴状态。",
+      "verification": "需低热容量探头或适当校正。",
+      "pitfall": "等待平衡就以为绝无测量扰动。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 13,
+      "primary_section": "13.2",
+      "related_sections": []
+    },
+    "exam": [
+      "标定题先扣零点，再用两点差，不把读数直接当比例",
+      "实验评价分别说分辨率、校准偏差与响应，避免泛称精密",
+      "固定点要说明压力和物态，超量程不能拿线性式硬外推"
+    ],
+    "quick": [
+      "测温性质",
+      "固定点与条件",
+      "线性标定",
+      "灵敏度与分辨",
+      "量程及扰动"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 41,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_13.2",
+        "url": "https://openstax.org/books/college-physics-2e/pages/13-1-temperature",
+        "page_or_section": "13-1-temperature",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 41,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_13.2",
+        "url": "https://openstax.org/books/college-physics-2e/pages/13-1-temperature",
+        "page_or_section": "13-1-temperature",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "标定题先扣零点，再用两点差，不把读数直接当比例",
+      "method": "用比例关系判断。",
+      "principle": "标定偏差。",
+      "worked_example_index": 2,
+      "verification": "用具体90与45例可检验方向。",
+      "pitfall": "只说不准确而未说明原因与方向。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由测温物理量与标定建立读数关系”的抽样复核：柱长增加8占全增量20的40%。；若出现“直接10/22×100。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“说明量程、灵敏度、分辨率和响应的区别”的抽样复核：用具体90与45例可检验方向。；若出现“只说不准确而未说明原因与方向。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "等待平衡就以为绝无测量扰动。",
+        "correction": "探头吸热改变液滴状态。",
+        "verification": "需低热容量探头或适当校正。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "温度计标定与测量指标",
+      "objects": [
+        "测量对象或受热物",
+        "温标/能量或体积轴",
+        "已知数值",
+        "条件与误差框"
+      ],
+      "relations": [
+        "X零点偏置保留",
+        "两固定点定义线性斜率",
+        "0.1 cm读数分辨对应0.5℃例题"
+      ],
+      "labels": [
+        "X₀",
+        "X₁₀₀",
+        "t=100(X−X₀)/(X₁₀₀−X₀)",
+        "量程",
+        "响应时间"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "P55量热图等仅在温度、质量和热容条件一致或明确作另一示例时复用",
+      "english": "Draw an exact thermal-physics teaching schematic. Distinguish temperature, temperature interval, heat transfer and internal energy. Energy arrows and calorimetry sums must conserve energy. Label mass in kg and heat capacity in J per K. Phase-change plateaus require the stated pure substance and pressure; expansion relations are small-change models, not exact unlimited laws."
+    }
+  },
+  "13.3": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 13,
+    "section_id": "13.3",
+    "goals": [
+      "以能量守恒求混合与量热结果",
+      "区分比热容、热容量及散热修正"
+    ],
+    "prerequisites": [
+      "质量和温差",
+      "能量守恒"
+    ],
+    "flow": [
+      "对象与状态",
+      "mcΔT或CΔT",
+      "能量收支",
+      "求解",
+      "量纲与误差"
+    ],
+    "concept_relation": "对象与状态；mcΔT或CΔT；能量收支；求解；量纲与误差",
+    "deep": [
+      "量热器本身也吸放能量。若其热容量不可忽略，应列C_器(T_f−T_器初)；不能把容器当作永远零热容。温度计、搅拌及转移过程也可能影响结果，实验设计应说明热接触、保温和读数时机。",
+      "反求未知c时先把所有接收热量对象列全，再用热源的mcΔT。漏掉冷容器吸热，若仍把全部热源能量归冷水，常会使反推结果偏低；具体误差方向应根据题设能量式，而不是背“散热使结果偏大/小”的统一结论。",
+      "实验复核包括量纲、温度范围和能量回算。若一组同温液体在无其他能量源时算出更高共同温度，就违反所用模型，应查符号或漏项。若温度跨越熔点或沸点，则先判断相变，不能只用一个mcΔT跨过整段。"
+    ],
+    "derive": [
+      "无相变、c近似恒定时Q=mc(T_f−T_i)，C=mc。",
+      "适当隔热混合：ΣQ_i=0；含容器则另加C_器ΔT_器。",
+      "同种无相变混合可得T_f=Σm_iT_i/Σm_i，条件不符时回能量式。"
+    ],
+    "examples": [
+      {
+        "q": "0.10 kg水80℃与0.20 kg水20℃在理想无热容容器内混合，最终温度？ 条件：无散热、无相变，水c相同。",
+        "given": "无散热、无相变，水c相同。",
+        "analysis": "热水放热等冷水吸热。",
+        "method": "能量守恒。",
+        "principle": "mcΔT。",
+        "steps": [
+          "0.10c(80−T)=0.20c(T−20)。",
+          "解得T=40℃。"
+        ],
+        "ans": "40℃。",
+        "verification": "热量两边均0.10×4200×40=16800 J。",
+        "pitfall": "不按质量权重直接平均得50℃。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.3",
+        "related_sections": []
+      },
+      {
+        "q": "0.50 kg材料升温10 K需2000 J，无相变，求c及C。 条件：能量全被该材料吸收。",
+        "given": "能量全被该材料吸收。",
+        "analysis": "区分每kg和整个物体。",
+        "method": "先c=Q/(mΔT)，再C=mc。",
+        "principle": "比热容与热容量。",
+        "steps": [
+          "c=2000/(0.50×10)=400 J/(kg·K)。",
+          "C=0.50×400=200 J/K。"
+        ],
+        "ans": "c=400 J/(kg·K)，C=200 J/K。",
+        "verification": "C×10=2000 J。",
+        "pitfall": "两种量用同单位或数值。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.3",
+        "related_sections": []
+      },
+      {
+        "q": "0.10 kg金属100℃放入0.20 kg水及容器中，二者初20℃，终25℃；容器C=100 J/K，水c=4200 J/(kg·K)，求金属c。 条件：绝热、无相变。",
+        "given": "绝热、无相变。",
+        "analysis": "水和容器都吸热。",
+        "method": "列总吸热再反求c。",
+        "principle": "能量守恒。",
+        "steps": [
+          "吸热=(0.20×4200+100)×5=4700 J。",
+          "0.10c(100−25)=4700，c≈626.7 J/(kg·K)。"
+        ],
+        "ans": "约6.27×10² J/(kg·K)。",
+        "verification": "金属放热4700，与两对象吸热相符。",
+        "pitfall": "漏容器热容。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "0.20 kg水升高5 K，c=4200 J/(kg·K)，吸热多少？ 条件：无相变。",
+        "given": "无相变。",
+        "analysis": "直接模型且单位已统一。",
+        "method": "mcΔT。",
+        "principle": "显热。",
+        "steps": [
+          "0.20×4200×5。",
+          "得4200 J。"
+        ],
+        "ans": "4200 J。",
+        "verification": "每K热容840 J/K。",
+        "pitfall": "把质量200 g直接代kg式。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.3",
+        "related_sections": []
+      },
+      {
+        "q": "热容量500 J/K的物体降温4 K，放热量大小？ 条件：热容量不变。",
+        "given": "热容量不变。",
+        "analysis": "放热大小取正值。",
+        "method": "C|ΔT|。",
+        "principle": "热容量定义。",
+        "steps": [
+          "500×4。",
+          "得2000 J。"
+        ],
+        "ans": "2000 J。",
+        "verification": "对物体Q=−2000 J；放出量大小2000。",
+        "pitfall": "大小仍报负值而未解释约定。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.3",
+        "related_sections": []
+      },
+      {
+        "q": "同种材料两份质量相差3倍，在同ΔT下吸热量比？ 条件：c相同，无相变。",
+        "given": "c相同，无相变。",
+        "analysis": "Q与m成正比。",
+        "method": "比值。",
+        "principle": "Q=mcΔT。",
+        "steps": [
+          "其他因子相消。",
+          "比3:1。"
+        ],
+        "ans": "3:1。",
+        "verification": "其比热容并不相差3倍。",
+        "pitfall": "热容量比当比热容比。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.3",
+        "related_sections": []
+      },
+      {
+        "q": "等质量同种水30℃与50℃理想混合，温度？ 条件：无散热和容器热容。",
+        "given": "无散热和容器热容。",
+        "analysis": "相同热容量可平均。",
+        "method": "加权守恒。",
+        "principle": "热量收支。",
+        "steps": [
+          "m c(T−30)=m c(50−T)。",
+          "T=40℃。"
+        ],
+        "ans": "40℃。",
+        "verification": "两边温差同10 K。",
+        "pitfall": "把此平均法推广不同c对象。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "用热金属加热冷水反求c，若冷容器也吸热却完全忽略，按所述模型c会偏哪侧？ 条件：其余散热忽略；实际终温相同用于反算。",
+      "given": "其余散热忽略；实际终温相同用于反算。",
+      "analysis": "漏了一项正的受热量。",
+      "method": "比较完整式与漏项式。",
+      "principle": "能量守恒。",
+      "steps": [
+        "完整金属放热=水吸热+容器吸热。",
+        "漏项使反算金属放热较小，在m与降温相同时c偏小。"
+      ],
+      "ans": "偏小。",
+      "verification": "不是所有误差都同方向，方向来自本题式子。",
+      "pitfall": "死背散热偏差而不列能量式。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 13,
+      "primary_section": "13.3",
+      "related_sections": []
+    },
+    "exam": [
+      "量热题先列所有吸放热对象和是否相变，再统一符号",
+      "计算区分c与C，质量转kg、温差可K或℃同数值",
+      "误差方向用完整式和漏项式对比，答案以能量与终温范围复核"
+    ],
+    "quick": [
+      "对象与状态",
+      "mcΔT或CΔT",
+      "能量收支",
+      "求解",
+      "量纲与误差"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 47,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_13.3",
+        "url": "https://openstax.org/books/college-physics-2e/pages/14-2-temperature-change-and-heat-capacity",
+        "page_or_section": "14-2-temperature-change-and-heat-capacity",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 47,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_13.3",
+        "url": "https://openstax.org/books/college-physics-2e/pages/14-2-temperature-change-and-heat-capacity",
+        "page_or_section": "14-2-temperature-change-and-heat-capacity",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "量热题先列所有吸放热对象和是否相变，再统一符号",
+      "method": "列总吸热再反求c。",
+      "principle": "能量守恒。",
+      "worked_example_index": 2,
+      "verification": "金属放热4700，与两对象吸热相符。",
+      "pitfall": "漏容器热容。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“以能量守恒求混合与量热结果”的抽样复核：热量两边均0.10×4200×40=16800 J。；若出现“不按质量权重直接平均得50℃。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分比热容、热容量及散热修正”的抽样复核：金属放热4700，与两对象吸热相符。；若出现“漏容器热容。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "死背散热偏差而不列能量式。",
+        "correction": "偏小。",
+        "verification": "不是所有误差都同方向，方向来自本题式子。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "混合量热的完整能量收支",
+      "objects": [
+        "测量对象或受热物",
+        "温标/能量或体积轴",
+        "已知数值",
+        "条件与误差框"
+      ],
+      "relations": [
+        "热水0.10 kg80℃与冷水0.20 kg20℃终40℃",
+        "两边传热16800 J",
+        "有容器时增加独立热容项"
+      ],
+      "labels": [
+        "m热",
+        "m冷",
+        "T_f",
+        "Q放=Q吸",
+        "C_器"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "P55量热图等仅在温度、质量和热容条件一致或明确作另一示例时复用",
+      "english": "Draw an exact thermal-physics teaching schematic. Distinguish temperature, temperature interval, heat transfer and internal energy. Energy arrows and calorimetry sums must conserve energy. Label mass in kg and heat capacity in J per K. Phase-change plateaus require the stated pure substance and pressure; expansion relations are small-change models, not exact unlimited laws."
+    }
+  },
+  "13.4": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 13,
+    "section_id": "13.4",
+    "goals": [
+      "分阶段列出升温与相变能量",
+      "解释加热曲线平台及最终物态判断"
+    ],
+    "prerequisites": [
+      "温度与热量",
+      "比热容和能量守恒"
+    ],
+    "flow": [
+      "初态",
+      "分阶段显热",
+      "相变潜热",
+      "能量门槛",
+      "终态与质量"
+    ],
+    "concept_relation": "初态；分阶段显热；相变潜热；能量门槛；终态与质量",
+    "deep": [
+      "若可用热量不足以完成相变，最终可能仍有两相共存。应先算到达相变温度的能量，再比较剩余能量与全部相变所需；这比先猜最终温度更可靠。混合冰水题尤其要先判断冰是否能完全熔化。",
+      "沸点依压强，蒸发可在低于沸点时发生；两者不应混淆。加热曲线斜率还受加热功率、质量、比热容和散热影响，比较不同阶段时需明确哪些因素固定，平台长短也取决于质量和相变潜热。",
+      "实际曲线可因杂质、非平衡与温度梯度偏离理想水平平台。题设给理想模型时据此计算，实验解释则应保留条件。结论写最终温度及物态分配，特别是剩冰质量，不只交一个温度数值而漏掉主要状态信息。"
+    ],
+    "derive": [
+      "无相变阶段Q=mcΔT；完整相变Q=mL；跨阶段将适当项相加。",
+      "纯物质、给定压强、适当两相共存模型下，相变温度可近似不变。",
+      "剩余能量不足mL时，只能完成部分相变，最终需报各相质量。"
+    ],
+    "examples": [
+      {
+        "q": "0.10 kg冰从−10℃变为20℃水，c冰=2100、c水=4200 J/(kg·K)，熔化潜热3.34×10⁵ J/kg，求吸热。 条件：常压理想过程，无散热。",
+        "given": "常压理想过程，无散热。",
+        "analysis": "需三个阶段。",
+        "method": "分段求和。",
+        "principle": "显热与潜热。",
+        "steps": [
+          "冰升到0℃需0.10×2100×10=2100 J；熔化需33400 J。",
+          "水升到20℃需0.10×4200×20=8400 J，总43900 J。"
+        ],
+        "ans": "4.39×10⁴ J。",
+        "verification": "最大项熔化，量纲均为J。",
+        "pitfall": "只用水c算30 K。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.4",
+        "related_sections": []
+      },
+      {
+        "q": "0℃冰0.10 kg得到16700 J，假设能量全用于熔化，最终物态？ 条件：L=334000 J/kg，无其他热量收支。",
+        "given": "L=334000 J/kg，无其他热量收支。",
+        "analysis": "能量不足全熔33400 J。",
+        "method": "求实际熔化质量。",
+        "principle": "Q=mL。",
+        "steps": [
+          "熔化m=16700/334000=0.050 kg。",
+          "剩冰0.050 kg、水0.050 kg，近似仍0℃。"
+        ],
+        "ans": "冰水各0.050 kg、0℃。",
+        "verification": "两相总质量0.10 kg守恒。",
+        "pitfall": "先假定全变水再算出正温。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.4",
+        "related_sections": []
+      },
+      {
+        "q": "同质量水在相同恒定净加热功率下，某纯物质相变平台更长，能否说比热容更大？ 条件：平台为完整同类相变，质量、净P相同。",
+        "given": "平台为完整同类相变，质量、净P相同。",
+        "analysis": "平台时间对应潜热而不是cΔT。",
+        "method": "用Pt=mL。",
+        "principle": "相变能量。",
+        "steps": [
+          "t=mL/P。",
+          "在条件相同下平台更长支持L较大，不是直接给c较大。"
+        ],
+        "ans": "应比较比潜热，不直接比较比热容。",
+        "verification": "平台ΔT≈0，mcΔT不能表达该能量。",
+        "pitfall": "把所有受热时间都归于比热容。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "0.20 kg物质熔化L=100000 J/kg，Q多少？ 条件：完全相变。",
+        "given": "完全相变。",
+        "analysis": "潜热随质量。",
+        "method": "mL。",
+        "principle": "比潜热定义。",
+        "steps": [
+          "0.20×100000。",
+          "得20000 J。"
+        ],
+        "ans": "2.0×10⁴ J。",
+        "verification": "L单位J/kg×kg为J。",
+        "pitfall": "额外乘温差。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.4",
+        "related_sections": []
+      },
+      {
+        "q": "0℃冰熔化而温度不变，内能是否必不变？ 条件：持续吸收熔化能量。",
+        "given": "持续吸收熔化能量。",
+        "analysis": "温度不表示全部内能。",
+        "method": "考虑相互作用和物态。",
+        "principle": "相变吸热。",
+        "steps": [
+          "吸收的能量参与状态改变。",
+          "内能增加可不伴温度升高。"
+        ],
+        "ans": "不是，内能可增加。",
+        "verification": "Q=mL>0。",
+        "pitfall": "恒温就说没有吸能。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.4",
+        "related_sections": []
+      },
+      {
+        "q": "凝结与汽化在对应条件下能量方向怎样？ 条件：同质量同一相变条件。",
+        "given": "同质量同一相变条件。",
+        "analysis": "方向相反。",
+        "method": "按状态变化。",
+        "principle": "潜热可逆方向关系。",
+        "steps": [
+          "汽化吸热。",
+          "凝结向外释放相应能量。"
+        ],
+        "ans": "汽化吸、凝结放。",
+        "verification": "质量相同可比较相应潜热大小。",
+        "pitfall": "两者都吸热。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.4",
+        "related_sections": []
+      },
+      {
+        "q": "用沸水100℃作普遍固定点是否需要说明压强？ 条件：不同环境压强可能不同。",
+        "given": "不同环境压强可能不同。",
+        "analysis": "沸点有状态条件。",
+        "method": "核相变条件。",
+        "principle": "沸点依压强。",
+        "steps": [
+          "同物质不同外压沸点可变。",
+          "100℃需相应常压等条件。"
+        ],
+        "ans": "需要。",
+        "verification": "高海拔沸水可能低于100℃。",
+        "pitfall": "水在任何压强都100℃沸腾。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "一块冰加入温水，为什么应先判断是否全部熔化，再求最终温度？ 条件：热水可供能量有限。",
+      "given": "热水可供能量有限。",
+      "analysis": "终态模型取决于是否完成相变。",
+      "method": "先比较能量门槛。",
+      "principle": "能量守恒与潜热。",
+      "steps": [
+        "算温水冷至0℃可放出的能量。",
+        "与冰升温及全熔所需比较，不足则仍有冰水共存，不能直接套全水混合式。"
+      ],
+      "ans": "为选择正确终态和能量分段。",
+      "verification": "不足熔化时负温差公式不能凭空让冰消失。",
+      "pitfall": "先假设全熔再不审能量。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 13,
+      "primary_section": "13.4",
+      "related_sections": []
+    },
+    "exam": [
+      "热过程先列物态路径再选mcΔT或mL，不跨阶段硬套",
+      "冰水混合先比较能量门槛，必要时答剩余冰质量",
+      "平台题明确质量、净功率和压强，分清潜热与比热容"
+    ],
+    "quick": [
+      "初态",
+      "分阶段显热",
+      "相变潜热",
+      "能量门槛",
+      "终态与质量"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 51,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_13.4",
+        "url": "https://openstax.org/books/college-physics-2e/pages/14-3-phase-change-and-latent-heat",
+        "page_or_section": "14-3-phase-change-and-latent-heat",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 51,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_13.4",
+        "url": "https://openstax.org/books/college-physics-2e/pages/14-3-phase-change-and-latent-heat",
+        "page_or_section": "14-3-phase-change-and-latent-heat",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "热过程先列物态路径再选mcΔT或mL，不跨阶段硬套",
+      "method": "用Pt=mL。",
+      "principle": "相变能量。",
+      "worked_example_index": 2,
+      "verification": "平台ΔT≈0，mcΔT不能表达该能量。",
+      "pitfall": "把所有受热时间都归于比热容。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“分阶段列出升温与相变能量”的抽样复核：最大项熔化，量纲均为J。；若出现“只用水c算30 K。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“解释加热曲线平台及最终物态判断”的抽样复核：平台ΔT≈0，mcΔT不能表达该能量。；若出现“把所有受热时间都归于比热容。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "先假设全熔再不审能量。",
+        "correction": "为选择正确终态和能量分段。",
+        "verification": "不足熔化时负温差公式不能凭空让冰消失。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "分段加热与部分熔化",
+      "objects": [
+        "测量对象或受热物",
+        "温标/能量或体积轴",
+        "已知数值",
+        "条件与误差框"
+      ],
+      "relations": [
+        "−10℃冰至20℃水分三段",
+        "平台仍吸热",
+        "16700 J仅熔0.050 kg示例"
+      ],
+      "labels": [
+        "温度/℃",
+        "Q/J",
+        "2100 J",
+        "33400 J",
+        "8400 J",
+        "冰水共存"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "P55量热图等仅在温度、质量和热容条件一致或明确作另一示例时复用",
+      "english": "Draw an exact thermal-physics teaching schematic. Distinguish temperature, temperature interval, heat transfer and internal energy. Energy arrows and calorimetry sums must conserve energy. Label mass in kg and heat capacity in J per K. Phase-change plateaus require the stated pure substance and pressure; expansion relations are small-change models, not exact unlimited laws."
+    }
+  },
+  "13.5": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 13,
+    "section_id": "13.5",
+    "goals": [
+      "正确使用小温差线膨胀近似",
+      "分析孔洞、双金属和受约束情形"
+    ],
+    "prerequisites": [
+      "几何尺寸",
+      "温差与线性近似"
+    ],
+    "flow": [
+      "参考尺寸",
+      "系数与温差",
+      "增量和末值",
+      "几何近似",
+      "约束与应用"
+    ],
+    "concept_relation": "参考尺寸；系数与温差；增量和末值；几何近似；约束与应用",
+    "deep": [
+      "带孔金属片均匀自由受热时，孔通常随整体几何比例放大。可想象把孔填上同材料，均匀膨胀后再移去所填区域，孔也变大；不能说周围金属一膨胀便必定向孔内挤占，除非另有约束和温度不均等条件。",
+      "双金属片中两层牢固相连，若线膨胀系数不同，受热时较想变长的一层位于弯曲外侧，较短层在内侧。判断弯向先比较自由伸长倾向，再考虑共同连接，不能只凭“某金属在上面”就记固定朝向。",
+      "完全受约束时，自由膨胀无法实现，可产生热应力；实际还可能有弹性变形、滑动或屈曲。因此桥梁伸缩缝等设计不仅是留空美观，而是容纳温度尺寸变化。计算自由膨胀公式前需问物体是否可自由伸长，不能同时声称被固定不动又真的伸长该数值。"
+    ],
+    "derive": [
+      "自由线膨胀ΔL=αL₀ΔT，末长L=L₀(1+αΔT)。",
+      "各向同性且|αΔT|≪1：面积变化率≈2αΔT，体积变化率≈3αΔT。",
+      "均匀自由膨胀时孔洞按同样比例变大；受约束条件须另分析。"
+    ],
+    "examples": [
+      {
+        "q": "2.0 m金属杆α=12×10⁻⁶ K⁻¹，升温50 K自由膨胀，求ΔL与末长。 条件：系数视为恒定，无相变。",
+        "given": "系数视为恒定，无相变。",
+        "analysis": "区分增量和总长。",
+        "method": "线膨胀式。",
+        "principle": "小变化自由膨胀。",
+        "steps": [
+          "ΔL=12×10⁻⁶×2.0×50=0.0012 m。",
+          "L=2.0012 m。"
+        ],
+        "ans": "ΔL=1.2 mm，末长2.0012 m。",
+        "verification": "相对变化0.0006，确实很小。",
+        "pitfall": "把0.0012 m当末长。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.5",
+        "related_sections": []
+      },
+      {
+        "q": "圆孔半径10 mm的金属片均匀自由升温100 K，α=20×10⁻⁶ K⁻¹，孔半径近似变化？ 条件：同材料均匀膨胀，无外约束。",
+        "given": "同材料均匀膨胀，无外约束。",
+        "analysis": "孔按几何比例扩大。",
+        "method": "对孔半径用线尺度关系。",
+        "principle": "均匀自由膨胀。",
+        "steps": [
+          "Δr=αr₀ΔT=20×10⁻⁶×10×100=0.020 mm。",
+          "末半径10.020 mm。"
+        ],
+        "ans": "孔变大0.020 mm。",
+        "verification": "虚拟填孔同材料的构造给同方向。",
+        "pitfall": "认为金属向内挤使孔缩小。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.5",
+        "related_sections": []
+      },
+      {
+        "q": "双金属片两层初等长，α_A>α_B，均匀升温并牢固连接，A在弯曲内侧还是外侧？ 条件：两层不脱离，采用典型薄片模型。",
+        "given": "两层不脱离，采用典型薄片模型。",
+        "analysis": "A自由伸长倾向更大。",
+        "method": "比较所需弧长。",
+        "principle": "外弧较长。",
+        "steps": [
+          "A想变得更长。",
+          "弯曲时A处较长外弧，B处内侧。"
+        ],
+        "ans": "A在外侧。",
+        "verification": "冷却时方向须按各层收缩倾向重新判断。",
+        "pitfall": "把膨胀更大者画在内侧。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.5",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "杆长加倍、同材料同ΔT，ΔL怎样？ 条件：自由膨胀。",
+        "given": "自由膨胀。",
+        "analysis": "ΔL∝L₀。",
+        "method": "比值。",
+        "principle": "线膨胀模型。",
+        "steps": [
+          "L₀乘2。",
+          "ΔL乘2。"
+        ],
+        "ans": "2倍。",
+        "verification": "相对伸长ΔL/L₀不变。",
+        "pitfall": "把总增量和相对增量混用。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.5",
+        "related_sections": []
+      },
+      {
+        "q": "α=10⁻⁵ K⁻¹、ΔT=20 K，相对线伸长多少？ 条件：恒定系数近似。",
+        "given": "恒定系数近似。",
+        "analysis": "比值不需原长。",
+        "method": "αΔT。",
+        "principle": "ΔL/L₀=αΔT。",
+        "steps": [
+          "10⁻⁵×20。",
+          "得2×10⁻⁴。"
+        ],
+        "ans": "0.0002，即0.02%。",
+        "verification": "不是0.02这个无百分号数。",
+        "pitfall": "小数与百分数差100倍。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.5",
+        "related_sections": []
+      },
+      {
+        "q": "各向同性小变化时体积膨胀系数约为线系数几倍？ 条件：忽略高阶项。",
+        "given": "忽略高阶项。",
+        "analysis": "三方向都改变。",
+        "method": "展开三次乘积的一阶项。",
+        "principle": "(1+ε)³≈1+3ε。",
+        "steps": [
+          "一阶体积相对变化≈3αΔT。",
+          "故β≈3α。"
+        ],
+        "ans": "3倍。",
+        "verification": "条件包含各向同性、小变化。",
+        "pitfall": "对所有材料无条件用3α。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.5",
+        "related_sections": []
+      },
+      {
+        "q": "被完全固定的杆，能直接说实际变长αL₀ΔT吗？ 条件：端距不能改变。",
+        "given": "端距不能改变。",
+        "analysis": "自由伸长倾向被限制。",
+        "method": "区分自由量与约束结果。",
+        "principle": "边界条件。",
+        "steps": [
+          "该式给自由膨胀量。",
+          "实际被约束可能产生应力或其他变形。"
+        ],
+        "ans": "不能直接当实际端距变化。",
+        "verification": "若端距固定，就不能同时发生该自由增量。",
+        "pitfall": "忽略固定条件。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.5",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "加热金属环让轴更容易装入时，应靠“孔热缩”还是“孔均匀自由热胀”解释？ 条件：环均匀受热且无其他约束。",
+      "given": "环均匀受热且无其他约束。",
+      "analysis": "要判断孔的几何尺度。",
+      "method": "用虚拟填孔法。",
+      "principle": "均匀自由膨胀。",
+      "steps": [
+        "假想孔内填同材料也会膨胀。",
+        "移除后留下更大孔径，有利装入。"
+      ],
+      "ans": "孔热胀。",
+      "verification": "冷却后孔径缩回可形成适当配合。",
+      "pitfall": "凭“金属变厚”猜孔必缩。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 13,
+      "primary_section": "13.5",
+      "related_sections": []
+    },
+    "exam": [
+      "先问是否自由均匀受热，再用线膨胀式",
+      "孔洞题用同材料填孔法，不凭向内外直觉",
+      "双金属题先判哪层自由伸长更大，再放到外弧；面积体积近似要写小变化条件"
+    ],
+    "quick": [
+      "参考尺寸",
+      "系数与温差",
+      "增量和末值",
+      "几何近似",
+      "约束与应用"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 57,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_13.5",
+        "url": "https://openstax.org/books/college-physics-2e/pages/13-2-thermal-expansion-of-solids-and-liquids",
+        "page_or_section": "13-2-thermal-expansion-of-solids-and-liquids",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 57,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_13.5",
+        "url": "https://openstax.org/books/college-physics-2e/pages/13-2-thermal-expansion-of-solids-and-liquids",
+        "page_or_section": "13-2-thermal-expansion-of-solids-and-liquids",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先问是否自由均匀受热，再用线膨胀式",
+      "method": "比较所需弧长。",
+      "principle": "外弧较长。",
+      "worked_example_index": 2,
+      "verification": "冷却时方向须按各层收缩倾向重新判断。",
+      "pitfall": "把膨胀更大者画在内侧。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“正确使用小温差线膨胀近似”的抽样复核：相对变化0.0006，确实很小。；若出现“把0.0012 m当末长。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“分析孔洞、双金属和受约束情形”的抽样复核：冷却时方向须按各层收缩倾向重新判断。；若出现“把膨胀更大者画在内侧。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "凭“金属变厚”猜孔必缩。",
+        "correction": "孔热胀。",
+        "verification": "冷却后孔径缩回可形成适当配合。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "热膨胀、孔洞与双金属",
+      "objects": [
+        "测量对象或受热物",
+        "温标/能量或体积轴",
+        "已知数值",
+        "条件与误差框"
+      ],
+      "relations": [
+        "2m杆升50K伸1.2mm",
+        "自由均匀膨胀时孔变大",
+        "较大α层受热在弯曲外侧"
+      ],
+      "labels": [
+        "L₀",
+        "ΔL",
+        "α",
+        "孔径增加",
+        "A外侧",
+        "B内侧"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "P55量热图等仅在温度、质量和热容条件一致或明确作另一示例时复用",
+      "english": "Draw an exact thermal-physics teaching schematic. Distinguish temperature, temperature interval, heat transfer and internal energy. Energy arrows and calorimetry sums must conserve energy. Label mass in kg and heat capacity in J per K. Phase-change plateaus require the stated pure substance and pressure; expansion relations are small-change models, not exact unlimited laws."
+    }
+  },
+  "13.6": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 13,
+    "section_id": "13.6",
+    "goals": [
+      "用体膨胀解释液面与密度变化",
+      "区分液体真实膨胀与容器中的表观膨胀"
+    ],
+    "prerequisites": [
+      "体积密度",
+      "固体膨胀与守恒"
+    ],
+    "flow": [
+      "真实膨胀",
+      "容器增容",
+      "表观差值",
+      "质量与密度",
+      "读数几何和温区"
+    ],
+    "concept_relation": "真实膨胀；容器增容；表观差值；质量与密度；读数几何和温区",
+    "deep": [
+      "固定质量、无相变与无损失时，密度ρ=m/V。若体积按近似关系增加，ρ=ρ₀/(1+βΔT)，通常下降。密度变化不是粒子质量自动减少，而是相同质量分布于更大体积；若物质有异常膨胀区，符号需要按实际性质判断。",
+      "水在常压约0至4℃区间表现出特殊的体积和密度趋势，约4℃密度较大；不能说水在任何温区受热都按同一正β膨胀。实际β可随温度变化，跨越异常区或相变应使用适当资料，而不无限外推常系数模型。",
+      "实验比较不同液体膨胀时，应控制初始体积、温度区间、容器尺寸与材料、读数细管截面等。液柱升高多既可能来自液体膨胀大，也可能来自细管更细；观察长度与体积之间还有ΔV=A管Δh的几何关系需要检查。"
+    ],
+    "derive": [
+      "小变化真实体积膨胀ΔV≈β_液V₀ΔT。",
+      "相同初始容量及温差下表观溢出≈(β_液−β_容)V₀ΔT，需满容器且无损失等条件。",
+      "固定质量ρ=ρ₀/(1+βΔT)；细管体积变化ΔV=A管Δh。"
+    ],
+    "examples": [
+      {
+        "q": "1.0 L液体β=1.0×10⁻³ K⁻¹，升温20 K，忽略容器变化求真实体积增加与末体积。 条件：β在温区近似恒定、无相变。",
+        "given": "β在温区近似恒定、无相变。",
+        "analysis": "增量与总量分别求。",
+        "method": "体膨胀式。",
+        "principle": "ΔV=βV₀ΔT。",
+        "steps": [
+          "ΔV=0.001×1.0×20=0.020 L。",
+          "V=1.020 L。"
+        ],
+        "ans": "增加20 mL，末1.020 L。",
+        "verification": "相对增加2%。",
+        "pitfall": "把20 mL当末体积。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.6",
+        "related_sections": []
+      },
+      {
+        "q": "满容器初容1000 mL，β液=1.0×10⁻³、β容=3.0×10⁻⁵ K⁻¹，均升温20 K，近似溢出多少？ 条件：初始恰满、同温、无蒸发和泄漏。",
+        "given": "初始恰满、同温、无蒸发和泄漏。",
+        "analysis": "需扣容器增容。",
+        "method": "差系数模型。",
+        "principle": "表观膨胀。",
+        "steps": [
+          "液体增20 mL，容器增0.60 mL。",
+          "溢出20−0.60=19.4 mL。"
+        ],
+        "ans": "19.4 mL。",
+        "verification": "小于真实增加20 mL。",
+        "pitfall": "忽略容器而将溢出当20。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.6",
+        "related_sections": []
+      },
+      {
+        "q": "液体质量不变，βΔT=0.020，初密度1000 kg/m³，求近似模型下末密度。 条件：V变为1.020V₀，无相变。",
+        "given": "V变为1.020V₀，无相变。",
+        "analysis": "密度与体积成反比。",
+        "method": "质量守恒。",
+        "principle": "ρ=m/V。",
+        "steps": [
+          "ρ=1000/1.020。",
+          "得约980.39 kg/m³。"
+        ],
+        "ans": "约980 kg/m³。",
+        "verification": "体积增2%，密度降低约1.96%，不是质量减少。",
+        "pitfall": "将密度也增加2%。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.6",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "体膨胀系数单位是什么？ 条件：ΔV/V₀为无量纲。",
+        "given": "ΔV/V₀为无量纲。",
+        "analysis": "除以温差。",
+        "method": "量纲。",
+        "principle": "β=ΔV/(V₀ΔT)。",
+        "steps": [
+          "分子分母体积相消。",
+          "剩K⁻¹。"
+        ],
+        "ans": "K⁻¹。",
+        "verification": "不是m/K。",
+        "pitfall": "把体积变化系数写体积单位。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.6",
+        "related_sections": []
+      },
+      {
+        "q": "液体膨胀量相同，细管截面积减半，液柱升高怎样？ 条件：管内形变和其他效应忽略。",
+        "given": "管内形变和其他效应忽略。",
+        "analysis": "Δh=ΔV/A。",
+        "method": "反比。",
+        "principle": "细管几何。",
+        "steps": [
+          "A减半。",
+          "Δh加倍。"
+        ],
+        "ans": "2倍。",
+        "verification": "液体真实体积增加并未2倍。",
+        "pitfall": "只看柱高就判膨胀量更大。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.6",
+        "related_sections": []
+      },
+      {
+        "q": "液体β等于容器体积系数，平衡小变化模型下表观溢出怎样？ 条件：初始恰满且同温。",
+        "given": "初始恰满且同温。",
+        "analysis": "两体积增长相同。",
+        "method": "差系数。",
+        "principle": "表观膨胀。",
+        "steps": [
+          "β液−β容=0。",
+          "一阶近似溢出为0。"
+        ],
+        "ans": "一阶近似0。",
+        "verification": "不代表液体真实体积没增加。",
+        "pitfall": "表观0就说真实0。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.6",
+        "related_sections": []
+      },
+      {
+        "q": "水从0℃升到4℃能无条件用常正β判断体积增加吗？ 条件：常压异常温区。",
+        "given": "常压异常温区。",
+        "analysis": "水有反常趋势。",
+        "method": "检查模型适用区间。",
+        "principle": "密度最大附近的异常膨胀。",
+        "steps": [
+          "该区水密度通常随升温增大。",
+          "体积相应减小，不能套常正β。"
+        ],
+        "ans": "不能。",
+        "verification": "约4℃密度较大。",
+        "pitfall": "所有液体全温区同样热胀。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 13,
+        "primary_section": "13.6",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "两液体加热后柱高不同，可否不核细管截面就断言柱高大的β更大？ 条件：管截面与初体积可能不同。",
+      "given": "管截面与初体积可能不同。",
+      "analysis": "柱高还反映几何放大。",
+      "method": "检查控制量和ΔV=AΔh。",
+      "principle": "观察量与真实量不同。",
+      "steps": [
+        "不同A使同ΔV产生不同Δh。",
+        "还需相同初体积、温差、容器效应等条件。"
+      ],
+      "ans": "不能直接断言。",
+      "verification": "应先换算或控制对应体积变化。",
+      "pitfall": "把长度读数直接当材料体积系数。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 13,
+      "primary_section": "13.6",
+      "related_sections": []
+    },
+    "exam": [
+      "液体题先分真实体积、容器容量和表观读数",
+      "溢出先核恰满、同温、无蒸发等条件，再用差系数",
+      "密度题先守质量，细管题先将长度换体积，水异常区另判断"
+    ],
+    "quick": [
+      "真实膨胀",
+      "容器增容",
+      "表观差值",
+      "质量与密度",
+      "读数几何和温区"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 65,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_13.6",
+        "url": "https://openstax.org/books/college-physics-2e/pages/13-2-thermal-expansion-of-solids-and-liquids",
+        "page_or_section": "13-2-thermal-expansion-of-solids-and-liquids",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 65,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_13.6",
+        "url": "https://openstax.org/books/college-physics-2e/pages/13-2-thermal-expansion-of-solids-and-liquids",
+        "page_or_section": "13-2-thermal-expansion-of-solids-and-liquids",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "液体题先分真实体积、容器容量和表观读数",
+      "method": "质量守恒。",
+      "principle": "ρ=m/V。",
+      "worked_example_index": 2,
+      "verification": "体积增2%，密度降低约1.96%，不是质量减少。",
+      "pitfall": "将密度也增加2%。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用体膨胀解释液面与密度变化”的抽样复核：相对增加2%。；若出现“把20 mL当末体积。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分液体真实膨胀与容器中的表观膨胀”的抽样复核：体积增2%，密度降低约1.96%，不是质量减少。；若出现“将密度也增加2%。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把长度读数直接当材料体积系数。",
+        "correction": "不能直接断言。",
+        "verification": "应先换算或控制对应体积变化。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "液体、容器与表观液面",
+      "objects": [
+        "测量对象或受热物",
+        "温标/能量或体积轴",
+        "已知数值",
+        "条件与误差框"
+      ],
+      "relations": [
+        "液体增20mL容器增0.60mL故溢19.4mL",
+        "质量保持时体积增密度降",
+        "柱高需结合管截面"
+      ],
+      "labels": [
+        "β液",
+        "β容",
+        "真实膨胀",
+        "表观膨胀",
+        "ΔV=AΔh",
+        "水异常温区"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "P55量热图等仅在温度、质量和热容条件一致或明确作另一示例时复用",
+      "english": "Draw an exact thermal-physics teaching schematic. Distinguish temperature, temperature interval, heat transfer and internal energy. Energy arrows and calorimetry sums must conserve energy. Label mass in kg and heat capacity in J per K. Phase-change plateaus require the stated pure substance and pressure; expansion relations are small-change models, not exact unlimited laws."
+    }
+  }
+}

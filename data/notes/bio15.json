@@ -1,0 +1,1209 @@
+{
+  "15.1": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 15,
+    "section_id": "15.1",
+    "goals": [
+      "由减数分裂解释等位基因分离",
+      "用测交和概率区分基因型与表现型"
+    ],
+    "prerequisites": [
+      "同源染色体",
+      "减数分裂和受精"
+    ],
+    "flow": [
+      "符号与模型",
+      "配子分离",
+      "随机结合",
+      "基因型到表现型",
+      "条件概率"
+    ],
+    "concept_relation": "符号与模型；配子分离；随机结合；基因型到表现型；条件概率",
+    "deep": [
+      "显性表现型个体可能为AA或Aa。与aa测交时，AA理论上只产生显性后代，Aa产生1:1两类后代，因此后代信息可检验亲代基因型。有限样本全为显性并不能逻辑上排除Aa，只能使某些模型的可能性相对降低。",
+      "每次独立受精的概率不会因前一次结果而自动补偿。理论1/4隐性不是每四个后代必有一个隐性，样本小可以偏离，样本大才更常接近期望比例。讨论实验时还须检查存活率、样本选择和观察分类。",
+      "作答时先写遗传方式与符号定义，再列亲代、配子、受精组合及概率，最后把基因型翻译为表现型。条件概率题先确定已经观察到的集合，例如显性后代中杂合体比例为2/3，而不是对所有后代的1/2。"
+    ],
+    "derive": [
+      "Aa产生A、a配子各1/2；Aa×Aa：AA 1/4、Aa 1/2、aa 1/4。",
+      "完全显性时P(显性)=3/4；P(Aa|显性)=(1/2)/(3/4)=2/3。",
+      "理论比例依赖随机受精、相应显性关系及相同存活机会等条件。"
+    ],
+    "examples": [
+      {
+        "q": "完全显性条件下Aa×Aa，求基因型和表现型概率。 条件：A显性；配子随机结合，存活相同。",
+        "given": "A显性；配子随机结合，存活相同。",
+        "analysis": "两个亲本各提供一个等位基因。",
+        "method": "配子方格。",
+        "principle": "分离与概率乘法。",
+        "steps": [
+          "AA来自A×A，概率1/4；Aa有A×a及a×A两路，合1/2。",
+          "aa为1/4，合并AA和Aa得显性3/4。"
+        ],
+        "ans": "AA:Aa:aa=1:2:1；显性:隐性=3:1。",
+        "verification": "全部概率和1；A、a配子各半。",
+        "pitfall": "把基因型比也写3:1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 15,
+        "primary_section": "15.1",
+        "related_sections": []
+      },
+      {
+        "q": "某完全显性表现型个体与aa测交，理论后代显性与隐性各半，推其基因型。 条件：排除突变和特殊存活差异的简单模型。",
+        "given": "排除突变和特殊存活差异的简单模型。",
+        "analysis": "出现aa说明待测亲本能给a。",
+        "method": "由后代反推配子。",
+        "principle": "测交与等位基因分离。",
+        "steps": [
+          "待测亲本有a；又显示显性，需有A。",
+          "故为Aa，与aa产生Aa和aa各半。"
+        ],
+        "ans": "Aa。",
+        "verification": "AA×aa只会Aa，不能解释隐性后代。",
+        "pitfall": "看到显性就断言AA。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 15,
+        "primary_section": "15.1",
+        "related_sections": []
+      },
+      {
+        "q": "Aa×Aa后代中已知某个体为显性，求其是Aa的概率。 条件：完全显性；只在显性集合内选取。",
+        "given": "完全显性；只在显性集合内选取。",
+        "analysis": "隐性aa已被条件排除。",
+        "method": "条件概率。",
+        "principle": "P(Aa|显性)=P(Aa)/P(显性)。",
+        "steps": [
+          "Aa原概率1/2，显性原概率3/4。",
+          "比值(1/2)/(3/4)=2/3。"
+        ],
+        "ans": "2/3。",
+        "verification": "显性集合AA:Aa=1:2。",
+        "pitfall": "仍用全体后代中的1/2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 15,
+        "primary_section": "15.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "Aa×aa产生隐性aa的概率？ 条件：完全显性模型。",
+        "given": "完全显性模型。",
+        "analysis": "aa亲本只给a。",
+        "method": "列两种结合。",
+        "principle": "分离。",
+        "steps": [
+          "Aa给A或a各半。",
+          "得Aa或aa各半。"
+        ],
+        "ans": "1/2。",
+        "verification": "基因型总概率1。",
+        "pitfall": "误套Aa×Aa的1/4。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 15,
+        "primary_section": "15.1",
+        "related_sections": []
+      },
+      {
+        "q": "AA×aa的F₁基因型是什么？ 条件：等位基因按分离传递。",
+        "given": "等位基因按分离传递。",
+        "analysis": "亲本各只给一种配子。",
+        "method": "结合A与a。",
+        "principle": "受精恢复成对。",
+        "steps": [
+          "AA只给A；aa只给a。",
+          "全部为Aa。"
+        ],
+        "ans": "全部Aa。",
+        "verification": "每个后代各有亲代一个等位基因。",
+        "pitfall": "把显性理解成只遗传A。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 15,
+        "primary_section": "15.1",
+        "related_sections": []
+      },
+      {
+        "q": "Aa×Aa的三个独立后代均为aa的概率？ 条件：各次受精独立，概率均1/4。",
+        "given": "各次受精独立，概率均1/4。",
+        "analysis": "多次结果相乘。",
+        "method": "独立概率。",
+        "principle": "乘法规则。",
+        "steps": [
+          "每次aa为1/4。",
+          "(1/4)³=1/64。"
+        ],
+        "ans": "1/64。",
+        "verification": "不是1/4×3，事件是三个都发生。",
+        "pitfall": "把“都”误当“至少一个”。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 15,
+        "primary_section": "15.1",
+        "related_sections": []
+      },
+      {
+        "q": "不完全显性模型Aa为中间型，Aa×Aa表现型比？ 条件：AA、Aa、aa各表现可区分。",
+        "given": "AA、Aa、aa各表现可区分。",
+        "analysis": "不合并两个基因型。",
+        "method": "按基因型映射。",
+        "principle": "基因型概率仍1:2:1。",
+        "steps": [
+          "AA 1/4、Aa 1/2、aa 1/4。",
+          "三种表现型分别对应。"
+        ],
+        "ans": "1:2:1。",
+        "verification": "3:1需完全显性而题设不满足。",
+        "pitfall": "任何单基因题都套3:1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 15,
+        "primary_section": "15.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "测交只生出4个显性后代，就能绝对证明亲代为AA吗？ 条件：完全显性；有限独立样本。",
+      "given": "完全显性；有限独立样本。",
+      "analysis": "Aa也有可能连续产生显性。",
+      "method": "用反例概率检验“绝对”。",
+      "principle": "理论概率不保证小样本比例。",
+      "steps": [
+        "若亲本为Aa，4个全显性的概率(1/2)⁴=1/16。",
+        "非零，因此结果不能绝对排除Aa。"
+      ],
+      "ans": "不能绝对证明。",
+      "verification": "增加样本有助区分，但仍应说明模型与统计证据。",
+      "pitfall": "把有限样本全显性当作逻辑必然。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 15,
+      "primary_section": "15.1",
+      "related_sections": []
+    },
+    "exam": [
+      "先定义显隐性及字母，再列亲代—配子—子代",
+      "题干出现“已知显性”要重建条件集合后再算",
+      "比例题注明理论期望与模型条件，不把概率写成固定家系人数"
+    ],
+    "quick": [
+      "符号与模型",
+      "配子分离",
+      "随机结合",
+      "基因型到表现型",
+      "条件概率"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 5,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_15.1",
+        "url": "https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits",
+        "page_or_section": "12-2-characteristics-and-traits",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 5,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_15.1",
+        "url": "https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits",
+        "page_or_section": "12-2-characteristics-and-traits",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先定义显隐性及字母，再列亲代—配子—子代",
+      "method": "条件概率。",
+      "principle": "P(Aa|显性)=P(Aa)/P(显性)。",
+      "worked_example_index": 2,
+      "verification": "显性集合AA:Aa=1:2。",
+      "pitfall": "仍用全体后代中的1/2。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由减数分裂解释等位基因分离”的抽样复核：全部概率和1；A、a配子各半。；若出现“把基因型比也写3:1。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 7,
+        "feedback": "目标“用测交和概率区分基因型与表现型”的抽样复核：显性集合AA:Aa=1:2。；若出现“仍用全体后代中的1/2。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把有限样本全显性当作逻辑必然。",
+        "correction": "不能绝对证明。",
+        "verification": "增加样本有助区分，但仍应说明模型与统计证据。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "分离定律、测交与条件集合",
+      "objects": [
+        "亲代基因型",
+        "减数分裂配子",
+        "受精组合",
+        "概率与适用条件框"
+      ],
+      "relations": [
+        "Aa配子A和a各1/2",
+        "四格中Aa占两格",
+        "显性条件集合仅AA与Aa",
+        "测交与自交分开"
+      ],
+      "labels": [
+        "Aa×Aa",
+        "AA",
+        "Aa",
+        "aa",
+        "1:2:1",
+        "2/3"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "遗传图只在基因位置与假设相符时复用；不能用染色体示意替代概率图",
+      "english": "Draw an exact inheritance teaching schematic with parental genotypes, gamete types and probabilities. Use independent probability assumptions only where explicitly stated. Keep allele labels distinct from chromosome labels and distinguish genotype from phenotype. A teaching probability is not a guaranteed number of children or a personalized medical risk."
+    }
+  },
+  "15.2": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 15,
+    "section_id": "15.2",
+    "goals": [
+      "解释不同基因组合与独立性条件",
+      "求双因子遗传概率并识别连锁限制"
+    ],
+    "prerequisites": [
+      "基因分离",
+      "独立事件与减数分裂"
+    ],
+    "flow": [
+      "基因座位置",
+      "独立分配",
+      "配子概率",
+      "逐座相乘",
+      "连锁与替代解释"
+    ],
+    "concept_relation": "基因座位置；独立分配；配子概率；逐座相乘；连锁与替代解释",
+    "deep": [
+      "同一染色体上的基因可能连锁，不应无条件用四等份配子。交换可产生重组，但重组率取决于位置及其他因素；若题目给出连锁相位和重组率，须按其构造配子概率。不能只看到AaBb四个字就自动认为自由组合。",
+      "比例偏离9:3:3:1也不单独证明连锁。基因相互作用、不完全显性、选择性死亡、取样误差等都可能改变观察比例。应结合题目给出的染色体位置、测交数据和存活条件识别可采用的模型。",
+      "解综合题时先逐个基因座列概率，再明确哪些事件能独立相乘。若是“至少一个性状隐性”，用补事件可减少分支。结果必须标明是配子、基因型、表现型还是已知条件下的概率，以免不同集合间错用比例。"
+    ],
+    "derive": [
+      "独立分配下AaBb配子AB、Ab、aB、ab各1/4。",
+      "AaBb×AaBb且两性状完全显性：A_B_ 9/16、A_bb 3/16、aaB_ 3/16、aabb 1/16。",
+      "不同染色体对上的基因通常可用独立分配模型；连锁题按实际配子频率处理。"
+    ],
+    "examples": [
+      {
+        "q": "独立分配下AaBb产生哪些配子，概率多少？ 条件：两个基因座独立。",
+        "given": "两个基因座独立。",
+        "analysis": "每个座各取一个等位基因。",
+        "method": "两次1/2相乘。",
+        "principle": "独立分配。",
+        "steps": [
+          "A或a各半，B或b各半。",
+          "组合AB、Ab、aB、ab各1/2×1/2=1/4。"
+        ],
+        "ans": "四类各1/4。",
+        "verification": "每类都含两个基因座且总概率1。",
+        "pitfall": "写成A、a、B、b四类配子。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 15,
+        "primary_section": "15.2",
+        "related_sections": []
+      },
+      {
+        "q": "独立、完全显性的AaBb×AaBb中，求A_bb的概率。 条件：A_包含AA或Aa，bb为隐性。",
+        "given": "A_包含AA或Aa，bb为隐性。",
+        "analysis": "两个座分别求概率。",
+        "method": "独立事件相乘。",
+        "principle": "P(A_)=3/4，P(bb)=1/4。",
+        "steps": [
+          "A座显性概率3/4。",
+          "乘B座bb概率1/4，得3/16。"
+        ],
+        "ans": "3/16。",
+        "verification": "16格中相应3格。",
+        "pitfall": "只用Aa概率1/2漏掉AA。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 15,
+        "primary_section": "15.2",
+        "related_sections": []
+      },
+      {
+        "q": "AaBb×AaBb满足经典独立模型，至少一个性状隐性的概率？ 条件：两性状完全显性。",
+        "given": "两性状完全显性。",
+        "analysis": "补事件是两性状都显性。",
+        "method": "用1−补事件。",
+        "principle": "补事件与独立概率。",
+        "steps": [
+          "两者都显性概率(3/4)²=9/16。",
+          "至少一个隐性=1−9/16=7/16。"
+        ],
+        "ans": "7/16。",
+        "verification": "直接合并3/16+3/16+1/16也得7/16。",
+        "pitfall": "把“至少一个”误成两者都隐性。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 15,
+        "primary_section": "15.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "独立AaBb与aabb测交，aabb概率？ 条件：待测亲本四类配子等频。",
+        "given": "待测亲本四类配子等频。",
+        "analysis": "另一亲本只给ab。",
+        "method": "选择ab配子。",
+        "principle": "测交配子概率。",
+        "steps": [
+          "AaBb给ab概率1/4。",
+          "与ab结合得到aabb。"
+        ],
+        "ans": "1/4。",
+        "verification": "四种测交表现型各1/4。",
+        "pitfall": "误套自交的1/16。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 15,
+        "primary_section": "15.2",
+        "related_sections": []
+      },
+      {
+        "q": "独立AaBbCc共有几类配子？ 条件：三个杂合基因座独立。",
+        "given": "三个杂合基因座独立。",
+        "analysis": "每座两种选择。",
+        "method": "乘法计数。",
+        "principle": "独立组合。",
+        "steps": [
+          "2×2×2。",
+          "得8类，理想频率各1/8。"
+        ],
+        "ans": "8类。",
+        "verification": "每类含三个座各一个等位基因。",
+        "pitfall": "写成3×2=6类。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 15,
+        "primary_section": "15.2",
+        "related_sections": []
+      },
+      {
+        "q": "同染色体连锁AB/ab，题设无交换，可否四类配子各1/4？ 条件：完全连锁教学模型。",
+        "given": "完全连锁教学模型。",
+        "analysis": "亲本型保留。",
+        "method": "按连锁相位列配子。",
+        "principle": "同染色体不独立分配。",
+        "steps": [
+          "只能产生AB、ab。",
+          "两类各1/2，无Ab、aB。"
+        ],
+        "ans": "不可以。",
+        "verification": "重组型在无交换条件下概率0。",
+        "pitfall": "看到双杂合一律四等份。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 15,
+        "primary_section": "15.2",
+        "related_sections": []
+      },
+      {
+        "q": "经典双杂合自交中aabb概率？ 条件：独立、完全显性、存活相同。",
+        "given": "独立、完全显性、存活相同。",
+        "analysis": "两个隐性纯合事件相乘。",
+        "method": "逐座算。",
+        "principle": "各座aa或bb均1/4。",
+        "steps": [
+          "P(aa)=1/4，P(bb)=1/4。",
+          "乘得1/16。"
+        ],
+        "ans": "1/16。",
+        "verification": "总9+3+3+1=16。",
+        "pitfall": "把各座相加成1/2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 15,
+        "primary_section": "15.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "观察到后代不是9:3:3:1，是否能单凭这一点证明基因连锁？ 条件：尚未给出样本量、存活率或性状关系。",
+      "given": "尚未给出样本量、存活率或性状关系。",
+      "analysis": "多种机制可导致偏离。",
+      "method": "审查替代解释。",
+      "principle": "模型结论依赖假设。",
+      "steps": [
+        "可由连锁引起，也可由基因相互作用、存活差异或取样造成。",
+        "须结合定位和测交等证据。"
+      ],
+      "ans": "不能。",
+      "verification": "同一观察可被多个机制解释。",
+      "pitfall": "把一个比例偏差视为唯一机制证明。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 15,
+      "primary_section": "15.2",
+      "related_sections": []
+    },
+    "exam": [
+      "先核基因位置和独立性，再做概率乘法",
+      "用A_等记号时说明包含哪些基因型，不能漏纯合显性",
+      "“至少一个”优先考虑补事件，并用分支相加复核"
+    ],
+    "quick": [
+      "基因座位置",
+      "独立分配",
+      "配子概率",
+      "逐座相乘",
+      "连锁与替代解释"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 5,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_15.2",
+        "url": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance",
+        "page_or_section": "12-3-laws-of-inheritance",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 5,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_15.2",
+        "url": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance",
+        "page_or_section": "12-3-laws-of-inheritance",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先核基因位置和独立性，再做概率乘法",
+      "method": "用1−补事件。",
+      "principle": "补事件与独立概率。",
+      "worked_example_index": 2,
+      "verification": "直接合并3/16+3/16+1/16也得7/16。",
+      "pitfall": "把“至少一个”误成两者都隐性。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“解释不同基因组合与独立性条件”的抽样复核：每类都含两个基因座且总概率1。；若出现“写成A、a、B、b四类配子。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 7,
+        "feedback": "目标“求双因子遗传概率并识别连锁限制”的抽样复核：直接合并3/16+3/16+1/16也得7/16。；若出现“把“至少一个”误成两者都隐性。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把一个比例偏差视为唯一机制证明。",
+        "correction": "不能。",
+        "verification": "同一观察可被多个机制解释。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "独立分配与连锁对照",
+      "objects": [
+        "亲代基因型",
+        "减数分裂配子",
+        "受精组合",
+        "概率与适用条件框"
+      ],
+      "relations": [
+        "独立AaBb有四等份配子",
+        "无交换AB/ab只有AB与ab",
+        "16格表现型在经典条件下9:3:3:1"
+      ],
+      "labels": [
+        "AB",
+        "Ab",
+        "aB",
+        "ab",
+        "独立分配",
+        "完全连锁"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "遗传图只在基因位置与假设相符时复用；不能用染色体示意替代概率图",
+      "english": "Draw an exact inheritance teaching schematic with parental genotypes, gamete types and probabilities. Use independent probability assumptions only where explicitly stated. Keep allele labels distinct from chromosome labels and distinguish genotype from phenotype. A teaching probability is not a guaranteed number of children or a personalized medical risk."
+    }
+  },
+  "15.3": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 15,
+    "section_id": "15.3",
+    "goals": [
+      "正确列出X连锁基因在配子中的传递",
+      "区分对全体、对儿子和对女儿的条件概率"
+    ],
+    "prerequisites": [
+      "减数分裂",
+      "性染色体与条件概率"
+    ],
+    "flow": [
+      "遗传模型",
+      "染色体符号",
+      "亲代配子",
+      "子代性别与性状",
+      "条件概率"
+    ],
+    "concept_relation": "遗传模型；染色体符号；亲代配子；子代性别与性状；条件概率",
+    "deep": [
+      "求“儿子中受影响的比例”时，条件集合已经限定儿子；若问“随机一个孩子是受影响的儿子”，还要乘生为儿子的概率。经典方格中常假设两类性染色体配子和子代存活机会相同，但现实家系人数小，不能保证男女固定各半。",
+      "家系判断要综合多代信息与题设遗传方式。某一次只见男性有性状并不足以证明X连锁，常染色体遗传也可能小样本偶然出现相同分布。反过来，某些基因的外显、表达或性别依赖会使简单模型不足。",
+      "作答先列亲代染色体基因型，再列带完整染色体的配子，并将每种子代的性别与性状分开标注。对携带者、受影响者和未受影响非携带者使用清楚术语，答案说明适用模型，不对现实个人作未验证诊断。"
+    ],
+    "derive": [
+      "X^AX^a×X^AY：女儿X^AX^A、X^AX^a；儿子X^AY、X^aY，经典模型各1/4。",
+      "该模型P(受影响|儿子)=1/2；P(受影响儿子)=1/2×1/2=1/4。",
+      "父亲的X给女儿、Y给儿子；X连锁基因没有父亲X直接传儿子的路线。"
+    ],
+    "examples": [
+      {
+        "q": "经典X连锁隐性模型中，母亲X^AX^a、父亲X^AY，随机孩子受影响的概率？ 条件：A显性，配子与存活机会相同。",
+        "given": "A显性，配子与存活机会相同。",
+        "analysis": "只有X^aY受影响。",
+        "method": "列四种受精组合。",
+        "principle": "X连锁传递。",
+        "steps": [
+          "女儿X^AX^A或X^AX^a，均未受影响。",
+          "儿子X^AY或X^aY，每组合1/4。"
+        ],
+        "ans": "1/4。",
+        "verification": "四种组合总概率1，受影响只一格。",
+        "pitfall": "把携带女儿也算作隐性受影响者。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 15,
+        "primary_section": "15.3",
+        "related_sections": []
+      },
+      {
+        "q": "同一配对已知生的是儿子，受影响概率多少？ 条件：已经限定儿子。",
+        "given": "已经限定儿子。",
+        "analysis": "不再乘一次儿子概率。",
+        "method": "在两种儿子中取比例。",
+        "principle": "条件概率。",
+        "steps": [
+          "儿子只能X^AY或X^aY，各半。",
+          "受影响者在儿子中占1/2。"
+        ],
+        "ans": "1/2。",
+        "verification": "全体受影响1/4除儿子1/2，也得1/2。",
+        "pitfall": "仍答对全体孩子的1/4。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 15,
+        "primary_section": "15.3",
+        "related_sections": []
+      },
+      {
+        "q": "受影响父亲X^aY与非携带母亲X^AX^A配对，子代遗传情况？ 条件：经典X连锁隐性。",
+        "given": "经典X连锁隐性。",
+        "analysis": "父亲X只给女儿。",
+        "method": "列父母配子。",
+        "principle": "X/Y传递路线。",
+        "steps": [
+          "女儿都为X^AX^a；儿子都为X^AY。",
+          "故女儿全为携带者，儿子不由父亲直接得到X^a。"
+        ],
+        "ans": "子代均不表达该隐性性状，女儿全携带。",
+        "verification": "母亲给所有孩子正常X^A。",
+        "pitfall": "认为受影响父亲必传给所有儿子。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 15,
+        "primary_section": "15.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "X^aY能写成Aa杂合体吗？ 条件：所讨论基因座在X上、Y无对应拷贝。",
+        "given": "所讨论基因座在X上、Y无对应拷贝。",
+        "analysis": "只有一个相应等位基因。",
+        "method": "检查基因拷贝。",
+        "principle": "半合子与杂合体不同。",
+        "steps": [
+          "该基因座只有X^a上的一个拷贝。",
+          "不具备Aa这对等位基因。"
+        ],
+        "ans": "不能。",
+        "verification": "Y不是自动的A等位基因。",
+        "pitfall": "把Y当作显性A。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 15,
+        "primary_section": "15.3",
+        "related_sections": []
+      },
+      {
+        "q": "父亲把X染色体直接传给典型XX女儿还是XY儿子？ 条件：采用正常XX/XY入门模型。",
+        "given": "采用正常XX/XY入门模型。",
+        "analysis": "子代染色体来源明确。",
+        "method": "沿受精路径。",
+        "principle": "父亲X或Y配子。",
+        "steps": [
+          "父亲X与母亲X形成XX。",
+          "父亲Y与母亲X形成XY。"
+        ],
+        "ans": "X传女儿，Y传儿子。",
+        "verification": "各子代都从母亲获得X。",
+        "pitfall": "父亲X传儿子。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 15,
+        "primary_section": "15.3",
+        "related_sections": []
+      },
+      {
+        "q": "携带母亲X^AX^a与正常父亲X^AY生两个独立儿子，均受影响概率？ 条件：已知两个都是儿子，简化完全外显模型。",
+        "given": "已知两个都是儿子，简化完全外显模型。",
+        "analysis": "每个儿子风险1/2。",
+        "method": "独立相乘。",
+        "principle": "条件样本空间。",
+        "steps": [
+          "(1/2)×(1/2)。",
+          "得1/4。"
+        ],
+        "ans": "1/4。",
+        "verification": "不再乘两次性别概率。",
+        "pitfall": "用全体孩子风险1/4再平方。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 15,
+        "primary_section": "15.3",
+        "related_sections": []
+      },
+      {
+        "q": "只有一个家庭的男性孩子出现性状，就能证明X连锁吗？ 条件：样本小且无其他遗传信息。",
+        "given": "样本小且无其他遗传信息。",
+        "analysis": "也有其他模式可解释。",
+        "method": "寻找替代模型。",
+        "principle": "遗传推断需足够证据。",
+        "steps": [
+          "常染色体方式也可能偶然只在男性观察到。",
+          "需更多家系、定位或题设信息。"
+        ],
+        "ans": "不能。",
+        "verification": "“符合”不等于“唯一证明”。",
+        "pitfall": "将观察性别分布直接当确证。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 15,
+        "primary_section": "15.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "题目“下一名孩子是受影响儿子”与“下一名儿子受影响”为什么答案可不同？ 条件：沿用携带母亲与正常父亲的经典模型。",
+      "given": "沿用携带母亲与正常父亲的经典模型。",
+      "analysis": "前者包含性别事件，后者已限定性别。",
+      "method": "分别建立样本空间。",
+      "principle": "条件概率与联合概率。",
+      "steps": [
+        "受影响儿子占所有孩子1/4。",
+        "在儿子集合中受影响占1/2。"
+      ],
+      "ans": "前者1/4，后者1/2。",
+      "verification": "1/4=(1/2儿子)×(1/2儿子中受影响)。",
+      "pitfall": "忽略题干条件词。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 15,
+      "primary_section": "15.3",
+      "related_sections": []
+    },
+    "exam": [
+      "先标基因在X上，用完整X/Y符号写配子",
+      "圈出“孩子”“儿子中”“女儿中”，明确概率分母",
+      "家系证据只在已知模型下推断，不用性别比例一句话确诊"
+    ],
+    "quick": [
+      "遗传模型",
+      "染色体符号",
+      "亲代配子",
+      "子代性别与性状",
+      "条件概率"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 5,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_15.3",
+        "url": "https://openstax.org/books/biology-2e/pages/13-1-chromosomal-theory-and-genetic-linkage",
+        "page_or_section": "13-1-chromosomal-theory-and-genetic-linkage",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 5,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_15.3",
+        "url": "https://openstax.org/books/biology-2e/pages/13-1-chromosomal-theory-and-genetic-linkage",
+        "page_or_section": "13-1-chromosomal-theory-and-genetic-linkage",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先标基因在X上，用完整X/Y符号写配子",
+      "method": "列父母配子。",
+      "principle": "X/Y传递路线。",
+      "worked_example_index": 2,
+      "verification": "母亲给所有孩子正常X^A。",
+      "pitfall": "认为受影响父亲必传给所有儿子。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“正确列出X连锁基因在配子中的传递”的抽样复核：四种组合总概率1，受影响只一格。；若出现“把携带女儿也算作隐性受影响者。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 7,
+        "feedback": "目标“区分对全体、对儿子和对女儿的条件概率”的抽样复核：母亲给所有孩子正常X^A。；若出现“认为受影响父亲必传给所有儿子。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "忽略题干条件词。",
+        "correction": "前者1/4，后者1/2。",
+        "verification": "1/4=(1/2儿子)×(1/2儿子中受影响)。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "X连锁隐性的传递路线",
+      "objects": [
+        "亲代基因型",
+        "减数分裂配子",
+        "受精组合",
+        "概率与适用条件框"
+      ],
+      "relations": [
+        "父亲X只传女儿",
+        "母亲两类X各可给儿女",
+        "联合概率1/4与条件概率1/2分开标"
+      ],
+      "labels": [
+        "X^A",
+        "X^a",
+        "Y",
+        "携带者",
+        "P(受影响|儿子)=1/2"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "遗传图只在基因位置与假设相符时复用；不能用染色体示意替代概率图",
+      "english": "Draw an exact inheritance teaching schematic with parental genotypes, gamete types and probabilities. Use independent probability assumptions only where explicitly stated. Keep allele labels distinct from chromosome labels and distinguish genotype from phenotype. A teaching probability is not a guaranteed number of children or a personalized medical risk."
+    }
+  },
+  "15.4": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 15,
+    "section_id": "15.4",
+    "goals": [
+      "区分单基因、多因素和染色体异常模型",
+      "在明确假设下计算风险并解释诊断证据限制"
+    ],
+    "prerequisites": [
+      "基因型与表现型",
+      "染色体数目和概率"
+    ],
+    "flow": [
+      "改变层级",
+      "模型与假设",
+      "家系证据",
+      "条件风险",
+      "检测与伦理边界"
+    ],
+    "concept_relation": "改变层级；模型与假设；家系证据；条件风险；检测与伦理边界",
+    "deep": [
+      "多因素疾病的发生与多个基因及环境有关，家族聚集不等于一个显性基因足以解释。环境因素也不意味着个体应受责备；描述风险时应保持尊重，使用“受影响者”“携带者”等中性术语，不把人等同于基因型。",
+      "筛查用于识别较高可能性的人群，诊断则需相应证据确认，二者不能混用。阳性结果的含义取决于检测性能和人群基础概率，阴性也不自动排除所有遗传因素。本节示例为遗传推理训练，不替代个人检测解释或医疗咨询。",
+      "家系题先按给定模型标注可确定和不可确定的基因型，再计算条件概率。不要把未知个体强行填成纯合，也不要把上一胎结果当成下一胎概率的补偿。结论应写适用假设、概率对象及仍缺的证据。"
+    ],
+    "derive": [
+      "完全外显常染色体隐性教学模型：Aa×Aa，P(aa)=1/4。",
+      "完全外显显性模型且Aa×aa：P(Aa)=1/2；须按题设判断哪种基因型受影响。",
+      "典型21三体是染色体数目异常；不能使用一个普通A/a座的分离比替代其形成机制。"
+    ],
+    "examples": [
+      {
+        "q": "完全外显常染色体隐性模型中，双方均Aa，求下一名孩子aa概率及前两个正常是否改变它。 条件：各次受精独立，无存活差异。",
+        "given": "各次受精独立，无存活差异。",
+        "analysis": "当前一次风险不靠既往结果补偿。",
+        "method": "列单座遗传概率。",
+        "principle": "分离与独立受精。",
+        "steps": [
+          "Aa×Aa的aa为1/4。",
+          "前两个结果不改变这一次配子的理论概率。"
+        ],
+        "ans": "仍为1/4，仅在题设模型下。",
+        "verification": "重复试验概率相同，不保证每四名必一名。",
+        "pitfall": "认为前两名正常后第三名风险必增加。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 15,
+        "primary_section": "15.4",
+        "related_sections": []
+      },
+      {
+        "q": "两位未受影响者生出受影响孩子，在完全外显、无新变异的单基因常染色体隐性模型中，父母基因型？ 条件：受影响为aa，父母表现未受影响。",
+        "given": "受影响为aa，父母表现未受影响。",
+        "analysis": "双方都要贡献a且不能自身aa。",
+        "method": "从子代反推亲代。",
+        "principle": "等位基因来源与完全显性。",
+        "steps": [
+          "孩子aa表示两亲均有a。",
+          "父母正常排除aa，故各为Aa。"
+        ],
+        "ans": "双方Aa。",
+        "verification": "Aa×Aa确能产生aa。",
+        "pitfall": "把所有未受影响者都标AA。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 15,
+        "primary_section": "15.4",
+        "related_sections": []
+      },
+      {
+        "q": "典型21三体与常染色体隐性aa的差别，为什么不能都用“携带一个隐性基因”解释？ 条件：前者讨论染色体数目，后者讨论基因座。",
+        "given": "前者讨论染色体数目，后者讨论基因座。",
+        "analysis": "遗传改变层级不同。",
+        "method": "分层比较。",
+        "principle": "染色体与等位基因概念不同。",
+        "steps": [
+          "21三体为多一条21号染色体。",
+          "aa是在一对常染色体对应座上两个a，不表示染色体多一条。"
+        ],
+        "ans": "属于不同层级，不能混用单座模型。",
+        "verification": "核型可计染色体，不能由Aa方格替代。",
+        "pitfall": "用单个显隐性符号解释全部遗传病。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 15,
+        "primary_section": "15.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "完全外显常染色体显性模型，Aa受影响、aa未受影响，Aa×aa子代受影响概率？ 条件：排除新变异及存活差异。",
+        "given": "排除新变异及存活差异。",
+        "analysis": "看亲本配子。",
+        "method": "单座组合。",
+        "principle": "分离定律。",
+        "steps": [
+          "Aa给A或a各半，aa只给a。",
+          "Aa与aa各半。"
+        ],
+        "ans": "1/2。",
+        "verification": "不是Aa×Aa的3/4。",
+        "pitfall": "未读亲本就套3:1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 15,
+        "primary_section": "15.4",
+        "related_sections": []
+      },
+      {
+        "q": "aa一定比AA“更差”吗？ 条件：A/a只是题目定义符号。",
+        "given": "A/a只是题目定义符号。",
+        "analysis": "显隐性不是价值或健康等级。",
+        "method": "区分命名与评价。",
+        "principle": "遗传术语只描述表达关系。",
+        "steps": [
+          "小写表示在相应模型中的隐性等位形式。",
+          "其效应依具体性状与环境，不能作价值判断。"
+        ],
+        "ans": "不能这样推断。",
+        "verification": "许多普通性状并非疾病。",
+        "pitfall": "把显性等同健康、隐性等同缺陷。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 15,
+        "primary_section": "15.4",
+        "related_sections": []
+      },
+      {
+        "q": "筛查阳性是否等于确诊？ 条件：检测可能有假阳性且需结合背景。",
+        "given": "检测可能有假阳性且需结合背景。",
+        "analysis": "风险分类与诊断目的不同。",
+        "method": "审查证据层级。",
+        "principle": "筛查和诊断的区别。",
+        "steps": [
+          "阳性说明需按合适程序进一步核实。",
+          "不能仅凭筛查标签给最终诊断。"
+        ],
+        "ans": "不等于。",
+        "verification": "基础概率与检测准确度也影响解释。",
+        "pitfall": "把一次筛查当作百分之百结论。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 15,
+        "primary_section": "15.4",
+        "related_sections": []
+      },
+      {
+        "q": "单卵双生子同一多因素性状不完全一致，是否自动否定基因作用？ 条件：可能有不同环境与调控因素。",
+        "given": "可能有不同环境与调控因素。",
+        "analysis": "多因素不要求遗传独自决定一切。",
+        "method": "区分贡献与决定。",
+        "principle": "基因和环境共同作用。",
+        "steps": [
+          "不一致说明非遗传或调控因素可能参与。",
+          "不能据此证明基因贡献为零。"
+        ],
+        "ans": "不能自动否定。",
+        "verification": "仍需比较总体数据及研究设计。",
+        "pitfall": "把非完全一致等同完全无遗传影响。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 15,
+        "primary_section": "15.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "一名未受影响孩子来自Aa×Aa，已知其不是aa，携带a的概率？ 条件：完全显性、完全外显隐性模型，已限定未受影响。",
+      "given": "完全显性、完全外显隐性模型，已限定未受影响。",
+      "analysis": "正常集合有AA与Aa。",
+      "method": "条件概率。",
+      "principle": "分离比与条件样本。",
+      "steps": [
+        "AA:Aa=1:2。",
+        "携带者Aa在此集合占2/3。"
+      ],
+      "ans": "2/3，只是题设模型概率。",
+      "verification": "(1/2)/(3/4)=2/3。",
+      "pitfall": "认为未受影响就一定不携带。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 15,
+      "primary_section": "15.4",
+      "related_sections": []
+    },
+    "exam": [
+      "先按单基因、染色体或多因素分类，不能统一套孟德尔比",
+      "家系题分别标“确定”“可能”，把未知留为条件",
+      "概率结论写模型假设，筛查、教学计算与现实诊断分开"
+    ],
+    "quick": [
+      "改变层级",
+      "模型与假设",
+      "家系证据",
+      "条件风险",
+      "检测与伦理边界"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 5,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_15.4",
+        "url": "https://openstax.org/books/biology-2e/pages/13-2-chromosomal-basis-of-inherited-disorders",
+        "page_or_section": "13-2-chromosomal-basis-of-inherited-disorders",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 5,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_15.4",
+        "url": "https://openstax.org/books/biology-2e/pages/13-2-chromosomal-basis-of-inherited-disorders",
+        "page_or_section": "13-2-chromosomal-basis-of-inherited-disorders",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先按单基因、染色体或多因素分类，不能统一套孟德尔比",
+      "method": "分层比较。",
+      "principle": "染色体与等位基因概念不同。",
+      "worked_example_index": 2,
+      "verification": "核型可计染色体，不能由Aa方格替代。",
+      "pitfall": "用单个显隐性符号解释全部遗传病。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e2",
+        "review_module": 4,
+        "feedback": "目标“区分单基因、多因素和染色体异常模型”的抽样复核：核型可计染色体，不能由Aa方格替代。；若出现“用单个显隐性符号解释全部遗传病。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e0",
+        "review_module": 7,
+        "feedback": "目标“在明确假设下计算风险并解释诊断证据限制”的抽样复核：重复试验概率相同，不保证每四名必一名。；若出现“认为前两名正常后第三名风险必增加。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "认为未受影响就一定不携带。",
+        "correction": "2/3，只是题设模型概率。",
+        "verification": "(1/2)/(3/4)=2/3。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "遗传改变层级与证据边界",
+      "objects": [
+        "亲代基因型",
+        "减数分裂配子",
+        "受精组合",
+        "概率与适用条件框"
+      ],
+      "relations": [
+        "单基因方格不替代染色体核型",
+        "多因素含多个基因及环境",
+        "筛查与诊断分两阶段"
+      ],
+      "labels": [
+        "单基因",
+        "染色体数目异常",
+        "多因素",
+        "教学模型",
+        "待核实证据"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "遗传图只在基因位置与假设相符时复用；不能用染色体示意替代概率图",
+      "english": "Draw an exact inheritance teaching schematic with parental genotypes, gamete types and probabilities. Use independent probability assumptions only where explicitly stated. Keep allele labels distinct from chromosome labels and distinguish genotype from phenotype. A teaching probability is not a guaranteed number of children or a personalized medical risk."
+    }
+  }
+}

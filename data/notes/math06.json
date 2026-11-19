@@ -1,0 +1,1511 @@
+{
+  "6.1": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 6,
+    "section_id": "6.1",
+    "goals": [
+      "解释含负数变形的依据",
+      "处理绝对值和参数的边界"
+    ],
+    "prerequisites": [
+      "实数次序",
+      "绝对值是距离"
+    ],
+    "flow": [
+      "允许范围",
+      "等价变形",
+      "系数符号",
+      "交并区间",
+      "代回端点"
+    ],
+    "concept_relation": "允许范围；等价变形；系数符号；交并区间；代回端点",
+    "deep": [
+      "|x−a|表示到a的距离。r>0时，|x−a|<r对应a−r<x<a+r，而|x−a|>r对应x<a−r或x>a+r。前者取两个条件的交集，后者取并集。数轴上的中间区域和外侧两支应与文字逻辑一致。",
+      "平方不总是等价变形：−3<2成立，但9<4不成立。只有审查两边符号和定义域后才可使用平方或开方。对于非负数，平方保序；若数的符号不确定，可先移项、分情况或转成乘积判号。",
+      "严格不等号排除使两边相等的边界；非严格号可能包含，但原式无定义的值仍不得补回。答案宜用区间或清楚的联立/分支形式表示，再用代回原式的检查验证每一段，而不是只验证最后一个算出的边界。"
+    ],
+    "derive": [
+      "a<b且c>0⇒ac<bc；a<b且c<0⇒ac>bc。",
+      "r>0：|u|≤r⇔−r≤u≤r；|u|≥r⇔u≤−r或u≥r。",
+      "ax>b按a正、负、零分类，a=0时判断0>b。"
+    ],
+    "examples": [
+      {
+        "q": "解−3x+4≤10。 条件：x∈R。",
+        "given": "x∈R。",
+        "analysis": "除以负系数需要反序。",
+        "method": "先移常数，再除以−3。",
+        "principle": "负数乘除反序。",
+        "steps": [
+          "−3x≤6。",
+          "x≥−2。"
+        ],
+        "ans": "[−2,∞)。",
+        "verification": "−2取等号；0满足；−3不满足。",
+        "pitfall": "除负数后仍保留≤。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.1",
+        "related_sections": []
+      },
+      {
+        "q": "解|2x−1|<5。 条件：上界5为正。",
+        "given": "上界5为正。",
+        "analysis": "距离小于正数对应中间区域。",
+        "method": "改成双边不等式。",
+        "principle": "|u|<r⇔−r<u<r。",
+        "steps": [
+          "−5<2x−1<5。",
+          "加1并除2得−2<x<3。"
+        ],
+        "ans": "(−2,3)。",
+        "verification": "0满足；两端绝对值均为5，排除。",
+        "pitfall": "小于条件却取区间外两支。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.1",
+        "related_sections": []
+      },
+      {
+        "q": "对实参数a解(a−1)x>2。 条件：a与x均为实数。",
+        "given": "a与x均为实数。",
+        "analysis": "系数会改变符号，也可能消失。",
+        "method": "按a与1比较分类。",
+        "principle": "除数非零且负数反序。",
+        "steps": [
+          "a>1时x>2/(a−1)。",
+          "a<1时x<2/(a−1)；a=1时0>2不成立。"
+        ],
+        "ans": "上述两区间；a=1为空集。",
+        "verification": "取a=2、0、1回代原式检查。",
+        "pitfall": "直接除a−1漏掉零系数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "解5−2x>9。 条件：x∈R。",
+        "given": "x∈R。",
+        "analysis": "系数为负。",
+        "method": "移项后除−2。",
+        "principle": "负数反序。",
+        "steps": [
+          "−2x>4。",
+          "x<−2。"
+        ],
+        "ans": "x<−2。",
+        "verification": "−3满足，−2不取。",
+        "pitfall": "漏翻号。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.1",
+        "related_sections": []
+      },
+      {
+        "q": "解|x+2|≤3。 条件：距离上界为3。",
+        "given": "距离上界为3。",
+        "analysis": "闭区间同时有上下界。",
+        "method": "展开绝对值。",
+        "principle": "绝对值不超过正数。",
+        "steps": [
+          "−3≤x+2≤3。",
+          "−5≤x≤1。"
+        ],
+        "ans": "[−5,1]。",
+        "verification": "两端距离都是3，允许等号。",
+        "pitfall": "将两个端点都排除。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.1",
+        "related_sections": []
+      },
+      {
+        "q": "解|x−1|>2。 条件：x∈R。",
+        "given": "x∈R。",
+        "analysis": "远离中心需取外侧。",
+        "method": "分成两支取并集。",
+        "principle": "距离大于正数。",
+        "steps": [
+          "x−1<−2或x−1>2。",
+          "x<−1或x>3。"
+        ],
+        "ans": "(−∞,−1)∪(3,∞)。",
+        "verification": "1不满足，4满足。",
+        "pitfall": "两支错误取交集。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.1",
+        "related_sections": []
+      },
+      {
+        "q": "a<b是否必有a²<b²？给出反例。 条件：a、b实数。",
+        "given": "a、b实数。",
+        "analysis": "平方在整个实数域不是递增。",
+        "method": "选择异号反例。",
+        "principle": "平方保序需要非负等条件。",
+        "steps": [
+          "取a=−3、b=2。",
+          "有−3<2却9>4。"
+        ],
+        "ans": "一般不成立。",
+        "verification": "0≤a<b时平方才直接保序。",
+        "pitfall": "无条件平方。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "解0x>−1，为什么不能除以0？ 条件：x为任意实数。",
+      "given": "x为任意实数。",
+      "analysis": "原式没有需要解出的非零系数。",
+      "method": "直接判断常数条件。",
+      "principle": "除以零无定义。",
+      "steps": [
+        "0>−1对所有x成立。",
+        "原解集是R，不存在−1/0这个数。"
+      ],
+      "ans": "R。",
+      "verification": "任何正、负或零代入都成立。",
+      "pitfall": "把零系数一律判无解。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 6,
+      "primary_section": "6.1",
+      "related_sections": []
+    },
+    "exam": [
+      "先记录允许范围，再逐次判断变形是否等价",
+      "乘除含字母式先定符号，参数题列正、负、零三分支",
+      "绝对值先用距离解释“内”或“外”，再决定交或并"
+    ],
+    "quick": [
+      "允许范围",
+      "等价变形",
+      "系数符号",
+      "交并区间",
+      "代回端点"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录p6；教材p176",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_6.1",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-7-linear-inequalities-and-absolute-value-inequalities",
+        "page_or_section": "2-7-linear-inequalities-and-absolute-value-inequalities",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录p6；教材p176",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_6.1",
+        "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-7-linear-inequalities-and-absolute-value-inequalities",
+        "page_or_section": "2-7-linear-inequalities-and-absolute-value-inequalities",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先记录允许范围，再逐次判断变形是否等价",
+      "method": "按a与1比较分类。",
+      "principle": "除数非零且负数反序。",
+      "worked_example_index": 2,
+      "verification": "取a=2、0、1回代原式检查。",
+      "pitfall": "直接除a−1漏掉零系数。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“解释含负数变形的依据”的抽样复核：−2取等号；0满足；−3不满足。；若出现“除负数后仍保留≤。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“处理绝对值和参数的边界”的抽样复核：取a=2、0、1回代原式检查。；若出现“直接除a−1漏掉零系数。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把零系数一律判无解。",
+        "correction": "R。",
+        "verification": "任何正、负或零代入都成立。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "距离不等式数轴",
+      "objects": [
+        "数轴或直角坐标系",
+        "边界与禁点",
+        "分区符号或可行区域",
+        "推导条件框"
+      ],
+      "relations": [
+        "内区间取交集",
+        "外侧两支取并集",
+        "严格端点空心"
+      ],
+      "labels": [
+        "a−r",
+        "a",
+        "a+r",
+        "r>0",
+        "|x−a|<r"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "先核对现有模型；不能用数值或条件不同的旧图直接替代",
+      "english": "Create an exact mathematical inequality diagram. Construct all lines, endpoints, signs and feasible regions deterministically. Distinguish excluded denominator roots from included numerator roots. Use open and closed endpoints consistently. Label Chinese text exactly as specified. Never approximate or invent a feasible boundary."
+    }
+  },
+  "6.2": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 6,
+    "section_id": "6.2",
+    "goals": [
+      "由实根和开口求完整符号区间",
+      "处理重根、无实根和恒正条件"
+    ],
+    "prerequisites": [
+      "二次函数",
+      "因式分解与判别式"
+    ],
+    "flow": [
+      "查a",
+      "查Δ",
+      "区间符号",
+      "端点与交集",
+      "顶点验算"
+    ],
+    "concept_relation": "查a；查Δ；区间符号；端点与交集；顶点验算",
+    "deep": [
+      "严格不等式排除零点；非严格不等式可包括真实零点。若题目还有x>0等附加条件，要将求得的区间与附加范围取交集，不能在最后一步忘掉原限制。",
+      "“对每个实数恒正”和“至少存在一个数使它为正”是不同量词。a>0时恒正要求最低点大于0，对应Δ<0；恒非负可允许最低点等于0，对应Δ≤0。参数使a=0的分支仍须另查。",
+      "例如k x²+x−1>0在k=0时就是x>1，不能仍使用含1/k的二次求根式。先讨论退化分支，才可使用后续判别式公式。",
+      "独立核验可用顶点配方或各区间的测试点。符号表与抛物线在横轴上、下的范围应相符。最终写区间时检查严格性；一个端点的等号错误，就可能使整个逻辑结论不正确。"
+    ],
+    "derive": [
+      "a≠0，Δ=b²−4ac；若两异根为r₁<r₂，则原式=a(x−r₁)(x−r₂)。",
+      "a>0且Δ>0时，原式≤0的解为[r₁,r₂]。",
+      "a>0的二次式恒正⇔Δ<0；恒非负⇔Δ≤0。"
+    ],
+    "examples": [
+      {
+        "q": "解x²−5x+6≤0。 条件：a=1。",
+        "given": "a=1。",
+        "analysis": "根分隔符号区间。",
+        "method": "分解并判乘积。",
+        "principle": "两异根上开口内非正。",
+        "steps": [
+          "(x−2)(x−3)≤0。",
+          "得2≤x≤3。"
+        ],
+        "ans": "[2,3]。",
+        "verification": "2.5代入为−0.25；0代入为6。",
+        "pitfall": "只答x=2或3。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.2",
+        "related_sections": []
+      },
+      {
+        "q": "解−x²+4x−3>0。 条件：a=−1。",
+        "given": "a=−1。",
+        "analysis": "取负号会翻不等号。",
+        "method": "化成上开口式。",
+        "principle": "负数反序。",
+        "steps": [
+          "x²−4x+3<0。",
+          "(x−1)(x−3)<0。"
+        ],
+        "ans": "(1,3)。",
+        "verification": "x=2原式为1；端点为0。",
+        "pitfall": "开口向下仍取外侧。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.2",
+        "related_sections": []
+      },
+      {
+        "q": "求k使x²+2x+k恒严格为正。 条件：x遍历R。",
+        "given": "x遍历R。",
+        "analysis": "最低点必须大于0。",
+        "method": "配方找最小值。",
+        "principle": "平方非负。",
+        "steps": [
+          "原式=(x+1)²+k−1。",
+          "最小值k−1>0，故k>1。"
+        ],
+        "ans": "k>1。",
+        "verification": "k=1在x=−1取0，不能纳入。",
+        "pitfall": "将恒正写为k≥1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "解x²−4>0。 条件：a=1。",
+        "given": "a=1。",
+        "analysis": "两根外为正。",
+        "method": "分解判号。",
+        "principle": "乘积符号。",
+        "steps": [
+          "(x−2)(x+2)>0。",
+          "取−2左侧或2右侧。"
+        ],
+        "ans": "x<−2或x>2。",
+        "verification": "0代入不满足。",
+        "pitfall": "取两根内。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.2",
+        "related_sections": []
+      },
+      {
+        "q": "解(x−3)²≤0。 条件：平方非负。",
+        "given": "平方非负。",
+        "analysis": "只能平方为零。",
+        "method": "令底数为零。",
+        "principle": "实数平方≥0。",
+        "steps": [
+          "(x−3)²=0。",
+          "x=3。"
+        ],
+        "ans": "{3}。",
+        "verification": "其他实数给正值。",
+        "pitfall": "将重根当无解。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.2",
+        "related_sections": []
+      },
+      {
+        "q": "解x²+x+1<0。 条件：a=1。",
+        "given": "a=1。",
+        "analysis": "无实根且上开口。",
+        "method": "用Δ或配方。",
+        "principle": "无根时符号同a。",
+        "steps": [
+          "Δ=−3。",
+          "原式=(x+1/2)²+3/4恒正。"
+        ],
+        "ans": "空集。",
+        "verification": "最低值3/4仍大于0。",
+        "pitfall": "无实根就猜有负区间。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.2",
+        "related_sections": []
+      },
+      {
+        "q": "解x²−x−6≥0且x>0。 条件：两个条件同时成立。",
+        "given": "两个条件同时成立。",
+        "analysis": "需要求交集。",
+        "method": "先分解再与正半轴相交。",
+        "principle": "联立为交集。",
+        "steps": [
+          "(x−3)(x+2)≥0，得x≤−2或x≥3。",
+          "与x>0相交。"
+        ],
+        "ans": "[3,∞)。",
+        "verification": "−3虽满足二次式，却违反第二条件。",
+        "pitfall": "漏掉附加范围。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "解−(x−1)²≥0。 条件：负平方恒非正。",
+      "given": "负平方恒非正。",
+      "analysis": "只有零点可能满足。",
+      "method": "转换成平方≤0。",
+      "principle": "平方非负。",
+      "steps": [
+        "(x−1)²≤0。",
+        "只能x=1。"
+      ],
+      "ans": "{1}。",
+      "verification": "1取0，0取−1。",
+      "pitfall": "把≥0误判为所有实数。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 6,
+      "primary_section": "6.2",
+      "related_sections": []
+    },
+    "exam": [
+      "先查是否真正为二次式，再按Δ分三种根情形",
+      "符号表前明确写a的正负，不生套“外正内负”",
+      "恒正参数题用顶点最小值检查严格边界"
+    ],
+    "quick": [
+      "查a",
+      "查Δ",
+      "区间符号",
+      "端点与交集",
+      "顶点验算"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录p6；教材p178",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_6.2",
+        "url": "https://openstax.org/books/intermediate-algebra-2e/pages/9-8-solve-quadratic-inequalities",
+        "page_or_section": "9-8-solve-quadratic-inequalities",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录p6；教材p178",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_6.2",
+        "url": "https://openstax.org/books/intermediate-algebra-2e/pages/9-8-solve-quadratic-inequalities",
+        "page_or_section": "9-8-solve-quadratic-inequalities",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先查是否真正为二次式，再按Δ分三种根情形",
+      "method": "配方找最小值。",
+      "principle": "平方非负。",
+      "worked_example_index": 2,
+      "verification": "k=1在x=−1取0，不能纳入。",
+      "pitfall": "将恒正写为k≥1。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由实根和开口求完整符号区间”的抽样复核：2.5代入为−0.25；0代入为6。；若出现“只答x=2或3。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“处理重根、无实根和恒正条件”的抽样复核：k=1在x=−1取0，不能纳入。；若出现“将恒正写为k≥1。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把≥0误判为所有实数。",
+        "correction": "{1}。",
+        "verification": "1取0，0取−1。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "二次式符号的三类图像",
+      "objects": [
+        "数轴或直角坐标系",
+        "边界与禁点",
+        "分区符号或可行区域",
+        "推导条件框"
+      ],
+      "relations": [
+        "两异根内外符号不同",
+        "重根接触横轴但不变号",
+        "无根上开口恒正"
+      ],
+      "labels": [
+        "a>0",
+        "Δ>0",
+        "Δ=0",
+        "Δ<0",
+        "r₁",
+        "r₂"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "先核对现有模型；不能用数值或条件不同的旧图直接替代",
+      "english": "Create an exact mathematical inequality diagram. Construct all lines, endpoints, signs and feasible regions deterministically. Distinguish excluded denominator roots from included numerator roots. Use open and closed endpoints consistently. Label Chinese text exactly as specified. Never approximate or invent a feasible boundary."
+    }
+  },
+  "6.3": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 6,
+    "section_id": "6.3",
+    "goals": [
+      "区分分子零点与分母禁点",
+      "用符号表并保留约分前的定义域"
+    ],
+    "prerequisites": [
+      "因式分解",
+      "分式的定义域"
+    ],
+    "flow": [
+      "原定义域",
+      "移项通分",
+      "临界点",
+      "各段符号",
+      "端点与回代"
+    ],
+    "concept_relation": "原定义域；移项通分；临界点；各段符号；端点与回代",
+    "deep": [
+      "约分只简化表达，不补回原先无定义的点。例如(x−1)/(x−1)在x≠1时等于1，但原分式在1仍无定义。即使最终条件允许等号，原来的空洞也不能填上。",
+      "跨过偶重根通常不变号，跨过奇重根才改变该因子的符号。若每经过一个临界点就机械交替正负，会在平方因子或公共因子题中出错。可先数重数，再用测试点独立验证。",
+      "若通分后分子恒为零，原分式在全部允许值上为零：严格正条件无解，非负条件则取原定义域。此时不宜再机械列两个分子根。",
+      "也可在Q≠0时同乘严格正的Q²，转成PQ与0比较；这一步不翻号，但必须保留Q≠0。尤其对于≥0，乘积在Q=0时也为0，会产生原题没有的候选值，最后必须删去。"
+    ],
+    "derive": [
+      "Q≠0时P/Q>0⇔PQ>0；P/Q≥0⇔PQ≥0。",
+      "分母根始终排除；允许等号时仅能加入原分母非零的分子根。",
+      "约分前后的表达式在原定义域内等价，而非自动具有相同定义域。"
+    ],
+    "examples": [
+      {
+        "q": "解(x−2)/(x+1)≥0。 条件：x≠−1。",
+        "given": "x≠−1。",
+        "analysis": "−1是禁点，2是可取等号的分子根。",
+        "method": "按三个区间判号。",
+        "principle": "同号相除为正。",
+        "steps": [
+          "x<−1为正，−1<x<2为负，x>2为正。",
+          "加入2并排除−1。"
+        ],
+        "ans": "(−∞,−1)∪[2,∞)。",
+        "verification": "−2给4，0给−2，2给0。",
+        "pitfall": "把−1填成实心点。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.3",
+        "related_sections": []
+      },
+      {
+        "q": "解1/(x−1)>2。 条件：x≠1。",
+        "given": "x≠1。",
+        "analysis": "先通分避免盲目乘分母。",
+        "method": "化成(3−2x)/(x−1)>0。",
+        "principle": "分式符号判定。",
+        "steps": [
+          "临界点1、3/2。",
+          "只有1<x<3/2时分子和分母同正，其他段为负。"
+        ],
+        "ans": "(1,3/2)。",
+        "verification": "1.25给4>2，2给1不满足。",
+        "pitfall": "只答x<1.5而漏x>1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.3",
+        "related_sections": []
+      },
+      {
+        "q": "解(x−1)²/[(x−1)(x+2)]≤0。 条件：x≠1、−2。",
+        "given": "x≠1、−2。",
+        "analysis": "约分不删去原禁点。",
+        "method": "约成(x−1)/(x+2)后判号。",
+        "principle": "约分需保留原定义域。",
+        "steps": [
+          "商在−2<x<1为负。",
+          "1使原式无定义，即使非严格号也不能取。"
+        ],
+        "ans": "(−2,1)。",
+        "verification": "0代入为负；1是0/0。",
+        "pitfall": "约分后错误纳入1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "解x/(x−3)>0。 条件：x≠3。",
+        "given": "x≠3。",
+        "analysis": "0与3分隔区间。",
+        "method": "同号区间。",
+        "principle": "商为正。",
+        "steps": [
+          "x<0时都负。",
+          "x>3时都正。"
+        ],
+        "ans": "(−∞,0)∪(3,∞)。",
+        "verification": "1代入为负。",
+        "pitfall": "严格号仍取0。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.3",
+        "related_sections": []
+      },
+      {
+        "q": "解1/x≤0。 条件：x≠0。",
+        "given": "x≠0。",
+        "analysis": "分子恒正且商不能等于0。",
+        "method": "使分母为负。",
+        "principle": "正除负为负。",
+        "steps": [
+          "x<0时满足。",
+          "0不允许，x>0不满足。"
+        ],
+        "ans": "(−∞,0)。",
+        "verification": "代−1得−1。",
+        "pitfall": "见≤号就纳入0。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.3",
+        "related_sections": []
+      },
+      {
+        "q": "解(x−2)/(x−2)>0。 条件：x≠2。",
+        "given": "x≠2。",
+        "analysis": "恒为1但有空洞。",
+        "method": "约分后保留禁点。",
+        "principle": "原式定义域不变。",
+        "steps": [
+          "x≠2时商为1。",
+          "这些允许值全部满足。"
+        ],
+        "ans": "R去掉2。",
+        "verification": "2不能代入。",
+        "pitfall": "答全体R。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.3",
+        "related_sections": []
+      },
+      {
+        "q": "解(x−1)²/(x+1)>0。 条件：x≠−1。",
+        "given": "x≠−1。",
+        "analysis": "平方因子在1处不变号但为0。",
+        "method": "取正分母段再去零点。",
+        "principle": "平方除零点外为正。",
+        "steps": [
+          "x>−1时商非负。",
+          "再排除1；x<−1时商负。"
+        ],
+        "ans": "(−1,1)∪(1,∞)。",
+        "verification": "0和2为正，1为0。",
+        "pitfall": "每过根都强行变号。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "将(x−2)/(x−3)≥0乘以(x−3)²后，为何仍要排除3？ 条件：原式x≠3。",
+      "given": "原式x≠3。",
+      "analysis": "乘积可能新增原禁点。",
+      "method": "比较原式与乘积在3的含义。",
+      "principle": "等价仅在原定义域内。",
+      "steps": [
+        "乘积(x−2)(x−3)在3为0。",
+        "但原式分母为0，无定义，故3要删去。"
+      ],
+      "ans": "定义域限制不能消失。",
+      "verification": "直接代回分母验证。",
+      "pitfall": "以乘积等于0为理由补回禁点。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 6,
+      "primary_section": "6.3",
+      "related_sections": []
+    },
+    "exam": [
+      "先写分母禁点清单，通分后再排临界点",
+      "符号表用测试值复核，偶重根不机械变号",
+      "最后单独检查每个端点，尤其约分消失的公共因子根"
+    ],
+    "quick": [
+      "原定义域",
+      "移项通分",
+      "临界点",
+      "各段符号",
+      "端点与回代"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录p6；教材p186",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_6.3",
+        "url": "https://openstax.org/books/intermediate-algebra-2e/pages/7-6-solve-rational-inequalities",
+        "page_or_section": "7-6-solve-rational-inequalities",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录p6；教材p186",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_6.3",
+        "url": "https://openstax.org/books/intermediate-algebra-2e/pages/7-6-solve-rational-inequalities",
+        "page_or_section": "7-6-solve-rational-inequalities",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先写分母禁点清单，通分后再排临界点",
+      "method": "约成(x−1)/(x+2)后判号。",
+      "principle": "约分需保留原定义域。",
+      "worked_example_index": 2,
+      "verification": "0代入为负；1是0/0。",
+      "pitfall": "约分后错误纳入1。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“区分分子零点与分母禁点”的抽样复核：−2给4，0给−2，2给0。；若出现“把−1填成实心点。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用符号表并保留约分前的定义域”的抽样复核：0代入为负；1是0/0。；若出现“约分后错误纳入1。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "以乘积等于0为理由补回禁点。",
+        "correction": "定义域限制不能消失。",
+        "verification": "直接代回分母验证。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "分式符号表与空洞",
+      "objects": [
+        "数轴或直角坐标系",
+        "边界与禁点",
+        "分区符号或可行区域",
+        "推导条件框"
+      ],
+      "relations": [
+        "−1为禁点空心",
+        "2在非严格号时可取",
+        "各段符号依次正负正"
+      ],
+      "labels": [
+        "(x−2)/(x+1)≥0",
+        "−1",
+        "2",
+        "+",
+        "−",
+        "+"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "先核对现有模型；不能用数值或条件不同的旧图直接替代",
+      "english": "Create an exact mathematical inequality diagram. Construct all lines, endpoints, signs and feasible regions deterministically. Distinguish excluded denominator roots from included numerator roots. Use open and closed endpoints consistently. Label Chinese text exactly as specified. Never approximate or invent a feasible boundary."
+    }
+  },
+  "6.4": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 6,
+    "section_id": "6.4",
+    "goals": [
+      "用边界和测试点确定半平面",
+      "求联立条件公共区域并核验交点"
+    ],
+    "prerequisites": [
+      "直线方程",
+      "坐标和交集"
+    ],
+    "flow": [
+      "边界",
+      "测试点",
+      "半平面",
+      "公共区域",
+      "交点复核"
+    ],
+    "concept_relation": "边界；测试点；半平面；公共区域；交点复核",
+    "deep": [
+      "严格号不含边界，非严格号含边界。绘图用虚线或实线，并配文字说明；不应只用颜色表达这个逻辑差别。联立条件取各半平面的公共部分，满足其中一条或大部分条款仍不够。",
+      "区域可能有界、无界、为空或退化。求出两条边界的交点后，还要将它代入所有剩余条件，因为交点不一定可行。应用题中非负、整数或最低产量等条件都属于模型，不能省略。",
+      "若变量还必须为整数，区域内只有格点才代表允许方案，边界上的分数坐标未必可用。几何区域描述连续约束，另列整数条件才完整。",
+      "最终可用区域图加边界交点和包含关系精确表达。各顶点坐标宜代回所有不等式核验；选择一个内部点和一个外部点可再检查阴影方向。这也为线性规划提供可行域和候选顶点。"
+    ],
+    "derive": [
+      "ax+by+c=0是边界；非严格号包含边界，严格号排除。",
+      "联立解集等于各半平面的交集。",
+      "测试点不能位于对应边界上；交点仍需满足全部约束。"
+    ],
+    "examples": [
+      {
+        "q": "表示x≥0、y≥0、x+y≤4的区域。 条件：包含坐标轴。",
+        "given": "包含坐标轴。",
+        "analysis": "三半平面取交集。",
+        "method": "用截距和原点。",
+        "principle": "线性不等式的半平面。",
+        "steps": [
+          "边界过(4,0)、(0,4)，原点满足。",
+          "与两非负条件取交。"
+        ],
+        "ans": "含边界三角形，顶点(0,0)、(4,0)、(0,4)。",
+        "verification": "(1,1)满足；(3,3)违反和的限制。",
+        "pitfall": "漏掉非负条件。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.4",
+        "related_sections": []
+      },
+      {
+        "q": "2x−y>0取y=2x哪一侧？ 条件：边界过原点。",
+        "given": "边界过原点。",
+        "analysis": "原点不能判侧。",
+        "method": "整理并以(1,0)验证。",
+        "principle": "严格号不含线。",
+        "steps": [
+          "等价于y<2x。",
+          "(1,0)代入为2>0。"
+        ],
+        "ans": "直线下方且不含边界。",
+        "verification": "(0,1)代入为−1，排除。",
+        "pitfall": "用原点测试后误判。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.4",
+        "related_sections": []
+      },
+      {
+        "q": "求x≥0、y≥0、x+y≤4、x+2y≤6的区域顶点。 条件：四个非严格约束。",
+        "given": "四个非严格约束。",
+        "analysis": "每个交点须核验。",
+        "method": "联立斜线并求轴截点。",
+        "principle": "公共半平面的边界交点。",
+        "steps": [
+          "斜线交于(2,2)。",
+          "有效轴截点为(4,0)、(0,3)，另有原点。"
+        ],
+        "ans": "(0,0)、(4,0)、(2,2)、(0,3)。",
+        "verification": "(0,4)违反x+2y≤6所以不取。",
+        "pitfall": "将每条线截距都当作顶点。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "x+y>2包含原点吗？ 条件：边界不过原点。",
+        "given": "边界不过原点。",
+        "analysis": "可用原点试真假。",
+        "method": "代入判断。",
+        "principle": "测试点判侧。",
+        "steps": [
+          "0>2为假。",
+          "取不含原点的那侧。"
+        ],
+        "ans": "不包含。",
+        "verification": "(3,0)满足。",
+        "pitfall": "未代回就凭图猜侧。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.4",
+        "related_sections": []
+      },
+      {
+        "q": "x≤3的边界及区域是什么？ 条件：y未出现。",
+        "given": "y未出现。",
+        "analysis": "边界竖直。",
+        "method": "按x大小判断。",
+        "principle": "竖线为常x。",
+        "steps": [
+          "边界x=3。",
+          "取左侧并含线。"
+        ],
+        "ans": "闭左半平面。",
+        "verification": "(2,100)同样满足。",
+        "pitfall": "强求y函数形式。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.4",
+        "related_sections": []
+      },
+      {
+        "q": "x+y≤1和x+y≥3能同时成立吗？ 条件：联立条件。",
+        "given": "联立条件。",
+        "analysis": "上下界矛盾。",
+        "method": "比较两个界。",
+        "principle": "交集需同时满足。",
+        "steps": [
+          "需3≤x+y≤1。",
+          "因3>1不可能。"
+        ],
+        "ans": "无解。",
+        "verification": "两平行半平面不相交。",
+        "pitfall": "错误取并集。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.4",
+        "related_sections": []
+      },
+      {
+        "q": "(2,1)是否满足x≥0、y≥0、x+y≤4、x+2y≤3？ 条件：需全部四条。",
+        "given": "需全部四条。",
+        "analysis": "满足前三条仍不够。",
+        "method": "逐条代入。",
+        "principle": "交集定义。",
+        "steps": [
+          "2、1非负，和3≤4。",
+          "x+2y=4>3。"
+        ],
+        "ans": "不满足。",
+        "verification": "明确失败的是最后一条。",
+        "pitfall": "只验一条斜边。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "边界x=2与y=2的交点是否必定是加上x+y≤3后的可行点？ 条件：交点为(2,2)。",
+      "given": "交点为(2,2)。",
+      "analysis": "第三条可能排除交点。",
+      "method": "代回所有约束。",
+      "principle": "可行点必须同时满足。",
+      "steps": [
+        "2+2=4。",
+        "4>3，违反第三条。"
+      ],
+      "ans": "不是。",
+      "verification": "两式取等号并不能保证其他式。",
+      "pitfall": "边界交点自动算可行顶点。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 6,
+      "primary_section": "6.4",
+      "related_sections": []
+    },
+    "exam": [
+      "画边界先注明含线与否，测试点必须离开边界",
+      "多个限制逐条取公共部分，不把并集当联立",
+      "写交点后立即代回全约束，并保留非负和整数条件"
+    ],
+    "quick": [
+      "边界",
+      "测试点",
+      "半平面",
+      "公共区域",
+      "交点复核"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录p6；教材p190",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_6.4",
+        "url": "https://openstax.org/books/contemporary-mathematics/pages/5-10-systems-of-linear-inequalities-in-two-variables",
+        "page_or_section": "5-10-systems-of-linear-inequalities-in-two-variables",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录p6；教材p190",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_6.4",
+        "url": "https://openstax.org/books/contemporary-mathematics/pages/5-10-systems-of-linear-inequalities-in-two-variables",
+        "page_or_section": "5-10-systems-of-linear-inequalities-in-two-variables",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "画边界先注明含线与否，测试点必须离开边界",
+      "method": "联立斜线并求轴截点。",
+      "principle": "公共半平面的边界交点。",
+      "worked_example_index": 2,
+      "verification": "(0,4)违反x+2y≤6所以不取。",
+      "pitfall": "将每条线截距都当作顶点。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用边界和测试点确定半平面”的抽样复核：(1,1)满足；(3,3)违反和的限制。；若出现“漏掉非负条件。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“求联立条件公共区域并核验交点”的抽样复核：(0,4)违反x+2y≤6所以不取。；若出现“将每条线截距都当作顶点。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "边界交点自动算可行顶点。",
+        "correction": "不是。",
+        "verification": "两式取等号并不能保证其他式。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "线性约束的公共区域",
+      "objects": [
+        "数轴或直角坐标系",
+        "边界与禁点",
+        "分区符号或可行区域",
+        "推导条件框"
+      ],
+      "relations": [
+        "四顶点为(0,0)(4,0)(2,2)(0,3)",
+        "(0,4)不得涂入",
+        "非严格边界全包含"
+      ],
+      "labels": [
+        "x≥0",
+        "y≥0",
+        "x+y≤4",
+        "x+2y≤6",
+        "(2,2)"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "先核对现有模型；不能用数值或条件不同的旧图直接替代",
+      "english": "Create an exact mathematical inequality diagram. Construct all lines, endpoints, signs and feasible regions deterministically. Distinguish excluded denominator roots from included numerator roots. Use open and closed endpoints consistently. Label Chinese text exactly as specified. Never approximate or invent a feasible boundary."
+    }
+  },
+  "6.5": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 6,
+    "section_id": "6.5",
+    "goals": [
+      "由文字建立资源限制与目标",
+      "求最值并审查整数、唯一性和无界情形"
+    ],
+    "prerequisites": [
+      "半平面公共区域",
+      "顶点与联立方程"
+    ],
+    "flow": [
+      "变量与单位",
+      "资源约束",
+      "可行顶点",
+      "目标值",
+      "整数与实际核查"
+    ],
+    "concept_relation": "变量与单位；资源约束；可行顶点；目标值；整数与实际核查",
+    "deep": [
+      "等值线px+qy=z彼此平行。平移到最后接触可行区域时得到极值；若与接触边平行，整条边都可能同样最优。最优值唯一并不保证最优点唯一，答案应区分值和方案。",
+      "无界可行域也不代表所有目标都无界。第一象限中x+y最小为0但无有限最大值。应检查某个可行方向是否让目标无限增长；空可行域则不存在方案，不能从不可行边界交点选利润。",
+      "连续最优解为分数时，直接四舍五入不保证可行或最优。小规模整数题可按某变量的有限范围枚举另一个变量的上界，再比较目标。最后把方案代回每项资源，写出数量和目标单位；本节数值均为原创教学模型。"
+    ],
+    "derive": [
+      "目标z=px+qy；非空有界多边形上，线性目标最值可在顶点取得。",
+      "若点是顶点的凸组合，目标值亦为相同权重的顶点目标值平均。",
+      "整数问题须另查整数可行点；舍入不是最优性证明。"
+    ],
+    "examples": [
+      {
+        "q": "x,y≥0、x+y≤4、x+2y≤6，最大化z=3x+2y。 条件：连续变量。",
+        "given": "连续变量。",
+        "analysis": "求可行顶点再比较。",
+        "method": "顶点目标值表。",
+        "principle": "线性目标顶点原理。",
+        "steps": [
+          "顶点为(0,0)、(4,0)、(2,2)、(0,3)。",
+          "目标值依次0、12、10、6。"
+        ],
+        "ans": "(4,0)取最大值12。",
+        "verification": "代回两资源得4≤4、4≤6；其余顶点较小。",
+        "pitfall": "不算目标就选坐标均较大的(2,2)。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.5",
+        "related_sections": []
+      },
+      {
+        "q": "x,y≥0且x+y≤5时，最大化2x+2y的最优方案唯一吗？ 条件：连续变量。",
+        "given": "连续变量。",
+        "analysis": "目标只依赖x+y。",
+        "method": "将目标写成2(x+y)。",
+        "principle": "等值线同线目标相同。",
+        "steps": [
+          "x+y最大为5。",
+          "边x+y=5上的所有非负点均取目标10。"
+        ],
+        "ans": "不唯一；整条边最优，最大值10。",
+        "verification": "(5,0)、(0,5)、(2.5,2.5)都给10。",
+        "pitfall": "只报两个端点而漏边。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.5",
+        "related_sections": []
+      },
+      {
+        "q": "非负整数x,y满足2x+3y≤7，最大化x+2y。 条件：x,y须整数。",
+        "given": "x,y须整数。",
+        "analysis": "连续最优不一定可取。",
+        "method": "按y枚举。",
+        "principle": "有限整数可行域比较。",
+        "steps": [
+          "y=0、1、2时最大x依次3、2、0。",
+          "相应目标3、4、4。"
+        ],
+        "ans": "最大4，方案(2,1)或(0,2)。",
+        "verification": "资源用量7与6均≤7，y≥3不可能。",
+        "pitfall": "把(0,7/3)舍入当作最优证明。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.5",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "x,y≥0、x+y≤3时，x+y最小多少？ 条件：原点可行。",
+        "given": "原点可行。",
+        "analysis": "非负和下界0。",
+        "method": "检查下界能否达到。",
+        "principle": "非负性。",
+        "steps": [
+          "x+y≥0。",
+          "(0,0)达到。"
+        ],
+        "ans": "0。",
+        "verification": "原点符合总量限制。",
+        "pitfall": "只比较斜边而漏原点。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.5",
+        "related_sections": []
+      },
+      {
+        "q": "仅有x,y≥0时，x+y有最大值吗？ 条件：没有资源上界。",
+        "given": "没有资源上界。",
+        "analysis": "存在目标无限增大的方向。",
+        "method": "构造(n,0)。",
+        "principle": "无界目标的定义。",
+        "steps": [
+          "任意n≥0都可行。",
+          "目标n可任意大。"
+        ],
+        "ans": "无有限最大值。",
+        "verification": "每个n都不违反约束。",
+        "pitfall": "按图画到的最大刻度作答。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.5",
+        "related_sections": []
+      },
+      {
+        "q": "甲每件2小时、乙每件3小时，可用18小时，写工时约束。 条件：件数x,y均非负。",
+        "given": "件数x,y均非负。",
+        "analysis": "消耗乘数量再相加。",
+        "method": "量纲分析。",
+        "principle": "总消耗不能超供给。",
+        "steps": [
+          "甲耗2x小时，乙耗3y小时。",
+          "2x+3y≤18且x,y≥0。"
+        ],
+        "ans": "2x+3y≤18及非负条件。",
+        "verification": "(9,0)恰好耗18小时。",
+        "pitfall": "交换系数或反写≥。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.5",
+        "related_sections": []
+      },
+      {
+        "q": "连续最优点(1.4,2.2)可直接舍入为整数最优点吗？ 条件：另要求整数。",
+        "given": "另要求整数。",
+        "analysis": "舍入可能不可行，也没有最优性保证。",
+        "method": "检查资源再比较整数候选。",
+        "principle": "整数条件改变可行点。",
+        "steps": [
+          "先将舍入点逐条代回。",
+          "即使可行，仍须与其他整数点比较。"
+        ],
+        "ans": "不能直接认定。",
+        "verification": "例如约束x+y≤3.6时舍入点(1,2)可行，但这不排除其他更优点。",
+        "pitfall": "用舍入替代整数搜索。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 6,
+        "primary_section": "6.5",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "可行域为空时能否给某边界交点的利润作为最大利润？ 条件：没有满足全部资源的方案。",
+      "given": "没有满足全部资源的方案。",
+      "analysis": "优化只能在可行点中进行。",
+      "method": "先判可行性。",
+      "principle": "可行解存在是最优的前提。",
+      "steps": [
+        "公共区域为空。",
+        "任何交点至少违反一条条件，不能作为方案。"
+      ],
+      "ans": "不能，应报告无可行方案。",
+      "verification": "重新核对互相矛盾的资源上下限。",
+      "pitfall": "忽略可行性直接比较利润。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 6,
+      "primary_section": "6.5",
+      "related_sections": []
+    },
+    "exam": [
+      "文字题先写变量、单位、整数要求，再列资源与目标",
+      "候选顶点必须先验可行，目标值列表逐个算",
+      "结论检查最优是否唯一、目标是否有界以及整数条件"
+    ],
+    "quick": [
+      "变量与单位",
+      "资源约束",
+      "可行顶点",
+      "目标值",
+      "整数与实际核查"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录p6；教材p198",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_6.5",
+        "url": "https://math.libretexts.org/Bookshelves/Applied_Mathematics/Applied_Finite_Mathematics_%28Sekhon_and_Bloom%29/03%3A_Linear_Programming_-_A_Geometric_Approach/3.01%3A_Maximization_Applications",
+        "page_or_section": "3.01%3A_Maximization_Applications",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+        "page": "目录p6；教材p198",
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_6.5",
+        "url": "https://math.libretexts.org/Bookshelves/Applied_Mathematics/Applied_Finite_Mathematics_%28Sekhon_and_Bloom%29/03%3A_Linear_Programming_-_A_Geometric_Approach/3.01%3A_Maximization_Applications",
+        "page_or_section": "3.01%3A_Maximization_Applications",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "文字题先写变量、单位、整数要求，再列资源与目标",
+      "method": "按y枚举。",
+      "principle": "有限整数可行域比较。",
+      "worked_example_index": 2,
+      "verification": "资源用量7与6均≤7，y≥3不可能。",
+      "pitfall": "把(0,7/3)舍入当作最优证明。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由文字建立资源限制与目标”的抽样复核：代回两资源得4≤4、4≤6；其余顶点较小。；若出现“不算目标就选坐标均较大的(2,2)。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“求最值并审查整数、唯一性和无界情形”的抽样复核：资源用量7与6均≤7，y≥3不可能。；若出现“把(0,7/3)舍入当作最优证明。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "忽略可行性直接比较利润。",
+        "correction": "不能，应报告无可行方案。",
+        "verification": "重新核对互相矛盾的资源上下限。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "顶点与目标等值线",
+      "objects": [
+        "数轴或直角坐标系",
+        "边界与禁点",
+        "分区符号或可行区域",
+        "推导条件框"
+      ],
+      "relations": [
+        "四顶点的目标依次0、12、10、6",
+        "最优(4,0)",
+        "目标线沿增值方向平行移动"
+      ],
+      "labels": [
+        "z=3x+2y",
+        "z最大=12",
+        "x+y≤4",
+        "x+2y≤6"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "先核对现有模型；不能用数值或条件不同的旧图直接替代",
+      "english": "Create an exact mathematical inequality diagram. Construct all lines, endpoints, signs and feasible regions deterministically. Distinguish excluded denominator roots from included numerator roots. Use open and closed endpoints consistently. Label Chinese text exactly as specified. Never approximate or invent a feasible boundary."
+    }
+  }
+}

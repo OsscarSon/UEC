@@ -1,0 +1,1825 @@
+{
+  "20.1": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 20,
+    "section_id": "20.1",
+    "goals": [
+      "将模型主张与可检验现象对应",
+      "说明几何光学、波动与量子描述的边界"
+    ],
+    "prerequisites": [
+      "反射折射",
+      "波和粒子的基本模型"
+    ],
+    "flow": [
+      "模型主张",
+      "几何极限",
+      "叠加证据",
+      "电磁横波",
+      "现代边界"
+    ],
+    "concept_relation": "模型主张；几何极限；叠加证据；电磁横波；现代边界",
+    "deep": [
+      "偏振进一步揭示光在通常传播模型中的横波特性；光的电磁理论把电场、磁场和传播联系起来。不能因为光可通过真空，就断言“所有波都必须靠物质介质，所以光一定不是波”，电磁场本身的传播与机械波介质要求不同。",
+      "现代光学中，光与物质交换能量还需光子等量子描述，经典波动理论也有适用限制。不能把“波动证据成立”写成所有粒子相关描述永久错误，或把光子当成没有干涉概率的经典弹丸。不同问题选择能支持其预测的模型，并明确不擅自扩展。",
+      "考试论述宜采用现象、模型解释、局限与可检验证据的结构，不虚构某年出题频率或历史精确实验数据。若问哪项实验支持波动性，答其为何需相位或波前叠加；若问几何光学有效范围，说明相对尺度，而不是单列一个人物姓名就算解释。"
+    ],
+    "derive": [
+      "几何光学常在λ远小于相关结构尺度时适用，并不排除波动本性。",
+      "相干光场叠加需先加振幅及相位，再求强度，不能无条件只加亮度。",
+      "经典微粒、经典波动及量子描述各有解释范围，不把一个现象扩为全部证明。"
+    ],
+    "examples": [
+      {
+        "q": "清晰影子是否只能由经典微粒模型解释？ 条件：障碍尺度远大于可见光波长。",
+        "given": "障碍尺度远大于可见光波长。",
+        "analysis": "波也有几何极限。",
+        "method": "比较竞争解释。",
+        "principle": "尺度近似。",
+        "steps": [
+          "波长相对结构很小时衍射扩展可较小。",
+          "波动模型也可近似给清晰几何影子。"
+        ],
+        "ans": "不是唯一证据。",
+        "verification": "要选能区分预测的实验。",
+        "pitfall": "一个现象只有一个可能模型。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.1",
+        "related_sections": []
+      },
+      {
+        "q": "两束光叠加出现稳定暗纹，为什么简单“亮度永远相加”不足？ 条件：相干、适合偏振及观测条件。",
+        "given": "相干、适合偏振及观测条件。",
+        "analysis": "场有相位。",
+        "method": "叠加振幅。",
+        "principle": "干涉。",
+        "steps": [
+          "反相场可局部相消。",
+          "强度空间重新分配，不能只将各强度正数相加。"
+        ],
+        "ans": "需相位叠加解释。",
+        "verification": "暗区不等全空间能量毁灭。",
+        "pitfall": "暗纹就是能量消失。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.1",
+        "related_sections": []
+      },
+      {
+        "q": "真空能传播光，能推出光绝不是波吗？ 条件：电磁波与机械波机制不同。",
+        "given": "电磁波与机械波机制不同。",
+        "analysis": "介质要求并非所有波同一。",
+        "method": "区分模型。",
+        "principle": "电磁场传播。",
+        "steps": [
+          "机械波常依物质介质。",
+          "电磁波可在真空传播，不能将前一限制强加。"
+        ],
+        "ans": "不能。",
+        "verification": "模型属性要针对具体波。",
+        "pitfall": "所有波都必须空气。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "波长与孔径相近时仍能无条件忽略衍射吗？ 条件：相对尺度不小。",
+        "given": "相对尺度不小。",
+        "analysis": "几何极限失效可能明显。",
+        "method": "审近似。",
+        "principle": "波传播。",
+        "steps": [
+          "边缘与孔径波前效应可能显著。",
+          "需波动分析而非直接几何直线。"
+        ],
+        "ans": "不能无条件。",
+        "verification": "尺度比而非仅绝对孔大小。",
+        "pitfall": "所有孔都只几何影子。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.1",
+        "related_sections": []
+      },
+      {
+        "q": "偏振主要支持普通传播光的横波还是纵波特性？ 条件：指电磁波偏振。",
+        "given": "指电磁波偏振。",
+        "analysis": "存在横向振动方向。",
+        "method": "与传播方向比较。",
+        "principle": "偏振定义。",
+        "steps": [
+          "电场振动方向可在横向选择。",
+          "是横波特性证据。"
+        ],
+        "ans": "横波。",
+        "verification": "不与电荷极化概念混淆。",
+        "pitfall": "光线方向就是偏振方向。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.1",
+        "related_sections": []
+      },
+      {
+        "q": "一种模型解释实验A，能据此保证实验B也全适用吗？ 条件：B涉及不同尺度或作用。",
+        "given": "B涉及不同尺度或作用。",
+        "analysis": "外推需验证。",
+        "method": "审范围。",
+        "principle": "科学建模。",
+        "steps": [
+          "解释A只给对应范围支持。",
+          "B需检查预测和实验。"
+        ],
+        "ans": "不能保证。",
+        "verification": "可提出假设但不冒充已证。",
+        "pitfall": "一次成功等全部正确。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.1",
+        "related_sections": []
+      },
+      {
+        "q": "现代光子描述等同完全无干涉的经典小弹丸吗？ 条件：比较量子与经典粒子。",
+        "given": "比较量子与经典粒子。",
+        "analysis": "模型不相同。",
+        "method": "限定概念。",
+        "principle": "量子光学。",
+        "steps": [
+          "光子统计可呈干涉等量子现象。",
+          "不能用经典不相干弹丸规则代替全部描述。"
+        ],
+        "ans": "不等同。",
+        "verification": "本章波动图用于相应现象，非全量子理论。",
+        "pitfall": "光子名词取消全部波动。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "解释波动证据只写“因为某科学家说光是波”足够吗？ 条件：要求物理解释。",
+      "given": "要求物理解释。",
+      "analysis": "权威名称不代机制。",
+      "method": "给现象与预测。",
+      "principle": "可检验模型。",
+      "steps": [
+        "应指出干涉、衍射或偏振等现象。",
+        "再说明相位、波前或横向方向如何产生观测结果。"
+      ],
+      "ans": "不足够。",
+      "verification": "历史姓名可作背景而非唯一论据。",
+      "pitfall": "背人物代解释。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 20,
+      "primary_section": "20.1",
+      "related_sections": []
+    },
+    "exam": [
+      "论述按现象→模型机制→适用边界，不以人名代推理",
+      "直线传播写尺度近似，干涉暗纹写相位及能量重新分配",
+      "经典与量子描述分层，不编造“全部推翻”结论"
+    ],
+    "quick": [
+      "模型主张",
+      "几何极限",
+      "叠加证据",
+      "电磁横波",
+      "现代边界"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 312,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_20.1",
+        "url": "https://openstax.org/books/college-physics-2e/pages/27-1-the-wave-aspect-of-light-interference",
+        "page_or_section": "27-1-the-wave-aspect-of-light-interference",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 312,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_20.1",
+        "url": "https://openstax.org/books/college-physics-2e/pages/27-1-the-wave-aspect-of-light-interference",
+        "page_or_section": "27-1-the-wave-aspect-of-light-interference",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "论述按现象→模型机制→适用边界，不以人名代推理",
+      "method": "区分模型。",
+      "principle": "电磁场传播。",
+      "worked_example_index": 2,
+      "verification": "模型属性要针对具体波。",
+      "pitfall": "所有波都必须空气。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“将模型主张与可检验现象对应”的抽样复核：要选能区分预测的实验。；若出现“一个现象只有一个可能模型。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“说明几何光学、波动与量子描述的边界”的抽样复核：模型属性要针对具体波。；若出现“所有波都必须空气。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "背人物代解释。",
+        "correction": "不足够。",
+        "verification": "历史姓名可作背景而非唯一论据。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "光学模型的证据与范围",
+      "objects": [
+        "几何影子",
+        "双缝条纹",
+        "偏振片",
+        "波长尺度条",
+        "量子交换说明框"
+      ],
+      "relations": [
+        "几何极限可由波动近似",
+        "干涉需相位",
+        "偏振显示横向方向",
+        "不画一个实验证明全部模型"
+      ],
+      "labels": [
+        "模型",
+        "预测",
+        "证据",
+        "适用范围"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "波动光学旧图需核缝宽/缝距、光程差、偏振轴及坐标；定量图必须由公式绘制",
+      "english": "Use deterministic wave-optics diagrams. Distinguish slit width from slit separation, phase from path difference, and time from position axes. Mark paraxial and coherence assumptions. Intensity is nonnegative and comes from field superposition; polarization axes are electric-field directions."
+    }
+  },
+  "20.2": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 20,
+    "section_id": "20.2",
+    "goals": [
+      "由光程差与初相差判断明暗",
+      "应用双缝间距并检相干、等幅和近轴条件"
+    ],
+    "prerequisites": [
+      "波叠加",
+      "三角与单位"
+    ],
+    "flow": [
+      "相干条件",
+      "总相位",
+      "场强度",
+      "双缝几何",
+      "测量与能量"
+    ],
+    "concept_relation": "相干条件；总相位；场强度；双缝几何；测量与能量",
+    "deep": [
+      "屏距L远大于缝距d且观察小角时，x_m≈mλL/d，相邻亮纹间隔Δx≈λL/d。这里d是两缝中心距，不能错用单缝宽a；x相对中央亮纹测，不是光从源到屏的整段路程。大角时应回sin、tan几何而非继续等距近似。",
+      "改变波长、屏距或缝距可依比例预测条纹间隔，须其余条件不变。在介质中若频率不变而波长缩短，应使用该介质中的λ；若某一条路径引入薄片，还会改变相对光程及中央位置，不能只把整个图按缩放理解。",
+      "暗纹没有光强不等于总能量消失，亮区与暗区是空间重新分布；若整屏积分，还需按完整光学系统和通量比较。实验读数宜跨多个间距测总长以减相对误差，但同样要数间隔而非条纹条数，并说明零级与正负级编号。"
+    ],
+    "derive": [
+      "同频相位差Δφ=2πΔr/λ+φ₀；异介质用相应光程。",
+      "I=I₁+I₂+2√(I₁I₂)cosΔφ；I_min=(√I₁−√I₂)²。",
+      "同相双缝d sinθ=mλ；近轴Δx≈λL/d，d为缝中心距。"
+    ],
+    "examples": [
+      {
+        "q": "λ600nm、L2.0m、d.50mm，近轴亮纹间距？ 条件：同相相干单色双缝，屏距远且小角。",
+        "given": "同相相干单色双缝，屏距远且小角。",
+        "analysis": "统一m。",
+        "method": "λL/d。",
+        "principle": "双缝几何。",
+        "steps": [
+          "λ=6×10⁻⁷m、d=5×10⁻⁴m。",
+          "Δx=6×10⁻⁷×2/(5×10⁻⁴)=.0024m。"
+        ],
+        "ans": "2.4mm。",
+        "verification": "L远大于d，所示间距远小于L。",
+        "pitfall": "缝距mm不换。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.2",
+        "related_sections": []
+      },
+      {
+        "q": "两相干束强度I₀和4I₀，极大极小多少？ 条件：偏振相同，理想稳定叠加。",
+        "given": "偏振相同，理想稳定叠加。",
+        "analysis": "振幅比1:2。",
+        "method": "平方和差。",
+        "principle": "强度公式。",
+        "steps": [
+          "I_max=(1+2)²I₀=9I₀。",
+          "I_min=(1−2)²I₀=I₀。"
+        ],
+        "ans": "9I₀、I₀。",
+        "verification": "不等强束反相也不全暗。",
+        "pitfall": "所有暗纹I必0。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.2",
+        "related_sections": []
+      },
+      {
+        "q": "路径差λ且初相差π，此处相长吗？ 条件：同介质同频且偏振可叠加。",
+        "given": "同介质同频且偏振可叠加。",
+        "analysis": "初相不能漏。",
+        "method": "总相位。",
+        "principle": "干涉。",
+        "steps": [
+          "Δφ=2π+π=3π。",
+          "为反相，等幅时完全相消。"
+        ],
+        "ans": "不是相长，属极小条件。",
+        "verification": "若默认初相0会误判。",
+        "pitfall": "只看路差整数λ。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "其他不变缝距加倍，条纹间距怎样？ 条件：近轴双缝。",
+        "given": "近轴双缝。",
+        "analysis": "反比d。",
+        "method": "比值。",
+        "principle": "Δx式。",
+        "steps": [
+          "Δx₂/Δx₁=d₁/d₂。",
+          "=1/2。"
+        ],
+        "ans": "减半。",
+        "verification": "不是单缝变宽效应。",
+        "pitfall": "按正比。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.2",
+        "related_sections": []
+      },
+      {
+        "q": "屏距加倍且其余不变，近轴间距？ 条件：近似仍成立。",
+        "given": "近似仍成立。",
+        "analysis": "正比L。",
+        "method": "比值。",
+        "principle": "双缝。",
+        "steps": [
+          "L₂/L₁=2。",
+          "间距2倍。"
+        ],
+        "ans": "2倍。",
+        "verification": "观察角间距本身不因此同增。",
+        "pitfall": "把屏距当波长。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.2",
+        "related_sections": []
+      },
+      {
+        "q": "从第1亮纹到第6相邻同侧亮纹距离12mm，平均间距？ 条件：连续级次，无漏纹。",
+        "given": "连续级次，无漏纹。",
+        "analysis": "六条五间隔。",
+        "method": "12/(6−1)。",
+        "principle": "测量计数。",
+        "steps": [
+          "5个间隔。",
+          "均值2.4mm。"
+        ],
+        "ans": "2.4mm。",
+        "verification": "不是2mm。",
+        "pitfall": "除条数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.2",
+        "related_sections": []
+      },
+      {
+        "q": "整个同一介质折射率从1到1.5、光源f不变，其他几何不变，间距比？ 条件：按同介质双缝简化，忽略额外边界光程差。",
+        "given": "按同介质双缝简化，忽略额外边界光程差。",
+        "analysis": "λ变为λ₀/n。",
+        "method": "比值。",
+        "principle": "v=fλ。",
+        "steps": [
+          "λ₂/λ₁=1/1.5=2/3。",
+          "Δx同为2/3。"
+        ],
+        "ans": "2/3。",
+        "verification": "不是频率增1.5倍。",
+        "pitfall": "介质中仍用真空λ。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "双缝d与每条缝宽a能在所有公式互换吗？ 条件：各量有不同几何角色。",
+      "given": "各量有不同几何角色。",
+      "analysis": "干涉中心距与衍射宽度不同。",
+      "method": "核定义。",
+      "principle": "波前几何。",
+      "steps": [
+        "d决定两源路径差。",
+        "a决定每缝内部相消和包络等，不能互换。"
+      ],
+      "ans": "不能。",
+      "verification": "图中两尺寸须分别标。",
+      "pitfall": "都叫缝就同一个距离。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 20,
+      "primary_section": "20.2",
+      "related_sections": []
+    },
+    "exam": [
+      "先核相干、偏振和初相，再由总相位判极值",
+      "数值式标近轴，d中心距不同a宽度，λ用传播介质值",
+      "等幅才全暗，跨纹测量数间隔，能量谈重新分布"
+    ],
+    "quick": [
+      "相干条件",
+      "总相位",
+      "场强度",
+      "双缝几何",
+      "测量与能量"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 315,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_20.2",
+        "url": "https://openstax.org/books/college-physics-2e/pages/27-3-youngs-double-slit-experiment",
+        "page_or_section": "27-3-youngs-double-slit-experiment",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 315,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_20.2",
+        "url": "https://openstax.org/books/college-physics-2e/pages/27-3-youngs-double-slit-experiment",
+        "page_or_section": "27-3-youngs-double-slit-experiment",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先核相干、偏振和初相，再由总相位判极值",
+      "method": "总相位。",
+      "principle": "干涉。",
+      "worked_example_index": 2,
+      "verification": "若默认初相0会误判。",
+      "pitfall": "只看路差整数λ。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由光程差与初相差判断明暗”的抽样复核：L远大于d，所示间距远小于L。；若出现“缝距mm不换。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“应用双缝间距并检相干、等幅和近轴条件”的抽样复核：若默认初相0会误判。；若出现“只看路差整数λ。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "都叫缝就同一个距离。",
+        "correction": "不能。",
+        "verification": "图中两尺寸须分别标。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "双缝光程差与强度",
+      "objects": [
+        "两缝中心距d",
+        "单缝宽a",
+        "屏距L",
+        "路径差",
+        "亮暗条纹",
+        "不等幅强度图"
+      ],
+      "relations": [
+        "中心差d sinθ",
+        "近轴间距λL/d",
+        "不等幅Imin非0",
+        "初相项明示"
+      ],
+      "labels": [
+        "d",
+        "a",
+        "L",
+        "Δφ",
+        "I_max",
+        "I_min"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "波动光学旧图需核缝宽/缝距、光程差、偏振轴及坐标；定量图必须由公式绘制",
+      "english": "Use deterministic wave-optics diagrams. Distinguish slit width from slit separation, phase from path difference, and time from position axes. Mark paraxial and coherence assumptions. Intensity is nonnegative and comes from field superposition; polarization axes are electric-field directions."
+    }
+  },
+  "20.3": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 20,
+    "section_id": "20.3",
+    "goals": [
+      "区分单缝暗纹与光栅主极大",
+      "由孔径尺度解释图样宽度和分辨限制"
+    ],
+    "prerequisites": [
+      "波前叠加",
+      "双缝与近轴几何"
+    ],
+    "flow": [
+      "孔径叠加",
+      "暗纹",
+      "中央宽",
+      "光栅级次",
+      "分辨模型"
+    ],
+    "concept_relation": "孔径叠加；暗纹；中央宽；光栅级次；分辨模型",
+    "deep": [
+      "光栅由许多等间距缝组成，相应主极大满足d sinθ=mλ，d为相邻缝中心距。缝数可使主极大更尖锐，但不把d替换成每缝宽a；线密度N_line给d=1/N_line，要统一每mm与每m。允许级次还需|mλ|≤d及实际观察条件。",
+      "衍射也限制分辨：圆孔径对非相干点源等条件下，常用Rayleigh判据角尺度约1.22λ/D，D为孔径直径。这是指定判据和模型的分辨标准，非所有仪器和算法的唯一绝对界。加大D或缩短λ可在相应条件下改善角分辨。",
+      "实验图题先辨单缝、双缝或光栅，再选暗/亮条件。若孔径小于某波长而第一暗纹方程无可达角，不应硬取sinθ>1；这反映当前条纹编号不可见而非波长成负。作图需区分定量公式区、近轴近似区与只表示趋势的示意。"
+    ],
+    "derive": [
+      "单缝暗纹a sinθ=mλ，m=±1,±2,…；中央宽≈2λL/a。",
+      "光栅主极大d sinθ=mλ，d=1/(线密度)，|mλ|≤d。",
+      "圆孔Rayleigh角≈1.22λ/D，仅限其适用光学与判据条件。"
+    ],
+    "examples": [
+      {
+        "q": "单缝a.20mm，λ600nm、L2m，近轴中央亮纹宽多少？ 条件：远场、单色、同相照明。",
+        "given": "远场、单色、同相照明。",
+        "analysis": "宽为两第一暗纹间。",
+        "method": "2λL/a。",
+        "principle": "单缝暗纹。",
+        "steps": [
+          "2×6×10⁻⁷×2/(2×10⁻⁴)=.012m。",
+          "换12mm。"
+        ],
+        "ans": "12mm。",
+        "verification": "单侧第一暗纹距中心6mm，二侧合12。",
+        "pitfall": "漏2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.3",
+        "related_sections": []
+      },
+      {
+        "q": "光栅500条/mm，λ.60μm，几何允许最大整数级次？ 条件：忽略包络消级等额外限制，询几何上限。",
+        "given": "忽略包络消级等额外限制，询几何上限。",
+        "analysis": "先求d。",
+        "method": "d=1/N。",
+        "principle": "主极大。",
+        "steps": [
+          "d=.002mm=2.0μm。",
+          "|m|≤2/.60=3.333，最大整数3。"
+        ],
+        "ans": "|m|max=3。",
+        "verification": "m4给sinθ1.2不可达。",
+        "pitfall": "500直接作d。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.3",
+        "related_sections": []
+      },
+      {
+        "q": "圆孔D.10m、λ500nm，Rayleigh近似角尺度？ 条件：非相干点源、圆孔适用模型，角小。",
+        "given": "非相干点源、圆孔适用模型，角小。",
+        "analysis": "直径不是半径。",
+        "method": "1.22λ/D。",
+        "principle": "衍射分辨。",
+        "steps": [
+          "1.22×5×10⁻⁷/.10。",
+          "=6.1×10⁻⁶rad。"
+        ],
+        "ans": "6.1×10⁻⁶rad。",
+        "verification": "孔径加倍则角尺度减半。",
+        "pitfall": "用半径或漏nm换算。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "同条件单缝宽减半，中央亮纹宽怎样？ 条件：远场近轴仍适用。",
+        "given": "远场近轴仍适用。",
+        "analysis": "反比a。",
+        "method": "比值。",
+        "principle": "宽度式。",
+        "steps": [
+          "新a=.5旧a。",
+          "宽度2倍。"
+        ],
+        "ans": "加倍。",
+        "verification": "窄孔扩展更大。",
+        "pitfall": "孔窄图更窄。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.3",
+        "related_sections": []
+      },
+      {
+        "q": "单缝暗纹式可以取m=0说中央暗吗？ 条件：同相照明单缝。",
+        "given": "同相照明单缝。",
+        "analysis": "公式的零级例外。",
+        "method": "核中心叠加。",
+        "principle": "波前。",
+        "steps": [
+          "中心各部分同相。",
+          "为中央极大，m0不在暗纹编号集合。"
+        ],
+        "ans": "不可以。",
+        "verification": "暗纹m非0必须写明。",
+        "pitfall": "全部整数照抄。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.3",
+        "related_sections": []
+      },
+      {
+        "q": "光栅d2μm、λ.60μm，三级主极大sinθ？ 条件：几何上可达。",
+        "given": "几何上可达。",
+        "analysis": "mλ/d。",
+        "method": "代入。",
+        "principle": "光栅。",
+        "steps": [
+          "3×.60/2=.90。",
+          "θ≈64.2°，不是近轴。"
+        ],
+        "ans": "sinθ=.90，θ约64.2°。",
+        "verification": "不可在此用sinθ≈θ的精确等距屏图。",
+        "pitfall": "大角还当小角。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.3",
+        "related_sections": []
+      },
+      {
+        "q": "两个仪器同λ，孔径D由.10变.20m，Rayleigh角比？ 条件：同适用模型。",
+        "given": "同适用模型。",
+        "analysis": "角反比D。",
+        "method": "比值。",
+        "principle": "判据。",
+        "steps": [
+          "θ₂/θ₁=.10/.20。",
+          "=1/2。"
+        ],
+        "ans": "减半。",
+        "verification": "较小角可辨更近点源。",
+        "pitfall": "角变大就是更好。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "单缝和光栅都出现整数m，能仅凭该符号决定是亮还是暗吗？ 条件：结构不同。",
+      "given": "结构不同。",
+      "analysis": "相消机制不同。",
+      "method": "先识装置。",
+      "principle": "波前叠加。",
+      "steps": [
+        "单缝m非零对应暗纹。",
+        "等距光栅主式整数m对应主亮纹，不能互换。"
+      ],
+      "ans": "不能。",
+      "verification": "图式对象先于代数相似。",
+      "pitfall": "记住mλ就一律亮。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 20,
+      "primary_section": "20.3",
+      "related_sections": []
+    },
+    "exam": [
+      "先识孔径结构再选亮暗方程，零级单独核",
+      "线密度先倒数换成d，a,d,D各几何角色分开",
+      "大角回三角式，中央宽两侧计，分辨结论标判据条件"
+    ],
+    "quick": [
+      "孔径叠加",
+      "暗纹",
+      "中央宽",
+      "光栅级次",
+      "分辨模型"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 329,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_20.3",
+        "url": "https://openstax.org/books/college-physics-2e/pages/27-5-single-slit-diffraction",
+        "page_or_section": "27-5-single-slit-diffraction",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 329,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_20.3",
+        "url": "https://openstax.org/books/college-physics-2e/pages/27-5-single-slit-diffraction",
+        "page_or_section": "27-5-single-slit-diffraction",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先识孔径结构再选亮暗方程，零级单独核",
+      "method": "1.22λ/D。",
+      "principle": "衍射分辨。",
+      "worked_example_index": 2,
+      "verification": "孔径加倍则角尺度减半。",
+      "pitfall": "用半径或漏nm换算。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“区分单缝暗纹与光栅主极大”的抽样复核：单侧第一暗纹距中心6mm，二侧合12。；若出现“漏2。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“由孔径尺度解释图样宽度和分辨限制”的抽样复核：孔径加倍则角尺度减半。；若出现“用半径或漏nm换算。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "记住mλ就一律亮。",
+        "correction": "不能。",
+        "verification": "图式对象先于代数相似。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "单缝与光栅图样对照",
+      "objects": [
+        "宽a单缝",
+        "间距d光栅",
+        "单缝强度包络",
+        "光栅主峰",
+        "屏与角"
+      ],
+      "relations": [
+        "单缝中央宽约旁间距2倍",
+        "m0中心亮",
+        "光栅整数主亮",
+        "dλm几何可达限制"
+      ],
+      "labels": [
+        "a",
+        "d",
+        "中央宽",
+        "暗纹",
+        "主极大",
+        "非比例示意"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "波动光学旧图需核缝宽/缝距、光程差、偏振轴及坐标；定量图必须由公式绘制",
+      "english": "Use deterministic wave-optics diagrams. Distinguish slit width from slit separation, phase from path difference, and time from position axes. Mark paraxial and coherence assumptions. Intensity is nonnegative and comes from field superposition; polarization axes are electric-field directions."
+    }
+  },
+  "20.4": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 20,
+    "section_id": "20.4",
+    "goals": [
+      "由电场振动方向解释偏振",
+      "逐片应用强度关系并核布儒斯特角条件"
+    ],
+    "prerequisites": [
+      "横波",
+      "振幅与强度",
+      "折射"
+    ],
+    "flow": [
+      "横向电场",
+      "片轴投影",
+      "逐片强度",
+      "反射偏振",
+      "旋光应用"
+    ],
+    "concept_relation": "横向电场；片轴投影；逐片强度；反射偏振；旋光应用",
+    "deep": [
+      "在满足相应介质条件的反射问题中，布儒斯特角满足tanθ_B=n₂/n₁，此时反射与折射光线成直角。理想反射光为垂直入射面的线偏振，入射面由入射线与法线确定。该结论针对相应透明、各向同性等简化界面，不能对任何吸收金属任意套用。",
+      "旋光性物质可使线偏振方向在给定条件下转动，转角会受光程、浓度、波长及材料状态影响。检偏器亮暗改变应先考虑偏振方向与轴夹角，而非立即断定光源变强。使用实测旋光关系时必须保留其单位和条件，不能把不同波长的数据当同一常数。",
+      "应用题要将每一步的入射状态写清：是否非偏振、经过哪片、当前强度及方向。偏振减眩利用反射光的偏振特征，但减眩并不自动证明镜片有合格的紫外防护性能。理想全暗也是模型结论，真实漏光、散射及片材损耗需要另列误差而不伪造为理想定律失效。"
+    ],
+    "derive": [
+      "线偏振入射理想检偏片：I出=I入cos²θ。",
+      "非偏振光过理想第一片：I₁=I₀/2；后片按相邻轴角逐次投影。",
+      "布儒斯特角tanθ_B=n₂/n₁，适用界面中反射与折射线互成90°。"
+    ],
+    "examples": [
+      {
+        "q": "线偏振光强80W/m²，与理想片轴60°，输出强度？ 条件：入射偏振已确定，忽略其他损耗。",
+        "given": "入射偏振已确定，忽略其他损耗。",
+        "analysis": "振幅投影后平方。",
+        "method": "Malus定律。",
+        "principle": "I正比E²。",
+        "steps": [
+          "cos60°=.5。",
+          "I=80×.25=20W/m²。"
+        ],
+        "ans": "20W/m²。",
+        "verification": "输入输出比1/4且不大于1。",
+        "pitfall": "只乘cos一次。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.4",
+        "related_sections": []
+      },
+      {
+        "q": "非偏振I₀依次过轴0°、45°、90°三理想片，输出比？ 条件：角均指横向透光轴。",
+        "given": "角均指横向透光轴。",
+        "analysis": "第一片半强，后两夹角均45°。",
+        "method": "逐片相乘。",
+        "principle": "偏振投影。",
+        "steps": [
+          "I₁=I₀/2，I₂=I₁/2=I₀/4。",
+          "I₃=I₂/2=I₀/8。"
+        ],
+        "ans": "I₀/8。",
+        "verification": "若无中间片则两交叉片理想为0，不表示第三片增能。",
+        "pitfall": "第一片漏除2或末片仍对最初轴算90°。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.4",
+        "related_sections": []
+      },
+      {
+        "q": "光由n₁1介质入n₂√3介质，布儒斯特入射角及折射角？ 条件：满足透明各向同性非磁性界面模型。",
+        "given": "满足透明各向同性非磁性界面模型。",
+        "analysis": "先tan再互余。",
+        "method": "布儒斯特条件。",
+        "principle": "反射折射正交。",
+        "steps": [
+          "tanθ_B=√3，θ_B=60°。",
+          "折射角r=90°−60°=30°。"
+        ],
+        "ans": "60°、30°，均对法线。",
+        "verification": "Snell：sin60°=√3sin30°。",
+        "pitfall": "角从界面量或反射偏振沿入射面。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "非偏振100W/m²过一理想片后？ 条件：无其他损耗。",
+        "given": "无其他损耗。",
+        "analysis": "方向统计平均。",
+        "method": "减半。",
+        "principle": "平均cos²=1/2。",
+        "steps": [
+          "I₁=100/2。",
+          "方向沿透光轴。"
+        ],
+        "ans": "50W/m²线偏振光。",
+        "verification": "旋转单片对理想非偏振平均强度不改变。",
+        "pitfall": "取cos0得到全透。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.4",
+        "related_sections": []
+      },
+      {
+        "q": "同轴两理想片，原非偏振I₀，第二片输出？ 条件：片轴平行。",
+        "given": "片轴平行。",
+        "analysis": "第一片半，第二片角0。",
+        "method": "连续投影。",
+        "principle": "Malus。",
+        "steps": [
+          "I₁=I₀/2。",
+          "I₂=I₁cos²0=I₀/2。"
+        ],
+        "ans": "I₀/2。",
+        "verification": "第二片不是再次统计减半。",
+        "pitfall": "每片永远减半。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.4",
+        "related_sections": []
+      },
+      {
+        "q": "线偏振强度I经片后I/4，最小非负轴角？ 条件：0到90°内，理想片。",
+        "given": "0到90°内，理想片。",
+        "analysis": "cos²θ=1/4。",
+        "method": "反求角。",
+        "principle": "投影。",
+        "steps": [
+          "cosθ=1/2。",
+          "θ=60°。"
+        ],
+        "ans": "60°。",
+        "verification": "代回cos²=.25。",
+        "pitfall": "求cos⁻¹1/4。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.4",
+        "related_sections": []
+      },
+      {
+        "q": "已知旋光样品将方向转30°，检偏片仍沿原方向，强度比？ 条件：样品仅转向，不吸收；入射为线偏振。",
+        "given": "样品仅转向，不吸收；入射为线偏振。",
+        "analysis": "片与新方向夹30°。",
+        "method": "Malus。",
+        "principle": "场投影。",
+        "steps": [
+          "I出/I样品出=cos²30°。",
+          "=3/4。"
+        ],
+        "ans": "3/4。",
+        "verification": "是相对样品后强度，不无条件相对原非偏振源。",
+        "pitfall": "用sin²或把转角当损耗率。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "偏振方向能画成沿传播箭头吗？ 条件：普通横向平面电磁波。",
+      "given": "普通横向平面电磁波。",
+      "analysis": "电场轴与前进方向区分。",
+      "method": "用正交关系审图。",
+      "principle": "偏振定义。",
+      "steps": [
+        "传播方向与E垂直。",
+        "偏振轴沿E振动方向，应在横向平面。"
+      ],
+      "ans": "不能。",
+      "verification": "轴可以上下或左右横向，而非沿光线。",
+      "pitfall": "将光线箭头当振动方向。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 20,
+      "primary_section": "20.4",
+      "related_sections": []
+    },
+    "exam": [
+      "每片前注明偏振状态、方向及当前强度，再取相邻轴夹角",
+      "强度乘cos²，非偏振只在第一片用平均减半",
+      "布儒斯特角对法线，检Snell与互余，不把减眩当UV认证"
+    ],
+    "quick": [
+      "横向电场",
+      "片轴投影",
+      "逐片强度",
+      "反射偏振",
+      "旋光应用"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 341,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_20.4",
+        "url": "https://openstax.org/books/college-physics-2e/pages/27-8-polarization",
+        "page_or_section": "27-8-polarization",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 341,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_20.4",
+        "url": "https://openstax.org/books/college-physics-2e/pages/27-8-polarization",
+        "page_or_section": "27-8-polarization",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "每片前注明偏振状态、方向及当前强度，再取相邻轴夹角",
+      "method": "布儒斯特条件。",
+      "principle": "反射折射正交。",
+      "worked_example_index": 2,
+      "verification": "Snell：sin60°=√3sin30°。",
+      "pitfall": "角从界面量或反射偏振沿入射面。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由电场振动方向解释偏振”的抽样复核：输入输出比1/4且不大于1。；若出现“只乘cos一次。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“逐片应用强度关系并核布儒斯特角条件”的抽样复核：Snell：sin60°=√3sin30°。；若出现“角从界面量或反射偏振沿入射面。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "将光线箭头当振动方向。",
+        "correction": "不能。",
+        "verification": "轴可以上下或左右横向，而非沿光线。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "偏振轴与逐片强度",
+      "objects": [
+        "沿z传播光",
+        "横向电场轴",
+        "0°45°90°三片",
+        "逐片强度标签",
+        "布儒斯特界面"
+      ],
+      "relations": [
+        "非偏振第一片I₀/2",
+        "后两片各乘1/2至I₀/8",
+        "E轴垂直传播",
+        "布儒斯特反射折射互垂"
+      ],
+      "labels": [
+        "透光轴",
+        "E",
+        "I₀/2",
+        "I₀/4",
+        "I₀/8",
+        "θ_B",
+        "法线"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "波动光学旧图需核缝宽/缝距、光程差、偏振轴及坐标；定量图必须由公式绘制",
+      "english": "Use deterministic wave-optics diagrams. Distinguish slit width from slit separation, phase from path difference, and time from position axes. Mark paraxial and coherence assumptions. Intensity is nonnegative and comes from field superposition; polarization axes are electric-field directions."
+    }
+  },
+  "20.5": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 20,
+    "section_id": "20.5",
+    "goals": [
+      "连接电磁场方向、波速与频率波长",
+      "区分光子能量、光束强度及谱段边界"
+    ],
+    "prerequisites": [
+      "波速关系",
+      "科学记数法",
+      "能量单位"
+    ],
+    "flow": [
+      "场正交",
+      "波速关系",
+      "谱段排序",
+      "单光子能量",
+      "介质与应用"
+    ],
+    "concept_relation": "场正交；波速关系；谱段排序；单光子能量；介质与应用",
+    "deep": [
+      "光子能量E光子=hf=hc/λ，频率越高单个光子能量越大。光束强度还取决于单位时间和面积内输送的总能量，低频束可因光子数更多而强度大；不能从单光子能量大小直接判断两束总功率。题目需先辨所问是单粒子、每秒还是每面积。",
+      "光进入介质，跨静止界面频率通常不变，波长和相速度随介质响应改变。简单模型v=c/n再配v=fλ；真实色散介质的相速度与群速度并非总一致。因此光谱计算写清真空波长或介质中波长，短脉冲飞行时间不能无条件当同一相折射率测量。",
+      "辐射与物质作用取决于频率、强度、暴露条件及材料。电离与非电离的区别不能化成“非电离任何强度都绝对安全”，也不能把高频一概说对所有物质穿透最强。考试应用应把具体相互作用、数值和限制连起来，不背一条没有介质条件的绝对排序。"
+    ],
+    "derive": [
+      "真空c=fλ，E₀=cB₀；E、B、传播方向互垂，传播方向沿E×B。",
+      "单光子E=hf=hc/λ；光束强度还依光子流量。",
+      "简单介质相速度v=c/n且v=fλ；频率跨静止界面不变，注意色散与群速度。"
+    ],
+    "examples": [
+      {
+        "q": "真空波长3.0cm的电磁波频率？ 条件：c=3.0×10⁸m/s。",
+        "given": "c=3.0×10⁸m/s。",
+        "analysis": "cm转m。",
+        "method": "f=c/λ。",
+        "principle": "波速。",
+        "steps": [
+          "λ=.030m。",
+          "f=3.0×10⁸/.030=1.0×10¹⁰Hz。"
+        ],
+        "ans": "10GHz。",
+        "verification": "fλ=3.0×10⁸m/s。",
+        "pitfall": "3cm当3m或频率越高跑越快。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.5",
+        "related_sections": []
+      },
+      {
+        "q": "300nm真空光的单光子能量及eV值？ 条件：h=6.63×10⁻³⁴J·s，c3×10⁸，1eV=1.60×10⁻¹⁹J。",
+        "given": "h=6.63×10⁻³⁴J·s，c3×10⁸，1eV=1.60×10⁻¹⁹J。",
+        "analysis": "先每个光子J再换eV。",
+        "method": "hc/λ。",
+        "principle": "量子能量。",
+        "steps": [
+          "E=6.63×10⁻³⁴×3×10⁸/(3×10⁻⁷)=6.63×10⁻¹⁹J。",
+          "除1.60×10⁻¹⁹得4.14eV。"
+        ],
+        "ans": "6.63×10⁻¹⁹J，约4.14eV。",
+        "verification": "波长若倍增能量减半。",
+        "pitfall": "把能量与λ成正比。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.5",
+        "related_sections": []
+      },
+      {
+        "q": "真空平面行波B₀=1.0μT，E₀多大？ 条件：使用理想真空行波，c3×10⁸。",
+        "given": "使用理想真空行波，c3×10⁸。",
+        "analysis": "单位不同但幅值成c倍。",
+        "method": "E₀=cB₀。",
+        "principle": "电磁波。",
+        "steps": [
+          "B₀=1×10⁻⁶T。",
+          "E₀=3×10⁸×10⁻⁶=300V/m。"
+        ],
+        "ans": "300V/m。",
+        "verification": "E₀/B₀=3×10⁸m/s。",
+        "pitfall": "画等高就写E=B。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.5",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "真空λ减为原1/3，f与单光子E如何？ 条件：其他基本常数不变。",
+        "given": "其他基本常数不变。",
+        "analysis": "两量反比λ。",
+        "method": "比值。",
+        "principle": "c=fλ、E=hf。",
+        "steps": [
+          "f变3倍。",
+          "单光子E也3倍，速度仍c。"
+        ],
+        "ans": "f、E各3倍，速度不变。",
+        "verification": "乘积fλ仍c。",
+        "pitfall": "速度也3倍。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.5",
+        "related_sections": []
+      },
+      {
+        "q": "真空600nm光入n1.5简单介质，频率及介质波长？ 条件：界面静止，c3×10⁸，相折射率给定。",
+        "given": "界面静止，c3×10⁸，相折射率给定。",
+        "analysis": "先f再λ介。",
+        "method": "频率连续。",
+        "principle": "v=fλ。",
+        "steps": [
+          "f=3×10⁸/(6×10⁻⁷)=5×10¹⁴Hz。",
+          "λ介=600/1.5=400nm。"
+        ],
+        "ans": "5×10¹⁴Hz，400nm。",
+        "verification": "v=2×10⁸m/s=fλ介。",
+        "pitfall": "频率除n。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.5",
+        "related_sections": []
+      },
+      {
+        "q": "束A每光子2eV、每秒N个，束B每光子4eV、每秒N/4个，功率比B/A？ 条件：只比较光子总能流。",
+        "given": "只比较光子总能流。",
+        "analysis": "单能量与流量相乘。",
+        "method": "P=每光子能量×粒子流。",
+        "principle": "能量率。",
+        "steps": [
+          "P_A=2N eV/s。",
+          "P_B=4N/4=N eV/s。"
+        ],
+        "ans": "B/A=1/2。",
+        "verification": "高单光子能量不保证高总功率。",
+        "pitfall": "只比4/2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.5",
+        "related_sections": []
+      },
+      {
+        "q": "真空中电场沿+x、磁场沿+y，能量传播方向？ 条件：瞬时两场方向，右手坐标。",
+        "given": "瞬时两场方向，右手坐标。",
+        "analysis": "叉乘方向。",
+        "method": "E×B。",
+        "principle": "电磁能流。",
+        "steps": [
+          "x叉乘y指+z。",
+          "传播沿+z且与两场垂直。"
+        ],
+        "ans": "+z。",
+        "verification": "反转一个场方向会反转叉乘。",
+        "pitfall": "E和传播同向。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.5",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "无线电与γ在真空传播，可说γ必跑更快吗？ 条件：均指真空自由传播。",
+      "given": "均指真空自由传播。",
+      "analysis": "谱段改变f和λ不改c。",
+      "method": "比较共同波速。",
+      "principle": "真空电磁波。",
+      "steps": [
+        "两者都以c传播。",
+        "γ通常单光子能量高，但速度不因此高。"
+      ],
+      "ans": "不能，波速同c。",
+      "verification": "fλ各为c。",
+      "pitfall": "能量高必速度高。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 20,
+      "primary_section": "20.5",
+      "related_sections": []
+    },
+    "exam": [
+      "先辨单光子能量、总功率或强度，再选hf与流量",
+      "真空用c，介质注明n及相/群条件，单位先统一",
+      "谱段顺序可记但边界和穿透性不能无条件绝对化"
+    ],
+    "quick": [
+      "场正交",
+      "波速关系",
+      "谱段排序",
+      "单光子能量",
+      "介质与应用"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 349,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_20.5",
+        "url": "https://openstax.org/books/college-physics-2e/pages/24-3-the-electromagnetic-spectrum",
+        "page_or_section": "24-3-the-electromagnetic-spectrum",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 349,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_20.5",
+        "url": "https://openstax.org/books/college-physics-2e/pages/24-3-the-electromagnetic-spectrum",
+        "page_or_section": "24-3-the-electromagnetic-spectrum",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先辨单光子能量、总功率或强度，再选hf与流量",
+      "method": "E₀=cB₀。",
+      "principle": "电磁波。",
+      "worked_example_index": 2,
+      "verification": "E₀/B₀=3×10⁸m/s。",
+      "pitfall": "画等高就写E=B。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“连接电磁场方向、波速与频率波长”的抽样复核：fλ=3.0×10⁸m/s。；若出现“3cm当3m或频率越高跑越快。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分光子能量、光束强度及谱段边界”的抽样复核：E₀/B₀=3×10⁸m/s。；若出现“画等高就写E=B。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "能量高必速度高。",
+        "correction": "不能，波速同c。",
+        "verification": "fλ各为c。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "电磁场方向与电磁谱",
+      "objects": [
+        "右手三轴E B传播",
+        "对数频率与波长轴",
+        "各谱段",
+        "单光子与光束对照"
+      ],
+      "relations": [
+        "E B传播互垂且E叉B向前",
+        "f升λ降",
+        "真空各段c相同",
+        "单能与总强度分开"
+      ],
+      "labels": [
+        "E₀=cB₀",
+        "c=fλ",
+        "E光子=hf",
+        "谱段边界有约定"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "波动光学旧图需核缝宽/缝距、光程差、偏振轴及坐标；定量图必须由公式绘制",
+      "english": "Use deterministic wave-optics diagrams. Distinguish slit width from slit separation, phase from path difference, and time from position axes. Mark paraxial and coherence assumptions. Intensity is nonnegative and comes from field superposition; polarization axes are electric-field directions."
+    }
+  },
+  "20.6": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 20,
+    "section_id": "20.6",
+    "goals": [
+      "从路径及时间建立测光速模型",
+      "识别往返、仪器延迟与介质条件"
+    ],
+    "prerequisites": [
+      "速度定义",
+      "周期与频率",
+      "有效数字"
+    ],
+    "flow": [
+      "计时难点",
+      "路径时间链",
+      "周期遮挡",
+      "差分校准",
+      "定义与误差"
+    ],
+    "concept_relation": "计时难点；路径时间链；周期遮挡；差分校准；定义与误差",
+    "deep": [
+      "理想等宽齿与缝轮有N齿及N缝，以f转每秒旋转，光由某缝出发、第一次返回恰被相邻齿遮住时，轮转过1/(2N)圈。于是往返时间1/(2Nf)，联立2D/c得c=4DNf。这依赖“第一次相邻齿消光”和几何条件，其他更高阶消光频率不能不加说明用同一式。",
+      "介质中光传播与真空不同。简单单色模型用相速度c/n，而脉冲飞行测量通常涉及群延迟，色散时两者不能无条件相等。空气测量若近似真空须说明允许误差，不能以一个空气实验有限精度值改写真空常数定义。",
+      "SI中真空光速精确规定为299792458m/s，这不表示任何测光速实验都没有误差。长度、计时、路径折返和仪器校准仍有不确定度，计算时按数据保留有效数字。最后检时间单位、单程往返和延迟符号，若扣延迟后非正，应先查模型或数据而非报告负光速。"
+    ],
+    "derive": [
+      "同路往返v=2D/Δt；有固定延迟时Δt=t测−t₀。",
+      "理想N齿等宽齿缝轮首次相邻齿消光：Δt=1/(2Nf)，c=4DNf。",
+      "SI真空c=299792458m/s为精确规定；实验读数及介质修正仍有不确定度。"
+    ],
+    "examples": [
+      {
+        "q": "反射器距1.50km，往返光行时间10.0μs，速度？ 条件：忽略介质修正与仪器延迟的示例。",
+        "given": "忽略介质修正与仪器延迟的示例。",
+        "analysis": "路程是两倍距离。",
+        "method": "v=2D/t。",
+        "principle": "平均速率定义。",
+        "steps": [
+          "2D=3000m，t=1.00×10⁻⁵s。",
+          "v=3000/10⁻⁵=3.00×10⁸m/s。"
+        ],
+        "ans": "3.00×10⁸m/s。",
+        "verification": "单程5μs对应1500m。",
+        "pitfall": "漏往返2或μs当ms。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.6",
+        "related_sections": []
+      },
+      {
+        "q": "反射器距3.00km，测总时间22.0μs，校准固定延迟2.0μs，求光速估计。 条件：实际传播仅占扣延迟后的时间。",
+        "given": "实际传播仅占扣延迟后的时间。",
+        "analysis": "先扣t₀。",
+        "method": "2D/(t测−t₀)。",
+        "principle": "时间链分离。",
+        "steps": [
+          "Δt=20.0μs，路程6000m。",
+          "v=6000/(20×10⁻⁶)=3.0×10⁸m/s。"
+        ],
+        "ans": "约3.0×10⁸m/s。",
+        "verification": "22μs含2μs仪器，直接除会低估。",
+        "pitfall": "延迟再加上去。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.6",
+        "related_sections": []
+      },
+      {
+        "q": "理想轮N600齿、D8.00km，首次相邻齿消光频率15.625Hz，模型c？ 条件：齿与缝等宽，自编原理示例，非历史测量数据。",
+        "given": "齿与缝等宽，自编原理示例，非历史测量数据。",
+        "analysis": "半齿缝周期对应往返。",
+        "method": "4DNf。",
+        "principle": "轮角位移计时。",
+        "steps": [
+          "c=4×8000×600×15.625。",
+          "=3.00×10⁸m/s。"
+        ],
+        "ans": "3.00×10⁸m/s。",
+        "verification": "t=1/(1200×15.625)=5.333×10⁻⁵s；16000/t同值。",
+        "pitfall": "把一次齿缝间隔用整圈。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.6",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "往返时间20μs、v3×10⁸，反射器距离？ 条件：延迟已扣除。",
+        "given": "延迟已扣除。",
+        "analysis": "路程2D。",
+        "method": "D=vt/2。",
+        "principle": "飞行时间。",
+        "steps": [
+          "vt=6000m。",
+          "D=3000m。"
+        ],
+        "ans": "3.0km。",
+        "verification": "往返6000m。",
+        "pitfall": "把6000m作单程。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.6",
+        "related_sections": []
+      },
+      {
+        "q": "增加反射器距离ΔD1500m，测往返时间增10μs，固定延迟不变，速度？ 条件：比较同仪器两次测量。",
+        "given": "比较同仪器两次测量。",
+        "analysis": "差分消固定项。",
+        "method": "v=2ΔD/Δt。",
+        "principle": "线性测量。",
+        "steps": [
+          "2ΔD=3000m。",
+          "除10⁻⁵s得3×10⁸m/s。"
+        ],
+        "ans": "3×10⁸m/s。",
+        "verification": "共同截距已相消。",
+        "pitfall": "还重复扣两次延迟。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.6",
+        "related_sections": []
+      },
+      {
+        "q": "在n1.50无色散简化介质，单程1.0m飞行时间？ 条件：c3×10⁸，按v=c/n模型。",
+        "given": "c3×10⁸，按v=c/n模型。",
+        "analysis": "v2×10⁸。",
+        "method": "t=D/v。",
+        "principle": "均匀传播。",
+        "steps": [
+          "t=1/(2×10⁸)s。",
+          "=5.0ns。"
+        ],
+        "ans": "5.0ns。",
+        "verification": "相对真空约3.33ns较长。",
+        "pitfall": "把n乘到速度。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.6",
+        "related_sections": []
+      },
+      {
+        "q": "精确规定c是否代表实验测量自动没有误差？ 条件：区分SI定义与操作测量。",
+        "given": "区分SI定义与操作测量。",
+        "analysis": "常数定义不替代校准。",
+        "method": "列误差链。",
+        "principle": "计量。",
+        "steps": [
+          "路径、计时、介质和电子延迟仍有误差。",
+          "结果应附所用近似与有效数字。"
+        ],
+        "ans": "不是。",
+        "verification": "定义常数精确不意味着每次读数精确。",
+        "pitfall": "常数精确所以数据全部精确。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 20,
+        "primary_section": "20.6",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "若t测1μs、校准延迟2μs，可以报告负光速吗？ 条件：按固定正传播时间模型。",
+      "given": "按固定正传播时间模型。",
+      "analysis": "扣后时间不合理。",
+      "method": "审模型与校准。",
+      "principle": "物理约束。",
+      "steps": [
+        "t测−t₀=−1μs。",
+        "与正光程传播模型矛盾，需检查延迟定义或数据。"
+      ],
+      "ans": "不能，模型或数据待查。",
+      "verification": "不可只完成代数而不核物理意义。",
+      "pitfall": "计算器负值直接当物理答案。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 20,
+      "primary_section": "20.6",
+      "related_sections": []
+    },
+    "exam": [
+      "先画出往返路径与时间链，再决定2D和延迟扣除",
+      "轮式法注明齿缝等宽及首次相邻消光，频率不能见数就套",
+      "定义值与测量不确定度分开，介质相速度与脉冲群延迟分开"
+    ],
+    "quick": [
+      "计时难点",
+      "路径时间链",
+      "周期遮挡",
+      "差分校准",
+      "定义与误差"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 357,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_20.6",
+        "url": "https://openstax.org/books/college-physics-2e/pages/25-1-the-ray-aspect-of-light",
+        "page_or_section": "25-1-the-ray-aspect-of-light",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 357,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_20.6",
+        "url": "https://openstax.org/books/college-physics-2e/pages/25-1-the-ray-aspect-of-light",
+        "page_or_section": "25-1-the-ray-aspect-of-light",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先画出往返路径与时间链，再决定2D和延迟扣除",
+      "method": "4DNf。",
+      "principle": "轮角位移计时。",
+      "worked_example_index": 2,
+      "verification": "t=1/(1200×15.625)=5.333×10⁻⁵s；16000/t同值。",
+      "pitfall": "把一次齿缝间隔用整圈。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“从路径及时间建立测光速模型”的抽样复核：单程5μs对应1500m。；若出现“漏往返2或μs当ms。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“识别往返、仪器延迟与介质条件”的抽样复核：t=1/(1200×15.625)=5.333×10⁻⁵s；16000/t同值。；若出现“把一次齿缝间隔用整圈。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "计算器负值直接当物理答案。",
+        "correction": "不能，模型或数据待查。",
+        "verification": "不可只完成代数而不核物理意义。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "往返测光速与延迟分离",
+      "objects": [
+        "光源探测器",
+        "距离D反射镜",
+        "两条往返光线",
+        "齿缝轮",
+        "t测对D线图"
+      ],
+      "relations": [
+        "路程2D",
+        "总时间含固定截距t₀",
+        "斜率2/v",
+        "首次遮挡仅转1/(2N)圈"
+      ],
+      "labels": [
+        "D",
+        "2D",
+        "t测−t₀",
+        "N齿N缝",
+        "c=4DNf"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "波动光学旧图需核缝宽/缝距、光程差、偏振轴及坐标；定量图必须由公式绘制",
+      "english": "Use deterministic wave-optics diagrams. Distinguish slit width from slit separation, phase from path difference, and time from position axes. Mark paraxial and coherence assumptions. Intensity is nonnegative and comes from field superposition; polarization axes are electric-field directions."
+    }
+  }
+}

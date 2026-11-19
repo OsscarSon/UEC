@@ -1,0 +1,1813 @@
+{
+  "10.1": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 10,
+    "section_id": "10.1",
+    "goals": [
+      "从同相状态定义周期、频率与振幅",
+      "区分路程、位移及计时中的间隔数"
+    ],
+    "prerequisites": [
+      "位移与运动方向",
+      "时间和频率"
+    ],
+    "flow": [
+      "往复状态",
+      "完整周期",
+      "频率角频率",
+      "幅度路程",
+      "计时模型"
+    ],
+    "concept_relation": "往复状态；完整周期；频率角频率；幅度路程；计时模型",
+    "deep": [
+      "振幅A是偏离平衡位置的最大距离，取非负大小；左右端点若在−A与+A，峰峰值为2A。端点坐标不等于物体的总运动路程，完成一周期位置回原处、位移0，但理想一维往复所走路程为4A。",
+      "多周期计时可减小单次启停相对影响，但必须数清是N个周期还是N个峰。记录从第一个同侧峰到第六个同侧峰，只有五个间隔；若用六作分母会系统低估周期。应把标记点和计时间隔同时画出，避免文字歧义。",
+      "基本描述量不自动决定运动形式。具有周期不等于必为简谐，振幅相同也不等于频率相同。对实验数据应检各周期是否稳定、误差范围以及是否振幅衰减，再决定可否采用下一节理想模型，不能只凭曲线大致来回就宣称全部简谐条件已证。"
+    ],
+    "derive": [
+      "稳定周期运动f=1/T，ω=2πf。",
+      "一维对称往复峰峰值2A，一周期路程4A、位移0。",
+      "从第1同侧峰到第N同侧峰共有N−1个完整周期。"
+    ],
+    "examples": [
+      {
+        "q": "20次完整振动用40s，求T和f。 条件：节律稳定。",
+        "given": "节律稳定。",
+        "analysis": "周期用总时除次数。",
+        "method": "T=t/N。",
+        "principle": "定义。",
+        "steps": [
+          "T=40/20=2s。",
+          "f=1/2=.5Hz。"
+        ],
+        "ans": "2s，.5Hz。",
+        "verification": "20×2=40。",
+        "pitfall": "频率写2Hz。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.1",
+        "related_sections": []
+      },
+      {
+        "q": "物体在−3cm与+3cm间往复，一周期路程与位移？ 条件：一维固定端点且完整返回原状态。",
+        "given": "一维固定端点且完整返回原状态。",
+        "analysis": "路程累积、位移看端点。",
+        "method": "计四段振幅。",
+        "principle": "定义。",
+        "steps": [
+          "A=3cm，一周期路程4A=12cm。",
+          "末位置等初位置，位移0。"
+        ],
+        "ans": "12cm；0。",
+        "verification": "峰峰距离6cm而非周期路程。",
+        "pitfall": "把路程当6或位移12。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.1",
+        "related_sections": []
+      },
+      {
+        "q": "第1个同侧峰到第6个同侧峰历时10s，周期？ 条件：每峰相位相同且稳定。",
+        "given": "每峰相位相同且稳定。",
+        "analysis": "六点五间隔。",
+        "method": "画间隔再除。",
+        "principle": "周期计数。",
+        "steps": [
+          "N=6−1=5个周期。",
+          "T=10/5=2s。"
+        ],
+        "ans": "2s。",
+        "verification": "五次2s正好10。",
+        "pitfall": "除6。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "振幅4cm，峰峰值多少？ 条件：围绕0对称。",
+        "given": "围绕0对称。",
+        "analysis": "两端距离2A。",
+        "method": "乘2。",
+        "principle": "振幅定义。",
+        "steps": [
+          "从−4到+4。",
+          "差8cm。"
+        ],
+        "ans": "8cm。",
+        "verification": "振幅仍4。",
+        "pitfall": "峰峰等振幅。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.1",
+        "related_sections": []
+      },
+      {
+        "q": "周期.25s，频率？ 条件：稳定。",
+        "given": "稳定。",
+        "analysis": "倒数。",
+        "method": "f=1/T。",
+        "principle": "定义。",
+        "steps": [
+          "1/.25=4。",
+          "单位Hz。"
+        ],
+        "ans": "4Hz。",
+        "verification": "每秒四次。",
+        "pitfall": "答.25Hz。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.1",
+        "related_sections": []
+      },
+      {
+        "q": "频率2Hz，角频率？ 条件：相位以弧度。",
+        "given": "相位以弧度。",
+        "analysis": "乘2π。",
+        "method": "ω=2πf。",
+        "principle": "一周期2π相位。",
+        "steps": [
+          "2π×2。",
+          "得4πrad/s。"
+        ],
+        "ans": "4πrad/s。",
+        "verification": "不是2rad/s。",
+        "pitfall": "f与ω同数值。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.1",
+        "related_sections": []
+      },
+      {
+        "q": "通过平衡位置一次就必完成一周期吗？ 条件：连续往复运动。",
+        "given": "连续往复运动。",
+        "analysis": "一周期可两次过中心。",
+        "method": "看方向状态。",
+        "principle": "相位。",
+        "steps": [
+          "向右与向左过中心不同相位。",
+          "须回到同一方向状态才完整重复。"
+        ],
+        "ans": "不必。",
+        "verification": "两次相邻过中心通常只隔半周期。",
+        "pitfall": "只凭位置计周期。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "任何周期运动都满足简谐运动的线性回复条件吗？ 条件：只知道状态重复。",
+      "given": "只知道状态重复。",
+      "analysis": "周期性弱于简谐条件。",
+      "method": "区分定义。",
+      "principle": "模型条件。",
+      "steps": [
+        "周期可有多种非正弦形态。",
+        "还需检a与位移关系等才能判简谐。"
+      ],
+      "ans": "不一定。",
+      "verification": "下一节给出更强判据。",
+      "pitfall": "来回就是简谐。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 10,
+      "primary_section": "10.1",
+      "related_sections": []
+    },
+    "exam": [
+      "计时题先画同相标记点，数间隔不是点数",
+      "振幅、峰峰值、周期路程和位移分栏",
+      "频率和角频率写单位，周期性不冒充简谐证据"
+    ],
+    "quick": [
+      "往复状态",
+      "完整周期",
+      "频率角频率",
+      "幅度路程",
+      "计时模型"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 328,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_10.1",
+        "url": "https://openstax.org/books/college-physics-2e/pages/16-3-simple-harmonic-motion-a-special-periodic-motion",
+        "page_or_section": "16-3-simple-harmonic-motion-a-special-periodic-motion",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 328,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_10.1",
+        "url": "https://openstax.org/books/college-physics-2e/pages/16-3-simple-harmonic-motion-a-special-periodic-motion",
+        "page_or_section": "16-3-simple-harmonic-motion-a-special-periodic-motion",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "计时题先画同相标记点，数间隔不是点数",
+      "method": "画间隔再除。",
+      "principle": "周期计数。",
+      "worked_example_index": 2,
+      "verification": "五次2s正好10。",
+      "pitfall": "除6。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“从同相状态定义周期、频率与振幅”的抽样复核：20×2=40。；若出现“频率写2Hz。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分路程、位移及计时中的间隔数”的抽样复核：五次2s正好10。；若出现“除6。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "来回就是简谐。",
+        "correction": "不一定。",
+        "verification": "下一节给出更强判据。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "振动状态与周期计数",
+      "objects": [
+        "平衡点",
+        "±A端点",
+        "同侧六峰",
+        "五时间间隔",
+        "路程条"
+      ],
+      "relations": [
+        "六峰只有五周期",
+        "一周期路程4A位移0",
+        "向左右过中心不同相"
+      ],
+      "labels": [
+        "A",
+        "2A",
+        "4A",
+        "T",
+        "f=1/T"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "振动图须核相位、箭头与坐标轴，只有同初值、同参数才复用；不拿波形图冒充空间波",
+      "english": "Use deterministic oscillator plots. Label equilibrium and positive direction. Restoring force and acceleration oppose displacement, not necessarily velocity. Distinguish time graphs from spatial wave snapshots, displacement amplitude from peak-to-peak, and damped resonance from an ideal unlimited model."
+    }
+  },
+  "10.2": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 10,
+    "section_id": "10.2",
+    "goals": [
+      "从合回复力推导a=−ω²x",
+      "求弹簧和小角摆周期并核近似"
+    ],
+    "prerequisites": [
+      "牛顿定律",
+      "胡克定律与小角"
+    ],
+    "flow": [
+      "平衡原点",
+      "线性回复",
+      "动力学参数",
+      "小角摆",
+      "适用检验"
+    ],
+    "concept_relation": "平衡原点；线性回复；动力学参数；小角摆；适用检验",
+    "deep": [
+      "简单摆的切向回复力为−mg sinθ，只有小角以弧度近似sinθ≈θ时才得到简谐近似。摆长L取悬点到质点重心的有效长度，模型还假设细轻不可伸长绳、质点摆球及阻力可忽略等。由此T≈2π√(L/g)，不依质量但会受长度与g影响。",
+      "理想线性振子的周期与振幅无关，是该模型的等时性质，不是任何真实摆在任意大角度都精确等时。大振幅可导致非线性和周期改变，阻尼也可能改变频率；若题设明确忽略，应在答案里保留限定。",
+      "判断是否简谐可画a对x，若在所论范围为过原点的负斜率直线，斜率为−ω²，能据此求周期。力对x的图需再除质量，不能把−k直接当−ω。最后核单位：k/m是s⁻²，开方才是角频率。"
+    ],
+    "derive": [
+      "合力F=−kx⇒a=−(k/m)x，ω=√(k/m)，T=2π/ω。",
+      "小角摆sinθ≈θ⇒ω²≈g/L，T≈2π√(L/g)，θ用rad。",
+      "a-x斜率=−ω²，不是−ω；位移从平衡位置量。"
+    ],
+    "examples": [
+      {
+        "q": "m=.50kg、k=200N/m的理想弹簧振子，ω及T？ 条件：忽略阻尼与弹簧质量，线性范围。",
+        "given": "忽略阻尼与弹簧质量，线性范围。",
+        "analysis": "先比k/m。",
+        "method": "动力学。",
+        "principle": "a=−kx/m。",
+        "steps": [
+          "ω=√(200/.50)=20rad/s。",
+          "T=2π/20=π/10s。"
+        ],
+        "ans": "20rad/s，约.314s。",
+        "verification": "ω²=400s⁻²，量纲正确。",
+        "pitfall": "不平方根。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.2",
+        "related_sections": []
+      },
+      {
+        "q": "小角摆L=1.0m，g=10m/s²，周期？ 条件：轻绳质点、阻力忽略。",
+        "given": "轻绳质点、阻力忽略。",
+        "analysis": "用小角模型。",
+        "method": "2π√(L/g)。",
+        "principle": "切向牛顿与小角。",
+        "steps": [
+          "√(1/10)≈.3162s。",
+          "T≈1.99s。"
+        ],
+        "ans": "约1.99s。",
+        "verification": "质量不在模型式内。",
+        "pitfall": "把大角情境也称精确。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.2",
+        "related_sections": []
+      },
+      {
+        "q": "测a-x关系a=−25x，求周期并解释负号。 条件：SI单位且关系适用于所论范围。",
+        "given": "SI单位且关系适用于所论范围。",
+        "analysis": "25=ω²。",
+        "method": "读斜率。",
+        "principle": "简谐判据。",
+        "steps": [
+          "ω=5rad/s，T=2π/5s。",
+          "负号表示加速度指向平衡。"
+        ],
+        "ans": "T≈1.26s；方向与位移相反。",
+        "verification": "不是周期2π/25。",
+        "pitfall": "斜率当ω。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "同k质量变4倍，周期怎样？ 条件：同理想模型。",
+        "given": "同理想模型。",
+        "analysis": "T∝√m。",
+        "method": "比值。",
+        "principle": "弹簧周期。",
+        "steps": [
+          "T₂/T₁=√4。",
+          "得2。"
+        ],
+        "ans": "2倍。",
+        "verification": "不是4倍。",
+        "pitfall": "线性缩放。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.2",
+        "related_sections": []
+      },
+      {
+        "q": "同m，k变4倍，周期怎样？ 条件：线性无阻尼。",
+        "given": "线性无阻尼。",
+        "analysis": "T∝1/√k。",
+        "method": "比值。",
+        "principle": "周期式。",
+        "steps": [
+          "比=1/√4。",
+          "=1/2。"
+        ],
+        "ans": "减半。",
+        "verification": "更硬振得较快。",
+        "pitfall": "增4倍。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.2",
+        "related_sections": []
+      },
+      {
+        "q": "物体从右端向平衡运动，回复力与速度必相反吗？ 条件：右侧x>0且v<0。",
+        "given": "右侧x>0且v<0。",
+        "analysis": "回复力向左。",
+        "method": "按符号比较。",
+        "principle": "F=−kx。",
+        "steps": [
+          "F<0且v<0。",
+          "两者同向，可加速。"
+        ],
+        "ans": "不相反，此时同向。",
+        "verification": "回复力反位移，阻尼力才常反速度。",
+        "pitfall": "回复等于摩擦。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.2",
+        "related_sections": []
+      },
+      {
+        "q": "竖直弹簧简谐位移x应从何处量？ 条件：重力已使其静态伸长。",
+        "given": "重力已使其静态伸长。",
+        "analysis": "平衡抵消常力。",
+        "method": "选择原点。",
+        "principle": "合力。",
+        "steps": [
+          "从新的静态平衡位置量。",
+          "才可把净力写成−kx。"
+        ],
+        "ans": "平衡位置。",
+        "verification": "从自然长度量须保留mg。",
+        "pitfall": "原长与平衡混同。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "摆角60°仍可无说明精确用sinθ=θ和小角周期吗？ 条件：θ需转弧度且角不小。",
+      "given": "θ需转弧度且角不小。",
+      "analysis": "小角误差显著。",
+      "method": "核近似。",
+      "principle": "三角函数。",
+      "steps": [
+        "60°=π/3≈1.047，sin60≈.866。",
+        "二者不相等，不能宣称该线性周期精确。"
+      ],
+      "ans": "不能无说明。",
+      "verification": "可用更完整非线性模型。",
+      "pitfall": "所有摆都严格简谐。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 10,
+      "primary_section": "10.2",
+      "related_sections": []
+    },
+    "exam": [
+      "先找平衡原点和合力，不能只看一个力",
+      "a-x斜率开平方求ω，周期再除2π",
+      "摆题标小角、有效长度和g，质量/振幅结论限模型"
+    ],
+    "quick": [
+      "平衡原点",
+      "线性回复",
+      "动力学参数",
+      "小角摆",
+      "适用检验"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 332,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_10.2",
+        "url": "https://openstax.org/books/college-physics-2e/pages/16-3-simple-harmonic-motion-a-special-periodic-motion",
+        "page_or_section": "16-3-simple-harmonic-motion-a-special-periodic-motion",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 332,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_10.2",
+        "url": "https://openstax.org/books/college-physics-2e/pages/16-3-simple-harmonic-motion-a-special-periodic-motion",
+        "page_or_section": "16-3-simple-harmonic-motion-a-special-periodic-motion",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先找平衡原点和合力，不能只看一个力",
+      "method": "读斜率。",
+      "principle": "简谐判据。",
+      "worked_example_index": 2,
+      "verification": "不是周期2π/25。",
+      "pitfall": "斜率当ω。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“从合回复力推导a=−ω²x”的抽样复核：ω²=400s⁻²，量纲正确。；若出现“不平方根。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“求弹簧和小角摆周期并核近似”的抽样复核：不是周期2π/25。；若出现“斜率当ω。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "所有摆都严格简谐。",
+        "correction": "不能无说明。",
+        "verification": "可用更完整非线性模型。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "回复力与平衡原点",
+      "objects": [
+        "水平弹簧",
+        "竖直平衡伸长",
+        "a-x负直线",
+        "小角摆弧"
+      ],
+      "relations": [
+        "合力反x",
+        "竖直x从新平衡量",
+        "斜率−ω²",
+        "摆回复近似需小角"
+      ],
+      "labels": [
+        "F=−kx",
+        "a=−ω²x",
+        "x=0",
+        "sinθ≈θ"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "振动图须核相位、箭头与坐标轴，只有同初值、同参数才复用；不拿波形图冒充空间波",
+      "english": "Use deterministic oscillator plots. Label equilibrium and positive direction. Restoring force and acceleration oppose displacement, not necessarily velocity. Distinguish time graphs from spatial wave snapshots, displacement amplitude from peak-to-peak, and damped resonance from an ideal unlimited model."
+    }
+  },
+  "10.3": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 10,
+    "section_id": "10.3",
+    "goals": [
+      "由初始位置和速度确定振幅相位",
+      "求位移速度加速度并区分多解时刻"
+    ],
+    "prerequisites": [
+      "三角函数导数",
+      "简谐动力学"
+    ],
+    "flow": [
+      "运动表达",
+      "连续导数",
+      "初值定参",
+      "相位象限",
+      "多时刻筛选"
+    ],
+    "concept_relation": "运动表达；连续导数；初值定参；相位象限；多时刻筛选",
+    "deep": [
+      "某位移在一个周期常出现两次，速度方向不同；解三角方程要列所有允许角并按时间区间筛选。若问首次到达某位置，还应考虑初始就在该位置是否算t=0、运动方向是否有额外条件，不能只报计算器主值。",
+      "相位随时间增加2π表示完整周期，差π表示相反位移与速度等对应状态。两个振子同频可谈固定相位差，若频率不同，相位差随时间变化，不应把初相差当永恒领先时间。对比前需统一sin/cos形式和时间零点。",
+      "验算最有效的是同时代t=0检查x₀与v₀，再求导核a=−ω²x。可用极端位置判断：|x|=A时v=0，x=0时|v|最大而a=0。若某式端点仍给最大速度，往往是sin/cos或相位选择错误，而不是物理出现例外。"
+    ],
+    "derive": [
+      "x=Acos(ωt+φ)，v=−Aωsin(ωt+φ)，a=−ω²x。",
+      "A=√[x₀²+(v₀/ω)²]；cosφ=x₀/A、sinφ=−v₀/(Aω)。",
+      "求时刻需全部三角分支，并核首次、方向与时间区间。"
+    ],
+    "examples": [
+      {
+        "q": "x=.10cos(4t) m，求t=π/8s时x,v,a。 条件：t以秒，角弧度。",
+        "given": "t以秒，角弧度。",
+        "analysis": "相位π/2。",
+        "method": "先求导后代。",
+        "principle": "简谐表达。",
+        "steps": [
+          "v=−.40sin4t，a=−1.6cos4t。",
+          "代相位π/2得x0、v−.40、a0。"
+        ],
+        "ans": "0m，−.40m/s，0m/s²。",
+        "verification": "过平衡速度最大且向负。",
+        "pitfall": "位移零就速度零。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.3",
+        "related_sections": []
+      },
+      {
+        "q": "ω=5rad/s，初x₀=.03m、v₀=−.20m/s，求A及合适φ。 条件：用x=Acos(ωt+φ)。",
+        "given": "用x=Acos(ωt+φ)。",
+        "analysis": "位置正、速度负给第一象限相位。",
+        "method": "两初值联立。",
+        "principle": "三角平方和。",
+        "steps": [
+          "A=√(.03²+.04²)=.05m。",
+          "cosφ=.6、sinφ=.8，φ≈.9273rad模2π。"
+        ],
+        "ans": "A=.05m，φ≈.9273rad。",
+        "verification": "−Aωsinφ=−.05×5×.8=−.20。",
+        "pitfall": "只取arccos不验速度。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.3",
+        "related_sections": []
+      },
+      {
+        "q": "x=.08cos(2t)，求t>0第一次到x=.04m。 条件：求首次，不含初t0。",
+        "given": "求首次，不含初t0。",
+        "analysis": "cos2t=1/2。",
+        "method": "列角并取最小正。",
+        "principle": "周期三角解。",
+        "steps": [
+          "2t=±π/3+2kπ。",
+          "最小正相位π/3，t=π/6s。"
+        ],
+        "ans": "π/6s。",
+        "verification": "此时v负，正在从正端向中心。",
+        "pitfall": "只给一个角不说明筛选。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "A=.2m，ω=3rad/s，最大速率？ 条件：理想简谐。",
+        "given": "理想简谐。",
+        "analysis": "速度振幅Aω。",
+        "method": "乘。",
+        "principle": "求导。",
+        "steps": [
+          ".2×3=.6。",
+          "单位m/s。"
+        ],
+        "ans": ".6m/s。",
+        "verification": "加速度最大另为1.8。",
+        "pitfall": "把Aω²当速度。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.3",
+        "related_sections": []
+      },
+      {
+        "q": "同参数最大加速度大小？ 条件：A=.2m，ω3rad/s。",
+        "given": "A=.2m，ω3rad/s。",
+        "analysis": "幅度Aω²。",
+        "method": "代入。",
+        "principle": "a=−ω²x。",
+        "steps": [
+          ".2×9=1.8。",
+          "单位m/s²。"
+        ],
+        "ans": "1.8m/s²。",
+        "verification": "端点出现。",
+        "pitfall": "用Aω。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.3",
+        "related_sections": []
+      },
+      {
+        "q": "x=Acosωt与x=Asin(ωt+π/2)是否同运动？ 条件：同A,ω和时间零点。",
+        "given": "同A,ω和时间零点。",
+        "analysis": "三角恒等。",
+        "method": "sin(θ+π/2)=cosθ。",
+        "principle": "相位变换。",
+        "steps": [
+          "两位置式逐时相同。",
+          "相应求导速度也相同。"
+        ],
+        "ans": "是。",
+        "verification": "不因函数名不同判不同。",
+        "pitfall": "只认cos或sin一种。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.3",
+        "related_sections": []
+      },
+      {
+        "q": "x₀=0而v₀>0，余弦表达可取φ多少？ 条件：A,ω正。",
+        "given": "A,ω正。",
+        "analysis": "cosφ0、sinφ负。",
+        "method": "选象限。",
+        "principle": "初速度式。",
+        "steps": [
+          "φ=−π/2模2π。",
+          "v₀=−Aωsin(−π/2)=+Aω。"
+        ],
+        "ans": "−π/2模2π。",
+        "verification": "+π/2会给负速度。",
+        "pitfall": "只看x0选任意±π/2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "不同频率两振子的初相差已知，能把该差当所有时刻固定相位差吗？ 条件：ω₁≠ω₂。",
+      "given": "ω₁≠ω₂。",
+      "analysis": "差中含时间项。",
+      "method": "相减。",
+      "principle": "相位定义。",
+      "steps": [
+        "Δθ=(ω₁−ω₂)t+(φ₁−φ₂)。",
+        "频率差非零时随t改变。"
+      ],
+      "ans": "不能。",
+      "verification": "同频时才可固定相位差。",
+      "pitfall": "初相差当永久领先。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 10,
+      "primary_section": "10.3",
+      "related_sections": []
+    },
+    "exam": [
+      "先统一表达形式与零时，再用两初值选相位",
+      "位移、速度、加速度逐次求导并写单位",
+      "解时刻列多分支后按方向与首次筛选，末尾双验初值"
+    ],
+    "quick": [
+      "运动表达",
+      "连续导数",
+      "初值定参",
+      "相位象限",
+      "多时刻筛选"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 336,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_10.3",
+        "url": "https://openstax.org/books/college-physics-2e/pages/16-3-simple-harmonic-motion-a-special-periodic-motion",
+        "page_or_section": "16-3-simple-harmonic-motion-a-special-periodic-motion",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 336,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_10.3",
+        "url": "https://openstax.org/books/college-physics-2e/pages/16-3-simple-harmonic-motion-a-special-periodic-motion",
+        "page_or_section": "16-3-simple-harmonic-motion-a-special-periodic-motion",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先统一表达形式与零时，再用两初值选相位",
+      "method": "列角并取最小正。",
+      "principle": "周期三角解。",
+      "worked_example_index": 2,
+      "verification": "此时v负，正在从正端向中心。",
+      "pitfall": "只给一个角不说明筛选。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由初始位置和速度确定振幅相位”的抽样复核：过平衡速度最大且向负。；若出现“位移零就速度零。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“求位移速度加速度并区分多解时刻”的抽样复核：此时v负，正在从正端向中心。；若出现“只给一个角不说明筛选。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "初相差当永久领先。",
+        "correction": "不能。",
+        "verification": "同频时才可固定相位差。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "相位与三个运动量",
+      "objects": [
+        "x,v,a同时间轴",
+        "初点x.03v−.20",
+        "相位圆",
+        "极值标记"
+      ],
+      "relations": [
+        "a反x",
+        "v由x斜率决定",
+        "第一象限φ配正x负v",
+        "Aω与Aω²单位分开"
+      ],
+      "labels": [
+        "x",
+        "v",
+        "a",
+        "φ",
+        "弧度"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "振动图须核相位、箭头与坐标轴，只有同初值、同参数才复用；不拿波形图冒充空间波",
+      "english": "Use deterministic oscillator plots. Label equilibrium and positive direction. Restoring force and acceleration oppose displacement, not necessarily velocity. Distinguish time graphs from spatial wave snapshots, displacement amplitude from peak-to-peak, and damped resonance from an ideal unlimited model."
+    }
+  },
+  "10.4": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 10,
+    "section_id": "10.4",
+    "goals": [
+      "从时域图读振幅周期与运动方向",
+      "利用斜率面积和相位关系交叉核图"
+    ],
+    "prerequisites": [
+      "运动方程",
+      "函数斜率和面积"
+    ],
+    "flow": [
+      "轴与单位",
+      "幅度周期",
+      "斜率面积",
+      "三图相位",
+      "区域计时"
+    ],
+    "concept_relation": "轴与单位；幅度周期；斜率面积；三图相位；区域计时",
+    "deep": [
+      "v−t图的有向面积给位移，完整周期可正负相消为0；若问路程，需对速率积分或将负面积取绝对后相加。加速度图又是v图斜率，并与x图按a=−ω²x相反，不能用速度曲线的高度直接当加速度。",
+      "相同时间轴的x、v、a曲线可由导数关系对齐。位移端点速度零、加速度大小最大，过平衡时加速度零、速率最大。若把三图都画成同相同峰，即使各自周期正确，科学关系仍错；各纵轴单位与振幅也须独立。",
+      "定量读图先记录几个带方向的时刻，再建立一个满足初值的sin或cos式作检查。求经过某区域的时间要用相位边界，简谐并非匀速，位移区间长度占比不等时间占比。绘图软件的平滑曲线应依据公式，不能凭手绘假定任意点精确在某刻度。"
+    ],
+    "derive": [
+      "x-t斜率=v；v-t有向面积=位移，速率面积=路程。",
+      "x端点：v=0、|a|最大；x=0：a=0、|v|最大。",
+      "同周期x,v,a存在固定导数相位关系，但纵轴单位与振幅不同。"
+    ],
+    "examples": [
+      {
+        "q": "x-t图峰值6cm，同侧峰间隔4s，且t0在正峰，写运动式。 条件：理想简谐，t以秒。",
+        "given": "理想简谐，t以秒。",
+        "analysis": "A.06m、T4s、初相0。",
+        "method": "由图定参。",
+        "principle": "ω=2π/T。",
+        "steps": [
+          "ω=π/2rad/s。",
+          "x=.06cos(πt/2)m。"
+        ],
+        "ans": "x=.06cos(πt/2)m。",
+        "verification": "0时.06，4秒回同侧峰。",
+        "pitfall": "6cm不换m或峰谷当T。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.4",
+        "related_sections": []
+      },
+      {
+        "q": "x-t在某时刻位于正区但曲线向下，v和a符号？ 条件：简谐，正方向已定。",
+        "given": "简谐，正方向已定。",
+        "analysis": "斜率判v，a反x。",
+        "method": "两条规则分开。",
+        "principle": "导数与a=−ω²x。",
+        "steps": [
+          "曲线下降给v<0。",
+          "x>0给a<0。"
+        ],
+        "ans": "v<0，a<0。",
+        "verification": "此时向平衡加速。",
+        "pitfall": "在正区就v正。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.4",
+        "related_sections": []
+      },
+      {
+        "q": "一周期中x>A/2占多少时间？ 条件：x=Acosθ，θ匀速增加，A>0。",
+        "given": "x=Acosθ，θ匀速增加，A>0。",
+        "analysis": "空间比例不是时间比例。",
+        "method": "解cosθ>1/2。",
+        "principle": "相位计时。",
+        "steps": [
+          "在0至2π内允许相位总长2π/3。",
+          "占(2π/3)/(2π)=1/3。"
+        ],
+        "ans": "T/3。",
+        "verification": "靠端点慢，不能按半个正侧长度直接取T/4。",
+        "pitfall": "位移长度比例当时间。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "相邻峰与谷间隔.30s，周期？ 条件：同一简谐曲线。",
+        "given": "同一简谐曲线。",
+        "analysis": "半周期。",
+        "method": "乘2。",
+        "principle": "相位。",
+        "steps": [
+          "T/2=.30。",
+          "T=.60s。"
+        ],
+        "ans": ".60s。",
+        "verification": "同侧峰需再走半周期。",
+        "pitfall": "把.30当T。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.4",
+        "related_sections": []
+      },
+      {
+        "q": "完整周期v-t有向面积0，能推路程0吗？ 条件：非零振幅。",
+        "given": "非零振幅。",
+        "analysis": "正负面积相消。",
+        "method": "区分有向与绝对。",
+        "principle": "运动积分。",
+        "steps": [
+          "位移0。",
+          "路程为速率面积，等一维4A。"
+        ],
+        "ans": "不能。",
+        "verification": "返回原点仍可走路。",
+        "pitfall": "积分净零当不运动。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.4",
+        "related_sections": []
+      },
+      {
+        "q": "位移正峰时v,a怎样？ 条件：x=+A，A,ω正。",
+        "given": "x=+A，A,ω正。",
+        "analysis": "端点速度0、回复负最大。",
+        "method": "公式。",
+        "principle": "求导。",
+        "steps": [
+          "v=0。",
+          "a=−ω²A。"
+        ],
+        "ans": "v0，a负且大小最大。",
+        "verification": "不是合力0。",
+        "pitfall": "停瞬间就无力。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.4",
+        "related_sections": []
+      },
+      {
+        "q": "x-t与波的x-y空间图横轴相同吗？ 条件：前者时间，后者位置。",
+        "given": "前者时间，后者位置。",
+        "analysis": "相似形状不等变量。",
+        "method": "核轴。",
+        "principle": "图像意义。",
+        "steps": [
+          "振动图横轴t。",
+          "空间波图横轴位置，间距不能直接读周期。"
+        ],
+        "ans": "不同。",
+        "verification": "单位s与m区分。",
+        "pitfall": "见正弦一律读波长。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "把x、v、a三图按同相正峰画，只改纵轴数字，能正确表示简谐吗？ 条件：同一振子同一时间轴。",
+      "given": "同一振子同一时间轴。",
+      "analysis": "导数关系不满足。",
+      "method": "检峰值时刻。",
+      "principle": "相位。",
+      "steps": [
+        "x峰时v应0而非峰。",
+        "a应与x反相，不应同正峰。"
+      ],
+      "ans": "不能。",
+      "verification": "由几个关键时刻即可发现。",
+      "pitfall": "周期同就认为整图对。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 10,
+      "primary_section": "10.4",
+      "related_sections": []
+    },
+    "exam": [
+      "读图先核横纵变量与单位，再取同相间隔",
+      "速度看斜率、加速度看回复关系，位移符号不代速度",
+      "时间占比用相位边界，位移与路程区分有向面积"
+    ],
+    "quick": [
+      "轴与单位",
+      "幅度周期",
+      "斜率面积",
+      "三图相位",
+      "区域计时"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 340,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_10.4",
+        "url": "https://openstax.org/books/college-physics-2e/pages/16-3-simple-harmonic-motion-a-special-periodic-motion",
+        "page_or_section": "16-3-simple-harmonic-motion-a-special-periodic-motion",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 340,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_10.4",
+        "url": "https://openstax.org/books/college-physics-2e/pages/16-3-simple-harmonic-motion-a-special-periodic-motion",
+        "page_or_section": "16-3-simple-harmonic-motion-a-special-periodic-motion",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "读图先核横纵变量与单位，再取同相间隔",
+      "method": "解cosθ>1/2。",
+      "principle": "相位计时。",
+      "worked_example_index": 2,
+      "verification": "靠端点慢，不能按半个正侧长度直接取T/4。",
+      "pitfall": "位移长度比例当时间。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“从时域图读振幅周期与运动方向”的抽样复核：0时.06，4秒回同侧峰。；若出现“6cm不换m或峰谷当T。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“利用斜率面积和相位关系交叉核图”的抽样复核：靠端点慢，不能按半个正侧长度直接取T/4。；若出现“位移长度比例当时间。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "周期同就认为整图对。",
+        "correction": "不能。",
+        "verification": "由几个关键时刻即可发现。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "同一振子的x-v-a时间图",
+      "objects": [
+        "三条共时间轴曲线",
+        "四分之一周期线",
+        "独立纵轴",
+        "端点与过零标"
+      ],
+      "relations": [
+        "x正峰v0a负峰",
+        "平衡处a0速率最大",
+        "三纵轴不同单位幅度"
+      ],
+      "labels": [
+        "t/s",
+        "x/m",
+        "v/(m/s)",
+        "a/(m/s²)",
+        "T/4"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "振动图须核相位、箭头与坐标轴，只有同初值、同参数才复用；不拿波形图冒充空间波",
+      "english": "Use deterministic oscillator plots. Label equilibrium and positive direction. Restoring force and acceleration oppose displacement, not necessarily velocity. Distinguish time graphs from spatial wave snapshots, displacement amplitude from peak-to-peak, and damped resonance from an ideal unlimited model."
+    }
+  },
+  "10.5": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 10,
+    "section_id": "10.5",
+    "goals": [
+      "以能量守恒求速率与动势能比例",
+      "说明平衡参考及阻尼时机械能变化"
+    ],
+    "prerequisites": [
+      "功与能",
+      "弹簧势能和简谐参数"
+    ],
+    "flow": [
+      "参考与系统",
+      "动势转换",
+      "速率",
+      "幅平方",
+      "阻尼与补能"
+    ],
+    "concept_relation": "参考与系统；动势转换；速率；幅平方；阻尼与补能",
+    "deep": [
+      "由E=K+U可得v²=ω²(A²−x²)。开方给速率|v|=ω√(A²−x²)，若求速度则正负要由运动方向决定。相同位移在往返两次有相同速率但方向相反，单靠能量无法选出v符号。",
+      "总能与A²成正比，所以理想同k系统振幅加倍能量4倍，而周期仍可不变。动能和势能分别随cos²或sin²变化，其重复周期为位移周期的一半；两个端点都具有同样势能，不要把能量图机械复制成有负值的位移图。",
+      "有阻尼时振子机械能可转入内能及环境，振幅衰减，不再沿同一固定E曲线永远运动。比较相应转折点的½kA²可估机械能变化，但不意味总能量被毁灭。若驱动补能，稳态振幅可固定而能量仍持续流入流出，需另计功率收支。"
+    ],
+    "derive": [
+      "理想线性振子E=½kA²=½mv²+½kx²，ω²=k/m。",
+      "速率|v|=ω√(A²−x²)，速度正负由方向另判。",
+      "相同k下E∝A²；对应转折点能量比=(A₂/A₁)²。"
+    ],
+    "examples": [
+      {
+        "q": "k=100N/m、A=.10m，求总能；在x=.06m时K。 条件：水平无阻尼理想振子。",
+        "given": "水平无阻尼理想振子。",
+        "analysis": "先总能再势能。",
+        "method": "守恒。",
+        "principle": "弹性势能。",
+        "steps": [
+          "E=.5×100×.10²=.50J，U=.5×100×.06²=.18J。",
+          "K=.50−.18=.32J。"
+        ],
+        "ans": "E=.50J，K=.32J。",
+        "verification": "K+U=.50，均非负。",
+        "pitfall": "把x/A比例当能量比例。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.5",
+        "related_sections": []
+      },
+      {
+        "q": "ω=10rad/s、A=.05m、x=.03m，速率多少？能唯一给速度方向吗？ 条件：理想简谐，未给往返方向。",
+        "given": "理想简谐，未给往返方向。",
+        "analysis": "能量只定平方。",
+        "method": "v²关系。",
+        "principle": "守恒。",
+        "steps": [
+          "|v|=10√(.05²−.03²)=10×.04=.40m/s。",
+          "可正可负，需方向资料。"
+        ],
+        "ans": "速率.40m/s；速度±.40未能唯一选。",
+        "verification": "同位置往返两次合理。",
+        "pitfall": "默认正根为唯一速度。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.5",
+        "related_sections": []
+      },
+      {
+        "q": "相应转折点振幅由8cm衰至4cm，机械能剩原多少？ 条件：同k线性系统，比较转折点。",
+        "given": "同k线性系统，比较转折点。",
+        "analysis": "能随幅平方。",
+        "method": "比值。",
+        "principle": "E=½kA²。",
+        "steps": [
+          "E₂/E₁=(4/8)²。",
+          "=1/4。"
+        ],
+        "ans": "剩25%，减少75%。",
+        "verification": "不是剩50%；能量转出非消失。",
+        "pitfall": "幅减半能减半。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.5",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "x=A/2时U/E、K/E？ 条件：无阻尼线性模型。",
+        "given": "无阻尼线性模型。",
+        "analysis": "平方比例。",
+        "method": "U/E=x²/A²。",
+        "principle": "守恒。",
+        "steps": [
+          "U/E=1/4。",
+          "K/E=3/4。"
+        ],
+        "ans": "1/4、3/4。",
+        "verification": "两者和1。",
+        "pitfall": "各1/2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.5",
+        "related_sections": []
+      },
+      {
+        "q": "同k振幅3倍，总能倍数？ 条件：线性模型仍适用。",
+        "given": "线性模型仍适用。",
+        "analysis": "A²。",
+        "method": "3²。",
+        "principle": "能量式。",
+        "steps": [
+          "得9。",
+          "不是周期也9倍。"
+        ],
+        "ans": "9倍。",
+        "verification": "周期由m,k决定。",
+        "pitfall": "能量幅度线性。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.5",
+        "related_sections": []
+      },
+      {
+        "q": "过平衡合回复力0，动能也0吗？ 条件：非零振幅理想运动。",
+        "given": "非零振幅理想运动。",
+        "analysis": "力决定加速度非瞬时速度。",
+        "method": "端点与中心比较。",
+        "principle": "能量。",
+        "steps": [
+          "中心U最小。",
+          "K反而最大。"
+        ],
+        "ans": "不是，K最大。",
+        "verification": "v最大而a0可并存。",
+        "pitfall": "无力就无速度。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.5",
+        "related_sections": []
+      },
+      {
+        "q": "位移周期2s，势能重复周期？ 条件：U∝cos²ωt。",
+        "given": "U∝cos²ωt。",
+        "analysis": "平方在相位π重复。",
+        "method": "半周期。",
+        "principle": "三角平方。",
+        "steps": [
+          "两端势能相同。",
+          "U周期T/2=1s。"
+        ],
+        "ans": "1s。",
+        "verification": "能量不能有负势能幅度照抄x图。",
+        "pitfall": "仍2s为最小周期。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.5",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "竖直弹簧平衡处可选有效总势能0，代表实际弹簧弹性势能必0吗？ 条件：重力已引起伸长。",
+      "given": "重力已引起伸长。",
+      "analysis": "合并势能参考不同单项储能。",
+      "method": "展开系统势能。",
+      "principle": "能量零点。",
+      "steps": [
+        "平衡时弹簧可仍伸长并有弹性储能。",
+        "重力与弹性合并后可把有效二次势能零点设在平衡。"
+      ],
+      "ans": "不代表。",
+      "verification": "不改变力或能量差。",
+      "pitfall": "选零点当物理储能消失。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 10,
+      "primary_section": "10.5",
+      "related_sections": []
+    },
+    "exam": [
+      "先定系统与势能参考，再写E,K,U",
+      "由能量只定速率，速度方向另从相位/过程选",
+      "阻尼比较转折点幅平方，损失去向和总能守恒分开"
+    ],
+    "quick": [
+      "参考与系统",
+      "动势转换",
+      "速率",
+      "幅平方",
+      "阻尼与补能"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 347,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_10.5",
+        "url": "https://openstax.org/books/college-physics-2e/pages/16-5-energy-and-the-simple-harmonic-oscillator",
+        "page_or_section": "16-5-energy-and-the-simple-harmonic-oscillator",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 347,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_10.5",
+        "url": "https://openstax.org/books/college-physics-2e/pages/16-5-energy-and-the-simple-harmonic-oscillator",
+        "page_or_section": "16-5-energy-and-the-simple-harmonic-oscillator",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先定系统与势能参考，再写E,K,U",
+      "method": "比值。",
+      "principle": "E=½kA²。",
+      "worked_example_index": 2,
+      "verification": "不是剩50%；能量转出非消失。",
+      "pitfall": "幅减半能减半。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“以能量守恒求速率与动势能比例”的抽样复核：K+U=.50，均非负。；若出现“把x/A比例当能量比例。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“说明平衡参考及阻尼时机械能变化”的抽样复核：不是剩50%；能量转出非消失。；若出现“幅减半能减半。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "选零点当物理储能消失。",
+        "correction": "不代表。",
+        "verification": "不改变力或能量差。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "动势能与振幅平方",
+      "objects": [
+        "U-x抛物线",
+        "E水平线",
+        "K=E-U",
+        "两转折点",
+        "幅减半对照"
+      ],
+      "relations": [
+        "U非负有效参考",
+        "端点K0",
+        "x0K最大",
+        "幅减半E四分之一"
+      ],
+      "labels": [
+        "½kx²",
+        "½mv²",
+        "½kA²",
+        "速度±",
+        "能量去向"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "振动图须核相位、箭头与坐标轴，只有同初值、同参数才复用；不拿波形图冒充空间波",
+      "english": "Use deterministic oscillator plots. Label equilibrium and positive direction. Restoring force and acceleration oppose displacement, not necessarily velocity. Distinguish time graphs from spatial wave snapshots, displacement amplitude from peak-to-peak, and damped resonance from an ideal unlimited model."
+    }
+  },
+  "10.6": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 10,
+    "section_id": "10.6",
+    "goals": [
+      "区分固有频率、驱动频率与阻尼作用",
+      "用明确线性模型解释共振峰与稳态能量"
+    ],
+    "prerequisites": [
+      "自由振动",
+      "能量及功率"
+    ],
+    "flow": [
+      "驱动与暂态",
+      "固有参数",
+      "阻尼振幅",
+      "峰位置",
+      "稳态功率"
+    ],
+    "concept_relation": "驱动与暂态；固有参数；阻尼振幅；峰位置；稳态功率",
+    "deep": [
+      "当存在非零频率位移峰时，线性模型给ω_r²=ω₀²−b²/(2m²)，需右侧为正；弱阻尼时才约等ω₀²。阻尼增大通常使峰降低并变宽，足够强时没有相同类型的尖锐非零频率峰，不能用一张所有峰同位置的示意图冒充精确普适结果。",
+      "在ω=ω₀且b>0时A=F₀/(bω₀)，幅度有限。无阻尼且恰共振的理想模型不存在同样有限的稳态振幅，持续驱动可使幅度随时间增长；这不是瞬间产生无限能量，实际系统还会受阻尼、非线性或结构限制。",
+      "稳态幅度不变不代表无能量交换，外力平均输入可补偿阻尼耗散。共振可用于选频或增大有效响应，也可能产生不希望的振动；风险判断须看幅度、能量和结构条件，不能说只要同频就必破坏。实验应在安全低能量模型下固定驱动并比较阻尼，不向真实结构施加危险振动。"
+    ],
+    "derive": [
+      "线性稳态A=F₀/√[(k−mω²)²+(bω)²]，b>0时有耗散。",
+      "非零位移峰若存在：ω_r²=k/m−b²/(2m²)，弱阻尼时ω_r≈ω₀。",
+      "ω=ω₀时A=F₀/(bω₀)；稳态平均驱动功率补偿耗散，不等无能量流。"
+    ],
+    "examples": [
+      {
+        "q": "m=1kg、k=100N/m、b=2kg/s，F₀=2N，在ω=ω₀时振幅？ 条件：黏性线性稳态模型。",
+        "given": "黏性线性稳态模型。",
+        "analysis": "固有ω₀10，弹性惯性项抵消。",
+        "method": "振幅式。",
+        "principle": "受迫模型。",
+        "steps": [
+          "ω₀=√100=10rad/s。",
+          "A=2/(2×10)=.10m。"
+        ],
+        "ans": ".10m。",
+        "verification": "代分母√[0²+20²]=20N/m。",
+        "pitfall": "忽略阻尼报无限。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.6",
+        "related_sections": []
+      },
+      {
+        "q": "同模型阻尼b由2变4，在ω仍10rad/s、F₀2N时振幅？ 条件：m,k不变，比较相同驱动频率。",
+        "given": "m,k不变，比较相同驱动频率。",
+        "analysis": "分母阻尼项加倍。",
+        "method": "A=F₀/(bω₀)。",
+        "principle": "稳态。",
+        "steps": [
+          "A₂=2/(4×10)=.05m。",
+          "为原.10的一半。"
+        ],
+        "ans": ".05m。",
+        "verification": "不等于比较各自精确峰值时的普适一半。",
+        "pitfall": "未说明频率条件就扩大比例。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.6",
+        "related_sections": []
+      },
+      {
+        "q": "阻尼受迫模型m=1kg、k=100N/m、b=2kg/s，精确非零位移共振峰在ω₀=10rad/s吗？ 条件：线性黏滞阻尼稳态位移振幅A=F₀/√[(k−mω²)²+b²ω²]，非零峰公式条件满足。",
+        "given": "线性黏滞阻尼稳态位移振幅A=F₀/√[(k−mω²)²+b²ω²]，非零峰公式条件满足。",
+        "analysis": "峰位置含阻尼修正。",
+        "method": "ω_r²=100−2²/2。",
+        "principle": "振幅分母最小。",
+        "steps": [
+          "ω_r²=98。",
+          "ω_r=√98≈9.90rad/s，略小于10。"
+        ],
+        "ans": "约9.90rad/s；弱阻尼近似可说接近10。",
+        "verification": "右侧正故确有该峰。",
+        "pitfall": "把近似同频写成所有阻尼精确相同。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.6",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "暂态衰减后，稳态频率通常跟驱动还是一定只跟无阻尼固有频率？ 条件：稳定线性受迫情形。",
+        "given": "稳定线性受迫情形。",
+        "analysis": "外驱定时间周期。",
+        "method": "区分暂态稳态。",
+        "principle": "线性受迫解。",
+        "steps": [
+          "自由成分可衰减。",
+          "剩稳态以驱动频率变化。"
+        ],
+        "ans": "驱动频率。",
+        "verification": "峰幅大小仍依固有参数。",
+        "pitfall": "受迫也只能ω₀。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.6",
+        "related_sections": []
+      },
+      {
+        "q": "b=2、ω10、A.10时，平均耗散功率½bω²A²多少？ 条件：正弦稳态与黏性阻尼。",
+        "given": "正弦稳态与黏性阻尼。",
+        "analysis": "单位功率。",
+        "method": "代入。",
+        "principle": "平均v²=ω²A²/2。",
+        "steps": [
+          ".5×2×100×.01=1。",
+          "稳态平均输入同为1W。"
+        ],
+        "ans": "1W。",
+        "verification": "幅度固定仍持续耗能补能。",
+        "pitfall": "稳态所以功率0。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.6",
+        "related_sections": []
+      },
+      {
+        "q": "无阻尼恰共振理想模型是否瞬间有无限振幅？ 条件：持续有限驱动力、有限初值。",
+        "given": "持续有限驱动力、有限初值。",
+        "analysis": "无有限稳态不同瞬时无穷。",
+        "method": "看时间增长。",
+        "principle": "受迫微分方程。",
+        "steps": [
+          "解可含随t增长的振幅包络。",
+          "有限时间响应不因此瞬间无穷。"
+        ],
+        "ans": "不是瞬时无限。",
+        "verification": "实际还有限制，不能从稳态式分母0硬报瞬时值。",
+        "pitfall": "除0当实际瞬间∞。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.6",
+        "related_sections": []
+      },
+      {
+        "q": "共振只会造成破坏，不能用于选频吗？ 条件：不同应用和结构。",
+        "given": "不同应用和结构。",
+        "analysis": "响应增强可有用也可有害。",
+        "method": "按任务评估。",
+        "principle": "频率选择性。",
+        "steps": [
+          "适当系统可利用较强响应选频。",
+          "是否损伤需看幅度、应力等条件。"
+        ],
+        "ans": "并非只破坏。",
+        "verification": "同频不是必然灾害判据。",
+        "pitfall": "共振一律危险或一律有益。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 10,
+        "primary_section": "10.6",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "若要比较不同阻尼的共振曲线，只改变阻尼却同时加大某组驱动力，能单独归因峰高变化吗？ 条件：其他参数本应受控。",
+      "given": "其他参数本应受控。",
+      "analysis": "F₀也改变幅度。",
+      "method": "审对照。",
+      "principle": "振幅式。",
+      "steps": [
+        "A直接与F₀成正比。",
+        "同时改变F₀后峰高差不只由b，需固定驱动幅度。"
+      ],
+      "ans": "不能单独归因。",
+      "verification": "应保持m,k,F₀与测量条件可比。",
+      "pitfall": "只看横轴频率一样就公平。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 10,
+      "primary_section": "10.6",
+      "related_sections": []
+    },
+    "exam": [
+      "先辨自由/受迫与暂态/稳态，再谈频率",
+      "共振峰标阻尼条件，弱阻尼近似不冒充精确普适",
+      "比较振幅固定m,k,F₀，能量题列输入耗散而非稳态等于零流"
+    ],
+    "quick": [
+      "驱动与暂态",
+      "固有参数",
+      "阻尼振幅",
+      "峰位置",
+      "稳态功率"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 350,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_10.6",
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/15-6-forced-oscillations",
+        "page_or_section": "15-6-forced-oscillations",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+        "page": 350,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_10.6",
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/15-6-forced-oscillations",
+        "page_or_section": "15-6-forced-oscillations",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先辨自由/受迫与暂态/稳态，再谈频率",
+      "method": "ω_r²=100−2²/2。",
+      "principle": "振幅分母最小。",
+      "worked_example_index": 2,
+      "verification": "右侧正故确有该峰。",
+      "pitfall": "把近似同频写成所有阻尼精确相同。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“区分固有频率、驱动频率与阻尼作用”的抽样复核：代分母√[0²+20²]=20N/m。；若出现“忽略阻尼报无限。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用明确线性模型解释共振峰与稳态能量”的抽样复核：右侧正故确有该峰。；若出现“把近似同频写成所有阻尼精确相同。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "只看横轴频率一样就公平。",
+        "correction": "不能单独归因。",
+        "verification": "应保持m,k,F₀与测量条件可比。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "带阻尼的精确共振曲线",
+      "objects": [
+        "A-ω曲线",
+        "不同b固定F₀",
+        "ω₀与ω_r标记",
+        "输入耗散能流"
+      ],
+      "relations": [
+        "b2峰在√98非10精确",
+        "ω10处A.10与.05",
+        "弱阻尼峰近ω₀",
+        "稳态能流非0"
+      ],
+      "labels": [
+        "m=1",
+        "k=100",
+        "F₀=2",
+        "b=2或4",
+        "ω/rad·s⁻¹"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "振动图须核相位、箭头与坐标轴，只有同初值、同参数才复用；不拿波形图冒充空间波",
+      "english": "Use deterministic oscillator plots. Label equilibrium and positive direction. Restoring force and acceleration oppose displacement, not necessarily velocity. Distinguish time graphs from spatial wave snapshots, displacement amplitude from peak-to-peak, and damped resonance from an ideal unlimited model."
+    }
+  }
+}

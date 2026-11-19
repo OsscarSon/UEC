@@ -1,0 +1,1838 @@
+{
+  "18.1": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 18,
+    "section_id": "18.1",
+    "goals": [
+      "用反射定律作平面镜虚像并区分实光路",
+      "由几何处理转镜视野和像距变化"
+    ],
+    "prerequisites": [
+      "直线传播",
+      "法线与角",
+      "对称"
+    ],
+    "flow": [
+      "局部反射",
+      "虚像构造",
+      "镜面对称",
+      "相对运动",
+      "视野条件"
+    ],
+    "concept_relation": "局部反射；虚像构造；镜面对称；相对运动；视野条件",
+    "deep": [
+      "物体沿镜面法向接近固定镜，像也以相同速率从镜后接近镜面，物像间距变化率可为两者速率和。若镜移动则像位置需随镜位置重算，不能始终套“像只跟物”规则。用一维x像=2x镜−x物可清楚处理符号。",
+      "固定入射方向、平面镜在入射平面内转小角δ时，法线也转δ，反射方向可转2δ。此结论依转动轴及入射平面等条件，不能把任意三维旋转或光源同步移动也不审就报两倍。角度若问最终与原入射夹角，还要区分所量对象。",
+      "看见全身的最小镜长可在理想平面镜、点眼及合适位置下用眼至头脚的反射几何得到身高一半；镜须安在相应高度，不是任意放一面半身高镜就看到全部。解题先画眼、物、像和实际反射线，再写长度与条件，不能靠示意图像素测量替代推理。"
+    ],
+    "derive": [
+      "θ反=θ入，均对法线；实反射线与虚反延长线区分。",
+      "平面镜像关于镜面对称：x像=2x镜−x物（法向一维坐标）。",
+      "固定入射、对应平面转镜δ→反射方向转2δ；全身半长镜需合适高度等理想条件。"
+    ],
+    "examples": [
+      {
+        "q": "入射光与镜面夹25°，反射角及入反两射线相对法线的夹角？ 条件：光在同一入射平面，反射角从法线量。",
+        "given": "光在同一入射平面，反射角从法线量。",
+        "analysis": "先余角。",
+        "method": "反射定律。",
+        "principle": "法线几何。",
+        "steps": [
+          "入射角65°，反射角65°。",
+          "在入射点向外画入射来源线和反射去向线，两者夹角130°。"
+        ],
+        "ans": "65°、130°。",
+        "verification": "25°是界面角，不是入射角；两条线的方向定义已注明。",
+        "pitfall": "25直接作入射角。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.1",
+        "related_sections": []
+      },
+      {
+        "q": "镜在x=0，物在x=−2m，像何处及物像距？ 条件：一维法向坐标，固定平面镜。",
+        "given": "一维法向坐标，固定平面镜。",
+        "analysis": "对称。",
+        "method": "x像2x镜−x物。",
+        "principle": "成像。",
+        "steps": [
+          "x像2m。",
+          "物像间4m。"
+        ],
+        "ans": "像x2m，物像距4m。",
+        "verification": "物镜距与像镜距都2。",
+        "pitfall": "像距与物像距混。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.1",
+        "related_sections": []
+      },
+      {
+        "q": "物固定x−3m，镜从x=0移到x=0.50m，像位移？ 条件：均沿同一法向，理想平面镜。",
+        "given": "均沿同一法向，理想平面镜。",
+        "analysis": "用两时刻像位置。",
+        "method": "对称公式。",
+        "principle": "参考系。",
+        "steps": [
+          "初像3m，末像2×.50−(−3)=4m。",
+          "像位移+1m。"
+        ],
+        "ans": "+1.0m，为镜位移2倍。",
+        "verification": "物没动但镜变，所以像变。",
+        "pitfall": "物不动像必不动。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "物向固定镜以.40m/s靠近，物像间距减少率？ 条件：法向运动，理想平面镜。",
+        "given": "法向运动，理想平面镜。",
+        "analysis": "两侧同速靠镜。",
+        "method": "距离2u。",
+        "principle": "对称。",
+        "steps": [
+          "减少率2×.40。",
+          "=.80m/s。"
+        ],
+        "ans": ".80m/s。",
+        "verification": "不是每侧都向同一坐标方向。",
+        "pitfall": "只算物一侧。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.1",
+        "related_sections": []
+      },
+      {
+        "q": "固定入射条件下镜平面内转3°，反射方向变化？ 条件：满足二维转镜模型。",
+        "given": "满足二维转镜模型。",
+        "analysis": "两倍。",
+        "method": "法线旋转。",
+        "principle": "反射。",
+        "steps": [
+          "2×3=6°。",
+          "方向按镜转向及几何判。"
+        ],
+        "ans": "6°。",
+        "verification": "入射方向若变此式需重审。",
+        "pitfall": "所有角都只转3。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.1",
+        "related_sections": []
+      },
+      {
+        "q": "平面镜虚像可用镜后屏直接接到会聚实像吗？ 条件：无其他透镜光学元件。",
+        "given": "无其他透镜光学元件。",
+        "analysis": "无真实会聚。",
+        "method": "光路。",
+        "principle": "虚像定义。",
+        "steps": [
+          "镜后仅反向延长线相交。",
+          "实际光不在那里会聚，不能直接承接该实像。"
+        ],
+        "ans": "不能。",
+        "verification": "观察眼仍可见虚像不矛盾。",
+        "pitfall": "可见就一定可屏接。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.1",
+        "related_sections": []
+      },
+      {
+        "q": "身高1.70m，理想全身平面镜最小长度？ 条件：点眼、适当安装高度及无遮挡。",
+        "given": "点眼、适当安装高度及无遮挡。",
+        "analysis": "半高条件。",
+        "method": "反射几何。",
+        "principle": "相似。",
+        "steps": [
+          "1.70/2=.85m。",
+          "位置还须使眼至头脚反射点都在镜内。"
+        ],
+        "ans": ".85m，位置须合适。",
+        "verification": "长度足够不代表任意高度都可。",
+        "pitfall": "只报数不看摆位。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "漫反射是否因为各光线完全不遵守入射反射角相等？ 条件：粗糙表面局部反射模型。",
+      "given": "粗糙表面局部反射模型。",
+      "analysis": "局部法线不同。",
+      "method": "微面分析。",
+      "principle": "反射定律。",
+      "steps": [
+        "各局部面可仍等角。",
+        "不同法线令整体反射分散。"
+      ],
+      "ans": "不是。",
+      "verification": "规则应用在局部入射点。",
+      "pitfall": "散开就没有物理规律。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 18,
+      "primary_section": "18.1",
+      "related_sections": []
+    },
+    "exam": [
+      "先法线换角，实际线与延长线分层",
+      "物镜变化用有号坐标重算，物像距非单像距",
+      "转镜半长镜公式注明二维、固定入射或安装条件"
+    ],
+    "quick": [
+      "局部反射",
+      "虚像构造",
+      "镜面对称",
+      "相对运动",
+      "视野条件"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 240,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_18.1",
+        "url": "https://openstax.org/books/college-physics-2e/pages/25-2-the-law-of-reflection",
+        "page_or_section": "25-2-the-law-of-reflection",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 240,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_18.1",
+        "url": "https://openstax.org/books/college-physics-2e/pages/25-2-the-law-of-reflection",
+        "page_or_section": "25-2-the-law-of-reflection",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先法线换角，实际线与延长线分层",
+      "method": "对称公式。",
+      "principle": "参考系。",
+      "worked_example_index": 2,
+      "verification": "物没动但镜变，所以像变。",
+      "pitfall": "物不动像必不动。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用反射定律作平面镜虚像并区分实光路”的抽样复核：25°是界面角，不是入射角；两条线的方向定义已注明。；若出现“25直接作入射角。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“由几何处理转镜视野和像距变化”的抽样复核：物没动但镜变，所以像变。；若出现“物不动像必不动。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "散开就没有物理规律。",
+        "correction": "不是。",
+        "verification": "规则应用在局部入射点。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "平面镜虚像及有号位置",
+      "objects": [
+        "镜面法线",
+        "物x−2像x2",
+        "真实反射线",
+        "镜后虚线",
+        "眼与半长镜"
+      ],
+      "relations": [
+        "镜后无实箭头会聚",
+        "等角对法线",
+        "像物距各2物像4",
+        "半长镜安装条件"
+      ],
+      "labels": [
+        "入射",
+        "反射",
+        "虚像",
+        "延长线",
+        "法线"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "光路旧图必须核法线角、实虚线、球面镜符号及折射介质；同外形不代表可直接复用",
+      "english": "Use deterministic ray geometry with arrows on real light paths and dashed backward extensions only for virtual constructions. Measure incidence and refraction angles from the normal. Label media, refractive indices and the mirror sign convention. Spherical-mirror and apparent-depth formulas require their stated paraxial or near-normal conditions; never draw a propagating refracted ray in the forbidden total-internal-reflection case."
+    }
+  },
+  "18.2": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 18,
+    "section_id": "18.2",
+    "goals": [
+      "用近轴光路与符号约定求球面镜成像",
+      "区分凹凸实虚并处理焦点及放大率"
+    ],
+    "prerequisites": [
+      "反射",
+      "相似三角",
+      "倒数方程"
+    ],
+    "flow": [
+      "镜型符号",
+      "近轴关系",
+      "凹凸条件",
+      "实虚光路",
+      "数值验算"
+    ],
+    "concept_relation": "镜型符号；近轴关系；凹凸条件；实虚光路；数值验算",
+    "deep": [
+      "凹镜u>f时可成实倒像，物在焦内0<u<f时成虚正放大像；u=f时反射近轴光平行，无有限像距。凸镜对镜前实物通常虚正缩小，v落镜后焦点和镜之间。不能只背“凹镜全放大、凸镜全倒像”这种与条件无关的结论。",
+      "实像由实际反射线相交可屏接，虚像由反向延长线相交不可直接屏接。m负表示倒立，大小|m|判放缩；不要把负像距当不存在，也不要把m负解释像高绝对长度为负。图和数值要采用同一约定，虚线不带真实光能箭头。",
+      "解题按镜型和f号→列u→解v→算m→像性质→光路或代式验算。若方程分母为0，说明无有限成像而不是报v0；若题给虚物等高级条件，应重新定义u号，不把镜前实物口诀外推。数值为理想模型，非实际镜片已测参数。"
+    ],
+    "derive": [
+      "近轴实物约定：1/f=1/u+1/v，m=−v/u；凹f>0、凸f<0。",
+      "v>0镜前实像，v<0镜后虚像；m符号表正倒，|m|表放缩。",
+      "球面镜近轴|f|≈R/2；u=f无有限像距，不能当v0。"
+    ],
+    "examples": [
+      {
+        "q": "凹镜f10cm，实物u30cm，求v、m及性质。 条件：本节实正约定与近轴模型。",
+        "given": "本节实正约定与近轴模型。",
+        "analysis": "焦外成实像。",
+        "method": "镜式。",
+        "principle": "相似及反射。",
+        "steps": [
+          "1/v=1/10−1/30=1/15，v15cm。",
+          "m−15/30=−.50。"
+        ],
+        "ans": "v15cm，m−.5，镜前实倒缩小。",
+        "verification": "1/30+1/15=.1。",
+        "pitfall": "凹镜一律放大。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.2",
+        "related_sections": []
+      },
+      {
+        "q": "凹镜f10cm，实物u5cm，求像。 条件：同约定。",
+        "given": "同约定。",
+        "analysis": "物在焦内。",
+        "method": "镜式。",
+        "principle": "光路。",
+        "steps": [
+          "1/v=.1−.2=−.1，v−10cm。",
+          "m−(−10)/5=2。"
+        ],
+        "ans": "镜后10cm虚正放大2倍。",
+        "verification": "反射线实际发散，延长会聚。",
+        "pitfall": "负v直接说无像。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.2",
+        "related_sections": []
+      },
+      {
+        "q": "凸镜f−10cm，u20cm，求v和m。 条件：镜前实物近轴。",
+        "given": "镜前实物近轴。",
+        "analysis": "f负。",
+        "method": "镜式。",
+        "principle": "凸镜发散。",
+        "steps": [
+          "1/v=−.1−.05=−.15，v−20/3cm。",
+          "m1/3。"
+        ],
+        "ans": "镜后约6.67cm虚正缩小。",
+        "verification": "|v|<|f|，在镜与虚焦间。",
+        "pitfall": "f用+10混约定。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "凹球面镜半径40cm，近轴焦距大小？ 条件：球差忽略。",
+        "given": "球差忽略。",
+        "analysis": "R/2。",
+        "method": "关系。",
+        "principle": "反射几何。",
+        "steps": [
+          "40/2=20cm。",
+          "本节凹f正。"
+        ],
+        "ans": "20cm。",
+        "verification": "不保证边缘光精确同焦。",
+        "pitfall": "f40。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.2",
+        "related_sections": []
+      },
+      {
+        "q": "凹镜实物恰在焦点，v0还是无有限v？ 条件：理想近轴。",
+        "given": "理想近轴。",
+        "analysis": "1/v0。",
+        "method": "镜式。",
+        "principle": "平行反射。",
+        "steps": [
+          "1/f−1/u=0。",
+          "1/v0对应无有限像距，不是v0。"
+        ],
+        "ans": "无有限v。",
+        "verification": "输出近轴平行光。",
+        "pitfall": "倒数0看成变量0。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.2",
+        "related_sections": []
+      },
+      {
+        "q": "v−12cm、u24cm，m与像正倒？ 条件：本节约定。",
+        "given": "本节约定。",
+        "analysis": "−v/u。",
+        "method": "比例。",
+        "principle": "相似。",
+        "steps": [
+          "m+.50。",
+          "正立缩小，v负表虚像。"
+        ],
+        "ans": "+.5，虚正缩小。",
+        "verification": "大小是.5不是−.5。",
+        "pitfall": "负v一定倒立。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.2",
+        "related_sections": []
+      },
+      {
+        "q": "作凸镜图时虚焦后的反向线可画成真实折射光吗？ 条件：镜是反射元件，不讨论透射。",
+        "given": "镜是反射元件，不讨论透射。",
+        "analysis": "构造线与真实反射线不同。",
+        "method": "光路。",
+        "principle": "虚像。",
+        "steps": [
+          "实际反射向前发散。",
+          "镜后只是虚线反延长，不应当真实透射会聚。"
+        ],
+        "ans": "不可。",
+        "verification": "镜不是此处的透镜。",
+        "pitfall": "把镜光路画成透镜穿过去。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "近轴球面镜式正确能保证任意大孔径边缘光都无球差吗？ 条件：原模型忽略非近轴偏差。",
+      "given": "原模型忽略非近轴偏差。",
+      "analysis": "适用条件限制。",
+      "method": "审模型。",
+      "principle": "球面反射。",
+      "steps": [
+        "球面不同入射高度不必共一精确焦点。",
+        "大孔径需更完整光线追迹。"
+      ],
+      "ans": "不能。",
+      "verification": "公式计算通过不等实际镜全理想。",
+      "pitfall": "公式存在就无像差。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 18,
+      "primary_section": "18.2",
+      "related_sections": []
+    },
+    "exam": [
+      "先镜型及整套号，再v m性质，不混透镜穿透图",
+      "焦内负v仍有虚像，1/v0不等v0",
+      "光路与数值互验，近轴及R/2条件明确"
+    ],
+    "quick": [
+      "镜型符号",
+      "近轴关系",
+      "凹凸条件",
+      "实虚光路",
+      "数值验算"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 246,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_18.2",
+        "url": "https://openstax.org/books/college-physics-2e/pages/25-7-image-formation-by-mirrors",
+        "page_or_section": "25-7-image-formation-by-mirrors",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 246,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_18.2",
+        "url": "https://openstax.org/books/college-physics-2e/pages/25-7-image-formation-by-mirrors",
+        "page_or_section": "25-7-image-formation-by-mirrors",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先镜型及整套号，再v m性质，不混透镜穿透图",
+      "method": "镜式。",
+      "principle": "凸镜发散。",
+      "worked_example_index": 2,
+      "verification": "|v|<|f|，在镜与虚焦间。",
+      "pitfall": "f用+10混约定。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用近轴光路与符号约定求球面镜成像”的抽样复核：1/30+1/15=.1。；若出现“凹镜一律放大。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分凹凸实虚并处理焦点及放大率”的抽样复核：|v|<|f|，在镜与虚焦间。；若出现“f用+10混约定。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "公式存在就无像差。",
+        "correction": "不能。",
+        "verification": "公式计算通过不等实际镜全理想。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "凹凸镜三种成像条件",
+      "objects": [
+        "凹u30f10v15",
+        "凹u5虚v−10",
+        "凸f−10u20",
+        "轴焦点中心",
+        "实虚线"
+      ],
+      "relations": [
+        "各公式同符号约定",
+        "凹焦内虚正2",
+        "凸虚正1/3",
+        "反射不画穿镜透射"
+      ],
+      "labels": [
+        "u",
+        "v",
+        "f",
+        "m",
+        "实像",
+        "虚像",
+        "近轴"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "光路旧图必须核法线角、实虚线、球面镜符号及折射介质；同外形不代表可直接复用",
+      "english": "Use deterministic ray geometry with arrows on real light paths and dashed backward extensions only for virtual constructions. Measure incidence and refraction angles from the normal. Label media, refractive indices and the mirror sign convention. Spherical-mirror and apparent-depth formulas require their stated paraxial or near-normal conditions; never draw a propagating refracted ray in the forbidden total-internal-reflection case."
+    }
+  },
+  "18.3": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 18,
+    "section_id": "18.3",
+    "goals": [
+      "用相速度和边界频率解释折射关系",
+      "核法线角、波长及折射解存在条件"
+    ],
+    "prerequisites": [
+      "光速",
+      "波长频率",
+      "三角函数"
+    ],
+    "flow": [
+      "相折射率",
+      "折射角",
+      "频率连续",
+      "波长变化",
+      "存在验算"
+    ],
+    "concept_relation": "相折射率；折射角；频率连续；波长变化；存在验算",
+    "deep": [
+      "相对折射率n₂/n₁可由sin i/sin r求，不是i/r。角为小量时二者比近似可能相近，但一般测角不能直接用角度数相除。相同角单位须用于三角计算，公式中的正弦比没有角单位。",
+      "由高n到低n，所求sin r可能超过1，此时不存在普通传播折射角，需要全反射等条件分析。此处不能让计算器无解后任意设r90°，临界恰等1与超过1是不同物理情形。反射与透射能量分配还由界面等条件决定，不从折射线存在就说没有反射。",
+      "题解先画两介质与法线，给n或相速度、写i r，再算角、速度或波长，最后核偏折方向及sin范围。实际材料n依频率温度等，数据表与测量条件需注明，不能把一个玻璃示例1.5当全部玻璃所有波长的固定精确常数。"
+    ],
+    "derive": [
+      "n=c/v相；静止界面f通常不变，λ介=λ₀/n（相应模型）。",
+      "n₁sin i=n₂sin r，角对法线，n₂/n₁=sin i/sin r。",
+      "计算sin r须在[−1,1]，超界不能强设90°；临界与全反射另审。"
+    ],
+    "examples": [
+      {
+        "q": "空气n1入玻璃n=1.5，i30°，折射角？ 条件：透明各向同性简单模型。",
+        "given": "透明各向同性简单模型。",
+        "analysis": "高n向法线。",
+        "method": "Snell。",
+        "principle": "界面。",
+        "steps": [
+          "sinr=sin30/1.5=1/3。",
+          "r≈19.47°。"
+        ],
+        "ans": "约19.5°。",
+        "verification": "r<i，方向合理。",
+        "pitfall": "用角30/1.5=20当精确。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.3",
+        "related_sections": []
+      },
+      {
+        "q": "真空λ600nm光入n=1.5介质，v、f、λ介？ 条件：c3×10⁸m/s、静止界面。",
+        "given": "c3×10⁸m/s、静止界面。",
+        "analysis": "f保持。",
+        "method": "n与v=fλ。",
+        "principle": "波关系。",
+        "steps": [
+          "v2×10⁸m/s，f3×10⁸/(6×10⁻⁷)=5×10¹⁴Hz。",
+          "λ介400nm。"
+        ],
+        "ans": "2×10⁸m/s、5×10¹⁴Hz、400nm。",
+        "verification": "fλ介2×10⁸。",
+        "pitfall": "频率也除1.5。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.3",
+        "related_sections": []
+      },
+      {
+        "q": "光从n=1.5到n1，i30°，r及是否离法线？ 条件：普通透射解存在。",
+        "given": "普通透射解存在。",
+        "analysis": "sinr=.75。",
+        "method": "Snell。",
+        "principle": "折射。",
+        "steps": [
+          "1.5sin30=.75。",
+          "r≈48.59°>30°。"
+        ],
+        "ans": "约48.6°，离法线。",
+        "verification": "尚小于90，未全反射。",
+        "pitfall": "由高到低就一律全反射。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "n2介质相速度？ 条件：c3×10⁸，相折射率给定。",
+        "given": "c3×10⁸，相折射率给定。",
+        "analysis": "c/n。",
+        "method": "定义。",
+        "principle": "光速。",
+        "steps": [
+          "v3×10⁸/2。",
+          "=1.5×10⁸m/s。"
+        ],
+        "ans": "1.5×10⁸m/s。",
+        "verification": "nc等错误会超普通模型c。",
+        "pitfall": "乘n。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.3",
+        "related_sections": []
+      },
+      {
+        "q": "i=0时光进不同n介质，折射角和波长都必不变吗？ 条件：静止透明界面。",
+        "given": "静止透明界面。",
+        "analysis": "角与波长不同量。",
+        "method": "Snell和v=fλ。",
+        "principle": "边界。",
+        "steps": [
+          "r=0方向不偏。",
+          "波长仍随n改变。"
+        ],
+        "ans": "角0，但λ不必不变。",
+        "verification": "直行非所有物理量不变。",
+        "pitfall": "没拐弯就没折射响应。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.3",
+        "related_sections": []
+      },
+      {
+        "q": "sin i=.6、sin r=.4，相对折射率？ 条件：n₂/n₁定义。",
+        "given": "n₂/n₁定义。",
+        "analysis": "比正弦。",
+        "method": "Snell。",
+        "principle": "公式。",
+        "steps": [
+          ".6/.4=1.5。",
+          "是无量纲。"
+        ],
+        "ans": "1.5。",
+        "verification": "不需要先反三角再比角。",
+        "pitfall": "直接i/r。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.3",
+        "related_sections": []
+      },
+      {
+        "q": "sinr算1.2可以取r90°代替吗？ 条件：给定模型。",
+        "given": "给定模型。",
+        "analysis": "超过实正弦范围。",
+        "method": "存在性。",
+        "principle": "几何光学。",
+        "steps": [
+          "无普通实r满足。",
+          "需核全反射等状态，不能改数据。"
+        ],
+        "ans": "不可以。",
+        "verification": "恰1才临界90。",
+        "pitfall": "超界一律夹到1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "介质变了频率就必按折射率倍增吗？ 条件：单色光跨静止界面，非移动或非线性频率转换过程。",
+      "given": "单色光跨静止界面，非移动或非线性频率转换过程。",
+      "analysis": "振动时间连续。",
+      "method": "辨边界条件。",
+      "principle": "波。",
+      "steps": [
+        "频率通常由源与界面条件保持。",
+        "速度和λ改变满足v=fλ。"
+      ],
+      "ans": "不必，本模型f不变。",
+      "verification": "不能将相速度与频率混算。",
+      "pitfall": "n大光更频密所以f必大。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 18,
+      "primary_section": "18.3",
+      "related_sections": []
+    },
+    "exam": [
+      "先相介质法线角再Snell，正弦比不当角比",
+      "静界面f固定，vλ随n，直入射也可能变波长",
+      "sin超界先物理分类，材料n与模型条件保留"
+    ],
+    "quick": [
+      "相折射率",
+      "折射角",
+      "频率连续",
+      "波长变化",
+      "存在验算"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 253,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_18.3",
+        "url": "https://openstax.org/books/college-physics-2e/pages/25-3-the-law-of-refraction",
+        "page_or_section": "25-3-the-law-of-refraction",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 253,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_18.3",
+        "url": "https://openstax.org/books/college-physics-2e/pages/25-3-the-law-of-refraction",
+        "page_or_section": "25-3-the-law-of-refraction",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先相介质法线角再Snell，正弦比不当角比",
+      "method": "Snell。",
+      "principle": "折射。",
+      "worked_example_index": 2,
+      "verification": "尚小于90，未全反射。",
+      "pitfall": "由高到低就一律全反射。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用相速度和边界频率解释折射关系”的抽样复核：r<i，方向合理。；若出现“用角30/1.5=20当精确。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“核法线角、波长及折射解存在条件”的抽样复核：尚小于90，未全反射。；若出现“由高到低就一律全反射。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "n大光更频密所以f必大。",
+        "correction": "不必，本模型f不变。",
+        "verification": "不能将相速度与频率混算。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "折射的角速频率波长",
+      "objects": [
+        "空气玻璃界面",
+        "法线",
+        "i30r19.47",
+        "相邻波前",
+        "f不变标注"
+      ],
+      "relations": [
+        "n1sin i=n2sinr",
+        "高n向法线",
+        "600nm变400nm",
+        "f5e14不变",
+        "正入射仍可变速"
+      ],
+      "labels": [
+        "n",
+        "i",
+        "r",
+        "v相",
+        "λ",
+        "f"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "光路旧图必须核法线角、实虚线、球面镜符号及折射介质；同外形不代表可直接复用",
+      "english": "Use deterministic ray geometry with arrows on real light paths and dashed backward extensions only for virtual constructions. Measure incidence and refraction angles from the normal. Label media, refractive indices and the mirror sign convention. Spherical-mirror and apparent-depth formulas require their stated paraxial or near-normal conditions; never draw a propagating refracted ray in the forbidden total-internal-reflection case."
+    }
+  },
+  "18.4": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 18,
+    "section_id": "18.4",
+    "goals": [
+      "从实际折射线解释视深与平行板侧移",
+      "辨析大气梯度折射和几何近似条件"
+    ],
+    "prerequisites": [
+      "折射定律",
+      "三角投影",
+      "虚像"
+    ],
+    "flow": [
+      "真实光路",
+      "反延视深",
+      "近轴推导",
+      "平行板侧移",
+      "梯度与证据"
+    ],
+    "concept_relation": "真实光路；反延视深；近轴推导；平行板侧移；梯度与证据",
+    "deep": [
+      "若两外介质不同、板面成楔角或材料有梯度，出射方向不必与入射平行。棱镜的净偏折与平行板不同，不能把所有玻璃块都用同一平行出射画法。侧移公式也需对应入射平面和两平行面，不可直接代球面透镜厚度。",
+      "大气中密度、温度等可令折射率随位置变化，光路可连续弯曲并使远物看似位置改变，某些海市蜃楼现象与此有关。把它简化为地面真有水镜反射会错误，具体图像方向还依实际折射率分布，不是一种温度条件解释所有景象。",
+      "现象题的答法是物点→真实折射路径→眼或观察屏→反延定位→适用近似，而非只写“因为折射”。定量结果要核视深是否较真深合理、侧移不超过板内几何尺度，并区分位置变化、方向变化和传播时间变化，不能看到出射平行就断玻璃对光完全无作用。"
+    ],
+    "derive": [
+      "近法线视深d_app≈d·n观察/n物；推导用x=d tanr=d_app tani及小角。",
+      "平行板同外介质：出射平行，侧移δ=t sin(i−r)/cosr；板内斜程t/cosr。",
+      "梯度折射率可弯曲光路；具体大气现象依分布，不用虚构水面解释。"
+    ],
+    "examples": [
+      {
+        "q": "物在玻璃内距平面12cm，从空气近法线看表观深度？ 条件：n玻璃1.5、n空气1，忽略厚度边缘效应。",
+        "given": "n玻璃1.5、n空气1，忽略厚度边缘效应。",
+        "analysis": "近轴视深。",
+        "method": "d/n。",
+        "principle": "折射反延。",
+        "steps": [
+          "d_app12/1.5=8cm。",
+          "表观向表面移4cm。"
+        ],
+        "ans": "8cm，近似。",
+        "verification": "从高n出射远法线，反延像较浅。",
+        "pitfall": "用d×n得18cm。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.4",
+        "related_sections": []
+      },
+      {
+        "q": "平行板厚5cm，i60°、r30°，两外介质相同，侧移？ 条件：板面平行，厚度沿法线，满足相应n比√3。",
+        "given": "板面平行，厚度沿法线，满足相应n比√3。",
+        "analysis": "不是板内斜程。",
+        "method": "侧移式。",
+        "principle": "三角几何。",
+        "steps": [
+          "δ=5sin30/cos30。",
+          "=5/√3cm≈2.887cm。"
+        ],
+        "ans": "约2.89cm。",
+        "verification": "板内斜程10/√3cm，侧移较小；出射平行。",
+        "pitfall": "直接t tani或把t作斜程。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.4",
+        "related_sections": []
+      },
+      {
+        "q": "平行板出射方向与入射平行，能说板完全没有光学作用吗？ 条件：板内n不同于外界。",
+        "given": "板内n不同于外界。",
+        "analysis": "方向相同不等位置时间同。",
+        "method": "比较路径。",
+        "principle": "折射。",
+        "steps": [
+          "板内方向和速度改变。",
+          "可能侧移及传播延迟，不能由最终平行否定。"
+        ],
+        "ans": "不能。",
+        "verification": "正入射侧移0仍可有延迟。",
+        "pitfall": "平行就全部物理量不变。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "水n=4/3，真深20cm，空气近法线视深？ 条件：理想平面界面。",
+        "given": "理想平面界面。",
+        "analysis": "除n。",
+        "method": "公式。",
+        "principle": "近轴。",
+        "steps": [
+          "20/(4/3)=15cm。",
+          "较浅5cm。"
+        ],
+        "ans": "15cm。",
+        "verification": "近似条件必须保留。",
+        "pitfall": "4/3看成小于1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.4",
+        "related_sections": []
+      },
+      {
+        "q": "真深12cm，空气表观9cm，近法线估n？ 条件：使用同一近轴模型，外n1。",
+        "given": "使用同一近轴模型，外n1。",
+        "analysis": "n=d/d_app。",
+        "method": "比值。",
+        "principle": "视深。",
+        "steps": [
+          "12/9=4/3。",
+          "无量纲。"
+        ],
+        "ans": "4/3。",
+        "verification": "反比而非9/12。",
+        "pitfall": "表观除真深。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.4",
+        "related_sections": []
+      },
+      {
+        "q": "板厚t，板内r=0时斜光程及侧移？ 条件：正入射且平行板外介质同。",
+        "given": "正入射且平行板外介质同。",
+        "analysis": "路径沿法线。",
+        "method": "几何。",
+        "principle": "折射。",
+        "steps": [
+          "斜程t/cos0=t。",
+          "δ=t sin0=0。"
+        ],
+        "ans": "t与0。",
+        "verification": "不代表速度与外相同。",
+        "pitfall": "侧移0就无介质效应。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.4",
+        "related_sections": []
+      },
+      {
+        "q": "任意大斜角可无条件用d_app=d/n精确值吗？ 条件：实际多光线成像。",
+        "given": "实际多光线成像。",
+        "analysis": "推导用了小角。",
+        "method": "审近似。",
+        "principle": "tan与sin。",
+        "steps": [
+          "大角时tan比例不等小角比例。",
+          "反延多线未必同一精确点，需更完整追迹。"
+        ],
+        "ans": "不可。",
+        "verification": "可在明确近法线条件使用。",
+        "pitfall": "近似公式当全角精确。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "海市蜃楼出现像似倒影，能仅凭外观断地面有真实水镜吗？ 条件：无独立水面证据。",
+      "given": "无独立水面证据。",
+      "analysis": "梯度折射可给类似观察。",
+      "method": "比较机制证据。",
+      "principle": "光路。",
+      "steps": [
+        "大气折射率随高度变化可弯光路。",
+        "须环境及路径资料判断，不能外观直接确水。"
+      ],
+      "ans": "不能。",
+      "verification": "具体分布决定像型，不硬套单一图。",
+      "pitfall": "像水就必有水。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 18,
+      "primary_section": "18.4",
+      "related_sections": []
+    },
+    "exam": [
+      "现象必须画实折射与反延，说明眼如何定位",
+      "视深标近法线，板侧移分清厚与斜程",
+      "出射平行仍有位移延迟，梯度现象按分布不凭外观造物"
+    ],
+    "quick": [
+      "真实光路",
+      "反延视深",
+      "近轴推导",
+      "平行板侧移",
+      "梯度与证据"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 260,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_18.4",
+        "url": "https://openstax.org/books/college-physics-2e/pages/25-3-the-law-of-refraction",
+        "page_or_section": "25-3-the-law-of-refraction",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 260,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_18.4",
+        "url": "https://openstax.org/books/college-physics-2e/pages/25-3-the-law-of-refraction",
+        "page_or_section": "25-3-the-law-of-refraction",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "现象必须画实折射与反延，说明眼如何定位",
+      "method": "比较路径。",
+      "principle": "折射。",
+      "worked_example_index": 2,
+      "verification": "正入射侧移0仍可有延迟。",
+      "pitfall": "平行就全部物理量不变。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“从实际折射线解释视深与平行板侧移”的抽样复核：从高n出射远法线，反延像较浅。；若出现“用d×n得18cm。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“辨析大气梯度折射和几何近似条件”的抽样复核：正入射侧移0仍可有延迟。；若出现“平行就全部物理量不变。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "像水就必有水。",
+        "correction": "不能。",
+        "verification": "具体分布决定像型，不硬套单一图。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "视深和板侧移的两种几何",
+      "objects": [
+        "水下物点",
+        "出射折射线",
+        "虚像反延",
+        "平行板两面",
+        "侧移垂距"
+      ],
+      "relations": [
+        "视深近轴较浅",
+        "d与d_app不当两真物",
+        "板厚沿法线",
+        "δ垂直入出射线",
+        "出射平行需同外介质"
+      ],
+      "labels": [
+        "实线",
+        "虚线",
+        "d",
+        "d_app",
+        "t",
+        "i",
+        "r",
+        "δ"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "光路旧图必须核法线角、实虚线、球面镜符号及折射介质；同外形不代表可直接复用",
+      "english": "Use deterministic ray geometry with arrows on real light paths and dashed backward extensions only for virtual constructions. Measure incidence and refraction angles from the normal. Label media, refractive indices and the mirror sign convention. Spherical-mirror and apparent-depth formulas require their stated paraxial or near-normal conditions; never draw a propagating refracted ray in the forbidden total-internal-reflection case."
+    }
+  },
+  "18.5": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 18,
+    "section_id": "18.5",
+    "goals": [
+      "由折射式推导临界角和全反射两条件",
+      "分析棱镜光纤并保持介质角度及近似边界"
+    ],
+    "prerequisites": [
+      "Snell",
+      "正弦范围",
+      "几何光学"
+    ],
+    "flow": [
+      "临界推导",
+      "两条件",
+      "近远场区别",
+      "棱镜环境",
+      "光纤条件"
+    ],
+    "concept_relation": "临界推导；两条件；近远场区别；棱镜环境；光纤条件",
+    "deep": [
+      "直角棱镜可利用特定内部45°入射转向，但是否全反射依棱镜与外界n。玻璃1.5对空气临界约41.8°可满足，若外界水n=4/3则临界增大，45°可能不满足。不能只看几何45°便认为任何浸液下都是理想反射镜。",
+      "光纤常以较高n纤芯和较低n包层支持相应导引，入射端耦合角与侧壁内部入射角不是同一个角。理想直纤阶跃折射率、子午光线模型可得n₀sinθ_max=√(n芯²−n包²)，需相应条件，不把所有弯曲、模式与损耗都忽略成无限距离无损。",
+      "应用题先圈发生反射的具体界面及其两n，再从法线量内部i，算i_c并比较。图中光线箭头和介质标签要一致，若不满足条件应画合理折射及可能反射，而非为预想功能硬删透射。结果注明几何模型与实际吸收散射限制，自动作图通过不等真实器件性能已验证。"
+    ],
+    "derive": [
+      "n₁>n₂时sin i_c=n₂/n₁，内部i>i_c才为相应全反射。",
+      "i=i_c是临界；倏逝近场不等普通传播折射光线。",
+      "理想直阶跃纤芯子午光线：n₀sinθ_max=√(n芯²−n包²)，耦合角与侧壁角不同。"
+    ],
+    "examples": [
+      {
+        "q": "玻璃n=1.5到空气n1，临界角及内部45°是否全反射？ 条件：透明无吸收几何模型。",
+        "given": "透明无吸收几何模型。",
+        "analysis": "先n比再比较。",
+        "method": "Snell临界。",
+        "principle": "sinr≤1。",
+        "steps": [
+          "i_c=arcsin(2/3)≈41.81°。",
+          "45>41.81且高到低，满足。"
+        ],
+        "ans": "约41.8°；45°全反射。",
+        "verification": "若强算sinr1.5sin45>1，提示无普通折射解。",
+        "pitfall": "只写角大不列高低n。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.5",
+        "related_sections": []
+      },
+      {
+        "q": "同玻璃在水n=4/3中，内部45°仍全反射吗？ 条件：玻璃n=1.5，界面外物改变。",
+        "given": "玻璃n=1.5，界面外物改变。",
+        "analysis": "临界比变8/9。",
+        "method": "重算。",
+        "principle": "两介质。",
+        "steps": [
+          "sin i_c=(4/3)/(3/2)=8/9，i_c≈62.73°。",
+          "45<62.73，未满足。"
+        ],
+        "ans": "不全反射。",
+        "verification": "不能沿用玻璃空气41.8°。",
+        "pitfall": "棱镜外形没变就沿旧临界角。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.5",
+        "related_sections": []
+      },
+      {
+        "q": "理想直纤芯n=1.5、包层√2、入射端外n1，最大接受角？ 条件：阶跃、子午光线模型，角对纤轴。",
+        "given": "阶跃、子午光线模型，角对纤轴。",
+        "analysis": "数值孔径。",
+        "method": "sinθmax。",
+        "principle": "两次折射几何。",
+        "steps": [
+          "√(1.5²−(√2)²)=√.25=.5。",
+          "θ_max30°。"
+        ],
+        "ans": "30°，模型值。",
+        "verification": "不是侧壁内部临界角；两个角对象不同。",
+        "pitfall": "把接受角直接等i_c。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.5",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "介质n√2到空气，临界角？ 条件：同模型。",
+        "given": "同模型。",
+        "analysis": "sinic1/√2。",
+        "method": "反正弦。",
+        "principle": "临界。",
+        "steps": [
+          "i_c45°。",
+          "需i>45°才全反射。"
+        ],
+        "ans": "45°。",
+        "verification": "等45为临界不是严格超过。",
+        "pitfall": "等号大于号不分。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.5",
+        "related_sections": []
+      },
+      {
+        "q": "空气到玻璃n=1.5，i80°会同类全反射吗？ 条件：普通透明模型。",
+        "given": "普通透明模型。",
+        "analysis": "低到高不满足。",
+        "method": "条件。",
+        "principle": "Snell。",
+        "steps": [
+          "n₁<n₂。",
+          "无该临界全反射条件，虽入射角大仍可有传播折射。"
+        ],
+        "ans": "不会。",
+        "verification": "大角不是唯一条件。",
+        "pitfall": "见80大就全反。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.5",
+        "related_sections": []
+      },
+      {
+        "q": "水4/3到空气，i45°，是否全反射？ 条件：标准模型。",
+        "given": "标准模型。",
+        "analysis": "ic约48.59。",
+        "method": "比角。",
+        "principle": "临界。",
+        "steps": [
+          "ic=arcsin3/4≈48.59°。",
+          "45较小，非全反射。"
+        ],
+        "ans": "不是。",
+        "verification": "sinr=(4/3)sin45<1。",
+        "pitfall": "误用玻璃临界41.8。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.5",
+        "related_sections": []
+      },
+      {
+        "q": "全反射理想射线图，可画远场折射射线穿第二介质吗？ 条件：已确认i>ic，非近场隧穿装置。",
+        "given": "已确认i>ic，非近场隧穿装置。",
+        "analysis": "无普通传播折射解。",
+        "method": "图审。",
+        "principle": "边界。",
+        "steps": [
+          "第二介质可有近界面场。",
+          "但不应画普通传播折射线向远处。"
+        ],
+        "ans": "不可。",
+        "verification": "近场与远场射线区分。",
+        "pitfall": "为了完整三线每图必画折射光。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.5",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "光纤存在全反射就能保证任何弯曲任何距离全无损耗吗？ 条件：真实器件。",
+      "given": "真实器件。",
+      "analysis": "导引条件与实际损耗不同。",
+      "method": "审范围。",
+      "principle": "传播。",
+      "steps": [
+        "吸收散射和弯曲等可影响。",
+        "简单射线条件不保证无限无损性能。"
+      ],
+      "ans": "不能。",
+      "verification": "需真实材料几何及测量证据。",
+      "pitfall": "理想界面全部反射等整个系统绝对无损。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 18,
+      "primary_section": "18.5",
+      "related_sections": []
+    },
+    "exam": [
+      "先界面两n和内部法线角，再临界比较",
+      "等临界与超过分开，改变外介质必须重算",
+      "纤端接受角非壁角，理想导引非无限实际无损"
+    ],
+    "quick": [
+      "临界推导",
+      "两条件",
+      "近远场区别",
+      "棱镜环境",
+      "光纤条件"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 264,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_18.5",
+        "url": "https://openstax.org/books/college-physics-2e/pages/25-4-total-internal-reflection",
+        "page_or_section": "25-4-total-internal-reflection",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 264,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_18.5",
+        "url": "https://openstax.org/books/college-physics-2e/pages/25-4-total-internal-reflection",
+        "page_or_section": "25-4-total-internal-reflection",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先界面两n和内部法线角，再临界比较",
+      "method": "sinθmax。",
+      "principle": "两次折射几何。",
+      "worked_example_index": 2,
+      "verification": "不是侧壁内部临界角；两个角对象不同。",
+      "pitfall": "把接受角直接等i_c。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由折射式推导临界角和全反射两条件”的抽样复核：若强算sinr1.5sin45>1，提示无普通折射解。；若出现“只写角大不列高低n。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“分析棱镜光纤并保持介质角度及近似边界”的抽样复核：不是侧壁内部临界角；两个角对象不同。；若出现“把接受角直接等i_c。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "理想界面全部反射等整个系统绝对无损。",
+        "correction": "不能。",
+        "verification": "需真实材料几何及测量证据。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "临界与全反射的条件矩阵",
+      "objects": [
+        "玻璃空气i45",
+        "玻璃水i45",
+        "临界r90",
+        "纤芯包层",
+        "接受端角"
+      ],
+      "relations": [
+        "玻璃空气ic41.81可全反",
+        "玻璃水ic62.73不全反",
+        "低到高无同类全反",
+        "接受角30非侧壁角"
+      ],
+      "labels": [
+        "n₁",
+        "n₂",
+        "i",
+        "i_c",
+        "θ接受",
+        "近场不同射线"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "光路旧图必须核法线角、实虚线、球面镜符号及折射介质；同外形不代表可直接复用",
+      "english": "Use deterministic ray geometry with arrows on real light paths and dashed backward extensions only for virtual constructions. Measure incidence and refraction angles from the normal. Label media, refractive indices and the mirror sign convention. Spherical-mirror and apparent-depth formulas require their stated paraxial or near-normal conditions; never draw a propagating refracted ray in the forbidden total-internal-reflection case."
+    }
+  },
+  "18.6": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 18,
+    "section_id": "18.6",
+    "goals": [
+      "从测角图和临界视深法建立估计",
+      "用控制变量及不确定度审核折射率数据"
+    ],
+    "prerequisites": [
+      "Snell",
+      "正交作图",
+      "实验变量与图线"
+    ],
+    "flow": [
+      "可测量模型",
+      "正弦图斜率",
+      "装置对准",
+      "多方法条件",
+      "误差与记录"
+    ],
+    "concept_relation": "可测量模型；正弦图斜率；装置对准；多方法条件；误差与记录",
+    "deep": [
+      "临界角法在样品到已知低n介质的条件下用n样品=n外/sin i_c；视深法在近法线且几何已知时用n样品/n观察≈d真/d视。不同方法的系统误差与近似不同，结果不一致时先查温度、光色、角定义和近轴范围，不能只取想要的数。",
+      "不确定度可由重复读数、图线拟合及仪器刻度估计，但系统法线偏差、样品不均匀或表面不平不只靠平均消失。单组角接近0时正弦比对读数误差敏感，角近临界又可能难判传播界，选测量范围需兼顾可读性及模型。",
+      "报告写原始量、方法方程、单位/轴定义、计算、重复性和误差边界。示例数据是教学给定，不冒充已经进行实验；没有教师或官方实测审定也要说明。光学工具使用依正规实验规范并避免直视强光，图文展示应让装置、真实光线和量角一致。"
+    ],
+    "derive": [
+      "纵sin i横sin r：斜率m=n样品/n空气，换轴则倒数。",
+      "临界法n样品=n外/sin i_c；近法线视深法n样品/n观察≈d真/d视。",
+      "重复可评随机差，不自动消除法线偏差等系统误差；示例不称实测。"
+    ],
+    "examples": [
+      {
+        "q": "空气n1，一组sini=.60、sinr=.40，估n；若交换图轴斜率？ 条件：单色对应同温条件，正弦数值已给。",
+        "given": "单色对应同温条件，正弦数值已给。",
+        "analysis": "正弦比。",
+        "method": "Snell。",
+        "principle": "折射率。",
+        "steps": [
+          "n=.60/.40=1.50。",
+          "纵sinr横sini斜率.40/.60=2/3。"
+        ],
+        "ans": "n=1.50；换轴斜率2/3。",
+        "verification": "换轴不改变物理n，只改变回算方式。",
+        "pitfall": "任何图斜率都是n。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.6",
+        "related_sections": []
+      },
+      {
+        "q": "样品到空气临界角45°，n估计？ 条件：n空气约1，正确内部法线角。",
+        "given": "n空气约1，正确内部法线角。",
+        "analysis": "n外/sinic。",
+        "method": "临界法。",
+        "principle": "Snell。",
+        "steps": [
+          "n=1/(√2/2)=√2。",
+          "约1.414。"
+        ],
+        "ans": "√2。",
+        "verification": "样品n应大于外界，满足方法条件。",
+        "pitfall": "n=sin45小于1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.6",
+        "related_sections": []
+      },
+      {
+        "q": "多次测量都把相对界面角当相对法线角，平均能修正吗？ 条件：其他条件不变。",
+        "given": "其他条件不变。",
+        "analysis": "误差系统性。",
+        "method": "区分误差类型。",
+        "principle": "测量。",
+        "steps": [
+          "每次定义都偏，平均不改所算量。",
+          "应先按90°余角改正法线定义，再评数据。"
+        ],
+        "ans": "不能单靠平均修正。",
+        "verification": "重复精密不等准确。",
+        "pitfall": "次数多所有错自动抵消。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.6",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "sin i对sin r图斜率1.6、外介质n1，样品n？ 条件：所标纵横轴如题。",
+        "given": "所标纵横轴如题。",
+        "analysis": "n比。",
+        "method": "图线。",
+        "principle": "Snell。",
+        "steps": [
+          "n样/1=1.6。",
+          "n1.6。"
+        ],
+        "ans": "1.6。",
+        "verification": "若外n不是1则需乘外n。",
+        "pitfall": "不看轴就取倒数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.6",
+        "related_sections": []
+      },
+      {
+        "q": "样品真深15mm，近法线空气视深10mm，n估计？ 条件：平面界面，外n1。",
+        "given": "平面界面，外n1。",
+        "analysis": "真/视。",
+        "method": "视深法。",
+        "principle": "近轴。",
+        "steps": [
+          "15/10=1.5。",
+          "长度单位相同约掉。"
+        ],
+        "ans": "1.5。",
+        "verification": "非任意斜角精确式。",
+        "pitfall": "10/15。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.6",
+        "related_sections": []
+      },
+      {
+        "q": "半圆块曲面进光沿半径，对曲面局部入射角？ 条件：理想圆面，光线过圆心。",
+        "given": "理想圆面，光线过圆心。",
+        "analysis": "半径即法线。",
+        "method": "几何。",
+        "principle": "Snell。",
+        "steps": [
+          "入射角0。",
+          "理想方向不偏，但速度仍可变。"
+        ],
+        "ans": "0°。",
+        "verification": "未过圆心则不能同样保证。",
+        "pitfall": "所有进半圆块光都不偏。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.6",
+        "related_sections": []
+      },
+      {
+        "q": "数据重复很集中就能证明不存在系统误差吗？ 条件：只知重复性。",
+        "given": "只知重复性。",
+        "analysis": "精密与准确分开。",
+        "method": "测量证据。",
+        "principle": "误差。",
+        "steps": [
+          "共同校准偏差可使每次都近同一个错误值。",
+          "需校准/独立方法核。"
+        ],
+        "ans": "不能。",
+        "verification": "重复性是证据之一非全部。",
+        "pitfall": "集中等真实值。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 18,
+        "primary_section": "18.6",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "未实际实验，只用给定角数据算n，能在报告写“我们实测n”吗？ 条件：只有纸上教学示例。",
+      "given": "只有纸上教学示例。",
+      "analysis": "计算与实验记录不同。",
+      "method": "诚实标来源。",
+      "principle": "科学报告。",
+      "steps": [
+        "写根据给定数据的模型估算。",
+        "未测不得称实测，也不冒称官方审定。"
+      ],
+      "ans": "不能。",
+      "verification": "公式正确也不能替不存在的实验。",
+      "pitfall": "算出数字等完成实验。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 18,
+      "primary_section": "18.6",
+      "related_sections": []
+    },
+    "exam": [
+      "图轴先标sin量与外介质n，再从斜率回n",
+      "半圆路径先核过圆心，临界与视深各保适用条件",
+      "报告分原始测量与教学数据、随机与系统误差，重复非自动准确"
+    ],
+    "quick": [
+      "可测量模型",
+      "正弦图斜率",
+      "装置对准",
+      "多方法条件",
+      "误差与记录"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 272,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_18.6",
+        "url": "https://openstax.org/books/college-physics-2e/pages/25-3-the-law-of-refraction",
+        "page_or_section": "25-3-the-law-of-refraction",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 272,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_18.6",
+        "url": "https://openstax.org/books/college-physics-2e/pages/25-3-the-law-of-refraction",
+        "page_or_section": "25-3-the-law-of-refraction",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "图轴先标sin量与外介质n，再从斜率回n",
+      "method": "区分误差类型。",
+      "principle": "测量。",
+      "worked_example_index": 2,
+      "verification": "重复精密不等准确。",
+      "pitfall": "次数多所有错自动抵消。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“从测角图和临界视深法建立估计”的抽样复核：换轴不改变物理n，只改变回算方式。；若出现“任何图斜率都是n。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用控制变量及不确定度审核折射率数据”的抽样复核：重复精密不等准确。；若出现“次数多所有错自动抵消。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "算出数字等完成实验。",
+        "correction": "不能。",
+        "verification": "公式正确也不能替不存在的实验。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "折射率测角与作图审核",
+      "objects": [
+        "透明块真实光路",
+        "入射点法线",
+        "sin i纵sinr横图",
+        "半圆径向光",
+        "误差清单"
+      ],
+      "relations": [
+        "斜率n样/n外",
+        "交换轴倒数",
+        "曲面半径为法线",
+        "示例数据标非实测",
+        "法线偏差不被平均消除"
+      ],
+      "labels": [
+        "i",
+        "r",
+        "sin i",
+        "sin r",
+        "斜率",
+        "重复性",
+        "准确性"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "光路旧图必须核法线角、实虚线、球面镜符号及折射介质；同外形不代表可直接复用",
+      "english": "Use deterministic ray geometry with arrows on real light paths and dashed backward extensions only for virtual constructions. Measure incidence and refraction angles from the normal. Label media, refractive indices and the mirror sign convention. Spherical-mirror and apparent-depth formulas require their stated paraxial or near-normal conditions; never draw a propagating refracted ray in the forbidden total-internal-reflection case."
+    }
+  }
+}

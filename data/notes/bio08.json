@@ -1,0 +1,2116 @@
+{
+  "8.1": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 8,
+    "section_id": "8.1",
+    "goals": [
+      "区分外环境、细胞内液与内环境",
+      "用动态范围解释恒定及其意义"
+    ],
+    "prerequisites": [
+      "细胞膜与物质交换",
+      "浓度和温度"
+    ],
+    "flow": [
+      "分区边界",
+      "物质交换",
+      "动态范围",
+      "细胞功能",
+      "系统协同"
+    ],
+    "concept_relation": "分区边界；物质交换；动态范围；细胞功能；系统协同",
+    "deep": [
+      "稳定环境使酶、膜和代谢能在适合条件下工作。温度过高可影响蛋白质结构，渗透浓度过大可使细胞失水；这说明恒定有功能意义，但不能把“所有变量越低越好”作为通则。不同变量、个体状态与测量方法有各自的解释范围。",
+      "读图先看纵轴、单位、取样位置，再观察波动范围和恢复趋势。血浆葡萄糖浓度不是全身葡萄糖总量，核心温度不等于皮肤温度。若没有给出参考范围和实验条件，可以描述变化，却不应自创临床界限来诊断疾病。",
+      "维持内环境依赖多个系统配合：消化系统供给营养，呼吸系统交换气体，循环系统运输，肾脏调节水盐和排废，神经与内分泌协调。它不是某器官单独维持的静止水池；应追踪输入、输出、转移与调节，而不是只背器官名单。"
+    ],
+    "derive": [
+      "内环境以细胞外液为主；细胞内液另列。",
+      "多数组织细胞交换可概括为血浆⇄组织液⇄细胞；部分组织液经淋巴回流。",
+      "储量变化=输入−输出±与其他部分的净转移；稳定不要求通量为零。"
+    ],
+    "examples": [
+      {
+        "q": "血浆、红细胞细胞质和肠腔液，哪些属于此处的内环境？ 条件：采用动物细胞外液的传统定义。",
+        "given": "采用动物细胞外液的传统定义。",
+        "analysis": "位置不能代替液体分区。",
+        "method": "判是否细胞外液及所在边界。",
+        "principle": "内环境定义。",
+        "steps": [
+          "血浆为血管内细胞外液。",
+          "红细胞质为细胞内液，肠腔与外界连通。"
+        ],
+        "ans": "血浆属于；另外两者不归入。",
+        "verification": "按边界逐个复核。",
+        "pitfall": "把体内所有液体叫内环境。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.1",
+        "related_sections": []
+      },
+      {
+        "q": "变量在给定参考带10至14单位内，数据11、13、12、11。能因变化就判恒定破坏吗？ 条件：教学模型数值，非医学范围。",
+        "given": "教学模型数值，非医学范围。",
+        "analysis": "恒定允许受控波动。",
+        "method": "比较曲线与范围。",
+        "principle": "动态稳态。",
+        "steps": [
+          "四值均在10至14。",
+          "有波动但未据此显示越出给定范围。"
+        ],
+        "ans": "不能仅因变化判失衡。",
+        "verification": "这也没有证明所有调节环节正常。",
+        "pitfall": "恒定必须水平直线。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.1",
+        "related_sections": []
+      },
+      {
+        "q": "某池每分钟进入5单位、移出5单位，总量不变，能说无交换吗？ 条件：池体积不变。",
+        "given": "池体积不变。",
+        "analysis": "净变化不同于通量。",
+        "method": "列收支。",
+        "principle": "质量守恒。",
+        "steps": [
+          "净变化5−5=0。",
+          "输入输出各5，均非0。"
+        ],
+        "ans": "不能；有持续交换。",
+        "verification": "不能将两通量相加当净增加10。",
+        "pitfall": "净零推成停止。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "皮肤温度与核心温度是同一测量变量吗？ 条件：测量位置不同。",
+        "given": "测量位置不同。",
+        "analysis": "局部条件不同。",
+        "method": "核测量定义。",
+        "principle": "变量操作化。",
+        "steps": [
+          "皮肤受环境影响较大。",
+          "数值不能直接等同核心温度。"
+        ],
+        "ans": "不是。",
+        "verification": "需要给出测量方法。",
+        "pitfall": "只看单位同为℃。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.1",
+        "related_sections": []
+      },
+      {
+        "q": "食物在小肠腔内是否等于营养已入血浆？ 条件：尚未跨上皮。",
+        "given": "尚未跨上皮。",
+        "analysis": "摄入不等于吸收。",
+        "method": "追踪边界。",
+        "principle": "吸收需跨肠壁。",
+        "steps": [
+          "食物仍在腔内。",
+          "需经消化、吸收及运输进入体内通路。"
+        ],
+        "ans": "不等于。",
+        "verification": "应核是否越过上皮。",
+        "pitfall": "把摄入当吸收。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.1",
+        "related_sections": []
+      },
+      {
+        "q": "某池初有100单位，输入30、输出25，最后多少？ 条件：忽略生成分解和其他转移。",
+        "given": "忽略生成分解和其他转移。",
+        "analysis": "用净收支。",
+        "method": "100+30−25。",
+        "principle": "守恒。",
+        "steps": [
+          "净增5。",
+          "最后105。"
+        ],
+        "ans": "105单位。",
+        "verification": "105−100=5。",
+        "pitfall": "漏输出。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.1",
+        "related_sections": []
+      },
+      {
+        "q": "血浆葡萄糖浓度不变，能推出全身葡萄糖总量不变吗？ 条件：尚有其他体液池和细胞储存。",
+        "given": "尚有其他体液池和细胞储存。",
+        "analysis": "局部浓度不等全身总量。",
+        "method": "区分范围与量。",
+        "principle": "浓度=该池量/体积。",
+        "steps": [
+          "局部浓度受体积影响。",
+          "其他部分可摄取、储存或转化。"
+        ],
+        "ans": "不能。",
+        "verification": "需各池及体积信息。",
+        "pitfall": "浓度不变当所有储量不变。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "只有肾脏能维持内环境吗？ 条件：考虑完整动物。",
+      "given": "考虑完整动物。",
+      "analysis": "供给运输调控分属多系统。",
+      "method": "列合作链。",
+      "principle": "系统协同。",
+      "steps": [
+        "肾参与水盐排废。",
+        "呼吸、消化、循环、神经与内分泌也参与。"
+      ],
+      "ans": "不是。",
+      "verification": "停止运输后肾不能单独维持所有细胞。",
+      "pitfall": "单器官解释全部恒定。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 8,
+      "primary_section": "8.1",
+      "related_sections": []
+    },
+    "exam": [
+      "分区题先画膜与管腔边界，再判断样品所属层",
+      "曲线题依给定参考带描述波动、偏离和恢复，不自创疾病界限",
+      "收支题分开通量与净变化，避免净零等于停止"
+    ],
+    "quick": [
+      "分区边界",
+      "物质交换",
+      "动态范围",
+      "细胞功能",
+      "系统协同"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 3,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_8.1",
+        "url": "https://openstax.org/books/biology-2e/pages/33-3-homeostasis",
+        "page_or_section": "33-3-homeostasis",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 3,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_8.1",
+        "url": "https://openstax.org/books/biology-2e/pages/33-3-homeostasis",
+        "page_or_section": "33-3-homeostasis",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "分区题先画膜与管腔边界，再判断样品所属层",
+      "method": "列收支。",
+      "principle": "质量守恒。",
+      "worked_example_index": 2,
+      "verification": "不能将两通量相加当净增加10。",
+      "pitfall": "净零推成停止。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“区分外环境、细胞内液与内环境”的抽样复核：按边界逐个复核。；若出现“把体内所有液体叫内环境。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用动态范围解释恒定及其意义”的抽样复核：不能将两通量相加当净增加10。；若出现“净零推成停止。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "单器官解释全部恒定。",
+        "correction": "不是。",
+        "verification": "停止运输后肾不能单独维持所有细胞。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "内环境分区与交换",
+      "objects": [
+        "毛细血管",
+        "组织液",
+        "细胞",
+        "淋巴管",
+        "肠腔对照"
+      ],
+      "relations": [
+        "细胞内外以膜分界",
+        "血浆与组织液交换",
+        "淋巴回流"
+      ],
+      "labels": [
+        "血浆",
+        "组织液",
+        "细胞内液",
+        "淋巴",
+        "外环境"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用经审核的肾单位或反馈图；须核流向、激素来源与目标变量",
+      "english": "Draw a deterministic homeostasis diagram. Separate the controlled variable, hormone signal and effector response. Blood, filtrate, reabsorption and secretion paths must be distinct. Do not imply perfect constancy."
+    }
+  },
+  "8.2": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 8,
+    "section_id": "8.2",
+    "goals": [
+      "从受控变量识别负反馈与正反馈",
+      "用干预定位感受、整合或效应环节"
+    ],
+    "prerequisites": [
+      "内环境分区",
+      "神经与激素信号"
+    ],
+    "flow": [
+      "变量扰动",
+      "感受整合",
+      "效应响应",
+      "反馈方向",
+      "干预定位"
+    ],
+    "concept_relation": "变量扰动；感受整合；效应响应；反馈方向；干预定位",
+    "deep": [
+      "神经调节通过神经信号协调，内分泌调节以激素经体液到靶细胞发挥作用。两者可以合作，不能绝对说所有神经作用都极短、所有激素都很慢；响应时间和持续时间需结合具体机制。激素被运到多处，也不表示所有细胞都有对应受体。",
+      "负反馈可能有延迟、阈值和多重作用，所以变量可有波动，出现超调并不自动否定反馈。反之，观察到恢复也不能仅凭此确定是哪一器官完成；需要干预、对照或信号测量。应区别直接观察的现象和模型提出的原因。",
+      "定位故障时依次问：扰动是否被感受，信号是否产生并到达，效应器能否响应，响应能否真正改变目标。可用给予下游信号的实验定位，但必须有对照并核剂量和替代通路。本节使用课堂模型训练推理，不将单一曲线用作个人疾病诊断。"
+    ],
+    "derive": [
+      "负反馈：响应减弱最初偏差；升高低值也可属负反馈。",
+      "正反馈：响应加强初始变化，通常须有终止条件。",
+      "比较自然刺激与直接下游刺激，可定位可能环节，但需对照与限制。"
+    ],
+    "examples": [
+      {
+        "q": "变量过低后效应器使其升高，这是正反馈吗？ 条件：升高使其回到原范围。",
+        "given": "升高使其回到原范围。",
+        "analysis": "判偏差而非数值升降。",
+        "method": "追踪受控变量。",
+        "principle": "负反馈判据。",
+        "steps": [
+          "初偏差过低。",
+          "升高减小偏差。"
+        ],
+        "ans": "负反馈。",
+        "verification": "上升抵消起始扰动。",
+        "pitfall": "见上升就判正。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.2",
+        "related_sections": []
+      },
+      {
+        "q": "刺激S不能引起R，直接给予信号H后R正常，能说效应器必坏吗？ 条件：H在正常通路位于S之后、效应器之前；条件有效。",
+        "given": "H在正常通路位于S之后、效应器之前；条件有效。",
+        "analysis": "下游刺激可测试下游能力。",
+        "method": "比较两次干预。",
+        "principle": "通路定位。",
+        "steps": [
+          "H能引起R提示下游可响应。",
+          "可能是S感受或H产生等上游问题，未唯一定位。"
+        ],
+        "ans": "不能；提示上游可能有问题。",
+        "verification": "保留剂量、旁路等限制。",
+        "pitfall": "不反应全部归效应器。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.2",
+        "related_sections": []
+      },
+      {
+        "q": "响应加强原偏差但过程有益，可叫负反馈吗？ 条件：有明确终止事件。",
+        "given": "有明确终止事件。",
+        "analysis": "价值不决定反馈符号。",
+        "method": "跟踪偏差。",
+        "principle": "正反馈定义。",
+        "steps": [
+          "响应加强原变化。",
+          "终止事件使其不必无限持续。"
+        ],
+        "ans": "不能；按描述为正反馈。",
+        "verification": "有终点不改变放大关系。",
+        "pitfall": "有益等于负反馈。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "负反馈中的激素必须下降吗？ 条件：受控变量不一定是激素。",
+        "given": "受控变量不一定是激素。",
+        "analysis": "区分信号与目标。",
+        "method": "看全回路。",
+        "principle": "抵消偏差。",
+        "steps": [
+          "变量低可引起激素升。",
+          "激素使变量恢复仍为负反馈。"
+        ],
+        "ans": "不必须。",
+        "verification": "判目标偏差是否缩小。",
+        "pitfall": "只看中间箭头。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.2",
+        "related_sections": []
+      },
+      {
+        "q": "激素到达某细胞就保证响应吗？ 条件：受体与下游机制未知。",
+        "given": "受体与下游机制未知。",
+        "analysis": "到达不等于响应。",
+        "method": "核靶细胞条件。",
+        "principle": "受体特异性。",
+        "steps": [
+          "需适用受体及信号通路。",
+          "单凭到达不能保证效应。"
+        ],
+        "ans": "不保证。",
+        "verification": "无对应受体可无该特异作用。",
+        "pitfall": "运到就必响应。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.2",
+        "related_sections": []
+      },
+      {
+        "q": "变量短时超过目标后再恢复，能排除负反馈吗？ 条件：响应可能延迟。",
+        "given": "响应可能延迟。",
+        "analysis": "控制可超调。",
+        "method": "看完整序列。",
+        "principle": "反馈动态。",
+        "steps": [
+          "响应非瞬时。",
+          "延迟可造成超调后恢复。"
+        ],
+        "ans": "不能。",
+        "verification": "需机制证据进一步判断。",
+        "pitfall": "目标线绝不可越。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.2",
+        "related_sections": []
+      },
+      {
+        "q": "实验组加刺激同时升温，对照不升温，能唯一归因刺激吗？ 条件：温度也可能影响反应。",
+        "given": "温度也可能影响反应。",
+        "analysis": "有混杂。",
+        "method": "控制温度。",
+        "principle": "因果对照。",
+        "steps": [
+          "同时改变两因素。",
+          "应同温再比较刺激效应。"
+        ],
+        "ans": "不能。",
+        "verification": "修正后减少温度替代解释。",
+        "pitfall": "有空白组就足够。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "偏差减小能直接确定信号是神经还是激素吗？ 条件：未测通路。",
+      "given": "未测通路。",
+      "analysis": "反馈方向和介质不同。",
+      "method": "分别分类。",
+      "principle": "控制关系不等于信号证据。",
+      "steps": [
+        "减小偏差支持相应负反馈模型。",
+        "神经、激素或协同均可能，需额外实验。"
+      ],
+      "ans": "不能确定。",
+      "verification": "测量或阻断通路才能进一步定位。",
+      "pitfall": "所有负反馈都是激素。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 8,
+      "primary_section": "8.2",
+      "related_sections": []
+    },
+    "exam": [
+      "先给受控变量命名，逐条说明箭头含义",
+      "分类比较偏差而非激素升降，明确终止条件",
+      "通路定位比较自然与下游刺激，保留多个可能环节"
+    ],
+    "quick": [
+      "变量扰动",
+      "感受整合",
+      "效应响应",
+      "反馈方向",
+      "干预定位"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 3,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_8.2",
+        "url": "https://openstax.org/books/biology-2e/pages/33-3-homeostasis",
+        "page_or_section": "33-3-homeostasis",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 3,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_8.2",
+        "url": "https://openstax.org/books/biology-2e/pages/33-3-homeostasis",
+        "page_or_section": "33-3-homeostasis",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先给受控变量命名，逐条说明箭头含义",
+      "method": "跟踪偏差。",
+      "principle": "正反馈定义。",
+      "worked_example_index": 2,
+      "verification": "有终点不改变放大关系。",
+      "pitfall": "有益等于负反馈。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“从受控变量识别负反馈与正反馈”的抽样复核：上升抵消起始扰动。；若出现“见上升就判正。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e1",
+        "review_module": 5,
+        "feedback": "目标“用干预定位感受、整合或效应环节”的抽样复核：保留剂量、旁路等限制。；若出现“不反应全部归效应器。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "所有负反馈都是激素。",
+        "correction": "不能确定。",
+        "verification": "测量或阻断通路才能进一步定位。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "反馈方向与通路定位",
+      "objects": [
+        "受控变量",
+        "感受器",
+        "整合点",
+        "信号H",
+        "效应器"
+      ],
+      "relations": [
+        "负反馈减小偏差",
+        "信息箭头不同于物质运输",
+        "H干预绕过上游"
+      ],
+      "labels": [
+        "负反馈",
+        "正反馈",
+        "终止条件",
+        "对照"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用经审核的肾单位或反馈图；须核流向、激素来源与目标变量",
+      "english": "Draw a deterministic homeostasis diagram. Separate the controlled variable, hormone signal and effector response. Blood, filtrate, reabsorption and secretion paths must be distinct. Do not imply perfect constancy."
+    }
+  },
+  "8.3": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 8,
+    "section_id": "8.3",
+    "goals": [
+      "解释渗透变化与ADH的因果链",
+      "从收支和尿量区分失水与补偿"
+    ],
+    "prerequisites": [
+      "渗透作用",
+      "肾单位与激素"
+    ],
+    "flow": [
+      "水收支",
+      "渗透感受",
+      "ADH通路",
+      "膜水通透性",
+      "尿量与浓度"
+    ],
+    "concept_relation": "水收支；渗透感受；ADH通路；膜水通透性；尿量与浓度",
+    "deep": [
+      "饮用较多水后，渗透浓度降低可抑制相应ADH释放，使水重吸收减弱、尿量增加且更稀，帮助恢复平衡。这假设其他条件相近且调节正常；出汗、失血、盐摄入等会改变多个信号，血容量与血压调节也参与，不能全部只归于渗透浓度。",
+      "题目常把原因和补偿混排。出汗失水是扰动，ADH增多及尿量下降是补偿，不应说尿少必为水太多。“尿浓”还要明确是哪种溶质和每单位体积的量；尿量减少不自动表示每种物质一天排出的总量都增加。",
+      "收支题先列全部输入输出，再辨问净变化还是维持不变所需尿量。实验需控制活动、环境、盐摄入和采样时间，不能为课堂结论做危险失水干预。本节是一般生理模型，不给个人饮水处方，也不以一次尿量诊断疾病。"
+    ],
+    "derive": [
+      "渗透浓度升高→相关下丘脑调控→ADH作用增强→有梯度时水重吸收增多→水流失减少。",
+      "ADH在下丘脑合成，垂体后叶储存释放；作用部位不是合成部位。",
+      "净水变化=全部输入−全部输出；溶质排出量=尿浓度×尿体积。"
+    ],
+    "examples": [
+      {
+        "q": "模型一天输入2500 mL，非尿输出1000 mL，水量不变，尿量多少？ 条件：忽略其他水交换。",
+        "given": "忽略其他水交换。",
+        "analysis": "总输出等输入。",
+        "method": "水收支。",
+        "principle": "守恒。",
+        "steps": [
+          "尿量2500−1000。",
+          "得1500 mL。"
+        ],
+        "ans": "1500 mL。",
+        "verification": "1500+1000=2500。",
+        "pitfall": "漏非尿输出。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.3",
+        "related_sections": []
+      },
+      {
+        "q": "大量出汗未补水，为什么可能尿量减少？ 条件：调节与肾正常，其他条件近似。",
+        "given": "调节与肾正常，其他条件近似。",
+        "analysis": "先扰动再补偿。",
+        "method": "串联渗透与ADH。",
+        "principle": "负反馈和重吸收。",
+        "steps": [
+          "失水可提高渗透浓度并降低有效循环容量。",
+          "保水信号增强、水重吸收增多，尿失水减少。"
+        ],
+        "ans": "少尿可为失水的补偿。",
+        "verification": "总水量仍可不足。",
+        "pitfall": "补偿当原因。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.3",
+        "related_sections": []
+      },
+      {
+        "q": "同一时段尿甲1.0 L、某溶质20 mmol/L；乙0.5 L、40 mmol/L，排出量各多少？ 条件：两样完整收集。",
+        "given": "两样完整收集。",
+        "analysis": "浓度需乘体积。",
+        "method": "n=cV。",
+        "principle": "浓度定义。",
+        "steps": [
+          "甲20×1=20 mmol。",
+          "乙40×0.5=20 mmol。"
+        ],
+        "ans": "均20 mmol。",
+        "verification": "浓2倍、体积一半相抵。",
+        "pitfall": "浓2倍当总量2倍。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "ADH合成和主要释放处分别是什么？ 条件：按常规路径。",
+        "given": "按常规路径。",
+        "analysis": "两步分工。",
+        "method": "追踪神经分泌通路。",
+        "principle": "下丘脑与后叶分工。",
+        "steps": [
+          "下丘脑合成。",
+          "垂体后叶储存释放。"
+        ],
+        "ans": "下丘脑；垂体后叶。",
+        "verification": "肾为靶部位，不能混同。",
+        "pitfall": "垂体合成。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.3",
+        "related_sections": []
+      },
+      {
+        "q": "ADH是将水逆梯度泵回的水泵吗？ 条件：考虑水通道机制。",
+        "given": "考虑水通道机制。",
+        "analysis": "通透性不同于驱动力。",
+        "method": "分开通道与梯度。",
+        "principle": "渗透。",
+        "steps": [
+          "ADH改变相应膜通透性。",
+          "水依适当渗透梯度移动。"
+        ],
+        "ans": "不是。",
+        "verification": "无梯度不能仅由通道数保证效果。",
+        "pitfall": "水重吸收全是主动运输。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.3",
+        "related_sections": []
+      },
+      {
+        "q": "模型输入2200 mL、输出2400 mL，净水变化？ 条件：无其他交换。",
+        "given": "无其他交换。",
+        "analysis": "输出较大。",
+        "method": "输入减输出。",
+        "principle": "守恒。",
+        "steps": [
+          "2200−2400=−200。",
+          "体内净失水200 mL。"
+        ],
+        "ans": "减少200 mL。",
+        "verification": "负号对应减少。",
+        "pitfall": "只报差不说方向。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.3",
+        "related_sections": []
+      },
+      {
+        "q": "大量饮水后，ADH与尿通常怎样变化？ 条件：其他条件相同且调节正常。",
+        "given": "其他条件相同且调节正常。",
+        "analysis": "水相对增多抑制保水信号。",
+        "method": "负反馈。",
+        "principle": "渗透调节。",
+        "steps": [
+          "ADH相应作用减弱。",
+          "水重吸收减少，尿增多变稀。"
+        ],
+        "ans": "ADH下降趋势，尿增多较稀。",
+        "verification": "不能无条件外推到肾受损。",
+        "pitfall": "饮水多必增ADH。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "若集合管不能响应，增加ADH必有正常保水效果吗？ 条件：受体或下游缺陷模型。",
+      "given": "受体或下游缺陷模型。",
+      "analysis": "信号不等于效应。",
+      "method": "检查靶器官。",
+      "principle": "完整通路。",
+      "steps": [
+        "增加激素不自动修复缺陷。",
+        "通透性不正常改变就不能保证尿量正常变化。"
+      ],
+      "ans": "不保证。",
+      "verification": "响应对照可定位下游问题。",
+      "pitfall": "只测激素就判调节完成。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 8,
+      "primary_section": "8.3",
+      "related_sections": []
+    },
+    "exam": [
+      "先画失水扰动再画保水响应，避免颠倒因果",
+      "尿量、浓度、溶质总量分列单位，并核收集时段",
+      "分别写激素合成、释放、靶部位及机制"
+    ],
+    "quick": [
+      "水收支",
+      "渗透感受",
+      "ADH通路",
+      "膜水通透性",
+      "尿量与浓度"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 3,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_8.3",
+        "url": "https://openstax.org/books/biology-2e/pages/41-5-hormonal-control-of-osmoregulatory-functions",
+        "page_or_section": "41-5-hormonal-control-of-osmoregulatory-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 3,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_8.3",
+        "url": "https://openstax.org/books/biology-2e/pages/41-5-hormonal-control-of-osmoregulatory-functions",
+        "page_or_section": "41-5-hormonal-control-of-osmoregulatory-functions",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先画失水扰动再画保水响应，避免颠倒因果",
+      "method": "n=cV。",
+      "principle": "浓度定义。",
+      "worked_example_index": 2,
+      "verification": "浓2倍、体积一半相抵。",
+      "pitfall": "浓2倍当总量2倍。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e1",
+        "review_module": 4,
+        "feedback": "目标“解释渗透变化与ADH的因果链”的抽样复核：总水量仍可不足。；若出现“补偿当原因。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e0",
+        "review_module": 5,
+        "feedback": "目标“从收支和尿量区分失水与补偿”的抽样复核：1500+1000=2500。；若出现“漏非尿输出。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "只测激素就判调节完成。",
+        "correction": "不保证。",
+        "verification": "响应对照可定位下游问题。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "ADH与水重吸收",
+      "objects": [
+        "下丘脑",
+        "垂体后叶",
+        "血液",
+        "集合管",
+        "水通道"
+      ],
+      "relations": [
+        "下丘脑合成、后叶释放",
+        "水从管腔回体内",
+        "通透性作用须有梯度"
+      ],
+      "labels": [
+        "ADH",
+        "合成",
+        "释放",
+        "水重吸收",
+        "浓度×体积"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用经审核的肾单位或反馈图；须核流向、激素来源与目标变量",
+      "english": "Draw a deterministic homeostasis diagram. Separate the controlled variable, hormone signal and effector response. Blood, filtrate, reabsorption and secretion paths must be distinct. Do not imply perfect constancy."
+    }
+  },
+  "8.4": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 8,
+    "section_id": "8.4",
+    "goals": [
+      "用产热和散热解释体温变化",
+      "连接感受、下丘脑与多种效应器"
+    ],
+    "prerequisites": [
+      "能量守恒",
+      "皮肤血流与蒸发"
+    ],
+    "flow": [
+      "能量收支",
+      "温度感受",
+      "下丘脑整合",
+      "产热散热",
+      "条件与实验"
+    ],
+    "concept_relation": "能量收支；温度感受；下丘脑整合；产热散热；条件与实验",
+    "deep": [
+      "调节包括行为，例如寻找阴凉、改变衣着和活动量；并非只有非自主反应才算调节。人类立毛对保温的效应有限，不宜照搬浓密毛动物的解释并夸大到主要机制。不同物种的调节方式也不同，“外温”不等于完全没有体温调控行为。",
+      "发热可涉及调控目标水平的改变，不能简单等同所有情况下的被动过热。课堂题如果只给温度升高而没有机制证据，应描述净热输入或产热超过散热，避免据一数值自创病因。生理说明也不应延伸为未经情境判断的个人处置方法。",
+      "比较实验应区分核心、皮肤与环境温度，记录运动强度、湿度、风速和测量时间。定量题若用Q=mL或净热功率，必须先说明蒸发比例与模型。单位为瓦的是每秒净热量，不是温度变化率；若要算升温，还需要质量和有效比热等资料。"
+    ],
+    "derive": [
+      "净储热功率=代谢产热+环境净输入−其他净散热；稳温时净储热约0。",
+      "实际蒸发吸热Q=m_evaporated L，不用所有分泌汗量替代m_evaporated。",
+      "温度偏高/偏低引出的效应，应从受控核心温度看是否减弱偏差。"
+    ],
+    "examples": [
+      {
+        "q": "模型产热300 W、总净散热300 W，体温稳定是否说明没有热交换？ 条件：忽略做功和未列能量通路。",
+        "given": "忽略做功和未列能量通路。",
+        "analysis": "净收支与各通量不同。",
+        "method": "相减。",
+        "principle": "能量守恒。",
+        "steps": [
+          "净储热=300−300=0 W。",
+          "各通路仍有300 W能量转移。"
+        ],
+        "ans": "不是；有持续产散热。",
+        "verification": "稳温对应净储热零。",
+        "pitfall": "稳定等于代谢停。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.4",
+        "related_sections": []
+      },
+      {
+        "q": "分泌汗0.10 kg，其中60%蒸发，L=2.4×10⁶ J/kg，蒸发带走多少热？ 条件：仅算蒸发，L视常量。",
+        "given": "仅算蒸发，L视常量。",
+        "analysis": "未蒸发部分不能算汽化热。",
+        "method": "先求蒸发质量。",
+        "principle": "Q=mL。",
+        "steps": [
+          "m=0.10×0.60=0.060 kg。",
+          "Q=0.060×2.4×10⁶=144000 J。"
+        ],
+        "ans": "1.44×10⁵ J。",
+        "verification": "全蒸发才240000 J，结果应更小。",
+        "pitfall": "全汗量代汽化式。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.4",
+        "related_sections": []
+      },
+      {
+        "q": "同样出汗，潮湿无风时为何可能降温较弱？ 条件：比较其他条件相近。",
+        "given": "比较其他条件相近。",
+        "analysis": "蒸发能力受环境影响。",
+        "method": "解释通路而非只计汗量。",
+        "principle": "蒸发吸热。",
+        "steps": [
+          "高湿和弱空气交换可限制水蒸气移出。",
+          "实际蒸发较少，汽化带热减少。"
+        ],
+        "ans": "汗多不保证蒸发散热同样多。",
+        "verification": "需测实际蒸发量才能定量。",
+        "pitfall": "见汗多就断言一定冷却快。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "寒冷时皮肤血管收缩如何帮助保温？ 条件：讨论一般生理响应。",
+        "given": "讨论一般生理响应。",
+        "analysis": "影响输热到体表。",
+        "method": "连接血流与热损。",
+        "principle": "循环传热。",
+        "steps": [
+          "皮肤血流减少。",
+          "通常减少核心向体表供热和相应热损。"
+        ],
+        "ans": "减少向体表输热。",
+        "verification": "不是让外界冷物质进不来。",
+        "pitfall": "说血管阻挡寒气。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.4",
+        "related_sections": []
+      },
+      {
+        "q": "寒战主要改变产热还是让汗蒸发？ 条件：肌肉快速收缩模型。",
+        "given": "肌肉快速收缩模型。",
+        "analysis": "肌肉代谢用能。",
+        "method": "识别效应。",
+        "principle": "代谢产热。",
+        "steps": [
+          "肌肉活动增加能量转换。",
+          "更多能量以热形式释放。"
+        ],
+        "ans": "增加产热。",
+        "verification": "与血管减少散热可协同。",
+        "pitfall": "所有保温都只减散热。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.4",
+        "related_sections": []
+      },
+      {
+        "q": "环境比皮肤热，能否保证对流总从皮肤向外散热？ 条件：空气接触表面。",
+        "given": "空气接触表面。",
+        "analysis": "温差方向已反向。",
+        "method": "比较边界温度。",
+        "principle": "净传热通常由高温到低温。",
+        "steps": [
+          "空气更热。",
+          "对流可向身体输入热。"
+        ],
+        "ans": "不能保证，可能输入。",
+        "verification": "蒸发仍可能是散热通路。",
+        "pitfall": "固定所有箭头向外。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.4",
+        "related_sections": []
+      },
+      {
+        "q": "净储热功率50 W持续120 s，储热量多少？ 条件：该功率视常量。",
+        "given": "该功率视常量。",
+        "analysis": "功率不同于温升。",
+        "method": "Q=Pt。",
+        "principle": "能量定义。",
+        "steps": [
+          "50×120=6000 J。",
+          "未给热容，不能再唯一算温升。"
+        ],
+        "ans": "6000 J。",
+        "verification": "J/s乘s得J。",
+        "pitfall": "把50 W报50℃。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "测一次皮肤温度升高，足以说明核心调节目标改变了吗？ 条件：没有核心、环境或其他信号资料。",
+      "given": "没有核心、环境或其他信号资料。",
+      "analysis": "局部测量不唯一反映目标水平。",
+      "method": "列缺失证据。",
+      "principle": "变量区分与因果限制。",
+      "steps": [
+        "皮肤温度受环境、血流等影响。",
+        "需要核心及调控机制证据，不能仅由局部值断言。"
+      ],
+      "ans": "不足以。",
+      "verification": "不排除多种其他原因。",
+      "pitfall": "一条温度读数确定病因。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 8,
+      "primary_section": "8.4",
+      "related_sections": []
+    },
+    "exam": [
+      "先辨测量位置，再列产热、散热与净储热",
+      "蒸发题先算真正汽化的质量，高湿条件不能忽略",
+      "解释寒冷与炎热响应各写效应器、路径及目标变化"
+    ],
+    "quick": [
+      "能量收支",
+      "温度感受",
+      "下丘脑整合",
+      "产热散热",
+      "条件与实验"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 3,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_8.4",
+        "url": "https://openstax.org/books/biology-2e/pages/33-3-homeostasis",
+        "page_or_section": "33-3-homeostasis",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 3,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_8.4",
+        "url": "https://openstax.org/books/biology-2e/pages/33-3-homeostasis",
+        "page_or_section": "33-3-homeostasis",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先辨测量位置，再列产热、散热与净储热",
+      "method": "解释通路而非只计汗量。",
+      "principle": "蒸发吸热。",
+      "worked_example_index": 2,
+      "verification": "需测实际蒸发量才能定量。",
+      "pitfall": "见汗多就断言一定冷却快。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用产热和散热解释体温变化”的抽样复核：稳温对应净储热零。；若出现“稳定等于代谢停。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“连接感受、下丘脑与多种效应器”的抽样复核：需测实际蒸发量才能定量。；若出现“见汗多就断言一定冷却快。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "一条温度读数确定病因。",
+        "correction": "不足以。",
+        "verification": "不排除多种其他原因。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "温度反馈及热量通路",
+      "objects": [
+        "核心",
+        "皮肤血管",
+        "汗腺",
+        "骨骼肌",
+        "环境"
+      ],
+      "relations": [
+        "汗蒸发才带走汽化热",
+        "环境较热时干热交换可向内",
+        "寒战增产热而血管收缩减散热"
+      ],
+      "labels": [
+        "核心温度",
+        "蒸发",
+        "产热",
+        "净热收支"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用经审核的肾单位或反馈图；须核流向、激素来源与目标变量",
+      "english": "Draw a deterministic homeostasis diagram. Separate the controlled variable, hormone signal and effector response. Blood, filtrate, reabsorption and secretion paths must be distinct. Do not imply perfect constancy."
+    }
+  },
+  "8.5": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 8,
+    "section_id": "8.5",
+    "goals": [
+      "解释胰岛素和胰高血糖素的作用方向",
+      "从血糖曲线区分现象、机制与证据"
+    ],
+    "prerequisites": [
+      "消化吸收",
+      "糖原与细胞呼吸"
+    ],
+    "flow": [
+      "血糖来源",
+      "利用储存",
+      "α与β",
+      "负反馈",
+      "证据边界"
+    ],
+    "concept_relation": "血糖来源；利用储存；α与β；负反馈；证据边界",
+    "deep": [
+      "两类作用在血糖调节中可体现拮抗和负反馈，但不是每一时刻激素浓度必严格互为相反数。运动、应激、进食组成以及其他激素均可影响曲线。激素是信息分子，经受体和下游机制发挥作用，不是作为大量燃料去补足血液葡萄糖。",
+      "分析进餐或耐量类教学曲线时，先辨空腹基线、摄入时点、峰值、恢复时间与单位。曲线显示的是浓度动态，若未测激素或摄取速率，就不能把每一段变化唯一归给某激素。班级比较需要一致摄入量、取样条件及适当对照，不能由课堂模拟值进行个人医学判断。",
+      "调节失常可来自分泌不足、靶组织反应异常等不同环节，因此血糖较高不能唯一证明没有胰岛素。干预题应考虑给予信号后是否响应，并区分短期下降与长期控制。评分表达宜写出刺激、来源、靶作用、变量恢复的因果链，不编造官方步骤分。"
+    ],
+    "derive": [
+      "进食吸收、肝输出与组织摄取储存共同影响血糖。",
+      "胰岛β细胞→胰岛素；胰岛α细胞→胰高血糖素，后者主要增强肝供糖。",
+      "负反馈以血糖偏差是否被减弱为判据，不能用单一曲线唯一确定病因。"
+    ],
+    "examples": [
+      {
+        "q": "教学模型中进食后血糖上升，胰岛素怎样帮助恢复？ 条件：正常调节，忽略其他扰动。",
+        "given": "正常调节，忽略其他扰动。",
+        "analysis": "连接来源、靶作用与变量。",
+        "method": "写因果链。",
+        "principle": "负反馈。",
+        "steps": [
+          "β细胞释放胰岛素增加。",
+          "促进相应组织利用储存并抑制肝输出，使血糖下降趋势。"
+        ],
+        "ans": "通过多种靶作用降低偏高血糖。",
+        "verification": "不是激素本身作燃料。",
+        "pitfall": "写成α细胞或直接吃掉糖。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.5",
+        "related_sections": []
+      },
+      {
+        "q": "低血糖时为什么肝糖原与肌糖原不能都等同血糖直接来源？ 条件：比较一般生理分工。",
+        "given": "比较一般生理分工。",
+        "analysis": "肌肉糖原主要供本组织。",
+        "method": "区分组织代谢出口。",
+        "principle": "肝供糖与肌自用。",
+        "steps": [
+          "肝能以相应代谢途径输出葡萄糖。",
+          "肌糖原主要支持肌肉代谢，不能一律视作同样直接入血。"
+        ],
+        "ans": "两者供血糖功能不同。",
+        "verification": "不能仅由两者都储糖就推相同出口。",
+        "pitfall": "所有糖原分解都直接升血糖。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.5",
+        "related_sections": []
+      },
+      {
+        "q": "某组血糖偏高且测到胰岛素，能否说因为有激素就一定调节正常？ 条件：未测靶组织敏感性。",
+        "given": "未测靶组织敏感性。",
+        "analysis": "信号存在不等于有效响应。",
+        "method": "审查通路。",
+        "principle": "受体与下游响应。",
+        "steps": [
+          "胰岛素存在不证明量与时序合适。",
+          "也不证明组织能正常响应。"
+        ],
+        "ans": "不能。",
+        "verification": "需更多分泌和响应证据。",
+        "pitfall": "有激素便无功能问题。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.5",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "胰岛素主要由哪类胰岛细胞释放？ 条件：本节常规模型。",
+        "given": "本节常规模型。",
+        "analysis": "区分α与β。",
+        "method": "对应来源。",
+        "principle": "内分泌分工。",
+        "steps": [
+          "β对应胰岛素。",
+          "α对应胰高血糖素。"
+        ],
+        "ans": "β细胞。",
+        "verification": "用成对对应防混淆。",
+        "pitfall": "αβ颠倒。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.5",
+        "related_sections": []
+      },
+      {
+        "q": "血糖下降后，胰高血糖素使其回升属何反馈？ 条件：回到原适合范围。",
+        "given": "回到原适合范围。",
+        "analysis": "响应减弱过低偏差。",
+        "method": "以血糖判。",
+        "principle": "负反馈。",
+        "steps": [
+          "初始偏低。",
+          "回升减弱偏差。"
+        ],
+        "ans": "负反馈。",
+        "verification": "不是所有升高都正反馈。",
+        "pitfall": "升高就正。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.5",
+        "related_sections": []
+      },
+      {
+        "q": "血糖5 mmol/L、相应池体积在题设为3 L，量多少？ 条件：均匀浓度的教学池，不代表全身糖量。",
+        "given": "均匀浓度的教学池，不代表全身糖量。",
+        "analysis": "浓度乘体积。",
+        "method": "n=cV。",
+        "principle": "浓度定义。",
+        "steps": [
+          "5×3=15。",
+          "单位mmol/L×L=mmol。"
+        ],
+        "ans": "15 mmol，限该池。",
+        "verification": "不外推肌肝储糖。",
+        "pitfall": "报15 mmol/L或全身总量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.5",
+        "related_sections": []
+      },
+      {
+        "q": "进餐后曲线下降，能唯一证明是胰岛素升高吗？ 条件：未测激素且其他通路未控制。",
+        "given": "未测激素且其他通路未控制。",
+        "analysis": "现象不唯一确定机制。",
+        "method": "列替代解释。",
+        "principle": "动态收支。",
+        "steps": [
+          "吸收速率下降、组织摄取和肝输出变化都影响曲线。",
+          "需激素或干预证据再定位。"
+        ],
+        "ans": "不能唯一证明。",
+        "verification": "可以提出模型但要标推断。",
+        "pitfall": "下降段都直接等于激素上升。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.5",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "“所有细胞吸收葡萄糖都需要胰岛素，故无胰岛素每个细胞立即完全无糖”可靠吗？ 条件：不同组织有不同转运调控。",
+      "given": "不同组织有不同转运调控。",
+      "analysis": "绝对化超出机制。",
+      "method": "区分部分靶组织与全部细胞。",
+      "principle": "运输特异性。",
+      "steps": [
+        "某些组织摄糖受胰岛素显著调节。",
+        "其他组织可有不同机制，不能扩展为所有摄糖都依赖它。"
+      ],
+      "ans": "不可靠。",
+      "verification": "与本节限定“部分组织”一致。",
+      "pitfall": "以部分代表全部。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 8,
+      "primary_section": "8.5",
+      "related_sections": []
+    },
+    "exam": [
+      "曲线先列进入、肝输出与组织去路，不只背两激素",
+      "机制题分别写α/β来源及靶作用，并核肝肌差异",
+      "高血糖只提出可能环节，未经检查不唯一归因"
+    ],
+    "quick": [
+      "血糖来源",
+      "利用储存",
+      "α与β",
+      "负反馈",
+      "证据边界"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 3,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_8.5",
+        "url": "https://openstax.org/books/biology-2e/pages/33-3-homeostasis",
+        "page_or_section": "33-3-homeostasis",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 3,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_8.5",
+        "url": "https://openstax.org/books/biology-2e/pages/33-3-homeostasis",
+        "page_or_section": "33-3-homeostasis",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "曲线先列进入、肝输出与组织去路，不只背两激素",
+      "method": "审查通路。",
+      "principle": "受体与下游响应。",
+      "worked_example_index": 2,
+      "verification": "需更多分泌和响应证据。",
+      "pitfall": "有激素便无功能问题。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“解释胰岛素和胰高血糖素的作用方向”的抽样复核：不是激素本身作燃料。；若出现“写成α细胞或直接吃掉糖。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“从血糖曲线区分现象、机制与证据”的抽样复核：需更多分泌和响应证据。；若出现“有激素便无功能问题。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "以部分代表全部。",
+        "correction": "不可靠。",
+        "verification": "与本节限定“部分组织”一致。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "血糖来源与激素反馈",
+      "objects": [
+        "血浆葡萄糖",
+        "胰岛α/β",
+        "肝",
+        "肌肉",
+        "进食吸收"
+      ],
+      "relations": [
+        "胰岛素帮助降低偏高血糖",
+        "胰高血糖素主要促肝供糖",
+        "肌糖原不画成同等直接血糖出口"
+      ],
+      "labels": [
+        "胰岛素",
+        "胰高血糖素",
+        "摄取储存",
+        "肝输出"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用经审核的肾单位或反馈图；须核流向、激素来源与目标变量",
+      "english": "Draw a deterministic homeostasis diagram. Separate the controlled variable, hormone signal and effector response. Blood, filtrate, reabsorption and secretion paths must be distinct. Do not imply perfect constancy."
+    }
+  },
+  "8.6": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 8,
+    "section_id": "8.6",
+    "goals": [
+      "追踪血液与尿液的不同通路",
+      "将肾皮质髓质与肾单位结构对应"
+    ],
+    "prerequisites": [
+      "循环系统",
+      "组织与器官层级"
+    ],
+    "flow": [
+      "系统器官",
+      "皮质髓质",
+      "肾小体",
+      "肾小管",
+      "双通路"
+    ],
+    "concept_relation": "系统器官；皮质髓质；肾小体；肾小管；双通路",
+    "deep": [
+      "滤液从肾小囊腔进入近曲小管、肾袢、远曲小管等，再汇入集合管系统，最终通向肾盂和输尿管。集合管接收多个肾单位来的液体；在不同教材的功能性示意中常与肾单位连画，但不应因此画成一个囊只通一条完全独立到膀胱的管。",
+      "肾小管与血管紧密相邻，利于重吸收和分泌，但两者不是同一管腔。重吸收由管腔侧回到体内，分泌由血侧/间质侧进入管腔；箭头必须跨越上皮及相关屏障。若只凭红蓝颜色判断方向，换一种配色就会混淆，应依连接与文字标注识别。",
+      "结构图分析从大到小、再按流向：先泌尿系统，再肾剖面，再肾单位。示意图通常不按真实尺寸比例，肾小球不能与膀胱同层级比较大小；左右、上下也可能为排版而改变。真正不能改变的是结构连接、所属分区和血液与滤液通路的边界。"
+    ],
+    "derive": [
+      "血：肾动脉分支→入球小动脉→肾小球→出球小动脉→管周血管→肾静脉。",
+      "滤液/尿：肾小囊腔→近曲小管→肾袢→远曲小管→集合管→肾盂→输尿管→膀胱→尿道。",
+      "重吸收与分泌箭头跨上皮，血管腔不与滤液管腔直接接通。"
+    ],
+    "examples": [
+      {
+        "q": "一滴肾小囊内滤液最终排出体外，列其主要顺序。 条件：按简化人体肾单位模型。",
+        "given": "按简化人体肾单位模型。",
+        "analysis": "选滤液而非血流路线。",
+        "method": "沿管腔追踪。",
+        "principle": "结构连接。",
+        "steps": [
+          "囊腔→近曲小管→肾袢→远曲小管→集合管。",
+          "再经肾盂、输尿管、膀胱、尿道。"
+        ],
+        "ans": "按上述连续通路。",
+        "verification": "没有将肾静脉插进尿路。",
+        "pitfall": "出囊后走血管。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.6",
+        "related_sections": []
+      },
+      {
+        "q": "图把出球小动脉连到肾盂，错在哪？ 条件：标签指血管。",
+        "given": "标签指血管。",
+        "analysis": "血路与尿路被混接。",
+        "method": "追踪连接对象。",
+        "principle": "两通路分离。",
+        "steps": [
+          "出球小动脉运走肾小球血液。",
+          "应通后续血管网而非把血注入肾盂。"
+        ],
+        "ans": "错误地连通血与尿通路。",
+        "verification": "肾盂汇集尿，非正常血液出口。",
+        "pitfall": "颜色正确就忽略接线。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.6",
+        "related_sections": []
+      },
+      {
+        "q": "肾小球与肾小囊在皮质，能否推出整个肾单位全在皮质？ 条件：部分肾小管伸向髓质。",
+        "given": "部分肾小管伸向髓质。",
+        "analysis": "部分位置不能推整体。",
+        "method": "按各段定位。",
+        "principle": "肾单位结构。",
+        "steps": [
+          "肾小体主要在皮质。",
+          "肾袢等可伸入髓质，管路跨分区。"
+        ],
+        "ans": "不能。",
+        "verification": "须逐段核位置。",
+        "pitfall": "全单位塞在皮质。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.6",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "尿由肾到膀胱经什么结构？ 条件：正常尿路。",
+        "given": "正常尿路。",
+        "analysis": "运输器官非血管。",
+        "method": "追踪尿路。",
+        "principle": "结构分工。",
+        "steps": [
+          "肾盂接输尿管。",
+          "输尿管把尿送到膀胱。"
+        ],
+        "ans": "输尿管。",
+        "verification": "尿道位于膀胱之后。",
+        "pitfall": "输尿管尿道混同。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.6",
+        "related_sections": []
+      },
+      {
+        "q": "膀胱主要负责把血滤成原尿吗？ 条件：常规人体结构。",
+        "given": "常规人体结构。",
+        "analysis": "储存不等形成。",
+        "method": "对应功能。",
+        "principle": "肾形成尿、膀胱储尿。",
+        "steps": [
+          "过滤发生于肾小体等相关过程。",
+          "膀胱接收并储存已形成尿。"
+        ],
+        "ans": "不是。",
+        "verification": "器官顺序也表明尿先形成后储存。",
+        "pitfall": "储尿处等于滤血处。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.6",
+        "related_sections": []
+      },
+      {
+        "q": "血液离开肾小球直接进入出球静脉吗？ 条件：采用标准标签。",
+        "given": "采用标准标签。",
+        "analysis": "特殊串联毛细血管通路。",
+        "method": "核名称与连接。",
+        "principle": "肾血管结构。",
+        "steps": [
+          "离开先经出球小动脉。",
+          "再到管周血管等，最终汇入静脉。"
+        ],
+        "ans": "先为出球小动脉。",
+        "verification": "小动脉名称并未因已过毛细网而自动改变。",
+        "pitfall": "所有毛细网后必静脉。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.6",
+        "related_sections": []
+      },
+      {
+        "q": "图中管腔→间质→血管箭头是重吸收还是分泌？ 条件：方向已给。",
+        "given": "方向已给。",
+        "analysis": "以出入管腔为判据。",
+        "method": "沿箭头。",
+        "principle": "运输定义。",
+        "steps": [
+          "物质离开滤液管腔。",
+          "返回体内相关液体与血液。"
+        ],
+        "ans": "重吸收。",
+        "verification": "反向进入管腔才称管分泌。",
+        "pitfall": "按左右方向死记。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.6",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "一张示意图中肾小球画得比膀胱大，就能断言连接一定错误吗？ 条件：图明确注明分层放大、非比例。",
+      "given": "图明确注明分层放大、非比例。",
+      "analysis": "尺寸与拓扑是不同属性。",
+      "method": "分开审查。",
+      "principle": "结构示意约定。",
+      "steps": [
+        "放大可改变相对画幅。",
+        "但流向和连接仍必须正确，需另核。"
+      ],
+      "ans": "不能仅凭不同放大比例断定接线错误。",
+      "verification": "也不能因示意就容许错误连接。",
+      "pitfall": "非比例等于可随便接线。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 8,
+      "primary_section": "8.6",
+      "related_sections": []
+    },
+    "exam": [
+      "先给血路和尿路用两套线型，逐段核连接",
+      "分区题按肾小体、各管段分别定位，不以部分代整体",
+      "功能题沿形成、运输、储存、排出顺序辨器官"
+    ],
+    "quick": [
+      "系统器官",
+      "皮质髓质",
+      "肾小体",
+      "肾小管",
+      "双通路"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 3,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_8.6",
+        "url": "https://openstax.org/books/biology-2e/pages/41-2-the-kidneys-and-osmoregulatory-organs",
+        "page_or_section": "41-2-the-kidneys-and-osmoregulatory-organs",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 3,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_8.6",
+        "url": "https://openstax.org/books/biology-2e/pages/41-2-the-kidneys-and-osmoregulatory-organs",
+        "page_or_section": "41-2-the-kidneys-and-osmoregulatory-organs",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先给血路和尿路用两套线型，逐段核连接",
+      "method": "按各段定位。",
+      "principle": "肾单位结构。",
+      "worked_example_index": 2,
+      "verification": "须逐段核位置。",
+      "pitfall": "全单位塞在皮质。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“追踪血液与尿液的不同通路”的抽样复核：没有将肾静脉插进尿路。；若出现“出囊后走血管。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“将肾皮质髓质与肾单位结构对应”的抽样复核：须逐段核位置。；若出现“全单位塞在皮质。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "非比例等于可随便接线。",
+        "correction": "不能仅凭不同放大比例断定接线错误。",
+        "verification": "也不能因示意就容许错误连接。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "肾单位双通路",
+      "objects": [
+        "入球出球小动脉",
+        "肾小球与囊",
+        "各肾小管段",
+        "集合管",
+        "管周血管"
+      ],
+      "relations": [
+        "出球小动脉到管周血管",
+        "滤液由囊腔至集合管",
+        "血路与尿路分离",
+        "标皮质髓质界线"
+      ],
+      "labels": [
+        "血液",
+        "滤液",
+        "重吸收",
+        "分泌",
+        "皮质",
+        "髓质"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用经审核的肾单位或反馈图；须核流向、激素来源与目标变量",
+      "english": "Draw a deterministic homeostasis diagram. Separate the controlled variable, hormone signal and effector response. Blood, filtrate, reabsorption and secretion paths must be distinct. Do not imply perfect constancy."
+    }
+  },
+  "8.7": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 8,
+    "section_id": "8.7",
+    "goals": [
+      "区分滤过、重吸收、分泌与排泄",
+      "用质量收支计算排出并评估条件"
+    ],
+    "prerequisites": [
+      "肾单位结构",
+      "浓度与体积流率"
+    ],
+    "flow": [
+      "滤过屏障",
+      "选择回收",
+      "管分泌",
+      "终尿排泄",
+      "守恒与容量"
+    ],
+    "concept_relation": "滤过屏障；选择回收；管分泌；终尿排泄；守恒与容量",
+    "deep": [
+      "分泌是物质由血侧经相应细胞进入管腔，例如对某些离子和物质的处理。滤过、分泌都可增加管内某物质量，重吸收减少其量；排泄指最终随尿离开身体，不等于分泌这一个过程。代谢排泄还要与排出未吸收食物残渣区分。",
+      "若某物质在肾中不生成不分解，其尿排出率=滤过率−重吸收率+分泌率，所有项要用相同时间和质量单位。浓度不等于速率，需乘相应体积流率。尿量大量减少会改变浓度，但不能只据浓度变化确定分泌量变化。",
+      "计算和实验题应检查过滤到最终尿的收集时段是否匹配、是否达到稳定、物质是否有结合或转化。终尿出现某成分可以提示进一步调查，却不能由一条课堂题数据确定具体病因。本节的负荷与阈值均以题设模型为准，不给未经来源核实的医学正常范围。"
+    ],
+    "derive": [
+      "无肾内生成分解时：排出率=滤过负荷−重吸收率+分泌率。",
+      "负荷或排出率=相应液体浓度×体积流率；单位先统一。",
+      "同一物质的滤过与重吸收可同时很大，最终排出接近0不代表从未滤过。"
+    ],
+    "examples": [
+      {
+        "q": "模型某物质每分钟滤入100 mg、重吸收80 mg、分泌10 mg，尿排出率？ 条件：肾内无生成分解。",
+        "given": "肾内无生成分解。",
+        "analysis": "三过程符号不同。",
+        "method": "列收支。",
+        "principle": "质量守恒。",
+        "steps": [
+          "排出=100−80+10。",
+          "得30 mg/min。"
+        ],
+        "ans": "30 mg/min。",
+        "verification": "滤过加分泌110，回收80，余30。",
+        "pitfall": "把分泌也减去。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.7",
+        "related_sections": []
+      },
+      {
+        "q": "滤液流率0.10 L/min，物质浓度2 mmol/L，全部可滤且按此已给滤液浓度，负荷多少？ 条件：题目浓度指滤液。",
+        "given": "题目浓度指滤液。",
+        "analysis": "浓度需乘流率。",
+        "method": "负荷=c×流率。",
+        "principle": "量浓度定义。",
+        "steps": [
+          "2×0.10=0.20。",
+          "单位mmol/min。"
+        ],
+        "ans": "0.20 mmol/min。",
+        "verification": "不能报mmol/L。",
+        "pitfall": "混用尿流率。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.7",
+        "related_sections": []
+      },
+      {
+        "q": "模型葡萄糖滤过负荷120单位/min，最大回收100，分泌0，超过能力时最少排出多少？ 条件：仅此模型且转运达到最大能力。",
+        "given": "仅此模型且转运达到最大能力。",
+        "analysis": "负荷超过回收上限。",
+        "method": "求未回收差。",
+        "principle": "有限转运与守恒。",
+        "steps": [
+          "回收最多100。",
+          "120−100=20单位/min仍留管内排出。"
+        ],
+        "ans": "20单位/min。",
+        "verification": "负荷100以内是否全回收还要相应模型条件。",
+        "pitfall": "任何负荷都可全部回收。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.7",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "终尿几乎无葡萄糖，能推葡萄糖未进入滤液吗？ 条件：正常滤过及充分回收模型。",
+        "given": "正常滤过及充分回收模型。",
+        "analysis": "末端净量不代表中间通量。",
+        "method": "追踪两过程。",
+        "principle": "滤过与重吸收。",
+        "steps": [
+          "葡萄糖可先被滤过。",
+          "随后回收使最终排出接近0。"
+        ],
+        "ans": "不能。",
+        "verification": "净排出零允许滤过=回收且均正。",
+        "pitfall": "只看终点断言未滤。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.7",
+        "related_sections": []
+      },
+      {
+        "q": "某物滤过50、回收10、排出60 mg/min，分泌多少？ 条件：无生成分解。",
+        "given": "无生成分解。",
+        "analysis": "逆求收支。",
+        "method": "60=50−10+S。",
+        "principle": "守恒。",
+        "steps": [
+          "50−10=40。",
+          "S=60−40=20。"
+        ],
+        "ans": "20 mg/min。",
+        "verification": "50+20=10+60。",
+        "pitfall": "排出大于滤过就说不可能。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.7",
+        "related_sections": []
+      },
+      {
+        "q": "尿浓度5 mmol/L、尿流率0.002 L/min，排出率？ 条件：同一稳定时段。",
+        "given": "同一稳定时段。",
+        "analysis": "浓度不是总速率。",
+        "method": "相乘。",
+        "principle": "n率=cV率。",
+        "steps": [
+          "5×0.002=0.010。",
+          "单位mmol/min。"
+        ],
+        "ans": "0.010 mmol/min。",
+        "verification": "较小流率使每分钟排量较小。",
+        "pitfall": "5当排出率。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.7",
+        "related_sections": []
+      },
+      {
+        "q": "正常滤液是否应含大量血细胞？ 条件：滤过屏障完整。",
+        "given": "滤过屏障完整。",
+        "analysis": "细胞通常留血侧。",
+        "method": "核选择性屏障。",
+        "principle": "滤过结构。",
+        "steps": [
+          "血细胞通常不能自由通过正常屏障。",
+          "大量出现不能作为正常滤液特征。"
+        ],
+        "ans": "不应。",
+        "verification": "小分子可滤过不同于细胞可滤过。",
+        "pitfall": "认为整个血液进囊。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 8,
+        "primary_section": "8.7",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "尿排出增加可否唯一断言分泌增加？ 条件：滤过、回收均可能变化。",
+      "given": "滤过、回收均可能变化。",
+      "analysis": "净量受三项影响。",
+      "method": "比较守恒式各项。",
+      "principle": "排出=滤过−回收+分泌。",
+      "steps": [
+        "滤过增加或回收减少也能提高排出。",
+        "需分别测量才可唯一定位分泌变化。"
+      ],
+      "ans": "不能。",
+      "verification": "列两个替代机制即显示非唯一。",
+      "pitfall": "净排出变化当一个通路变化。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 8,
+      "primary_section": "8.7",
+      "related_sections": []
+    },
+    "exam": [
+      "先画管腔收支再代数，回收负号、分泌正号",
+      "把浓度乘对应流率，滤液和尿流率不能互换",
+      "终点成分题追踪先滤后回收及容量条件，不用有益/废物二分法"
+    ],
+    "quick": [
+      "滤过屏障",
+      "选择回收",
+      "管分泌",
+      "终尿排泄",
+      "守恒与容量"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 3,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_8.7",
+        "url": "https://openstax.org/books/biology-2e/pages/41-2-the-kidneys-and-osmoregulatory-organs",
+        "page_or_section": "41-2-the-kidneys-and-osmoregulatory-organs",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 3,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_8.7",
+        "url": "https://openstax.org/books/biology-2e/pages/41-2-the-kidneys-and-osmoregulatory-organs",
+        "page_or_section": "41-2-the-kidneys-and-osmoregulatory-organs",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先画管腔收支再代数，回收负号、分泌正号",
+      "method": "求未回收差。",
+      "principle": "有限转运与守恒。",
+      "worked_example_index": 2,
+      "verification": "负荷100以内是否全回收还要相应模型条件。",
+      "pitfall": "任何负荷都可全部回收。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“区分滤过、重吸收、分泌与排泄”的抽样复核：滤过加分泌110，回收80，余30。；若出现“把分泌也减去。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用质量收支计算排出并评估条件”的抽样复核：负荷100以内是否全回收还要相应模型条件。；若出现“任何负荷都可全部回收。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "净排出变化当一个通路变化。",
+        "correction": "不能。",
+        "verification": "列两个替代机制即显示非唯一。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "形成尿液的质量收支",
+      "objects": [
+        "肾小球",
+        "肾小囊",
+        "肾小管",
+        "血侧",
+        "尿出口"
+      ],
+      "relations": [
+        "滤过与分泌增加管内量",
+        "回收减少管内量",
+        "排出=滤过−回收+分泌",
+        "完整屏障通常保留血细胞"
+      ],
+      "labels": [
+        "滤过",
+        "重吸收",
+        "分泌",
+        "排出率",
+        "mg/min"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用经审核的肾单位或反馈图；须核流向、激素来源与目标变量",
+      "english": "Draw a deterministic homeostasis diagram. Separate the controlled variable, hormone signal and effector response. Blood, filtrate, reabsorption and secretion paths must be distinct. Do not imply perfect constancy."
+    }
+  }
+}

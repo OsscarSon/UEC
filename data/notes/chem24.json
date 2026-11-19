@@ -1,0 +1,2428 @@
+{
+  "24.1.1": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 24,
+    "section_id": "24.1.1",
+    "goals": [
+      "由半反应判断两极与电子方向",
+      "用电荷收支解释盐桥和质量变化"
+    ],
+    "prerequisites": [
+      "氧化还原",
+      "电子与离子导电"
+    ],
+    "flow": [
+      "半反应",
+      "两极定义",
+      "外电子",
+      "内离子",
+      "持续条件"
+    ],
+    "concept_relation": "半反应；两极定义；外电子；内离子；持续条件",
+    "deep": [
+      "盐桥等离子通路有助避免半电池中净电荷积累阻止持续反应。锌侧生成阳离子时，适当盐桥阴离子可迁入；铜侧Cu²⁺消耗时，适当阳离子可迁入。具体离子需不与体系显著反应，不能只按正负名随意选会沉淀或改变反应的盐。",
+      "放电时锌电极可失去质量，铜电极可因沉积增加；但电极不一定总由活性金属组成，惰性电极也可只供电子交换表面，质量未必按同一规则变化。电极名称、材料、反应角色和带电极性是四种不同描述。",
+      "完整装置图还需注明半电池溶液、连接、仪表及反应物条件。断开外电路或离子通路对持续电流的影响应结合电荷收支说明，不只回答“电路不完整”。测到某电压不自动证明长期大电流，内阻、极化和反应物供给也影响实际输出。"
+    ],
+    "derive": [
+      "阳极氧化、阴极还原；原电池放电阳极负、阴极正。",
+      "Zn→Zn²⁺+2e⁻；Cu²⁺+2e⁻→Cu；电子外电路Zn侧→Cu侧。",
+      "盐桥以离子迁移平衡电荷，不是自由电子穿盐桥。"
+    ],
+    "examples": [
+      {
+        "q": "锌铜原电池写两极反应和电子方向。 条件：Zn/Zn²⁺与Cu²⁺/Cu按常规自发放电模型。",
+        "given": "Zn/Zn²⁺与Cu²⁺/Cu按常规自发放电模型。",
+        "analysis": "锌失电子铜离子得电子。",
+        "method": "半反应。",
+        "principle": "氧化还原。",
+        "steps": [
+          "阳极Zn→Zn²⁺+2e⁻，阴极Cu²⁺+2e⁻→Cu。",
+          "外电路电子由Zn到Cu。"
+        ],
+        "ans": "两反应如上，Zn阳极负、Cu阴极正。",
+        "verification": "电子数相消，总原子及电荷守恒。",
+        "pitfall": "电子过盐桥。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.1.1",
+        "related_sections": []
+      },
+      {
+        "q": "消耗.020mol Zn，在同一锌铜放电计量中沉积多少mol Cu、转移多少mol电子？ 条件：仅给定两半反应，无副反应。",
+        "given": "仅给定两半反应，无副反应。",
+        "analysis": "2电子对1Zn和1Cu。",
+        "method": "电子配平。",
+        "principle": "计量。",
+        "steps": [
+          "Zn.020给e⁻.040mol。",
+          "Cu²⁺每mol需2e，沉积.020molCu。"
+        ],
+        "ans": ".020mol Cu；.040mol电子。",
+        "verification": "两金属mol比1:1，电子量不同。",
+        "pitfall": "电子mol等金属mol。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.1.1",
+        "related_sections": []
+      },
+      {
+        "q": "为何锌侧常有盐桥阴离子迁入？ 条件：锌氧化生成Zn²⁺，盐桥离子适当惰性。",
+        "given": "锌氧化生成Zn²⁺，盐桥离子适当惰性。",
+        "analysis": "溶液正电荷产生趋势。",
+        "method": "电荷收支。",
+        "principle": "局部电中性。",
+        "steps": [
+          "Zn²⁺增加会带来正电荷积累趋势。",
+          "阴离子迁入等离子过程帮助平衡，支持持续外电流。"
+        ],
+        "ans": "平衡电荷而非输送自由电子。",
+        "verification": "铜侧相应Cu²⁺消耗可需阳离子补偿。",
+        "pitfall": "阳极必吸所有阳离子。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.1.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "原电池阴极是氧化还是还原？ 条件：按电极反应定义。",
+        "given": "按电极反应定义。",
+        "analysis": "极名不先靠正负。",
+        "method": "定义。",
+        "principle": "电子得失。",
+        "steps": [
+          "阴极接受相应电子。",
+          "发生还原。"
+        ],
+        "ans": "还原。",
+        "verification": "在电解也保持该定义。",
+        "pitfall": "阴极负所以氧化。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.1.1",
+        "related_sections": []
+      },
+      {
+        "q": "锌板溶解而铜板增重，是所有惰性电极也必然如此吗？ 条件：存在不参与总反应的电极。",
+        "given": "存在不参与总反应的电极。",
+        "analysis": "材料角色不同。",
+        "method": "查半反应。",
+        "principle": "电极功能。",
+        "steps": [
+          "惰性表面可只传电子。",
+          "质量变化取决于实际沉积、溶解或气体过程。"
+        ],
+        "ans": "不必。",
+        "verification": "先写反应再判质量。",
+        "pitfall": "阳极永远金属溶解。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.1.1",
+        "related_sections": []
+      },
+      {
+        "q": "外电路电子Zn→Cu，常规电流方向？ 条件：金属外导体。",
+        "given": "金属外导体。",
+        "analysis": "定义方向与电子相反。",
+        "method": "反向。",
+        "principle": "电流约定。",
+        "steps": [
+          "电子负电荷沿Zn到Cu。",
+          "常规电流Cu到Zn。"
+        ],
+        "ans": "Cu→Zn。",
+        "verification": "不把溶液离子方向简单等同。",
+        "pitfall": "两者同向。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.1.1",
+        "related_sections": []
+      },
+      {
+        "q": "去掉盐桥却保留导线，长期持续电流必正常吗？ 条件：无其他有效离子连接。",
+        "given": "无其他有效离子连接。",
+        "analysis": "电荷无法持续补偿。",
+        "method": "收支。",
+        "principle": "电中性。",
+        "steps": [
+          "半电池电荷会积累。",
+          "持续反应受抑制，不能维持同样电流。"
+        ],
+        "ans": "不正常持续。",
+        "verification": "不是盐桥给电子而是离子补偿缺失。",
+        "pitfall": "盐桥无导电作用。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.1.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "两种金属浸同一杯溶液就必有预期电池电压和稳定大电流吗？ 条件：未给反应与通路等条件。",
+      "given": "未给反应与通路等条件。",
+      "analysis": "装置外形不足。",
+      "method": "核反应、连接和条件。",
+      "principle": "原电池机制。",
+      "steps": [
+        "需可进行的氧化还原及电子离子通路。",
+        "内阻、极化、供料等也限制输出。"
+      ],
+      "ans": "不能保证。",
+      "verification": "先有机制再做定量。",
+      "pitfall": "两金属就是万能电池。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 24,
+      "primary_section": "24.1.1",
+      "related_sections": []
+    },
+    "exam": [
+      "先写半反应定阳阴，再定原电池正负与电子",
+      "盐桥题具体算哪侧生成/消耗电荷，不用电子穿液体解释",
+      "质量题查实际电极反应，惰性电极不照搬金属溶解"
+    ],
+    "quick": [
+      "半反应",
+      "两极定义",
+      "外电子",
+      "内离子",
+      "持续条件"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 11,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_24.1.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-2-galvanic-cells",
+        "page_or_section": "17-2-galvanic-cells",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 11,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_24.1.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-2-galvanic-cells",
+        "page_or_section": "17-2-galvanic-cells",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先写半反应定阳阴，再定原电池正负与电子",
+      "method": "电荷收支。",
+      "principle": "局部电中性。",
+      "worked_example_index": 2,
+      "verification": "铜侧相应Cu²⁺消耗可需阳离子补偿。",
+      "pitfall": "阳极必吸所有阳离子。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由半反应判断两极与电子方向”的抽样复核：电子数相消，总原子及电荷守恒。；若出现“电子过盐桥。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用电荷收支解释盐桥和质量变化”的抽样复核：铜侧相应Cu²⁺消耗可需阳离子补偿。；若出现“阳极必吸所有阳离子。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "两金属就是万能电池。",
+        "correction": "不能保证。",
+        "verification": "先有机制再做定量。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "锌铜原电池双导电通路",
+      "objects": [
+        "Zn/Zn²⁺杯",
+        "Cu²⁺/Cu杯",
+        "外导线",
+        "惰性盐桥离子",
+        "电流箭头"
+      ],
+      "relations": [
+        "电子Zn→Cu在外路",
+        "盐桥阴离子向Zn侧阳离子向Cu侧",
+        "Zn溶解Cu沉积",
+        "阴阳极反应守恒"
+      ],
+      "labels": [
+        "阳极−",
+        "阴极+",
+        "e⁻",
+        "离子迁移"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "电池和电解图须逐项核电极反应、电源极性、外电路电子与溶液离子；同样双杯外形不能直接复用",
+      "english": "Draw deterministic electrochemical diagrams. Oxidation is always at the anode and reduction at the cathode. Galvanic and electrolytic electrode polarities differ. Electrons travel in the external electronic conductors, while ions carry charge through electrolyte and salt bridge. Balance atoms, charge and transferred electrons, state phase and concentration conditions."
+    }
+  },
+  "24.1.2": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 24,
+    "section_id": "24.1.2",
+    "goals": [
+      "区分一次、二次电池和燃料电池",
+      "把电量、能量及理想反应与实际限制分开"
+    ],
+    "prerequisites": [
+      "原电池",
+      "电功与能量"
+    ],
+    "flow": [
+      "电源类别",
+      "材料反应",
+      "供料边界",
+      "电量能量",
+      "实际限制"
+    ],
+    "concept_relation": "电源类别；材料反应；供料边界；电量能量；实际限制",
+    "deep": [
+      "锂离子电池通常通过锂离子在不同宿主材料间迁移、嵌入和脱出工作，并非正常每次放电都需要一块金属锂完全溶解再在另一侧镀成金属。材料体系不同，电压、容量与安全边界也不同；课程只讲原理，不提供拆解、短接或非规范充电操作。",
+      "氢氧燃料电池可用总反应2H₂+O₂→2H₂O描述使用端，酸性或碱性电解质下两半反应形式不同，但总账需一致。使用端不直接生成CO₂不代表制氢、运输和设备全流程零排放，也不保证任意供料都能直接获得100%化学能为电功。",
+      "电量容量如Ah或mAh指可转移电荷，能量还需电压积分；若近似恒压，可用W≈UQ。两个同mAh电池电压不同，能量未必相同；负载、温度、倍率及老化也会影响实际可用量。比较题应统一单位与工作条件，不把商标额定值当永远精确输出。"
+    ],
+    "derive": [
+      "1Ah=3600C；若电压近恒定，W≈UQ，Wh=V×Ah。",
+      "铅酸简式：Pb+PbO₂+2H₂SO₄→2PbSO₄+2H₂O。",
+      "氢氧总式2H₂+O₂→2H₂O；电解质决定半反应形式，生命周期边界另核。"
+    ],
+    "examples": [
+      {
+        "q": "额定电量2.0Ah换算C，若理想恒3.7V，估能量Wh和J。 条件：仅按恒压与完全可用额定量模型。",
+        "given": "仅按恒压与完全可用额定量模型。",
+        "analysis": "电量不同能量。",
+        "method": "先换单位再乘电压。",
+        "principle": "W=UQ。",
+        "steps": [
+          "Q=2×3600=7200C，能量3.7×2=7.4Wh。",
+          "W=3.7×7200=26640J。"
+        ],
+        "ans": "7200C；7.4Wh；26640J。",
+        "verification": "7.4×3600同26640。",
+        "pitfall": "mAh直接当Wh。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.1.2",
+        "related_sections": []
+      },
+      {
+        "q": "铅酸简化总反应中，放电时两极都可生成PbSO₄吗？ 条件：使用本节给定总式。",
+        "given": "使用本节给定总式。",
+        "analysis": "反应物两种铅形态汇到共同产物。",
+        "method": "查原子与氧化态。",
+        "principle": "电池反应。",
+        "steps": [
+          "Pb(0)被氧化，PbO₂中的Pb(IV)被还原。",
+          "产物PbSO₄中铅为+2，两条路径均可到该物质。"
+        ],
+        "ans": "可以，但两极电子角色不同。",
+        "verification": "Pb、S、H、O全平衡。",
+        "pitfall": "同产物就说两极都同氧化。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.1.2",
+        "related_sections": []
+      },
+      {
+        "q": "燃料电池与封闭一次电池的物质供给区别是什么？ 条件：按典型使用方式。",
+        "given": "按典型使用方式。",
+        "analysis": "外供料与内储料不同。",
+        "method": "系统边界。",
+        "principle": "能量转换。",
+        "steps": [
+          "燃料电池常持续供燃料氧化剂并移产物。",
+          "一次电池主要消耗预储反应物，不能只靠补电子无限工作。"
+        ],
+        "ans": "供料管理不同。",
+        "verification": "两者均需完整电荷通路。",
+        "pitfall": "燃料电池不用化学反应。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.1.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "500mAh等于多少Ah？ 条件：电量单位。",
+        "given": "电量单位。",
+        "analysis": "milli为千分之一。",
+        "method": "除1000。",
+        "principle": "单位。",
+        "steps": [
+          "500/1000=.5。",
+          "单位Ah。"
+        ],
+        "ans": ".5Ah。",
+        "verification": "对应1800C。",
+        "pitfall": "500Ah。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.1.2",
+        "related_sections": []
+      },
+      {
+        "q": "同2Ah电量、近恒压3V与6V，理论能量比？ 条件：其他条件按额定理想模型。",
+        "given": "其他条件按额定理想模型。",
+        "analysis": "W=UQ。",
+        "method": "同Q比U。",
+        "principle": "电功。",
+        "steps": [
+          "能量6Wh与12Wh。",
+          "比1:2。"
+        ],
+        "ans": "1:2。",
+        "verification": "同容量不等同能量。",
+        "pitfall": "mAh同就能量同。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.1.2",
+        "related_sections": []
+      },
+      {
+        "q": "一次电池可以因反应存在逆式就随意充电吗？ 条件：未按充电设计或厂家条件。",
+        "given": "未按充电设计或厂家条件。",
+        "analysis": "化学形式逆向不同安全可逆装置。",
+        "method": "核设计。",
+        "principle": "二次电池条件。",
+        "steps": [
+          "实际副反应、结构与安全可能不允许。",
+          "不能仅把方程反写就当可充电。"
+        ],
+        "ans": "不可以随意。",
+        "verification": "本节不指导非规范操作。",
+        "pitfall": "方程可逆就所有电池可充。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.1.2",
+        "related_sections": []
+      },
+      {
+        "q": "氢燃料电池使用端无CO₂能推出全过程零排放吗？ 条件：供氢来源未给。",
+        "given": "供氢来源未给。",
+        "analysis": "边界不同。",
+        "method": "核上游。",
+        "principle": "生命周期。",
+        "steps": [
+          "制氢和运输可能用其他能源。",
+          "须全流程数据才评估。"
+        ],
+        "ans": "不能。",
+        "verification": "限定总反应本身不含碳。",
+        "pitfall": "局部结论扩大。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.1.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "锂离子电池正常工作必须等同金属锂在两极大量镀来镀去吗？ 条件：比较常规嵌入式系统。",
+      "given": "比较常规嵌入式系统。",
+      "analysis": "离子嵌入与金属沉积不同。",
+      "method": "按材料机理。",
+      "principle": "宿主结构。",
+      "steps": [
+        "锂离子可在宿主间移动与嵌脱。",
+        "正常机制不必以金属锂沉积为主要过程。"
+      ],
+      "ans": "不必且不能这样概括。",
+      "verification": "不同电池材料需各自依据。",
+      "pitfall": "所有含锂电源同金属锂模型。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 24,
+      "primary_section": "24.1.2",
+      "related_sections": []
+    },
+    "exam": [
+      "电源题先分一次/二次/外供燃料，别凭名字套反应",
+      "反应式逐元素及氧化态核两极，产物同不等过程同",
+      "容量先换C，能量再乘电压并标恒压近似"
+    ],
+    "quick": [
+      "电源类别",
+      "材料反应",
+      "供料边界",
+      "电量能量",
+      "实际限制"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 11,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_24.1.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-5-batteries-and-fuel-cells",
+        "page_or_section": "17-5-batteries-and-fuel-cells",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 11,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_24.1.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-5-batteries-and-fuel-cells",
+        "page_or_section": "17-5-batteries-and-fuel-cells",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "电源题先分一次/二次/外供燃料，别凭名字套反应",
+      "method": "系统边界。",
+      "principle": "能量转换。",
+      "worked_example_index": 2,
+      "verification": "两者均需完整电荷通路。",
+      "pitfall": "燃料电池不用化学反应。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“区分一次、二次电池和燃料电池”的抽样复核：7.4×3600同26640。；若出现“mAh直接当Wh。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“把电量、能量及理想反应与实际限制分开”的抽样复核：两者均需完整电荷通路。；若出现“燃料电池不用化学反应。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "所有含锂电源同金属锂模型。",
+        "correction": "不必且不能这样概括。",
+        "verification": "不同电池材料需各自依据。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "三类电源与电量能量",
+      "objects": [
+        "一次电池",
+        "二次充放电",
+        "燃料供给产物出口",
+        "Ah与Wh表"
+      ],
+      "relations": [
+        "燃料电池外供反应物",
+        "二次充电需外功",
+        "Ah乘电压才近Wh",
+        "锂离子不画必需金属锂沉积"
+      ],
+      "labels": [
+        "一次",
+        "二次",
+        "燃料电池",
+        "Q/C",
+        "W/Wh"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "电池和电解图须逐项核电极反应、电源极性、外电路电子与溶液离子；同样双杯外形不能直接复用",
+      "english": "Draw deterministic electrochemical diagrams. Oxidation is always at the anode and reduction at the cathode. Galvanic and electrolytic electrode polarities differ. Electrons travel in the external electronic conductors, while ions carry charge through electrolyte and salt bridge. Balance atoms, charge and transferred electrons, state phase and concentration conditions."
+    }
+  },
+  "24.2.1": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 24,
+    "section_id": "24.2.1",
+    "goals": [
+      "按还原电势表求电池电势",
+      "解释参考电极、标准态和不随系数倍增"
+    ],
+    "prerequisites": [
+      "半反应",
+      "能量与电荷"
+    ],
+    "flow": [
+      "参考电极",
+      "还原表",
+      "阴减阳",
+      "强度广延",
+      "标准与实际"
+    ],
+    "concept_relation": "参考电极；还原表；阴减阳；强度广延；标准与实际",
+    "deep": [
+      "电池标准电势E°cell=E°cathode(red)−E°anode(red)，两项都从同一还原电势表取。若把阳极半反应反写成氧化式，可相应反号再相加，但不能既反号又在公式里再减一次，造成重复换向。",
+      "为配电子把半反应系数乘2或3，电势数值不跟着倍增。电势是每单位电荷能量相关量，反应量与转移电量同时缩放，差值强度不变；总自由能等广延变化才会随反应倍数增加。这个区别也是由电势单位V=J/C可理解的。",
+      "计算后按所写总反应检查电子数n、正负极及条件。E°正支持该标准方向的热力学倾向，不保证反应迅速或实际非标准条件输出完全相同电压。真实带负载电池还受电阻、极化等影响，标准表值不是所有工作状态的实时读数。"
+    ],
+    "derive": [
+      "E°cell=E°cathode,red−E°anode,red；两数来自同一还原表。",
+      "半反应倍乘不倍乘E°；反向作为氧化电势时才反号，避免双反号。",
+      "标准参考SHE=0V为约定；温度与活度等条件要另核。"
+    ],
+    "examples": [
+      {
+        "q": "题给Cu²⁺/Cu E°=.34V、Zn²⁺/Zn E°=−.76V，锌铜电池E°？ 条件：同一标准还原表同温度。",
+        "given": "同一标准还原表同温度。",
+        "analysis": "铜为还原阴极，锌为氧化阳极。",
+        "method": "阴极还原电势减阳极还原电势。",
+        "principle": "定义。",
+        "steps": [
+          ".34−(−.76)。",
+          "得1.10V。"
+        ],
+        "ans": "1.10V。",
+        "verification": "阳极氧化若改为+.76，再加.34同值。",
+        "pitfall": "减负错或反号两次。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.2.1",
+        "related_sections": []
+      },
+      {
+        "q": "Ag⁺/Ag E°=.80V，Cu²⁺/Cu .34V；配2Ag⁺+Cu→2Ag+Cu²⁺，E°需把.80乘2吗？ 条件：数据为还原电势。",
+        "given": "数据为还原电势。",
+        "analysis": "系数改电荷量不改强度。",
+        "method": "取差。",
+        "principle": "V=J/C。",
+        "steps": [
+          "E°=.80−.34=.46V。",
+          "不将银电势变1.60V。"
+        ],
+        "ans": ".46V，不乘2。",
+        "verification": "转移电子n=2用于总能量而非电势倍数。",
+        "pitfall": "为配电子倍乘电势。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.2.1",
+        "related_sections": []
+      },
+      {
+        "q": "SHE电势约定0V代表H₂没有能量吗？ 条件：标准参考定义。",
+        "given": "标准参考定义。",
+        "analysis": "相对零点不同绝对能量。",
+        "method": "区分量。",
+        "principle": "电势差。",
+        "steps": [
+          "0V是表的参考选择。",
+          "体系仍有状态能量并可与其他电对反应。"
+        ],
+        "ans": "不代表。",
+        "verification": "只能比较相对参考差值。",
+        "pitfall": "零参考当无物理作用。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.2.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "E°阴极=.50、阳极还原表值−.20V，电池E°？ 条件：同标准表。",
+        "given": "同标准表。",
+        "analysis": "相减。",
+        "method": "公式。",
+        "principle": ".50−(−.20)。",
+        "steps": [
+          "=.70V。",
+          "所写方向标准E°正。"
+        ],
+        "ans": ".70V。",
+        "verification": "反向为−.70。",
+        "pitfall": "把负数直接相加。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.2.1",
+        "related_sections": []
+      },
+      {
+        "q": "将整条电池反应倍增，E°是否2倍？ 条件：条件和反应方向相同。",
+        "given": "条件和反应方向相同。",
+        "analysis": "强度量。",
+        "method": "能量/电量。",
+        "principle": "电势。",
+        "steps": [
+          "总能和电荷同倍增。",
+          "比值E°不变。"
+        ],
+        "ans": "不变。",
+        "verification": "总ΔG°另会倍增。",
+        "pitfall": "所有热力学量同倍。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.2.1",
+        "related_sections": []
+      },
+      {
+        "q": "标准电势表常见298K就表示“标准”本身永远等于25℃吗？ 条件：温度可另列。",
+        "given": "温度可另列。",
+        "analysis": "标准态与温度指定分开。",
+        "method": "核定义。",
+        "principle": "热力学标准态。",
+        "steps": [
+          "表可能选298K。",
+          "其他温度也可定义相应标准电势，须看表说明。"
+        ],
+        "ans": "不能把常见温度当定义全部。",
+        "verification": "数据使用时仍需同温。",
+        "pitfall": "标准自动所有条件固定。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.2.1",
+        "related_sections": []
+      },
+      {
+        "q": "电势单位V与能量单位J相同吗？ 条件：1V=1J/C。",
+        "given": "1V=1J/C。",
+        "analysis": "比量不同总量。",
+        "method": "量纲。",
+        "principle": "电功。",
+        "steps": [
+          "V表示每单位电荷能量。",
+          "乘电荷才得相应J。"
+        ],
+        "ans": "不相同。",
+        "verification": "这解释系数倍增不改E。",
+        "pitfall": "V直接当kJ/mol。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.2.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "标准E°正能保证该装置实际放电电压永远等于该值吗？ 条件：真实组成与负载可能改变。",
+      "given": "真实组成与负载可能改变。",
+      "analysis": "标准与工作状态不同。",
+      "method": "核条件。",
+      "principle": "电势依状态及损耗。",
+      "steps": [
+        "浓度活度与温度改变会改平衡电势。",
+        "内阻极化等还影响端电压。"
+      ],
+      "ans": "不能保证。",
+      "verification": "不将表值冒充实测。",
+      "pitfall": "标准表就是实时曲线。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 24,
+      "primary_section": "24.2.1",
+      "related_sections": []
+    },
+    "exam": [
+      "先确认表列还原方向，阴减阳两项不乱反号",
+      "配平系数只用于电子账和总能，不乘电势",
+      "结尾写标准条件及与实际工作电压的区别"
+    ],
+    "quick": [
+      "参考电极",
+      "还原表",
+      "阴减阳",
+      "强度广延",
+      "标准与实际"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 11,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_24.2.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-3-electrode-and-cell-potentials",
+        "page_or_section": "17-3-electrode-and-cell-potentials",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 11,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_24.2.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-3-electrode-and-cell-potentials",
+        "page_or_section": "17-3-electrode-and-cell-potentials",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先确认表列还原方向，阴减阳两项不乱反号",
+      "method": "区分量。",
+      "principle": "电势差。",
+      "worked_example_index": 2,
+      "verification": "只能比较相对参考差值。",
+      "pitfall": "零参考当无物理作用。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“按还原电势表求电池电势”的抽样复核：阳极氧化若改为+.76，再加.34同值。；若出现“减负错或反号两次。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“解释参考电极、标准态和不随系数倍增”的抽样复核：只能比较相对参考差值。；若出现“零参考当无物理作用。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "标准表就是实时曲线。",
+        "correction": "不能保证。",
+        "verification": "不将表值冒充实测。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "还原电势差与系数不变",
+      "objects": [
+        "SHE零线",
+        "Zn−.76",
+        "Cu+.34",
+        "Ag+.80",
+        "E差箭头"
+      ],
+      "relations": [
+        "Cu−Zn=1.10V",
+        "Ag−Cu=.46V",
+        "银反应乘2不改变.80V",
+        "轴单位V非J"
+      ],
+      "labels": [
+        "E°red/V",
+        "SHE",
+        "阴极−阳极",
+        "n另计"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "电池和电解图须逐项核电极反应、电源极性、外电路电子与溶液离子；同样双杯外形不能直接复用",
+      "english": "Draw deterministic electrochemical diagrams. Oxidation is always at the anode and reduction at the cathode. Galvanic and electrolytic electrode polarities differ. Electrons travel in the external electronic conductors, while ions carry charge through electrolyte and salt bridge. Balance atoms, charge and transferred electrons, state phase and concentration conditions."
+    }
+  },
+  "24.2.2": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 24,
+    "section_id": "24.2.2",
+    "goals": [
+      "在指定条件下判断方向和氧还原强弱",
+      "结合自由能与反应商说明电势判断的限制"
+    ],
+    "prerequisites": [
+      "标准电势",
+      "平衡与电子计量"
+    ],
+    "flow": [
+      "电对比较",
+      "方向",
+      "电子量",
+      "自由能平衡",
+      "实际反应商"
+    ],
+    "concept_relation": "电对比较；方向；电子量；自由能平衡；实际反应商",
+    "deep": [
+      "当E=0且达到相应平衡时可联系lnK=nFE°/(RT)，这把电化学与化学平衡连起来。系数倍增时E°不变、n倍增，K会按相应幂变化；不能因为E°不变就说整式K也不变。自由能、电势和平衡常数各有不同缩放规则。",
+      "判断置换或反应方向时还需考量实际介质、配位、酸碱、沉淀及浓度等因素，表中指定电对在新条件下未必仍是实际控制反应。若题目明确采用标准简化模型，可按表计算，但答案应保留此模型边界，不用现实例外随意改表。",
+      "解题步骤为配平电子、确定候选方向、计算E°，再按问题求ΔG°或K等并核单位。n不能由总系数随意相加，也不能取氧化数变化但漏反应物数量。最终把正负号解释为所写方向，逆向时E°、ΔG°同时反号而K倒数。"
+    ],
+    "derive": [
+      "ΔG°=−nFE°；E=E°−(RT/nF)lnQ，按适用活度与模型。",
+      "平衡E=0⇒lnK=nFE°/(RT)。",
+      "反向E°与ΔG°反号、K取倒数；倍增E°不变、n倍增、K平方。"
+    ],
+    "examples": [
+      {
+        "q": "锌铜整式n=2、E°=1.10V，F=96500C/mol，ΔG°多少？ 条件：按所写1molZn反应标准模型。",
+        "given": "按所写1molZn反应标准模型。",
+        "analysis": "单位V×C=J。",
+        "method": "−nFE°。",
+        "principle": "电化学自由能。",
+        "steps": [
+          "−2×96500×1.10=−212300J/mol反应。",
+          "换−212.3kJ/mol反应。"
+        ],
+        "ans": "−212.3kJ/mol反应。",
+        "verification": "负与正E°对应。",
+        "pitfall": "忘n或kJ换算。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.2.2",
+        "related_sections": []
+      },
+      {
+        "q": "题给电对甲.60V、乙.10V，哪一氧化态在标准比较下较易还原？ 条件：同一温度同一还原电势表，比较给定电对。",
+        "given": "同一温度同一还原电势表，比较给定电对。",
+        "analysis": "还原电势较大。",
+        "method": "比较。",
+        "principle": "相对受电子倾向。",
+        "steps": [
+          "甲.60>.10。",
+          "甲氧化态在该比较中较倾向受电子。"
+        ],
+        "ans": "甲电对的氧化态。",
+        "verification": "不能据此称甲还原态必最强还原剂。",
+        "pitfall": "氧化性还原性反说。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.2.2",
+        "related_sections": []
+      },
+      {
+        "q": "某反应E°=.30V、n=1、T298K，实际Q=exp(2)，R8.31、F96500，E约多少？ 条件：适用给定Nernst活度模型。",
+        "given": "适用给定Nernst活度模型。",
+        "analysis": "Q>1使此方向E低于标准。",
+        "method": "代lnQ=2。",
+        "principle": "反应商关系。",
+        "steps": [
+          "RT/F≈.02566V。",
+          "E=.30−2×.02566≈.24868V。"
+        ],
+        "ans": "约.249V。",
+        "verification": "低于.30仍正，趋势符合。",
+        "pitfall": "Q直接当lnQ。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.2.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "n2、E°=.50V、F96500时ΔG°？ 条件：整式基准。",
+        "given": "整式基准。",
+        "analysis": "负号与电子数。",
+        "method": "公式。",
+        "principle": "电功。",
+        "steps": [
+          "−2×96500×.5=−96500J。",
+          "换−96.5kJ/mol反应。"
+        ],
+        "ans": "−96.5kJ/mol。",
+        "verification": "不是−.5kJ。",
+        "pitfall": "单位混。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.2.2",
+        "related_sections": []
+      },
+      {
+        "q": "相同反应反向，原K=100，逆向K？ 条件：同温。",
+        "given": "同温。",
+        "analysis": "取倒数。",
+        "method": "1/K。",
+        "principle": "平衡。",
+        "steps": [
+          "1/100=.01。",
+          "E°也反号。"
+        ],
+        "ans": ".01。",
+        "verification": "K不取负数。",
+        "pitfall": "逆向K=−100。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.2.2",
+        "related_sections": []
+      },
+      {
+        "q": "反应系数整体2倍，原K=10，新K？ 条件：同温同活度基准。",
+        "given": "同温同活度基准。",
+        "analysis": "Q的幂整体倍增。",
+        "method": "K²。",
+        "principle": "反应定义。",
+        "steps": [
+          "10²=100。",
+          "E°不因倍乘而2倍。"
+        ],
+        "ans": "100。",
+        "verification": "n倍增与lnK倍增一致。",
+        "pitfall": "E不变就K不变。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.2.2",
+        "related_sections": []
+      },
+      {
+        "q": "E°正就保证观察到反应极快吗？ 条件：未给动力学资料。",
+        "given": "未给动力学资料。",
+        "analysis": "驱动力不同速率。",
+        "method": "分开判据。",
+        "principle": "动力学限制。",
+        "steps": [
+          "正E°支持标准热力学方向。",
+          "速率另取决能垒、表面等条件。"
+        ],
+        "ans": "不保证。",
+        "verification": "可能需催化或有钝化。",
+        "pitfall": "热力学有利等立刻。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.2.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "只看标准表两数，不核实际浓度与配位沉淀，能保证所有现实条件方向相同吗？ 条件：环境已可能改变。",
+      "given": "环境已可能改变。",
+      "analysis": "实际Q与电对改变。",
+      "method": "核模型。",
+      "principle": "电势依状态。",
+      "steps": [
+        "浓度和化学平衡可改变实际E。",
+        "甚至主电对不同，不能无条件沿用标准判断。"
+      ],
+      "ans": "不能保证。",
+      "verification": "题设标准简化可计算，但须标限定。",
+      "pitfall": "一张表包办全部条件。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 24,
+      "primary_section": "24.2.2",
+      "related_sections": []
+    },
+    "exam": [
+      "先配电子定n，再用E°判断所写方向，不把n当系数总和",
+      "ΔG标J或kJ/mol反应，K的倍乘与反向规则单独核",
+      "实际条件题检查Q、介质和可能电对变化，不把方向当速率"
+    ],
+    "quick": [
+      "电对比较",
+      "方向",
+      "电子量",
+      "自由能平衡",
+      "实际反应商"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 11,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_24.2.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-3-electrode-and-cell-potentials",
+        "page_or_section": "17-3-electrode-and-cell-potentials",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 11,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_24.2.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-3-electrode-and-cell-potentials",
+        "page_or_section": "17-3-electrode-and-cell-potentials",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先配电子定n，再用E°判断所写方向，不把n当系数总和",
+      "method": "代lnQ=2。",
+      "principle": "反应商关系。",
+      "worked_example_index": 2,
+      "verification": "低于.30仍正，趋势符合。",
+      "pitfall": "Q直接当lnQ。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“在指定条件下判断方向和氧还原强弱”的抽样复核：负与正E°对应。；若出现“忘n或kJ换算。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“结合自由能与反应商说明电势判断的限制”的抽样复核：低于.30仍正，趋势符合。；若出现“Q直接当lnQ。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "一张表包办全部条件。",
+        "correction": "不能保证。",
+        "verification": "题设标准简化可计算，但须标限定。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "电势自由能与平衡",
+      "objects": [
+        "E°正负轴",
+        "ΔG°相反符号",
+        "n电子计量",
+        "Q变化",
+        "反向倍增表"
+      ],
+      "relations": [
+        "ΔG°=−nFE°",
+        "Q增大按给定方向降E",
+        "反向K倒数",
+        "倍增K平方E不变"
+      ],
+      "labels": [
+        "E/V",
+        "ΔG/J·mol⁻¹",
+        "n",
+        "lnQ",
+        "lnK"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "电池和电解图须逐项核电极反应、电源极性、外电路电子与溶液离子；同样双杯外形不能直接复用",
+      "english": "Draw deterministic electrochemical diagrams. Oxidation is always at the anode and reduction at the cathode. Galvanic and electrolytic electrode polarities differ. Electrons travel in the external electronic conductors, while ions carry charge through electrolyte and salt bridge. Balance atoms, charge and transferred electrons, state phase and concentration conditions."
+    }
+  },
+  "24.3.1": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 24,
+    "section_id": "24.3.1",
+    "goals": [
+      "按外电源连接和半反应判断两极",
+      "区分熔融与水溶液、惰性与活性电极的产物"
+    ],
+    "prerequisites": [
+      "原电池与氧化还原",
+      "电荷守恒"
+    ],
+    "flow": [
+      "外电源",
+      "两极反应",
+      "相态溶剂",
+      "竞争条件",
+      "电子守恒"
+    ],
+    "concept_relation": "外电源；两极反应；相态溶剂；竞争条件；电子守恒",
+    "deep": [
+      "氯化物水溶液阳极可能涉及氯气与氧气竞争，浓度、材料与电位等条件重要。课堂若明确浓盐水、相应电极及选择氯气路径，可写对应半反应；若信息不足，应保留可能性而不是把所有氯化物浓稀都写成绝对同一产物。",
+      "电极半反应必须配原子与电荷，电子在阳极式右侧、阴极式左侧。将两式相加时电子数应相等相消，溶液中迁移的离子负责电荷连续，不是自由电子从一极穿溶液游到另一极。外电源和电极箭头应完整成图。",
+      "实际驱动电压还需克服相应平衡反向趋势、过电位和电阻降等，不能只用标准表差宣称一到该数值就必有指定电流。电解也可伴副反应和产物再反应，工业装置常分隔路径。本文只作课堂原理和计算，不指导自行制备或混合危险电解产物。"
+    ],
+    "derive": [
+      "电解：阳极(+)氧化、阴极(−)还原；与原电池的极性区别不改变反应定义。",
+      "阴极电子在半反应左，阳极在右；相加电子须完全相消。",
+      "水溶液、电极材料和浓度决定竞争路径，不能照搬熔融盐产物。"
+    ],
+    "examples": [
+      {
+        "q": "写熔融MgCl₂在适当电极下的两极及总反应。 条件：熔融盐模型，镁以相应高温液态表示，无副反应。",
+        "given": "熔融盐模型，镁以相应高温液态表示，无副反应。",
+        "analysis": "阴极Mg²⁺得2e，阳极两个Cl⁻失2e。",
+        "method": "半反应配平。",
+        "principle": "电解。",
+        "steps": [
+          "阴极Mg²⁺+2e⁻→Mg(l)；阳极2Cl⁻→Cl₂(g)+2e⁻。",
+          "总MgCl₂(l)→Mg(l)+Cl₂(g)。"
+        ],
+        "ans": "两式及总式如上。",
+        "verification": "电荷两侧与Mg、Cl原子数均守恒。",
+        "pitfall": "将熔盐也加入水还原。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.3.1",
+        "related_sections": []
+      },
+      {
+        "q": "浓盐水题设选择阴极产H₂、阳极产Cl₂，写净式。 条件：电极与条件支持指定路径，产物适当分隔，忽略副反应。",
+        "given": "电极与条件支持指定路径，产物适当分隔，忽略副反应。",
+        "analysis": "阴极还原水而非Na⁺。",
+        "method": "配两半反应。",
+        "principle": "守恒。",
+        "steps": [
+          "阴极2H₂O+2e⁻→H₂+2OH⁻；阳极2Cl⁻→Cl₂+2e⁻。",
+          "相加2H₂O+2Cl⁻→H₂+Cl₂+2OH⁻。"
+        ],
+        "ans": "净式如上，Na⁺为该净式旁观离子。",
+        "verification": "H4O2Cl2及总负电荷−2守恒。",
+        "pitfall": "阴极直接析Na。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.3.1",
+        "related_sections": []
+      },
+      {
+        "q": "电解Cu²⁺溶液若阳极由惰性材料改铜，产物判断能照旧吗？ 条件：允许铜阳极被氧化。",
+        "given": "允许铜阳极被氧化。",
+        "analysis": "电极本身加入竞争。",
+        "method": "先列阳极候选。",
+        "principle": "活性电极。",
+        "steps": [
+          "铜可发生Cu→Cu²⁺+2e⁻。",
+          "不能仍无条件只考虑水或阴离子氧化。"
+        ],
+        "ans": "不能照旧，需核铜溶解路径。",
+        "verification": "材料是反应条件而非图中装饰。",
+        "pitfall": "只看溶液离子不看电极。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.3.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "电解阴极接外电源哪端，发生什么？ 条件：常规外驱电解。",
+        "given": "常规外驱电解。",
+        "analysis": "获得电子。",
+        "method": "对应连接。",
+        "principle": "阴极还原。",
+        "steps": [
+          "接电源负端供电子。",
+          "阴极发生还原。"
+        ],
+        "ans": "负端，还原。",
+        "verification": "原电池阴极正但定义仍还原。",
+        "pitfall": "阴极永远正。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.3.1",
+        "related_sections": []
+      },
+      {
+        "q": "阳极半反应电子通常在左还是右？ 条件：写为氧化方向。",
+        "given": "写为氧化方向。",
+        "analysis": "失电子。",
+        "method": "反应式记账。",
+        "principle": "氧化。",
+        "steps": [
+          "物种失去电子。",
+          "电子写在生成物右侧。"
+        ],
+        "ans": "右侧。",
+        "verification": "阴极还原相反。",
+        "pitfall": "按正负极名随意放。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.3.1",
+        "related_sections": []
+      },
+      {
+        "q": "水溶液Na⁺存在就必析钠吗？ 条件：水可竞争。",
+        "given": "水可竞争。",
+        "analysis": "溶剂也能反应。",
+        "method": "列候选。",
+        "principle": "电解选择性。",
+        "steps": [
+          "阴极可能还原水产生氢等。",
+          "需条件判断，不能只由Na⁺存在定产物。"
+        ],
+        "ans": "不必。",
+        "verification": "与熔盐无水情境不同。",
+        "pitfall": "溶盐和熔盐同产物。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.3.1",
+        "related_sections": []
+      },
+      {
+        "q": "仅知氯化物溶液但未给浓度电极，阳极必只产氯气吗？ 条件：存在水氧化等竞争可能。",
+        "given": "存在水氧化等竞争可能。",
+        "analysis": "信息不足。",
+        "method": "审条件。",
+        "principle": "选择性与动力学。",
+        "steps": [
+          "浓度、材料和过电位会影响。",
+          "应说明所需条件或可能路径。"
+        ],
+        "ans": "不能无条件唯一断言。",
+        "verification": "题给明确模型后才据之算。",
+        "pitfall": "所有浓稀氯化物同结论。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.3.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "若标准反应电势差已知，实际电源只需恰等该值就保证指定大电流吗？ 条件：有过电位与内阻等实际因素。",
+      "given": "有过电位与内阻等实际因素。",
+      "analysis": "平衡驱动与负载电流不同。",
+      "method": "补损耗。",
+      "principle": "电化学工作条件。",
+      "steps": [
+        "还需相应过电位与IR等。",
+        "不能仅由标准差决定实际电流。"
+      ],
+      "ans": "不能保证。",
+      "verification": "真实装置需特定工作数据。",
+      "pitfall": "标准电压当通用启动电流保证。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 24,
+      "primary_section": "24.3.1",
+      "related_sections": []
+    },
+    "exam": [
+      "先画电源正负，再按阳极氧化阴极还原写式",
+      "列溶液与电极全部候选，熔融和水溶液分开",
+      "相加核原子电荷电子数，条件不足就不冒充唯一产物"
+    ],
+    "quick": [
+      "外电源",
+      "两极反应",
+      "相态溶剂",
+      "竞争条件",
+      "电子守恒"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 11,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_24.3.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis",
+        "page_or_section": "17-7-electrolysis",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 11,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_24.3.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis",
+        "page_or_section": "17-7-electrolysis",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先画电源正负，再按阳极氧化阴极还原写式",
+      "method": "先列阳极候选。",
+      "principle": "活性电极。",
+      "worked_example_index": 2,
+      "verification": "材料是反应条件而非图中装饰。",
+      "pitfall": "只看溶液离子不看电极。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“按外电源连接和半反应判断两极”的抽样复核：电荷两侧与Mg、Cl原子数均守恒。；若出现“将熔盐也加入水还原。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分熔融与水溶液、惰性与活性电极的产物”的抽样复核：材料是反应条件而非图中装饰。；若出现“只看溶液离子不看电极。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "标准电压当通用启动电流保证。",
+        "correction": "不能保证。",
+        "verification": "真实装置需特定工作数据。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "电解外电源与竞争反应",
+      "objects": [
+        "电源",
+        "阳极+",
+        "阴极−",
+        "熔盐对照",
+        "水溶液对照",
+        "离子流"
+      ],
+      "relations": [
+        "电子外回路不穿溶液",
+        "阴极还原阳极氧化",
+        "水溶液不必析活泼金属",
+        "材料条件明示"
+      ],
+      "labels": [
+        "外电源",
+        "e⁻",
+        "氧化",
+        "还原",
+        "熔融/水溶液"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "电池和电解图须逐项核电极反应、电源极性、外电路电子与溶液离子；同样双杯外形不能直接复用",
+      "english": "Draw deterministic electrochemical diagrams. Oxidation is always at the anode and reduction at the cathode. Galvanic and electrolytic electrode polarities differ. Electrons travel in the external electronic conductors, while ions carry charge through electrolyte and salt bridge. Balance atoms, charge and transferred electrons, state phase and concentration conditions."
+    }
+  },
+  "24.3.2": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 24,
+    "section_id": "24.3.2",
+    "goals": [
+      "由目标产物设计电极角色并解释电镀精炼",
+      "辨识工业制铝和水电解的介质及计量条件"
+    ],
+    "prerequisites": [
+      "电解半反应",
+      "材料与离子"
+    ],
+    "flow": [
+      "目标电极",
+      "离子供应",
+      "杂质分流",
+      "工业介质",
+      "计量条件"
+    ],
+    "concept_relation": "目标电极；离子供应；杂质分流；工业介质；计量条件",
+    "deep": [
+      "制铝不能把Al³⁺水溶液简单按熔盐图还原成大量金属铝，水等竞争会阻碍该预期。工业常在高温熔融体系中处理氧化铝，冰晶石等降低适用熔融条件并改善体系，碳阳极还会被消耗形成相应碳氧化物，不能把它当永不参与的惰性支架。",
+      "水电解在明确酸性或碱性半反应模型下总式2H₂O→2H₂+O₂，若气体在相同温压、近理想且无损失下体积比2:1。若温压不同、存在溶解或副反应，就不能仅由体积读数无条件推出同mol比；也不应把支持电解质自动写入净消耗式。",
+      "应用题应从目标出发：要沉积到哪一表面、哪种粒子被还原、阳极怎样平衡电荷及物质。装置图用简化原理表达，并标明工业示意非学生操作流程。定量结果还要在下一节按电荷、效率和产物状态计算，不能用设备用途替代守恒。"
+    ],
+    "derive": [
+      "铜镀层工件为阴极：Cu²⁺+2e⁻→Cu；可溶铜阳极补Cu²⁺。",
+      "铜精炼的阳极、阴极与杂质去向按材料和工艺条件判断。",
+      "2H₂O→2H₂+O₂；同温同压理想无损失气体体积比2:1。"
+    ],
+    "examples": [
+      {
+        "q": "给钢工件镀铜，工件接哪端，写沉积半反应。 条件：采用Cu²⁺溶液合适电镀模型。",
+        "given": "采用Cu²⁺溶液合适电镀模型。",
+        "analysis": "沉积为还原。",
+        "method": "从目标定极。",
+        "principle": "阴极得电子。",
+        "steps": [
+          "工件作阴极接负端。",
+          "Cu²⁺+2e⁻→Cu沉积在工件。"
+        ],
+        "ans": "阴极负端；半反应如上。",
+        "verification": "不是把钢作阳极氧化。",
+        "pitfall": "工件接正。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.3.2",
+        "related_sections": []
+      },
+      {
+        "q": "精炼铜中两类杂质是否都必在阴极与铜等比例沉积？ 条件：有较活泼及贵金属杂质，具体工艺适当。",
+        "given": "有较活泼及贵金属杂质，具体工艺适当。",
+        "analysis": "反应选择性不同。",
+        "method": "按溶解和还原倾向分类。",
+        "principle": "电极条件。",
+        "steps": [
+          "部分较活泼杂质可入液。",
+          "部分贵金属可留阳极泥，不能全与铜同沉。"
+        ],
+        "ans": "不能一概同沉。",
+        "verification": "具体分配须工艺依据，不把活泼性当唯一普适排序。",
+        "pitfall": "总质量守恒就全到阴极。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.3.2",
+        "related_sections": []
+      },
+      {
+        "q": "水电解收H₂.020mol，按无损净反应O₂多少mol，体积何时可直接2:1？ 条件：纯水净计量模型。",
+        "given": "纯水净计量模型。",
+        "analysis": "氢氧mol比2:1。",
+        "method": "配平比例。",
+        "principle": "守恒。",
+        "steps": [
+          "O₂=.020/2=.010mol。",
+          "只有同温压、理想近似等条件才直接比较体积2:1。"
+        ],
+        "ans": ".010mol；体积条件如上。",
+        "verification": "H与O原子比与水一致。",
+        "pitfall": "不同温压体积也必2:1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.3.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "铜阳极作补铜源时写什么半反应？ 条件：合适电镀条件。",
+        "given": "合适电镀条件。",
+        "analysis": "阳极氧化。",
+        "method": "失2e。",
+        "principle": "电荷守恒。",
+        "steps": [
+          "Cu→Cu²⁺+2e⁻。",
+          "铜进入液体补离子。"
+        ],
+        "ans": "Cu→Cu²⁺+2e⁻。",
+        "verification": "阴极逆过程配电子。",
+        "pitfall": "阳极也Cu²⁺得e。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.3.2",
+        "related_sections": []
+      },
+      {
+        "q": "工业制铝可直接照搬水溶液Al³⁺析铝吗？ 条件：常规水溶液存在竞争。",
+        "given": "常规水溶液存在竞争。",
+        "analysis": "介质重要。",
+        "method": "核还原选择。",
+        "principle": "电解。",
+        "steps": [
+          "水相关还原可能优先。",
+          "工业采用适当高温熔融体系，不能照搬水液。"
+        ],
+        "ans": "不能。",
+        "verification": "盐化学式相同不等过程同。",
+        "pitfall": "有金属离子必析金属。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.3.2",
+        "related_sections": []
+      },
+      {
+        "q": "碳阳极在制铝示意中可无条件标永不消耗吗？ 条件：工业碳阳极体系。",
+        "given": "工业碳阳极体系。",
+        "analysis": "碳参与反应。",
+        "method": "查产物。",
+        "principle": "氧化。",
+        "steps": [
+          "碳可被氧化形成碳氧化物。",
+          "需消耗和补充，非纯惰性。"
+        ],
+        "ans": "不可。",
+        "verification": "不是所有看似黑色电极都惰性。",
+        "pitfall": "颜色替代材料性质。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.3.2",
+        "related_sections": []
+      },
+      {
+        "q": "阴极按理想计量镀.010mol Cu，电子量多少？ 条件：唯一Cu²⁺还原且效率100%。",
+        "given": "唯一Cu²⁺还原且效率100%。",
+        "analysis": "每Cu需2e。",
+        "method": "乘2。",
+        "principle": "半反应。",
+        "steps": [
+          ".010×2=.020。",
+          "单位mol电子。"
+        ],
+        "ans": ".020mol。",
+        "verification": "阳极Cu同mol仅在相应唯一反应模型。",
+        "pitfall": "等mol电子。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.3.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "电镀时间越长就保证镀层越均匀、越牢固吗？ 条件：电流分布、表面与传质可能变化。",
+      "given": "电流分布、表面与传质可能变化。",
+      "analysis": "质量与品质不同。",
+      "method": "审工艺条件。",
+      "principle": "沉积过程。",
+      "steps": [
+        "延时可增加电量但局部电流和表面等影响品质。",
+        "不能仅凭时间保证均匀附着。"
+      ],
+      "ans": "不保证。",
+      "verification": "原理示意不代替工艺评价。",
+      "pitfall": "多沉积等于好镀层。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 24,
+      "primary_section": "24.3.2",
+      "related_sections": []
+    },
+    "exam": [
+      "先从目标表面写还原半反应定工件极性",
+      "精炼、电镀与制铝按材料介质分别解释，杂质不泛化",
+      "气体比例先配mol，再核温压溶解与副反应条件"
+    ],
+    "quick": [
+      "目标电极",
+      "离子供应",
+      "杂质分流",
+      "工业介质",
+      "计量条件"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 11,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_24.3.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis",
+        "page_or_section": "17-7-electrolysis",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 11,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_24.3.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis",
+        "page_or_section": "17-7-electrolysis",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先从目标表面写还原半反应定工件极性",
+      "method": "配平比例。",
+      "principle": "守恒。",
+      "worked_example_index": 2,
+      "verification": "H与O原子比与水一致。",
+      "pitfall": "不同温压体积也必2:1。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由目标产物设计电极角色并解释电镀精炼”的抽样复核：不是把钢作阳极氧化。；若出现“工件接正。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“辨识工业制铝和水电解的介质及计量条件”的抽样复核：H与O原子比与水一致。；若出现“不同温压体积也必2:1。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "多沉积等于好镀层。",
+        "correction": "不保证。",
+        "verification": "原理示意不代替工艺评价。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "电镀精炼与工业介质对照",
+      "objects": [
+        "钢工件阴极",
+        "铜阳极",
+        "Cu²⁺迁移",
+        "粗铜杂质",
+        "制铝介质说明",
+        "水电解气体"
+      ],
+      "relations": [
+        "铜在工件还原",
+        "铜阳极可补离子",
+        "贵金属不全在阴极共沉",
+        "H₂O气体mol比2:1"
+      ],
+      "labels": [
+        "阴极−",
+        "阳极+",
+        "电镀",
+        "精炼",
+        "熔融非水液"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "电池和电解图须逐项核电极反应、电源极性、外电路电子与溶液离子；同样双杯外形不能直接复用",
+      "english": "Draw deterministic electrochemical diagrams. Oxidation is always at the anode and reduction at the cathode. Galvanic and electrolytic electrode polarities differ. Electrons travel in the external electronic conductors, while ions carry charge through electrolyte and salt bridge. Balance atoms, charge and transferred electrons, state phase and concentration conditions."
+    }
+  },
+  "24.3.3": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 24,
+    "section_id": "24.3.3",
+    "goals": [
+      "从电荷到电子mol再到产物量完整计算",
+      "区分电流效率、能量效率和气体温压"
+    ],
+    "prerequisites": [
+      "电流电量",
+      "化学计量与摩尔质量"
+    ],
+    "flow": [
+      "电量",
+      "电子量",
+      "反应计量",
+      "效率",
+      "产物单位"
+    ],
+    "concept_relation": "电量；电子量；反应计量；效率；产物单位",
+    "deep": [
+      "电流效率η表示所传电量中用于目标反应的比例，故m=ηMQ/(zF)。这不是电能利用率，电源损耗、过电位和其他能量通路也影响能量效率；只有m的折减比例不能唯一决定整套装置能耗。",
+      "气体产物先算mol，再用题给温压下PV=nRT或明确的摩尔体积。22.4L/mol只在相应理想近似温压约定下使用，不能对室温任何压力一律套。水蒸气和溶解损失是否需处理，由题设与收集方式确定。",
+      "完整解题从半反应、Q、n_e、产物mol到质量或体积逐级列单位，最后用电子量反算电量验算。若题问时间则逆推，若有多个竞争反应需电流分配资料；信息不足时应列缺项，不凭最终想要的质量捏造效率。"
+    ],
+    "derive": [
+      "Q=It；n_e=Q/F；n_product=ηQ/(zF)；m=ηMIt/(zF)。",
+      "同Q、同η时m₁/m₂=(M₁/z₁)/(M₂/z₂)。",
+      "气体先求mol，再按指定T、P求V；电流效率不等能量效率。"
+    ],
+    "examples": [
+      {
+        "q": "2.0A通965s，还原Cu²⁺，M(Cu)=63.5g/mol、F96500，沉铜多少？ 条件：恒I、仅目标反应、电流效率100%。",
+        "given": "恒I、仅目标反应、电流效率100%。",
+        "analysis": "每Cu需2e。",
+        "method": "电量到mol。",
+        "principle": "法拉第。",
+        "steps": [
+          "Q=2×965=1930C，n_e=.020mol。",
+          "n_Cu=.010mol，m=.010×63.5=.635g。"
+        ],
+        "ans": ".635g。",
+        "verification": "m/M×2F=.010×193000=1930C。",
+        "pitfall": "漏z=2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.3.3",
+        "related_sections": []
+      },
+      {
+        "q": "同1930C还原Ag⁺，M108，若电流效率80%，沉银多少？ 条件：F96500，只有给定目标效率。",
+        "given": "F96500，只有给定目标效率。",
+        "analysis": "电子到银1:1，再乘η。",
+        "method": "法拉第。",
+        "principle": "电荷计量。",
+        "steps": [
+          "理想Ag=.020mol、质量2.16g。",
+          "实际.80×2.16=1.728g。"
+        ],
+        "ans": "1.728g。",
+        "verification": "目标用电量1544C，其余电量分给其他过程。",
+        "pitfall": "效率除或扣两次。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.3.3",
+        "related_sections": []
+      },
+      {
+        "q": "1930C用于水电解阴极产H₂，求300K、100kPa理想体积。 条件：H₂每mol需2e，效率100%，干气，R8.31。",
+        "given": "H₂每mol需2e，效率100%，干气，R8.31。",
+        "analysis": "先mol后体积。",
+        "method": "法拉第与气体式。",
+        "principle": "计量。",
+        "steps": [
+          "n_H₂=1930/(2×96500)=.010mol。",
+          "V=.010×8.31×300/100000=.0002493m³=.2493L。"
+        ],
+        "ans": "约.249L。",
+        "verification": "室温条件不直接用22.4得.224L。",
+        "pitfall": "无条件套标准摩尔体积。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.3.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "目标镀Cu1.27g，I2A，F96500、M63.5，效率100%，时间？ 条件：Cu²⁺还原。",
+        "given": "Cu²⁺还原。",
+        "analysis": "逆推Q再t。",
+        "method": "法拉第。",
+        "principle": "2e/Cu。",
+        "steps": [
+          "n_Cu=.020mol，Q=.040×96500=3860C。",
+          "t=3860/2=1930s。"
+        ],
+        "ans": "1930s。",
+        "verification": "约32.17min，时间转秒。",
+        "pitfall": "漏2电子。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.3.3",
+        "related_sections": []
+      },
+      {
+        "q": "同Q分别析Ag与Cu，M108与63.5，z1与2，理想质量比？ 条件：两者效率同100%。",
+        "given": "两者效率同100%。",
+        "analysis": "比M/z。",
+        "method": "108/(63.5/2)。",
+        "principle": "法拉第。",
+        "steps": [
+          "=216/63.5。",
+          "≈3.40。"
+        ],
+        "ans": "约3.40:1。",
+        "verification": "不是摩尔质量比1.70。",
+        "pitfall": "忘价态。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.3.3",
+        "related_sections": []
+      },
+      {
+        "q": "1A先300s再2A200s，总Q？ 条件：分段恒流。",
+        "given": "分段恒流。",
+        "analysis": "电量相加。",
+        "method": "ΣIt。",
+        "principle": "电量。",
+        "steps": [
+          "第一段300C，第二段400C。",
+          "总700C。"
+        ],
+        "ans": "700C。",
+        "verification": "不能平均电流不加权。",
+        "pitfall": "总500秒乘任意一段。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.3.3",
+        "related_sections": []
+      },
+      {
+        "q": "同1930C理想还原Al³⁺，M27，金属量？ 条件：适当非水熔融条件，不讨论水液竞争。",
+        "given": "适当非水熔融条件，不讨论水液竞争。",
+        "analysis": "z3。",
+        "method": "m=MQ/(zF)。",
+        "principle": "计量。",
+        "steps": [
+          "n_Al=.020/3mol。",
+          "m=27×.020/3=.180g。"
+        ],
+        "ans": ".180g。",
+        "verification": "原电子量.020mol保持。",
+        "pitfall": "看见Al就用z1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.3.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "测出目标金属电流效率80%，能据此唯一说能量效率也80%吗？ 条件：实际电压损耗等未知。",
+      "given": "实际电压损耗等未知。",
+      "analysis": "电量分配不同能量收支。",
+      "method": "区分定义。",
+      "principle": "功W=∫UI dt。",
+      "steps": [
+        "电流效率看目标电荷比例。",
+        "能效还涉及实际U、热损等，不能唯一相等。"
+      ],
+      "ans": "不能。",
+      "verification": "需要完整电能输入和有用能定义。",
+      "pitfall": "两种效率同名混用。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 24,
+      "primary_section": "24.3.3",
+      "related_sections": []
+    },
+    "exam": [
+      "半反应先配z，再逐级Q→电子mol→产物mol→质量体积",
+      "恒流时间用秒，变流分段；效率只在对应目标电量乘一次",
+      "气体按真实T,P，电流效率与能量效率分开"
+    ],
+    "quick": [
+      "电量",
+      "电子量",
+      "反应计量",
+      "效率",
+      "产物单位"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 11,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_24.3.3",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis",
+        "page_or_section": "17-7-electrolysis",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 11,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_24.3.3",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis",
+        "page_or_section": "17-7-electrolysis",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "半反应先配z，再逐级Q→电子mol→产物mol→质量体积",
+      "method": "法拉第与气体式。",
+      "principle": "计量。",
+      "worked_example_index": 2,
+      "verification": "室温条件不直接用22.4得.224L。",
+      "pitfall": "无条件套标准摩尔体积。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“从电荷到电子mol再到产物量完整计算”的抽样复核：m/M×2F=.010×193000=1930C。；若出现“漏z=2。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分电流效率、能量效率和气体温压”的抽样复核：室温条件不直接用22.4得.224L。；若出现“无条件套标准摩尔体积。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "两种效率同名混用。",
+        "correction": "不能。",
+        "verification": "需要完整电能输入和有用能定义。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "法拉第计算链",
+      "objects": [
+        "I,t",
+        "Q/C",
+        "n_e/mol",
+        "z电子/产物",
+        "质量或气体",
+        "η分流"
+      ],
+      "relations": [
+        "Q除F得电子mol",
+        "再除z",
+        "η只计目标份额",
+        "气体温压明示"
+      ],
+      "labels": [
+        "Q=It",
+        "F",
+        "z",
+        "η",
+        "m",
+        "T,P"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "电池和电解图须逐项核电极反应、电源极性、外电路电子与溶液离子；同样双杯外形不能直接复用",
+      "english": "Draw deterministic electrochemical diagrams. Oxidation is always at the anode and reduction at the cathode. Galvanic and electrolytic electrode polarities differ. Electrons travel in the external electronic conductors, while ions carry charge through electrolyte and salt bridge. Balance atoms, charge and transferred electrons, state phase and concentration conditions."
+    }
+  },
+  "24.4": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 24,
+    "section_id": "24.4",
+    "goals": [
+      "用局部氧化还原解释铁锈蚀",
+      "比较屏障、牺牲阳极和接触腐蚀并控制实验"
+    ],
+    "prerequisites": [
+      "原电池",
+      "氧化还原与材料"
+    ],
+    "flow": [
+      "局部电池",
+      "环境条件",
+      "腐蚀产物",
+      "屏障与牺牲",
+      "速率与实验"
+    ],
+    "concept_relation": "局部电池；环境条件；腐蚀产物；屏障与牺牲；速率与实验",
+    "deep": [
+      "油漆、镀层等可形成屏障，减少与环境接触。屏障若破损，基体与镀层形成电接触时可能发生新的局部电化学作用：比铁更易氧化的锌可作为牺牲阳极，在适当条件下保护铁；较贵金属如铜与暴露铁接触则可能使铁成为更易腐蚀的阳极部分。",
+      "牺牲阳极保护有材料消耗，不是锌一旦存在就无限永久保护所有距离的铁。电连接、电解质接触、面积关系和材料状态都会影响；外加电流阴极保护又是另一种方法，不能和无电源牺牲阳极画成同一能量通路。",
+      "金属活泼性和标准电势有助理解趋势，但实际腐蚀速率还受钝化和环境动力学限制。某些材料可形成保护膜，所以不能仅按电势大小宣称所有环境腐蚀速度排序。完整答题应写条件、阳阴极反应、电子离子路径及防护为何改变这些路径，避免只背“涂漆防锈”。"
+    ],
+    "derive": [
+      "湿含氧中性模型：Fe→Fe²⁺+2e⁻；O₂+2H₂O+4e⁻→4OH⁻。",
+      "锌牺牲阳极可保护相连铁；贵金属接触暴露铁可能加速铁阳极腐蚀。",
+      "屏障、牺牲阳极和外加电流是不同机制；速率还受钝化环境影响。"
+    ],
+    "examples": [
+      {
+        "q": "按中性含氧模型，.10molFe氧化成Fe²⁺转多少mol电子，对应阴极耗O₂多少？ 条件：仅给定两半反应。",
+        "given": "仅给定两半反应。",
+        "analysis": "2e每Fe、4e每O₂。",
+        "method": "配电子。",
+        "principle": "守恒。",
+        "steps": [
+          "n_e=.10×2=.20mol。",
+          "n_O₂=.20/4=.050mol。"
+        ],
+        "ans": ".20mol电子；.050molO₂。",
+        "verification": "两阳极铁配一分子氧的量比2:1。",
+        "pitfall": "氧与铁等mol。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.4",
+        "related_sections": []
+      },
+      {
+        "q": "铁表面锌层破损露铁，与铜层破损露铁，保护趋势为何可能不同？ 条件：形成电接触与适当电解质，比较相应电化学趋势。",
+        "given": "形成电接触与适当电解质，比较相应电化学趋势。",
+        "analysis": "镀层不只是屏障。",
+        "method": "判断较易氧化者。",
+        "principle": "局部电池。",
+        "steps": [
+          "锌可优先作牺牲阳极，铁相对受保护。",
+          "铜接触下暴露铁可能成为阳极，加速该处腐蚀。"
+        ],
+        "ans": "材料电化学角色不同。",
+        "verification": "完好屏障与破损接触必须分开。",
+        "pitfall": "任何镀层破损后都一样。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.4",
+        "related_sections": []
+      },
+      {
+        "q": "两组铁一组有盐一组无盐，但一组干燥一组湿润，能唯一比较盐作用吗？ 条件：目标只测盐对锈蚀影响。",
+        "given": "目标只测盐对锈蚀影响。",
+        "analysis": "水条件混杂。",
+        "method": "修改对照。",
+        "principle": "实验控制。",
+        "steps": [
+          "两组水氧及表面等须可比。",
+          "只改变盐条件并设重复，才能较好归因。"
+        ],
+        "ans": "不能唯一归因。",
+        "verification": "盐不是无水也必同样锈蚀的魔法条件。",
+        "pitfall": "只看盐变量忘水氧。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "湿铁锈蚀阳极发生什么？ 条件：Fe²⁺初级氧化模型。",
+        "given": "Fe²⁺初级氧化模型。",
+        "analysis": "铁失电子。",
+        "method": "半反应。",
+        "principle": "氧化。",
+        "steps": [
+          "Fe→Fe²⁺+2e⁻。",
+          "电子供相应阴极反应。"
+        ],
+        "ans": "上述氧化。",
+        "verification": "不是Fe²⁺得电子变铁。",
+        "pitfall": "阳极还原。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.4",
+        "related_sections": []
+      },
+      {
+        "q": "涂漆防护只因为油漆改变铁元素核吗？ 条件：一般屏障机制。",
+        "given": "一般屏障机制。",
+        "analysis": "接触路径改变非核变化。",
+        "method": "联系环境。",
+        "principle": "隔离。",
+        "steps": [
+          "覆盖层减少水氧等接触。",
+          "不需改变铁核或把铁变成另一元素。"
+        ],
+        "ans": "不是，主要屏障。",
+        "verification": "破损后需另评局部电池。",
+        "pitfall": "防腐就是元素转变。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.4",
+        "related_sections": []
+      },
+      {
+        "q": "铁锈可一律当无水纯Fe₂O₃吗？ 条件：现实锈层。",
+        "given": "现实锈层。",
+        "analysis": "含水与多相复杂。",
+        "method": "核结构。",
+        "principle": "腐蚀产物。",
+        "steps": [
+          "可有多种氧化物、氢氧化物及含水成分。",
+          "简式不代表全部样品唯一纯相。"
+        ],
+        "ans": "不可一律。",
+        "verification": "定量若题指定模型应明写。",
+        "pitfall": "简化式当所有实物精确成分。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.4",
+        "related_sections": []
+      },
+      {
+        "q": "牺牲阳极为何需定期检查而非永久有效？ 条件：保护金属被优先氧化。",
+        "given": "保护金属被优先氧化。",
+        "analysis": "保护材料有消耗。",
+        "method": "收支。",
+        "principle": "电极反应。",
+        "steps": [
+          "阳极溶解消耗活性材料。",
+          "连接及环境也可改变，需要维护。"
+        ],
+        "ans": "因材料和条件会变化。",
+        "verification": "能持续需有可用反应物与通路。",
+        "pitfall": "保护意味着阳极不反应。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 24,
+        "primary_section": "24.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "标准电势较低就保证金属在所有环境腐蚀最快吗？ 条件：实际存在保护膜和动力学差异。",
+      "given": "实际存在保护膜和动力学差异。",
+      "analysis": "倾向不等速率。",
+      "method": "核钝化环境。",
+      "principle": "热力学与动力学。",
+      "steps": [
+        "保护膜可降低实际反应速率。",
+        "介质、温度和传质等也影响，不能全环境排序。"
+      ],
+      "ans": "不能保证。",
+      "verification": "应以具体材料环境证据判断。",
+      "pitfall": "用单表给普适速度榜。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 24,
+      "primary_section": "24.4",
+      "related_sections": []
+    },
+    "exam": [
+      "锈蚀先定湿氧等环境，写两半反应和电子账",
+      "防护按屏障或电化学机制分别解释，破损要看材料相对角色",
+      "实验只改目标条件，钝化使活泼趋势不等普适速率"
+    ],
+    "quick": [
+      "局部电池",
+      "环境条件",
+      "腐蚀产物",
+      "屏障与牺牲",
+      "速率与实验"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 11,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_24.4",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-6-corrosion",
+        "page_or_section": "17-6-corrosion",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 11,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_24.4",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-6-corrosion",
+        "page_or_section": "17-6-corrosion",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "锈蚀先定湿氧等环境，写两半反应和电子账",
+      "method": "修改对照。",
+      "principle": "实验控制。",
+      "worked_example_index": 2,
+      "verification": "盐不是无水也必同样锈蚀的魔法条件。",
+      "pitfall": "只看盐变量忘水氧。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用局部氧化还原解释铁锈蚀”的抽样复核：两阳极铁配一分子氧的量比2:1。；若出现“氧与铁等mol。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“比较屏障、牺牲阳极和接触腐蚀并控制实验”的抽样复核：盐不是无水也必同样锈蚀的魔法条件。；若出现“只看盐变量忘水氧。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "用单表给普适速度榜。",
+        "correction": "不能保证。",
+        "verification": "应以具体材料环境证据判断。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "铁腐蚀与两种镀层破损",
+      "objects": [
+        "铁表面水膜",
+        "局部阳阴极",
+        "氧还原",
+        "破损Zn层",
+        "破损Cu层"
+      ],
+      "relations": [
+        "Fe阳极失2e",
+        "阴极氧还原守恒",
+        "Zn可牺牲保护Fe",
+        "Cu接触暴露Fe可能加速",
+        "真实锈层非单一纯相"
+      ],
+      "labels": [
+        "Fe²⁺",
+        "OH⁻",
+        "O₂",
+        "屏障",
+        "牺牲阳极"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "电池和电解图须逐项核电极反应、电源极性、外电路电子与溶液离子；同样双杯外形不能直接复用",
+      "english": "Draw deterministic electrochemical diagrams. Oxidation is always at the anode and reduction at the cathode. Galvanic and electrolytic electrode polarities differ. Electrons travel in the external electronic conductors, while ions carry charge through electrolyte and salt bridge. Balance atoms, charge and transferred electrons, state phase and concentration conditions."
+    }
+  }
+}

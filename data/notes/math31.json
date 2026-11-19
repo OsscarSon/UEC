@@ -1,0 +1,1206 @@
+{
+  "31.1": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 31,
+    "section_id": "31.1",
+    "goals": [
+      "完成起点和任意后继的双重证明",
+      "识别循环论证与有限检验的限制"
+    ],
+    "prerequisites": [
+      "自然数与命题",
+      "代数恒等变形"
+    ],
+    "flow": [
+      "命题范围",
+      "基例",
+      "归纳假设",
+      "后继推导",
+      "量词结论"
+    ],
+    "concept_relation": "命题范围；基例；归纳假设；后继推导；量词结论",
+    "deep": [
+      "整除题可把第k+1式改写成已知可整除的旧式乘整数，再加一个明显可整除的余项。不等式题还要审查放大缩小方向及k的范围：利用假设得到中间界之后，必须继续说明该界足够达到新的目标，而不是写“显然”跳过关键比较。",
+      "归纳法只覆盖所指定的离散整数范围。即使每个正整数成立，也不能由此推出所有实数成立；证明每一步k到k+2则只连起一种奇偶链，必须补足另一个起点才可能覆盖全部整数。归纳步骤本身成立也不保证任何起点能成立。",
+      "完成后做逻辑审查：基例、假设、要证的后继、使用假设的位置和最终量词各在哪里。数值代入适合发现笔误或猜想错误，却不能取代无限范围证明。若找到一个反例，应修正命题或范围，而不能通过把反例藏进省略号来保住错误结论。"
+    ],
+    "derive": [
+      "证明P(n)对n≥n₀：先证P(n₀)，再对任意k≥n₀证P(k)⇒P(k+1)。",
+      "求和后继：S_(k+1)=S_k+新项；明确哪一步调用归纳假设。",
+      "后继步长2会分成两条奇偶链，不能仅凭一个起点覆盖全部整数。"
+    ],
+    "examples": [
+      {
+        "q": "用归纳法证明1+3+…+(2n−1)=n²。 条件：n为正整数。",
+        "given": "n为正整数。",
+        "analysis": "从k项加下一奇数。",
+        "method": "基例与后继。",
+        "principle": "归纳原理。",
+        "steps": [
+          "n=1时1=1²；设前k项和k²。",
+          "加第k+1项2k+1，得k²+2k+1=(k+1)²。"
+        ],
+        "ans": "对所有正整数n成立。",
+        "verification": "新项是2(k+1)−1=2k+1，项数正确。",
+        "pitfall": "加成2k−1或先用待证式。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 31,
+        "primary_section": "31.1",
+        "related_sections": []
+      },
+      {
+        "q": "证明7^n−1能被6整除。 条件：n为正整数。",
+        "given": "n为正整数。",
+        "analysis": "后继分解成旧式及余项。",
+        "method": "归纳整除。",
+        "principle": "整数倍的和仍为整数倍。",
+        "steps": [
+          "n=1时7−1=6；假设7^k−1=6m，m为整数。",
+          "7^(k+1)−1=7(7^k−1)+6=6(7m+1)。"
+        ],
+        "ans": "对所有正整数成立。",
+        "verification": "7m+1为整数，后继结论完整。",
+        "pitfall": "只验前几个幂。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 31,
+        "primary_section": "31.1",
+        "related_sections": []
+      },
+      {
+        "q": "归纳证明2^n≥n+1。 条件：n为非负整数。",
+        "given": "n为非负整数。",
+        "analysis": "后继需比较2k+2与k+2。",
+        "method": "从n=0启动。",
+        "principle": "归纳与不等式。",
+        "steps": [
+          "n=0时1≥1；设2^k≥k+1。",
+          "2^(k+1)≥2k+2≥k+2，因为k≥0。"
+        ],
+        "ans": "对所有非负整数成立。",
+        "verification": "最后比较差为k≥0。",
+        "pitfall": "漏从中间界到目标的论证。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 31,
+        "primary_section": "31.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "命题范围n≥4，必须以n=1为基例吗？ 条件：后继步对k≥4有效。",
+        "given": "后继步对k≥4有效。",
+        "analysis": "起点依范围。",
+        "method": "选最小允许值。",
+        "principle": "归纳原理。",
+        "steps": [
+          "范围首值4。",
+          "应先证P(4)，再证k≥4的后继。"
+        ],
+        "ans": "不必须；用4。",
+        "verification": "无需覆盖范围外1至3。",
+        "pitfall": "所有归纳都从1。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 31,
+        "primary_section": "31.1",
+        "related_sections": []
+      },
+      {
+        "q": "只验n=1到100能证明所有正整数命题吗？ 条件：未证明后继。",
+        "given": "未证明后继。",
+        "analysis": "有限检验未覆盖无限范围。",
+        "method": "区分证据与证明。",
+        "principle": "量词。",
+        "steps": [
+          "100以后尚未检验。",
+          "必须有一般性推理覆盖后续。"
+        ],
+        "ans": "不能。",
+        "verification": "可用于发现反例但非证明。",
+        "pitfall": "大量样本当无限证明。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 31,
+        "primary_section": "31.1",
+        "related_sections": []
+      },
+      {
+        "q": "证明P(k)⇒P(k+2)，仅P(1)成立能覆盖哪些正整数？ 条件：没有其他连接。",
+        "given": "没有其他连接。",
+        "analysis": "每次步长2。",
+        "method": "追踪链。",
+        "principle": "离散后继。",
+        "steps": [
+          "1→3→5→… 。",
+          "偶数链未启动。"
+        ],
+        "ans": "仅能据此保证奇数。",
+        "verification": "若补P(2)才可启动偶数链。",
+        "pitfall": "认为所有后继形式都覆盖全部。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 31,
+        "primary_section": "31.1",
+        "related_sections": []
+      },
+      {
+        "q": "若S_k=k(k+1)/2，加入第k+1项后如何因式分解？ 条件：S_n=1+…+n。",
+        "given": "S_n=1+…+n。",
+        "analysis": "新项k+1。",
+        "method": "合并同因子。",
+        "principle": "代数恒等。",
+        "steps": [
+          "S_(k+1)=k(k+1)/2+(k+1)。",
+          "=(k+1)(k+2)/2。"
+        ],
+        "ans": "(k+1)(k+2)/2。",
+        "verification": "与目标把n换成k+1一致。",
+        "pitfall": "右边只换一个k。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 31,
+        "primary_section": "31.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "后继蕴涵对所有k成立，但没有任何已证起点，能宣布全部P(n)成立吗？ 条件：没有其他存在依据。",
+      "given": "没有其他存在依据。",
+      "analysis": "蕴涵可在前件全假时仍成立。",
+      "method": "检查启动条件。",
+      "principle": "逻辑蕴涵。",
+      "steps": [
+        "P(k)⇒P(k+1)只说明真会传播。",
+        "没有起点就不能保证有一个真命题。"
+      ],
+      "ans": "不能。",
+      "verification": "例如所有P(n)都假时蕴涵仍可成立。",
+      "pitfall": "有传播链就自动启动。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 31,
+      "primary_section": "31.1",
+      "related_sections": []
+    },
+    "exam": [
+      "先写P(n)和整数范围，基例必须在正确起点",
+      "后继行标明使用P(k)的位置，并核新项及所有k+1替换",
+      "结尾从基例与后继共同推出量词，不用有限试值替代证明"
+    ],
+    "quick": [
+      "命题范围",
+      "基例",
+      "归纳假设",
+      "后继推导",
+      "量词结论"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1047236315/高级数学-高三上册-1",
+        "page": 124,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_31.1",
+        "url": "https://math.libretexts.org/Courses/Mount_Royal_University/Abstract_Algebra_I/Chapter_0%3A_Preliminaries/0.0%3A_Introduction_to_proofs",
+        "page_or_section": "0.0%3A_Introduction_to_proofs",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1047236315/高级数学-高三上册-1",
+        "page": 124,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_31.1",
+        "url": "https://math.libretexts.org/Courses/Mount_Royal_University/Abstract_Algebra_I/Chapter_0%3A_Preliminaries/0.0%3A_Introduction_to_proofs",
+        "page_or_section": "0.0%3A_Introduction_to_proofs",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先写P(n)和整数范围，基例必须在正确起点",
+      "method": "从n=0启动。",
+      "principle": "归纳与不等式。",
+      "worked_example_index": 2,
+      "verification": "最后比较差为k≥0。",
+      "pitfall": "漏从中间界到目标的论证。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“完成起点和任意后继的双重证明”的抽样复核：新项是2(k+1)−1=2k+1，项数正确。；若出现“加成2k−1或先用待证式。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“识别循环论证与有限检验的限制”的抽样复核：最后比较差为k≥0。；若出现“漏从中间界到目标的论证。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "有传播链就自动启动。",
+        "correction": "不能。",
+        "verification": "例如所有P(n)都假时蕴涵仍可成立。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "归纳法的启动与传播",
+      "objects": [
+        "P(n₀)",
+        "任意k到k+1",
+        "步长2的奇偶两链",
+        "有限检验对照"
+      ],
+      "relations": [
+        "基例与蕴涵均必要",
+        "步长2不能单起点覆盖全部",
+        "假设不等于全称结论"
+      ],
+      "labels": [
+        "基例",
+        "任意k≥n₀",
+        "P(k)⇒P(k+1)",
+        "待证"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "证明流程或数值图须核每步条件；旧图只有逻辑、函数与参数完全相符才复用",
+      "english": "Make a precise mathematical proof or numerical-method diagram. Quantifiers, base case, implication direction, equality conditions and domain restrictions must be explicit. Numerical approximations must not be labeled exact; plot tangents from the correct points."
+    }
+  },
+  "31.2": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 31,
+    "section_id": "31.2",
+    "goals": [
+      "选择作差、平方或均值关系并核条件",
+      "检查等号可达性后求最值"
+    ],
+    "prerequisites": [
+      "实数平方非负",
+      "正数与不等号方向"
+    ],
+    "flow": [
+      "范围",
+      "方法触发",
+      "非负结构",
+      "等号交集",
+      "最值可达"
+    ],
+    "concept_relation": "范围；方法触发；非负结构；等号交集；最值可达",
+    "deep": [
+      "正数x的表达式x+c/x在c>0时可把两项看成积固定为c的正数，得到至少2√c，等号x=√c。若x允许负数，结论不再按同一方式成立，若额外约束排除了√c，也未必能达到这个下界；“有下界”与“有最小值”须分开。",
+      "给定和求积上界可用(a−b)²≥0；给定积求和下界则需要合适符号。遇分母时，先确认分母正负或将问题移到可控的平方差。不能同乘未知符号的式子后保留原不等号，也不能为简化证明而删除题目允许的零值。",
+      "答题应明确选择方法的触发点：对称平方项考虑作差配方，正数互倒项考虑固定积，限制条件考虑代入减少变量。最后写等号对应的原变量并回代全部约束。图像可帮助观察，但窗口内曲线不相交并不能代替全域代数证明。"
+    ],
+    "derive": [
+      "a²+b²−2ab=(a−b)²≥0，等号a=b。",
+      "a,b≥0⇒(a+b)/2≥√(ab)；不可省略符号条件。",
+      "x>0,c>0⇒x+c/x≥2√c，等号x=√c，仍须核额外限制。"
+    ],
+    "examples": [
+      {
+        "q": "证明2(a²+b²)≥(a+b)²并给等号。 条件：a,b为实数。",
+        "given": "a,b为实数。",
+        "analysis": "两侧对称平方可作差。",
+        "method": "展开配方。",
+        "principle": "平方非负。",
+        "steps": [
+          "差=2a²+2b²−a²−2ab−b²=(a−b)²。",
+          "实数平方≥0，且为0当且仅当a=b。"
+        ],
+        "ans": "成立；等号a=b。",
+        "verification": "代a=b两侧均4a²。",
+        "pitfall": "只看单项大小。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 31,
+        "primary_section": "31.2",
+        "related_sections": []
+      },
+      {
+        "q": "求x+9/x的最小值。 条件：x>0。",
+        "given": "x>0。",
+        "analysis": "正项积固定为9。",
+        "method": "均值不等式。",
+        "principle": "正数AM–GM。",
+        "steps": [
+          "x+9/x≥2√9=6。",
+          "等号x=9/x，正根x=3，满足范围。"
+        ],
+        "ans": "最小值6，在x=3。",
+        "verification": "代3得3+3=6。",
+        "pitfall": "不核正数或等号。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 31,
+        "primary_section": "31.2",
+        "related_sections": []
+      },
+      {
+        "q": "a+b=10、a,b≥0，求ab最大值。 条件：和固定。",
+        "given": "和固定。",
+        "analysis": "差平方控制积。",
+        "method": "(a−b)²≥0。",
+        "principle": "(a+b)²−4ab≥0。",
+        "steps": [
+          "100−4ab≥0，故ab≤25。",
+          "a=b=5可达且满足和10。"
+        ],
+        "ans": "最大25。",
+        "verification": "5×5=25。",
+        "pitfall": "给上界却不证能达到。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 31,
+        "primary_section": "31.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "若x<0，还能断言x+9/x≥6吗？ 条件：允许负数。",
+        "given": "允许负数。",
+        "analysis": "原AM–GM前提不满足。",
+        "method": "取反例。",
+        "principle": "全称命题反例。",
+        "steps": [
+          "取x=−3。",
+          "值−3−3=−6<6。"
+        ],
+        "ans": "不能。",
+        "verification": "一个合法反例足以否定。",
+        "pitfall": "忽略符号条件。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 31,
+        "primary_section": "31.2",
+        "related_sections": []
+      },
+      {
+        "q": "证明a²+b²+c²≥ab+bc+ca。 条件：a,b,c∈R。",
+        "given": "a,b,c∈R。",
+        "analysis": "对称差拆成平方和。",
+        "method": "两倍作差。",
+        "principle": "平方非负。",
+        "steps": [
+          "2差=(a−b)²+(b−c)²+(c−a)²。",
+          "各项非负，等号需a=b=c。"
+        ],
+        "ans": "成立；等号全相等。",
+        "verification": "展开平方核每交叉项。",
+        "pitfall": "只证两变量便推广。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 31,
+        "primary_section": "31.2",
+        "related_sections": []
+      },
+      {
+        "q": "x>0且x≠3时，x+9/x的6是否仍是可达到的最小值？ 条件：仅排除等号点。",
+        "given": "仅排除等号点。",
+        "analysis": "下界可存在但不达。",
+        "method": "核等号条件。",
+        "principle": "最小值定义。",
+        "steps": [
+          "等号只有x=3，已排除。",
+          "可无限接近3使值趋6，但不能等于6。"
+        ],
+        "ans": "6是下确界，非可达最小值。",
+        "verification": "任一点值均>6。",
+        "pitfall": "界等于最值。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 31,
+        "primary_section": "31.2",
+        "related_sections": []
+      },
+      {
+        "q": "a+b=6，a,b实数，不要求非负，ab≤9还成立吗？ 条件：只问积的上界。",
+        "given": "只问积的上界。",
+        "analysis": "作差平方无需正号。",
+        "method": "(a−b)²≥0。",
+        "principle": "实数平方。",
+        "steps": [
+          "36−4ab≥0。",
+          "得ab≤9，a=b=3可达。"
+        ],
+        "ans": "成立。",
+        "verification": "与需要正数的根号形式区分。",
+        "pitfall": "所有均值相关式一律要求正数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 31,
+        "primary_section": "31.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "串联两步不等式各有等号，能否不检查就说最终界可达？ 条件：两个等号条件可能冲突。",
+      "given": "两个等号条件可能冲突。",
+      "analysis": "必须同时满足。",
+      "method": "求等号条件交集。",
+      "principle": "最值可达性。",
+      "steps": [
+        "分别列每步等号条件。",
+        "若交集为空，串联界不能取到，需另分析。"
+      ],
+      "ans": "不能。",
+      "verification": "例如分别要求x=1与x=2便不可能同时成立。",
+      "pitfall": "单步可达当共同可达。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 31,
+      "primary_section": "31.2",
+      "related_sections": []
+    },
+    "exam": [
+      "先列变量范围与分母符号，再选作差或均值",
+      "每次调用平方、根号或乘除都写条件，避免偷换命题",
+      "最值结尾把全部等号条件联立回代，区分界与可达值"
+    ],
+    "quick": [
+      "范围",
+      "方法触发",
+      "非负结构",
+      "等号交集",
+      "最值可达"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1047236315/高级数学-高三上册-1",
+        "page": 129,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_31.2",
+        "url": "https://math.libretexts.org/Bookshelves/Mathematical_Logic_and_Proof/Transition_to_Higher_Mathematics_%28Dumas_and_McCarthy%29/04%3A_New_Page/4.04%3A_New_Page",
+        "page_or_section": "4.04%3A_New_Page",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1047236315/高级数学-高三上册-1",
+        "page": 129,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_31.2",
+        "url": "https://math.libretexts.org/Bookshelves/Mathematical_Logic_and_Proof/Transition_to_Higher_Mathematics_%28Dumas_and_McCarthy%29/04%3A_New_Page/4.04%3A_New_Page",
+        "page_or_section": "4.04%3A_New_Page",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先列变量范围与分母符号，再选作差或均值",
+      "method": "(a−b)²≥0。",
+      "principle": "(a+b)²−4ab≥0。",
+      "worked_example_index": 2,
+      "verification": "5×5=25。",
+      "pitfall": "给上界却不证能达到。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“选择作差、平方或均值关系并核条件”的抽样复核：代a=b两侧均4a²。；若出现“只看单项大小。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“检查等号可达性后求最值”的抽样复核：5×5=25。；若出现“给上界却不证能达到。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "单步可达当共同可达。",
+        "correction": "不能。",
+        "verification": "例如分别要求x=1与x=2便不可能同时成立。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "平方差与均值不等式",
+      "objects": [
+        "平方差(a−b)²",
+        "固定和矩形",
+        "x+9/x曲线",
+        "等号点"
+      ],
+      "relations": [
+        "ab≤25在a+b10时于5,5取等",
+        "x+9/x仅画x>0分支",
+        "最小点(3,6)"
+      ],
+      "labels": [
+        "a=b",
+        "x>0",
+        "(3,6)",
+        "等号条件"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "证明流程或数值图须核每步条件；旧图只有逻辑、函数与参数完全相符才复用",
+      "english": "Make a precise mathematical proof or numerical-method diagram. Quantifiers, base case, implication direction, equality conditions and domain restrictions must be explicit. Numerical approximations must not be labeled exact; plot tangents from the correct points."
+    }
+  },
+  "31.3": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 31,
+    "section_id": "31.3",
+    "goals": [
+      "准确否定结论并从假设推出矛盾",
+      "区分反证、逆否及反例的用途"
+    ],
+    "prerequisites": [
+      "命题与量词",
+      "整数整除和实数顺序"
+    ],
+    "flow": [
+      "否定结论",
+      "保留条件",
+      "推理链",
+      "明确矛盾",
+      "撤销假设"
+    ],
+    "concept_relation": "否定结论；保留条件；推理链；明确矛盾；撤销假设",
+    "deep": [
+      "证明唯一性常假设有两个不同对象，再利用方程或单调性推出它们相等或顺序冲突。若只证明“至多一个”，还没有证明一定存在；应另用构造、代入或适用定理给出存在性。不能把唯一性和存在性混为一句“只有一个”而省掉一半。",
+      "反证与逆否证明有关却表达不同。证明P⇒Q的逆否可直接从非Q推非P；反证则同时设P与非Q并推矛盾。反例则用来否定全称命题，不是支持它的证明。遇到错误命题应给反例，不应靠错误的否定或除零强行“证真”。",
+      "检查推理链需确认没有偷偷使用待证结论，也没有进行不保真的运算，例如将不等式两边平方却忽略符号。写结尾时点名矛盾违反了哪条已知事实，再撤销临时假设，回到精确的原结论和范围。这样读者能定位逻辑作用点，而非只看到格式化开头与结束。"
+    ],
+    "derive": [
+      "反证P⇒Q：保留P并暂设非Q，推得与已知事实冲突。",
+      "非“∀x A(x)”=“∃x 非A(x)”；非“a>b”=“a≤b”。",
+      "唯一性需至多一个与至少一个；两者证明责任不同。"
+    ],
+    "examples": [
+      {
+        "q": "证明√3是无理数。 条件：使用整数模3的平方余数只能0或1。",
+        "given": "使用整数模3的平方余数只能0或1。",
+        "analysis": "最简整数比将产生共同因子。",
+        "method": "反证。",
+        "principle": "整除与最简分数。",
+        "steps": [
+          "设√3=p/q，p,q互质且q≠0；p²=3q²，故3整除p，写p=3r。",
+          "代回q²=3r²，故3也整除q，与互质矛盾。"
+        ],
+        "ans": "√3无理。",
+        "verification": "模3平方余数说明3|p²⇒3|p，不能无理由推广任意合数。",
+        "pitfall": "未设互质就说共因子矛盾。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 31,
+        "primary_section": "31.3",
+        "related_sections": []
+      },
+      {
+        "q": "证明严格递增函数f在某区间的方程f(x)=0至多有一根。 条件：严格递增在整个该区间成立。",
+        "given": "严格递增在整个该区间成立。",
+        "analysis": "假设两不同根可排序。",
+        "method": "反证唯一性。",
+        "principle": "严格递增保持严格序。",
+        "steps": [
+          "设a<b且f(a)=f(b)=0。",
+          "递增给f(a)<f(b)，即0<0，矛盾。"
+        ],
+        "ans": "至多一根。",
+        "verification": "还未证明存在根。",
+        "pitfall": "把至多一根说恰一根。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 31,
+        "primary_section": "31.3",
+        "related_sections": []
+      },
+      {
+        "q": "用反证说明素数不可能只有有限多个。 条件：每个大于1的整数有素因子。",
+        "given": "每个大于1的整数有素因子。",
+        "analysis": "假设名单完整，构造不能被名单中数整除的整数。",
+        "method": "反证有限性。",
+        "principle": "除法余数与素因子存在。",
+        "steps": [
+          "设全部素数p₁至p_n，N=p₁…p_n+1。",
+          "N被各p_i除余1，但N>1必有素因子，名单不全，矛盾。"
+        ],
+        "ans": "素数无限。",
+        "verification": "N本身不必素，只需其素因子不在名单。",
+        "pitfall": "错误断言乘积加1必为素数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 31,
+        "primary_section": "31.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "“所有实数x都满足A(x)”的否定是什么？ 条件：量词域为实数。",
+        "given": "量词域为实数。",
+        "analysis": "否定全称变存在。",
+        "method": "逐层否定。",
+        "principle": "量词逻辑。",
+        "steps": [
+          "不是所有均满足。",
+          "故至少存在一个实数使A不成立。"
+        ],
+        "ans": "∃x∈R，非A(x)。",
+        "verification": "不要求每个都不满足。",
+        "pitfall": "把所有都改成所有不。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 31,
+        "primary_section": "31.3",
+        "related_sections": []
+      },
+      {
+        "q": "a>b的逻辑否定？ 条件：a,b为实数。",
+        "given": "a,b为实数。",
+        "analysis": "相等也包含。",
+        "method": "用三分律。",
+        "principle": "实数序。",
+        "steps": [
+          "非大于包括小于或相等。",
+          "合写a≤b。"
+        ],
+        "ans": "a≤b。",
+        "verification": "取a=b可检漏等号。",
+        "pitfall": "只写a<b。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 31,
+        "primary_section": "31.3",
+        "related_sections": []
+      },
+      {
+        "q": "已证明某方程至多一根，还须什么才能说恰一根？ 条件：定义域已定。",
+        "given": "定义域已定。",
+        "analysis": "上界不保证存在。",
+        "method": "另证存在。",
+        "principle": "唯一性定义。",
+        "steps": [
+          "需找到合法根或用适用存在定理。",
+          "与至多一根合并才得恰一根。"
+        ],
+        "ans": "至少一根的证据。",
+        "verification": "无根也满足至多一根。",
+        "pitfall": "唯一性证明当存在证明。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 31,
+        "primary_section": "31.3",
+        "related_sections": []
+      },
+      {
+        "q": "乘积加1的N是否一定素数？ 条件：例如素数名单2、3、5、7、11、13。",
+        "given": "例如素数名单2、3、5、7、11、13。",
+        "analysis": "构造目的不是保素。",
+        "method": "算反例。",
+        "principle": "合数可有新素因子。",
+        "steps": [
+          "N=30031。",
+          "30031=59×509，为合数。"
+        ],
+        "ans": "不一定。",
+        "verification": "两因子都不在给定名单，仍支持新素因子逻辑。",
+        "pitfall": "把N必素当证明核心。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 31,
+        "primary_section": "31.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "反证中推出p、q都被3整除，何时构成所需矛盾？ 条件：p/q表示候选数。",
+      "given": "p/q表示候选数。",
+      "analysis": "需与先设互质冲突。",
+      "method": "核前提。",
+      "principle": "最简整数比。",
+      "steps": [
+        "若已设gcd(p,q)=1，则共同因子3不可能。",
+        "若未设互质，仅说明可约分，尚无矛盾。"
+      ],
+      "ans": "在已设互质等相应条件时。",
+      "verification": "必须指出被违反的确切条件。",
+      "pitfall": "任何公因子都自动矛盾。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 31,
+      "primary_section": "31.3",
+      "related_sections": []
+    },
+    "exam": [
+      "先写完整否定，量词与等号逐层检查",
+      "反证链每步标保留条件，最后点名矛盾而非“显然不对”",
+      "唯一性题分别证明存在和至多一个，素数构造不误称N必素"
+    ],
+    "quick": [
+      "否定结论",
+      "保留条件",
+      "推理链",
+      "明确矛盾",
+      "撤销假设"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1047236315/高级数学-高三上册-1",
+        "page": 133,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_31.3",
+        "url": "https://math.libretexts.org/Courses/Mount_Royal_University/Abstract_Algebra_I/Chapter_0%3A_Preliminaries/0.0%3A_Introduction_to_proofs",
+        "page_or_section": "0.0%3A_Introduction_to_proofs",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1047236315/高级数学-高三上册-1",
+        "page": 133,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_31.3",
+        "url": "https://math.libretexts.org/Courses/Mount_Royal_University/Abstract_Algebra_I/Chapter_0%3A_Preliminaries/0.0%3A_Introduction_to_proofs",
+        "page_or_section": "0.0%3A_Introduction_to_proofs",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先写完整否定，量词与等号逐层检查",
+      "method": "反证有限性。",
+      "principle": "除法余数与素因子存在。",
+      "worked_example_index": 2,
+      "verification": "N本身不必素，只需其素因子不在名单。",
+      "pitfall": "错误断言乘积加1必为素数。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“准确否定结论并从假设推出矛盾”的抽样复核：模3平方余数说明3|p²⇒3|p，不能无理由推广任意合数。；若出现“未设互质就说共因子矛盾。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分反证、逆否及反例的用途”的抽样复核：N本身不必素，只需其素因子不在名单。；若出现“错误断言乘积加1必为素数。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "任何公因子都自动矛盾。",
+        "correction": "在已设互质等相应条件时。",
+        "verification": "必须指出被违反的确切条件。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "反证与量词的逻辑流程",
+      "objects": [
+        "条件P",
+        "临时非Q",
+        "推理链",
+        "矛盾标记",
+        "Q结论"
+      ],
+      "relations": [
+        "P与非Q同时假设",
+        "矛盾指向已知事实",
+        "唯一性另需存在"
+      ],
+      "labels": [
+        "∀与∃",
+        "互质",
+        "0<0不可能",
+        "至多一个"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "证明流程或数值图须核每步条件；旧图只有逻辑、函数与参数完全相符才复用",
+      "english": "Make a precise mathematical proof or numerical-method diagram. Quantifiers, base case, implication direction, equality conditions and domain restrictions must be explicit. Numerical approximations must not be labeled exact; plot tangents from the correct points."
+    }
+  },
+  "31.4": {
+    "content_batch": "batch06",
+    "subject": "数学",
+    "subject_code": "math_shared",
+    "chapter_id": 31,
+    "section_id": "31.4",
+    "goals": [
+      "实施二分与Newton迭代并保留有效条件",
+      "区分残差、误差界和显示精度"
+    ],
+    "prerequisites": [
+      "连续性与导数",
+      "函数零点和近似值"
+    ],
+    "flow": [
+      "根区间",
+      "二分缩半",
+      "误差界",
+      "切线迭代",
+      "停止与验证"
+    ],
+    "concept_relation": "根区间；二分缩半；误差界；切线迭代；停止与验证",
+    "deep": [
+      "Newton法在x_n处用切线近似曲线，切线方程y=f(x_n)+f′(x_n)(x−x_n)，令y=0得x_(n+1)=x_n−f(x_n)/f′(x_n)。它需该点导数不为零；在合适初值与光滑等条件下可很快，但不是任意初值都收敛，也不保证收敛到想要的根。",
+      "残差|f(x_n)|小只表示代回方程的值小，不无条件等于横坐标误差小；函数很平时很小残差仍可能对应较大位置误差。连续两次显示相同也可能是舍入停滞，不能只凭屏幕数字重复就宣布所有后续位都准确。可用保根区间或适用误差估计补足证据。",
+      "解题时可先用作图或二分定位，再用Newton加快，并核回代残差与区间。若某步导数为零、跳出定义域或震荡，应改变策略而非继续除零。结论写“约为”及精度依据，不能把数值近似符号改成等号冒充解析精确值。"
+    ],
+    "derive": [
+      "二分需在[a,b]连续且f(a)f(b)<0；每步保留异号半区间。",
+      "n次缩半后宽L/2^n，其新中点误差≤L/2^(n+1)。",
+      "Newton：x_(n+1)=x_n−f(x_n)/f′(x_n)，须核分母、定义域和收敛行为。"
+    ],
+    "examples": [
+      {
+        "q": "对f(x)=x²−3，以[1,2]二分两次，给新区间及其中点误差界。 条件：每次计一次缩半，f连续。",
+        "given": "每次计一次缩半，f连续。",
+        "analysis": "根被异号端点夹住。",
+        "method": "二分。",
+        "principle": "介值与区间宽度。",
+        "steps": [
+          "m₁=1.5，f=−0.75，保[1.5,2]；m₂=1.75，f=0.0625，保[1.5,1.75]。",
+          "新区间中点1.625，宽0.25，误差≤0.125。"
+        ],
+        "ans": "[1.5,1.75]；1.625误差≤0.125。",
+        "verification": "√3约1.732，确在区间且距1.625约0.107<界。",
+        "pitfall": "把第二次测试中点当新区间中点混计。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 31,
+        "primary_section": "31.4",
+        "related_sections": []
+      },
+      {
+        "q": "用Newton法求x²−5=0的正根，x₀=2，算x₁、x₂。 条件：使用足够中间精度。",
+        "given": "使用足够中间精度。",
+        "analysis": "切线更新。",
+        "method": "x_next=(x+5/x)/2。",
+        "principle": "Newton公式。",
+        "steps": [
+          "x₁=(2+2.5)/2=2.25。",
+          "x₂=(2.25+5/2.25)/2=161/72≈2.236111。"
+        ],
+        "ans": "x₁=2.25；x₂≈2.236111。",
+        "verification": "x₂²−5=1/5184≈0.000193。",
+        "pitfall": "把f′写成x或过早四舍五入。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 31,
+        "primary_section": "31.4",
+        "related_sections": []
+      },
+      {
+        "q": "f(x)=1/x在[−1,1]两端异号，能二分断言区间有根吗？ 条件：x=0无定义。",
+        "given": "x=0无定义。",
+        "analysis": "连续性前提不满足。",
+        "method": "审查模型条件。",
+        "principle": "介值定理条件。",
+        "steps": [
+          "f(−1)=−1、f(1)=1。",
+          "但中间有极点且1/x从不为0。"
+        ],
+        "ans": "不能。",
+        "verification": "反例说明异号本身不充分。",
+        "pitfall": "跨极点作二分。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 31,
+        "primary_section": "31.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "初区间宽8，缩半3次后宽多少？ 条件：每步保一半。",
+        "given": "每步保一半。",
+        "analysis": "按2的幂。",
+        "method": "8/2³。",
+        "principle": "二分宽度。",
+        "steps": [
+          "2³=8。",
+          "宽=1。"
+        ],
+        "ans": "1。",
+        "verification": "8→4→2→1。",
+        "pitfall": "除以3。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 31,
+        "primary_section": "31.4",
+        "related_sections": []
+      },
+      {
+        "q": "初宽1，n次缩半后取新区间中点，保证误差≤0.001，至少n多少？ 条件：按半宽界。",
+        "given": "按半宽界。",
+        "analysis": "1/2^(n+1)≤0.001。",
+        "method": "比较2的幂。",
+        "principle": "二分误差界。",
+        "steps": [
+          "n=8时1/512>0.001。",
+          "n=9时1/1024≤0.001。"
+        ],
+        "ans": "至少9次缩半。",
+        "verification": "定义了计步，避免差一轮。",
+        "pitfall": "用区间宽代中点误差。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 31,
+        "primary_section": "31.4",
+        "related_sections": []
+      },
+      {
+        "q": "Newton用于f(x)=x²−5，x₀=0为何不能直接更新？ 条件：f′=2x。",
+        "given": "f′=2x。",
+        "analysis": "分母为0。",
+        "method": "代初值审查。",
+        "principle": "Newton公式条件。",
+        "steps": [
+          "f′(0)=0。",
+          "更新须除0，未定义，需另选初值或方法。"
+        ],
+        "ans": "导数为零，不能该步更新。",
+        "verification": "不是根已找到，因为f(0)=−5。",
+        "pitfall": "把除0算成无穷后继续。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 31,
+        "primary_section": "31.4",
+        "related_sections": []
+      },
+      {
+        "q": "f(x)=0.000001(x−100)，近似x=0的残差很小，横坐标误差多大？ 条件：精确根100。",
+        "given": "精确根100。",
+        "analysis": "斜率小会缩小残差。",
+        "method": "分别算两量。",
+        "principle": "残差不同根误差。",
+        "steps": [
+          "|f(0)|=0.0001。",
+          "|0−100|=100。"
+        ],
+        "ans": "残差0.0001，位置误差100。",
+        "verification": "两量单位和意义均不同。",
+        "pitfall": "残差小必位置准。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "math_shared",
+        "chapter_id": 31,
+        "primary_section": "31.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "两次计算器都显示2.2361，是否足以证明后续所有位准确？ 条件：显示位数有限。",
+      "given": "显示位数有限。",
+      "analysis": "相同显示可由舍入造成。",
+      "method": "检查误差证据。",
+      "principle": "近似与精度。",
+      "steps": [
+        "不同真实迭代值可能舍入成同一显示。",
+        "需保根区间或适用误差界，不能由屏幕重复推出全部位数。"
+      ],
+      "ans": "不足以。",
+      "verification": "注明实际保证的位数及依据。",
+      "pitfall": "相同显示等于精确收敛。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "math_shared",
+      "chapter_id": 31,
+      "primary_section": "31.4",
+      "related_sections": []
+    },
+    "exam": [
+      "二分先查连续与异号，再用符号保半段",
+      "计步约定写清，区间宽与新区间中点误差分开",
+      "Newton先推切线更新并核导数非零，残差和位置误差分别报告"
+    ],
+    "quick": [
+      "根区间",
+      "二分缩半",
+      "误差界",
+      "切线迭代",
+      "停止与验证"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1047236315/高级数学-高三上册-1",
+        "page": 137,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_31.4",
+        "url": "https://openstax.org/books/calculus-volume-1/pages/4-9-newtons-method",
+        "page_or_section": "4-9-newtons-method",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_math",
+        "url": "https://www.scribd.com/document/1047236315/高级数学-高三上册-1",
+        "page": 137,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_math_31.4",
+        "url": "https://openstax.org/books/calculus-volume-1/pages/4-9-newtons-method",
+        "page_or_section": "4-9-newtons-method",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "二分先查连续与异号，再用符号保半段",
+      "method": "审查模型条件。",
+      "principle": "介值定理条件。",
+      "worked_example_index": 2,
+      "verification": "反例说明异号本身不充分。",
+      "pitfall": "跨极点作二分。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“实施二分与Newton迭代并保留有效条件”的抽样复核：√3约1.732，确在区间且距1.625约0.107<界。；若出现“把第二次测试中点当新区间中点混计。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分残差、误差界和显示精度”的抽样复核：反例说明异号本身不充分。；若出现“跨极点作二分。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "相同显示等于精确收敛。",
+        "correction": "不足以。",
+        "verification": "注明实际保证的位数及依据。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "二分区间与Newton切线",
+      "objects": [
+        "f=x²−5曲线",
+        "x₀=2切线",
+        "x₁=2.25",
+        "异号区间",
+        "宽度尺"
+      ],
+      "relations": [
+        "切线在(2,−1)接触曲线",
+        "x截距2.25",
+        "不跨极点",
+        "误差界与残差分开"
+      ],
+      "labels": [
+        "x_n",
+        "x_(n+1)",
+        "f′≠0",
+        "近似",
+        "区间半宽"
+      ],
+      "format": "SVG",
+      "priority": "P1",
+      "reuse": "证明流程或数值图须核每步条件；旧图只有逻辑、函数与参数完全相符才复用",
+      "english": "Make a precise mathematical proof or numerical-method diagram. Quantifiers, base case, implication direction, equality conditions and domain restrictions must be explicit. Numerical approximations must not be labeled exact; plot tangents from the correct points."
+    }
+  }
+}

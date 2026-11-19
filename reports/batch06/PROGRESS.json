@@ -1,0 +1,1218 @@
+{
+  "status": "delivered_with_stated_review_limits",
+  "statistics": {
+    "target_unique_chapters": 40,
+    "minimum_new_chapters_each_course": 8,
+    "new_unique_chapters": 40,
+    "new_real_sections": 218,
+    "new_examples": 654,
+    "new_practice": 872,
+    "new_quiz": 218,
+    "new_original_questions": 1744,
+    "course_counts": {
+      "physics": 10,
+      "chemistry": 8,
+      "biology": 8,
+      "adv_math_i": 8,
+      "adv_math_ii": 14
+    },
+    "math_shared_counted_once": true,
+    "authoring_target_reached": true,
+    "request_complete": true,
+    "teacher_or_official_approved": false
+  },
+  "chapters": [
+    {
+      "stem": "bio04",
+      "subject": "生物",
+      "chapter": 4,
+      "sections": [
+        {
+          "id": "4.1",
+          "title": "细胞的分工"
+        },
+        {
+          "id": "4.2",
+          "title": "组织与器官"
+        },
+        {
+          "id": "4.3",
+          "title": "细胞的再生"
+        },
+        {
+          "id": "4.4",
+          "title": "细胞的克隆"
+        },
+        {
+          "id": "4.5",
+          "title": "基因的“沉默”和“开启”"
+        },
+        {
+          "id": "4.6",
+          "title": "细胞的特化"
+        },
+        {
+          "id": "4.7",
+          "title": "万能细胞——干细胞"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "bio05",
+      "subject": "生物",
+      "chapter": 5,
+      "sections": [
+        {
+          "id": "5.1",
+          "title": "食物的营养与消化作用"
+        },
+        {
+          "id": "5.2",
+          "title": "人类消化系统的结构和功能"
+        },
+        {
+          "id": "5.3",
+          "title": "营养成分的吸收"
+        },
+        {
+          "id": "5.4",
+          "title": "糖代谢"
+        },
+        {
+          "id": "5.5",
+          "title": "蛋白质代谢"
+        },
+        {
+          "id": "5.6",
+          "title": "脂质代谢"
+        },
+        {
+          "id": "5.7",
+          "title": "三大营养物质代谢的关系"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "bio06",
+      "subject": "生物",
+      "chapter": 6,
+      "sections": [
+        {
+          "id": "6.1",
+          "title": "为什么生物要有运输系统"
+        },
+        {
+          "id": "6.2",
+          "title": "血液在人体内是怎样流动的"
+        },
+        {
+          "id": "6.3",
+          "title": "为什么心脏能自律跳动"
+        },
+        {
+          "id": "6.4",
+          "title": "心血管疾病"
+        },
+        {
+          "id": "6.5",
+          "title": "植物是如何运输物质的"
+        },
+        {
+          "id": "6.6",
+          "title": "物质在植物体内运输的动力是什么"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "bio08",
+      "subject": "生物",
+      "chapter": 8,
+      "sections": [
+        {
+          "id": "8.1",
+          "title": "什么是内环境恒定"
+        },
+        {
+          "id": "8.2",
+          "title": "怎样维持内环境恒定"
+        },
+        {
+          "id": "8.3",
+          "title": "水平衡的调节"
+        },
+        {
+          "id": "8.4",
+          "title": "体温恒定的调节"
+        },
+        {
+          "id": "8.5",
+          "title": "血糖平衡的调节"
+        },
+        {
+          "id": "8.6",
+          "title": "泌尿系统的结构"
+        },
+        {
+          "id": "8.7",
+          "title": "尿液是如何形成的"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "bio14",
+      "subject": "生物",
+      "chapter": 14,
+      "sections": [
+        {
+          "id": "14.1",
+          "title": "DNA是遗传物质的证据"
+        },
+        {
+          "id": "14.2",
+          "title": "DNA的结构是怎样的"
+        },
+        {
+          "id": "14.3",
+          "title": "遗传信息是如何传递的"
+        },
+        {
+          "id": "14.4",
+          "title": "遗传信息是如何表达的"
+        },
+        {
+          "id": "14.5",
+          "title": "基因突变"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "bio15",
+      "subject": "生物",
+      "chapter": 15,
+      "sections": [
+        {
+          "id": "15.1",
+          "title": "基因分离定律"
+        },
+        {
+          "id": "15.2",
+          "title": "基因自由组合定律"
+        },
+        {
+          "id": "15.3",
+          "title": "性别决定与伴性遗传"
+        },
+        {
+          "id": "15.4",
+          "title": "常见的人类遗传病"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "bio16",
+      "subject": "生物",
+      "chapter": 16,
+      "sections": [
+        {
+          "id": "16.1",
+          "title": "DNA重组技术"
+        },
+        {
+          "id": "16.2",
+          "title": "基因工程"
+        },
+        {
+          "id": "16.3",
+          "title": "PCR技术"
+        },
+        {
+          "id": "16.4",
+          "title": "基因工程的争议"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "bio17",
+      "subject": "生物",
+      "chapter": 17,
+      "sections": [
+        {
+          "id": "17.1",
+          "title": "生物多样性"
+        },
+        {
+          "id": "17.2",
+          "title": "生物的分类"
+        },
+        {
+          "id": "17.3",
+          "title": "人类活动对生物多样性的影响"
+        },
+        {
+          "id": "17.4",
+          "title": "生物多样性的保护"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "chem15",
+      "subject": "化学",
+      "chapter": 15,
+      "sections": [
+        {
+          "id": "15.1",
+          "title": "卤素的性质与用途"
+        },
+        {
+          "id": "15.2.1",
+          "title": "氯气的实验室制法"
+        },
+        {
+          "id": "15.2.2",
+          "title": "氯气的工业制法"
+        },
+        {
+          "id": "15.3.1",
+          "title": "氯化氢的性质和用途"
+        },
+        {
+          "id": "15.3.2",
+          "title": "氯化氢与盐酸的制取"
+        },
+        {
+          "id": "15.4",
+          "title": "卤化物在水中的溶解性"
+        },
+        {
+          "id": "15.5",
+          "title": "卤氧酸"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "chem19",
+      "subject": "化学",
+      "chapter": 19,
+      "sections": [
+        {
+          "id": "19.1",
+          "title": "化学反应中的热量变化"
+        },
+        {
+          "id": "19.2",
+          "title": "反应热、焓变"
+        },
+        {
+          "id": "19.3.1",
+          "title": "生成热"
+        },
+        {
+          "id": "19.3.2",
+          "title": "燃烧热"
+        },
+        {
+          "id": "19.3.3",
+          "title": "中和热"
+        },
+        {
+          "id": "19.3.4",
+          "title": "黑斯定律"
+        },
+        {
+          "id": "19.4",
+          "title": "能量的充分利用"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "chem20",
+      "subject": "化学",
+      "chapter": 20,
+      "sections": [
+        {
+          "id": "20.1",
+          "title": "化学反应速率的意义及其表示法"
+        },
+        {
+          "id": "20.2.1",
+          "title": "反应物的本性和表面积大小与化学反应速率"
+        },
+        {
+          "id": "20.2.2",
+          "title": "反应物浓度与化学反应速率"
+        },
+        {
+          "id": "20.2.3",
+          "title": "反应温度与化学反应速率"
+        },
+        {
+          "id": "20.2.4",
+          "title": "催化剂与化学反应速率"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "chem21",
+      "subject": "化学",
+      "chapter": 21,
+      "sections": [
+        {
+          "id": "21.1",
+          "title": "化学平衡是动态平衡"
+        },
+        {
+          "id": "21.2.1",
+          "title": "化学平衡定律"
+        },
+        {
+          "id": "21.2.2",
+          "title": "有关化学平衡的计算"
+        },
+        {
+          "id": "21.3.1",
+          "title": "浓度对化学平衡的影响"
+        },
+        {
+          "id": "21.3.2",
+          "title": "压强对化学平衡的影响"
+        },
+        {
+          "id": "21.3.3",
+          "title": "温度对化学平衡的影响"
+        },
+        {
+          "id": "21.3.4",
+          "title": "催化剂对化学平衡的影响"
+        },
+        {
+          "id": "21.4",
+          "title": "勒沙特列原理及应用"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "chem22",
+      "subject": "化学",
+      "chapter": 22,
+      "sections": [
+        {
+          "id": "22.1.1",
+          "title": "电解质与非电解质"
+        },
+        {
+          "id": "22.1.2",
+          "title": "溶解平衡原理"
+        },
+        {
+          "id": "22.1.3",
+          "title": "溶度积与溶解度的关系"
+        },
+        {
+          "id": "22.2",
+          "title": "影响难溶电解质溶解的因素"
+        },
+        {
+          "id": "22.3",
+          "title": "沉淀的预测和选择"
+        },
+        {
+          "id": "22.4",
+          "title": "沉淀的转化"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "chem24",
+      "subject": "化学",
+      "chapter": 24,
+      "sections": [
+        {
+          "id": "24.1.1",
+          "title": "原电池的工作原理"
+        },
+        {
+          "id": "24.1.2",
+          "title": "常用的化学电源"
+        },
+        {
+          "id": "24.2.1",
+          "title": "标准电极电势"
+        },
+        {
+          "id": "24.2.2",
+          "title": "电极电势的应用"
+        },
+        {
+          "id": "24.3.1",
+          "title": "电解原理"
+        },
+        {
+          "id": "24.3.2",
+          "title": "电解原理的应用"
+        },
+        {
+          "id": "24.3.3",
+          "title": "电解定律"
+        },
+        {
+          "id": "24.4",
+          "title": "金属的腐蚀与防护"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "chem28",
+      "subject": "化学",
+      "chapter": 28,
+      "sections": [
+        {
+          "id": "28.1",
+          "title": "烯烃的通式和结构"
+        },
+        {
+          "id": "28.2",
+          "title": "烯烃的同分异构体"
+        },
+        {
+          "id": "28.3",
+          "title": "系统命名法"
+        },
+        {
+          "id": "28.4",
+          "title": "烯烃的物理性质"
+        },
+        {
+          "id": "28.5.1",
+          "title": "燃烧"
+        },
+        {
+          "id": "28.5.2",
+          "title": "加成反应"
+        },
+        {
+          "id": "28.5.3",
+          "title": "氧化反应"
+        },
+        {
+          "id": "28.5.4",
+          "title": "聚合反应"
+        },
+        {
+          "id": "28.6",
+          "title": "烯烃的来源和制取"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "chem32",
+      "subject": "化学",
+      "chapter": 32,
+      "sections": [
+        {
+          "id": "32.1.1",
+          "title": "醇的类别和命名"
+        },
+        {
+          "id": "32.1.2",
+          "title": "醇的物理性质"
+        },
+        {
+          "id": "32.1.3",
+          "title": "醇的化学性质"
+        },
+        {
+          "id": "32.1.4",
+          "title": "醇的制取"
+        },
+        {
+          "id": "32.1.5",
+          "title": "几种重要的醇"
+        },
+        {
+          "id": "32.2.1",
+          "title": "苯酚的物理性质"
+        },
+        {
+          "id": "32.2.2",
+          "title": "苯酚的化学性质"
+        },
+        {
+          "id": "32.2.3",
+          "title": "苯酚的工业制法"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "math06",
+      "subject": "高级数学（I／II共用）",
+      "chapter": 6,
+      "sections": [
+        {
+          "id": "6.1",
+          "title": "不等式及其性质"
+        },
+        {
+          "id": "6.2",
+          "title": "一元二次不等式"
+        },
+        {
+          "id": "6.3",
+          "title": "分式不等式"
+        },
+        {
+          "id": "6.4",
+          "title": "二元一次不等式"
+        },
+        {
+          "id": "6.5",
+          "title": "线性规划"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "math07",
+      "subject": "高级数学（I／II共用）",
+      "chapter": 7,
+      "sections": [
+        {
+          "id": "7.1",
+          "title": "命题"
+        },
+        {
+          "id": "7.2",
+          "title": "逻辑联结词“非”、“且”及“或”"
+        },
+        {
+          "id": "7.3",
+          "title": "全称量词与存在量词"
+        },
+        {
+          "id": "7.4",
+          "title": "充分条件、必要条件及充要条件"
+        },
+        {
+          "id": "7.5",
+          "title": "推理"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "math08",
+      "subject": "高级数学（I／II共用）",
+      "chapter": 8,
+      "sections": [
+        {
+          "id": "8.1",
+          "title": "任意角的概念与度量"
+        },
+        {
+          "id": "8.2",
+          "title": "弧长与扇形面积"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "math09",
+      "subject": "高级数学（I／II共用）",
+      "chapter": 9,
+      "sections": [
+        {
+          "id": "9.1",
+          "title": "任意角的三角函数"
+        },
+        {
+          "id": "9.2",
+          "title": "三角函数的诱导公式"
+        },
+        {
+          "id": "9.3",
+          "title": "三角函数的图像"
+        },
+        {
+          "id": "9.4",
+          "title": "反三角函数"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "math10",
+      "subject": "高级数学（I／II共用）",
+      "chapter": 10,
+      "sections": [
+        {
+          "id": "10.1",
+          "title": "正弦定律"
+        },
+        {
+          "id": "10.2",
+          "title": "余弦定律"
+        },
+        {
+          "id": "10.3",
+          "title": "三角形的面积"
+        },
+        {
+          "id": "10.4",
+          "title": "测量问题"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "math11",
+      "subject": "高级数学（I／II共用）",
+      "chapter": 11,
+      "sections": [
+        {
+          "id": "11.1",
+          "title": "同角三角函数的基本关系式"
+        },
+        {
+          "id": "11.2",
+          "title": "两角之和与差的三角函数"
+        },
+        {
+          "id": "11.3",
+          "title": "倍角的三角函数"
+        },
+        {
+          "id": "11.4",
+          "title": "三角方程式"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "math28",
+      "subject": "高级数学（I／II共用）",
+      "chapter": 28,
+      "sections": [
+        {
+          "id": "28.1",
+          "title": "隐函数的微分法"
+        },
+        {
+          "id": "28.2",
+          "title": "三角函数的微分法"
+        },
+        {
+          "id": "28.3",
+          "title": "对数函数的微分法"
+        },
+        {
+          "id": "28.4",
+          "title": "指数函数的微分法"
+        },
+        {
+          "id": "28.5",
+          "title": "洛必达法则"
+        },
+        {
+          "id": "28.6",
+          "title": "曲线的作图法"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "math29",
+      "subject": "高级数学（I／II共用）",
+      "chapter": 29,
+      "sections": [
+        {
+          "id": "29.1",
+          "title": "利用原函数求积分"
+        },
+        {
+          "id": "29.2",
+          "title": "部分分式积分法"
+        },
+        {
+          "id": "29.3",
+          "title": "三角函数的积分法"
+        },
+        {
+          "id": "29.4",
+          "title": "三角代换法"
+        },
+        {
+          "id": "29.5",
+          "title": "分部积分法"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "math30",
+      "subject": "高级数学（II）",
+      "chapter": 30,
+      "sections": [
+        {
+          "id": "30.1",
+          "title": "微分方程式与其解"
+        },
+        {
+          "id": "30.2",
+          "title": "变量可分离微分方程"
+        },
+        {
+          "id": "30.3",
+          "title": "一阶线性微分方程"
+        },
+        {
+          "id": "30.4",
+          "title": "一阶常微分方程的应用"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "math31",
+      "subject": "高级数学（II）",
+      "chapter": 31,
+      "sections": [
+        {
+          "id": "31.1",
+          "title": "数学归纳法"
+        },
+        {
+          "id": "31.2",
+          "title": "不等式的证明"
+        },
+        {
+          "id": "31.3",
+          "title": "反证法"
+        },
+        {
+          "id": "31.4",
+          "title": "数值方法"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "math32",
+      "subject": "高级数学（II）",
+      "chapter": 32,
+      "sections": [
+        {
+          "id": "32.1",
+          "title": "坐标轴的平移（移轴）"
+        },
+        {
+          "id": "32.2",
+          "title": "坐标系的旋转（转轴）"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "math33",
+      "subject": "高级数学（II）",
+      "chapter": 33,
+      "sections": [
+        {
+          "id": "33.1",
+          "title": "曲线的坐标表示"
+        },
+        {
+          "id": "33.2",
+          "title": "圆锥曲线"
+        },
+        {
+          "id": "33.3",
+          "title": "抛物线"
+        },
+        {
+          "id": "33.4",
+          "title": "椭圆"
+        },
+        {
+          "id": "33.5",
+          "title": "双曲线"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "math34",
+      "subject": "高级数学（II）",
+      "chapter": 34,
+      "sections": [
+        {
+          "id": "34.1",
+          "title": "复数"
+        },
+        {
+          "id": "34.2",
+          "title": "复平面及复数的模与辐角"
+        },
+        {
+          "id": "34.3",
+          "title": "复数的三角函数式"
+        },
+        {
+          "id": "34.4",
+          "title": "棣美弗定理"
+        },
+        {
+          "id": "34.5",
+          "title": "根的性质"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "math35",
+      "subject": "高级数学（II）",
+      "chapter": 35,
+      "sections": [
+        {
+          "id": "35.1",
+          "title": "空间直角坐标系"
+        },
+        {
+          "id": "35.2",
+          "title": "空间向量几何"
+        },
+        {
+          "id": "35.3",
+          "title": "向量的内积"
+        },
+        {
+          "id": "35.4",
+          "title": "向量的外积"
+        },
+        {
+          "id": "35.5",
+          "title": "空间中的直线与平面方程式"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "phys09",
+      "subject": "物理",
+      "chapter": 9,
+      "sections": [
+        {
+          "id": "9.1",
+          "title": "刚体及其转动"
+        },
+        {
+          "id": "9.2",
+          "title": "刚体的转动惯量"
+        },
+        {
+          "id": "9.3",
+          "title": "刚体滚动时的动能"
+        },
+        {
+          "id": "9.4",
+          "title": "刚体的转动定律"
+        },
+        {
+          "id": "9.5",
+          "title": "角动量"
+        },
+        {
+          "id": "9.6",
+          "title": "角动量守恒定律"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "phys10",
+      "subject": "物理",
+      "chapter": 10,
+      "sections": [
+        {
+          "id": "10.1",
+          "title": "振动现象"
+        },
+        {
+          "id": "10.2",
+          "title": "简谐运动"
+        },
+        {
+          "id": "10.3",
+          "title": "简谐运动方程"
+        },
+        {
+          "id": "10.4",
+          "title": "简谐运动的图象"
+        },
+        {
+          "id": "10.5",
+          "title": "简谐运动的能量"
+        },
+        {
+          "id": "10.6",
+          "title": "受迫振动 共振"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "phys12",
+      "subject": "物理",
+      "chapter": 12,
+      "sections": [
+        {
+          "id": "12.1",
+          "title": "物质的基本单元——分子"
+        },
+        {
+          "id": "12.2",
+          "title": "分子的大小、距离与质量"
+        },
+        {
+          "id": "12.3",
+          "title": "物质的状态"
+        },
+        {
+          "id": "12.4",
+          "title": "固体的形变"
+        },
+        {
+          "id": "12.5",
+          "title": "液体的性质"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "phys13",
+      "subject": "物理",
+      "chapter": 13,
+      "sections": [
+        {
+          "id": "13.1",
+          "title": "温度"
+        },
+        {
+          "id": "13.2",
+          "title": "温度计"
+        },
+        {
+          "id": "13.3",
+          "title": "热量的测量"
+        },
+        {
+          "id": "13.4",
+          "title": "热效应与物态变化"
+        },
+        {
+          "id": "13.5",
+          "title": "固体的热膨胀"
+        },
+        {
+          "id": "13.6",
+          "title": "液体的热膨胀"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "phys14",
+      "subject": "物理",
+      "chapter": 14,
+      "sections": [
+        {
+          "id": "14.1",
+          "title": "热传导"
+        },
+        {
+          "id": "14.2",
+          "title": "热传导的计算"
+        },
+        {
+          "id": "14.3",
+          "title": "热对流"
+        },
+        {
+          "id": "14.4",
+          "title": "热辐射"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "phys15",
+      "subject": "物理",
+      "chapter": 15,
+      "sections": [
+        {
+          "id": "15.1",
+          "title": "气体的状态参量"
+        },
+        {
+          "id": "15.2",
+          "title": "理想气体状态方程式"
+        },
+        {
+          "id": "15.3",
+          "title": "理想气体状态方程式的应用"
+        },
+        {
+          "id": "15.4",
+          "title": "气体的等温变化 波意耳定律"
+        },
+        {
+          "id": "15.5",
+          "title": "气体的等容变化 压强定律"
+        },
+        {
+          "id": "15.6",
+          "title": "气体的等压变化 查理定律"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "phys17",
+      "subject": "物理",
+      "chapter": 17,
+      "sections": [
+        {
+          "id": "17.1",
+          "title": "机械波"
+        },
+        {
+          "id": "17.2",
+          "title": "声波和超声波"
+        },
+        {
+          "id": "17.3",
+          "title": "波的图象"
+        },
+        {
+          "id": "17.4",
+          "title": "简谐波的方程式"
+        },
+        {
+          "id": "17.5",
+          "title": "波的反射和折射"
+        },
+        {
+          "id": "17.6",
+          "title": "波的叠加"
+        },
+        {
+          "id": "17.7",
+          "title": "多普勒效应"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "phys18",
+      "subject": "物理",
+      "chapter": 18,
+      "sections": [
+        {
+          "id": "18.1",
+          "title": "光的反射 平面镜成像"
+        },
+        {
+          "id": "18.2",
+          "title": "球面镜成像"
+        },
+        {
+          "id": "18.3",
+          "title": "光的折射 折射率"
+        },
+        {
+          "id": "18.4",
+          "title": "对几个折射现象的分析"
+        },
+        {
+          "id": "18.5",
+          "title": "全反射"
+        },
+        {
+          "id": "18.6",
+          "title": "测定折射率的方法"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "phys19",
+      "subject": "物理",
+      "chapter": 19,
+      "sections": [
+        {
+          "id": "19.1",
+          "title": "棱镜与色散"
+        },
+        {
+          "id": "19.2",
+          "title": "光谱"
+        },
+        {
+          "id": "19.3",
+          "title": "透镜和透镜成像"
+        },
+        {
+          "id": "19.4",
+          "title": "透镜焦距的测定"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    },
+    {
+      "stem": "phys20",
+      "subject": "物理",
+      "chapter": 20,
+      "sections": [
+        {
+          "id": "20.1",
+          "title": "光的微粒说和波动说"
+        },
+        {
+          "id": "20.2",
+          "title": "光的干涉现象"
+        },
+        {
+          "id": "20.3",
+          "title": "光的衍射现象"
+        },
+        {
+          "id": "20.4",
+          "title": "光的偏振"
+        },
+        {
+          "id": "20.5",
+          "title": "光的电磁本性 电磁波谱"
+        },
+        {
+          "id": "20.6",
+          "title": "光的速度"
+        }
+      ],
+      "status": "author_reviewed_internal_checks_passed_teacher_pending"
+    }
+  ]
+}

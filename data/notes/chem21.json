@@ -1,0 +1,2416 @@
+{
+  "21.1": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 21,
+    "section_id": "21.1",
+    "goals": [
+      "用正逆速率解释宏观恒定",
+      "区分平衡、停止反应与浓度相等"
+    ],
+    "prerequisites": [
+      "可逆反应",
+      "反应速率"
+    ],
+    "flow": [
+      "可逆",
+      "正逆速率",
+      "净变化",
+      "宏观恒定",
+      "证据条件"
+    ],
+    "concept_relation": "可逆；正逆速率；净变化；宏观恒定；证据条件",
+    "deep": [
+      "观察到浓度暂时不变不单独证明化学平衡。反应也可能因动力学极慢而在测量分辨率内看似不变，或开放体系有持续流入流出形成稳态。题目讨论封闭、可逆和固定外界条件时，才可按相应平衡模型判断。",
+      "平衡可以从不同初始组成趋近，在相同温度和相应总量约束下达到满足同一平衡关系的状态；但不能说任何不同总量、体积或元素组成的体系都必有相同浓度。应分清相同平衡常数与相同平衡组成。",
+      "图线题中，速率相等对应两曲线同值，并非必须为零；浓度图进入水平段也不表示所有浓度同高。先识别纵轴是速率还是浓度，再解释平台和交点，能避免把两类图的判据混用。"
+    ],
+    "derive": [
+      "在固定条件的封闭可逆体系，平衡时v_正=v_逆，一般均非零。",
+      "d[物种]/dt=0不等于微观正逆反应均为0。",
+      "浓度恒定不等于各物种浓度相等；相同K不保证任意总量体系浓度相同。"
+    ],
+    "examples": [
+      {
+        "q": "某封闭可逆体系平衡时[A]=0.20、[B]=0.80 mol/L，因两者不等可否说未平衡？ 条件：温度固定，已给定平衡状态。",
+        "given": "温度固定，已给定平衡状态。",
+        "analysis": "平衡比较的是正逆速率。",
+        "method": "区分两个判据。",
+        "principle": "动态平衡。",
+        "steps": [
+          "浓度各自恒定即可与平衡相容。",
+          "A和B的数值不必相等。"
+        ],
+        "ans": "不能据此否定平衡。",
+        "verification": "0.20与0.80可满足相应K=4的A⇌B模型。",
+        "pitfall": "把平衡写成[A]=[B]。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.1",
+        "related_sections": []
+      },
+      {
+        "q": "反应速率图上v正、v逆最终都为0.03且相等，反应是否停止？ 条件：速率以相同进度单位给出。",
+        "given": "速率以相同进度单位给出。",
+        "analysis": "相等且非零意味着两向持续。",
+        "method": "比较净变化与各向变化。",
+        "principle": "净速率为差。",
+        "steps": [
+          "净进度变化0.03−0.03=0。",
+          "每个方向仍以0.03进行。"
+        ],
+        "ans": "未停止，是动态平衡。",
+        "verification": "微观变化可持续而宏观浓度不变。",
+        "pitfall": "净零就说两个方向都零。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.1",
+        "related_sections": []
+      },
+      {
+        "q": "开放反应器中浓度恒定，能否只凭此证明已经达到封闭体系化学平衡？ 条件：持续流入流出。",
+        "given": "持续流入流出。",
+        "analysis": "稳态可由通量平衡维持。",
+        "method": "列物料收支。",
+        "principle": "开放稳态与化学平衡不同。",
+        "steps": [
+          "浓度恒定可能由反应与进出流相抵。",
+          "还缺正逆反应速率相等等证据。"
+        ],
+        "ans": "不能。",
+        "verification": "关掉物料流后状态可能改变。",
+        "pitfall": "把任何恒定读数都当化学平衡。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "平衡时正反应速率可否大于逆反应？ 条件：采用同一进度定义。",
+        "given": "采用同一进度定义。",
+        "analysis": "若净正方向非零组成会变。",
+        "method": "比较差。",
+        "principle": "平衡要求净变化0。",
+        "steps": [
+          "若v正>v逆则产物净增加。",
+          "与平衡宏观恒定矛盾。"
+        ],
+        "ans": "不可。",
+        "verification": "必须相等。",
+        "pitfall": "把产物多当正反应更快。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.1",
+        "related_sections": []
+      },
+      {
+        "q": "平衡浓度图三条水平线不同高是否合理？ 条件：纵轴是浓度。",
+        "given": "纵轴是浓度。",
+        "analysis": "数值不同不妨碍各自恒定。",
+        "method": "读轴。",
+        "principle": "浓度不要求相等。",
+        "steps": [
+          "每种浓度可稳定在不同值。",
+          "它们仍可满足同一平衡关系。"
+        ],
+        "ans": "合理。",
+        "verification": "不能按速率图交点规则解释。",
+        "pitfall": "把浓度曲线当速率曲线。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.1",
+        "related_sections": []
+      },
+      {
+        "q": "同温A⇌B，两体系平衡比[B]/[A]相同，是否必有[A]数值相同？ 条件：总浓度可不同。",
+        "given": "总浓度可不同。",
+        "analysis": "比例相同不固定绝对量。",
+        "method": "举两组等比值。",
+        "principle": "K与组成总量分开。",
+        "steps": [
+          "0.2、0.8比4；0.1、0.4也比4。",
+          "A数值不同。"
+        ],
+        "ans": "不必。",
+        "verification": "两组都满足同一比值。",
+        "pitfall": "同K即所有浓度相同。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.1",
+        "related_sections": []
+      },
+      {
+        "q": "平衡是否需要从纯反应物一侧开始？ 条件：可逆且条件适当。",
+        "given": "可逆且条件适当。",
+        "analysis": "也可从产物侧趋近。",
+        "method": "比较初始状态。",
+        "principle": "正逆反应共同决定。",
+        "steps": [
+          "产物可发生逆反应。",
+          "逐渐趋向满足同一平衡关系的状态。"
+        ],
+        "ans": "不需要。",
+        "verification": "相同条件和总量约束才比较最终状态。",
+        "pitfall": "把平衡限制为单一启动方式。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "一个极慢反应在一分钟内浓度无可测变化，能否直接认定动态平衡？ 条件：仪器有分辨率，速率可能很慢。",
+      "given": "仪器有分辨率，速率可能很慢。",
+      "analysis": "不变观测可能有不同原因。",
+      "method": "审查证据充分性。",
+      "principle": "动力学冻结与平衡不同。",
+      "steps": [
+        "无可测变化可能只是速率太小。",
+        "还需可逆过程与相应平衡证据。"
+      ],
+      "ans": "不能直接认定。",
+      "verification": "延长观测或改变方法可能发现变化。",
+      "pitfall": "将测不到变化当已证明两向等速。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 21,
+      "primary_section": "21.1",
+      "related_sections": []
+    },
+    "exam": [
+      "先读图纵轴，速率判相等、浓度判各自恒定",
+      "解释动态必须写微观持续与宏观净零两层",
+      "遇开放体系或极慢反应，不能凭短时恒定便套封闭平衡"
+    ],
+    "quick": [
+      "可逆",
+      "正逆速率",
+      "净变化",
+      "宏观恒定",
+      "证据条件"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 10,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_21.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-1-chemical-equilibria",
+        "page_or_section": "13-1-chemical-equilibria",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 10,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_21.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-1-chemical-equilibria",
+        "page_or_section": "13-1-chemical-equilibria",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先读图纵轴，速率判相等、浓度判各自恒定",
+      "method": "列物料收支。",
+      "principle": "开放稳态与化学平衡不同。",
+      "worked_example_index": 2,
+      "verification": "关掉物料流后状态可能改变。",
+      "pitfall": "把任何恒定读数都当化学平衡。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用正逆速率解释宏观恒定”的抽样复核：0.20与0.80可满足相应K=4的A⇌B模型。；若出现“把平衡写成[A]=[B]。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分平衡、停止反应与浓度相等”的抽样复核：关掉物料流后状态可能改变。；若出现“把任何恒定读数都当化学平衡。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "将测不到变化当已证明两向等速。",
+        "correction": "不能直接认定。",
+        "verification": "延长观测或改变方法可能发现变化。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "动态平衡的速率与浓度双图",
+      "objects": [
+        "带物态配平方程",
+        "浓度或速率图",
+        "改变条件时刻",
+        "K/Q及适用条件"
+      ],
+      "relations": [
+        "两向速率最后同一非零值",
+        "各浓度最后水平但不要求同高",
+        "两图纵轴明确不同"
+      ],
+      "labels": [
+        "v正",
+        "v逆",
+        "t",
+        "c",
+        "动态平衡"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "旧平衡图仅在方程、温度和扰动条件一致时复用；否则保留并另列任务",
+      "english": "Create an exact equilibrium teaching diagram. Distinguish instantaneous physical changes in concentration from subsequent chemical shifts. Equilibrium means equal forward and reverse rates, not equal concentrations. State temperature and gas-volume conditions. A catalyst changes rates and approach time but not K or the final equilibrium at fixed temperature."
+    }
+  },
+  "21.2.1": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 21,
+    "section_id": "21.2.1",
+    "goals": [
+      "按物态和计量系数写K与Q",
+      "说明同温常数与反应式变换的关系"
+    ],
+    "prerequisites": [
+      "浓度",
+      "配平与指数"
+    ],
+    "flow": [
+      "配平与物态",
+      "表达式",
+      "同状态浓度",
+      "K与Q",
+      "写法和温度"
+    ],
+    "concept_relation": "配平与物态；表达式；同状态浓度；K与Q；写法和温度",
+    "deep": [
+      "用任意时刻相同形式计算的比值叫反应商Q。只有平衡时Q=K；把初始浓度代进去求得的Q不自动是K。所有浓度项要对应同一个时刻或同一个状态，不能从不同实验拼凑成一个商。",
+      "同一反应在固定温度下K不因加料、体积变化或催化剂本身而改变。改变温度可以改变K，反应式写法也会改变对应的K：反向为倒数，所有系数乘n则为原K的n次方。数值比较必须先确认对应的反应式。",
+      "K大通常表示该写法下产物侧在平衡中相对有利，但不代表反应一定快，也不保证任何初始配比都几乎完全转化。若某反应的K极小仍可能观察到微量产物；平衡方向与动力学速度要分开讨论。"
+    ],
+    "derive": [
+      "aA+bB⇌cC+dD：K_c=[C]^c[D]^d/([A]^a[B]^b)，按题设浓度近似及物态处理。",
+      "平衡时Q=K；同温反向反应K'=1/K，系数整体乘n时K'=K^n。",
+      "纯固体/纯液体活度通常取1，前提是相应纯相存在且模型适用。"
+    ],
+    "examples": [
+      {
+        "q": "写N₂(g)+3H₂(g)⇌2NH₃(g)的K_c表达式。 条件：用题设浓度近似。",
+        "given": "用题设浓度近似。",
+        "analysis": "指数对应配平系数。",
+        "method": "产物除反应物。",
+        "principle": "化学平衡表达式。",
+        "steps": [
+          "产物项[NH₃]²。",
+          "反应物项[N₂][H₂]³。"
+        ],
+        "ans": "K_c=[NH₃]²/([N₂][H₂]³)。",
+        "verification": "N和H原子已配平；指数2、1、3一致。",
+        "pitfall": "漏掉平方或立方。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.2.1",
+        "related_sections": []
+      },
+      {
+        "q": "CaCO₃(s)⇌CaO(s)+CO₂(g)，两固相均存在，写简化K_c。 条件：纯固相活度近似1。",
+        "given": "纯固相活度近似1。",
+        "analysis": "不把固体质量列入浓度式。",
+        "method": "按物态筛选。",
+        "principle": "纯相活度约定。",
+        "steps": [
+          "两固体项取1。",
+          "仅留下[CO₂]。"
+        ],
+        "ans": "K_c=[CO₂]，按题设浓度约定。",
+        "verification": "增加已存在固体量不直接进入此表达式。",
+        "pitfall": "写入CaCO₃与CaO质量比。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.2.1",
+        "related_sections": []
+      },
+      {
+        "q": "A⇌B在某温度K=4，求B⇌A与2A⇌2B对应K。 条件：同温、相同标准定义。",
+        "given": "同温、相同标准定义。",
+        "analysis": "反应写法变化。",
+        "method": "取倒数与平方。",
+        "principle": "平衡常数变换。",
+        "steps": [
+          "反向K₁=1/4。",
+          "倍式K₂=4²=16。"
+        ],
+        "ans": "1/4与16。",
+        "verification": "将原比值倒过来或平方得到同样关系。",
+        "pitfall": "反向取负数、倍式直接乘2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.2.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "平衡时[A]=0.20、[B]=0.60 mol/L，A⇌B的K_c？ 条件：相同浓度单位。",
+        "given": "相同浓度单位。",
+        "analysis": "比值。",
+        "method": "产物除反应物。",
+        "principle": "K_c定义。",
+        "steps": [
+          "0.60/0.20。",
+          "得3。"
+        ],
+        "ans": "3，按本题约定。",
+        "verification": "若反式则1/3。",
+        "pitfall": "把反应物放分子。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.2.1",
+        "related_sections": []
+      },
+      {
+        "q": "2A⇌B，表达式的[A]指数是多少？ 条件：反应已配平。",
+        "given": "反应已配平。",
+        "analysis": "平衡式依系数。",
+        "method": "读系数。",
+        "principle": "质量作用平衡表达。",
+        "steps": [
+          "反应物A系数2。",
+          "分母为[A]²。"
+        ],
+        "ans": "2。",
+        "verification": "不是[A]乘2。",
+        "pitfall": "把幂误成前面乘系数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.2.1",
+        "related_sections": []
+      },
+      {
+        "q": "初始浓度代进产物/反应物形式就一定得到K吗？ 条件：初始状态未说明平衡。",
+        "given": "初始状态未说明平衡。",
+        "analysis": "先得到的是Q。",
+        "method": "检查状态。",
+        "principle": "Q在平衡才等K。",
+        "steps": [
+          "初始比称反应商。",
+          "只有满足平衡条件才可记为K。"
+        ],
+        "ans": "不一定。",
+        "verification": "反应初始也可纯反应物而Q=0。",
+        "pitfall": "任意时刻都叫平衡常数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.2.1",
+        "related_sections": []
+      },
+      {
+        "q": "同温下加催化剂会把K乘2吗？ 条件：同一总反应与物态。",
+        "given": "同一总反应与物态。",
+        "analysis": "催化改变路径。",
+        "method": "区分动力学和平衡。",
+        "principle": "K不由路径决定。",
+        "steps": [
+          "正逆达到过程加快。",
+          "同温K不改变。"
+        ],
+        "ans": "不会。",
+        "verification": "最终平衡关系仍相同。",
+        "pitfall": "将速率倍数当K倍数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.2.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "K很大能否直接说明反应速率很快？ 条件：只给平衡关系。",
+      "given": "只给平衡关系。",
+      "analysis": "热力学倾向与能垒不同。",
+      "method": "指出缺少动力学信息。",
+      "principle": "平衡常数不决定达到时间。",
+      "steps": [
+        "K描述平衡组成关系。",
+        "速率还依机制、活化能和条件。"
+      ],
+      "ans": "不能。",
+      "verification": "可有产物有利但动力学很慢的过程。",
+      "pitfall": "用K代替速率常数k。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 21,
+      "primary_section": "21.2.1",
+      "related_sections": []
+    },
+    "exam": [
+      "写K先配平方程并标物态，再核幂与纯相",
+      "计算先确认浓度来自同一平衡状态，非平衡值记Q",
+      "比较数值须统一温度、单位约定和反应写法，K不当速率"
+    ],
+    "quick": [
+      "配平与物态",
+      "表达式",
+      "同状态浓度",
+      "K与Q",
+      "写法和温度"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 10,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_21.2.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-2-equilibrium-constants",
+        "page_or_section": "13-2-equilibrium-constants",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 10,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_21.2.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-2-equilibrium-constants",
+        "page_or_section": "13-2-equilibrium-constants",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "写K先配平方程并标物态，再核幂与纯相",
+      "method": "取倒数与平方。",
+      "principle": "平衡常数变换。",
+      "worked_example_index": 2,
+      "verification": "将原比值倒过来或平方得到同样关系。",
+      "pitfall": "反向取负数、倍式直接乘2。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“按物态和计量系数写K与Q”的抽样复核：N和H原子已配平；指数2、1、3一致。；若出现“漏掉平方或立方。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“说明同温常数与反应式变换的关系”的抽样复核：将原比值倒过来或平方得到同样关系。；若出现“反向取负数、倍式直接乘2。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "用K代替速率常数k。",
+        "correction": "不能。",
+        "verification": "可有产物有利但动力学很慢的过程。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "K表达式与状态条件",
+      "objects": [
+        "带物态配平方程",
+        "浓度或速率图",
+        "改变条件时刻",
+        "K/Q及适用条件"
+      ],
+      "relations": [
+        "气体浓度项幂对应系数",
+        "纯固体项取1但不代表不参与",
+        "反向倒数、倍式平方示例"
+      ],
+      "labels": [
+        "K_c",
+        "Q",
+        "纯相存在",
+        "K=4",
+        "1/K=1/4",
+        "K²=16"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "旧平衡图仅在方程、温度和扰动条件一致时复用；否则保留并另列任务",
+      "english": "Create an exact equilibrium teaching diagram. Distinguish instantaneous physical changes in concentration from subsequent chemical shifts. Equilibrium means equal forward and reverse rates, not equal concentrations. State temperature and gas-volume conditions. A catalyst changes rates and approach time but not K or the final equilibrium at fixed temperature."
+    }
+  },
+  "21.2.2": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 21,
+    "section_id": "21.2.2",
+    "goals": [
+      "用初始—变化—平衡表建立方程",
+      "筛选物理可行根并复核近似"
+    ],
+    "prerequisites": [
+      "浓度与计量",
+      "代数方程及非负约束"
+    ],
+    "flow": [
+      "同状态数据",
+      "ICE变化量",
+      "K方程",
+      "物理根",
+      "回代与近似误差"
+    ],
+    "concept_relation": "同状态数据；ICE变化量；K方程；物理根；回代与近似误差",
+    "deep": [
+      "小变化近似可简化方程，但不能先假设所有题的x都可忽略。若设初始C₀−x≈C₀，应在求得x后评价x/C₀是否满足题目或课程约定的精度要求；常见5%检验是经验近似标准，不是普适自然定律。",
+      "平衡转化率是被转化的反应物量除其初始量，不等于平衡常数，也不等于产物浓度直接加百分号。对于有产物初始存在的题，新增产物和最终产物也要分清，否则计算出的转化率会包含原有产物。",
+      "最终将所选根回代原K式而非仅代已简化的式子，并核元素守恒及总量变化是否符合计量。说明题应写清被舍弃根为何不物理，保留“浓度非负”的理由比只写“负根舍去”更普遍，因为有时无效根本身也是正数。"
+    ],
+    "derive": [
+      "对2A⇌B且初始[A]=C₀、[B]=0，平衡[A]=C₀−2x、[B]=x，0≤x≤C₀/2。",
+      "K_c=x/(C₀−2x)²；代数根须回原浓度检查。",
+      "若采用C₀−x≈C₀，求根后应检验x/C₀与所需误差标准。"
+    ],
+    "examples": [
+      {
+        "q": "恒容A⇌B，初始[A]=1.0、[B]=0 mol/L，K_c=4，求平衡浓度。 条件：变化为−x、+x。",
+        "given": "变化为−x、+x。",
+        "analysis": "一比一计量。",
+        "method": "ICE表及K。",
+        "principle": "K=[B]/[A]。",
+        "steps": [
+          "4=x/(1−x)，得x=0.80。",
+          "[A]=0.20、[B]=0.80 mol/L。"
+        ],
+        "ans": "0.20与0.80 mol/L。",
+        "verification": "比0.80/0.20=4；总浓度1.0守恒。",
+        "pitfall": "把x当成A最终浓度。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.2.2",
+        "related_sections": []
+      },
+      {
+        "q": "2A⇌B，初始[A]=1.0、[B]=0，K_c=1（按题设单位约定），求平衡浓度。 条件：用x表示B生成浓度。",
+        "given": "用x表示B生成浓度。",
+        "analysis": "A消耗2x，允许x≤0.5。",
+        "method": "ICE后解二次。",
+        "principle": "K=x/(1−2x)²。",
+        "steps": [
+          "x=(1−2x)²，得4x²−5x+1=0，根x=1或1/4。",
+          "x=1使A负，舍；x=1/4得[A]=0.50、[B]=0.25。"
+        ],
+        "ans": "[A]=0.50、[B]=0.25 mol/L。",
+        "verification": "0.25/(0.50)²=1；A当量0.50+2×0.25=1。",
+        "pitfall": "只因x=1为正就保留。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.2.2",
+        "related_sections": []
+      },
+      {
+        "q": "某式K=x²/(0.10−x)=0.0010，若近似分母为0.10，求近似x并用5%标准判是否自洽。 条件：给定只检查该近似，不要求精确根。",
+        "given": "给定只检查该近似，不要求精确根。",
+        "analysis": "先近似再验相对变化。",
+        "method": "x≈√(KC₀)。",
+        "principle": "小量近似需后验。",
+        "steps": [
+          "x≈√(0.0010×0.10)=0.010 mol/L。",
+          "x/C₀=0.010/0.10=10%，超过5%。"
+        ],
+        "ans": "近似值0.010，但按5%标准不自洽，应解原式。",
+        "verification": "精确根约0.00951，仍接近9.5%变化。",
+        "pitfall": "求出小数就未经检验接受近似。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.2.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "2A⇌B，若B增加0.10 mol/L，A减少多少？ 条件：体积不变。",
+        "given": "体积不变。",
+        "analysis": "计量比2:1。",
+        "method": "乘系数。",
+        "principle": "同一进度变化。",
+        "steps": [
+          "A消耗2×0.10。",
+          "得0.20 mol/L。"
+        ],
+        "ans": "0.20 mol/L。",
+        "verification": "A当量守恒。",
+        "pitfall": "两者都写变化0.10。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.2.2",
+        "related_sections": []
+      },
+      {
+        "q": "A初始0.80 mol，平衡剩0.20 mol，转化率？ 条件：没有额外加入。",
+        "given": "没有额外加入。",
+        "analysis": "转化量为差。",
+        "method": "差除初始。",
+        "principle": "转化率定义。",
+        "steps": [
+          "消耗0.80−0.20=0.60。",
+          "0.60/0.80=75%。"
+        ],
+        "ans": "75%。",
+        "verification": "剩余比例25%。",
+        "pitfall": "用剩余量作分子。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.2.2",
+        "related_sections": []
+      },
+      {
+        "q": "2 mol物质位于4 L中，代浓度式应使用多少？ 条件：平衡体积4 L。",
+        "given": "平衡体积4 L。",
+        "analysis": "K_c用浓度不是mol。",
+        "method": "n/V。",
+        "principle": "浓度定义。",
+        "steps": [
+          "c=2/4。",
+          "得0.50 mol/L。"
+        ],
+        "ans": "0.50 mol/L。",
+        "verification": "单位明确。",
+        "pitfall": "直接将2 mol代入浓度位。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.2.2",
+        "related_sections": []
+      },
+      {
+        "q": "某代数根使[A]=−0.10 mol/L但K代数式成立，可保留吗？ 条件：真实浓度不得为负。",
+        "given": "真实浓度不得为负。",
+        "analysis": "代数解不一定满足物理域。",
+        "method": "检查原量约束。",
+        "principle": "物理可行性。",
+        "steps": [
+          "负浓度无物理意义。",
+          "该根不属于原问题允许范围。"
+        ],
+        "ans": "不可。",
+        "verification": "应检查其他根和数据。",
+        "pitfall": "只验整理后方程不验浓度。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.2.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "为什么K计算不能将甲实验的[A]和平衡不同温度乙实验的[B]拼成一个比？ 条件：两个量不属同一状态。",
+      "given": "两个量不属同一状态。",
+      "analysis": "平衡关系连接同温同体系的组成。",
+      "method": "核数据归属。",
+      "principle": "状态一致性。",
+      "steps": [
+        "不同实验可能有不同K和总量约束。",
+        "拼凑的商不表示任一真实平衡状态。"
+      ],
+      "ans": "必须使用同一平衡状态的相应量。",
+      "verification": "即使数值能相除也没有该物理含义。",
+      "pitfall": "把表中任意浓度混合使用。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 21,
+      "primary_section": "21.2.2",
+      "related_sections": []
+    },
+    "exam": [
+      "ICE表变化行只设一个进度量，逐项乘正确系数",
+      "解方程前写x允许范围，正根也可能因负浓度无效",
+      "近似必须后验并回原K式核验，不只检查简化方程"
+    ],
+    "quick": [
+      "同状态数据",
+      "ICE变化量",
+      "K方程",
+      "物理根",
+      "回代与近似误差"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 10,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_21.2.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-4-equilibrium-calculations",
+        "page_or_section": "13-4-equilibrium-calculations",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 10,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_21.2.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-4-equilibrium-calculations",
+        "page_or_section": "13-4-equilibrium-calculations",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "ICE表变化行只设一个进度量，逐项乘正确系数",
+      "method": "x≈√(KC₀)。",
+      "principle": "小量近似需后验。",
+      "worked_example_index": 2,
+      "verification": "精确根约0.00951，仍接近9.5%变化。",
+      "pitfall": "求出小数就未经检验接受近似。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用初始—变化—平衡表建立方程”的抽样复核：比0.80/0.20=4；总浓度1.0守恒。；若出现“把x当成A最终浓度。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“筛选物理可行根并复核近似”的抽样复核：精确根约0.00951，仍接近9.5%变化。；若出现“求出小数就未经检验接受近似。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把表中任意浓度混合使用。",
+        "correction": "必须使用同一平衡状态的相应量。",
+        "verification": "即使数值能相除也没有该物理含义。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "ICE表与物理解筛选",
+      "objects": [
+        "带物态配平方程",
+        "浓度或速率图",
+        "改变条件时刻",
+        "K/Q及适用条件"
+      ],
+      "relations": [
+        "2A消耗为2x而B生成x",
+        "x允许0至0.5",
+        "x=1导致负A应舍",
+        "x=0.25满足原K"
+      ],
+      "labels": [
+        "初始",
+        "变化",
+        "平衡",
+        "1−2x",
+        "x",
+        "K=x/(1−2x)²"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "旧平衡图仅在方程、温度和扰动条件一致时复用；否则保留并另列任务",
+      "english": "Create an exact equilibrium teaching diagram. Distinguish instantaneous physical changes in concentration from subsequent chemical shifts. Equilibrium means equal forward and reverse rates, not equal concentrations. State temperature and gas-volume conditions. A catalyst changes rates and approach time but not K or the final equilibrium at fixed temperature."
+    }
+  },
+  "21.3.1": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 21,
+    "section_id": "21.3.1",
+    "goals": [
+      "用Q与K判断加料或移除后的方向",
+      "区分瞬时物理跳变与重新平衡过程"
+    ],
+    "prerequisites": [
+      "平衡表达式",
+      "物质守恒与图像"
+    ],
+    "flow": [
+      "操作状态",
+      "Q变化",
+      "净方向",
+      "新K约束",
+      "新浓度与边界"
+    ],
+    "concept_relation": "操作状态；Q变化；净方向；新K约束；新浓度与边界",
+    "deep": [
+      "平衡移动的“抵抗”一般是部分抵消扰动，不保证恢复原浓度。例如原平衡A⇌B比为2，加A后再达平衡，A可能仍比原来多，因为总物质的量已经增大。只写“全部消耗加进去的量”通常违反新总量和平衡关系。",
+      "加入与平衡式中省略的纯固体相同物质，若相已存在且温度及其他条件不变，一般不会因增加其质量改变相应Q和气体平衡；若原有相耗尽、参与溶解或引起其他变化则另议。规则的物态和存在条件必须保留。",
+      "解题先写操作瞬间的浓度，再算Q或作定性比较，随后给净方向和最终约束。若要具体新浓度，还需结合变化量及K求解，不可从方向一句话得出全部数值。结论同时说明温度固定，所以K保持。"
+    ],
+    "derive": [
+      "固定温度：Q<K净正向，Q>K净逆向，Q=K处于相应平衡。",
+      "操作瞬间的物理浓度变化与随后的化学调整应分开作图。",
+      "平衡移动一般部分抵消扰动，不要求恢复各物种原浓度。"
+    ],
+    "examples": [
+      {
+        "q": "A⇌B在恒温下K=2，扰动后[A]=0.40、[B]=0.40 mol/L，净方向？ 条件：同一时刻浓度。",
+        "given": "同一时刻浓度。",
+        "analysis": "先算Q。",
+        "method": "Q=[B]/[A]。",
+        "principle": "Q与K比较。",
+        "steps": [
+          "Q=0.40/0.40=1。",
+          "1<2，净正向生成B。"
+        ],
+        "ans": "正向。",
+        "verification": "生成B、消耗A会使比值增大趋2。",
+        "pitfall": "把B=A当平衡判据。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.3.1",
+        "related_sections": []
+      },
+      {
+        "q": "原平衡[A]=0.20、[B]=0.40，恒容加A使[A]瞬时0.40，恒温K=2，求新平衡浓度。 条件：A⇌B，一比一，瞬时B不变。",
+        "given": "A⇌B，一比一，瞬时B不变。",
+        "analysis": "新增总浓度0.80。",
+        "method": "ICE并保持K。",
+        "principle": "质量守恒与K。",
+        "steps": [
+          "设正向x，(0.40+x)/(0.40−x)=2，x=0.1333。",
+          "新[A]≈0.2667、[B]≈0.5333 mol/L。"
+        ],
+        "ans": "约0.267与0.533 mol/L。",
+        "verification": "比为2，总0.80；A仍高于原0.20。",
+        "pitfall": "认为新增A必全部被消耗而回到0.20。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.3.1",
+        "related_sections": []
+      },
+      {
+        "q": "恒温、已有CaCO₃和CaO两纯固相的平衡容器，增加CaCO₃质量是否必增平衡CO₂浓度？ 条件：温度、体积不变且两相持续存在。",
+        "given": "温度、体积不变且两相持续存在。",
+        "analysis": "固体质量不在简化K项。",
+        "method": "按物态和条件判断。",
+        "principle": "K_c=[CO₂]的两相模型。",
+        "steps": [
+          "增加已有纯固体不改变其活度近似值。",
+          "相同温度K不变，CO₂平衡浓度不因此改变。"
+        ],
+        "ans": "不必；所述模型下不变。",
+        "verification": "若固相原先耗尽则不满足此条件，需另议。",
+        "pitfall": "把任何加反应物都无条件判正移。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.3.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "固定温度A⇌B，Q=5、K=2，净方向？ 条件：同一反应定义。",
+        "given": "同一反应定义。",
+        "analysis": "商偏大需降低。",
+        "method": "比较。",
+        "principle": "Q>K逆向。",
+        "steps": [
+          "5>2。",
+          "B净消耗、A增加。"
+        ],
+        "ans": "逆向。",
+        "verification": "分子降分母升使Q减小。",
+        "pitfall": "Q大就说正向更强。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.3.1",
+        "related_sections": []
+      },
+      {
+        "q": "固定温度移除产物，K会降低吗？ 条件：反应式和温度不变。",
+        "given": "反应式和温度不变。",
+        "analysis": "Q变而K不变。",
+        "method": "区分常数与当前状态。",
+        "principle": "K由温度及反应定义决定。",
+        "steps": [
+          "操作可降低Q。",
+          "K仍原值。"
+        ],
+        "ans": "不会因该操作本身降低。",
+        "verification": "体系正向调整恢复Q=K。",
+        "pitfall": "把Q变化当K变化。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.3.1",
+        "related_sections": []
+      },
+      {
+        "q": "恒容瞬时加入A，未加入B，B浓度一定也瞬时跳高吗？ 条件：无体积变化和其他瞬时操作。",
+        "given": "无体积变化和其他瞬时操作。",
+        "analysis": "化学调整需要有限时间。",
+        "method": "分操作与反应。",
+        "principle": "浓度图的因果关系。",
+        "steps": [
+          "A直接跳变。",
+          "B随后可随反应变化，不因未发生反应的加料瞬间凭空增多。"
+        ],
+        "ans": "不应画B同时跳高。",
+        "verification": "若体积改变则另作稀释处理。",
+        "pitfall": "所有曲线在扰动时一起同向跳。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.3.1",
+        "related_sections": []
+      },
+      {
+        "q": "达到新平衡后各物种是否必须恢复原浓度？ 条件：加料已改变总量。",
+        "given": "加料已改变总量。",
+        "analysis": "抵消不是完全恢复。",
+        "method": "结合总量与K。",
+        "principle": "新约束决定新组成。",
+        "steps": [
+          "同温仍满足原K。",
+          "但总量不同可使各浓度不同。"
+        ],
+        "ans": "不必须。",
+        "verification": "前例A由0.20最终0.267。",
+        "pitfall": "把勒沙特列原理当完全抵消。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.3.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "将浓溶液加入平衡体系时，能否只按“加反应物”判断而不问总体积？ 条件：加入可同时稀释其他物种。",
+      "given": "加入可同时稀释其他物种。",
+      "analysis": "多个浓度项一起变化。",
+      "method": "重算操作后的Q。",
+      "principle": "Q按所有相应项定义。",
+      "steps": [
+        "应由加入物质的量和新体积计算浓度。",
+        "再与同温K比较方向。"
+      ],
+      "ans": "不能忽略体积。",
+      "verification": "若各项系数不同，稀释本身也可影响Q。",
+      "pitfall": "只看新增溶质忽略稀释。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 21,
+      "primary_section": "21.3.1",
+      "related_sections": []
+    },
+    "exam": [
+      "浓度扰动先写瞬时状态，再比较Q/K，最后写化学调整",
+      "作图只让直接受操作的量瞬时跳变，并注明恒容/变容",
+      "有纯相或加溶液时核物态、相存在和体积，避免口号式判断"
+    ],
+    "quick": [
+      "操作状态",
+      "Q变化",
+      "净方向",
+      "新K约束",
+      "新浓度与边界"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 10,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_21.3.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+        "page_or_section": "13-3-shifting-equilibria-le-chateliers-principle",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 10,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_21.3.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+        "page_or_section": "13-3-shifting-equilibria-le-chateliers-principle",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "浓度扰动先写瞬时状态，再比较Q/K，最后写化学调整",
+      "method": "按物态和条件判断。",
+      "principle": "K_c=[CO₂]的两相模型。",
+      "worked_example_index": 2,
+      "verification": "若固相原先耗尽则不满足此条件，需另议。",
+      "pitfall": "把任何加反应物都无条件判正移。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用Q与K判断加料或移除后的方向”的抽样复核：生成B、消耗A会使比值增大趋2。；若出现“把B=A当平衡判据。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分瞬时物理跳变与重新平衡过程”的抽样复核：若固相原先耗尽则不满足此条件，需另议。；若出现“把任何加反应物都无条件判正移。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "只看新增溶质忽略稀释。",
+        "correction": "不能忽略体积。",
+        "verification": "若各项系数不同，稀释本身也可影响Q。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "加料的瞬时跳变与化学调整",
+      "objects": [
+        "带物态配平方程",
+        "浓度或速率图",
+        "改变条件时刻",
+        "K/Q及适用条件"
+      ],
+      "relations": [
+        "恒容加A时仅A直接上跳",
+        "随后A降B升",
+        "最终比值仍2但A不回原值"
+      ],
+      "labels": [
+        "[A]",
+        "[B]",
+        "加A时刻",
+        "K=2",
+        "0.267",
+        "0.533"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "旧平衡图仅在方程、温度和扰动条件一致时复用；否则保留并另列任务",
+      "english": "Create an exact equilibrium teaching diagram. Distinguish instantaneous physical changes in concentration from subsequent chemical shifts. Equilibrium means equal forward and reverse rates, not equal concentrations. State temperature and gas-volume conditions. A catalyst changes rates and approach time but not K or the final equilibrium at fixed temperature."
+    }
+  },
+  "21.3.2": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 21,
+    "section_id": "21.3.2",
+    "goals": [
+      "由压缩后的Q解释气相平衡移动",
+      "区分恒容和恒压加入惰性气体"
+    ],
+    "prerequisites": [
+      "理想气体",
+      "K_c与气体计量"
+    ],
+    "flow": [
+      "操作约束",
+      "浓度缩放",
+      "Δν",
+      "Q/K方向",
+      "即时与化学变化"
+    ],
+    "concept_relation": "操作约束；浓度缩放；Δν；Q/K方向；即时与化学变化",
+    "deep": [
+      "恒容、恒温加入不反应的惰性气体，原反应气体的n_i/V和分压不变。总压提高但相应Q不变，平衡不因此移动。若过程恒压，则加入惰性气体通常使总体积增大，原气体浓度减小，效果与等温膨胀类似，条件不同结果也不同。",
+      "液相或固相体积和浓度对普通压强变化的响应常很小，高中题可在明确近似下忽略。气体分子数规则不能把固体计量系数也加进去；混合相平衡应按Q中实际气体项和相存在条件处理。",
+      "作图与计算先列温度、体积、加入气体性质和约束条件，再求各反应气体操作后的浓度。判断净方向后，若求最终压强或产率还需质量守恒与K，不可直接把“向少气侧”变成一个未经计算的固定百分比。"
+    ],
+    "derive": [
+      "等温体积V→V/f时，气体浓度均乘f，Q′_c=f^Δν Q_c。",
+      "Δν=Σ气体产物系数−Σ气体反应物系数；不计纯固液。",
+      "恒温恒容加惰性气体：原反应气体n_i/V和分压不变，Q不变。"
+    ],
+    "examples": [
+      {
+        "q": "平衡2A(g)⇌B(g)等温体积减半，操作瞬间Q变成原K的几倍，净方向？ 条件：各气体浓度均乘2。",
+        "given": "各气体浓度均乘2。",
+        "analysis": "分子一次、分母二次。",
+        "method": "按Q=[B]/[A]²缩放。",
+        "principle": "Q与K判方向。",
+        "steps": [
+          "Q′=2[B]/(2[A])²=K/2。",
+          "Q′<K，净正向。"
+        ],
+        "ans": "K/2；向少气体的B侧。",
+        "verification": "正向消耗2份A形成1份B符合压缩趋势。",
+        "pitfall": "只看B浓度加倍就判Q加倍。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.3.2",
+        "related_sections": []
+      },
+      {
+        "q": "A(g)⇌B(g)两侧气体系数相同，等温压缩后是否移动？浓度是否不变？ 条件：理想气体、无其他反应。",
+        "given": "理想气体、无其他反应。",
+        "analysis": "比例与绝对浓度不同。",
+        "method": "求Q比。",
+        "principle": "Q=[B]/[A]。",
+        "steps": [
+          "两者浓度同乘f，Q不变。",
+          "无净化学移动，但即时浓度都增大。"
+        ],
+        "ans": "不移动；浓度发生物理增加。",
+        "verification": "把同倍因子约掉仅说明比值不变。",
+        "pitfall": "不移动就说所有浓度不变。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.3.2",
+        "related_sections": []
+      },
+      {
+        "q": "2A(g)⇌B(g)恒温恒压加入惰性气体，容器可膨胀，净方向？ 条件：惰性气体不反应，保持总压。",
+        "given": "惰性气体不反应，保持总压。",
+        "analysis": "体积增大使原气体稀释。",
+        "method": "按膨胀后的Q。",
+        "principle": "Q=[B]/[A]²。",
+        "steps": [
+          "设浓度同乘f<1，Q′=K/f>K。",
+          "净逆向生成较多气体A。"
+        ],
+        "ans": "逆向。",
+        "verification": "不是恒容情形；约束不同。",
+        "pitfall": "忽略恒压膨胀而套恒容不移动。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.3.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "恒温恒容加惰性气体会改变原反应物分压吗？ 条件：原n_i和V不变。",
+        "given": "原n_i和V不变。",
+        "analysis": "分压取决于该气体量。",
+        "method": "p_i=n_iRT/V。",
+        "principle": "理想混合气体。",
+        "steps": [
+          "n_i、T、V都未变。",
+          "p_i不变。"
+        ],
+        "ans": "不改变。",
+        "verification": "总压可增加而各原分压不变。",
+        "pitfall": "把总压当各分压。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.3.2",
+        "related_sections": []
+      },
+      {
+        "q": "N₂+3H₂⇌2NH₃等温压缩倾向哪侧？ 条件：全为气体、两侧4与2。",
+        "given": "全为气体、两侧4与2。",
+        "analysis": "气体总量不同。",
+        "method": "比较气体系数和。",
+        "principle": "等温压缩少气侧有利。",
+        "steps": [
+          "左侧4份，右侧2份。",
+          "净向右。"
+        ],
+        "ans": "NH₃侧。",
+        "verification": "Δν=−2，Q在压缩后下降。",
+        "pitfall": "按物种种类2与1而不是计量和。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.3.2",
+        "related_sections": []
+      },
+      {
+        "q": "A(g)+B(g)⇌C(g)+D(g)等温体积减半，Q如何变？ 条件：两侧各2份气体。",
+        "given": "两侧各2份气体。",
+        "analysis": "总幂相同。",
+        "method": "缩放浓度项。",
+        "principle": "Δν=0。",
+        "steps": [
+          "分子和分母都乘2²。",
+          "比值不变。"
+        ],
+        "ans": "不变。",
+        "verification": "不是浓度各自不变。",
+        "pitfall": "把压缩一律判右移。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.3.2",
+        "related_sections": []
+      },
+      {
+        "q": "CaCO₃(s)⇌CaO(s)+CO₂(g)算气体份数时要把固体系数算入吗？ 条件：采用普通压强近似及纯相模型。",
+        "given": "采用普通压强近似及纯相模型。",
+        "analysis": "规则针对气体项。",
+        "method": "按物态筛选。",
+        "principle": "Q仅含相应气体活度项。",
+        "steps": [
+          "左气体0份，右1份。",
+          "两固体不加入气体份数。"
+        ],
+        "ans": "不算。",
+        "verification": "不能用左1右2作气体数。",
+        "pitfall": "忽略物态把所有系数相加。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.3.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "题目只说“总压升高”，未说明温度和操作，是否足以唯一判断移动？ 条件：可有压缩、升温、加惰性气体等不同途径。",
+      "given": "可有压缩、升温、加惰性气体等不同途径。",
+      "analysis": "同一总压变化可有不同Q变化。",
+      "method": "列两个反例操作。",
+      "principle": "状态变量与操作约束。",
+      "steps": [
+        "等温压缩可改变原浓度；恒温恒容加惰性气体不改变原浓度。",
+        "两者都可升总压却未必同移动。"
+      ],
+      "ans": "不足，需说明操作和约束。",
+      "verification": "升温还可能改变K，进一步不同。",
+      "pitfall": "把总压作为唯一方向判据。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 21,
+      "primary_section": "21.3.2",
+      "related_sections": []
+    },
+    "exam": [
+      "压强题先圈恒温、恒容、恒压和加何种气体",
+      "用浓度同倍缩放Q复核气体系数口诀",
+      "不移动时仍须说明物理浓度/压强是否改变，化学移动与状态跳变分开"
+    ],
+    "quick": [
+      "操作约束",
+      "浓度缩放",
+      "Δν",
+      "Q/K方向",
+      "即时与化学变化"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 10,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_21.3.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+        "page_or_section": "13-3-shifting-equilibria-le-chateliers-principle",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 10,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_21.3.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+        "page_or_section": "13-3-shifting-equilibria-le-chateliers-principle",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "压强题先圈恒温、恒容、恒压和加何种气体",
+      "method": "按膨胀后的Q。",
+      "principle": "Q=[B]/[A]²。",
+      "worked_example_index": 2,
+      "verification": "不是恒容情形；约束不同。",
+      "pitfall": "忽略恒压膨胀而套恒容不移动。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由压缩后的Q解释气相平衡移动”的抽样复核：正向消耗2份A形成1份B符合压缩趋势。；若出现“只看B浓度加倍就判Q加倍。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分恒容和恒压加入惰性气体”的抽样复核：不是恒容情形；约束不同。；若出现“忽略恒压膨胀而套恒容不移动。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把总压作为唯一方向判据。",
+        "correction": "不足，需说明操作和约束。",
+        "verification": "升温还可能改变K，进一步不同。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "压缩与惰性气体的不同约束",
+      "objects": [
+        "带物态配平方程",
+        "浓度或速率图",
+        "改变条件时刻",
+        "K/Q及适用条件"
+      ],
+      "relations": [
+        "2A⇌B压缩Q变K/2",
+        "恒容加惰性气体Q不变",
+        "恒压加惰性气体膨胀可逆移"
+      ],
+      "labels": [
+        "恒温",
+        "恒容",
+        "恒压",
+        "2A(g)⇌B(g)",
+        "Q/K"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "旧平衡图仅在方程、温度和扰动条件一致时复用；否则保留并另列任务",
+      "english": "Create an exact equilibrium teaching diagram. Distinguish instantaneous physical changes in concentration from subsequent chemical shifts. Equilibrium means equal forward and reverse rates, not equal concentrations. State temperature and gas-volume conditions. A catalyst changes rates and approach time but not K or the final equilibrium at fixed temperature."
+    }
+  },
+  "21.3.3": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 21,
+    "section_id": "21.3.3",
+    "goals": [
+      "按吸放热方向判断温度改变后的平衡",
+      "区分温度对K、速率和初始物理状态的不同作用"
+    ],
+    "prerequisites": [
+      "反应热",
+      "动态平衡与速率"
+    ],
+    "flow": [
+      "正向热效应",
+      "温度改变",
+      "吸热侧有利",
+      "新K",
+      "动力学与产率"
+    ],
+    "concept_relation": "正向热效应；温度改变；吸热侧有利；新K；动力学与产率",
+    "deep": [
+      "温度也影响正逆速率。升温可能使正反应瞬时更快，却仍使新平衡产物比例降低，因为逆反应也会变化。速率快慢、达到平衡时间和最终平衡组成是三个不同问题，结论应分别给出。",
+      "温度改变还可能让气体压强或体积发生即时物理变化。若需用Q严谨判断，应按实际约束重新计算状态并比较新K，不能在所有装置中假定初始Q数值必保持。高中定性吸放热规则是在适当模型下对最终趋势的概括。",
+      "实验判吸放热可观察已知平衡体系在升温后哪侧增加，并保持其他条件可比。若颜色还随温度有非反应性变化、或装置漏气，则需排除替代解释。不要单凭“反应更剧烈”就断定它是吸热或放热。"
+    ],
+    "derive": [
+      "正向ΔH<0：升温通常使K减小；正向ΔH>0：升温通常使K增大。",
+      "升温有利吸热方向；降温有利放热方向。",
+      "热不作为一个浓度项写入K；速率变化不能直接替代平衡组成变化。"
+    ],
+    "examples": [
+      {
+        "q": "A⇌B正向ΔH<0，升温后B平衡比例一般怎样，K怎样？ 条件：采用同一总反应与适当温区模型。",
+        "given": "采用同一总反应与适当温区模型。",
+        "analysis": "逆向为吸热方向。",
+        "method": "按热效应判方向。",
+        "principle": "升温有利吸热方向。",
+        "steps": [
+          "升温有利B返回A。",
+          "产物B相对减少，对该写法K减小。"
+        ],
+        "ans": "B比例下降、K减小。",
+        "verification": "若反写B⇌A，则对应K倒数增大，逻辑一致。",
+        "pitfall": "以升温反应更快判B必更多。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.3.3",
+        "related_sections": []
+      },
+      {
+        "q": "某平衡A⇌B升温后K由2增到5，正向吸热还是放热？ 条件：同一反应式与标准约定。",
+        "given": "同一反应式与标准约定。",
+        "analysis": "新温度产物相对更有利。",
+        "method": "由K趋势反推热方向。",
+        "principle": "升温有利吸热方向。",
+        "steps": [
+          "K增大说明B侧平衡相对有利。",
+          "升温有利正向，故正向吸热。"
+        ],
+        "ans": "正向吸热。",
+        "verification": "反向为放热，对应K趋势相反。",
+        "pitfall": "把K变大当反应热更负。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.3.3",
+        "related_sections": []
+      },
+      {
+        "q": "放热合成反应升温后反应更快，能否据此说平衡产率也提高？ 条件：动力学与平衡分开。",
+        "given": "动力学与平衡分开。",
+        "analysis": "正逆速率都受温度影响。",
+        "method": "分别讨论时间与最终状态。",
+        "principle": "速率和K不同。",
+        "steps": [
+          "较高温可能加快达到平衡。",
+          "但放热正向通常在升温时平衡产率降低。"
+        ],
+        "ans": "不能；可更快但最终平衡产率更低。",
+        "verification": "工业常需折中而非只取最低或最高温。",
+        "pitfall": "将快慢与产率绑定。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.3.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "正向吸热反应升温，平衡一般向哪侧？ 条件：明确所写正向吸热。",
+        "given": "明确所写正向吸热。",
+        "analysis": "热方向已知。",
+        "method": "勒沙特列温度判断。",
+        "principle": "升温有利吸热。",
+        "steps": [
+          "正向消耗所需能量。",
+          "升温有利正向。"
+        ],
+        "ans": "向产物侧。",
+        "verification": "该写法K通常增大。",
+        "pitfall": "所有升温都判逆向。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.3.3",
+        "related_sections": []
+      },
+      {
+        "q": "正向放热反应降温，K一般怎样？ 条件：同一反应和适当温区。",
+        "given": "同一反应和适当温区。",
+        "analysis": "降温有利放热正向。",
+        "method": "连方向与K。",
+        "principle": "产物侧平衡有利使K增大。",
+        "steps": [
+          "降温促进产物相对比例。",
+          "该式K增大。"
+        ],
+        "ans": "增大。",
+        "verification": "与升温使K减小相反。",
+        "pitfall": "把所有降温判K减小。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.3.3",
+        "related_sections": []
+      },
+      {
+        "q": "能否将热写进K为[B]/([A][热])？ 条件：热不是普通浓度物种。",
+        "given": "热不是普通浓度物种。",
+        "analysis": "助记方程不等于浓度项。",
+        "method": "按K定义核对象。",
+        "principle": "K由化学物种活度组成。",
+        "steps": [
+          "热可作方向助记。",
+          "没有该式所需的普通[热]浓度。"
+        ],
+        "ans": "不能。",
+        "verification": "温度影响体现为K随T变。",
+        "pitfall": "把热完全当溶质。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.3.3",
+        "related_sections": []
+      },
+      {
+        "q": "观察到升温后颜色加深就一定证明正向吸热吗？ 条件：未知哪种物质有色及其他温度效应。",
+        "given": "未知哪种物质有色及其他温度效应。",
+        "analysis": "需要颜色与组成关系。",
+        "method": "补必要证据。",
+        "principle": "观测解释须排除替代原因。",
+        "steps": [
+          "需知加深对应哪一侧增加。",
+          "还需排除温度本身光谱或浓缩等影响。"
+        ],
+        "ans": "不能仅凭这句。",
+        "verification": "有色物种身份明确且公平对照后才支持方向。",
+        "pitfall": "见颜色变深一律判右移。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.3.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "“同温K不变”能否用于温度已改变的实验？ 条件：温度是K的重要条件。",
+      "given": "温度是K的重要条件。",
+      "analysis": "命题前提不再满足。",
+      "method": "检查适用条件。",
+      "principle": "K的温度依赖。",
+      "steps": [
+        "加料或催化不改同温K。",
+        "升降温需使用新温度的K或相应趋势。"
+      ],
+      "ans": "不能直接沿用。",
+      "verification": "同一反应的K可随T变化。",
+      "pitfall": "把K称常数就误当对所有温度恒定。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 21,
+      "primary_section": "21.3.3",
+      "related_sections": []
+    },
+    "exam": [
+      "温度题先写正向ΔH，再标吸热方向和K趋势",
+      "把达到速度、平衡产率分别回答，尤其工业题",
+      "实验颜色题说明信号对应哪种物质，并排除温度的非反应性影响"
+    ],
+    "quick": [
+      "正向热效应",
+      "温度改变",
+      "吸热侧有利",
+      "新K",
+      "动力学与产率"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 10,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_21.3.3",
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+        "page_or_section": "13-3-shifting-equilibria-le-chateliers-principle",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 10,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_21.3.3",
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+        "page_or_section": "13-3-shifting-equilibria-le-chateliers-principle",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "温度题先写正向ΔH，再标吸热方向和K趋势",
+      "method": "分别讨论时间与最终状态。",
+      "principle": "速率和K不同。",
+      "worked_example_index": 2,
+      "verification": "工业常需折中而非只取最低或最高温。",
+      "pitfall": "将快慢与产率绑定。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“按吸放热方向判断温度改变后的平衡”的抽样复核：若反写B⇌A，则对应K倒数增大，逻辑一致。；若出现“以升温反应更快判B必更多。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分温度对K、速率和初始物理状态的不同作用”的抽样复核：工业常需折中而非只取最低或最高温。；若出现“将快慢与产率绑定。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把K称常数就误当对所有温度恒定。",
+        "correction": "不能直接沿用。",
+        "verification": "同一反应的K可随T变化。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "温度与K、速率的分层影响",
+      "objects": [
+        "带物态配平方程",
+        "浓度或速率图",
+        "改变条件时刻",
+        "K/Q及适用条件"
+      ],
+      "relations": [
+        "放热正向升温K下降",
+        "升温可同时加快达到过程",
+        "热不画作可计浓度粒子"
+      ],
+      "labels": [
+        "ΔH<0",
+        "升温",
+        "K减小",
+        "达到时间",
+        "平衡产率"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "旧平衡图仅在方程、温度和扰动条件一致时复用；否则保留并另列任务",
+      "english": "Create an exact equilibrium teaching diagram. Distinguish instantaneous physical changes in concentration from subsequent chemical shifts. Equilibrium means equal forward and reverse rates, not equal concentrations. State temperature and gas-volume conditions. A catalyst changes rates and approach time but not K or the final equilibrium at fixed temperature."
+    }
+  },
+  "21.3.4": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 21,
+    "section_id": "21.3.4",
+    "goals": [
+      "用正逆过程解释催化不移动平衡",
+      "辨认图线中时间与终点的不同信息"
+    ],
+    "prerequisites": [
+      "催化路径",
+      "K与动态平衡"
+    ],
+    "flow": [
+      "替代路径",
+      "双向速率",
+      "同温K",
+      "平台与时间",
+      "工业效率"
+    ],
+    "concept_relation": "替代路径；双向速率；同温K；平台与时间；工业效率",
+    "deep": [
+      "尚未平衡的两个相同体系，有催化剂者可更早达到相同终点。浓度—时间图上通常是到达平台时间不同而平台相同；若图的平台不同，应核温度、总量、相变、副反应或吸附等其他因素，而不是只用催化解释全部差异。",
+      "现实催化剂加入可能携带溶剂、引起温度变化或与某物种发生额外反应。若有这些效应，组成变化不再是“仅催化作用”的实验。题目明确理想条件时可以用不改K结论；实验评价则应检查是否真的保持这些条件。",
+      "工业上催化剂仍很重要，因为可改善反应时间和所需操作条件，允许选择较适合平衡与能耗的温区。它的价值不是把热力学平衡强行改写，而是在既定或经其他条件调整的平衡约束下改善过程效率。"
+    ],
+    "derive": [
+      "固定T、同一总反应：加催化剂K不变，平衡组成不因仅催化作用改变。",
+      "已平衡体系可有v正、v逆同时增大且保持相等。",
+      "浓度图的到达时间改变与平台改变是两个不同信号。"
+    ],
+    "examples": [
+      {
+        "q": "平衡时正逆速率均0.02，题设催化后两方向均增至0.10，是否发生净移动？ 条件：单位与进度定义相同。",
+        "given": "单位与进度定义相同。",
+        "analysis": "净量取两向之差。",
+        "method": "比较催化后速率。",
+        "principle": "动态平衡。",
+        "steps": [
+          "0.10−0.10=0。",
+          "两向更快但无净变化。"
+        ],
+        "ans": "不移动，微观过程更快。",
+        "verification": "前后净速率都0。",
+        "pitfall": "速率升高就一定正移。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.3.4",
+        "related_sections": []
+      },
+      {
+        "q": "相同初态和温度的两体系，一组更早到相同产物浓度平台，这与仅催化作用相容吗？ 条件：无额外物料与副反应。",
+        "given": "无额外物料与副反应。",
+        "analysis": "时间变化而终点未变。",
+        "method": "读浓度图。",
+        "principle": "催化加速达到同一平衡。",
+        "steps": [
+          "早达到说明过程较快。",
+          "相同平台说明最终平衡组成未因此改变。"
+        ],
+        "ans": "相容。",
+        "verification": "不能据此给K赋不同值。",
+        "pitfall": "见曲线更陡就画更高平台。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.3.4",
+        "related_sections": []
+      },
+      {
+        "q": "某所谓“催化实验”平台更高，且加入物使温度升高，能否把增产全归因催化移动平衡？ 条件：温度也改变。",
+        "given": "温度也改变。",
+        "analysis": "不满足只改催化的条件。",
+        "method": "分离温度与路径效应。",
+        "principle": "K可随温度变化但不随仅催化改变。",
+        "steps": [
+          "升温可能改变K及物理状态。",
+          "应控温再比较，平台差不能直接当催化改平衡。"
+        ],
+        "ans": "不能。",
+        "verification": "公平恒温对照可排除该混杂。",
+        "pitfall": "忽略反应放热或加入物温度。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.3.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "平衡体系加催化剂，K由3变6，这能用仅催化作用解释吗？ 条件：同温同反应定义。",
+        "given": "同温同反应定义。",
+        "analysis": "K不由路径决定。",
+        "method": "核前提。",
+        "principle": "催化不改K。",
+        "steps": [
+          "仅催化应保持K=3。",
+          "若变6需查温度、反应定义或数据等。"
+        ],
+        "ans": "不能。",
+        "verification": "须另有条件变化或错误。",
+        "pitfall": "K跟速率倍数一起变。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.3.4",
+        "related_sections": []
+      },
+      {
+        "q": "加催化剂使浓度不变，能否说微观反应也必不变？ 条件：体系原已平衡。",
+        "given": "体系原已平衡。",
+        "analysis": "宏观净零与各向速率不同。",
+        "method": "区分两个层次。",
+        "principle": "动态平衡。",
+        "steps": [
+          "两向速率可能同时增加。",
+          "差仍为0，浓度保持。"
+        ],
+        "ans": "不能。",
+        "verification": "同位素交换等可反映动态过程。",
+        "pitfall": "浓度不变等于完全静止。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.3.4",
+        "related_sections": []
+      },
+      {
+        "q": "无催化达到平衡需100 s，有催化20 s，能从此直接求K吗？ 条件：只给时间未给组成或动力学模型。",
+        "given": "只给时间未给组成或动力学模型。",
+        "analysis": "达到时间不是平衡比。",
+        "method": "判断数据是否足够。",
+        "principle": "K由平衡活度关系定义。",
+        "steps": [
+          "时间表明相对过程快慢。",
+          "没有浓度/分压等，不能唯一求K。"
+        ],
+        "ans": "不能。",
+        "verification": "5倍时间差不等于K=5。",
+        "pitfall": "把时间比直接当K。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.3.4",
+        "related_sections": []
+      },
+      {
+        "q": "催化剂在总反应中净消耗为零，是否不参与任何中间步骤？ 条件：考虑循环机制。",
+        "given": "考虑循环机制。",
+        "analysis": "净计量与步骤不同。",
+        "method": "按催化定义解释。",
+        "principle": "参与并再生。",
+        "steps": [
+          "催化剂可先形成中间形式。",
+          "随后再生，总式消去。"
+        ],
+        "ans": "不是。",
+        "verification": "否则无法提供不同路径。",
+        "pitfall": "被总式消去就认为从未反应。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.3.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "催化不提高同温平衡产率，为何仍有工业价值？ 条件：过程速度和操作条件也重要。",
+      "given": "过程速度和操作条件也重要。",
+      "analysis": "产率不是唯一效率指标。",
+      "method": "联系时间、条件与能耗。",
+      "principle": "动力学和平衡共同限制。",
+      "steps": [
+        "催化可缩短达到所需转化的时间。",
+        "也可帮助在更适宜的条件运行，但平衡改善若有须归于温度等另外条件。"
+      ],
+      "ans": "改善过程效率与可用操作条件，不是直接改K。",
+      "verification": "不会因同温平台不变就失去加速价值。",
+      "pitfall": "把无平衡增产误当无任何用途。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 21,
+      "primary_section": "21.3.4",
+      "related_sections": []
+    },
+    "exam": [
+      "平衡题对催化分别回答K、平台和达到时间",
+      "速率图若两向同时上跳且相等，不能判净移动",
+      "实验平台改变先查温度、物料和副过程，不将所有效应归催化"
+    ],
+    "quick": [
+      "替代路径",
+      "双向速率",
+      "同温K",
+      "平台与时间",
+      "工业效率"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 10,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_21.3.4",
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+        "page_or_section": "13-3-shifting-equilibria-le-chateliers-principle",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 10,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_21.3.4",
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+        "page_or_section": "13-3-shifting-equilibria-le-chateliers-principle",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "平衡题对催化分别回答K、平台和达到时间",
+      "method": "分离温度与路径效应。",
+      "principle": "K可随温度变化但不随仅催化改变。",
+      "worked_example_index": 2,
+      "verification": "公平恒温对照可排除该混杂。",
+      "pitfall": "忽略反应放热或加入物温度。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用正逆过程解释催化不移动平衡”的抽样复核：前后净速率都0。；若出现“速率升高就一定正移。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“辨认图线中时间与终点的不同信息”的抽样复核：公平恒温对照可排除该混杂。；若出现“忽略反应放热或加入物温度。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把无平衡增产误当无任何用途。",
+        "correction": "改善过程效率与可用操作条件，不是直接改K。",
+        "verification": "不会因同温平台不变就失去加速价值。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "催化改变时间而非平衡平台",
+      "objects": [
+        "带物态配平方程",
+        "浓度或速率图",
+        "改变条件时刻",
+        "K/Q及适用条件"
+      ],
+      "relations": [
+        "催化曲线更早到同平台",
+        "速率两向同时增大仍相等",
+        "K标为同一值"
+      ],
+      "labels": [
+        "有催化",
+        "无催化",
+        "同温",
+        "v正=v逆",
+        "K不变"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "旧平衡图仅在方程、温度和扰动条件一致时复用；否则保留并另列任务",
+      "english": "Create an exact equilibrium teaching diagram. Distinguish instantaneous physical changes in concentration from subsequent chemical shifts. Equilibrium means equal forward and reverse rates, not equal concentrations. State temperature and gas-volume conditions. A catalyst changes rates and approach time but not K or the final equilibrium at fixed temperature."
+    }
+  },
+  "21.4": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 21,
+    "section_id": "21.4",
+    "goals": [
+      "将多种扰动整合为有条件的判断",
+      "在工业情境中权衡平衡、速率、成本与安全"
+    ],
+    "prerequisites": [
+      "本章浓度压强温度与催化",
+      "化学计量"
+    ],
+    "flow": [
+      "完整反应",
+      "逐因素表",
+      "竞争与数据",
+      "速度产率",
+      "流程与工程约束"
+    ],
+    "concept_relation": "完整反应；逐因素表；竞争与数据；速度产率；流程与工程约束",
+    "deep": [
+      "工业条件不仅追求某一次平衡比例，也考虑单位时间产量、能耗、压缩成本、设备和安全、物料分离及循环。低温可能有利放热反应产率，却使速率太慢；较高压力可能改善少气侧平衡，但不能无限提高而忽略工程限制。",
+      "连续移除产物、回收未反应原料可影响实际流程效率。移除产物使剩余体系有继续正向的趋势，但装置属于有物料进出的过程时，不能把整个工厂稳态直接叫做一个封闭容器的平衡。单程转化与循环后的总利用率也不同。",
+      "作综合题宜用表格逐因素记录“立即改变什么—K是否变—Q如何变或热方向—净趋势—工程限制”。最后回到题目问的指标，不虚构官方分值、真实工厂精确产率或没有资料支持的最佳操作温度。"
+    ],
+    "derive": [
+      "恒温组成/体积扰动：优先比较操作后Q与K；变温另用新K及热效应。",
+      "多因素反向作用时，定性原理通常不足唯一计算净转化。",
+      "流程评价区分单程转化、循环利用、达到速度与总体成本。"
+    ],
+    "examples": [
+      {
+        "q": "N₂(g)+3H₂(g)⇌2NH₃(g)为放热，分别说降温、等温压缩、催化对平衡和过程的作用。 条件：按给定理想反应模型。",
+        "given": "按给定理想反应模型。",
+        "analysis": "三因素作用层次不同。",
+        "method": "逐项分类。",
+        "principle": "温度热效应、气体份数及催化原理。",
+        "steps": [
+          "降温通常利正向平衡但可能使过程慢；等温压缩利右侧2份气体。",
+          "催化缩短达到时间，不改同温K和平衡产率。"
+        ],
+        "ans": "按三项分别说明，不能合成“都增加K”。",
+        "verification": "左4右2、ΔH<0是前两判断的具体依据。",
+        "pitfall": "所有措施都写平衡向右。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.4",
+        "related_sections": []
+      },
+      {
+        "q": "对放热反应N₂(g)+3H₂(g)⇌2NH₃(g)，同时升温与压缩，能只凭勒沙特列定出最终NH₃一定增加吗？ 条件：未给新温度K或具体状态。",
+        "given": "未给新温度K或具体状态。",
+        "analysis": "两个方向可能竞争。",
+        "method": "逐因素分析并审证据不足。",
+        "principle": "定性趋势不提供竞争大小。",
+        "steps": [
+          "升温对放热正向平衡不利，压缩有利。",
+          "缺数据不能唯一判断净组成变化。"
+        ],
+        "ans": "不能唯一确定。",
+        "verification": "需新K、总体积/总量等进行计算。",
+        "pitfall": "将自己偏好因素认定必胜。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.4",
+        "related_sections": []
+      },
+      {
+        "q": "单程100 mol原料中反应30 mol，其余全部回收且下一轮同转化比例，理想两轮累计反应多少？ 条件：每轮转化未反应原料的30%，无损失。",
+        "given": "每轮转化未反应原料的30%，无损失。",
+        "analysis": "循环利用不是提高单程平衡常数。",
+        "method": "分轮计物料。",
+        "principle": "每轮以剩余量为基准。",
+        "steps": [
+          "首轮30，剩70。",
+          "次轮0.30×70=21，累计51 mol。"
+        ],
+        "ans": "累计51 mol，单轮转化条件未改。",
+        "verification": "剩余49，反应加剩余合100。",
+        "pitfall": "直接把30%两轮加成60 mol。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "为何放热合成不能只为平衡产率而无限降温？ 条件：还需可接受速度与工程条件。",
+        "given": "还需可接受速度与工程条件。",
+        "analysis": "热力学和动力学不同。",
+        "method": "解释折中。",
+        "principle": "温度同时影响K与速率。",
+        "steps": [
+          "降温可能利产物平衡。",
+          "但反应可太慢，单位时间产量低。"
+        ],
+        "ans": "需平衡产率与速率等折中。",
+        "verification": "催化可改善速度但不是使K任意大。",
+        "pitfall": "只考虑最终平衡不考虑时间。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.4",
+        "related_sections": []
+      },
+      {
+        "q": "从平衡体系连续移除产物，剩余体系通常有何趋势？ 条件：温度固定、其他条件相应明确。",
+        "given": "温度固定、其他条件相应明确。",
+        "analysis": "产物活度降低使Q下降。",
+        "method": "Q与K。",
+        "principle": "Q<K时正向。",
+        "steps": [
+          "移除产物降低分子项。",
+          "体系倾向继续生成产物。"
+        ],
+        "ans": "通常净正向。",
+        "verification": "不等于该流程整体是封闭平衡。",
+        "pitfall": "说K因移除而变大。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.4",
+        "related_sections": []
+      },
+      {
+        "q": "单程转化率30%，循环后总利用率更高，能否说K一定被循环提高？ 条件：温度与反应定义未变。",
+        "given": "温度与反应定义未变。",
+        "analysis": "流程回收改变总利用而非热力学常数。",
+        "method": "区分指标。",
+        "principle": "K与流程安排不同。",
+        "steps": [
+          "回收给未反应物更多机会。",
+          "同温每次平衡关系仍由原K决定。"
+        ],
+        "ans": "不能。",
+        "verification": "前例两轮51%而单程模型仍30%。",
+        "pitfall": "总利用率当成K。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.4",
+        "related_sections": []
+      },
+      {
+        "q": "提高压力利少气侧，是否可不考虑设备成本无限加压？ 条件：真实工程有约束。",
+        "given": "真实工程有约束。",
+        "analysis": "平衡有利不等于总体最优。",
+        "method": "列其他限制。",
+        "principle": "多目标工程权衡。",
+        "steps": [
+          "压缩耗能、材料与安全要求会增加。",
+          "需比较收益与限制。"
+        ],
+        "ans": "不能。",
+        "verification": "即使平衡改善也可能成本不合适。",
+        "pitfall": "定性有利即无限实施。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 21,
+        "primary_section": "21.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "面对复杂工况，怎样避免只写“向抵抗改变方向移动”的空话？ 条件：题目需解释具体判断。",
+      "given": "题目需解释具体判断。",
+      "analysis": "原理须落到变量与反应。",
+      "method": "建立因素表。",
+      "principle": "Q/K、热效应及气体计量。",
+      "steps": [
+        "先列方程物态、热效应及每个操作约束。",
+        "分别写即时影响、K或Q变化、净趋势及仍需的数据。"
+      ],
+      "ans": "给具体对象、模型和证据边界。",
+      "verification": "每个方向结论都能回到一个明确关系。",
+      "pitfall": "泛泛重复原理却不判断本题。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 21,
+      "primary_section": "21.4",
+      "related_sections": []
+    },
+    "exam": [
+      "综合题先列完整反应条件，再逐因素说明K/Q或热方向",
+      "多因素反向作用时诚实说明需定量数据，不强猜净结果",
+      "工业题分别谈平衡、速度、分离循环和成本安全，禁止虚构最佳数值"
+    ],
+    "quick": [
+      "完整反应",
+      "逐因素表",
+      "竞争与数据",
+      "速度产率",
+      "流程与工程约束"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 10,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_21.4",
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+        "page_or_section": "13-3-shifting-equilibria-le-chateliers-principle",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 10,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_21.4",
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+        "page_or_section": "13-3-shifting-equilibria-le-chateliers-principle",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "综合题先列完整反应条件，再逐因素说明K/Q或热方向",
+      "method": "分轮计物料。",
+      "principle": "每轮以剩余量为基准。",
+      "worked_example_index": 2,
+      "verification": "剩余49，反应加剩余合100。",
+      "pitfall": "直接把30%两轮加成60 mol。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“将多种扰动整合为有条件的判断”的抽样复核：左4右2、ΔH<0是前两判断的具体依据。；若出现“所有措施都写平衡向右。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“在工业情境中权衡平衡、速率、成本与安全”的抽样复核：剩余49，反应加剩余合100。；若出现“直接把30%两轮加成60 mol。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "泛泛重复原理却不判断本题。",
+        "correction": "给具体对象、模型和证据边界。",
+        "verification": "每个方向结论都能回到一个明确关系。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "平衡应用的多因素决策表",
+      "objects": [
+        "带物态配平方程",
+        "浓度或速率图",
+        "改变条件时刻",
+        "K/Q及适用条件"
+      ],
+      "relations": [
+        "降温利放热平衡但可减速",
+        "压缩利少气侧但有工程成本",
+        "催化不改K",
+        "循环提高总利用率不等于改K"
+      ],
+      "labels": [
+        "温度",
+        "浓度",
+        "体积/压强",
+        "催化",
+        "K/Q",
+        "单程与循环"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "旧平衡图仅在方程、温度和扰动条件一致时复用；否则保留并另列任务",
+      "english": "Create an exact equilibrium teaching diagram. Distinguish instantaneous physical changes in concentration from subsequent chemical shifts. Equilibrium means equal forward and reverse rates, not equal concentrations. State temperature and gas-volume conditions. A catalyst changes rates and approach time but not K or the final equilibrium at fixed temperature."
+    }
+  }
+}

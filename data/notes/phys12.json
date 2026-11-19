@@ -1,0 +1,1514 @@
+{
+  "12.1": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 12,
+    "section_id": "12.1",
+    "goals": [
+      "用扩散和布朗运动区分观察与微观推断",
+      "解释分子相互作用及模型限制"
+    ],
+    "prerequisites": [
+      "初中粒子观",
+      "随机运动与力"
+    ],
+    "flow": [
+      "观察现象",
+      "直接对象",
+      "随机碰撞",
+      "相互作用",
+      "模型边界"
+    ],
+    "concept_relation": "观察现象；直接对象；随机碰撞；相互作用；模型边界",
+    "deep": [
+      "微粒越小，来自各方向碰撞的不平衡效应通常越明显；温度改变也可影响观测运动。比较实验应控制介质、粒子尺寸和观察时间，避免把平台振动、对流或人为扰动当成全部微观原因。",
+      "分子之间同时有吸引与排斥作用，合力随距离变化。适当平衡距离处合力可为零，不表示两种作用都不存在；压得更近时短程排斥显著，拉开到一定范围可表现吸引，远离后作用又可变弱。",
+      "液体混合后体积未必等于原体积和，需从粒子排列与相互作用重排理解，质量仍应守恒。不能把体积减少说成物质消失，也不把粒子间空隙画成按宏观石块堆积完全等同的结构。解释应以实验现象、模型推断及未直接观察的层次分别陈述。"
+    ],
+    "derive": [
+      "布朗运动的直接对象是悬浮微粒；周围流体分子运动是由其间接支持的微观解释。",
+      "分子合力为吸引和排斥的合成；F合=0不等于各作用都0。",
+      "封闭无损失混合质量守恒，体积可因状态与相互作用重排而非简单相加。"
+    ],
+    "examples": [
+      {
+        "q": "显微镜中看见墨汁小颗粒无规则移动，是否直接看见水分子？ 条件：观察对象是悬浮颗粒。",
+        "given": "观察对象是悬浮颗粒。",
+        "analysis": "尺度和对象不同。",
+        "method": "区分直接观察与解释。",
+        "principle": "布朗运动机制。",
+        "steps": [
+          "可见颗粒受许多水分子不平衡碰撞。",
+          "所看见的是颗粒运动，不是单个水分子的轨迹。"
+        ],
+        "ans": "不是，是间接证据。",
+        "verification": "可见颗粒包含许多原子或分子。",
+        "pitfall": "把布朗轨迹标为单个水分子实测轨迹。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.1",
+        "related_sections": []
+      },
+      {
+        "q": "两种液体在封闭无损失混合后总体积减少，质量是否也必减少？ 条件：无泄漏、蒸发和反应物逸散。",
+        "given": "无泄漏、蒸发和反应物逸散。",
+        "analysis": "体积与质量不同。",
+        "method": "用守恒和结构解释。",
+        "principle": "质量守恒。",
+        "steps": [
+          "粒子排列和相互作用可使混合体积非加和。",
+          "物质未离开，质量仍为原质量和。"
+        ],
+        "ans": "不必，按条件质量守恒。",
+        "verification": "密度可随总体积变化。",
+        "pitfall": "体积减少就说粒子消失。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.1",
+        "related_sections": []
+      },
+      {
+        "q": "分子在某距离合力为零，能否说吸引和排斥都不存在？ 条件：两作用可能同时存在。",
+        "given": "两作用可能同时存在。",
+        "analysis": "合力为零可由抵消产生。",
+        "method": "比较分力与合力。",
+        "principle": "矢量合成。",
+        "steps": [
+          "吸引与排斥大小可相等、方向相反。",
+          "合为零不代表各自为零。"
+        ],
+        "ans": "不能。",
+        "verification": "像平衡受力也可各力非零。",
+        "pitfall": "把合力零当无相互作用。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "扩散只发生于液体吗？ 条件：不同物态均有粒子运动。",
+        "given": "不同物态均有粒子运动。",
+        "analysis": "介质影响速度而非唯一允许物态。",
+        "method": "按现象分类。",
+        "principle": "扩散可跨多种物态。",
+        "steps": [
+          "气体可混合，固体成分也可缓慢扩散。",
+          "不只液体。"
+        ],
+        "ans": "不是。",
+        "verification": "快慢与介质和温度相关。",
+        "pitfall": "只把染料入水当唯一扩散。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.1",
+        "related_sections": []
+      },
+      {
+        "q": "较大悬浮颗粒通常比更小颗粒布朗运动明显吗？ 条件：其他条件相同。",
+        "given": "其他条件相同。",
+        "analysis": "碰撞平均抵消程度不同。",
+        "method": "解释尺寸影响。",
+        "principle": "不平衡碰撞。",
+        "steps": [
+          "更小颗粒更易显示不平衡作用。",
+          "大颗粒相对不规则效应通常不如小颗粒明显。"
+        ],
+        "ans": "一般不是，小粒更明显。",
+        "verification": "不能忽略沉降和可见性等实验条件。",
+        "pitfall": "粒子大所以一定撞得更乱。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.1",
+        "related_sections": []
+      },
+      {
+        "q": "染料沿明显水流快速运动，能只用它证明纯分子扩散速率吗？ 条件：有宏观对流。",
+        "given": "有宏观对流。",
+        "analysis": "过程有混杂。",
+        "method": "区分质量流和扩散。",
+        "principle": "对流与扩散可同时存在。",
+        "steps": [
+          "颜色运输可主要由水整体搬运。",
+          "需控制宏观流动才估纯扩散。"
+        ],
+        "ans": "不能只凭此。",
+        "verification": "静置对照可帮助判断。",
+        "pitfall": "所有颜色扩展都归纯扩散。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.1",
+        "related_sections": []
+      },
+      {
+        "q": "金属晶体一定由独立小分子构成吗？ 条件：材料类型明确为金属。",
+        "given": "材料类型明确为金属。",
+        "analysis": "粒子模型依材料。",
+        "method": "核微观构成。",
+        "principle": "金属结构与分子物质不同。",
+        "steps": [
+          "金属可用原子/离子实等与电子模型描述。",
+          "不能一律画成孤立分子。"
+        ],
+        "ans": "不能这样一概而论。",
+        "verification": "“分子运动论”标题不消除材料结构差别。",
+        "pitfall": "所有物质都用同一种小分子球。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "为什么把显微镜可见布朗轨迹直接当作分子间平均距离测量不合理？ 条件：可见的是悬浮颗粒的宏观位置记录。",
+      "given": "可见的是悬浮颗粒的宏观位置记录。",
+      "analysis": "对象和时间尺度不对应。",
+      "method": "核被测量的量。",
+      "principle": "模型证据与直接尺度测量不同。",
+      "steps": [
+        "颗粒受大量分子碰撞，轨迹点间还包含许多未记录运动。",
+        "不能从可见折线段直接读分子尺寸或间距。"
+      ],
+      "ans": "尺度与对象错配。",
+      "verification": "分子尺寸需其他测量或模型估算。",
+      "pitfall": "用轨迹折线长度充当分子直径。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 12,
+      "primary_section": "12.1",
+      "related_sections": []
+    },
+    "exam": [
+      "证据题先写直接看见什么，再写微观解释",
+      "混合现象分开质量守恒、体积变化和粒子结构",
+      "画分子力说明合力与各作用，平衡距离不说“力全消失”"
+    ],
+    "quick": [
+      "观察现象",
+      "直接对象",
+      "随机碰撞",
+      "相互作用",
+      "模型边界"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_12.1",
+        "url": "https://openstax.org/books/college-physics-2e/pages/13-4-kinetic-theory-atomic-and-molecular-explanation-of-pressure-and-temperature",
+        "page_or_section": "13-4-kinetic-theory-atomic-and-molecular-explanation-of-pressure-and-temperature",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_12.1",
+        "url": "https://openstax.org/books/college-physics-2e/pages/13-4-kinetic-theory-atomic-and-molecular-explanation-of-pressure-and-temperature",
+        "page_or_section": "13-4-kinetic-theory-atomic-and-molecular-explanation-of-pressure-and-temperature",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "证据题先写直接看见什么，再写微观解释",
+      "method": "比较分力与合力。",
+      "principle": "矢量合成。",
+      "worked_example_index": 2,
+      "verification": "像平衡受力也可各力非零。",
+      "pitfall": "把合力零当无相互作用。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用扩散和布朗运动区分观察与微观推断”的抽样复核：可见颗粒包含许多原子或分子。；若出现“把布朗轨迹标为单个水分子实测轨迹。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“解释分子相互作用及模型限制”的抽样复核：像平衡受力也可各力非零。；若出现“把合力零当无相互作用。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "用轨迹折线长度充当分子直径。",
+        "correction": "尺度与对象错配。",
+        "verification": "分子尺寸需其他测量或模型估算。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "布朗运动与分子相互作用",
+      "objects": [
+        "粒子或连续物体模型",
+        "测量与尺寸符号",
+        "关系式",
+        "适用条件"
+      ],
+      "relations": [
+        "大悬浮微粒受小流体粒子不平衡撞击",
+        "示意不是直接分子照片",
+        "平衡距离处吸斥合力零但分力可非零"
+      ],
+      "labels": [
+        "悬浮微粒",
+        "流体分子",
+        "无规则运动",
+        "吸引",
+        "排斥",
+        "合力"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "既有粒子或受力图只有尺度、力向和条件一致时复用；不覆盖旧图",
+      "english": "Draw a precise matter-properties schematic. Label particles as molecules, atoms or ions according to the material; Brownian motion is motion of a suspended particle, not a visible molecule. Keep stress, strain and force distinct. Surface-tension arrows lie tangent to the interface; a soap film has two surfaces. Capillary formulas must state contact angle, radius, density and small-tube assumptions."
+    }
+  },
+  "12.2": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 12,
+    "section_id": "12.2",
+    "goals": [
+      "用物质的量和密度估算单粒子量",
+      "区分分子自身尺寸、平均占有体积与平均间距"
+    ],
+    "prerequisites": [
+      "摩尔质量",
+      "密度和立方根"
+    ],
+    "flow": [
+      "对象和单位",
+      "粒子数",
+      "单粒子质量",
+      "平均体积与间距",
+      "模型假设核验"
+    ],
+    "concept_relation": "对象和单位；粒子数；单粒子质量；平均体积与间距；模型假设核验",
+    "deep": [
+      "气体平均每粒子占有体积还包括大量间隔，v^(1/3)更接近某种平均间距尺度，而非分子本身直径。气体压强或体积改变可显著改变间距，却不会按同倍数把每个分子的化学尺寸拉大。",
+      "用油膜等方法估尺寸时，需有适当单分子层假设及已知真正成膜物质体积，d≈V/A。若形成多层、溶剂未充分分离或面积测量不准，厚度估算就不再直接等于分子长度。这是模型和实验条件共同给出的估算。",
+      "答案应保留适当有效数字并检数量级。比较长度、面积、体积的倍数时分别用一次、二次、三次关系；“体积增8倍”对应等尺度间距约增2倍，不是8倍。微观图应注明示意比例，不把大间距气体画成接触的固体球堆。"
+    ],
+    "derive": [
+      "N=nN_A；m₀=M/N_A，M若用kg/mol则m₀为kg。",
+      "平均占有体积v=M/(ρN_A)，间距尺度可估ℓ≈v^(1/3)；不自动等于气体分子直径。",
+      "理想单分子膜d≈V/A，需单层及有效成膜体积等假设。"
+    ],
+    "examples": [
+      {
+        "q": "某分子摩尔质量0.018 kg/mol，N_A≈6.02×10²³ mol⁻¹，求单分子质量。 条件：对象为该分子。",
+        "given": "对象为该分子。",
+        "analysis": "一摩尔质量分到N_A个。",
+        "method": "M/N_A。",
+        "principle": "阿伏伽德罗关系。",
+        "steps": [
+          "m₀=0.018/(6.02×10²³)。",
+          "约2.99×10⁻²⁶ kg。"
+        ],
+        "ans": "约3.0×10⁻²⁶ kg。",
+        "verification": "乘N_A应回到0.018 kg。",
+        "pitfall": "把18 g直接报成kg结果。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.2",
+        "related_sections": []
+      },
+      {
+        "q": "0.10 mol理想气体在2.4×10⁻³ m³中，取N_A=6.0×10²³，求平均每粒子占有体积与立方根间距尺度。 条件：只估平均占位，不代表分子直径。",
+        "given": "只估平均占位，不代表分子直径。",
+        "analysis": "先求N。",
+        "method": "V/N再开立方。",
+        "principle": "平均占有体积。",
+        "steps": [
+          "N=6.0×10²²，v=2.4×10⁻³/(6.0×10²²)=4.0×10⁻²⁶ m³。",
+          "ℓ≈(4.0×10⁻²⁶)^(1/3)≈3.42×10⁻⁹ m。"
+        ],
+        "ans": "v=4.0×10⁻²⁶ m³，ℓ约3.4 nm。",
+        "verification": "气体间距含空隙，不能当分子真实直径。",
+        "pitfall": "平均体积开根后直接叫分子直径。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.2",
+        "related_sections": []
+      },
+      {
+        "q": "有效成膜体积1.0×10⁻⁹ m³，覆盖面积2.0 m²，按理想单分子层估厚度；若实际两层会怎样解释？ 条件：体积只计成膜物质。",
+        "given": "体积只计成膜物质。",
+        "analysis": "V/A是总膜厚。",
+        "method": "几何厚度模型。",
+        "principle": "V=Ad。",
+        "steps": [
+          "d_total=1.0×10⁻⁹/2.0=5.0×10⁻¹⁰ m。",
+          "若实际两层，总厚度不直接是单分子长度；相同理想取向下每层约一半。"
+        ],
+        "ans": "总膜厚5.0×10⁻¹⁰ m；单分子解释依单层假设。",
+        "verification": "不能用模型假设未经检验当测量事实。",
+        "pitfall": "忽略多层仍把总厚度当单粒子大小。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "2 mol某粒子共有多少个，取N_A=6.02×10²³？ 条件：对象已定义。",
+        "given": "对象已定义。",
+        "analysis": "物质的量乘常数。",
+        "method": "nN_A。",
+        "principle": "粒子计数。",
+        "steps": [
+          "2×6.02×10²³。",
+          "得1.204×10²⁴。"
+        ],
+        "ans": "1.204×10²⁴个。",
+        "verification": "1 mol应为N_A。",
+        "pitfall": "把mol当粒子数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.2",
+        "related_sections": []
+      },
+      {
+        "q": "摩尔质量28 g/mol换成kg/mol？ 条件：1 g=10⁻³ kg。",
+        "given": "1 g=10⁻³ kg。",
+        "analysis": "统一SI。",
+        "method": "单位换算。",
+        "principle": "质量单位关系。",
+        "steps": [
+          "28×10⁻³。",
+          "得0.028 kg/mol。"
+        ],
+        "ans": "0.028 kg/mol。",
+        "verification": "比28小1000倍。",
+        "pitfall": "写28000 kg/mol。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.2",
+        "related_sections": []
+      },
+      {
+        "q": "固定粒子数气体体积增8倍，平均间距尺度怎样？ 条件：采用均匀分布立方尺度。",
+        "given": "采用均匀分布立方尺度。",
+        "analysis": "长度是体积的立方根。",
+        "method": "倍率开立方。",
+        "principle": "ℓ∝V^(1/3)。",
+        "steps": [
+          "8^(1/3)=2。",
+          "间距尺度约2倍。"
+        ],
+        "ans": "2倍。",
+        "verification": "不意味着分子本身直径2倍。",
+        "pitfall": "写8倍或把分子胀大。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.2",
+        "related_sections": []
+      },
+      {
+        "q": "理想膜面积加倍、有效体积相同，估总厚度怎样？ 条件：相同几何模型。",
+        "given": "相同几何模型。",
+        "analysis": "厚度反比面积。",
+        "method": "V/A。",
+        "principle": "膜体积。",
+        "steps": [
+          "A₂=2A₁。",
+          "d₂=d₁/2。"
+        ],
+        "ans": "减半。",
+        "verification": "若发生分层改变，单分子模型还须重审。",
+        "pitfall": "面积大就厚度更大。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "为何用气体的平均每分子占有体积直接估分子自身材料体积会偏离对象？ 条件：气体中分子彼此分离。",
+      "given": "气体中分子彼此分离。",
+      "analysis": "空间包含间隔。",
+      "method": "区分占有和实体。",
+      "principle": "稀疏气体粒子模型。",
+      "steps": [
+        "V/N包含粒子之间空隙。",
+        "分子自身尺寸不由容器内全部平均空位定义。"
+      ],
+      "ans": "因为平均空间体积并非分子实体体积。",
+      "verification": "等温压缩可改V/N而分子化学尺寸未按同倍变化。",
+      "pitfall": "把所有空间都当粒子实体。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 12,
+      "primary_section": "12.2",
+      "related_sections": []
+    },
+    "exam": [
+      "估算题先写粒子对象及M单位，再选N、密度或膜模型",
+      "立方根结果注明是占位间距还是实体尺度，不混对象",
+      "实验估尺度必须列单层、无损失和有效体积等条件"
+    ],
+    "quick": [
+      "对象和单位",
+      "粒子数",
+      "单粒子质量",
+      "平均体积与间距",
+      "模型假设核验"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 7,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_12.2",
+        "url": "https://openstax.org/books/college-physics-2e/pages/13-3-the-ideal-gas-law",
+        "page_or_section": "13-3-the-ideal-gas-law",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 7,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_12.2",
+        "url": "https://openstax.org/books/college-physics-2e/pages/13-3-the-ideal-gas-law",
+        "page_or_section": "13-3-the-ideal-gas-law",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "估算题先写粒子对象及M单位，再选N、密度或膜模型",
+      "method": "几何厚度模型。",
+      "principle": "V=Ad。",
+      "worked_example_index": 2,
+      "verification": "不能用模型假设未经检验当测量事实。",
+      "pitfall": "忽略多层仍把总厚度当单粒子大小。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用物质的量和密度估算单粒子量”的抽样复核：乘N_A应回到0.018 kg。；若出现“把18 g直接报成kg结果。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分分子自身尺寸、平均占有体积与平均间距”的抽样复核：不能用模型假设未经检验当测量事实。；若出现“忽略多层仍把总厚度当单粒子大小。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把所有空间都当粒子实体。",
+        "correction": "因为平均空间体积并非分子实体体积。",
+        "verification": "等温压缩可改V/N而分子化学尺寸未按同倍变化。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "单粒子质量、占位与油膜尺度",
+      "objects": [
+        "粒子或连续物体模型",
+        "测量与尺寸符号",
+        "关系式",
+        "适用条件"
+      ],
+      "relations": [
+        "M/N_A为质量",
+        "V/N含气体间隔",
+        "立方根是长度尺度",
+        "V/A膜厚依单层假设"
+      ],
+      "labels": [
+        "N=nN_A",
+        "m₀=M/N_A",
+        "v=V/N",
+        "ℓ≈v^(1/3)",
+        "d≈V/A"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "既有粒子或受力图只有尺度、力向和条件一致时复用；不覆盖旧图",
+      "english": "Draw a precise matter-properties schematic. Label particles as molecules, atoms or ions according to the material; Brownian motion is motion of a suspended particle, not a visible molecule. Keep stress, strain and force distinct. Surface-tension arrows lie tangent to the interface; a soap film has two surfaces. Capillary formulas must state contact angle, radius, density and small-tube assumptions."
+    }
+  },
+  "12.3": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 12,
+    "section_id": "12.3",
+    "goals": [
+      "用粒子排列和运动解释常见物态",
+      "比较晶体、非晶体与等离子体而不绝对化"
+    ],
+    "prerequisites": [
+      "粒子相互作用",
+      "温度和物态"
+    ],
+    "flow": [
+      "宏观状态",
+      "粒子排列运动",
+      "相互作用",
+      "温压条件",
+      "结构与新状态"
+    ],
+    "concept_relation": "宏观状态；粒子排列运动；相互作用；温压条件；结构与新状态",
+    "deep": [
+      "物态由温度、压强和物质性质共同决定。改变压强可以影响相变条件，不能只凭温度判断某物质在任何情况下必是哪一相。相变时粒子种类在普通物理变化模型中未必改变，分子拆成别种物质则是另一类问题。",
+      "等离子体含相当比例带电粒子及相应集体电磁行为，是另一种重要状态。它不等于任何略带静电的固体，也不简单等同“温度高的气体”而不提电离；不同形成条件与程度需具体说明。",
+      "比较题宜按形状、体积、可压缩性、粒子运动和结构逐项展开，再说模型边界。示意图的粒子大小与间距不应误作真实比例，固体运动箭头不能全删，液体也不能画成像低密度气体一样彼此极远。"
+    ],
+    "derive": [
+      "常见宏观特征：固体较固定形状体积；液体较固定体积但形状可变；气体易扩展充满容器。",
+      "晶体有长程有序，非晶体无相同周期结构；具体性质仍依材料。",
+      "物态取决于温度、压强和物质，不由单一温度值普遍决定。"
+    ],
+    "examples": [
+      {
+        "q": "“固体的粒子不运动，所以形状固定”有何错误？ 条件：普通温度固体。",
+        "given": "普通温度固体。",
+        "analysis": "宏观形状与微观静止不同。",
+        "method": "解释受约束运动。",
+        "principle": "粒子运动与相互作用。",
+        "steps": [
+          "粒子可在平衡位置附近振动。",
+          "相互作用和结构限制其宏观自由重排，使固体保持形状。"
+        ],
+        "ans": "错在把受约束运动说成完全静止。",
+        "verification": "热膨胀等也反映微观运动状态变化。",
+        "pitfall": "固定形状就删掉所有微观运动。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.3",
+        "related_sections": []
+      },
+      {
+        "q": "液体能流动是否表示分子间完全没有作用力？ 条件：液体仍保持近似体积。",
+        "given": "液体仍保持近似体积。",
+        "analysis": "重排自由度不等于无作用。",
+        "method": "结合密集结构和体积。",
+        "principle": "液体相互作用。",
+        "steps": [
+          "粒子可相对重排而流动。",
+          "它们仍相互作用并维持相应体积特征。"
+        ],
+        "ans": "不是。",
+        "verification": "表面张力也表明液体相互作用。",
+        "pitfall": "液体和稀薄理想气体画完全同样间距。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.3",
+        "related_sections": []
+      },
+      {
+        "q": "只知道水温100℃，能否不说明压强就断言一定处于汽液平衡？ 条件：外界压力未给。",
+        "given": "外界压力未给。",
+        "analysis": "沸点依压强。",
+        "method": "核状态条件。",
+        "principle": "相态由多个变量决定。",
+        "steps": [
+          "常压下100℃可讨论沸腾模型。",
+          "其他压强下相变温度不同，100℃未必是该平衡点。"
+        ],
+        "ans": "不能。",
+        "verification": "与常压条件的命题不矛盾。",
+        "pitfall": "把一个温度值当所有环境的相态判据。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "气体为何一般比液体更易压缩？ 条件：比较通常状态。",
+        "given": "比较通常状态。",
+        "analysis": "粒子平均间隔差别。",
+        "method": "用空间分布解释。",
+        "principle": "稀疏气体模型。",
+        "steps": [
+          "气体粒子间可有较大空间。",
+          "压缩主要减少间隔，液体间距已较小。"
+        ],
+        "ans": "因通常较大粒子间隔。",
+        "verification": "不说气体分子自身容易被压扁。",
+        "pitfall": "把体积减少解释为粒子本体大幅缩小。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.3",
+        "related_sections": []
+      },
+      {
+        "q": "晶体一定在所有方向性质相同吗？ 条件：不同晶体及性质可有方向性。",
+        "given": "不同晶体及性质可有方向性。",
+        "analysis": "有序不等于各向同性。",
+        "method": "按结构解释。",
+        "principle": "晶体各向异性。",
+        "steps": [
+          "周期排列可使方向等价性不同。",
+          "某些性质可能随方向变化。"
+        ],
+        "ans": "不一定。",
+        "verification": "具体还要看对称性与所测性质。",
+        "pitfall": "晶体排列整齐就说所有方向完全相同。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.3",
+        "related_sections": []
+      },
+      {
+        "q": "普通玻璃可简单视为随时自由流动的液体吗？ 条件：讨论常见时间尺度下玻璃。",
+        "given": "讨论常见时间尺度下玻璃。",
+        "analysis": "非晶结构不等于普通流体状态。",
+        "method": "区分结构与流动。",
+        "principle": "非晶固体概念。",
+        "steps": [
+          "玻璃可缺长程有序。",
+          "仍表现固体力学特征，不能仅凭无晶格称普通液体。"
+        ],
+        "ans": "不能。",
+        "verification": "分类需兼顾状态和时间尺度。",
+        "pitfall": "非晶体等于液体。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.3",
+        "related_sections": []
+      },
+      {
+        "q": "等离子体关键特征仅是温度比较高吗？ 条件：电离程度与电磁行为重要。",
+        "given": "电离程度与电磁行为重要。",
+        "analysis": "温度不是唯一分类信息。",
+        "method": "指出粒子电荷状态。",
+        "principle": "等离子体概念。",
+        "steps": [
+          "含相当比例带电粒子及相关集体行为。",
+          "不能只写高温而不提电离。"
+        ],
+        "ans": "不是。",
+        "verification": "不同形成方式可能不同温度范围。",
+        "pitfall": "所有热气体都自动同等离子体。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "物态变化是否总把原来分子拆成不同化学物质？ 条件：讨论普通熔化、汽化等物理相变。",
+      "given": "讨论普通熔化、汽化等物理相变。",
+      "analysis": "排列运动与化学组成不同。",
+      "method": "区分物理与化学变化。",
+      "principle": "相变模型。",
+      "steps": [
+        "例如水的汽化可保持H₂O化学身份。",
+        "改变主要是状态与相互作用，不必变成氢氧气。"
+      ],
+      "ans": "不是。",
+      "verification": "高温可能另有化学反应，但那须另说明。",
+      "pitfall": "把水蒸气写成氢气和氧气。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 12,
+      "primary_section": "12.3",
+      "related_sections": []
+    },
+    "exam": [
+      "物态比较用同一组指标，不只各写一个定义",
+      "粒子图保留固体振动、液体密集及气体间隔差异",
+      "涉及熔点沸点必须给物质和压强，非晶体与等离子体也按条件解释"
+    ],
+    "quick": [
+      "宏观状态",
+      "粒子排列运动",
+      "相互作用",
+      "温压条件",
+      "结构与新状态"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 11,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_12.3",
+        "url": "https://openstax.org/books/college-physics-2e/pages/11-1-what-is-a-fluid",
+        "page_or_section": "11-1-what-is-a-fluid",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 11,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_12.3",
+        "url": "https://openstax.org/books/college-physics-2e/pages/11-1-what-is-a-fluid",
+        "page_or_section": "11-1-what-is-a-fluid",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "物态比较用同一组指标，不只各写一个定义",
+      "method": "核状态条件。",
+      "principle": "相态由多个变量决定。",
+      "worked_example_index": 2,
+      "verification": "与常压条件的命题不矛盾。",
+      "pitfall": "把一个温度值当所有环境的相态判据。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用粒子排列和运动解释常见物态”的抽样复核：热膨胀等也反映微观运动状态变化。；若出现“固定形状就删掉所有微观运动。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“比较晶体、非晶体与等离子体而不绝对化”的抽样复核：与常压条件的命题不矛盾。；若出现“把一个温度值当所有环境的相态判据。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把水蒸气写成氢气和氧气。",
+        "correction": "不是。",
+        "verification": "高温可能另有化学反应，但那须另说明。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "物态与粒子模型比较",
+      "objects": [
+        "粒子或连续物体模型",
+        "测量与尺寸符号",
+        "关系式",
+        "适用条件"
+      ],
+      "relations": [
+        "固体粒子仍振动",
+        "液体密集但可重排",
+        "气体大间隔并非粒子本体大",
+        "等离子体须标带电粒子"
+      ],
+      "labels": [
+        "固态",
+        "液态",
+        "气态",
+        "等离子体",
+        "示意非真实比例"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "既有粒子或受力图只有尺度、力向和条件一致时复用；不覆盖旧图",
+      "english": "Draw a precise matter-properties schematic. Label particles as molecules, atoms or ions according to the material; Brownian motion is motion of a suspended particle, not a visible molecule. Keep stress, strain and force distinct. Surface-tension arrows lie tangent to the interface; a soap film has two surfaces. Capillary formulas must state contact angle, radius, density and small-tube assumptions."
+    }
+  },
+  "12.4": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 12,
+    "section_id": "12.4",
+    "goals": [
+      "区分应力、应变和弹性模量",
+      "用受拉杆模型求形变与弹性能并审限制"
+    ],
+    "prerequisites": [
+      "力与面积",
+      "胡克关系和功"
+    ],
+    "flow": [
+      "受力几何",
+      "应力",
+      "应变与E",
+      "杆伸长",
+      "能量和模型限度"
+    ],
+    "concept_relation": "受力几何；应力；应变与E；杆伸长；能量和模型限度",
+    "deep": [
+      "弹性表示去载后可恢复，塑性表示留下永久形变。比例范围与所有弹性范围不一定完全相同：材料可有非线性但仍可恢复的部分，所以“弹性”不自动保证F与ΔL严格正比。还应区分断裂与刚开始偏离线性。",
+      "逐渐加载的线性杆储存弹性能可由F—ΔL图下三角形面积得U=1/2FΔL。若力直接突加或有耗散，外力做功与最终储能关系还需动力学和能量分析，不能把任何F乘末位移都全部当作相同弹性能。",
+      "作题先画受力并定义原长和截面，面积从mm²换m²时是10⁻⁶倍而非10⁻³。算后核应变是否足够小、应力是否满足题设材料范围。若超限，即使代数仍能算，也不能把线性公式输出当可靠实际伸长。"
+    ],
+    "derive": [
+      "σ=F/A（Pa），ε=ΔL/L₀（无量纲），E=σ/ε（Pa）。",
+      "线性均匀受拉杆ΔL=FL₀/(EA)，等效k=EA/L₀。",
+      "逐渐加载、线性弹性时U=1/2FΔL；模型须在适用范围。"
+    ],
+    "examples": [
+      {
+        "q": "杆长2.0 m、截面0.50 mm²、E=1.0×10¹¹ Pa，受拉100 N，题设保持线弹性，求应力与伸长。 条件：面积=0.50×10⁻⁶ m²。",
+        "given": "面积=0.50×10⁻⁶ m²。",
+        "analysis": "先算应力应变。",
+        "method": "σ=F/A，ε=σ/E。",
+        "principle": "杨氏模量。",
+        "steps": [
+          "σ=100/(0.50×10⁻⁶)=2.0×10⁸ Pa；ε=0.0020。",
+          "ΔL=εL₀=0.0040 m。"
+        ],
+        "ans": "应力2.0×10⁸ Pa，伸长4.0 mm。",
+        "verification": "FL/(EA)同得0.0040 m，应变小但弹性范围仍以题设为准。",
+        "pitfall": "mm²换算漏平方。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.4",
+        "related_sections": []
+      },
+      {
+        "q": "同材料同长杆截面积加倍，受相同拉力，伸长与等效k怎样变？ 条件：线性受拉模型。",
+        "given": "线性受拉模型。",
+        "analysis": "几何改变杆刚度，不改材料E。",
+        "method": "看ΔL与k表达式。",
+        "principle": "ΔL∝1/A，k∝A。",
+        "steps": [
+          "ΔL减半。",
+          "k增为2倍，E不因单纯截面改变。"
+        ],
+        "ans": "伸长1/2、k两倍。",
+        "verification": "kΔL仍为同F。",
+        "pitfall": "将杆刚度变化误说材料模量变化。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.4",
+        "related_sections": []
+      },
+      {
+        "q": "线性杆缓慢加力到100 N，末伸长0.0040 m，储存弹性能？为何不为FΔL？ 条件：从零逐渐加载，无耗散近似。",
+        "given": "从零逐渐加载，无耗散近似。",
+        "analysis": "平均力为末力一半。",
+        "method": "F—ΔL面积。",
+        "principle": "弹性能为加载功。",
+        "steps": [
+          "U=1/2×100×0.0040。",
+          "得0.20 J，而100×0.0040=0.40 J把全程力都误当末力。"
+        ],
+        "ans": "0.20 J。",
+        "verification": "三角形面积=底×高/2。",
+        "pitfall": "用末力乘全位移。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "应变0.003的单位是什么？ 条件：定义为ΔL/L₀。",
+        "given": "定义为ΔL/L₀。",
+        "analysis": "长度单位相消。",
+        "method": "量纲。",
+        "principle": "相对形变。",
+        "steps": [
+          "m/m=1。",
+          "为无量纲，可写0.3%。"
+        ],
+        "ans": "无量纲。",
+        "verification": "不能写0.003 Pa。",
+        "pitfall": "应力应变单位互换。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.4",
+        "related_sections": []
+      },
+      {
+        "q": "相同F、A、E，L₀减半，ΔL怎样？ 条件：线性均匀杆。",
+        "given": "线性均匀杆。",
+        "analysis": "伸长与原长成正比。",
+        "method": "比值。",
+        "principle": "受拉关系。",
+        "steps": [
+          "L减半。",
+          "ΔL减半。"
+        ],
+        "ans": "1/2。",
+        "verification": "相对应变不变。",
+        "pitfall": "以为材料相同长度无影响。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.4",
+        "related_sections": []
+      },
+      {
+        "q": "去载后留下永久伸长，仍可仅按完全弹性恢复模型解释吗？ 条件：观察到残余形变。",
+        "given": "观察到残余形变。",
+        "analysis": "出现塑性特征。",
+        "method": "按定义判断。",
+        "principle": "弹性与塑性。",
+        "steps": [
+          "完全弹性应恢复原状。",
+          "残余伸长需考虑塑性等。"
+        ],
+        "ans": "不可仅用完全恢复模型。",
+        "verification": "并非仍在原线性段。",
+        "pitfall": "力撤去就强行写ΔL=0。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.4",
+        "related_sections": []
+      },
+      {
+        "q": "2 mm²转为m²是多少？ 条件：1 mm=10⁻³ m。",
+        "given": "1 mm=10⁻³ m。",
+        "analysis": "面积单位平方。",
+        "method": "平方换算。",
+        "principle": "单位幂。",
+        "steps": [
+          "1 mm²=10⁻⁶ m²。",
+          "2 mm²=2×10⁻⁶ m²。"
+        ],
+        "ans": "2×10⁻⁶ m²。",
+        "verification": "不是2×10⁻³。",
+        "pitfall": "只换一次长度因子。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "材料仍能恢复原状但F—ΔL曲线不直，能否说它一定毫无弹性？ 条件：可恢复而非线性。",
+      "given": "可恢复而非线性。",
+      "analysis": "线性与弹性不是完全等价。",
+      "method": "分开定义。",
+      "principle": "弹性指恢复，线性指正比例。",
+      "steps": [
+        "非线性关系可仍可逆恢复。",
+        "只是不适用单一恒k的胡克直线模型。"
+      ],
+      "ans": "不能，可能有非线性弹性。",
+      "verification": "判定需看去载恢复与能量过程。",
+      "pitfall": "把偏离直线一概等同永久塑性。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 12,
+      "primary_section": "12.4",
+      "related_sections": []
+    },
+    "exam": [
+      "受拉题先F/A再除E，清楚区分σ、ε和ΔL",
+      "面积换算单列一行，算后检查小应变和弹性范围",
+      "能量题用加载图面积，别把末力当全程恒力"
+    ],
+    "quick": [
+      "受力几何",
+      "应力",
+      "应变与E",
+      "杆伸长",
+      "能量和模型限度"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 16,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_12.4",
+        "url": "https://openstax.org/books/college-physics-2e/pages/5-3-elasticity-stress-and-strain",
+        "page_or_section": "5-3-elasticity-stress-and-strain",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 16,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_12.4",
+        "url": "https://openstax.org/books/college-physics-2e/pages/5-3-elasticity-stress-and-strain",
+        "page_or_section": "5-3-elasticity-stress-and-strain",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "受拉题先F/A再除E，清楚区分σ、ε和ΔL",
+      "method": "F—ΔL面积。",
+      "principle": "弹性能为加载功。",
+      "worked_example_index": 2,
+      "verification": "三角形面积=底×高/2。",
+      "pitfall": "用末力乘全位移。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“区分应力、应变和弹性模量”的抽样复核：FL/(EA)同得0.0040 m，应变小但弹性范围仍以题设为准。；若出现“mm²换算漏平方。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用受拉杆模型求形变与弹性能并审限制”的抽样复核：三角形面积=底×高/2。；若出现“用末力乘全位移。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把偏离直线一概等同永久塑性。",
+        "correction": "不能，可能有非线性弹性。",
+        "verification": "判定需看去载恢复与能量过程。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "杆的应力应变与弹性能",
+      "objects": [
+        "粒子或连续物体模型",
+        "测量与尺寸符号",
+        "关系式",
+        "适用条件"
+      ],
+      "relations": [
+        "A垂直于拉力方向",
+        "ε=ΔL/L₀",
+        "线性图能量为三角面积",
+        "E与杆k分别标单位"
+      ],
+      "labels": [
+        "F/N",
+        "A/m²",
+        "σ/Pa",
+        "ε",
+        "ΔL",
+        "U=FΔL/2"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "既有粒子或受力图只有尺度、力向和条件一致时复用；不覆盖旧图",
+      "english": "Draw a precise matter-properties schematic. Label particles as molecules, atoms or ions according to the material; Brownian motion is motion of a suspended particle, not a visible molecule. Keep stress, strain and force distinct. Surface-tension arrows lie tangent to the interface; a soap film has two surfaces. Capillary formulas must state contact angle, radius, density and small-tube assumptions."
+    }
+  },
+  "12.5": {
+    "content_batch": "batch06",
+    "subject": "物理",
+    "subject_code": "physics",
+    "chapter_id": 12,
+    "section_id": "12.5",
+    "goals": [
+      "用表面张力和接触角解释界面现象",
+      "在明确条件下计算薄膜力与毛细尺度"
+    ],
+    "prerequisites": [
+      "分子作用",
+      "力平衡和密度"
+    ],
+    "flow": [
+      "界面分子作用",
+      "表面张力",
+      "润湿角",
+      "毛细平衡",
+      "尺度与黏度区别"
+    ],
+    "concept_relation": "界面分子作用；表面张力；润湿角；毛细平衡；尺度与黏度区别",
+    "deep": [
+      "毛细现象源于界面力与重力等平衡。窄圆管静态近似中，2πrγcosθ可与升起液柱的ρgπr²h平衡，得h=2γcosθ/(ρgr)。θ>90°时cosθ为负，可对应相对液面下降。公式须说明圆管、静态和相应近似条件。",
+      "肥皂膜有两个主要表面，一条可移动边界长度ℓ的典型薄膜拉力可为2γℓ；单个界面的相应情形则为γℓ。先画清有几面、力向如何投影，不把所有界面题无条件乘2。γ单位N/m，与黏度、密度均不同。",
+      "黏滞性描述流动中的阻力与耗散，不等同表面张力。高树输水等复杂生物系统也不能只用毛细上升一个公式包办。说明现象时先列界面或体流过程，再选择模型，避免把“水有黏性”“分子有引力”等笼统词语当完整机制。"
+    ],
+    "derive": [
+      "表面张力系数γ单位N/m；单界面边界力在适当几何下F=γℓ。",
+      "典型双面肥皂膜F=2γℓ，需两面条件。",
+      "静态窄圆管毛细：h=2γcosθ/(ρgr)，正负由cosθ及坐标约定决定。"
+    ],
+    "examples": [
+      {
+        "q": "双面肥皂膜的可移动边长0.050 m，γ=0.030 N/m，沿收缩方向合拉力大小？ 条件：典型两面薄膜，忽略其他边界力。",
+        "given": "典型两面薄膜，忽略其他边界力。",
+        "analysis": "两个表面各贡献γℓ。",
+        "method": "2γℓ。",
+        "principle": "界面张力。",
+        "steps": [
+          "F=2×0.030×0.050。",
+          "得0.0030 N。"
+        ],
+        "ans": "3.0×10⁻³ N。",
+        "verification": "单面贡献1.5×10⁻³，合为2倍。",
+        "pitfall": "漏两面或任意多乘表面积。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.5",
+        "related_sections": []
+      },
+      {
+        "q": "完全润湿窄圆管r=0.50 mm，γ=0.072 N/m、ρ=1000 kg/m³、g=10 m/s²，估h。 条件：cosθ=1，静态近似。",
+        "given": "cosθ=1，静态近似。",
+        "analysis": "将向上周界力等于液柱重。",
+        "method": "毛细公式。",
+        "principle": "力平衡。",
+        "steps": [
+          "h=2×0.072/(1000×10×0.00050)。",
+          "得0.0288 m=2.88 cm。"
+        ],
+        "ans": "约2.9 cm。",
+        "verification": "量纲为m；半径用m。",
+        "pitfall": "用管直径或mm数值直接代。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.5",
+        "related_sections": []
+      },
+      {
+        "q": "同液体同接触角，管半径减半，毛细高度与液柱总重量各怎样？ 条件：窄管静态近似且其他条件不变。",
+        "given": "窄管静态近似且其他条件不变。",
+        "analysis": "h反比r，但体积∝r²h。",
+        "method": "分别比较。",
+        "principle": "毛细力平衡。",
+        "steps": [
+          "h加倍。",
+          "重量比例(r/2)²×2h/(r²h)=1/2。"
+        ],
+        "ans": "高度2倍，重量1/2。",
+        "verification": "周界张力2πrγ也减半。",
+        "pitfall": "高度更大就说液柱总重更大。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.5",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "表面张力箭头应画沿界面切向还是凭空朝液体中心任意画？ 条件：讨论边界上的表面张力。",
+        "given": "讨论边界上的表面张力。",
+        "analysis": "力向需符合界面几何。",
+        "method": "核定义。",
+        "principle": "表面张力沿界面切向。",
+        "steps": [
+          "在相应边界沿界面并垂直于边线方向取力。",
+          "不是任意朝中心的体力。"
+        ],
+        "ans": "按界面切向及边界几何画。",
+        "verification": "压差等法向效应要另作合力分析。",
+        "pitfall": "张力方向与界面无关。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.5",
+        "related_sections": []
+      },
+      {
+        "q": "γ单位是Pa吗？ 条件：定义F/ℓ。",
+        "given": "定义F/ℓ。",
+        "analysis": "单位区分。",
+        "method": "N除m。",
+        "principle": "表面张力系数。",
+        "steps": [
+          "γ=F/ℓ。",
+          "单位N/m，也等价J/m²。"
+        ],
+        "ans": "不是，为N/m。",
+        "verification": "Pa为N/m²。",
+        "pitfall": "把张力系数当压强。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.5",
+        "related_sections": []
+      },
+      {
+        "q": "θ>90°时cosθ为何影响毛细升降？ 条件：公式h相对外液面向上取正。",
+        "given": "公式h相对外液面向上取正。",
+        "analysis": "余弦为负。",
+        "method": "判断符号。",
+        "principle": "界面竖直分量。",
+        "steps": [
+          "cosθ<0。",
+          "h<0，对应下降而非上升。"
+        ],
+        "ans": "可给下降。",
+        "verification": "负号有方向意义不是计算无效。",
+        "pitfall": "见负高度就取绝对值仍叫上升。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.5",
+        "related_sections": []
+      },
+      {
+        "q": "大水滴是否必为完美球形？ 条件：重力和接触条件可能显著。",
+        "given": "重力和接触条件可能显著。",
+        "analysis": "表面效应不是唯一力。",
+        "method": "列竞争机制。",
+        "principle": "形状由力与能量综合决定。",
+        "steps": [
+          "小滴忽略重力时近球。",
+          "大滴或附着面可明显变形。"
+        ],
+        "ans": "不必。",
+        "verification": "固定体积最小面积只在相应约束下用于解释。",
+        "pitfall": "把理想孤立小滴规则套全部液体。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "physics",
+        "chapter_id": 12,
+        "primary_section": "12.5",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "液体黏度大是否就等于表面张力系数一定大？ 条件：两个性质反映不同过程。",
+      "given": "两个性质反映不同过程。",
+      "analysis": "流动耗散与界面能不同。",
+      "method": "区分定义。",
+      "principle": "黏滞性和表面张力。",
+      "steps": [
+        "黏度影响流动阻力。",
+        "表面张力描述界面性质，没有由名称直接给出的统一大小关系。"
+      ],
+      "ans": "不能等同或直接排序。",
+      "verification": "需分别测量或给相应材料数据。",
+      "pitfall": "把黏和拉住表面当同一物理量。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "physics",
+      "chapter_id": 12,
+      "primary_section": "12.5",
+      "related_sections": []
+    },
+    "exam": [
+      "界面力题先画边界、数表面，再定切向和竖直分量",
+      "毛细题标半径、角度和正方向，负h按下降解释",
+      "现象题说明重力、润湿和表面条件，黏度不混表面张力"
+    ],
+    "quick": [
+      "界面分子作用",
+      "表面张力",
+      "润湿角",
+      "毛细平衡",
+      "尺度与黏度区别"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 21,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_12.5",
+        "url": "https://openstax.org/books/college-physics-2e/pages/11-8-cohesion-and-adhesion-in-liquids-surface-tension-and-capillary-action",
+        "page_or_section": "11-8-cohesion-and-adhesion-in-liquids-surface-tension-and-capillary-action",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_phys",
+        "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+        "page": 21,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_phys_12.5",
+        "url": "https://openstax.org/books/college-physics-2e/pages/11-8-cohesion-and-adhesion-in-liquids-surface-tension-and-capillary-action",
+        "page_or_section": "11-8-cohesion-and-adhesion-in-liquids-surface-tension-and-capillary-action",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "界面力题先画边界、数表面，再定切向和竖直分量",
+      "method": "分别比较。",
+      "principle": "毛细力平衡。",
+      "worked_example_index": 2,
+      "verification": "周界张力2πrγ也减半。",
+      "pitfall": "高度更大就说液柱总重更大。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用表面张力和接触角解释界面现象”的抽样复核：单面贡献1.5×10⁻³，合为2倍。；若出现“漏两面或任意多乘表面积。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“在明确条件下计算薄膜力与毛细尺度”的抽样复核：周界张力2πrγ也减半。；若出现“高度更大就说液柱总重更大。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把黏和拉住表面当同一物理量。",
+        "correction": "不能等同或直接排序。",
+        "verification": "需分别测量或给相应材料数据。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "表面张力与毛细力平衡",
+      "objects": [
+        "粒子或连续物体模型",
+        "测量与尺寸符号",
+        "关系式",
+        "适用条件"
+      ],
+      "relations": [
+        "双面膜有两份γℓ",
+        "管周界向上分量2πrγcosθ",
+        "液柱重ρgπr²h",
+        "θ>90°对应负h"
+      ],
+      "labels": [
+        "γ/(N·m⁻¹)",
+        "r",
+        "θ",
+        "h",
+        "2πrγcosθ",
+        "ρgπr²h"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "既有粒子或受力图只有尺度、力向和条件一致时复用；不覆盖旧图",
+      "english": "Draw a precise matter-properties schematic. Label particles as molecules, atoms or ions according to the material; Brownian motion is motion of a suspended particle, not a visible molecule. Keep stress, strain and force distinct. Surface-tension arrows lie tangent to the interface; a soap film has two surfaces. Capillary formulas must state contact angle, radius, density and small-tube assumptions."
+    }
+  }
+}

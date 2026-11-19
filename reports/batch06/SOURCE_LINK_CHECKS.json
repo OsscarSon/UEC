@@ -1,0 +1,960 @@
+{
+  "date": "2026-11-19",
+  "checks": [
+    {
+      "url": "https://dokumen.pub/3bf1cd828eab45e88a7c9830def26d1f.html",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://dokumen.pub/50366241b762a3c2b78989c47ca84b70.html",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://elearning.dongzong.my/pluginfile.php/132762/mod_resource/content/1/%E3%80%8A%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%80%E4%B8%8B%E5%86%8C.pdf",
+      "http_status": 404,
+      "note": "HTTP availability only; search cache evidence or prior content review is recorded separately.",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://elearning.dongzong.my/pluginfile.php/132767/mod_resource/content/1/%E3%80%8A%E9%AB%98%E7%BA%A7%E6%95%B0%E5%AD%A6%E3%80%8B%E9%AB%98%E4%B8%89%E4%B8%8B%E5%86%8C.pdf",
+      "http_status": 404,
+      "note": "HTTP availability only; search cache evidence or prior content review is recorded separately.",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://math.libretexts.org/Bookshelves/Applied_Mathematics/Applied_Finite_Mathematics_%28Sekhon_and_Bloom%29/03%3A_Linear_Programming_-_A_Geometric_Approach/3.01%3A_Maximization_Applications",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://math.libretexts.org/Bookshelves/Mathematical_Logic_and_Proof/Book%3A_Mathematical_Reasoning__Writing_and_Proof_(Sundstrom)/02%3A_Logical_Reasoning",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://math.libretexts.org/Bookshelves/Mathematical_Logic_and_Proof/Transition_to_Higher_Mathematics_%28Dumas_and_McCarthy%29/04%3A_New_Page/4.04%3A_New_Page",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://math.libretexts.org/Courses/Mount_Royal_University/Abstract_Algebra_I/Chapter_0%3A_Preliminaries/0.0%3A_Introduction_to_proofs",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-7-linear-inequalities-and-absolute-value-inequalities",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-2-blood-flow-blood-pressure-and-resistance",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-6-cellular-differentiation",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-1-types-of-tissues",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-6-tissue-injury-and-aging",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/13-1-chromosomal-theory-and-genetic-linkage",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/13-2-chromosomal-basis-of-inherited-disorders",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/14-1-historical-basis-of-modern-understanding",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/14-2-dna-structure-and-sequencing",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/14-3-basics-of-dna-replication",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/14-6-dna-repair",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/15-2-prokaryotic-transcription",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/15-3-eukaryotic-transcription",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/15-4-rna-processing-in-eukaryotes",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/15-5-ribosomes-and-protein-synthesis",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/15-introduction",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/17-1-biotechnology",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/20-1-organizing-life-on-earth",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/30-5-transport-of-water-and-solutes-in-plants",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/33-1-animal-form-and-function",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/33-3-homeostasis",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/34-3-digestive-system-processes",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/40-3-mammalian-heart-and-blood-vessels",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/41-2-the-kidneys-and-osmoregulatory-organs",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/41-5-hormonal-control-of-osmoregulatory-functions",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/47-1-the-biodiversity-crisis",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/47-3-threats-to-biodiversity",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/47-4-preserving-biodiversity",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/7-6-connections-of-carbohydrate-protein-and-lipid-metabolic-pathways",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/calculus-volume-1/pages/3-5-derivatives-of-trigonometric-functions",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/calculus-volume-1/pages/3-8-implicit-differentiation",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/calculus-volume-1/pages/3-9-derivatives-of-exponential-and-logarithmic-functions",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/calculus-volume-1/pages/4-5-derivatives-and-the-shape-of-a-graph",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/calculus-volume-1/pages/4-8-lhopitals-rule",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/calculus-volume-1/pages/4-9-newtons-method",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/calculus-volume-1/pages/5-5-substitution",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/calculus-volume-2/pages/3-1-integration-by-parts",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/calculus-volume-2/pages/3-2-trigonometric-integrals",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/calculus-volume-2/pages/3-3-trigonometric-substitution",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/calculus-volume-2/pages/3-4-partial-fractions",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/calculus-volume-2/pages/4-1-basics-of-differential-equations",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/calculus-volume-2/pages/4-3-separable-equations",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/calculus-volume-2/pages/4-5-first-order-linear-equations",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/calculus-volume-3/pages/2-2-vectors-in-three-dimensions",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/calculus-volume-3/pages/2-3-the-dot-product",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/calculus-volume-3/pages/2-4-the-cross-product",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/calculus-volume-3/pages/2-5-equations-of-lines-and-planes-in-space",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/11-2-electrolytes",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/12-1-chemical-reaction-rates",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/12-3-rate-laws",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/12-7-catalysis",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/13-1-chemical-equilibria",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/13-2-equilibrium-constants",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/13-4-equilibrium-calculations",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/15-1-precipitation-and-dissolution",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/15-3-coupled-equilibria",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/17-2-galvanic-cells",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/17-3-electrode-and-cell-potentials",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/17-5-batteries-and-fuel-cells",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/17-6-corrosion",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/18-11-occurrence-preparation-and-properties-of-halogens",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/11-1-what-is-a-fluid",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/11-8-cohesion-and-adhesion-in-liquids-surface-tension-and-capillary-action",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/13-1-temperature",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/13-2-thermal-expansion-of-solids-and-liquids",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/13-3-the-ideal-gas-law",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/13-4-kinetic-theory-atomic-and-molecular-explanation-of-pressure-and-temperature",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/14-2-temperature-change-and-heat-capacity",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/14-3-phase-change-and-latent-heat",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/14-5-conduction",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/14-6-convection",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/14-7-radiation",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/16-3-simple-harmonic-motion-a-special-periodic-motion",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/16-5-energy-and-the-simple-harmonic-oscillator",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/24-3-the-electromagnetic-spectrum",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/25-1-the-ray-aspect-of-light",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/25-2-the-law-of-reflection",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/25-3-the-law-of-refraction",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/25-4-total-internal-reflection",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/25-5-dispersion-the-rainbow-and-prisms",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/25-6-image-formation-by-lenses",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/25-7-image-formation-by-mirrors",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/27-1-the-wave-aspect-of-light-interference",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/27-3-youngs-double-slit-experiment",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/27-5-single-slit-diffraction",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/27-8-polarization",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/30-3-bohrs-theory-of-the-hydrogen-atom",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/5-3-elasticity-stress-and-strain",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/contemporary-mathematics/pages/5-10-systems-of-linear-inequalities-in-two-variables",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/intermediate-algebra-2e/pages/7-6-solve-rational-inequalities",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/intermediate-algebra-2e/pages/9-8-solve-quadratic-inequalities",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/17-1-naming-alcohols-and-phenols",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/17-10-reactions-of-phenols",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/17-2-properties-of-alcohols-and-phenols",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/17-3-preparation-of-alcohols-a-review",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/17-7-oxidation-of-alcohols",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/17-9-phenols-and-their-uses",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/3-5-properties-of-alkanes",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/31-summary",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/7-2-calculating-the-degree-of-unsaturation",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/7-3-naming-alkenes",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/7-4-cis-trans-isomerism-in-alkenes",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/7-8-orientation-of-electrophilic-additions-markovnikovs-rule",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/8-1-preparing-alkenes-a-preview-of-elimination-reactions",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/8-8-oxidation-of-alkenes-cleavage-to-carbonyl-compounds",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/precalculus-2e/pages/10-1-the-ellipse",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/precalculus-2e/pages/10-2-the-hyperbola",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/precalculus-2e/pages/10-3-the-parabola",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/precalculus-2e/pages/10-4-rotation-of-axes",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/precalculus-2e/pages/10-5-conic-sections-in-polar-coordinates",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/precalculus-2e/pages/3-1-complex-numbers",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/precalculus-2e/pages/5-1-angles",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/precalculus-2e/pages/5-2-unit-circle-sine-and-cosine-functions",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/precalculus-2e/pages/5-3-the-other-trigonometric-functions",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/precalculus-2e/pages/6-1-graphs-of-the-sine-and-cosine-functions",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/precalculus-2e/pages/6-3-inverse-trigonometric-functions",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/precalculus-2e/pages/7-1-solving-trigonometric-equations-with-identities",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/precalculus-2e/pages/7-2-sum-and-difference-identities",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/precalculus-2e/pages/7-3-double-angle-half-angle-and-reduction-formulas",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/precalculus-2e/pages/7-5-solving-trigonometric-equations",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/precalculus-2e/pages/8-1-non-right-triangles-law-of-sines",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/precalculus-2e/pages/8-2-non-right-triangles-law-of-cosines",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/precalculus-2e/pages/8-5-polar-form-of-complex-numbers",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/precalculus-2e/pages/8-6-parametric-equations",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/10-1-rotational-variables",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/10-5-calculating-moments-of-inertia",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/10-7-newtons-second-law-for-rotation",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/11-1-rolling-motion",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/11-2-angular-momentum",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/11-3-conservation-of-angular-momentum",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/15-6-forced-oscillations",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/16-1-traveling-waves",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/16-2-mathematics-of-waves",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/16-5-interference-of-waves",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/16-6-standing-waves-and-resonance",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/17-3-sound-intensity",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/17-7-the-doppler-effect",
+      "http_status": 200,
+      "content_type": "text/html",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://www.scribd.com/document/1047236315/高级数学-高三上册-1",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://www.scribd.com/document/1058092101/数学-高一上册",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accuracy_verified_by_http": false
+    },
+    {
+      "url": "https://www.scribd.com/document/896069659/曾国兴-黄宝玉-艺诚文化-高中适用-物理-上册-Dong-Zong-2017",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "accuracy_verified_by_http": false
+    }
+  ],
+  "scope": "URL transport checks do not certify scientific truth or 2027 scope. Public textbook cached evidence is described in MATH_DIRECTORY_RECOVERY.md; a failed direct URL does not erase separately observed cached directory facts."
+}

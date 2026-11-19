@@ -1,0 +1,1820 @@
+{
+  "6.1": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 6,
+    "section_id": "6.1",
+    "goals": [
+      "用表面积体积比和扩散距离解释运输需求",
+      "区分长距离整体运输与末端扩散交换"
+    ],
+    "prerequisites": [
+      "细胞膜",
+      "扩散与几何比例"
+    ],
+    "flow": [
+      "尺度需求",
+      "几何比",
+      "扩散距离",
+      "整体流动",
+      "模型限制"
+    ],
+    "concept_relation": "尺度需求；几何比；扩散距离；整体流动；模型限制",
+    "deep": [
+      "运输系统通过流体整体移动把物质带到交换面附近，末端通常仍需扩散或膜运输。血液流到毛细血管不是直接钻入每个细胞；氧和溶质要跨相关屏障。整体流动与局部扩散互补，不能说有心脏后便完全不需要扩散。",
+      "专门交换面常具有大面积、薄屏障和适合浓度梯度，如分支血管、呼吸面及植物叶等。但不同结构需考虑水分丢失、机械支持和保护等权衡，不是越薄越大就无条件越好。生物体形扁平或高度分支也可减轻部分尺度限制。",
+      "分析实验可用不同尺寸琼脂块等模型比较渗透或扩散，但模型不等于活体：没有血流、主动运输和代谢消耗时，结论应限于所示几何和扩散条件。题目若比较块的“变色体积比例”，还需区分穿透厚度与总比例，不能只看表面颜色相同就宣布内部交换相同。"
+    ],
+    "derive": [
+      "立方体S=6L²，V=L³，S/V=6/L。",
+      "简单相同扩散系数模型中典型时间t∝距离²。",
+      "长距离整体流动把物质送近细胞；末端交换仍需相应扩散或膜运输。"
+    ],
+    "examples": [
+      {
+        "q": "边长1与2 cm立方体的S/V各多少？ 条件：只比较几何模型。",
+        "given": "只比较几何模型。",
+        "analysis": "面积与体积幂次不同。",
+        "method": "算6/L。",
+        "principle": "立方体几何。",
+        "steps": [
+          "L1给6 cm⁻¹。",
+          "L2给3 cm⁻¹，为一半。"
+        ],
+        "ans": "6与3 cm⁻¹。",
+        "verification": "总面积增4倍而体积增8倍。",
+        "pitfall": "表面积更大就比例更大。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.1",
+        "related_sections": []
+      },
+      {
+        "q": "同扩散系数模型，距离由1变3 mm，典型时间比？ 条件：采用t∝L²的简单模型。",
+        "given": "采用t∝L²的简单模型。",
+        "analysis": "平方关系。",
+        "method": "比较比值。",
+        "principle": "扩散尺度。",
+        "steps": [
+          "t₂/t₁=(3/1)²。",
+          "得9。"
+        ],
+        "ans": "约9倍。",
+        "verification": "不是任意复杂组织实测固定值。",
+        "pitfall": "按3倍时间。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.1",
+        "related_sections": []
+      },
+      {
+        "q": "毛细血管将氧带到组织附近，是否不再需要氧扩散？ 条件：正常组织交换。",
+        "given": "正常组织交换。",
+        "analysis": "整体运输只缩短末端距离。",
+        "method": "追踪至细胞。",
+        "principle": "流动与扩散互补。",
+        "steps": [
+          "血流沿血管移动。",
+          "氧仍需跨血侧到组织及细胞边界。"
+        ],
+        "ans": "仍需扩散等交换。",
+        "verification": "血液不直接灌入细胞质。",
+        "pitfall": "有循环就取消扩散。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "边长加倍，立方体面积和体积各增几倍？ 条件：相似形状。",
+        "given": "相似形状。",
+        "analysis": "二维与三维比例。",
+        "method": "幂次。",
+        "principle": "几何。",
+        "steps": [
+          "面积2²=4。",
+          "体积2³=8。"
+        ],
+        "ans": "4倍、8倍。",
+        "verification": "比例减半。",
+        "pitfall": "都2倍。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.1",
+        "related_sections": []
+      },
+      {
+        "q": "更薄的交换屏障一般怎样影响扩散距离？ 条件：其他条件相近。",
+        "given": "其他条件相近。",
+        "analysis": "路径缩短。",
+        "method": "结构功能联系。",
+        "principle": "扩散。",
+        "steps": [
+          "屏障厚度减小。",
+          "跨越距离通常缩短，有利于较快交换。"
+        ],
+        "ans": "缩短距离。",
+        "verification": "仍需兼顾保护与机械条件。",
+        "pitfall": "薄就保证所有条件最优。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.1",
+        "related_sections": []
+      },
+      {
+        "q": "所有表面均扩散进入0.1 cm，边长1 cm立方体未到达核心体积？ 条件：理想均匀六面同时穿透，不考虑角部额外过程。",
+        "given": "理想均匀六面同时穿透，不考虑角部额外过程。",
+        "analysis": "每个方向两端各扣.1。",
+        "method": "核心边长L−2d。",
+        "principle": "几何模型。",
+        "steps": [
+          "核心边=.8 cm。",
+          "核心体积=.8³=.512 cm³。"
+        ],
+        "ans": ".512 cm³。",
+        "verification": "原1 cm³中到达部分.488，不是仅扣一次厚度。",
+        "pitfall": "L−d。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.1",
+        "related_sections": []
+      },
+      {
+        "q": "模型琼脂块没有血流，能直接证明所有动物器官运输效率吗？ 条件：只示几何扩散。",
+        "given": "只示几何扩散。",
+        "analysis": "模型缺主要机制。",
+        "method": "限定推论。",
+        "principle": "模型外推。",
+        "steps": [
+          "可支持距离和比例影响。",
+          "不能代表活体灌流、膜运输及代谢全部过程。"
+        ],
+        "ans": "不能。",
+        "verification": "需额外生理证据。",
+        "pitfall": "模型现象当全部活体结论。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "大体积生物必有和人完全相同的心血管系统吗？ 条件：考虑不同形态和类群。",
+      "given": "考虑不同形态和类群。",
+      "analysis": "需求不唯一决定结构。",
+      "method": "区分一般原则与具体实现。",
+      "principle": "结构多样性。",
+      "steps": [
+        "体形、分支和交换方式可不同。",
+        "解决运输需求不必复制人体器官。"
+      ],
+      "ans": "不必。",
+      "verification": "植物也有运输却无同样心脏。",
+      "pitfall": "功能相似推器官相同。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 6,
+      "primary_section": "6.1",
+      "related_sections": []
+    },
+    "exam": [
+      "比较先算S/V而非只看总面积",
+      "扩散题明确距离平方模型和适用假设",
+      "从外界一路追到细胞，长距运输与末端交换分别解释"
+    ],
+    "quick": [
+      "尺度需求",
+      "几何比",
+      "扩散距离",
+      "整体流动",
+      "模型限制"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_6.1",
+        "url": "https://openstax.org/books/biology-2e/pages/33-1-animal-form-and-function",
+        "page_or_section": "33-1-animal-form-and-function",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_6.1",
+        "url": "https://openstax.org/books/biology-2e/pages/33-1-animal-form-and-function",
+        "page_or_section": "33-1-animal-form-and-function",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "比较先算S/V而非只看总面积",
+      "method": "追踪至细胞。",
+      "principle": "流动与扩散互补。",
+      "worked_example_index": 2,
+      "verification": "血液不直接灌入细胞质。",
+      "pitfall": "有循环就取消扩散。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用表面积体积比和扩散距离解释运输需求”的抽样复核：总面积增4倍而体积增8倍。；若出现“表面积更大就比例更大。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分长距离整体运输与末端扩散交换”的抽样复核：血液不直接灌入细胞质。；若出现“有循环就取消扩散。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "功能相似推器官相同。",
+        "correction": "不必。",
+        "verification": "植物也有运输却无同样心脏。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "尺度与运输需求",
+      "objects": [
+        "1cm与2cm立方体",
+        "表面穿透层",
+        "核心区",
+        "运输管末端"
+      ],
+      "relations": [
+        "面积4倍体积8倍",
+        "S/V减半",
+        "末端仍有扩散路径"
+      ],
+      "labels": [
+        "S/V=6/L",
+        "t∝L²",
+        "整体运输",
+        "局部交换"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用已审核循环或植物图，必须核连接、方向与组织身份；颜色不能替代箭头证据",
+      "english": "Use a precise biological transport schematic. Separate flow direction, oxygenation, pressure and chemical concentration. Arteries are defined by direction away from the heart, not oxygen content. Keep xylem and phloem distinct, and distinguish source-to-sink flow from transpiration-driven water flow."
+    }
+  },
+  "6.2": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 6,
+    "section_id": "6.2",
+    "goals": [
+      "沿双循环和瓣膜追踪血流",
+      "按流向区分动静脉并计算心输出量"
+    ],
+    "prerequisites": [
+      "心腔与血管",
+      "气体交换"
+    ],
+    "flow": [
+      "双循环",
+      "离心回心",
+      "压力瓣膜",
+      "末端交换",
+      "输出量"
+    ],
+    "concept_relation": "双循环；离心回心；压力瓣膜；末端交换；输出量",
+    "deep": [
+      "动脉壁较厚、有弹性和肌层以适应相应压力；静脉回流可受骨骼肌泵、呼吸活动及适当瓣膜帮助；毛细血管薄壁适于交换。血液总流量与局部流速不同，总横截面积大的血管集合中平均流速可较低，不能只因单条管细就断言毛细处必最快。",
+      "血浆运输多种溶质，红细胞中血红蛋白参与氧运输，二氧化碳以多种形式存在于血液，其中大量经相关反应以碳酸氢根形式运输。组织交换还涉及血管壁、间质和淋巴回流，不应画成血液从毛细管直接变成所有细胞的细胞质。",
+      "心输出量可由每搏输出量乘心率估算，每分钟心跳次数不等于每分钟输出毫升量。运动时两者都可能变化，不能只以心率比较泵血或训练状态。测量和病理解释需额外证据，本节仅用给定课堂模型作计算，不由单次读数作个人诊断。"
+    ],
+    "derive": [
+      "右房→右室→肺动脉→肺→肺静脉→左房→左室→主动脉→全身→回右房。",
+      "动脉离心、静脉回心；含氧量与命名分开。",
+      "心输出量=每搏输出量×心率，单位换成L/min时需除1000。"
+    ],
+    "examples": [
+      {
+        "q": "从右心室追踪一份血到左心房。 条件：正常肺循环。",
+        "given": "正常肺循环。",
+        "analysis": "先出心再回心。",
+        "method": "按管腔连接。",
+        "principle": "双循环。",
+        "steps": [
+          "右室→肺动脉→肺毛细血管。",
+          "交换后经肺静脉→左房。"
+        ],
+        "ans": "上述路线。",
+        "verification": "肺静脉回左房不是右房。",
+        "pitfall": "动脉都高氧因而画反。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.2",
+        "related_sections": []
+      },
+      {
+        "q": "每搏70 mL、每分钟70搏，心输出量？ 条件：每搏值在该时段视稳定。",
+        "given": "每搏值在该时段视稳定。",
+        "analysis": "量乘频率。",
+        "method": "SV×HR。",
+        "principle": "流量定义。",
+        "steps": [
+          "70×70=4900 mL/min。",
+          "换为4.9 L/min。"
+        ],
+        "ans": "4.9 L/min。",
+        "verification": "mL/搏×搏/min正确相消。",
+        "pitfall": "只报70或4900L。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.2",
+        "related_sections": []
+      },
+      {
+        "q": "某房室瓣上游心房压力低于心室时为何应关闭？ 条件：正常单向瓣结构。",
+        "given": "正常单向瓣结构。",
+        "analysis": "压力若反向会导致倒流。",
+        "method": "按压差判断。",
+        "principle": "被动瓣膜。",
+        "steps": [
+          "心室压力较高会推瓣朝关闭方向。",
+          "阻止血液由室返回房。"
+        ],
+        "ans": "压差促闭以防回流。",
+        "verification": "不是所有心室收缩都让房室瓣开。",
+        "pitfall": "瓣主动拉血进入心室。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "肺动脉为何叫动脉而通常不含高氧血？ 条件：正常肺循环。",
+        "given": "正常肺循环。",
+        "analysis": "按离心命名。",
+        "method": "区分方向和成分。",
+        "principle": "血管定义。",
+        "steps": [
+          "它由右室把血送离心脏。",
+          "经肺后才提高氧合。"
+        ],
+        "ans": "因为它离心。",
+        "verification": "肺静脉回心却通常高氧。",
+        "pitfall": "按氧命名。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.2",
+        "related_sections": []
+      },
+      {
+        "q": "运动模型HR由60变90、SV均80mL，输出量倍数？ 条件：SV不变仅为题设。",
+        "given": "SV不变仅为题设。",
+        "analysis": "比例等心率比。",
+        "method": "求两流量。",
+        "principle": "乘积关系。",
+        "steps": [
+          "初4.8 L/min，后7.2 L/min。",
+          "比7.2/4.8=1.5。"
+        ],
+        "ans": "1.5倍。",
+        "verification": "不能无条件假设真实运动SV永远不变。",
+        "pitfall": "只增30就报30倍。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.2",
+        "related_sections": []
+      },
+      {
+        "q": "正常心室收缩时所有瓣都会打开吗？ 条件：按压力差与瓣位置。",
+        "given": "按压力差与瓣位置。",
+        "analysis": "瓣分工不同。",
+        "method": "核流向。",
+        "principle": "压差驱动。",
+        "steps": [
+          "房室瓣通常防向房回流。",
+          "半月瓣在室压超过相应动脉压力时打开。"
+        ],
+        "ans": "不会。",
+        "verification": "收缩初期也可尚无射血，需看压力。",
+        "pitfall": "一收缩全开。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.2",
+        "related_sections": []
+      },
+      {
+        "q": "静脉血在人体内真实是蓝色吗？ 条件：图中常用蓝线表示相对低氧。",
+        "given": "图中常用蓝线表示相对低氧。",
+        "analysis": "编码不是真实色。",
+        "method": "区分示意与观察。",
+        "principle": "血红蛋白颜色。",
+        "steps": [
+          "低氧血通常较深红。",
+          "蓝线是帮助区分路径的约定。"
+        ],
+        "ans": "不是蓝色。",
+        "verification": "不能靠图色定义动静脉。",
+        "pitfall": "示意配色当生理颜色。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "仅知一个人心率较快，能唯一推出其心输出量更大吗？ 条件：每搏输出量未知。",
+      "given": "每搏输出量未知。",
+      "analysis": "乘积另一因子可变。",
+      "method": "使用CO=SV×HR。",
+      "principle": "多变量关系。",
+      "steps": [
+        "心率大但SV小可能抵消。",
+        "需两量或直接流量资料。"
+      ],
+      "ans": "不能唯一推出。",
+      "verification": "同样心率也可不同输出。",
+      "pitfall": "单一指标代全功能。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 6,
+      "primary_section": "6.2",
+      "related_sections": []
+    },
+    "exam": [
+      "血流题按心腔、瓣与血管连续追踪，肺体循环分开",
+      "血管命名以流向判，氧合另标且图色只是编码",
+      "量题写每搏与每分钟单位，压力题以两侧压差判瓣"
+    ],
+    "quick": [
+      "双循环",
+      "离心回心",
+      "压力瓣膜",
+      "末端交换",
+      "输出量"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_6.2",
+        "url": "https://openstax.org/books/biology-2e/pages/40-3-mammalian-heart-and-blood-vessels",
+        "page_or_section": "40-3-mammalian-heart-and-blood-vessels",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_6.2",
+        "url": "https://openstax.org/books/biology-2e/pages/40-3-mammalian-heart-and-blood-vessels",
+        "page_or_section": "40-3-mammalian-heart-and-blood-vessels",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "血流题按心腔、瓣与血管连续追踪，肺体循环分开",
+      "method": "按压差判断。",
+      "principle": "被动瓣膜。",
+      "worked_example_index": 2,
+      "verification": "不是所有心室收缩都让房室瓣开。",
+      "pitfall": "瓣主动拉血进入心室。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“沿双循环和瓣膜追踪血流”的抽样复核：肺静脉回左房不是右房。；若出现“动脉都高氧因而画反。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e1",
+        "review_module": 5,
+        "feedback": "目标“按流向区分动静脉并计算心输出量”的抽样复核：mL/搏×搏/min正确相消。；若出现“只报70或4900L。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "单一指标代全功能。",
+        "correction": "不能唯一推出。",
+        "verification": "同样心率也可不同输出。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "人体双循环与瓣膜",
+      "objects": [
+        "四心腔",
+        "肺体两循环",
+        "肺动静脉",
+        "主动脉腔静脉",
+        "瓣膜"
+      ],
+      "relations": [
+        "右室到肺左房",
+        "左室到全身右房",
+        "两侧不直接混流",
+        "氧合颜色与方向独立"
+      ],
+      "labels": [
+        "右房",
+        "右室",
+        "左房",
+        "左室",
+        "离心",
+        "回心"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用已审核循环或植物图，必须核连接、方向与组织身份；颜色不能替代箭头证据",
+      "english": "Use a precise biological transport schematic. Separate flow direction, oxygenation, pressure and chemical concentration. Arteries are defined by direction away from the heart, not oxygen content. Keep xylem and phloem distinct, and distinguish source-to-sink flow from transpiration-driven water flow."
+    }
+  },
+  "6.3": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 6,
+    "section_id": "6.3",
+    "goals": [
+      "解释起搏与传导协调而非每搏靠脑启动",
+      "区分电活动、收缩和泵血并读周期"
+    ],
+    "prerequisites": [
+      "细胞电信号",
+      "心腔与瓣膜"
+    ],
+    "flow": [
+      "窦房起搏",
+      "房室延迟",
+      "心室传导",
+      "神经调节",
+      "电机械证据"
+    ],
+    "concept_relation": "窦房起搏；房室延迟；心室传导；神经调节；电机械证据",
+    "deep": [
+      "心肌细胞间连接有助兴奋传播及机械协同，收缩细胞执行泵血，传导细胞侧重节律与信号分配。两者都属于特化组织功能，不能把窦房结简单画成一块与心肌无关的普通神经节。适当供氧、离子环境和能量仍是活动的必要条件。",
+      "心电图记录体表电位差随时间的变化，是电活动的综合信号，不是直接的血压图或每搏输出量图。电活动通常先于相应机械响应，某波存在不自动证明所有肌肉都完成有效收缩；课堂解释需明确所测物理量与推断层次。",
+      "稳定节律下周期T可由60/心率求秒，频率为每秒搏数；某时段搏数还要乘时长。心率变化可能伴随周期内各阶段时长变化，不能按比例假设每阶段都同样缩短。对异常曲线只做题设范围的推理，不从教学图直接作个人疾病或治疗判断。"
+    ],
+    "derive": [
+      "常规电传导：窦房结→心房→房室结延迟→房室束/束支→浦肯野系统→心室。",
+      "自律产生基本节律；神经与内分泌可调节，不等于每搏由脑启动。",
+      "稳定节律T=60/HR秒，HR以搏/min；心电信号不同压力和血流。"
+    ],
+    "examples": [
+      {
+        "q": "稳定心率75搏/min，周期和频率各多少？ 条件：忽略搏间差异。",
+        "given": "忽略搏间差异。",
+        "analysis": "每分钟转每秒。",
+        "method": "T=60/HR，f=HR/60。",
+        "principle": "周期频率。",
+        "steps": [
+          "T=60/75=.80 s。",
+          "f=75/60=1.25 Hz。"
+        ],
+        "ans": ".80 s，1.25 Hz。",
+        "verification": "Tf=1。",
+        "pitfall": "75直接当Hz。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.3",
+        "related_sections": []
+      },
+      {
+        "q": "阻断部分外来神经信号后，适当维持条件下心脏仍跳，是否推翻神经能调心率？ 条件：区分启动和调节。",
+        "given": "区分启动和调节。",
+        "analysis": "两机制可并存。",
+        "method": "解释自律。",
+        "principle": "起搏细胞。",
+        "steps": [
+          "基本节律可由自身起搏系统产生。",
+          "外来神经仍可改变频率和传导，未必是每搏所需。"
+        ],
+        "ans": "不推翻。",
+        "verification": "试验只反对每搏必由该神经启动的强说法。",
+        "pitfall": "还会跳便说神经全无作用。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.3",
+        "related_sections": []
+      },
+      {
+        "q": "房室传导为何需适当延迟而非心房心室完全同时收缩？ 条件：普通协调泵血模型。",
+        "given": "普通协调泵血模型。",
+        "analysis": "时序有利于充盈和射血。",
+        "method": "连接信号与机械阶段。",
+        "principle": "协调传导。",
+        "steps": [
+          "延迟使心房活动先于心室。",
+          "有利血进入心室后再由心室射出，避免把两阶段混同。"
+        ],
+        "ans": "帮助协调先房后室。",
+        "verification": "不是将血流在结点储存。",
+        "pitfall": "把AV结当血液阀门。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "心电图纵轴直接等于血压吗？ 条件：体表电信号记录。",
+        "given": "体表电信号记录。",
+        "analysis": "被测量不同。",
+        "method": "核单位物理意义。",
+        "principle": "电位差。",
+        "steps": [
+          "记录的是电位差变化。",
+          "血压需压力测量，不能直接等同。"
+        ],
+        "ans": "不等于。",
+        "verification": "电和机械相关但不是同量。",
+        "pitfall": "波高当mmHg。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.3",
+        "related_sections": []
+      },
+      {
+        "q": "每分钟60搏的稳定节律，2.5分钟多少搏？ 条件：频率恒定。",
+        "given": "频率恒定。",
+        "analysis": "率乘时长。",
+        "method": "60×2.5。",
+        "principle": "计数。",
+        "steps": [
+          "得150。",
+          "单位搏。"
+        ],
+        "ans": "150搏。",
+        "verification": "不是周期秒数。",
+        "pitfall": "60/2.5。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.3",
+        "related_sections": []
+      },
+      {
+        "q": "自律意味着心肌不需氧和能量吗？ 条件：考虑活细胞代谢。",
+        "given": "考虑活细胞代谢。",
+        "analysis": "启动机制不同资源需求。",
+        "method": "核维持条件。",
+        "principle": "细胞能量。",
+        "steps": [
+          "电活动和收缩仍需代谢支持。",
+          "自律并不创造能量或取消离子条件。"
+        ],
+        "ans": "不意味着。",
+        "verification": "离体能跳须适当维持条件。",
+        "pitfall": "自律等于永动。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.3",
+        "related_sections": []
+      },
+      {
+        "q": "传导系统箭头可当作血流箭头使用吗？ 条件：图表示电兴奋传播。",
+        "given": "图表示电兴奋传播。",
+        "analysis": "两通路不同。",
+        "method": "区分信号和物质。",
+        "principle": "结构功能。",
+        "steps": [
+          "窦房到房室等是电传导顺序。",
+          "血液按腔室与瓣膜血管流，不能照抄。"
+        ],
+        "ans": "不可。",
+        "verification": "应使用不同线型图例。",
+        "pitfall": "信号与血流一条路。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "检测到心电活动就能保证每搏输出量正常吗？ 条件：未测机械收缩和流量。",
+      "given": "未测机械收缩和流量。",
+      "analysis": "电信号不等全部泵功能。",
+      "method": "分层证据。",
+      "principle": "电机械耦联。",
+      "steps": [
+        "电活动是收缩相关信号。",
+        "有效收缩及输出还依其他条件，需相应测量。"
+      ],
+      "ans": "不能保证。",
+      "verification": "不以单一测量替代全部系统功能。",
+      "pitfall": "有波就必有效泵血。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 6,
+      "primary_section": "6.3",
+      "related_sections": []
+    },
+    "exam": [
+      "先区分起搏、传导和外来调节，再解释实验",
+      "电信号路径和血流路径分别画，AV延迟写明时序作用",
+      "周期与心率先换单位，心电图不冒充压力或输出证据"
+    ],
+    "quick": [
+      "窦房起搏",
+      "房室延迟",
+      "心室传导",
+      "神经调节",
+      "电机械证据"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_6.3",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity",
+        "page_or_section": "19-2-cardiac-muscle-and-electrical-activity",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_6.3",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity",
+        "page_or_section": "19-2-cardiac-muscle-and-electrical-activity",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "先区分起搏、传导和外来调节，再解释实验",
+      "method": "连接信号与机械阶段。",
+      "principle": "协调传导。",
+      "worked_example_index": 2,
+      "verification": "不是将血流在结点储存。",
+      "pitfall": "把AV结当血液阀门。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e1",
+        "review_module": 4,
+        "feedback": "目标“解释起搏与传导协调而非每搏靠脑启动”的抽样复核：试验只反对每搏必由该神经启动的强说法。；若出现“还会跳便说神经全无作用。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e0",
+        "review_module": 5,
+        "feedback": "目标“区分电活动、收缩和泵血并读周期”的抽样复核：Tf=1。；若出现“75直接当Hz。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "有波就必有效泵血。",
+        "correction": "不能保证。",
+        "verification": "不以单一测量替代全部系统功能。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "心脏电传导与机械时序",
+      "objects": [
+        "窦房结",
+        "房室结",
+        "房室束",
+        "束支",
+        "浦肯野",
+        "电机械时间条"
+      ],
+      "relations": [
+        "房先室后",
+        "AV延迟非血液停在结点",
+        "信号路不同血路"
+      ],
+      "labels": [
+        "起搏",
+        "传导",
+        "调节",
+        "电位差",
+        "T=60/HR"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用已审核循环或植物图，必须核连接、方向与组织身份；颜色不能替代箭头证据",
+      "english": "Use a precise biological transport schematic. Separate flow direction, oxygenation, pressure and chemical concentration. Arteries are defined by direction away from the heart, not oxygen content. Keep xylem and phloem distinct, and distinguish source-to-sink flow from transpiration-driven water flow."
+    }
+  },
+  "6.4": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 6,
+    "section_id": "6.4",
+    "goals": [
+      "用血流供需解释常见病理关系",
+      "区分风险、因果、绝对风险与相对变化"
+    ],
+    "prerequisites": [
+      "循环结构",
+      "数据比例与对照"
+    ],
+    "flow": [
+      "结构机制",
+      "组织供需",
+      "风险因素",
+      "风险计算",
+      "证据限制"
+    ],
+    "concept_relation": "结构机制；组织供需；风险因素；风险计算；证据限制",
+    "deep": [
+      "风险因素描述发生可能性或相关机制，不代表携带某因素的人必然患病。吸烟、血压及血脂相关因素、活动等可干预因素，与年龄和遗传背景等不能随意改变的因素共同作用。一般健康教育不等于针对个人诊断或药物处方，课程笔记应维持这条边界。",
+      "研究数据需区分绝对风险和相对变化。发生比例从2%到1%是减少1个百分点，相对减少50%，并非减少50个百分点。观察性分组还可能受年龄、既往病情等混杂；有相关性不自动说明单一因素独立造成全部差异。",
+      "读题先确定问题是结构损伤、供血变化、风险比较还是证据评价，再选择相应推理。测一次心率或血压不能取代完整评估，课堂中不自行设阈值诊断疾病。提出预防原则应说明减少哪类风险及证据范围，不使用“永远不会”“彻底清血管”等无依据承诺。"
+    ],
+    "derive": [
+      "供血不足是供需关系问题，不等于所有情况只有一个血管结构原因。",
+      "血栓、栓塞、斑块狭窄为相关但不同概念；冠状循环供给心肌。",
+      "绝对风险差=p₁−p₂；相对减少=(p₁−p₂)/p₁，注明分母与百分点。"
+    ],
+    "examples": [
+      {
+        "q": "心室腔内有血，为什么心肌仍需要冠状血供？ 条件：较厚心肌的代谢需求。",
+        "given": "较厚心肌的代谢需求。",
+        "analysis": "腔血不等每个细胞被充分供给。",
+        "method": "结构与扩散距离联系。",
+        "principle": "组织灌流。",
+        "steps": [
+          "心肌内部细胞与腔血存在距离和屏障。",
+          "冠状血管把氧营养送近各心肌组织。"
+        ],
+        "ans": "仍需冠状循环供给。",
+        "verification": "与专门运输缩短扩散距离原理一致。",
+        "pitfall": "有血接触一侧就全部供足。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.4",
+        "related_sections": []
+      },
+      {
+        "q": "教学研究发生率2%降1%，绝对与相对减少多少？ 条件：同一结局和时段，先只作算术比较。",
+        "given": "同一结局和时段，先只作算术比较。",
+        "analysis": "两种分母不同。",
+        "method": "分别计算。",
+        "principle": "风险比例。",
+        "steps": [
+          "绝对差2%−1%=1个百分点。",
+          "相对(2−1)/2=50%。"
+        ],
+        "ans": "1个百分点；50%。",
+        "verification": "不能说减少50个百分点。",
+        "pitfall": "把百分比和百分点混写。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.4",
+        "related_sections": []
+      },
+      {
+        "q": "观察到运动组风险较低，能据此说运动独立解释全部差异吗？ 条件：组间年龄、病史等未控制。",
+        "given": "组间年龄、病史等未控制。",
+        "analysis": "可能混杂。",
+        "method": "审研究设计。",
+        "principle": "因果证据。",
+        "steps": [
+          "其他特征也可能影响结局且与分组有关。",
+          "需控制或更强设计才评估独立作用。"
+        ],
+        "ans": "不能由此唯一归因。",
+        "verification": "不否认可能有作用，只限定该证据力度。",
+        "pitfall": "相关即全部因果。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "所有脑血管损伤都只是同一种血栓堵塞吗？ 条件：包括不同机制。",
+        "given": "包括不同机制。",
+        "analysis": "可有阻塞或出血等。",
+        "method": "分类。",
+        "principle": "结构病理。",
+        "steps": [
+          "阻塞与血管破裂不同。",
+          "不能全部归同一堵塞机制。"
+        ],
+        "ans": "不是。",
+        "verification": "具体病因需更多证据。",
+        "pitfall": "单一图解释所有病。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.4",
+        "related_sections": []
+      },
+      {
+        "q": "血栓与栓塞完全同义吗？ 条件：按过程概念区分。",
+        "given": "按过程概念区分。",
+        "analysis": "形成位置与移动阻塞不同。",
+        "method": "追踪过程。",
+        "principle": "术语定义。",
+        "steps": [
+          "血栓指在相应部位形成凝块。",
+          "栓塞是移动物质阻塞远处等情形，血栓可为来源之一。"
+        ],
+        "ans": "不完全同义。",
+        "verification": "相关不等相同。",
+        "pitfall": "任何斑块都叫游走血栓。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.4",
+        "related_sections": []
+      },
+      {
+        "q": "风险5%变4%，相对减少多少？ 条件：同结局时段。",
+        "given": "同结局时段。",
+        "analysis": "原风险为分母。",
+        "method": "(5−4)/5。",
+        "principle": "比例。",
+        "steps": [
+          "差1个百分点。",
+          "相对减少1/5=20%。"
+        ],
+        "ans": "20%。",
+        "verification": "4/5=.8，剩原80%。",
+        "pitfall": "说减少1%。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.4",
+        "related_sections": []
+      },
+      {
+        "q": "有风险因素等于必然患病吗？ 条件：风险描述概率。",
+        "given": "风险描述概率。",
+        "analysis": "概率不是确定命运。",
+        "method": "区分关联和必然。",
+        "principle": "多因素。",
+        "steps": [
+          "风险可提高可能性。",
+          "仍受其他因素、暴露和随机过程影响。"
+        ],
+        "ans": "不等于。",
+        "verification": "没有该因素也不代表风险严格零。",
+        "pitfall": "把风险当保证。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "一次教学血压值可否作为对个人疾病和用药的完整判断？ 条件：未给规范重复测量或完整情境。",
+      "given": "未给规范重复测量或完整情境。",
+      "analysis": "单指标证据不足。",
+      "method": "限定推论。",
+      "principle": "测量与诊断层次。",
+      "steps": [
+        "值受方法、时点和状态影响。",
+        "笔记只训练数据解释，不能据此确定个人病因或处方。"
+      ],
+      "ans": "不能作为完整判断。",
+      "verification": "不自创阈值或治疗建议。",
+      "pitfall": "教学数据直接诊断。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 6,
+      "primary_section": "6.4",
+      "related_sections": []
+    },
+    "exam": [
+      "病理题先定位血管、心肌、节律或瓣膜环节，再写供需影响",
+      "风险题标结局、时段、原分母，百分比与百分点分开",
+      "评价研究写具体混杂变量，避免相关即因果或必然患病"
+    ],
+    "quick": [
+      "结构机制",
+      "组织供需",
+      "风险因素",
+      "风险计算",
+      "证据限制"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_6.4",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-2-blood-flow-blood-pressure-and-resistance",
+        "page_or_section": "20-2-blood-flow-blood-pressure-and-resistance",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_6.4",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-2-blood-flow-blood-pressure-and-resistance",
+        "page_or_section": "20-2-blood-flow-blood-pressure-and-resistance",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "病理题先定位血管、心肌、节律或瓣膜环节，再写供需影响",
+      "method": "审研究设计。",
+      "principle": "因果证据。",
+      "worked_example_index": 2,
+      "verification": "不否认可能有作用，只限定该证据力度。",
+      "pitfall": "相关即全部因果。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用血流供需解释常见病理关系”的抽样复核：与专门运输缩短扩散距离原理一致。；若出现“有血接触一侧就全部供足。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分风险、因果、绝对风险与相对变化”的抽样复核：不否认可能有作用，只限定该证据力度。；若出现“相关即全部因果。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "教学数据直接诊断。",
+        "correction": "不能作为完整判断。",
+        "verification": "不自创阈值或治疗建议。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "血管病变与风险数据",
+      "objects": [
+        "正常管腔",
+        "壁内斑块",
+        "局部血栓",
+        "远处栓塞路径",
+        "风险条"
+      ],
+      "relations": [
+        "斑块位于血管壁相关结构",
+        "局部形成与移动阻塞分开",
+        "2%至1%差1个百分点而相对50%"
+      ],
+      "labels": [
+        "斑块",
+        "血栓",
+        "栓塞",
+        "绝对风险",
+        "相对变化"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用已审核循环或植物图，必须核连接、方向与组织身份；颜色不能替代箭头证据",
+      "english": "Use a precise biological transport schematic. Separate flow direction, oxygenation, pressure and chemical concentration. Arteries are defined by direction away from the heart, not oxygen content. Keep xylem and phloem distinct, and distinguish source-to-sink flow from transpiration-driven water flow."
+    }
+  },
+  "6.5": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 6,
+    "section_id": "6.5",
+    "goals": [
+      "将木质部与韧皮部结构功能对应",
+      "用示踪与环剥证据判断通路而不过度外推"
+    ],
+    "prerequisites": [
+      "植物组织",
+      "蒸腾和光合作用产物"
+    ],
+    "flow": [
+      "运输需求",
+      "木质结构",
+      "韧皮结构",
+      "源库网络",
+      "示踪证据"
+    ],
+    "concept_relation": "运输需求；木质结构；韧皮结构；源库网络；示踪证据",
+    "deep": [
+      "光合产物常以蔗糖等形式由源运输到库。成熟叶可作源，生长组织、根、果实或储存器官可作库；储存器官在萌发时也可能变为源。源库是功能角色，不是固定“叶永远源、根永远库”，方向取决于生理阶段和具体通路。",
+      "韧皮部可在不同筛管通路向上或向下运输，不能理解为同一连续管段同一时刻同一股汁液同时向两个相反方向整体流。木质部的常见蒸腾流多从根向叶，图示方向应与情境一致，局部交换也需按实际模型注明。",
+      "示踪或环剥实验能帮助定位。若移去树皮相关韧皮部而木质部暂保持，糖可能在上方积累，根长期得不到供应又会影响整体功能。不能据短期水流仍在就说长期完全不受影响；实验还需同样损伤程度的对照，并排除标记物或操作破坏其他通路。"
+    ],
+    "derive": [
+      "木质部主要长距离输水矿质；韧皮部输源到库的有机同化物等。",
+      "源库角色可随发育改变；上下双向通常指不同运输通路。",
+      "环剥的短期与长期效应分开，不能将损伤现象唯一归因而无对照。"
+    ],
+    "examples": [
+      {
+        "q": "成熟无核的筛管分子必与木质导管一样是死细胞吗？ 条件：按被子植物典型组织。",
+        "given": "按被子植物典型组织。",
+        "analysis": "核有无不单独定义活死。",
+        "method": "结构与功能对应。",
+        "principle": "特化及伴胞协作。",
+        "steps": [
+          "成熟筛管仍为活细胞并保留相应膜和代谢联系。",
+          "伴胞支持其功能，不等同死导管空腔。"
+        ],
+        "ans": "不必；筛管仍活。",
+        "verification": "需看整体细胞状态，非一个结构判据。",
+        "pitfall": "无核即死。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.5",
+        "related_sections": []
+      },
+      {
+        "q": "叶制造标记糖后，根和新芽都检出，说明糖只能向下吗？ 条件：标记与对照支持由该叶输出。",
+        "given": "标记与对照支持由该叶输出。",
+        "analysis": "库可在不同方向。",
+        "method": "按源库追踪。",
+        "principle": "韧皮部运输。",
+        "steps": [
+          "叶为此时源。",
+          "根与新芽均可为库，存在向不同方向通路。"
+        ],
+        "ans": "不能说只能向下。",
+        "verification": "不意味着同一筛管同一时刻双向对流。",
+        "pitfall": "把整株双向画成一管相撞。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.5",
+        "related_sections": []
+      },
+      {
+        "q": "环剥后上方糖积累，短期叶仍得水，能推断什么及不能推断什么？ 条件：主要去韧皮部、木质部暂保持的模型。",
+        "given": "主要去韧皮部、木质部暂保持的模型。",
+        "analysis": "通路分工与时间不同。",
+        "method": "解释并限结论。",
+        "principle": "运输组织。",
+        "steps": [
+          "支持有机物向下通路受阻而木质输水暂可继续。",
+          "不能推出根和整株长期完全不受影响。"
+        ],
+        "ans": "短期支持分工；长期仍可能因根供糖受损而变化。",
+        "verification": "需对照核操作并未伤木质部。",
+        "pitfall": "短期正常当永久正常。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.5",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "萌发时储存器官释放糖给幼芽，储存器官是源还是库？ 条件：就此时输出糖情境。",
+        "given": "就此时输出糖情境。",
+        "analysis": "角色按功能。",
+        "method": "判断净输出。",
+        "principle": "源库定义。",
+        "steps": [
+          "它供出储存物转化产物。",
+          "因此在该通路作源。"
+        ],
+        "ans": "源。",
+        "verification": "不是永远因在地下就作库。",
+        "pitfall": "按位置固定分类。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.5",
+        "related_sections": []
+      },
+      {
+        "q": "木质部主要向叶输送哪些成分？ 条件：一般根到叶蒸腾流。",
+        "given": "一般根到叶蒸腾流。",
+        "analysis": "水和溶解矿质。",
+        "method": "对应组织功能。",
+        "principle": "植物运输。",
+        "steps": [
+          "水构成流体主体。",
+          "溶解矿质可随相应通路运输。"
+        ],
+        "ans": "水及矿质离子等。",
+        "verification": "有机产物远距分配主要另看韧皮部。",
+        "pitfall": "木质部只输空气。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.5",
+        "related_sections": []
+      },
+      {
+        "q": "整个木质部组织能说全部都是死细胞吗？ 条件：组织可含多类细胞。",
+        "given": "组织可含多类细胞。",
+        "analysis": "导管死不等全部组织死。",
+        "method": "区分细胞和组织层级。",
+        "principle": "组织组成。",
+        "steps": [
+          "成熟导管等常为死细胞。",
+          "木质部也可含活的薄壁细胞等。"
+        ],
+        "ans": "不能全部概括。",
+        "verification": "以部分代表整体是错误。",
+        "pitfall": "导管性质覆盖整组织。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.5",
+        "related_sections": []
+      },
+      {
+        "q": "同株韧皮部上下运输代表一管同一股液体必同时反向流吗？ 条件：讨论整体流动方向。",
+        "given": "讨论整体流动方向。",
+        "analysis": "不同管路可有不同压差。",
+        "method": "分开通路。",
+        "principle": "源库网络。",
+        "steps": [
+          "向不同库可走不同筛管。",
+          "单一所定管段的净整体流有相应方向。"
+        ],
+        "ans": "不代表。",
+        "verification": "图应分支而非同一流体互相穿越。",
+        "pitfall": "双向等于每处两向同流。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.5",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "只看染色出现在一条组织，就能排除全部其他路径吗？ 条件：染料性质、时间与检出限未核。",
+      "given": "染料性质、时间与检出限未核。",
+      "analysis": "示踪有选择和检测限制。",
+      "method": "审对照。",
+      "principle": "实验解释。",
+      "steps": [
+        "标记分子未必代表所有物质。",
+        "未检出可与时间或灵敏度有关，需适当对照。"
+      ],
+      "ans": "不能无条件排除。",
+      "verification": "结论限定所示踪物及条件。",
+      "pitfall": "一染料代所有溶质。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 6,
+      "primary_section": "6.5",
+      "related_sections": []
+    },
+    "exam": [
+      "结构题将导管、筛管、伴胞逐个对应功能，别把细胞性质扩大到整组织",
+      "源库先看时段净输出输入，分开不同管路的方向",
+      "环剥题短长期及损伤对照分别解释，不把暂时供水当永久无影响"
+    ],
+    "quick": [
+      "运输需求",
+      "木质结构",
+      "韧皮结构",
+      "源库网络",
+      "示踪证据"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_6.5",
+        "url": "https://openstax.org/books/biology-2e/pages/30-5-transport-of-water-and-solutes-in-plants",
+        "page_or_section": "30-5-transport-of-water-and-solutes-in-plants",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_6.5",
+        "url": "https://openstax.org/books/biology-2e/pages/30-5-transport-of-water-and-solutes-in-plants",
+        "page_or_section": "30-5-transport-of-water-and-solutes-in-plants",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "结构题将导管、筛管、伴胞逐个对应功能，别把细胞性质扩大到整组织",
+      "method": "解释并限结论。",
+      "principle": "运输组织。",
+      "worked_example_index": 2,
+      "verification": "需对照核操作并未伤木质部。",
+      "pitfall": "短期正常当永久正常。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“将木质部与韧皮部结构功能对应”的抽样复核：需看整体细胞状态，非一个结构判据。；若出现“无核即死。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用示踪与环剥证据判断通路而不过度外推”的抽样复核：需对照核操作并未伤木质部。；若出现“短期正常当永久正常。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "一染料代所有溶质。",
+        "correction": "不能无条件排除。",
+        "verification": "结论限定所示踪物及条件。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "木质与韧皮源库运输",
+      "objects": [
+        "导管",
+        "筛管伴胞",
+        "成熟叶",
+        "新芽",
+        "根储存器官",
+        "环剥位置"
+      ],
+      "relations": [
+        "水矿质与糖用不同通路",
+        "筛管活而导管输导细胞通常成熟死",
+        "源库按时段定义",
+        "环剥不直接切断全部木质"
+      ],
+      "labels": [
+        "木质部",
+        "韧皮部",
+        "伴胞",
+        "源",
+        "库",
+        "短期/长期"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用已审核循环或植物图，必须核连接、方向与组织身份；颜色不能替代箭头证据",
+      "english": "Use a precise biological transport schematic. Separate flow direction, oxygenation, pressure and chemical concentration. Arteries are defined by direction away from the heart, not oxygen content. Keep xylem and phloem distinct, and distinguish source-to-sink flow from transpiration-driven water flow."
+    }
+  },
+  "6.6": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 6,
+    "section_id": "6.6",
+    "goals": [
+      "解释蒸腾拉力、内聚与水势关系",
+      "用压力流解释同化物运输并评价实验代理量"
+    ],
+    "prerequisites": [
+      "渗透与水势",
+      "木质韧皮及源库"
+    ],
+    "flow": [
+      "蒸腾张力",
+      "根压条件",
+      "水势比较",
+      "源库压力流",
+      "代理量审查"
+    ],
+    "concept_relation": "蒸腾张力；根压条件；水势比较；源库压力流；代理量审查",
+    "deep": [
+      "韧皮部压力流模型中，源端装载糖等可降低局部溶质势，水进入提高膨压；库端卸载及水交换有利形成压力差，推动整体流。装载卸载有的途径涉及代谢能，但沿管长距离整体流的直接驱动可为压力梯度，不能把每段汁液都画成逐格ATP搬运。",
+      "蒸腾受气孔、光照、湿度、温度、风及土壤供水等影响，强光或干燥不必永远按简单直线上升，气孔关闭等反馈可能改变结果。蒸腾速率和光合速率有关联但不是同一个量，不能用失水量直接替代全部碳固定数据。",
+      "气泡式吸水计常测枝条吸水速率，作为蒸腾的代理须考虑储水变化、其他用水和漏气。若管截面积A、气泡位移d、时间t，吸水体积率约Ad/t，需说明装置密封及读数假设。直接称量失水还要封住土面蒸发等非叶来源，否则差值不全是叶蒸腾。"
+    ],
+    "derive": [
+      "简化同高水势Ψ=Ψ_s+Ψ_p，水由高Ψ向低Ψ；−.2>−.8 MPa。",
+      "木质部蒸腾张力与内聚传力；韧皮部源库压力差驱动整体流。",
+      "吸水计代理流率=Ad/t，吸水不自动严格等于蒸腾，需核储水与漏项。"
+    ],
+    "examples": [
+      {
+        "q": "甲水势−.2、乙−.8 MPa，其他条件允许水交换，净水向哪边？ 条件：比较总水势，忽略额外阻力差的动态细节。",
+        "given": "比较总水势，忽略额外阻力差的动态细节。",
+        "analysis": "负数排序。",
+        "method": "高到低。",
+        "principle": "水势。",
+        "steps": [
+          "−.2大于−.8。",
+          "净趋势甲到乙。"
+        ],
+        "ans": "甲→乙。",
+        "verification": "不是向绝对值较小者。",
+        "pitfall": "负号比较反。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.6",
+        "related_sections": []
+      },
+      {
+        "q": "气泡位移20 mm，毛细管截面积.50 mm²，用时2 min，体积流率？ 条件：密封、气泡表示吸水体积且截面恒定。",
+        "given": "密封、气泡表示吸水体积且截面恒定。",
+        "analysis": "体积A乘长度。",
+        "method": "Ad/t。",
+        "principle": "几何与速率。",
+        "steps": [
+          "V=.50×20=10 mm³。",
+          "率10/2=5 mm³/min。"
+        ],
+        "ans": "5 mm³/min。",
+        "verification": "单位mm²×mm/min=mm³/min。",
+        "pitfall": "只用位移作体积率。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.6",
+        "related_sections": []
+      },
+      {
+        "q": "源端装糖为何可支持韧皮部长距离流动？ 条件：采用压力流模型，允许水交换。",
+        "given": "采用压力流模型，允许水交换。",
+        "analysis": "装糖影响水进入和膨压。",
+        "method": "因果链。",
+        "principle": "渗透与压力梯度。",
+        "steps": [
+          "源端溶质势降低可使水进入，提高局部膨压。",
+          "配合库端卸载形成压差，驱动源到库整体流。"
+        ],
+        "ans": "通过水交换与压力差。",
+        "verification": "不是糖自己有向根的重力意图。",
+        "pitfall": "全程每段都靠同一主动泵。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.6",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "Ψ_s=−1.0、Ψ_p=+.6 MPa，总Ψ？ 条件：忽略其他水势项。",
+        "given": "忽略其他水势项。",
+        "analysis": "相加而非只看溶质。",
+        "method": "Ψ=Ψ_s+Ψ_p。",
+        "principle": "简化水势。",
+        "steps": [
+          "−1.0+.6=−.4。",
+          "单位MPa。"
+        ],
+        "ans": "−.4 MPa。",
+        "verification": "正压力可抵消部分负溶质势。",
+        "pitfall": "只报−1.0。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.6",
+        "related_sections": []
+      },
+      {
+        "q": "死的成熟导管靠自己的呼吸ATP主动泵全部水吗？ 条件：按蒸腾张力模型。",
+        "given": "按蒸腾张力模型。",
+        "analysis": "死细胞不能作为自身代谢泵。",
+        "method": "区分通路与驱动力。",
+        "principle": "内聚张力。",
+        "steps": [
+          "导管提供结构通道。",
+          "蒸腾相关压差等驱动水流，非导管自身ATP泵。"
+        ],
+        "ans": "不是。",
+        "verification": "活根等仍可参与其他过程。",
+        "pitfall": "无活导管就全株不能输水。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.6",
+        "related_sections": []
+      },
+      {
+        "q": "吸水10 mL、同期枝条储水增2 mL，其他用水忽略，蒸腾多少？ 条件：同一时间完整收支。",
+        "given": "同一时间完整收支。",
+        "analysis": "部分吸水留体内。",
+        "method": "输入=储量增+输出。",
+        "principle": "水守恒。",
+        "steps": [
+          "输出=10−2。",
+          "得8 mL。"
+        ],
+        "ans": "8 mL。",
+        "verification": "10=2+8，说明代理不恒等。",
+        "pitfall": "吸多少蒸多少无条件。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.6",
+        "related_sections": []
+      },
+      {
+        "q": "称盆栽总失重，土面未封闭，可全算叶蒸腾吗？ 条件：土壤也可蒸发。",
+        "given": "土壤也可蒸发。",
+        "analysis": "多失水路径。",
+        "method": "加土面控制。",
+        "principle": "实验归因。",
+        "steps": [
+          "总失重含叶与土面等。",
+          "需隔离或估计土面贡献才归叶。"
+        ],
+        "ans": "不能。",
+        "verification": "可设置封土面与相应对照。",
+        "pitfall": "一称重全为气孔。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 6,
+        "primary_section": "6.6",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "增强光照必使蒸腾在任何条件下同比持续增加吗？ 条件：水供应与气孔反馈未固定。",
+      "given": "水供应与气孔反馈未固定。",
+      "analysis": "多因素及非线性响应。",
+      "method": "核限制条件。",
+      "principle": "气孔调节。",
+      "steps": [
+        "光可能促进开孔但缺水可致关闭等。",
+        "因此不能无条件外推线性增大。"
+      ],
+      "ans": "不必。",
+      "verification": "需控制湿度、温度、供水并测气孔响应。",
+      "pitfall": "单因素经验无限外推。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 6,
+      "primary_section": "6.6",
+      "related_sections": []
+    },
+    "exam": [
+      "驱动力题分开木质张力与韧皮压力流，并说明活细胞作用位置",
+      "水势先求总和再比较负数，别只看浓度",
+      "实验量写代理而非恒等，用储水与土面蒸发审收支"
+    ],
+    "quick": [
+      "蒸腾张力",
+      "根压条件",
+      "水势比较",
+      "源库压力流",
+      "代理量审查"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_6.6",
+        "url": "https://openstax.org/books/biology-2e/pages/30-5-transport-of-water-and-solutes-in-plants",
+        "page_or_section": "30-5-transport-of-water-and-solutes-in-plants",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 2,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_6.6",
+        "url": "https://openstax.org/books/biology-2e/pages/30-5-transport-of-water-and-solutes-in-plants",
+        "page_or_section": "30-5-transport-of-water-and-solutes-in-plants",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "驱动力题分开木质张力与韧皮压力流，并说明活细胞作用位置",
+      "method": "因果链。",
+      "principle": "渗透与压力梯度。",
+      "worked_example_index": 2,
+      "verification": "不是糖自己有向根的重力意图。",
+      "pitfall": "全程每段都靠同一主动泵。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“解释蒸腾拉力、内聚与水势关系”的抽样复核：不是向绝对值较小者。；若出现“负号比较反。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“用压力流解释同化物运输并评价实验代理量”的抽样复核：不是糖自己有向根的重力意图。；若出现“全程每段都靠同一主动泵。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "单因素经验无限外推。",
+        "correction": "不必。",
+        "verification": "需控制湿度、温度、供水并测气孔响应。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "木质张力与韧皮压力流",
+      "objects": [
+        "叶蒸腾面",
+        "连续水柱",
+        "源端装糖",
+        "库端卸糖",
+        "水交换",
+        "吸水计"
+      ],
+      "relations": [
+        "木质拉力不同韧皮压差",
+        "水由高总水势到低",
+        "源入水提膨压",
+        "代理量含储水校正"
+      ],
+      "labels": [
+        "Ψ",
+        "张力",
+        "膨压",
+        "源→库",
+        "Ad/t"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "可复用已审核循环或植物图，必须核连接、方向与组织身份；颜色不能替代箭头证据",
+      "english": "Use a precise biological transport schematic. Separate flow direction, oxygenation, pressure and chemical concentration. Arteries are defined by direction away from the heart, not oxygen content. Keep xylem and phloem distinct, and distinguish source-to-sink flow from transpiration-driven water flow."
+    }
+  }
+}

@@ -1,0 +1,1211 @@
+{
+  "16.1": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 16,
+    "section_id": "16.1",
+    "goals": [
+      "说明重组DNA各组成的作用",
+      "区分DNA连接与复制并用对照评估证据"
+    ],
+    "prerequisites": [
+      "DNA结构",
+      "互补配对和基因表达"
+    ],
+    "flow": [
+      "目的DNA",
+      "特异切割",
+      "互补与连接",
+      "载体相容",
+      "结构表达验证"
+    ],
+    "concept_relation": "目的DNA；特异切割；互补与连接；载体相容；结构表达验证",
+    "deep": [
+      "限制酶与连接酶不是互相替代的工具。切开之后，载体可能自身重新连接，也可能连接方向或结构不符合目的；因此获得一个含标记的细胞不等于已证明目的片段正确。对照和后续分子检查是推断过程的一部分。",
+      "读限制图谱时，线性DNA有n个不同切点，完整切开通常得到n+1个片段；环状DNA在n≥1个不同切点完整切开得到n个片段。一个位点也未切开的环保持环状，不能将n=0机械代入“0个片段”。片段长度和应守恒。",
+      "本节讨论概念与证据，不提供未经监督的实验实施方案。说明题应写清对象、酶的作用、所需连接关系和怎样验证；不要只背“剪刀、胶水、运载工具”的比喻而漏掉骨架、识别位点及载体适用条件。"
+    ],
+    "derive": [
+      "限制性内切酶切DNA骨架；DNA连接酶连接适当骨架末端。",
+      "完整酶切：线性分子n个不同切点→n+1片段；环状分子n≥1→n片段。",
+      "各片段长度之和等于原DNA长度，前提是未丢失片段且切割完整。"
+    ],
+    "examples": [
+      {
+        "q": "一条线性DNA长6000 bp，有两个不同切点，位于距左端1000与3500 bp处，完整酶切后几段、多长？ 条件：线性、两切点且无缺失。",
+        "given": "线性、两切点且无缺失。",
+        "analysis": "沿坐标分割。",
+        "method": "相邻位置相减。",
+        "principle": "线性n切点产生n+1片段。",
+        "steps": [
+          "三段为1000、3500−1000=2500、6000−3500=2500 bp。",
+          "长度和6000，计3段。"
+        ],
+        "ans": "3段：1000、2500、2500 bp。",
+        "verification": "两段相同长度也仍是两个分子片段，电泳条带数未必等于片段数。",
+        "pitfall": "把相同长度片段合并后说只切出2段。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 16,
+        "primary_section": "16.1",
+        "related_sections": []
+      },
+      {
+        "q": "6000 bp环状质粒有两切点，沿一方向两点相距1500 bp，完整切开后片段？ 条件：环状且两个不同位点。",
+        "given": "环状且两个不同位点。",
+        "analysis": "环的另一条弧也成片段。",
+        "method": "用总长减已知弧。",
+        "principle": "环状n切点得n片段。",
+        "steps": [
+          "一段1500 bp。",
+          "另一段6000−1500=4500 bp，共2段。"
+        ],
+        "ans": "1500与4500 bp。",
+        "verification": "片段和仍6000。",
+        "pitfall": "误用线性规则说3段。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 16,
+        "primary_section": "16.1",
+        "related_sections": []
+      },
+      {
+        "q": "重组实验得到能在选择条件下生长的细胞，是否足以证明目的片段已正确连接并表达？ 条件：筛选标记只提供某一特征证据。",
+        "given": "筛选标记只提供某一特征证据。",
+        "analysis": "载体存在、插入正确与表达是不同命题。",
+        "method": "列证据层级。",
+        "principle": "筛选不能替代结构和功能验证。",
+        "steps": [
+          "载体可能自连或插入不合适。",
+          "需进一步查目的片段结构及目标表达/功能证据。"
+        ],
+        "ans": "不足。",
+        "verification": "有标记而无目的插入也可解释生长。",
+        "pitfall": "将筛选阳性当所有步骤成功。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 16,
+        "primary_section": "16.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "DNA连接酶的主要作用是使互补碱基形成氢键吗？ 条件：区分配对与骨架连接。",
+        "given": "区分配对与骨架连接。",
+        "analysis": "氢键不是骨架的共价键。",
+        "method": "按化学位置解释。",
+        "principle": "DNA骨架连接。",
+        "steps": [
+          "互补末端可先配对。",
+          "连接酶连接相应糖磷酸骨架缺口。"
+        ],
+        "ans": "不是；主要形成骨架共价连接。",
+        "verification": "仅暂时配对的末端不等于稳定连接完成。",
+        "pitfall": "把碱基配对当作连接酶全部作用。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 16,
+        "primary_section": "16.1",
+        "related_sections": []
+      },
+      {
+        "q": "线性DNA有3个不同切点，完整切开多少片段？ 条件：不丢失片段。",
+        "given": "不丢失片段。",
+        "analysis": "线性有两个端点。",
+        "method": "n+1。",
+        "principle": "切割计数。",
+        "steps": [
+          "3+1。",
+          "得4段。"
+        ],
+        "ans": "4段。",
+        "verification": "每新增一个切点使段数多1。",
+        "pitfall": "用环状的n规则。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 16,
+        "primary_section": "16.1",
+        "related_sections": []
+      },
+      {
+        "q": "环状DNA只有1个切点，完整切割后是什么？ 条件：一个位点。",
+        "given": "一个位点。",
+        "analysis": "环被打开。",
+        "method": "按拓扑改变判断。",
+        "principle": "单切环产生线性分子。",
+        "steps": [
+          "切开一处使环变一条线。",
+          "长度仍为原总长。"
+        ],
+        "ans": "1条全长线性片段。",
+        "verification": "没有第二切点可再分段。",
+        "pitfall": "认为切1次必有2片段。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 16,
+        "primary_section": "16.1",
+        "related_sections": []
+      },
+      {
+        "q": "某载体在宿主A可复制，是否必然在任何宿主B也可？ 条件：未给宿主相容信息。",
+        "given": "未给宿主相容信息。",
+        "analysis": "复制依赖相关元件与宿主系统。",
+        "method": "检查适用条件。",
+        "principle": "载体相容性。",
+        "steps": [
+          "A中的复制成功不证明B具有相同识别条件。",
+          "需相容载体与宿主证据。"
+        ],
+        "ans": "不必然。",
+        "verification": "不能由一个系统外推全部生物。",
+        "pitfall": "把质粒当万能运载工具。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 16,
+        "primary_section": "16.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "同长度的两个酶切片段在电泳中可能出现同一位置的条带，条带数能否总当作片段数？ 条件：同条件下相同长度可共迁移。",
+      "given": "同条件下相同长度可共迁移。",
+      "analysis": "观察条带是位置分类，不一定是一分子一条带。",
+      "method": "区分测量与实际对象。",
+      "principle": "同长度片段可共迁移。",
+      "steps": [
+        "两个2500 bp片段可处于同一条带位置。",
+        "实际仍有两段，须结合酶切图和信号强度等信息。"
+      ],
+      "ans": "不能总等同。",
+      "verification": "线性6000 bp两切点的例子有3片段但可只见2长度位置。",
+      "pitfall": "条带少就自动认定少切了一刀。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 16,
+      "primary_section": "16.1",
+      "related_sections": []
+    },
+    "exam": [
+      "限制图先确认线性或环状、切点是否不同以及是否完整切割",
+      "长度题用坐标差和总长守恒双重检查",
+      "评价实验把筛选、结构和表达证据分开，不把阳性标记扩大解释"
+    ],
+    "quick": [
+      "目的DNA",
+      "特异切割",
+      "互补与连接",
+      "载体相容",
+      "结构表达验证"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 5,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_16.1",
+        "url": "https://openstax.org/books/biology-2e/pages/17-1-biotechnology",
+        "page_or_section": "17-1-biotechnology",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 5,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_16.1",
+        "url": "https://openstax.org/books/biology-2e/pages/17-1-biotechnology",
+        "page_or_section": "17-1-biotechnology",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "限制图先确认线性或环状、切点是否不同以及是否完整切割",
+      "method": "列证据层级。",
+      "principle": "筛选不能替代结构和功能验证。",
+      "worked_example_index": 2,
+      "verification": "有标记而无目的插入也可解释生长。",
+      "pitfall": "将筛选阳性当所有步骤成功。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "p0",
+        "review_module": 5,
+        "feedback": "目标“说明重组DNA各组成的作用”的抽样复核：仅暂时配对的末端不等于稳定连接完成。；若出现“把碱基配对当作连接酶全部作用。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 7,
+        "feedback": "目标“区分DNA连接与复制并用对照评估证据”的抽样复核：有标记而无目的插入也可解释生长。；若出现“将筛选阳性当所有步骤成功。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "条带少就自动认定少切了一刀。",
+        "correction": "不能总等同。",
+        "verification": "线性6000 bp两切点的例子有3片段但可只见2长度位置。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "重组DNA连接与酶切拓扑",
+      "objects": [
+        "DNA或细胞示意",
+        "过程箭头",
+        "对照与证据框",
+        "限制条件"
+      ],
+      "relations": [
+        "线性2切点形成3片段",
+        "环状2切点形成2片段",
+        "连接酶作用在骨架",
+        "筛选与表达证据分开"
+      ],
+      "labels": [
+        "限制性内切酶",
+        "DNA连接酶",
+        "目的DNA",
+        "载体",
+        "6000 bp"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "已有DNA/遗传图需核链方向和对象；无相同过程时另列绘图任务",
+      "english": "Create a concept-level genetic engineering teaching diagram, not a laboratory protocol. Preserve DNA strand polarity and the distinction between target DNA, vector DNA, recombinant molecule and expressed protein. PCR arrows must represent denaturation, primer annealing and extension as distinct stages; show ideal doubling as a conditional model and do not imply infinite efficiency or clinical certainty."
+    }
+  },
+  "16.2": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 16,
+    "section_id": "16.2",
+    "goals": [
+      "将获得目的信息、转移、筛选与验证组织成证据链",
+      "解释宿主选择及表达失败的可能原因"
+    ],
+    "prerequisites": [
+      "DNA重组",
+      "转录翻译"
+    ],
+    "flow": [
+      "目的信息",
+      "构建与宿主",
+      "进入与筛选",
+      "结构表达功能",
+      "应用证据边界"
+    ],
+    "concept_relation": "目的信息；构建与宿主；进入与筛选；结构表达功能；应用证据边界",
+    "deep": [
+      "筛选用于从大量细胞中识别候选，常利用可辨识特征；验证则检查目标结构和实际功能。对照要能排除“宿主本来就有相同表现”“仅载体产生影响”或“检测本身背景阳性”等解释。具体应采用哪些对照由所问命题决定。",
+      "工程应用可包括生产药用蛋白、研究基因功能及农业性状改良等，但有效、可制造、安全与适合实际使用是不同问题。细胞中有目标蛋白不自动证明某产品的临床有效或环境安全；后续评价须按用途和证据进行。",
+      "答题可以把每一步写成“要证明什么—用什么类型的证据—仍排除不了什么”。这比只背一串名词更能分析实验。所有说明均为高中概念模型，不将教学流程当作可直接实施的实验操作规程或产品批准。"
+    ],
+    "derive": [
+      "DNA存在→不必然有RNA；RNA存在→不必然有正确功能蛋白。",
+      "比较对象可包括未处理宿主、空载体候选及目标构建候选，按命题选择相应对照。",
+      "表达需相容调控、正确编码信息以及适当宿主环境。"
+    ],
+    "examples": [
+      {
+        "q": "向细菌转入一个含内含子的真核基因组片段，检出DNA却未检出目标蛋白，DNA检测是否证明表达成功？ 条件：细菌无相应真核剪接过程的入门模型。",
+        "given": "细菌无相应真核剪接过程的入门模型。",
+        "analysis": "转入和表达层次不同。",
+        "method": "检查编码信息与宿主。",
+        "principle": "表达依赖可处理的转录本。",
+        "steps": [
+          "DNA阳性只支持相应序列存在。",
+          "含内含子转录本可能不能正确处理，另有调控等原因需查。"
+        ],
+        "ans": "不能证明表达成功。",
+        "verification": "需RNA、蛋白及适当功能证据。",
+        "pitfall": "将DNA阳性直接当蛋白功能阳性。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 16,
+        "primary_section": "16.2",
+        "related_sections": []
+      },
+      {
+        "q": "研究某目的构建是否改善细胞某表型，只比较未处理细胞与带目的构建细胞够吗？为何常加空载体对照？ 条件：载体本身也可能影响细胞。",
+        "given": "载体本身也可能影响细胞。",
+        "analysis": "需要区分目的片段效应与载体效应。",
+        "method": "用空载体控制。",
+        "principle": "对照排除替代解释。",
+        "steps": [
+          "空载体经历类似导入和维持过程但无目的片段。",
+          "与它比较更有助归因目的构建，而非载体或处理。"
+        ],
+        "ans": "通常需要匹配空载体等恰当对照。",
+        "verification": "若空载体也改善同样多，原结论需重审。",
+        "pitfall": "忽略操作或载体的背景影响。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 16,
+        "primary_section": "16.2",
+        "related_sections": []
+      },
+      {
+        "q": "检测到目标蛋白且大小相符，是否足以说其功能一定正确？ 条件：未提供功能试验。",
+        "given": "未提供功能试验。",
+        "analysis": "大小不是折叠、活性或修饰的全部证据。",
+        "method": "列结构与功能的区别。",
+        "principle": "蛋白功能依适当结构与环境。",
+        "steps": [
+          "大小相符支持某种表达产物。",
+          "仍需针对所声称功能的测定及对照。"
+        ],
+        "ans": "不足以确定功能。",
+        "verification": "失活或错误折叠产物也可能具有相近大小。",
+        "pitfall": "把一条蛋白条带当全部功能证据。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 16,
+        "primary_section": "16.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "“筛选”与“验证”目的有何区别？ 条件：候选可能很多。",
+        "given": "候选可能很多。",
+        "analysis": "候选标记不是目标全部证明。",
+        "method": "按证据角色分类。",
+        "principle": "筛选是识别候选，验证是检验目标。",
+        "steps": [
+          "筛选缩小待查范围。",
+          "验证检查目标结构和所需表现。"
+        ],
+        "ans": "前者找候选，后者核实具体命题。",
+        "verification": "筛选阳性后仍可有假候选。",
+        "pitfall": "两个术语完全互换。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 16,
+        "primary_section": "16.2",
+        "related_sections": []
+      },
+      {
+        "q": "若目的基因方向或阅读框错误，表达可能受影响吗？ 条件：相应表达系统有方向与阅读要求。",
+        "given": "相应表达系统有方向与阅读要求。",
+        "analysis": "序列存在不等于可正确读取。",
+        "method": "联系转录翻译。",
+        "principle": "编码信息的方向和分组。",
+        "steps": [
+          "调控元件需驱动正确转录。",
+          "阅读框变化可改变后续氨基酸序列。"
+        ],
+        "ans": "可能。",
+        "verification": "检DNA仍可阳性而产物不合要求。",
+        "pitfall": "只检查插入长度。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 16,
+        "primary_section": "16.2",
+        "related_sections": []
+      },
+      {
+        "q": "工程细胞中RNA阳性是否证明蛋白一定存在？ 条件：尚无蛋白测量。",
+        "given": "尚无蛋白测量。",
+        "analysis": "转录和翻译不是同一步。",
+        "method": "分层推断。",
+        "principle": "中心法则与表达调控。",
+        "steps": [
+          "RNA检测支持转录本存在。",
+          "翻译、降解等仍可影响蛋白水平。"
+        ],
+        "ans": "不能仅此证明。",
+        "verification": "需要合适蛋白检测。",
+        "pitfall": "将RNA与蛋白等同。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 16,
+        "primary_section": "16.2",
+        "related_sections": []
+      },
+      {
+        "q": "两个候选目标DNA相同，表型是否一定完全相同？ 条件：宿主状态或表达背景未明确。",
+        "given": "宿主状态或表达背景未明确。",
+        "analysis": "遗传表达受环境和宿主影响。",
+        "method": "检查被忽略条件。",
+        "principle": "基因型到表型不是孤立序列决定。",
+        "steps": [
+          "宿主、调控和培养环境可能不同。",
+          "表型可有差异。"
+        ],
+        "ans": "不一定。",
+        "verification": "同序列信息不固定所有表达条件。",
+        "pitfall": "完全忽略宿主与环境。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 16,
+        "primary_section": "16.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "某工程构建在培养细胞中有预期活性，可否直接声称适合真实医疗使用？ 条件：仅有细胞层面的实验。",
+      "given": "仅有细胞层面的实验。",
+      "analysis": "用途结论超出了证据层级。",
+      "method": "界定外推范围。",
+      "principle": "有效性、安全性与适用性需相应验证。",
+      "steps": [
+        "细胞实验可支持机制或候选功能。",
+        "真实用途还需适当的安全、剂量、效果与法规评价。"
+      ],
+      "ans": "不能直接外推。",
+      "verification": "研究证据不等同使用批准。",
+      "pitfall": "把实验室结果当实际应用保证。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 16,
+      "primary_section": "16.2",
+      "related_sections": []
+    },
+    "exam": [
+      "流程题每步说明对象和目的，不只罗列名词",
+      "实验评价围绕要证明的命题选择空载体、未处理等控制",
+      "阳性检测明确是哪一层信息，结论不能越过尚未测的层次"
+    ],
+    "quick": [
+      "目的信息",
+      "构建与宿主",
+      "进入与筛选",
+      "结构表达功能",
+      "应用证据边界"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 5,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_16.2",
+        "url": "https://openstax.org/books/biology-2e/pages/17-1-biotechnology",
+        "page_or_section": "17-1-biotechnology",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 5,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_16.2",
+        "url": "https://openstax.org/books/biology-2e/pages/17-1-biotechnology",
+        "page_or_section": "17-1-biotechnology",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "流程题每步说明对象和目的，不只罗列名词",
+      "method": "列结构与功能的区别。",
+      "principle": "蛋白功能依适当结构与环境。",
+      "worked_example_index": 2,
+      "verification": "失活或错误折叠产物也可能具有相近大小。",
+      "pitfall": "把一条蛋白条带当全部功能证据。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e2",
+        "review_module": 4,
+        "feedback": "目标“将获得目的信息、转移、筛选与验证组织成证据链”的抽样复核：失活或错误折叠产物也可能具有相近大小。；若出现“把一条蛋白条带当全部功能证据。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e0",
+        "review_module": 7,
+        "feedback": "目标“解释宿主选择及表达失败的可能原因”的抽样复核：需RNA、蛋白及适当功能证据。；若出现“将DNA阳性直接当蛋白功能阳性。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把实验室结果当实际应用保证。",
+        "correction": "不能直接外推。",
+        "verification": "研究证据不等同使用批准。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "基因工程的证据链",
+      "objects": [
+        "DNA或细胞示意",
+        "过程箭头",
+        "对照与证据框",
+        "限制条件"
+      ],
+      "relations": [
+        "DNA、RNA、蛋白、功能是分层证据",
+        "空载体对照不含目的片段",
+        "每一步有独立验证问题"
+      ],
+      "labels": [
+        "目的信息",
+        "合适宿主",
+        "候选筛选",
+        "结构验证",
+        "功能验证"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "已有DNA/遗传图需核链方向和对象；无相同过程时另列绘图任务",
+      "english": "Create a concept-level genetic engineering teaching diagram, not a laboratory protocol. Preserve DNA strand polarity and the distinction between target DNA, vector DNA, recombinant molecule and expressed protein. PCR arrows must represent denaturation, primer annealing and extension as distinct stages; show ideal doubling as a conditional model and do not imply infinite efficiency or clinical certainty."
+    }
+  },
+  "16.3": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 16,
+    "section_id": "16.3",
+    "goals": [
+      "说明三类循环步骤各自作用",
+      "计算理想扩增并解释引物和对照的限制"
+    ],
+    "prerequisites": [
+      "DNA双链互补",
+      "复制方向与指数增长"
+    ],
+    "flow": [
+      "靶区与引物",
+      "变性",
+      "结合",
+      "延伸方向",
+      "效率与对照"
+    ],
+    "concept_relation": "靶区与引物；变性；结合；延伸方向；效率与对照",
+    "deep": [
+      "理想情况下每一轮目标双链拷贝数加倍，N=N₀2^n。该式假设目标模板、试剂与酶等条件足以支持每轮完全复制；实际效率可能小于100%，循环后期还会受限制而进入平台，不能无限指数外推。",
+      "产物出现可能受污染或非特异扩增干扰。无模板对照可帮助发现试剂或操作带入目标信号，但阴性对照无信号也不能证明所有样本结果绝对正确；阳性对照与样本内适当控制可检验反应体系和抑制等问题。",
+      "解题应区分总理论拷贝、增加量与目标长度。原有模板是否计入、每轮效率是否理想、需要几轮达到阈值都要按题设说明。结果只表示该模型的核酸扩增量，不直接等同疾病确诊、活病原体数量或样本整体基因组数。"
+    ],
+    "derive": [
+      "理想完全倍增：N=N₀2^n；新增数=N₀(2^n−1)。",
+      "需达到N_target时取满足N₀2^n≥N_target的最小整数n。",
+      "若每轮相同扩增效率e且题设可用该模型，N=N₀(1+e)^n，e=1才为倍增。"
+    ],
+    "examples": [
+      {
+        "q": "理想PCR初始5个目标双链模板，6轮后总拷贝和新增数？ 条件：每轮完全倍增，无损失。",
+        "given": "每轮完全倍增，无损失。",
+        "analysis": "总量包含初始模板。",
+        "method": "指数模型。",
+        "principle": "N=N₀2^n。",
+        "steps": [
+          "总数5×2⁶=320。",
+          "新增320−5=315。"
+        ],
+        "ans": "总320，新增315个目标双链拷贝。",
+        "verification": "第0轮总数应回到5。",
+        "pitfall": "把320同时当新增数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 16,
+        "primary_section": "16.3",
+        "related_sections": []
+      },
+      {
+        "q": "初始10个模板，理想扩增至少达到1000个需几轮？ 条件：轮数为非负整数。",
+        "given": "轮数为非负整数。",
+        "analysis": "阈值问题需向上取整。",
+        "method": "比较相邻2的幂。",
+        "principle": "10×2^n≥1000。",
+        "steps": [
+          "n=6时640<1000。",
+          "n=7时1280≥1000，且前一轮不足。"
+        ],
+        "ans": "至少7轮。",
+        "verification": "必须给最小整数而不是6.64轮。",
+        "pitfall": "四舍五入或只算对数不审整数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 16,
+        "primary_section": "16.3",
+        "related_sections": []
+      },
+      {
+        "q": "一个样本有目标条带，无模板对照也出现同大小信号，能否直接将样本阳性当可靠目标存在证据？ 条件：对照本不应有模板信号。",
+        "given": "对照本不应有模板信号。",
+        "analysis": "污染或非特异背景仍可解释结果。",
+        "method": "先核对照有效性。",
+        "principle": "对照检验替代解释。",
+        "steps": [
+          "无模板对照阳性提示背景或污染问题。",
+          "须排查并在恰当条件下复核，不能按原结果下确定结论。"
+        ],
+        "ans": "不能直接认定。",
+        "verification": "同大小信号不自动证明所有产物来源正确。",
+        "pitfall": "忽略失败的阴性对照。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 16,
+        "primary_section": "16.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "PCR新链延伸方向是什么？ 条件：DNA聚合酶从引物末端延伸。",
+        "given": "DNA聚合酶从引物末端延伸。",
+        "analysis": "与模板反向配对。",
+        "method": "标链极性。",
+        "principle": "DNA合成方向。",
+        "steps": [
+          "核苷酸接到新链3′端。",
+          "新链由5′向3′增长。"
+        ],
+        "ans": "5′→3′。",
+        "verification": "相应模板被沿3′→5′方向读取。",
+        "pitfall": "把两条模板与新链画同向。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 16,
+        "primary_section": "16.3",
+        "related_sections": []
+      },
+      {
+        "q": "理想PCR从1个模板10轮后总数？ 条件：完全倍增。",
+        "given": "完全倍增。",
+        "analysis": "指数而非线性增长。",
+        "method": "2的幂。",
+        "principle": "理想扩增模型。",
+        "steps": [
+          "1×2¹⁰。",
+          "得1024。"
+        ],
+        "ans": "1024。",
+        "verification": "不是1+2×10。",
+        "pitfall": "把每轮加2当倍增。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 16,
+        "primary_section": "16.3",
+        "related_sections": []
+      },
+      {
+        "q": "变性步骤的主要作用是合成新链吗？ 条件：PCR概念循环。",
+        "given": "PCR概念循环。",
+        "analysis": "各步骤功能不同。",
+        "method": "区分变性与延伸。",
+        "principle": "双链分离后引物才可结合相应位置。",
+        "steps": [
+          "变性主要使两条DNA链分离。",
+          "新链合成属于延伸阶段。"
+        ],
+        "ans": "不是。",
+        "verification": "顺序需有模板暴露及引物。",
+        "pitfall": "把三步骤功能混为一谈。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 16,
+        "primary_section": "16.3",
+        "related_sections": []
+      },
+      {
+        "q": "题设每轮效率50%，初始100个，2轮后期望模型值？ 条件：用N=N₀(1+e)^n，e=0.5。",
+        "given": "用N=N₀(1+e)^n，e=0.5。",
+        "analysis": "不是每轮翻倍。",
+        "method": "按给定效率计算。",
+        "principle": "效率模型。",
+        "steps": [
+          "100×1.5²。",
+          "得225。"
+        ],
+        "ans": "225个模型拷贝。",
+        "verification": "每轮150再225，新增量按当前总数算。",
+        "pitfall": "仍套100×2²=400。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 16,
+        "primary_section": "16.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "PCR检出某序列能否单独证明样本中存在相应活微生物？ 条件：只给核酸扩增检测。",
+      "given": "只给核酸扩增检测。",
+      "analysis": "核酸残留与活体不是同一对象。",
+      "method": "界定测量含义。",
+      "principle": "检测对象与生物活性不同。",
+      "steps": [
+        "扩增说明相应靶核酸信号在有效对照下存在。",
+        "死细胞或残留核酸也可能提供模板。"
+      ],
+      "ans": "不能单独证明活体存在。",
+      "verification": "需根据命题另有活性或培养等适当证据。",
+      "pitfall": "将拷贝数当活细胞数。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 16,
+      "primary_section": "16.3",
+      "related_sections": []
+    },
+    "exam": [
+      "扩增题先写理想效率假设，分清总数、新增和最小整数轮数",
+      "图题核两引物位置及5′→3′延伸方向",
+      "结果评价先查对照，再限定为核酸证据而非未经验证的活体或诊断结论"
+    ],
+    "quick": [
+      "靶区与引物",
+      "变性",
+      "结合",
+      "延伸方向",
+      "效率与对照"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 5,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_16.3",
+        "url": "https://openstax.org/books/biology-2e/pages/17-1-biotechnology",
+        "page_or_section": "17-1-biotechnology",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 5,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_16.3",
+        "url": "https://openstax.org/books/biology-2e/pages/17-1-biotechnology",
+        "page_or_section": "17-1-biotechnology",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "扩增题先写理想效率假设，分清总数、新增和最小整数轮数",
+      "method": "先核对照有效性。",
+      "principle": "对照检验替代解释。",
+      "worked_example_index": 2,
+      "verification": "同大小信号不自动证明所有产物来源正确。",
+      "pitfall": "忽略失败的阴性对照。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "p2",
+        "review_module": 5,
+        "feedback": "目标“说明三类循环步骤各自作用”的抽样复核：顺序需有模板暴露及引物。；若出现“把三步骤功能混为一谈。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e0",
+        "review_module": 7,
+        "feedback": "目标“计算理想扩增并解释引物和对照的限制”的抽样复核：第0轮总数应回到5。；若出现“把320同时当新增数。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "将拷贝数当活细胞数。",
+        "correction": "不能单独证明活体存在。",
+        "verification": "需根据命题另有活性或培养等适当证据。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "PCR链方向与理想扩增",
+      "objects": [
+        "DNA或细胞示意",
+        "过程箭头",
+        "对照与证据框",
+        "限制条件"
+      ],
+      "relations": [
+        "两模板反向平行",
+        "两引物延伸方向朝目标区",
+        "新链均5′→3′",
+        "N=N₀2^n标为理想"
+      ],
+      "labels": [
+        "变性",
+        "引物结合",
+        "延伸",
+        "5′",
+        "3′",
+        "无模板对照"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "已有DNA/遗传图需核链方向和对象；无相同过程时另列绘图任务",
+      "english": "Create a concept-level genetic engineering teaching diagram, not a laboratory protocol. Preserve DNA strand polarity and the distinction between target DNA, vector DNA, recombinant molecule and expressed protein. PCR arrows must represent denaturation, primer annealing and extension as distinct stages; show ideal doubling as a conditional model and do not imply infinite efficiency or clinical certainty."
+    }
+  },
+  "16.4": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 16,
+    "section_id": "16.4",
+    "goals": [
+      "区分可检验的风险问题与价值选择",
+      "提出与声称用途相匹配的证据和控制"
+    ],
+    "prerequisites": [
+      "基因工程基本流程",
+      "对照实验和生态联系"
+    ],
+    "flow": [
+      "具体用途",
+      "收益指标",
+      "风险途径",
+      "对照与证据",
+      "管理和不确定性"
+    ],
+    "concept_relation": "具体用途；收益指标；风险途径；对照与证据；管理和不确定性",
+    "deep": [
+      "评估对照需与被检验的主张匹配。若比较作物性状，应尽量使用遗传背景与管理方式相近的对照，说明观察期与生态范围；只在一个短期、封闭条件下无明显差异，不能证明所有地点和长期条件下绝无影响。",
+      "伦理问题可涉及公平取得技术、知识产权、标识与知情、动物福利及对后代或公共环境的责任。伦理判断需要透明说明价值依据，不能伪装成一个实验已经“算出”所有人必须同意的结论；科学证据也不应被立场选择性忽略。",
+      "答题可用“潜在益处—具体风险途径—需要证据—管理与监测—剩余不确定性”的框架。保持论据对应结论，既不把尚未证明的风险说成既成事实，也不把暂时未观察到风险说成零风险保证。"
+    ],
+    "derive": [
+      "风险论证需区分危害性质、接触/传播途径、发生可能性及后果。",
+      "短期未见差异≠所有环境长期零风险；需要适用范围相匹配的证据。",
+      "科学可检验命题与价值判断应分开陈述，并在决策中透明结合。"
+    ],
+    "examples": [
+      {
+        "q": "某工程作物在一个封闭温室试验中未见非目标昆虫差异，能否说所有环境永久无影响？ 条件：仅一个地点、有限时间与条件。",
+        "given": "仅一个地点、有限时间与条件。",
+        "analysis": "结论范围超出样本与设计。",
+        "method": "审查外推。",
+        "principle": "研究适用性。",
+        "steps": [
+          "试验支持该条件下未观察到指定差异。",
+          "野外、长期或其他物种的影响仍需相应研究。"
+        ],
+        "ans": "不能作永久零风险保证。",
+        "verification": "没有观察到不同不等于排除所有可能影响。",
+        "pitfall": "把有限阴性结果当全称证明。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 16,
+        "primary_section": "16.4",
+        "related_sections": []
+      },
+      {
+        "q": "提出“某抗性性状可能进入野生近缘种”的研究问题，需要说明哪些途径？ 条件：讨论花粉与可交配近缘种的情境。",
+        "given": "讨论花粉与可交配近缘种的情境。",
+        "analysis": "基因流需实际传播及交配条件。",
+        "method": "列因果链。",
+        "principle": "生态传播与遗传。",
+        "steps": [
+          "先核花粉传播距离、开花期和交配相容性。",
+          "再研究后代存活、性状维持及生态后果。"
+        ],
+        "ans": "需要传播、交配、遗传维持及后果证据。",
+        "verification": "缺少可交配对象时该具体途径可能不成立。",
+        "pitfall": "看到工程DNA就直接断言必有有害扩散。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 16,
+        "primary_section": "16.4",
+        "related_sections": []
+      },
+      {
+        "q": "只比较不同品种、不同施药方式的两块田，能否将昆虫差异全归因工程基因？ 条件：遗传背景和管理方式也不同。",
+        "given": "遗传背景和管理方式也不同。",
+        "analysis": "混杂因素无法排除。",
+        "method": "设计匹配对照。",
+        "principle": "公平比较与替代解释。",
+        "steps": [
+          "品种、施药及环境都可能影响昆虫。",
+          "应尽量匹配背景与管理，并记录设计范围。"
+        ],
+        "ans": "不能全部归因。",
+        "verification": "若对照也改变管理，效应来源不唯一。",
+        "pitfall": "把相关性直接作单一因果。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 16,
+        "primary_section": "16.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "“可以检测过敏相关反应”属于科学问题还是单纯喜好？ 条件：有明确检测对象与方法。",
+        "given": "有明确检测对象与方法。",
+        "analysis": "可检验命题。",
+        "method": "按证据可检验性分类。",
+        "principle": "科学研究问题特征。",
+        "steps": [
+          "可提出条件、指标和对照。",
+          "结果可支持或修正风险判断。"
+        ],
+        "ans": "属于可检验科学问题。",
+        "verification": "仍需说明检测适用范围。",
+        "pitfall": "把所有争议当无法研究。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 16,
+        "primary_section": "16.4",
+        "related_sections": []
+      },
+      {
+        "q": "“技术应让谁负担费用”能由一个分子检测直接决定吗？ 条件：涉及社会分配。",
+        "given": "涉及社会分配。",
+        "analysis": "事实与价值问题不同。",
+        "method": "分层讨论。",
+        "principle": "伦理与政策需价值依据。",
+        "steps": [
+          "分子检测可提供某些事实。",
+          "费用分配还涉及公平、责任与政策选择。"
+        ],
+        "ans": "不能单凭一个检测决定。",
+        "verification": "证据可帮助但不代替价值讨论。",
+        "pitfall": "把价值结论包装成实验必然。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 16,
+        "primary_section": "16.4",
+        "related_sections": []
+      },
+      {
+        "q": "未证明某风险存在是否等于已经证明风险为零？ 条件：证据可能不足。",
+        "given": "证据可能不足。",
+        "analysis": "缺证与反证不同。",
+        "method": "检查逻辑。",
+        "principle": "证据边界。",
+        "steps": [
+          "未证明可能来自研究不足。",
+          "不能据此推出不可能发生。"
+        ],
+        "ans": "不等于。",
+        "verification": "需有与风险问题相匹配的研究。",
+        "pitfall": "用“没证据”当绝对安全证明。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 16,
+        "primary_section": "16.4",
+        "related_sections": []
+      },
+      {
+        "q": "所有基因工程应用是否可用同一健康风险结论覆盖？ 条件：构建、表达物和接触途径可能不同。",
+        "given": "构建、表达物和接触途径可能不同。",
+        "analysis": "不同对象需具体评价。",
+        "method": "逐应用定义条件。",
+        "principle": "风险与暴露情境相关。",
+        "steps": [
+          "药用生产细胞与野外作物用途不同。",
+          "不能直接搬用同一接触和生态结论。"
+        ],
+        "ans": "不能。",
+        "verification": "研究对象与使用方式须匹配。",
+        "pitfall": "一概全盘赞成或反对替代证据。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 16,
+        "primary_section": "16.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "论述题怎样兼顾收益与不确定性而不空喊“有利有弊”？ 条件：需要有内容的论证。",
+      "given": "需要有内容的论证。",
+      "analysis": "每项结论要有对象、机制与证据。",
+      "method": "构建对应框架。",
+      "principle": "论据支持具体主张。",
+      "steps": [
+        "选定一个用途，说清收益对象与可测指标。",
+        "列一条具体风险途径、所需对照和监测，并说明现有证据界限。"
+      ],
+      "ans": "以具体用途、机制、证据与管理形成论证。",
+      "verification": "每一个“利”“弊”都能指出可检查依据。",
+      "pitfall": "只写技术先进但要小心等空泛口号。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 16,
+      "primary_section": "16.4",
+      "related_sections": []
+    },
+    "exam": [
+      "争议题先限定具体应用，不对所有技术作统一绝对判断",
+      "风险写出传播/接触途径及后果，给可检验问题",
+      "区分科学证据、伦理价值与管理选择，说明剩余不确定性"
+    ],
+    "quick": [
+      "具体用途",
+      "收益指标",
+      "风险途径",
+      "对照与证据",
+      "管理和不确定性"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 5,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_16.4",
+        "url": "https://openstax.org/books/biology-2e/pages/17-1-biotechnology",
+        "page_or_section": "17-1-biotechnology",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 5,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_16.4",
+        "url": "https://openstax.org/books/biology-2e/pages/17-1-biotechnology",
+        "page_or_section": "17-1-biotechnology",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "争议题先限定具体应用，不对所有技术作统一绝对判断",
+      "method": "设计匹配对照。",
+      "principle": "公平比较与替代解释。",
+      "worked_example_index": 2,
+      "verification": "若对照也改变管理，效应来源不唯一。",
+      "pitfall": "把相关性直接作单一因果。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“区分可检验的风险问题与价值选择”的抽样复核：没有观察到不同不等于排除所有可能影响。；若出现“把有限阴性结果当全称证明。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 7,
+        "feedback": "目标“提出与声称用途相匹配的证据和控制”的抽样复核：若对照也改变管理，效应来源不唯一。；若出现“把相关性直接作单一因果。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "只写技术先进但要小心等空泛口号。",
+        "correction": "以具体用途、机制、证据与管理形成论证。",
+        "verification": "每一个“利”“弊”都能指出可检查依据。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "用途、风险途径与证据范围",
+      "objects": [
+        "DNA或细胞示意",
+        "过程箭头",
+        "对照与证据框",
+        "限制条件"
+      ],
+      "relations": [
+        "收益与风险分别有具体对象",
+        "可能性不等于已发生后果",
+        "证据与适用范围相连",
+        "科学与伦理分层"
+      ],
+      "labels": [
+        "用途",
+        "潜在收益",
+        "接触/传播",
+        "证据范围",
+        "监测",
+        "价值选择"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "已有DNA/遗传图需核链方向和对象；无相同过程时另列绘图任务",
+      "english": "Create a concept-level genetic engineering teaching diagram, not a laboratory protocol. Preserve DNA strand polarity and the distinction between target DNA, vector DNA, recombinant molecule and expressed protein. PCR arrows must represent denaturation, primer annealing and extension as distinct stages; show ideal doubling as a conditional model and do not imply infinite efficiency or clinical certainty."
+    }
+  }
+}

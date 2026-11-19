@@ -1,0 +1,361 @@
+{
+  "status": "pass",
+  "primary_items": 9,
+  "previous_primary_items": 16,
+  "viewport_route_cases": [
+    {
+      "view": "today",
+      "parent": "today",
+      "width": 320
+    },
+    {
+      "view": "adaptive",
+      "parent": "today",
+      "width": 320
+    },
+    {
+      "view": "plan",
+      "parent": "today",
+      "width": 320
+    },
+    {
+      "view": "map",
+      "parent": "map",
+      "width": 320
+    },
+    {
+      "view": "curriculum",
+      "parent": "map",
+      "width": 320
+    },
+    {
+      "view": "bank",
+      "parent": "bank",
+      "width": 320
+    },
+    {
+      "view": "mock",
+      "parent": "bank",
+      "width": 320
+    },
+    {
+      "view": "review",
+      "parent": "review",
+      "width": 320
+    },
+    {
+      "view": "diagnose",
+      "parent": "review",
+      "width": 320
+    },
+    {
+      "view": "err",
+      "parent": "review",
+      "width": 320
+    },
+    {
+      "view": "records",
+      "parent": "records",
+      "width": 320
+    },
+    {
+      "view": "exams",
+      "parent": "exams",
+      "width": 320
+    },
+    {
+      "view": "cal",
+      "parent": "exams",
+      "width": 320
+    },
+    {
+      "view": "tools",
+      "parent": "tools",
+      "width": 320
+    },
+    {
+      "view": "favorites",
+      "parent": "favorites",
+      "width": 320
+    },
+    {
+      "view": "settings",
+      "parent": "settings",
+      "width": 320
+    },
+    {
+      "view": "sync",
+      "parent": "settings",
+      "width": 320
+    },
+    {
+      "view": "today",
+      "parent": "today",
+      "width": 390
+    },
+    {
+      "view": "adaptive",
+      "parent": "today",
+      "width": 390
+    },
+    {
+      "view": "plan",
+      "parent": "today",
+      "width": 390
+    },
+    {
+      "view": "map",
+      "parent": "map",
+      "width": 390
+    },
+    {
+      "view": "curriculum",
+      "parent": "map",
+      "width": 390
+    },
+    {
+      "view": "bank",
+      "parent": "bank",
+      "width": 390
+    },
+    {
+      "view": "mock",
+      "parent": "bank",
+      "width": 390
+    },
+    {
+      "view": "review",
+      "parent": "review",
+      "width": 390
+    },
+    {
+      "view": "diagnose",
+      "parent": "review",
+      "width": 390
+    },
+    {
+      "view": "err",
+      "parent": "review",
+      "width": 390
+    },
+    {
+      "view": "records",
+      "parent": "records",
+      "width": 390
+    },
+    {
+      "view": "exams",
+      "parent": "exams",
+      "width": 390
+    },
+    {
+      "view": "cal",
+      "parent": "exams",
+      "width": 390
+    },
+    {
+      "view": "tools",
+      "parent": "tools",
+      "width": 390
+    },
+    {
+      "view": "favorites",
+      "parent": "favorites",
+      "width": 390
+    },
+    {
+      "view": "settings",
+      "parent": "settings",
+      "width": 390
+    },
+    {
+      "view": "sync",
+      "parent": "settings",
+      "width": 390
+    },
+    {
+      "view": "today",
+      "parent": "today",
+      "width": 1440
+    },
+    {
+      "view": "adaptive",
+      "parent": "today",
+      "width": 1440
+    },
+    {
+      "view": "plan",
+      "parent": "today",
+      "width": 1440
+    },
+    {
+      "view": "map",
+      "parent": "map",
+      "width": 1440
+    },
+    {
+      "view": "curriculum",
+      "parent": "map",
+      "width": 1440
+    },
+    {
+      "view": "bank",
+      "parent": "bank",
+      "width": 1440
+    },
+    {
+      "view": "mock",
+      "parent": "bank",
+      "width": 1440
+    },
+    {
+      "view": "review",
+      "parent": "review",
+      "width": 1440
+    },
+    {
+      "view": "diagnose",
+      "parent": "review",
+      "width": 1440
+    },
+    {
+      "view": "err",
+      "parent": "review",
+      "width": 1440
+    },
+    {
+      "view": "records",
+      "parent": "records",
+      "width": 1440
+    },
+    {
+      "view": "exams",
+      "parent": "exams",
+      "width": 1440
+    },
+    {
+      "view": "cal",
+      "parent": "exams",
+      "width": 1440
+    },
+    {
+      "view": "tools",
+      "parent": "tools",
+      "width": 1440
+    },
+    {
+      "view": "favorites",
+      "parent": "favorites",
+      "width": 1440
+    },
+    {
+      "view": "settings",
+      "parent": "settings",
+      "width": 1440
+    },
+    {
+      "view": "sync",
+      "parent": "settings",
+      "width": 1440
+    },
+    {
+      "view": "today",
+      "parent": "today",
+      "width": 1920
+    },
+    {
+      "view": "adaptive",
+      "parent": "today",
+      "width": 1920
+    },
+    {
+      "view": "plan",
+      "parent": "today",
+      "width": 1920
+    },
+    {
+      "view": "map",
+      "parent": "map",
+      "width": 1920
+    },
+    {
+      "view": "curriculum",
+      "parent": "map",
+      "width": 1920
+    },
+    {
+      "view": "bank",
+      "parent": "bank",
+      "width": 1920
+    },
+    {
+      "view": "mock",
+      "parent": "bank",
+      "width": 1920
+    },
+    {
+      "view": "review",
+      "parent": "review",
+      "width": 1920
+    },
+    {
+      "view": "diagnose",
+      "parent": "review",
+      "width": 1920
+    },
+    {
+      "view": "err",
+      "parent": "review",
+      "width": 1920
+    },
+    {
+      "view": "records",
+      "parent": "records",
+      "width": 1920
+    },
+    {
+      "view": "exams",
+      "parent": "exams",
+      "width": 1920
+    },
+    {
+      "view": "cal",
+      "parent": "exams",
+      "width": 1920
+    },
+    {
+      "view": "tools",
+      "parent": "tools",
+      "width": 1920
+    },
+    {
+      "view": "favorites",
+      "parent": "favorites",
+      "width": 1920
+    },
+    {
+      "view": "settings",
+      "parent": "settings",
+      "width": 1920
+    },
+    {
+      "view": "sync",
+      "parent": "settings",
+      "width": 1920
+    }
+  ],
+  "checks": [
+    "all secondary destinations retain a highlighted parent",
+    "settings contains disabled cloud controls and local backup",
+    "practice contains timed mock",
+    "review contains diagnosis and error book",
+    "course map retains145 entries over116 chapters",
+    "home opens adaptive plan",
+    "deep links reload and browser back work",
+    "mobile drawer closes on navigation",
+    "dark and light secondary navigation fits viewport",
+    "original learning and independent math records preserved"
+  ],
+  "page_errors": [],
+  "resource_errors": []
+}

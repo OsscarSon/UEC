@@ -1,0 +1,1579 @@
+{
+  "14.1": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 14,
+    "section_id": "14.1",
+    "goals": [
+      "用对照和排除解释经典实验",
+      "限定DNA遗传结论的证据范围"
+    ],
+    "prerequisites": [
+      "细胞结构",
+      "蛋白质与核酸成分"
+    ],
+    "flow": [
+      "候选物",
+      "特异干预",
+      "结果与对照",
+      "信息传递",
+      "结论范围"
+    ],
+    "concept_relation": "候选物；特异干预；结果与对照；信息传递；结论范围",
+    "deep": [
+      "噬菌体实验利用DNA和蛋白质成分的标记差异。在经典已知DNA噬菌体体系，磷标记可追踪DNA、硫标记可追踪含硫蛋白成分；比较进入宿主及后代关联的信号，支持DNA在该体系传递遗传信息。不是在任何样本中见磷就必为DNA，因为RNA等也含磷。",
+      "证据链中，标记是否特异、分离是否彻底、信号是否与预期对象相符都要检查。观察到宿主部分的某标记较多，应结合实验设计解释，不能省略控制便说所有其他分子永不进入或绝无任何作用。",
+      "DNA是细胞生物的主要遗传物质，但一些病毒以RNA为遗传物质。经典DNA体系的结果不能被扩展为所有病毒都必须是DNA；结论应与被研究对象和已有其他证据相配。本节为概念与证据分析，不提供病原操作实验方案。"
+    ],
+    "derive": [
+      "转化现象证据≠已唯一确定转化因子身份；降解与对照可进一步区分候选物。",
+      "经典DNA噬菌体标记需结合已知组分解释；P并非在任意样本中只属于DNA。",
+      "结论限定体系：细胞生物主要遗传物质为DNA，部分病毒为RNA。"
+    ],
+    "examples": [
+      {
+        "q": "只观察到转化现象，就能唯一确定转化因子是DNA吗？ 条件：尚未分离并检验候选成分。",
+        "given": "尚未分离并检验候选成分。",
+        "analysis": "现象说明信息可传递，不唯一指向化学身份。",
+        "method": "区分发现与身份鉴别。",
+        "principle": "证据支持范围。",
+        "steps": [
+          "蛋白质、核酸等候选尚未排除。",
+          "需进一步用分离及特异处理等验证。"
+        ],
+        "ans": "不能仅此唯一确定。",
+        "verification": "多种候选可解释现象时结论不能超出证据。",
+        "pitfall": "把格里菲斯结果当成完整DNA化学鉴定。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.1",
+        "related_sections": []
+      },
+      {
+        "q": "某转化体系蛋白酶和RNA酶处理仍转化、DNA酶处理不再转化，何种控制使解释更可靠？ 条件：需考虑各处理是否有效及非目标影响。",
+        "given": "需考虑各处理是否有效及非目标影响。",
+        "analysis": "失去转化可能有替代原因。",
+        "method": "列对应控制。",
+        "principle": "控制变量和处理有效性。",
+        "steps": [
+          "应验证各酶能降解对应目标，并控制其他条件及细胞活性。",
+          "在可比条件下DNA酶特异消除转化才更支持DNA必要性。"
+        ],
+        "ans": "需处理有效性、可比条件及合适活性/空白控制。",
+        "verification": "无效蛋白酶不能用于排除蛋白因素。",
+        "pitfall": "任何酶处理结果都不经控制直接作结论。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.1",
+        "related_sections": []
+      },
+      {
+        "q": "DNA噬菌体的DNA标记主要进入宿主并与后代有关，能否因此说所有病毒遗传物质都是DNA？ 条件：实验对象是特定DNA病毒。",
+        "given": "实验对象是特定DNA病毒。",
+        "analysis": "对象范围不能无限扩展。",
+        "method": "限定结论并联其他证据。",
+        "principle": "实验外推边界。",
+        "steps": [
+          "结果支持该体系的DNA遗传作用。",
+          "RNA病毒存在，需按各病毒实际遗传物质判断。"
+        ],
+        "ans": "不能外推为所有病毒。",
+        "verification": "细胞与病毒的遗传物质结论要分清。",
+        "pitfall": "把一个体系变成对所有生物的绝对命题。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "RNA也含磷吗？因此任意样本的磷标记都只代表DNA吗？ 条件：比较核酸成分。",
+        "given": "比较核酸成分。",
+        "analysis": "标记特异性需体系条件。",
+        "method": "按组成判断。",
+        "principle": "DNA和RNA均有磷酸骨架。",
+        "steps": [
+          "RNA也含磷。",
+          "任意样本中不能只凭磷就唯一认DNA。"
+        ],
+        "ans": "含磷；不能普遍唯一标DNA。",
+        "verification": "经典噬菌体设计另有已知组分背景。",
+        "pitfall": "把特定体系标记规则绝对化。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.1",
+        "related_sections": []
+      },
+      {
+        "q": "遗传物质证据题为何要观察特征能否继续传递？ 条件：瞬时变化未必可遗传。",
+        "given": "瞬时变化未必可遗传。",
+        "analysis": "遗传信息与暂时效应不同。",
+        "method": "检查后代信息。",
+        "principle": "可遗传性。",
+        "steps": [
+          "暂时颜色或活性变化可能仅为环境反应。",
+          "持续传递的特征更支持遗传改变。"
+        ],
+        "ans": "需区分暂时效应和可遗传变化。",
+        "verification": "不能只看处理后的单次外观。",
+        "pitfall": "一切表型变化都当遗传改变。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.1",
+        "related_sections": []
+      },
+      {
+        "q": "若DNA酶实际上失活，未阻断转化能否反证DNA无关？ 条件：酶未执行目标降解。",
+        "given": "酶未执行目标降解。",
+        "analysis": "阴性处理缺有效性。",
+        "method": "审处理是否实现。",
+        "principle": "有效干预是因果推断前提。",
+        "steps": [
+          "DNA仍存在。",
+          "转化保留不能排除DNA作用。"
+        ],
+        "ans": "不能。",
+        "verification": "须先证实目标DNA确被相应处理。",
+        "pitfall": "把加入酶瓶当目标必被去除。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.1",
+        "related_sections": []
+      },
+      {
+        "q": "蛋白质在遗传信息表达中重要，是否等同蛋白质就是细胞遗传物质？ 条件：功能重要性不同于信息载体身份。",
+        "given": "功能重要性不同于信息载体身份。",
+        "analysis": "概念层次不同。",
+        "method": "分角色。",
+        "principle": "载体、表达和催化作用可不同。",
+        "steps": [
+          "蛋白可参与复制与表达。",
+          "这不自动证明它编码并遗传该信息。"
+        ],
+        "ans": "不等同。",
+        "verification": "需遗传身份的直接证据。",
+        "pitfall": "重要就等于遗传物质。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "写“该实验证明DNA是遗传物质”时，怎样补充范围和证据使答案更准确？ 条件：讨论某具体转化或噬菌体体系。",
+      "given": "讨论某具体转化或噬菌体体系。",
+      "analysis": "必须将观察与结论连接。",
+      "method": "说明操作、结果及排除对象。",
+      "principle": "证据链。",
+      "steps": [
+        "指出哪个组分进入/保留遗传效应、何种对照排除主要替代解释。",
+        "将结论限定该体系，并注明其他对象需独立证据。"
+      ],
+      "ans": "写具体对象、关键结果、对照和范围。",
+      "verification": "避免跳到“全部病毒必为DNA”。",
+      "pitfall": "仅背结论而没有实验逻辑。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 14,
+      "primary_section": "14.1",
+      "related_sections": []
+    },
+    "exam": [
+      "实验题按操作—观察—排除解释—结论范围作答",
+      "酶处理先查有效性，不把加入当已成功降解",
+      "标记题结合体系成分，P/S规则不外推任意样本"
+    ],
+    "quick": [
+      "候选物",
+      "特异干预",
+      "结果与对照",
+      "信息传递",
+      "结论范围"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 4,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_14.1",
+        "url": "https://openstax.org/books/biology-2e/pages/14-1-historical-basis-of-modern-understanding",
+        "page_or_section": "14-1-historical-basis-of-modern-understanding",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 4,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_14.1",
+        "url": "https://openstax.org/books/biology-2e/pages/14-1-historical-basis-of-modern-understanding",
+        "page_or_section": "14-1-historical-basis-of-modern-understanding",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "实验题按操作—观察—排除解释—结论范围作答",
+      "method": "限定结论并联其他证据。",
+      "principle": "实验外推边界。",
+      "worked_example_index": 2,
+      "verification": "细胞与病毒的遗传物质结论要分清。",
+      "pitfall": "把一个体系变成对所有生物的绝对命题。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用对照和排除解释经典实验”的抽样复核：多种候选可解释现象时结论不能超出证据。；若出现“把格里菲斯结果当成完整DNA化学鉴定。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“限定DNA遗传结论的证据范围”的抽样复核：细胞与病毒的遗传物质结论要分清。；若出现“把一个体系变成对所有生物的绝对命题。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "仅背结论而没有实验逻辑。",
+        "correction": "写具体对象、关键结果、对照和范围。",
+        "verification": "避免跳到“全部病毒必为DNA”。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "DNA遗传证据的比较框",
+      "objects": [
+        "明确的DNA/RNA链",
+        "碱基或标记",
+        "过程/证据箭头",
+        "条件与解释框"
+      ],
+      "relations": [
+        "转化现象与身份鉴别分开",
+        "处理有效性对照明确",
+        "特定DNA病毒结论不外推所有病毒"
+      ],
+      "labels": [
+        "候选DNA",
+        "候选蛋白",
+        "DNA酶处理",
+        "对照",
+        "该体系"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "B37/B44/B45/B48等旧图仅在核对链极性、序列和正文条件后使用，原图不覆盖",
+      "english": "Draw an exact molecular genetics schematic. DNA strands are antiparallel; A pairs with T and G with C in DNA, while RNA uses U. New DNA and RNA strands extend 5-prime to 3-prime. Separate an observed experimental band from its interpretation. Standard-code stop codons terminate translation without adding an amino acid. Sequences are illustrative classroom data, not a practical engineering protocol."
+    }
+  },
+  "14.2": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 14,
+    "section_id": "14.2",
+    "goals": [
+      "由核苷酸和反向平行解释双链结构",
+      "正确计算双链碱基比例与氢键数"
+    ],
+    "prerequisites": [
+      "核苷酸",
+      "共价键与分子间氢键"
+    ],
+    "flow": [
+      "核苷酸",
+      "骨架与配对",
+      "两链极性",
+      "比例与计数",
+      "结构支持信息"
+    ],
+    "concept_relation": "核苷酸；骨架与配对；两链极性；比例与计数；结构支持信息",
+    "deep": [
+      "对于标准双链DNA整体，A数=T数，G数=C数，因此A+G=T+C，各占总碱基数一半。单独一条链不必A=T；双链整体的等量关系来自互补配对，不能无条件搬到单链核酸。",
+      "长度用碱基对bp时，N bp双链有2N个核苷酸；若说总核苷酸N，则碱基对数为N/2。氢键数可由AT对数×2加GC对数×3得到。先辨总量口径，能避免常见两倍误差。",
+      "序列储存信息，互补关系支持复制时的模板作用；双链并不是因为“左右每个碱基都相同”而能复制。答结构解释题应连接骨架、配对、极性与信息这几层，而不只背“双螺旋”四字。"
+    ],
+    "derive": [
+      "双链整体A=T，G=C；A+G=T+C；单链未必成立。",
+      "N bp双链共有2N个核苷酸；H键数=2n_AT+3n_GC。",
+      "一链5′-ATGC-3′对应另一链3′-TACG-5′；若重写为5′方向，应为5′-GCAT-3′。"
+    ],
+    "examples": [
+      {
+        "q": "双链DNA共1000个核苷酸，A占20%，求四种碱基数量。 条件：统计两链整体。",
+        "given": "统计两链整体。",
+        "analysis": "配对决定A=T、G=C。",
+        "method": "先算A再补总量。",
+        "principle": "双链互补等量关系。",
+        "steps": [
+          "A=T=200。",
+          "余600由G、C平分，各300。"
+        ],
+        "ans": "A200、T200、G300、C300。",
+        "verification": "总和1000，嘌呤200+300=500。",
+        "pitfall": "把G和C各算剩余60%。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.2",
+        "related_sections": []
+      },
+      {
+        "q": "某双链DNA有100 bp，其中40个GC对，求总核苷酸与氢键数。 条件：其余60个为AT对。",
+        "given": "其余60个为AT对。",
+        "analysis": "碱基对与核苷酸口径不同。",
+        "method": "分别计数。",
+        "principle": "每bp两核苷酸，GC三H键、AT两H键。",
+        "steps": [
+          "核苷酸2×100=200。",
+          "氢键40×3+60×2=240。"
+        ],
+        "ans": "200个核苷酸、240条氢键。",
+        "verification": "100个碱基对每对2至3条H键，240在200至300之间。",
+        "pitfall": "把100 bp当100个核苷酸。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.2",
+        "related_sections": []
+      },
+      {
+        "q": "一链5′-ATGC-3′，写配对链并再用5′到3′表示。 条件：反向平行互补。",
+        "given": "反向平行互补。",
+        "analysis": "反向书写与逐位配对不同。",
+        "method": "先对齐再反读。",
+        "principle": "A-T、G-C及极性。",
+        "steps": [
+          "对齐为3′-TACG-5′。",
+          "改成5′起头则5′-GCAT-3′。"
+        ],
+        "ans": "3′-TACG-5′或等价5′-GCAT-3′。",
+        "verification": "两链对齐时每位互补且端标相反。",
+        "pitfall": "写5′-TACG-3′而未反向。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "双链DNA中A占30%，G占多少？ 条件：按整体碱基统计。",
+        "given": "按整体碱基统计。",
+        "analysis": "T也30%。",
+        "method": "剩余平分GC。",
+        "principle": "互补关系。",
+        "steps": [
+          "A+T=60%。",
+          "G=C=20%。"
+        ],
+        "ans": "20%。",
+        "verification": "四者合100%。",
+        "pitfall": "把剩40%全给G。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.2",
+        "related_sections": []
+      },
+      {
+        "q": "200 bp双链有多少核苷酸？ 条件：bp为碱基对。",
+        "given": "bp为碱基对。",
+        "analysis": "每对两单元。",
+        "method": "乘2。",
+        "principle": "双链结构。",
+        "steps": [
+          "200×2。",
+          "得400。"
+        ],
+        "ans": "400个。",
+        "verification": "两链各200。",
+        "pitfall": "答200。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.2",
+        "related_sections": []
+      },
+      {
+        "q": "单链DNA一定A=T吗？ 条件：未给配对链整体。",
+        "given": "未给配对链整体。",
+        "analysis": "同链没有逐位AT配对约束。",
+        "method": "找反例。",
+        "principle": "双链关系不自动限单链。",
+        "steps": [
+          "单链可为AAAA。",
+          "此链A=4、T=0。"
+        ],
+        "ans": "不一定。",
+        "verification": "其互补链TTTT才使双链整体相等。",
+        "pitfall": "把整体规则套任一单链。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.2",
+        "related_sections": []
+      },
+      {
+        "q": "解链时是否必须断掉两条链的全部骨架共价键？ 条件：讨论通常双链分离。",
+        "given": "讨论通常双链分离。",
+        "analysis": "链间作用和链内骨架不同。",
+        "method": "分层解释。",
+        "principle": "互补链分离不等于降解。",
+        "steps": [
+          "可分开两条链的相互作用。",
+          "骨架仍可保持完整，形成两条单链。"
+        ],
+        "ans": "不必须。",
+        "verification": "DNA酶降解与解链不是同一过程。",
+        "pitfall": "将所有“断键”理解为骨架全断。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "GC比例高就能不加条件地断言任何DNA分子都比GC低的分子更难解链吗？ 条件：长度、盐条件等可能不同。",
+      "given": "长度、盐条件等可能不同。",
+      "analysis": "多个因素影响稳定。",
+      "method": "限定比较条件。",
+      "principle": "氢键数只是稳定因素之一。",
+      "steps": [
+        "相同或可比条件下GC比例有助解释熔解温度差。",
+        "长度、盐及序列背景不同，不能仅凭一个比例绝对排序。"
+      ],
+      "ans": "不能无条件比较。",
+      "verification": "需控制或给出相关条件。",
+      "pitfall": "只数氢键忽略其他稳定因素。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 14,
+      "primary_section": "14.2",
+      "related_sections": []
+    },
+    "exam": [
+      "计算先圈bp还是总核苷酸、单链还是双链整体",
+      "序列题先反向对齐，再按要求重写端标",
+      "结构题区分链间氢键与链内共价骨架，说明各自作用"
+    ],
+    "quick": [
+      "核苷酸",
+      "骨架与配对",
+      "两链极性",
+      "比例与计数",
+      "结构支持信息"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 4,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_14.2",
+        "url": "https://openstax.org/books/biology-2e/pages/14-2-dna-structure-and-sequencing",
+        "page_or_section": "14-2-dna-structure-and-sequencing",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 4,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_14.2",
+        "url": "https://openstax.org/books/biology-2e/pages/14-2-dna-structure-and-sequencing",
+        "page_or_section": "14-2-dna-structure-and-sequencing",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "计算先圈bp还是总核苷酸、单链还是双链整体",
+      "method": "先对齐再反读。",
+      "principle": "A-T、G-C及极性。",
+      "worked_example_index": 2,
+      "verification": "两链对齐时每位互补且端标相反。",
+      "pitfall": "写5′-TACG-3′而未反向。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e2",
+        "review_module": 4,
+        "feedback": "目标“由核苷酸和反向平行解释双链结构”的抽样复核：两链对齐时每位互补且端标相反。；若出现“写5′-TACG-3′而未反向。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e1",
+        "review_module": 5,
+        "feedback": "目标“正确计算双链碱基比例与氢键数”的抽样复核：100个碱基对每对2至3条H键，240在200至300之间。；若出现“把100 bp当100个核苷酸。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "只数氢键忽略其他稳定因素。",
+        "correction": "不能无条件比较。",
+        "verification": "需控制或给出相关条件。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "DNA极性与配对计数",
+      "objects": [
+        "明确的DNA/RNA链",
+        "碱基或标记",
+        "过程/证据箭头",
+        "条件与解释框"
+      ],
+      "relations": [
+        "两链反向平行",
+        "AT两H键、GC三H键",
+        "100 bp=200核苷酸",
+        "互补序列需核端标"
+      ],
+      "labels": [
+        "5′",
+        "3′",
+        "A",
+        "T",
+        "G",
+        "C",
+        "糖磷酸骨架"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "B37/B44/B45/B48等旧图仅在核对链极性、序列和正文条件后使用，原图不覆盖",
+      "english": "Draw an exact molecular genetics schematic. DNA strands are antiparallel; A pairs with T and G with C in DNA, while RNA uses U. New DNA and RNA strands extend 5-prime to 3-prime. Separate an observed experimental band from its interpretation. Standard-code stop codons terminate translation without adding an amino acid. Sequences are illustrative classroom data, not a practical engineering protocol."
+    }
+  },
+  "14.3": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 14,
+    "section_id": "14.3",
+    "goals": [
+      "解释半保留复制及新链延伸",
+      "由标记分布和代数计数检验复制模型"
+    ],
+    "prerequisites": [
+      "DNA互补",
+      "指数增长与染色体"
+    ],
+    "flow": [
+      "模板互补",
+      "5′→3′",
+      "半保留",
+      "逐轮计数",
+      "信息与染色体传递"
+    ],
+    "concept_relation": "模板互补；5′→3′；半保留；逐轮计数；信息与染色体传递",
+    "deep": [
+      "同位素密度实验的概念是将旧标记DNA转入新标记原料条件，再比较不同复制轮次的DNA密度分布。在理想半保留模型下，第一轮每个双链一旧一新；第二轮已有全新双链，因此密度分布可区分若干复制假说。",
+      "计算前说明初始双链数、每轮是否全复制，以及统计是链还是双链分子。一个初始双链经n轮理想复制有2^n个双链，但原始两条亲代链在未损失时仍仅两条，分别存在于两个后代分子中；它们的比例随总量增长下降。",
+      "DNA复制使每条染色体的DNA含量增加，但染色体数通常按着丝粒等教材约定计数，并不在复制完成就自动加倍。将分子复制、染色体姐妹染色单体形成和细胞分裂放到时间线上，才能正确解释遗传传递与含量变化。"
+    ],
+    "derive": [
+      "半保留：每个新双链=一条模板旧链+一条新链；新链延伸5′→3′。",
+      "1个初始双链经n轮完整复制有2^n个双链；n≥1且无损失时含原始链的分子为2个。",
+      "两原始重链转轻原料：第1轮全中间密度，第2轮一半中间、一半轻。"
+    ],
+    "examples": [
+      {
+        "q": "1个初始双链经过3轮理想半保留复制，总双链数及含任一原始链的分子比例？ 条件：每轮全复制、原始链无降解。",
+        "given": "每轮全复制、原始链无降解。",
+        "analysis": "原始链总数固定而分子数倍增。",
+        "method": "分别计总数与旧链去向。",
+        "principle": "半保留复制。",
+        "steps": [
+          "总双链2³=8。",
+          "原始两链各在1个分子，含原始链分子2个，占2/8=1/4。"
+        ],
+        "ans": "8个双链，其中1/4含原始链。",
+        "verification": "其余6个均不含第0轮原始链，但仍按模板半保留形成。",
+        "pitfall": "把含原始链比例永远写1/2。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.3",
+        "related_sections": []
+      },
+      {
+        "q": "初始两链均重标记，转入轻原料并复制2轮，理想半保留模型出现何种双链分布？ 条件：无其他交换或降解。",
+        "given": "无其他交换或降解。",
+        "analysis": "逐轮跟踪旧重链。",
+        "method": "列一轮后再复制。",
+        "principle": "每个双链半保留。",
+        "steps": [
+          "第一轮2个均重—轻。",
+          "第二轮4个中2个重—轻、2个轻—轻。"
+        ],
+        "ans": "一半中间、一半轻，无完整重—重。",
+        "verification": "两条原始重链仍各只出现一次。",
+        "pitfall": "第二轮仍全部中间密度。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.3",
+        "related_sections": []
+      },
+      {
+        "q": "DNA复制后DNA量加倍，能否立即说细胞染色体数也必加倍？ 条件：按着丝粒等教材约定计染色体。",
+        "given": "按着丝粒等教材约定计染色体。",
+        "analysis": "DNA分子和染色体计数不同。",
+        "method": "联系姐妹染色单体。",
+        "principle": "复制与分离是不同阶段。",
+        "steps": [
+          "复制形成姐妹染色单体。",
+          "尚未分离时染色体计数通常不因复制本身加倍。"
+        ],
+        "ans": "不能。",
+        "verification": "分离后的计数需结合细胞阶段和范围。",
+        "pitfall": "把所有两倍变化套同一个指标。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "2个初始双链复制4轮，总双链多少？ 条件：理想完全倍增。",
+        "given": "理想完全倍增。",
+        "analysis": "初始量乘指数。",
+        "method": "N₀2^n。",
+        "principle": "复制计数。",
+        "steps": [
+          "2×2⁴。",
+          "得32。"
+        ],
+        "ans": "32个。",
+        "verification": "第0轮应为2。",
+        "pitfall": "把4轮当增加4个。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.3",
+        "related_sections": []
+      },
+      {
+        "q": "半保留是否指每条新DNA链有半段旧半段新？ 条件：讨论整条链来源。",
+        "given": "讨论整条链来源。",
+        "analysis": "链组成和双链组成不同。",
+        "method": "按定义纠错。",
+        "principle": "一旧链配一新链。",
+        "steps": [
+          "每个子代双链含一条亲代模板。",
+          "不是每条链按长度切成两半。"
+        ],
+        "ans": "不是。",
+        "verification": "画两条完整链可看出来源。",
+        "pitfall": "把半保留理解为半链片段。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.3",
+        "related_sections": []
+      },
+      {
+        "q": "新链延伸方向是什么？ 条件：聚合酶加到新链末端。",
+        "given": "聚合酶加到新链末端。",
+        "analysis": "端标必须一致。",
+        "method": "判断3′端延长。",
+        "principle": "DNA合成5′→3′。",
+        "steps": [
+          "核苷酸加于3′端。",
+          "新链长度沿5′到3′方向增长。"
+        ],
+        "ans": "5′→3′。",
+        "verification": "反向平行模板相应被沿相反方向读取。",
+        "pitfall": "给两条新链相反化学合成方向。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.3",
+        "related_sections": []
+      },
+      {
+        "q": "复制有校对能否保证没有任何突变？ 条件：机制有效但非无限完美。",
+        "given": "机制有效但非无限完美。",
+        "analysis": "降低错误率不等于绝对零。",
+        "method": "限定结论。",
+        "principle": "复制和修复有残余错误可能。",
+        "steps": [
+          "多数错误可被纠正。",
+          "少数未修复改变仍可能保留传递。"
+        ],
+        "ans": "不能保证绝对零。",
+        "verification": "突变存在与校对机制并不矛盾。",
+        "pitfall": "有校对就说所有变异不可能。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "为什么标记实验只观察第一轮全部中间密度，未必足以区分所有可能复制假说？ 条件：需比较多个假说对多轮分布的预言。",
+      "given": "需比较多个假说对多轮分布的预言。",
+      "analysis": "不同模型可在一轮产生类似观测。",
+      "method": "增加轮次检验。",
+      "principle": "科学模型由可区分预言检验。",
+      "steps": [
+        "有些分散复制模型也可能给中间密度信号。",
+        "第二轮出现明确轻带与中间带可提供进一步区分。"
+      ],
+      "ans": "需要后续轮次等证据加强区分。",
+      "verification": "比较第二轮而非仅重复第一轮结论。",
+      "pitfall": "单一观察就排除所有模型。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 14,
+      "primary_section": "14.3",
+      "related_sections": []
+    },
+    "exam": [
+      "计数题先分链、双链分子、DNA量与染色体数",
+      "密度题逐轮追踪原始链，不把“半保留”当比例永远一半",
+      "实验题比较各模型预言，说明哪一轮能区分"
+    ],
+    "quick": [
+      "模板互补",
+      "5′→3′",
+      "半保留",
+      "逐轮计数",
+      "信息与染色体传递"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 4,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_14.3",
+        "url": "https://openstax.org/books/biology-2e/pages/14-3-basics-of-dna-replication",
+        "page_or_section": "14-3-basics-of-dna-replication",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 4,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_14.3",
+        "url": "https://openstax.org/books/biology-2e/pages/14-3-basics-of-dna-replication",
+        "page_or_section": "14-3-basics-of-dna-replication",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "计数题先分链、双链分子、DNA量与染色体数",
+      "method": "联系姐妹染色单体。",
+      "principle": "复制与分离是不同阶段。",
+      "worked_example_index": 2,
+      "verification": "分离后的计数需结合细胞阶段和范围。",
+      "pitfall": "把所有两倍变化套同一个指标。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "p1",
+        "review_module": 4,
+        "feedback": "目标“解释半保留复制及新链延伸”的抽样复核：画两条完整链可看出来源。；若出现“把半保留理解为半链片段。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e1",
+        "review_module": 5,
+        "feedback": "目标“由标记分布和代数计数检验复制模型”的抽样复核：两条原始重链仍各只出现一次。；若出现“第二轮仍全部中间密度。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "单一观察就排除所有模型。",
+        "correction": "需要后续轮次等证据加强区分。",
+        "verification": "比较第二轮而非仅重复第一轮结论。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "半保留复制的两轮标记",
+      "objects": [
+        "明确的DNA/RNA链",
+        "碱基或标记",
+        "过程/证据箭头",
+        "条件与解释框"
+      ],
+      "relations": [
+        "第一轮全重轻双链",
+        "第二轮半重轻半轻轻",
+        "原始重链不被凭空复制成重链",
+        "新链端标正确"
+      ],
+      "labels": [
+        "亲代重链",
+        "新合成轻链",
+        "第1轮",
+        "第2轮",
+        "2^n"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "B37/B44/B45/B48等旧图仅在核对链极性、序列和正文条件后使用，原图不覆盖",
+      "english": "Draw an exact molecular genetics schematic. DNA strands are antiparallel; A pairs with T and G with C in DNA, while RNA uses U. New DNA and RNA strands extend 5-prime to 3-prime. Separate an observed experimental band from its interpretation. Standard-code stop codons terminate translation without adding an amino acid. Sequences are illustrative classroom data, not a practical engineering protocol."
+    }
+  },
+  "14.4": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 14,
+    "section_id": "14.4",
+    "goals": [
+      "由模板序列写出RNA并解释转录翻译",
+      "正确计算密码子、氨基酸和肽键并保留模型条件"
+    ],
+    "prerequisites": [
+      "互补配对",
+      "RNA和蛋白质结构"
+    ],
+    "flow": [
+      "链身份与极性",
+      "转录RNA",
+      "加工",
+      "密码子与翻译",
+      "多肽计数"
+    ],
+    "concept_relation": "链身份与极性；转录RNA；加工；密码子与翻译；多肽计数",
+    "deep": [
+      "翻译按mRNA上的三核苷酸密码子读取，tRNA以反密码子配对并携带相应氨基酸。常用标准遗传密码中64种三联体含61种编码氨基酸的密码子和3种终止密码子；终止码不是额外一个氨基酸。遗传密码的简并指多个密码子可对应同一氨基酸。",
+      "起始与阅读框决定后续三联体的分组。插入一个碱基可改变后面分组，却不应说此前已读取部分的氨基酸全部随之改变。多个核糖体可同时读取同一mRNA，不表示同一个核糖体可把序列顺序任意交换。",
+      "计算题先明确给的是完整开放阅读框、包含终止密码子还是含非翻译区。若编码区有n个实际氨基酸，单条未环化多肽常有n−1个肽键；不能把整个mRNA总长度直接除3当作蛋白氨基酸数。"
+    ],
+    "derive": [
+      "模板3′-TACGGA-5′→RNA5′-AUGCCU-3′；RNA中用U。",
+      "标准密码：64种三联体，61种编码氨基酸、3种终止；一个终止码不贡献氨基酸。",
+      "明确给定仅含起始至终止的完整阅读框时，氨基酸数=三联体数−1；线性单链肽键=n−1。"
+    ],
+    "examples": [
+      {
+        "q": "模板DNA为3′-TACGGA-5′，写转录RNA。 条件：给的是模板而非编码链。",
+        "given": "给的是模板而非编码链。",
+        "analysis": "反向平行互补，RNA用U。",
+        "method": "逐位配对。",
+        "principle": "转录互补与极性。",
+        "steps": [
+          "T→A、A→U、C→G、G→C、G→C、A→U。",
+          "得到5′-AUGCCU-3′。"
+        ],
+        "ans": "5′-AUGCCU-3′。",
+        "verification": "与模板逐位互补，端标相反。",
+        "pitfall": "只把T换U却忽略这是模板链。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.4",
+        "related_sections": []
+      },
+      {
+        "q": "mRNA阅读框5′-AUG GCU UAA-3′，按标准密码给出氨基酸数与线性多肽肽键数。 条件：AUG为起始且编码Met，GCU编码Ala，UAA终止。",
+        "given": "AUG为起始且编码Met，GCU编码Ala，UAA终止。",
+        "analysis": "终止码不加氨基酸。",
+        "method": "分三联体计编码项。",
+        "principle": "翻译与肽键计数。",
+        "steps": [
+          "AUG、GCU给2个氨基酸。",
+          "线性二肽肽键2−1=1。"
+        ],
+        "ans": "2个氨基酸、1个肽键。",
+        "verification": "3个密码子不等于3个氨基酸。",
+        "pitfall": "把终止码算作第三个氨基酸。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.4",
+        "related_sections": []
+      },
+      {
+        "q": "某mRNA总长900 nt，能否仅此断言产物300个氨基酸？ 条件：未说明非翻译区和阅读框。",
+        "given": "未说明非翻译区和阅读框。",
+        "analysis": "总RNA长度不等于纯编码长度。",
+        "method": "检查缺少条件。",
+        "principle": "表达结构与计数口径。",
+        "steps": [
+          "mRNA可含非翻译区及终止码。",
+          "没有完整阅读框信息，不能唯一算氨基酸数。"
+        ],
+        "ans": "不能。",
+        "verification": "即使900全为含单个终止的阅读框，也通常为299而非300。",
+        "pitfall": "不审结构直接除3。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "编码DNA链5′-ATGGCT-3′对应mRNA是什么？ 条件：给的是编码链且对应区无其他加工。",
+        "given": "给的是编码链且对应区无其他加工。",
+        "analysis": "同向对应，不是模板互补。",
+        "method": "T换U。",
+        "principle": "编码链与RNA关系。",
+        "steps": [
+          "保留方向和其他碱基。",
+          "得5′-AUGGCU-3′。"
+        ],
+        "ans": "5′-AUGGCU-3′。",
+        "verification": "模板为反向互补链。",
+        "pitfall": "所有给定DNA都直接取互补。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.4",
+        "related_sections": []
+      },
+      {
+        "q": "一个含60个氨基酸的线性单条多肽有多少肽键？ 条件：无环化或分支。",
+        "given": "无环化或分支。",
+        "analysis": "连接n单位有n−1处。",
+        "method": "计相邻连接。",
+        "principle": "线性链计数。",
+        "steps": [
+          "60−1。",
+          "得59。"
+        ],
+        "ans": "59个。",
+        "verification": "两端不是再连成环。",
+        "pitfall": "写60个。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.4",
+        "related_sections": []
+      },
+      {
+        "q": "同一氨基酸由多个密码子编码，称什么？ 条件：讨论标准密码特征。",
+        "given": "讨论标准密码特征。",
+        "analysis": "多码对应同一氨基酸。",
+        "method": "识别术语。",
+        "principle": "遗传密码简并。",
+        "steps": [
+          "不同三联体可对应同一氨基酸。",
+          "不是同一码任意对应多种氨基酸。"
+        ],
+        "ans": "简并性。",
+        "verification": "区分多对一和一对多。",
+        "pitfall": "把简并误成读取歧义。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.4",
+        "related_sections": []
+      },
+      {
+        "q": "终止密码子对应一个叫“终止”的氨基酸吗？ 条件：采用标准翻译模型。",
+        "given": "采用标准翻译模型。",
+        "analysis": "终止为过程信号。",
+        "method": "核功能。",
+        "principle": "终止码不编码氨基酸。",
+        "steps": [
+          "核糖体识别终止过程。",
+          "不为多肽加所谓终止氨基酸。"
+        ],
+        "ans": "不是。",
+        "verification": "计算时不把终止计入氨基酸总数。",
+        "pitfall": "把密码子数都转成氨基酸。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "“所有基因的最终产物都是蛋白质”准确吗？ 条件：有功能RNA基因。",
+      "given": "有功能RNA基因。",
+      "analysis": "基因表达不必全部经过翻译。",
+      "method": "区分编码产物。",
+      "principle": "RNA也可承担功能。",
+      "steps": [
+        "某些RNA产物直接有功能。",
+        "并非每个基因都编码多肽。"
+      ],
+      "ans": "不准确。",
+      "verification": "rRNA、tRNA相关基因可作例证。",
+      "pitfall": "将编码蛋白模型扩为所有基因。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 14,
+      "primary_section": "14.4",
+      "related_sections": []
+    },
+    "exam": [
+      "序列题先圈模板链或编码链及端标，再决定互补或T换U",
+      "计数题先找阅读框、终止码和非翻译区，不能只除3",
+      "解释表达分别写转录、加工、翻译与功能层次，不混基因产物"
+    ],
+    "quick": [
+      "链身份与极性",
+      "转录RNA",
+      "加工",
+      "密码子与翻译",
+      "多肽计数"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 4,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_14.4",
+        "url": "https://openstax.org/books/biology-2e/pages/15-introduction",
+        "page_or_section": "15-introduction",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "extra_theory_14.4_0",
+        "url": "https://openstax.org/books/biology-2e/pages/15-2-prokaryotic-transcription",
+        "page_or_section": "15-2-prokaryotic-transcription",
+        "version": "专项原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "extra_theory_14.4_1",
+        "url": "https://openstax.org/books/biology-2e/pages/15-3-eukaryotic-transcription",
+        "page_or_section": "15-3-eukaryotic-transcription",
+        "version": "专项原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "extra_theory_14.4_2",
+        "url": "https://openstax.org/books/biology-2e/pages/15-4-rna-processing-in-eukaryotes",
+        "page_or_section": "15-4-rna-processing-in-eukaryotes",
+        "version": "专项原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "extra_theory_14.4_3",
+        "url": "https://openstax.org/books/biology-2e/pages/15-5-ribosomes-and-protein-synthesis",
+        "page_or_section": "15-5-ribosomes-and-protein-synthesis",
+        "version": "专项原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 4,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_14.4",
+        "url": "https://openstax.org/books/biology-2e/pages/15-introduction",
+        "page_or_section": "15-introduction",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "extra_theory_14.4_0",
+        "url": "https://openstax.org/books/biology-2e/pages/15-2-prokaryotic-transcription",
+        "page_or_section": "15-2-prokaryotic-transcription",
+        "version": "专项原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "extra_theory_14.4_1",
+        "url": "https://openstax.org/books/biology-2e/pages/15-3-eukaryotic-transcription",
+        "page_or_section": "15-3-eukaryotic-transcription",
+        "version": "专项原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "extra_theory_14.4_2",
+        "url": "https://openstax.org/books/biology-2e/pages/15-4-rna-processing-in-eukaryotes",
+        "page_or_section": "15-4-rna-processing-in-eukaryotes",
+        "version": "专项原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "extra_theory_14.4_3",
+        "url": "https://openstax.org/books/biology-2e/pages/15-5-ribosomes-and-protein-synthesis",
+        "page_or_section": "15-5-ribosomes-and-protein-synthesis",
+        "version": "专项原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "序列题先圈模板链或编码链及端标，再决定互补或T换U",
+      "method": "检查缺少条件。",
+      "principle": "表达结构与计数口径。",
+      "worked_example_index": 2,
+      "verification": "即使900全为含单个终止的阅读框，也通常为299而非300。",
+      "pitfall": "不审结构直接除3。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“由模板序列写出RNA并解释转录翻译”的抽样复核：与模板逐位互补，端标相反。；若出现“只把T换U却忽略这是模板链。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“正确计算密码子、氨基酸和肽键并保留模型条件”的抽样复核：即使900全为含单个终止的阅读框，也通常为299而非300。；若出现“不审结构直接除3。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "将编码蛋白模型扩为所有基因。",
+        "correction": "不准确。",
+        "verification": "rRNA、tRNA相关基因可作例证。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "转录与翻译的链方向",
+      "objects": [
+        "明确的DNA/RNA链",
+        "碱基或标记",
+        "过程/证据箭头",
+        "条件与解释框"
+      ],
+      "relations": [
+        "模板3′TACGGA5′对应RNA5′AUGCCU3′",
+        "U代T",
+        "标准终止码不形成氨基酸",
+        "tRNA反密码子配对反向"
+      ],
+      "labels": [
+        "模板链",
+        "编码链",
+        "mRNA",
+        "5′",
+        "3′",
+        "密码子",
+        "多肽"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "B37/B44/B45/B48等旧图仅在核对链极性、序列和正文条件后使用，原图不覆盖",
+      "english": "Draw an exact molecular genetics schematic. DNA strands are antiparallel; A pairs with T and G with C in DNA, while RNA uses U. New DNA and RNA strands extend 5-prime to 3-prime. Separate an observed experimental band from its interpretation. Standard-code stop codons terminate translation without adding an amino acid. Sequences are illustrative classroom data, not a practical engineering protocol."
+    }
+  },
+  "14.5": {
+    "content_batch": "batch06",
+    "subject": "生物",
+    "subject_code": "biology",
+    "chapter_id": 14,
+    "section_id": "14.5",
+    "goals": [
+      "区分替换、插入与缺失的不同影响",
+      "说明突变随机性、遗传性和表型效果的条件"
+    ],
+    "prerequisites": [
+      "DNA序列",
+      "阅读框和密码子简并"
+    ],
+    "flow": [
+      "变异类型",
+      "编码意义",
+      "阅读框",
+      "表达和功能",
+      "来源与传递"
+    ],
+    "concept_relation": "变异类型；编码意义；阅读框；表达和功能；来源与传递",
+    "deep": [
+      "突变可以由复制错误或某些外界因素相关损伤产生。发生不以生物当前需要为目标；选择改变的是不同变异的存活繁殖结果。环境出现后某有利型增多，不等于环境有意识地诱导了恰好需要的定向变异。",
+      "突变能否传给后代取决于发生的细胞与繁殖方式。体细胞改变可传给该细胞分裂后代，却不一定进入有性生殖子代；生殖系或参与繁殖的细胞变化才有相应传递途径。植物和无性繁殖情形还需按实际来源分析。",
+      "表型影响取决于变异位置、表达、显隐性关系、环境及其他遗传背景。教学题给定完全显性等简化条件时可计算，但结论要限定模型。讨论生物或人类变异保持中性尊重，不把所有差异都描述为缺陷，也不把序列检测等同临床诊断。"
+    ],
+    "derive": [
+      "编码区替换可为同义、错义或无义等，效果需看具体序列。",
+      "连续编码区插入/缺失数非3整数倍可移码；3整数倍通常不移码但仍可有功能影响。",
+      "突变来源、选择结果及是否进入相应后代是不同问题。"
+    ],
+    "examples": [
+      {
+        "q": "标准密码下mRNA编码子GCU变为GCC，两者都编码Ala，仅论此密码子对应氨基酸是否改变？ 条件：题设已给相同编码结果，不讨论其他表达效应。",
+        "given": "题设已给相同编码结果，不讨论其他表达效应。",
+        "analysis": "简并可使替换不改该氨基酸。",
+        "method": "比较编码意义。",
+        "principle": "同义替换。",
+        "steps": [
+          "原为Ala，新仍为Ala。",
+          "该位置氨基酸不变，不能据此断言所有其他效应为零。"
+        ],
+        "ans": "该氨基酸不变。",
+        "verification": "一个碱基变并不必然改变氨基酸。",
+        "pitfall": "任一替换都称氨基酸改变。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.5",
+        "related_sections": []
+      },
+      {
+        "q": "标准密码下某编码子由UAU（Tyr）变UAA（终止），可能的直接翻译后果？ 条件：位置在原终止之前的编码区。",
+        "given": "位置在原终止之前的编码区。",
+        "analysis": "由编码信号变终止信号。",
+        "method": "按新密码子解释。",
+        "principle": "无义变化与终止。",
+        "steps": [
+          "核糖体在新终止处结束相应翻译。",
+          "可形成比原来短的多肽，具体功能另需证据。"
+        ],
+        "ans": "可能提前终止并缩短多肽。",
+        "verification": "不能把UAA当另一种氨基酸。",
+        "pitfall": "只说换成不同氨基酸。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.5",
+        "related_sections": []
+      },
+      {
+        "q": "在连续编码区某位置插入1个碱基与插入3个碱基，通常对其后阅读框有何差别？ 条件：已知阅读框，无其他剪接变化。",
+        "given": "已知阅读框，无其他剪接变化。",
+        "analysis": "模3关系不同。",
+        "method": "按三联分组重排。",
+        "principle": "密码子三联体。",
+        "steps": [
+          "插1个使后续分组相位改变，通常移码。",
+          "插3个通常维持其后分组相位，但会改变局部氨基酸信息。"
+        ],
+        "ans": "1个常移码；3个通常不使其后移码但并非一定无影响。",
+        "verification": "在纸上按三字分组可验证相位。",
+        "pitfall": "3个不移码就说完全无害。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.5",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "点替换是否一定使多肽长度改变？ 条件：可能同义或错义而非提前终止。",
+        "given": "可能同义或错义而非提前终止。",
+        "analysis": "替换效果有多种。",
+        "method": "分类比较。",
+        "principle": "密码子意义。",
+        "steps": [
+          "同义可不改氨基酸；错义可只换一位。",
+          "只有某些情形等才改变终止等。"
+        ],
+        "ans": "不一定。",
+        "verification": "不能把所有替换当插入/缺失。",
+        "pitfall": "任何碱基变都说长度变。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.5",
+        "related_sections": []
+      },
+      {
+        "q": "编码区缺失2个碱基通常是否可能移码？ 条件：连续编码模型。",
+        "given": "连续编码模型。",
+        "analysis": "2非3倍数。",
+        "method": "看余数。",
+        "principle": "三联分组。",
+        "steps": [
+          "2除3余2。",
+          "后续分组相位可改变。"
+        ],
+        "ans": "可能且通常造成移码。",
+        "verification": "需保留编码区及位置前提。",
+        "pitfall": "只看是缺失不看数量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.5",
+        "related_sections": []
+      },
+      {
+        "q": "生物需要耐药性，就必定定向产生所需突变吗？ 条件：讨论变异来源与选择。",
+        "given": "讨论变异来源与选择。",
+        "analysis": "需要不是突变定向机制。",
+        "method": "分突变和筛选结果。",
+        "principle": "随机变异与自然选择。",
+        "steps": [
+          "可先有不同变异。",
+          "药物条件改变其存活繁殖比例。"
+        ],
+        "ans": "不是。",
+        "verification": "有利型增多不证明按需产生。",
+        "pitfall": "用目的论解释突变。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.5",
+        "related_sections": []
+      },
+      {
+        "q": "体细胞突变一定传给该个体所有有性生殖后代吗？ 条件：未说明进入生殖系。",
+        "given": "未说明进入生殖系。",
+        "analysis": "传递途径不同。",
+        "method": "追踪细胞来源。",
+        "principle": "后代遗传需进入相应繁殖细胞。",
+        "steps": [
+          "体细胞可传给其分裂子细胞。",
+          "不自动进入精卵或全部子代。"
+        ],
+        "ans": "不一定。",
+        "verification": "无性繁殖或植物情形还需按实际来源判断。",
+        "pitfall": "体细胞和生殖系不分。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "biology",
+        "chapter_id": 14,
+        "primary_section": "14.5",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "3个碱基整倍数缺失不移码，是否就能证明蛋白功能不受影响？ 条件：位于编码区。",
+      "given": "位于编码区。",
+      "analysis": "不移码仅说明后续相位，仍少氨基酸。",
+      "method": "区分序列组织和功能。",
+      "principle": "蛋白结构依具体残基。",
+      "steps": [
+        "可能丢失关键氨基酸或改变结构。",
+        "即使后续阅读框保留，功能仍需具体检验。"
+      ],
+      "ans": "不能。",
+      "verification": "非移码并非无效应的同义词。",
+      "pitfall": "用一个结构规则代替功能证据。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "biology",
+      "chapter_id": 14,
+      "primary_section": "14.5",
+      "related_sections": []
+    },
+    "exam": [
+      "突变题先核位置和改变类型，再分析密码子或阅读框",
+      "“不变”必须明确是碱基、氨基酸、长度还是功能，不能跨层",
+      "解释抗性等现象分开随机变异与选择，遗传问题再追细胞来源"
+    ],
+    "quick": [
+      "变异类型",
+      "编码意义",
+      "阅读框",
+      "表达和功能",
+      "来源与传递"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 4,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_14.5",
+        "url": "https://openstax.org/books/biology-2e/pages/14-6-dna-repair",
+        "page_or_section": "14-6-dna-repair",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_bio",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77546/mod_resource/content/1/高中生物.pdf",
+        "page": 4,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_bio_14.5",
+        "url": "https://openstax.org/books/biology-2e/pages/14-6-dna-repair",
+        "page_or_section": "14-6-dna-repair",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "突变题先核位置和改变类型，再分析密码子或阅读框",
+      "method": "按三联分组重排。",
+      "principle": "密码子三联体。",
+      "worked_example_index": 2,
+      "verification": "在纸上按三字分组可验证相位。",
+      "pitfall": "3个不移码就说完全无害。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“区分替换、插入与缺失的不同影响”的抽样复核：一个碱基变并不必然改变氨基酸。；若出现“任一替换都称氨基酸改变。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“说明突变随机性、遗传性和表型效果的条件”的抽样复核：在纸上按三字分组可验证相位。；若出现“3个不移码就说完全无害。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "用一个结构规则代替功能证据。",
+        "correction": "不能。",
+        "verification": "非移码并非无效应的同义词。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "替换与移码的不同后果",
+      "objects": [
+        "明确的DNA/RNA链",
+        "碱基或标记",
+        "过程/证据箭头",
+        "条件与解释框"
+      ],
+      "relations": [
+        "GCU→GCC仍Ala",
+        "UAU→UAA变提前终止",
+        "插1非3倍数可移码",
+        "插3维持后续相位但可能改功能"
+      ],
+      "labels": [
+        "同义",
+        "错义",
+        "无义",
+        "移码",
+        "编码区前提"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "B37/B44/B45/B48等旧图仅在核对链极性、序列和正文条件后使用，原图不覆盖",
+      "english": "Draw an exact molecular genetics schematic. DNA strands are antiparallel; A pairs with T and G with C in DNA, while RNA uses U. New DNA and RNA strands extend 5-prime to 3-prime. Separate an observed experimental band from its interpretation. Standard-code stop codons terminate translation without adding an amino acid. Sequences are illustrative classroom data, not a practical engineering protocol."
+    }
+  }
+}

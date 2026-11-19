@@ -1,0 +1,588 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "33.1 perpendicular bisector distances at x1",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "33.1 parameter circle",
+      "status": "pass",
+      "detail": "4*sin(t)**2 + 4*cos(t)**2 - 4"
+    },
+    {
+      "name": "33.1 retained upper-half restriction",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "33.1 polar circle",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "33.3 tangent intersection repeated root",
+      "status": "pass",
+      "detail": "y**2 - 12*y - (y - 6)**2 + 36"
+    },
+    {
+      "name": "33.3 shifted focus equidistance at vertex",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "33.4 point on ellipse",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "33.4 tangent point",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "33.4 focal sum",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "33.4 vertical ellipse c",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "33.5 point on hyperbola",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "33.5 tangent point",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "33.5 focal distance difference",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "33.5 asymptote cannot be curve",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "34.1 product",
+      "status": "pass",
+      "detail": "-10 + (2 + I)*(3 - 4*I) + 5*I"
+    },
+    {
+      "name": "34.1 quotient",
+      "status": "pass",
+      "detail": "1 - 2*I + (1 + 2*I)*(3 + 4*I)/5"
+    },
+    {
+      "name": "34.1 conjugate equation",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "34.1 i2027",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "34.1 quadratic root",
+      "status": "pass",
+      "detail": "-5 + (-3 + 2*I)**2 + 12*I"
+    },
+    {
+      "name": "34.2 modulus",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "34.2 distance halfplane algebra",
+      "status": "pass",
+      "detail": "4*x + (x - 1)**2 - (x + 1)**2"
+    },
+    {
+      "name": "34.2 extreme distances upper",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "34.2 extreme distances lower",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "34.3 product",
+      "status": "pass",
+      "detail": "-3*sqrt(3) - 3*I + (3 + 3*sqrt(3)*I)*(sqrt(3)/2 - I/2)"
+    },
+    {
+      "name": "34.3 quotient",
+      "status": "pass",
+      "detail": "-2*I/3 + (1 + sqrt(3)*I)/(3*sqrt(3)/2 - 3*I/2)"
+    },
+    {
+      "name": "34.4 eighth power",
+      "status": "pass",
+      "detail": "-16 + (1 + I)**8"
+    },
+    {
+      "name": "34.4 sixth power",
+      "status": "pass",
+      "detail": "64 + (sqrt(3) - I)**6"
+    },
+    {
+      "name": "34.4 negative third power",
+      "status": "pass",
+      "detail": "1/8 + (1 + sqrt(3)*I)**(-3)"
+    },
+    {
+      "name": "34.5 cubic root 0",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "34.5 cubic root 1",
+      "status": "pass",
+      "detail": "-8 + (-1 + sqrt(3)*I)**3"
+    },
+    {
+      "name": "34.5 cubic root 2",
+      "status": "pass",
+      "detail": "-8 + (-1 - sqrt(3)*I)**3"
+    },
+    {
+      "name": "34.5 cube roots distinct",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "34.5 fourth root 0",
+      "status": "pass",
+      "detail": "16 + (sqrt(2) + sqrt(2)*I)**4"
+    },
+    {
+      "name": "34.5 fourth root 1",
+      "status": "pass",
+      "detail": "16 + (sqrt(2) - sqrt(2)*I)**4"
+    },
+    {
+      "name": "34.5 fourth root 2",
+      "status": "pass",
+      "detail": "(-sqrt(2) + sqrt(2)*I)**4 + 16"
+    },
+    {
+      "name": "34.5 fourth root 3",
+      "status": "pass",
+      "detail": "(-sqrt(2) - sqrt(2)*I)**4 + 16"
+    },
+    {
+      "name": "34.5 real polynomial",
+      "status": "pass",
+      "detail": "-x**3 + 5*x**2 - 11*x + (x - 3)*(x**2 - 2*x + 5) + 15"
+    },
+    {
+      "name": "34.5 polynomial root 3",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "34.5 polynomial root 1 + 2*I",
+      "status": "pass",
+      "detail": "-4 - 5*(1 + 2*I)**2 + (1 + 2*I)**3 + 22*I"
+    },
+    {
+      "name": "34.5 polynomial root 1 - 2*I",
+      "status": "pass",
+      "detail": "-4 - 22*I + (1 - 2*I)**3 - 5*(1 - 2*I)**2"
+    },
+    {
+      "name": "35.1 distance13",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "35.1 sphere completing squares",
+      "status": "pass",
+      "detail": "t**2 - 6*t + x**2 - 2*x + y**2 + 4*y - (t - 3)**2 - (x - 1)**2 - (y + 2)**2 + 14"
+    },
+    {
+      "name": "35.2 vector length",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "35.2 internal ratio",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "35.2 dependence",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "35.3 perpendicular",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "35.3 angle60",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "35.3 work",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "35.4 cross sign",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "35.4 cross norm",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "35.4 orthogonal u",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "35.4 orthogonal v",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "35.4 triple volume",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "35.5 intersection",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "35.5 point in plane",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "35.5 point-plane distance",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "35.5 skew lines z conflict",
+      "status": "pass",
+      "detail": null
+    },
+    {
+      "name": "18.1 incidence normal angle",
+      "status": "pass",
+      "detail": {
+        "computed": 65.0,
+        "expected": 65
+      }
+    },
+    {
+      "name": "18.1 moved mirror image displacement",
+      "status": "pass",
+      "detail": {
+        "computed": 1.0,
+        "expected": 1
+      }
+    },
+    {
+      "name": "18.2 concave real image",
+      "status": "pass",
+      "detail": {
+        "computed": 14.999999999999996,
+        "expected": 15
+      }
+    },
+    {
+      "name": "18.2 concave virtual image",
+      "status": "pass",
+      "detail": {
+        "computed": -10.0,
+        "expected": -10
+      }
+    },
+    {
+      "name": "18.2 convex image",
+      "status": "pass",
+      "detail": {
+        "computed": -6.666666666666666,
+        "expected": -6.666666666666667
+      }
+    },
+    {
+      "name": "18.3 glass refraction angle",
+      "status": "pass",
+      "detail": {
+        "computed": 19.47122063449069,
+        "expected": 19.4712206345
+      }
+    },
+    {
+      "name": "18.3 emergence angle",
+      "status": "pass",
+      "detail": {
+        "computed": 48.590377890729144,
+        "expected": 48.5903778907
+      }
+    },
+    {
+      "name": "18.4 apparent depth",
+      "status": "pass",
+      "detail": {
+        "computed": 8.0,
+        "expected": 8
+      }
+    },
+    {
+      "name": "18.4 slab lateral shift",
+      "status": "pass",
+      "detail": {
+        "computed": 2.886751345948128,
+        "expected": 2.886751345948129
+      }
+    },
+    {
+      "name": "18.5 glass-air critical",
+      "status": "pass",
+      "detail": {
+        "computed": 41.810314895778596,
+        "expected": 41.8103148958
+      }
+    },
+    {
+      "name": "18.5 glass-water critical",
+      "status": "pass",
+      "detail": {
+        "computed": 62.73395554926718,
+        "expected": 62.7339555493
+      }
+    },
+    {
+      "name": "18.5 fibre acceptance",
+      "status": "pass",
+      "detail": {
+        "computed": 30.000000000000004,
+        "expected": 30
+      }
+    },
+    {
+      "name": "18.6 graph slope",
+      "status": "pass",
+      "detail": {
+        "computed": 1.4999999999999998,
+        "expected": 1.5
+      }
+    },
+    {
+      "name": "18.6 critical measurement",
+      "status": "pass",
+      "detail": {
+        "computed": 1.4142135623730951,
+        "expected": 1.4142135623730951
+      }
+    },
+    {
+      "name": "chemical atom/electron account MnO2+4HCl",
+      "status": "pass",
+      "detail": {
+        "left": {
+          "Mn": 1,
+          "O": 2,
+          "H": 4,
+          "Cl": 4
+        },
+        "right": {
+          "Mn": 1,
+          "O": 2,
+          "H": 4,
+          "Cl": 4
+        }
+      }
+    },
+    {
+      "name": "chemical atom/electron account cold chlorine alkali",
+      "status": "pass",
+      "detail": {
+        "left": {
+          "Cl": 2,
+          "O": 2,
+          "H": 2,
+          "charge": -2
+        },
+        "right": {
+          "Cl": 2,
+          "O": 2,
+          "H": 2,
+          "charge": -2
+        }
+      }
+    },
+    {
+      "name": "chemical atom/electron account hot chlorine alkali",
+      "status": "pass",
+      "detail": {
+        "left": {
+          "Cl": 6,
+          "O": 6,
+          "H": 6,
+          "charge": -6
+        },
+        "right": {
+          "Cl": 6,
+          "O": 6,
+          "H": 6,
+          "charge": -6
+        }
+      }
+    },
+    {
+      "name": "chemical atom/electron account chloralkali net",
+      "status": "pass",
+      "detail": {
+        "left": {
+          "Na": 2,
+          "Cl": 2,
+          "O": 2,
+          "H": 4
+        },
+        "right": {
+          "Na": 2,
+          "Cl": 2,
+          "O": 2,
+          "H": 4
+        }
+      }
+    },
+    {
+      "name": "chemical atom/electron account propene complete combustion",
+      "status": "pass",
+      "detail": {
+        "left": {
+          "C": 6,
+          "H": 12,
+          "O": 18
+        },
+        "right": {
+          "C": 6,
+          "H": 12,
+          "O": 18
+        }
+      }
+    },
+    {
+      "name": "chemical atom/electron account ethanol dehydration",
+      "status": "pass",
+      "detail": {
+        "left": {
+          "C": 2,
+          "H": 6,
+          "O": 1
+        },
+        "right": {
+          "C": 2,
+          "H": 6,
+          "O": 1
+        }
+      }
+    },
+    {
+      "name": "chemical atom/electron account fermentation net",
+      "status": "pass",
+      "detail": {
+        "left": {
+          "C": 6,
+          "H": 12,
+          "O": 6
+        },
+        "right": {
+          "C": 6,
+          "H": 12,
+          "O": 6
+        }
+      }
+    },
+    {
+      "name": "chemical atom/electron account phenol tribromination",
+      "status": "pass",
+      "detail": {
+        "left": {
+          "C": 6,
+          "H": 6,
+          "O": 1,
+          "Br": 6
+        },
+        "right": {
+          "C": 6,
+          "H": 6,
+          "O": 1,
+          "Br": 6
+        }
+      }
+    },
+    {
+      "name": "chemical atom/electron account cumene net",
+      "status": "pass",
+      "detail": {
+        "left": {
+          "C": 9,
+          "H": 12,
+          "O": 2
+        },
+        "right": {
+          "C": 9,
+          "H": 12,
+          "O": 2
+        }
+      }
+    },
+    {
+      "name": "chemical atom/electron account iron oxidation charge",
+      "status": "pass",
+      "detail": {
+        "left": {
+          "Fe": 1,
+          "charge": 0
+        },
+        "right": {
+          "Fe": 1,
+          "charge": 0
+        }
+      }
+    },
+    {
+      "name": "chemical atom/electron account oxygen reduction charge",
+      "status": "pass",
+      "detail": {
+        "left": {
+          "O": 4,
+          "H": 4,
+          "charge": -4
+        },
+        "right": {
+          "O": 4,
+          "H": 4,
+          "charge": -4
+        }
+      }
+    }
+  ],
+  "scope": "Exact final-chapter samples and explicit chemical balances; does not assert every biological statement or every question was independently machine-proved.",
+  "teacher_approved": false
+}

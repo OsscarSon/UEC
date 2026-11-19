@@ -1,0 +1,1508 @@
+{
+  "20.1": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 20,
+    "section_id": "20.1",
+    "goals": [
+      "区分物质变化率与化学计量归一速率",
+      "由数据和图线求平均速率并说明限制"
+    ],
+    "prerequisites": [
+      "物质的量浓度",
+      "化学方程式系数与斜率"
+    ],
+    "flow": [
+      "对象与单位",
+      "浓度变化",
+      "系数归一",
+      "图线斜率",
+      "测量限制"
+    ],
+    "concept_relation": "对象与单位；浓度变化；系数归一；图线斜率；测量限制",
+    "deep": [
+      "一段时间的平均速率是图线上两点连线的斜率；某时刻瞬时速率对应切线斜率。反应物减少等因素常使速率改变，因此长时间的平均值不能直接当作起始速率，也不能将弯曲图线随意延长成直线。",
+      "生成气体时可测体积随时间的变化，但必须保持温度、压强和收集条件可比。质量损失、颜色、浑浊和电导等也可作观测量，需说明它与反应进度的关系。达到同一可见终点的倒数时间有时可作相对速率指标，却不是未经校准的mol·L⁻¹·s⁻¹。",
+      "写答案应同时给出对象、时间段、单位和正负定义。实验数据还应讨论读数延迟、装置漏气、混合与计时起点等误差。速率公式是量的定义，不能单凭方程式系数就推断实验速率方程的浓度幂次。"
+    ],
+    "derive": [
+      "恒容平均消耗速率v_A=−Δ[A]/Δt，生成速率v_B=Δ[B]/Δt。",
+      "aA→bB时，归一反应速率v=−(1/a)Δ[A]/Δt=(1/b)Δ[B]/Δt。",
+      "常用单位mol·L⁻¹·s⁻¹；气体体积速率另用cm³·s⁻¹并注明温压。"
+    ],
+    "examples": [
+      {
+        "q": "恒容反应中[A]在20 s内由0.80降至0.50 mol/L，求A平均消耗速率。 条件：时间20 s，浓度差−0.30 mol/L。",
+        "given": "时间20 s，浓度差−0.30 mol/L。",
+        "analysis": "消耗速率取负斜率。",
+        "method": "用−Δc/Δt。",
+        "principle": "反应物消耗速率定义。",
+        "steps": [
+          "Δ[A]=0.50−0.80=−0.30。",
+          "v_A=−(−0.30)/20=0.015 mol·L⁻¹·s⁻¹。"
+        ],
+        "ans": "0.015 mol·L⁻¹·s⁻¹。",
+        "verification": "20×0.015=0.30，与减少量一致。",
+        "pitfall": "负号重复或漏写单位。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.1",
+        "related_sections": []
+      },
+      {
+        "q": "对2A→B，测得A消耗速率0.060 mol·L⁻¹·s⁻¹，求B生成速率及归一反应速率。 条件：仅按已配平反应换算。",
+        "given": "仅按已配平反应换算。",
+        "analysis": "每生成1 mol B消耗2 mol A。",
+        "method": "除以化学计量系数。",
+        "principle": "同一反应进度的计量比。",
+        "steps": [
+          "v_B=0.060/2=0.030。",
+          "归一速率v=v_A/2=v_B=0.030。"
+        ],
+        "ans": "两者均0.030 mol·L⁻¹·s⁻¹。",
+        "verification": "2v_B=v_A。",
+        "pitfall": "以为所有物质数值变化率一样。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.1",
+        "related_sections": []
+      },
+      {
+        "q": "气体体积在0、10、20 s分别为0、30、45 cm³；比较两段平均生成速率，能否据此算出起始瞬时速率？ 条件：体积在同温同压记录。",
+        "given": "体积在同温同压记录。",
+        "analysis": "分段平均值不同且切线未知。",
+        "method": "分别求割线斜率，区分瞬时量。",
+        "principle": "平均速率不等于瞬时速率。",
+        "steps": [
+          "前段30/10=3.0 cm³/s，后段15/10=1.5 cm³/s。",
+          "两段平均速率下降，但仅三点不足精确给起始切线。"
+        ],
+        "ans": "3.0与1.5 cm³/s；不能唯一确定起始瞬时速率。",
+        "verification": "全段45/20=2.25介于两段平均值之间。",
+        "pitfall": "把第一段3.0无条件当起始瞬时值。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "产物浓度30 s内增加0.12 mol/L，平均生成速率？ 条件：Δc=0.12，Δt=30 s。",
+        "given": "Δc=0.12，Δt=30 s。",
+        "analysis": "单位时间增加量。",
+        "method": "相除。",
+        "principle": "平均生成速率。",
+        "steps": [
+          "v=0.12/30。",
+          "得0.0040 mol·L⁻¹·s⁻¹。"
+        ],
+        "ans": "0.0040 mol·L⁻¹·s⁻¹。",
+        "verification": "乘30还原0.12。",
+        "pitfall": "把秒当分钟。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.1",
+        "related_sections": []
+      },
+      {
+        "q": "A的浓度变化率为−0.02 mol·L⁻¹·s⁻¹，消耗速率是多少？ 条件：对象为反应物A。",
+        "given": "对象为反应物A。",
+        "analysis": "变化率带方向，消耗速率取正。",
+        "method": "取相反数。",
+        "principle": "消耗速率定义。",
+        "steps": [
+          "−Δ[A]/Δt=−(−0.02)。",
+          "得到+0.02。"
+        ],
+        "ans": "0.02 mol·L⁻¹·s⁻¹。",
+        "verification": "A确实减少而非生成。",
+        "pitfall": "把负值报告为正向消耗速率。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.1",
+        "related_sections": []
+      },
+      {
+        "q": "2A→3B，B生成速率0.09，求A消耗速率。 条件：单位均mol·L⁻¹·s⁻¹。",
+        "given": "单位均mol·L⁻¹·s⁻¹。",
+        "analysis": "变化率比为2:3。",
+        "method": "计量换算。",
+        "principle": "v_A/2=v_B/3。",
+        "steps": [
+          "归一速率0.09/3=0.03。",
+          "v_A=2×0.03=0.06。"
+        ],
+        "ans": "0.06 mol·L⁻¹·s⁻¹。",
+        "verification": "0.06:0.09=2:3。",
+        "pitfall": "把比值倒置。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.1",
+        "related_sections": []
+      },
+      {
+        "q": "相同反应以变色终点计时，甲20 s、乙40 s，若终点进度相同，相对速率比？ 条件：温度、体积及终点判据相同。",
+        "given": "温度、体积及终点判据相同。",
+        "analysis": "同进度下平均速率与时间成反比。",
+        "method": "比较1/t。",
+        "principle": "速率=固定进度/时间。",
+        "steps": [
+          "甲乙比=(1/20)/(1/40)。",
+          "得2:1。"
+        ],
+        "ans": "2:1，仅为该终点条件下相对值。",
+        "verification": "甲用一半时间达到同进度。",
+        "pitfall": "直接把20:40当速率比。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "对3A→2B能否直接断言速率方程v=k[A]³？ 条件：只给总反应方程式。",
+      "given": "只给总反应方程式。",
+      "analysis": "总计量关系不是基元步骤机制。",
+      "method": "区分计量与实验速率规律。",
+      "principle": "反应级数通常需实验或已知机理。",
+      "steps": [
+        "系数限定A、B变化量之比。",
+        "它未提供微观步骤，不能仅凭3确定浓度三次幂。"
+      ],
+      "ans": "不能。",
+      "verification": "多步反应的速率控制步骤可与总系数不同。",
+      "pitfall": "将所有反应计量系数机械当反应级数。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 20,
+      "primary_section": "20.1",
+      "related_sections": []
+    },
+    "exam": [
+      "读题先圈“谁的速率”和时间段，按定义决定负号",
+      "计量换算先除系数得到统一进度，不倒置速率比",
+      "图线先分割线与切线，实验相对速率不冒充浓度单位"
+    ],
+    "quick": [
+      "对象与单位",
+      "浓度变化",
+      "系数归一",
+      "图线斜率",
+      "测量限制"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 9,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_20.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/12-1-chemical-reaction-rates",
+        "page_or_section": "12-1-chemical-reaction-rates",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 9,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_20.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/12-1-chemical-reaction-rates",
+        "page_or_section": "12-1-chemical-reaction-rates",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "读题先圈“谁的速率”和时间段，按定义决定负号",
+      "method": "分别求割线斜率，区分瞬时量。",
+      "principle": "平均速率不等于瞬时速率。",
+      "worked_example_index": 2,
+      "verification": "全段45/20=2.25介于两段平均值之间。",
+      "pitfall": "把第一段3.0无条件当起始瞬时值。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“区分物质变化率与化学计量归一速率”的抽样复核：20×0.015=0.30，与减少量一致。；若出现“负号重复或漏写单位。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“由数据和图线求平均速率并说明限制”的抽样复核：全段45/20=2.25介于两段平均值之间。；若出现“把第一段3.0无条件当起始瞬时值。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "将所有反应计量系数机械当反应级数。",
+        "correction": "不能。",
+        "verification": "多步反应的速率控制步骤可与总系数不同。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "浓度图与计量归一速率",
+      "objects": [
+        "对照实验条件",
+        "随时间记录的数据",
+        "粒子或能量示意",
+        "单位与适用条件"
+      ],
+      "relations": [
+        "反应物曲线下降、产物上升",
+        "割线与切线明确区别",
+        "2A→B时消耗率为生成率两倍"
+      ],
+      "labels": [
+        "t/s",
+        "c/(mol·L⁻¹)",
+        "平均斜率",
+        "瞬时切线",
+        "v_A=2v_B"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "现有碰撞理论图须逐项核验；仅在条件和变量一致时复用",
+      "english": "Construct a precise chemical kinetics teaching diagram. Keep reactant, product, time and concentration labels distinct. Particle sketches are explanatory models, not molecular-scale photographs. State controlled variables and measure initial slopes consistently. A catalyst changes the pathway activation barrier, not the overall reaction enthalpy or equilibrium constant."
+    }
+  },
+  "20.2.1": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 20,
+    "section_id": "20.2.1",
+    "goals": [
+      "用碰撞与键结构解释本性差异",
+      "设计只改变固体暴露面积的对照"
+    ],
+    "prerequisites": [
+      "粒子模型",
+      "固体与溶液界面"
+    ],
+    "flow": [
+      "本性与路径",
+      "有效碰撞",
+      "暴露面积",
+      "公平实验",
+      "斜率和平台"
+    ],
+    "concept_relation": "本性与路径；有效碰撞；暴露面积；公平实验；斜率和平台",
+    "deep": [
+      "以同体积、同浓度、同温度的过量酸与等质量同成分碳酸钙比较，细颗粒通常起始生成气体更快。若都完全反应且限量关系相同，最终二氧化碳量相同。速率曲线陡缓变化与平台高度应分别解释。",
+      "公平实验需控制固体纯度、质量、酸的条件、混合和收集装置。若颗粒太细发生结团，实际有效面积可能不同于简单几何估计；表面氧化膜、钝化或溶解过程也可能改变观测结果。模型推断须保留这些边界。",
+      "实验可比较起始斜率或相同气体体积所需时间。不能只看某一时刻的气泡大小推断总速率，因为气泡成核与逸出也会变化；装置漏气则直接影响体积记录。粉尘与易燃固体的分散会增加风险，本节只讨论模型与教师监督的合适实验。"
+    ],
+    "derive": [
+      "同密度同质量固体分成n个相似小块时，总体积不变、总面积增加。",
+      "边长L的立方体切为8个L/2立方体：面积从6L²增至8×6(L/2)²=12L²。",
+      "暴露面积改变速率；完整反应的最终量仍由限量物质决定。"
+    ],
+    "examples": [
+      {
+        "q": "边长2 cm的立方体切成8个边长1 cm的小立方体，总表面积如何变？ 条件：切面都能接触反应物，体积损失忽略。",
+        "given": "切面都能接触反应物，体积损失忽略。",
+        "analysis": "先算几何面积而非质量增加。",
+        "method": "分别求6边长平方。",
+        "principle": "立方体表面积6a²。",
+        "steps": [
+          "原面积6×2²=24 cm²。",
+          "新面积8×6×1²=48 cm²。"
+        ],
+        "ans": "增为2倍。",
+        "verification": "总体积原8 cm³、新8×1=8 cm³不变。",
+        "pitfall": "把8块误当面积8倍。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.2.1",
+        "related_sections": []
+      },
+      {
+        "q": "等质量纯CaCO₃块状与粉末各和同条件过量酸完全反应，比较初速及最终CO₂量。 条件：酸均过量；CaCO₃质量相同。",
+        "given": "酸均过量；CaCO₃质量相同。",
+        "analysis": "面积决定接触速率，计量决定平台。",
+        "method": "分开比较斜率和产量。",
+        "principle": "界面反应与质量守恒。",
+        "steps": [
+          "粉末暴露面积通常更大，初速更高。",
+          "CaCO₃物质的量相同且都完全反应，CO₂终量相同。"
+        ],
+        "ans": "粉末较快，最终量相同。",
+        "verification": "每1 mol CaCO₃均生成1 mol CO₂。",
+        "pitfall": "粉末更快就判断最终气量更多。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.2.1",
+        "related_sections": []
+      },
+      {
+        "q": "有人用1 g粉末配2 mol/L酸，与2 g块状配1 mol/L酸比较，能单独证明面积效应吗？ 条件：质量和浓度也变化。",
+        "given": "质量和浓度也变化。",
+        "analysis": "混杂变量妨碍因果结论。",
+        "method": "审查控制变量。",
+        "principle": "单一自变量对照。",
+        "steps": [
+          "面积、质量、浓度同时变化。",
+          "需改为同质量、同酸体积浓度温度，只改变粒度。"
+        ],
+        "ans": "不能单独归因。",
+        "verification": "新的公平对照排除了另两个主要解释。",
+        "pitfall": "把任意快慢差都归于面积。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.2.1",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "同质量球形颗粒半径减半、颗粒数增至8倍，总面积变几倍？ 条件：总体积固定。",
+        "given": "总体积固定。",
+        "analysis": "面积与r²成正比。",
+        "method": "面积比例。",
+        "principle": "球面积4πr²。",
+        "steps": [
+          "比值8×(1/2)²。",
+          "得2。"
+        ],
+        "ans": "2倍。",
+        "verification": "体积比8×(1/2)³=1。",
+        "pitfall": "误按体积比例算面积。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.2.1",
+        "related_sections": []
+      },
+      {
+        "q": "粉碎10 g固体后完全反应的理论物质的量会增加吗？ 条件：无损失、组成不变。",
+        "given": "无损失、组成不变。",
+        "analysis": "质量和摩尔质量未变。",
+        "method": "用n=m/M。",
+        "principle": "物质的量定义。",
+        "steps": [
+          "m与M均不变。",
+          "故n不变。"
+        ],
+        "ans": "不会。",
+        "verification": "更多表面不等于更多物质。",
+        "pitfall": "把接触面增多当作分子数增多。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.2.1",
+        "related_sections": []
+      },
+      {
+        "q": "比较粒度效应要不要控制温度？ 条件：温度也影响速率。",
+        "given": "温度也影响速率。",
+        "analysis": "需排除其他自变量。",
+        "method": "列控制量。",
+        "principle": "公平实验。",
+        "steps": [
+          "两组用同温度与同组成、同质量。",
+          "只改变粒度。"
+        ],
+        "ans": "需要。",
+        "verification": "否则升温可以解释速率增加。",
+        "pitfall": "认为同质量就足够公平。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.2.1",
+        "related_sections": []
+      },
+      {
+        "q": "两反应同温同浓度但快慢不同，是否必定由面积造成？ 条件：可能为均相体系。",
+        "given": "可能为均相体系。",
+        "analysis": "反应物结构和路径也不同。",
+        "method": "先核体系与变量。",
+        "principle": "本性影响反应动力学。",
+        "steps": [
+          "均相反应没有同类固体表面变量。",
+          "键结构、机制和活化能仍可不同。"
+        ],
+        "ans": "不一定。",
+        "verification": "排除表面变量仍可有速率差。",
+        "pitfall": "只有一种因素决定所有速率。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.2.1",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "粉末反应曲线更陡且平台更高，能否只用面积解释全部差异？ 条件：需知质量、纯度、限量关系和收集条件。",
+      "given": "需知质量、纯度、限量关系和收集条件。",
+      "analysis": "面积通常解释快慢，未必解释终量。",
+      "method": "分别审斜率和平台。",
+      "principle": "速率与计量产量不同。",
+      "steps": [
+        "斜率差可与面积有关。",
+        "平台差须再查反应物量、转化是否完整和漏气等。"
+      ],
+      "ans": "不能，仅面积不足解释终量差。",
+      "verification": "在等质量且完全反应的公平模型中平台应相同。",
+      "pitfall": "只用“表面积大”解释一切。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 20,
+      "primary_section": "20.2.1",
+      "related_sections": []
+    },
+    "exam": [
+      "对照题把自变量、控制量、测量量各写具体",
+      "图线题将起始斜率与最终平台分开作因果解释",
+      "本性题说明结构/反应路径差异，不能只说“比较活泼”而无对象"
+    ],
+    "quick": [
+      "本性与路径",
+      "有效碰撞",
+      "暴露面积",
+      "公平实验",
+      "斜率和平台"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 9,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_20.2.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/12-1-chemical-reaction-rates",
+        "page_or_section": "12-1-chemical-reaction-rates",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 9,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_20.2.1",
+        "url": "https://openstax.org/books/chemistry-2e/pages/12-1-chemical-reaction-rates",
+        "page_or_section": "12-1-chemical-reaction-rates",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "对照题把自变量、控制量、测量量各写具体",
+      "method": "审查控制变量。",
+      "principle": "单一自变量对照。",
+      "worked_example_index": 2,
+      "verification": "新的公平对照排除了另两个主要解释。",
+      "pitfall": "把任意快慢差都归于面积。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用碰撞与键结构解释本性差异”的抽样复核：总体积原8 cm³、新8×1=8 cm³不变。；若出现“把8块误当面积8倍。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“设计只改变固体暴露面积的对照”的抽样复核：新的公平对照排除了另两个主要解释。；若出现“把任意快慢差都归于面积。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "只用“表面积大”解释一切。",
+        "correction": "不能，仅面积不足解释终量差。",
+        "verification": "在等质量且完全反应的公平模型中平台应相同。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "等质量固体的面积效应",
+      "objects": [
+        "对照实验条件",
+        "随时间记录的数据",
+        "粒子或能量示意",
+        "单位与适用条件"
+      ],
+      "relations": [
+        "2 cm立方体切8块后面积倍增但体积不变",
+        "等物质的量完整反应平台相同",
+        "粉末模型初始斜率较大"
+      ],
+      "labels": [
+        "24 cm²",
+        "48 cm²",
+        "同质量",
+        "同温同浓度",
+        "CO₂体积"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "现有碰撞理论图须逐项核验；仅在条件和变量一致时复用",
+      "english": "Construct a precise chemical kinetics teaching diagram. Keep reactant, product, time and concentration labels distinct. Particle sketches are explanatory models, not molecular-scale photographs. State controlled variables and measure initial slopes consistently. A catalyst changes the pathway activation barrier, not the overall reaction enthalpy or equilibrium constant."
+    }
+  },
+  "20.2.2": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 20,
+    "section_id": "20.2.2",
+    "goals": [
+      "用单位体积粒子数解释浓度效应",
+      "由实验数据求简单反应级数并控制变量"
+    ],
+    "prerequisites": [
+      "浓度与体积",
+      "比值和幂"
+    ],
+    "flow": [
+      "单位体积粒子数",
+      "碰撞频率",
+      "实验速率方程",
+      "控制变量",
+      "总压与分压"
+    ],
+    "concept_relation": "单位体积粒子数；碰撞频率；实验速率方程；控制变量；总压与分压",
+    "deep": [
+      "稀释既改变浓度，也可能改变总液体体积。将同量反应物加水，物质的量没有增加，单位体积粒子数却下降。需说明测量的是单位体积速率、总生成量每秒，还是达到终点的时间；这些指标不应不加条件地混为同一个数值。",
+      "对气体，定温下改变体积会改变浓度与压强。对于固定组成的气体体系，加压压缩通常增加浓度；在恒容容器加入不反应气体并不改变原反应物浓度，不能仅看总压升高就断言速率提高。",
+      "实验应控制温度、催化剂、反应物其他浓度、混合和取样方法。更高浓度不必意味着更高理论产率：最终量仍取决于总物质的量、限量关系和平衡等条件。论述题应把粒子浓度、有效相遇频率与观测速率连接起来。"
+    ],
+    "derive": [
+      "v=k[A]^m；仅[A]改变时v₂/v₁=([A]₂/[A]₁)^m。",
+      "混合稀释在无反应、物质的量守恒时c₁V₁=c₂V₂。",
+      "定温理想气体[A]=n_A/V；恒容加惰性气体不改变[A]。"
+    ],
+    "examples": [
+      {
+        "q": "仅[A]由0.10增至0.20 mol/L，初速由0.004增至0.016 mol·L⁻¹·s⁻¹，求对A级数。 条件：温度及其他浓度相同。",
+        "given": "温度及其他浓度相同。",
+        "analysis": "浓度2倍而速率4倍。",
+        "method": "比较初速比。",
+        "principle": "4=2^m。",
+        "steps": [
+          "v₂/v₁=0.016/0.004=4。",
+          "2^m=4，m=2。"
+        ],
+        "ans": "对A二级。",
+        "verification": "代回两实验可得相同k。",
+        "pitfall": "直接用配平系数代替实验比。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.2.2",
+        "related_sections": []
+      },
+      {
+        "q": "v=k[A][B]，A浓度加倍、B减半，其他不变，速率如何？ 条件：给定经验方程。",
+        "given": "给定经验方程。",
+        "analysis": "两个影响相乘。",
+        "method": "求速率比。",
+        "principle": "幂律的比值。",
+        "steps": [
+          "v₂/v₁=2×(1/2)。",
+          "比为1。"
+        ],
+        "ans": "不变。",
+        "verification": "两种反应物浓度乘积相同。",
+        "pitfall": "只考虑A加倍。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.2.2",
+        "related_sections": []
+      },
+      {
+        "q": "定温密闭刚性容器中加入不反应气体，使总压加倍；原反应物初速一定加倍吗？ 条件：体积恒定，原反应物量未变。",
+        "given": "体积恒定，原反应物量未变。",
+        "analysis": "总压不等于反应物分压。",
+        "method": "计算原反应物浓度。",
+        "principle": "c_A=n_A/V。",
+        "steps": [
+          "n_A与V不变，c_A不变。",
+          "在仅由原反应物浓度和温度决定的模型下，初速不因此改变。"
+        ],
+        "ans": "不能断言加倍；所述模型下不变。",
+        "verification": "p_A=n_ART/V也不变。",
+        "pitfall": "将总压变化等同反应物浓度变化。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.2.2",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "若v=k[A]²，A浓度增3倍，速率倍数？ 条件：其余条件不变。",
+        "given": "其余条件不变。",
+        "analysis": "平方依赖。",
+        "method": "代入比值。",
+        "principle": "经验速率方程。",
+        "steps": [
+          "v₂/v₁=3²。",
+          "得9。"
+        ],
+        "ans": "9倍。",
+        "verification": "不是3倍，因为级数2。",
+        "pitfall": "把浓度倍数直接作速率倍数。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.2.2",
+        "related_sections": []
+      },
+      {
+        "q": "100 mL、0.20 mol/L溶液稀释至200 mL，浓度？ 条件：不发生反应。",
+        "given": "不发生反应。",
+        "analysis": "物质的量保持。",
+        "method": "cV守恒。",
+        "principle": "稀释关系。",
+        "steps": [
+          "n=0.20×0.100=0.020 mol。",
+          "c=0.020/0.200=0.10 mol/L。"
+        ],
+        "ans": "0.10 mol/L。",
+        "verification": "浓度一半、体积两倍，n相同。",
+        "pitfall": "认为加水增加溶质。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.2.2",
+        "related_sections": []
+      },
+      {
+        "q": "仅A浓度加倍，初速不变，简单v=k[A]^m模型的m？ 条件：温度及其他条件相同。",
+        "given": "温度及其他条件相同。",
+        "analysis": "速率比1。",
+        "method": "解2^m=1。",
+        "principle": "初速比法。",
+        "steps": [
+          "1=2^m。",
+          "m=0。"
+        ],
+        "ans": "零级。",
+        "verification": "c_A⁰=1。",
+        "pitfall": "认为任何反应都必须一级。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.2.2",
+        "related_sections": []
+      },
+      {
+        "q": "只给2A+B→C能否确定对A二级？ 条件：是总反应式。",
+        "given": "是总反应式。",
+        "analysis": "计量系数不是机理证明。",
+        "method": "判断证据是否足够。",
+        "principle": "反应级数需实验或明确基元步骤。",
+        "steps": [
+          "总式只规定物质变化比例。",
+          "未提供初速数据或机理。"
+        ],
+        "ans": "不能。",
+        "verification": "已有多步反应可有不同级数。",
+        "pitfall": "把总系数当浓度幂次。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.2.2",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "稀释使某反应变慢，能否说“溶质总粒子数减少所以慢”？ 条件：加水无反应、无损失。",
+      "given": "加水无反应、无损失。",
+      "analysis": "减少的是单位体积粒子数。",
+      "method": "区分总量与密度。",
+      "principle": "n=cV。",
+      "steps": [
+        "溶质总n不变。",
+        "体积增加使c下降，单位体积相遇机会变化。"
+      ],
+      "ans": "不能，应改为单位体积可反应粒子数下降。",
+      "verification": "稀释前后cV相同。",
+      "pitfall": "把浓度降低等同总量减少。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 20,
+      "primary_section": "20.2.2",
+      "related_sections": []
+    },
+    "exam": [
+      "初速表一次只比较一个变化的浓度，先列速率比再求级数",
+      "气体压强题必须说明恒温恒容还是压缩，分清总压和分压",
+      "稀释解释写“单位体积粒子数”，不用“总粒子数减少”"
+    ],
+    "quick": [
+      "单位体积粒子数",
+      "碰撞频率",
+      "实验速率方程",
+      "控制变量",
+      "总压与分压"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 9,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_20.2.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/12-3-rate-laws",
+        "page_or_section": "12-3-rate-laws",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 9,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_20.2.2",
+        "url": "https://openstax.org/books/chemistry-2e/pages/12-3-rate-laws",
+        "page_or_section": "12-3-rate-laws",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "初速表一次只比较一个变化的浓度，先列速率比再求级数",
+      "method": "计算原反应物浓度。",
+      "principle": "c_A=n_A/V。",
+      "worked_example_index": 2,
+      "verification": "p_A=n_ART/V也不变。",
+      "pitfall": "将总压变化等同反应物浓度变化。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用单位体积粒子数解释浓度效应”的抽样复核：代回两实验可得相同k。；若出现“直接用配平系数代替实验比。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“由实验数据求简单反应级数并控制变量”的抽样复核：p_A=n_ART/V也不变。；若出现“将总压变化等同反应物浓度变化。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把浓度降低等同总量减少。",
+        "correction": "不能，应改为单位体积可反应粒子数下降。",
+        "verification": "稀释前后cV相同。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "浓度、初速与控制条件",
+      "objects": [
+        "对照实验条件",
+        "随时间记录的数据",
+        "粒子或能量示意",
+        "单位与适用条件"
+      ],
+      "relations": [
+        "同温较高浓度增加单位体积粒子数",
+        "2倍浓度4倍初速对应二级示例",
+        "恒容加惰性气体不改原浓度"
+      ],
+      "labels": [
+        "[A]",
+        "v",
+        "v=k[A]²",
+        "n_A/V",
+        "恒温"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "现有碰撞理论图须逐项核验；仅在条件和变量一致时复用",
+      "english": "Construct a precise chemical kinetics teaching diagram. Keep reactant, product, time and concentration labels distinct. Particle sketches are explanatory models, not molecular-scale photographs. State controlled variables and measure initial slopes consistently. A catalyst changes the pathway activation barrier, not the overall reaction enthalpy or equilibrium constant."
+    }
+  },
+  "20.2.3": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 20,
+    "section_id": "20.2.3",
+    "goals": [
+      "解释温度对有效碰撞的影响",
+      "使用明确给定的温度经验关系并审实验误差"
+    ],
+    "prerequisites": [
+      "能量分布",
+      "变量控制与指数比例"
+    ],
+    "flow": [
+      "温度与能量分布",
+      "跨阈值比例",
+      "速率常数",
+      "单位换算",
+      "实验适用区间"
+    ],
+    "concept_relation": "温度与能量分布；跨阈值比例；速率常数；单位换算；实验适用区间",
+    "deep": [
+      "“每升10摄氏度速率加倍”只能作为题目明确给定的经验条件，不是普遍定律。不同活化能、温区或机理可有不同倍数；不能凭背过的口号替代实验资料。温度影响酶等体系时还可能发生失活等变化，不能无限外推。",
+      "比较温度效应应固定浓度、总体积、催化剂、表面积与测量终点。最好先让反应液达到目标温度再混合计时，记录实际温度；只记录水浴设定温度不保证混合后液体立刻同温。",
+      "升温也可能改变气体体积、平衡位置和挥发损失，所以实验测量量必须选择恰当。若比较相同温压校正后的气量或共同终点时间，才能较公平地归因于动力学差别。温度效应的结论不等于最终平衡产量一定增加。"
+    ],
+    "derive": [
+      "Arrhenius：k=Ae^(−E_a/RT)，T用K；相同模型下ln(k₂/k₁)=−E_a/R(1/T₂−1/T₁)。",
+      "若题目明确每升10℃速率乘q，则升ΔT℃的倍率为q^(ΔT/10)。",
+      "同终点进度可比较1/t，但终点与温压条件须一致。"
+    ],
+    "examples": [
+      {
+        "q": "某题明确20至40℃内每升10℃速率加倍，20℃速率0.010，40℃为多少？ 条件：仅在给定温区使用经验关系；单位mol·L⁻¹·s⁻¹。",
+        "given": "仅在给定温区使用经验关系；单位mol·L⁻¹·s⁻¹。",
+        "analysis": "升20℃有两次倍增。",
+        "method": "指数倍率。",
+        "principle": "题设经验条件。",
+        "steps": [
+          "倍率2^(20/10)=4。",
+          "速率0.010×4=0.040。"
+        ],
+        "ans": "0.040 mol·L⁻¹·s⁻¹。",
+        "verification": "不是0.030，倍率累乘而非相加。",
+        "pitfall": "把加倍当每次加原值。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.2.3",
+        "related_sections": []
+      },
+      {
+        "q": "同进度变色终点在25℃需60 s，35℃需20 s，求该实验的相对平均速率比。 条件：其余条件和终点相同。",
+        "given": "其余条件和终点相同。",
+        "analysis": "固定进度与时间成反比。",
+        "method": "比较1/t。",
+        "principle": "速率定义。",
+        "steps": [
+          "v₃₅/v₂₅=(1/20)/(1/60)。",
+          "得3。"
+        ],
+        "ans": "3:1；不能据此宣称所有反应每升10℃都3倍。",
+        "verification": "快组达到相同进度所需时间是1/3。",
+        "pitfall": "将时间比倒置。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.2.3",
+        "related_sections": []
+      },
+      {
+        "q": "用Arrhenius关系，E_a=50.0 kJ/mol，R=8.314 J/(mol·K)，比较300 K和310 K的k比，保留两位有效数字。 条件：A和E_a在温区内视为不变。",
+        "given": "A和E_a在温区内视为不变。",
+        "analysis": "要统一能量单位且使用绝对温度。",
+        "method": "先求ln比再指数。",
+        "principle": "两温度Arrhenius关系。",
+        "steps": [
+          "ln(k₂/k₁)=50000/8.314×(1/300−1/310)≈0.647。",
+          "k₂/k₁≈e^0.647≈1.91。"
+        ],
+        "ans": "约1.9倍。",
+        "verification": "温度上升时比值应>1；数量级合理。",
+        "pitfall": "用50代替50000或把℃代入。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.2.3",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "20℃换算为K，精确到0.01 K。 条件：摄氏与开尔文零点不同。",
+        "given": "摄氏与开尔文零点不同。",
+        "analysis": "不是20 K。",
+        "method": "加273.15。",
+        "principle": "T/K=t/℃+273.15。",
+        "steps": [
+          "T=20+273.15。",
+          "得到293.15 K。"
+        ],
+        "ans": "293.15 K。",
+        "verification": "0℃为273.15 K。",
+        "pitfall": "把温差与绝对温度混用。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.2.3",
+        "related_sections": []
+      },
+      {
+        "q": "升温使反应更快，是否因E_a必定减小？ 条件：反应机理未改变的近似模型。",
+        "given": "反应机理未改变的近似模型。",
+        "analysis": "活化能障碍和粒子能量分布不同。",
+        "method": "比较阈值与分布。",
+        "principle": "升温增高能粒子比例。",
+        "steps": [
+          "E_a可视为不变。",
+          "能跨越阈值的粒子比例增加。"
+        ],
+        "ans": "不是。",
+        "verification": "降低E_a更直接对应催化路径变化。",
+        "pitfall": "将温度效应画成活化能下降。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.2.3",
+        "related_sections": []
+      },
+      {
+        "q": "给定每升10℃速率乘3，从30℃到50℃倍率？ 条件：题设区间内适用。",
+        "given": "题设区间内适用。",
+        "analysis": "两次累乘。",
+        "method": "指数比例。",
+        "principle": "经验模型。",
+        "steps": [
+          "倍率3²。",
+          "得9。"
+        ],
+        "ans": "9倍。",
+        "verification": "逐步3×3=9。",
+        "pitfall": "加成6倍。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.2.3",
+        "related_sections": []
+      },
+      {
+        "q": "两温度实验只测气体体积却未校正温压，主要混杂是什么？ 条件：体积也随T改变。",
+        "given": "体积也随T改变。",
+        "analysis": "相同物质的量可有不同体积。",
+        "method": "区分计量与状态量。",
+        "principle": "理想气体V=nRT/p。",
+        "steps": [
+          "升温本身使同量气体体积增加。",
+          "体积差不全是反应生成量差。"
+        ],
+        "ans": "气体热膨胀会混入观测。",
+        "verification": "可在共同温压下比较或换算n。",
+        "pitfall": "将全部体积增量当速率增加。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.2.3",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "能否把“升温更快”无限推广到酶反应高温区？ 条件：酶是具有特定结构的催化剂。",
+      "given": "酶是具有特定结构的催化剂。",
+      "analysis": "失活可能改变有效催化剂量。",
+      "method": "检查模型适用边界。",
+      "principle": "反应机制和催化剂结构须保持。",
+      "steps": [
+        "适度升温可提高速率。",
+        "过高温度可使酶失活，速率反而降低。"
+      ],
+      "ans": "不能无限外推。",
+      "verification": "应按实测温度—活性曲线判断。",
+      "pitfall": "把单一温度趋势当永真规律。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 20,
+      "primary_section": "20.2.3",
+      "related_sections": []
+    },
+    "exam": [
+      "计算先核T是否K、E_a和R是否同单位",
+      "实验题明确恒温预处理和实际混合温度",
+      "温度分布图解释阈值右侧比例，不把升温误写成催化降能垒"
+    ],
+    "quick": [
+      "温度与能量分布",
+      "跨阈值比例",
+      "速率常数",
+      "单位换算",
+      "实验适用区间"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 9,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_20.2.3",
+        "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+        "page_or_section": "12-5-collision-theory",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 9,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_20.2.3",
+        "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+        "page_or_section": "12-5-collision-theory",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "计算先核T是否K、E_a和R是否同单位",
+      "method": "先求ln比再指数。",
+      "principle": "两温度Arrhenius关系。",
+      "worked_example_index": 2,
+      "verification": "温度上升时比值应>1；数量级合理。",
+      "pitfall": "用50代替50000或把℃代入。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“解释温度对有效碰撞的影响”的抽样复核：不是0.030，倍率累乘而非相加。；若出现“把加倍当每次加原值。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“使用明确给定的温度经验关系并审实验误差”的抽样复核：温度上升时比值应>1；数量级合理。；若出现“用50代替50000或把℃代入。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "把单一温度趋势当永真规律。",
+        "correction": "不能无限外推。",
+        "verification": "应按实测温度—活性曲线判断。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "温度与活化能阈值",
+      "objects": [
+        "对照实验条件",
+        "随时间记录的数据",
+        "粒子或能量示意",
+        "单位与适用条件"
+      ],
+      "relations": [
+        "高温曲线阈值右侧比例较大",
+        "两分布总粒子数相同时面积相同",
+        "阈值E_a不因升温本身降低"
+      ],
+      "labels": [
+        "能量E",
+        "相对粒子数",
+        "T₂>T₁",
+        "E_a",
+        "高能比例"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "现有碰撞理论图须逐项核验；仅在条件和变量一致时复用",
+      "english": "Construct a precise chemical kinetics teaching diagram. Keep reactant, product, time and concentration labels distinct. Particle sketches are explanatory models, not molecular-scale photographs. State controlled variables and measure initial slopes consistently. A catalyst changes the pathway activation barrier, not the overall reaction enthalpy or equilibrium constant."
+    }
+  },
+  "20.2.4": {
+    "content_batch": "batch06",
+    "subject": "化学",
+    "subject_code": "chemistry",
+    "chapter_id": 20,
+    "section_id": "20.2.4",
+    "goals": [
+      "用替代反应路径解释催化",
+      "区分速率改变和平衡及反应热不变"
+    ],
+    "prerequisites": [
+      "活化能",
+      "平衡与总反应计量"
+    ],
+    "flow": [
+      "替代路径",
+      "活化能",
+      "起终点ΔH",
+      "正逆平衡",
+      "循环与失活"
+    ],
+    "concept_relation": "替代路径；活化能；起终点ΔH；正逆平衡；循环与失活",
+    "deep": [
+      "催化剂用量、表面可用位点和毒化情况都可影响实际速率。非均相催化涉及吸附、表面反应、脱附等过程；并非吸附越强越好，产物若难脱附可能阻碍循环。催化剂“无净消耗”不表示设备永远不用更换。",
+      "酶是生物催化剂，具有结构及条件依赖性；适宜pH、温度与抑制因素影响其活性。不能用普通无机催化剂耐高温的经验推断所有酶，也不能把酶特异性简化成只允许一种分子存在。",
+      "实验可比较同温同量反应物有无催化剂的初速或终点时间。需要记录催化剂自身引入的溶液体积、温度变化或颜色干扰，并用适当空白对照。平台相同但更早达到时可说明加快过程，不能据此声称反应热或理论产量增加。"
+    ],
+    "derive": [
+      "同一温度和总反应：催化改变路径及速率，不改变ΔH与K。",
+      "能量图ΔH=E_产物−E_反应物；正向E_a=E_过渡态−E_反应物。",
+      "总循环中催化剂再生，中间步骤可参与反应。"
+    ],
+    "examples": [
+      {
+        "q": "反应物能量20、产物能量−10 kJ/mol，未催化峰80，催化路径最高峰50。求ΔH及两路径正向E_a。 条件：使用同一反应坐标能量基准和单峰简化。",
+        "given": "使用同一反应坐标能量基准和单峰简化。",
+        "analysis": "反应热由起终点决定，活化能由峰与起点差决定。",
+        "method": "分别作能量差。",
+        "principle": "ΔH与E_a定义。",
+        "steps": [
+          "ΔH=−10−20=−30 kJ/mol。",
+          "未催化E_a=80−20=60；催化E_a=50−20=30 kJ/mol。"
+        ],
+        "ans": "ΔH均−30，E_a由60降至30 kJ/mol。",
+        "verification": "两图起终点不变而峰降低。",
+        "pitfall": "将ΔH也改成降低30。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.2.4",
+        "related_sections": []
+      },
+      {
+        "q": "密闭体系已在恒温下达到平衡，加入合适催化剂，最终平衡产物比例一定增加吗？ 条件：无额外反应且温度不变。",
+        "given": "无额外反应且温度不变。",
+        "analysis": "催化剂不改变K。",
+        "method": "分别讨论快慢和组成。",
+        "principle": "热力学平衡不由路径决定。",
+        "steps": [
+          "正逆过程都得到加快。",
+          "原平衡组成仍满足同一K，比例不因催化改变。"
+        ],
+        "ans": "不增加。",
+        "verification": "若原先未平衡，只是更快趋向相同平衡。",
+        "pitfall": "只说正反应更快所以最终更多。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.2.4",
+        "related_sections": []
+      },
+      {
+        "q": "机制A+C→I，I+B→P+C，写总反应并指出催化剂和中间体。 条件：C、I各出现于两步相反两侧。",
+        "given": "C、I各出现于两步相反两侧。",
+        "analysis": "消去后看谁初始加入又再生、谁生成又消耗。",
+        "method": "相加消去重复物种。",
+        "principle": "催化循环与中间体定义。",
+        "steps": [
+          "相加消去C和I，得A+B→P。",
+          "C先参与后再生是催化剂；I先生成后消耗是中间体。"
+        ],
+        "ans": "总式A+B→P；催化剂C，中间体I。",
+        "verification": "C净系数0，I也净0但产生顺序不同。",
+        "pitfall": "所有被约掉的物种都叫催化剂。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.2.4",
+        "related_sections": []
+      }
+    ],
+    "practice": [
+      {
+        "q": "催化剂能改变同一温度的平衡常数吗？ 条件：无其他化学变化。",
+        "given": "无其他化学变化。",
+        "analysis": "K为热力学状态关系。",
+        "method": "区分路径与平衡。",
+        "principle": "催化不改K。",
+        "steps": [
+          "催化改变达到平衡的速率。",
+          "不改变对应温度的K。"
+        ],
+        "ans": "不能。",
+        "verification": "同温平衡组成关系相同。",
+        "pitfall": "把更快到达当K增大。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.2.4",
+        "related_sections": []
+      },
+      {
+        "q": "催化剂完全不参与反应，这句话准确吗？ 条件：考虑完整循环。",
+        "given": "考虑完整循环。",
+        "analysis": "净不消耗不等于不参与。",
+        "method": "检查中间步骤。",
+        "principle": "催化剂参与并再生。",
+        "steps": [
+          "中间步骤中可与反应物形成中间形式。",
+          "后续步骤再生。"
+        ],
+        "ans": "不准确。",
+        "verification": "总式中消去不代表步骤中不存在。",
+        "pitfall": "把总式约去当作未参与。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.2.4",
+        "related_sections": []
+      },
+      {
+        "q": "有催化剂曲线更早到相同气体平台，说明什么？ 条件：反应物总量及条件相同。",
+        "given": "反应物总量及条件相同。",
+        "analysis": "比较过程速率而非平台产量。",
+        "method": "分别读曲线斜率与终量。",
+        "principle": "速率与最终计量分离。",
+        "steps": [
+          "更快达到同一转化程度。",
+          "最终气量相同，未显示理论产量增加。"
+        ],
+        "ans": "过程加快，终量未增加。",
+        "verification": "两平台一致。",
+        "pitfall": "说催化剂增加反应物量。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.2.4",
+        "related_sections": []
+      },
+      {
+        "q": "催化剂使活化能降低，但ΔH从−30变成−60，对同一总反应正确吗？ 条件：温度和物态相同。",
+        "given": "温度和物态相同。",
+        "analysis": "图像起终点被错误改变。",
+        "method": "核能量差定义。",
+        "principle": "ΔH与路径无关。",
+        "steps": [
+          "催化只能改变替代路径的能垒。",
+          "同起终物态下ΔH应仍为−30。"
+        ],
+        "ans": "不正确。",
+        "verification": "重新对齐两曲线起终点。",
+        "pitfall": "把更低峰值当更负反应热。",
+        "question_origin": "original",
+        "paper_no": null,
+        "subject_code": "chemistry",
+        "chapter_id": 20,
+        "primary_section": "20.2.4",
+        "related_sections": []
+      }
+    ],
+    "quiz": {
+      "q": "催化剂无净消耗是否意味着工业催化剂永远不用更换？ 条件：真实装置可能有毒化与结构变化。",
+      "given": "真实装置可能有毒化与结构变化。",
+      "analysis": "理想循环不等于实际无限寿命。",
+      "method": "区分机制与设备状态。",
+      "principle": "活性位点和催化剂失活。",
+      "steps": [
+        "完整反应循环中催化剂再生。",
+        "但毒化、烧结或流失可使有效活性下降，需再生或更换。"
+      ],
+      "ans": "不意味着。",
+      "verification": "测活性随运行时间降低可检验。",
+      "pitfall": "将净计量不消耗当绝不失活。",
+      "question_origin": "original",
+      "paper_no": null,
+      "subject_code": "chemistry",
+      "chapter_id": 20,
+      "primary_section": "20.2.4",
+      "related_sections": []
+    },
+    "exam": [
+      "能量图先锁定同一起终点，再读各路径的能垒",
+      "平衡题分别回答达到时间与最终组成，不用“只促正反应”",
+      "机制题用出现顺序区分催化剂和中间体，并写相加总式"
+    ],
+    "quick": [
+      "替代路径",
+      "活化能",
+      "起终点ΔH",
+      "正逆平衡",
+      "循环与失活"
+    ],
+    "exam_evidence": [],
+    "content_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 9,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_20.2.4",
+        "url": "https://openstax.org/books/chemistry-2e/pages/12-7-catalysis",
+        "page_or_section": "12-7-catalysis",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "authoring_sources": [
+      {
+        "source_id": "directory_chem",
+        "url": "https://elearning.dongzong.my/pluginfile.php/77540/mod_resource/content/1/高中化学.pdf",
+        "page": 9,
+        "version": "教材内容表/目录对照；非考试纲要",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      },
+      {
+        "source_id": "theory_chem_20.2.4",
+        "url": "https://openstax.org/books/chemistry-2e/pages/12-7-catalysis",
+        "page_or_section": "12-7-catalysis",
+        "version": "原理参考；不是2027范围声明",
+        "access_date": "2026-11-19",
+        "verification_status": "partially_verified"
+      }
+    ],
+    "verification_status": "partially_verified",
+    "strategy": {
+      "trigger": "能量图先锁定同一起终点，再读各路径的能垒",
+      "method": "相加消去重复物种。",
+      "principle": "催化循环与中间体定义。",
+      "worked_example_index": 2,
+      "verification": "C净系数0，I也净0但产生顺序不同。",
+      "pitfall": "所有被约掉的物种都叫催化剂。"
+    },
+    "diagnostics": [
+      {
+        "goal_index": 0,
+        "question_ref": "e0",
+        "review_module": 4,
+        "feedback": "目标“用替代反应路径解释催化”的抽样复核：两图起终点不变而峰降低。；若出现“将ΔH也改成降低30。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      },
+      {
+        "goal_index": 1,
+        "question_ref": "e2",
+        "review_module": 5,
+        "feedback": "目标“区分速率改变和平衡及反应热不变”的抽样复核：C净系数0，I也净0但产生顺序不同。；若出现“所有被约掉的物种都叫催化剂。”，回读本节概念与适用条件，再重做本题。此题不是该目标全部子技能的唯一验收。"
+      }
+    ],
+    "error_analysis": [
+      {
+        "wrong_approach": "将净计量不消耗当绝不失活。",
+        "correction": "不意味着。",
+        "verification": "测活性随运行时间降低可检验。"
+      }
+    ],
+    "illustration_spec": {
+      "title": "催化路径与能量差",
+      "objects": [
+        "对照实验条件",
+        "随时间记录的数据",
+        "粒子或能量示意",
+        "单位与适用条件"
+      ],
+      "relations": [
+        "起点20终点−10保持一致",
+        "峰80和50",
+        "E_a为60与30",
+        "ΔH均−30"
+      ],
+      "labels": [
+        "E/(kJ·mol⁻¹)",
+        "反应进程",
+        "催化路径",
+        "未催化路径",
+        "ΔH=−30"
+      ],
+      "format": "SVG",
+      "priority": "P0",
+      "reuse": "现有碰撞理论图须逐项核验；仅在条件和变量一致时复用",
+      "english": "Construct a precise chemical kinetics teaching diagram. Keep reactant, product, time and concentration labels distinct. Particle sketches are explanatory models, not molecular-scale photographs. State controlled variables and measure initial slopes consistently. A catalyst changes the pathway activation barrier, not the overall reaction enthalpy or equilibrium constant."
+    }
+  }
+}

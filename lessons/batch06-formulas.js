@@ -1,0 +1,682 @@
+// Additive verified batch06 formula cards; original cards remain unchanged.
+Object.assign(window.STUDY_FORMULAS,{
+  "数学6/6.1": [
+    [
+      "不等号与绝对值",
+      "a<b,\\ c<0\\ \\Longrightarrow\\ ac>bc;\\qquad |x-a|<r\\iff a-r<x<a+r",
+      "r>0；外部区间需用并集，端点按严格性决定。"
+    ]
+  ],
+  "数学6/6.2": [
+    [
+      "二次式符号",
+      "f(x)=a(x-r_1)(x-r_2),\\quad r_1<r_2",
+      "按a符号和根的重数分区；重复根不翻转符号。"
+    ]
+  ],
+  "数学6/6.3": [
+    [
+      "分式不等式的排除点",
+      "\\frac{x-2}{x+1}\\ge0\\ \\Longrightarrow\\ x\\in(-\\infty,-1)\\cup[2,\\infty)",
+      "分母零点−1永不补回。"
+    ]
+  ],
+  "数学6/6.4": [
+    [
+      "半平面与可行域",
+      "x\\ge0,\\quad y\\ge0,\\quad x+y\\le4,\\quad x+2y\\le6",
+      "按本节模型取交集；含等号边界用实线。"
+    ]
+  ],
+  "数学6/6.5": [
+    [
+      "目标值",
+      "z=3x+2y,\\qquad z_{\\max}=12\\ \\text{ at }(4,0)",
+      "限本节四顶点区域；整数约束需另核格点。"
+    ]
+  ],
+  "数学28/28.1": [
+    [
+      "隐微分",
+      "F_x+F_y\\,y'=0,\\qquad y'=-\\frac{F_x}{F_y}",
+      "F可微、局部分支及F_y≠0等条件；零分母不能直接当有限斜率。"
+    ]
+  ],
+  "数学28/28.2": [
+    [
+      "三角复合导数",
+      "\\frac{d}{dx}\\sin u=u'\\cos u,\\quad \\frac{d}{dx}\\cos u=-u'\\sin u,\\quad \\frac{d}{dx}\\tan u=u'\\sec^2u",
+      "角为弧度；tan式需cos u≠0，保留内导数。"
+    ]
+  ],
+  "数学28/28.3": [
+    [
+      "对数与变指数",
+      "(\\ln|u|)'=\\frac{u'}u,\\qquad (x^x)'=x^x(\\ln x+1)",
+      "前式u≠0的可微区间；后式x>0。"
+    ]
+  ],
+  "数学28/28.4": [
+    [
+      "固定底指数",
+      "\\frac{d}{dx}a^{u(x)}=a^{u(x)}\\ln a\\,u'(x)",
+      "a>0为固定底；底数也变时不可盲套。"
+    ]
+  ],
+  "数学28/28.5": [
+    [
+      "洛必达法则",
+      "\\lim\\frac{f(x)}{g(x)}=\\lim\\frac{f'(x)}{g'(x)}",
+      "只在适用未定式与可微、分母导数及极限等条件下使用；不是商的导数。"
+    ]
+  ],
+  "数学28/28.6": [
+    [
+      "渐近与导数",
+      "f(x)=\\frac{x^2}{x-1}=x+1+\\frac1{x-1},\\qquad f'(x)=\\frac{x(x-2)}{(x-1)^2}",
+      "x≠1；分支断开，斜渐近线y=x+1，驻点另看左右符号。"
+    ]
+  ],
+  "数学29/29.1": [
+    [
+      "基本原函数",
+      "\\int\\frac{u'}u\\,dx=\\ln|u|+C,\\qquad \\int\\frac{dx}{a^2+x^2}=\\frac1a\\arctan\\frac xa+C",
+      "前式u≠0分区；后式a>0。"
+    ]
+  ],
+  "数学29/29.2": [
+    [
+      "重因式的完整分解",
+      "\\frac{P(x)}{(x-a)^m}=\\sum_{j=1}^{m}\\frac{A_j}{(x-a)^j}",
+      "示例为真分式且分母仅该因子；一般分母按全部因式列项，先做必要长除。"
+    ]
+  ],
+  "数学29/29.3": [
+    [
+      "三角降幂与换元",
+      "\\sin^2x=\\frac{1-\\cos2x}{2},\\quad \\cos^2x=\\frac{1+\\cos2x}{2},\\quad d(\\tan x)=\\sec^2x\\,dx",
+      "弧度；换元后微分与定积分端点统一变量。"
+    ]
+  ],
+  "数学29/29.4": [
+    [
+      "三角代换的符号",
+      "x=a\\sin\\theta,\\quad dx=a\\cos\\theta\\,d\\theta,\\quad \\sqrt{a^2-x^2}=a|\\cos\\theta|",
+      "a>0；选−π/2<θ<π/2时cosθ>0，才可去绝对值。"
+    ]
+  ],
+  "数学29/29.5": [
+    [
+      "分部积分",
+      "\\int u\\,dv=uv-\\int v\\,du,\\qquad \\int_a^b u\\,dv=[uv]_a^b-\\int_a^b v\\,du",
+      "适用可微及积分条件；区间有奇点须另审，不是两积分相乘。"
+    ]
+  ],
+  "数学30/30.1": [
+    [
+      "解与初值",
+      "y'=6x,\\quad y(1)=5\\ \\Longrightarrow\\ y=3x^2+2",
+      "验证导数、初值与整个解区间，不能只验一个点。"
+    ]
+  ],
+  "数学30/30.2": [
+    [
+      "分离变量",
+      "y'=f(x)g(y)\\ \\Longrightarrow\\ \\int\\frac{dy}{g(y)}=\\int f(x)\\,dx",
+      "先检g(y)=0的平衡解；除法仅在g(y)≠0分支。"
+    ]
+  ],
+  "数学30/30.3": [
+    [
+      "积分因子",
+      "y'+Py=Q,\\quad \\mu=e^{\\int P\\,dx},\\quad (\\mu y)'=\\mu Q",
+      "在P、Q适用区间；整式乘μ，系数零点另核。"
+    ]
+  ],
+  "数学30/30.4": [
+    [
+      "冷却与良混收支",
+      "T'=-k(T-T_{\\rm env}),\\qquad M'=q_{\\rm in}c_{\\rm in}-q_{\\rm out}\\frac{M}{V(t)}",
+      "固定环境冷却及题设良混模型；先核体积、时间和质量单位。"
+    ]
+  ],
+  "数学31/31.1": [
+    [
+      "归纳双条件",
+      "P(n_0),\\quad \\forall k\\ge n_0:\\ P(k)\\Rightarrow P(k+1)",
+      "n₀及k为所定整数范围；基例与后继均不可省。"
+    ]
+  ],
+  "数学31/31.2": [
+    [
+      "平方与均值",
+      "a^2+b^2-2ab=(a-b)^2\\ge0;\\qquad \\frac{a+b}{2}\\ge\\sqrt{ab}",
+      "前式实数a,b；后式a,b≥0。等号均需a=b，并核原限制。"
+    ]
+  ],
+  "数学31/31.3": [
+    [
+      "准确否定",
+      "\\neg(\\forall x\\,P(x))\\iff\\exists x\\,\\neg P(x),\\qquad \\neg(a>b)\\iff a\\le b",
+      "量词域保持；否定不得漏掉相等情况。"
+    ]
+  ],
+  "数学31/31.4": [
+    [
+      "数值迭代与界",
+      "x_{n+1}=x_n-\\frac{f(x_n)}{f'(x_n)},\\qquad |e_{\\rm mid}|\\le\\frac{L}{2^{n+1}}",
+      "Newton须f′非零等条件；右界为连续异号保根区间缩半n次后取新区间中点，L为初宽。"
+    ]
+  ],
+  "物理10/10.1": [
+    [
+      "周期、频率与路程",
+      "f=\\frac1T,\\quad \\omega=2\\pi f,\\quad s_{\\rm cycle}=4A,\\quad \\Delta x_{\\rm cycle}=0",
+      "稳定一维对称往复；完整周期回同相，六峰只有五个间隔。"
+    ]
+  ],
+  "物理10/10.2": [
+    [
+      "简谐动力学",
+      "a=-\\omega^2x,\\quad \\omega=\\sqrt{\\frac km},\\quad T=2\\pi\\sqrt{\\frac mk}",
+      "线性无阻尼弹簧、x从平衡量；小角摆另为T≈2π√(L/g)。"
+    ]
+  ],
+  "物理10/10.3": [
+    [
+      "运动与初值",
+      "x=A\\cos(\\omega t+\\phi),\\quad v=-A\\omega\\sin(\\omega t+\\phi),\\quad a=-\\omega^2x",
+      "A≥0、ω>0、弧度；位置和速度共同选相位。"
+    ]
+  ],
+  "物理10/10.4": [
+    [
+      "图像关系",
+      "v=\\frac{dx}{dt},\\quad a=\\frac{dv}{dt},\\quad \\Delta x=\\int v\\,dt,\\quad s=\\int |v|\\,dt",
+      "时间图不同空间波形；位移有向面积，路程速率面积。"
+    ]
+  ],
+  "物理10/10.5": [
+    [
+      "简谐能量",
+      "E=\\frac12kA^2=\\frac12mv^2+\\frac12kx^2,\\qquad |v|=\\omega\\sqrt{A^2-x^2}",
+      "理想无阻尼、有效势能相对平衡；能量不独自决定速度正负。"
+    ]
+  ],
+  "物理10/10.6": [
+    [
+      "线性受迫振幅",
+      "A(\\omega)=\\frac{F_0}{\\sqrt{(k-m\\omega^2)^2+b^2\\omega^2}},\\quad \\omega_r^2=\\frac km-\\frac{b^2}{2m^2}",
+      "黏性阻尼稳态；非零位移峰要求右侧>0，弱阻尼才近ω₀，不等所有阻尼精确同频。"
+    ]
+  ],
+  "物理12/12.1": [
+    [
+      "能量与力的区别",
+      "F_{\\rm net}=F_{\\rm attraction}+F_{\\rm repulsion}",
+      "示意取有向量；合力零不代表两相互作用都不存在。"
+    ]
+  ],
+  "物理12/12.2": [
+    [
+      "粒子尺度估算",
+      "m_{\\rm particle}=\\frac{M}{N_A},\\qquad d_{\\rm film}\\approx\\frac{V_{\\rm material}}A",
+      "摩尔质量用kg/mol得单粒子kg；膜厚需单层等假设，气体每粒子占据容积不等实体体积。"
+    ]
+  ],
+  "物理12/12.3": [
+    [
+      "相态中的质量关系",
+      "\\rho=\\frac mV",
+      "相态改变可变密度体积，粒子在固体仍运动；公式不独自决定微观结构。"
+    ]
+  ],
+  "物理12/12.4": [
+    [
+      "应力、应变与伸长",
+      "\\sigma=\\frac FA,\\quad \\epsilon=\\frac{\\Delta L}{L},\\quad E_Y=\\frac{\\sigma}{\\epsilon},\\quad \\Delta L=\\frac{FL}{E_YA}",
+      "均匀杆线性弹性范围；面积垂直载荷，E_Y为Young模量非总能。"
+    ]
+  ],
+  "物理12/12.5": [
+    [
+      "薄膜与毛细",
+      "F=2\\gamma l,\\qquad h=\\frac{2\\gamma\\cos\\theta}{\\rho g r}",
+      "前式两表面皂膜；后式简化静态细管，半径r与接触角须正确。"
+    ]
+  ],
+  "物理13/13.1": [
+    [
+      "温标",
+      "T/{\\rm K}=t/{}^\\circ{\\rm C}+273.15",
+      "温差K与℃数值相同，但温度比例必须用K。"
+    ]
+  ],
+  "物理13/13.2": [
+    [
+      "线性校准",
+      "t=100\\,\\frac{X-X_0}{X_{100}-X_0}",
+      "只限给定两定点间线性温标模型，不能无条件外推。"
+    ]
+  ],
+  "物理13/13.3": [
+    [
+      "量热收支",
+      "\\sum_i m_i c_i(T_f-T_i)+C_{\\rm cal}(T_f-T_{\\rm cal,i})=0",
+      "隔热、无相变且热容适用；容器也计入。"
+    ]
+  ],
+  "物理13/13.4": [
+    [
+      "升温与相变",
+      "Q_{\\rm sensible}=mc\\Delta T,\\qquad Q_{\\rm latent}=mL",
+      "分阶段计算，混相时是否完成相变要先查能量。"
+    ]
+  ],
+  "物理13/13.5": [
+    [
+      "自由热膨胀",
+      "\\Delta L=\\alpha L_0\\Delta T",
+      "适用温区小变化、自由均匀膨胀；孔洞随整体扩张，受约束需另计力学。"
+    ]
+  ],
+  "物理13/13.6": [
+    [
+      "真实与表观膨胀",
+      "\\Delta V_{\\rm apparent}\\approx(\\beta_{\\rm liquid}-\\beta_{\\rm vessel})V_0\\Delta T",
+      "初始充满等题设条件与小变化近似；两系数同温区。"
+    ]
+  ],
+  "物理14/14.1": [
+    [
+      "传热与储能",
+      "P=\\frac{dQ}{dt}",
+      "净传热自发由较高温至较低温，传导不要求整体质量迁移。"
+    ]
+  ],
+  "物理14/14.2": [
+    [
+      "平板热阻",
+      "P=\\frac{kA\\Delta T}{L},\\quad R_{\\rm th}=\\frac{L}{kA},\\quad P=\\frac{\\Delta T_{\\rm total}}{\\sum R_{\\rm th}}",
+      "一维稳态均匀层；串联同功率而温差一般不同。"
+    ]
+  ],
+  "物理14/14.3": [
+    [
+      "给定对流模型",
+      "P=hA\\Delta T",
+      "只在题设经验h条件下；h单位W/(m²K)，不同于热导率k。"
+    ]
+  ],
+  "物理14/14.4": [
+    [
+      "辐射总量与净量",
+      "P_{\\rm emit}=\\varepsilon\\sigma AT^4,\\qquad P_{\\rm net}=\\varepsilon\\sigma A(T^4-T_s^4)",
+      "T与T_s全用K；净式限适合几何及灰体大包围环境等模型。"
+    ]
+  ],
+  "物理15/15.1": [
+    [
+      "绝对参量",
+      "P_{\\rm abs}=P_{\\rm atm}+P_{\\rm gauge},\\qquad T=t_{\\rm C}+273.15",
+      "表压带代数符号；温度数值单位按本节定义。"
+    ]
+  ],
+  "物理15/15.2": [
+    [
+      "理想状态式",
+      "PV=nRT=Nk_BT,\\qquad N=nN_A",
+      "绝对P、K温度；mol配R，粒子数配k_B，保持单位一致。"
+    ]
+  ],
+  "物理15/15.3": [
+    [
+      "混合与密度",
+      "P_f=\\frac{P_1V_1+P_2V_2}{V_1+V_2},\\qquad \\rho=\\frac{PM}{RT}",
+      "混合式同温、双刚室、不反应无外漏；密度式M以kg/mol用于SI。"
+    ]
+  ],
+  "物理15/15.4": [
+    [
+      "等温",
+      "P_1V_1=P_2V_2",
+      "固定气量与温度、理想模型；绝对压，总可及容积含必要死体积。"
+    ]
+  ],
+  "物理15/15.5": [
+    [
+      "等容",
+      "\\frac{P_1}{T_1}=\\frac{P_2}{T_2}",
+      "固定气量与体积，P绝对、T/K；泄漏或相变需另计。"
+    ]
+  ],
+  "物理15/15.6": [
+    [
+      "等压与活塞",
+      "\\frac{V_1}{T_1}=\\frac{V_2}{T_2},\\qquad P_{\\rm gas}=P_{\\rm atm}+\\frac{mg}{A}",
+      "固定气量；静力活塞式忽略摩擦等，遇挡块后分段换条件。"
+    ]
+  ],
+  "物理19/19.1": [
+    [
+      "棱镜",
+      "r_1+r_2=A,\\quad \\delta=i+e-A,\\quad n=\\frac{\\sin[(A+\\delta_{\\min})/2]}{\\sin(A/2)}",
+      "n式限空气近1及最小偏向对称透射；角对各面法线。"
+    ]
+  ],
+  "物理19/19.2": [
+    [
+      "光谱关系",
+      "f=\\frac c{\\lambda_0},\\qquad E=hf=\\frac{hc}{\\lambda_0}",
+      "λ₀为真空波长；能量与波长反比，模拟谱线不冒充实测。"
+    ]
+  ],
+  "物理19/19.3": [
+    [
+      "薄透镜与放大率",
+      "\\frac1f=\\frac1u+\\frac1v,\\qquad m=-\\frac vu",
+      "本节实物u正、实像v正虚像v负、会聚f正；近轴薄镜。"
+    ]
+  ],
+  "物理19/19.4": [
+    [
+      "焦距测量",
+      "f=\\frac{uv}{u+v}=\\frac{D^2-d^2}{4D}",
+      "第一式配对共轭数据；位移式双实像位置要求D>4f，d为镜位差。"
+    ]
+  ],
+  "数学7/7.1": [
+    [
+      "条件反例",
+      "p\\Rightarrow q\\quad\\text{的反例须有}\\quad p=\\mathrm T,\\ q=\\mathrm F",
+      "域内成功样本不能替代全称证明。"
+    ]
+  ],
+  "数学7/7.2": [
+    [
+      "联结否定",
+      "\\neg(p\\land q)\\equiv\\neg p\\lor\\neg q;\\quad\\neg(p\\lor q)\\equiv\\neg p\\land\\neg q",
+      "或通常为包容或，否定作用域用括号标清。"
+    ]
+  ],
+  "数学7/7.3": [
+    [
+      "量词否定",
+      "\\neg(\\forall x\\in D:P(x))\\iff\\exists x\\in D:\\neg P(x)",
+      "保留定义域；多量词需逐层反转。"
+    ]
+  ],
+  "数学7/7.4": [
+    [
+      "充分必要",
+      "p\\Rightarrow q\\iff P\\subseteq Q;\\qquad p\\Leftrightarrow q\\iff P=Q",
+      "P、Q分别为同一域内满足p、q的对象集合。"
+    ]
+  ],
+  "数学7/7.5": [
+    [
+      "有效推理",
+      "(p\\Rightarrow q)\\land p\\Rightarrow q;\\qquad(p\\Rightarrow q)\\land\\neg q\\Rightarrow\\neg p",
+      "肯定后件和否定前件一般无效。"
+    ]
+  ],
+  "数学8/8.1": [
+    [
+      "弧度与同终边角",
+      "180^\\circ=\\pi\\,\\mathrm{rad};\\qquad\\alpha+2k\\pi,\\quad k\\in\\mathbb Z",
+      "同终边不等累计转角相同。"
+    ]
+  ],
+  "数学8/8.2": [
+    [
+      "扇形量",
+      "s=r\\theta,\\quad A=\\frac12r^2\\theta,\\quad P=r\\theta+2r",
+      "θ为rad；周长含两条半径。"
+    ]
+  ],
+  "数学32/32.1": [
+    [
+      "被动移轴",
+      "x=X+h,\\quad y=Y+k;\\qquad X=x-h,\\quad Y=y-k",
+      "新原点的旧坐标(h,k)，方向与尺度不变，点不动。"
+    ]
+  ],
+  "数学32/32.2": [
+    [
+      "被动转轴",
+      "\\begin{pmatrix}x\\\\y\\end{pmatrix}=\\begin{pmatrix}\\cos\\theta&-\\sin\\theta\\\\\\sin\\theta&\\cos\\theta\\end{pmatrix}\\begin{pmatrix}X\\\\Y\\end{pmatrix}",
+      "新轴逆时针θ、点不动；不混主动移点。"
+    ]
+  ],
+  "数学9/9.1": [
+    [
+      "坐标定义",
+      "r=\\sqrt{x^2+y^2}>0,\\quad\\sin\\theta=\\frac yr,\\quad\\cos\\theta=\\frac xr,\\quad\\tan\\theta=\\frac yx",
+      "tan另需x≠0；平方根号选支按象限。"
+    ]
+  ],
+  "数学9/9.2": [
+    [
+      "对称诱导",
+      "\\sin(-\\theta)=-\\sin\\theta,\\quad\\cos(-\\theta)=\\cos\\theta,\\quad\\sin(\\pi-\\theta)=\\sin\\theta",
+      "使用恒等式保留原表达式定义域。"
+    ]
+  ],
+  "数学9/9.3": [
+    [
+      "正弦变换",
+      "y=A\\sin(B(x-h))+D,\\quad T=\\frac{2\\pi}{|B|},\\quad y\\in[D-|A|,D+|A|]",
+      "A、B非零；常值退化需另论；正切没有此振幅界。"
+    ]
+  ],
+  "数学9/9.4": [
+    [
+      "反三角主值",
+      "\\arcsin:[-1,1]\\to[-\\pi/2,\\pi/2],\\quad\\arccos:[-1,1]\\to[0,\\pi]",
+      "反函数不是倒数；arctan值域端点±π/2不取。"
+    ]
+  ],
+  "数学10/10.1": [
+    [
+      "正弦定律",
+      "\\frac a{\\sin A}=\\frac b{\\sin B}=\\frac c{\\sin C}=2R",
+      "标准对边，非退化三角形；SSA候选需分别验内角和。"
+    ]
+  ],
+  "数学10/10.2": [
+    [
+      "余弦定律",
+      "c^2=a^2+b^2-2ab\\cos C",
+      "C为a,b夹角；SSS先验三角不等式。"
+    ]
+  ],
+  "数学10/10.3": [
+    [
+      "面积与半周长",
+      "K=\\frac12 ab\\sin C=\\sqrt{s(s-a)(s-b)(s-c)},\\quad s=\\frac{a+b+c}{2}",
+      "C为夹角，先验三角形存在；R外接、r内切不可混。"
+    ]
+  ],
+  "数学10/10.4": [
+    [
+      "方位与仰角",
+      "\\Delta x=d\\sin\\beta,\\quad\\Delta y=d\\cos\\beta;\\qquad H=d_{\\rm horizontal}\\tan\\alpha",
+      "东x北y，方位β从北顺时针；相对眼高H需按题加仪器高。"
+    ]
+  ],
+  "数学11/11.1": [
+    [
+      "同角平方关系",
+      "\\sin^2x+\\cos^2x=1,\\quad1+\\tan^2x=\\sec^2x,\\quad\\sqrt{\\sin^2x}=|\\sin x|",
+      "正切关系需cosx≠0；所有式使用共同定义域。"
+    ]
+  ],
+  "数学11/11.2": [
+    [
+      "和差与辅助角",
+      "\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B;\\quad a\\sin x+b\\cos x=R\\sin(x+\\phi)",
+      "R>0且Rcosφ=a、Rsinφ=b，角象限须匹配系数。"
+    ]
+  ],
+  "数学11/11.3": [
+    [
+      "倍角与降幂",
+      "\\sin2x=2\\sin x\\cos x,\\quad\\cos2x=1-2\\sin^2x;\\quad\\sin^2x\\cos^2x=\\frac{1-\\cos4x}{8}",
+      "半角根式外的正负由半角象限决定。"
+    ]
+  ],
+  "数学11/11.4": [
+    [
+      "正弦方程全部周期解",
+      "\\sin x=a\\iff x=\\alpha+2k\\pi\\ \\text{或}\\ x=\\pi-\\alpha+2k\\pi,\\quad\\alpha=\\arcsin a,\\ k\\in\\mathbb Z",
+      "|a|≤1；边界两族可能重合，最终按原域区间筛选去重回代。"
+    ]
+  ],
+  "数学33/33.1": [
+    [
+      "坐标与参数范围",
+      "x=r\\cos\\theta,\\quad y=r\\sin\\theta;\\qquad x=2\\cos t,\\ y=2\\sin t,\\ 0\\le t\\le\\pi\\Rightarrow y\\ge0",
+      "消参数保留实际范围；除r前查原点。"
+    ]
+  ],
+  "数学33/33.2": [
+    [
+      "焦准与类型",
+      "PF=e\\,d(P,l);\\quad 0<e<1,\\ e=1,\\ e>1",
+      "相应非退化条件分别椭圆、抛物线、双曲线；直接e0的固定焦准式不是普通圆。"
+    ]
+  ],
+  "数学33/33.3": [
+    [
+      "抛物线与切线",
+      "y^2=4px,\\quad F=(p,0),\\quad l:x=-p;\\qquad yy_1=2p(x+x_1)",
+      "p≠0，切点先在曲线上；顶点切线竖直。"
+    ]
+  ],
+  "数学33/33.4": [
+    [
+      "椭圆参数",
+      "\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1,\\quad c^2=a^2-b^2,\\quad e=c/a",
+      "a≥b>0且长轴水平时焦点(±c,0)；较大分母定长轴。"
+    ]
+  ],
+  "数学33/33.5": [
+    [
+      "双曲线参数",
+      "\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1,\\quad c^2=a^2+b^2,\\quad y=\\pm\\frac ba x",
+      "a,b>0，不需a>b；末式为渐近线，非曲线点集。"
+    ]
+  ],
+  "数学34/34.1": [
+    [
+      "共轭与非零除法",
+      "i^2=-1,\\quad\\overline{a+bi}=a-bi,\\quad z\\bar z=a^2+b^2",
+      "虚部为b，不是bi；除数为0排除。"
+    ]
+  ],
+  "数学34/34.2": [
+    [
+      "模与主辐角",
+      "|x+yi|=\\sqrt{x^2+y^2},\\quad\\operatorname{Arg}z\\in(-\\pi,\\pi],\\ z\\ne0",
+      "零的模0，辐角未定义；主值范围在本节明确。"
+    ]
+  ],
+  "数学34/34.3": [
+    [
+      "三角式乘除",
+      "z_1z_2=r_1r_2\\operatorname{cis}(\\theta_1+\\theta_2),\\quad\\frac{z_1}{z_2}=\\frac{r_1}{r_2}\\operatorname{cis}(\\theta_1-\\theta_2)",
+      "商需z₂非0；主辐角结果回指定区间。"
+    ]
+  ],
+  "数学34/34.4": [
+    [
+      "棣美弗整数幂",
+      "(r\\operatorname{cis}\\theta)^n=r^n\\operatorname{cis}(n\\theta),\\quad n\\in\\mathbb Z",
+      "非正指数按定义排零；不能不分支直接替分数指数。"
+    ]
+  ],
+  "数学34/34.5": [
+    [
+      "全部n次根",
+      "z_k=R^{1/n}\\operatorname{cis}\\!\\left(\\frac{\\phi+2k\\pi}{n}\\right),\\quad k=0,\\ldots,n-1",
+      "w=Rcisφ≠0、n正整数；w0仅不同根0，重数n。"
+    ]
+  ],
+  "数学35/35.1": [
+    [
+      "空间距离",
+      "AB=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}",
+      "正交同单位轴；透视投影不是真实长度。"
+    ]
+  ],
+  "数学35/35.2": [
+    [
+      "空间向量与内分",
+      "\\overrightarrow{AB}=\\mathbf b-\\mathbf a,\\quad\\mathbf p=\\frac{n\\mathbf a+m\\mathbf b}{m+n}",
+      "AP:PB=m:n，m,n>0；位置向量与位移区别。"
+    ]
+  ],
+  "数学35/35.3": [
+    [
+      "内积与向量投影",
+      "\\mathbf u\\cdot\\mathbf v=\\sum u_iv_i,\\quad\\operatorname{proj}_{\\mathbf a}\\mathbf u=\\frac{\\mathbf u\\cdot\\mathbf a}{|\\mathbf a|^2}\\mathbf a",
+      "正交坐标；投影a非0，求夹角两向量均非0。"
+    ]
+  ],
+  "数学35/35.4": [
+    [
+      "外积面积与体积",
+      "K_\\triangle=\\frac12|\\overrightarrow{AB}\\times\\overrightarrow{AC}|,\\quad V=|\\mathbf u\\cdot(\\mathbf v\\times\\mathbf w)|",
+      "V为平行六面体体积，四面体再除6；非零外积才确定法向。"
+    ]
+  ],
+  "数学35/35.5": [
+    [
+      "线面方程与垂距",
+      "\\mathbf r=\\mathbf a+t\\mathbf d,\\quad\\mathbf n\\cdot(\\mathbf r-\\mathbf p)=0,\\quad d=\\frac{|Ax_0+By_0+Cz_0+D|}{\\sqrt{A^2+B^2+C^2}}",
+      "方向和法向非0；点面距离公式不可漏分母。"
+    ]
+  ],
+  "物理18/18.1": [
+    [
+      "平面镜位置",
+      "x_{\\rm image}=2x_{\\rm mirror}-x_{\\rm object}",
+      "同一法向有号坐标；像构造反延线非真实镜后传播。"
+    ]
+  ],
+  "物理18/18.2": [
+    [
+      "近轴球面镜",
+      "\\frac1f=\\frac1u+\\frac1v,\\quad m=-\\frac vu",
+      "实物u正，凹f正凸f负；镜前实v正、镜后虚v负。"
+    ]
+  ],
+  "物理18/18.3": [
+    [
+      "折射与波量",
+      "n_1\\sin i=n_2\\sin r,\\quad n=c/v_{\\rm phase},\\quad\\lambda=\\lambda_0/n",
+      "角对法线；相应静止透明介质模型f不变。"
+    ]
+  ],
+  "物理18/18.4": [
+    [
+      "视深与侧移",
+      "d_{\\rm app}\\simeq d\\frac{n_{\\rm observer}}{n_{\\rm object}},\\quad\\delta=t\\frac{\\sin(i-r)}{\\cos r}",
+      "视深近法线；侧移为平行板、同外介质且t沿法线。"
+    ]
+  ],
+  "物理18/18.5": [
+    [
+      "全反射条件",
+      "\\sin i_c=\\frac{n_2}{n_1},\\quad n_1>n_2,\\quad i>i_c",
+      "i为内部对法线角；i=ic是临界，外介质改变需重算。"
+    ]
+  ],
+  "物理18/18.6": [
+    [
+      "折射率正弦图",
+      "\\sin i=\\frac{n_{\\rm sample}}{n_{\\rm outside}}\\sin r",
+      "纵sin i横sin r；换轴斜率倒数，角度图不能直接同用。"
+    ]
+  ]
+});

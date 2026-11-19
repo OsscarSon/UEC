@@ -1,0 +1,787 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "28.2 e0",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "28.2 p0",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "28.2 p1-square",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "28.2 p1-composite",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "28.2 p2",
+      "status": "pass",
+      "detail": "tan(x)**2 - sec(x)**2 + 1"
+    },
+    {
+      "name": "28.2 degree input",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "28.3 e0",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "28.3 e1",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "28.3 e2",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "28.3 p0 positive branch",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "28.3 p0 negative argument branch",
+      "status": "pass",
+      "detail": "-1/(x - 2) - 1/(2 - x)"
+    },
+    {
+      "name": "28.3 p2",
+      "status": "pass",
+      "detail": "z**2/(2*sqrt(z + 1)) + 2*z*sqrt(z + 1) - z*(5*z + 4)/(2*sqrt(z + 1))"
+    },
+    {
+      "name": "28.3 p3",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "28.4 e0",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "28.4 e1",
+      "status": "pass",
+      "detail": "-x*exp(-x) - (1 - x)*exp(-x) + exp(-x)"
+    },
+    {
+      "name": "28.4 e2",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "28.4 p0",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "28.4 p1",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "28.4 p2",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "28.6 rational derivative",
+      "status": "pass",
+      "detail": "-x**2/(x - 1)**2 - x*(x - 2)/(x - 1)**2 + 2*x/(x - 1)"
+    },
+    {
+      "name": "29.1 e0",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "29.1 e1",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "29.1 e2",
+      "status": "pass",
+      "detail": "-1/(x**2 + 16) + 1/(16*(x**2/16 + 1))"
+    },
+    {
+      "name": "29.1 p0",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "29.1 p1 positive",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "29.1 p1 negative",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "29.1 p2",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "29.2 e0 positive branch",
+      "status": "pass",
+      "detail": "-1/(2*(z + 2)) + 1/(2*z) - 1/(z*(z + 2))"
+    },
+    {
+      "name": "29.2 e1 positive branch",
+      "status": "pass",
+      "detail": "-1/(z + 1) - 1/(z + 1)**2 + 1/z - 1/(z*(z + 1)**2)"
+    },
+    {
+      "name": "29.2 e2 x>1",
+      "status": "pass",
+      "detail": "-x**2/(x - 1) + x + 1 + 1/(x - 1)"
+    },
+    {
+      "name": "29.2 p1",
+      "status": "pass",
+      "detail": "2*x/(x**2 + 1) - (2*x + 3)/(x**2 + 1) + 3/(x**2 + 1)"
+    },
+    {
+      "name": "29.2 p2",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "29.3 e0",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "29.3 e1",
+      "status": "pass",
+      "detail": "-sin(x)**2 - cos(2*x)/2 + 1/2"
+    },
+    {
+      "name": "29.3 e2",
+      "status": "pass",
+      "detail": "(3*tan(x)**2 + 3)*tan(x)**2/3 - tan(x)**2*sec(x)**2"
+    },
+    {
+      "name": "29.3 p0",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "29.3 p1",
+      "status": "pass",
+      "detail": "-cos(x)**2 + cos(2*x)/2 + 1/2"
+    },
+    {
+      "name": "29.3 p2",
+      "status": "pass",
+      "detail": "-sin(x)/2 - sin(2*x)*cos(3*x) + sin(5*x)/2"
+    },
+    {
+      "name": "29.4 e0 |x|<5",
+      "status": "pass",
+      "detail": "-1/sqrt(25 - x**2) + 1/(5*sqrt(1 - x**2/25))"
+    },
+    {
+      "name": "29.4 e1 |x|<4",
+      "status": "pass",
+      "detail": "-x**2/(2*sqrt(16 - x**2)) - sqrt(16 - x**2)/2 + 2/sqrt(1 - x**2/16)"
+    },
+    {
+      "name": "29.4 e2 x>3",
+      "status": "pass",
+      "detail": "-1/sqrt(x**2 - 9) + (x/sqrt(x**2 - 9) + 1)/(x + sqrt(x**2 - 9))"
+    },
+    {
+      "name": "29.4 p2",
+      "status": "pass",
+      "detail": "-1/(x**2 + 9) + 1/(9*(x**2/9 + 1))"
+    },
+    {
+      "name": "29.4 p3 |x|<3",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "29.5 e0",
+      "status": "pass",
+      "detail": "-x*exp(3*x) + 3*(x/3 - 1/9)*exp(3*x) + exp(3*x)/3"
+    },
+    {
+      "name": "29.5 e1",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "29.5 e2",
+      "status": "pass",
+      "detail": "(-2*sin(x) + cos(x))*exp(2*x)/5 + 2*(sin(x) + 2*cos(x))*exp(2*x)/5 - exp(2*x)*cos(x)"
+    },
+    {
+      "name": "29.5 p0",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "29.5 p1",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "29.5 p3",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "28.5 e0",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "28.5 e1",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "28.5 e2",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "28.5 p0",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "28.5 p1",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "28.5 p2",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "28.5 p3",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "30.1 e0 equation",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "30.1 e0 initial",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "30.1 e1 equation",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "30.1 e1 initial",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "30.2 e0 equation",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "30.2 e0 initial",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "30.2 p0 equation",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "30.2 p0 initial",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "30.2 p1 equation",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "30.2 p1 initial",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "30.3 e0 equation",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "30.3 e0 initial",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "30.3 e1 x>0 equation",
+      "status": "pass",
+      "detail": "-x/3 + (x**2/3 + 5/(3*x))/x - 5/(3*x**2)"
+    },
+    {
+      "name": "30.3 e1 x>0 initial",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "30.3 p3 equation",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "30.3 p3 initial",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "30.4 cooling equation",
+      "status": "pass",
+      "detail": "(20 + 60*exp(-x*log(2)/10))*log(2)/10 - 2*log(2) - 6*exp(-x*log(2)/10)*log(2)"
+    },
+    {
+      "name": "30.4 cooling initial",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "30.4 mixing equation",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "30.4 mixing initial",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "30.1 e2 x<1",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "30.2 e1 x<1",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "30.2 zero equilibrium",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "30.2 one equilibrium",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "29.1 definite",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "29.3 definite",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "29.5 definite",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "31.1 odd sum successor",
+      "status": "pass",
+      "detail": "k**2 + 2*k - (k + 1)**2 + 1"
+    },
+    {
+      "name": "31.1 divisibility successor",
+      "status": "pass",
+      "detail": "7*7**k - 7**(k + 1)"
+    },
+    {
+      "name": "31.1 ordinary sum successor",
+      "status": "pass",
+      "detail": "k*(k + 1)/2 + k - (k + 1)*(k + 2)/2 + 1"
+    },
+    {
+      "name": "31.2 square difference",
+      "status": "pass",
+      "detail": "2*x**2 + 2*z**2 - (x - z)**2 - (x + z)**2"
+    },
+    {
+      "name": "31.3 composite construction",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "31.4 Newton first",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "31.4 Newton second",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "31.4 Newton residual",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "31.4 bisection bracket",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "31.4 minimum shrink count",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "31.4 discontinuity is not root",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "31.1 step inequality",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "8.1 degrees to rad",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "8.1 coterminal",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "8.1 accumulated rpm angle",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "8.2 arc",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "8.2 area",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "8.2 fixed perimeter square",
+      "status": "pass",
+      "detail": "x*(20 - 2*x)/2 + (x - 5)**2 - 25"
+    },
+    {
+      "name": "32.1 translated circle",
+      "status": "pass",
+      "detail": "-X**2 - 4*X - Y**2 + 6*Y + (X + 2)**2 + (Y - 3)**2 - 13"
+    },
+    {
+      "name": "32.2 rotated ellipse",
+      "status": "pass",
+      "detail": "-2*X**2 - 8*Y**2 + 5*(X - Y)**2/2 - 3*(X - Y)*(X + Y) + 5*(X + Y)**2/2"
+    },
+    {
+      "name": "32.2 orthogonal invariant",
+      "status": "pass",
+      "detail": "-X**2 - Y**2 + (X - Y)**2/2 + (X + Y)**2/2"
+    },
+    {
+      "name": "7.1 universal counterexample",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.4 real counterexample",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.5 sample conjecture failure",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.2 de Morgan conjunction (False, False)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.2 de Morgan disjunction (False, False)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.5 modus ponens (False, False)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.5 modus tollens (False, False)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.2 de Morgan conjunction (False, True)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.2 de Morgan disjunction (False, True)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.5 modus ponens (False, True)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.5 modus tollens (False, True)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.2 de Morgan conjunction (True, False)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.2 de Morgan disjunction (True, False)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.5 modus ponens (True, False)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.5 modus tollens (True, False)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.2 de Morgan conjunction (True, True)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.2 de Morgan disjunction (True, True)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.5 modus ponens (True, True)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "7.5 modus tollens (True, True)",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "9.1 coordinate radius",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "9.2 large angle",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "9.2 composite reduction",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "9.4 arcsin fold",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "9.4 arccos fold",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "9.4 arctan fold",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "10.1 AAS side",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "10.1 SSA two branches valid",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "10.1 SSA impossible",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "10.2 SAS",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "10.2 SSS cosine",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "10.3 Heron",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "10.3 cross check area",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "10.4 tower",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "10.4 two observations",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.1 secant identity",
+      "status": "pass",
+      "detail": "(-1 + 1/cos(x))*(1 + 1/cos(x)) - tan(x)**2"
+    },
+    {
+      "name": "11.2 sine15",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.2 sine sum",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.2 cosine sum",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.2 tangent75",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.3 lower power",
+      "status": "pass",
+      "detail": "sin(x)**2*cos(x)**2 + cos(4*x)/8 - 1/8"
+    },
+    {
+      "name": "11.4 double sine root pi/12",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.4 double sine root 5*pi/12",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.4 double sine root 13*pi/12",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.4 double sine root 17*pi/12",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.4 polynomial root pi/2",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.4 polynomial root 7*pi/6",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.4 polynomial root 11*pi/6",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.4 zero factor retained 0",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.4 zero factor retained pi/3",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.4 zero factor retained pi",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.4 zero factor retained 5*pi/3",
+      "status": "pass",
+      "detail": "0"
+    },
+    {
+      "name": "11.4 squared extraneous rejected",
+      "status": "pass",
+      "detail": ""
+    }
+  ],
+  "scope": "Independently entered symbolic derivatives, primitives, limits, ODEs and numerical arithmetic. Domains and proof logic additionally reviewed in prose; this is not a teacher or official approval.",
+  "teacher_approved": false
+}
