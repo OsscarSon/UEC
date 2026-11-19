@@ -1,0 +1,387 @@
+{
+  "status": "pass",
+  "count": 65,
+  "checks": [
+    {
+      "name": "Pre24 M13 hyperbola focal sum2",
+      "status": "pass",
+      "computed": "6",
+      "expected": "6"
+    },
+    {
+      "name": "Pre24 M14 rotation preserves norm2",
+      "status": "pass",
+      "computed": "36",
+      "expected": "36"
+    },
+    {
+      "name": "Pre24 W1 excluded candidate cos2x",
+      "status": "pass",
+      "computed": "0",
+      "expected": "0"
+    },
+    {
+      "name": "Pre24 W1 tan minus sin reduces numerator",
+      "status": "pass",
+      "computed": "(1 - cos(x))*sin(x)",
+      "expected": "(1 - cos(x))*sin(x)"
+    },
+    {
+      "name": "Pre24 W3 convex polygon candidates",
+      "status": "pass",
+      "computed": "5*(x - 16)*(x - 9)/2",
+      "expected": "(x - 16)*(5*x/2 - 45/2)"
+    },
+    {
+      "name": "Pre24 W3 n16 fails strict convex angle",
+      "status": "pass"
+    },
+    {
+      "name": "Pre24 W5 binomial half input",
+      "status": "pass",
+      "computed": "sqrt(6)/3",
+      "expected": "sqrt(6)/3"
+    },
+    {
+      "name": "Pre24 W6 complex even power",
+      "status": "pass",
+      "computed": "666",
+      "expected": "666"
+    },
+    {
+      "name": "Pre24 W7 rectangle foci spacing times height",
+      "status": "pass",
+      "computed": "54",
+      "expected": "54"
+    },
+    {
+      "name": "Pre24 W7 circles centre distance",
+      "status": "pass",
+      "computed": "4",
+      "expected": "4"
+    },
+    {
+      "name": "Pre24 W7 externally tangent radii sum",
+      "status": "pass",
+      "computed": "4",
+      "expected": "4"
+    },
+    {
+      "name": "Pre24 W9 antiderivative substitution",
+      "status": "pass",
+      "computed": "2 - 2*3**(3/4)/3",
+      "expected": "2 - 2*3**(3/4)/3"
+    },
+    {
+      "name": "Pre24 W10 chord area",
+      "status": "pass",
+      "computed": "9/2",
+      "expected": "9/2"
+    },
+    {
+      "name": "Pre24 W11 polar lens split",
+      "status": "pass",
+      "computed": "-3*sqrt(3)/4 + 5*pi/8",
+      "expected": "-3*sqrt(3)/4 + 5*pi/8"
+    },
+    {
+      "name": "Pre24 W12 motion total road includes reversal",
+      "status": "pass",
+      "computed": "34",
+      "expected": "34"
+    },
+    {
+      "name": "Pre23 M6 acceptable complex root",
+      "status": "pass",
+      "computed": "-28 + 24*I",
+      "expected": "-28 + 24*I"
+    },
+    {
+      "name": "Pre23 M6 extraneous real branch rejected",
+      "status": "pass"
+    },
+    {
+      "name": "Pre23 M10 tower height squared",
+      "status": "pass",
+      "computed": "2700/13",
+      "expected": "2700/13"
+    },
+    {
+      "name": "Pre23 M19 outer minus inner ring",
+      "status": "pass",
+      "computed": "2*sqrt(3)",
+      "expected": "2*sqrt(3)"
+    },
+    {
+      "name": "Pre23 W9 integral primitive",
+      "status": "pass",
+      "computed": "0",
+      "expected": "0"
+    },
+    {
+      "name": "Pre23 W9 transformed f terms cancel, remaining elementary term",
+      "status": "pass",
+      "computed": "14/3",
+      "expected": "14/3"
+    },
+    {
+      "name": "Pre23 W12 negative-y washer volume",
+      "status": "pass",
+      "computed": "-2*exp(-4) - exp(-8)/4 + exp(-20)/4 + 2*exp(-10) + 15",
+      "expected": "-2*exp(-4) - exp(-8)/4 + exp(-20)/4 + 2*exp(-10) + 15"
+    },
+    {
+      "name": "Grad24 M13 parameter slope",
+      "status": "pass",
+      "computed": "-6",
+      "expected": "-6"
+    },
+    {
+      "name": "Grad24 M15 logarithm small limit",
+      "status": "pass",
+      "computed": "5",
+      "expected": "5"
+    },
+    {
+      "name": "Grad24 M16 water height rate",
+      "status": "pass",
+      "computed": "1/107",
+      "expected": "1/107"
+    },
+    {
+      "name": "Grad24 M17 candidate correct positive branch",
+      "status": "pass",
+      "computed": "sqrt(5)/81",
+      "expected": "sqrt(5)/81"
+    },
+    {
+      "name": "Grad24 M17 candidate opposite on negative branch",
+      "status": "pass",
+      "computed": "-sqrt(5)/81",
+      "expected": "-sqrt(5)/81"
+    },
+    {
+      "name": "Grad24 M18 fundamental theorem",
+      "status": "pass",
+      "computed": "1",
+      "expected": "1"
+    },
+    {
+      "name": "Grad24 M19 entire four-petal area",
+      "status": "pass",
+      "computed": "2*sqrt(3) + 4*pi/3",
+      "expected": "2*sqrt(3) + 4*pi/3"
+    },
+    {
+      "name": "Grad24 W3 different mother genotypes give distinct A probabilities",
+      "status": "pass"
+    },
+    {
+      "name": "Grad24 W5 factor real cubic",
+      "status": "pass",
+      "computed": "4*x**3 - 41*x**2 + 46*x - 9",
+      "expected": "4*x**3 - 41*x**2 + 46*x - 9"
+    },
+    {
+      "name": "Grad24 W5 even-degree factorization",
+      "status": "pass",
+      "computed": "9*x**6 - 46*x**4 + 41*x**2 - 4",
+      "expected": "9*x**6 - 46*x**4 + 41*x**2 - 4"
+    },
+    {
+      "name": "Grad24 W6 rational range discriminant",
+      "status": "pass",
+      "computed": "-63*t**2 + 26*t + 5",
+      "expected": "-63*t**2 + 26*t + 5"
+    },
+    {
+      "name": "Grad24 W6 range boundaries factor",
+      "status": "pass",
+      "computed": "-63*t**2 + 26*t + 5",
+      "expected": "-63*t**2 + 26*t + 5"
+    },
+    {
+      "name": "Grad24 W7 normal parameter roots",
+      "status": "pass",
+      "computed": "x**4 - 4*x**3 + 16*x - 16",
+      "expected": "x**4 - 4*x**3 + 16*x - 16"
+    },
+    {
+      "name": "Grad24 W7 same normal line for foot 2",
+      "status": "pass",
+      "computed": "1",
+      "expected": "1"
+    },
+    {
+      "name": "Grad24 W7 same normal line for foot -2",
+      "status": "pass",
+      "computed": "1",
+      "expected": "1"
+    },
+    {
+      "name": "Grad24 W11 ODE and initial",
+      "status": "pass",
+      "computed": "4*x**4*exp(x**2)",
+      "expected": "4*x**4*exp(x**2)"
+    },
+    {
+      "name": "Grad23 M6 reciprocal log input",
+      "status": "pass",
+      "computed": "log(log(10)/log(2))/log(10)",
+      "expected": "-log(log(2)/log(10))/log(10)"
+    },
+    {
+      "name": "Grad23 M12 minimum tangent length",
+      "status": "pass",
+      "computed": "3/2",
+      "expected": "3/2"
+    },
+    {
+      "name": "Grad23 W5 inclusive n exponent 4",
+      "status": "pass",
+      "computed": "3 - 2*I",
+      "expected": "3 - 2*I"
+    },
+    {
+      "name": "Grad23 W5 inclusive n exponent 8",
+      "status": "pass",
+      "computed": "5 - 4*I",
+      "expected": "5 - 4*I"
+    },
+    {
+      "name": "Grad23 W5 inclusive n exponent 12",
+      "status": "pass",
+      "computed": "7 - 6*I",
+      "expected": "7 - 6*I"
+    },
+    {
+      "name": "Grad23 W5 inclusive n exponent 100",
+      "status": "pass",
+      "computed": "51 - 50*I",
+      "expected": "51 - 50*I"
+    },
+    {
+      "name": "Grad23 W9 shaded area excludes tangent triangle",
+      "status": "pass",
+      "computed": "2/3",
+      "expected": "2/3"
+    },
+    {
+      "name": "Grad23 W11 integrand equals derivative",
+      "status": "pass",
+      "computed": "-x**3*exp(cos(3*x))*sin(3*x) + x**2*exp(cos(3*x))",
+      "expected": "x**2*(-x*sin(3*x) + 1)*exp(cos(3*x))"
+    },
+    {
+      "name": "Grad23 W11 endpoint integral",
+      "status": "pass",
+      "computed": "pi**3/24",
+      "expected": "pi**3/24"
+    },
+    {
+      "name": "Grad23 W12 implicit second identity",
+      "status": "pass",
+      "computed": "x*y*ypp*log(y) + x*y*ypp + x*yp**2 - y",
+      "expected": "x*y*ypp*(log(y) + 1) + x*yp**2 - y"
+    },
+    {
+      "name": "Grad22 M10 cumulative-to-term ratio",
+      "status": "pass",
+      "computed": "100/301",
+      "expected": "100/301"
+    },
+    {
+      "name": "Grad22 M14 tangent length squared",
+      "status": "pass",
+      "computed": "235/2",
+      "expected": "235/2"
+    },
+    {
+      "name": "Grad22 W4 rational range coefficient product",
+      "status": "pass",
+      "computed": "10",
+      "expected": "10"
+    },
+    {
+      "name": "Grad22 W6 conjugate root cubic",
+      "status": "pass",
+      "computed": "x**3 - 7*x**2 + 17*x - 14",
+      "expected": "x**3 - 7*x**2 + 17*x - 14"
+    },
+    {
+      "name": "Grad22 W10 minimum material cost",
+      "status": "pass",
+      "computed": "1152*pi/5",
+      "expected": "1152*pi/5"
+    },
+    {
+      "name": "Grad22 W10 RM700 insufficient",
+      "status": "pass"
+    },
+    {
+      "name": "Grad22 W12 initial point singular",
+      "status": "pass"
+    },
+    {
+      "name": "Grad21 M10 equilateral any scale meets premise 2",
+      "status": "pass",
+      "computed": "0.0",
+      "expected": "0"
+    },
+    {
+      "name": "Grad21 M10 equilateral any scale meets premise 10",
+      "status": "pass",
+      "computed": "0.0",
+      "expected": "0"
+    },
+    {
+      "name": "Grad21 W3 rational quartic conditions",
+      "status": "pass",
+      "computed": "12",
+      "expected": "12"
+    },
+    {
+      "name": "Grad21 W4 induction divisibility 2",
+      "status": "pass",
+      "computed": "0",
+      "expected": "0"
+    },
+    {
+      "name": "Grad21 W4 induction divisibility 3",
+      "status": "pass",
+      "computed": "0",
+      "expected": "0"
+    },
+    {
+      "name": "Grad21 W4 induction divisibility 7",
+      "status": "pass",
+      "computed": "0",
+      "expected": "0"
+    },
+    {
+      "name": "Grad21 W6 four factors",
+      "status": "pass",
+      "computed": "16",
+      "expected": "16"
+    },
+    {
+      "name": "Grad21 W7 crossing chords a",
+      "status": "pass",
+      "computed": "10*sqrt(13)",
+      "expected": "10*sqrt(13)"
+    },
+    {
+      "name": "Grad21 W10 negative-axis washer volume",
+      "status": "pass",
+      "computed": "24*pi/5",
+      "expected": "24*pi/5"
+    },
+    {
+      "name": "Grad21 W12 polar difference region",
+      "status": "pass",
+      "computed": "3*sqrt(3)/32",
+      "expected": "3*sqrt(3)/32"
+    }
+  ],
+  "limits": "Named independent computations and counterexamples; not all historical solutions verified."
+}

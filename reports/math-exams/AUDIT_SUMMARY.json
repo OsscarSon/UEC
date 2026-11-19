@@ -1,0 +1,34 @@
+{
+  "unique_pdfs": 47,
+  "total_pages": 257,
+  "extracted_pages": 257,
+  "visually_viewed_pages": 257,
+  "visual_units": 1479,
+  "imported_claims": 778,
+  "merged_ledger_units": 1479,
+  "statistics_eligible_units": 1337,
+  "pending_or_excluded_units": 142,
+  "all_supplied_pages_viewed": true,
+  "supplied_paper_populations": 61,
+  "all_supplied_question_numbers_indexed": true,
+  "units_without_answer_record": 1313,
+  "mcq_units_without_four_transcribed_options": 439,
+  "all_history_questions_verified": false,
+  "missing_papers": [
+    {
+      "exam_type": "preexam_math_ii",
+      "year": 2022,
+      "paper": "written"
+    },
+    {
+      "exam_type": "preexam_math_ii",
+      "year": 2026,
+      "paper": "both"
+    }
+  ],
+  "limits": [
+    "OCR is a locator, not formula evidence.",
+    "All supplied question numbers are indexed; field/option/answer completeness are distinct. Missing papers are not invented.",
+    "Whole-paper confidence is not inherited from uploaded reports."
+  ]
+}

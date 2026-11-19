@@ -1,0 +1,1451 @@
+[
+  {
+    "path": "UEC_Codex_01_校内三类考试/START_HERE_三考试更新说明.md",
+    "sha256": "cd93860ec9a7f5030e205b738092e352331fcb9d530c0c6f41d775302716559d",
+    "bytes": 510,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/START_HERE_交付Codex.md",
+    "sha256": "ddf5456d42ff7517948b1ac9e478a932ca25884ab4ac2e2c10af4dd60c6004cf",
+    "bytes": 555,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/START_HERE_四类考试更新说明.md",
+    "sha256": "fcb17931ea68c7dcbcb6eacc4f05a55a4eb805fe25048606cfa1fe35d1766d90",
+    "bytes": 304,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/START_HERE_高数I逐题核验状态与Codex任务.md",
+    "sha256": "deaf4a26b5c40b23b7bfb5521ecee241bbe776869f8288e71bbfc6b64720c236",
+    "bytes": 2028,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/CODEX_该考试使用说明.md",
+    "sha256": "028e635e7d9ffb8992f331d4ff1f2f9facad1d97287d54b64454eb290b88f258",
+    "bytes": 426,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/原始试卷/2022S3S期末考final.pdf",
+    "sha256": "2f4ae66605ea161740e6d5126303d4369c602bcffb68d037aee6f7ec914bb5ac",
+    "bytes": 373064,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/原始试卷/2023期末考_作答.pdf",
+    "sha256": "9c4557d490b821c8b5b9b6ee7fa57b69486e9ee4980e0ba9a53ebef07d0e17a8",
+    "bytes": 346497,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/原始试卷/2023期末考_选择.pdf",
+    "sha256": "ec66e5c5ba2dd8a9cffffef57ebe78093755295999bfbbca9492fbab4b5bd12c",
+    "bytes": 433477,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/原始试卷/2024QMK_P1.pdf",
+    "sha256": "77c82e050de925da1e2ce2014171de9e0935b284a34918576afb3a37b22fc17b",
+    "bytes": 544618,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/原始试卷/2024QMK_P2.pdf",
+    "sha256": "247a5204ecac8a6949d99e0aeb40fc674ebfaeaaa19a741943b8519a4e4359ce",
+    "bytes": 466060,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/原始试卷/2025S3S11.pdf",
+    "sha256": "e91fd7bcf73f8b0af7ff4aa8a0fbbfe5158c9b6558aa5f638e8a08ce89c287fd",
+    "bytes": 238518,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/原始试卷/2025S3S12.pdf",
+    "sha256": "ea7c750b51bfe01fc139cc5b7e8d673895e176d8e7514e4f1d1f31dc88174498",
+    "bytes": 162664,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/原始试卷/2026S3S11.pdf",
+    "sha256": "d0a63a65c7403714995df7a8225bce20d2cefbfcb436d37d02c85363f44e403a",
+    "bytes": 775591,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/现有完整分析包/UEC_高数_上半年期末考_三包合并_跨年统计/原有三个ZIP/UEC_高数_上半年期末考_五年逐题分析.zip",
+    "sha256": "27287a563f5f75e69780dcb875d2695edeceb1b201953c8cd5e02712747d6612",
+    "bytes": 18659,
+    "kind": ".zip",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/现有完整分析包/UEC_高数_上半年期末考_三包合并_跨年统计/原有三个ZIP/UEC_高数_上半年期末考_五年逐题分析_unpacked/2022年_逐题分析.md",
+    "sha256": "03bd64dbb48c046fea14b119b0c49c7a053b63c73e0d67733370303c67955def",
+    "bytes": 18775,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/现有完整分析包/UEC_高数_上半年期末考_三包合并_跨年统计/原有三个ZIP/UEC_高数_上半年期末考_五年逐题分析_unpacked/2023年_逐题分析.md",
+    "sha256": "a6f16fef3066432d2f5cedc4ce244a0b11098517dbc84d9c076256b13447cf8d",
+    "bytes": 19255,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/现有完整分析包/UEC_高数_上半年期末考_三包合并_跨年统计/原有三个ZIP/UEC_高数_上半年期末考_五年逐题分析_unpacked/2024年_逐题分析.md",
+    "sha256": "6d939e8f35b25e3b814a890cdd6e524296121b79087e3cc2e7a6d8f4ee008b54",
+    "bytes": 17069,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/现有完整分析包/UEC_高数_上半年期末考_三包合并_跨年统计/原有三个ZIP/UEC_高数_上半年期末考_五年逐题分析_unpacked/2025年_逐题分析.md",
+    "sha256": "25565f96212e43a4f2740e7e4f3975f6d18c10377c1cecde27ceefade3fcb677",
+    "bytes": 19062,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/现有完整分析包/UEC_高数_上半年期末考_三包合并_跨年统计/原有三个ZIP/UEC_高数_上半年期末考_五年逐题分析_unpacked/2026年_逐题分析.md",
+    "sha256": "4f04d5f4766cb8ed223489f5365cee6c88d13fd5788ba1f743cb0f928a091da1",
+    "bytes": 14751,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/现有完整分析包/UEC_高数_上半年期末考_三包合并_跨年统计/原有三个ZIP/UEC_高数_上半年期末考_五年逐题分析_unpacked/README_阅读指南.md",
+    "sha256": "6ae75f66c3bf896353cf497fc917e7c93d03006ea85305e033ae87985655461e",
+    "bytes": 1120,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/现有完整分析包/UEC_高数_上半年期末考_三包合并_跨年统计/原有三个ZIP/UEC_高数_上半年期末考_五年逐题分析_unpacked/五年逐题索引.csv",
+    "sha256": "515e0c73e07dcaf1db26aaa65124eda04816ca1d48758bca57dfa8c94ea52241",
+    "bytes": 31291,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/现有完整分析包/UEC_高数_上半年期末考_三包合并_跨年统计/原有三个ZIP/UEC_高数_上半年期末考_初步深度分析.zip",
+    "sha256": "efd54241d089d4489d59e706608044abf83648062fe12cccee609de4b86e5471",
+    "bytes": 5144,
+    "kind": ".zip",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/现有完整分析包/UEC_高数_上半年期末考_三包合并_跨年统计/原有三个ZIP/UEC_高数_上半年期末考_初步深度分析_unpacked/2026逐题知识点_核对版.csv",
+    "sha256": "cb1a1472e67b66528ed0cf72971057cde3cc466b22547fd846c6b93af22dee45",
+    "bytes": 2472,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/现有完整分析包/UEC_高数_上半年期末考_三包合并_跨年统计/原有三个ZIP/UEC_高数_上半年期末考_初步深度分析_unpacked/分析报告.md",
+    "sha256": "16710827d7f7f2464cc2e1ee269fafeedfe8671daab3c7c40f71c623f5895d18",
+    "bytes": 8132,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/现有完整分析包/UEC_高数_上半年期末考_三包合并_跨年统计/原有三个ZIP/UEC_高数_上半年期末考_初步深度分析_unpacked/试卷清单.csv",
+    "sha256": "355158ac50167f51feb83ff34fb922016055edab795afbba4291d0e84d900bb3",
+    "bytes": 320,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/现有完整分析包/UEC_高数_上半年期末考_三包合并_跨年统计/原有三个ZIP/UEC_高数_上半年期末考_完整版分析.zip",
+    "sha256": "6e161e6e588d4342e636bb7daf5b366f3b7976c7c5b863c92f37dc48b8f0129b",
+    "bytes": 15052,
+    "kind": ".zip",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/现有完整分析包/UEC_高数_上半年期末考_三包合并_跨年统计/原有三个ZIP/UEC_高数_上半年期末考_完整版分析_unpacked/2026逐题分值.csv",
+    "sha256": "0be3c53352824000942079805faee5b5cb5c7bd517c1218a251c75411b6af31c",
+    "bytes": 2086,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/现有完整分析包/UEC_高数_上半年期末考_三包合并_跨年统计/原有三个ZIP/UEC_高数_上半年期末考_完整版分析_unpacked/分析报告.md",
+    "sha256": "6e9bf3a88d617ddf8e78d32eed3321032f4d3bcc5da60e90f5007e1a18ff4ecb",
+    "bytes": 12998,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/现有完整分析包/UEC_高数_上半年期末考_三包合并_跨年统计/原有三个ZIP/UEC_高数_上半年期末考_完整版分析_unpacked/历届作答题主题索引.csv",
+    "sha256": "c2d8329c250acc2bbb1634322ceb7f635ea64b9b641486cf7e1cdefd179a75f6",
+    "bytes": 2963,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/现有完整分析包/UEC_高数_上半年期末考_三包合并_跨年统计/原有三个ZIP/UEC_高数_上半年期末考_完整版分析_unpacked/历届题型与2026分值数据库.xlsx",
+    "sha256": "244addcc2f784e401503985d5b4bd2434cea1e3b2d7dfd242442bb0f9785a6a7",
+    "bytes": 8161,
+    "kind": ".xlsx",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/现有完整分析包/UEC_高数_上半年期末考_三包合并_跨年统计/原有三个ZIP/UEC_高数_上半年期末考_完整版分析_unpacked/资料清单.csv",
+    "sha256": "b6d99b2aebf6194dd02a9aa11b8f0eadbb6557146f9f7d5306aa5892665e2617",
+    "bytes": 369,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/现有完整分析包/UEC_高数_上半年期末考_三包合并_跨年统计/新增跨年统计/35章_跨年分值难度热度.csv",
+    "sha256": "c580f1409f68f9af074f359119f3c53b711e18eb221efc267e91abdba24cc1eb",
+    "bytes": 2458,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/现有完整分析包/UEC_高数_上半年期末考_三包合并_跨年统计/新增跨年统计/各年计分审计.csv",
+    "sha256": "ab2949c7c6ed57b7b237b21ca7c65a1c685f31ee54e00462e3def78500b2ad40",
+    "bytes": 327,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/现有完整分析包/UEC_高数_上半年期末考_三包合并_跨年统计/新增跨年统计/跨年统计报告.md",
+    "sha256": "23550cc2282800019aa8725c1b9d634e0f4f64a4bf2bc99794a5904d61a4e2b6",
+    "bytes": 7744,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/现有完整分析包/UEC_高数_上半年期末考_三包合并_跨年统计/新增跨年统计/逐题_权重调整与难度审计.csv",
+    "sha256": "1294c56a1316145b5f234451e2ed5f8f0d3d94694bcf18020dc79a1bab31d345",
+    "bytes": 26774,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/现有完整分析包/UEC_高数_上半年期末考_三包合并_跨年统计.zip",
+    "sha256": "5141afa0d8f3d8f76d2a14d1e8d479e14778deee2f2ab989fdf15cebfe3f3423",
+    "bytes": 46549,
+    "kind": ".zip",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/现有完整分析包/UEC_高数_上半年期末考_三包合并_跨年统计_unpacked/原有三个ZIP/UEC_高数_上半年期末考_五年逐题分析.zip",
+    "sha256": "27287a563f5f75e69780dcb875d2695edeceb1b201953c8cd5e02712747d6612",
+    "bytes": 18659,
+    "kind": ".zip",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/现有完整分析包/UEC_高数_上半年期末考_三包合并_跨年统计_unpacked/原有三个ZIP/UEC_高数_上半年期末考_初步深度分析.zip",
+    "sha256": "efd54241d089d4489d59e706608044abf83648062fe12cccee609de4b86e5471",
+    "bytes": 5144,
+    "kind": ".zip",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/现有完整分析包/UEC_高数_上半年期末考_三包合并_跨年统计_unpacked/原有三个ZIP/UEC_高数_上半年期末考_完整版分析.zip",
+    "sha256": "6e161e6e588d4342e636bb7daf5b366f3b7976c7c5b863c92f37dc48b8f0129b",
+    "bytes": 15052,
+    "kind": ".zip",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/现有完整分析包/UEC_高数_上半年期末考_三包合并_跨年统计_unpacked/新增跨年统计/35章_跨年分值难度热度.csv",
+    "sha256": "c580f1409f68f9af074f359119f3c53b711e18eb221efc267e91abdba24cc1eb",
+    "bytes": 2458,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/现有完整分析包/UEC_高数_上半年期末考_三包合并_跨年统计_unpacked/新增跨年统计/各年计分审计.csv",
+    "sha256": "ab2949c7c6ed57b7b237b21ca7c65a1c685f31ee54e00462e3def78500b2ad40",
+    "bytes": 327,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/现有完整分析包/UEC_高数_上半年期末考_三包合并_跨年统计_unpacked/新增跨年统计/跨年统计报告.md",
+    "sha256": "23550cc2282800019aa8725c1b9d634e0f4f64a4bf2bc99794a5904d61a4e2b6",
+    "bytes": 7744,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/上半年期末考/现有完整分析包/UEC_高数_上半年期末考_三包合并_跨年统计_unpacked/新增跨年统计/逐题_权重调整与难度审计.csv",
+    "sha256": "1294c56a1316145b5f234451e2ed5f8f0d3d94694bcf18020dc79a1bab31d345",
+    "bytes": 26774,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/CODEX_该考试使用说明.md",
+    "sha256": "d5153b6577909907c28f1f6ae5055bc3b57696b31dfafe5790a29eb658d89a52",
+    "bytes": 1108,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/原始试卷/2021_毕业考_作答.pdf",
+    "sha256": "0ffd31629b2114f9de4f61d7b0f5bf51330e36fead157ed6eebc0bf0d28a36a1",
+    "bytes": 631333,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/原始试卷/2021_毕业考_选择.pdf",
+    "sha256": "e88da748355699d15ebaaffecc34077a5f5961983385448f7f7f6ec78eab7013",
+    "bytes": 440067,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/原始试卷/2022_毕业考_选择与作答.pdf",
+    "sha256": "f77a351cea2b171d0130ff75e28a6a9e1d67646c6bb116aec860f947975633a0",
+    "bytes": 295415,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/原始试卷/2023_毕业考_选择与作答.pdf",
+    "sha256": "e780522689f10d0edc7b02952d6367a0f992508c67a8ff7e854b85bd2385990f",
+    "bytes": 637681,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/原始试卷/2024_毕业考_选择与作答.pdf",
+    "sha256": "ebf2ff05a18178f6288576d4c9c14f6b27a5a106f08ab4fcbacca6b9f2fcd8fd",
+    "bytes": 938883,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/原始试卷/2025_毕业考_选择与作答.pdf",
+    "sha256": "58582c0245f361857e2203d19855c89cf9cd7e4a63a6805b4933ddbfcefd07c1",
+    "bytes": 715223,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/研究报告/2021年_逐题研究.md",
+    "sha256": "923e718379b1e718b15570d5d27eb60d5d4b43125d65abb2151d0e7153b532ac",
+    "bytes": 16761,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/研究报告/2022年_逐题研究.md",
+    "sha256": "6fc4cf08c5edbf1356352abdc81741e1283aac2a4079fb66c9a4f73cbef6aad8",
+    "bytes": 18589,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/研究报告/2023年_逐题研究.md",
+    "sha256": "1b2f57d12b471c38dbbff3e47b7bbe7e5db79f4a70544ec327e1ede7000043a6",
+    "bytes": 17231,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/研究报告/2024年_逐题研究.md",
+    "sha256": "0d338464fc49c32d2ea23570ea77526082724d1d774348ee6a49713e56238a3e",
+    "bytes": 18190,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/研究报告/2025年_逐题研究.md",
+    "sha256": "820c89f7bb0da937badf82d0408e623a140c0ab0db6c77be45155d771afa54b9",
+    "bytes": 17208,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/研究报告/35章_跨年热度与分值边界.csv",
+    "sha256": "b1be19aeff9291b2712eb3d6014e9026bbb7a573e7ce91b56254189c22df2c15",
+    "bytes": 6773,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/研究报告/年度试卷结构审计.csv",
+    "sha256": "024e8528d9a467c0d42d2000beee300493afdf00670e439708774b3dd33cdec0",
+    "bytes": 723,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/研究报告/跨年统计与方法报告.md",
+    "sha256": "d500c5d8b7048f86d7106db11e4b2dce9f61d63147e59247425a0083797946b2",
+    "bytes": 3150,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/研究报告/逐题主索引.csv",
+    "sha256": "ce35000f2ad94445872196c8a72ae168ac3a90a9490a1d643a83b6e09f51834a",
+    "bytes": 71077,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/逐小问核对新增/README_逐小问复核说明.md",
+    "sha256": "cc5b6fba5a09b5bc0f53450c69fc4fc8f1c8a106181fe62f37267142f859ef33",
+    "bytes": 2326,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/逐小问核对新增/原卷作答题页面图像/2021_作答题_PDF第2页.png",
+    "sha256": "ea62f5e0d9b7720e6d9f28e163c0874fbbe17c204eb3201a4590527f2c47425f",
+    "bytes": 154164,
+    "kind": ".png",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/逐小问核对新增/原卷作答题页面图像/2021_作答题_PDF第3页.png",
+    "sha256": "8667e6b8a0f9ca74f17657fbd095babfde947d0b11a7e634e51e5baa08cb5cfd",
+    "bytes": 142501,
+    "kind": ".png",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/逐小问核对新增/原卷作答题页面图像/2021_作答题_PDF第4页.png",
+    "sha256": "ec1905000b9f2dc80735d56a77d5227a1c4d6470bd8b07e54c1244072064cbf4",
+    "bytes": 173870,
+    "kind": ".png",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/逐小问核对新增/原卷作答题页面图像/2022_作答题_PDF第5页.png",
+    "sha256": "0639f0be74a06e27432a37592f4cb527f74e321bbb9ff6a94fa09a477bf6a7f3",
+    "bytes": 174849,
+    "kind": ".png",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/逐小问核对新增/原卷作答题页面图像/2022_作答题_PDF第6页.png",
+    "sha256": "649ab1ad33fd34a1e32000d43f855bd2e1e4cccf1ba4e8b4db8c671910ff1f6f",
+    "bytes": 171150,
+    "kind": ".png",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/逐小问核对新增/原卷作答题页面图像/2023_作答题_PDF第3页.png",
+    "sha256": "92ac42acf9649ad945928f2089f5244d7f020429b71a52ce57f22a3684f46654",
+    "bytes": 179279,
+    "kind": ".png",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/逐小问核对新增/原卷作答题页面图像/2023_作答题_PDF第4页.png",
+    "sha256": "b6f47237498683325dde1503c4700c0f0996b1bce5e7d1f5d1ede389e0f0c2ec",
+    "bytes": 156851,
+    "kind": ".png",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/逐小问核对新增/原卷作答题页面图像/2023_作答题_PDF第5页.png",
+    "sha256": "27a9a7fc5ecd087d77a66f02e18ee4b018222b8735a4746ebe32df58b52edaa8",
+    "bytes": 76126,
+    "kind": ".png",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/逐小问核对新增/原卷作答题页面图像/2024_作答题_PDF第7页.png",
+    "sha256": "0d302a9ad85def56d8adae4112b4102821600abe96b420d865bf11d82ebc745b",
+    "bytes": 225937,
+    "kind": ".png",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/逐小问核对新增/原卷作答题页面图像/2024_作答题_PDF第8页.png",
+    "sha256": "c8f4302e9e75ec4782a485517b7120bd9a225933c944de6466f31a6954c22b15",
+    "bytes": 171452,
+    "kind": ".png",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/逐小问核对新增/原卷作答题页面图像/2025_作答题_PDF第6页.png",
+    "sha256": "6b3bc8320da8e0441359dbb9086754510ce2f4e9f44c7608ae8aa40154213f52",
+    "bytes": 183163,
+    "kind": ".png",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/逐小问核对新增/原卷作答题页面图像/2025_作答题_PDF第7页.png",
+    "sha256": "0630b2670bb6f4b08162e86724ff6726ab70f3b2b323791dc010d7915be8e6f1",
+    "bytes": 151412,
+    "kind": ".png",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/逐小问核对新增/原卷作答题页面图像/2025_作答题_PDF第8页.png",
+    "sha256": "0a126f3aaad66608e1caf87abcf85691ca251c98af6a03cce9d1e537045da076",
+    "bytes": 123587,
+    "kind": ".png",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/逐小问核对新增/毕业考_每年大题分值核对.csv",
+    "sha256": "910f42a7e5797410bb0b2cbed8ff0d37e3cf80a2a8642a75e19845bd504fbcfd",
+    "bytes": 1196,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/逐小问核对新增/毕业考_逐小问分值章节审计.csv",
+    "sha256": "78fdfcd1a55949722b1dbf7efa356ea55679ae0f917b308bb54dc62c5316d9eb",
+    "bytes": 64610,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/下半年毕业考/逐小问核对新增/毕业考_逐小问章节频率_历史印刷曝光.csv",
+    "sha256": "7ea7c963c37bc7145157fda87fd74d1d7421956181893d22c07d554966e33778",
+    "bytes": 3271,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/出题规范/CODEX_自动命题总规范.md",
+    "sha256": "33985ce424c6e304957303678ec6c43931b6883e2ce56ef692db614a7006ef9a",
+    "bytes": 7077,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/出题规范/数据清单.json",
+    "sha256": "242f69e8f832a9876d81269099225fa7f832d27d5c89363beb5854fe72450b7e",
+    "bytes": 3731,
+    "kind": ".json",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/出题规范/章节字典.json",
+    "sha256": "58b33177c9ede342859cc4836b8058b0e41b6a0bd86cc57432041775d13e79b7",
+    "bytes": 2031,
+    "kind": ".json",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/出题规范/题目格式.schema.json",
+    "sha256": "827496e25119e57fb4dd9afdb5e54e9ec80ae609989d3ce111309cae14fca3b5",
+    "bytes": 2531,
+    "kind": ".json",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/CODEX_该考试使用说明.md",
+    "sha256": "f2494303d31750e9e708daf2270865768678a35cc135e41e1349f576a0e13beb",
+    "bytes": 475,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/原始试卷/2022 预试_选择题.pdf",
+    "sha256": "b2dc9d8cd35110feb672dce1a6b718d07afb314ed2eacce1e7866de3f55fc364",
+    "bytes": 217159,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/原始试卷/2024 预试_作答题.pdf",
+    "sha256": "972e2047a8a2abf1cd4f4428af741efedafaf7da9fa03870e40354eae07dd5a2",
+    "bytes": 248868,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/原始试卷/2024 预试_选择题.pdf",
+    "sha256": "7676888284d81c4413a433e8ed32cd52cacaa494c02fddba1a441f1c3353680d",
+    "bytes": 300244,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/原始试卷/2025 S3S预试.pdf",
+    "sha256": "6bb42e1fb3b8f6a30e8b2a112e6fe29692f920b1e7b3ae9cf3cb2ecaf40f5f2b",
+    "bytes": 381010,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/原始试卷/23S3S21.pdf",
+    "sha256": "a086ec87542bf6a58a1fc6d7f1279377595861f2054e9631be6d61d2e984c0bf",
+    "bytes": 803125,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/现有完整分析包/UEC_高数II_预试_逐年逐题_跨年统计/UEC_高数_预试_历届逐题与跨年研究/2022年_逐题分析.md",
+    "sha256": "d4fe134dfbd5af20efcb2bf09d011a8909b04514b4b96e208eea6740eaa59978",
+    "bytes": 4591,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/现有完整分析包/UEC_高数II_预试_逐年逐题_跨年统计/UEC_高数_预试_历届逐题与跨年研究/2023年_逐题分析.md",
+    "sha256": "2cbe1a9fb5ee8512be6e70cf8784d6a0fe7742e8b8f5bb5d221d25e612e7a1eb",
+    "bytes": 6357,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/现有完整分析包/UEC_高数II_预试_逐年逐题_跨年统计/UEC_高数_预试_历届逐题与跨年研究/2024年_逐题分析.md",
+    "sha256": "8bc2c2b6c183499b9aac6dab14ea7981d831460a62b5425a9d4d5259a73b5a54",
+    "bytes": 6166,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/现有完整分析包/UEC_高数II_预试_逐年逐题_跨年统计/UEC_高数_预试_历届逐题与跨年研究/2025年_逐题分析.md",
+    "sha256": "d89f3b2044fa8ba27b5080422d522855252aeb22f8b0a6c6ef7940f6a999a95c",
+    "bytes": 5856,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/现有完整分析包/UEC_高数II_预试_逐年逐题_跨年统计/UEC_高数_预试_历届逐题与跨年研究/35章_跨年频率与印刷分值.csv",
+    "sha256": "786c2b2c95b7dc6f4617a1fee2666d42f69320ec33367c05f345e4fb77ab9d7a",
+    "bytes": 4639,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/现有完整分析包/UEC_高数II_预试_逐年逐题_跨年统计/UEC_高数_预试_历届逐题与跨年研究/README.md",
+    "sha256": "3569d0616b2303bf436bd8e0f34a83b25771b6950c4eb218e4c6771f49dfc68c",
+    "bytes": 246,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/现有完整分析包/UEC_高数II_预试_逐年逐题_跨年统计/UEC_高数_预试_历届逐题与跨年研究/年度试卷完整性与计分审计.csv",
+    "sha256": "f1e3ec93e50add6676396080f71b36d342f7262633e9ddfe9af8a57cd30da1e8",
+    "bytes": 460,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/现有完整分析包/UEC_高数II_预试_逐年逐题_跨年统计/UEC_高数_预试_历届逐题与跨年研究/跨年统计报告.md",
+    "sha256": "8d229f87dcb55c6d29728c694af894a5ab50023e580d12a63866ee7265fc4314",
+    "bytes": 3350,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/现有完整分析包/UEC_高数II_预试_逐年逐题_跨年统计/UEC_高数_预试_历届逐题与跨年研究/逐题总数据库.csv",
+    "sha256": "3cd8d8c9bf89064a7aecf678764d3c73ce918477137581d756b69abc07fe3df6",
+    "bytes": 63738,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/现有完整分析包/UEC_高数II_预试_逐年逐题_跨年统计/原始预试试卷/2022 #U9884#U8bd5_#U9009#U62e9#U9898.pdf",
+    "sha256": "b2dc9d8cd35110feb672dce1a6b718d07afb314ed2eacce1e7866de3f55fc364",
+    "bytes": 217159,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/现有完整分析包/UEC_高数II_预试_逐年逐题_跨年统计/原始预试试卷/2024 #U9884#U8bd5_#U4f5c#U7b54#U9898.pdf",
+    "sha256": "972e2047a8a2abf1cd4f4428af741efedafaf7da9fa03870e40354eae07dd5a2",
+    "bytes": 248868,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/现有完整分析包/UEC_高数II_预试_逐年逐题_跨年统计/原始预试试卷/2024 #U9884#U8bd5_#U9009#U62e9#U9898.pdf",
+    "sha256": "7676888284d81c4413a433e8ed32cd52cacaa494c02fddba1a441f1c3353680d",
+    "bytes": 300244,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/现有完整分析包/UEC_高数II_预试_逐年逐题_跨年统计/原始预试试卷/2025 S3S#U9884#U8bd5.pdf",
+    "sha256": "6bb42e1fb3b8f6a30e8b2a112e6fe29692f920b1e7b3ae9cf3cb2ecaf40f5f2b",
+    "bytes": 381010,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/现有完整分析包/UEC_高数II_预试_逐年逐题_跨年统计/原始预试试卷/23S3S21.pdf",
+    "sha256": "a086ec87542bf6a58a1fc6d7f1279377595861f2054e9631be6d61d2e984c0bf",
+    "bytes": 803125,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/现有完整分析包/UEC_高数II_预试_逐年逐题_跨年统计.zip",
+    "sha256": "e5dd1e07596a4a4453d59b2a0d85627b9c48ff5cd097b556af536df631b541e4",
+    "bytes": 1831532,
+    "kind": ".zip",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/现有完整分析包/UEC_高数II_预试_逐年逐题_跨年统计_unpacked/UEC_高数_预试_历届逐题与跨年研究/2022年_逐题分析.md",
+    "sha256": "d4fe134dfbd5af20efcb2bf09d011a8909b04514b4b96e208eea6740eaa59978",
+    "bytes": 4591,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/现有完整分析包/UEC_高数II_预试_逐年逐题_跨年统计_unpacked/UEC_高数_预试_历届逐题与跨年研究/2023年_逐题分析.md",
+    "sha256": "2cbe1a9fb5ee8512be6e70cf8784d6a0fe7742e8b8f5bb5d221d25e612e7a1eb",
+    "bytes": 6357,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/现有完整分析包/UEC_高数II_预试_逐年逐题_跨年统计_unpacked/UEC_高数_预试_历届逐题与跨年研究/2024年_逐题分析.md",
+    "sha256": "8bc2c2b6c183499b9aac6dab14ea7981d831460a62b5425a9d4d5259a73b5a54",
+    "bytes": 6166,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/现有完整分析包/UEC_高数II_预试_逐年逐题_跨年统计_unpacked/UEC_高数_预试_历届逐题与跨年研究/2025年_逐题分析.md",
+    "sha256": "d89f3b2044fa8ba27b5080422d522855252aeb22f8b0a6c6ef7940f6a999a95c",
+    "bytes": 5856,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/现有完整分析包/UEC_高数II_预试_逐年逐题_跨年统计_unpacked/UEC_高数_预试_历届逐题与跨年研究/35章_跨年频率与印刷分值.csv",
+    "sha256": "786c2b2c95b7dc6f4617a1fee2666d42f69320ec33367c05f345e4fb77ab9d7a",
+    "bytes": 4639,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/现有完整分析包/UEC_高数II_预试_逐年逐题_跨年统计_unpacked/UEC_高数_预试_历届逐题与跨年研究/README.md",
+    "sha256": "3569d0616b2303bf436bd8e0f34a83b25771b6950c4eb218e4c6771f49dfc68c",
+    "bytes": 246,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/现有完整分析包/UEC_高数II_预试_逐年逐题_跨年统计_unpacked/UEC_高数_预试_历届逐题与跨年研究/年度试卷完整性与计分审计.csv",
+    "sha256": "f1e3ec93e50add6676396080f71b36d342f7262633e9ddfe9af8a57cd30da1e8",
+    "bytes": 460,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/现有完整分析包/UEC_高数II_预试_逐年逐题_跨年统计_unpacked/UEC_高数_预试_历届逐题与跨年研究/跨年统计报告.md",
+    "sha256": "8d229f87dcb55c6d29728c694af894a5ab50023e580d12a63866ee7265fc4314",
+    "bytes": 3350,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/现有完整分析包/UEC_高数II_预试_逐年逐题_跨年统计_unpacked/UEC_高数_预试_历届逐题与跨年研究/逐题总数据库.csv",
+    "sha256": "3cd8d8c9bf89064a7aecf678764d3c73ce918477137581d756b69abc07fe3df6",
+    "bytes": 63738,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/现有完整分析包/UEC_高数II_预试_逐年逐题_跨年统计_unpacked/原始预试试卷/2022 #U9884#U8bd5_#U9009#U62e9#U9898.pdf",
+    "sha256": "b2dc9d8cd35110feb672dce1a6b718d07afb314ed2eacce1e7866de3f55fc364",
+    "bytes": 217159,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/现有完整分析包/UEC_高数II_预试_逐年逐题_跨年统计_unpacked/原始预试试卷/2024 #U9884#U8bd5_#U4f5c#U7b54#U9898.pdf",
+    "sha256": "972e2047a8a2abf1cd4f4428af741efedafaf7da9fa03870e40354eae07dd5a2",
+    "bytes": 248868,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/现有完整分析包/UEC_高数II_预试_逐年逐题_跨年统计_unpacked/原始预试试卷/2024 #U9884#U8bd5_#U9009#U62e9#U9898.pdf",
+    "sha256": "7676888284d81c4413a433e8ed32cd52cacaa494c02fddba1a441f1c3353680d",
+    "bytes": 300244,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/现有完整分析包/UEC_高数II_预试_逐年逐题_跨年统计_unpacked/原始预试试卷/2025 S3S#U9884#U8bd5.pdf",
+    "sha256": "6bb42e1fb3b8f6a30e8b2a112e6fe29692f920b1e7b3ae9cf3cb2ecaf40f5f2b",
+    "bytes": 381010,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_01_校内三类考试/预试/现有完整分析包/UEC_高数II_预试_逐年逐题_跨年统计_unpacked/原始预试试卷/23S3S21.pdf",
+    "sha256": "a086ec87542bf6a58a1fc6d7f1279377595861f2054e9631be6d61d2e984c0bf",
+    "bytes": 803125,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/START_HERE_三考试更新说明.md",
+    "sha256": "cd93860ec9a7f5030e205b738092e352331fcb9d530c0c6f41d775302716559d",
+    "bytes": 510,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/START_HERE_交付Codex.md",
+    "sha256": "ddf5456d42ff7517948b1ac9e478a932ca25884ab4ac2e2c10af4dd60c6004cf",
+    "bytes": 555,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/START_HERE_四类考试更新说明.md",
+    "sha256": "fcb17931ea68c7dcbcb6eacc4f05a55a4eb805fe25048606cfa1fe35d1766d90",
+    "bytes": 304,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/START_HERE_高数I逐题核验状态与Codex任务.md",
+    "sha256": "deaf4a26b5c40b23b7bfb5521ecee241bbe776869f8288e71bbfc6b64720c236",
+    "bytes": 2028,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/出题规范/CODEX_自动命题总规范.md",
+    "sha256": "33985ce424c6e304957303678ec6c43931b6883e2ce56ef692db614a7006ef9a",
+    "bytes": 7077,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/出题规范/数据清单.json",
+    "sha256": "242f69e8f832a9876d81269099225fa7f832d27d5c89363beb5854fe72450b7e",
+    "bytes": 3731,
+    "kind": ".json",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/出题规范/章节字典.json",
+    "sha256": "58b33177c9ede342859cc4836b8058b0e41b6a0bd86cc57432041775d13e79b7",
+    "bytes": 2031,
+    "kind": ".json",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/出题规范/题目格式.schema.json",
+    "sha256": "827496e25119e57fb4dd9afdb5e54e9ec80ae609989d3ce111309cae14fca3b5",
+    "bytes": 2531,
+    "kind": ".json",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/统考高数I/2025新增目视核验/2025_试卷二_大题分值检查.csv",
+    "sha256": "d6a1223afd17b1c23c397fa31da7b3d4a76c20a42efafb0d2256e227a0a43d01",
+    "bytes": 184,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/统考高数I/2025新增目视核验/2025_试卷二_逐小问结构与分值_目视审计.csv",
+    "sha256": "2628b9afee789c8b38ba69230ff29b8f5be47daae9140f119b0bbb9d4270e055",
+    "bytes": 3841,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/统考高数I/2025新增目视核验/核验边界与重要格式差异.md",
+    "sha256": "e2fc5ee2b266d3b8e532cb6e2b69961664604fad2f956c4bd052464858d16819",
+    "bytes": 822,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/统考高数I/START_HERE_统考高数I.md",
+    "sha256": "d5c47758438142684e1c3946bf09e4fa60026d48c39d1553dd1bae593f515715",
+    "bytes": 2174,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/统考高数I/原卷完整性审计.csv",
+    "sha256": "145be5fcd4857f37fbc2d3b975a2a385b617471ca27b65df0b7cb9be90af7c97",
+    "bytes": 2297,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/统考高数I/原始试卷/2019高数一.pdf（副本）",
+    "sha256": "c473afc1971792b75da41ecbd2692b1d990a3d265729dd36e957281ae7c397c4",
+    "bytes": 1868299,
+    "kind": ".pdf（副本）",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/统考高数I/原始试卷/2020高数I 作答题.pdf（副本）",
+    "sha256": "743f2c449dc218f64125d46ecbc1cbe2251b5a23f834d1549be09fb96f6f6c4f",
+    "bytes": 697200,
+    "kind": ".pdf（副本）",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/统考高数I/原始试卷/2020高数I 选择题.pdf（副本）",
+    "sha256": "edddd203dbbe27576637c9f6038ab43cfe44dcce2c78150d8966f808c8da0f77",
+    "bytes": 617164,
+    "kind": ".pdf（副本）",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/统考高数I/原始试卷/2021addmathI（副本）.pdf",
+    "sha256": "41907526b6273a1e72c4d80660a6d9d1f1c1dab0296129dc6f808e9a440ea6e0",
+    "bytes": 3414613,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/统考高数I/原始试卷/2022 高数1试卷一.pdf（副本）",
+    "sha256": "dc168892b9456ddcde718bf89161b49dc82d6d386252647eafabc6fb15684365",
+    "bytes": 1392022,
+    "kind": ".pdf（副本）",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/统考高数I/原始试卷/2022 高数1试卷二.pdf（副本）",
+    "sha256": "807c42156a6358927161499c98386fc25c74f8ae812e515a72c641182e06e4b6",
+    "bytes": 1612999,
+    "kind": ".pdf（副本）",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/统考高数I/原始试卷/2023 高数1 试卷一.pdf（副本）",
+    "sha256": "10e6cf19d362682a2d06af4546aa1ee57751dcb396892d557292f98f4374afd1",
+    "bytes": 1316086,
+    "kind": ".pdf（副本）",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/统考高数I/原始试卷/2023 高数1 试卷二.pdf（副本）",
+    "sha256": "dbc13ba7f30f623586ae46493164e87b8fd4ebe64711dea9d1ddee5c5daac5b0",
+    "bytes": 1547591,
+    "kind": ".pdf（副本）",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/统考高数I/原始试卷/2024 高级数学 I.pdf",
+    "sha256": "edfebccee08028d7e2e11f906540351ef57cd544590c053be9718604a4c3f291",
+    "bytes": 1289519,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/统考高数I/原始试卷/2025高级数学(I)SC06试卷一.pdf",
+    "sha256": "5f60f26ad2a4684d3597effc235c6cc810be4771c8201d1ae009a1046a3e656a",
+    "bytes": 1243813,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/统考高数I/原始试卷/2025高级数学(I)SC06试卷二.pdf",
+    "sha256": "21885987d4e131bb81cc2d42ffa653dd45f0e9920356dfab18e0ff0a14791645",
+    "bytes": 1717798,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/统考高数I/原始试卷/2026 高级数学I .pdf",
+    "sha256": "4a3947f81fa6871f9785959f33f2fd8113e83dc626ba5670f673ddee0c5e59d8",
+    "bytes": 4126120,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/统考高数I/逐题待核验模板.csv",
+    "sha256": "72847d1d928a1bb407f7db0506c54e2276fdfb98864894f7cd49f04483cce714",
+    "bytes": 152,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/高数I/2026已核对记录/2026_作答题章节分值.csv",
+    "sha256": "075aa17ecbfd615e32dabafc251b7d95c6c8902b1ea9b2344dea099a1d827d89",
+    "bytes": 134,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/高数I/2026已核对记录/2026_作答题逐小问核验.csv",
+    "sha256": "4224d4b5a0adb13b7356b56ab73c10b30070ea9182797e48824a860b5ee03508",
+    "bytes": 3142,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/高数I/2026已核对记录/README.md",
+    "sha256": "0246ec49fc58ec1215ba8c466a822affdc5ea5c5e967d01f094cc8fdcb03dfcf",
+    "bytes": 747,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/高数I/2026已核对记录/README_证据等级.md",
+    "sha256": "1f3e884c554f9aeb6b66e0a88d67e34dfd306e9fba0daca0df545ad1a2487fbd",
+    "bytes": 130,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/高数I/2026已核对记录/原卷/2026高数I.pdf",
+    "sha256": "4a3947f81fa6871f9785959f33f2fd8113e83dc626ba5670f673ddee0c5e59d8",
+    "bytes": 4126120,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/高数I/核验元数据.json",
+    "sha256": "757261dc9ed2a406b5eb6a059915ab2e50d5e16ab57f027669de06ada2400437",
+    "bytes": 211,
+    "kind": ".json",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/高数I/逐页核验状态.csv",
+    "sha256": "3ccbe0d1cc783e7912e3a38005d45a53aa7de3c400623cdd79e567f4d5d4c6a0",
+    "bytes": 9126,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/高数I/页面索引/01_pages.jpg",
+    "sha256": "1f42edf52c7df7da9915a136c69d73a4a1b0ade3c1d3b5fe5f7f389d96d5b783",
+    "bytes": 118897,
+    "kind": ".jpg",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/高数I/页面索引/02_pages.jpg",
+    "sha256": "630f8e0147c0a01c3018da9667cd5abe1986e23763198ea3a165870fd634b155",
+    "bytes": 44620,
+    "kind": ".jpg",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/高数I/页面索引/03_pages.jpg",
+    "sha256": "7b39090163fabfa864b7893f9248a0d35ea2957d3a82bf1a41296c5efb839d3f",
+    "bytes": 43743,
+    "kind": ".jpg",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/高数I/页面索引/04_pages.jpg",
+    "sha256": "d8846e08fe64fd2c37ab78ebf9de1a9563bf945e6a78e26a04b425d78e4a3347",
+    "bytes": 143238,
+    "kind": ".jpg",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/高数I/页面索引/05_pages.jpg",
+    "sha256": "4fcf9bcb71d12bc2680ff173ac97e8f8b0b608649297a18ab56122ffb0c0c24d",
+    "bytes": 110680,
+    "kind": ".jpg",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/高数I/页面索引/06_pages.jpg",
+    "sha256": "bf160e37229226b55aace57b45ccee9327c6be48de58f84b70e93e91c29821b8",
+    "bytes": 103715,
+    "kind": ".jpg",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/高数I/页面索引/07_pages.jpg",
+    "sha256": "a17e27befe69c8de0fea82123ae594d1d2e29bae42c6de3b214e6a2e17df2a01",
+    "bytes": 108607,
+    "kind": ".jpg",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/高数I/页面索引/08_pages.jpg",
+    "sha256": "ab3cc4ad97f85a1cc71380df6e30936b9f8ad8a51ce79b18b85b51c6f274d0ee",
+    "bytes": 101965,
+    "kind": ".jpg",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/高数I/页面索引/09_pages.jpg",
+    "sha256": "7327dfa06209ee6ac949ea2f13c58c44ef6ccf28f94de9c4802f4e5accbcb93e",
+    "bytes": 91240,
+    "kind": ".jpg",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/高数I/页面索引/10_pages.jpg",
+    "sha256": "14768aa4a1078f714f5d2dbfc5eb29b411cc37648b4fc86c6590dc11f251eb72",
+    "bytes": 76640,
+    "kind": ".jpg",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/高数I/页面索引/11_pages.jpg",
+    "sha256": "f4dea22c94f87889c52716a801f138e44d593b12921f9e1c876495c394fb2083",
+    "bytes": 87690,
+    "kind": ".jpg",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_02_统考高级数学I/高数I/页面索引/12_pages.jpg",
+    "sha256": "bf4e3b386ba6710626a722f9b9973be334decc43ad856d7f10cc02f218e39091",
+    "bytes": 122857,
+    "kind": ".jpg",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/START_HERE_三考试更新说明.md",
+    "sha256": "cd93860ec9a7f5030e205b738092e352331fcb9d530c0c6f41d775302716559d",
+    "bytes": 510,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/START_HERE_交付Codex.md",
+    "sha256": "ddf5456d42ff7517948b1ac9e478a932ca25884ab4ac2e2c10af4dd60c6004cf",
+    "bytes": 555,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/START_HERE_四类考试更新说明.md",
+    "sha256": "fcb17931ea68c7dcbcb6eacc4f05a55a4eb805fe25048606cfa1fe35d1766d90",
+    "bytes": 304,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/START_HERE_高数I逐题核验状态与Codex任务.md",
+    "sha256": "deaf4a26b5c40b23b7bfb5521ecee241bbe776869f8288e71bbfc6b64720c236",
+    "bytes": 2028,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/出题规范/CODEX_自动命题总规范.md",
+    "sha256": "33985ce424c6e304957303678ec6c43931b6883e2ce56ef692db614a7006ef9a",
+    "bytes": 7077,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/出题规范/数据清单.json",
+    "sha256": "242f69e8f832a9876d81269099225fa7f832d27d5c89363beb5854fe72450b7e",
+    "bytes": 3731,
+    "kind": ".json",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/出题规范/章节字典.json",
+    "sha256": "58b33177c9ede342859cc4836b8058b0e41b6a0bd86cc57432041775d13e79b7",
+    "bytes": 2031,
+    "kind": ".json",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/出题规范/题目格式.schema.json",
+    "sha256": "827496e25119e57fb4dd9afdb5e54e9ec80ae609989d3ce111309cae14fca3b5",
+    "bytes": 2531,
+    "kind": ".json",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原卷逐页缩略索引/2018_P1_10_contact.jpg",
+    "sha256": "76718c4faf091b86fa65ed941f490ed5ba5a3c0ab5a3c87223eabe2087c68467",
+    "bytes": 382240,
+    "kind": ".jpg",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原卷逐页缩略索引/2018_P2_11_contact.jpg",
+    "sha256": "f86c16ebfa1987d4c1c746d2bf8d23cda02fe599e0669b3ba56057054e0a953d",
+    "bytes": 398539,
+    "kind": ".jpg",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原卷逐页缩略索引/2019_P2_09_contact.jpg",
+    "sha256": "32cd44779f7f18fa3029a04ded5de07a61d6941dffc44de1bc98dbc2c9993984",
+    "bytes": 488029,
+    "kind": ".jpg",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原卷逐页缩略索引/2020_P1_07_contact.jpg",
+    "sha256": "f0186787e62e057ab8c1c2b200761909f86a33f47e09024686403dcf2520a9e8",
+    "bytes": 171245,
+    "kind": ".jpg",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原卷逐页缩略索引/2020_full_08_contact.jpg",
+    "sha256": "4a55b221a49a2107b506be661457dff2a9bfbbef5221dca7c04d7ca6d66fed80",
+    "bytes": 271315,
+    "kind": ".jpg",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原卷逐页缩略索引/2021_P1_05_contact.jpg",
+    "sha256": "1fbe0bac0da9a042faed15455e55c8590d257394f8137f3569d308a143ea204f",
+    "bytes": 240565,
+    "kind": ".jpg",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原卷逐页缩略索引/2021_P2_06_contact.jpg",
+    "sha256": "6c094ae7f5760bc467c27ec7cf4ba371971276ad0caf708e1d1078c94951a384",
+    "bytes": 294984,
+    "kind": ".jpg",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原卷逐页缩略索引/2022_P1_03_contact.jpg",
+    "sha256": "078551600a1dc85bcdaf92c518a0d248c5923a6c9dbcfcc2eb85ab19b82b8d80",
+    "bytes": 421152,
+    "kind": ".jpg",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原卷逐页缩略索引/2022_P2_04_contact.jpg",
+    "sha256": "583908290865f802b6bba9837f94150549c35bfb9b68f778917f13602747bfba",
+    "bytes": 469754,
+    "kind": ".jpg",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原卷逐页缩略索引/2023_P1_01_contact.jpg",
+    "sha256": "526a607d6ee0bf8b9987f2ac96922c13baa27d4e9f8f9aff3165ccbad9c9c0d0",
+    "bytes": 387920,
+    "kind": ".jpg",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原卷逐页缩略索引/2023_P2_02_contact.jpg",
+    "sha256": "5290dd88d170459e74fc53bd96914418afbe2ee0fe31959daab96fb36747b821",
+    "bytes": 493887,
+    "kind": ".jpg",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原卷逐页缩略索引/2024_P1_15_contact.jpg",
+    "sha256": "dc91233b336a32e11f1cb982cb778d58ab904159418ae01747a5aecb438acba4",
+    "bytes": 149729,
+    "kind": ".jpg",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原卷逐页缩略索引/2024_P2_00_contact.jpg",
+    "sha256": "496fdb6b04756b55b5354caab8fdf1e78f4f99d0530aa169c0cdb7e0e8e62233",
+    "bytes": 300128,
+    "kind": ".jpg",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原卷逐页缩略索引/2025_P1_13_contact.jpg",
+    "sha256": "3ac4fa243ee3ffc2b468a9a02aed462f29f253b157b4a9ffdff1370e97b220ed",
+    "bytes": 402081,
+    "kind": ".jpg",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原卷逐页缩略索引/2025_P2_14_contact.jpg",
+    "sha256": "772ba7982f51b5eabc2565db047ea492954a9c380c4495e1bfbdf039cd01f765",
+    "bytes": 444891,
+    "kind": ".jpg",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原卷逐页缩略索引/2026_full_12_contact.jpg",
+    "sha256": "0a876adfbca3adcfbd47da83d0abd5a7434a03ce2836737cc14e60bbc6d992fc",
+    "bytes": 362999,
+    "kind": ".jpg",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原始试卷/2018addmathIIP1.pdf",
+    "sha256": "d34ee4a4b584c36328b3874288756e723e36e245b6cb8b122540aa1737ced4c4",
+    "bytes": 1750438,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原始试卷/2018addmathIIP2.pdf",
+    "sha256": "09384fa8f14d2660f6975f0c8aa3a2fda1142a37944396ea81259fcf8dabeb08",
+    "bytes": 1904983,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原始试卷/2019_高数二.pdf",
+    "sha256": "4e526e1143395ba0e8709f246643ce33e112ef61deb56926b7156861d3b060c2",
+    "bytes": 1856979,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原始试卷/2020高数II 作答题.pdf",
+    "sha256": "2e52060547b0345df0aab840a19f84ae4e9e0829fb8114fb05bad2772cacfabf",
+    "bytes": 944661,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原始试卷/2020高数II选择.pdf",
+    "sha256": "ad52af0a91f91132d66b84f9265ac5bc2fa833570b9374fcdfc2820e1aa3f9b0",
+    "bytes": 632633,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原始试卷/2021addmathII paper1.pdf",
+    "sha256": "70a96f772b7b4e095e740b6e60ad15a4ce3ea7222f8a49dbd5b8d76a6bcf1311",
+    "bytes": 1112404,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原始试卷/2021addmathII paper2.pdf",
+    "sha256": "b3be3bccbd2f66259e27793080f2bcbb80d209bc509b40d33dc15b8dfc14493b",
+    "bytes": 1559362,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原始试卷/2022 高数2试卷一.pdf",
+    "sha256": "3ccd40a68140dd2e8628462701a2c5dc303c35d448fffb94c2ab31dd659463d4",
+    "bytes": 1451718,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原始试卷/2022 高数2试卷二.pdf",
+    "sha256": "72db0fb5237be17970d28a62d39eb22660809353f25c24176c0672ef2c81c05f",
+    "bytes": 1703415,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原始试卷/2023 高数2 试卷一.pdf",
+    "sha256": "c7e7ace2a5798c9302296f985d072eadb10f62082c805d04a8ef3d4e1c343cfa",
+    "bytes": 1342150,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原始试卷/2023 高数2 试卷二.pdf（副本）",
+    "sha256": "93b1fd5dea2f3891bdd1ce47478f6947c7dc2d1ed1250add8c838e60f27bd404",
+    "bytes": 1815239,
+    "kind": ".pdf（副本）",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原始试卷/2024 高数2 试卷一.pdf",
+    "sha256": "11fbd35e55ceab36e29a05fe1cd0199dfcd8ba292341c2fcb98f03ee0e48ba33",
+    "bytes": 272902,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原始试卷/2024 高数2 试卷二.pdf",
+    "sha256": "d6473b06e163f14738eec91db33cda86956f2cb6536e6b1ed7f53ad8dbdc4278",
+    "bytes": 194115,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原始试卷/2025 高数2 试卷一.pdf",
+    "sha256": "a571f62805dcfcda3a0f6b24043356aed2a60d0ee74ff449d24a5051c945f2d1",
+    "bytes": 1397889,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原始试卷/2025 高数2 试卷二.pdf",
+    "sha256": "8a2cc58ae57f25dd3b640ab3ba5dfb4a52d3a040f16a2e4140a7d6153e4b1a50",
+    "bytes": 1634919,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/原始试卷/2026 高数2.pdf",
+    "sha256": "7d674effa9609e7e63870670722e04738d4b21c1f534013bb09018b8b27abade",
+    "bytes": 4013539,
+    "kind": ".pdf",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/新增研究/16份PDF_年份页数审计.csv",
+    "sha256": "d52418a6c81305a0e2c07bb72d5e77a8b0a617e76059ac3f681ea7ee918a4af7",
+    "bytes": 1847,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/新增研究/2024至2026_作答题章节_已录入样本统计_非九年总体.csv",
+    "sha256": "d67ba16cdac7c8c6eb5b8b89b8aa5c38212e37fd922fcff27b6e16c4a8c8ddf9",
+    "bytes": 2745,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/新增研究/START_HERE_统考高数II_交付Codex.md",
+    "sha256": "76d24f628c936e73a9b56c125aaff57c60919258d4897e8f7cb3ada200b56a88",
+    "bytes": 450,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/新增研究/作答大题分值逐项核对.csv",
+    "sha256": "cf34ea2d70550217b2593ee8c641910e780f4d41e72120e34a810c93352efec7",
+    "bytes": 1470,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/新增研究/研究状态与Codex执行规范.md",
+    "sha256": "315191103d4b9adb362ccbf5771ab99de4dc75708232374fee725519e5639b9e",
+    "bytes": 2814,
+    "kind": ".md",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/新增研究/章节字典_35章.json",
+    "sha256": "bcdca8c371517328514aa6a20c33b68c750f1330e4ea858987fa0e6c01472d20",
+    "bytes": 911,
+    "kind": ".json",
+    "import_role": "source_evidence_not_instruction_authority"
+  },
+  {
+    "path": "UEC_Codex_03_统考高级数学II/统考高数II/新增研究/统考高数II_逐小问_公式图形分值_审计.csv",
+    "sha256": "d382049b7a7b7fe2e3e874cc82bfed7711861654d99b83f7ee0c915f44ad29dd",
+    "bytes": 21706,
+    "kind": ".csv",
+    "import_role": "source_evidence_not_instruction_authority"
+  }
+]

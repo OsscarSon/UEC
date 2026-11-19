@@ -1,0 +1,128 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "exam tabs remain in page flow",
+      "status": "pass"
+    },
+    {
+      "name": "five distinct exam research options",
+      "status": "pass"
+    },
+    {
+      "name": "independent research table semester_final",
+      "status": "pass"
+    },
+    {
+      "name": "independent research table graduation_math_ii",
+      "status": "pass"
+    },
+    {
+      "name": "independent research table preexam_math_ii",
+      "status": "pass"
+    },
+    {
+      "name": "independent research table uec_math_i",
+      "status": "pass"
+    },
+    {
+      "name": "independent research table uec_math_ii",
+      "status": "pass"
+    },
+    {
+      "name": "preview exactly27 questions",
+      "status": "pass"
+    },
+    {
+      "name": "preview hides solutions",
+      "status": "pass"
+    },
+    {
+      "name": "formula actually typeset",
+      "status": "pass"
+    },
+    {
+      "name": "no formula parse errors",
+      "status": "pass"
+    },
+    {
+      "name": "full solutions and scoring",
+      "status": "pass"
+    },
+    {
+      "name": "no horizontal body overflow preview 1440",
+      "status": "pass"
+    },
+    {
+      "name": "no horizontal body overflow preview 390",
+      "status": "pass"
+    },
+    {
+      "name": "reload restores answer and MCQ",
+      "status": "pass"
+    },
+    {
+      "name": "running does not show solutions",
+      "status": "pass"
+    },
+    {
+      "name": "break stage has no answers",
+      "status": "pass"
+    },
+    {
+      "name": "after both papers displays27 solutions",
+      "status": "pass"
+    },
+    {
+      "name": "mathI error isolated",
+      "status": "pass"
+    },
+    {
+      "name": "answer HTML is escaped",
+      "status": "pass"
+    },
+    {
+      "name": "backup accepts new and old learning records",
+      "status": "pass"
+    },
+    {
+      "name": "legacy practice retained",
+      "status": "pass"
+    },
+    {
+      "name": "bank pagination bounded",
+      "status": "pass"
+    },
+    {
+      "name": "original MCQ filter has options",
+      "status": "pass"
+    },
+    {
+      "name": "I never borrows chapter35",
+      "status": "pass"
+    },
+    {
+      "name": "legacy practice bank retained",
+      "status": "pass"
+    },
+    {
+      "name": "research table contained at 390",
+      "status": "pass"
+    },
+    {
+      "name": "research table contained at 1440",
+      "status": "pass"
+    },
+    {
+      "name": "no page errors",
+      "status": "pass"
+    },
+    {
+      "name": "no local resource errors",
+      "status": "pass"
+    }
+  ],
+  "errors": [],
+  "bad": [],
+  "limits": "Linux Chromium simulated desktop/mobile, no physical-device or official-content certification."
+}

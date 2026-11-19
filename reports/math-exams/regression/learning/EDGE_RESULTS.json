@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "checks": [
+    "diagnostic target changes survive deep link and reload",
+    "completed carry tasks never resurrect",
+    "zero time budget produces no tasks",
+    "latest graded result supersedes older loss",
+    "math I and II losses remain independent",
+    "other visible views do not accrue question time"
+  ],
+  "results": {
+    "noResurrection": true,
+    "zeroBudget": true,
+    "latestWins": true,
+    "scope": true
+  }
+}

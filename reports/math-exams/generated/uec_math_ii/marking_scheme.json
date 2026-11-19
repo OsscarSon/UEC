@@ -1,0 +1,390 @@
+{
+  "official": false,
+  "questions": [
+    {
+      "id": "ME26-M023",
+      "kind": "mcq",
+      "number": 1,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M036",
+      "kind": "mcq",
+      "number": 2,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M041",
+      "kind": "mcq",
+      "number": 3,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M018",
+      "kind": "mcq",
+      "number": 4,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M009",
+      "kind": "mcq",
+      "number": 5,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M033",
+      "kind": "mcq",
+      "number": 6,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M029",
+      "kind": "mcq",
+      "number": 7,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M034",
+      "kind": "mcq",
+      "number": 8,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M040",
+      "kind": "mcq",
+      "number": 9,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M035",
+      "kind": "mcq",
+      "number": 10,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M007",
+      "kind": "mcq",
+      "number": 11,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M028",
+      "kind": "mcq",
+      "number": 12,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M002",
+      "kind": "mcq",
+      "number": 13,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M038",
+      "kind": "mcq",
+      "number": 14,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M031",
+      "kind": "mcq",
+      "number": 15,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-W002",
+      "kind": "written",
+      "number": 1,
+      "points": [
+        {
+          "description": "设置线性余式并列两条件",
+          "marks": 2
+        },
+        {
+          "description": "解出a、b并回验",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-W005",
+      "kind": "written",
+      "number": 2,
+      "points": [
+        {
+          "description": "正确写出弧长和面积式",
+          "marks": 2
+        },
+        {
+          "description": "联立并核对单位",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-W006",
+      "kind": "written",
+      "number": 3,
+      "points": [
+        {
+          "description": "列矩阵/消元并说明可解",
+          "marks": 1
+        },
+        {
+          "description": "求出u、v",
+          "marks": 2
+        },
+        {
+          "description": "代回两式",
+          "marks": 1
+        }
+      ]
+    },
+    {
+      "id": "ME26-W009",
+      "kind": "written",
+      "number": 4,
+      "points": [
+        {
+          "description": "求出三项",
+          "marks": 3
+        },
+        {
+          "description": "写明收敛范围",
+          "marks": 1
+        }
+      ]
+    },
+    {
+      "id": "ME26-W007",
+      "kind": "written",
+      "number": 5,
+      "points": [
+        {
+          "description": "以点积0列式求t",
+          "marks": 2
+        },
+        {
+          "description": "计算模并验证垂直",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-W014",
+      "kind": "written",
+      "number": 6,
+      "points": [
+        {
+          "description": "复合式与严格原域",
+          "marks": 2
+        },
+        {
+          "description": "反函数与定义域",
+          "marks": 2
+        },
+        {
+          "description": "非单射反例",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-W016",
+      "kind": "written",
+      "number": 7,
+      "points": [
+        {
+          "description": "余弦定律求边",
+          "marks": 2
+        },
+        {
+          "description": "面积",
+          "marks": 2
+        },
+        {
+          "description": "外接圆与根号化简",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-W020",
+      "kind": "written",
+      "number": 8,
+      "points": [
+        {
+          "description": "交点及上下曲线",
+          "marks": 2
+        },
+        {
+          "description": "面积计算",
+          "marks": 2
+        },
+        {
+          "description": "正确轴与平方半径体积",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-W015",
+      "kind": "written",
+      "number": 9,
+      "points": [
+        {
+          "description": "临界点与定义域",
+          "marks": 2
+        },
+        {
+          "description": "符号和区间",
+          "marks": 2
+        },
+        {
+          "description": "交集整数且不含分母零点",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-W024",
+      "kind": "written",
+      "number": 10,
+      "points": [
+        {
+          "description": "解微分方程并定初值",
+          "marks": 2
+        },
+        {
+          "description": "由半衰期定k及单位",
+          "marks": 2
+        },
+        {
+          "description": "求时刻并代回",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-W033",
+      "kind": "written",
+      "number": 11,
+      "points": [
+        {
+          "description": "分部求F含定积分常数",
+          "marks": 3
+        },
+        {
+          "description": "导数号与最小值",
+          "marks": 2
+        },
+        {
+          "description": "域内解方程",
+          "marks": 2
+        },
+        {
+          "description": "极限条件与两次计算",
+          "marks": 3
+        }
+      ]
+    },
+    {
+      "id": "ME26-W035",
+      "kind": "written",
+      "number": 12,
+      "points": [
+        {
+          "description": "正确距离平方及u域",
+          "marks": 2
+        },
+        {
+          "description": "配方最短与两个最近点",
+          "marks": 3
+        },
+        {
+          "description": "两个正且异的u条件",
+          "marks": 3
+        },
+        {
+          "description": "合并范围及端点解释",
+          "marks": 2
+        }
+      ]
+    }
+  ]
+}

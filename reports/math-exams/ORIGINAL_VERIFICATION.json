@@ -1,0 +1,481 @@
+{
+  "status": "pass",
+  "questions": 79,
+  "checks": [
+    {
+      "id": "ME26-M001",
+      "topic": "直线距离与法向",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M002",
+      "topic": "相异正根的参数条件",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M003",
+      "topic": "余式与函数值",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M004",
+      "topic": "根号平方的绝对值",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M005",
+      "topic": "复合函数原域",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M006",
+      "topic": "偶重根与分母零点",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M007",
+      "topic": "量词否定与反例",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M008",
+      "topic": "扇形弧长与半径",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M009",
+      "topic": "正弦图像周期",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M010",
+      "topic": "余弦定律的夹角",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M011",
+      "topic": "平方化三角方程",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M012",
+      "topic": "对数方程的增根",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M013",
+      "topic": "由部分和求通项",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M014",
+      "topic": "行列式倍行与换行",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M015",
+      "topic": "矩阵可逆条件",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M016",
+      "topic": "圆的切线",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M017",
+      "topic": "投影与点积",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M018",
+      "topic": "长方体体对角线",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M019",
+      "topic": "受限排列首位",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M020",
+      "topic": "负指数展开条件",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M021",
+      "topic": "有理化极限",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M022",
+      "topic": "驻点不必是极值",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M023",
+      "topic": "积分反链系数",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M024",
+      "topic": "分段面积与有号积分",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M025",
+      "topic": "标准差与平移",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M026",
+      "topic": "条件概率的分母",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M027",
+      "topic": "最小二乘直线性质",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M028",
+      "topic": "隐函数微分",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M029",
+      "topic": "分部积分与验导",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M030",
+      "topic": "平衡解与除变量",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M031",
+      "topic": "Newton法局限",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M032",
+      "topic": "移轴的被动变换",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M033",
+      "topic": "抛物参数4p",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M034",
+      "topic": "辐角分支",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M035",
+      "topic": "线面夹角互余",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M036",
+      "topic": "函数图像可读信息",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M037",
+      "topic": "分式不等式的参数反例",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M038",
+      "topic": "正弦定律SSA分支",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M039",
+      "topic": "导函数零点与极值",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M040",
+      "topic": "定积分对称",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M041",
+      "topic": "合并组平均值",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M042",
+      "topic": "二项事件至少一次",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M043",
+      "topic": "洛必达适用性",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-M044",
+      "topic": "带范围的换元",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W001",
+      "topic": "两线交点与夹角",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W002",
+      "topic": "二次余式重建",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W003",
+      "topic": "反函数及定义域",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W004",
+      "topic": "分式不等式区间",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W005",
+      "topic": "扇形两条件联立",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W006",
+      "topic": "矩阵解线性系统",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W007",
+      "topic": "向量垂直与长度",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W008",
+      "topic": "委员会限制计数",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W009",
+      "topic": "二项前项与范围",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W010",
+      "topic": "由斜率和过点求曲线",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W011",
+      "topic": "隐式切线与过点检验",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W012",
+      "topic": "复数根与实系数",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W013",
+      "topic": "二次根的参数与最值",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W014",
+      "topic": "复合域与反函数验证",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W015",
+      "topic": "不等式与可行整数",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W016",
+      "topic": "三角形面积与外接圆",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W017",
+      "topic": "三角合成与区间解",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W018",
+      "topic": "圆和切线的几何核对",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W019",
+      "topic": "极值与闭区间端点",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W020",
+      "topic": "区域与旋转轴",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W021",
+      "topic": "Bayes与独立重检",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W022",
+      "topic": "变指数求导与切线",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W023",
+      "topic": "部分分式与原域",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W024",
+      "topic": "指数衰变与单位",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W025",
+      "topic": "归纳和有效域",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W026",
+      "topic": "椭圆焦点与切线",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W027",
+      "topic": "四根与复平面",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W028",
+      "topic": "绝对值函数与反函数限制",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W029",
+      "topic": "最值、参数和面积综合",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W030",
+      "topic": "两轴旋转与量纲比较",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W031",
+      "topic": "抽样条件与回收策略",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W032",
+      "topic": "隐函数、切线与局部模型",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W033",
+      "topic": "换元、分部与极限校核",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W034",
+      "topic": "归纳、界与数值方法",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    },
+    {
+      "id": "ME26-W035",
+      "topic": "抛物线最短距离与交点数",
+      "result": "pass",
+      "method": "symbolic_identity_or_independent_enumeration"
+    }
+  ],
+  "limits": "Named symbolic/enumeration checks plus author solution review; not official marking scheme or empirical difficulty calibration."
+}

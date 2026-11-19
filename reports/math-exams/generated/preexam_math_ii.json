@@ -1,0 +1,1531 @@
+{
+  "schema_version": 1,
+  "exam_type": "preexam_math_ii",
+  "course": "adv_math_ii",
+  "title": "预试 · 高数II · 2026格式原创模拟",
+  "seed": "delivery-2026",
+  "bank_version": "2026.1-ff43f2b3be18",
+  "research_version": "research-bb4e7a5b4f14",
+  "chapters": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "policy": {
+    "max_chapter_marks": 20,
+    "min_chapters": 8,
+    "difficulty_marks": {
+      "basic": 25,
+      "medium": 50,
+      "hard": 25
+    },
+    "difficulty_tolerance": 5,
+    "topic_preference": 0.65,
+    "topic_preference_is_soft": true,
+    "hot_basis": "Reviewed sample topic priority only, not full-history heat or official quota."
+  },
+  "format": {
+    "mcq_count": 15,
+    "mcq_marks": 30,
+    "written_count": 12,
+    "written_marks": 70,
+    "written_sequence": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      6,
+      6,
+      6,
+      6,
+      6,
+      10,
+      10
+    ],
+    "required": "all",
+    "paper_minutes": [
+      60,
+      120
+    ],
+    "uec_break_minutes": 15,
+    "school_timing": "Practice settings; use the actual school timetable when known."
+  },
+  "questions": [
+    {
+      "id": "ME26-M009",
+      "kind": "mcq",
+      "primary_chapter": 9,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "正弦图像周期",
+      "difficulty": "basic",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 2,
+      "stem": "函数\\(y=3\\sin(4x-\\pi/3)+2\\)的最小正周期为何？",
+      "answer": "π/2",
+      "solution_steps": [
+        "正弦内角变化2π，图形重复。",
+        "4T=2π，T=π/2。",
+        "振幅、竖直平移和初相不改变周期。"
+      ],
+      "marking_points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "2*pi/4",
+        "expected": "pi/2",
+        "result": "pass"
+      },
+      "figure": null,
+      "options": [
+        {
+          "text": "4π",
+          "reason": "把频率4当成周期的乘数。"
+        },
+        {
+          "text": "2π",
+          "reason": "忽略横向频率4，沿用sin x周期。"
+        },
+        {
+          "text": "π/4",
+          "reason": "这是把周期再除2；正弦在相位差π时通常符号相反。"
+        },
+        {
+          "text": "π/2",
+          "reason": "正确：见完整解析。"
+        }
+      ],
+      "correct_option": 3,
+      "number": 1
+    },
+    {
+      "id": "ME26-M023",
+      "kind": "mcq",
+      "primary_chapter": 23,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "积分反链系数",
+      "difficulty": "basic",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 2,
+      "stem": "求\\(\\int6x(x^2+1)^2\\,dx\\)。",
+      "answer": "(x²+1)³+C",
+      "solution_steps": [
+        "令u=x²+1，du=2x dx。",
+        "积分变为3∫u²du=u³+C。",
+        "求导(x²+1)³得到6x(x²+1)²复核。"
+      ],
+      "marking_points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "diff((x**2+1)**3,x)",
+        "expected": "6*x*(x**2+1)**2",
+        "result": "pass"
+      },
+      "figure": null,
+      "options": [
+        {
+          "text": "(x²+1)²+C",
+          "reason": "幂应从2升至3，不能保持平方。"
+        },
+        {
+          "text": "3(x²+1)³+C",
+          "reason": "已用du=2x dx后又重复乘3，求导会大3倍。"
+        },
+        {
+          "text": "2(x²+1)³+C",
+          "reason": "重复增加因子2，求导大2倍。"
+        },
+        {
+          "text": "(x²+1)³+C",
+          "reason": "正确：见完整解析。"
+        }
+      ],
+      "correct_option": 3,
+      "number": 2
+    },
+    {
+      "id": "ME26-M008",
+      "kind": "mcq",
+      "primary_chapter": 8,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "扇形弧长与半径",
+      "difficulty": "basic",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 2,
+      "stem": "半径为6的扇形圆心角为\\(2\\pi/3\\)弧度。弧长为何？",
+      "answer": "4π",
+      "solution_steps": [
+        "使用弧度公式l=rθ。",
+        "l=6·2π/3=4π。",
+        "这里问弧长，不把两条半径加入。"
+      ],
+      "marking_points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "6*2*pi/3",
+        "expected": "4*pi",
+        "result": "pass"
+      },
+      "figure": null,
+      "options": [
+        {
+          "text": "12π",
+          "reason": "把角误作2π，算成整圆周长。"
+        },
+        {
+          "text": "2π",
+          "reason": "漏掉半径与角度中的比例因子。"
+        },
+        {
+          "text": "4π",
+          "reason": "正确：见完整解析。"
+        },
+        {
+          "text": "8π",
+          "reason": "弧长只有4π，8π不满足l/r=2π/3。"
+        }
+      ],
+      "correct_option": 2,
+      "number": 3
+    },
+    {
+      "id": "ME26-M033",
+      "kind": "mcq",
+      "primary_chapter": 33,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "抛物参数4p",
+      "difficulty": "basic",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 2,
+      "stem": "抛物线\\((y+1)^2=12(x-2)\\)的焦点为何？",
+      "answer": "(5,−1)",
+      "solution_steps": [
+        "顶点为(2,−1)，4p=12，p=3。",
+        "开口向右，焦点(2+3,−1)=(5,−1)。",
+        "准线x=−1，顶点到焦点准线均距3。"
+      ],
+      "marking_points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "2+12/4",
+        "expected": "5",
+        "result": "pass"
+      },
+      "figure": null,
+      "options": [
+        {
+          "text": "(2,2)",
+          "reason": "误把水平抛物线当竖直抛物线。"
+        },
+        {
+          "text": "(5,−1)",
+          "reason": "正确：见完整解析。"
+        },
+        {
+          "text": "(−1,−1)",
+          "reason": "这是准线附近的反方向平移，不是向右的焦点。"
+        },
+        {
+          "text": "(14,−1)",
+          "reason": "把12直接当p，实际4p=12。"
+        }
+      ],
+      "correct_option": 1,
+      "number": 4
+    },
+    {
+      "id": "ME26-M001",
+      "kind": "mcq",
+      "primary_chapter": 1,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "直线距离与法向",
+      "difficulty": "basic",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 2,
+      "stem": "点\\(P(2,-1)\\)到直线\\(3x+4y-12=0\\)的距离为多少？",
+      "answer": "2",
+      "solution_steps": [
+        "代入有号式得到6−4−12=−10。",
+        "距离取绝对并除以法向量模√(9+16)=5。",
+        "距离为10/5=2，必非负。"
+      ],
+      "marking_points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "Abs(3*2+4*(-1)-12)/sqrt(3**2+4**2)",
+        "expected": "2",
+        "result": "pass"
+      },
+      "figure": null,
+      "options": [
+        {
+          "text": "2",
+          "reason": "正确：见完整解析。"
+        },
+        {
+          "text": "−2",
+          "reason": "距离非负，不能保留代入值的负号。"
+        },
+        {
+          "text": "2/5",
+          "reason": "把已除过法向量模的距离再除5，重复归一化。"
+        },
+        {
+          "text": "10",
+          "reason": "10只是代入后的绝对值，尚未除以法向量模5。"
+        }
+      ],
+      "correct_option": 0,
+      "number": 5
+    },
+    {
+      "id": "ME26-M018",
+      "kind": "mcq",
+      "primary_chapter": 18,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "长方体体对角线",
+      "difficulty": "basic",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 2,
+      "stem": "长方体三条互相垂直的棱长为2、3、6。体对角线长为何？",
+      "answer": "7",
+      "solution_steps": [
+        "三维勾股为√(2²+3²+6²)。",
+        "平方和4+9+36=49。",
+        "对角线为7，不能直接相加。"
+      ],
+      "marking_points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "sqrt(2**2+3**2+6**2)",
+        "expected": "7",
+        "result": "pass"
+      },
+      "figure": null,
+      "options": [
+        {
+          "text": "11",
+          "reason": "11是三棱长之和，不是空间直线距离。"
+        },
+        {
+          "text": "√41",
+          "reason": "平方和应4+9+36=49，不能漏项或误算。"
+        },
+        {
+          "text": "7",
+          "reason": "正确：见完整解析。"
+        },
+        {
+          "text": "36",
+          "reason": "36只是一条最长棱的平方，量纲和对象均不符。"
+        }
+      ],
+      "correct_option": 2,
+      "number": 6
+    },
+    {
+      "id": "ME26-M010",
+      "kind": "mcq",
+      "primary_chapter": 10,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "余弦定律的夹角",
+      "difficulty": "medium",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 2,
+      "stem": "三角形两边长为5与7，夹角为\\(60^\\circ\\)。第三边平方为何？",
+      "answer": "39",
+      "solution_steps": [
+        "两已知边与其夹角适用余弦定律。",
+        "c²=25+49−2·5·7·(1/2)=39。",
+        "减号对应余弦项，且结果符合三角形边长限制。"
+      ],
+      "marking_points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "25+49-2*5*7*cos(pi/3)",
+        "expected": "39",
+        "result": "pass"
+      },
+      "figure": null,
+      "options": [
+        {
+          "text": "109",
+          "reason": "错误地把−2ab cosA改为加号。"
+        },
+        {
+          "text": "25",
+          "reason": "25不是给定三边关系的第三边平方，代回cosA不为1/2。"
+        },
+        {
+          "text": "39",
+          "reason": "正确：见完整解析。"
+        },
+        {
+          "text": "74",
+          "reason": "74是两边平方和，遗漏夹角交叉项。"
+        }
+      ],
+      "correct_option": 2,
+      "number": 7
+    },
+    {
+      "id": "ME26-M007",
+      "kind": "mcq",
+      "primary_chapter": 7,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "量词否定与反例",
+      "difficulty": "medium",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 2,
+      "stem": "命题“每个实数\\(x\\)都满足\\(x^2>x\\)”的否定为何？",
+      "answer": "存在实数x使x²≤x",
+      "solution_steps": [
+        "全称命题否定为存在反例。",
+        "对“>”取逻辑补集为“≤”。",
+        "x=0是反例；否定不要求所有实数都失败。"
+      ],
+      "marking_points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "0**2-0",
+        "expected": "0",
+        "result": "pass"
+      },
+      "figure": null,
+      "options": [
+        {
+          "text": "存在实数x使x²≤x",
+          "reason": "正确：见完整解析。"
+        },
+        {
+          "text": "每个实数x都满足x²≤x",
+          "reason": "把存在反例错写成所有实数都失败。"
+        },
+        {
+          "text": "每个实数x都满足x²≥x",
+          "reason": "这是否定不严格命题的形式，且未将全称改存在。"
+        },
+        {
+          "text": "存在实数x使x²<x",
+          "reason": "对>的补集为≤；x=0使等号成立也应纳入否定。"
+        }
+      ],
+      "correct_option": 0,
+      "number": 8
+    },
+    {
+      "id": "ME26-M013",
+      "kind": "mcq",
+      "primary_chapter": 13,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "由部分和求通项",
+      "difficulty": "medium",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 2,
+      "stem": "数列前\\(n\\)项和为\\(S_n=3n^2+n\\)。第10项为何？",
+      "answer": "58",
+      "solution_steps": [
+        "通项a_n=S_n−S_(n−1)。",
+        "a_n=3(2n−1)+1=6n−2。",
+        "a_10=58；不是把S_10误作单项。"
+      ],
+      "marking_points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "(3*10**2+10)-(3*9**2+9)",
+        "expected": "58",
+        "result": "pass"
+      },
+      "figure": null,
+      "options": [
+        {
+          "text": "310",
+          "reason": "310是S10，题目问a10。"
+        },
+        {
+          "text": "60",
+          "reason": "忽略S_n中的一次项和差分的−3。"
+        },
+        {
+          "text": "58",
+          "reason": "正确：见完整解析。"
+        },
+        {
+          "text": "64",
+          "reason": "通项应6n−2，64是常数项符号处理错误。"
+        }
+      ],
+      "correct_option": 2,
+      "number": 9
+    },
+    {
+      "id": "ME26-M040",
+      "kind": "mcq",
+      "primary_chapter": 24,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "定积分对称",
+      "difficulty": "medium",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 2,
+      "stem": "连续函数\\(f\\)满足\\(f(x)+f(2-x)=6\\)。求\\(\\int_0^2f(x)dx\\)。",
+      "answer": "6",
+      "solution_steps": [
+        "换元u=2−x，积分不变。",
+        "把两式相加得2I=∫0²6 dx=12。",
+        "所以I=6，不需要知道f的具体式。"
+      ],
+      "marking_points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "integrate(6,(x,0,2))/2",
+        "expected": "6",
+        "result": "pass"
+      },
+      "figure": null,
+      "options": [
+        {
+          "text": "3",
+          "reason": "少算区间长度2或多除一次2。"
+        },
+        {
+          "text": "6",
+          "reason": "正确：见完整解析。"
+        },
+        {
+          "text": "12",
+          "reason": "12是两个相等积分之和2I。"
+        },
+        {
+          "text": "无法确定",
+          "reason": "虽不知道f具体式，反射和条件足以确定积分。"
+        }
+      ],
+      "correct_option": 1,
+      "number": 10
+    },
+    {
+      "id": "ME26-M019",
+      "kind": "mcq",
+      "primary_chapter": 19,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "受限排列首位",
+      "difficulty": "medium",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 2,
+      "stem": "从0、1、2、3、4中无重复地组成三位偶数，共有多少个？",
+      "answer": "30",
+      "solution_steps": [
+        "末位0：首位4选、十位3选，共12。",
+        "末位2或4：首位3选、十位3选，共18。",
+        "合计30；排除首位0，分类互斥不重计。"
+      ],
+      "marking_points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "4*3+2*3*3",
+        "expected": "30",
+        "result": "pass"
+      },
+      "figure": null,
+      "options": [
+        {
+          "text": "48",
+          "reason": "未按末位和首位限制分类，计数包含不合法三位数。"
+        },
+        {
+          "text": "60",
+          "reason": "60是5P3，含奇数与首位0，限制尚未应用。"
+        },
+        {
+          "text": "36",
+          "reason": "通常来自末位为2/4时仍允许首位0。"
+        },
+        {
+          "text": "30",
+          "reason": "正确：见完整解析。"
+        }
+      ],
+      "correct_option": 3,
+      "number": 11
+    },
+    {
+      "id": "ME26-M020",
+      "kind": "mcq",
+      "primary_chapter": 20,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "负指数展开条件",
+      "difficulty": "medium",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 2,
+      "stem": "\\((1-2x)^{-1}\\)按升幂展开时，\\(x^3\\)系数与收敛条件分别为何？",
+      "answer": "8，|x|<1/2",
+      "solution_steps": [
+        "视为公比2x的几何级数。",
+        "x³项为(2x)³=8x³。",
+        "要求|2x|<1，不把有限多项式的全域性质套到无穷级数。"
+      ],
+      "marking_points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "expand((2*x)**3).coeff(x,3)",
+        "expected": "8",
+        "result": "pass"
+      },
+      "figure": null,
+      "options": [
+        {
+          "text": "8，|x|<1/2",
+          "reason": "正确：见完整解析。"
+        },
+        {
+          "text": "6，所有x",
+          "reason": "系数不是有限三阶二项系数，且无穷级数不能宣称全域收敛。"
+        },
+        {
+          "text": "8，|x|<2",
+          "reason": "几何级数要求|2x|<1，不能写成|x|<2。"
+        },
+        {
+          "text": "−8，|x|<1/2",
+          "reason": "公比为2x，三次项系数为正8，不是−8。"
+        }
+      ],
+      "correct_option": 0,
+      "number": 12
+    },
+    {
+      "id": "ME26-M038",
+      "kind": "mcq",
+      "primary_chapter": 10,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "正弦定律SSA分支",
+      "difficulty": "hard",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 2,
+      "stem": "三角形中\\(A=30^\\circ,a=5,b=8\\)。满足条件的三角形共有几个？",
+      "answer": "2",
+      "solution_steps": [
+        "sinB=b sinA/a=4/5。",
+        "B可为arcsin(4/5)或其补角，均满足B<150°。",
+        "余下角均正，所以有两个不同三角形。"
+      ],
+      "marking_points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "Rational(8,1)*sin(pi/6)/5",
+        "expected": "4/5",
+        "result": "pass"
+      },
+      "figure": null,
+      "options": [
+        {
+          "text": "0",
+          "reason": "sinB=4/5在允许角度内有解，并非无解。"
+        },
+        {
+          "text": "1",
+          "reason": "遗漏B为补角时仍有正的第三角。"
+        },
+        {
+          "text": "3",
+          "reason": "0<B<π中同一正弦值最多两个角，不会有三支。"
+        },
+        {
+          "text": "2",
+          "reason": "正确：见完整解析。"
+        }
+      ],
+      "correct_option": 3,
+      "number": 13
+    },
+    {
+      "id": "ME26-M037",
+      "kind": "mcq",
+      "primary_chapter": 6,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "分式不等式的参数反例",
+      "difficulty": "hard",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 2,
+      "stem": "若\\(x>1\\)，以下哪一不等式对所有这样的实数x都成立？",
+      "answer": "x+1/x>2",
+      "solution_steps": [
+        "x>1且x>0；x+1/x−2=(x−1)²/x>0。",
+        "1<x<2时第二项可大于1；x>2时第三项失败。",
+        "对数凹性给ln x≤x−1，故最后一项不对。"
+      ],
+      "marking_points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "simplify(x+1/x-2-(x-1)**2/x)",
+        "expected": "0",
+        "result": "pass"
+      },
+      "figure": null,
+      "options": [
+        {
+          "text": "x+1/x>2",
+          "reason": "正确：见完整解析。"
+        },
+        {
+          "text": "x²<2x",
+          "reason": "取x=3时9<6不成立。"
+        },
+        {
+          "text": "1/(x−1)<1",
+          "reason": "取x=3/2时1/(x−1)=2，不小于1。"
+        },
+        {
+          "text": "ln x>x−1",
+          "reason": "对x>1，ln x<x−1，方向反了。"
+        }
+      ],
+      "correct_option": 0,
+      "number": 14
+    },
+    {
+      "id": "ME26-M026",
+      "kind": "mcq",
+      "primary_chapter": 26,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "条件概率的分母",
+      "difficulty": "hard",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 2,
+      "stem": "两枚独立均匀骰子同时掷出。已知点数和为8，至少一枚为6的条件概率为何？",
+      "answer": "2/5",
+      "solution_steps": [
+        "和为8的有序结果为(2,6),(3,5),(4,4),(5,3),(6,2)。",
+        "其中含6的有2个。",
+        "在5个条件样本中计数，故2/5，不用36作分母。"
+      ],
+      "marking_points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "Rational(2,5)",
+        "expected": "2/5",
+        "result": "pass"
+      },
+      "figure": null,
+      "options": [
+        {
+          "text": "1/3",
+          "reason": "条件下5个有序结果均等，2个含6，不能换成1/3。"
+        },
+        {
+          "text": "2/5",
+          "reason": "正确：见完整解析。"
+        },
+        {
+          "text": "1/5",
+          "reason": "只数(2,6)而漏掉(6,2)。"
+        },
+        {
+          "text": "1/6",
+          "reason": "1/6使用了无条件骰子单次概率。"
+        }
+      ],
+      "correct_option": 1,
+      "number": 15
+    },
+    {
+      "id": "ME26-W003",
+      "kind": "written",
+      "primary_chapter": 5,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "反函数及定义域",
+      "difficulty": "basic",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 4,
+      "stem": "\\(f(x)=\\sqrt{x-2}\\)，定义域\\([2,\\infty)\\)。求反函数及其定义域。",
+      "answer": "f⁻¹(x)=x²+2，x≥0。",
+      "solution_steps": [
+        "令y=√(x−2)，y≥0。",
+        "交换变量得x=√(y−2)，所以y=x²+2。",
+        "反函数输入域来自原值域[0,∞)，不能扩到所有实数。"
+      ],
+      "marking_points": [
+        {
+          "description": "正确交换并解出反函数",
+          "marks": 2
+        },
+        {
+          "description": "写出反函数定义域并解释",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "(sqrt(x-2)**2+2)",
+        "expected": "x",
+        "result": "pass"
+      },
+      "figure": null,
+      "number": 1
+    },
+    {
+      "id": "ME26-W006",
+      "kind": "written",
+      "primary_chapter": 15,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "矩阵解线性系统",
+      "difficulty": "basic",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 4,
+      "stem": "用矩阵或消元解\\(2u+v=7,\\ u-v=2\\)，并回代。",
+      "answer": "u=3，v=1。",
+      "solution_steps": [
+        "系数矩阵[[2,1],[1,−1]]行列式−3非0。",
+        "两式相加3u=9得u=3，再得v=1。",
+        "回代2×3+1=7、3−1=2。"
+      ],
+      "marking_points": [
+        {
+          "description": "列矩阵/消元并说明可解",
+          "marks": 1
+        },
+        {
+          "description": "求出u、v",
+          "marks": 2
+        },
+        {
+          "description": "代回两式",
+          "marks": 1
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "det(Matrix([[2,1],[1,-1]]))",
+        "expected": "-3",
+        "result": "pass"
+      },
+      "figure": null,
+      "number": 2
+    },
+    {
+      "id": "ME26-W004",
+      "kind": "written",
+      "primary_chapter": 6,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "分式不等式区间",
+      "difficulty": "basic",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 4,
+      "stem": "解\\(\\frac{x-2}{x+1}\\ge0\\)，写出端点是否可取。",
+      "answer": "(−∞,−1)∪[2,∞)。",
+      "solution_steps": [
+        "分母要求x≠−1；零点x=2。",
+        "在三段取点测试，(−∞,−1)及(2,∞)为正。",
+        "2使分子为0应包含；−1使分母为0必须排除。"
+      ],
+      "marking_points": [
+        {
+          "description": "标出两个临界点并排除分母零点",
+          "marks": 1
+        },
+        {
+          "description": "作符号分析",
+          "marks": 2
+        },
+        {
+          "description": "合并区间并正确端点",
+          "marks": 1
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "((x-2)/(x+1)).subs(x,2)",
+        "expected": "0",
+        "result": "pass"
+      },
+      "figure": null,
+      "number": 3
+    },
+    {
+      "id": "ME26-W012",
+      "kind": "written",
+      "primary_chapter": 34,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "复数根与实系数",
+      "difficulty": "medium",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 4,
+      "stem": "实系数首一二次方程有一根\\(2-3i\\)，求此方程，说明另一根。",
+      "answer": "x²−4x+13=0；另一根2+3i。",
+      "solution_steps": [
+        "实系数使非实根成共轭对。",
+        "根和4、根积4+9=13。",
+        "由韦达得x²−4x+13，代2−3i可验为0。"
+      ],
+      "marking_points": [
+        {
+          "description": "说明共轭根",
+          "marks": 1
+        },
+        {
+          "description": "求和积并构造方程",
+          "marks": 2
+        },
+        {
+          "description": "复核",
+          "marks": 1
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "expand((Symbol(\"z\")-(2-3*I))*(Symbol(\"z\")-(2+3*I)))",
+        "expected": "Symbol(\"z\")**2-4*Symbol(\"z\")+13",
+        "result": "pass"
+      },
+      "figure": null,
+      "number": 4
+    },
+    {
+      "id": "ME26-W011",
+      "kind": "written",
+      "primary_chapter": 28,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "隐式切线与过点检验",
+      "difficulty": "medium",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 4,
+      "stem": "求\\(x^2+xy+y^2=7\\)在\\((2,1)\\)的切线，并验证该点在曲线上。",
+      "answer": "切线5x+4y=14。",
+      "solution_steps": [
+        "先核4+2+1=7，点在曲线上。",
+        "隐微分y′=−(2x+y)/(x+2y)，在(2,1)为−5/4。",
+        "点斜式y−1=−5(x−2)/4，整理5x+4y=14。"
+      ],
+      "marking_points": [
+        {
+          "description": "点在曲线及隐微分",
+          "marks": 2
+        },
+        {
+          "description": "求斜率并写切线",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "5*2+4*1",
+        "expected": "14",
+        "result": "pass"
+      },
+      "figure": null,
+      "number": 5
+    },
+    {
+      "id": "ME26-W019",
+      "kind": "written",
+      "primary_chapter": 22,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "极值与闭区间端点",
+      "difficulty": "medium",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 6,
+      "stem": "\\(f(x)=x^3-3x\\)。(a)分类所有驻点；(b)求[-2,3]上的最大值和最小值，写出达到位置。",
+      "answer": "局部极大(−1,2)，局部极小(1,−2)；闭区间最大18于3，最小−2于−2及1。",
+      "solution_steps": [
+        "f′=3(x−1)(x+1)，负到正等符号分析：−1为极大，1为极小。",
+        "闭区间还须检端点f(−2)=−2、f(3)=18。",
+        "与f(−1)=2、f(1)=−2比较，最小在两处达到。"
+      ],
+      "marking_points": [
+        {
+          "description": "驻点及增减判断",
+          "marks": 2
+        },
+        {
+          "description": "端点与驻点值完整",
+          "marks": 2
+        },
+        {
+          "description": "全局最值及所有达到点",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "(x**3-3*x).subs(x,3)",
+        "expected": "18",
+        "result": "pass"
+      },
+      "figure": null,
+      "number": 6
+    },
+    {
+      "id": "ME26-W013",
+      "kind": "written",
+      "primary_chapter": 2,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "二次根的参数与最值",
+      "difficulty": "medium",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 6,
+      "stem": "\\(p(x)=x^2-(t+2)x+2t\\)。(a)写出两根；(b)求两个相异正根的t范围；(c)在0<t<2时求两根之积的上确界，并说明是否达到。",
+      "answer": "根2,t；t>0且t≠2；上确界4，不达到。",
+      "solution_steps": [
+        "分解p=(x−2)(x−t)。",
+        "根正且相异等价于t>0,t≠2。",
+        "在0<t<2，积2t严格小于4且可任意接近4，故上确界4但无最大值。"
+      ],
+      "marking_points": [
+        {
+          "description": "因式分解及两根",
+          "marks": 2
+        },
+        {
+          "description": "完整参数条件",
+          "marks": 2
+        },
+        {
+          "description": "区分上确界和最大值",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "expand((x-2)*(x-Symbol(\"t\")))",
+        "expected": "x**2-(Symbol(\"t\")+2)*x+2*Symbol(\"t\")",
+        "result": "pass"
+      },
+      "figure": null,
+      "number": 7
+    },
+    {
+      "id": "ME26-W024",
+      "kind": "written",
+      "primary_chapter": 30,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "指数衰变与单位",
+      "difficulty": "medium",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 6,
+      "stem": "样品质量满足dm/dt=−km，k>0，t以小时计。m(0)=80克，6小时后剩40克。(a)求模型；(b)何时剩10克？",
+      "answer": "m(t)=80·2^(−t/6)；18小时。",
+      "solution_steps": [
+        "分离积分ln m=−kt+C，对质量正支有m=80e^(−kt)。",
+        "代6小时得e^(−6k)=1/2，k=ln2/6。",
+        "10/80=1/8=(1/2)³，所以t=18小时；回代为10。"
+      ],
+      "marking_points": [
+        {
+          "description": "解微分方程并定初值",
+          "marks": 2
+        },
+        {
+          "description": "由半衰期定k及单位",
+          "marks": 2
+        },
+        {
+          "description": "求时刻并代回",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "80*2**(-Rational(18,6))",
+        "expected": "10",
+        "result": "pass"
+      },
+      "figure": null,
+      "number": 8
+    },
+    {
+      "id": "ME26-W021",
+      "kind": "written",
+      "primary_chapter": 26,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "Bayes与独立重检",
+      "difficulty": "medium",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 6,
+      "stem": "某批零件次品率1/5。一次检验对次品报阳概率9/10，对正品报阳概率1/10。(a)求阳性率；(b)已知阳性求次品概率；(c)若在零件状态给定时两次检验独立，求两次均阳后的次品概率。",
+      "answer": "阳性13/50；一次9/13；两次81/85。",
+      "solution_steps": [
+        "全概率P(+)=1/5·9/10+4/5·1/10=13/50。",
+        "Bayes给(9/50)/(13/50)=9/13。",
+        "条件独立时P(次∩++)=81/500，正∩++=4/500，所以81/85；不是把无条件阳性率平方。"
+      ],
+      "marking_points": [
+        {
+          "description": "全概率",
+          "marks": 2
+        },
+        {
+          "description": "一次条件概率",
+          "marks": 2
+        },
+        {
+          "description": "说明条件独立并求双阳后验",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "(Rational(1,5)*Rational(9,10)**2)/(Rational(1,5)*Rational(9,10)**2+Rational(4,5)*Rational(1,10)**2)",
+        "expected": "81/85",
+        "result": "pass"
+      },
+      "figure": null,
+      "number": 9
+    },
+    {
+      "id": "ME26-W023",
+      "kind": "written",
+      "primary_chapter": 29,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "部分分式与原域",
+      "difficulty": "medium",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 6,
+      "stem": "求\\(\\int\\frac{3x+1}{(x-1)(x+1)}dx\\)，并说明结果在哪些区间适用。",
+      "answer": "2ln|x−1|+ln|x+1|+C；在(−∞,−1)、(−1,1)、(1,∞)分别适用，常数可不同。",
+      "solution_steps": [
+        "设A/(x−1)+B/(x+1)，解A+B=3,A−B=1，得A=2,B=1。",
+        "分别积分得到两个绝对值对数。",
+        "原函数只在不跨越极点的连通区间定义；求导回到原分式。"
+      ],
+      "marking_points": [
+        {
+          "description": "完整部分分式",
+          "marks": 2
+        },
+        {
+          "description": "积分及常数",
+          "marks": 2
+        },
+        {
+          "description": "三个区间与验导",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "diff(2*log(x-1)+log(x+1),x)",
+        "expected": "(3*x+1)/((x-1)*(x+1))",
+        "result": "pass"
+      },
+      "figure": null,
+      "number": 10
+    },
+    {
+      "id": "ME26-W035",
+      "kind": "written",
+      "primary_chapter": 33,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "抛物线最短距离与交点数",
+      "difficulty": "hard",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 10,
+      "stem": "抛物线\\(y=x^2\\)，点P=(0,2)。(a)求抛物线上点到P距离平方的表达式；(b)求最短距离及所有最近点；(c)以P为圆心的圆与抛物线相交于4个不同点，求半径r范围。",
+      "answer": "d²=x⁴−3x²+4；最短√7/2，最近点(±√(3/2),3/2)；√7/2<r<2。",
+      "solution_steps": [
+        "d²=x²+(x²−2)²=x⁴−3x²+4。",
+        "令u=x²≥0，则d²=(u−3/2)²+7/4，最小7/4在u=3/2取到。",
+        "最近点两支都保留，y=3/2。",
+        "交点方程u²−3u+4−r²=0要有两个互异正u，方能给4个不同x。",
+        "判别式4r²−7>0、根和3>0、根积4−r²>0，合并√7/2<r<2；端点分别切触或含x=0不能计4点。"
+      ],
+      "marking_points": [
+        {
+          "description": "正确距离平方及u域",
+          "marks": 2
+        },
+        {
+          "description": "配方最短与两个最近点",
+          "marks": 3
+        },
+        {
+          "description": "两个正且异的u条件",
+          "marks": 3
+        },
+        {
+          "description": "合并范围及端点解释",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "(x**4-3*x**2+4).subs(x,sqrt(Rational(3,2)))",
+        "expected": "7/4",
+        "result": "pass"
+      },
+      "figure": null,
+      "number": 11
+    },
+    {
+      "id": "ME26-W030",
+      "kind": "written",
+      "primary_chapter": 24,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "两轴旋转与量纲比较",
+      "difficulty": "hard",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 10,
+      "stem": "区域R由\\(y=x^2\\)与\\(y=4\\)及y轴围成，取第一象限部分。(a)求面积；(b)求R绕x轴旋转体积；(c)改绕y轴旋转求体积；(d)比较并解释为何同区域不保证同体积。",
+      "answer": "面积16/3；Vx=128π/5；Vy=8π；两者不同。",
+      "solution_steps": [
+        "第一象限交点x=2，区域0≤x≤2，x²≤y≤4。",
+        "面积∫0²(4−x²)dx=16/3。",
+        "绕x轴外半径4、内半径x²：π∫0²(16−x⁴)dx=128π/5。",
+        "绕y轴用y：0≤y≤4，0≤x≤√y，圆盘体积π∫0⁴y dy=8π。",
+        "旋转轴改变点的转动半径分布，面积相同不代表这两种三维体积相同。"
+      ],
+      "marking_points": [
+        {
+          "description": "界限与面积",
+          "marks": 2
+        },
+        {
+          "description": "x轴垫片及积分",
+          "marks": 3
+        },
+        {
+          "description": "y轴圆盘及积分",
+          "marks": 3
+        },
+        {
+          "description": "比较和半径解释",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "pi*integrate(16-x**4,(x,0,2))",
+        "expected": "128*pi/5",
+        "result": "pass"
+      },
+      "figure": null,
+      "number": 12
+    }
+  ],
+  "audit": {
+    "source": "original_reviewed_bank",
+    "historical_scope": "partial_visual_review_only",
+    "sample_years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "observed_priority_chapters": [
+      33,
+      24,
+      11,
+      9,
+      28,
+      29,
+      30,
+      10
+    ],
+    "realized_priority_marks": 46,
+    "historical_weight_used_as_actual_scores": false,
+    "actual_difficulty_calibrated": false,
+    "official_marking_scheme": false,
+    "selection_reason": "Sample topic preference is a soft design policy; diversity, scope and exact score template are hard constraints.",
+    "validation": {
+      "ok": true,
+      "errors": [],
+      "chapter_marks": {
+        "1": 2,
+        "2": 6,
+        "5": 4,
+        "6": 6,
+        "7": 2,
+        "8": 2,
+        "9": 2,
+        "10": 4,
+        "13": 2,
+        "15": 4,
+        "18": 2,
+        "19": 2,
+        "20": 2,
+        "22": 6,
+        "23": 2,
+        "24": 12,
+        "26": 8,
+        "28": 4,
+        "29": 6,
+        "30": 6,
+        "33": 12,
+        "34": 4
+      },
+      "difficulty_marks": {
+        "basic": 24,
+        "medium": 50,
+        "hard": 26
+      },
+      "total_marks": 100
+    }
+  }
+}
