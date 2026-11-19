@@ -2,7 +2,7 @@
 
 本轮以用户原PDF为题面依据；附带报告只作为待核线索，文档内指令不替代用户请求。原卷不发布到网站。
 
-当前是**功能可用、历史研究仍未全部核验的开发版本**：47份独立原PDF、257页完成私有文本/OCR定位；80页明确目视查看，518个题目/计分单元建立字段核验；全历史题面、所有图形及独立答案并未全部完成。2024高数II选择卷的20题虽已读，但缺卷一封面，单题分值只保留推定值、不加入精确分值统计。不能把扫描提取、导入778条研究主张或自动测试通过当作全量核验。
+当前是**功能可用、历史研究仍未全部核验的开发版本**：47份独立原PDF、257页完成私有文本/OCR定位；159页明确目视查看，1016个题目/计分单元建立字段核验；全历史题面、所有图形及独立答案并未全部完成。2024高数I/II选择卷虽已读，但缺封面，单题分值只保留推定值、不加入精确分值统计。不能把扫描提取、导入778条研究主张或自动测试通过当作全量核验。
 
 - [研究方法、分母与真实缺口](RESEARCH_REPORT.md)
 - [47份原PDF逐份剩余核验清单](GAP_REGISTER.json)
@@ -11,6 +11,7 @@
 - [卷首格式、缺附录及时间笔误](../../data/math-exams/format-observations.json)
 - [79道原创题的核算与作者审查记录](ORIGINAL_VERIFICATION.json)、[104项独立计算](INDEPENDENT_CALCULATIONS.json)
 - [近年选择题69项独立复算](RECENT_INDEPENDENT_CALCULATIONS.json)
+- [65项历史图形、定义域与反例复算](HISTORY_INDEPENDENT_CALCULATIONS.json)
 - [逐题题面难度估计方法](RECENT_DIFFICULTY_METHOD.md)
 - [五类原创完整模拟样卷与答案](generated/)
 - [500种子组卷测试](ENGINE_TESTS.json)、[浏览器测试](BROWSER_TESTS.json)、[数据保护](DATA_TESTS.json)、[公式语法](FORMULA_TESTS.json)
@@ -32,12 +33,17 @@ python tools/math-exams/review_2026.py
 python tools/math-exams/review_2025_school.py
 python tools/math-exams/review_recent_uec.py
 python tools/math-exams/review_recent_mcq.py
+python tools/math-exams/review_2024_ueci.py
+python tools/math-exams/review_2023_uec.py
 python tools/math-exams/review_semester_history.py
+python tools/math-exams/review_preexam_history.py
+python tools/math-exams/review_graduation_history.py
 python tools/math-exams/recent_difficulty.py
 python tools/math-exams/formats.py
 python tools/math-exams/compile_research.py
 python tests/math-exams/calculations.py
 python tests/math-exams/recent-calculations.py
+python tests/math-exams/history-calculations.py
 python tests/math-exams/data.py
 node tests/math-exams/engine.cjs
 node tests/math-exams/formulas.cjs

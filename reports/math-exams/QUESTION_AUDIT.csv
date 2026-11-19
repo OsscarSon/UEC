@@ -1,341 +1,126 @@
 id,exam_type,year,paper,question,subquestion,source_pdf_id,source_page,primary_chapter,printed_marks,verification_status,statistics_eligible,scope_conflict,notes
-preexam_math_ii:2022:mcq:1:whole,preexam_math_ii,2022,mcq,1,whole,,,,,needs_review,False,False,
-preexam_math_ii:2022:mcq:2:whole,preexam_math_ii,2022,mcq,2,whole,,,,,needs_review,False,False,
-preexam_math_ii:2022:mcq:3:whole,preexam_math_ii,2022,mcq,3,whole,,,,,needs_review,False,False,
-preexam_math_ii:2022:mcq:4:whole,preexam_math_ii,2022,mcq,4,whole,,,,,needs_review,False,False,
-preexam_math_ii:2022:mcq:5:whole,preexam_math_ii,2022,mcq,5,whole,,,,,needs_review,False,False,
-preexam_math_ii:2022:mcq:6:whole,preexam_math_ii,2022,mcq,6,whole,,,,,needs_review,False,False,
-preexam_math_ii:2022:mcq:7:whole,preexam_math_ii,2022,mcq,7,whole,,,,,needs_review,False,False,
-preexam_math_ii:2022:mcq:8:whole,preexam_math_ii,2022,mcq,8,whole,,,,,needs_review,False,False,
-preexam_math_ii:2022:mcq:9:whole,preexam_math_ii,2022,mcq,9,whole,,,,,needs_review,False,False,
-preexam_math_ii:2022:mcq:10:whole,preexam_math_ii,2022,mcq,10,whole,,,,,needs_review,False,False,
-preexam_math_ii:2022:mcq:11:whole,preexam_math_ii,2022,mcq,11,whole,,,,,needs_review,False,False,
-preexam_math_ii:2022:mcq:12:whole,preexam_math_ii,2022,mcq,12,whole,,,,,needs_review,False,False,
-preexam_math_ii:2022:mcq:13:whole,preexam_math_ii,2022,mcq,13,whole,,,,,needs_review,False,False,
-preexam_math_ii:2022:mcq:14:whole,preexam_math_ii,2022,mcq,14,whole,,,,,needs_review,False,False,
-preexam_math_ii:2022:mcq:15:whole,preexam_math_ii,2022,mcq,15,whole,,,,,needs_review,False,False,
-preexam_math_ii:2022:mcq:16:whole,preexam_math_ii,2022,mcq,16,whole,,,,,needs_review,False,False,
-preexam_math_ii:2022:mcq:17:whole,preexam_math_ii,2022,mcq,17,whole,,,,,needs_review,False,False,
-preexam_math_ii:2022:mcq:18:whole,preexam_math_ii,2022,mcq,18,whole,,,,,needs_review,False,False,
-preexam_math_ii:2022:mcq:19:whole,preexam_math_ii,2022,mcq,19,whole,,,,,needs_review,False,False,
-preexam_math_ii:2022:mcq:20:whole,preexam_math_ii,2022,mcq,20,whole,,,,,needs_review,False,False,
-preexam_math_ii:2023:mcq:1:whole,preexam_math_ii,2023,mcq,1,whole,,,,,needs_review,False,False,
-preexam_math_ii:2023:mcq:2:whole,preexam_math_ii,2023,mcq,2,whole,,,,,needs_review,False,False,
-preexam_math_ii:2023:mcq:3:whole,preexam_math_ii,2023,mcq,3,whole,,,,,needs_review,False,False,
-preexam_math_ii:2023:mcq:4:whole,preexam_math_ii,2023,mcq,4,whole,,,,,needs_review,False,False,
-preexam_math_ii:2023:mcq:5:whole,preexam_math_ii,2023,mcq,5,whole,,,,,needs_review,False,False,
-preexam_math_ii:2023:mcq:6:whole,preexam_math_ii,2023,mcq,6,whole,,,,,needs_review,False,False,
-preexam_math_ii:2023:mcq:7:whole,preexam_math_ii,2023,mcq,7,whole,,,,,needs_review,False,False,
-preexam_math_ii:2023:mcq:8:whole,preexam_math_ii,2023,mcq,8,whole,,,,,needs_review,False,False,
-preexam_math_ii:2023:mcq:9:whole,preexam_math_ii,2023,mcq,9,whole,,,,,needs_review,False,False,
-preexam_math_ii:2023:mcq:10:whole,preexam_math_ii,2023,mcq,10,whole,,,,,needs_review,False,False,
-preexam_math_ii:2023:mcq:11:whole,preexam_math_ii,2023,mcq,11,whole,,,,,needs_review,False,False,
-preexam_math_ii:2023:mcq:12:whole,preexam_math_ii,2023,mcq,12,whole,,,,,needs_review,False,False,
-preexam_math_ii:2023:mcq:13:whole,preexam_math_ii,2023,mcq,13,whole,,,,,needs_review,False,False,
-preexam_math_ii:2023:mcq:14:whole,preexam_math_ii,2023,mcq,14,whole,,,,,needs_review,False,False,
-preexam_math_ii:2023:mcq:15:whole,preexam_math_ii,2023,mcq,15,whole,,,,,needs_review,False,False,
-preexam_math_ii:2023:mcq:16:whole,preexam_math_ii,2023,mcq,16,whole,,,,,needs_review,False,False,
-preexam_math_ii:2023:mcq:17:whole,preexam_math_ii,2023,mcq,17,whole,,,,,needs_review,False,False,
-preexam_math_ii:2023:mcq:18:whole,preexam_math_ii,2023,mcq,18,whole,,,,,needs_review,False,False,
-preexam_math_ii:2023:mcq:19:whole,preexam_math_ii,2023,mcq,19,whole,,,,,needs_review,False,False,
-preexam_math_ii:2023:mcq:20:whole,preexam_math_ii,2023,mcq,20,whole,,,,,needs_review,False,False,
-preexam_math_ii:2023:written:1:a,preexam_math_ii,2023,written,1,a,,,,,needs_review,False,False,
-preexam_math_ii:2023:written:1:b,preexam_math_ii,2023,written,1,b,,,,,needs_review,False,False,
-preexam_math_ii:2023:written:1:c,preexam_math_ii,2023,written,1,c,,,,,needs_review,False,False,
-preexam_math_ii:2023:written:2:a(i),preexam_math_ii,2023,written,2,a(i),,,,,needs_review,False,False,
-preexam_math_ii:2023:written:2:a(ii),preexam_math_ii,2023,written,2,a(ii),,,,,needs_review,False,False,
-preexam_math_ii:2023:written:2:b,preexam_math_ii,2023,written,2,b,,,,,needs_review,False,False,
-preexam_math_ii:2023:written:3:a(i),preexam_math_ii,2023,written,3,a(i),,,,,needs_review,False,False,
-preexam_math_ii:2023:written:3:a(ii),preexam_math_ii,2023,written,3,a(ii),,,,,needs_review,False,False,
-preexam_math_ii:2023:written:3:b(i),preexam_math_ii,2023,written,3,b(i),,,,,needs_review,False,False,
-preexam_math_ii:2023:written:3:b(ii),preexam_math_ii,2023,written,3,b(ii),,,,,needs_review,False,False,
-preexam_math_ii:2023:written:4:a(i),preexam_math_ii,2023,written,4,a(i),,,,,needs_review,False,False,
-preexam_math_ii:2023:written:4:a(ii),preexam_math_ii,2023,written,4,a(ii),,,,,needs_review,False,False,
-preexam_math_ii:2023:written:4:b,preexam_math_ii,2023,written,4,b,,,,,needs_review,False,False,
-preexam_math_ii:2023:written:5:a,preexam_math_ii,2023,written,5,a,,,,,needs_review,False,False,
-preexam_math_ii:2023:written:5:b,preexam_math_ii,2023,written,5,b,,,,,needs_review,False,False,
-preexam_math_ii:2023:written:6:a,preexam_math_ii,2023,written,6,a,,,,,needs_review,False,False,
-preexam_math_ii:2023:written:6:b,preexam_math_ii,2023,written,6,b,,,,,needs_review,False,False,
-preexam_math_ii:2023:written:7:a,preexam_math_ii,2023,written,7,a,,,,,needs_review,False,False,
-preexam_math_ii:2023:written:7:b,preexam_math_ii,2023,written,7,b,,,,,needs_review,False,False,
-preexam_math_ii:2023:written:8:a(i),preexam_math_ii,2023,written,8,a(i),,,,,needs_review,False,False,
-preexam_math_ii:2023:written:8:a(ii),preexam_math_ii,2023,written,8,a(ii),,,,,needs_review,False,False,
-preexam_math_ii:2023:written:8:b,preexam_math_ii,2023,written,8,b,,,,,needs_review,False,False,
-preexam_math_ii:2023:written:9:a,preexam_math_ii,2023,written,9,a,,,,,needs_review,False,False,
-preexam_math_ii:2023:written:9:b,preexam_math_ii,2023,written,9,b,,,,,needs_review,False,False,
-preexam_math_ii:2023:written:10:a(i),preexam_math_ii,2023,written,10,a(i),,,,,needs_review,False,False,
-preexam_math_ii:2023:written:10:a(ii),preexam_math_ii,2023,written,10,a(ii),,,,,needs_review,False,False,
-preexam_math_ii:2023:written:10:b,preexam_math_ii,2023,written,10,b,,,,,needs_review,False,False,
-preexam_math_ii:2023:written:11:a,preexam_math_ii,2023,written,11,a,,,,,needs_review,False,False,
-preexam_math_ii:2023:written:11:b,preexam_math_ii,2023,written,11,b,,,,,needs_review,False,False,
-preexam_math_ii:2023:written:11:c,preexam_math_ii,2023,written,11,c,,,,,needs_review,False,False,
-preexam_math_ii:2023:written:12:a,preexam_math_ii,2023,written,12,a,,,,,needs_review,False,False,
-preexam_math_ii:2023:written:12:b,preexam_math_ii,2023,written,12,b,,,,,needs_review,False,False,
-preexam_math_ii:2024:mcq:1:whole,preexam_math_ii,2024,mcq,1,whole,,,,,needs_review,False,False,
-preexam_math_ii:2024:mcq:2:whole,preexam_math_ii,2024,mcq,2,whole,,,,,needs_review,False,False,
-preexam_math_ii:2024:mcq:3:whole,preexam_math_ii,2024,mcq,3,whole,,,,,needs_review,False,False,
-preexam_math_ii:2024:mcq:4:whole,preexam_math_ii,2024,mcq,4,whole,,,,,needs_review,False,False,
-preexam_math_ii:2024:mcq:5:whole,preexam_math_ii,2024,mcq,5,whole,,,,,needs_review,False,False,
-preexam_math_ii:2024:mcq:6:whole,preexam_math_ii,2024,mcq,6,whole,,,,,needs_review,False,False,
-preexam_math_ii:2024:mcq:7:whole,preexam_math_ii,2024,mcq,7,whole,,,,,needs_review,False,False,
-preexam_math_ii:2024:mcq:8:whole,preexam_math_ii,2024,mcq,8,whole,,,,,needs_review,False,False,
-preexam_math_ii:2024:mcq:9:whole,preexam_math_ii,2024,mcq,9,whole,,,,,needs_review,False,False,
-preexam_math_ii:2024:mcq:10:whole,preexam_math_ii,2024,mcq,10,whole,,,,,needs_review,False,False,
-preexam_math_ii:2024:mcq:11:whole,preexam_math_ii,2024,mcq,11,whole,,,,,needs_review,False,False,
-preexam_math_ii:2024:mcq:12:whole,preexam_math_ii,2024,mcq,12,whole,,,,,needs_review,False,False,
-preexam_math_ii:2024:mcq:13:whole,preexam_math_ii,2024,mcq,13,whole,,,,,needs_review,False,False,
-preexam_math_ii:2024:mcq:14:whole,preexam_math_ii,2024,mcq,14,whole,,,,,needs_review,False,False,
-preexam_math_ii:2024:mcq:15:whole,preexam_math_ii,2024,mcq,15,whole,,,,,needs_review,False,False,
-preexam_math_ii:2024:mcq:16:whole,preexam_math_ii,2024,mcq,16,whole,,,,,needs_review,False,False,
-preexam_math_ii:2024:mcq:17:whole,preexam_math_ii,2024,mcq,17,whole,,,,,needs_review,False,False,
-preexam_math_ii:2024:mcq:18:whole,preexam_math_ii,2024,mcq,18,whole,,,,,needs_review,False,False,
-preexam_math_ii:2024:mcq:19:whole,preexam_math_ii,2024,mcq,19,whole,,,,,needs_review,False,False,
-preexam_math_ii:2024:mcq:20:whole,preexam_math_ii,2024,mcq,20,whole,,,,,needs_review,False,False,
-preexam_math_ii:2024:written:1:a,preexam_math_ii,2024,written,1,a,,,,,needs_review,False,False,
-preexam_math_ii:2024:written:1:b(i),preexam_math_ii,2024,written,1,b(i),,,,,needs_review,False,False,
-preexam_math_ii:2024:written:1:b(ii),preexam_math_ii,2024,written,1,b(ii),,,,,needs_review,False,False,
-preexam_math_ii:2024:written:2:a,preexam_math_ii,2024,written,2,a,,,,,needs_review,False,False,
-preexam_math_ii:2024:written:2:b(i),preexam_math_ii,2024,written,2,b(i),,,,,needs_review,False,False,
-preexam_math_ii:2024:written:2:b(ii),preexam_math_ii,2024,written,2,b(ii),,,,,needs_review,False,False,
-preexam_math_ii:2024:written:2:b(iii),preexam_math_ii,2024,written,2,b(iii),,,,,needs_review,False,False,
-preexam_math_ii:2024:written:3:a,preexam_math_ii,2024,written,3,a,,,,,needs_review,False,False,
-preexam_math_ii:2024:written:3:b,preexam_math_ii,2024,written,3,b,,,,,needs_review,False,False,
-preexam_math_ii:2024:written:3:c,preexam_math_ii,2024,written,3,c,,,,,needs_review,False,False,
-preexam_math_ii:2024:written:4:a,preexam_math_ii,2024,written,4,a,,,,,needs_review,False,False,
-preexam_math_ii:2024:written:4:b,preexam_math_ii,2024,written,4,b,,,,,needs_review,False,False,
-preexam_math_ii:2024:written:5:a,preexam_math_ii,2024,written,5,a,,,,,needs_review,False,False,
-preexam_math_ii:2024:written:5:b,preexam_math_ii,2024,written,5,b,,,,,needs_review,False,False,
-preexam_math_ii:2024:written:6:a,preexam_math_ii,2024,written,6,a,,,,,needs_review,False,False,
-preexam_math_ii:2024:written:6:b,preexam_math_ii,2024,written,6,b,,,,,needs_review,False,False,
-preexam_math_ii:2024:written:6:c,preexam_math_ii,2024,written,6,c,,,,,needs_review,False,False,
-preexam_math_ii:2024:written:7:a,preexam_math_ii,2024,written,7,a,,,,,needs_review,False,False,
-preexam_math_ii:2024:written:7:b(i),preexam_math_ii,2024,written,7,b(i),,,,,needs_review,False,False,
-preexam_math_ii:2024:written:7:b(ii),preexam_math_ii,2024,written,7,b(ii),,,,,needs_review,False,False,
-preexam_math_ii:2024:written:8:a,preexam_math_ii,2024,written,8,a,,,,,needs_review,False,False,
-preexam_math_ii:2024:written:8:b(i),preexam_math_ii,2024,written,8,b(i),,,,,needs_review,False,False,
-preexam_math_ii:2024:written:8:b(ii),preexam_math_ii,2024,written,8,b(ii),,,,,needs_review,False,False,
-preexam_math_ii:2024:written:9:a,preexam_math_ii,2024,written,9,a,,,,,needs_review,False,False,
-preexam_math_ii:2024:written:9:b,preexam_math_ii,2024,written,9,b,,,,,needs_review,False,False,
-preexam_math_ii:2024:written:9:c,preexam_math_ii,2024,written,9,c,,,,,needs_review,False,False,
-preexam_math_ii:2024:written:10:a(i),preexam_math_ii,2024,written,10,a(i),,,,,needs_review,False,False,
-preexam_math_ii:2024:written:10:a(ii),preexam_math_ii,2024,written,10,a(ii),,,,,needs_review,False,False,
-preexam_math_ii:2024:written:10:b,preexam_math_ii,2024,written,10,b,,,,,needs_review,False,False,
-preexam_math_ii:2024:written:11:a,preexam_math_ii,2024,written,11,a,,,,,needs_review,False,False,
-preexam_math_ii:2024:written:11:b,preexam_math_ii,2024,written,11,b,,,,,needs_review,False,False,
-preexam_math_ii:2024:written:12:a(i),preexam_math_ii,2024,written,12,a(i),,,,,needs_review,False,False,
-preexam_math_ii:2024:written:12:a(ii),preexam_math_ii,2024,written,12,a(ii),,,,,needs_review,False,False,
-preexam_math_ii:2024:written:12:a(iii),preexam_math_ii,2024,written,12,a(iii),,,,,needs_review,False,False,
-preexam_math_ii:2024:written:12:b,preexam_math_ii,2024,written,12,b,,,,,needs_review,False,False,
-graduation_math_ii:2021:mcq:1:whole,graduation_math_ii,2021,mcq,1,whole,,,,,needs_review,False,False,
-graduation_math_ii:2021:mcq:2:whole,graduation_math_ii,2021,mcq,2,whole,,,,,needs_review,False,False,
-graduation_math_ii:2021:mcq:3:whole,graduation_math_ii,2021,mcq,3,whole,,,,,needs_review,False,False,
-graduation_math_ii:2021:mcq:4:whole,graduation_math_ii,2021,mcq,4,whole,,,,,needs_review,False,False,
-graduation_math_ii:2021:mcq:5:whole,graduation_math_ii,2021,mcq,5,whole,,,,,needs_review,False,False,
-graduation_math_ii:2021:mcq:6:whole,graduation_math_ii,2021,mcq,6,whole,,,,,needs_review,False,False,
-graduation_math_ii:2021:mcq:7:whole,graduation_math_ii,2021,mcq,7,whole,,,,,needs_review,False,False,
-graduation_math_ii:2021:mcq:8:whole,graduation_math_ii,2021,mcq,8,whole,,,,,needs_review,False,False,
-graduation_math_ii:2021:mcq:9:whole,graduation_math_ii,2021,mcq,9,whole,,,,,needs_review,False,False,
-graduation_math_ii:2021:mcq:10:whole,graduation_math_ii,2021,mcq,10,whole,,,,,needs_review,False,False,
-graduation_math_ii:2021:mcq:11:whole,graduation_math_ii,2021,mcq,11,whole,,,,,needs_review,False,False,
-graduation_math_ii:2021:mcq:12:whole,graduation_math_ii,2021,mcq,12,whole,,,,,needs_review,False,False,
-graduation_math_ii:2021:mcq:13:whole,graduation_math_ii,2021,mcq,13,whole,,,,,needs_review,False,False,
-graduation_math_ii:2021:mcq:14:whole,graduation_math_ii,2021,mcq,14,whole,,,,,needs_review,False,False,
-graduation_math_ii:2021:mcq:15:whole,graduation_math_ii,2021,mcq,15,whole,,,,,needs_review,False,False,
-graduation_math_ii:2021:mcq:16:whole,graduation_math_ii,2021,mcq,16,whole,,,,,needs_review,False,False,
-graduation_math_ii:2021:mcq:17:whole,graduation_math_ii,2021,mcq,17,whole,,,,,needs_review,False,False,
-graduation_math_ii:2021:mcq:18:whole,graduation_math_ii,2021,mcq,18,whole,,,,,needs_review,False,False,
-graduation_math_ii:2021:mcq:19:whole,graduation_math_ii,2021,mcq,19,whole,,,,,needs_review,False,False,
-graduation_math_ii:2021:mcq:20:whole,graduation_math_ii,2021,mcq,20,whole,,,,,needs_review,False,False,
-graduation_math_ii:2022:mcq:1:whole,graduation_math_ii,2022,mcq,1,whole,,,,,needs_review,False,False,
-graduation_math_ii:2022:mcq:2:whole,graduation_math_ii,2022,mcq,2,whole,,,,,needs_review,False,False,
-graduation_math_ii:2022:mcq:3:whole,graduation_math_ii,2022,mcq,3,whole,,,,,needs_review,False,False,
-graduation_math_ii:2022:mcq:4:whole,graduation_math_ii,2022,mcq,4,whole,,,,,needs_review,False,False,
-graduation_math_ii:2022:mcq:5:whole,graduation_math_ii,2022,mcq,5,whole,,,,,needs_review,False,False,
-graduation_math_ii:2022:mcq:6:whole,graduation_math_ii,2022,mcq,6,whole,,,,,needs_review,False,False,
-graduation_math_ii:2022:mcq:7:whole,graduation_math_ii,2022,mcq,7,whole,,,,,needs_review,False,False,
-graduation_math_ii:2022:mcq:8:whole,graduation_math_ii,2022,mcq,8,whole,,,,,needs_review,False,False,
-graduation_math_ii:2022:mcq:9:whole,graduation_math_ii,2022,mcq,9,whole,,,,,needs_review,False,False,
-graduation_math_ii:2022:mcq:10:whole,graduation_math_ii,2022,mcq,10,whole,,,,,needs_review,False,False,
-graduation_math_ii:2022:mcq:11:whole,graduation_math_ii,2022,mcq,11,whole,,,,,needs_review,False,False,
-graduation_math_ii:2022:mcq:12:whole,graduation_math_ii,2022,mcq,12,whole,,,,,needs_review,False,False,
-graduation_math_ii:2022:mcq:13:whole,graduation_math_ii,2022,mcq,13,whole,,,,,needs_review,False,False,
-graduation_math_ii:2022:mcq:14:whole,graduation_math_ii,2022,mcq,14,whole,,,,,needs_review,False,False,
-graduation_math_ii:2022:mcq:15:whole,graduation_math_ii,2022,mcq,15,whole,,,,,needs_review,False,False,
-graduation_math_ii:2022:mcq:16:whole,graduation_math_ii,2022,mcq,16,whole,,,,,needs_review,False,False,
-graduation_math_ii:2022:mcq:17:whole,graduation_math_ii,2022,mcq,17,whole,,,,,needs_review,False,False,
-graduation_math_ii:2022:mcq:18:whole,graduation_math_ii,2022,mcq,18,whole,,,,,needs_review,False,False,
-graduation_math_ii:2022:mcq:19:whole,graduation_math_ii,2022,mcq,19,whole,,,,,needs_review,False,False,
-graduation_math_ii:2022:mcq:20:whole,graduation_math_ii,2022,mcq,20,whole,,,,,needs_review,False,False,
-graduation_math_ii:2023:mcq:1:whole,graduation_math_ii,2023,mcq,1,whole,,,,,needs_review,False,False,
-graduation_math_ii:2023:mcq:2:whole,graduation_math_ii,2023,mcq,2,whole,,,,,needs_review,False,False,
-graduation_math_ii:2023:mcq:3:whole,graduation_math_ii,2023,mcq,3,whole,,,,,needs_review,False,False,
-graduation_math_ii:2023:mcq:4:whole,graduation_math_ii,2023,mcq,4,whole,,,,,needs_review,False,False,
-graduation_math_ii:2023:mcq:5:whole,graduation_math_ii,2023,mcq,5,whole,,,,,needs_review,False,False,
-graduation_math_ii:2023:mcq:6:whole,graduation_math_ii,2023,mcq,6,whole,,,,,needs_review,False,False,
-graduation_math_ii:2023:mcq:7:whole,graduation_math_ii,2023,mcq,7,whole,,,,,needs_review,False,False,
-graduation_math_ii:2023:mcq:8:whole,graduation_math_ii,2023,mcq,8,whole,,,,,needs_review,False,False,
-graduation_math_ii:2023:mcq:9:whole,graduation_math_ii,2023,mcq,9,whole,,,,,needs_review,False,False,
-graduation_math_ii:2023:mcq:10:whole,graduation_math_ii,2023,mcq,10,whole,,,,,needs_review,False,False,
-graduation_math_ii:2023:mcq:11:whole,graduation_math_ii,2023,mcq,11,whole,,,,,needs_review,False,False,
-graduation_math_ii:2023:mcq:12:whole,graduation_math_ii,2023,mcq,12,whole,,,,,needs_review,False,False,
-graduation_math_ii:2023:mcq:13:whole,graduation_math_ii,2023,mcq,13,whole,,,,,needs_review,False,False,
-graduation_math_ii:2023:mcq:14:whole,graduation_math_ii,2023,mcq,14,whole,,,,,needs_review,False,False,
-graduation_math_ii:2023:mcq:15:whole,graduation_math_ii,2023,mcq,15,whole,,,,,needs_review,False,False,
-graduation_math_ii:2023:mcq:16:whole,graduation_math_ii,2023,mcq,16,whole,,,,,needs_review,False,False,
-graduation_math_ii:2023:mcq:17:whole,graduation_math_ii,2023,mcq,17,whole,,,,,needs_review,False,False,
-graduation_math_ii:2023:mcq:18:whole,graduation_math_ii,2023,mcq,18,whole,,,,,needs_review,False,False,
-graduation_math_ii:2023:mcq:19:whole,graduation_math_ii,2023,mcq,19,whole,,,,,needs_review,False,False,
-graduation_math_ii:2023:mcq:20:whole,graduation_math_ii,2023,mcq,20,whole,,,,,needs_review,False,False,
-graduation_math_ii:2024:mcq:1:whole,graduation_math_ii,2024,mcq,1,whole,,,,,needs_review,False,False,
-graduation_math_ii:2024:mcq:2:whole,graduation_math_ii,2024,mcq,2,whole,,,,,needs_review,False,False,
-graduation_math_ii:2024:mcq:3:whole,graduation_math_ii,2024,mcq,3,whole,,,,,needs_review,False,False,
-graduation_math_ii:2024:mcq:4:whole,graduation_math_ii,2024,mcq,4,whole,,,,,needs_review,False,False,
-graduation_math_ii:2024:mcq:5:whole,graduation_math_ii,2024,mcq,5,whole,,,,,needs_review,False,False,
-graduation_math_ii:2024:mcq:6:whole,graduation_math_ii,2024,mcq,6,whole,,,,,needs_review,False,False,
-graduation_math_ii:2024:mcq:7:whole,graduation_math_ii,2024,mcq,7,whole,,,,,needs_review,False,False,
-graduation_math_ii:2024:mcq:8:whole,graduation_math_ii,2024,mcq,8,whole,,,,,needs_review,False,False,
-graduation_math_ii:2024:mcq:9:whole,graduation_math_ii,2024,mcq,9,whole,,,,,needs_review,False,False,
-graduation_math_ii:2024:mcq:10:whole,graduation_math_ii,2024,mcq,10,whole,,,,,needs_review,False,False,
-graduation_math_ii:2024:mcq:11:whole,graduation_math_ii,2024,mcq,11,whole,,,,,needs_review,False,False,
-graduation_math_ii:2024:mcq:12:whole,graduation_math_ii,2024,mcq,12,whole,,,,,needs_review,False,False,
-graduation_math_ii:2024:mcq:13:whole,graduation_math_ii,2024,mcq,13,whole,,,,,needs_review,False,False,
-graduation_math_ii:2024:mcq:14:whole,graduation_math_ii,2024,mcq,14,whole,,,,,needs_review,False,False,
-graduation_math_ii:2024:mcq:15:whole,graduation_math_ii,2024,mcq,15,whole,,,,,needs_review,False,False,
-graduation_math_ii:2024:mcq:16:whole,graduation_math_ii,2024,mcq,16,whole,,,,,needs_review,False,False,
-graduation_math_ii:2024:mcq:17:whole,graduation_math_ii,2024,mcq,17,whole,,,,,needs_review,False,False,
-graduation_math_ii:2024:mcq:18:whole,graduation_math_ii,2024,mcq,18,whole,,,,,needs_review,False,False,
-graduation_math_ii:2024:mcq:19:whole,graduation_math_ii,2024,mcq,19,whole,,,,,needs_review,False,False,
-graduation_math_ii:2024:mcq:20:whole,graduation_math_ii,2024,mcq,20,whole,,,,,needs_review,False,False,
-graduation_math_ii:2021:written:1:a,graduation_math_ii,2021,written,1,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:1:b,graduation_math_ii,2021,written,1,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:1:c,graduation_math_ii,2021,written,1,c,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:2:a,graduation_math_ii,2021,written,2,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:2:b,graduation_math_ii,2021,written,2,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:2:c,graduation_math_ii,2021,written,2,c,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:3:a,graduation_math_ii,2021,written,3,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:3:b,graduation_math_ii,2021,written,3,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:3:c,graduation_math_ii,2021,written,3,c,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:4:a,graduation_math_ii,2021,written,4,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:4:b,graduation_math_ii,2021,written,4,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:4:c,graduation_math_ii,2021,written,4,c,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:5:a,graduation_math_ii,2021,written,5,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:5:b,graduation_math_ii,2021,written,5,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:6:a,graduation_math_ii,2021,written,6,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:6:b,graduation_math_ii,2021,written,6,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:6:c,graduation_math_ii,2021,written,6,c,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:7:a,graduation_math_ii,2021,written,7,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:7:b,graduation_math_ii,2021,written,7,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:8:a,graduation_math_ii,2021,written,8,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:8:b,graduation_math_ii,2021,written,8,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:9:a.i,graduation_math_ii,2021,written,9,a.i,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:9:a.ii,graduation_math_ii,2021,written,9,a.ii,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:9:b,graduation_math_ii,2021,written,9,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:10:a,graduation_math_ii,2021,written,10,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:10:b,graduation_math_ii,2021,written,10,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:11:a.i,graduation_math_ii,2021,written,11,a.i,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:11:a.ii,graduation_math_ii,2021,written,11,a.ii,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:11:a.iii,graduation_math_ii,2021,written,11,a.iii,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:11:b,graduation_math_ii,2021,written,11,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:12:a,graduation_math_ii,2021,written,12,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:12:b,graduation_math_ii,2021,written,12,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2021:written:12:c,graduation_math_ii,2021,written,12,c,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2022:written:1:a,graduation_math_ii,2022,written,1,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2022:written:1:b,graduation_math_ii,2022,written,1,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2022:written:2:a,graduation_math_ii,2022,written,2,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2022:written:2:b.i,graduation_math_ii,2022,written,2,b.i,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2022:written:2:b.ii,graduation_math_ii,2022,written,2,b.ii,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2022:written:3:a,graduation_math_ii,2022,written,3,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2022:written:3:b,graduation_math_ii,2022,written,3,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2022:written:3:c,graduation_math_ii,2022,written,3,c,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2022:written:4:a,graduation_math_ii,2022,written,4,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2022:written:4:b,graduation_math_ii,2022,written,4,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2022:written:5:a,graduation_math_ii,2022,written,5,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2022:written:5:b,graduation_math_ii,2022,written,5,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2022:written:6:a.i,graduation_math_ii,2022,written,6,a.i,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2022:written:6:a.ii,graduation_math_ii,2022,written,6,a.ii,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2022:written:6:b,graduation_math_ii,2022,written,6,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2022:written:7:a.i,graduation_math_ii,2022,written,7,a.i,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2022:written:7:a.ii,graduation_math_ii,2022,written,7,a.ii,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2022:written:7:b,graduation_math_ii,2022,written,7,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2022:written:8:a.i,graduation_math_ii,2022,written,8,a.i,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2022:written:8:a.ii,graduation_math_ii,2022,written,8,a.ii,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2022:written:8:b,graduation_math_ii,2022,written,8,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2022:written:9:a,graduation_math_ii,2022,written,9,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2022:written:9:b,graduation_math_ii,2022,written,9,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2022:written:10:a,graduation_math_ii,2022,written,10,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2022:written:10:b,graduation_math_ii,2022,written,10,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2022:written:11:a,graduation_math_ii,2022,written,11,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2022:written:11:b,graduation_math_ii,2022,written,11,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2022:written:12:a,graduation_math_ii,2022,written,12,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2022:written:12:b,graduation_math_ii,2022,written,12,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:1:a.证明,graduation_math_ii,2023,written,1,a.证明,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:1:a.解方程,graduation_math_ii,2023,written,1,a.解方程,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:1:b.i,graduation_math_ii,2023,written,1,b.i,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:1:b.ii,graduation_math_ii,2023,written,1,b.ii,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:1:b.iii,graduation_math_ii,2023,written,1,b.iii,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:2:a.i,graduation_math_ii,2023,written,2,a.i,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:2:a.ii,graduation_math_ii,2023,written,2,a.ii,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:2:b,graduation_math_ii,2023,written,2,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:3:a,graduation_math_ii,2023,written,3,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:3:b.i,graduation_math_ii,2023,written,3,b.i,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:3:b.ii,graduation_math_ii,2023,written,3,b.ii,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:3:b.iii,graduation_math_ii,2023,written,3,b.iii,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:4:a.i.分配,graduation_math_ii,2023,written,4,a.i.分配,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:4:a.i.袋装,graduation_math_ii,2023,written,4,a.i.袋装,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:4:a.ii,graduation_math_ii,2023,written,4,a.ii,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:4:b.i,graduation_math_ii,2023,written,4,b.i,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:4:b.ii,graduation_math_ii,2023,written,4,b.ii,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:5:a,graduation_math_ii,2023,written,5,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:5:b,graduation_math_ii,2023,written,5,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:6:a,graduation_math_ii,2023,written,6,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:6:b,graduation_math_ii,2023,written,6,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:6:c,graduation_math_ii,2023,written,6,c,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:7:a.i,graduation_math_ii,2023,written,7,a.i,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:7:a.ii,graduation_math_ii,2023,written,7,a.ii,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:7:b.i,graduation_math_ii,2023,written,7,b.i,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:7:b.ii,graduation_math_ii,2023,written,7,b.ii,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:8:a,graduation_math_ii,2023,written,8,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:8:b,graduation_math_ii,2023,written,8,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:9:a.i,graduation_math_ii,2023,written,9,a.i,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:9:a.ii,graduation_math_ii,2023,written,9,a.ii,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:9:b,graduation_math_ii,2023,written,9,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:10:a.i,graduation_math_ii,2023,written,10,a.i,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:10:a.ii,graduation_math_ii,2023,written,10,a.ii,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:10:b,graduation_math_ii,2023,written,10,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:11:a,graduation_math_ii,2023,written,11,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:11:b,graduation_math_ii,2023,written,11,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:11:c,graduation_math_ii,2023,written,11,c,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:12:a,graduation_math_ii,2023,written,12,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2023:written:12:b,graduation_math_ii,2023,written,12,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2024:written:1:a,graduation_math_ii,2024,written,1,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2024:written:1:b,graduation_math_ii,2024,written,1,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2024:written:2:a,graduation_math_ii,2024,written,2,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2024:written:2:b.i,graduation_math_ii,2024,written,2,b.i,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2024:written:2:b.ii,graduation_math_ii,2024,written,2,b.ii,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2024:written:3:a,graduation_math_ii,2024,written,3,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2024:written:3:b.i,graduation_math_ii,2024,written,3,b.i,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2024:written:3:b.ii,graduation_math_ii,2024,written,3,b.ii,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2024:written:4:a.i,graduation_math_ii,2024,written,4,a.i,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2024:written:4:a.ii,graduation_math_ii,2024,written,4,a.ii,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2024:written:4:b,graduation_math_ii,2024,written,4,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2024:written:5:a,graduation_math_ii,2024,written,5,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2024:written:5:b.i,graduation_math_ii,2024,written,5,b.i,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2024:written:5:b.ii,graduation_math_ii,2024,written,5,b.ii,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2024:written:6:a,graduation_math_ii,2024,written,6,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2024:written:6:b,graduation_math_ii,2024,written,6,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2024:written:7:a.i,graduation_math_ii,2024,written,7,a.i,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2024:written:7:a.ii,graduation_math_ii,2024,written,7,a.ii,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2024:written:7:b,graduation_math_ii,2024,written,7,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2024:written:8:a,graduation_math_ii,2024,written,8,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2024:written:8:b,graduation_math_ii,2024,written,8,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2024:written:9:a,graduation_math_ii,2024,written,9,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2024:written:9:b,graduation_math_ii,2024,written,9,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2024:written:10:a,graduation_math_ii,2024,written,10,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2024:written:10:b,graduation_math_ii,2024,written,10,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2024:written:11:a,graduation_math_ii,2024,written,11,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2024:written:11:b,graduation_math_ii,2024,written,11,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2024:written:12:a,graduation_math_ii,2024,written,12,a,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
-graduation_math_ii:2024:written:12:b,graduation_math_ii,2024,written,12,b,,,,,needs_review,False,False,Supersedes old whole-question chapter candidates; formula not verified. Generic source filenames are not trusted.
+graduation_math_ii:2021:mcq:1:whole,graduation_math_ii,2021,mcq,1,whole,graduation_math_ii:e88da7483556,2,5,2,visual_fields_checked,True,False,
+graduation_math_ii:2021:mcq:2:whole,graduation_math_ii,2021,mcq,2,whole,graduation_math_ii:e88da7483556,2,2,2,visual_fields_checked,True,False,
+graduation_math_ii:2021:mcq:3:whole,graduation_math_ii,2021,mcq,3,whole,graduation_math_ii:e88da7483556,2,17,2,visual_fields_checked,True,False,
+graduation_math_ii:2021:mcq:4:whole,graduation_math_ii,2021,mcq,4,whole,graduation_math_ii:e88da7483556,2,26,2,visual_fields_checked,True,False,
+graduation_math_ii:2021:mcq:5:whole,graduation_math_ii,2021,mcq,5,whole,graduation_math_ii:e88da7483556,2,6,2,visual_fields_checked,True,False,
+graduation_math_ii:2021:mcq:6:whole,graduation_math_ii,2021,mcq,6,whole,graduation_math_ii:e88da7483556,2,5,2,visual_fields_checked,True,False,
+graduation_math_ii:2021:mcq:7:whole,graduation_math_ii,2021,mcq,7,whole,graduation_math_ii:e88da7483556,2,34,2,visual_fields_checked,True,False,
+graduation_math_ii:2021:mcq:8:whole,graduation_math_ii,2021,mcq,8,whole,graduation_math_ii:e88da7483556,2,11,2,visual_fields_checked,True,False,
+graduation_math_ii:2021:mcq:9:whole,graduation_math_ii,2021,mcq,9,whole,graduation_math_ii:e88da7483556,2,11,2,visual_fields_checked,True,False,
+graduation_math_ii:2021:mcq:10:whole,graduation_math_ii,2021,mcq,10,whole,graduation_math_ii:e88da7483556,2,10,2,visual_fields_checked,False,False,若2a+b−3c≠0可约分得R=5/2；但原题未排除该组合为0，任意尺度等边三角形即反例，不能认证唯一半径。
+graduation_math_ii:2021:mcq:11:whole,graduation_math_ii,2021,mcq,11,whole,graduation_math_ii:e88da7483556,2,5,2,visual_fields_checked,True,False,
+graduation_math_ii:2021:mcq:12:whole,graduation_math_ii,2021,mcq,12,whole,graduation_math_ii:e88da7483556,3,16,2,visual_fields_checked,True,False,
+graduation_math_ii:2021:mcq:13:whole,graduation_math_ii,2021,mcq,13,whole,graduation_math_ii:e88da7483556,3,33,2,visual_fields_checked,True,False,
+graduation_math_ii:2021:mcq:14:whole,graduation_math_ii,2021,mcq,14,whole,graduation_math_ii:e88da7483556,3,32,2,visual_fields_checked,True,False,
+graduation_math_ii:2021:mcq:15:whole,graduation_math_ii,2021,mcq,15,whole,graduation_math_ii:e88da7483556,3,32,2,visual_fields_checked,True,False,
+graduation_math_ii:2021:mcq:16:whole,graduation_math_ii,2021,mcq,16,whole,graduation_math_ii:e88da7483556,3,30,2,visual_fields_checked,True,False,
+graduation_math_ii:2021:mcq:17:whole,graduation_math_ii,2021,mcq,17,whole,graduation_math_ii:e88da7483556,3,28,2,visual_fields_checked,True,False,
+graduation_math_ii:2021:mcq:18:whole,graduation_math_ii,2021,mcq,18,whole,graduation_math_ii:e88da7483556,3,24,2,visual_fields_checked,True,False,
+graduation_math_ii:2021:mcq:19:whole,graduation_math_ii,2021,mcq,19,whole,graduation_math_ii:e88da7483556,3,22,2,visual_fields_checked,True,False,
+graduation_math_ii:2021:mcq:20:whole,graduation_math_ii,2021,mcq,20,whole,graduation_math_ii:e88da7483556,3,30,2,visual_fields_checked,True,False,
+graduation_math_ii:2021:written:1:a,graduation_math_ii,2021,written,1,a,graduation_math_ii:0ffd31629b21,2,10,3,visual_fields_checked,True,False,
+graduation_math_ii:2021:written:1:b,graduation_math_ii,2021,written,1,b,graduation_math_ii:0ffd31629b21,2,11,3.5,visual_fields_checked,True,False,目标含tan，证明须限制cosα cos(α+β)≠0；原条件本身也可能在这些因子为0时成立，不能全域无条件相除。
+graduation_math_ii:2021:written:1:c,graduation_math_ii,2021,written,1,c,graduation_math_ii:0ffd31629b21,2,11,3.5,visual_fields_checked,True,False,
+graduation_math_ii:2021:written:2:a,graduation_math_ii,2021,written,2,a,graduation_math_ii:0ffd31629b21,2,9,4,visual_fields_checked,True,False,
+graduation_math_ii:2021:written:2:b,graduation_math_ii,2021,written,2,b,graduation_math_ii:0ffd31629b21,2,9,2.5,visual_fields_checked,True,False,
+graduation_math_ii:2021:written:2:c,graduation_math_ii,2021,written,2,c,graduation_math_ii:0ffd31629b21,2,18,3.5,visual_fields_checked,True,False,
+graduation_math_ii:2021:written:3:a,graduation_math_ii,2021,written,3,a,graduation_math_ii:0ffd31629b21,2,12,4.5,visual_fields_checked,True,False,
+graduation_math_ii:2021:written:3:b,graduation_math_ii,2021,written,3,b,graduation_math_ii:0ffd31629b21,2,3,3.5,visual_fields_checked,True,False,
+graduation_math_ii:2021:written:3:c,graduation_math_ii,2021,written,3,c,graduation_math_ii:0ffd31629b21,2,19,2,visual_fields_checked,True,False,题面未限定几位数，须按1、2、3位分情况；0是否作为一位偶数需按教材计数约定说明，不静默只数三位数。
+graduation_math_ii:2021:written:4:a,graduation_math_ii,2021,written,4,a,graduation_math_ii:0ffd31629b21,2,31,6,visual_fields_checked,True,False,
+graduation_math_ii:2021:written:4:b,graduation_math_ii,2021,written,4,b,graduation_math_ii:0ffd31629b21,2,2,2,visual_fields_checked,True,False,
+graduation_math_ii:2021:written:4:c,graduation_math_ii,2021,written,4,c,graduation_math_ii:0ffd31629b21,2,20,2,visual_fields_checked,True,False,
+graduation_math_ii:2021:written:5:a,graduation_math_ii,2021,written,5,a,graduation_math_ii:0ffd31629b21,3,4,7,visual_fields_checked,True,False,
+graduation_math_ii:2021:written:5:b,graduation_math_ii,2021,written,5,b,graduation_math_ii:0ffd31629b21,3,4,3,visual_fields_checked,True,False,
+graduation_math_ii:2021:written:6:a,graduation_math_ii,2021,written,6,a,graduation_math_ii:0ffd31629b21,3,7,4.5,visual_fields_checked,True,False,
+graduation_math_ii:2021:written:6:b,graduation_math_ii,2021,written,6,b,graduation_math_ii:0ffd31629b21,3,13,2,visual_fields_checked,True,False,
+graduation_math_ii:2021:written:6:c,graduation_math_ii,2021,written,6,c,graduation_math_ii:0ffd31629b21,3,34,3.5,visual_fields_checked,True,False,
+graduation_math_ii:2021:written:7:a,graduation_math_ii,2021,written,7,a,graduation_math_ii:0ffd31629b21,3,33,5,visual_fields_checked,True,False,
+graduation_math_ii:2021:written:7:b,graduation_math_ii,2021,written,7,b,graduation_math_ii:0ffd31629b21,3,33,5,visual_fields_checked,True,False,
+graduation_math_ii:2021:written:8:a,graduation_math_ii,2021,written,8,a,graduation_math_ii:0ffd31629b21,3,16,6.5,visual_fields_checked,True,False,
+graduation_math_ii:2021:written:8:b,graduation_math_ii,2021,written,8,b,graduation_math_ii:0ffd31629b21,3,33,3.5,visual_fields_checked,True,False,
+graduation_math_ii:2021:written:9:a(i),graduation_math_ii,2021,written,9,a(i),graduation_math_ii:0ffd31629b21,3,22,3,visual_fields_checked,True,False,
+graduation_math_ii:2021:written:9:a(ii),graduation_math_ii,2021,written,9,a(ii),graduation_math_ii:0ffd31629b21,3,22,4,visual_fields_checked,True,False,
+graduation_math_ii:2021:written:9:b,graduation_math_ii,2021,written,9,b,graduation_math_ii:0ffd31629b21,3,21,3,visual_fields_checked,True,False,
+graduation_math_ii:2021:written:10:a,graduation_math_ii,2021,written,10,a,graduation_math_ii:0ffd31629b21,4,24,4,visual_fields_checked,True,False,
+graduation_math_ii:2021:written:10:b,graduation_math_ii,2021,written,10,b,graduation_math_ii:0ffd31629b21,4,29,6,visual_fields_checked,True,False,
+graduation_math_ii:2021:written:11:a(i),graduation_math_ii,2021,written,11,a(i),graduation_math_ii:0ffd31629b21,4,5,1.5,visual_fields_checked,True,False,原题函数后另印y²=8x，疑似上一题残留；不把它并入f定义。
+graduation_math_ii:2021:written:11:a(ii),graduation_math_ii,2021,written,11,a(ii),graduation_math_ii:0ffd31629b21,4,22,3,visual_fields_checked,True,False,
+graduation_math_ii:2021:written:11:a(iii),graduation_math_ii,2021,written,11,a(iii),graduation_math_ii:0ffd31629b21,4,22,1,visual_fields_checked,True,False,
+graduation_math_ii:2021:written:11:b,graduation_math_ii,2021,written,11,b,graduation_math_ii:0ffd31629b21,4,22,4.5,visual_fields_checked,True,False,
+graduation_math_ii:2021:written:12:a,graduation_math_ii,2021,written,12,a,graduation_math_ii:0ffd31629b21,4,24,5,visual_fields_checked,True,False,
+graduation_math_ii:2021:written:12:b,graduation_math_ii,2021,written,12,b,graduation_math_ii:0ffd31629b21,4,28,2.5,visual_fields_checked,True,False,
+graduation_math_ii:2021:written:12:c,graduation_math_ii,2021,written,12,c,graduation_math_ii:0ffd31629b21,4,28,2.5,visual_fields_checked,True,False,
+graduation_math_ii:2022:mcq:1:whole,graduation_math_ii,2022,mcq,1,whole,graduation_math_ii:f77a351cea2b,2,11,2,visual_fields_checked,True,False,
+graduation_math_ii:2022:mcq:2:whole,graduation_math_ii,2022,mcq,2,whole,graduation_math_ii:f77a351cea2b,2,10,2,visual_fields_checked,True,False,
+graduation_math_ii:2022:mcq:3:whole,graduation_math_ii,2022,mcq,3,whole,graduation_math_ii:f77a351cea2b,2,9,2,visual_fields_checked,True,False,
+graduation_math_ii:2022:mcq:4:whole,graduation_math_ii,2022,mcq,4,whole,graduation_math_ii:f77a351cea2b,2,8,2,visual_fields_checked,True,False,
+graduation_math_ii:2022:mcq:5:whole,graduation_math_ii,2022,mcq,5,whole,graduation_math_ii:f77a351cea2b,2,5,2,visual_fields_checked,True,False,
+graduation_math_ii:2022:mcq:6:whole,graduation_math_ii,2022,mcq,6,whole,graduation_math_ii:f77a351cea2b,2,34,2,visual_fields_checked,True,False,
+graduation_math_ii:2022:mcq:7:whole,graduation_math_ii,2022,mcq,7,whole,graduation_math_ii:f77a351cea2b,2,17,2,visual_fields_checked,True,False,
+graduation_math_ii:2022:mcq:8:whole,graduation_math_ii,2022,mcq,8,whole,graduation_math_ii:f77a351cea2b,2,19,2,visual_fields_checked,True,False,
+graduation_math_ii:2022:mcq:9:whole,graduation_math_ii,2022,mcq,9,whole,graduation_math_ii:f77a351cea2b,2,12,2,visual_fields_checked,True,False,
+graduation_math_ii:2022:mcq:10:whole,graduation_math_ii,2022,mcq,10,whole,graduation_math_ii:f77a351cea2b,2,13,2,visual_fields_checked,True,False,
+graduation_math_ii:2022:mcq:11:whole,graduation_math_ii,2022,mcq,11,whole,graduation_math_ii:f77a351cea2b,2,32,2,visual_fields_checked,True,False,
+graduation_math_ii:2022:mcq:12:whole,graduation_math_ii,2022,mcq,12,whole,graduation_math_ii:f77a351cea2b,3,32,2,visual_fields_checked,True,False,
+graduation_math_ii:2022:mcq:13:whole,graduation_math_ii,2022,mcq,13,whole,graduation_math_ii:f77a351cea2b,3,33,2,visual_fields_checked,True,False,
+graduation_math_ii:2022:mcq:14:whole,graduation_math_ii,2022,mcq,14,whole,graduation_math_ii:f77a351cea2b,3,16,2,visual_fields_checked,True,False,
+graduation_math_ii:2022:mcq:15:whole,graduation_math_ii,2022,mcq,15,whole,graduation_math_ii:f77a351cea2b,3,28,2,visual_fields_checked,True,False,
+graduation_math_ii:2022:mcq:16:whole,graduation_math_ii,2022,mcq,16,whole,graduation_math_ii:f77a351cea2b,3,24,2,visual_fields_checked,True,False,
+graduation_math_ii:2022:mcq:17:whole,graduation_math_ii,2022,mcq,17,whole,graduation_math_ii:f77a351cea2b,3,28,2,visual_fields_checked,True,False,
+graduation_math_ii:2022:mcq:18:whole,graduation_math_ii,2022,mcq,18,whole,graduation_math_ii:f77a351cea2b,3,29,2,visual_fields_checked,True,False,
+graduation_math_ii:2022:mcq:19:whole,graduation_math_ii,2022,mcq,19,whole,graduation_math_ii:f77a351cea2b,3,24,2,visual_fields_checked,True,False,
+graduation_math_ii:2022:mcq:20:whole,graduation_math_ii,2022,mcq,20,whole,graduation_math_ii:f77a351cea2b,3,30,2,visual_fields_checked,True,False,
+graduation_math_ii:2022:written:1:a,graduation_math_ii,2022,written,1,a,graduation_math_ii:f77a351cea2b,5,11,6,visual_fields_checked,True,False,
+graduation_math_ii:2022:written:1:b,graduation_math_ii,2022,written,1,b,graduation_math_ii:f77a351cea2b,5,10,4,visual_fields_checked,True,False,
+graduation_math_ii:2022:written:2:a,graduation_math_ii,2022,written,2,a,graduation_math_ii:f77a351cea2b,5,9,4,visual_fields_checked,True,False,
+graduation_math_ii:2022:written:2:b(i),graduation_math_ii,2022,written,2,b(i),graduation_math_ii:f77a351cea2b,5,10,4,visual_fields_checked,True,False,
+graduation_math_ii:2022:written:2:b(ii),graduation_math_ii,2022,written,2,b(ii),graduation_math_ii:f77a351cea2b,5,10,2,visual_fields_checked,True,False,
+graduation_math_ii:2022:written:3:a,graduation_math_ii,2022,written,3,a,graduation_math_ii:f77a351cea2b,5,7,4,visual_fields_checked,True,False,
+graduation_math_ii:2022:written:3:b,graduation_math_ii,2022,written,3,b,graduation_math_ii:f77a351cea2b,5,12,3,visual_fields_checked,True,False,
+graduation_math_ii:2022:written:3:c,graduation_math_ii,2022,written,3,c,graduation_math_ii:f77a351cea2b,5,5,3,visual_fields_checked,True,False,
+graduation_math_ii:2022:written:4:a,graduation_math_ii,2022,written,4,a,graduation_math_ii:f77a351cea2b,5,3,3,visual_fields_checked,True,False,
+graduation_math_ii:2022:written:4:b,graduation_math_ii,2022,written,4,b,graduation_math_ii:f77a351cea2b,5,5,7,visual_fields_checked,True,False,
+graduation_math_ii:2022:written:5:a,graduation_math_ii,2022,written,5,a,graduation_math_ii:f77a351cea2b,5,31,6,visual_fields_checked,True,False,
+graduation_math_ii:2022:written:5:b,graduation_math_ii,2022,written,5,b,graduation_math_ii:f77a351cea2b,5,6,4,visual_fields_checked,True,False,
+graduation_math_ii:2022:written:6:a(i),graduation_math_ii,2022,written,6,a(i),graduation_math_ii:f77a351cea2b,5,17,4,visual_fields_checked,True,False,
+graduation_math_ii:2022:written:6:a(ii),graduation_math_ii,2022,written,6,a(ii),graduation_math_ii:f77a351cea2b,5,17,4,visual_fields_checked,True,False,
+graduation_math_ii:2022:written:6:b,graduation_math_ii,2022,written,6,b,graduation_math_ii:f77a351cea2b,5,34,2,visual_fields_checked,True,False,
+graduation_math_ii:2022:written:7:a(i),graduation_math_ii,2022,written,7,a(i),graduation_math_ii:f77a351cea2b,6,16,3,visual_fields_checked,True,False,
+graduation_math_ii:2022:written:7:a(ii),graduation_math_ii,2022,written,7,a(ii),graduation_math_ii:f77a351cea2b,6,33,4,visual_fields_checked,True,False,
+graduation_math_ii:2022:written:7:b,graduation_math_ii,2022,written,7,b,graduation_math_ii:f77a351cea2b,6,33,3,visual_fields_checked,True,False,该分式表达式排除sinθcosθ=0，轴顶点法线须用极限/直接几何另列；原题是法线。
+graduation_math_ii:2022:written:8:a(i),graduation_math_ii,2022,written,8,a(i),graduation_math_ii:f77a351cea2b,6,33,3,visual_fields_checked,True,False,
+graduation_math_ii:2022:written:8:a(ii),graduation_math_ii,2022,written,8,a(ii),graduation_math_ii:f77a351cea2b,6,33,2,visual_fields_checked,True,False,
+graduation_math_ii:2022:written:8:b,graduation_math_ii,2022,written,8,b,graduation_math_ii:f77a351cea2b,6,33,5,visual_fields_checked,True,False,
+graduation_math_ii:2022:written:9:a,graduation_math_ii,2022,written,9,a,graduation_math_ii:f77a351cea2b,6,28,4,visual_fields_checked,True,False,
+graduation_math_ii:2022:written:9:b,graduation_math_ii,2022,written,9,b,graduation_math_ii:f77a351cea2b,6,29,6,visual_fields_checked,True,False,
+graduation_math_ii:2022:written:10:a,graduation_math_ii,2022,written,10,a,graduation_math_ii:f77a351cea2b,6,22,6,visual_fields_checked,True,False,
+graduation_math_ii:2022:written:10:b,graduation_math_ii,2022,written,10,b,graduation_math_ii:f77a351cea2b,6,29,4,visual_fields_checked,True,False,
+graduation_math_ii:2022:written:11:a,graduation_math_ii,2022,written,11,a,graduation_math_ii:f77a351cea2b,6,24,5,visual_fields_checked,True,False,
+graduation_math_ii:2022:written:11:b,graduation_math_ii,2022,written,11,b,graduation_math_ii:f77a351cea2b,6,22,5,visual_fields_checked,True,False,
+graduation_math_ii:2022:written:12:a,graduation_math_ii,2022,written,12,a,graduation_math_ii:f77a351cea2b,6,30,6,visual_fields_checked,False,False,初值点y/x=0令csc²无定义，原微分方程没有通过该点的通常有限导数经典解；隐式关系若补定义不能冒充原初值问题已解。待教师确认题设/解概念。
+graduation_math_ii:2022:written:12:b,graduation_math_ii,2022,written,12,b,graduation_math_ii:f77a351cea2b,6,31,4,visual_fields_checked,True,False,
+preexam_math_ii:2022:mcq:1:whole,preexam_math_ii,2022,mcq,1,whole,preexam_math_ii:b2dc9d8cd351,2,6,2,visual_fields_checked,True,False,
+preexam_math_ii:2022:mcq:2:whole,preexam_math_ii,2022,mcq,2,whole,preexam_math_ii:b2dc9d8cd351,2,13,2,visual_fields_checked,True,False,
+preexam_math_ii:2022:mcq:3:whole,preexam_math_ii,2022,mcq,3,whole,preexam_math_ii:b2dc9d8cd351,2,17,2,visual_fields_checked,True,False,
+preexam_math_ii:2022:mcq:4:whole,preexam_math_ii,2022,mcq,4,whole,preexam_math_ii:b2dc9d8cd351,2,12,2,visual_fields_checked,False,False,题面含n=0时底数为1，对数无定义；可化简结论只适用于n>0。该端点缺口保留待教师确认。
+preexam_math_ii:2022:mcq:5:whole,preexam_math_ii,2022,mcq,5,whole,preexam_math_ii:b2dc9d8cd351,2,19,2,visual_fields_checked,True,False,
+preexam_math_ii:2022:mcq:6:whole,preexam_math_ii,2022,mcq,6,whole,preexam_math_ii:b2dc9d8cd351,2,20,2,visual_fields_checked,True,False,
+preexam_math_ii:2022:mcq:7:whole,preexam_math_ii,2022,mcq,7,whole,preexam_math_ii:b2dc9d8cd351,2,6,2,visual_fields_checked,True,False,
+preexam_math_ii:2022:mcq:8:whole,preexam_math_ii,2022,mcq,8,whole,preexam_math_ii:b2dc9d8cd351,2,9,2,visual_fields_checked,True,False,
+preexam_math_ii:2022:mcq:9:whole,preexam_math_ii,2022,mcq,9,whole,preexam_math_ii:b2dc9d8cd351,2,9,2,visual_fields_checked,True,False,
+preexam_math_ii:2022:mcq:10:whole,preexam_math_ii,2022,mcq,10,whole,preexam_math_ii:b2dc9d8cd351,2,18,2,visual_fields_checked,True,False,
+preexam_math_ii:2022:mcq:11:whole,preexam_math_ii,2022,mcq,11,whole,preexam_math_ii:b2dc9d8cd351,3,9,2,visual_fields_checked,True,False,
+preexam_math_ii:2022:mcq:12:whole,preexam_math_ii,2022,mcq,12,whole,preexam_math_ii:b2dc9d8cd351,3,32,2,visual_fields_checked,True,False,
+preexam_math_ii:2022:mcq:13:whole,preexam_math_ii,2022,mcq,13,whole,preexam_math_ii:b2dc9d8cd351,3,16,2,visual_fields_checked,True,False,
+preexam_math_ii:2022:mcq:14:whole,preexam_math_ii,2022,mcq,14,whole,preexam_math_ii:b2dc9d8cd351,3,1,2,visual_fields_checked,True,False,
+preexam_math_ii:2022:mcq:15:whole,preexam_math_ii,2022,mcq,15,whole,preexam_math_ii:b2dc9d8cd351,3,33,2,visual_fields_checked,True,False,
+preexam_math_ii:2022:mcq:16:whole,preexam_math_ii,2022,mcq,16,whole,preexam_math_ii:b2dc9d8cd351,3,21,2,visual_fields_checked,True,False,
+preexam_math_ii:2022:mcq:17:whole,preexam_math_ii,2022,mcq,17,whole,preexam_math_ii:b2dc9d8cd351,3,28,2,visual_fields_checked,True,False,
+preexam_math_ii:2022:mcq:18:whole,preexam_math_ii,2022,mcq,18,whole,preexam_math_ii:b2dc9d8cd351,3,24,2,visual_fields_checked,True,False,
+preexam_math_ii:2022:mcq:19:whole,preexam_math_ii,2022,mcq,19,whole,preexam_math_ii:b2dc9d8cd351,3,22,2,visual_fields_checked,True,False,
+preexam_math_ii:2022:mcq:20:whole,preexam_math_ii,2022,mcq,20,whole,preexam_math_ii:b2dc9d8cd351,3,30,2,visual_fields_checked,True,False,
 semester_final:2022:mcq:1:whole,semester_final,2022,mcq,1,whole,semester_final:2f4ae66605ea,1,9,,visual_fields_checked,False,False, 所供文件没有封面，红色答案是原文件既有批注，不视作独立验算。
 semester_final:2022:mcq:2:whole,semester_final,2022,mcq,2,whole,semester_final:2f4ae66605ea,1,9,,visual_fields_checked,False,False, 所供文件没有封面，红色答案是原文件既有批注，不视作独立验算。
 semester_final:2022:mcq:3:whole,semester_final,2022,mcq,3,whole,semester_final:2f4ae66605ea,1,9,,visual_fields_checked,False,False, 所供文件没有封面，红色答案是原文件既有批注，不视作独立验算。
@@ -374,6 +159,118 @@ semester_final:2022:written:6:a(I),semester_final,2022,written,6,a(I),semester_f
 semester_final:2022:written:6:a(II),semester_final,2022,written,6,a(II),semester_final:2f4ae66605ea,4,3,3,visual_fields_checked,True,False,
 semester_final:2022:written:6:a(III),semester_final,2022,written,6,a(III),semester_final:2f4ae66605ea,4,3,3,visual_fields_checked,True,False,
 semester_final:2022:written:6:b,semester_final,2022,written,6,b,semester_final:2f4ae66605ea,4,22,7,visual_fields_checked,True,False,
+graduation_math_ii:2023:mcq:1:whole,graduation_math_ii,2023,mcq,1,whole,graduation_math_ii:e780522689f1,1,5,,visual_fields_checked,False,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:mcq:2:whole,graduation_math_ii,2023,mcq,2,whole,graduation_math_ii:e780522689f1,1,5,,visual_fields_checked,False,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:mcq:3:whole,graduation_math_ii,2023,mcq,3,whole,graduation_math_ii:e780522689f1,1,26,,visual_fields_checked,False,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:mcq:4:whole,graduation_math_ii,2023,mcq,4,whole,graduation_math_ii:e780522689f1,1,3,,visual_fields_checked,False,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:mcq:5:whole,graduation_math_ii,2023,mcq,5,whole,graduation_math_ii:e780522689f1,1,13,,visual_fields_checked,False,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:mcq:6:whole,graduation_math_ii,2023,mcq,6,whole,graduation_math_ii:e780522689f1,1,5,,visual_fields_checked,False,False,放大确认第二个内层是常用log 2，不是log₂2；两输入互为相反数。 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:mcq:7:whole,graduation_math_ii,2023,mcq,7,whole,graduation_math_ii:e780522689f1,1,9,,visual_fields_checked,False,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:mcq:8:whole,graduation_math_ii,2023,mcq,8,whole,graduation_math_ii:e780522689f1,1,11,,visual_fields_checked,False,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:mcq:9:whole,graduation_math_ii,2023,mcq,9,whole,graduation_math_ii:e780522689f1,1,9,,visual_fields_checked,False,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:mcq:10:whole,graduation_math_ii,2023,mcq,10,whole,graduation_math_ii:e780522689f1,1,9,,visual_fields_checked,False,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:mcq:11:whole,graduation_math_ii,2023,mcq,11,whole,graduation_math_ii:e780522689f1,1,1,,visual_fields_checked,False,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:mcq:12:whole,graduation_math_ii,2023,mcq,12,whole,graduation_math_ii:e780522689f1,1,16,,visual_fields_checked,False,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:mcq:13:whole,graduation_math_ii,2023,mcq,13,whole,graduation_math_ii:e780522689f1,2,33,,visual_fields_checked,False,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:mcq:14:whole,graduation_math_ii,2023,mcq,14,whole,graduation_math_ii:e780522689f1,2,33,,visual_fields_checked,False,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:mcq:15:whole,graduation_math_ii,2023,mcq,15,whole,graduation_math_ii:e780522689f1,2,32,,visual_fields_checked,False,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:mcq:16:whole,graduation_math_ii,2023,mcq,16,whole,graduation_math_ii:e780522689f1,2,21,,visual_fields_checked,False,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:mcq:17:whole,graduation_math_ii,2023,mcq,17,whole,graduation_math_ii:e780522689f1,2,28,,visual_fields_checked,False,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:mcq:18:whole,graduation_math_ii,2023,mcq,18,whole,graduation_math_ii:e780522689f1,2,22,,visual_fields_checked,False,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:mcq:19:whole,graduation_math_ii,2023,mcq,19,whole,graduation_math_ii:e780522689f1,2,29,,visual_fields_checked,False,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:mcq:20:whole,graduation_math_ii,2023,mcq,20,whole,graduation_math_ii:e780522689f1,2,24,,visual_fields_checked,False,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:1:a-proof,graduation_math_ii,2023,written,1,a-proof,graduation_math_ii:e780522689f1,3,11,2,visual_fields_checked,True,False, 分值分行但未另印子题号；本记录后缀为内部计分段标识，不是原卷新增题号。 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:1:a-equation,graduation_math_ii,2023,written,1,a-equation,graduation_math_ii:e780522689f1,3,11,2.5,visual_fields_checked,True,False, 分值分行但未另印子题号；本记录后缀为内部计分段标识，不是原卷新增题号。 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:1:b(i),graduation_math_ii,2023,written,1,b(i),graduation_math_ii:e780522689f1,3,18,1,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:1:b(ii),graduation_math_ii,2023,written,1,b(ii),graduation_math_ii:e780522689f1,3,18,1,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:1:b(iii),graduation_math_ii,2023,written,1,b(iii),graduation_math_ii:e780522689f1,3,18,3.5,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:2:a(i),graduation_math_ii,2023,written,2,a(i),graduation_math_ii:e780522689f1,3,10,2.5,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:2:a(ii),graduation_math_ii,2023,written,2,a(ii),graduation_math_ii:e780522689f1,3,10,3,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:2:b,graduation_math_ii,2023,written,2,b,graduation_math_ii:e780522689f1,3,9,4.5,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:3:a,graduation_math_ii,2023,written,3,a,graduation_math_ii:e780522689f1,3,4,4,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:3:b(i),graduation_math_ii,2023,written,3,b(i),graduation_math_ii:e780522689f1,3,20,3,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:3:b(ii),graduation_math_ii,2023,written,3,b(ii),graduation_math_ii:e780522689f1,3,20,1,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:3:b(iii),graduation_math_ii,2023,written,3,b(iii),graduation_math_ii:e780522689f1,3,20,2,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:4:a(i)-distribution,graduation_math_ii,2023,written,4,a(i)-distribution,graduation_math_ii:e780522689f1,3,19,1,visual_fields_checked,True,False, 分值分行但未另印子题号；本记录后缀为内部计分段标识，不是原卷新增题号。 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:4:a(i)-boxing,graduation_math_ii,2023,written,4,a(i)-boxing,graduation_math_ii:e780522689f1,3,19,1,visual_fields_checked,True,False, 分值分行但未另印子题号；本记录后缀为内部计分段标识，不是原卷新增题号。 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:4:a(ii),graduation_math_ii,2023,written,4,a(ii),graduation_math_ii:e780522689f1,3,19,2,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:4:b(i),graduation_math_ii,2023,written,4,b(i),graduation_math_ii:e780522689f1,3,17,2.5,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:4:b(ii),graduation_math_ii,2023,written,4,b(ii),graduation_math_ii:e780522689f1,3,17,3.5,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:5:a,graduation_math_ii,2023,written,5,a,graduation_math_ii:e780522689f1,4,34,4.5,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:5:b,graduation_math_ii,2023,written,5,b,graduation_math_ii:e780522689f1,4,31,5.5,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:6:a,graduation_math_ii,2023,written,6,a,graduation_math_ii:e780522689f1,4,7,4,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:6:b,graduation_math_ii,2023,written,6,b,graduation_math_ii:e780522689f1,4,34,4,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:6:c,graduation_math_ii,2023,written,6,c,graduation_math_ii:e780522689f1,4,34,2,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:7:a,graduation_math_ii,2023,written,7,a,graduation_math_ii:e780522689f1,4,28,5,visual_fields_checked,True,False,a整段明印5%，i、ii未单独给分；不重复分值。 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:7:a(i),graduation_math_ii,2023,written,7,a(i),graduation_math_ii:e780522689f1,4,28,,visual_fields_checked,False,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:7:a(ii),graduation_math_ii,2023,written,7,a(ii),graduation_math_ii:e780522689f1,4,28,,visual_fields_checked,False,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:7:b(i),graduation_math_ii,2023,written,7,b(i),graduation_math_ii:e780522689f1,4,16,2.5,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:7:b(ii),graduation_math_ii,2023,written,7,b(ii),graduation_math_ii:e780522689f1,4,16,2.5,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:8:a,graduation_math_ii,2023,written,8,a,graduation_math_ii:e780522689f1,4,33,6,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:8:b,graduation_math_ii,2023,written,8,b,graduation_math_ii:e780522689f1,4,33,4,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:9:a(i),graduation_math_ii,2023,written,9,a(i),graduation_math_ii:e780522689f1,4,28,2,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:9:a(ii),graduation_math_ii,2023,written,9,a(ii),graduation_math_ii:e780522689f1,4,24,4.5,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:9:b,graduation_math_ii,2023,written,9,b,graduation_math_ii:e780522689f1,4,21,3.5,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:10:a(i),graduation_math_ii,2023,written,10,a(i),graduation_math_ii:e780522689f1,5,22,3,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:10:a(ii),graduation_math_ii,2023,written,10,a(ii),graduation_math_ii:e780522689f1,5,22,3,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:10:b,graduation_math_ii,2023,written,10,b,graduation_math_ii:e780522689f1,5,29,4,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:11:a,graduation_math_ii,2023,written,11,a,graduation_math_ii:e780522689f1,5,29,3.5,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:11:b,graduation_math_ii,2023,written,11,b,graduation_math_ii:e780522689f1,5,30,2.5,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:11:c,graduation_math_ii,2023,written,11,c,graduation_math_ii:e780522689f1,5,22,4,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+graduation_math_ii:2023:written:12:a,graduation_math_ii,2023,written,12,a,graduation_math_ii:e780522689f1,5,28,5,visual_fields_checked,True,False,"放大确认原式左边为y的y次方，不是y=x^x；对数微分按x,y>0分支进行。 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。"
+graduation_math_ii:2023:written:12:b,graduation_math_ii,2023,written,12,b,graduation_math_ii:e780522689f1,5,30,5,visual_fields_checked,True,False, 本PDF无两卷封面且带红色既有答案批注；年份仅文件名，批注未自动升为已验答案。
+preexam_math_ii:2023:mcq:1:whole,preexam_math_ii,2023,mcq,1,whole,preexam_math_ii:a086ec87542b,2,7,2,visual_fields_checked,True,False,
+preexam_math_ii:2023:mcq:2:whole,preexam_math_ii,2023,mcq,2,whole,preexam_math_ii:a086ec87542b,2,4,2,visual_fields_checked,True,False,
+preexam_math_ii:2023:mcq:3:whole,preexam_math_ii,2023,mcq,3,whole,preexam_math_ii:a086ec87542b,2,20,2,visual_fields_checked,True,False,
+preexam_math_ii:2023:mcq:4:whole,preexam_math_ii,2023,mcq,4,whole,preexam_math_ii:a086ec87542b,2,5,2,visual_fields_checked,True,False,
+preexam_math_ii:2023:mcq:5:whole,preexam_math_ii,2023,mcq,5,whole,preexam_math_ii:a086ec87542b,2,26,2,visual_fields_checked,True,False,
+preexam_math_ii:2023:mcq:6:whole,preexam_math_ii,2023,mcq,6,whole,preexam_math_ii:a086ec87542b,2,34,2,visual_fields_checked,True,False,
+preexam_math_ii:2023:mcq:7:whole,preexam_math_ii,2023,mcq,7,whole,preexam_math_ii:a086ec87542b,2,11,2,visual_fields_checked,True,False,
+preexam_math_ii:2023:mcq:8:whole,preexam_math_ii,2023,mcq,8,whole,preexam_math_ii:a086ec87542b,2,11,2,visual_fields_checked,True,False,
+preexam_math_ii:2023:mcq:9:whole,preexam_math_ii,2023,mcq,9,whole,preexam_math_ii:a086ec87542b,2,9,2,visual_fields_checked,True,False,
+preexam_math_ii:2023:mcq:10:whole,preexam_math_ii,2023,mcq,10,whole,preexam_math_ii:a086ec87542b,2,10,2,visual_fields_checked,True,False,两方位的较小夹角120度，不能用045与285差240度当三角内角，亦不能假设两点同一直线。
+preexam_math_ii:2023:mcq:11:whole,preexam_math_ii,2023,mcq,11,whole,preexam_math_ii:a086ec87542b,2,16,2,visual_fields_checked,True,False,
+preexam_math_ii:2023:mcq:12:whole,preexam_math_ii,2023,mcq,12,whole,preexam_math_ii:a086ec87542b,3,32,2,visual_fields_checked,True,False,
+preexam_math_ii:2023:mcq:13:whole,preexam_math_ii,2023,mcq,13,whole,preexam_math_ii:a086ec87542b,3,33,2,visual_fields_checked,True,False,
+preexam_math_ii:2023:mcq:14:whole,preexam_math_ii,2023,mcq,14,whole,preexam_math_ii:a086ec87542b,3,33,2,visual_fields_checked,True,False,
+preexam_math_ii:2023:mcq:15:whole,preexam_math_ii,2023,mcq,15,whole,preexam_math_ii:a086ec87542b,3,28,2,visual_fields_checked,True,False,
+preexam_math_ii:2023:mcq:16:whole,preexam_math_ii,2023,mcq,16,whole,preexam_math_ii:a086ec87542b,3,30,2,visual_fields_checked,True,False,
+preexam_math_ii:2023:mcq:17:whole,preexam_math_ii,2023,mcq,17,whole,preexam_math_ii:a086ec87542b,3,21,2,visual_fields_checked,True,False,
+preexam_math_ii:2023:mcq:18:whole,preexam_math_ii,2023,mcq,18,whole,preexam_math_ii:a086ec87542b,3,24,2,visual_fields_checked,True,False,
+preexam_math_ii:2023:mcq:19:whole,preexam_math_ii,2023,mcq,19,whole,preexam_math_ii:a086ec87542b,3,24,2,visual_fields_checked,True,False,
+preexam_math_ii:2023:mcq:20:whole,preexam_math_ii,2023,mcq,20,whole,preexam_math_ii:a086ec87542b,3,30,2,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:1:a,preexam_math_ii,2023,written,1,a,preexam_math_ii:a086ec87542b,5,11,5,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:1:b,preexam_math_ii,2023,written,1,b,preexam_math_ii:a086ec87542b,5,10,2,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:1:c,preexam_math_ii,2023,written,1,c,preexam_math_ii:a086ec87542b,5,11,3,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:2:a(i),preexam_math_ii,2023,written,2,a(i),preexam_math_ii:a086ec87542b,5,10,3,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:2:a(ii),preexam_math_ii,2023,written,2,a(ii),preexam_math_ii:a086ec87542b,5,10,4,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:2:b,preexam_math_ii,2023,written,2,b,preexam_math_ii:a086ec87542b,5,9,3,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:3:a(i),preexam_math_ii,2023,written,3,a(i),preexam_math_ii:a086ec87542b,5,7,1,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:3:a(ii),preexam_math_ii,2023,written,3,a(ii),preexam_math_ii:a086ec87542b,5,7,4,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:3:b(i),preexam_math_ii,2023,written,3,b(i),preexam_math_ii:a086ec87542b,5,29,3,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:3:b(ii),preexam_math_ii,2023,written,3,b(ii),preexam_math_ii:a086ec87542b,5,13,2,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:4:a(i),preexam_math_ii,2023,written,4,a(i),preexam_math_ii:a086ec87542b,5,34,2,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:4:a(ii),preexam_math_ii,2023,written,4,a(ii),preexam_math_ii:a086ec87542b,5,34,4,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:4:b,preexam_math_ii,2023,written,4,b,preexam_math_ii:a086ec87542b,5,12,4,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:5:a,preexam_math_ii,2023,written,5,a,preexam_math_ii:a086ec87542b,5,31,6,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:5:b,preexam_math_ii,2023,written,5,b,preexam_math_ii:a086ec87542b,5,6,4,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:6:a,preexam_math_ii,2023,written,6,a,preexam_math_ii:a086ec87542b,5,3,6,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:6:b,preexam_math_ii,2023,written,6,b,preexam_math_ii:a086ec87542b,5,12,4,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:7:a,preexam_math_ii,2023,written,7,a,preexam_math_ii:a086ec87542b,6,33,4,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:7:b,preexam_math_ii,2023,written,7,b,preexam_math_ii:a086ec87542b,6,33,6,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:8:a(i),preexam_math_ii,2023,written,8,a(i),preexam_math_ii:a086ec87542b,6,1,2,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:8:a(ii),preexam_math_ii,2023,written,8,a(ii),preexam_math_ii:a086ec87542b,6,1,4,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:8:b,preexam_math_ii,2023,written,8,b,preexam_math_ii:a086ec87542b,6,16,4,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:9:a,preexam_math_ii,2023,written,9,a,preexam_math_ii:a086ec87542b,6,29,5,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:9:b,preexam_math_ii,2023,written,9,b,preexam_math_ii:a086ec87542b,6,24,5,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:10:a(i),preexam_math_ii,2023,written,10,a(i),preexam_math_ii:a086ec87542b,6,30,4,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:10:a(ii),preexam_math_ii,2023,written,10,a(ii),preexam_math_ii:a086ec87542b,6,30,2,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:10:b,preexam_math_ii,2023,written,10,b,preexam_math_ii:a086ec87542b,6,29,4,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:11:a,preexam_math_ii,2023,written,11,a,preexam_math_ii:a086ec87542b,6,22,5,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:11:b,preexam_math_ii,2023,written,11,b,preexam_math_ii:a086ec87542b,6,21,3,visual_fields_checked,True,False,左支题面写x≤3，但x=3分式本身无定义；这里只问极限存在，不擅自认定函数已在3定义或连续。
+preexam_math_ii:2023:written:11:c,preexam_math_ii,2023,written,11,c,preexam_math_ii:a086ec87542b,6,28,2,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:12:a,preexam_math_ii,2023,written,12,a,preexam_math_ii:a086ec87542b,6,24,5,visual_fields_checked,True,False,
+preexam_math_ii:2023:written:12:b,preexam_math_ii,2023,written,12,b,preexam_math_ii:a086ec87542b,6,29,5,visual_fields_checked,True,False,
 semester_final:2023:mcq:1:whole,semester_final,2023,mcq,1,whole,semester_final:ec66e5c5ba2d,1,5,2,visual_fields_checked,True,False,
 semester_final:2023:mcq:2:whole,semester_final,2023,mcq,2,whole,semester_final:ec66e5c5ba2d,1,2,2,visual_fields_checked,True,False,
 semester_final:2023:mcq:3:whole,semester_final,2023,mcq,3,whole,semester_final:ec66e5c5ba2d,1,3,2,visual_fields_checked,True,False,
@@ -413,6 +310,221 @@ semester_final:2023:written:6:d,semester_final,2023,written,6,d,semester_final:9
 semester_final:2023:written:7:a,semester_final,2023,written,7,a,semester_final:9c4557d490b8,2,5,2,visual_fields_checked,True,False,
 semester_final:2023:written:7:b,semester_final,2023,written,7,b,semester_final:9c4557d490b8,2,22,4,visual_fields_checked,True,False,
 semester_final:2023:written:7:c,semester_final,2023,written,7,c,semester_final:9c4557d490b8,2,22,6,visual_fields_checked,True,False,
+uec_math_i:2023:mcq:1:whole,uec_math_i,2023,mcq,1,whole,uec_math_i:10e6cf19d362,5,2,2,visual_fields_checked,True,False,
+uec_math_i:2023:mcq:2:whole,uec_math_i,2023,mcq,2,whole,uec_math_i:10e6cf19d362,5,3,2,visual_fields_checked,True,False,
+uec_math_i:2023:mcq:3:whole,uec_math_i,2023,mcq,3,whole,uec_math_i:10e6cf19d362,5,4,2,visual_fields_checked,True,False,
+uec_math_i:2023:mcq:4:whole,uec_math_i,2023,mcq,4,whole,uec_math_i:10e6cf19d362,5,13,2,visual_fields_checked,True,False,
+uec_math_i:2023:mcq:5:whole,uec_math_i,2023,mcq,5,whole,uec_math_i:10e6cf19d362,5,20,2,visual_fields_checked,True,False,
+uec_math_i:2023:mcq:6:whole,uec_math_i,2023,mcq,6,whole,uec_math_i:10e6cf19d362,5,12,2,visual_fields_checked,True,False,
+uec_math_i:2023:mcq:7:whole,uec_math_i,2023,mcq,7,whole,uec_math_i:10e6cf19d362,5,6,2,visual_fields_checked,True,False,
+uec_math_i:2023:mcq:8:whole,uec_math_i,2023,mcq,8,whole,uec_math_i:10e6cf19d362,5,19,2,visual_fields_checked,True,False,
+uec_math_i:2023:mcq:9:whole,uec_math_i,2023,mcq,9,whole,uec_math_i:10e6cf19d362,6,26,2,visual_fields_checked,True,False,
+uec_math_i:2023:mcq:10:whole,uec_math_i,2023,mcq,10,whole,uec_math_i:10e6cf19d362,6,33,2,visual_fields_checked,False,True,保留原卷高数I身份；按当前35章字典主章33，属于当前I1–29范围映射冲突，不能据此改课程。
+uec_math_i:2023:mcq:11:whole,uec_math_i,2023,mcq,11,whole,uec_math_i:10e6cf19d362,6,11,2,visual_fields_checked,True,False,
+uec_math_i:2023:mcq:12:whole,uec_math_i,2023,mcq,12,whole,uec_math_i:10e6cf19d362,6,18,2,visual_fields_checked,True,False,
+uec_math_i:2023:mcq:13:whole,uec_math_i,2023,mcq,13,whole,uec_math_i:10e6cf19d362,6,9,2,visual_fields_checked,True,False,
+uec_math_i:2023:mcq:14:whole,uec_math_i,2023,mcq,14,whole,uec_math_i:10e6cf19d362,6,10,2,visual_fields_checked,True,False,
+uec_math_i:2023:mcq:15:whole,uec_math_i,2023,mcq,15,whole,uec_math_i:10e6cf19d362,7,16,2,visual_fields_checked,True,False,
+uec_math_i:2023:mcq:16:whole,uec_math_i,2023,mcq,16,whole,uec_math_i:10e6cf19d362,7,16,2,visual_fields_checked,True,False,
+uec_math_i:2023:mcq:17:whole,uec_math_i,2023,mcq,17,whole,uec_math_i:10e6cf19d362,7,22,2,visual_fields_checked,True,False,
+uec_math_i:2023:mcq:18:whole,uec_math_i,2023,mcq,18,whole,uec_math_i:10e6cf19d362,7,28,2,visual_fields_checked,True,False,
+uec_math_i:2023:mcq:19:whole,uec_math_i,2023,mcq,19,whole,uec_math_i:10e6cf19d362,7,24,2,visual_fields_checked,True,False,
+uec_math_i:2023:mcq:20:whole,uec_math_i,2023,mcq,20,whole,uec_math_i:10e6cf19d362,7,21,2,visual_fields_checked,True,False,
+uec_math_i:2023:written:1:a,uec_math_i,2023,written,1,a,uec_math_i:dbc13ba7f30f,5,5,2,visual_fields_checked,True,False,
+uec_math_i:2023:written:1:b,uec_math_i,2023,written,1,b,uec_math_i:dbc13ba7f30f,5,5,2,visual_fields_checked,True,False,放大确认b是f∘f(x)，不是反函数复合，也不是f的导数。
+uec_math_i:2023:written:2:a,uec_math_i,2023,written,2,a,uec_math_i:dbc13ba7f30f,5,10,2,visual_fields_checked,True,False,
+uec_math_i:2023:written:2:b,uec_math_i,2023,written,2,b,uec_math_i:dbc13ba7f30f,5,10,2,visual_fields_checked,True,False,
+uec_math_i:2023:written:3:whole,uec_math_i,2023,written,3,whole,uec_math_i:dbc13ba7f30f,5,1,4,visual_fields_checked,True,False,
+uec_math_i:2023:written:4:a,uec_math_i,2023,written,4,a,uec_math_i:dbc13ba7f30f,5,19,2,visual_fields_checked,True,False,
+uec_math_i:2023:written:4:b,uec_math_i,2023,written,4,b,uec_math_i:dbc13ba7f30f,5,26,2,visual_fields_checked,True,False,
+uec_math_i:2023:written:5:a,uec_math_i,2023,written,5,a,uec_math_i:dbc13ba7f30f,5,23,2,visual_fields_checked,True,False,
+uec_math_i:2023:written:5:b,uec_math_i,2023,written,5,b,uec_math_i:dbc13ba7f30f,5,24,2,visual_fields_checked,True,False,
+uec_math_i:2023:written:6:a(i),uec_math_i,2023,written,6,a(i),uec_math_i:dbc13ba7f30f,6,15,3,visual_fields_checked,True,False,
+uec_math_i:2023:written:6:a(ii),uec_math_i,2023,written,6,a(ii),uec_math_i:dbc13ba7f30f,6,15,2,visual_fields_checked,True,False,
+uec_math_i:2023:written:6:b,uec_math_i,2023,written,6,b,uec_math_i:dbc13ba7f30f,6,2,5,visual_fields_checked,True,False,
+uec_math_i:2023:written:7:a,uec_math_i,2023,written,7,a,uec_math_i:dbc13ba7f30f,6,12,3,visual_fields_checked,True,False,
+uec_math_i:2023:written:7:b,uec_math_i,2023,written,7,b,uec_math_i:dbc13ba7f30f,6,17,3,visual_fields_checked,True,False,
+uec_math_i:2023:written:7:c,uec_math_i,2023,written,7,c,uec_math_i:dbc13ba7f30f,6,6,4,visual_fields_checked,True,False,
+uec_math_i:2023:written:8:a,uec_math_i,2023,written,8,a,uec_math_i:dbc13ba7f30f,7,11,5,visual_fields_checked,True,False,
+uec_math_i:2023:written:8:b(i),uec_math_i,2023,written,8,b(i),uec_math_i:dbc13ba7f30f,7,18,1,visual_fields_checked,True,False,
+uec_math_i:2023:written:8:b(ii),uec_math_i,2023,written,8,b(ii),uec_math_i:dbc13ba7f30f,7,18,4,visual_fields_checked,True,False,
+uec_math_i:2023:written:9:a(i),uec_math_i,2023,written,9,a(i),uec_math_i:dbc13ba7f30f,7,25,1,visual_fields_checked,True,False,
+uec_math_i:2023:written:9:a(ii),uec_math_i,2023,written,9,a(ii),uec_math_i:dbc13ba7f30f,7,25,1,visual_fields_checked,True,False,
+uec_math_i:2023:written:9:b,uec_math_i,2023,written,9,b,uec_math_i:dbc13ba7f30f,7,19,3,visual_fields_checked,True,False,
+uec_math_i:2023:written:9:c,uec_math_i,2023,written,9,c,uec_math_i:dbc13ba7f30f,7,26,5,visual_fields_checked,True,False,
+uec_math_i:2023:written:10:a,uec_math_i,2023,written,10,a,uec_math_i:dbc13ba7f30f,7,1,5,visual_fields_checked,True,False,
+uec_math_i:2023:written:10:b,uec_math_i,2023,written,10,b,uec_math_i:dbc13ba7f30f,7,16,5,visual_fields_checked,True,False,
+uec_math_i:2023:written:11:a(i),uec_math_i,2023,written,11,a(i),uec_math_i:dbc13ba7f30f,8,29,3,visual_fields_checked,True,False,
+uec_math_i:2023:written:11:a(ii),uec_math_i,2023,written,11,a(ii),uec_math_i:dbc13ba7f30f,8,29,3,visual_fields_checked,True,False,
+uec_math_i:2023:written:11:b,uec_math_i,2023,written,11,b,uec_math_i:dbc13ba7f30f,8,22,4,visual_fields_checked,True,False,
+uec_math_i:2023:written:12:a(i),uec_math_i,2023,written,12,a(i),uec_math_i:dbc13ba7f30f,8,24,2,visual_fields_checked,True,False,
+uec_math_i:2023:written:12:a(ii),uec_math_i,2023,written,12,a(ii),uec_math_i:dbc13ba7f30f,8,24,3,visual_fields_checked,True,False,
+uec_math_i:2023:written:12:b,uec_math_i,2023,written,12,b,uec_math_i:dbc13ba7f30f,8,22,5,visual_fields_checked,True,False,距离变化率可以负，必须用径向导数而不是速率sqrt((dx/dt)²+(dy/dt)²)。
+uec_math_ii:2023:mcq:1:whole,uec_math_ii,2023,mcq,1,whole,uec_math_ii:c7e7ace2a579,5,34,2,visual_fields_checked,True,False,
+uec_math_ii:2023:mcq:2:whole,uec_math_ii,2023,mcq,2,whole,uec_math_ii:c7e7ace2a579,5,4,2,visual_fields_checked,True,False,
+uec_math_ii:2023:mcq:3:whole,uec_math_ii,2023,mcq,3,whole,uec_math_ii:c7e7ace2a579,5,20,2,visual_fields_checked,True,False,
+uec_math_ii:2023:mcq:4:whole,uec_math_ii,2023,mcq,4,whole,uec_math_ii:c7e7ace2a579,5,5,2,visual_fields_checked,True,False,
+uec_math_ii:2023:mcq:5:whole,uec_math_ii,2023,mcq,5,whole,uec_math_ii:c7e7ace2a579,5,26,2,visual_fields_checked,True,False,
+uec_math_ii:2023:mcq:6:whole,uec_math_ii,2023,mcq,6,whole,uec_math_ii:c7e7ace2a579,5,3,2,visual_fields_checked,True,False,
+uec_math_ii:2023:mcq:7:whole,uec_math_ii,2023,mcq,7,whole,uec_math_ii:c7e7ace2a579,5,17,2,visual_fields_checked,True,False,
+uec_math_ii:2023:mcq:8:whole,uec_math_ii,2023,mcq,8,whole,uec_math_ii:c7e7ace2a579,6,9,2,visual_fields_checked,True,False,
+uec_math_ii:2023:mcq:9:whole,uec_math_ii,2023,mcq,9,whole,uec_math_ii:c7e7ace2a579,6,10,2,visual_fields_checked,True,False,
+uec_math_ii:2023:mcq:10:whole,uec_math_ii,2023,mcq,10,whole,uec_math_ii:c7e7ace2a579,6,9,2,visual_fields_checked,True,False,
+uec_math_ii:2023:mcq:11:whole,uec_math_ii,2023,mcq,11,whole,uec_math_ii:c7e7ace2a579,6,9,2,visual_fields_checked,True,False,
+uec_math_ii:2023:mcq:12:whole,uec_math_ii,2023,mcq,12,whole,uec_math_ii:c7e7ace2a579,6,33,2,visual_fields_checked,True,False,
+uec_math_ii:2023:mcq:13:whole,uec_math_ii,2023,mcq,13,whole,uec_math_ii:c7e7ace2a579,6,33,2,visual_fields_checked,True,False,
+uec_math_ii:2023:mcq:14:whole,uec_math_ii,2023,mcq,14,whole,uec_math_ii:c7e7ace2a579,6,33,2,visual_fields_checked,True,False,
+uec_math_ii:2023:mcq:15:whole,uec_math_ii,2023,mcq,15,whole,uec_math_ii:c7e7ace2a579,6,33,2,visual_fields_checked,True,False,差距为固定1，满足的是双曲线适当分支及半径非负约束，不等于两支整图。
+uec_math_ii:2023:mcq:16:whole,uec_math_ii,2023,mcq,16,whole,uec_math_ii:c7e7ace2a579,7,21,2,visual_fields_checked,True,False,题旁另印a>0常数，但所见表达式未使用a；不擅自把16或4改成a。
+uec_math_ii:2023:mcq:17:whole,uec_math_ii,2023,mcq,17,whole,uec_math_ii:c7e7ace2a579,7,22,2,visual_fields_checked,True,False,
+uec_math_ii:2023:mcq:18:whole,uec_math_ii,2023,mcq,18,whole,uec_math_ii:c7e7ace2a579,7,30,2,visual_fields_checked,False,False,若题意是隐式积分曲线可辨A；若要求通常可微初值解，起点使原ODE无定义，不能把整个圆认证为单值经典函数解。
+uec_math_ii:2023:mcq:19:whole,uec_math_ii,2023,mcq,19,whole,uec_math_ii:c7e7ace2a579,7,28,2,visual_fields_checked,True,False,
+uec_math_ii:2023:mcq:20:whole,uec_math_ii,2023,mcq,20,whole,uec_math_ii:c7e7ace2a579,7,24,2,visual_fields_checked,True,False,
+uec_math_ii:2023:written:1:a(i),uec_math_ii,2023,written,1,a(i),uec_math_ii:93b1fd5dea2f,5,18,3,visual_fields_checked,True,False,
+uec_math_ii:2023:written:1:a(ii),uec_math_ii,2023,written,1,a(ii),uec_math_ii:93b1fd5dea2f,5,18,4,visual_fields_checked,True,False,
+uec_math_ii:2023:written:1:b,uec_math_ii,2023,written,1,b,uec_math_ii:93b1fd5dea2f,5,9,3,visual_fields_checked,True,False,
+uec_math_ii:2023:written:2:a,uec_math_ii,2023,written,2,a,uec_math_ii:93b1fd5dea2f,5,11,3,visual_fields_checked,True,False,
+uec_math_ii:2023:written:2:b(i),uec_math_ii,2023,written,2,b(i),uec_math_ii:93b1fd5dea2f,5,10,2,visual_fields_checked,True,False,
+uec_math_ii:2023:written:2:b(ii),uec_math_ii,2023,written,2,b(ii),uec_math_ii:93b1fd5dea2f,5,10,3,visual_fields_checked,True,False,
+uec_math_ii:2023:written:2:b(iii),uec_math_ii,2023,written,2,b(iii),uec_math_ii:93b1fd5dea2f,5,10,2,visual_fields_checked,True,False,
+uec_math_ii:2023:written:3:a(i),uec_math_ii,2023,written,3,a(i),uec_math_ii:93b1fd5dea2f,5,3,2,visual_fields_checked,True,False,
+uec_math_ii:2023:written:3:a(ii),uec_math_ii,2023,written,3,a(ii),uec_math_ii:93b1fd5dea2f,5,34,4,visual_fields_checked,True,False,
+uec_math_ii:2023:written:3:b,uec_math_ii,2023,written,3,b,uec_math_ii:93b1fd5dea2f,5,19,4,visual_fields_checked,True,False,
+uec_math_ii:2023:written:4:a,uec_math_ii,2023,written,4,a,uec_math_ii:93b1fd5dea2f,6,20,4,visual_fields_checked,True,False,
+uec_math_ii:2023:written:4:b,uec_math_ii,2023,written,4,b,uec_math_ii:93b1fd5dea2f,6,17,4,visual_fields_checked,True,False,
+uec_math_ii:2023:written:4:c,uec_math_ii,2023,written,4,c,uec_math_ii:93b1fd5dea2f,6,12,2,visual_fields_checked,False,False,"结论需要额外排除退化底数，例如a=c=1时原条件对任意x,y,n,m成立，不能除以ln a ln c而不检查。"
+uec_math_ii:2023:written:5:a,uec_math_ii,2023,written,5,a,uec_math_ii:93b1fd5dea2f,6,7,3,visual_fields_checked,True,False,
+uec_math_ii:2023:written:5:b(i),uec_math_ii,2023,written,5,b(i),uec_math_ii:93b1fd5dea2f,6,31,5,visual_fields_checked,True,False,
+uec_math_ii:2023:written:5:b(ii),uec_math_ii,2023,written,5,b(ii),uec_math_ii:93b1fd5dea2f,6,13,2,visual_fields_checked,True,False,ii末项是1/((2n+1)(2n+3))，共n+1项，不能直接沿用i的n项公式。
+uec_math_ii:2023:written:6:a(i),uec_math_ii,2023,written,6,a(i),uec_math_ii:93b1fd5dea2f,6,34,2,visual_fields_checked,True,False,
+uec_math_ii:2023:written:6:a(ii),uec_math_ii,2023,written,6,a(ii),uec_math_ii:93b1fd5dea2f,6,34,2,visual_fields_checked,True,False,
+uec_math_ii:2023:written:6:b(i),uec_math_ii,2023,written,6,b(i),uec_math_ii:93b1fd5dea2f,6,13,2,visual_fields_checked,True,False,
+uec_math_ii:2023:written:6:b(ii),uec_math_ii,2023,written,6,b(ii),uec_math_ii:93b1fd5dea2f,6,13,4,visual_fields_checked,True,False,
+uec_math_ii:2023:written:7:a,uec_math_ii,2023,written,7,a,uec_math_ii:93b1fd5dea2f,7,28,4,visual_fields_checked,True,False,
+uec_math_ii:2023:written:7:b(i),uec_math_ii,2023,written,7,b(i),uec_math_ii:93b1fd5dea2f,7,33,4,visual_fields_checked,True,False,
+uec_math_ii:2023:written:7:b(ii),uec_math_ii,2023,written,7,b(ii),uec_math_ii:93b1fd5dea2f,7,33,2,visual_fields_checked,True,False,
+uec_math_ii:2023:written:8:a(i),uec_math_ii,2023,written,8,a(i),uec_math_ii:93b1fd5dea2f,7,32,3,visual_fields_checked,True,False,
+uec_math_ii:2023:written:8:a(ii),uec_math_ii,2023,written,8,a(ii),uec_math_ii:93b1fd5dea2f,7,33,2,visual_fields_checked,True,False,
+uec_math_ii:2023:written:8:b(i),uec_math_ii,2023,written,8,b(i),uec_math_ii:93b1fd5dea2f,7,1,2,visual_fields_checked,True,False,
+uec_math_ii:2023:written:8:b(ii),uec_math_ii,2023,written,8,b(ii),uec_math_ii:93b1fd5dea2f,7,16,3,visual_fields_checked,True,False,
+uec_math_ii:2023:written:9:a,uec_math_ii,2023,written,9,a,uec_math_ii:93b1fd5dea2f,7,21,3,visual_fields_checked,True,False,
+uec_math_ii:2023:written:9:b,uec_math_ii,2023,written,9,b,uec_math_ii:93b1fd5dea2f,7,29,3,visual_fields_checked,True,False,
+uec_math_ii:2023:written:9:c,uec_math_ii,2023,written,9,c,uec_math_ii:93b1fd5dea2f,7,31,4,visual_fields_checked,True,False,第一近似已给x₁=.45，第二近似x₂只作一次更新；不能照搬另卷x₀初值时的两次迭代。
+uec_math_ii:2023:written:10:a,uec_math_ii,2023,written,10,a,uec_math_ii:93b1fd5dea2f,8,21,3,visual_fields_checked,True,False,
+uec_math_ii:2023:written:10:b(i),uec_math_ii,2023,written,10,b(i),uec_math_ii:93b1fd5dea2f,8,22,1.5,visual_fields_checked,True,False,
+uec_math_ii:2023:written:10:b(ii),uec_math_ii,2023,written,10,b(ii),uec_math_ii:93b1fd5dea2f,8,5,3,visual_fields_checked,True,False,
+uec_math_ii:2023:written:10:b(iii),uec_math_ii,2023,written,10,b(iii),uec_math_ii:93b1fd5dea2f,8,22,2.5,visual_fields_checked,True,False,
+uec_math_ii:2023:written:11:a,uec_math_ii,2023,written,11,a,uec_math_ii:93b1fd5dea2f,8,30,4,visual_fields_checked,False,False,"若意为全曲线法线场，则切线y′=xy−1并用(2,2)定常数；字面仅一点斜率不足唯一确定曲线，保留表述待确认，不把法线斜率直接当y′。"
+uec_math_ii:2023:written:11:b(i),uec_math_ii,2023,written,11,b(i),uec_math_ii:93b1fd5dea2f,8,24,3,visual_fields_checked,True,False,
+uec_math_ii:2023:written:11:b(ii),uec_math_ii,2023,written,11,b(ii),uec_math_ii:93b1fd5dea2f,8,22,3,visual_fields_checked,True,False,
+uec_math_ii:2023:written:12:a,uec_math_ii,2023,written,12,a,uec_math_ii:93b1fd5dea2f,8,29,6,visual_fields_checked,True,False,
+uec_math_ii:2023:written:12:b,uec_math_ii,2023,written,12,b,uec_math_ii:93b1fd5dea2f,8,24,4,visual_fields_checked,True,False,
+graduation_math_ii:2024:mcq:1:whole,graduation_math_ii,2024,mcq,1,whole,graduation_math_ii:ebf2ff05a181,3,9,2,visual_fields_checked,True,False,
+graduation_math_ii:2024:mcq:2:whole,graduation_math_ii,2024,mcq,2,whole,graduation_math_ii:ebf2ff05a181,3,9,2,visual_fields_checked,True,False,
+graduation_math_ii:2024:mcq:3:whole,graduation_math_ii,2024,mcq,3,whole,graduation_math_ii:ebf2ff05a181,3,11,2,visual_fields_checked,True,False,
+graduation_math_ii:2024:mcq:4:whole,graduation_math_ii,2024,mcq,4,whole,graduation_math_ii:ebf2ff05a181,3,18,2,visual_fields_checked,True,False,
+graduation_math_ii:2024:mcq:5:whole,graduation_math_ii,2024,mcq,5,whole,graduation_math_ii:ebf2ff05a181,3,17,2,visual_fields_checked,True,False,
+graduation_math_ii:2024:mcq:6:whole,graduation_math_ii,2024,mcq,6,whole,graduation_math_ii:ebf2ff05a181,3,19,2,visual_fields_checked,True,False,两组别、分组人数、轮空和季军赛均须保留；不能只用参赛总人数减一。
+graduation_math_ii:2024:mcq:7:whole,graduation_math_ii,2024,mcq,7,whole,graduation_math_ii:ebf2ff05a181,3,20,2,visual_fields_checked,True,False,
+graduation_math_ii:2024:mcq:8:whole,graduation_math_ii,2024,mcq,8,whole,graduation_math_ii:ebf2ff05a181,3,34,2,visual_fields_checked,True,False,
+graduation_math_ii:2024:mcq:9:whole,graduation_math_ii,2024,mcq,9,whole,graduation_math_ii:ebf2ff05a181,3,29,2,visual_fields_checked,True,False,
+graduation_math_ii:2024:mcq:10:whole,graduation_math_ii,2024,mcq,10,whole,graduation_math_ii:ebf2ff05a181,4,4,2,visual_fields_checked,True,False,
+graduation_math_ii:2024:mcq:11:whole,graduation_math_ii,2024,mcq,11,whole,graduation_math_ii:ebf2ff05a181,4,33,2,visual_fields_checked,True,False,
+graduation_math_ii:2024:mcq:12:whole,graduation_math_ii,2024,mcq,12,whole,graduation_math_ii:ebf2ff05a181,4,33,2,visual_fields_checked,True,False,
+graduation_math_ii:2024:mcq:13:whole,graduation_math_ii,2024,mcq,13,whole,graduation_math_ii:ebf2ff05a181,4,28,2,visual_fields_checked,True,False,放大原页确认x为cos²θ，不是cos³θ。
+graduation_math_ii:2024:mcq:14:whole,graduation_math_ii,2024,mcq,14,whole,graduation_math_ii:ebf2ff05a181,4,33,2,visual_fields_checked,True,False,
+graduation_math_ii:2024:mcq:15:whole,graduation_math_ii,2024,mcq,15,whole,graduation_math_ii:ebf2ff05a181,4,21,2,visual_fields_checked,True,False,
+graduation_math_ii:2024:mcq:16:whole,graduation_math_ii,2024,mcq,16,whole,graduation_math_ii:ebf2ff05a181,5,22,2,visual_fields_checked,True,False,
+graduation_math_ii:2024:mcq:17:whole,graduation_math_ii,2024,mcq,17,whole,graduation_math_ii:ebf2ff05a181,5,29,2,visual_fields_checked,False,False,根号覆盖整个分式，不是sqrt(x²−4)/x⁸。实域|x|≥2；常见候选原函数(1−4/x²)^(3/2)/12在正负支导数符号不同，负支须另核，不认证全域唯一选项。
+graduation_math_ii:2024:mcq:18:whole,graduation_math_ii,2024,mcq,18,whole,graduation_math_ii:ebf2ff05a181,5,24,2,visual_fields_checked,True,False,
+graduation_math_ii:2024:mcq:19:whole,graduation_math_ii,2024,mcq,19,whole,graduation_math_ii:ebf2ff05a181,5,24,2,visual_fields_checked,True,False,
+graduation_math_ii:2024:mcq:20:whole,graduation_math_ii,2024,mcq,20,whole,graduation_math_ii:ebf2ff05a181,5,30,2,visual_fields_checked,True,False,分离时除以tan y会排除y=nπ恒定解；整理通解时应另列这些解，并限制|x|<1/2及tan y有定义的区间。
+graduation_math_ii:2024:written:1:a,graduation_math_ii,2024,written,1,a,graduation_math_ii:ebf2ff05a181,7,10,6,visual_fields_checked,True,False,
+graduation_math_ii:2024:written:1:b,graduation_math_ii,2024,written,1,b,graduation_math_ii:ebf2ff05a181,7,18,4,visual_fields_checked,True,False,
+graduation_math_ii:2024:written:2:a,graduation_math_ii,2024,written,2,a,graduation_math_ii:ebf2ff05a181,7,11,4,visual_fields_checked,True,False,
+graduation_math_ii:2024:written:2:b(i),graduation_math_ii,2024,written,2,b(i),graduation_math_ii:ebf2ff05a181,7,10,3,visual_fields_checked,True,False,
+graduation_math_ii:2024:written:2:b(ii),graduation_math_ii,2024,written,2,b(ii),graduation_math_ii:ebf2ff05a181,7,10,3,visual_fields_checked,True,False,
+graduation_math_ii:2024:written:3:a,graduation_math_ii,2024,written,3,a,graduation_math_ii:ebf2ff05a181,7,4,5,visual_fields_checked,True,False,
+graduation_math_ii:2024:written:3:b(i),graduation_math_ii,2024,written,3,b(i),graduation_math_ii:ebf2ff05a181,7,26,2,visual_fields_checked,False,False,母A可能IAIA或IAIO，原题未给两种基因型概率，不能擅自各1/2；需要补充母亲基因型或先验模型。
+graduation_math_ii:2024:written:3:b(ii),graduation_math_ii,2024,written,3,b(ii),graduation_math_ii:ebf2ff05a181,7,26,3,visual_fields_checked,False,False,题面没有父母血型/基因型总体分布；若沿用(i)父O则退化为1，若独立小问则缺先验。保留待教师明确，不生成虚构确定答案。
+graduation_math_ii:2024:written:4:a(i),graduation_math_ii,2024,written,4,a(i),graduation_math_ii:ebf2ff05a181,7,17,1.5,visual_fields_checked,True,False,
+graduation_math_ii:2024:written:4:a(ii),graduation_math_ii,2024,written,4,a(ii),graduation_math_ii:ebf2ff05a181,7,17,5.5,visual_fields_checked,True,False,
+graduation_math_ii:2024:written:4:b,graduation_math_ii,2024,written,4,b,graduation_math_ii:ebf2ff05a181,7,12,3,visual_fields_checked,True,False,
+graduation_math_ii:2024:written:5:a,graduation_math_ii,2024,written,5,a,graduation_math_ii:ebf2ff05a181,7,34,4,visual_fields_checked,True,False,
+graduation_math_ii:2024:written:5:b(i),graduation_math_ii,2024,written,5,b(i),graduation_math_ii:ebf2ff05a181,7,3,2,visual_fields_checked,True,False,
+graduation_math_ii:2024:written:5:b(ii),graduation_math_ii,2024,written,5,b(ii),graduation_math_ii:ebf2ff05a181,7,3,4,visual_fields_checked,True,False,
+graduation_math_ii:2024:written:6:a,graduation_math_ii,2024,written,6,a,graduation_math_ii:ebf2ff05a181,8,5,4,visual_fields_checked,True,False,
+graduation_math_ii:2024:written:6:b,graduation_math_ii,2024,written,6,b,graduation_math_ii:ebf2ff05a181,8,31,6,visual_fields_checked,True,False,
+graduation_math_ii:2024:written:7:a(i),graduation_math_ii,2024,written,7,a(i),graduation_math_ii:ebf2ff05a181,8,33,2.5,visual_fields_checked,True,False,
+graduation_math_ii:2024:written:7:a(ii),graduation_math_ii,2024,written,7,a(ii),graduation_math_ii:ebf2ff05a181,8,33,2.5,visual_fields_checked,True,False,
+graduation_math_ii:2024:written:7:b,graduation_math_ii,2024,written,7,b,graduation_math_ii:ebf2ff05a181,8,33,5,visual_fields_checked,True,False,原题是法线，不是切线；不得用切线存在性或斜率公式替代。
+graduation_math_ii:2024:written:8:a,graduation_math_ii,2024,written,8,a,graduation_math_ii:ebf2ff05a181,8,33,6,visual_fields_checked,True,False,
+graduation_math_ii:2024:written:8:b,graduation_math_ii,2024,written,8,b,graduation_math_ii:ebf2ff05a181,8,16,4,visual_fields_checked,True,False,
+graduation_math_ii:2024:written:9:a,graduation_math_ii,2024,written,9,a,graduation_math_ii:ebf2ff05a181,8,28,5,visual_fields_checked,True,False,
+graduation_math_ii:2024:written:9:b,graduation_math_ii,2024,written,9,b,graduation_math_ii:ebf2ff05a181,8,29,5,visual_fields_checked,True,False,
+graduation_math_ii:2024:written:10:a,graduation_math_ii,2024,written,10,a,graduation_math_ii:ebf2ff05a181,8,24,6,visual_fields_checked,True,False,题页明印6%，前置蓝图10a列5，按题页6；函数在该区间为负，面积需取正。
+graduation_math_ii:2024:written:10:b,graduation_math_ii,2024,written,10,b,graduation_math_ii:ebf2ff05a181,8,28,4,visual_fields_checked,True,False,题页明印4%，前置蓝图10b列5，以题页4为准。
+graduation_math_ii:2024:written:11:a,graduation_math_ii,2024,written,11,a,graduation_math_ii:ebf2ff05a181,8,22,5,visual_fields_checked,True,False,
+graduation_math_ii:2024:written:11:b,graduation_math_ii,2024,written,11,b,graduation_math_ii:ebf2ff05a181,8,30,5,visual_fields_checked,True,False,
+graduation_math_ii:2024:written:12:a,graduation_math_ii,2024,written,12,a,graduation_math_ii:ebf2ff05a181,8,22,5,visual_fields_checked,True,False,
+graduation_math_ii:2024:written:12:b,graduation_math_ii,2024,written,12,b,graduation_math_ii:ebf2ff05a181,8,24,5,visual_fields_checked,True,False,
+preexam_math_ii:2024:mcq:1:whole,preexam_math_ii,2024,mcq,1,whole,preexam_math_ii:7676888284d8,2,2,2,visual_fields_checked,True,False,
+preexam_math_ii:2024:mcq:2:whole,preexam_math_ii,2024,mcq,2,whole,preexam_math_ii:7676888284d8,2,15,2,visual_fields_checked,True,False,问号是原图遮盖位置的显式占位符，不当作已复原的矩阵元素。
+preexam_math_ii:2024:mcq:3:whole,preexam_math_ii,2024,mcq,3,whole,preexam_math_ii:7676888284d8,2,5,2,visual_fields_checked,True,False,
+preexam_math_ii:2024:mcq:4:whole,preexam_math_ii,2024,mcq,4,whole,preexam_math_ii:7676888284d8,2,34,2,visual_fields_checked,True,False,
+preexam_math_ii:2024:mcq:5:whole,preexam_math_ii,2024,mcq,5,whole,preexam_math_ii:7676888284d8,2,20,2,visual_fields_checked,True,False,
+preexam_math_ii:2024:mcq:6:whole,preexam_math_ii,2024,mcq,6,whole,preexam_math_ii:7676888284d8,2,13,2,visual_fields_checked,True,False,
+preexam_math_ii:2024:mcq:7:whole,preexam_math_ii,2024,mcq,7,whole,preexam_math_ii:7676888284d8,2,17,2,visual_fields_checked,True,False,
+preexam_math_ii:2024:mcq:8:whole,preexam_math_ii,2024,mcq,8,whole,preexam_math_ii:7676888284d8,3,9,2,visual_fields_checked,True,False,
+preexam_math_ii:2024:mcq:9:whole,preexam_math_ii,2024,mcq,9,whole,preexam_math_ii:7676888284d8,3,9,2,visual_fields_checked,True,False,
+preexam_math_ii:2024:mcq:10:whole,preexam_math_ii,2024,mcq,10,whole,preexam_math_ii:7676888284d8,3,10,2,visual_fields_checked,True,False,
+preexam_math_ii:2024:mcq:11:whole,preexam_math_ii,2024,mcq,11,whole,preexam_math_ii:7676888284d8,3,11,2,visual_fields_checked,True,False,
+preexam_math_ii:2024:mcq:12:whole,preexam_math_ii,2024,mcq,12,whole,preexam_math_ii:7676888284d8,3,33,2,visual_fields_checked,True,False,
+preexam_math_ii:2024:mcq:13:whole,preexam_math_ii,2024,mcq,13,whole,preexam_math_ii:7676888284d8,3,33,2,visual_fields_checked,True,False,原页放大确认两分式之间是加号，右侧为+1；双曲线条件隐含141<k<147，不能改抄成两个分式相减。
+preexam_math_ii:2024:mcq:14:whole,preexam_math_ii,2024,mcq,14,whole,preexam_math_ii:7676888284d8,3,32,2,visual_fields_checked,True,False,
+preexam_math_ii:2024:mcq:15:whole,preexam_math_ii,2024,mcq,15,whole,preexam_math_ii:7676888284d8,4,33,2,visual_fields_checked,True,False,
+preexam_math_ii:2024:mcq:16:whole,preexam_math_ii,2024,mcq,16,whole,preexam_math_ii:7676888284d8,4,5,2,visual_fields_checked,True,False,
+preexam_math_ii:2024:mcq:17:whole,preexam_math_ii,2024,mcq,17,whole,preexam_math_ii:7676888284d8,4,28,2,visual_fields_checked,True,False,
+preexam_math_ii:2024:mcq:18:whole,preexam_math_ii,2024,mcq,18,whole,preexam_math_ii:7676888284d8,4,21,2,visual_fields_checked,True,False,
+preexam_math_ii:2024:mcq:19:whole,preexam_math_ii,2024,mcq,19,whole,preexam_math_ii:7676888284d8,4,29,2,visual_fields_checked,True,False,
+preexam_math_ii:2024:mcq:20:whole,preexam_math_ii,2024,mcq,20,whole,preexam_math_ii:7676888284d8,4,30,2,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:1:a,preexam_math_ii,2024,written,1,a,preexam_math_ii:972e2047a8a2,2,11,6,visual_fields_checked,True,False,先保留cos2x≠0；简化后出现的候选值必须回到原式，不能仅解tan u=sin u后保留原式无定义的点。
+preexam_math_ii:2024:written:1:b(i),preexam_math_ii,2024,written,1,b(i),preexam_math_ii:972e2047a8a2,2,18,2,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:1:b(ii),preexam_math_ii,2024,written,1,b(ii),preexam_math_ii:972e2047a8a2,2,18,2,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:2:a,preexam_math_ii,2024,written,2,a,preexam_math_ii:972e2047a8a2,2,9,4,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:2:b(i),preexam_math_ii,2024,written,2,b(i),preexam_math_ii:972e2047a8a2,2,10,2,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:2:b(ii),preexam_math_ii,2024,written,2,b(ii),preexam_math_ii:972e2047a8a2,2,10,2,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:2:b(iii),preexam_math_ii,2024,written,2,b(iii),preexam_math_ii:972e2047a8a2,2,26,2,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:3:a,preexam_math_ii,2024,written,3,a,preexam_math_ii:972e2047a8a2,2,3,3,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:3:b,preexam_math_ii,2024,written,3,b,preexam_math_ii:972e2047a8a2,2,19,3,visual_fields_checked,True,False,选6沿用同卷封面明确规则；不是把每组可选1/2而总题数不限的组合数相乘。
+preexam_math_ii:2024:written:3:c,preexam_math_ii,2024,written,3,c,preexam_math_ii:972e2047a8a2,2,13,4,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:4:a,preexam_math_ii,2024,written,4,a,preexam_math_ii:972e2047a8a2,2,31,6,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:4:b,preexam_math_ii,2024,written,4,b,preexam_math_ii:972e2047a8a2,2,7,4,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:5:a,preexam_math_ii,2024,written,5,a,preexam_math_ii:972e2047a8a2,3,20,6,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:5:b,preexam_math_ii,2024,written,5,b,preexam_math_ii:972e2047a8a2,3,12,4,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:6:a,preexam_math_ii,2024,written,6,a,preexam_math_ii:972e2047a8a2,3,6,2,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:6:b,preexam_math_ii,2024,written,6,b,preexam_math_ii:972e2047a8a2,3,34,4,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:6:c,preexam_math_ii,2024,written,6,c,preexam_math_ii:972e2047a8a2,3,5,4,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:7:a,preexam_math_ii,2024,written,7,a,preexam_math_ii:972e2047a8a2,3,33,4,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:7:b(i),preexam_math_ii,2024,written,7,b(i),preexam_math_ii:972e2047a8a2,3,16,2,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:7:b(ii),preexam_math_ii,2024,written,7,b(ii),preexam_math_ii:972e2047a8a2,3,16,4,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:8:a,preexam_math_ii,2024,written,8,a,preexam_math_ii:972e2047a8a2,3,33,3,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:8:b(i),preexam_math_ii,2024,written,8,b(i),preexam_math_ii:972e2047a8a2,3,33,2,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:8:b(ii),preexam_math_ii,2024,written,8,b(ii),preexam_math_ii:972e2047a8a2,3,33,5,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:9:a,preexam_math_ii,2024,written,9,a,preexam_math_ii:972e2047a8a2,4,22,4,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:9:b,preexam_math_ii,2024,written,9,b,preexam_math_ii:972e2047a8a2,4,30,3,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:9:c,preexam_math_ii,2024,written,9,c,preexam_math_ii:972e2047a8a2,4,29,3,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:10:a(i),preexam_math_ii,2024,written,10,a(i),preexam_math_ii:972e2047a8a2,4,24,4,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:10:a(ii),preexam_math_ii,2024,written,10,a(ii),preexam_math_ii:972e2047a8a2,4,22,3,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:10:b,preexam_math_ii,2024,written,10,b,preexam_math_ii:972e2047a8a2,4,28,3,visual_fields_checked,True,False,按实对数连续分支，y>0且cos x>0；不能省略ln y的原定义域。
+preexam_math_ii:2024:written:11:a,preexam_math_ii,2024,written,11,a,preexam_math_ii:972e2047a8a2,4,24,5,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:11:b,preexam_math_ii,2024,written,11,b,preexam_math_ii:972e2047a8a2,4,24,5,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:12:a(i),preexam_math_ii,2024,written,12,a(i),preexam_math_ii:972e2047a8a2,4,24,2,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:12:a(ii),preexam_math_ii,2024,written,12,a(ii),preexam_math_ii:972e2047a8a2,4,24,2,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:12:a(iii),preexam_math_ii,2024,written,12,a(iii),preexam_math_ii:972e2047a8a2,4,24,3,visual_fields_checked,True,False,
+preexam_math_ii:2024:written:12:b,preexam_math_ii,2024,written,12,b,preexam_math_ii:972e2047a8a2,4,21,3,visual_fields_checked,True,False,b整体只明印3%，i、ii未分配子分，不重复计算。
+preexam_math_ii:2024:written:12:b(i),preexam_math_ii,2024,written,12,b(i),preexam_math_ii:972e2047a8a2,4,21,,visual_fields_checked,False,False,
+preexam_math_ii:2024:written:12:b(ii),preexam_math_ii,2024,written,12,b(ii),preexam_math_ii:972e2047a8a2,4,21,,visual_fields_checked,False,False,
 semester_final:2024:mcq:1:whole,semester_final,2024,mcq,1,whole,semester_final:77c82e050de9,1,34,2,visual_fields_checked,True,False,
 semester_final:2024:mcq:2:whole,semester_final,2024,mcq,2,whole,semester_final:77c82e050de9,1,9,2,visual_fields_checked,True,False,
 semester_final:2024:mcq:3:whole,semester_final,2024,mcq,3,whole,semester_final:77c82e050de9,1,9,2,visual_fields_checked,True,False,"采用原教材常用cot逆函数值域(0,π)；不能套atan主值。"
@@ -448,6 +560,55 @@ semester_final:2024:written:7:c,semester_final,2024,written,7,c,semester_final:2
 semester_final:2024:written:8:a,semester_final,2024,written,8,a,semester_final:247a5204ecac,2,34,6,visual_fields_checked,True,False,
 semester_final:2024:written:8:b,semester_final,2024,written,8,b,semester_final:247a5204ecac,2,29,5,visual_fields_checked,True,False,
 semester_final:2024:written:8:c,semester_final,2024,written,8,c,semester_final:247a5204ecac,2,24,4,visual_fields_checked,True,False,
+uec_math_i:2024:mcq:1:whole,uec_math_i,2024,mcq,1,whole,uec_math_i:edfebccee080,1,2,,visual_fields_checked,False,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:mcq:2:whole,uec_math_i,2024,mcq,2,whole,uec_math_i:edfebccee080,1,3,,visual_fields_checked,False,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:mcq:3:whole,uec_math_i,2024,mcq,3,whole,uec_math_i:edfebccee080,1,5,,visual_fields_checked,False,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:mcq:4:whole,uec_math_i,2024,mcq,4,whole,uec_math_i:edfebccee080,1,5,,visual_fields_checked,False,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:mcq:5:whole,uec_math_i,2024,mcq,5,whole,uec_math_i:edfebccee080,1,15,,visual_fields_checked,False,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:mcq:6:whole,uec_math_i,2024,mcq,6,whole,uec_math_i:edfebccee080,1,20,,visual_fields_checked,False,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:mcq:7:whole,uec_math_i,2024,mcq,7,whole,uec_math_i:edfebccee080,1,13,,visual_fields_checked,False,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:mcq:8:whole,uec_math_i,2024,mcq,8,whole,uec_math_i:edfebccee080,1,25,,visual_fields_checked,False,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:mcq:9:whole,uec_math_i,2024,mcq,9,whole,uec_math_i:edfebccee080,2,26,,visual_fields_checked,False,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:mcq:10:whole,uec_math_i,2024,mcq,10,whole,uec_math_i:edfebccee080,2,1,,visual_fields_checked,False,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:mcq:11:whole,uec_math_i,2024,mcq,11,whole,uec_math_i:edfebccee080,2,18,,visual_fields_checked,False,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:mcq:12:whole,uec_math_i,2024,mcq,12,whole,uec_math_i:edfebccee080,2,10,,visual_fields_checked,False,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:mcq:13:whole,uec_math_i,2024,mcq,13,whole,uec_math_i:edfebccee080,2,11,,visual_fields_checked,False,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:mcq:14:whole,uec_math_i,2024,mcq,14,whole,uec_math_i:edfebccee080,2,11,,visual_fields_checked,False,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:mcq:15:whole,uec_math_i,2024,mcq,15,whole,uec_math_i:edfebccee080,2,1,,visual_fields_checked,False,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:mcq:16:whole,uec_math_i,2024,mcq,16,whole,uec_math_i:edfebccee080,3,16,,visual_fields_checked,False,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:mcq:17:whole,uec_math_i,2024,mcq,17,whole,uec_math_i:edfebccee080,3,21,,visual_fields_checked,False,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:mcq:18:whole,uec_math_i,2024,mcq,18,whole,uec_math_i:edfebccee080,3,24,,visual_fields_checked,False,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:mcq:19:whole,uec_math_i,2024,mcq,19,whole,uec_math_i:edfebccee080,3,22,,visual_fields_checked,False,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:mcq:20:whole,uec_math_i,2024,mcq,20,whole,uec_math_i:edfebccee080,3,24,,visual_fields_checked,False,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:written:1:a,uec_math_i,2024,written,1,a,uec_math_i:edfebccee080,4,5,1,visual_fields_checked,True,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:written:1:b,uec_math_i,2024,written,1,b,uec_math_i:edfebccee080,4,5,1,visual_fields_checked,True,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:written:1:c,uec_math_i,2024,written,1,c,uec_math_i:edfebccee080,4,5,2,visual_fields_checked,True,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:written:2:whole,uec_math_i,2024,written,2,whole,uec_math_i:edfebccee080,4,8,4,visual_fields_checked,True,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:written:3:whole,uec_math_i,2024,written,3,whole,uec_math_i:edfebccee080,4,1,4,visual_fields_checked,True,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:written:4:whole,uec_math_i,2024,written,4,whole,uec_math_i:edfebccee080,4,26,4,visual_fields_checked,True,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:written:5:whole,uec_math_i,2024,written,5,whole,uec_math_i:edfebccee080,4,22,4,visual_fields_checked,True,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:written:6:a,uec_math_i,2024,written,6,a,uec_math_i:edfebccee080,5,12,4,visual_fields_checked,True,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:written:6:b(i),uec_math_i,2024,written,6,b(i),uec_math_i:edfebccee080,5,2,4,visual_fields_checked,True,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:written:6:b(ii),uec_math_i,2024,written,6,b(ii),uec_math_i:edfebccee080,5,2,2,visual_fields_checked,True,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:written:7:a,uec_math_i,2024,written,7,a,uec_math_i:edfebccee080,5,6,4,visual_fields_checked,True,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:written:7:b(i),uec_math_i,2024,written,7,b(i),uec_math_i:edfebccee080,5,17,4,visual_fields_checked,True,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:written:7:b(ii),uec_math_i,2024,written,7,b(ii),uec_math_i:edfebccee080,5,17,2,visual_fields_checked,True,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:written:8:a(i),uec_math_i,2024,written,8,a(i),uec_math_i:edfebccee080,5,18,4,visual_fields_checked,True,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:written:8:a(ii),uec_math_i,2024,written,8,a(ii),uec_math_i:edfebccee080,5,18,3,visual_fields_checked,True,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:written:8:b,uec_math_i,2024,written,8,b,uec_math_i:edfebccee080,5,11,3,visual_fields_checked,True,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:written:9:a(i),uec_math_i,2024,written,9,a(i),uec_math_i:edfebccee080,5,19,4,visual_fields_checked,True,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:written:9:a(ii),uec_math_i,2024,written,9,a(ii),uec_math_i:edfebccee080,5,19,2,visual_fields_checked,True,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:written:9:b,uec_math_i,2024,written,9,b,uec_math_i:edfebccee080,5,26,4,visual_fields_checked,True,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:written:10:a,uec_math_i,2024,written,10,a,uec_math_i:edfebccee080,6,1,3,visual_fields_checked,True,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:written:10:b,uec_math_i,2024,written,10,b,uec_math_i:edfebccee080,6,1,4,visual_fields_checked,True,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:written:10:c,uec_math_i,2024,written,10,c,uec_math_i:edfebccee080,6,16,3,visual_fields_checked,True,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:written:11:a(i),uec_math_i,2024,written,11,a(i),uec_math_i:edfebccee080,6,29,1,visual_fields_checked,True,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:written:11:a(ii),uec_math_i,2024,written,11,a(ii),uec_math_i:edfebccee080,6,29,3,visual_fields_checked,True,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:written:11:b(i),uec_math_i,2024,written,11,b(i),uec_math_i:edfebccee080,6,22,3,visual_fields_checked,True,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:written:11:b(ii),uec_math_i,2024,written,11,b(ii),uec_math_i:edfebccee080,6,22,3,visual_fields_checked,True,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:written:12:a(i),uec_math_i,2024,written,12,a(i),uec_math_i:edfebccee080,6,22,3,visual_fields_checked,True,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:written:12:a(ii),uec_math_i,2024,written,12,a(ii),uec_math_i:edfebccee080,6,22,2,visual_fields_checked,True,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
+uec_math_i:2024:written:12:b,uec_math_i,2024,written,12,b,uec_math_i:edfebccee080,6,24,5,visual_fields_checked,True,False, 本扫描无两卷封面；年份依文件名，作答分值/选答规则读自题页，选择每题2分仅推定。
 uec_math_ii:2024:mcq:1:whole,uec_math_ii,2024,mcq,1,whole,uec_math_ii:11fbd35e55ce,1,7,,visual_fields_checked,False,False, 所供选择卷缺封面；年份按配对文件、2分按配对40%与20题推定，不冒充本页明印分值。
 uec_math_ii:2024:mcq:2:whole,uec_math_ii,2024,mcq,2,whole,uec_math_ii:11fbd35e55ce,1,4,,visual_fields_checked,False,False, 所供选择卷缺封面；年份按配对文件、2分按配对40%与20题推定，不冒充本页明印分值。
 uec_math_ii:2024:mcq:3:whole,uec_math_ii,2024,mcq,3,whole,uec_math_ii:11fbd35e55ce,1,13,,visual_fields_checked,False,False, 所供选择卷缺封面；年份按配对文件、2分按配对40%与20题推定，不冒充本页明印分值。

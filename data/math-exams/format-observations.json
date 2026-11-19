@@ -295,6 +295,237 @@
     "mcq_count_evidence": "question_pages_visually_counted"
   },
   {
+    "exam_type": "preexam_math_ii",
+    "year": 2024,
+    "source_pdf_id": "preexam_math_ii:972e2047a8a2",
+    "cover_pdf_pages": [
+      1
+    ],
+    "exam_date_as_printed": "2024-08-29",
+    "mcq_count": 20,
+    "mcq_weight": 40,
+    "written_weight": 60,
+    "written_count": 12,
+    "printed_written_marks": 120,
+    "selection_rule": "12选6，四组各至少1至多2",
+    "paper_minutes": [
+      60,
+      120
+    ],
+    "evidence": "source_pdf_cover_visually_read",
+    "authenticity": "uploaded_copy_not_independently_authenticated_by_issuer",
+    "notes": [
+      "另已读卷一4页，08:00–09:00；卷二09:15–11:15。",
+      "原卷第12(b)共3%，两个小问未逐项给分，不重复计分。"
+    ],
+    "mcq_count_evidence": "question_pages_visually_counted"
+  },
+  {
+    "exam_type": "preexam_math_ii",
+    "year": 2023,
+    "source_pdf_id": "preexam_math_ii:a086ec87542b",
+    "cover_pdf_pages": [
+      1,
+      4
+    ],
+    "exam_date_as_printed": "2023-08-21",
+    "mcq_count": 20,
+    "mcq_weight": 40,
+    "written_weight": 60,
+    "written_count": 12,
+    "printed_written_marks": 120,
+    "selection_rule": "12选6，四组各至少1至多2",
+    "paper_minutes": [
+      60,
+      120
+    ],
+    "evidence": "source_pdf_cover_visually_read",
+    "authenticity": "uploaded_copy_not_independently_authenticated_by_issuer",
+    "notes": [
+      "两卷各有封面，08:00–09:00与09:15–11:15。"
+    ],
+    "mcq_count_evidence": "question_pages_visually_counted"
+  },
+  {
+    "exam_type": "preexam_math_ii",
+    "year": 2022,
+    "source_pdf_id": "preexam_math_ii:b2dc9d8cd351",
+    "cover_pdf_pages": [
+      1
+    ],
+    "exam_date_as_printed": "2022-08-26",
+    "mcq_count": 20,
+    "mcq_weight": 40,
+    "written_weight": 60,
+    "written_count": null,
+    "printed_written_marks": null,
+    "selection_rule": "作答卷未提供，选答规则未确认",
+    "paper_minutes": [
+      60,
+      120
+    ],
+    "evidence": "source_pdf_cover_visually_read",
+    "authenticity": "uploaded_copy_not_independently_authenticated_by_issuer",
+    "notes": [
+      "只有卷一及其封面；封面说明40/60及第二阶段120分钟，但不证明未提供的作答题数或题目。"
+    ],
+    "mcq_count_evidence": "question_pages_visually_counted"
+  },
+  {
+    "exam_type": "graduation_math_ii",
+    "year": 2024,
+    "source_pdf_id": "graduation_math_ii:ebf2ff05a181",
+    "cover_pdf_pages": [
+      2,
+      6
+    ],
+    "exam_date_as_printed": "2024-10-02",
+    "mcq_count": 20,
+    "mcq_weight": 40,
+    "written_weight": 60,
+    "written_count": 12,
+    "printed_written_marks": 120,
+    "selection_rule": "12选6，四组各至少1至多2",
+    "paper_minutes": [
+      60,
+      120
+    ],
+    "evidence": "source_pdf_cover_visually_read",
+    "authenticity": "uploaded_copy_not_independently_authenticated_by_issuer",
+    "notes": [
+      "第1页是学校蓝图，不再计一套题。",
+      "第10a、10b题页为6%、4%，蓝图为5、5，以实际题页为分值依据。"
+    ],
+    "mcq_count_evidence": "question_pages_visually_counted"
+  },
+  {
+    "exam_type": "graduation_math_ii",
+    "year": 2022,
+    "source_pdf_id": "graduation_math_ii:f77a351cea2b",
+    "cover_pdf_pages": [
+      1,
+      4
+    ],
+    "exam_date_as_printed": "2022-10-19",
+    "mcq_count": 20,
+    "mcq_weight": 40,
+    "written_weight": 60,
+    "written_count": 12,
+    "printed_written_marks": 120,
+    "selection_rule": "12选6，四组各至少1至多2",
+    "paper_minutes": [
+      60,
+      120
+    ],
+    "evidence": "source_pdf_cover_visually_read",
+    "authenticity": "uploaded_copy_not_independently_authenticated_by_issuer",
+    "notes": [
+      "卷二封面写4面，但所供为封面和两页题面，题1–12均出现；保留页面数声明差异。"
+    ],
+    "mcq_count_evidence": "question_pages_visually_counted"
+  },
+  {
+    "exam_type": "graduation_math_ii",
+    "year": 2021,
+    "source_pdf_id": "graduation_math_ii:0ffd31629b21",
+    "cover_pdf_pages": [
+      1
+    ],
+    "exam_date_as_printed": "2021-10-22",
+    "mcq_count": 20,
+    "mcq_weight": 40,
+    "written_weight": 60,
+    "written_count": 12,
+    "printed_written_marks": 120,
+    "selection_rule": "12选6，四组各至少1至多2",
+    "paper_minutes": [
+      60,
+      120
+    ],
+    "evidence": "source_pdf_cover_visually_read",
+    "authenticity": "uploaded_copy_not_independently_authenticated_by_issuer",
+    "notes": [
+      "另读卷一封面与20题，两卷均有独立文件。"
+    ],
+    "mcq_count_evidence": "question_pages_visually_counted"
+  },
+  {
+    "exam_type": "uec_math_i",
+    "year": 2023,
+    "source_pdf_id": "uec_math_i:dbc13ba7f30f",
+    "cover_pdf_pages": [
+      1
+    ],
+    "exam_date_as_printed": "2023-11-09",
+    "mcq_count": 20,
+    "mcq_weight": 40,
+    "written_weight": 60,
+    "written_count": 12,
+    "printed_written_marks": 90,
+    "selection_rule": "甲5必答各4，乙7选4各10",
+    "paper_minutes": [
+      60,
+      120
+    ],
+    "evidence": "source_pdf_cover_visually_read",
+    "authenticity": "uploaded_copy_not_independently_authenticated_by_issuer",
+    "notes": [
+      "另读卷一封面；两卷所供公式表2–4均已目视阅读。",
+      "选择第10题焦准轨迹按当前字典落33章，保留原卷科目并列当前1–29范围映射冲突。"
+    ],
+    "mcq_count_evidence": "question_pages_visually_counted"
+  },
+  {
+    "exam_type": "uec_math_ii",
+    "year": 2023,
+    "source_pdf_id": "uec_math_ii:93b1fd5dea2f",
+    "cover_pdf_pages": [
+      1
+    ],
+    "exam_date_as_printed": "2023-11-06",
+    "mcq_count": 20,
+    "mcq_weight": 40,
+    "written_weight": 60,
+    "written_count": 12,
+    "printed_written_marks": 120,
+    "selection_rule": "12选6，四组各至少1至多2",
+    "paper_minutes": [
+      60,
+      120
+    ],
+    "evidence": "source_pdf_cover_visually_read",
+    "authenticity": "uploaded_copy_not_independently_authenticated_by_issuer",
+    "notes": [
+      "另读卷一封面，两卷公式表2–4均已读。",
+      "卷一18初值奇异、卷二4c退化底数、11a法线场表述分别保留核实问题。"
+    ],
+    "mcq_count_evidence": "question_pages_visually_counted"
+  },
+  {
+    "exam_type": "graduation_math_ii",
+    "year": 2023,
+    "source_pdf_id": "graduation_math_ii:e780522689f1",
+    "cover_pdf_pages": [],
+    "exam_date_as_printed": null,
+    "mcq_count": 20,
+    "mcq_weight": null,
+    "written_weight": null,
+    "written_count": 12,
+    "printed_written_marks": 120,
+    "selection_rule": "题页可读四组每组至少1至多2；总选6仅报告未由缺失封面确认",
+    "paper_minutes": [
+      null,
+      null
+    ],
+    "evidence": "source_question_pages_without_covers",
+    "authenticity": "uploaded_annotated_copy_not_independently_authenticated_by_issuer",
+    "notes": [
+      "年份来自文件名；原红字答案未自动认证。",
+      "选择单题分、两卷时间及总选答规则保留待核；题页12大题及120%印刷分值已读。"
+    ],
+    "mcq_count_evidence": "question_pages_visually_counted"
+  },
+  {
     "exam_type": "semester_final",
     "year": 2022,
     "source_pdf_id": "semester_final:2f4ae66605ea",
@@ -316,6 +547,30 @@
       "原PDF没有封面，年份来自文件名；卷一总分、单题分、时间均未核实，2分只作推定。",
       "原件红色答案属于附带批注，未自动认证为官方正确答案。",
       "作答分项8.5、6.5照录，不四舍五入。"
+    ],
+    "mcq_count_evidence": "question_pages_visually_counted"
+  },
+  {
+    "exam_type": "uec_math_i",
+    "year": 2024,
+    "source_pdf_id": "uec_math_i:edfebccee080",
+    "cover_pdf_pages": [],
+    "exam_date_as_printed": null,
+    "mcq_count": 20,
+    "mcq_weight": null,
+    "written_weight": 60,
+    "written_count": 12,
+    "printed_written_marks": 90,
+    "selection_rule": "甲组5必答各4；乙组7选4各10",
+    "paper_minutes": [
+      null,
+      null
+    ],
+    "evidence": "source_question_pages_and_written_group_headers_visually_read",
+    "authenticity": "uploaded_copy_not_independently_authenticated_by_issuer",
+    "notes": [
+      "两卷封面均未提供，年份来自文件名，时间及选择单题分值未知。",
+      "写在题页上的甲20%乙40%与选答规则已读，作答备选题共印90%，不能当实际90%。"
     ],
     "mcq_count_evidence": "question_pages_visually_counted"
   }

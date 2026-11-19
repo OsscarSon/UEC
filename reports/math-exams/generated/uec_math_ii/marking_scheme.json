@@ -2,7 +2,7 @@
   "official": false,
   "questions": [
     {
-      "id": "ME26-M008",
+      "id": "ME26-M018",
       "kind": "mcq",
       "number": 1,
       "points": [
@@ -13,7 +13,7 @@
       ]
     },
     {
-      "id": "ME26-M025",
+      "id": "ME26-M001",
       "kind": "mcq",
       "number": 2,
       "points": [
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "id": "ME26-M023",
+      "id": "ME26-M014",
       "kind": "mcq",
       "number": 3,
       "points": [
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "id": "ME26-M001",
+      "id": "ME26-M036",
       "kind": "mcq",
       "number": 4,
       "points": [
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "id": "ME26-M009",
+      "id": "ME26-M033",
       "kind": "mcq",
       "number": 5,
       "points": [
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "id": "ME26-M033",
+      "id": "ME26-M009",
       "kind": "mcq",
       "number": 6,
       "points": [
@@ -68,7 +68,7 @@
       ]
     },
     {
-      "id": "ME26-M004",
+      "id": "ME26-M030",
       "kind": "mcq",
       "number": 7,
       "points": [
@@ -79,7 +79,7 @@
       ]
     },
     {
-      "id": "ME26-M044",
+      "id": "ME26-M012",
       "kind": "mcq",
       "number": 8,
       "points": [
@@ -90,7 +90,7 @@
       ]
     },
     {
-      "id": "ME26-M029",
+      "id": "ME26-M021",
       "kind": "mcq",
       "number": 9,
       "points": [
@@ -101,7 +101,7 @@
       ]
     },
     {
-      "id": "ME26-M030",
+      "id": "ME26-M004",
       "kind": "mcq",
       "number": 10,
       "points": [
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "id": "ME26-M024",
+      "id": "ME26-M028",
       "kind": "mcq",
       "number": 12,
       "points": [
@@ -145,7 +145,7 @@
       ]
     },
     {
-      "id": "ME26-M022",
+      "id": "ME26-M011",
       "kind": "mcq",
       "number": 14,
       "points": [
@@ -156,7 +156,7 @@
       ]
     },
     {
-      "id": "ME26-M011",
+      "id": "ME26-M031",
       "kind": "mcq",
       "number": 15,
       "points": [
@@ -167,9 +167,24 @@
       ]
     },
     {
-      "id": "ME26-W004",
+      "id": "ME26-W002",
       "kind": "written",
       "number": 1,
+      "points": [
+        {
+          "description": "设置线性余式并列两条件",
+          "marks": 2
+        },
+        {
+          "description": "解出a、b并回验",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-W004",
+      "kind": "written",
+      "number": 2,
       "points": [
         {
           "description": "标出两个临界点并排除分母零点",
@@ -188,7 +203,7 @@
     {
       "id": "ME26-W006",
       "kind": "written",
-      "number": 2,
+      "number": 3,
       "points": [
         {
           "description": "列矩阵/消元并说明可解",
@@ -205,16 +220,16 @@
       ]
     },
     {
-      "id": "ME26-W003",
+      "id": "ME26-W007",
       "kind": "written",
-      "number": 3,
+      "number": 4,
       "points": [
         {
-          "description": "正确交换并解出反函数",
+          "description": "以点积0列式求t",
           "marks": 2
         },
         {
-          "description": "写出反函数定义域并解释",
+          "description": "计算模并验证垂直",
           "marks": 2
         }
       ]
@@ -222,7 +237,7 @@
     {
       "id": "ME26-W008",
       "kind": "written",
-      "number": 4,
+      "number": 5,
       "points": [
         {
           "description": "互斥分类并列组合数",
@@ -235,24 +250,28 @@
       ]
     },
     {
-      "id": "ME26-W009",
+      "id": "ME26-W026",
       "kind": "written",
-      "number": 5,
+      "number": 6,
       "points": [
         {
-          "description": "求出三项",
-          "marks": 3
+          "description": "焦点参数",
+          "marks": 2
         },
         {
-          "description": "写明收敛范围",
-          "marks": 1
+          "description": "点验证与切线",
+          "marks": 2
+        },
+        {
+          "description": "两距离和",
+          "marks": 2
         }
       ]
     },
     {
       "id": "ME26-W027",
       "kind": "written",
-      "number": 6,
+      "number": 7,
       "points": [
         {
           "description": "模与全部辐角",
@@ -271,7 +290,7 @@
     {
       "id": "ME26-W016",
       "kind": "written",
-      "number": 7,
+      "number": 8,
       "points": [
         {
           "description": "余弦定律求边",
@@ -288,105 +307,86 @@
       ]
     },
     {
-      "id": "ME26-W020",
-      "kind": "written",
-      "number": 8,
-      "points": [
-        {
-          "description": "交点及上下曲线",
-          "marks": 2
-        },
-        {
-          "description": "面积计算",
-          "marks": 2
-        },
-        {
-          "description": "正确轴与平方半径体积",
-          "marks": 2
-        }
-      ]
-    },
-    {
-      "id": "ME26-W024",
+      "id": "ME26-W023",
       "kind": "written",
       "number": 9,
       "points": [
         {
-          "description": "解微分方程并定初值",
+          "description": "完整部分分式",
           "marks": 2
         },
         {
-          "description": "由半衰期定k及单位",
+          "description": "积分及常数",
           "marks": 2
         },
         {
-          "description": "求时刻并代回",
+          "description": "三个区间与验导",
           "marks": 2
         }
       ]
     },
     {
-      "id": "ME26-W014",
+      "id": "ME26-W018",
       "kind": "written",
       "number": 10,
       "points": [
         {
-          "description": "复合式与严格原域",
+          "description": "三点定圆",
           "marks": 2
         },
         {
-          "description": "反函数与定义域",
+          "description": "切线法向关系",
           "marks": 2
         },
         {
-          "description": "非单射反例",
+          "description": "配方与位置检验",
           "marks": 2
         }
       ]
     },
     {
-      "id": "ME26-W028",
+      "id": "ME26-W030",
       "kind": "written",
       "number": 11,
       "points": [
         {
-          "description": "完整分段及边界",
-          "marks": 3
-        },
-        {
-          "description": "两解及区间验根",
+          "description": "界限与面积",
           "marks": 2
         },
         {
-          "description": "最小值和完整达到集",
-          "marks": 2
+          "description": "x轴垫片及积分",
+          "marks": 3
         },
         {
-          "description": "逆函数、域及回代",
+          "description": "y轴圆盘及积分",
           "marks": 3
+        },
+        {
+          "description": "比较和半径解释",
+          "marks": 2
         }
       ]
     },
     {
-      "id": "ME26-W032",
+      "id": "ME26-W035",
       "kind": "written",
       "number": 12,
       "points": [
         {
-          "description": "可导条件和一阶斜率",
+          "description": "正确距离平方及u域",
           "marks": 2
         },
         {
-          "description": "切线",
+          "description": "配方最短与两个最近点",
+          "marks": 3
+        },
+        {
+          "description": "两个正且异的u条件",
+          "marks": 3
+        },
+        {
+          "description": "合并范围及端点解释",
           "marks": 2
-        },
-        {
-          "description": "完整二阶微分",
-          "marks": 3
-        },
-        {
-          "description": "估计及有依据误差方向",
-          "marks": 3
         }
       ]
     }

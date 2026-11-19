@@ -206,18 +206,18 @@
     "filename": "2021毕业考_高级数学_试卷一.pdf",
     "sha256": "e88da748355699d15ebaaffecc34077a5f5961983385448f7f7f6ec78eab7013",
     "total_pdf_pages": 3,
-    "unviewed_pdf_pages": [
+    "unviewed_pdf_pages": [],
+    "visually_read_pages": [
       1,
       2,
       3
     ],
-    "visually_read_pages": [],
-    "reviewed_question_or_scoring_units": 0,
+    "reviewed_question_or_scoring_units": 20,
     "known_answer_units": 0,
     "unknown_mark_unit_ids": [],
     "total_question_population": null,
     "remaining_actions": [
-      "逐页核对未查看页的题面或公式附录"
+      "继续核对未记录选项、独立答案及真实小节归属；已读页不等于全题答案验算通过"
     ],
     "source_authenticity": "uploaded_copy_not_authenticated_by_issuer"
   },
@@ -228,19 +228,19 @@
     "filename": "2021毕业考_高级数学_试卷二.pdf",
     "sha256": "0ffd31629b2114f9de4f61d7b0f5bf51330e36fead157ed6eebc0bf0d28a36a1",
     "total_pdf_pages": 4,
-    "unviewed_pdf_pages": [
+    "unviewed_pdf_pages": [],
+    "visually_read_pages": [
       1,
       2,
       3,
       4
     ],
-    "visually_read_pages": [],
-    "reviewed_question_or_scoring_units": 0,
+    "reviewed_question_or_scoring_units": 33,
     "known_answer_units": 0,
     "unknown_mark_unit_ids": [],
     "total_question_population": null,
     "remaining_actions": [
-      "逐页核对未查看页的题面或公式附录"
+      "继续核对未记录选项、独立答案及真实小节归属；已读页不等于全题答案验算通过"
     ],
     "source_authenticity": "uploaded_copy_not_authenticated_by_issuer"
   },
@@ -251,20 +251,43 @@
     "filename": "2023毕业考_高级数学_试卷一二.pdf",
     "sha256": "e780522689f10d0edc7b02952d6367a0f992508c67a8ff7e854b85bd2385990f",
     "total_pdf_pages": 5,
-    "unviewed_pdf_pages": [
+    "unviewed_pdf_pages": [],
+    "visually_read_pages": [
       1,
       2,
       3,
       4,
       5
     ],
-    "visually_read_pages": [],
-    "reviewed_question_or_scoring_units": 0,
+    "reviewed_question_or_scoring_units": 60,
     "known_answer_units": 0,
-    "unknown_mark_unit_ids": [],
+    "unknown_mark_unit_ids": [
+      "graduation_math_ii:2023:mcq:1:whole",
+      "graduation_math_ii:2023:mcq:2:whole",
+      "graduation_math_ii:2023:mcq:3:whole",
+      "graduation_math_ii:2023:mcq:4:whole",
+      "graduation_math_ii:2023:mcq:5:whole",
+      "graduation_math_ii:2023:mcq:6:whole",
+      "graduation_math_ii:2023:mcq:7:whole",
+      "graduation_math_ii:2023:mcq:8:whole",
+      "graduation_math_ii:2023:mcq:9:whole",
+      "graduation_math_ii:2023:mcq:10:whole",
+      "graduation_math_ii:2023:mcq:11:whole",
+      "graduation_math_ii:2023:mcq:12:whole",
+      "graduation_math_ii:2023:mcq:13:whole",
+      "graduation_math_ii:2023:mcq:14:whole",
+      "graduation_math_ii:2023:mcq:15:whole",
+      "graduation_math_ii:2023:mcq:16:whole",
+      "graduation_math_ii:2023:mcq:17:whole",
+      "graduation_math_ii:2023:mcq:18:whole",
+      "graduation_math_ii:2023:mcq:19:whole",
+      "graduation_math_ii:2023:mcq:20:whole",
+      "graduation_math_ii:2023:written:7:a(i)",
+      "graduation_math_ii:2023:written:7:a(ii)"
+    ],
     "total_question_population": null,
     "remaining_actions": [
-      "逐页核对未查看页的题面或公式附录"
+      "继续核对未记录选项、独立答案及真实小节归属；已读页不等于全题答案验算通过"
     ],
     "source_authenticity": "uploaded_copy_not_authenticated_by_issuer"
   },
@@ -275,7 +298,8 @@
     "filename": "2024毕业考.pdf",
     "sha256": "ebf2ff05a18178f6288576d4c9c14f6b27a5a106f08ab4fcbacca6b9f2fcd8fd",
     "total_pdf_pages": 8,
-    "unviewed_pdf_pages": [
+    "unviewed_pdf_pages": [],
+    "visually_read_pages": [
       1,
       2,
       3,
@@ -285,13 +309,12 @@
       7,
       8
     ],
-    "visually_read_pages": [],
-    "reviewed_question_or_scoring_units": 0,
+    "reviewed_question_or_scoring_units": 49,
     "known_answer_units": 0,
     "unknown_mark_unit_ids": [],
     "total_question_population": null,
     "remaining_actions": [
-      "逐页核对未查看页的题面或公式附录"
+      "继续核对未记录选项、独立答案及真实小节归属；已读页不等于全题答案验算通过"
     ],
     "source_authenticity": "uploaded_copy_not_authenticated_by_issuer"
   },
@@ -329,7 +352,8 @@
     "filename": "22S3Sbiye.pdf",
     "sha256": "f77a351cea2b171d0130ff75e28a6a9e1d67646c6bb116aec860f947975633a0",
     "total_pdf_pages": 6,
-    "unviewed_pdf_pages": [
+    "unviewed_pdf_pages": [],
+    "visually_read_pages": [
       1,
       2,
       3,
@@ -337,13 +361,12 @@
       5,
       6
     ],
-    "visually_read_pages": [],
-    "reviewed_question_or_scoring_units": 0,
+    "reviewed_question_or_scoring_units": 49,
     "known_answer_units": 0,
     "unknown_mark_unit_ids": [],
     "total_question_population": null,
     "remaining_actions": [
-      "逐页核对未查看页的题面或公式附录"
+      "继续核对未记录选项、独立答案及真实小节归属；已读页不等于全题答案验算通过"
     ],
     "source_authenticity": "uploaded_copy_not_authenticated_by_issuer"
   },
@@ -354,18 +377,18 @@
     "filename": "2022 预试_选择题.pdf",
     "sha256": "b2dc9d8cd35110feb672dce1a6b718d07afb314ed2eacce1e7866de3f55fc364",
     "total_pdf_pages": 3,
-    "unviewed_pdf_pages": [
+    "unviewed_pdf_pages": [],
+    "visually_read_pages": [
       1,
       2,
       3
     ],
-    "visually_read_pages": [],
-    "reviewed_question_or_scoring_units": 0,
+    "reviewed_question_or_scoring_units": 20,
     "known_answer_units": 0,
     "unknown_mark_unit_ids": [],
     "total_question_population": null,
     "remaining_actions": [
-      "逐页核对未查看页的题面或公式附录"
+      "继续核对未记录选项、独立答案及真实小节归属；已读页不等于全题答案验算通过"
     ],
     "source_authenticity": "uploaded_copy_not_authenticated_by_issuer"
   },
@@ -376,19 +399,22 @@
     "filename": "2024 预试_作答题.pdf",
     "sha256": "972e2047a8a2abf1cd4f4428af741efedafaf7da9fa03870e40354eae07dd5a2",
     "total_pdf_pages": 4,
-    "unviewed_pdf_pages": [
+    "unviewed_pdf_pages": [],
+    "visually_read_pages": [
       1,
       2,
       3,
       4
     ],
-    "visually_read_pages": [],
-    "reviewed_question_or_scoring_units": 0,
+    "reviewed_question_or_scoring_units": 37,
     "known_answer_units": 0,
-    "unknown_mark_unit_ids": [],
+    "unknown_mark_unit_ids": [
+      "preexam_math_ii:2024:written:12:b(i)",
+      "preexam_math_ii:2024:written:12:b(ii)"
+    ],
     "total_question_population": null,
     "remaining_actions": [
-      "逐页核对未查看页的题面或公式附录"
+      "继续核对未记录选项、独立答案及真实小节归属；已读页不等于全题答案验算通过"
     ],
     "source_authenticity": "uploaded_copy_not_authenticated_by_issuer"
   },
@@ -399,19 +425,19 @@
     "filename": "2024 预试_选择题.pdf",
     "sha256": "7676888284d81c4413a433e8ed32cd52cacaa494c02fddba1a441f1c3353680d",
     "total_pdf_pages": 4,
-    "unviewed_pdf_pages": [
+    "unviewed_pdf_pages": [],
+    "visually_read_pages": [
       1,
       2,
       3,
       4
     ],
-    "visually_read_pages": [],
-    "reviewed_question_or_scoring_units": 0,
+    "reviewed_question_or_scoring_units": 20,
     "known_answer_units": 0,
     "unknown_mark_unit_ids": [],
     "total_question_population": null,
     "remaining_actions": [
-      "逐页核对未查看页的题面或公式附录"
+      "继续核对未记录选项、独立答案及真实小节归属；已读页不等于全题答案验算通过"
     ],
     "source_authenticity": "uploaded_copy_not_authenticated_by_issuer"
   },
@@ -450,7 +476,8 @@
     "filename": "23S3S21.pdf",
     "sha256": "a086ec87542bf6a58a1fc6d7f1279377595861f2054e9631be6d61d2e984c0bf",
     "total_pdf_pages": 6,
-    "unviewed_pdf_pages": [
+    "unviewed_pdf_pages": [],
+    "visually_read_pages": [
       1,
       2,
       3,
@@ -458,13 +485,12 @@
       5,
       6
     ],
-    "visually_read_pages": [],
-    "reviewed_question_or_scoring_units": 0,
+    "reviewed_question_or_scoring_units": 52,
     "known_answer_units": 0,
     "unknown_mark_unit_ids": [],
     "total_question_population": null,
     "remaining_actions": [
-      "逐页核对未查看页的题面或公式附录"
+      "继续核对未记录选项、独立答案及真实小节归属；已读页不等于全题答案验算通过"
     ],
     "source_authenticity": "uploaded_copy_not_authenticated_by_issuer"
   },
@@ -628,7 +654,8 @@
     "filename": "2023 高数1 试卷一.pdf（副本）",
     "sha256": "10e6cf19d362682a2d06af4546aa1ee57751dcb396892d557292f98f4374afd1",
     "total_pdf_pages": 7,
-    "unviewed_pdf_pages": [
+    "unviewed_pdf_pages": [],
+    "visually_read_pages": [
       1,
       2,
       3,
@@ -637,13 +664,12 @@
       6,
       7
     ],
-    "visually_read_pages": [],
-    "reviewed_question_or_scoring_units": 0,
+    "reviewed_question_or_scoring_units": 20,
     "known_answer_units": 0,
     "unknown_mark_unit_ids": [],
     "total_question_population": null,
     "remaining_actions": [
-      "逐页核对未查看页的题面或公式附录"
+      "继续核对未记录选项、独立答案及真实小节归属；已读页不等于全题答案验算通过"
     ],
     "source_authenticity": "uploaded_copy_not_authenticated_by_issuer"
   },
@@ -654,7 +680,8 @@
     "filename": "2023 高数1 试卷二.pdf（副本）",
     "sha256": "dbc13ba7f30f623586ae46493164e87b8fd4ebe64711dea9d1ddee5c5daac5b0",
     "total_pdf_pages": 8,
-    "unviewed_pdf_pages": [
+    "unviewed_pdf_pages": [],
+    "visually_read_pages": [
       1,
       2,
       3,
@@ -664,13 +691,12 @@
       7,
       8
     ],
-    "visually_read_pages": [],
-    "reviewed_question_or_scoring_units": 0,
+    "reviewed_question_or_scoring_units": 30,
     "known_answer_units": 0,
     "unknown_mark_unit_ids": [],
     "total_question_population": null,
     "remaining_actions": [
-      "逐页核对未查看页的题面或公式附录"
+      "继续核对未记录选项、独立答案及真实小节归属；已读页不等于全题答案验算通过"
     ],
     "source_authenticity": "uploaded_copy_not_authenticated_by_issuer"
   },
@@ -681,7 +707,8 @@
     "filename": "2024 高级数学 I.pdf",
     "sha256": "edfebccee08028d7e2e11f906540351ef57cd544590c053be9718604a4c3f291",
     "total_pdf_pages": 6,
-    "unviewed_pdf_pages": [
+    "unviewed_pdf_pages": [],
+    "visually_read_pages": [
       1,
       2,
       3,
@@ -689,13 +716,33 @@
       5,
       6
     ],
-    "visually_read_pages": [],
-    "reviewed_question_or_scoring_units": 0,
+    "reviewed_question_or_scoring_units": 49,
     "known_answer_units": 0,
-    "unknown_mark_unit_ids": [],
+    "unknown_mark_unit_ids": [
+      "uec_math_i:2024:mcq:1:whole",
+      "uec_math_i:2024:mcq:2:whole",
+      "uec_math_i:2024:mcq:3:whole",
+      "uec_math_i:2024:mcq:4:whole",
+      "uec_math_i:2024:mcq:5:whole",
+      "uec_math_i:2024:mcq:6:whole",
+      "uec_math_i:2024:mcq:7:whole",
+      "uec_math_i:2024:mcq:8:whole",
+      "uec_math_i:2024:mcq:9:whole",
+      "uec_math_i:2024:mcq:10:whole",
+      "uec_math_i:2024:mcq:11:whole",
+      "uec_math_i:2024:mcq:12:whole",
+      "uec_math_i:2024:mcq:13:whole",
+      "uec_math_i:2024:mcq:14:whole",
+      "uec_math_i:2024:mcq:15:whole",
+      "uec_math_i:2024:mcq:16:whole",
+      "uec_math_i:2024:mcq:17:whole",
+      "uec_math_i:2024:mcq:18:whole",
+      "uec_math_i:2024:mcq:19:whole",
+      "uec_math_i:2024:mcq:20:whole"
+    ],
     "total_question_population": null,
     "remaining_actions": [
-      "逐页核对未查看页的题面或公式附录"
+      "继续核对未记录选项、独立答案及真实小节归属；已读页不等于全题答案验算通过"
     ],
     "source_authenticity": "uploaded_copy_not_authenticated_by_issuer"
   },
@@ -1003,7 +1050,8 @@
     "filename": "2023 高数2 试卷一.pdf",
     "sha256": "c7e7ace2a5798c9302296f985d072eadb10f62082c805d04a8ef3d4e1c343cfa",
     "total_pdf_pages": 7,
-    "unviewed_pdf_pages": [
+    "unviewed_pdf_pages": [],
+    "visually_read_pages": [
       1,
       2,
       3,
@@ -1012,13 +1060,12 @@
       6,
       7
     ],
-    "visually_read_pages": [],
-    "reviewed_question_or_scoring_units": 0,
+    "reviewed_question_or_scoring_units": 20,
     "known_answer_units": 0,
     "unknown_mark_unit_ids": [],
     "total_question_population": null,
     "remaining_actions": [
-      "逐页核对未查看页的题面或公式附录"
+      "继续核对未记录选项、独立答案及真实小节归属；已读页不等于全题答案验算通过"
     ],
     "source_authenticity": "uploaded_copy_not_authenticated_by_issuer"
   },
@@ -1029,7 +1076,8 @@
     "filename": "2023 高数2 试卷二.pdf（副本）",
     "sha256": "93b1fd5dea2f3891bdd1ce47478f6947c7dc2d1ed1250add8c838e60f27bd404",
     "total_pdf_pages": 8,
-    "unviewed_pdf_pages": [
+    "unviewed_pdf_pages": [],
+    "visually_read_pages": [
       1,
       2,
       3,
@@ -1039,13 +1087,12 @@
       7,
       8
     ],
-    "visually_read_pages": [],
-    "reviewed_question_or_scoring_units": 0,
+    "reviewed_question_or_scoring_units": 39,
     "known_answer_units": 0,
     "unknown_mark_unit_ids": [],
     "total_question_population": null,
     "remaining_actions": [
-      "逐页核对未查看页的题面或公式附录"
+      "继续核对未记录选项、独立答案及真实小节归属；已读页不等于全题答案验算通过"
     ],
     "source_authenticity": "uploaded_copy_not_authenticated_by_issuer"
   },
