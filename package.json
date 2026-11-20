@@ -7,17 +7,22 @@
     "test:dashboard": "node tests/dashboard.cjs",
     "build:cloud": "node tools/build-cloud.mjs",
     "test:learning": "node tests/learning.cjs",
+    "build:source-tools": "node tools/build-source-tools.mjs",
     "build:exam-charts": "node tools/build-exam-charts.mjs",
     "test:exam-v2": "node tests/math-exams/engine-v2.cjs"
   },
   "dependencies": {
     "@excalidraw/excalidraw": "0.18.1",
+    "@zip.js/zip.js": "2.25.0",
     "echarts": "6.1.0",
     "firebase": "13.4.0",
+    "fuse.js": "7.5.0",
     "jsxgraph": "1.11.1",
     "katex": "0.19.1",
+    "motion": "14.14.0",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "sonner": "2.0.8"
   },
   "devDependencies": {
     "esbuild": "0.25.12",
