@@ -1,0 +1,34 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "assessed loss uses spare capacity, preserves prerequisite priority and course isolation",
+      "status": "pass"
+    },
+    {
+      "name": "no spare capacity never pushes personal due task out for hot chapter",
+      "status": "pass"
+    },
+    {
+      "name": "unselected and unassessed questions do not generate false weaknesses",
+      "status": "pass"
+    },
+    {
+      "name": "newer assessed success supersedes older same-course loss",
+      "status": "pass"
+    },
+    {
+      "name": "full four-task schedule is not expanded or reordered by history",
+      "status": "pass"
+    },
+    {
+      "name": "existing math task receives descriptive history, no additional priority weight",
+      "status": "pass"
+    },
+    {
+      "name": "all79 previously published original questions remain unchanged",
+      "status": "pass"
+    }
+  ],
+  "limits": "Deterministic personal-priority fixtures; no FSRS migration, no memory prediction accuracy claim."
+}

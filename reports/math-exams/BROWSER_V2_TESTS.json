@@ -1,0 +1,220 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "ECharts absent on dashboard",
+      "status": "pass"
+    },
+    {
+      "name": "three distinct mechanism controls",
+      "status": "pass"
+    },
+    {
+      "name": "35 source chapters including preserved scope conflicts uec_math_i",
+      "status": "pass"
+    },
+    {
+      "name": "active mechanism uec_math_iold",
+      "status": "pass"
+    },
+    {
+      "name": "active mechanism uec_math_inew",
+      "status": "pass"
+    },
+    {
+      "name": "active mechanism uec_math_icombined",
+      "status": "pass"
+    },
+    {
+      "name": "35 source chapters including preserved scope conflicts uec_math_ii",
+      "status": "pass"
+    },
+    {
+      "name": "active mechanism uec_math_iiold",
+      "status": "pass"
+    },
+    {
+      "name": "active mechanism uec_math_iinew",
+      "status": "pass"
+    },
+    {
+      "name": "active mechanism uec_math_iicombined",
+      "status": "pass"
+    },
+    {
+      "name": "35 source chapters including preserved scope conflicts semester_final",
+      "status": "pass"
+    },
+    {
+      "name": "active mechanism semester_finalold",
+      "status": "pass"
+    },
+    {
+      "name": "active mechanism semester_finalnew",
+      "status": "pass"
+    },
+    {
+      "name": "active mechanism semester_finalcombined",
+      "status": "pass"
+    },
+    {
+      "name": "35 source chapters including preserved scope conflicts graduation_math_ii",
+      "status": "pass"
+    },
+    {
+      "name": "active mechanism graduation_math_iiold",
+      "status": "pass"
+    },
+    {
+      "name": "active mechanism graduation_math_iinew",
+      "status": "pass"
+    },
+    {
+      "name": "active mechanism graduation_math_iicombined",
+      "status": "pass"
+    },
+    {
+      "name": "35 source chapters including preserved scope conflicts preexam_math_ii",
+      "status": "pass"
+    },
+    {
+      "name": "active mechanism preexam_math_iiold",
+      "status": "pass"
+    },
+    {
+      "name": "active mechanism preexam_math_iinew",
+      "status": "pass"
+    },
+    {
+      "name": "active mechanism preexam_math_iicombined",
+      "status": "pass"
+    },
+    {
+      "name": "cell shows original paper number and page",
+      "status": "pass"
+    },
+    {
+      "name": "source formulas genuinely typeset",
+      "status": "pass"
+    },
+    {
+      "name": "occurrence sort preserved",
+      "status": "pass"
+    },
+    {
+      "name": "statistics CSV export",
+      "status": "pass"
+    },
+    {
+      "name": "real ECharts PNG export",
+      "status": "pass"
+    },
+    {
+      "name": "no horizontal body overflow heat 1440",
+      "status": "pass"
+    },
+    {
+      "name": "canvas tap source drilldown 1440",
+      "status": "pass"
+    },
+    {
+      "name": "no horizontal body overflow heat 390",
+      "status": "pass"
+    },
+    {
+      "name": "canvas tap source drilldown 390",
+      "status": "pass"
+    },
+    {
+      "name": "dark chart background",
+      "status": "pass"
+    },
+    {
+      "name": "new-focus unavailable without own2026 source",
+      "status": "pass"
+    },
+    {
+      "name": "seed persists across strategy changes",
+      "status": "pass"
+    },
+    {
+      "name": "graduation verified2025 has32 printed questions",
+      "status": "pass"
+    },
+    {
+      "name": "six written selected and160 printed not actual",
+      "status": "pass"
+    },
+    {
+      "name": "32 complete solutions",
+      "status": "pass"
+    },
+    {
+      "name": "original formulas render without error",
+      "status": "pass"
+    },
+    {
+      "name": "invalid5 selection blocks exam start",
+      "status": "pass"
+    },
+    {
+      "name": "paper selection no overflow 1440",
+      "status": "pass"
+    },
+    {
+      "name": "paper selection no overflow 390",
+      "status": "pass"
+    },
+    {
+      "name": "dynamic32 snapshot answer survives reload",
+      "status": "pass"
+    },
+    {
+      "name": "old exam15minute break and no solution leak",
+      "status": "pass"
+    },
+    {
+      "name": "only six selected written questions reachable",
+      "status": "pass"
+    },
+    {
+      "name": "selected20+6 solutions only in scored review",
+      "status": "pass"
+    },
+    {
+      "name": "dynamic written self scoring and backup",
+      "status": "pass"
+    },
+    {
+      "name": "UEC2026 all27 required, no optional selector",
+      "status": "pass"
+    },
+    {
+      "name": "review advice stays inside daily time and count bounds",
+      "status": "pass"
+    },
+    {
+      "name": "FSRS does not fabricate memory migration",
+      "status": "pass"
+    },
+    {
+      "name": "legacy timed practice still available",
+      "status": "pass"
+    },
+    {
+      "name": "new original bank still paginated",
+      "status": "pass"
+    },
+    {
+      "name": "no page errors",
+      "status": "pass"
+    },
+    {
+      "name": "no local404 resources",
+      "status": "pass"
+    }
+  ],
+  "errors": [],
+  "bad": [],
+  "limits": "Chromium desktop1440/mobile390 simulations; no physical-device or official-answer certification."
+}

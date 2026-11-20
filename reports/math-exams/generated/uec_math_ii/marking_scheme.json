@@ -2,9 +2,22 @@
   "official": false,
   "questions": [
     {
-      "id": "ME26-M023",
+      "id": "ME26-M014",
       "kind": "mcq",
       "number": 1,
+      "required": true,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M008",
+      "kind": "mcq",
+      "number": 2,
+      "required": true,
       "points": [
         {
           "description": "选中唯一正确选项",
@@ -15,18 +28,8 @@
     {
       "id": "ME26-M036",
       "kind": "mcq",
-      "number": 2,
-      "points": [
-        {
-          "description": "选中唯一正确选项",
-          "marks": 2
-        }
-      ]
-    },
-    {
-      "id": "ME26-M041",
-      "kind": "mcq",
       "number": 3,
+      "required": true,
       "points": [
         {
           "description": "选中唯一正确选项",
@@ -35,9 +38,10 @@
       ]
     },
     {
-      "id": "ME26-M018",
+      "id": "ME26-M017",
       "kind": "mcq",
       "number": 4,
+      "required": true,
       "points": [
         {
           "description": "选中唯一正确选项",
@@ -49,6 +53,7 @@
       "id": "ME26-M009",
       "kind": "mcq",
       "number": 5,
+      "required": true,
       "points": [
         {
           "description": "选中唯一正确选项",
@@ -57,9 +62,10 @@
       ]
     },
     {
-      "id": "ME26-M033",
+      "id": "ME26-M041",
       "kind": "mcq",
       "number": 6,
+      "required": true,
       "points": [
         {
           "description": "选中唯一正确选项",
@@ -68,9 +74,10 @@
       ]
     },
     {
-      "id": "ME26-M029",
+      "id": "ME26-M020",
       "kind": "mcq",
       "number": 7,
+      "required": true,
       "points": [
         {
           "description": "选中唯一正确选项",
@@ -79,42 +86,10 @@
       ]
     },
     {
-      "id": "ME26-M034",
+      "id": "ME26-M013",
       "kind": "mcq",
       "number": 8,
-      "points": [
-        {
-          "description": "选中唯一正确选项",
-          "marks": 2
-        }
-      ]
-    },
-    {
-      "id": "ME26-M040",
-      "kind": "mcq",
-      "number": 9,
-      "points": [
-        {
-          "description": "选中唯一正确选项",
-          "marks": 2
-        }
-      ]
-    },
-    {
-      "id": "ME26-M035",
-      "kind": "mcq",
-      "number": 10,
-      "points": [
-        {
-          "description": "选中唯一正确选项",
-          "marks": 2
-        }
-      ]
-    },
-    {
-      "id": "ME26-M007",
-      "kind": "mcq",
-      "number": 11,
+      "required": true,
       "points": [
         {
           "description": "选中唯一正确选项",
@@ -125,7 +100,8 @@
     {
       "id": "ME26-M028",
       "kind": "mcq",
-      "number": 12,
+      "number": 9,
+      "required": true,
       "points": [
         {
           "description": "选中唯一正确选项",
@@ -134,9 +110,46 @@
       ]
     },
     {
-      "id": "ME26-M002",
+      "id": "ME26-M032",
+      "kind": "mcq",
+      "number": 10,
+      "required": true,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M034",
+      "kind": "mcq",
+      "number": 11,
+      "required": true,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M007",
+      "kind": "mcq",
+      "number": 12,
+      "required": true,
+      "points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-M011",
       "kind": "mcq",
       "number": 13,
+      "required": true,
       "points": [
         {
           "description": "选中唯一正确选项",
@@ -148,6 +161,7 @@
       "id": "ME26-M038",
       "kind": "mcq",
       "number": 14,
+      "required": true,
       "points": [
         {
           "description": "选中唯一正确选项",
@@ -156,9 +170,10 @@
       ]
     },
     {
-      "id": "ME26-M031",
+      "id": "ME26-M026",
       "kind": "mcq",
       "number": 15,
+      "required": true,
       "points": [
         {
           "description": "选中唯一正确选项",
@@ -167,32 +182,38 @@
       ]
     },
     {
-      "id": "ME26-W002",
+      "id": "ME26-W001",
       "kind": "written",
       "number": 1,
+      "required": true,
       "points": [
         {
-          "description": "设置线性余式并列两条件",
+          "description": "联立求x并代回y",
           "marks": 2
         },
         {
-          "description": "解出a、b并回验",
+          "description": "正确应用夹角式及绝对值",
           "marks": 2
         }
       ]
     },
     {
-      "id": "ME26-W005",
+      "id": "ME26-W004",
       "kind": "written",
       "number": 2,
+      "required": true,
       "points": [
         {
-          "description": "正确写出弧长和面积式",
+          "description": "标出两个临界点并排除分母零点",
+          "marks": 1
+        },
+        {
+          "description": "作符号分析",
           "marks": 2
         },
         {
-          "description": "联立并核对单位",
-          "marks": 2
+          "description": "合并区间并正确端点",
+          "marks": 1
         }
       ]
     },
@@ -200,6 +221,7 @@
       "id": "ME26-W006",
       "kind": "written",
       "number": 3,
+      "required": true,
       "points": [
         {
           "description": "列矩阵/消元并说明可解",
@@ -216,31 +238,93 @@
       ]
     },
     {
-      "id": "ME26-W009",
+      "id": "ME26-W008",
       "kind": "written",
       "number": 4,
+      "required": true,
       "points": [
         {
-          "description": "求出三项",
-          "marks": 3
+          "description": "互斥分类并列组合数",
+          "marks": 2
         },
         {
-          "description": "写明收敛范围",
-          "marks": 1
+          "description": "求和并检查无序计数",
+          "marks": 2
         }
       ]
     },
     {
-      "id": "ME26-W007",
+      "id": "ME26-W010",
       "kind": "written",
       "number": 5,
+      "required": true,
       "points": [
         {
-          "description": "以点积0列式求t",
+          "description": "正确积分及任意常数",
           "marks": 2
         },
         {
-          "description": "计算模并验证垂直",
+          "description": "用过点定常数并核查",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-W026",
+      "kind": "written",
+      "number": 6,
+      "required": true,
+      "points": [
+        {
+          "description": "焦点参数",
+          "marks": 2
+        },
+        {
+          "description": "点验证与切线",
+          "marks": 2
+        },
+        {
+          "description": "两距离和",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-W017",
+      "kind": "written",
+      "number": 7,
+      "required": true,
+      "points": [
+        {
+          "description": "合成参数",
+          "marks": 2
+        },
+        {
+          "description": "两支一般解",
+          "marks": 2
+        },
+        {
+          "description": "区间筛选与回代",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "ME26-W023",
+      "kind": "written",
+      "number": 8,
+      "required": true,
+      "points": [
+        {
+          "description": "完整部分分式",
+          "marks": 2
+        },
+        {
+          "description": "积分及常数",
+          "marks": 2
+        },
+        {
+          "description": "三个区间与验导",
           "marks": 2
         }
       ]
@@ -248,7 +332,8 @@
     {
       "id": "ME26-W014",
       "kind": "written",
-      "number": 6,
+      "number": 9,
+      "required": true,
       "points": [
         {
           "description": "复合式与严格原域",
@@ -265,123 +350,69 @@
       ]
     },
     {
-      "id": "ME26-W016",
-      "kind": "written",
-      "number": 7,
-      "points": [
-        {
-          "description": "余弦定律求边",
-          "marks": 2
-        },
-        {
-          "description": "面积",
-          "marks": 2
-        },
-        {
-          "description": "外接圆与根号化简",
-          "marks": 2
-        }
-      ]
-    },
-    {
-      "id": "ME26-W020",
-      "kind": "written",
-      "number": 8,
-      "points": [
-        {
-          "description": "交点及上下曲线",
-          "marks": 2
-        },
-        {
-          "description": "面积计算",
-          "marks": 2
-        },
-        {
-          "description": "正确轴与平方半径体积",
-          "marks": 2
-        }
-      ]
-    },
-    {
-      "id": "ME26-W015",
-      "kind": "written",
-      "number": 9,
-      "points": [
-        {
-          "description": "临界点与定义域",
-          "marks": 2
-        },
-        {
-          "description": "符号和区间",
-          "marks": 2
-        },
-        {
-          "description": "交集整数且不含分母零点",
-          "marks": 2
-        }
-      ]
-    },
-    {
-      "id": "ME26-W024",
+      "id": "ME26-W027",
       "kind": "written",
       "number": 10,
+      "required": true,
       "points": [
         {
-          "description": "解微分方程并定初值",
+          "description": "模与全部辐角",
           "marks": 2
         },
         {
-          "description": "由半衰期定k及单位",
+          "description": "列四个互异根",
           "marks": 2
         },
         {
-          "description": "求时刻并代回",
+          "description": "几何关系与回代",
           "marks": 2
         }
       ]
     },
     {
-      "id": "ME26-W033",
+      "id": "ME26-W029",
       "kind": "written",
       "number": 11,
+      "required": true,
       "points": [
         {
-          "description": "分部求F含定积分常数",
+          "description": "驻点及正确变号分类",
           "marks": 3
         },
         {
-          "description": "导数号与最小值",
+          "description": "极值差求参数",
           "marks": 2
         },
         {
-          "description": "域内解方程",
+          "description": "全部交点和两块区域",
           "marks": 2
         },
         {
-          "description": "极限条件与两次计算",
+          "description": "分段面积及核对",
           "marks": 3
         }
       ]
     },
     {
-      "id": "ME26-W035",
+      "id": "ME26-W034",
       "kind": "written",
       "number": 12,
+      "required": true,
       "points": [
         {
-          "description": "正确距离平方及u域",
+          "description": "基步和完整归纳",
+          "marks": 3
+        },
+        {
+          "description": "严格整数阈值",
           "marks": 2
         },
         {
-          "description": "配方最短与两个最近点",
+          "description": "导数迭代及x1",
           "marks": 3
         },
         {
-          "description": "两个正且异的u条件",
-          "marks": 3
-        },
-        {
-          "description": "合并范围及端点解释",
+          "description": "方程近似与严格不等式的区别",
           "marks": 2
         }
       ]

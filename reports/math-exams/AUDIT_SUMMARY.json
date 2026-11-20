@@ -11,8 +11,8 @@
   "all_supplied_pages_viewed": true,
   "supplied_paper_populations": 61,
   "all_supplied_question_numbers_indexed": true,
-  "units_without_answer_record": 1313,
-  "mcq_units_without_four_transcribed_options": 439,
+  "units_without_answer_record": 1246,
+  "mcq_units_without_four_transcribed_options": 379,
   "all_history_questions_verified": false,
   "missing_papers": [
     {
@@ -22,6 +22,11 @@
     },
     {
       "exam_type": "preexam_math_ii",
+      "year": 2026,
+      "paper": "both"
+    },
+    {
+      "exam_type": "graduation_math_ii",
       "year": 2026,
       "paper": "both"
     }

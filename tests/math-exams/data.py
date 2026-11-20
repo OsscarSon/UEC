@@ -68,7 +68,7 @@ for c in older['checks']:
 # Preserve existing curriculum, all teaching/illustration/vendor resources and prior study state code.
 base='efd3445';tracked=subprocess.check_output(['git','ls-tree','-r','--name-only',base],cwd=R,text=True).splitlines();protected=[p for p in tracked if p.startswith(('lessons/','assets/','data/','vendor/','illustrations/','ui/','cloud/'))or p=='batch-ui.js']
 for p in protected:C('original file protected '+p,subprocess.check_output(['git','show',base+':'+p],cwd=R)==(R/p).read_bytes())
-bank=L('original-bank.json')['items'];C('original 79 distinct items',len(bank)==79 and len({q['id']for q in bank})==79);C('no invented subsection IDs',all(q['subchapter_id']is None for q in bank))
+bank=L('original-bank.json')['items'];C('original 84 distinct items',len(bank)==84 and len({q['id']for q in bank})==84);C('no invented subsection IDs',all(q['subchapter_id']is None for q in bank))
 for q in bank:
  C('valid chapter '+q['id'],1<=q['primary_chapter']<=35)
  C('full original solution '+q['id'],len(q['solution_steps'])>=3 and q['answer'] and q['question_origin']=='original_generated')

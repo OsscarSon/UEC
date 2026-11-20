@@ -139,7 +139,7 @@
     "secondary_chapters": [],
     "subchapter_id": null,
     "formula_latex_verified": "AB\\parallel CD,\\ P\\in AB;\\ CD\\text{增至20点，以P为顶点三角形个数}",
-    "figure_description_verified": "图1AB有4点、CD原有5点，P是AB自左第二点；扩增后CD有20点。固定P，不把AB其余点计入另两个顶点。",
+    "figure_description_verified": "图1AB有4点、CD原有5点，P是AB自左第二点；扩增后CD有20点。固定P：可选CD两点，或选AB另一个点与CD一点；后者不能漏算。",
     "options_verified": null,
     "answer_verified": null,
     "answer_status": "needs_review",
@@ -156,13 +156,13 @@
     },
     "verified_by": "Codex visual review of source PDF rendering",
     "verification_method": "Read actual page; retain conditions, bounds and figure dependencies; independent calculations are itemized separately.",
-    "topic": "同一直线选两点",
+    "topic": "固定顶点的两类三角形",
     "difficulty": {
       "level": null,
       "status": "not_estimated",
       "basis": "Author estimate from operations, modelling and dependencies; no student response data."
     },
-    "notes": "",
+    "notes": "本轮复核纠正前次误解：190只计P加CD两点；还需加AB余3点各配CD20点，共250，选C。",
     "actual_marks": null,
     "effective_marks_model": null,
     "chapter_basis": "Teaching classification against original site chapter dictionary; not an official chapter label."
@@ -414,7 +414,7 @@
       "status": "not_estimated",
       "basis": "Author estimate from operations, modelling and dependencies; no student response data."
     },
-    "notes": "",
+    "notes": "本轮独立解答纠正旧计算记录的移项符号：169−120sin(A−B)=85，所以sin(A−B)=正7/10，选A。",
     "actual_marks": null,
     "effective_marks_model": null,
     "chapter_basis": "Teaching classification against original site chapter dictionary; not an official chapter label."

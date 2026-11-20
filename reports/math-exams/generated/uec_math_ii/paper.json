@@ -1,11 +1,13 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "exam_type": "uec_math_ii",
   "course": "adv_math_ii",
-  "title": "统考高级数学（II） · 2026格式原创模拟",
-  "seed": "delivery-2026",
-  "bank_version": "2026.1-ff43f2b3be18",
-  "research_version": "research-bb4e7a5b4f14",
+  "title": "统考高级数学（II） · 2026已核实新制全部必答原创模拟",
+  "seed": "delivery-v2",
+  "bank_version": "2026.1-e2858b4f1e05",
+  "research_version": "research-ef3497b7731b",
+  "heat_version": "heat-6072e482d56f",
+  "format_version": "formats-f57d5abc0f05",
   "chapters": [
     1,
     2,
@@ -43,24 +45,22 @@
     34,
     35
   ],
-  "policy": {
-    "max_chapter_marks": 20,
-    "min_chapters": 8,
-    "difficulty_marks": {
-      "basic": 25,
-      "medium": 50,
-      "hard": 25
-    },
-    "difficulty_tolerance": 5,
-    "topic_preference": 0.65,
-    "topic_preference_is_soft": true,
-    "hot_basis": "Reviewed sample topic priority only, not full-history heat or official quota."
-  },
   "format": {
+    "id": "uec_math_ii-2026",
+    "year": 2026,
+    "exam_type": "uec_math_ii",
+    "title": "2026已核实新制全部必答",
+    "evidence": "source_pdf_cover_visually_read",
+    "source_pdf_id": "uec_math_ii:7d674effa960",
+    "cover_pages": [
+      1,
+      4
+    ],
     "mcq_count": 15,
     "mcq_marks": 30,
     "written_count": 12,
     "written_marks": 70,
+    "printed_written_marks": 70,
     "written_sequence": [
       4,
       4,
@@ -75,32 +75,38 @@
       10,
       10
     ],
-    "required": "all",
+    "required_written": 12,
+    "selection_rule": "all",
+    "groups": [],
     "paper_minutes": [
       60,
       120
     ],
-    "uec_break_minutes": 15,
-    "school_timing": "Practice settings; use the actual school timetable when known."
+    "break_minutes": 15,
+    "scope_status": "current site candidate chapters; conflicts retained in research",
+    "notes": [
+      "题面15选择、12作答均在所供扫描中。",
+      "两卷公式表印刷2–5页未在本6页PDF提供；不得称完整附录。"
+    ]
   },
   "questions": [
     {
-      "id": "ME26-M023",
+      "id": "ME26-M014",
       "kind": "mcq",
-      "primary_chapter": 23,
+      "primary_chapter": 14,
       "secondary_chapters": [],
       "subchapter_id": null,
-      "topic": "积分反链系数",
+      "topic": "行列式倍行与换行",
       "difficulty": "basic",
       "difficulty_status": "estimated",
       "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
       "marks": 2,
-      "stem": "求\\(\\int6x(x^2+1)^2\\,dx\\)。",
-      "answer": "(x²+1)³+C",
+      "stem": "二阶矩阵\\(A\\)的行列式为5。把第一行乘3，再交换两行，所得行列式为何？",
+      "answer": "−15",
       "solution_steps": [
-        "令u=x²+1，du=2x dx。",
-        "积分变为3∫u²du=u³+C。",
-        "求导(x²+1)³得到6x(x²+1)²复核。"
+        "倍乘一行使行列式乘3。",
+        "交换两行使符号反转。",
+        "新行列式为−3×5=−15。"
       ],
       "marking_points": [
         {
@@ -114,31 +120,89 @@
       "verification_status": "verified",
       "verification": {
         "method": "symbolic_identity_or_independent_enumeration",
-        "expression": "diff((x**2+1)**3,x)",
-        "expected": "6*x*(x**2+1)**2",
+        "expression": "-3*5",
+        "expected": "-15",
         "result": "pass"
       },
       "figure": null,
       "options": [
         {
-          "text": "(x²+1)²+C",
-          "reason": "幂应从2升至3，不能保持平方。"
+          "text": "−5",
+          "reason": "遗漏第一行乘3的倍数。"
         },
         {
-          "text": "3(x²+1)³+C",
-          "reason": "已用du=2x dx后又重复乘3，求导会大3倍。"
+          "text": "15",
+          "reason": "遗漏交换两行的负号。"
         },
         {
-          "text": "2(x²+1)³+C",
-          "reason": "重复增加因子2，求导大2倍。"
+          "text": "45",
+          "reason": "把单行倍乘误当矩阵整体倍乘并又算错符号。"
         },
         {
-          "text": "(x²+1)³+C",
+          "text": "−15",
           "reason": "正确：见完整解析。"
         }
       ],
       "correct_option": 3,
-      "number": 1
+      "number": 1,
+      "required": true
+    },
+    {
+      "id": "ME26-M008",
+      "kind": "mcq",
+      "primary_chapter": 8,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "扇形弧长与半径",
+      "difficulty": "basic",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 2,
+      "stem": "半径为6的扇形圆心角为\\(2\\pi/3\\)弧度。弧长为何？",
+      "answer": "4π",
+      "solution_steps": [
+        "使用弧度公式l=rθ。",
+        "l=6·2π/3=4π。",
+        "这里问弧长，不把两条半径加入。"
+      ],
+      "marking_points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "6*2*pi/3",
+        "expected": "4*pi",
+        "result": "pass"
+      },
+      "figure": null,
+      "options": [
+        {
+          "text": "12π",
+          "reason": "把角误作2π，算成整圆周长。"
+        },
+        {
+          "text": "2π",
+          "reason": "漏掉半径与角度中的比例因子。"
+        },
+        {
+          "text": "8π",
+          "reason": "弧长只有4π，8π不满足l/r=2π/3。"
+        },
+        {
+          "text": "4π",
+          "reason": "正确：见完整解析。"
+        }
+      ],
+      "correct_option": 3,
+      "number": 2,
+      "required": true
     },
     {
       "id": "ME26-M036",
@@ -177,8 +241,8 @@
       "figure": "assets/math-exams/piecewise-linear.svg",
       "options": [
         {
-          "text": "2",
-          "reason": "2是给定横坐标，不是对应纵坐标。"
+          "text": "−1",
+          "reason": "−1是右端点x=3的纵坐标。"
         },
         {
           "text": "1",
@@ -189,30 +253,31 @@
           "reason": "3是x=1的纵坐标，不能直接读到x=2。"
         },
         {
-          "text": "−1",
-          "reason": "−1是右端点x=3的纵坐标。"
+          "text": "2",
+          "reason": "2是给定横坐标，不是对应纵坐标。"
         }
       ],
       "correct_option": 1,
-      "number": 2
+      "number": 3,
+      "required": true
     },
     {
-      "id": "ME26-M041",
+      "id": "ME26-M017",
       "kind": "mcq",
-      "primary_chapter": 25,
+      "primary_chapter": 17,
       "secondary_chapters": [],
       "subchapter_id": null,
-      "topic": "合并组平均值",
+      "topic": "投影与点积",
       "difficulty": "basic",
       "difficulty_status": "estimated",
       "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
       "marks": 2,
-      "stem": "甲组10人的平均分60，乙组15人的平均分80。两组合并平均分为何？",
-      "answer": "72",
+      "stem": "\\(\\mathbf a=(3,4)\\)，\\(\\mathbf b=(2,0)\\)。a在b方向的标量投影为何？",
+      "answer": "3",
       "solution_steps": [
-        "先求总分10×60+15×80=1800。",
-        "总人数25，合并均值1800/25=72。",
-        "不能把两个均值简单相加再除2。"
+        "标量投影为a·b/|b|。",
+        "点积6，|b|=2，得3。",
+        "不把向量投影长度与点积混同。"
       ],
       "marking_points": [
         {
@@ -226,87 +291,32 @@
       "verification_status": "verified",
       "verification": {
         "method": "symbolic_identity_or_independent_enumeration",
-        "expression": "Rational(10*60+15*80,25)",
-        "expected": "72",
+        "expression": "(3*2+4*0)/sqrt(2**2)",
+        "expected": "3",
         "result": "pass"
       },
       "figure": null,
       "options": [
         {
-          "text": "70",
-          "reason": "70是两个均值简单平均，忽略人数10和15不同。"
+          "text": "3/2",
+          "reason": "将正确投影3又除一次|b|。"
         },
         {
-          "text": "75",
-          "reason": "75不满足总分1800与人数25。"
-        },
-        {
-          "text": "68",
-          "reason": "68来自权重颠倒或总人数处理错误。"
-        },
-        {
-          "text": "72",
-          "reason": "正确：见完整解析。"
-        }
-      ],
-      "correct_option": 3,
-      "number": 3
-    },
-    {
-      "id": "ME26-M018",
-      "kind": "mcq",
-      "primary_chapter": 18,
-      "secondary_chapters": [],
-      "subchapter_id": null,
-      "topic": "长方体体对角线",
-      "difficulty": "basic",
-      "difficulty_status": "estimated",
-      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
-      "marks": 2,
-      "stem": "长方体三条互相垂直的棱长为2、3、6。体对角线长为何？",
-      "answer": "7",
-      "solution_steps": [
-        "三维勾股为√(2²+3²+6²)。",
-        "平方和4+9+36=49。",
-        "对角线为7，不能直接相加。"
-      ],
-      "marking_points": [
-        {
-          "description": "选中唯一正确选项",
-          "marks": 2
-        }
-      ],
-      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
-      "question_origin": "original_generated",
-      "source_inspiration": null,
-      "verification_status": "verified",
-      "verification": {
-        "method": "symbolic_identity_or_independent_enumeration",
-        "expression": "sqrt(2**2+3**2+6**2)",
-        "expected": "7",
-        "result": "pass"
-      },
-      "figure": null,
-      "options": [
-        {
-          "text": "11",
-          "reason": "11是三棱长之和，不是空间直线距离。"
-        },
-        {
-          "text": "√41",
-          "reason": "平方和应4+9+36=49，不能漏项或误算。"
-        },
-        {
-          "text": "7",
+          "text": "3",
           "reason": "正确：见完整解析。"
         },
         {
-          "text": "36",
-          "reason": "36只是一条最长棱的平方，量纲和对象均不符。"
+          "text": "5",
+          "reason": "5是a的模，不是a沿b方向的投影。"
+        },
+        {
+          "text": "6",
+          "reason": "6是点积，尚未除以|b|=2。"
         }
       ],
-      "correct_option": 2,
-      "number": 4
+      "correct_option": 1,
+      "number": 4,
+      "required": true
     },
     {
       "id": "ME26-M009",
@@ -362,25 +372,26 @@
         }
       ],
       "correct_option": 2,
-      "number": 5
+      "number": 5,
+      "required": true
     },
     {
-      "id": "ME26-M033",
+      "id": "ME26-M041",
       "kind": "mcq",
-      "primary_chapter": 33,
+      "primary_chapter": 25,
       "secondary_chapters": [],
       "subchapter_id": null,
-      "topic": "抛物参数4p",
+      "topic": "合并组平均值",
       "difficulty": "basic",
       "difficulty_status": "estimated",
       "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
       "marks": 2,
-      "stem": "抛物线\\((y+1)^2=12(x-2)\\)的焦点为何？",
-      "answer": "(5,−1)",
+      "stem": "甲组10人的平均分60，乙组15人的平均分80。两组合并平均分为何？",
+      "answer": "72",
       "solution_steps": [
-        "顶点为(2,−1)，4p=12，p=3。",
-        "开口向右，焦点(2+3,−1)=(5,−1)。",
-        "准线x=−1，顶点到焦点准线均距3。"
+        "先求总分10×60+15×80=1800。",
+        "总人数25，合并均值1800/25=72。",
+        "不能把两个均值简单相加再除2。"
       ],
       "marking_points": [
         {
@@ -394,105 +405,50 @@
       "verification_status": "verified",
       "verification": {
         "method": "symbolic_identity_or_independent_enumeration",
-        "expression": "2+12/4",
-        "expected": "5",
+        "expression": "Rational(10*60+15*80,25)",
+        "expected": "72",
         "result": "pass"
       },
       "figure": null,
       "options": [
         {
-          "text": "(5,−1)",
+          "text": "68",
+          "reason": "68来自权重颠倒或总人数处理错误。"
+        },
+        {
+          "text": "72",
           "reason": "正确：见完整解析。"
         },
         {
-          "text": "(14,−1)",
-          "reason": "把12直接当p，实际4p=12。"
+          "text": "70",
+          "reason": "70是两个均值简单平均，忽略人数10和15不同。"
         },
         {
-          "text": "(2,2)",
-          "reason": "误把水平抛物线当竖直抛物线。"
-        },
-        {
-          "text": "(−1,−1)",
-          "reason": "这是准线附近的反方向平移，不是向右的焦点。"
-        }
-      ],
-      "correct_option": 0,
-      "number": 6
-    },
-    {
-      "id": "ME26-M029",
-      "kind": "mcq",
-      "primary_chapter": 29,
-      "secondary_chapters": [],
-      "subchapter_id": null,
-      "topic": "分部积分与验导",
-      "difficulty": "medium",
-      "difficulty_status": "estimated",
-      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
-      "marks": 2,
-      "stem": "求\\(\\int xe^x\\,dx\\)。",
-      "answer": "(x−1)e^x+C",
-      "solution_steps": [
-        "分部取u=x,dv=e^x dx。",
-        "积分为xe^x−∫e^x dx=(x−1)e^x+C。",
-        "求导得xe^x，减号不能丢。"
-      ],
-      "marking_points": [
-        {
-          "description": "选中唯一正确选项",
-          "marks": 2
-        }
-      ],
-      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
-      "question_origin": "original_generated",
-      "source_inspiration": null,
-      "verification_status": "verified",
-      "verification": {
-        "method": "symbolic_identity_or_independent_enumeration",
-        "expression": "diff((x-1)*exp(x),x)",
-        "expected": "x*exp(x)",
-        "result": "pass"
-      },
-      "figure": null,
-      "options": [
-        {
-          "text": "x²e^x/2+C",
-          "reason": "不能把e^x当常数直接对x积分；求导有额外x²项。"
-        },
-        {
-          "text": "(x−1)e^x+C",
-          "reason": "正确：见完整解析。"
-        },
-        {
-          "text": "(x+1)e^x+C",
-          "reason": "分部积分减去∫e^x，不是加上。"
-        },
-        {
-          "text": "xe^x+C",
-          "reason": "直接求导xe^x会多出e^x项。"
+          "text": "75",
+          "reason": "75不满足总分1800与人数25。"
         }
       ],
       "correct_option": 1,
-      "number": 7
+      "number": 6,
+      "required": true
     },
     {
-      "id": "ME26-M034",
+      "id": "ME26-M020",
       "kind": "mcq",
-      "primary_chapter": 34,
+      "primary_chapter": 20,
       "secondary_chapters": [],
       "subchapter_id": null,
-      "topic": "辐角分支",
+      "topic": "负指数展开条件",
       "difficulty": "medium",
       "difficulty_status": "estimated",
       "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
       "marks": 2,
-      "stem": "\\(z=-1-i\\)。取主辐角区间\\((-\\pi,\\pi]\\)，\\(\\operatorname{Arg}(z^2)\\)为何？",
-      "answer": "π/2",
+      "stem": "\\((1-2x)^{-1}\\)按升幂展开时，\\(x^3\\)系数与收敛条件分别为何？",
+      "answer": "8，|x|<1/2",
       "solution_steps": [
-        "z²=(−1−i)²=2i。",
-        "2i在正虚轴，主辐角π/2。",
-        "2Arg z=−3π/2要折回主值，不能直接当主辐角。"
+        "视为公比2x的几何级数。",
+        "x³项为(2x)³=8x³。",
+        "要求|2x|<1，不把有限多项式的全域性质套到无穷级数。"
       ],
       "marking_points": [
         {
@@ -506,49 +462,50 @@
       "verification_status": "verified",
       "verification": {
         "method": "symbolic_identity_or_independent_enumeration",
-        "expression": "expand((-1-I)**2)",
-        "expected": "2*I",
+        "expression": "expand((2*x)**3).coeff(x,3)",
+        "expected": "8",
         "result": "pass"
       },
       "figure": null,
       "options": [
         {
-          "text": "3π/4",
-          "reason": "3π/4是第二象限角，2i在轴上。"
+          "text": "8，|x|<2",
+          "reason": "几何级数要求|2x|<1，不能写成|x|<2。"
         },
         {
-          "text": "−π/2",
-          "reason": "z²=2i在正虚轴，不能取负虚轴角。"
-        },
-        {
-          "text": "π/2",
+          "text": "8，|x|<1/2",
           "reason": "正确：见完整解析。"
         },
         {
-          "text": "−3π/2",
-          "reason": "−3π/2与π/2同终边，但不在指定主值区间。"
+          "text": "6，所有x",
+          "reason": "系数不是有限三阶二项系数，且无穷级数不能宣称全域收敛。"
+        },
+        {
+          "text": "−8，|x|<1/2",
+          "reason": "公比为2x，三次项系数为正8，不是−8。"
         }
       ],
-      "correct_option": 2,
-      "number": 8
+      "correct_option": 1,
+      "number": 7,
+      "required": true
     },
     {
-      "id": "ME26-M040",
+      "id": "ME26-M013",
       "kind": "mcq",
-      "primary_chapter": 24,
+      "primary_chapter": 13,
       "secondary_chapters": [],
       "subchapter_id": null,
-      "topic": "定积分对称",
+      "topic": "由部分和求通项",
       "difficulty": "medium",
       "difficulty_status": "estimated",
       "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
       "marks": 2,
-      "stem": "连续函数\\(f\\)满足\\(f(x)+f(2-x)=6\\)。求\\(\\int_0^2f(x)dx\\)。",
-      "answer": "6",
+      "stem": "数列前\\(n\\)项和为\\(S_n=3n^2+n\\)。第10项为何？",
+      "answer": "58",
       "solution_steps": [
-        "换元u=2−x，积分不变。",
-        "把两式相加得2I=∫0²6 dx=12。",
-        "所以I=6，不需要知道f的具体式。"
+        "通项a_n=S_n−S_(n−1)。",
+        "a_n=3(2n−1)+1=6n−2。",
+        "a_10=58；不是把S_10误作单项。"
       ],
       "marking_points": [
         {
@@ -562,143 +519,32 @@
       "verification_status": "verified",
       "verification": {
         "method": "symbolic_identity_or_independent_enumeration",
-        "expression": "integrate(6,(x,0,2))/2",
-        "expected": "6",
+        "expression": "(3*10**2+10)-(3*9**2+9)",
+        "expected": "58",
         "result": "pass"
       },
       "figure": null,
       "options": [
         {
-          "text": "无法确定",
-          "reason": "虽不知道f具体式，反射和条件足以确定积分。"
+          "text": "64",
+          "reason": "通项应6n−2，64是常数项符号处理错误。"
         },
         {
-          "text": "12",
-          "reason": "12是两个相等积分之和2I。"
-        },
-        {
-          "text": "6",
+          "text": "58",
           "reason": "正确：见完整解析。"
         },
         {
-          "text": "3",
-          "reason": "少算区间长度2或多除一次2。"
+          "text": "60",
+          "reason": "忽略S_n中的一次项和差分的−3。"
+        },
+        {
+          "text": "310",
+          "reason": "310是S10，题目问a10。"
         }
       ],
-      "correct_option": 2,
-      "number": 9
-    },
-    {
-      "id": "ME26-M035",
-      "kind": "mcq",
-      "primary_chapter": 35,
-      "secondary_chapters": [],
-      "subchapter_id": null,
-      "topic": "线面夹角互余",
-      "difficulty": "medium",
-      "difficulty_status": "estimated",
-      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
-      "marks": 2,
-      "stem": "直线方向\\((1,1,0)\\)，平面法向\\((1,0,0)\\)。锐线面夹角为何？",
-      "answer": "45°",
-      "solution_steps": [
-        "线面角α用sinα=|d·n|/(|d||n|)。",
-        "比为1/√2，故α=45°。",
-        "这里不是把方向向量当作面内所有方向。"
-      ],
-      "marking_points": [
-        {
-          "description": "选中唯一正确选项",
-          "marks": 2
-        }
-      ],
-      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
-      "question_origin": "original_generated",
-      "source_inspiration": null,
-      "verification_status": "verified",
-      "verification": {
-        "method": "symbolic_identity_or_independent_enumeration",
-        "expression": "1/sqrt(2)",
-        "expected": "sqrt(2)/2",
-        "result": "pass"
-      },
-      "figure": null,
-      "options": [
-        {
-          "text": "45°",
-          "reason": "正确：见完整解析。"
-        },
-        {
-          "text": "60°",
-          "reason": "sinα=1/√2不等于sin60°。"
-        },
-        {
-          "text": "0°",
-          "reason": "方向向量与法向量非垂直，线并不平行于面。"
-        },
-        {
-          "text": "90°",
-          "reason": "方向并非平行法向，直线不垂直于面。"
-        }
-      ],
-      "correct_option": 0,
-      "number": 10
-    },
-    {
-      "id": "ME26-M007",
-      "kind": "mcq",
-      "primary_chapter": 7,
-      "secondary_chapters": [],
-      "subchapter_id": null,
-      "topic": "量词否定与反例",
-      "difficulty": "medium",
-      "difficulty_status": "estimated",
-      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
-      "marks": 2,
-      "stem": "命题“每个实数\\(x\\)都满足\\(x^2>x\\)”的否定为何？",
-      "answer": "存在实数x使x²≤x",
-      "solution_steps": [
-        "全称命题否定为存在反例。",
-        "对“>”取逻辑补集为“≤”。",
-        "x=0是反例；否定不要求所有实数都失败。"
-      ],
-      "marking_points": [
-        {
-          "description": "选中唯一正确选项",
-          "marks": 2
-        }
-      ],
-      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
-      "question_origin": "original_generated",
-      "source_inspiration": null,
-      "verification_status": "verified",
-      "verification": {
-        "method": "symbolic_identity_or_independent_enumeration",
-        "expression": "0**2-0",
-        "expected": "0",
-        "result": "pass"
-      },
-      "figure": null,
-      "options": [
-        {
-          "text": "每个实数x都满足x²≤x",
-          "reason": "把存在反例错写成所有实数都失败。"
-        },
-        {
-          "text": "存在实数x使x²<x",
-          "reason": "对>的补集为≤；x=0使等号成立也应纳入否定。"
-        },
-        {
-          "text": "存在实数x使x²≤x",
-          "reason": "正确：见完整解析。"
-        },
-        {
-          "text": "每个实数x都满足x²≥x",
-          "reason": "这是否定不严格命题的形式，且未将全称改存在。"
-        }
-      ],
-      "correct_option": 2,
-      "number": 11
+      "correct_option": 1,
+      "number": 8,
+      "required": true
     },
     {
       "id": "ME26-M028",
@@ -737,42 +583,43 @@
       "figure": null,
       "options": [
         {
-          "text": "4/5",
-          "reason": "隐微分移项需要负号。"
+          "text": "−5/4",
+          "reason": "−5/4是法线斜率的错误符号版本，不是题问切线斜率。"
         },
         {
           "text": "−1/2",
           "reason": "未同时微分xy与y²中的y。"
         },
         {
-          "text": "−5/4",
-          "reason": "−5/4是法线斜率的错误符号版本，不是题问切线斜率。"
-        },
-        {
           "text": "−4/5",
           "reason": "正确：见完整解析。"
+        },
+        {
+          "text": "4/5",
+          "reason": "隐微分移项需要负号。"
         }
       ],
-      "correct_option": 3,
-      "number": 12
+      "correct_option": 2,
+      "number": 9,
+      "required": true
     },
     {
-      "id": "ME26-M002",
+      "id": "ME26-M032",
       "kind": "mcq",
-      "primary_chapter": 2,
+      "primary_chapter": 32,
       "secondary_chapters": [],
       "subchapter_id": null,
-      "topic": "相异正根的参数条件",
-      "difficulty": "hard",
+      "topic": "移轴的被动变换",
+      "difficulty": "medium",
       "difficulty_status": "estimated",
       "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
       "marks": 2,
-      "stem": "关于实数\\(k\\)，方程\\(x^2-(k+2)x+2k=0\\)有两个相异正实根。下列哪个范围正确？",
-      "answer": "k>0且k≠2",
+      "stem": "把原点移至旧坐标\\((2,-1)\\)，新轴方向不变。旧点\\((5,3)\\)的新坐标为何？",
+      "answer": "(3,4)",
       "solution_steps": [
-        "分解为(x−2)(x−k)=0。",
-        "两根正须k>0；相异须k≠2。",
-        "不能因为判别式非负而漏掉重根k=2。"
+        "新坐标等于旧点减新原点。",
+        "x′=5−2=3，y′=3−(−1)=4。",
+        "逆变换(3+2,4−1)=(5,3)。"
       ],
       "marking_points": [
         {
@@ -786,31 +633,203 @@
       "verification_status": "verified",
       "verification": {
         "method": "symbolic_identity_or_independent_enumeration",
-        "expression": "expand((x-2)*(x-Symbol(\"k\")))",
-        "expected": "x**2-(Symbol(\"k\")+2)*x+2*Symbol(\"k\")",
+        "expression": "(5-2)+(3-(-1))",
+        "expected": "7",
         "result": "pass"
       },
       "figure": null,
       "options": [
         {
-          "text": "0<k<2",
-          "reason": "漏掉k>2的合法情形，如k=3。"
-        },
-        {
-          "text": "k>0且k≠2",
+          "text": "(3,4)",
           "reason": "正确：见完整解析。"
         },
         {
-          "text": "k≥0",
-          "reason": "k=0给零根，k=2给重根，均不符合。"
+          "text": "(−3,−4)",
+          "reason": "这是交换点与原点差的方向。"
         },
         {
-          "text": "k>2",
-          "reason": "漏掉0<k<2的合法情形，如k=1。"
+          "text": "(7,2)",
+          "reason": "把新原点坐标加到旧坐标上，方向反了。"
+        },
+        {
+          "text": "(3,2)",
+          "reason": "y′=3−(−1)=4，不能写成3−1。"
         }
       ],
-      "correct_option": 1,
-      "number": 13
+      "correct_option": 0,
+      "number": 10,
+      "required": true
+    },
+    {
+      "id": "ME26-M034",
+      "kind": "mcq",
+      "primary_chapter": 34,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "辐角分支",
+      "difficulty": "medium",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 2,
+      "stem": "\\(z=-1-i\\)。取主辐角区间\\((-\\pi,\\pi]\\)，\\(\\operatorname{Arg}(z^2)\\)为何？",
+      "answer": "π/2",
+      "solution_steps": [
+        "z²=(−1−i)²=2i。",
+        "2i在正虚轴，主辐角π/2。",
+        "2Arg z=−3π/2要折回主值，不能直接当主辐角。"
+      ],
+      "marking_points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "expand((-1-I)**2)",
+        "expected": "2*I",
+        "result": "pass"
+      },
+      "figure": null,
+      "options": [
+        {
+          "text": "−3π/2",
+          "reason": "−3π/2与π/2同终边，但不在指定主值区间。"
+        },
+        {
+          "text": "−π/2",
+          "reason": "z²=2i在正虚轴，不能取负虚轴角。"
+        },
+        {
+          "text": "π/2",
+          "reason": "正确：见完整解析。"
+        },
+        {
+          "text": "3π/4",
+          "reason": "3π/4是第二象限角，2i在轴上。"
+        }
+      ],
+      "correct_option": 2,
+      "number": 11,
+      "required": true
+    },
+    {
+      "id": "ME26-M007",
+      "kind": "mcq",
+      "primary_chapter": 7,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "量词否定与反例",
+      "difficulty": "medium",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 2,
+      "stem": "命题“每个实数\\(x\\)都满足\\(x^2>x\\)”的否定为何？",
+      "answer": "存在实数x使x²≤x",
+      "solution_steps": [
+        "全称命题否定为存在反例。",
+        "对“>”取逻辑补集为“≤”。",
+        "x=0是反例；否定不要求所有实数都失败。"
+      ],
+      "marking_points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "0**2-0",
+        "expected": "0",
+        "result": "pass"
+      },
+      "figure": null,
+      "options": [
+        {
+          "text": "每个实数x都满足x²≥x",
+          "reason": "这是否定不严格命题的形式，且未将全称改存在。"
+        },
+        {
+          "text": "存在实数x使x²<x",
+          "reason": "对>的补集为≤；x=0使等号成立也应纳入否定。"
+        },
+        {
+          "text": "每个实数x都满足x²≤x",
+          "reason": "把存在反例错写成所有实数都失败。"
+        },
+        {
+          "text": "存在实数x使x²≤x",
+          "reason": "正确：见完整解析。"
+        }
+      ],
+      "correct_option": 3,
+      "number": 12,
+      "required": true
+    },
+    {
+      "id": "ME26-M011",
+      "kind": "mcq",
+      "primary_chapter": 11,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "平方化三角方程",
+      "difficulty": "hard",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 2,
+      "stem": "在\\(0\\le x<2\\pi\\)内，\\(2\\sin^2x+\\sin x-1=0\\)共有几个解？",
+      "answer": "3",
+      "solution_steps": [
+        "因式分解为(2sin x−1)(sin x+1)=0。",
+        "sin x=1/2给π/6、5π/6；sin x=−1给3π/2。",
+        "总计3解，第二个因子不能丢失。"
+      ],
+      "marking_points": [
+        {
+          "description": "选中唯一正确选项",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "len([pi/6,5*pi/6,3*pi/2])",
+        "expected": "3",
+        "result": "pass"
+      },
+      "figure": null,
+      "options": [
+        {
+          "text": "3",
+          "reason": "正确：见完整解析。"
+        },
+        {
+          "text": "2",
+          "reason": "遗漏sin x=−1这一支。"
+        },
+        {
+          "text": "1",
+          "reason": "遗漏sin x=1/2的两处解。"
+        },
+        {
+          "text": "4",
+          "reason": "把sin x=−1也数成两个不同区间解。"
+        }
+      ],
+      "correct_option": 0,
+      "number": 13,
+      "required": true
     },
     {
       "id": "ME26-M038",
@@ -849,42 +868,43 @@
       "figure": null,
       "options": [
         {
-          "text": "1",
-          "reason": "遗漏B为补角时仍有正的第三角。"
-        },
-        {
-          "text": "0",
-          "reason": "sinB=4/5在允许角度内有解，并非无解。"
-        },
-        {
           "text": "2",
           "reason": "正确：见完整解析。"
         },
         {
           "text": "3",
           "reason": "0<B<π中同一正弦值最多两个角，不会有三支。"
+        },
+        {
+          "text": "0",
+          "reason": "sinB=4/5在允许角度内有解，并非无解。"
+        },
+        {
+          "text": "1",
+          "reason": "遗漏B为补角时仍有正的第三角。"
         }
       ],
-      "correct_option": 2,
-      "number": 14
+      "correct_option": 0,
+      "number": 14,
+      "required": true
     },
     {
-      "id": "ME26-M031",
+      "id": "ME26-M026",
       "kind": "mcq",
-      "primary_chapter": 31,
+      "primary_chapter": 26,
       "secondary_chapters": [],
       "subchapter_id": null,
-      "topic": "Newton法局限",
+      "topic": "条件概率的分母",
       "difficulty": "hard",
       "difficulty_status": "estimated",
       "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
       "marks": 2,
-      "stem": "以Newton法求\\(f(x)=x^3-2x+2=0\\)，从\\(x_0=0\\)出发，\\(x_2\\)为何？",
-      "answer": "0",
+      "stem": "两枚独立均匀骰子同时掷出。已知点数和为8，至少一枚为6的条件概率为何？",
+      "answer": "2/5",
       "solution_steps": [
-        "x1=0−2/(−2)=1。",
-        "f(1)=1，f′(1)=1，所以x2=1−1=0。",
-        "此后在0、1之间循环；两步均有定义不表示收敛。"
+        "和为8的有序结果为(2,6),(3,5),(4,4),(5,3),(6,2)。",
+        "其中含6的有2个。",
+        "在5个条件样本中计数，故2/5，不用36作分母。"
       ],
       "marking_points": [
         {
@@ -898,57 +918,58 @@
       "verification_status": "verified",
       "verification": {
         "method": "symbolic_identity_or_independent_enumeration",
-        "expression": "1-(1**3-2*1+2)/(3*1**2-2)",
-        "expected": "0",
+        "expression": "Rational(2,5)",
+        "expected": "2/5",
         "result": "pass"
       },
       "figure": null,
       "options": [
         {
-          "text": "1",
-          "reason": "1是第一次迭代x1，不是x2。"
-        },
-        {
-          "text": "不存在",
-          "reason": "两步导数分别−2、1，均非0，迭代有定义。"
-        },
-        {
-          "text": "−1",
-          "reason": "第二次迭代的f和导数代入1均为1，得0。"
-        },
-        {
-          "text": "0",
+          "text": "2/5",
           "reason": "正确：见完整解析。"
+        },
+        {
+          "text": "1/6",
+          "reason": "1/6使用了无条件骰子单次概率。"
+        },
+        {
+          "text": "1/3",
+          "reason": "条件下5个有序结果均等，2个含6，不能换成1/3。"
+        },
+        {
+          "text": "1/5",
+          "reason": "只数(2,6)而漏掉(6,2)。"
         }
       ],
-      "correct_option": 3,
-      "number": 15
+      "correct_option": 0,
+      "number": 15,
+      "required": true
     },
     {
-      "id": "ME26-W002",
+      "id": "ME26-W001",
       "kind": "written",
-      "primary_chapter": 3,
+      "primary_chapter": 1,
       "secondary_chapters": [],
       "subchapter_id": null,
-      "topic": "二次余式重建",
+      "topic": "两线交点与夹角",
       "difficulty": "basic",
       "difficulty_status": "estimated",
       "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
       "marks": 4,
-      "stem": "多项式p除以\\((x-1)(x+2)\\)的余式为\\(ax+b\\)。已知\\(p(1)=4,p(-2)=-5\\)，求余式。",
-      "answer": "3x+1。",
+      "stem": "求直线\\(y=2x+1\\)与\\(y=-x+7\\)的交点；再求两线锐夹角的正切。",
+      "answer": "交点(2,5)，tanθ=3。",
       "solution_steps": [
-        "余式次数小于2，故可设ax+b。",
-        "代两个根得a+b=4、−2a+b=−5。",
-        "相减3a=9，所以a=3,b=1；两值均可回验。"
+        "令2x+1=−x+7，3x=6得x=2。",
+        "代回任一直线得y=5；代另一式也是5。",
+        "夹角正切=|(2−(−1))/(1+2(−1))|=3，取正锐角。"
       ],
       "marking_points": [
         {
-          "description": "设置线性余式并列两条件",
+          "description": "联立求x并代回y",
           "marks": 2
         },
         {
-          "description": "解出a、b并回验",
+          "description": "正确应用夹角式及绝对值",
           "marks": 2
         }
       ],
@@ -958,39 +979,45 @@
       "verification_status": "verified",
       "verification": {
         "method": "symbolic_identity_or_independent_enumeration",
-        "expression": "(3*x+1).subs(x,-2)",
-        "expected": "-5",
+        "expression": "Abs((2-(-1))/(1+2*(-1)))",
+        "expected": "3",
         "result": "pass"
       },
       "figure": null,
-      "number": 1
+      "number": 1,
+      "required": true,
+      "exam_group": null
     },
     {
-      "id": "ME26-W005",
+      "id": "ME26-W004",
       "kind": "written",
-      "primary_chapter": 8,
+      "primary_chapter": 6,
       "secondary_chapters": [],
       "subchapter_id": null,
-      "topic": "扇形两条件联立",
+      "topic": "分式不等式区间",
       "difficulty": "basic",
       "difficulty_status": "estimated",
       "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
       "marks": 4,
-      "stem": "一扇形半径r>0，弧度角θ>0。已知弧长为12，面积为36，求r和θ。",
-      "answer": "r=6，θ=2弧度。",
+      "stem": "解\\(\\frac{x-2}{x+1}\\ge0\\)，写出端点是否可取。",
+      "answer": "(−∞,−1)∪[2,∞)。",
       "solution_steps": [
-        "由rθ=12和r²θ/2=36。",
-        "第二式除第一式得到r/2=3，所以r=6。",
-        "θ=12/6=2；回代面积=36。"
+        "分母要求x≠−1；零点x=2。",
+        "在三段取点测试，(−∞,−1)及(2,∞)为正。",
+        "2使分子为0应包含；−1使分母为0必须排除。"
       ],
       "marking_points": [
         {
-          "description": "正确写出弧长和面积式",
+          "description": "标出两个临界点并排除分母零点",
+          "marks": 1
+        },
+        {
+          "description": "作符号分析",
           "marks": 2
         },
         {
-          "description": "联立并核对单位",
-          "marks": 2
+          "description": "合并区间并正确端点",
+          "marks": 1
         }
       ],
       "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
@@ -999,12 +1026,14 @@
       "verification_status": "verified",
       "verification": {
         "method": "symbolic_identity_or_independent_enumeration",
-        "expression": "6**2*2/2",
-        "expected": "36",
+        "expression": "((x-2)/(x+1)).subs(x,2)",
+        "expected": "0",
         "result": "pass"
       },
       "figure": null,
-      "number": 2
+      "number": 2,
+      "required": true,
+      "exam_group": null
     },
     {
       "id": "ME26-W006",
@@ -1049,74 +1078,35 @@
         "result": "pass"
       },
       "figure": null,
-      "number": 3
+      "number": 3,
+      "required": true,
+      "exam_group": null
     },
     {
-      "id": "ME26-W009",
+      "id": "ME26-W008",
       "kind": "written",
-      "primary_chapter": 20,
+      "primary_chapter": 19,
       "secondary_chapters": [],
       "subchapter_id": null,
-      "topic": "二项前项与范围",
+      "topic": "委员会限制计数",
       "difficulty": "medium",
       "difficulty_status": "estimated",
       "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
       "marks": 4,
-      "stem": "将\\((1+x)^{-2}\\)展开至\\(x^2\\)项，并写出展开适用范围。",
-      "answer": "1−2x+3x²+…，|x|<1。",
+      "stem": "从5位女生、4位男生中选3人委员会，要求至少2位女生。求不同委员会数。",
+      "answer": "50。",
       "solution_steps": [
-        "二项系数按r=−2取：1、−2、(−2)(−3)/2=3。",
-        "得到1−2x+3x²，余项为更高次。",
-        "这是无穷级数局部展开，要求|x|<1；不是全域恒等多项式。"
+        "按恰2女1男或3女0男分互斥情况。",
+        "前者C(5,2)C(4,1)=40，后者C(5,3)=10。",
+        "总数50，使用组合而非排列。"
       ],
       "marking_points": [
         {
-          "description": "求出三项",
-          "marks": 3
-        },
-        {
-          "description": "写明收敛范围",
-          "marks": 1
-        }
-      ],
-      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
-      "question_origin": "original_generated",
-      "source_inspiration": null,
-      "verification_status": "verified",
-      "verification": {
-        "method": "symbolic_identity_or_independent_enumeration",
-        "expression": "diff((1+x)**(-2),x,2).subs(x,0)/2",
-        "expected": "3",
-        "result": "pass"
-      },
-      "figure": null,
-      "number": 4
-    },
-    {
-      "id": "ME26-W007",
-      "kind": "written",
-      "primary_chapter": 17,
-      "secondary_chapters": [],
-      "subchapter_id": null,
-      "topic": "向量垂直与长度",
-      "difficulty": "medium",
-      "difficulty_status": "estimated",
-      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
-      "marks": 4,
-      "stem": "\\(\\mathbf a=(t,2),\\mathbf b=(3,-6)\\)。若两向量垂直，求t及a的长度。",
-      "answer": "t=4，|a|=2√5。",
-      "solution_steps": [
-        "垂直且b非0，点积3t−12=0。",
-        "t=4；a=(4,2)。",
-        "长度√(16+4)=2√5，点积回验0。"
-      ],
-      "marking_points": [
-        {
-          "description": "以点积0列式求t",
+          "description": "互斥分类并列组合数",
           "marks": 2
         },
         {
-          "description": "计算模并验证垂直",
+          "description": "求和并检查无序计数",
           "marks": 2
         }
       ],
@@ -1126,12 +1116,198 @@
       "verification_status": "verified",
       "verification": {
         "method": "symbolic_identity_or_independent_enumeration",
-        "expression": "sqrt(4**2+2**2)",
-        "expected": "2*sqrt(5)",
+        "expression": "binomial(5,2)*binomial(4,1)+binomial(5,3)",
+        "expected": "50",
         "result": "pass"
       },
       "figure": null,
-      "number": 5
+      "number": 4,
+      "required": true,
+      "exam_group": null
+    },
+    {
+      "id": "ME26-W010",
+      "kind": "written",
+      "primary_chapter": 23,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "由斜率和过点求曲线",
+      "difficulty": "medium",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 4,
+      "stem": "曲线的斜率\\(y\\prime=3x^2-2\\)，且经过\\((1,4)\\)。求曲线方程。",
+      "answer": "y=x³−2x+5。",
+      "solution_steps": [
+        "先积分y=x³−2x+C。",
+        "用点(1,4)：4=1−2+C，所以C=5。",
+        "求导核3x²−2，并代点得到4。"
+      ],
+      "marking_points": [
+        {
+          "description": "正确积分及任意常数",
+          "marks": 2
+        },
+        {
+          "description": "用过点定常数并核查",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "diff(x**3-2*x+5,x)",
+        "expected": "3*x**2-2",
+        "result": "pass"
+      },
+      "figure": null,
+      "number": 5,
+      "required": true,
+      "exam_group": null
+    },
+    {
+      "id": "ME26-W026",
+      "kind": "written",
+      "primary_chapter": 33,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "椭圆焦点与切线",
+      "difficulty": "medium",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 6,
+      "stem": "椭圆\\(x^2/25+y^2/9=1\\)。(a)求焦点；(b)求点(3,12/5)处切线；(c)验证该点到两焦点的距离和。",
+      "answer": "焦点(±4,0)；3x/25+4y/15=1；焦距和10。",
+      "solution_steps": [
+        "a=5,b=3,c=√(25−9)=4。",
+        "点满足9/25+(144/25)/9=1；切线xx0/25+yy0/9=1。",
+        "到(4,0)距离13/5，到(−4,0)距离37/5，相加10。"
+      ],
+      "marking_points": [
+        {
+          "description": "焦点参数",
+          "marks": 2
+        },
+        {
+          "description": "点验证与切线",
+          "marks": 2
+        },
+        {
+          "description": "两距离和",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "sqrt((3-4)**2+Rational(12,5)**2)+sqrt((3+4)**2+Rational(12,5)**2)",
+        "expected": "10",
+        "result": "pass"
+      },
+      "figure": null,
+      "number": 6,
+      "required": true,
+      "exam_group": null
+    },
+    {
+      "id": "ME26-W017",
+      "kind": "written",
+      "primary_chapter": 11,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "三角合成与区间解",
+      "difficulty": "medium",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 6,
+      "stem": "把\\(\\sin x+\\sqrt3\\cos x\\)写成\\(R\\sin(x+\\alpha)\\)，R>0、0<α<π/2；并解该式在0≤x<2π内等于1的全部x。",
+      "answer": "R=2,α=π/3；x=π/2或11π/6。",
+      "solution_steps": [
+        "匹配Rcosα=1、Rsinα=√3，故R=2、α=π/3。",
+        "方程化为sin(x+π/3)=1/2，两支为π/6+2kπ或5π/6+2kπ。",
+        "减π/3并筛原区间得11π/6、π/2，逐一代回为1。"
+      ],
+      "marking_points": [
+        {
+          "description": "合成参数",
+          "marks": 2
+        },
+        {
+          "description": "两支一般解",
+          "marks": 2
+        },
+        {
+          "description": "区间筛选与回代",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "sin(pi/2)+sqrt(3)*cos(pi/2)",
+        "expected": "1",
+        "result": "pass"
+      },
+      "figure": null,
+      "number": 7,
+      "required": true,
+      "exam_group": null
+    },
+    {
+      "id": "ME26-W023",
+      "kind": "written",
+      "primary_chapter": 29,
+      "secondary_chapters": [],
+      "subchapter_id": null,
+      "topic": "部分分式与原域",
+      "difficulty": "medium",
+      "difficulty_status": "estimated",
+      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
+      "marks": 6,
+      "stem": "求\\(\\int\\frac{3x+1}{(x-1)(x+1)}dx\\)，并说明结果在哪些区间适用。",
+      "answer": "2ln|x−1|+ln|x+1|+C；在(−∞,−1)、(−1,1)、(1,∞)分别适用，常数可不同。",
+      "solution_steps": [
+        "设A/(x−1)+B/(x+1)，解A+B=3,A−B=1，得A=2,B=1。",
+        "分别积分得到两个绝对值对数。",
+        "原函数只在不跨越极点的连通区间定义；求导回到原分式。"
+      ],
+      "marking_points": [
+        {
+          "description": "完整部分分式",
+          "marks": 2
+        },
+        {
+          "description": "积分及常数",
+          "marks": 2
+        },
+        {
+          "description": "三个区间与验导",
+          "marks": 2
+        }
+      ],
+      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
+      "question_origin": "original_generated",
+      "source_inspiration": null,
+      "verification_status": "verified",
+      "verification": {
+        "method": "symbolic_identity_or_independent_enumeration",
+        "expression": "diff(2*log(x-1)+log(x+1),x)",
+        "expected": "(3*x+1)/((x-1)*(x+1))",
+        "result": "pass"
+      },
+      "figure": null,
+      "number": 8,
+      "required": true,
+      "exam_group": null
     },
     {
       "id": "ME26-W014",
@@ -1176,37 +1352,39 @@
         "result": "pass"
       },
       "figure": null,
-      "number": 6
+      "number": 9,
+      "required": true,
+      "exam_group": null
     },
     {
-      "id": "ME26-W016",
+      "id": "ME26-W027",
       "kind": "written",
-      "primary_chapter": 10,
+      "primary_chapter": 34,
       "secondary_chapters": [],
       "subchapter_id": null,
-      "topic": "三角形面积与外接圆",
+      "topic": "四根与复平面",
       "difficulty": "medium",
       "difficulty_status": "estimated",
       "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
       "marks": 6,
-      "stem": "三角形ABC中AB=5、AC=7、∠A=60°。求BC、面积和外接圆半径，答案保留根号。",
-      "answer": "BC=√39；面积35√3/4；R=√13。",
+      "stem": "求方程z⁴=−16的全部根，写出极形式及代数形式，并说明根在复平面的位置关系。",
+      "answer": "z=2(cos(π/4+kπ/2)+i sin(π/4+kπ/2))，k=0,1,2,3；即±√2±i√2。",
       "solution_steps": [
-        "余弦定律BC²=25+49−35=39。",
-        "面积=(1/2)·5·7·sin60°=35√3/4。",
-        "正弦定律R=BC/(2sin A)=√39/√3=√13。"
+        "右边模16、辐角π+2kπ。",
+        "四次根模2，角π/4+kπ/2，共4个互异根。",
+        "四点在模2圆上等间隔成正方形；每根四次方均为−16。"
       ],
       "marking_points": [
         {
-          "description": "余弦定律求边",
+          "description": "模与全部辐角",
           "marks": 2
         },
         {
-          "description": "面积",
+          "description": "列四个互异根",
           "marks": 2
         },
         {
-          "description": "外接圆与根号化简",
+          "description": "几何关系与回代",
           "marks": 2
         }
       ],
@@ -1216,183 +1394,50 @@
       "verification_status": "verified",
       "verification": {
         "method": "symbolic_identity_or_independent_enumeration",
-        "expression": "sqrt(39)/(2*sin(pi/3))",
-        "expected": "sqrt(13)",
+        "expression": "expand((sqrt(2)+I*sqrt(2))**4)",
+        "expected": "-16",
         "result": "pass"
       },
       "figure": null,
-      "number": 7
+      "number": 10,
+      "required": true,
+      "exam_group": null
     },
     {
-      "id": "ME26-W020",
+      "id": "ME26-W029",
       "kind": "written",
-      "primary_chapter": 24,
+      "primary_chapter": 22,
       "secondary_chapters": [],
       "subchapter_id": null,
-      "topic": "区域与旋转轴",
-      "difficulty": "medium",
-      "difficulty_status": "estimated",
-      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
-      "marks": 6,
-      "stem": "区域R由\\(y=x^2\\)与\\(y=2x\\)围成。(a)求R面积；(b)求R绕x轴旋转一周的体积；解释上下函数选择。",
-      "answer": "面积4/3；体积64π/15。",
-      "solution_steps": [
-        "交点x²=2x给0与2；其间2x≥x²。",
-        "面积∫0²(2x−x²)dx=4/3。",
-        "垫片半径外2x、内x²，V=π∫0²(4x²−x⁴)dx=64π/15。"
-      ],
-      "marking_points": [
-        {
-          "description": "交点及上下曲线",
-          "marks": 2
-        },
-        {
-          "description": "面积计算",
-          "marks": 2
-        },
-        {
-          "description": "正确轴与平方半径体积",
-          "marks": 2
-        }
-      ],
-      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
-      "question_origin": "original_generated",
-      "source_inspiration": null,
-      "verification_status": "verified",
-      "verification": {
-        "method": "symbolic_identity_or_independent_enumeration",
-        "expression": "pi*integrate(4*x**2-x**4,(x,0,2))",
-        "expected": "64*pi/15",
-        "result": "pass"
-      },
-      "figure": null,
-      "number": 8
-    },
-    {
-      "id": "ME26-W015",
-      "kind": "written",
-      "primary_chapter": 6,
-      "secondary_chapters": [],
-      "subchapter_id": null,
-      "topic": "不等式与可行整数",
-      "difficulty": "medium",
-      "difficulty_status": "estimated",
-      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
-      "marks": 6,
-      "stem": "解\\(\\frac{(x-1)(x-4)}{x-2}\\ge0\\)，并列出0≤x≤5内所有整数解。",
-      "answer": "[1,2)∪[4,∞)；整数1,4,5。",
-      "solution_steps": [
-        "临界点1、2、4；其中2不在定义域。",
-        "四段符号分别负、正、负、正；1和4可取。",
-        "与[0,5]交后整点为1,4,5；x=2不可取。"
-      ],
-      "marking_points": [
-        {
-          "description": "临界点与定义域",
-          "marks": 2
-        },
-        {
-          "description": "符号和区间",
-          "marks": 2
-        },
-        {
-          "description": "交集整数且不含分母零点",
-          "marks": 2
-        }
-      ],
-      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
-      "question_origin": "original_generated",
-      "source_inspiration": null,
-      "verification_status": "verified",
-      "verification": {
-        "method": "symbolic_identity_or_independent_enumeration",
-        "expression": "((x-1)*(x-4)/(x-2)).subs(x,5)",
-        "expected": "4/3",
-        "result": "pass"
-      },
-      "figure": null,
-      "number": 9
-    },
-    {
-      "id": "ME26-W024",
-      "kind": "written",
-      "primary_chapter": 30,
-      "secondary_chapters": [],
-      "subchapter_id": null,
-      "topic": "指数衰变与单位",
-      "difficulty": "medium",
-      "difficulty_status": "estimated",
-      "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
-      "marks": 6,
-      "stem": "样品质量满足dm/dt=−km，k>0，t以小时计。m(0)=80克，6小时后剩40克。(a)求模型；(b)何时剩10克？",
-      "answer": "m(t)=80·2^(−t/6)；18小时。",
-      "solution_steps": [
-        "分离积分ln m=−kt+C，对质量正支有m=80e^(−kt)。",
-        "代6小时得e^(−6k)=1/2，k=ln2/6。",
-        "10/80=1/8=(1/2)³，所以t=18小时；回代为10。"
-      ],
-      "marking_points": [
-        {
-          "description": "解微分方程并定初值",
-          "marks": 2
-        },
-        {
-          "description": "由半衰期定k及单位",
-          "marks": 2
-        },
-        {
-          "description": "求时刻并代回",
-          "marks": 2
-        }
-      ],
-      "common_error": "核对题设范围、端点和运算符号；仅写结论不能替代作答推理。",
-      "question_origin": "original_generated",
-      "source_inspiration": null,
-      "verification_status": "verified",
-      "verification": {
-        "method": "symbolic_identity_or_independent_enumeration",
-        "expression": "80*2**(-Rational(18,6))",
-        "expected": "10",
-        "result": "pass"
-      },
-      "figure": null,
-      "number": 10
-    },
-    {
-      "id": "ME26-W033",
-      "kind": "written",
-      "primary_chapter": 29,
-      "secondary_chapters": [],
-      "subchapter_id": null,
-      "topic": "换元、分部与极限校核",
+      "topic": "最值、参数和面积综合",
       "difficulty": "hard",
       "difficulty_status": "estimated",
       "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
       "marks": 10,
-      "stem": "定义\\(F(a)=\\int_1^a\\ln x\\,dx\\)，a>0。(a)求F；(b)判断F的增减与最小值；(c)解F(a)=1；(d)求\\(\\lim_{a\\to1}F(a)/(a-1)^2\\)。",
-      "answer": "F=a ln a−a+1；(0,1)减、(1,∞)增，最小0；F=1解a=e；极限1/2。",
+      "stem": "\\(f_a(x)=x^3-3ax\\)，a>0。(a)求两个驻点并分类；(b)若局部极大值与极小值之差为32，求a；(c)用所得a求曲线与x轴围成的总面积。",
+      "answer": "驻点±√a；a=4；f=x³−12x；总面积72。",
       "solution_steps": [
-        "分部积分u=lnx，dv=dx，得F=a lna−a+1。",
-        "F′=ln a，故在1两侧负到正，最小F(1)=0。",
-        "F=1等价a(ln a−1)=0，因a>0，只有a=e。",
-        "极限为0/0；一次洛必达成ln a/[2(a−1)]，再一次为1/(2a)，极限1/2。",
-        "原域a>0排除a=0，即使a lna的极限存在也不能把0当方程解。"
+        "f′=3(x²−a)，三段符号为正、负、正，所以−√a为极大、√a为极小。",
+        "对应值分别2a^(3/2)、−2a^(3/2)，差4a^(3/2)=32，得a=4。",
+        "f=x(x²−12)，零点−2√3、0、2√3。",
+        "函数奇对称，两侧面积相等；在(0,2√3)函数为负，面积=2∫0^(2√3)(12x−x³)dx=72。",
+        "验算极大在−2为16、极小在2为−16，差32；总面积非有号积分0。"
       ],
       "marking_points": [
         {
-          "description": "分部求F含定积分常数",
+          "description": "驻点及正确变号分类",
           "marks": 3
         },
         {
-          "description": "导数号与最小值",
+          "description": "极值差求参数",
           "marks": 2
         },
         {
-          "description": "域内解方程",
+          "description": "全部交点和两块区域",
           "marks": 2
         },
         {
-          "description": "极限条件与两次计算",
+          "description": "分段面积及核对",
           "marks": 3
         }
       ],
@@ -1402,48 +1447,50 @@
       "verification_status": "verified",
       "verification": {
         "method": "symbolic_identity_or_independent_enumeration",
-        "expression": "limit((x*log(x)-x+1)/(x-1)**2,x,1)",
-        "expected": "1/2",
+        "expression": "2*integrate(12*x-x**3,(x,0,2*sqrt(3)))",
+        "expected": "72",
         "result": "pass"
       },
       "figure": null,
-      "number": 11
+      "number": 11,
+      "required": true,
+      "exam_group": null
     },
     {
-      "id": "ME26-W035",
+      "id": "ME26-W034",
       "kind": "written",
-      "primary_chapter": 33,
+      "primary_chapter": 31,
       "secondary_chapters": [],
       "subchapter_id": null,
-      "topic": "抛物线最短距离与交点数",
+      "topic": "归纳、界与数值方法",
       "difficulty": "hard",
       "difficulty_status": "estimated",
       "difficulty_basis": "Author estimate from algebraic depth, domain checks and integration of skills; not student score data.",
       "marks": 10,
-      "stem": "抛物线\\(y=x^2\\)，点P=(0,2)。(a)求抛物线上点到P距离平方的表达式；(b)求最短距离及所有最近点；(c)以P为圆心的圆与抛物线相交于4个不同点，求半径r范围。",
-      "answer": "d²=x⁴−3x²+4；最短√7/2，最近点(±√(3/2),3/2)；√7/2<r<2。",
+      "stem": "\\(s_n=\\sum_{k=1}^n\\frac1{k(k+1)}\\)。(a)用归纳法证明s_n=n/(n+1)；(b)求s_n>0.99的最小正整数n；(c)令f(x)=x/(x+1)−0.99，写Newton迭代式，并从x0=9求x1；(d)说明为何最小整数答案不能仅由一次迭代读出。",
+      "answer": "s_n=n/(n+1)；n=100；x1=18；一次近似不证严格整数不等式。",
       "solution_steps": [
-        "d²=x²+(x²−2)²=x⁴−3x²+4。",
-        "令u=x²≥0，则d²=(u−3/2)²+7/4，最小7/4在u=3/2取到。",
-        "最近点两支都保留，y=3/2。",
-        "交点方程u²−3u+4−r²=0要有两个互异正u，方能给4个不同x。",
-        "判别式4r²−7>0、根和3>0、根积4−r²>0，合并√7/2<r<2；端点分别切触或含x=0不能计4点。"
+        "n=1等式1/2成立；在k式加1/[(k+1)(k+2)]得(k+1)/(k+2)。",
+        "不等式1−1/(n+1)>.99给n+1>100，故n>99，最小100。",
+        "f′=1/(x+1)²；迭代x_{j+1}=x_j−[x_j/(x_j+1)−.99](x_j+1)²。",
+        "x0=9时f=−.09、f′=.01，x1=18。",
+        "连续方程的根是99；严格>要求整数100，一次迭代未给误差界且尚未到根。"
       ],
       "marking_points": [
         {
-          "description": "正确距离平方及u域",
+          "description": "基步和完整归纳",
+          "marks": 3
+        },
+        {
+          "description": "严格整数阈值",
           "marks": 2
         },
         {
-          "description": "配方最短与两个最近点",
+          "description": "导数迭代及x1",
           "marks": 3
         },
         {
-          "description": "两个正且异的u条件",
-          "marks": 3
-        },
-        {
-          "description": "合并范围及端点解释",
+          "description": "方程近似与严格不等式的区别",
           "marks": 2
         }
       ],
@@ -1453,21 +1500,29 @@
       "verification_status": "verified",
       "verification": {
         "method": "symbolic_identity_or_independent_enumeration",
-        "expression": "(x**4-3*x**2+4).subs(x,sqrt(Rational(3,2)))",
-        "expected": "7/4",
+        "expression": "9-(Rational(9,10)-Rational(99,100))*100",
+        "expected": "18",
         "result": "pass"
       },
       "figure": null,
-      "number": 12
+      "number": 12,
+      "required": true,
+      "exam_group": null
     }
   ],
+  "policy": {
+    "min_chapters": 8,
+    "max_chapter_marks": 20,
+    "strategy": "combined",
+    "topic_preference": 0.65,
+    "difficulty_policy": "25/50/25 ±5分"
+  },
   "audit": {
-    "source": "original_reviewed_bank",
-    "historical_scope": "partial_visual_review_only",
+    "strategy": "combined",
+    "board": "combined",
     "sample_years": [
       2018,
       2019,
-      2020,
       2021,
       2022,
       2023,
@@ -1475,54 +1530,1590 @@
       2025,
       2026
     ],
-    "observed_priority_chapters": [
-      33,
-      29,
-      11,
-      22,
-      24,
-      10,
-      34,
-      5
+    "source_format": "uec_math_ii-2026",
+    "source_pdf_id": "uec_math_ii:7d674effa960",
+    "source_cover_pages": [
+      1,
+      4
     ],
-    "realized_priority_marks": 50,
-    "historical_weight_used_as_actual_scores": false,
+    "statistics_metric": "independent question count; combined/cold use mean normalized annual share",
     "actual_difficulty_calibrated": false,
     "official_marking_scheme": false,
-    "selection_reason": "Sample topic preference is a soft design policy; diversity, scope and exact score template are hard constraints.",
+    "historical_weight_used_as_actual_scores": false,
+    "selection_reason": "统计只作软偏好；真实格式、候选章域、题目唯一性与实际作答覆盖为硬约束。",
+    "statistical_evidence": [
+      {
+        "year": 2018,
+        "total_questions": 32,
+        "cells": [
+          {
+            "chapter": 1,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 5,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2018:mcq:1"
+            ]
+          },
+          {
+            "chapter": 6,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 7,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 8,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 9,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 10,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2018:mcq:9"
+            ]
+          },
+          {
+            "chapter": 11,
+            "count": 4,
+            "share": 0.125,
+            "question_ids": [
+              "uec_math_ii:2018:mcq:10",
+              "uec_math_ii:2018:mcq:11",
+              "uec_math_ii:2018:mcq:8",
+              "uec_math_ii:2018:written:2"
+            ]
+          },
+          {
+            "chapter": 13,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2018:written:6"
+            ]
+          },
+          {
+            "chapter": 14,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 15,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 17,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 19,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2018:mcq:7"
+            ]
+          },
+          {
+            "chapter": 20,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2018:mcq:3"
+            ]
+          },
+          {
+            "chapter": 22,
+            "count": 3,
+            "share": 0.09375,
+            "question_ids": [
+              "uec_math_ii:2018:mcq:17",
+              "uec_math_ii:2018:mcq:18",
+              "uec_math_ii:2018:written:10"
+            ]
+          },
+          {
+            "chapter": 23,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 25,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 26,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2018:mcq:6"
+            ]
+          },
+          {
+            "chapter": 28,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 29,
+            "count": 3,
+            "share": 0.09375,
+            "question_ids": [
+              "uec_math_ii:2018:mcq:20",
+              "uec_math_ii:2018:written:11",
+              "uec_math_ii:2018:written:9"
+            ]
+          },
+          {
+            "chapter": 31,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2018:written:3"
+            ]
+          },
+          {
+            "chapter": 32,
+            "count": 2,
+            "share": 0.0625,
+            "question_ids": [
+              "uec_math_ii:2018:mcq:13",
+              "uec_math_ii:2018:mcq:15"
+            ]
+          },
+          {
+            "chapter": 33,
+            "count": 3,
+            "share": 0.09375,
+            "question_ids": [
+              "uec_math_ii:2018:mcq:12",
+              "uec_math_ii:2018:mcq:14",
+              "uec_math_ii:2018:written:8"
+            ]
+          },
+          {
+            "chapter": 34,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2018:written:5"
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2019,
+        "total_questions": 32,
+        "cells": [
+          {
+            "chapter": 1,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 5,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2019:written:3"
+            ]
+          },
+          {
+            "chapter": 6,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 7,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2019:mcq:10"
+            ]
+          },
+          {
+            "chapter": 8,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 9,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 10,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2019:mcq:4"
+            ]
+          },
+          {
+            "chapter": 11,
+            "count": 4,
+            "share": 0.125,
+            "question_ids": [
+              "uec_math_ii:2019:mcq:1",
+              "uec_math_ii:2019:mcq:3",
+              "uec_math_ii:2019:written:1",
+              "uec_math_ii:2019:written:2"
+            ]
+          },
+          {
+            "chapter": 13,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2019:mcq:7"
+            ]
+          },
+          {
+            "chapter": 14,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 15,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 17,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2019:mcq:6"
+            ]
+          },
+          {
+            "chapter": 19,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2019:mcq:5"
+            ]
+          },
+          {
+            "chapter": 20,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2019:written:6"
+            ]
+          },
+          {
+            "chapter": 22,
+            "count": 3,
+            "share": 0.09375,
+            "question_ids": [
+              "uec_math_ii:2019:mcq:16",
+              "uec_math_ii:2019:written:10",
+              "uec_math_ii:2019:written:9"
+            ]
+          },
+          {
+            "chapter": 23,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 25,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 26,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 28,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2019:mcq:17"
+            ]
+          },
+          {
+            "chapter": 29,
+            "count": 3,
+            "share": 0.09375,
+            "question_ids": [
+              "uec_math_ii:2019:mcq:18",
+              "uec_math_ii:2019:mcq:20",
+              "uec_math_ii:2019:written:12"
+            ]
+          },
+          {
+            "chapter": 31,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 32,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2019:mcq:12"
+            ]
+          },
+          {
+            "chapter": 33,
+            "count": 4,
+            "share": 0.125,
+            "question_ids": [
+              "uec_math_ii:2019:mcq:14",
+              "uec_math_ii:2019:mcq:15",
+              "uec_math_ii:2019:written:7",
+              "uec_math_ii:2019:written:8"
+            ]
+          },
+          {
+            "chapter": 34,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2019:mcq:9"
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "total_questions": 32,
+        "cells": [
+          {
+            "chapter": 1,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 5,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2021:mcq:1"
+            ]
+          },
+          {
+            "chapter": 6,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 7,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2021:mcq:3"
+            ]
+          },
+          {
+            "chapter": 8,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 9,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2021:mcq:10"
+            ]
+          },
+          {
+            "chapter": 10,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2021:written:2"
+            ]
+          },
+          {
+            "chapter": 11,
+            "count": 2,
+            "share": 0.0625,
+            "question_ids": [
+              "uec_math_ii:2021:mcq:8",
+              "uec_math_ii:2021:written:1"
+            ]
+          },
+          {
+            "chapter": 13,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2021:mcq:11"
+            ]
+          },
+          {
+            "chapter": 14,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 15,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 17,
+            "count": 2,
+            "share": 0.0625,
+            "question_ids": [
+              "uec_math_ii:2021:mcq:5",
+              "uec_math_ii:2021:written:6"
+            ]
+          },
+          {
+            "chapter": 19,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2021:mcq:7"
+            ]
+          },
+          {
+            "chapter": 20,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2021:mcq:4"
+            ]
+          },
+          {
+            "chapter": 22,
+            "count": 2,
+            "share": 0.0625,
+            "question_ids": [
+              "uec_math_ii:2021:mcq:16",
+              "uec_math_ii:2021:mcq:18"
+            ]
+          },
+          {
+            "chapter": 23,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 25,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 26,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2021:written:4"
+            ]
+          },
+          {
+            "chapter": 28,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 29,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2021:written:10"
+            ]
+          },
+          {
+            "chapter": 31,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2021:written:9"
+            ]
+          },
+          {
+            "chapter": 32,
+            "count": 2,
+            "share": 0.0625,
+            "question_ids": [
+              "uec_math_ii:2021:mcq:14",
+              "uec_math_ii:2021:mcq:15"
+            ]
+          },
+          {
+            "chapter": 33,
+            "count": 3,
+            "share": 0.09375,
+            "question_ids": [
+              "uec_math_ii:2021:mcq:12",
+              "uec_math_ii:2021:written:7",
+              "uec_math_ii:2021:written:8"
+            ]
+          },
+          {
+            "chapter": 34,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2021:mcq:6"
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2022,
+        "total_questions": 32,
+        "cells": [
+          {
+            "chapter": 1,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 5,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2022:mcq:3"
+            ]
+          },
+          {
+            "chapter": 6,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2022:written:4"
+            ]
+          },
+          {
+            "chapter": 7,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 8,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 9,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2022:mcq:11"
+            ]
+          },
+          {
+            "chapter": 10,
+            "count": 2,
+            "share": 0.0625,
+            "question_ids": [
+              "uec_math_ii:2022:mcq:8",
+              "uec_math_ii:2022:written:1"
+            ]
+          },
+          {
+            "chapter": 11,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2022:mcq:10"
+            ]
+          },
+          {
+            "chapter": 13,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 14,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 15,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 17,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 19,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2022:mcq:4"
+            ]
+          },
+          {
+            "chapter": 20,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2022:mcq:1"
+            ]
+          },
+          {
+            "chapter": 22,
+            "count": 4,
+            "share": 0.125,
+            "question_ids": [
+              "uec_math_ii:2022:mcq:16",
+              "uec_math_ii:2022:mcq:18",
+              "uec_math_ii:2022:written:10",
+              "uec_math_ii:2022:written:12"
+            ]
+          },
+          {
+            "chapter": 23,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 25,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 26,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2022:mcq:5"
+            ]
+          },
+          {
+            "chapter": 28,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2022:mcq:17"
+            ]
+          },
+          {
+            "chapter": 29,
+            "count": 2,
+            "share": 0.0625,
+            "question_ids": [
+              "uec_math_ii:2022:mcq:19",
+              "uec_math_ii:2022:written:11"
+            ]
+          },
+          {
+            "chapter": 31,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 32,
+            "count": 2,
+            "share": 0.0625,
+            "question_ids": [
+              "uec_math_ii:2022:mcq:12",
+              "uec_math_ii:2022:mcq:14"
+            ]
+          },
+          {
+            "chapter": 33,
+            "count": 3,
+            "share": 0.09375,
+            "question_ids": [
+              "uec_math_ii:2022:mcq:15",
+              "uec_math_ii:2022:written:7",
+              "uec_math_ii:2022:written:8"
+            ]
+          },
+          {
+            "chapter": 34,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2022:mcq:7"
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2023,
+        "total_questions": 32,
+        "cells": [
+          {
+            "chapter": 1,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 5,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2023:mcq:4"
+            ]
+          },
+          {
+            "chapter": 6,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 7,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 8,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 9,
+            "count": 3,
+            "share": 0.09375,
+            "question_ids": [
+              "uec_math_ii:2023:mcq:10",
+              "uec_math_ii:2023:mcq:11",
+              "uec_math_ii:2023:mcq:8"
+            ]
+          },
+          {
+            "chapter": 10,
+            "count": 2,
+            "share": 0.0625,
+            "question_ids": [
+              "uec_math_ii:2023:mcq:9",
+              "uec_math_ii:2023:written:2"
+            ]
+          },
+          {
+            "chapter": 11,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 13,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2023:written:6"
+            ]
+          },
+          {
+            "chapter": 14,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 15,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 17,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2023:mcq:7"
+            ]
+          },
+          {
+            "chapter": 19,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 20,
+            "count": 2,
+            "share": 0.0625,
+            "question_ids": [
+              "uec_math_ii:2023:mcq:3",
+              "uec_math_ii:2023:written:4"
+            ]
+          },
+          {
+            "chapter": 22,
+            "count": 2,
+            "share": 0.0625,
+            "question_ids": [
+              "uec_math_ii:2023:mcq:17",
+              "uec_math_ii:2023:written:10"
+            ]
+          },
+          {
+            "chapter": 23,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 25,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 26,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2023:mcq:5"
+            ]
+          },
+          {
+            "chapter": 28,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2023:mcq:19"
+            ]
+          },
+          {
+            "chapter": 29,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2023:written:12"
+            ]
+          },
+          {
+            "chapter": 31,
+            "count": 2,
+            "share": 0.0625,
+            "question_ids": [
+              "uec_math_ii:2023:written:5",
+              "uec_math_ii:2023:written:9"
+            ]
+          },
+          {
+            "chapter": 32,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2023:written:8"
+            ]
+          },
+          {
+            "chapter": 33,
+            "count": 5,
+            "share": 0.15625,
+            "question_ids": [
+              "uec_math_ii:2023:mcq:12",
+              "uec_math_ii:2023:mcq:13",
+              "uec_math_ii:2023:mcq:14",
+              "uec_math_ii:2023:mcq:15",
+              "uec_math_ii:2023:written:7"
+            ]
+          },
+          {
+            "chapter": 34,
+            "count": 2,
+            "share": 0.0625,
+            "question_ids": [
+              "uec_math_ii:2023:mcq:1",
+              "uec_math_ii:2023:written:3"
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "total_questions": 32,
+        "cells": [
+          {
+            "chapter": 1,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 5,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2024:written:6"
+            ]
+          },
+          {
+            "chapter": 6,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 7,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2024:mcq:1"
+            ]
+          },
+          {
+            "chapter": 8,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 9,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2024:mcq:10"
+            ]
+          },
+          {
+            "chapter": 10,
+            "count": 2,
+            "share": 0.0625,
+            "question_ids": [
+              "uec_math_ii:2024:mcq:11",
+              "uec_math_ii:2024:mcq:9"
+            ]
+          },
+          {
+            "chapter": 11,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2024:written:1"
+            ]
+          },
+          {
+            "chapter": 13,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2024:mcq:3"
+            ]
+          },
+          {
+            "chapter": 14,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 15,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 17,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2024:mcq:8"
+            ]
+          },
+          {
+            "chapter": 19,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2024:mcq:7"
+            ]
+          },
+          {
+            "chapter": 20,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 22,
+            "count": 2,
+            "share": 0.0625,
+            "question_ids": [
+              "uec_math_ii:2024:mcq:16",
+              "uec_math_ii:2024:written:12"
+            ]
+          },
+          {
+            "chapter": 23,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 25,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 26,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2024:written:4"
+            ]
+          },
+          {
+            "chapter": 28,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2024:mcq:18"
+            ]
+          },
+          {
+            "chapter": 29,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 31,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2024:written:3"
+            ]
+          },
+          {
+            "chapter": 32,
+            "count": 2,
+            "share": 0.0625,
+            "question_ids": [
+              "uec_math_ii:2024:mcq:14",
+              "uec_math_ii:2024:mcq:15"
+            ]
+          },
+          {
+            "chapter": 33,
+            "count": 2,
+            "share": 0.0625,
+            "question_ids": [
+              "uec_math_ii:2024:mcq:12",
+              "uec_math_ii:2024:written:7"
+            ]
+          },
+          {
+            "chapter": 34,
+            "count": 2,
+            "share": 0.0625,
+            "question_ids": [
+              "uec_math_ii:2024:mcq:5",
+              "uec_math_ii:2024:written:5"
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2025,
+        "total_questions": 32,
+        "cells": [
+          {
+            "chapter": 1,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2025:mcq:13"
+            ]
+          },
+          {
+            "chapter": 5,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2025:mcq:7"
+            ]
+          },
+          {
+            "chapter": 6,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 7,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2025:mcq:2"
+            ]
+          },
+          {
+            "chapter": 8,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 9,
+            "count": 2,
+            "share": 0.0625,
+            "question_ids": [
+              "uec_math_ii:2025:mcq:11",
+              "uec_math_ii:2025:written:2"
+            ]
+          },
+          {
+            "chapter": 10,
+            "count": 3,
+            "share": 0.09375,
+            "question_ids": [
+              "uec_math_ii:2025:mcq:8",
+              "uec_math_ii:2025:mcq:9",
+              "uec_math_ii:2025:written:1"
+            ]
+          },
+          {
+            "chapter": 11,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2025:mcq:10"
+            ]
+          },
+          {
+            "chapter": 13,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2025:written:3"
+            ]
+          },
+          {
+            "chapter": 14,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 15,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 17,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2025:mcq:3"
+            ]
+          },
+          {
+            "chapter": 19,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2025:mcq:5"
+            ]
+          },
+          {
+            "chapter": 20,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 22,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 23,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 25,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 26,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 28,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2025:mcq:17"
+            ]
+          },
+          {
+            "chapter": 29,
+            "count": 2,
+            "share": 0.0625,
+            "question_ids": [
+              "uec_math_ii:2025:written:10",
+              "uec_math_ii:2025:written:11"
+            ]
+          },
+          {
+            "chapter": 31,
+            "count": 1,
+            "share": 0.03125,
+            "question_ids": [
+              "uec_math_ii:2025:written:5"
+            ]
+          },
+          {
+            "chapter": 32,
+            "count": 2,
+            "share": 0.0625,
+            "question_ids": [
+              "uec_math_ii:2025:mcq:12",
+              "uec_math_ii:2025:mcq:15"
+            ]
+          },
+          {
+            "chapter": 33,
+            "count": 3,
+            "share": 0.09375,
+            "question_ids": [
+              "uec_math_ii:2025:mcq:14",
+              "uec_math_ii:2025:written:7",
+              "uec_math_ii:2025:written:8"
+            ]
+          },
+          {
+            "chapter": 34,
+            "count": 2,
+            "share": 0.0625,
+            "question_ids": [
+              "uec_math_ii:2025:mcq:1",
+              "uec_math_ii:2025:written:4"
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2026,
+        "total_questions": 27,
+        "cells": [
+          {
+            "chapter": 1,
+            "count": 1,
+            "share": 0.037037037037037035,
+            "question_ids": [
+              "uec_math_ii:2026:mcq:7"
+            ]
+          },
+          {
+            "chapter": 5,
+            "count": 1,
+            "share": 0.037037037037037035,
+            "question_ids": [
+              "uec_math_ii:2026:mcq:2"
+            ]
+          },
+          {
+            "chapter": 6,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 7,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 8,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 9,
+            "count": 1,
+            "share": 0.037037037037037035,
+            "question_ids": [
+              "uec_math_ii:2026:mcq:6"
+            ]
+          },
+          {
+            "chapter": 10,
+            "count": 1,
+            "share": 0.037037037037037035,
+            "question_ids": [
+              "uec_math_ii:2026:written:11"
+            ]
+          },
+          {
+            "chapter": 11,
+            "count": 2,
+            "share": 0.07407407407407407,
+            "question_ids": [
+              "uec_math_ii:2026:mcq:5",
+              "uec_math_ii:2026:written:7"
+            ]
+          },
+          {
+            "chapter": 13,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 14,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 15,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 17,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 19,
+            "count": 1,
+            "share": 0.037037037037037035,
+            "question_ids": [
+              "uec_math_ii:2026:mcq:10"
+            ]
+          },
+          {
+            "chapter": 20,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 22,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 23,
+            "count": 0,
+            "share": 0,
+            "question_ids": []
+          },
+          {
+            "chapter": 25,
+            "count": 1,
+            "share": 0.037037037037037035,
+            "question_ids": [
+              "uec_math_ii:2026:written:8"
+            ]
+          },
+          {
+            "chapter": 26,
+            "count": 2,
+            "share": 0.07407407407407407,
+            "question_ids": [
+              "uec_math_ii:2026:mcq:11",
+              "uec_math_ii:2026:written:2"
+            ]
+          },
+          {
+            "chapter": 28,
+            "count": 1,
+            "share": 0.037037037037037035,
+            "question_ids": [
+              "uec_math_ii:2026:written:4"
+            ]
+          },
+          {
+            "chapter": 29,
+            "count": 2,
+            "share": 0.07407407407407407,
+            "question_ids": [
+              "uec_math_ii:2026:mcq:13",
+              "uec_math_ii:2026:written:5"
+            ]
+          },
+          {
+            "chapter": 31,
+            "count": 2,
+            "share": 0.07407407407407407,
+            "question_ids": [
+              "uec_math_ii:2026:mcq:14",
+              "uec_math_ii:2026:written:6"
+            ]
+          },
+          {
+            "chapter": 32,
+            "count": 2,
+            "share": 0.07407407407407407,
+            "question_ids": [
+              "uec_math_ii:2026:mcq:8",
+              "uec_math_ii:2026:mcq:9"
+            ]
+          },
+          {
+            "chapter": 33,
+            "count": 1,
+            "share": 0.037037037037037035,
+            "question_ids": [
+              "uec_math_ii:2026:written:12"
+            ]
+          },
+          {
+            "chapter": 34,
+            "count": 3,
+            "share": 0.1111111111111111,
+            "question_ids": [
+              "uec_math_ii:2026:mcq:3",
+              "uec_math_ii:2026:mcq:4",
+              "uec_math_ii:2026:written:3"
+            ]
+          }
+        ]
+      }
+    ],
     "validation": {
       "ok": true,
       "errors": [],
       "chapter_marks": {
-        "2": 2,
-        "3": 4,
+        "1": 4,
         "5": 8,
-        "6": 6,
+        "6": 4,
         "7": 2,
-        "8": 4,
+        "8": 2,
         "9": 2,
-        "10": 8,
+        "10": 2,
+        "11": 8,
+        "13": 2,
+        "14": 2,
         "15": 4,
-        "17": 4,
-        "18": 2,
-        "20": 4,
-        "23": 2,
-        "24": 8,
+        "17": 2,
+        "19": 4,
+        "20": 2,
+        "22": 10,
+        "23": 4,
         "25": 2,
+        "26": 2,
         "28": 2,
-        "29": 12,
-        "30": 6,
-        "31": 2,
-        "33": 12,
-        "34": 2,
-        "35": 2
+        "29": 6,
+        "31": 10,
+        "32": 2,
+        "33": 6,
+        "34": 8
       },
       "difficulty_marks": {
         "basic": 24,
         "medium": 50,
         "hard": 26
       },
-      "total_marks": 100
+      "total_marks": 100,
+      "printed_marks": 100,
+      "printed_chapter_marks": {
+        "1": 4,
+        "5": 8,
+        "6": 4,
+        "7": 2,
+        "8": 2,
+        "9": 2,
+        "10": 2,
+        "11": 8,
+        "13": 2,
+        "14": 2,
+        "15": 4,
+        "17": 2,
+        "19": 4,
+        "20": 2,
+        "22": 10,
+        "23": 4,
+        "25": 2,
+        "26": 2,
+        "28": 2,
+        "29": 6,
+        "31": 10,
+        "32": 2,
+        "33": 6,
+        "34": 8
+      },
+      "required_written_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     }
   }
 }

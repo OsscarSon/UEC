@@ -1,0 +1,547 @@
+{
+  "count": 67,
+  "checks": [
+    {
+      "id": "uec_math_ii:2022:mcq:1:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "b642b99b40b517f6d8ed21ef349ec81bf746fe65d87d28e36aa405329502c0cb",
+      "computed": "-27/16",
+      "expected": "-27/16",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_ii:2022:mcq:2:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "a8808f046f26c8fe1b273ecb3e1ec6ab806d144ba64435c9cb5f9ae0eb8ca5a6",
+      "computed": "(x + 1)*(6*x - 1)",
+      "expected": "(x + 1)*(6*x - 1)",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_ii:2022:mcq:3:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "79f518dac50d52036d8ded78b746f7ee38765e01ce97073c18e926f6b11f1ade",
+      "computed": "0",
+      "expected": "0",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_ii:2022:mcq:4:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "4c8bb848be5fa7193b65df2a06076c979078c30a49ff7631648f7446e4496396",
+      "computed": "250",
+      "expected": "250",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_ii:2022:mcq:5:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "b10615e3df7f6dc010e86edad0af0e47edb0f2b5057b54271dae68a201853b18",
+      "computed": "0.0996",
+      "expected": "249/2500",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_ii:2022:mcq:6:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "74422fecaca0f8da66d611de763b2e90e6c1bc7c1d5a9a18e8e6cb1175e9cae5",
+      "computed": "2",
+      "expected": "2",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_ii:2022:mcq:7:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "2ea9d04603a5ddf6b0209fe9a3712408fcae5153452a316eed45028aa2d81305",
+      "computed": "-1 + (-1 + I)*(1 - I)/2",
+      "expected": "-1 + I",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_ii:2022:mcq:8:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "715990b3a3dbeca19fbb1a2364ea7c1094efb1e69c73906c109a38a88cb44308",
+      "computed": "7/18",
+      "expected": "7/18",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_ii:2022:mcq:9:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "97595198a4853f17a8ddd3df0bce111822a1f72fb10977d09341200aa12ca808",
+      "computed": "49.1",
+      "expected": "491/10",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_ii:2022:mcq:10:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "364b013527b34c3b3d86ebaba529f3e716fddeeb1be9dc8437cda75d11a2079a",
+      "computed": "7/10",
+      "expected": "7/10",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_ii:2022:mcq:11:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "1193a0dba59320f9b5c740cc9dec137c50120588b9c0be62e5189cd4dde09dfe",
+      "computed": "3*pi/5",
+      "expected": "3*pi/5",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_ii:2022:mcq:12:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "47c43ce6890a2dcbc82feca9758b1bb22d3b779052c918a0f8b42a9466be304d",
+      "computed": "x**2 + 5*x - 14",
+      "expected": "x**2 + 5*x - 14",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_ii:2022:mcq:13:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "c34211214379fc0dac438d91ed7dfa509fd94a6ce2b2b628bff6d58fd3bab840",
+      "computed": "sqrt(14)",
+      "expected": "sqrt(14)",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_ii:2022:mcq:14:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "fbcfffd090b759735fbeeb2572fff9d31aff9cea456e595f3d2ed11820392aee",
+      "computed": "205",
+      "expected": "205",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_ii:2022:mcq:15:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "2da42e0f786c8241886fe70d1d9d72e1294a6d78ba68ccdb4967d5146340cefb",
+      "computed": "1",
+      "expected": "1",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_ii:2022:mcq:16:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "cc85d9f18e683fd6cb632ca64f18f2baf0acde6c76539dce768b9b7e9b156ee3",
+      "computed": "-5",
+      "expected": "-5",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_ii:2022:mcq:17:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "998c9355cca2dab5b0c09c898d0b1247e5399b7e0a993559ce7d17b02535fa2a",
+      "computed": "-67/27",
+      "expected": "-67/27",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_ii:2022:mcq:18:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "0429e5f974e6d4af5243aea871a8eefc55dec8b7601359fca5725114fb71deeb",
+      "computed": "6*a*(x - 2)*(x - 1)",
+      "expected": "6*a*(x - 2)*(x - 1)",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_ii:2022:mcq:19:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "5f6fbf6cbaeab16942432b119604446a40c24f37ecbbf52edf3b34cad14961a0",
+      "computed": "-2 + 2/(1 - x)",
+      "expected": "2*x/(1 - x)",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_ii:2022:mcq:20:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "e13bac3eb18629910557ea14b6fb6fe633324f12c025336157660ae26d4398e8",
+      "computed": "pi/4",
+      "expected": "pi/4",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2022:mcq:1:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "4816b3e566ea044f37d536827de38f06c58836e3e4087edf0e65755fd5099c55",
+      "computed": "7",
+      "expected": "7",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2022:mcq:2:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "63e4ac251ddba34eb7290795c76ed2bff5eda0fbb83cb95c226755bf1ea6ac8d",
+      "computed": "(3*x - 5)*(3*x + 2)",
+      "expected": "(3*x - 5)*(3*x + 2)",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2022:mcq:3:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "888dc1e985637858b9514e69651f6227784a079368d467a871d96a81c13979ef",
+      "computed": "-1",
+      "expected": "-1",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2022:mcq:4:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "bc335befe369ddad898eb517a0438bc7b3ffe55a379ed9c70d824a4c15f8aa10",
+      "computed": "1",
+      "expected": "1",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2022:mcq:5:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "a06124d1780d9cf55132f99615d0a5a3edc4ae955d59899ef36d110c9da38796",
+      "computed": "-280",
+      "expected": "-280",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2022:mcq:6:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "e3de130debcf462668d273fcd1bf49d30479aaf61486923a6e2a01066107f8ca",
+      "computed": "(x + 1)**2/(x - 1)",
+      "expected": "(x + 1)**2/(x - 1)",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2022:mcq:7:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "8b4283ffba6942bcb6e0e158c1ffbd21e2055596efea73bd9796b7de18e26e94",
+      "computed": "5/2",
+      "expected": "5/2",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2022:mcq:8:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "e2a1cc0b6ce07046dfcb75f79723ce5e4b6ff7087b72fbee527e4389485de359",
+      "computed": "168",
+      "expected": "168",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2022:mcq:9:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "9d1aedd2866e2b3099d45d7ecf53b78030d4a415e1fc4ae7cbde34e7d2a6c9d2",
+      "computed": "3413/5000",
+      "expected": "3413/5000",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2022:mcq:10:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "a19cefcfbf6ae02d04c3d5be1e74d91440806532f2f73947cfce62573e27ce81",
+      "computed": "-cos(x)",
+      "expected": "-cos(x)",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2022:mcq:11:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "3f3d809a810517c96f28b005ed05bae26d3cdc6d6f437fcc99d53ec53311044a",
+      "computed": "160",
+      "expected": "160",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2022:mcq:12:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "ed1223153e3154ffbde6aeacd5472864dd40a15f0284bff020e95939473b3360",
+      "computed": "4",
+      "expected": "4",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2022:mcq:13:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "6793887b3c045ce802c16edc0aa9994214196830f6ed2ea6a95525163e13dbde",
+      "computed": "78.22",
+      "expected": "3911/50",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2022:mcq:14:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "6be9890edea5e9b83b2de1dc93fe69f21b101daf3932c089fecb6a1ee6e8fe10",
+      "computed": "(x - 1)*(x + 2)",
+      "expected": "(x - 1)*(x + 2)",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2022:mcq:15:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "753d75bd3107d804060f66a7cdffafcd8f2cc7e7dbfe8ac51f9f4bf6219d0c7f",
+      "computed": "4",
+      "expected": "4",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2022:mcq:16:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "ce5915d43ab00ddef6a2df0096428c077a9f1b2890f7be4df9e527847d688585",
+      "computed": "4",
+      "expected": "4",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2022:mcq:17:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "96165b0d6062924c5ed72a40aafd9d4aae6fac4ad1a0cc48ed4867b2b292333c",
+      "computed": "0",
+      "expected": "0",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2022:mcq:18:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "eae90a8a14809fd83f66996a3f5476dedf4b6e050e6c9876d90be12c369a61bf",
+      "computed": "-10*pi",
+      "expected": "-10*pi",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2022:mcq:19:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "33ce3ed631ffd35cc232d68f114627dfba7aab3f4fcd13981f18042e94ee8979",
+      "computed": "-4/7",
+      "expected": "-4/7",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2022:mcq:20:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "df68f02aab539ab7a59db30683a7f88a261090d4371b73b602f236e83f4493ec",
+      "computed": "9/4",
+      "expected": "9/4",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2023:mcq:1:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "a34aca1bd678d735f1e62fc2b64ae25f94bf85e1dc25767e0c16eca6d98545cb",
+      "computed": "5",
+      "expected": "5",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2023:mcq:2:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "7d00acb75b748ff5c2aa3a65f8290d21d6f44b9a980fd91efcd0c509e0c6039e",
+      "computed": "0",
+      "expected": "0",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2023:mcq:3:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "955d35ab6e197fdd6e69500d3bcc576492eb2b9016ff85214d43c470a576d25b",
+      "computed": "2",
+      "expected": "2",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2023:mcq:4:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "b3a5c193ee8a32b3b736f1bc3e0bdcfd4dd0a11dd3b3c80b220219c471e132a1",
+      "computed": "-67103337",
+      "expected": "-67103337",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2023:mcq:5:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "80c5cf15205e7cd71340c29d73cea938f63032c04e7d919556059b57d4e61ab2",
+      "computed": "-2912",
+      "expected": "-2912",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2023:mcq:6:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "ba51a78aa6b7d51aea1ede10c63d997ecf14bc61bebcbc1d90456f1f5844b455",
+      "computed": "3",
+      "expected": "3",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2023:mcq:7:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "c12c56e1bc384069a192aaa52e47344f8ce6d8691c4ee01ae1b130ddea62f82f",
+      "computed": "2*sqrt(6)",
+      "expected": "2*sqrt(6)",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2023:mcq:8:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "2b480a804e20b82982a881af4ca0b817437bd7e146ee98c90165b02a6dbd9c0e",
+      "computed": "5712",
+      "expected": "5712",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2023:mcq:9:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "57a9e2891fd1f94d17ff02b33cc42eda92e9f785f858e8f519ab3d5917571474",
+      "computed": "5/2",
+      "expected": "5/2",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2023:mcq:10:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "f436eff5dbe1bf007cfb85150bf828fbbd8a3650bc5e0353bdae593f043e2b1a",
+      "computed": "t**2 + 6*t - 4*x + 13",
+      "expected": "t**2 + 6*t - 4*x + 13",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2023:mcq:11:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "9b87ff20e85acc92b292bd73d302ce3c949eb043d0076c05c60c7e2994a94da1",
+      "computed": "-63/16",
+      "expected": "-63/16",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2023:mcq:12:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "42188e19bbcf45890a74321c8e98ad4752827276dbbd5d5881f864d65cb958c8",
+      "computed": "101/2",
+      "expected": "101/2",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2023:mcq:13:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "1afc15a6f36aeb310fa1c4c9cb921a488e44d9955e9809b57305a417c84e434b",
+      "computed": "0",
+      "expected": "0",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2023:mcq:14:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "84d2003542ccfaae4d810a5189ddec1d4802c716c246a94e7accc3efada10cfe",
+      "computed": "2/3",
+      "expected": "2/3",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2023:mcq:15:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "bc1a0dbe8baa6c8d282939be2fca37f8c4bfeaeb8205aeb0379bfec79c9bed53",
+      "computed": "13",
+      "expected": "13",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2023:mcq:16:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "3fda1ea32fb2f4850cfa3986416a43bb9cbeef64f790ca2049842f7d1581ac1f",
+      "computed": "2/5",
+      "expected": "2/5",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2023:mcq:17:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "2b4b347f97fd973cf37ee025c4dbae269647621866eebcac63bb82fc4359efde",
+      "computed": "1",
+      "expected": "1",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2023:mcq:18:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "34cdd1ec747cffe6a53b2afe5c551cc20853bb96d2bb32dc78e1a86b06464a12",
+      "computed": "0",
+      "expected": "0",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2023:mcq:19:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "7907739cb97452a0711eae056ce79bd877aa203cd336877d37e4a84f4cf02612",
+      "computed": "0",
+      "expected": "0",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2023:mcq:20:whole",
+      "method": "independent symbolic derivation or enumeration from reread PDF",
+      "formula_sha256": "55c8af158bfb81772ad839e96274645b7da2b2cd340e7be2e6b57f046bdf980f",
+      "computed": "2",
+      "expected": "2",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2022:written:1:whole",
+      "method": "independent written derivation with substitution, coordinate or exhaustive event checks",
+      "formula_sha256": "1447da0de0e879c5555c214ca53aef3a63f1c943d1888727ccd4d5ed6755be22",
+      "computed": "x**2 - 9*x + 9",
+      "expected": "x**2 - 9*x + 9",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2022:written:2:whole",
+      "method": "independent written derivation with substitution, coordinate or exhaustive event checks",
+      "formula_sha256": "6008b6ef5cf351b6c1262461b913e40db3cd1d42610cc47b919ae0a6a9049b61",
+      "computed": "251/10",
+      "expected": "251/10",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2022:written:3:a",
+      "method": "independent written derivation with substitution, coordinate or exhaustive event checks",
+      "formula_sha256": "b18023ada43273aac2558e58e70d2fbd15358004c122b0fe4350656941c64282",
+      "computed": "x**2 - 4*x + y**2 - 6*y + 3",
+      "expected": "x**2 - 4*x + y**2 - 6*y + 3",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2022:written:3:b",
+      "method": "independent written derivation with substitution, coordinate or exhaustive event checks",
+      "formula_sha256": "3c5434ff4dc05d9821817563d46f5a355a0b91945c68713a9a0d57ee25bc121c",
+      "computed": "0",
+      "expected": "0",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2022:written:4:a",
+      "method": "independent written derivation with substitution, coordinate or exhaustive event checks",
+      "formula_sha256": "daddb3240212cca265a27a7d6735bcb70c18168e6df08ea09934287b58372fdb",
+      "computed": "1/4",
+      "expected": "1/4",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2022:written:4:b",
+      "method": "independent written derivation with substitution, coordinate or exhaustive event checks",
+      "formula_sha256": "cf39b424c73eedc171b7b9ffbdf1f21bcb24227a63dadee5d407bda553727af5",
+      "computed": "23/24",
+      "expected": "23/24",
+      "result": "pass"
+    },
+    {
+      "id": "uec_math_i:2022:written:5:whole",
+      "method": "independent written derivation with substitution, coordinate or exhaustive event checks",
+      "formula_sha256": "7eae9fe603670d86461d31aff12031a3aed094c211df7c82da7c281479df0ed7",
+      "computed": "6",
+      "expected": "6",
+      "result": "pass"
+    }
+  ],
+  "status": "pass",
+  "official_key_verified": false,
+  "notes": [
+    "2022II第4题补计AB线上另一点，总250。",
+    "2022II第10题原等式平方求和应给正7/10。"
+  ]
+}

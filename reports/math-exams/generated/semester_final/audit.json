@@ -1,59 +1,704 @@
 {
-  "source": "original_reviewed_bank",
-  "historical_scope": "partial_visual_review_only",
+  "strategy": "combined",
+  "board": "combined",
   "sample_years": [
-    2022,
     2023,
     2024,
     2025,
     2026
   ],
-  "observed_priority_chapters": [
-    34,
-    28,
-    29,
-    9,
-    3,
-    31,
-    5,
-    22
+  "source_format": "semester_final-2026",
+  "source_pdf_id": "semester_final:d0a63a65c740",
+  "source_cover_pages": [
+    2,
+    5
   ],
-  "realized_priority_marks": 58,
-  "historical_weight_used_as_actual_scores": false,
+  "statistics_metric": "independent question count; combined/cold use mean normalized annual share",
   "actual_difficulty_calibrated": false,
   "official_marking_scheme": false,
-  "selection_reason": "Sample topic preference is a soft design policy; diversity, scope and exact score template are hard constraints.",
+  "historical_weight_used_as_actual_scores": false,
+  "selection_reason": "统计只作软偏好；真实格式、候选章域、题目唯一性与实际作答覆盖为硬约束。",
+  "statistical_evidence": [
+    {
+      "year": 2023,
+      "total_questions": 27,
+      "cells": [
+        {
+          "chapter": 1,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 3,
+          "count": 1,
+          "share": 0.037037037037037035,
+          "question_ids": [
+            "semester_final:2023:mcq:3"
+          ]
+        },
+        {
+          "chapter": 5,
+          "count": 2,
+          "share": 0.07407407407407407,
+          "question_ids": [
+            "semester_final:2023:mcq:1",
+            "semester_final:2023:mcq:7"
+          ]
+        },
+        {
+          "chapter": 6,
+          "count": 1,
+          "share": 0.037037037037037035,
+          "question_ids": [
+            "semester_final:2023:mcq:5"
+          ]
+        },
+        {
+          "chapter": 7,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 8,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 9,
+          "count": 4,
+          "share": 0.14814814814814814,
+          "question_ids": [
+            "semester_final:2023:mcq:18",
+            "semester_final:2023:mcq:19",
+            "semester_final:2023:mcq:20",
+            "semester_final:2023:written:5"
+          ]
+        },
+        {
+          "chapter": 10,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 18,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 21,
+          "count": 1,
+          "share": 0.037037037037037035,
+          "question_ids": [
+            "semester_final:2023:mcq:15"
+          ]
+        },
+        {
+          "chapter": 22,
+          "count": 4,
+          "share": 0.14814814814814814,
+          "question_ids": [
+            "semester_final:2023:mcq:14",
+            "semester_final:2023:mcq:16",
+            "semester_final:2023:mcq:17",
+            "semester_final:2023:written:7"
+          ]
+        },
+        {
+          "chapter": 23,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 24,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 26,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 28,
+          "count": 2,
+          "share": 0.07407407407407407,
+          "question_ids": [
+            "semester_final:2023:mcq:12",
+            "semester_final:2023:mcq:13"
+          ]
+        },
+        {
+          "chapter": 29,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 31,
+          "count": 2,
+          "share": 0.07407407407407407,
+          "question_ids": [
+            "semester_final:2023:written:4",
+            "semester_final:2023:written:6"
+          ]
+        },
+        {
+          "chapter": 33,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 34,
+          "count": 4,
+          "share": 0.14814814814814814,
+          "question_ids": [
+            "semester_final:2023:mcq:10",
+            "semester_final:2023:mcq:11",
+            "semester_final:2023:mcq:9",
+            "semester_final:2023:written:3"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "total_questions": 28,
+      "cells": [
+        {
+          "chapter": 1,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 3,
+          "count": 2,
+          "share": 0.07142857142857142,
+          "question_ids": [
+            "semester_final:2024:mcq:7",
+            "semester_final:2024:mcq:9"
+          ]
+        },
+        {
+          "chapter": 5,
+          "count": 1,
+          "share": 0.03571428571428571,
+          "question_ids": [
+            "semester_final:2024:mcq:14"
+          ]
+        },
+        {
+          "chapter": 6,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 7,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 8,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 9,
+          "count": 5,
+          "share": 0.17857142857142858,
+          "question_ids": [
+            "semester_final:2024:mcq:2",
+            "semester_final:2024:mcq:3",
+            "semester_final:2024:mcq:4",
+            "semester_final:2024:written:2",
+            "semester_final:2024:written:7"
+          ]
+        },
+        {
+          "chapter": 10,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 18,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 21,
+          "count": 1,
+          "share": 0.03571428571428571,
+          "question_ids": [
+            "semester_final:2024:mcq:12"
+          ]
+        },
+        {
+          "chapter": 22,
+          "count": 2,
+          "share": 0.07142857142857142,
+          "question_ids": [
+            "semester_final:2024:mcq:13",
+            "semester_final:2024:written:6"
+          ]
+        },
+        {
+          "chapter": 23,
+          "count": 1,
+          "share": 0.03571428571428571,
+          "question_ids": [
+            "semester_final:2024:mcq:15"
+          ]
+        },
+        {
+          "chapter": 24,
+          "count": 1,
+          "share": 0.03571428571428571,
+          "question_ids": [
+            "semester_final:2024:mcq:19"
+          ]
+        },
+        {
+          "chapter": 26,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 28,
+          "count": 3,
+          "share": 0.10714285714285714,
+          "question_ids": [
+            "semester_final:2024:mcq:10",
+            "semester_final:2024:mcq:11",
+            "semester_final:2024:written:3"
+          ]
+        },
+        {
+          "chapter": 29,
+          "count": 5,
+          "share": 0.17857142857142858,
+          "question_ids": [
+            "semester_final:2024:mcq:16",
+            "semester_final:2024:mcq:17",
+            "semester_final:2024:mcq:18",
+            "semester_final:2024:mcq:20",
+            "semester_final:2024:written:5"
+          ]
+        },
+        {
+          "chapter": 31,
+          "count": 2,
+          "share": 0.07142857142857142,
+          "question_ids": [
+            "semester_final:2024:written:1",
+            "semester_final:2024:written:4"
+          ]
+        },
+        {
+          "chapter": 33,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 34,
+          "count": 5,
+          "share": 0.17857142857142858,
+          "question_ids": [
+            "semester_final:2024:mcq:1",
+            "semester_final:2024:mcq:5",
+            "semester_final:2024:mcq:6",
+            "semester_final:2024:mcq:8",
+            "semester_final:2024:written:8"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "total_questions": 27,
+      "cells": [
+        {
+          "chapter": 1,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 3,
+          "count": 2,
+          "share": 0.07407407407407407,
+          "question_ids": [
+            "semester_final:2025:mcq:4",
+            "semester_final:2025:mcq:9"
+          ]
+        },
+        {
+          "chapter": 5,
+          "count": 3,
+          "share": 0.1111111111111111,
+          "question_ids": [
+            "semester_final:2025:mcq:1",
+            "semester_final:2025:mcq:15",
+            "semester_final:2025:mcq:2"
+          ]
+        },
+        {
+          "chapter": 6,
+          "count": 1,
+          "share": 0.037037037037037035,
+          "question_ids": [
+            "semester_final:2025:mcq:7"
+          ]
+        },
+        {
+          "chapter": 7,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 8,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 9,
+          "count": 2,
+          "share": 0.07407407407407407,
+          "question_ids": [
+            "semester_final:2025:mcq:12",
+            "semester_final:2025:written:5"
+          ]
+        },
+        {
+          "chapter": 10,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 18,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 21,
+          "count": 1,
+          "share": 0.037037037037037035,
+          "question_ids": [
+            "semester_final:2025:mcq:14"
+          ]
+        },
+        {
+          "chapter": 22,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 23,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 24,
+          "count": 1,
+          "share": 0.037037037037037035,
+          "question_ids": [
+            "semester_final:2025:mcq:17"
+          ]
+        },
+        {
+          "chapter": 26,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 28,
+          "count": 1,
+          "share": 0.037037037037037035,
+          "question_ids": [
+            "semester_final:2025:mcq:13"
+          ]
+        },
+        {
+          "chapter": 29,
+          "count": 4,
+          "share": 0.14814814814814814,
+          "question_ids": [
+            "semester_final:2025:mcq:16",
+            "semester_final:2025:mcq:18",
+            "semester_final:2025:mcq:19",
+            "semester_final:2025:written:6"
+          ]
+        },
+        {
+          "chapter": 31,
+          "count": 2,
+          "share": 0.07407407407407407,
+          "question_ids": [
+            "semester_final:2025:written:3",
+            "semester_final:2025:written:4"
+          ]
+        },
+        {
+          "chapter": 33,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 34,
+          "count": 2,
+          "share": 0.07407407407407407,
+          "question_ids": [
+            "semester_final:2025:mcq:10",
+            "semester_final:2025:mcq:11"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "total_questions": 27,
+      "cells": [
+        {
+          "chapter": 1,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 3,
+          "count": 1,
+          "share": 0.037037037037037035,
+          "question_ids": [
+            "semester_final:2026:mcq:2"
+          ]
+        },
+        {
+          "chapter": 5,
+          "count": 1,
+          "share": 0.037037037037037035,
+          "question_ids": [
+            "semester_final:2026:mcq:14"
+          ]
+        },
+        {
+          "chapter": 6,
+          "count": 3,
+          "share": 0.1111111111111111,
+          "question_ids": [
+            "semester_final:2026:mcq:3",
+            "semester_final:2026:mcq:9",
+            "semester_final:2026:written:2"
+          ]
+        },
+        {
+          "chapter": 7,
+          "count": 3,
+          "share": 0.1111111111111111,
+          "question_ids": [
+            "semester_final:2026:mcq:13",
+            "semester_final:2026:mcq:4",
+            "semester_final:2026:written:10"
+          ]
+        },
+        {
+          "chapter": 8,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 9,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 10,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 18,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 21,
+          "count": 1,
+          "share": 0.037037037037037035,
+          "question_ids": [
+            "semester_final:2026:mcq:7"
+          ]
+        },
+        {
+          "chapter": 22,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 23,
+          "count": 1,
+          "share": 0.037037037037037035,
+          "question_ids": [
+            "semester_final:2026:mcq:6"
+          ]
+        },
+        {
+          "chapter": 24,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 26,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 28,
+          "count": 5,
+          "share": 0.18518518518518517,
+          "question_ids": [
+            "semester_final:2026:mcq:15",
+            "semester_final:2026:mcq:5",
+            "semester_final:2026:written:11",
+            "semester_final:2026:written:4",
+            "semester_final:2026:written:7"
+          ]
+        },
+        {
+          "chapter": 29,
+          "count": 3,
+          "share": 0.1111111111111111,
+          "question_ids": [
+            "semester_final:2026:mcq:8",
+            "semester_final:2026:written:5",
+            "semester_final:2026:written:9"
+          ]
+        },
+        {
+          "chapter": 31,
+          "count": 3,
+          "share": 0.1111111111111111,
+          "question_ids": [
+            "semester_final:2026:written:1",
+            "semester_final:2026:written:12",
+            "semester_final:2026:written:8"
+          ]
+        },
+        {
+          "chapter": 33,
+          "count": 0,
+          "share": 0,
+          "question_ids": []
+        },
+        {
+          "chapter": 34,
+          "count": 5,
+          "share": 0.18518518518518517,
+          "question_ids": [
+            "semester_final:2026:mcq:10",
+            "semester_final:2026:mcq:11",
+            "semester_final:2026:mcq:12",
+            "semester_final:2026:written:3",
+            "semester_final:2026:written:6"
+          ]
+        }
+      ]
+    }
+  ],
   "validation": {
     "ok": true,
     "errors": [],
     "chapter_marks": {
+      "1": 2,
       "3": 4,
-      "4": 2,
-      "5": 12,
-      "8": 4,
+      "5": 6,
+      "6": 4,
+      "7": 2,
+      "8": 6,
       "9": 2,
-      "16": 2,
-      "17": 2,
+      "10": 6,
       "18": 2,
-      "19": 4,
-      "20": 2,
-      "22": 10,
-      "24": 6,
-      "25": 2,
-      "26": 4,
-      "27": 2,
-      "28": 6,
-      "29": 16,
-      "30": 8,
-      "31": 2,
-      "33": 2,
-      "34": 6
+      "21": 2,
+      "22": 2,
+      "23": 2,
+      "24": 2,
+      "26": 2,
+      "28": 10,
+      "29": 14,
+      "31": 12,
+      "33": 8,
+      "34": 12
     },
     "difficulty_marks": {
       "basic": 24,
       "medium": 50,
       "hard": 26
     },
-    "total_marks": 100
+    "total_marks": 100,
+    "printed_marks": 100,
+    "printed_chapter_marks": {
+      "1": 2,
+      "3": 4,
+      "5": 6,
+      "6": 4,
+      "7": 2,
+      "8": 6,
+      "9": 2,
+      "10": 6,
+      "18": 2,
+      "21": 2,
+      "22": 2,
+      "23": 2,
+      "24": 2,
+      "26": 2,
+      "28": 10,
+      "29": 14,
+      "31": 12,
+      "33": 8,
+      "34": 12
+    },
+    "required_written_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
   }
 }

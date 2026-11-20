@@ -1,3 +1,5 @@
+> 最新开发：三套独立冷热榜、Apache ECharts 与按各考试原卷格式的智能命题2.0；补齐65道历史大题解析，完整历史答案仍待继续核验。[本轮实际交付与测试边界](reports/math-exams/V2_DELIVERY.md)。
+>
 > 导航已按使用场景从16项合并为9个主入口，云同步归入设置、模拟练习归入题库、诊断与错题归入复习。[整合说明与新截图](reports/navigation/DELIVERY.md)。
 >
 > 最新功能：[前置诊断、限时练习与自适应计划](reports/learning/DELIVERY.md) · [实际测试与边界](reports/learning/TEST_RESULTS.md)。Google登录与云同步代码已接入，因尚无Firebase项目，默认未启用；[配置说明](cloud/SETUP.md)。

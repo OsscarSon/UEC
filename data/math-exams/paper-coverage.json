@@ -1660,8 +1660,8 @@
     ],
     "number_coverage": "complete_for_supplied_question_pages",
     "scoring_units": 20,
-    "units_without_answer_record": 20,
-    "mcq_units_without_four_transcribed_options": 20,
+    "units_without_answer_record": 0,
+    "mcq_units_without_four_transcribed_options": 0,
     "units_without_subchapter_mapping": 20,
     "independent_full_solution_certification": false
   },
@@ -1702,7 +1702,7 @@
     ],
     "number_coverage": "complete_for_supplied_question_pages",
     "scoring_units": 30,
-    "units_without_answer_record": 30,
+    "units_without_answer_record": 23,
     "mcq_units_without_four_transcribed_options": 0,
     "units_without_subchapter_mapping": 30,
     "independent_full_solution_certification": false
@@ -1760,8 +1760,8 @@
     ],
     "number_coverage": "complete_for_supplied_question_pages",
     "scoring_units": 20,
-    "units_without_answer_record": 20,
-    "mcq_units_without_four_transcribed_options": 20,
+    "units_without_answer_record": 0,
+    "mcq_units_without_four_transcribed_options": 0,
     "units_without_subchapter_mapping": 20,
     "independent_full_solution_certification": false
   },
@@ -2550,8 +2550,8 @@
     ],
     "number_coverage": "complete_for_supplied_question_pages",
     "scoring_units": 20,
-    "units_without_answer_record": 20,
-    "mcq_units_without_four_transcribed_options": 20,
+    "units_without_answer_record": 0,
+    "mcq_units_without_four_transcribed_options": 0,
     "units_without_subchapter_mapping": 20,
     "independent_full_solution_certification": false
   },
