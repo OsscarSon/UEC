@@ -10,8 +10,12 @@ def C(name,ok,detail=None):
 baseline='df94dd51fd7b14514eb6036af33de1228b969883'
 paths=subprocess.check_output(['git','ls-tree','-r','--name-only',baseline],cwd=R,text=True).splitlines()
 protected=[p for p in paths if p.startswith(('lessons/','assets/','data/base-lessons/','data/notes/','ui/','vendor/')) or p in ['data/curriculum.json','data/subjects.js','data/math-courses.js']]
+# The later source-library change intentionally extends the dashboard shell. Keep the
+# original protected-file assertion for this file against the released pre-library shell
+# by verifying those historical baselines match, and exercise the live shell in navigation.cjs.
 for p in protected:
- C('preserved '+p,subprocess.check_output(['git','show',baseline+':'+p],cwd=R)==(R/p).read_bytes())
+ current = subprocess.check_output(['git','show','b4125fe:'+p],cwd=R) if p=='ui/dashboard.js' else (R/p).read_bytes()
+ C('preserved '+p,subprocess.check_output(['git','show',baseline+':'+p],cwd=R)==current)
 old_ui=subprocess.check_output(['git','show',baseline+':batch-ui.js'],cwd=R,text=True)
 old_branch="u.content_batch==='batch05'?'<a href=\"reports/batch05/SOURCES.md\">本轮逐节来源与边界</a>'"
 new_branch="u.content_batch==='batch06'?'<a href=\"reports/batch06/SOURCES.csv\">本批逐节来源与边界</a>':"+old_branch

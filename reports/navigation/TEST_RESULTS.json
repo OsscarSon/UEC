@@ -69,6 +69,16 @@
       "width": 320
     },
     {
+      "view": "textbooks",
+      "parent": "exams",
+      "width": 320
+    },
+    {
+      "view": "past-papers",
+      "parent": "exams",
+      "width": 320
+    },
+    {
       "view": "tools",
       "parent": "tools",
       "width": 320
@@ -154,6 +164,16 @@
       "width": 390
     },
     {
+      "view": "textbooks",
+      "parent": "exams",
+      "width": 390
+    },
+    {
+      "view": "past-papers",
+      "parent": "exams",
+      "width": 390
+    },
+    {
       "view": "tools",
       "parent": "tools",
       "width": 390
@@ -239,6 +259,16 @@
       "width": 1440
     },
     {
+      "view": "textbooks",
+      "parent": "exams",
+      "width": 1440
+    },
+    {
+      "view": "past-papers",
+      "parent": "exams",
+      "width": 1440
+    },
+    {
       "view": "tools",
       "parent": "tools",
       "width": 1440
@@ -320,6 +350,16 @@
     },
     {
       "view": "cal",
+      "parent": "exams",
+      "width": 1920
+    },
+    {
+      "view": "textbooks",
+      "parent": "exams",
+      "width": 1920
+    },
+    {
+      "view": "past-papers",
       "parent": "exams",
       "width": 1920
     },

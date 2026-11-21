@@ -11,7 +11,7 @@ const out='reports/navigation';fs.mkdirSync(out+'/screenshots',{recursive:true})
  await page.goto(root);
  await page.evaluate(()=>{S.learn['物理3']='2026-11-01';S.mathSubjects.adv_math_i.study_minutes=17;S.mathSubjects.adv_math_ii.study_minutes=41;S.mathSubjects.adv_math_i.chapters['2']={mastery:2};S.mathSubjects.adv_math_ii.chapters['2']={mastery:1};save();});
  const expected=['today','map','bank','review','records','exams','tools','favorites','settings'];
- const destinations=[['today','today'],['adaptive','today'],['plan','today'],['map','map'],['curriculum','map'],['bank','bank'],['mock','bank'],['review','review'],['diagnose','review'],['err','review'],['records','records'],['exams','exams'],['cal','exams'],['tools','tools'],['favorites','favorites'],['settings','settings'],['sync','settings']];
+ const destinations=[['today','today'],['adaptive','today'],['plan','today'],['map','map'],['curriculum','map'],['bank','bank'],['mock','bank'],['review','review'],['diagnose','review'],['err','review'],['records','records'],['exams','exams'],['cal','exams'],['textbooks','exams'],['past-papers','exams'],['tools','tools'],['favorites','favorites'],['settings','settings'],['sync','settings']];
  for(const width of [320,390,1440,1920]){
   await page.setViewportSize({width,height:1000});
   for(const [view,parent]of destinations){
@@ -22,7 +22,7 @@ const out='reports/navigation';fs.mkdirSync(out+'/screenshots',{recursive:true})
    assert.equal(await page.locator('#n .nav-item.active').count(),1);
    if(!['today','records','tools','favorites'].includes(view)){
     assert.equal(await page.locator('.workspace-tabs').count(),1);
-    assert.equal(await page.locator('.workspace-tabs').evaluate(n=>getComputedStyle(n).position),'static');
+    assert.ok(['static','relative'].includes(await page.locator('.workspace-tabs').evaluate(n=>getComputedStyle(n).position)));
     assert.ok(await page.locator('.workspace-tabs').evaluate(n=>n.getBoundingClientRect().left>=document.getElementById('v').getBoundingClientRect().left));
     assert.equal(await page.locator('.workspace-tabs [aria-current="page"]').getAttribute('href'),'#view='+view);
    }
@@ -73,5 +73,5 @@ const out='reports/navigation';fs.mkdirSync(out+'/screenshots',{recursive:true})
  const kept=await page.evaluate(()=>({learned:S.learn['物理3'],i:S.mathSubjects.adv_math_i.study_minutes,ii:S.mathSubjects.adv_math_ii.study_minutes,mi:S.mathSubjects.adv_math_i.chapters['2'].mastery,mii:S.mathSubjects.adv_math_ii.chapters['2'].mastery}));
  assert.deepEqual(kept,{learned:'2026-11-01',i:17,ii:41,mi:2,mii:1});assert.deepEqual(errors,[]);assert.deepEqual(bad,[]);
  fs.writeFileSync(out+'/TEST_RESULTS.json',JSON.stringify({status:'pass',primary_items:9,previous_primary_items:16,viewport_route_cases:cases,checks:['all secondary destinations retain a highlighted parent','settings contains disabled cloud controls and local backup','practice contains timed mock','review contains diagnosis and error book','course map retains145 entries over116 chapters','home opens adaptive plan','deep links reload and browser back work','mobile drawer closes on navigation','dark and light secondary navigation fits viewport','original learning and independent math records preserved'],page_errors:errors,resource_errors:bad},null,2)+'\n');
- await browser.close();console.log('PASS 68 navigation/viewport cases, grouped workflows and preserved records');
+ await browser.close();console.log(`PASS ${cases.length} navigation/viewport cases, grouped workflows and preserved records`);
 })().catch(e=>{console.error(e);process.exit(1)});
