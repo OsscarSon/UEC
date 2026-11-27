@@ -1,9 +1,9 @@
 from pathlib import Path
 import json,collections,subprocess,hashlib
 R=Path(__file__).resolve().parents[2];D=R/'data/math-exams';B=Path('/workspace/research-math-exams');checks=[]
-def L(n):return json.loads((D/n).read_text())
+def L(n):return json.loads((D/n).read_text(encoding='utf-8'))
 def C(n,v):assert v,n;checks.append(n)
-inv=L('source-inventory.json');rows=L('research-ledger.json');pages=L('page-audit.json');C('47 unique PDF hashes',len(inv)==47 and len({x['sha256']for x in inv})==47);C('257 indexed pages',len(pages)==257 and sum(x['pages']for x in inv)==257)
+inv=L('source-inventory.json');rows=L('research-ledger.json');pages=json.loads((R/'reports/math-audit/page-audit.json').read_text(encoding='utf-8'));C('47 unique PDF hashes',len(inv)==47 and len({x['sha256']for x in inv})==47);C('257 indexed pages',len(pages)==257 and sum(x['pages']for x in inv)==257)
 if B.exists():
  for f in inv:C('private original SHA '+f['source_id'],hashlib.sha256((B/f['private_input_path']).read_bytes()).hexdigest()==f['sha256'])
  pack_hashes={hashlib.sha256(p.read_bytes()).hexdigest()for p in (B/'packs').rglob('*') if p.is_file() and '.pdf'in p.name.lower()}

@@ -1,11 +1,11 @@
 """Compile separate, denominator-explicit observations. Never treat missing as zero."""
 from pathlib import Path
 import json,collections,csv,re,hashlib
-R=Path(__file__).resolve().parents[2];D=R/'data/math-exams';OUT=R/'reports/math-exams'
-def load(n):return json.loads((D/n).read_text())
-def save(p,x):p.write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n')
+R=Path(__file__).resolve().parents[2];D=R/'data/math-exams';AUDIT=R/'reports/math-audit';AUDIT.mkdir(parents=True,exist_ok=True);OUT=R/'reports/math-exams'
+def load(n):return json.loads((D/n).read_text(encoding='utf-8'))
+def save(p,x):p.write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 claims=load('imported-claims.json');visual=[]
-for p in sorted(D.glob('visual-review-*.json')):visual+=json.loads(p.read_text())
+for p in sorted(AUDIT.glob('visual-review-*.json')):visual+=json.loads(p.read_text(encoding='utf-8'))
 assert len({r['id'] for r in visual})==len(visual)
 completions=load('historical-completions.json')if (D/'historical-completions.json').exists()else {}
 for r in visual:
@@ -41,7 +41,7 @@ page_audit=[]
 for f in inv:
  pp=spans.get(f['source_id'],spans.get((f['exam_type'],f['year']),set()))
  for p in range(1,f['pages']+1):page_audit.append(dict(source_pdf_id=f['source_id'],page=p,text_or_ocr_extracted=True,formula_reliability_from_ocr=False,visual_status='viewed_source_page' if p in pp else 'not_visually_checked',needs_visual_review=p not in pp))
-save(D/'page-audit.json',page_audit)
+save(AUDIT/'page-audit.json',page_audit)
 # Rows with disputed answer uniqueness can still support a topic observation, but are not used in precise rankings.
 ambiguous={'uec_math_i:2026:mcq:5:whole','semester_final:2026:mcq:13:whole','preexam_math_ii:2025:mcq:7:whole','preexam_math_ii:2022:mcq:4:whole','graduation_math_ii:2021:mcq:10:whole','graduation_math_ii:2022:written:12:a','graduation_math_ii:2024:mcq:17:whole','graduation_math_ii:2024:written:3:b(i)','graduation_math_ii:2024:written:3:b(ii)','uec_math_ii:2023:mcq:18:whole','uec_math_ii:2023:written:4:c','uec_math_ii:2023:written:11:a','uec_math_i:2020:mcq:8:whole','uec_math_ii:2020:mcq:8:whole','uec_math_ii:2019:written:8:b(ii)'}
 for r in records:
@@ -83,8 +83,8 @@ save(D/'sample-frequency.json',frequency_samples)
 # The public UI only needs topic statistics and a compact audit ledger, not original question stems.
 research_version='research-'+hashlib.sha256(json.dumps([statistics,frequency_samples],ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()[:12]
 public=dict(version=research_version,exam_types=statistics,frequency_samples=frequency_samples,inventory=[{k:v for k,v in f.items()if k!='private_input_path'}for f in inv],status_counts=dict(collections.Counter(r.get('verification_status')for r in records)),visual_units=len(visual),input_claims=len(claims),page_count=len(page_audit),visual_pages=sum(not p['needs_visual_review']for p in page_audit),all_supplied_pages_viewed=all(not p['needs_visual_review']for p in page_audit),supplied_paper_populations=len(paper_coverage),full_history_verified=False)
-(D/'research-data.js').write_text('window.MATH_EXAM_RESEARCH='+json.dumps(public,ensure_ascii=False,separators=(',',':'))+';\n')
-with (OUT/'QUESTION_AUDIT.csv').open('w')as f:
+save(D/'research-data.json',public)
+with (OUT/'QUESTION_AUDIT.csv').open('w',encoding='utf-8')as f:
  fields=['id','exam_type','year','paper','question','subquestion','source_pdf_id','source_page','primary_chapter','printed_marks','verification_status','statistics_eligible','scope_conflict','notes'];w=csv.DictWriter(f,fields,extrasaction='ignore',lineterminator='\n');w.writeheader();w.writerows(records)
 fixes=[dict(id=r['id'],note=r['notes'],pdf=r['source_pdf_id'],page=r['source_page'])for r in visual if r.get('notes')]
 save(OUT/'CORRECTIONS.json',fixes)
@@ -97,5 +97,5 @@ save(OUT/'GAP_REGISTER.json',gaps)
 lines=['# 五类高数考试：原卷核验与统计边界','','47份独立PDF、257页均已建立SHA-256来源登记并完成私有文本/OCR提取。OCR不等于逐符号目视核验。',f'当前明确目视查看{public["visual_pages"]}页，逐题/计分单元复核{len(visual)}条；全历史逐题核验仍未完成，未录入的历史题也不应由现有条目数推断总量。','','原PDF和原页截图保留在工作区私有来源目录，未复制到公开站点。公开数据记录题号、原页、规范化关键式及状态；题库只接入另行验证的原创题。','','## 分类样本与统计','','|考试|已提供年份|PDF|已目视单元|可计入样本单元|待核记录|','|---|---|---:|---:|---:|---:|']
 for s in statistics:lines.append('|'+s['title']+'|'+','.join(map(str,s['available_pdf_years']))+'|'+str(s['available_pdfs'])+'|'+str(s['visually_checked_units'])+'|'+str(s['eligible_units'])+'|'+str(s['pending_records'])+'|')
 lines+=['','限定题面样本的年度频率另见SAMPLE_FREQUENCY_REPORT.md与data/math-exams/sample-frequency.json；只在明确列出的年份内计算，旧新格式分开，不冒充全历史。', '', '详细每章选择/作答曝光统计见data/math-exams/statistics.json，分母为各自已核验样本的印刷分值，不是考生实际得分权重。旧选答作答总印刷120%或90%不得当成实际120分或90分；没有学生选题数据时actual_marks与effective_marks_model均保持null。','','三套独立大题榜见HEAT_METHOD.md及heat-statistics.json：仅按可证年份、完整所供题面及作者主章归属作描述性统计。旧制覆盖全部有效≤2025年份，2026单年独立，综合榜逐年标准化。不能用缺失或未核验年份补零；不认证全部历史答案或未来热门。历史报告主张不直接驱动命题，智能命题2.0只读取独立题面统计。难度仅为题面估计，没有实测正确率或区分度。','','## 已明确修正/争议','','见CORRECTIONS.json。包括n³误作n²、sin²误作sin³、反函数误记求导、转轴/圆章节误标、旋转轴错误、二阶/法线题型混淆、参数x=t−sin t误录、xe^(2x)误录、衰变题误写斜抛、极坐标面积误写旋转体积等。本轮另更正2022II第4题漏计AB线上另一点的三角形（应250），以及第10题平方和移项符号（应正7/10）。复核不自动认证全部历史答案。','','## 2026模板与历史格式','','已直接查看2026统考I、II和校内上半年原卷：15题选择×2%=30%，12题作答全部必答，依次5×4+5×6+2×10=70%；卷一60分钟、卷二120分钟。统考卷间15分钟；校内以各自卷首时段为准。智能命题2.0已改为按本考试类别原卷：毕业考/预试默认采用各自2025年已核实四组选答制，未提供其2026原卷，不套统考新制。','','2025统考I作答是5题必答各4%、7题选4各10%，印刷90%、实际60%；2024/2025统考II及2025毕业/预试是12题选四组共6题，印刷120%、实际60%。年份制度独立保存，模拟生成不得倒改旧制。','','## 课程保护与范围冲突','','现有116章编号/名称/顺序不变；输入包字典仅作别名对照，未覆盖网站。高数I仅按当前1–29章生成，II按1–35；2026I原卷选择第12题反射按系统字典落32章，保留原卷I身份并列范围冲突，不能因此迁移课程或谎称范围内已确认。未知真实小节ID保持null。','','## 附录和卷首差异\n\nformat-observations.json记录原卷封面与实际扫描范围。2026统考I、II虽包含所见全部题面，但公式表页未随这些扫描提供；不能称所有印刷附录齐全。2026校内卷二印12.00a.m.同时标2小时，保留笔误待学校确认。\n\n## 下一步缺口','','47份所供PDF共257页均已逐页查看，全部已提供选择/作答题已建立题号及计分单元索引；这只确认所见题面字段，不等于全部选项已转录、全部历史答案已独立算完、全部图形已重绘或获得官方认证。全部历史题答案的第二遍独立核算、未逐项抄录的选项、真实教材小节对应仍需继续。缺失封面、附录、2022预试作答卷不能由此补齐。2020统考年份仅文件名；其选择单题分值未知。2021高数I价格比题当前35章字典无明确对应，保留待映射。部分定义域、概率先验、初值及小问引用存在争议，保留待教师核实。2026预试原卷未提供；不伪造。复核页面与条目清单均可机器追溯。','']
-(OUT/'RESEARCH_REPORT.md').write_text('\n'.join(lines))
+(OUT/'RESEARCH_REPORT.md').write_text('\n'.join(lines),encoding='utf-8')
 print('Compiled',len(records),'records;',len(visual),'visual units; partial-sample statistics kept separate')

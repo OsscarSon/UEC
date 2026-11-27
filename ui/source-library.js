@@ -18,13 +18,23 @@
     const normalized = nameOnly(name).normalize('NFKC').trim().toLowerCase();
     return normalized.replace(/(\.pdf)\s*\((?:副本|copy|\d+)\)$/, '$1').split('.').at(-1);
   }
-  const categoryName = code => MATH_EXAM_RESEARCH.exam_types.find(type => type.exam_type === code)?.title || code;
+  const mathResearch = () => (window.ExamRegistry ? window.ExamRegistry.getResearchData('math') : window.MATH_EXAM_RESEARCH);
+  const mathHeat = () => (window.ExamRegistry ? window.ExamRegistry.getHeatData('math') : window.MATH_HEAT);
+  const categoryName = code => mathResearch().exam_types.find(type => type.exam_type === code)?.title || code;
 
   function paperCatalog() {
     if (archive) return archive;
-    archive = MATH_EXAM_RESEARCH.inventory.map(source => {
-      const annual = MATH_HEAT.exam_types.find(type => type.exam_type === source.exam_type)?.annual.find(row => row.year === source.year);
-      return {...source, category: categoryName(source.exam_type), status: annual?.status, year_label: String(source.year)};
+    const allInventories = window.ExamRegistry
+      ? window.ExamRegistry.listSubjects().flatMap(cfg => {
+          const research = window.ExamRegistry.getResearchData(cfg.id);
+          return (research?.inventory || []).map(source => ({ ...source, subject_id: cfg.id, research }));
+        })
+      : (mathResearch()?.inventory || []).map(source => ({ ...source, subject_id: 'math', research: mathResearch() }));
+    const heat = mathHeat();
+    archive = allInventories.map(source => {
+      const annual = heat?.exam_types.find(type => type.exam_type === source.exam_type)?.annual.find(row => row.year === source.year);
+      const title = source.research?.exam_types?.find(t => t.exam_type === source.exam_type)?.title || categoryName(source.exam_type);
+      return {...source, category: title, status: annual?.status, year_label: String(source.year)};
     }).sort((a, b) => b.year - a.year || collator.compare(a.filename, b.filename));
     sourceByHash = new Map(archive.map(source => [source.sha256, source]));
     sourceSizes = new Set(archive.map(source => source.bytes));
@@ -48,7 +58,7 @@
         </div>
         <div class="source-filters">
           ${isBook ? `<label>科目<select data-source-filter="subject">${options([['', '全部科目'], ...Object.entries(subjects)], filter.subject)}</select></label>`
-            : `<label>考试类别<select data-source-filter="type">${options([['', '全部类别'], ...MATH_EXAM_RESEARCH.exam_types.map(s => [s.exam_type, s.title])], filter.type)}</select></label>
+            : `<label>考试类别<select data-source-filter="type">${options([['', '全部类别'], ...(mathResearch()?.exam_types || []).map(s => [s.exam_type, s.title])], filter.type)}</select></label>
                <label>年份<select data-source-filter="year">${options([['', '全部年份'], ...[...new Set(archive.map(s => s.year))].map(y => [y, y])], filter.year)}</select></label>`}
           <label>搜索<input type="search" data-source-filter="query" value="${escape(filter.query)}" placeholder="${isBook ? '名称、册别或文件名' : '试卷名、类别或年份'}"></label>
         </div>

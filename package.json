@@ -9,6 +9,7 @@
     "test:learning": "node tests/learning.cjs",
     "build:source-tools": "node tools/build-source-tools.mjs",
     "build:exam-charts": "node tools/build-exam-charts.mjs",
+    "build:exam-data": "node tools/build-exam-data.mjs",
     "test:exam-v2": "node tests/math-exams/engine-v2.cjs"
   },
   "dependencies": {

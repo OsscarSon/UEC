@@ -1,0 +1,105 @@
+{
+  "version": "bio-formats-reserved-v1",
+  "profiles": {
+    "bio_sem1_final": {
+      "id": "bio_sem1_final-reserved",
+      "year": 2026,
+      "exam_type": "bio_sem1_final",
+      "title": "校内生物规格（预留模板）",
+      "evidence": "syllabus_spec_pending_past_papers",
+      "source_pdf_id": null,
+      "mcq_count": 30,
+      "mcq_marks": 30,
+      "written_count": 9,
+      "written_marks": 70,
+      "printed_written_marks": 82,
+      "written_sequence": [8, 8, 8, 8, 8, 8, 10, 12, 12],
+      "required_written": 8,
+      "selection_rule": "选择30题30% + 探究1题10% + 必答6题48% + 社会议论2选1(12%)",
+      "groups": [
+        { "id": "compulsory", "title": "必答6题", "start": 1, "end": 6, "min": 6, "max": 6 },
+        { "id": "inquiry", "title": "探究1题", "start": 7, "end": 7, "min": 1, "max": 1 },
+        { "id": "social", "title": "社会议题（2选1）", "start": 8, "end": 9, "min": 1, "max": 1 }
+      ],
+      "paper_minutes": [50, 120],
+      "break_minutes": 15,
+      "scope_status": "school first-half candidate pool, pending past paper verification",
+      "notes": ["校内结构：选择30%、探究10%、必答48%、社会议论2选1占12%。"]
+    },
+    "bio_preexam": {
+      "id": "bio_preexam-reserved",
+      "year": 2026,
+      "exam_type": "bio_preexam",
+      "title": "生物预试规格（预留模板）",
+      "evidence": "syllabus_spec_pending_past_papers",
+      "source_pdf_id": null,
+      "mcq_count": 30,
+      "mcq_marks": 30,
+      "written_count": 9,
+      "written_marks": 70,
+      "printed_written_marks": 82,
+      "written_sequence": [8, 8, 8, 8, 8, 8, 10, 12, 12],
+      "required_written": 8,
+      "selection_rule": "选择30题30% + 探究1题10% + 必答6题48% + 社会议论2选1(12%)",
+      "groups": [
+        { "id": "compulsory", "title": "必答6题", "start": 1, "end": 6, "min": 6, "max": 6 },
+        { "id": "inquiry", "title": "探究1题", "start": 7, "end": 7, "min": 1, "max": 1 },
+        { "id": "social", "title": "社会议题（2选1）", "start": 8, "end": 9, "min": 1, "max": 1 }
+      ],
+      "paper_minutes": [50, 120],
+      "break_minutes": 15,
+      "scope_status": "school pre-exam pool, pending past paper verification",
+      "notes": ["具体预试范围待核对学校原卷。"]
+    },
+    "bio_sem2_final": {
+      "id": "bio_sem2_final-reserved",
+      "year": 2026,
+      "exam_type": "bio_sem2_final",
+      "title": "生物毕业考规格（预留模板）",
+      "evidence": "syllabus_spec_pending_past_papers",
+      "source_pdf_id": null,
+      "mcq_count": 30,
+      "mcq_marks": 30,
+      "written_count": 9,
+      "written_marks": 70,
+      "printed_written_marks": 82,
+      "written_sequence": [8, 8, 8, 8, 8, 8, 10, 12, 12],
+      "required_written": 8,
+      "selection_rule": "选择30题30% + 探究1题10% + 必答6题48% + 社会议论2选1(12%)",
+      "groups": [
+        { "id": "compulsory", "title": "必答6题", "start": 1, "end": 6, "min": 6, "max": 6 },
+        { "id": "inquiry", "title": "探究1题", "start": 7, "end": 7, "min": 1, "max": 1 },
+        { "id": "social", "title": "社会议题（2选1）", "start": 8, "end": 9, "min": 1, "max": 1 }
+      ],
+      "paper_minutes": [50, 120],
+      "break_minutes": 15,
+      "scope_status": "school graduation full scope, pending past paper verification",
+      "notes": ["涵盖三年生物课程备考。"]
+    },
+    "uec_biology": {
+      "id": "uec_biology-2026-spec",
+      "year": 2026,
+      "exam_type": "uec_biology",
+      "title": "UEC 生物 2026 纲要规格（预留）",
+      "evidence": "syllabus_spec_pending_past_papers",
+      "source_pdf_id": null,
+      "mcq_count": 30,
+      "mcq_marks": 30,
+      "written_count": 9,
+      "written_marks": 70,
+      "printed_written_marks": 82,
+      "written_sequence": [8, 8, 8, 8, 8, 8, 10, 12, 12],
+      "required_written": 8,
+      "selection_rule": "问答6题48% + 探究1题10% + 社会议题2选1(12%)",
+      "groups": [
+        { "id": "compulsory", "title": "问答6题", "start": 1, "end": 6, "min": 6, "max": 6 },
+        { "id": "inquiry", "title": "探究1题", "start": 7, "end": 7, "min": 1, "max": 1 },
+        { "id": "social", "title": "社会议题（2选1）", "start": 8, "end": 9, "min": 1, "max": 1 }
+      ],
+      "paper_minutes": [50, 120],
+      "break_minutes": 15,
+      "scope_status": "S10-2026-0623.pdf spec; pending past paper verification",
+      "notes": ["卷一30题50分钟30%；卷二120分钟70%。"]
+    }
+  }
+}

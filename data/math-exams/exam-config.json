@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "id": "math",
+  "name": "高级数学（I / II）",
+  "courses": ["adv_math_i", "adv_math_ii"],
+  "status": "ready",
+  "chapterRange": { "min": 1, "max": 35 },
+  "examTypes": [
+    { "exam_type": "semester_final", "title": "上半年校内期末考", "course": "adv_math_ii", "scope": "sem1_final", "last": 35 },
+    { "exam_type": "preexam_math_ii", "title": "预试 · 高数II", "course": "adv_math_ii", "scope": "pre_exam", "last": 35 },
+    { "exam_type": "graduation_math_ii", "title": "下半年毕业考 · 高数II", "course": "adv_math_ii", "scope": "sem2_final", "last": 35 },
+    { "exam_type": "uec_math_i", "title": "统考高级数学（I）", "course": "adv_math_i", "scope": "uec", "last": 29 },
+    { "exam_type": "uec_math_ii", "title": "统考高级数学（II）", "course": "adv_math_ii", "scope": "uec", "last": 35 }
+  ],
+  "dataFiles": {
+    "assemblyProfiles": "data/math-exams/assembly-profiles.json",
+    "heatStatistics": "data/math-exams/heat-statistics.json",
+    "researchData": "data/math-exams/research-data.json",
+    "originalBank": "data/math-exams/original-bank.json"
+  }
+}

@@ -53,4 +53,21 @@ html{scroll-padding-top:0}.focus-reading .note-module,.focus-reading .lesson-sec
 .workspace-tabs a:hover{background:var(--bg);color:var(--ac)}
 .workspace-tabs a[aria-current="page"]{background:var(--ac2);color:var(--ac);font-weight:650}
 @media(max-width:650px){.workspace-tabs{width:100%;margin-bottom:18px}.workspace-tabs a{flex:1;padding:8px 10px;font-size:11px}}
-@media print{.workspace-tabs{display:none}}
+@media print{.workspace-tabs,.backup-reminder-banner,.exam-subject-tabs{display:none}}
+
+/* Backup protection banner, scope selector, and multi-subject exam tabs */
+.backup-reminder-banner{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;padding:13px 16px;margin-bottom:18px;border:1px solid color-mix(in srgb,var(--wa) 45%,var(--bd));border-left:4px solid var(--wa);border-radius:12px;background:color-mix(in srgb,var(--wa) 9%,var(--cd));font-size:12px}
+.backup-reminder-copy{display:flex;align-items:flex-start;gap:10px;flex:1;min-width:220px}
+.backup-reminder-copy>svg{color:var(--wa);margin-top:2px}
+.backup-reminder-copy b{display:block;font-size:13px;color:var(--tx);margin-bottom:2px}
+.backup-reminder-copy span{color:var(--mu);line-height:1.6}
+.backup-reminder-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.backup-reminder-actions .primary{min-height:34px;padding:6px 12px;font-size:12px}
+.scope-filter-bar{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.scope-filter-bar label{display:inline-flex;align-items:center;gap:6px;font-size:11px;color:var(--mu)}
+.scope-filter-bar select{min-height:30px;padding:3px 8px;font-size:11px}
+.exam-subject-tabs{display:flex;flex-wrap:wrap;gap:8px;margin:-10px 0 18px}
+.exam-subject-tabs a{display:inline-flex;align-items:center;padding:6px 13px;border-radius:99px;border:1px solid var(--bd);background:var(--cd);color:var(--mu);font-size:12px}
+.exam-subject-tabs a:hover{color:var(--ac);background:var(--ac2)}
+.exam-subject-tabs a[aria-current="page"]{background:var(--ac2);border-color:var(--ac);color:var(--ac);font-weight:650}
+@media(max-width:650px){.backup-reminder-banner{padding:12px;gap:10px}.backup-reminder-actions{width:100%}.backup-reminder-actions .primary{flex:1}}

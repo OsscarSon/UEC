@@ -40,7 +40,7 @@ written={
 }
 for year,items in written.items():
  for key,l in items.items():added[f'semester_final:{year}:written:{key}']=level[l]
-ids={r['id'] for f in D.glob('visual-review-*.json')for r in json.loads(f.read_text())}
+ids={r['id'] for f in (R/'reports/math-audit').glob('visual-review-*.json')for r in json.loads(f.read_text(encoding='utf-8'))}
 assert set(added)<=ids
 grades.update(added);p.write_text(json.dumps(grades,ensure_ascii=False,indent=2)+'\n')
 (R/'reports/math-exams/RECENT_DIFFICULTY_METHOD.md').write_text('''# 本轮题面难度估计

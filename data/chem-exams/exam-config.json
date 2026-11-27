@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "id": "chem",
+  "code": "chemistry",
+  "name": "化学",
+  "courses": ["chemistry"],
+  "status": "pending_data",
+  "chapterRange": { "min": 1, "max": 35 },
+  "examTypes": [
+    { "exam_type": "chem_sem1_final", "title": "上半年校内期末考 · 化学", "course": "chemistry", "scope": "sem1_final", "last": 35 },
+    { "exam_type": "chem_preexam", "title": "预试 · 化学", "course": "chemistry", "scope": "pre_exam", "last": 35 },
+    { "exam_type": "chem_sem2_final", "title": "下半年毕业考 · 化学", "course": "chemistry", "scope": "sem2_final", "last": 35 },
+    { "exam_type": "uec_chemistry", "title": "统考化学（SC11 / SE11）", "course": "chemistry", "scope": "uec", "last": 35 }
+  ],
+  "dataFiles": {
+    "assemblyProfiles": "data/chem-exams/assembly-profiles.json",
+    "heatStatistics": "data/chem-exams/heat-statistics.json",
+    "researchData": "data/chem-exams/research-data.json",
+    "originalBank": "data/chem-exams/original-bank.json"
+  }
+}

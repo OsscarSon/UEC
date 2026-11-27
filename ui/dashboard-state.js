@@ -6,6 +6,7 @@ function ensure(){
  stateExtras();S.dashboard=S.dashboard||{};const d=S.dashboard;
  d.plans=d.plans||{};d.events=d.events||[];d.favorites=d.favorites||{};d.preferences=d.preferences||{};
  d.weeklyGoal=Number.isFinite(d.weeklyGoal)&&d.weeklyGoal>0?d.weeklyGoal:12;
+ d.backupMeta=d.backupMeta||{lastExportAt:0,lastExportErrorCount:0,errorsAddedSinceExport:0,trackingSince:0,snoozedUntil:0};
  S.studyTools=S.studyTools||{boards:{}};S.studyTools.boards=S.studyTools.boards||{};
  if(!S.mathMigration){
   const raw={learn:{},mast:{},rv:{},checks:{},goalChecks:{},errors:[]};
@@ -28,9 +29,9 @@ function units(code){const s=courses().find(s=>s.code===code);if(!s)return[];ret
 function state(code,ch){return code.startsWith('adv_math_')?S.mathSubjects[code]?.chapters?.[ch]||{}:{learned_at:S.learn[(subjectByCode(code)?.legacy||'')+ch],rv:S.rv[(subjectByCode(code)?.legacy||'')+ch]||[],legacy_mastery:S.mast[(subjectByCode(code)?.legacy||'')+ch]};}
 function href(code,ch,section=''){return code.startsWith('adv_math_')?'#subject='+code+(ch?'&chapter='+ch:'')+(section?'&section='+section:''):'#lesson='+encodeURIComponent((subjectByCode(code)?.legacy||'')+ch)+(section?'&section='+section:'');}
 function record(type,detail={}){const d=ensure();d.events.push({type,date:today(),at:Date.now(),...detail});save();}
-function plan(){const d=ensure(),date=today();if(!d.plans[date]){
+function plan(){const d=ensure(),date=today(),scope=window.ExamScopeHelper?.getCurrentScope?.()||'all';if(!d.plans[date]){
  const codes=['physics','chemistry','biology',new Date().getDate()%2?'adv_math_i':'adv_math_ii'];
- d.plans[date]=codes.map(code=>{const list=units(code).filter(x=>LS(K(x))),u=list.find(x=>!state(code,x[2]).learned_at)||list[0],s=LS(K(u)).sections[0];return{id:code+'-'+u[2],course:code,chapter:u[2],section:s?.id||'',title:s?s.id+' '+s.t:u[3],done:false};});save();}
+ d.plans[date]=codes.map(code=>{const allNotes=units(code).filter(x=>LS(K(x))),scoped=scope==='all'?allNotes:allNotes.filter(x=>window.ExamScopeHelper.matchesChapter(code,x[2],scope)),list=scoped.length?scoped:allNotes,u=list.find(x=>!state(code,x[2]).learned_at)||list[0],s=LS(K(u)).sections[0];return{id:code+'-'+u[2],course:code,chapter:u[2],section:s?.id||'',title:s?s.id+' '+s.t:u[3],done:false};});save();}
  return d.plans[date];}
 function due(){const out=[];for(const course of courses())for(const d of units(course.code)){const st=state(course.code,d[2]);if(!st.learned_at)continue;const elapsed=days(st.learned_at,today()),interval=IV.find(v=>!(st.rv||[]).includes(v)&&elapsed>=v);if(interval)out.push({course:course.code,chapter:d[2],title:d[3],interval,overdue:elapsed-interval});}return out.sort((a,b)=>b.overdue-a.overdue);}
 function activeErrors(){return S.err.map((e,index)=>({e,index})).filter(({e})=>!(e.s==='数学'&&!e.subject_code));}
@@ -43,5 +44,51 @@ function stats(){const d=ensure(),date=today(),dt=new Date(date+'T12:00'),wd=(dt
  let current=new Date(date+'T12:00');if(!activity.has(date))current.setDate(current.getDate()-1);let streak=0;while(activity.has(iso(current))){streak++;current.setDate(current.getDate()-1);if(streak>10000)break;}
  const minutes=d.events.filter(e=>e.type==='focus'&&e.date===date).reduce((n,e)=>n+(e.seconds||0),0)/60;
  return {weekDone,weekGoal:d.weeklyGoal,weekPercent:Math.min(100,Math.round(weekDone/d.weeklyGoal*100)),streak,minutes,activity};}
-window.StudyApp={ensure,courses,units,state,href,record,plan,due,activeErrors,weak,stats,contextFromKey};window.prepareDashboardState=()=>{ensure();window.pauseImportedFocus?.();};ensure();
+function earliestStudyTimestamp(d){
+ let min=0;
+ const consider=ts=>{if(Number.isFinite(ts)&&ts>0&&(!min||ts<min))min=ts;};
+ for(const ev of d.events||[])consider(Number(ev.at));
+ for(const e of S.err||[])if(/^\d{4}-\d{2}-\d{2}$/.test(e.d||''))consider(new Date(e.d+'T00:00:00').getTime());
+ for(const [k,date] of Object.entries(S.learn||{}))if(!k.startsWith('数学')&&/^\d{4}-\d{2}-\d{2}$/.test(date||''))consider(new Date(date+'T00:00:00').getTime());
+ for(const code of math)for(const st of Object.values(S.mathSubjects?.[code]?.chapters||{}))if(/^\d{4}-\d{2}-\d{2}$/.test(st.learned_at||''))consider(new Date(st.learned_at+'T00:00:00').getTime());
+ return min;
+}
+function recordErrorAdded(now=Date.now()){
+ const d=ensure(),meta=d.backupMeta;
+ meta.errorsAddedSinceExport=(meta.errorsAddedSinceExport||0)+1;
+ if(!meta.trackingSince&&!meta.lastExportAt)meta.trackingSince=now;
+ save();
+}
+function markBackupExported(now=Date.now()){
+ const d=ensure(),meta=d.backupMeta;
+ meta.lastExportAt=now;
+ meta.lastExportErrorCount=activeErrors().length;
+ meta.errorsAddedSinceExport=0;
+ meta.snoozedUntil=0;
+ save();
+}
+function snoozeBackupReminder(hours=24,now=Date.now()){
+ const d=ensure();
+ d.backupMeta.snoozedUntil=now+Math.max(1,hours)*3600000;
+ save();
+}
+function backupReminderStatus(now=Date.now()){
+ const d=ensure(),meta=d.backupMeta,DAY_MS=86400000;
+ const activeCount=activeErrors().length;
+ const newErrorsSinceExport=Math.max(meta.errorsAddedSinceExport||0,Math.max(0,activeCount-(meta.lastExportErrorCount||0)));
+ const hasStudyData=activeCount>0||Object.keys(S.learn||{}).length>0||(d.events||[]).length>0||math.some(c=>Object.keys(S.mathSubjects?.[c]?.chapters||{}).length>0);
+ let referenceTime=meta.lastExportAt||0;
+ if(!referenceTime&&hasStudyData){
+  referenceTime=meta.trackingSince||earliestStudyTimestamp(d)||now;
+  if(!meta.trackingSince){meta.trackingSince=referenceTime;}
+ }
+ const daysSinceExport=referenceTime?Math.max(0,Math.floor((now-referenceTime)/DAY_MS)):0;
+ const overdueByDays=referenceTime>0&&(now-referenceTime)>3*DAY_MS;
+ const overdueByErrors=newErrorsSinceExport>20;
+ const reasons=[];
+ if(overdueByDays)reasons.push(`距离上次导出备份已超过 3 天（已过 ${daysSinceExport} 天）`);
+ if(overdueByErrors)reasons.push(`自上次备份以来已新增 ${newErrorsSinceExport} 条错题（超过 20 条）`);
+ return {needed:overdueByDays||overdueByErrors,overdueByDays,overdueByErrors,daysSinceExport,newErrorsSinceExport,reasons,snoozed:(meta.snoozedUntil||0)>now,lastExportAt:meta.lastExportAt||0};
+}
+window.StudyApp={ensure,courses,units,state,href,record,plan,due,activeErrors,weak,stats,contextFromKey,recordErrorAdded,markBackupExported,snoozeBackupReminder,backupReminderStatus};window.prepareDashboardState=()=>{ensure();window.pauseImportedFocus?.();};ensure();
 })();

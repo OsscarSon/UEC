@@ -1,0 +1,58 @@
+{
+  "version": "bio-heat-pending-v1",
+  "subject": "bio",
+  "independent_questions": 0,
+  "scoring_units": 0,
+  "method_version": "pending-past-papers",
+  "evidence_url": null,
+  "exam_types": [
+    {
+      "exam_type": "bio_sem1_final",
+      "title": "上半年校内期末考 · 生物",
+      "annual": [],
+      "boards": {
+        "old": { "years": [], "ranking_metric": "question_count", "available": false, "entries": [] },
+        "new": { "years": [], "ranking_metric": "question_count", "available": false, "entries": [] },
+        "combined": { "years": [], "ranking_metric": "mean_annual_share", "available": false, "entries": [] }
+      },
+      "changes": [],
+      "limits": ["尚未导入生物历届原卷与逐页题面审计记录。"]
+    },
+    {
+      "exam_type": "bio_preexam",
+      "title": "预试 · 生物",
+      "annual": [],
+      "boards": {
+        "old": { "years": [], "ranking_metric": "question_count", "available": false, "entries": [] },
+        "new": { "years": [], "ranking_metric": "question_count", "available": false, "entries": [] },
+        "combined": { "years": [], "ranking_metric": "mean_annual_share", "available": false, "entries": [] }
+      },
+      "changes": [],
+      "limits": ["尚未导入生物预试原卷。"]
+    },
+    {
+      "exam_type": "bio_sem2_final",
+      "title": "下半年毕业考 · 生物",
+      "annual": [],
+      "boards": {
+        "old": { "years": [], "ranking_metric": "question_count", "available": false, "entries": [] },
+        "new": { "years": [], "ranking_metric": "question_count", "available": false, "entries": [] },
+        "combined": { "years": [], "ranking_metric": "mean_annual_share", "available": false, "entries": [] }
+      },
+      "changes": [],
+      "limits": ["尚未导入生物毕业考原卷。"]
+    },
+    {
+      "exam_type": "uec_biology",
+      "title": "统考生物（SC10 / SE10）",
+      "annual": [],
+      "boards": {
+        "old": { "years": [], "ranking_metric": "question_count", "available": false, "entries": [] },
+        "new": { "years": [], "ranking_metric": "question_count", "available": false, "entries": [] },
+        "combined": { "years": [], "ranking_metric": "mean_annual_share", "available": false, "entries": [] }
+      },
+      "changes": [],
+      "limits": ["尚未导入生物统考原卷。"]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "version": "phys-heat-pending-v1",
+  "subject": "phys",
+  "independent_questions": 0,
+  "scoring_units": 0,
+  "method_version": "pending-past-papers",
+  "evidence_url": null,
+  "exam_types": [
+    {
+      "exam_type": "phys_sem1_final",
+      "title": "上半年校内期末考 · 物理",
+      "annual": [],
+      "boards": {
+        "old": { "years": [], "ranking_metric": "question_count", "available": false, "entries": [] },
+        "new": { "years": [], "ranking_metric": "question_count", "available": false, "entries": [] },
+        "combined": { "years": [], "ranking_metric": "mean_annual_share", "available": false, "entries": [] }
+      },
+      "changes": [],
+      "limits": ["尚未导入物理历届原卷与逐页题面审计记录。"]
+    },
+    {
+      "exam_type": "phys_preexam",
+      "title": "预试 · 物理",
+      "annual": [],
+      "boards": {
+        "old": { "years": [], "ranking_metric": "question_count", "available": false, "entries": [] },
+        "new": { "years": [], "ranking_metric": "question_count", "available": false, "entries": [] },
+        "combined": { "years": [], "ranking_metric": "mean_annual_share", "available": false, "entries": [] }
+      },
+      "changes": [],
+      "limits": ["尚未导入物理预试原卷。"]
+    },
+    {
+      "exam_type": "phys_sem2_final",
+      "title": "下半年毕业考 · 物理",
+      "annual": [],
+      "boards": {
+        "old": { "years": [], "ranking_metric": "question_count", "available": false, "entries": [] },
+        "new": { "years": [], "ranking_metric": "question_count", "available": false, "entries": [] },
+        "combined": { "years": [], "ranking_metric": "mean_annual_share", "available": false, "entries": [] }
+      },
+      "changes": [],
+      "limits": ["尚未导入物理毕业考原卷。"]
+    },
+    {
+      "exam_type": "uec_physics",
+      "title": "统考物理（SC12 / SE12）",
+      "annual": [],
+      "boards": {
+        "old": { "years": [], "ranking_metric": "question_count", "available": false, "entries": [] },
+        "new": { "years": [], "ranking_metric": "question_count", "available": false, "entries": [] },
+        "combined": { "years": [], "ranking_metric": "mean_annual_share", "available": false, "entries": [] }
+      },
+      "changes": [],
+      "limits": ["尚未导入物理统考原卷。"]
+    }
+  ]
+}

@@ -44,5 +44,5 @@ def build(records,dictionary,labels,out):
     item=dict(chapter=n,title=ch['title'],primary_years=seen,secondary_years=secondary,year_numerator=len(seen),year_denominator=len(years),sample_year_frequency_percent=round(100*len(seen)/len(years),3),heat_label=heat,topic_units=len(primary),difficulty_not_estimated_units=sum(not r.get('difficulty',{}).get('level')for r in primary),estimated_difficulty_counts=dict(Counter(r['difficulty']['level']for r in primary if r.get('difficulty')and r['difficulty']['level'])),annual_printed_exposure=annual)
     chs.append(item);lines.append(f'|{n}|{ch["title"]}|'+(', '.join(map(str,seen))or'未见')+f'|{len(seen)}/{len(years)}|{heat}|')
    result.append(dict(exam_type=code,title=labels[code],format_regime=regime,years=years,sample_confidence='source_field_reviewed_author_chapter_classification',population_confidence='not_full_history',empirical_difficulty=False,chapters=chs))
- (out/'SAMPLE_FREQUENCY_REPORT.md').write_text('\n'.join(lines)+'\n')
+ (out/'SAMPLE_FREQUENCY_REPORT.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
  return result

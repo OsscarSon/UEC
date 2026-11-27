@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "id": "phys",
+  "code": "physics",
+  "name": "物理",
+  "courses": ["physics"],
+  "status": "pending_data",
+  "chapterRange": { "min": 1, "max": 27 },
+  "examTypes": [
+    { "exam_type": "phys_sem1_final", "title": "上半年校内期末考 · 物理", "course": "physics", "scope": "sem1_final", "last": 27 },
+    { "exam_type": "phys_preexam", "title": "预试 · 物理", "course": "physics", "scope": "pre_exam", "last": 27 },
+    { "exam_type": "phys_sem2_final", "title": "下半年毕业考 · 物理", "course": "physics", "scope": "sem2_final", "last": 27 },
+    { "exam_type": "uec_physics", "title": "统考物理（SC12 / SE12）", "course": "physics", "scope": "uec", "last": 27 }
+  ],
+  "dataFiles": {
+    "assemblyProfiles": "data/phys-exams/assembly-profiles.json",
+    "heatStatistics": "data/phys-exams/heat-statistics.json",
+    "researchData": "data/phys-exams/research-data.json",
+    "originalBank": "data/phys-exams/original-bank.json"
+  }
+}

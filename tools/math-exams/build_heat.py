@@ -6,8 +6,8 @@ from collections import defaultdict,Counter
 from fractions import Fraction
 import json,hashlib,math
 R=Path(__file__).resolve().parents[2];D=R/'data/math-exams';O=R/'reports/math-exams'
-def load(n):return json.loads((D/n).read_text())
-def save(p,v):p.write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n')
+def load(n):return json.loads((D/n).read_text(encoding='utf-8'))
+def save(p,v):p.write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 def percentile(a,p):
  a=sorted(a);i=(len(a)-1)*p;lo=math.floor(i);hi=math.ceil(i);return a[lo]+(a[hi]-a[lo])*(i-lo)if a else None
 rows=load('research-ledger.json');inv=load('source-inventory.json');formats=load('format-observations.json');coverage=load('paper-coverage.json');chapters=load('chapter-dictionary.json')
@@ -81,12 +81,10 @@ for c,label in labels.items():
 version='heat-'+hashlib.sha256(json.dumps(summary,sort_keys=True,ensure_ascii=False).encode()).hexdigest()[:12]
 payload=dict(version=version,exam_types=summary,independent_questions=len(questions),scoring_units=len(rows),method_version='independent-question-v2.0',evidence_url='data/math-exams/independent-questions.json')
 save(D/'heat-statistics.json',payload)
-# Compact topic statistics load for assembly; detailed references lazy fetch on demand.
-(D/'heat-data.js').write_text('window.MATH_HEAT='+json.dumps(payload,ensure_ascii=False,separators=(',',':'))+';\n')
 lines=['# 三套独立题目冷热榜 2.0','','每个(考试类别,年份,试卷,原大题题号)只计一次；605道选择与340道作答，共945道独立题目，小问/计分单元1479条另列。五类考试独立，所有可证年份均保留，不限近三年。','','主章：同章题直接沿用复核章标；跨章题按已印小问分值的同章合计最大者确定，平分取首个主任务。此为可复现的作者分析分类，不是官方教材归属认证；其余章保留为次章。原卷超当前高数I1–29的章标仍显示，不迁移学习数据。','','旧制按所有有效≤2025年份独立题数排名；2026只对非零章的题数用1/3、2/3分位线分层，不高于低线为低、严格高于高线为高，其余为中；同题数不拆开，分位线重合时可能有一层为空，零题仅本年未考。若所有非零题数相同，则均为中，不强行拆并列。','','综合榜=各年(该章主问题数/当年总题数)的等权平均，使用有理数计算后显示；不是所有年份题数直接相加的占比。新旧变化用标准化占比相减，±2个百分点为上升/下降；旧制非零份额上三分位且新制高为持续热门，下三分位及新制低/零为持续低频；仅为描述，不是统计显著性。','','对只有文件名年份、缺卷或缺映射的年份展示已观察下界与具体题号，排名使用null排除；不把未知当本年未考。印刷分值是辅助曝光，未知不补2分，选答印刷120%不当实际120分。详细数据heat-statistics.json；逐题原页independent-questions.json。','']
 for st in summary:
  lines.extend([f'## {st["title"]}','','|榜|有效年份|主指标|','|---|---|---|'])
  for mode,b in st['boards'].items():lines.append(f'|{mode}|'+(','.join(map(str,b['years']))or'无有效样本')+f'|{b["ranking_metric"]}|')
  lines+=['','未进主榜的来源年份：'+('；'.join(f'{a["year"]} {a["status"]}'for a in st['annual']if not a['valid'])or'无')+'。','']
-(O/'HEAT_METHOD.md').write_text('\n'.join(lines).rstrip()+'\n')
+(O/'HEAT_METHOD.md').write_text('\n'.join(lines).rstrip()+'\n',encoding='utf-8')
 print('Built',len(questions),'independent questions and three boards for',len(summary),'exam categories')

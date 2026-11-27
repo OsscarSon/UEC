@@ -4,7 +4,7 @@ Solutions are independently authored, not attributed to an official answer key.
 from pathlib import Path
 import json,hashlib,itertools,math
 import sympy as s
-R=Path(__file__).resolve().parents[2];D=R/'data/math-exams';base={r['id']:r for p in D.glob('visual-review-*.json')for r in json.loads(p.read_text())};out={};checks=[]
+R=Path(__file__).resolve().parents[2];D=R/'data/math-exams';AUDIT=R/'reports/math-audit';base={r['id']:r for p in AUDIT.glob('visual-review-*.json')for r in json.loads(p.read_text(encoding='utf-8'))};out={};checks=[]
 x,t,a=s.symbols('x t a',real=True)
 def add(c,y,n,options,letter,answer,steps,actual,expected):
  key=f'uec_math_{c}:{y}:mcq:{n}:whole';r=base[key]

@@ -3,7 +3,7 @@ not a heuristic promotion of imported CSV confidence labels. Original PDFs stay 
 """
 from pathlib import Path
 import json
-R=Path(__file__).resolve().parents[2];O=R/'data/math-exams';sources=json.loads((O/'source-inventory.json').read_text());rows=[]
+R=Path(__file__).resolve().parents[2];DATA=R/'data/math-exams';O=R/'reports/math-audit';O.mkdir(parents=True,exist_ok=True);sources=json.loads((DATA/'source-inventory.json').read_text(encoding='utf-8'));rows=[]
 C='';F='';Y=2026
 
 def exam(code,filename):

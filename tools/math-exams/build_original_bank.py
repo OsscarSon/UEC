@@ -120,7 +120,6 @@ for q in bank:
  assert sum(p['marks']for p in q['marking_points'])==q['marks']
 assert len({q['id']for q in bank})==len(bank)
 version='2026.1-'+hashlib.sha256(json.dumps(bank,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()[:12]
-(OUT/'original-bank.json').write_text(json.dumps(dict(version=version,items=bank),ensure_ascii=False,indent=2)+'\n')
-(OUT/'original-bank.js').write_text('window.MATH_EXAM_BANK='+json.dumps(dict(version=version,items=bank),ensure_ascii=False,separators=(',',':'))+';\n')
-(R/'reports/math-exams/ORIGINAL_VERIFICATION.json').write_text(json.dumps(dict(status='pass',questions=len(bank),checks=checks,limits='Named symbolic/enumeration checks plus author solution review; not official marking scheme or empirical difficulty calibration.'),ensure_ascii=False,indent=2)+'\n')
+(OUT/'original-bank.json').write_text(json.dumps(dict(version=version,items=bank),ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+(R/'reports/math-exams/ORIGINAL_VERIFICATION.json').write_text(json.dumps(dict(status='pass',questions=len(bank),checks=checks,limits='Named symbolic/enumeration checks plus author solution review; not official marking scheme or empirical difficulty calibration.'),ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print('Built',len(bank),'original verified items;',sum(q['kind']=='mcq'for q in bank),'MCQ;',sum(q['kind']=='written'for q in bank),'written')

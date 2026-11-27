@@ -1,0 +1,109 @@
+{
+  "version": "phys-formats-reserved-v1",
+  "profiles": {
+    "phys_sem1_final": {
+      "id": "phys_sem1_final-reserved",
+      "year": 2026,
+      "exam_type": "phys_sem1_final",
+      "title": "校内物理规格（预留模板）",
+      "evidence": "syllabus_spec_pending_past_papers",
+      "source_pdf_id": null,
+      "mcq_count": 30,
+      "mcq_marks": 30,
+      "written_count": 11,
+      "written_marks": 70,
+      "printed_written_marks": 110,
+      "written_sequence": [6, 6, 6, 6, 6, 20, 20, 20, 20, 20, 20],
+      "required_written": 9,
+      "selection_rule": "必答4题24% + 探究1题6% + 力学3选2(20%) + 电磁学3选2(20%)",
+      "groups": [
+        { "id": "compulsory", "title": "必答问答（热/光/波/近代）", "start": 1, "end": 4, "min": 4, "max": 4 },
+        { "id": "inquiry", "title": "科学探究题", "start": 5, "end": 5, "min": 1, "max": 1 },
+        { "id": "mechanics", "title": "力学选答（3选2）", "start": 6, "end": 8, "min": 2, "max": 2 },
+        { "id": "em", "title": "电磁学选答（3选2）", "start": 9, "end": 11, "min": 2, "max": 2 }
+      ],
+      "paper_minutes": [70, 120],
+      "break_minutes": 15,
+      "scope_status": "school candidate pool, pending past paper verification",
+      "notes": ["第一学期期末范围：力学 + 电学（第3–8、11、21–23章），待接入原卷核对。"]
+    },
+    "phys_preexam": {
+      "id": "phys_preexam-reserved",
+      "year": 2026,
+      "exam_type": "phys_preexam",
+      "title": "物理预试规格（预留模板）",
+      "evidence": "syllabus_spec_pending_past_papers",
+      "source_pdf_id": null,
+      "mcq_count": 30,
+      "mcq_marks": 30,
+      "written_count": 11,
+      "written_marks": 70,
+      "printed_written_marks": 110,
+      "written_sequence": [6, 6, 6, 6, 6, 20, 20, 20, 20, 20, 20],
+      "required_written": 9,
+      "selection_rule": "必答4题24% + 探究1题6% + 力学3选2(20%) + 电磁学3选2(20%)",
+      "groups": [
+        { "id": "compulsory", "title": "必答问答", "start": 1, "end": 4, "min": 4, "max": 4 },
+        { "id": "inquiry", "title": "科学探究题", "start": 5, "end": 5, "min": 1, "max": 1 },
+        { "id": "mechanics", "title": "力学选答（3选2）", "start": 6, "end": 8, "min": 2, "max": 2 },
+        { "id": "em", "title": "电磁学选答（3选2）", "start": 9, "end": 11, "min": 2, "max": 2 }
+      ],
+      "paper_minutes": [70, 120],
+      "break_minutes": 15,
+      "scope_status": "school candidate pool, excludes geometric optics & modern physics",
+      "notes": ["学校预试排除几何光学（18–19章）与近代物理（25–27章）。"]
+    },
+    "phys_sem2_final": {
+      "id": "phys_sem2_final-reserved",
+      "year": 2026,
+      "exam_type": "phys_sem2_final",
+      "title": "物理毕业考规格（预留模板）",
+      "evidence": "syllabus_spec_pending_past_papers",
+      "source_pdf_id": null,
+      "mcq_count": 30,
+      "mcq_marks": 30,
+      "written_count": 11,
+      "written_marks": 70,
+      "printed_written_marks": 110,
+      "written_sequence": [6, 6, 6, 6, 6, 20, 20, 20, 20, 20, 20],
+      "required_written": 9,
+      "selection_rule": "必答4题24% + 探究1题6% + 力学3选2(20%) + 电磁学3选2(20%)",
+      "groups": [
+        { "id": "compulsory", "title": "必答问答", "start": 1, "end": 4, "min": 4, "max": 4 },
+        { "id": "inquiry", "title": "科学探究题", "start": 5, "end": 5, "min": 1, "max": 1 },
+        { "id": "mechanics", "title": "力学选答（3选2）", "start": 6, "end": 8, "min": 2, "max": 2 },
+        { "id": "em", "title": "电磁学选答（3选2）", "start": 9, "end": 11, "min": 2, "max": 2 }
+      ],
+      "paper_minutes": [70, 120],
+      "break_minutes": 15,
+      "scope_status": "school graduation full scope, pending past paper verification",
+      "notes": ["毕业考全范围；具体历届题型结构待导入原卷核实。"]
+    },
+    "uec_physics": {
+      "id": "uec_physics-2026-spec",
+      "year": 2026,
+      "exam_type": "uec_physics",
+      "title": "UEC 物理 2026 纲要规格（预留）",
+      "evidence": "syllabus_spec_pending_past_papers",
+      "source_pdf_id": null,
+      "mcq_count": 30,
+      "mcq_marks": 30,
+      "written_count": 11,
+      "written_marks": 70,
+      "printed_written_marks": 110,
+      "written_sequence": [6, 6, 6, 6, 6, 20, 20, 20, 20, 20, 20],
+      "required_written": 9,
+      "selection_rule": "必答4题24% + 探究1题6% + 力学3选2(20%) + 电磁学3选2(20%)",
+      "groups": [
+        { "id": "compulsory", "title": "问答4题（热/几何光/波/近代）", "start": 1, "end": 4, "min": 4, "max": 4 },
+        { "id": "inquiry", "title": "探究1题", "start": 5, "end": 5, "min": 1, "max": 1 },
+        { "id": "mechanics", "title": "力学3选2", "start": 6, "end": 8, "min": 2, "max": 2 },
+        { "id": "em", "title": "电磁学3选2", "start": 9, "end": 11, "min": 2, "max": 2 }
+      ],
+      "paper_minutes": [70, 120],
+      "break_minutes": 15,
+      "scope_status": "S12-2026-0623.pdf spec; pending past paper verification",
+      "notes": ["卷一30题70分钟占30%；卷二120分钟占70%。"]
+    }
+  }
+}
