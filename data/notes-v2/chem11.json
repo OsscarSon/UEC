@@ -185,7 +185,7 @@
           "principle": "2Al + 6HCl → 2AlCl₃ + 3H₂↑; 2Al + 2NaOH + 2H₂O → 2NaAlO₂ + 3H₂↑。",
           "steps": [
             "两烧杯溶质物质的量：\\(n(\\mathrm{HCl}) = 0.100 \\times 3.0 = 0.30\\text{ mol}\\)；\\(n(\\mathrm{NaOH}) = 0.100 \\times 3.0 = 0.30\\text{ mol}\\)。",
-            "极限分析：①若铝均不足（全反应），两烧杯产氢比应为 \\(1 : 1\\)；②若酸碱均不足，\\(0.30\\text{ mol HCl}\\) 产 \\(0.15\\text{ mol H_2}\\)，\\(0.30\\text{ mol NaOH}\\) 产 \\(0.45\\text{ mol H_2}\\)，产氢比应为 \\(1 : 3\\)。",
+            "极限分析：①若铝均不足（全反应），两烧杯产氢比应为 \\(1 : 1\\)；②若酸碱均不足，\\(0.30\\text{ mol HCl}\\) 产 \\(0.15\\text{ mol }\\mathrm{H_2}\\)，\\(0.30\\text{ mol NaOH}\\) 产 \\(0.45\\text{ mol }\\mathrm{H_2}\\)，产氢比应为 \\(1 : 3\\)。",
             "实测产氢比 \\(1 : 2\\) 恰好介于 \\(1 : 1\\) 与 \\(1 : 3\\) 之间！因此必然是：**甲烧杯中 \\(\\mathrm{HCl}\\) 耗尽（铝过量），乙烧杯中铝粉完全反应（\\(\\mathrm{NaOH}\\) 过量）**。",
             "由甲烧杯 \\(\\mathrm{HCl}\\) 限量计算甲产生氢气：\\(n_{\\text{甲}}(\\mathrm{H_2}) = \\frac{1}{2}n(\\mathrm{HCl}) = \\frac{1}{2} \\times 0.30 = 0.150\\text{ mol}\\)。",
             "故乙烧杯产生氢气为：\\(n_{\\text{乙}}(\\mathrm{H_2}) = 2 \\times 0.150 = 0.300\\text{ mol}\\)。",
@@ -213,7 +213,7 @@
           "steps": [
             "分析每份固体（占原总量的 \\(1/2\\)，即对应原铝热剂 \\(18.75\\text{ g}\\)）：",
             "**步骤 1（求剩余未反应的 Al）**：加足量 \\(\\mathrm{NaOH}\\) 产生 \\(\\mathrm{H_2}\\ 3.36\\text{ L}\\)（即 \\(\\frac{3.36}{22.4} = 0.150\\text{ mol}\\)），这证明铝热反应后**金属铝粉过量**！由 \\(2\\mathrm{Al} \\sim 3\\mathrm{H_2}\\) 得每份中剩余 \\(n_{\\text{余}}(\\mathrm{Al}) = \\frac{2}{3} \\times 0.150 = 0.100\\text{ mol}\\)。",
-            "**步骤 2（求生成的 Fe 与消耗的 Fe₂O₃）**：第二份加足量稀盐酸共产生 \\(\\mathrm{H_2}\\ \\frac{6.72}{22.4} = 0.300\\text{ mol}\\)。其中剩余 \\(\\mathrm{Al}\\) 在盐酸中仍产生 \\(0.150\\text{ mol H_2}\\)，故铝热生成的单质铁与盐酸反应产氢为：\\(n_{\\mathrm{Fe}}(\\mathrm{H_2}) = 0.300 - 0.150 = 0.150\\text{ mol}\\)。",
+            "**步骤 2（求生成的 Fe 与消耗的 Fe₂O₃）**：第二份加足量稀盐酸共产生 \\(\\mathrm{H_2}\\ \\frac{6.72}{22.4} = 0.300\\text{ mol}\\)。其中剩余 \\(\\mathrm{Al}\\) 在盐酸中仍产生 \\(0.150\\text{ mol }\\mathrm{H_2}\\)，故铝热生成的单质铁与盐酸反应产氢为：\\(n_{\\mathrm{Fe}}(\\mathrm{H_2}) = 0.300 - 0.150 = 0.150\\text{ mol}\\)。",
             "由 \\(\\mathrm{Fe + 2HCl \\to FeCl_2 + H_2}\\uparrow\\) 得每份含铁 \\(n(\\mathrm{Fe}) = 0.150\\text{ mol}\\)。回溯铝热反应 \\(2\\mathrm{Al + Fe_2O_3} \\xrightarrow{\\text{高温}} 2\\mathrm{Fe + Al_2O_3}\\)，知每份中原有 \\(n(\\mathrm{Fe_2O_3}) = \\frac{1}{2}n(\\mathrm{Fe}) = 0.0750\\text{ mol}\\)，同时消耗掉的 \\(\\mathrm{Al}\\) 为 \\(n_{\\text{耗}}(\\mathrm{Al}) = 0.150\\text{ mol}\\)。",
             "**步骤 3（总质量复核与质量比）**：原每份含总铝 \\(n_{\\text{总}}(\\mathrm{Al}) = 0.100 + 0.150 = 0.250\\text{ mol}\\)（质量 \\(0.250 \\times 27 = 6.75\\text{ g}\\)）；原每份含 \\(\\mathrm{Fe_2O_3}\\) 质量 \\(0.0750 \\times 160 = 12.0\\text{ g}\\)。校验总质量：\\(6.75 + 12.0 = 18.75\\text{ g}\\)，两份合计 \\(37.5\\text{ g}\\) 完全自洽！故原铝热剂中 \\(m(\\mathrm{Al}) : m(\\mathrm{Fe_2O_3}) = 6.75 : 12.0 = 9 : 16\\)。"
           ],
@@ -416,8 +416,8 @@
             "**实验室制备 \\(\\mathrm{Al(OH)_3}\\) 最佳方法（p.259–263）**：向铝盐（如 \\(\\mathrm{Al_2(SO_4)_3}\\) 或 \\(\\mathrm{AlCl_3}\\)）溶液中滴加**氨水**（弱碱）：\\(\\mathrm{Al_2(SO_4)_3 + 6NH_3\\cdot H_2O \\to 2Al(OH)_3\\downarrow + 3(NH_4)_2SO_4}\\)。因为氨水过量时沉淀**不溶解**；若用 \\(\\mathrm{NaOH}\\) 溶液，稍过量就会导致生成的 \\(\\mathrm{Al(OH)_3}\\) 重新溶解损失，很难控制用量。",
             "**以偏铝酸盐制备 \\(\\mathrm{Al(OH)_3}\\) 最佳方法（p.263）**：向 \\(\\mathrm{NaAlO_2}\\) 溶液中通入**二氧化碳（弱酸）**：\\(\\mathrm{NaAlO_2(aq) + CO_2(g) + 2H_2O(l) \\to Al(OH)_3(s)\\downarrow + NaHCO_3(aq)}\\)，过量 \\(\\mathrm{CO_2}\\) 也不溶解沉淀！",
             "**四大定量沉淀比（必背坐标折线，见图 11-1）**：",
-            "- 向 \\(1\\text{ mol Al^{3+}}\\) 逐滴加 \\(\\mathrm{NaOH}\\)：沉淀达最大（\\(1\\text{ mol}\\)）耗 \\(3\\text{ mol OH^-}\\)，完全溶解耗 \\(1\\text{ mol OH^-}\\)，比例 **3 : 1**。",
-            "- 向 \\(1\\text{ mol AlO_2^-}\\) 逐滴加 \\(\\mathrm{HCl}\\)：沉淀达最大（\\(1\\text{ mol}\\)）耗 \\(1\\text{ mol H^+}\\)，完全溶解耗 \\(3\\text{ mol H^+}\\)，比例 **1 : 3**。"
+            "- 向 \\(1\\text{ mol }\\mathrm{Al^{3+}}\\) 逐滴加 \\(\\mathrm{NaOH}\\)：沉淀达最大（\\(1\\text{ mol}\\)）耗 \\(3\\text{ mol }\\mathrm{OH^-}\\)，完全溶解耗 \\(1\\text{ mol }\\mathrm{OH^-}\\)，比例 **3 : 1**。",
+            "- 向 \\(1\\text{ mol }\\mathrm{AlO_2^-}\\) 逐滴加 \\(\\mathrm{HCl}\\)：沉淀达最大（\\(1\\text{ mol}\\)）耗 \\(1\\text{ mol }\\mathrm{H^+}\\)，完全溶解耗 \\(3\\text{ mol }\\mathrm{H^+}\\)，比例 **1 : 3**。"
           ],
           "takeaway": "互滴鉴别 \\(\\mathrm{AlCl_3}\\) 与 \\(\\mathrm{NaOH}\\)（不用其他试剂）：将 A 滴入 B 立即产生沉淀且迅速消失（后大量沉淀），则是将 \\(\\mathrm{AlCl_3}\\) 滴入 \\(\\mathrm{NaOH}\\)；立即沉淀、后才消失，则是将 \\(\\mathrm{NaOH}\\) 滴入 \\(\\mathrm{AlCl_3}\\)！"
         },
@@ -464,7 +464,7 @@
         },
         {
           "title": "定量沉淀计算漏掉“强碱过量回溶”的双解",
-          "wrong": "“向 \\(0.10\\text{ mol AlCl_3}\\) 溶液中加 \\(\\mathrm{NaOH}\\) 生成 \\(0.05\\text{ mol Al(OH)_3}\\) 沉淀，消耗 \\(\\mathrm{NaOH}\\) 只有 \\(0.15\\text{ mol}\\)。”",
+          "wrong": "“向 \\(0.10\\text{ mol }\\mathrm{AlCl_3}\\) 溶液中加 \\(\\mathrm{NaOH}\\) 生成 \\(0.05\\text{ mol }\\mathrm{Al(OH)_3}\\) 沉淀，消耗 \\(\\mathrm{NaOH}\\) 只有 \\(0.15\\text{ mol}\\)。”",
           "diagnosis": "只考虑了沉淀上升段（碱不足），忘记了沉淀完全后继续加碱回溶下降段（碱过量）也会经过 \\(0.05\\text{ mol}\\) 沉淀！",
           "right": "该题应有**两组解**：①碱不足：\\(n(\\mathrm{NaOH}) = 3 \\times 0.05 = 0.15\\text{ mol}\\)；②碱过量：先用 \\(0.30\\text{ mol}\\) 全沉淀得 \\(0.10\\text{ mol}\\)，再消耗 \\((0.10 - 0.05) = 0.05\\text{ mol}\\) 溶解掉一半，总耗 **\\(0.35\\text{ mol}\\)**！",
           "checkRule": "见图 11-1：若生成的沉淀 \\(n < n_{\\max}\\)，必须画水平线交曲线于两点（除非题目明确说明“溶液无 AlO₂⁻”或“最小/最大耗碱量”）。"
@@ -484,8 +484,8 @@
           "steps": [
             "第(1)问（耗 \\(\\mathrm{NaOH}\\)）：三者完全溶于 \\(\\mathrm{NaOH}\\) 后铝元素全部转化为 \\(\\mathrm{NaAlO_2}\\)（\\(\\mathrm{Na^+}\\) 与 \\(\\mathrm{AlO_2^-}\\) 物质的量之比为 \\(1:1\\)）。",
             "- \\(1.0\\text{ mol Al}\\) 含 \\(1.0\\text{ mol Al}\\) → 需 \\(1.0\\text{ mol NaOH}\\)（\\(2\\mathrm{Al + 2NaOH + 2H_2O \\to 2NaAlO_2 + 3H_2\\uparrow}\\)）；",
-            "- \\(1.0\\text{ mol Al_2O_3}\\) 含 \\(2.0\\text{ mol Al}\\) → 需 \\(2.0\\text{ mol NaOH}\\)（\\(\\mathrm{Al_2O_3 + 2NaOH \\to 2NaAlO_2 + H_2O}\\)）；",
-            "- \\(1.0\\text{ mol Al(OH)_3}\\) 含 \\(1.0\\text{ mol Al}\\) → 需 \\(1.0\\text{ mol NaOH}\\)（\\(\\mathrm{Al(OH)_3 + NaOH \\to NaAlO_2 + 2H_2O}\\)）。",
+            "- \\(1.0\\text{ mol }\\mathrm{Al_2O_3}\\) 含 \\(2.0\\text{ mol Al}\\) → 需 \\(2.0\\text{ mol NaOH}\\)（\\(\\mathrm{Al_2O_3 + 2NaOH \\to 2NaAlO_2 + H_2O}\\)）；",
+            "- \\(1.0\\text{ mol }\\mathrm{Al(OH)_3}\\) 含 \\(1.0\\text{ mol Al}\\) → 需 \\(1.0\\text{ mol NaOH}\\)（\\(\\mathrm{Al(OH)_3 + NaOH \\to NaAlO_2 + 2H_2O}\\)）。",
             "浓度相等时体积比等于物质的量之比 = **1 : 2 : 1**。",
             "第(2)问（耗 \\(\\mathrm{HCl}\\)）：三者完全溶于稀盐酸后铝元素全部转化为 \\(\\mathrm{AlCl_3}\\)（\\(\\mathrm{Cl^-:Al^{3+}=3:1}\\)），故消耗 \\(\\mathrm{HCl}\\) 分别为 \\(3.0\\text{ mol}\\)、\\(6.0\\text{ mol}\\)、\\(3.0\\text{ mol}\\)，体积比仍为 **1 : 2 : 1**！"
           ],
@@ -509,11 +509,11 @@
           "principle": "中和优先于沉淀，沉淀优先于两性溶解；沉淀生成与溶解耗 OH⁻ 比 3 : 1。",
           "steps": [
             "**第一段（\\(0\\text{–}40\\text{ mL}\\)，中和 \\(\\mathrm{H^+}\\)）**：发生 \\(\\mathrm{H^+ + OH^- \\to H_2O}\\)，故 \\(n(\\mathrm{HCl}) = 1.0 \\times 0.040 = 0.040\\text{ mol}\\)，所以 \\(c(\\mathrm{HCl}) = \\frac{0.040}{0.100} = 0.40\\text{ mol\\,L}^{-1}\\)。",
-            "**第二段（\\(40\\text{–}160\\text{ mL}\\)，沉淀 \\(\\mathrm{Al^{3+}}\\)）**：此段消耗 \\(\\mathrm{NaOH}\\) 体积为 \\(160 - 40 = 120\\text{ mL}\\)（即 \\(0.120\\text{ mol OH^-}\\)）。由 \\(\\mathrm{Al^{3+} + 3OH^- \\to Al(OH)_3\\downarrow}\\) 得 \\(n(\\mathrm{AlCl_3}) = \\frac{0.120}{3} = 0.040\\text{ mol}\\)，故 \\(c(\\mathrm{AlCl_3}) = \\frac{0.040}{0.100} = 0.40\\text{ mol\\,L}^{-1}\\)（最大沉淀量 \\(n_{\\max} = 0.040\\text{ mol}\\)）。",
-            "**第三段（溶解沉淀至消失）**：由 \\(3:1\\) 规律，溶解 \\(0.040\\text{ mol Al(OH)_3}\\) 需再消耗 \\(0.040\\text{ mol NaOH}\\)（体积 \\(40\\text{ mL}\\)），故 \\(V_{\\text{终}} = 160 + 40 = 200\\text{ mL}\\)。",
+            "**第二段（\\(40\\text{–}160\\text{ mL}\\)，沉淀 \\(\\mathrm{Al^{3+}}\\)）**：此段消耗 \\(\\mathrm{NaOH}\\) 体积为 \\(160 - 40 = 120\\text{ mL}\\)（即 \\(0.120\\text{ mol }\\mathrm{OH^-}\\)）。由 \\(\\mathrm{Al^{3+} + 3OH^- \\to Al(OH)_3\\downarrow}\\) 得 \\(n(\\mathrm{AlCl_3}) = \\frac{0.120}{3} = 0.040\\text{ mol}\\)，故 \\(c(\\mathrm{AlCl_3}) = \\frac{0.040}{0.100} = 0.40\\text{ mol\\,L}^{-1}\\)（最大沉淀量 \\(n_{\\max} = 0.040\\text{ mol}\\)）。",
+            "**第三段（溶解沉淀至消失）**：由 \\(3:1\\) 规律，溶解 \\(0.040\\text{ mol }\\mathrm{Al(OH)_3}\\) 需再消耗 \\(0.040\\text{ mol NaOH}\\)（体积 \\(40\\text{ mL}\\)），故 \\(V_{\\text{终}} = 160 + 40 = 200\\text{ mL}\\)。",
             "**求最大沉淀一半（\\(0.020\\text{ mol}\\)）时的双解体积**：",
-            "- 情况 ①（沉淀上升段）：中和完 \\(40\\text{ mL}\\) 后生成 \\(0.020\\text{ mol}\\) 沉淀需 \\(0.060\\text{ mol OH^-}\\)（\\(60\\text{ mL}\\)），总体积 \\(= 40 + 60 = 100\\text{ mL}\\)；",
-            "- 情况 ②（沉淀溶解下降段）：达 \\(160\\text{ mL}\\) 最大沉淀后溶解掉 \\(0.020\\text{ mol}\\) 需 \\(0.020\\text{ mol OH^-}\\)（\\(20\\text{ mL}\\)），总体积 \\(= 160 + 20 = 180\\text{ mL}\\)。"
+            "- 情况 ①（沉淀上升段）：中和完 \\(40\\text{ mL}\\) 后生成 \\(0.020\\text{ mol}\\) 沉淀需 \\(0.060\\text{ mol }\\mathrm{OH^-}\\)（\\(60\\text{ mL}\\)），总体积 \\(= 40 + 60 = 100\\text{ mL}\\)；",
+            "- 情况 ②（沉淀溶解下降段）：达 \\(160\\text{ mL}\\) 最大沉淀后溶解掉 \\(0.020\\text{ mol}\\) 需 \\(0.020\\text{ mol }\\mathrm{OH^-}\\)（\\(20\\text{ mL}\\)），总体积 \\(= 160 + 20 = 180\\text{ mL}\\)。"
           ],
           "answer": "(1) c(HCl) = 0.40 mol·L⁻¹，c(AlCl₃) = 0.40 mol·L⁻¹；(2) V_终 = 200 mL；达到最大沉淀一半时耗 NaOH 体积为 **100 mL 或 180 mL**。",
           "markingPoints": [
@@ -612,8 +612,8 @@
           "steps": [
             "第(1)问：达最大沉淀时发生 \\(\\mathrm{AlO_2^- + H^+ + H_2O \\to Al(OH)_3\\downarrow}\\)，消耗 \\(n(\\mathrm{HCl}) = 2.0 \\times 0.0500 = 0.100\\text{ mol}\\)，故 \\(n(\\mathrm{NaAlO_2}) = 0.100\\text{ mol}\\)。",
             "原浓度 \\(c(\\mathrm{NaAlO_2}) = \\frac{0.100}{0.0500} = 2.0\\text{ mol\\,L}^{-1}\\)。",
-            "第(2)问：由定量曲线 1 : 3 关系，溶解这 \\(0.100\\text{ mol Al(OH)_3}\\) 需再消耗 \\(3 \\times 0.100 = 0.300\\text{ mol HCl}\\)（体积 \\(3 \\times 50.0 = 150.0\\text{ mL}\\)），故沉淀完全溶解共耗稀盐酸总体积 \\(= 50.0 + 150.0 = 200.0\\text{ mL}\\)。",
-            "第(3)问：通入足量 \\(\\mathrm{CO_2}\\) 生成 \\(\\mathrm{Al(OH)_3}\\) 且过量 \\(\\mathrm{CO_2}\\) 不溶解沉淀，故最终获 \\(0.100\\text{ mol Al(OH)_3}\\)，质量 \\(= 0.100 \\times 78 = 7.80\\text{ g}\\)。"
+            "第(2)问：由定量曲线 1 : 3 关系，溶解这 \\(0.100\\text{ mol }\\mathrm{Al(OH)_3}\\) 需再消耗 \\(3 \\times 0.100 = 0.300\\text{ mol HCl}\\)（体积 \\(3 \\times 50.0 = 150.0\\text{ mL}\\)），故沉淀完全溶解共耗稀盐酸总体积 \\(= 50.0 + 150.0 = 200.0\\text{ mL}\\)。",
+            "第(3)问：通入足量 \\(\\mathrm{CO_2}\\) 生成 \\(\\mathrm{Al(OH)_3}\\) 且过量 \\(\\mathrm{CO_2}\\) 不溶解沉淀，故最终获 \\(0.100\\text{ mol }\\mathrm{Al(OH)_3}\\)，质量 \\(= 0.100 \\times 78 = 7.80\\text{ g}\\)。"
           ],
           "ans": "(1) 2.0 mol·L⁻¹；(2) 200.0 mL；(3) 7.80 g。",
           "markingPoints": [
@@ -644,7 +644,7 @@
         }
       ],
       "quiz": {
-        "q": "向 \\(0.10\\text{ mol AlCl_3}\\) 溶液中加入一定量 \\(\\mathrm{NaOH}\\) 溶液，充分反应后过滤干燥得 \\(3.9\\text{ g}\\ \\mathrm{Al(OH)_3}\\) 沉淀（\\(M = 78\\text{ g\\,mol}^{-1}\\)），求所加 \\(\\mathrm{NaOH}\\) 物质的量的所有可能值。",
+        "q": "向 \\(0.10\\text{ mol }\\mathrm{AlCl_3}\\) 溶液中加入一定量 \\(\\mathrm{NaOH}\\) 溶液，充分反应后过滤干燥得 \\(3.9\\text{ g}\\ \\mathrm{Al(OH)_3}\\) 沉淀（\\(M = 78\\text{ g\\,mol}^{-1}\\)），求所加 \\(\\mathrm{NaOH}\\) 物质的量的所有可能值。",
         "given": "n(Al³⁺)=0.10 mol, n(沉淀)=3.9/78=0.050 mol (< 0.10 mol)",
         "method": "沉淀量未达最大值必有碱不足与碱过量溶解两解",
         "principle": "Al³⁺ + 3OH⁻ → Al(OH)₃↓；Al(OH)₃ + OH⁻ → AlO₂⁻ + 2H₂O。",
@@ -816,7 +816,7 @@
           "tierLabel": "L4 统考压轴",
           "title": "铝土矿提纯炼铝工业产率与原料消耗计算",
           "prompt": "某铝厂以含 \\(\\mathrm{Al_2O_3}\\) 质量分数为 \\(51.0\\%\\) 的铝土矿为原料（其余杂质均不与 \\(\\mathrm{NaOH}\\) 溶液反应），采用图 11-8 工艺流程生产纯铝：碱溶 → 过滤 → 通足量 \\(\\mathrm{CO_2}\\) 酸化 → 过滤 → 灼烧 → 电解。已知生产 \\(1.00\\text{ t}\\) 该铝土矿理论上需要处理：(1) 若铝元素完全转化且电解无损失，可冶炼出纯铝多少吨（保留三位有效数字）？(2) 在“通入足量 \\(\\mathrm{CO_2}\\) 酸化”环节理论上至少需要通入多少立方米（标准状况）\\(\\mathrm{CO_2}\\) 气体？(3) 实际工业电解中，由于阳极炭块不断被产生的 \\(\\mathrm{O_2}\\) 氧化消耗生成 \\(\\mathrm{CO_2}\\)，若电解产生的 \\(\\mathrm{O_2}\\) 全部与石墨阳极反应转化为 \\(\\mathrm{CO_2}\\)，理论上每产 \\(1\\text{ t}\\) 铝需消耗多少吨纯碳阳极？（\\(A_r: \\mathrm{Al}=27, \\mathrm{O}=16, \\mathrm{C}=12\\)）",
-          "clues": "利用铝元素质量守恒一步算出铝产量；由 \\(\\mathrm{NaAlO_2 + CO_2 + 2H_2O \\to Al(OH)_3\\downarrow + NaHCO_3}\\) 知 **\\(1\\text{ mol Al} \\sim 1\\text{ mol CO_2}\\)**！",
+          "clues": "利用铝元素质量守恒一步算出铝产量；由 \\(\\mathrm{NaAlO_2 + CO_2 + 2H_2O \\to Al(OH)_3\\downarrow + NaHCO_3}\\) 知 **\\(1\\text{ mol Al} \\sim 1\\text{ mol }\\mathrm{CO_2}\\)**！",
           "strategy": "吨先换算千克/克算摩尔（或直接按 kmol 计算：\\(1\\text{ t} = 10^6\\text{ g}\\)，\\(1\\text{ kmol} \\times 22.4\\text{ m}^3/\\text{kmol}\\)）！",
           "given": "m(矿)=1.00 t, w(Al₂O₃)=51.0%, M(Al₂O₃)=102 g/mol",
           "principle": "元素原子守恒及总计量比：Al₂O₃ ~ 2Al ~ 2CO₂（酸化）；2Al₂O₃ → 4Al + 3O₂, 3O₂ + 3C → 3CO₂。",

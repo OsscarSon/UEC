@@ -802,7 +802,7 @@
             "准确排除 MnO₂、H₂S、HCl 并选出 NaHCO₃（2分）",
             "利用 2Na₂O₂→2Na₂CO₃ 差量算出固体增重 2.8 g（2分）"
           ],
-          "verification": "质量守恒验证：吸收 \\(4.4\\text{ g CO_2}\\)，放出 \\(0.050\\text{ mol O_2}\\)（\\(1.6\\text{ g}\\)），固体净增重 \\(4.4 - 1.6 = 2.8\\text{ g}\\)！",
+          "verification": "质量守恒验证：吸收 \\(4.4\\text{ g }\\mathrm{CO_2}\\)，放出 \\(0.050\\text{ mol }\\mathrm{O_2}\\)（\\(1.6\\text{ g}\\)），固体净增重 \\(4.4 - 1.6 = 2.8\\text{ g}\\)！",
           "pitfall": "第(2)题容易错将增重答成吸收的 CO₂ 质量 4.4 g，忘记了反应同时放出了氧气。"
         },
         {
@@ -826,7 +826,7 @@
             "写出两组反应净相加方程式（2分）",
             "说明耗氧与放氧等量抵消，固体增重等于原混合气质量 5.6 g（2分）"
           ],
-          "verification": "特例检验：设全是 \\(0.20\\text{ mol CO}\\)（\\(5.6\\text{ g}\\)），烧成 \\(0.20\\text{ mol CO_2}\\)，再与 \\(\\mathrm{Na_2O_2}\\) 反应增重 \\(0.20 \\times 28 = 5.6\\text{ g}\\)；设全是 \\(2.8\\text{ mol H_2}\\)（\\(5.6\\text{ g}\\)），烧成 \\(2.8\\text{ mol H_2O}\\)，增重 \\(2.8 \\times 2 = 5.6\\text{ g}\\)！",
+          "verification": "特例检验：设全是 \\(0.20\\text{ mol CO}\\)（\\(5.6\\text{ g}\\)），烧成 \\(0.20\\text{ mol }\\mathrm{CO_2}\\)，再与 \\(\\mathrm{Na_2O_2}\\) 反应增重 \\(0.20 \\times 28 = 5.6\\text{ g}\\)；设全是 \\(2.8\\text{ mol }\\mathrm{H_2}\\)（\\(5.6\\text{ g}\\)），烧成 \\(2.8\\text{ mol }\\mathrm{H_2O}\\)，增重 \\(2.8 \\times 2 = 5.6\\text{ g}\\)！",
           "pitfall": "若试图设 x, y 联立方程硬算，因未知比例会发现少一个方程而卡壳；用耦合加合法一秒破题。"
         }
       ],
@@ -1310,10 +1310,10 @@
           "principle": "硫原子守恒与氧原子/电子守恒。",
           "steps": [
             "计算投料：\\(n(\\mathrm{H_2S}) = 0.20\\text{ mol}\\)，\\(n(\\mathrm{O_2}) = 0.25\\text{ mol}\\)，故 \\(\\frac{n(\\mathrm{O_2})}{n(\\mathrm{H_2S})} = 1.25\\)。",
-            "因为 \\(0.5 < 1.25 < 1.5\\)，反应后 \\(\\mathrm{H_2S}\\) 与 \\(\\mathrm{O_2}\\) 均消耗完，产物中既有 \\(\\mathrm{SO_2}\\) 又有 \\(\\mathrm{S}\\)（外加 \\(0.20\\text{ mol H_2O}\\)）。",
+            "因为 \\(0.5 < 1.25 < 1.5\\)，反应后 \\(\\mathrm{H_2S}\\) 与 \\(\\mathrm{O_2}\\) 均消耗完，产物中既有 \\(\\mathrm{SO_2}\\) 又有 \\(\\mathrm{S}\\)（外加 \\(0.20\\text{ mol }\\mathrm{H_2O}\\)）。",
             "设生成 \\(n(\\mathrm{SO_2}) = x\\text{ mol}\\)，\\(n(\\mathrm{S}) = y\\text{ mol}\\)：",
             "由 S 守恒：\\(x + y = 0.20\\)；",
-            "由氧原子守恒（全部 H₂S 转化为 \\(0.20\\text{ mol H_2O}\\) 用掉 \\(0.10\\text{ mol O_2}\\)，即 \\(0.20\\text{ mol O}\\) 原子，总 O 原子为 \\(0.50\\text{ mol}\\)）：\\(2x + 0.20 = 0.50 \\implies 2x = 0.30 \\implies x = 0.15\\text{ mol}\\)！",
+            "由氧原子守恒（全部 H₂S 转化为 \\(0.20\\text{ mol }\\mathrm{H_2O}\\) 用掉 \\(0.10\\text{ mol }\\mathrm{O_2}\\)，即 \\(0.20\\text{ mol O}\\) 原子，总 O 原子为 \\(0.50\\text{ mol}\\)）：\\(2x + 0.20 = 0.50 \\implies 2x = 0.30 \\implies x = 0.15\\text{ mol}\\)！",
             "代回得 \\(y = 0.20 - 0.15 = 0.050\\text{ mol}\\)。",
             "(1) 生成单质硫质量：\\(m(\\mathrm{S}) = 0.050 \\times 32 = 1.60\\text{ g}\\)；(2) \\(V(\\mathrm{SO_2,\\ STP}) = 0.15 \\times 22.4 = 3.36\\text{ L}\\)。"
           ],
@@ -1323,7 +1323,7 @@
             "列出 S 与 O 守恒求得 n(SO₂)=0.15 mol, n(S)=0.050 mol（2分）",
             "算出 m(S)=1.60 g 与 V(SO₂)=3.36 L（1分）"
           ],
-          "verification": "化学式检验：\\(0.15\\text{ mol SO_2}\\) 耗 \\(0.225\\text{ mol O_2}\\)，\\(0.050\\text{ mol S}\\) 耗 \\(0.025\\text{ mol O_2}\\)，总耗 \\(\\mathrm{O_2} = 0.250\\text{ mol}\\)！",
+          "verification": "化学式检验：\\(0.15\\text{ mol }\\mathrm{SO_2}\\) 耗 \\(0.225\\text{ mol }\\mathrm{O_2}\\)，\\(0.050\\text{ mol S}\\) 耗 \\(0.025\\text{ mol }\\mathrm{O_2}\\)，总耗 \\(\\mathrm{O_2} = 0.250\\text{ mol}\\)！",
           "pitfall": "若写两个反应式先耗光一反应再转下一步，不如直接“先扣去 H 变 H₂O 的氧，剩余 O 全进 SO₂”快得多。"
         },
         {
@@ -1641,7 +1641,7 @@
             "利用 5:2 算得 n(SO₂)=0.050 mol（2分）",
             "求得体积分数 5.00%（1分）"
           ],
-          "verification": "电子守恒核验：\\(0.050\\text{ mol SO_2}\\times 2 = 0.10\\text{ mol }e^-\\)，\\(0.020\\text{ mol MnO_4^-}\\times 5 = 0.10\\text{ mol }e^-\\)。",
+          "verification": "电子守恒核验：\\(0.050\\text{ mol }\\mathrm{SO_2}\\times 2 = 0.10\\text{ mol }e^-\\)，\\(0.020\\text{ mol }\\mathrm{MnO_4^-}\\times 5 = 0.10\\text{ mol }e^-\\)。",
           "pitfall": "算反 5:2 比例得出 0.008 mol。"
         }
       ],
@@ -2116,6 +2116,16 @@
             ]
           },
           "takeaway": "虽然重金属 Ba²⁺ 有剧毒，但 BaSO₄ 既难溶于水又难溶于胃酸（HCl），不会被人体吸收，因此作“钡餐”；误服可溶性 BaCl₂ 或 BaCO₃（溶于胃酸！）则剧毒致死！"
+        },
+        {
+          "kind": "mechanism",
+          "title": "常见硫酸盐溶解性分级与重晶石医用安全机理",
+          "pageRef": "化上 p.368–370",
+          "body": [
+            "**溶解性分级规律（参考附录2）**：绝大多数硫酸盐易溶于水（如 \\(\\mathrm{Na_2SO_4}\\)、\\(\\mathrm{CuSO_4}\\)、\\(\\mathrm{MgSO_4}\\)、\\(\\mathrm{FeSO_4}\\)），\\(\\mathrm{CaSO_4}\\) 与 \\(\\mathrm{Ag_2SO_4}\\) 微溶于水，而 **\\(\\mathrm{BaSO_4}\\) 和 \\(\\mathrm{PbSO_4}\\) 既难溶于水又难溶于强酸**。",
+            "**钡餐安全机理 vs 误服解毒**：可溶性重金属离子 \\(\\mathrm{Ba^{2+}}\\) 有剧毒，但 \\(\\mathrm{BaSO_4}\\) 不溶于胃酸（\\(\\mathrm{HCl}\\)），可安全作为胃肠 X 射线检查内服造影剂；而 \\(\\mathrm{BaCO_3}\\) 虽也难溶于水，却会与胃酸反应（\\(\\mathrm{BaCO_3(s) + 2H^+(aq) \\to Ba^{2+}(aq) + H_2O(l) + CO_2(g)\\uparrow}\\)）释放有毒 \\(\\mathrm{Ba^{2+}}\\)。若误服 \\(\\mathrm{BaCl_2}\\) 或 \\(\\mathrm{BaCO_3}\\)，可服用 \\(\\mathrm{Na_2SO_4}\\) 或 \\(\\mathrm{MgSO_4}\\) 溶液使其转化为无毒难溶的 \\(\\mathrm{BaSO_4}\\) 沉淀解毒。"
+          ],
+          "takeaway": "记住安全判据：X 射线“钡餐”只能用既不溶水也不溶胃酸的 \\(\\mathrm{BaSO_4}\\)，绝不能用 \\(\\mathrm{BaCO_3}\\)！"
         }
       ],
       "formulas": [
@@ -2141,7 +2151,7 @@
           "title": "使用稀硝酸酸化或硝酸钡检验硫酸根（思考题 14h 第1题 A vs C）",
           "wrong": "“向待测液中加入用稀硝酸酸化的 \\(\\mathrm{Ba(NO_3)_2}\\) 溶液出现白色沉淀，说明原溶液一定含 \\(\\mathrm{SO_4^{2-}}\\)。”",
           "diagnosis": "若原溶液仅含 \\(\\mathrm{SO_3^{2-}}\\)（如 \\(\\mathrm{Na_2SO_3}\\)），酸化的 \\(\\mathrm{NO_3^-}\\) 会迅速将 \\(\\mathrm{SO_3^{2-}}\\) 氧化为 \\(\\mathrm{SO_4^{2-}}\\)，继而生成同样不溶于酸的白色 \\(\\mathrm{BaSO_4}\\) 沉淀！此外，若含 \\(\\mathrm{Ag^+}\\)，后加 \\(\\mathrm{HCl}\\) 也会生成白色 \\(\\mathrm{AgCl}\\) 沉淀！",
-          "right": "唯有**“先加入足量稀盐酸无明显现象，再加入 \\(\\mathrm{BaCl_2}\\) 溶液出现白色沉淀”**（思考题 14h 第1题 C），才能百分之百排除 \\(\\mathrm{Ag^+、CO_3^{2-}、SO_3^{2-}}\\) 的全部干扰！",
+          "right": "唯有**“先加入足量稀盐酸无明显现象，再加入 \\(\\mathrm{BaCl_2}\\) 溶液出现白色沉淀”**（思考题 14h 第1题 C），才能百分之百排除 \\(\\mathrm{Ag^+},\\ \\mathrm{CO_3^{2-}},\\ \\mathrm{SO_3^{2-}}\\) 的全部干扰！",
           "checkRule": "检验 \\(\\mathrm{SO_4^{2-}}\\) 顺序死记：**先 HCl（无现象）→ 后 BaCl₂（白沉）**，绝对排斥 \\(\\mathrm{HNO_3}\\) 和先加 \\(\\mathrm{BaCl_2}\\)！"
         },
         {

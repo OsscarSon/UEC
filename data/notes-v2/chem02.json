@@ -372,7 +372,7 @@
             "求得 m(Fe₃O₄) = 23.2 g 与 n(H₂) = 0.400 mol（2分）",
             "正确列举能与水反应及不与水反应的非金属氧化物（2分）"
           ],
-          "verification": "质量守恒校核：增重氧 \\(23.2 - 16.8 = 6.4\\text{ g} = 0.400\\text{ mol O}\\)，恰好对应分解 \\(0.400\\text{ mol H_2O}\\) 放出 \\(0.400\\text{ mol H_2}\\)。",
+          "verification": "质量守恒校核：增重氧 \\(23.2 - 16.8 = 6.4\\text{ g} = 0.400\\text{ mol O}\\)，恰好对应分解 \\(0.400\\text{ mol }\\mathrm{H_2O}\\) 放出 \\(0.400\\text{ mol }\\mathrm{H_2}\\)。",
           "pitfall": "误把 \\(\\mathrm{Fe_3O_4}\\) 式量算成 160（那是 \\(\\mathrm{Fe_2O_3}\\)）而非 \\(3\\times 56 + 4\\times 16 = 232\\)。"
         }
       ],
@@ -593,7 +593,7 @@
             "求得 b = 0.40 g 及 m(HCl) = 14.6 g（2分）",
             "正确折算纯度 80% 求得粗锌 16.25 g（1分）"
           ],
-          "verification": "\\(16.25 \\times 0.80 = 13.0\\text{ g}\\)，恰好消耗 \\(0.40\\text{ mol HCl}\\) 产 \\(0.40\\text{ g H_2}\\)，无误。",
+          "verification": "\\(16.25 \\times 0.80 = 13.0\\text{ g}\\)，恰好消耗 \\(0.40\\text{ mol HCl}\\) 产 \\(0.40\\text{ g }\\mathrm{H_2}\\)，无误。",
           "pitfall": "误把“含杂质 20%”直接当纯度 20% 除（应该是 \\(1 - 20\\% = 80\\%\\)）。"
         }
       ],
@@ -706,7 +706,7 @@
           "tier": "L4",
           "tierLabel": "L4 统考综合",
           "examStyle": "P2 转化与定量探究",
-          "q": "（改编自教材 p.40 第5、10题）(1) 写出物质转化链 \\(\\mathrm{H_2O} \\xrightarrow{\\text{①}} \\mathrm{H_2} \\xrightarrow{\\text{②}} \\mathrm{HCl} \\xrightarrow{\\text{③}} \\mathrm{H_2} \\xrightarrow{\\text{④}} \\mathrm{H_2O}\\) 四步反应的化学方程式（注明条件）。\n(2) 登山队员常携带固体氢化钙（\\(\\mathrm{CaH_2}\\)）作便携式生氢剂：\\(\\mathrm{CaH_2(s) + 2H_2O(l) \\longrightarrow Ca(OH)_2(s) + 2H_2(g)}\\)。若要迅速制得 \\(4.0\\text{ g}\\) 氢气用于野外燃料（\\(A_r(\\mathrm{Ca})=40, A_r(\\mathrm{H})=1\\)），理论上需要消耗多少克纯 \\(\\mathrm{CaH_2}\\)？若改用锌与足量稀盐酸反应制取同样质量的氢气，需消耗纯锌（\\(A_r(\\mathrm{Zn})=65\\)）多少克？比较两者质量，说明登山队为何优先携带 \\(\\mathrm{CaH_2}\\)。",
+          "q": "（改编自教材 p.40 第5、10题）(1) 写出物质转化链 \\(\\mathrm{H_2O} \\xrightarrow{(1)} \\mathrm{H_2} \\xrightarrow{(2)} \\mathrm{HCl} \\xrightarrow{(3)} \\mathrm{H_2} \\xrightarrow{(4)} \\mathrm{H_2O}\\) 四步反应的化学方程式（注明条件）。\n(2) 登山队员常携带固体氢化钙（\\(\\mathrm{CaH_2}\\)）作便携式生氢剂：\\(\\mathrm{CaH_2(s) + 2H_2O(l) \\longrightarrow Ca(OH)_2(s) + 2H_2(g)}\\)。若要迅速制得 \\(4.0\\text{ g}\\) 氢气用于野外燃料（\\(A_r(\\mathrm{Ca})=40, A_r(\\mathrm{H})=1\\)），理论上需要消耗多少克纯 \\(\\mathrm{CaH_2}\\)？若改用锌与足量稀盐酸反应制取同样质量的氢气，需消耗纯锌（\\(A_r(\\mathrm{Zn})=65\\)）多少克？比较两者质量，说明登山队为何优先携带 \\(\\mathrm{CaH_2}\\)。",
           "given": "m(H₂) = 4.0 g；M(CaH₂) = 42 g/mol，M(Zn) = 65 g/mol",
           "method": "分别按 1 mol CaH₂ → 2 mol H₂ 与 1 mol Zn → 1 mol H₂ 求出所需固体质量再比轻便度",
           "principle": "氢的循环转化链与相同产氢量下的质量效率比较。",

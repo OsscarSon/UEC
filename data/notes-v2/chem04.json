@@ -494,7 +494,7 @@
             "**定义**：在反应中**完全消耗掉**的反应物称为**限量反应物**（limiting reactant，决定生成物最大量）；未完全消耗而**有剩余**的称为**过量反应物**（excess reactant）。",
             "**判定黄金公式**：给定 \\(a\\mathrm{A} + b\\mathrm{B} \\to c\\mathrm{C}\\) 中两反应物的物质的量 \\(n(\\mathrm{A})\\) 与 \\(n(\\mathrm{B})\\)，分别计算各自折算份数 **\\(\\frac{n(\\mathrm{A})}{a}\\)** 与 **\\(\\frac{n(\\mathrm{B})}{b}\\)**：",
             "- 若 \\(\\frac{n(\\mathrm{A})}{a} < \\frac{n(\\mathrm{B})}{b}\\)，则 **A 为限量反应物**，B 过量；产物一律按 \\(n(\\mathrm{A})\\) 计算，剩余 B 的量为 \\(n_0(\\mathrm{B}) - \\frac{b}{a}n(\\mathrm{A})\\)。",
-            "- **教材例9 与例10 提示（p.92–93）**：\\(0.6\\text{ mol NaOH} + 0.2\\text{ mol H_2SO_4}\\) 中 \\(\\frac{0.6}{2}=0.3 > \\frac{0.2}{1}=0.2\\)，故 \\(\\mathrm{H_2SO_4}\\) 限量、\\(\\mathrm{NaOH}\\) 过量剩余 \\(0.2\\text{ mol}\\)，溶液呈碱性使石蕊变蓝；\\(12\\text{ g CuSO_4}\\)（\\(0.075\\text{ mol}\\)）与 \\(2.8\\text{ g Fe}\\)（\\(0.050\\text{ mol}\\)）反应，\\(\\mathrm{Fe}\\) 限量，仅消耗 \\(8\\text{ g CuSO_4}\\)，生成 \\(0.05\\text{ mol FeSO_4}\\)。"
+            "- **教材例9 与例10 提示（p.92–93）**：\\(0.6\\text{ mol NaOH} + 0.2\\text{ mol }\\mathrm{H_2SO_4}\\) 中 \\(\\frac{0.6}{2}=0.3 > \\frac{0.2}{1}=0.2\\)，故 \\(\\mathrm{H_2SO_4}\\) 限量、\\(\\mathrm{NaOH}\\) 过量剩余 \\(0.2\\text{ mol}\\)，溶液呈碱性使石蕊变蓝；\\(12\\text{ g }\\mathrm{CuSO_4}\\)（\\(0.075\\text{ mol}\\)）与 \\(2.8\\text{ g Fe}\\)（\\(0.050\\text{ mol}\\)）反应，\\(\\mathrm{Fe}\\) 限量，仅消耗 \\(8\\text{ g }\\mathrm{CuSO_4}\\)，生成 \\(0.05\\text{ mol }\\mathrm{FeSO_4}\\)。"
           ],
           "takeaway": "千万不要比较原始质量 \\(m\\) 或原始摩尔数 \\(n\\) 的大小，必须除以各自的**化学计量数**后再比较！"
         },
@@ -551,9 +551,9 @@
         },
         {
           "title": "限量判定只比较质量或摩尔数本身，漏除化学计量数",
-          "wrong": "“\\(0.04\\text{ mol FeCl_3}\\) 与 \\(0.06\\text{ mol NaOH}\\) 反应（p.93 问题解决第2题），因为 \\(0.04 < 0.06\\)，所以 \\(\\mathrm{FeCl_3}\\) 限量！”",
-          "diagnosis": "方程式为 \\(\\mathrm{FeCl_3 + 3NaOH \\to Fe(OH)_3\\downarrow + 3NaCl}\\)，\\(1\\text{ mol FeCl_3}\\) 需消耗 \\(3\\text{ mol NaOH}\\)。",
-          "right": "比较份数：\\(\\frac{0.04}{1} = 0.04 > \\frac{0.06}{3} = 0.02\\)，因此 **\\(\\mathrm{NaOH}\\) 才是限量反应物**，仅生成 **\\(0.02\\text{ mol Fe(OH)_3}\\)**，\\(\\mathrm{FeCl_3}\\) 过量剩余 \\(0.02\\text{ mol}\\)！",
+          "wrong": "“\\(0.04\\text{ mol }\\mathrm{FeCl_3}\\) 与 \\(0.06\\text{ mol NaOH}\\) 反应（p.93 问题解决第2题），因为 \\(0.04 < 0.06\\)，所以 \\(\\mathrm{FeCl_3}\\) 限量！”",
+          "diagnosis": "方程式为 \\(\\mathrm{FeCl_3 + 3NaOH \\to Fe(OH)_3\\downarrow + 3NaCl}\\)，\\(1\\text{ mol }\\mathrm{FeCl_3}\\) 需消耗 \\(3\\text{ mol NaOH}\\)。",
+          "right": "比较份数：\\(\\frac{0.04}{1} = 0.04 > \\frac{0.06}{3} = 0.02\\)，因此 **\\(\\mathrm{NaOH}\\) 才是限量反应物**，仅生成 **\\(0.02\\text{ mol }\\mathrm{Fe(OH)_3}\\)**，\\(\\mathrm{FeCl_3}\\) 过量剩余 \\(0.02\\text{ mol}\\)！",
           "checkRule": "双投料必先列分式 `n(物质) ÷ 方程式系数`，比值小的才限量。"
         },
         {
@@ -741,17 +741,17 @@
             "第(1)问：由三步方程式 \\(4\\mathrm{FeS_2} \\to 8\\mathrm{SO_2} \\to 8\\mathrm{SO_3} \\to 8\\mathrm{H_2SO_4}\\)（或直接依据硫原子守恒），得关系式：**\\(\\mathrm{FeS_2 \\sim 2H_2SO_4}\\)**。",
             "第(2)问：实际制得纯 \\(\\mathrm{H_2SO_4}\\) 的质量为：\\(m(\\mathrm{H_2SO_4}) = 196\\text{ t} \\times 98.0\\% = 192.08\\text{ t}\\)。",
             "因 \\(M(\\mathrm{H_2SO_4}) = 98\\text{ g/mol}\\)，故实际得到纯硫酸的物质的量为：\\(n(\\mathrm{H_2SO_4}) = \\frac{192.08\\times 10^6\\text{ g}}{98\\text{ g/mol}} = 1.96\\times 10^6\\text{ mol}\\)（即 \\(1960\\text{ kmol}\\)）。",
-            "第(3)问：若不计损失，制得 \\(1.96\\times 10^6\\text{ mol H_2SO_4}\\) 理论上仅需纯 \\(\\mathrm{FeS_2}\\) 为 \\(\\frac{1.96\\times 10^6}{2} = 0.98\\times 10^6\\text{ mol}\\)。",
+            "第(3)问：若不计损失，制得 \\(1.96\\times 10^6\\text{ mol }\\mathrm{H_2SO_4}\\) 理论上仅需纯 \\(\\mathrm{FeS_2}\\) 为 \\(\\frac{1.96\\times 10^6}{2} = 0.98\\times 10^6\\text{ mol}\\)。",
             "因 \\(M(\\mathrm{FeS_2}) = 56 + 2\\times 32 = 120\\text{ g/mol}\\)，故无损理论纯 \\(\\mathrm{FeS_2}\\) 质量 \\(= 0.98\\times 10^6\\times 120\\text{ g} = 117.6\\text{ t}\\)。",
             "计入 \\(90.0\\%\\) 总产率与 \\(80.0\\%\\) 矿石纯度（逆推均须除）：\\(m_{\\text{黄铁矿}} = \\frac{117.6\\text{ t}}{90.0\\% \\times 80.0\\%} = \\frac{117.6}{0.72} = 163.3\\text{ t}\\)。"
           ],
-          "answer": "(1) \\(\\mathrm{FeS_2 \\sim 2H_2SO_4}\\)；(2) \\(1.96\\times 10^6\\text{ mol}\\)（1960 kmol）；(3) 163.3 t。",
+          "ans": "(1) \\(\\mathrm{FeS_2 \\sim 2H_2SO_4}\\)；(2) \\(1.96\\times 10^6\\text{ mol}\\)（1960 kmol）；(3) 163.3 t。",
           "markingPoints": [
             "依据三步转化正确写出关系式 FeS₂ ~ 2H₂SO₄（1分）",
             "折纯算出 192.08 t 及 1.96×10⁶ mol H₂SO₄（2分）",
             "正确算得无损需 117.6 t 纯 FeS₂，并正确除以 0.90 与 0.80 得 163.3 t（3分）"
           ],
-          "verification": "正算回代检验：\\(163.333\\text{ t} \\times 80\\% = 130.667\\text{ t}\\ \\mathrm{FeS_2}\\)（\\(1.0889\\times 10^6\\text{ mol}\\)）→ 理论产 \\(2.1778\\times 10^6\\text{ mol H_2SO_4} = 213.42\\text{ t}\\) → 乘产率 \\(90\\%\\) 实得 \\(192.08\\text{ t}\\) 纯酸 → 折合 \\(98\\%\\) 浓硫酸恰好 \\(196.0\\text{ t}\\)。",
+          "verification": "正算回代检验：\\(163.333\\text{ t} \\times 80\\% = 130.667\\text{ t}\\ \\mathrm{FeS_2}\\)（\\(1.0889\\times 10^6\\text{ mol}\\)）→ 理论产 \\(2.1778\\times 10^6\\text{ mol }\\mathrm{H_2SO_4} = 213.42\\text{ t}\\) → 乘产率 \\(90\\%\\) 实得 \\(192.08\\text{ t}\\) 纯酸 → 折合 \\(98\\%\\) 浓硫酸恰好 \\(196.0\\text{ t}\\)。",
           "pitfall": "逆推矿石时错将 117.6 t 乘以 0.90 或忘了先将 196 t 浓硫酸乘以 98.0% 折算纯酸。"
         }
       ],

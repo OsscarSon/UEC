@@ -234,7 +234,7 @@
             "算得转移电子 1.00 mol（1.5分）",
             "算得 NaClO₃ 质量 21.3 g（1.5分）"
           ],
-          "verification": "NaCl 生成 \\(1.00\\text{ mol}\\)（得 \\(1.00\\text{ mol }e^-\\)），NaClO₃ 生成 \\(0.20\\text{ mol}\\)（失 \\(0.20\\times 5 = 1.00\\text{ mol }e^-\\)），总 Cl = \\(1.00 + 0.20 = 1.20\\text{ mol}\\)（即 \\(0.60\\text{ mol Cl_2}\\)），完全吻合！",
+          "verification": "NaCl 生成 \\(1.00\\text{ mol}\\)（得 \\(1.00\\text{ mol }e^-\\)），NaClO₃ 生成 \\(0.20\\text{ mol}\\)（失 \\(0.20\\times 5 = 1.00\\text{ mol }e^-\\)），总 Cl = \\(1.00 + 0.20 = 1.20\\text{ mol}\\)（即 \\(0.60\\text{ mol }\\mathrm{Cl_2}\\)），完全吻合！",
           "pitfall": "若误套用冷稀 NaOH 比例，会错算成 0.60 mol Cl₂ 转移 0.60 mol 电子；实际上热浓歧化时每 3 mol Cl₂ 转移 5 mol 电子，即 0.60 mol 转移 1.00 mol 电子。"
         },
         {
@@ -346,7 +346,7 @@
           "principle": "还原性 I⁻ > Br⁻；固体质量变化等于 Cl⁻ 置换 I⁻、Br⁻ 的摩尔质量差。",
           "steps": [
             "原溶质总质量：\\(m_0 = 0.20 \\times 166 + 0.20 \\times 119 = 33.2 + 23.8 = 57.0\\text{ g}\\)。",
-            "因还原性 \\(\\mathrm{I^- > Br^-}\\)，\\(\\mathrm{Cl_2}\\) 优先氧化 \\(\\mathrm{I^-}\\)。若 \\(0.20\\text{ mol KI}\\) 全部转化为 \\(\\mathrm{KCl}\\)（耗 \\(0.10\\text{ mol Cl_2}\\)），固体质量变为：\\(0.20 \\times 74.5 + 23.8 = 14.9 + 23.8 = 38.7\\text{ g}\\)。",
+            "因还原性 \\(\\mathrm{I^- > Br^-}\\)，\\(\\mathrm{Cl_2}\\) 优先氧化 \\(\\mathrm{I^-}\\)。若 \\(0.20\\text{ mol KI}\\) 全部转化为 \\(\\mathrm{KCl}\\)（耗 \\(0.10\\text{ mol }\\mathrm{Cl_2}\\)），固体质量变为：\\(0.20 \\times 74.5 + 23.8 = 14.9 + 23.8 = 38.7\\text{ g}\\)。",
             "实际剩余固体 \\(34.25\\text{ g} < 38.7\\text{ g}\\)（且若全部转化为 \\(\\mathrm{KCl}\\) 仅剩 \\(0.40 \\times 74.5 = 29.8\\text{ g}\\)），说明 \\(\\mathrm{KI}\\) 已**完全氧化**，且**部分 \\(\\mathrm{KBr}\\) 也被氧化**。",
             "由 KBr 转化为 KCl 引起的额外减重：\\(\\Delta m = 38.7 - 34.25 = 4.45\\text{ g}\\)。",
             "每 \\(1\\text{ mol KBr}\\)（119 g）变成 \\(1\\text{ mol KCl}\\)（74.5 g）减重 \\(44.5\\text{ g}\\)，故被氧化的 \\(\\mathrm{KBr}\\) 为 \\(\\frac{4.45}{44.5} = 0.10\\text{ mol}\\)（耗 \\(\\mathrm{Cl_2}\\ 0.050\\text{ mol}\\)）。",
@@ -431,6 +431,17 @@
             "**工业离子交换膜法（图15-14）**：阳极用镀铂钛网（\\(\\mathrm{2Cl^- - 2e^- \\to Cl_2\\uparrow}\\)），阴极用碳钢网（\\(\\mathrm{2H^+ + 2e^- \\to H_2\\uparrow}\\)）。槽中央设**阳离子交换膜**——**只允许阳离子（\\(\\mathrm{Na^+}\\)）通过，严密阻止阴离子（\\(\\mathrm{Cl^-, OH^-}\\)）与气体分子通过**。双重作用：① 防止阳极 \\(\\mathrm{Cl_2}\\) 与阴极 \\(\\mathrm{H_2}\\) 混合遇光/热爆炸；② 防止 \\(\\mathrm{Cl_2}\\) 与阴极区生成的 \\(\\mathrm{OH^-}\\) 反应生成 \\(\\mathrm{NaClO}\\) 污染烧碱产品。"
           ],
           "takeaway": "记住氯碱电解口诀：“阳氧正氯（正极阳极Cl⁻失电子出Cl₂），阴还负氢碱（负极阴极H⁺得电子出H₂并留OH⁻变红）”。"
+        },
+        {
+          "kind": "mechanism",
+          "title": "浓盐酸变稀停反应机制与 KMnO₄ 免加热替代方案",
+          "pageRef": "化上 p.389–390",
+          "body": [
+            "**浓盐酸与稀盐酸的氧化还原边界**：\\(\\mathrm{MnO_2}\\) 只能在加热条件下氧化**浓盐酸**；随着反应消耗 \\(\\mathrm{HCl}\\) 并生成水，盐酸浓度降低变为稀盐酸后反应立即停止，因此定量的浓盐酸与足量 \\(\\mathrm{MnO_2}\\) 共热，生成的 \\(\\mathrm{Cl_2}\\) 总是小于理论按 \\(4:1\\) 算出的最大值。",
+            "**盐酸的双重作用**：在 \\(\\mathrm{MnO_2 + 4HCl(\\text{浓})} \\xrightarrow{\\Delta} \\mathrm{MnCl_2 + Cl_2\\uparrow + 2H_2O}\\) 中，每消耗 \\(4\\text{ mol HCl}\\)，只有 \\(2\\text{ mol }\\mathrm{Cl^-}\\) 被氧化为 \\(\\mathrm{Cl_2}\\)（作**还原剂**），另外 \\(2\\text{ mol }\\mathrm{Cl^-}\\) 保留在 \\(\\mathrm{MnCl_2}\\) 中（体现**酸性**）。",
+            "**高锰酸钾常温替代法**：由于 \\(\\mathrm{KMnO_4}\\) 氧化性强于 \\(\\mathrm{MnO_2}\\)，与浓盐酸反应无需酒精灯加热即可迅速放出 \\(\\mathrm{Cl_2}\\)（\\(\\mathrm{2KMnO_4 + 16HCl(\\text{浓}) \\to 2KCl + 2MnCl_2 + 8H_2O + 5Cl_2\\uparrow}\\)）。"
+          ],
+          "takeaway": "考场计算必警觉：足量 \\(\\mathrm{MnO_2}\\) 加一定量浓盐酸“充分反应”后，溶液中仍留有大量未反应的稀盐酸（\\(\\mathrm{H^+}\\) 和 \\(\\mathrm{Cl^-}\\)）！"
         }
       ],
       "diagrams": [
@@ -547,7 +558,7 @@
           "principle": "MnO₂ 只氧化浓盐酸，浓度下降变为稀盐酸后反应停止。",
           "steps": [
             "① 中 \\(146\\text{ g HCl}\\) 为 \\(4\\text{ mol}\\)，但随反应进行浓盐酸变稀即停止反应，故产 \\(\\mathrm{Cl_2} < 1\\text{ mol}\\)；",
-            "② 中 \\(87\\text{ g MnO_2}\\) 为 \\(1\\text{ mol}\\)，因浓盐酸足量能保证 \\(\\mathrm{MnO_2}\\) 完全耗尽，产 \\(\\mathrm{Cl_2} = 1\\text{ mol}\\)。"
+            "② 中 \\(87\\text{ g }\\mathrm{MnO_2}\\) 为 \\(1\\text{ mol}\\)，因浓盐酸足量能保证 \\(\\mathrm{MnO_2}\\) 完全耗尽，产 \\(\\mathrm{Cl_2} = 1\\text{ mol}\\)。"
           ],
           "ans": "B",
           "markingPoints": [
@@ -621,12 +632,12 @@
             "由氯原子守恒（Cl⁻ 全部留在滤液的 \\(\\mathrm{MnCl_2}\\) 与剩余稀盐酸中），滤液中 \\(n(\\mathrm{Cl^-}) = 1.00 - 0.30 = 0.70\\text{ mol}\\)。",
             "加入足量 \\(\\mathrm{AgNO_3}\\) 溶液后，生成 \\(\\mathrm{AgCl}\\) 沉淀的物质的量为 **\\(0.70\\text{ mol}\\)**。"
           ],
-          "answer": "(1) 参加反应的 \\(\\mathrm{MnO_2}\\) 为 \\(0.15\\text{ mol}\\)；(2) 生成 \\(\\mathrm{AgCl}\\) 沉淀 \\(0.70\\text{ mol}\\)。",
+          "ans": "(1) 参加反应的 \\(\\mathrm{MnO_2}\\) 为 \\(0.15\\text{ mol}\\)；(2) 生成 \\(\\mathrm{AgCl}\\) 沉淀 \\(0.70\\text{ mol}\\)。",
           "markingPoints": [
             "算出 n(Cl₂)=0.15 mol 及消耗 MnO₂ 0.15 mol（2分）",
             "运用氯原子守恒求得滤液残留 Cl⁻ 0.70 mol 即 AgCl 0.70 mol（2分）"
           ],
-          "verification": "分项核验：生成 \\(0.15\\text{ mol MnCl_2}\\) 含 \\(0.30\\text{ mol Cl^-}\\)，未反应稀盐酸含 \\(1.00 - 4(0.15) = 0.40\\text{ mol HCl}\\)（此时稀盐酸浓度 \\(4.0\\text{ mol/L}\\) 恰好停止与 \\(\\mathrm{MnO_2}\\) 反应），总 \\(\\mathrm{Cl^-} = 0.30 + 0.40 = 0.70\\text{ mol}\\)！",
+          "verification": "分项核验：生成 \\(0.15\\text{ mol }\\mathrm{MnCl_2}\\) 含 \\(0.30\\text{ mol }\\mathrm{Cl^-}\\)，未反应稀盐酸含 \\(1.00 - 4(0.15) = 0.40\\text{ mol HCl}\\)（此时稀盐酸浓度 \\(4.0\\text{ mol/L}\\) 恰好停止与 \\(\\mathrm{MnO_2}\\) 反应），总 \\(\\mathrm{Cl^-} = 0.30 + 0.40 = 0.70\\text{ mol}\\)！",
           "pitfall": "若漏算剩余稀盐酸中大量的 Cl⁻（只算 MnCl₂ 中的 0.30 mol），就会得到错误答案 0.30 mol。"
         }
       ],
@@ -695,6 +706,17 @@
             "**收集与吸收制盐酸（图15-18/15-19）**：由于 \\(\\mathrm{HCl}\\) 密度大于空气且极易溶于水，采用**向上排空气法**收集（可用浓硫酸干燥，因两者不反应）；将 \\(\\mathrm{HCl}\\) 溶于水制盐酸时，**不能将导管直接插入水中**（易发生剧烈倒吸进入烧瓶），必须使用**倒置漏斗**使其边缘刚刚接触水面：一旦发生倒吸，水上升进入漏斗体积变大，烧杯液面下降随即脱离漏斗口，重力使水回落，从而自动消除负压**防止倒吸**！"
           ],
           "takeaway": "对比实验室制 HCl、HBr、HI：HCl 可用 NaCl + 浓 H₂SO₄ 制取（因 Cl⁻ 还原性弱不能还原浓硫酸）；而 NaBr、NaI 严禁用浓硫酸制 HBr、HI，否则浓硫酸会将其氧化成 Br₂、I₂（须改用浓磷酸 H₃PO₄）！"
+        },
+        {
+          "kind": "mechanism",
+          "title": "卤化氢制备试剂选择对比：浓硫酸制 HCl vs 浓磷酸制 HBr/HI",
+          "pageRef": "化上 p.394–395",
+          "body": [
+            "**高沸点酸制挥发性酸原则**：利用难挥发酸将易挥发卤化氢从盐晶体中加热赶出；但试剂酸还必须不能氧化生成的卤化氢。",
+            "**浓硫酸的适用边界**：卤离子还原性顺序为 \\(\\mathrm{I^- > Br^- > Cl^-}\\)。\\(\\mathrm{Cl^-}\\) 还原性较弱，常温或加热均不能被浓硫酸氧化，因此实验室既可用固体 \\(\\mathrm{NaCl}\\) 与浓硫酸制 \\(\\mathrm{HCl}\\)，也可用浓硫酸干燥 \\(\\mathrm{HCl}\\)；但 \\(\\mathrm{Br^-}\\) 与 \\(\\mathrm{I^-}\\) 还原性强，遇热浓硫酸立刻被氧化为红棕色 \\(\\mathrm{Br_2}\\) 蒸气与紫色 \\(\\mathrm{I_2}\\) 蒸气（浓硫酸被还原成 \\(\\mathrm{SO_2}\\) 或 \\(\\mathrm{H_2S}\\)）。",
+            "**HBr 与 HI 的正确制法**：实验室制取 \\(\\mathrm{HBr}\\)、\\(\\mathrm{HI}\\) 时必须改用**非氧化性高沸点酸——浓磷酸（\\(\\mathrm{H_3PO_4}\\)）**与 \\(\\mathrm{NaBr}\\)、\\(\\mathrm{NaI}\\) 共热。"
+          ],
+          "takeaway": "记忆锚点：浓 \\(\\mathrm{H_2SO_4}\\) 可制并干燥 \\(\\mathrm{HCl}\\)，却绝对不能制取或干燥 \\(\\mathrm{HBr}\\) 与 \\(\\mathrm{HI}\\)（改用浓 \\(\\mathrm{H_3PO_4}\\)）！"
         }
       ],
       "formulas": [
@@ -868,7 +890,7 @@
           "steps": [
             "(1) 计算投料：\\(n(\\mathrm{NaCl}) = \\frac{23.4}{58.5} = 0.40\\text{ mol}\\)；纯硫酸 \\(m(\\mathrm{H_2SO_4}) = 30.0 \\times 98\\% = 29.4\\text{ g}\\)，\\(n(\\mathrm{H_2SO_4}) = \\frac{29.4}{98} = 0.30\\text{ mol}\\)。",
             "在 \\(550\\ ^\\circ\\mathrm{C}\\) 下反应方程式为 \\(\\mathrm{2NaCl(s) + H_2SO_4(aq,\\text{浓})} \\xrightarrow{\\Delta} \\mathrm{Na_2SO_4(s) + 2HCl(g)\\uparrow}\\)。",
-            "\\(0.40\\text{ mol NaCl}\\) 完全反应只需消耗 \\(0.20\\text{ mol H_2SO_4}\\)，而现有 \\(0.30\\text{ mol H_2SO_4}\\)，因此 **浓硫酸（\\(\\mathrm{H_2SO_4}\\)）过量**（余 \\(0.10\\text{ mol}\\)）。",
+            "\\(0.40\\text{ mol NaCl}\\) 完全反应只需消耗 \\(0.20\\text{ mol }\\mathrm{H_2SO_4}\\)，而现有 \\(0.30\\text{ mol }\\mathrm{H_2SO_4}\\)，因此 **浓硫酸（\\(\\mathrm{H_2SO_4}\\)）过量**（余 \\(0.10\\text{ mol}\\)）。",
             "(2) 生成 \\(\\mathrm{HCl}\\) 物质的量等于限量反应物 \\(\\mathrm{NaCl}\\) 的物质的量：\\(n(\\mathrm{HCl}) = 0.40\\text{ mol}\\)。",
             "所得盐酸浓度：\\(c(\\mathrm{HCl}) = \\frac{0.40\\text{ mol}}{0.100\\text{ L}} = 4.00\\text{ mol}\\cdot\\mathrm{L^{-1}}\\)。"
           ],
@@ -1298,6 +1320,17 @@
             "② 在**卤酸（\\(\\mathrm{HXO_3}\\)）**中，碘酸（\\(\\mathrm{HIO_3}\\)）反而比氯酸（\\(\\mathrm{HClO_3}\\)）更稳定。"
           ],
           "takeaway": "备考教材必按图15-22 与图15-23 记住两条核心结论：① 同卤素正价越高，酸性越强、越稳定；② 卤酸中 HIO₃ 比 HClO₃ 稳定。"
+        },
+        {
+          "kind": "mechanism",
+          "title": "高氯酸的强酸与强氧化特性及非羟基氧酸性判据",
+          "pageRef": "化上 p.399–401",
+          "body": [
+            "**最强无机含氧酸与唯一纯品**：在氯的四种含氧酸中，只有高氯酸（\\(\\mathrm{HClO_4}\\)）能脱离水溶液以纯液体形式稳定存在，且在水中完全电离，是已知最强的无机含氧酸。",
+            "**非羟基氧数目判据**：将含氧酸改写为 \\(\\mathrm{XO}_m\\mathrm{(OH)}_n\\)（\\(m\\) 为非羟基氧原子数）：\\(\\mathrm{Cl(OH)}\\)（0 个）、\\(\\mathrm{ClO(OH)}\\)（1 个）、\\(\\mathrm{ClO_2(OH)}\\)（2 个）、\\(\\mathrm{ClO_3(OH)}\\)（3 个）。非羟基氧越多，中心原子正电性越高、对羟基 O—H 键电子吸引越强，越易电离出 \\(\\mathrm{H^+}\\)，酸性与稳定性同步递增。",
+            "**人造金刚石除石墨应用（教材思考题 15e）**：工业上利用热/浓高氯酸的强氧化性氧化除去人造金刚石中夹杂的石墨：\\(\\mathrm{4HClO_4(l) + 7C(s,\\text{石墨}) \\longrightarrow 2Cl_2(g)\\uparrow + 7CO_2(g)\\uparrow + 2H_2O(l)}\\)。"
+          ],
+          "takeaway": "判断同一元素含氧酸酸性只需数“非羟基氧原子数”：\\(\\mathrm{HClO_4(3) > HClO_3(2) > HClO_2(1) > HClO(0)}\\)。"
         }
       ],
       "formulas": [
@@ -1478,7 +1511,7 @@
             "准确标出 Cl(+5→+4) 和 S(+4→+6) 并判别角色（2分）",
             "算出 NaClO₃ 质量 21.3 g 与电子转移 0.20 mol（2分）"
           ],
-          "verification": "同时消耗 \\(0.10\\text{ mol SO_2}\\)，\\(0.10 \\times 2 = 0.20\\text{ mol }e^-\\)，完全守恒。",
+          "verification": "同时消耗 \\(0.10\\text{ mol }\\mathrm{SO_2}\\)，\\(0.10 \\times 2 = 0.20\\text{ mol }e^-\\)，完全守恒。",
           "pitfall": "错算 Cl(+5→0) 转移 5 份电子，忽略产物是 +4 价的 ClO₂。"
         }
       ],

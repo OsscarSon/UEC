@@ -749,13 +749,13 @@
             "(3) 按反应方程式计算 \\(4\\text{ mol }\\mathrm{FeS_2}\\) 转移总电子：\\(4\\text{ mol Fe}\\)（\\(+2\\to +3\\)）失 \\(4\\times 1 = 4\\text{ mol }e^-\\)；\\(8\\text{ mol S}\\)（\\(-1\\to +4\\)）失 \\(8\\times 5 = 40\\text{ mol }e^-\\)；总共失电子 \\(4 + 40 = 44\\text{ mol }e^-\\)（校验：\\(11\\text{ mol O}_2\\) 共 22 mol O 原子从 0→−2 恰好得 \\(22\\times 2 = 44\\text{ mol }e^-\\)！）。",
             "因此每消耗 \\(1\\text{ mol }\\mathrm{FeS_2}\\)，转移电子为 \\(44 \\div 4 = 11\\text{ mol}\\)！"
           ],
-          "answer": "(1) Fe(+2→+3), S(−1→+4), O(0→−2)；(2) Fe 与 S 被氧化，O 被还原；(3) 11 mol 电子。",
+          "ans": "(1) Fe(+2→+3), S(−1→+4), O(0→−2)；(2) Fe 与 S 被氧化，O 被还原；(3) 11 mol 电子。",
           "markingPoints": [
             "准确列出 3 种变价元素前后氧化数（2分）",
             "指出 Fe 和 S 同时被氧化、O 被还原（1分）",
             "双边校验算得 4 mol FeS₂ 转移 44 mol e⁻ ⇒ 1 mol 转移 11 mol e⁻（2分）"
           ],
-          "verification": "1 mol FeS₂ 消耗 \\(\\frac{11}{4}\\text{ mol O_2}\\)，得电子 \\(\\frac{11}{4}\\times 4 = 11\\text{ mol}\\)，完全匹配。",
+          "verification": "1 mol FeS₂ 消耗 \\(\\frac{11}{4}\\text{ mol }\\mathrm{O_2}\\)，得电子 \\(\\frac{11}{4}\\times 4 = 11\\text{ mol}\\)，完全匹配。",
           "pitfall": "漏算 Fe(+2→+3) 的 1 个电子而错算出 10 mol e⁻！"
         }
       ],
@@ -1370,7 +1370,7 @@
             "(2) 还原半反应：\\(\\mathrm{ClO_3^- + 6H^+ + 6e^- \\longrightarrow Cl^- + 3H_2O}\\)；氧化半反应：\\(\\mathrm{Fe^{2+} \\longrightarrow Fe^{3+} + e^-}\\)（\\(\\times 6\\)）。",
             "相加得配平离子方程式：**\\(\\mathrm{ClO_3^-(aq) + 6Fe^{2+}(aq) + 6H^+(aq) \\longrightarrow Cl^-(aq) + 6Fe^{3+}(aq) + 3H_2O(l)}\\)**。"
           ],
-          "answer": "(1) K₂Cr₂O₇ + 3H₂O₂ + 4H₂SO₄ → K₂SO₄ + Cr₂(SO₄)₃ + 3O₂↑ + 7H₂O；(2) ClO₃⁻ + 6Fe²⁺ + 6H⁺ → Cl⁻ + 6Fe³⁺ + 3H₂O。",
+          "ans": "(1) K₂Cr₂O₇ + 3H₂O₂ + 4H₂SO₄ → K₂SO₄ + Cr₂(SO₄)₃ + 3O₂↑ + 7H₂O；(2) ClO₃⁻ + 6Fe²⁺ + 6H⁺ → Cl⁻ + 6Fe³⁺ + 3H₂O。",
           "markingPoints": [
             "第(1)问正确配出 1:3:4 系数并检查 H₂O 为 7（3分）",
             "第(2)问正确写出 1:6:6 系数与 3H₂O（2分）"
@@ -1425,7 +1425,7 @@
             "(3) 碱性半反应：\n- 氧化：\\(\\mathrm{Cr(OH)_3 + H_2O \\to CrO_4^{2-} + 5H^+ + 3e^-}\\)，两边加 \\(5\\mathrm{OH^-}\\) 得 **\\(\\mathrm{Cr(OH)_3 + 5OH^- \\longrightarrow CrO_4^{2-} + 4H_2O + 3e^-}\\)**；\n- 还原：\\(\\mathrm{H_2O_2 + 2H^+ + 2e^- \\to 2H_2O}\\)，两边加 \\(2\\mathrm{OH^-}\\) 得 **\\(\\mathrm{H_2O_2 + 2e^- \\longrightarrow 2OH^-}\\)**。",
             "氧化式 \\(\\times 2\\) + 还原式 \\(\\times 3\\) 消去 \\(6\\mathrm{e^-}\\) 与重复 \\(6\\mathrm{OH^-}\\) 得：\n**\\(\\mathrm{2Cr(OH)_3(s) + 3H_2O_2(aq) + 4OH^-(aq) \\longrightarrow 2CrO_4^{2-}(aq) + 8H_2O(l)}\\)**。"
           ],
-          "answer": "(1) Cr₂O₇²⁻ + 6Fe²⁺ + 14H⁺ → 2Cr³⁺ + 6Fe³⁺ + 7H₂O；(2) 8.34 g；(3) 2Cr(OH)₃ + 3H₂O₂ + 4OH⁻ → 2CrO₄²⁻ + 8H₂O。",
+          "ans": "(1) Cr₂O₇²⁻ + 6Fe²⁺ + 14H⁺ → 2Cr³⁺ + 6Fe³⁺ + 7H₂O；(2) 8.34 g；(3) 2Cr(OH)₃ + 3H₂O₂ + 4OH⁻ → 2CrO₄²⁻ + 8H₂O。",
           "markingPoints": [
             "正确配平(1)酸性离子方程式（2分）",
             "算得 0.030 mol 绿矾及 8.34 g（含结晶水 7×18=126）（2分）",

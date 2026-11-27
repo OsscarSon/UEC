@@ -254,7 +254,7 @@
             "初始过氧化钠物质的量：\\(n_0(\\mathrm{Na_2O_2}) = \\frac{15.6}{78} = 0.200\\text{ mol}\\)。",
             "反应生成氧气物质的量：\\(n(\\mathrm{O_2}) = \\frac{2.24}{22.4} = 0.100\\text{ mol}\\)。由计量比 \\(2\\mathrm{Na_2O_2} \\sim \\mathrm{O_2}\\) 可知，参加反应的 \\(\\mathrm{Na_2O_2}\\) 恰为 \\(0.200\\text{ mol}\\)，故 \\(\\mathrm{Na_2O_2}\\) **完全反应**，剩余气体全部为 \\(\\mathrm{O_2}\\)（固体产物为 \\(\\mathrm{Na_2CO_3}\\) 与 \\(\\mathrm{NaOH}\\)）。",
             "设参加反应的 \\(\\mathrm{CO_2}\\) 为 \\(x\\text{ mol}\\)，\\(\\mathrm{H_2O(g)}\\) 为 \\(y\\text{ mol}\\)。由化学计量关系得：\\(x + y = 0.200\\)（式①）。",
-            "由固体净增重 \\(\\Delta m = 21.2 - 15.6 = 5.6\\text{ g}\\)。因为每反应 \\(1\\text{ mol CO_2}\\) 净增 \\(28\\text{ g}\\)（相当于 \\(\\mathrm{CO}\\)），每反应 \\(1\\text{ mol H_2O}\\) 净增 \\(2\\text{ g}\\)（相当于 \\(\\mathrm{H_2}\\)），故：\\(28x + 2y = 5.6\\)（式②）。",
+            "由固体净增重 \\(\\Delta m = 21.2 - 15.6 = 5.6\\text{ g}\\)。因为每反应 \\(1\\text{ mol }\\mathrm{CO_2}\\) 净增 \\(28\\text{ g}\\)（相当于 \\(\\mathrm{CO}\\)），每反应 \\(1\\text{ mol }\\mathrm{H_2O}\\) 净增 \\(2\\text{ g}\\)（相当于 \\(\\mathrm{H_2}\\)），故：\\(28x + 2y = 5.6\\)（式②）。",
             "将 \\(y = 0.200 - x\\) 代入式②：\\(28x + 2(0.200 - x) = 5.6 \\implies 26x = 5.2 \\implies x = 0.200\\text{ mol}\\)，从而 \\(y = 0\\text{ mol}\\)！"
           ],
           "answer": "(1) 反应的 \\(\\mathrm{Na_2O_2}\\) 为 \\(0.200\\text{ mol}\\)，最终固体全为 \\(\\mathrm{Na_2CO_3}\\)；(2) 原混合气体含 \\(\\mathrm{CO_2}\\ 0.200\\text{ mol}\\)，\\(\\mathrm{H_2O(g)}\\ 0\\text{ mol}\\)。",
@@ -263,7 +263,7 @@
             "正确建立差量增重方程 28x + 2y = 5.6（2分）",
             "解出 x = 0.200 mol, y = 0 mol 并判断固体纯为 Na₂CO₃（1分）"
           ],
-          "verification": "检验：\\(0.200\\text{ mol Na_2CO_3}\\) 质量为 \\(0.200 \\times 106 = 21.2\\text{ g}\\)，完全吻合！注意：若 \\(\\mathrm{CO_2}\\) 过量还会先把 \\(\\mathrm{NaOH}\\) 转化为 \\(\\mathrm{Na_2CO_3}\\)，故只要 \\(0.200\\text{ mol Na_2O_2}\\) 消耗净且固体正好增重 \\(5.6\\text{ g}\\)，混合气体必全为 \\(\\mathrm{CO_2}\\)。",
+          "verification": "检验：\\(0.200\\text{ mol }\\mathrm{Na_2CO_3}\\) 质量为 \\(0.200 \\times 106 = 21.2\\text{ g}\\)，完全吻合！注意：若 \\(\\mathrm{CO_2}\\) 过量还会先把 \\(\\mathrm{NaOH}\\) 转化为 \\(\\mathrm{Na_2CO_3}\\)，故只要 \\(0.200\\text{ mol }\\mathrm{Na_2O_2}\\) 消耗净且固体正好增重 \\(5.6\\text{ g}\\)，混合气体必全为 \\(\\mathrm{CO_2}\\)。",
           "pitfall": "若未用差量法而直接按原气体质量列式，容易忘记扣除生成的氧气质量 \\(3.2\\text{ g}\\) 而算错。"
         }
       ],
@@ -897,7 +897,7 @@
           "tierLabel": "L4 统考压轴",
           "title": "碳酸钠与碳酸氢钠混合固体热分解差量及互滴图像推断",
           "prompt": "现有 \\(\\mathrm{Na_2CO_3}\\) 与 \\(\\mathrm{NaHCO_3}\\) 的白色固体混合物 \\(27.4\\text{ g}\\)，将其充分加热至恒重后，冷却称得剩余固体质量为 \\(21.2\\text{ g}\\)（已知 \\(M(\\mathrm{Na_2CO_3})=106, M(\\mathrm{NaHCO_3})=84\\)）。(1) 求原混合物中 \\(\\mathrm{NaHCO_3}\\) 的质量及物质的量分数；(2) 若将加热后所得 \\(21.2\\text{ g}\\) 固体全部溶于水配成溶液，再向其中逐滴加入 \\(1.0\\text{ mol\\,L}^{-1}\\) 稀盐酸，从开始滴加到刚有气泡产生时，消耗盐酸的体积是多少毫升？至不再产生气泡共消耗盐酸多少毫升？",
-          "clues": "利用 \\(2\\mathrm{NaHCO_3} \\xrightarrow{\\Delta} \\mathrm{Na_2CO_3} + \\mathrm{H_2O}\\uparrow + \\mathrm{CO_2}\\uparrow\\) 每 \\(2\\text{ mol NaHCO_3}\\)（\\(168\\text{ g}\\)）分解减少质量 \\(62\\text{ g}\\)（\\(18+44\\)）！",
+          "clues": "利用 \\(2\\mathrm{NaHCO_3} \\xrightarrow{\\Delta} \\mathrm{Na_2CO_3} + \\mathrm{H_2O}\\uparrow + \\mathrm{CO_2}\\uparrow\\) 每 \\(2\\text{ mol }\\mathrm{NaHCO_3}\\)（\\(168\\text{ g}\\)）分解减少质量 \\(62\\text{ g}\\)（\\(18+44\\)）！",
           "strategy": "热分解差量法秒算 \\(n(\\mathrm{NaHCO_3})\\) → 求原组成 → 对全部转化的 \\(\\mathrm{Na_2CO_3}\\) 应用分步酸化计量（\\(\\mathrm{CO_3^{2-} \\to HCO_3^- \\to CO_2\\uparrow}\\)）。",
           "given": "m_mix=27.4 g, m_final=21.2 g, Δm=6.2 g, c(HCl)=1.0 mol/L",
           "principle": "热分解差量法及碳酸根逐滴酸化两步计量（1:1 分步）。",
@@ -916,7 +916,7 @@
             "算得原 Na₂CO₃ 0.100 mol 及摩尔分数 66.7%（1分）",
             "正确分步写出先无气泡消耗 200 mL、再产气泡总耗 400 mL（2分）"
           ],
-          "verification": "分解生成 \\(0.100\\text{ mol Na_2CO_3}\\)（10.6 g），加上原有 10.6 g 恰好为 21.2 g。",
+          "verification": "分解生成 \\(0.100\\text{ mol }\\mathrm{Na_2CO_3}\\)（10.6 g），加上原有 10.6 g 恰好为 21.2 g。",
           "pitfall": "第(1)问把差量 62 g 误当成 1 mol NaHCO₃ 的减重（漏乘系数 2），会导致整个组分计算差一倍。"
         }
       ],
