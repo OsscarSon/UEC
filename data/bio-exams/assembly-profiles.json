@@ -1,12 +1,14 @@
 {
-  "version": "bio-formats-reserved-v1",
+  "version": "bio-formats-2027-v1",
   "profiles": {
     "bio_sem1_final": {
-      "id": "bio_sem1_final-reserved",
-      "year": 2026,
+      "id": "bio_sem1_final-2027",
+      "year": 2027,
       "exam_type": "bio_sem1_final",
-      "title": "校内生物规格（预留模板）",
-      "evidence": "syllabus_spec_pending_past_papers",
+      "scope_tag": "sem1_final",
+      "scope_chapters": [10, 11, 17, 18, 19],
+      "title": "兴华上半年校内期末考 · 生物",
+      "evidence": "hinghua_2027_course_info_and_uec_spec",
       "source_pdf_id": null,
       "mcq_count": 30,
       "mcq_marks": 30,
@@ -15,23 +17,31 @@
       "printed_written_marks": 82,
       "written_sequence": [8, 8, 8, 8, 8, 8, 10, 12, 12],
       "required_written": 8,
-      "selection_rule": "选择30题30% + 探究1题10% + 必答6题48% + 社会议论2选1(12%)",
+      "selection_rule": "30选择(30%) + 1探究(10%) + 6必答(48%) + 社会议论题2选1(12%)",
+      "sections": [
+        { "paper": 1, "name": "选择题", "count": 30, "required": 30, "marks": 30, "minutes": 50 },
+        { "paper": 2, "name": "必答问答（6题）", "count": 6, "required": 6, "marks": 48, "minutes": 120 },
+        { "paper": 2, "name": "科学探究（1题）", "count": 1, "required": 1, "marks": 10 },
+        { "paper": 2, "name": "社会议论题（2选1）", "count": 2, "required": 1, "marks": 12 }
+      ],
       "groups": [
-        { "id": "compulsory", "title": "必答6题", "start": 1, "end": 6, "min": 6, "max": 6 },
-        { "id": "inquiry", "title": "探究1题", "start": 7, "end": 7, "min": 1, "max": 1 },
-        { "id": "social", "title": "社会议题（2选1）", "start": 8, "end": 9, "min": 1, "max": 1 }
+        { "id": "compulsory", "title": "必答6题（各8%）", "start": 1, "end": 6, "min": 6, "max": 6 },
+        { "id": "inquiry", "title": "探究1题（10%）", "start": 7, "end": 7, "min": 1, "max": 1 },
+        { "id": "social", "title": "社会议论题（2选1，12%）", "start": 8, "end": 9, "min": 1, "max": 1 }
       ],
       "paper_minutes": [50, 120],
       "break_minutes": 15,
-      "scope_status": "school first-half candidate pool, pending past paper verification",
-      "notes": ["校内结构：选择30%、探究10%、必答48%、社会议论2选1占12%。"]
+      "scope_status": "2027 Hing Hua sem1 final: Ch 10-11 + Ch 17-19",
+      "notes": ["上半年期末考范围：Ch 10–11（生态与保育）+ Ch 17–19（生物多样性、细菌与病毒、演化）。"]
     },
     "bio_preexam": {
-      "id": "bio_preexam-reserved",
-      "year": 2026,
+      "id": "bio_preexam-2027",
+      "year": 2027,
       "exam_type": "bio_preexam",
-      "title": "生物预试规格（预留模板）",
-      "evidence": "syllabus_spec_pending_past_papers",
+      "scope_tag": "pre_exam",
+      "scope_chapters": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+      "title": "兴华预试 · 生物",
+      "evidence": "hinghua_2027_course_info_and_uec_spec",
       "source_pdf_id": null,
       "mcq_count": 30,
       "mcq_marks": 30,
@@ -40,23 +50,31 @@
       "printed_written_marks": 82,
       "written_sequence": [8, 8, 8, 8, 8, 8, 10, 12, 12],
       "required_written": 8,
-      "selection_rule": "选择30题30% + 探究1题10% + 必答6题48% + 社会议论2选1(12%)",
+      "selection_rule": "30选择(30%) + 1探究(10%) + 6必答(48%) + 社会议论题2选1(12%)",
+      "sections": [
+        { "paper": 1, "name": "选择题", "count": 30, "required": 30, "marks": 30, "minutes": 50 },
+        { "paper": 2, "name": "必答问答（6题）", "count": 6, "required": 6, "marks": 48, "minutes": 120 },
+        { "paper": 2, "name": "科学探究（1题）", "count": 1, "required": 1, "marks": 10 },
+        { "paper": 2, "name": "社会议论题（2选1）", "count": 2, "required": 1, "marks": 12 }
+      ],
       "groups": [
-        { "id": "compulsory", "title": "必答6题", "start": 1, "end": 6, "min": 6, "max": 6 },
-        { "id": "inquiry", "title": "探究1题", "start": 7, "end": 7, "min": 1, "max": 1 },
-        { "id": "social", "title": "社会议题（2选1）", "start": 8, "end": 9, "min": 1, "max": 1 }
+        { "id": "compulsory", "title": "必答6题（各8%）", "start": 1, "end": 6, "min": 6, "max": 6 },
+        { "id": "inquiry", "title": "探究1题（10%）", "start": 7, "end": 7, "min": 1, "max": 1 },
+        { "id": "social", "title": "社会议论题（2选1，12%）", "start": 8, "end": 9, "min": 1, "max": 1 }
       ],
       "paper_minutes": [50, 120],
       "break_minutes": 15,
-      "scope_status": "school pre-exam pool, pending past paper verification",
-      "notes": ["具体预试范围待核对学校原卷。"]
+      "scope_status": "2027 Hing Hua pre-exam: Ch 1-19",
+      "notes": ["校内结构：30选择(30%) + 1探究(10%) + 6必答(48%) + 社会议论题2选1(12%)。"]
     },
     "bio_sem2_final": {
-      "id": "bio_sem2_final-reserved",
-      "year": 2026,
+      "id": "bio_sem2_final-2027",
+      "year": 2027,
       "exam_type": "bio_sem2_final",
-      "title": "生物毕业考规格（预留模板）",
-      "evidence": "syllabus_spec_pending_past_papers",
+      "scope_tag": "sem2_final",
+      "scope_chapters": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+      "title": "兴华下半年毕业考 · 生物",
+      "evidence": "hinghua_2027_course_info_and_uec_spec",
       "source_pdf_id": null,
       "mcq_count": 30,
       "mcq_marks": 30,
@@ -65,23 +83,31 @@
       "printed_written_marks": 82,
       "written_sequence": [8, 8, 8, 8, 8, 8, 10, 12, 12],
       "required_written": 8,
-      "selection_rule": "选择30题30% + 探究1题10% + 必答6题48% + 社会议论2选1(12%)",
+      "selection_rule": "30选择(30%) + 1探究(10%) + 6必答(48%) + 社会议论题2选1(12%)",
+      "sections": [
+        { "paper": 1, "name": "选择题", "count": 30, "required": 30, "marks": 30, "minutes": 50 },
+        { "paper": 2, "name": "必答问答（6题）", "count": 6, "required": 6, "marks": 48, "minutes": 120 },
+        { "paper": 2, "name": "科学探究（1题）", "count": 1, "required": 1, "marks": 10 },
+        { "paper": 2, "name": "社会议论题（2选1）", "count": 2, "required": 1, "marks": 12 }
+      ],
       "groups": [
-        { "id": "compulsory", "title": "必答6题", "start": 1, "end": 6, "min": 6, "max": 6 },
-        { "id": "inquiry", "title": "探究1题", "start": 7, "end": 7, "min": 1, "max": 1 },
-        { "id": "social", "title": "社会议题（2选1）", "start": 8, "end": 9, "min": 1, "max": 1 }
+        { "id": "compulsory", "title": "必答6题（各8%）", "start": 1, "end": 6, "min": 6, "max": 6 },
+        { "id": "inquiry", "title": "探究1题（10%）", "start": 7, "end": 7, "min": 1, "max": 1 },
+        { "id": "social", "title": "社会议论题（2选1，12%）", "start": 8, "end": 9, "min": 1, "max": 1 }
       ],
       "paper_minutes": [50, 120],
       "break_minutes": 15,
-      "scope_status": "school graduation full scope, pending past paper verification",
-      "notes": ["涵盖三年生物课程备考。"]
+      "scope_status": "2027 Hing Hua graduation exam: Ch 1-19 full scope",
+      "notes": ["毕业考涵盖三年生物课程（Ch 1–19）。"]
     },
     "uec_biology": {
-      "id": "uec_biology-2026-spec",
-      "year": 2026,
+      "id": "uec_biology-2027",
+      "year": 2027,
       "exam_type": "uec_biology",
-      "title": "UEC 生物 2026 纲要规格（预留）",
-      "evidence": "syllabus_spec_pending_past_papers",
+      "scope_tag": "uec",
+      "scope_chapters": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+      "title": "UEC 统考生物（SC10 / SE10）",
+      "evidence": "hinghua_2027_course_info_and_uec_spec",
       "source_pdf_id": null,
       "mcq_count": 30,
       "mcq_marks": 30,
@@ -90,16 +116,22 @@
       "printed_written_marks": 82,
       "written_sequence": [8, 8, 8, 8, 8, 8, 10, 12, 12],
       "required_written": 8,
-      "selection_rule": "问答6题48% + 探究1题10% + 社会议题2选1(12%)",
+      "selection_rule": "30选择(30%) + 1探究(10%) + 6必答(48%) + 社会议论题2选1(12%)",
+      "sections": [
+        { "paper": 1, "name": "选择题", "count": 30, "required": 30, "marks": 30, "minutes": 50 },
+        { "paper": 2, "name": "必答问答（6题）", "count": 6, "required": 6, "marks": 48, "minutes": 120 },
+        { "paper": 2, "name": "科学探究（1题）", "count": 1, "required": 1, "marks": 10 },
+        { "paper": 2, "name": "社会议论题（2选1）", "count": 2, "required": 1, "marks": 12 }
+      ],
       "groups": [
-        { "id": "compulsory", "title": "问答6题", "start": 1, "end": 6, "min": 6, "max": 6 },
-        { "id": "inquiry", "title": "探究1题", "start": 7, "end": 7, "min": 1, "max": 1 },
-        { "id": "social", "title": "社会议题（2选1）", "start": 8, "end": 9, "min": 1, "max": 1 }
+        { "id": "compulsory", "title": "问答6题（各8%）", "start": 1, "end": 6, "min": 6, "max": 6 },
+        { "id": "inquiry", "title": "探究1题（10%）", "start": 7, "end": 7, "min": 1, "max": 1 },
+        { "id": "social", "title": "社会议论题（2选1，12%）", "start": 8, "end": 9, "min": 1, "max": 1 }
       ],
       "paper_minutes": [50, 120],
       "break_minutes": 15,
-      "scope_status": "S10-2026-0623.pdf spec; pending past paper verification",
-      "notes": ["卷一30题50分钟30%；卷二120分钟70%。"]
+      "scope_status": "S10-2026-0623.pdf & 2027 Hing Hua course info",
+      "notes": ["30选择(30%, 50m) + 1探究(10%) + 6必答(48%) + 社会议论题2选1(12%, 120m)。"]
     }
   }
 }

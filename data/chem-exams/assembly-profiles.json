@@ -1,12 +1,14 @@
 {
-  "version": "chem-formats-reserved-v1",
+  "version": "chem-formats-2027-v1",
   "profiles": {
     "chem_sem1_final": {
-      "id": "chem_sem1_final-reserved",
-      "year": 2026,
+      "id": "chem_sem1_final-2027",
+      "year": 2027,
       "exam_type": "chem_sem1_final",
-      "title": "校内化学第一学期期末规格（预留模板）",
-      "evidence": "syllabus_spec_pending_past_papers",
+      "scope_tag": "sem1_final",
+      "scope_chapters": [3, 4, 5, 6, 7, 8, 26, 27, 28, 29, 30],
+      "title": "兴华上半年校内期末考 · 化学",
+      "evidence": "hinghua_2027_course_info_and_uec_spec",
       "source_pdf_id": null,
       "mcq_count": 25,
       "mcq_marks": 50,
@@ -15,19 +17,29 @@
       "printed_written_marks": 50,
       "written_sequence": [10, 10, 10, 10, 10],
       "required_written": 5,
-      "selection_rule": "选择25题50% + 探究1题10% + 必答40%（校内原件未定必答题数）",
-      "groups": [],
+      "selection_rule": "25选择(50%) + 1探究(10%) + 必答(40%)",
+      "sections": [
+        { "paper": 1, "name": "选择题", "count": 25, "required": 25, "marks": 50, "minutes": 60 },
+        { "paper": 2, "name": "科学探究（1题）", "count": 1, "required": 1, "marks": 10, "minutes": 120 },
+        { "paper": 2, "name": "必答题（原件未定具体题数，占40%）", "count": 4, "required": 4, "marks": 40 }
+      ],
+      "groups": [
+        { "id": "inquiry", "title": "探究题（1题，10%）", "start": 1, "end": 1, "min": 1, "max": 1 },
+        { "id": "compulsory", "title": "必答题（共40%，原件未定具体题数暂以4×10%占位）", "start": 2, "end": 5, "min": 4, "max": 4 }
+      ],
       "paper_minutes": [60, 120],
       "break_minutes": 15,
-      "scope_status": "school sem1 final (ch 3-8, 26-30), pending past paper verification",
-      "notes": ["第一学期期末范围：第3–8、26–30章。"]
+      "scope_status": "2027 Hing Hua sem1 final: Ch 3-8 + Ch 26-30",
+      "notes": ["上半年期末考范围：Ch 3–8 + Ch 26–30。", "结构：25选择(50%) + 1探究(10%) + 必答(40%)。"]
     },
     "chem_preexam": {
-      "id": "chem_preexam-reserved",
-      "year": 2026,
+      "id": "chem_preexam-2027",
+      "year": 2027,
       "exam_type": "chem_preexam",
-      "title": "化学预试规格（预留模板）",
-      "evidence": "syllabus_spec_pending_past_papers",
+      "scope_tag": "pre_exam",
+      "scope_chapters": [3, 4, 5, 6, 7, 8, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35],
+      "title": "兴华预试 · 化学",
+      "evidence": "hinghua_2027_course_info_and_uec_spec",
       "source_pdf_id": null,
       "mcq_count": 30,
       "mcq_marks": 30,
@@ -36,25 +48,33 @@
       "printed_written_marks": 106,
       "written_sequence": [6, 6, 6, 6, 10, 12, 12, 12, 12, 12, 12],
       "required_written": 8,
-      "selection_rule": "必答4题24% + 探究1题10% + 选答3题36%",
+      "selection_rule": "P1 30选择(30%) + P2 4必答(24%) + 1探究(10%) + 3选答(36%)",
+      "sections": [
+        { "paper": 1, "name": "选择题", "count": 30, "required": 30, "marks": 30, "minutes": 60 },
+        { "paper": 2, "name": "甲部必答（4题）", "count": 4, "required": 4, "marks": 24, "minutes": 120 },
+        { "paper": 2, "name": "探究题（1题）", "count": 1, "required": 1, "marks": 10 },
+        { "paper": 2, "name": "乙部选答（有机/无机/物化各2选1，共3题）", "count": 6, "required": 3, "marks": 36 }
+      ],
       "groups": [
-        { "id": "compulsory", "title": "甲部必答4题", "start": 1, "end": 4, "min": 4, "max": 4 },
-        { "id": "inquiry", "title": "探究1题", "start": 5, "end": 5, "min": 1, "max": 1 },
-        { "id": "organic", "title": "有机组（2选1）", "start": 6, "end": 7, "min": 1, "max": 1 },
-        { "id": "inorganic", "title": "无机组（2选1）", "start": 8, "end": 9, "min": 1, "max": 1 },
-        { "id": "physical", "title": "物理化学组（2选1）", "start": 10, "end": 11, "min": 1, "max": 1 }
+        { "id": "compulsory", "title": "甲部必答4题（各6%）", "start": 1, "end": 4, "min": 4, "max": 4 },
+        { "id": "inquiry", "title": "探究1题（10%）", "start": 5, "end": 5, "min": 1, "max": 1 },
+        { "id": "organic", "title": "有机化学（2选1，12%）", "start": 6, "end": 7, "min": 1, "max": 1 },
+        { "id": "inorganic", "title": "无机化学（2选1，12%）", "start": 8, "end": 9, "min": 1, "max": 1 },
+        { "id": "physical", "title": "物理化学（2选1，12%）", "start": 10, "end": 11, "min": 1, "max": 1 }
       ],
       "paper_minutes": [60, 120],
       "break_minutes": 15,
-      "scope_status": "school pre-exam (ch 3-8, 17-35), pending past paper verification",
-      "notes": ["学校预试不含第9–16章无机元素族。"]
+      "scope_status": "2027 Hing Hua pre-exam: Ch 3-8 + middle book (Ch 17-25) + lower book (Ch 26-35)",
+      "notes": ["预试范围：Ch 3–8 + 高二中册（Ch 17–25）+ 高三下册（Ch 26–35），不含 Ch 9–16 无机元素族。"]
     },
     "chem_sem2_final": {
-      "id": "chem_sem2_final-reserved",
-      "year": 2026,
+      "id": "chem_sem2_final-2027",
+      "year": 2027,
       "exam_type": "chem_sem2_final",
-      "title": "化学毕业考规格（预留模板）",
-      "evidence": "syllabus_spec_pending_past_papers",
+      "scope_tag": "sem2_final",
+      "scope_chapters": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35],
+      "title": "兴华下半年毕业考 · 化学",
+      "evidence": "hinghua_2027_course_info_and_uec_spec",
       "source_pdf_id": null,
       "mcq_count": 30,
       "mcq_marks": 30,
@@ -63,25 +83,33 @@
       "printed_written_marks": 106,
       "written_sequence": [6, 6, 6, 6, 10, 12, 12, 12, 12, 12, 12],
       "required_written": 8,
-      "selection_rule": "必答4题24% + 探究1题10% + 乙部三组各2选1共36%",
+      "selection_rule": "P1 30选择(30%) + P2 4必答(24%) + 1探究(10%) + 3选答(36%)",
+      "sections": [
+        { "paper": 1, "name": "选择题", "count": 30, "required": 30, "marks": 30, "minutes": 60 },
+        { "paper": 2, "name": "甲部必答（4题）", "count": 4, "required": 4, "marks": 24, "minutes": 120 },
+        { "paper": 2, "name": "探究题（1题）", "count": 1, "required": 1, "marks": 10 },
+        { "paper": 2, "name": "乙部选答（三组各2选1，共3题）", "count": 6, "required": 3, "marks": 36 }
+      ],
       "groups": [
-        { "id": "compulsory", "title": "甲部必答4题", "start": 1, "end": 4, "min": 4, "max": 4 },
-        { "id": "inquiry", "title": "探究1题", "start": 5, "end": 5, "min": 1, "max": 1 },
-        { "id": "organic", "title": "有机组（2选1）", "start": 6, "end": 7, "min": 1, "max": 1 },
-        { "id": "inorganic", "title": "无机组（2选1）", "start": 8, "end": 9, "min": 1, "max": 1 },
-        { "id": "physical", "title": "物理化学组（2选1）", "start": 10, "end": 11, "min": 1, "max": 1 }
+        { "id": "compulsory", "title": "甲部必答4题（各6%）", "start": 1, "end": 4, "min": 4, "max": 4 },
+        { "id": "inquiry", "title": "探究1题（10%）", "start": 5, "end": 5, "min": 1, "max": 1 },
+        { "id": "organic", "title": "有机组（2选1，12%）", "start": 6, "end": 7, "min": 1, "max": 1 },
+        { "id": "inorganic", "title": "无机组（2选1，12%）", "start": 8, "end": 9, "min": 1, "max": 1 },
+        { "id": "physical", "title": "物理化学组（2选1，12%）", "start": 10, "end": 11, "min": 1, "max": 1 }
       ],
       "paper_minutes": [60, 120],
       "break_minutes": 15,
-      "scope_status": "school graduation full scope, pending past paper verification",
-      "notes": ["毕业考高一至高三全范围。"]
+      "scope_status": "2027 Hing Hua graduation exam: Ch 2-35 full scope",
+      "notes": ["毕业考高一至高三全范围（Ch 2–35）。"]
     },
     "uec_chemistry": {
-      "id": "uec_chemistry-2026-spec",
-      "year": 2026,
+      "id": "uec_chemistry-2027",
+      "year": 2027,
       "exam_type": "uec_chemistry",
-      "title": "UEC 化学 2026 纲要规格（预留）",
-      "evidence": "syllabus_spec_pending_past_papers",
+      "scope_tag": "uec",
+      "scope_chapters": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35],
+      "title": "UEC 统考化学（SC11 / SE11）",
+      "evidence": "hinghua_2027_course_info_and_uec_spec",
       "source_pdf_id": null,
       "mcq_count": 30,
       "mcq_marks": 30,
@@ -90,18 +118,24 @@
       "printed_written_marks": 106,
       "written_sequence": [6, 6, 6, 6, 10, 12, 12, 12, 12, 12, 12],
       "required_written": 8,
-      "selection_rule": "甲部问答4题24% + 探究1题10% + 乙部有机/无机/物化各2选1共36%",
+      "selection_rule": "P1 30选择(30%) + P2 4必答(24%) + 1探究(10%) + 3选答(36%)",
+      "sections": [
+        { "paper": 1, "name": "选择题", "count": 30, "required": 30, "marks": 30, "minutes": 60 },
+        { "paper": 2, "name": "甲部问答（4题）", "count": 4, "required": 4, "marks": 24, "minutes": 120 },
+        { "paper": 2, "name": "探究题（1题）", "count": 1, "required": 1, "marks": 10 },
+        { "paper": 2, "name": "乙部选答（有机/无机/物化各2选1，共3题）", "count": 6, "required": 3, "marks": 36 }
+      ],
       "groups": [
-        { "id": "compulsory", "title": "甲部问答4题", "start": 1, "end": 4, "min": 4, "max": 4 },
-        { "id": "inquiry", "title": "探究1题", "start": 5, "end": 5, "min": 1, "max": 1 },
-        { "id": "organic", "title": "乙部有机（2选1）", "start": 6, "end": 7, "min": 1, "max": 1 },
-        { "id": "inorganic", "title": "乙部无机（2选1）", "start": 8, "end": 9, "min": 1, "max": 1 },
-        { "id": "physical", "title": "乙部物理化学（2选1）", "start": 10, "end": 11, "min": 1, "max": 1 }
+        { "id": "compulsory", "title": "甲部问答4题（各6%）", "start": 1, "end": 4, "min": 4, "max": 4 },
+        { "id": "inquiry", "title": "探究1题（10%）", "start": 5, "end": 5, "min": 1, "max": 1 },
+        { "id": "organic", "title": "乙部有机（2选1，12%）", "start": 6, "end": 7, "min": 1, "max": 1 },
+        { "id": "inorganic", "title": "乙部无机（2选1，12%）", "start": 8, "end": 9, "min": 1, "max": 1 },
+        { "id": "physical", "title": "乙部物理化学（2选1，12%）", "start": 10, "end": 11, "min": 1, "max": 1 }
       ],
       "paper_minutes": [60, 120],
       "break_minutes": 15,
-      "scope_status": "S11-2026-0623.pdf spec; pending past paper verification",
-      "notes": ["卷一30题60分钟30%；卷二120分钟70%。"]
+      "scope_status": "S11-2026-0623.pdf & 2027 Hing Hua course info",
+      "notes": ["P1 30选择(30%, 60m) + P2 4必答(24%) + 1探究(10%) + 3选答(36%, 120m)。"]
     }
   }
 }

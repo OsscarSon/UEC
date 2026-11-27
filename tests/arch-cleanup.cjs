@@ -65,6 +65,45 @@ C('curriculum retains 116 chapters and valid examScopes arrays', () => {
   assert.ok(phys3.examScopes.includes('sem1_final'));
   const chem9 = curriculum.find(c => c.subject === '化学' && c.chapter === 9);
   assert.ok(!chem9.examScopes.includes('pre_exam') && chem9.examScopes.includes('uec'));
+  const scopeSet = (subj, tag) => curriculum.filter(c => c.subject === subj && c.examScopes.includes(tag)).map(c => c.chapter);
+  assert.deepEqual(scopeSet('物理', 'sem1_final'), [3, 4, 5, 6, 7, 8, 11, 21, 22, 23]);
+  assert.deepEqual(scopeSet('物理', 'pre_exam'), [3, 4, 5, 6, 7, 8, 10, 11, 13, 14, 15, 16, 17, 20, 21, 22, 23, 24]);
+  assert.deepEqual(scopeSet('化学', 'sem1_final'), [3, 4, 5, 6, 7, 8, 26, 27, 28, 29, 30]);
+  assert.deepEqual(scopeSet('化学', 'pre_exam'), [3, 4, 5, 6, 7, 8, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]);
+  assert.deepEqual(scopeSet('生物', 'sem1_final'), [10, 11, 17, 18, 19]);
+  assert.equal(scopeSet('生物', 'uec').length, 19);
+});
+
+C('science assembly-profiles satisfy exact 2027 Hing Hua paper mark and question structures', () => {
+  const phys = JSON.parse(fs.readFileSync(path.join(root, 'data', 'phys-exams', 'assembly-profiles.json'), 'utf8')).profiles;
+  for (const p of Object.values(phys)) {
+    assert.equal(p.mcq_count, 30);
+    assert.equal(p.mcq_marks, 30);
+    assert.equal(p.written_marks, 70);
+    assert.equal(p.printed_written_marks, 90);
+    assert.deepEqual(p.paper_minutes, [70, 120]);
+    assert.equal(p.written_sequence.reduce((a, b) => a + b, 0), 90);
+  }
+  const chem = JSON.parse(fs.readFileSync(path.join(root, 'data', 'chem-exams', 'assembly-profiles.json'), 'utf8')).profiles;
+  assert.equal(chem.chem_sem1_final.mcq_count, 25);
+  assert.equal(chem.chem_sem1_final.mcq_marks, 50);
+  assert.equal(chem.chem_sem1_final.written_marks, 50);
+  for (const k of ['chem_preexam', 'chem_sem2_final', 'uec_chemistry']) {
+    const p = chem[k];
+    assert.equal(p.mcq_count, 30);
+    assert.equal(p.mcq_marks, 30);
+    assert.equal(p.written_marks, 70);
+    assert.equal(p.printed_written_marks, 106);
+    assert.equal(p.written_sequence.reduce((a, b) => a + b, 0), 106);
+  }
+  const bio = JSON.parse(fs.readFileSync(path.join(root, 'data', 'bio-exams', 'assembly-profiles.json'), 'utf8')).profiles;
+  for (const p of Object.values(bio)) {
+    assert.equal(p.mcq_count, 30);
+    assert.equal(p.mcq_marks, 30);
+    assert.equal(p.written_marks, 70);
+    assert.equal(p.printed_written_marks, 82);
+    assert.equal(p.written_sequence.reduce((a, b) => a + b, 0), 82);
+  }
 });
 
 // 3. Runtime simulation for ExamScopeHelper, ExamRegistry, LearningEngine & StudyApp backup reminders
@@ -176,13 +215,16 @@ C('ExamScopeHelper filters LearningEngine.pool and LearningEngine.recommend by s
   assert.ok(sem1Pool.length > 0);
   assert.ok(sem1Pool.every(q => rt.ExamScopeHelper.matchesChapter('physics', q.chapter_id, 'sem1_final')));
 
-  // Add due review for physics ch18 (outside sem1_final) and ch3 (inside sem1_final)
-  rt.S.learn['物理18'] = '2026-11-20';
-  rt.S.learn['物理3'] = '2026-11-20';
+  // Add due review for physics ch18 (outside sem1_final) and ch3 (inside sem1_final).
+  // Use a recommend date !== today() so wall-clock time of day never shrinks capacity.
+  rt.S.learn['物理18'] = '2026-11-19';
+  rt.S.learn['物理3'] = '2026-11-19';
+  rt.today = () => '2026-11-26';
   const recSem1 = rt.LearningEngine.recommend('2026-11-27', 'sem1_final');
   assert.ok(!recSem1.chosen.some(t => t.course === 'physics' && Number(t.chapter) === 18));
   const recAll = rt.LearningEngine.recommend('2026-11-27', 'all');
   assert.ok(recAll.chosen.some(t => t.course === 'physics' && Number(t.chapter) === 18));
+  rt.today = () => '2026-11-27';
   rt.ExamScopeHelper.setCurrentScope('all');
 });
 
