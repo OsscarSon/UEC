@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-28",
+  "books": [
+    {
+      "id": "sm1-chemistry-2017",
+      "subject": "化学",
+      "courseCode": "chemistry",
+      "title": "马来西亚华文独中教科书 · 高中适用 · 化学（上册）",
+      "shortTitle": "化上",
+      "volume": "上册",
+      "publisher": "董教总华文独中工委会统一课程委员会 / 浙江教育出版社",
+      "edition": "2017年11月版",
+      "printedPages": 448,
+      "pdfPages": 462,
+      "pageOffset": 14,
+      "driveFileId": "1UvrgvmGL1mju6mnhieQx148Pp2wdA1VU",
+      "status": "toc_indexed_ch3_complete",
+      "chaptersIndexed": [3],
+      "dataFile": "books/sm1-chemistry-2017.json"
+    }
+  ]
+}

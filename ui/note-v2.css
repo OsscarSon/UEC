@@ -1,0 +1,491 @@
+/* Global Note Typography Upgrade + Note V2 8-Module Interactive Stylesheet */
+
+/* 1. Global Typography & Readability Upgrade (Applies to both V1 legacy and V2 notes) */
+body.is-reader #v {
+  line-height: 1.78;
+}
+
+.lesson-section > summary {
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.note-module {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px dashed var(--bd);
+}
+
+.note-module > h4 {
+  margin: 0 0 10px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--ac);
+  letter-spacing: 0.01em;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.note-module p {
+  line-height: 1.78;
+  margin: 8px 0;
+}
+
+.note-module ul,
+.note-module ol {
+  line-height: 1.75;
+  margin: 8px 0;
+}
+
+.note-module .formula {
+  background: var(--bg);
+  border: 1px solid var(--bd);
+  border-left: 3px solid var(--ac);
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin: 10px 0;
+  overflow-x: auto;
+}
+
+.note-module .tip {
+  background: rgba(217, 119, 6, 0.08);
+  border-left: 3px solid var(--wa);
+  border-radius: 0 8px 8px 0;
+  padding: 8px 12px;
+  margin: 10px 0;
+}
+
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 4px 0;
+  max-width: 100%;
+}
+
+.tex-inline .katex {
+  font-size: 1.04em;
+}
+
+/* 2. Note V2 Chapter Hero & Overview */
+.note-v2-hero {
+  border-left: 4px solid var(--ac);
+}
+
+.note-v2-hero-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.note-v2-badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 8px 0;
+}
+
+.note-v2-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: var(--ac2);
+  color: var(--ac);
+  border: 1px solid rgba(47, 111, 94, 0.22);
+}
+
+.note-v2-pill.is-scope {
+  background: rgba(59, 130, 246, 0.1);
+  color: #2563eb;
+  border-color: rgba(37, 99, 235, 0.22);
+}
+
+.note-v2-pill.is-source {
+  background: rgba(217, 119, 6, 0.1);
+  color: var(--wa);
+  border-color: rgba(180, 83, 9, 0.25);
+}
+
+.note-v2-overview-tree {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.note-v2-tree-branch {
+  background: var(--bg);
+  border: 1px solid var(--bd);
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+.note-v2-tree-branch b {
+  display: block;
+  font-size: 13px;
+  color: var(--ac);
+  margin-bottom: 5px;
+}
+
+.note-v2-tree-branch ul {
+  margin: 0;
+  padding-left: 16px;
+  font-size: 13px;
+}
+
+/* 3. Module 1: Anchor Grid */
+.note-v2-provenance {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 6px 0 10px;
+  font-size: 12.5px;
+  color: var(--mu);
+}
+
+.note-v2-anchor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 10px;
+}
+
+.note-v2-anchor-box {
+  background: var(--bg);
+  border: 1px solid var(--bd);
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+.note-v2-anchor-box h5 {
+  margin: 0 0 6px;
+  font-size: 13px;
+  color: var(--tx);
+}
+
+/* 4. Module 2: Semantic Concept Cards & Tables */
+.note-v2-concepts {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.note-v2-concept-card {
+  background: var(--bg);
+  border: 1px solid var(--bd);
+  border-left: 4px solid var(--ac);
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+
+.note-v2-concept-card[data-kind="law"] {
+  border-left-color: #2563eb;
+}
+
+.note-v2-concept-card[data-kind="experiment"] {
+  border-left-color: #d97706;
+  background: rgba(217, 119, 6, 0.04);
+}
+
+.note-v2-concept-card[data-kind="mechanism"] {
+  border-left-color: #7c3aed;
+}
+
+.note-v2-concept-card[data-kind="table"] {
+  border-left-color: #0d9488;
+}
+
+.note-v2-concept-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.note-v2-concept-head h5 {
+  margin: 0;
+  font-size: 15px;
+  color: var(--tx);
+}
+
+.note-v2-page-tag {
+  font-size: 11.5px;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 6px;
+  background: var(--cd);
+  border: 1px solid var(--bd);
+  color: var(--mu);
+}
+
+.note-v2-takeaway {
+  margin-top: 8px;
+  padding: 7px 10px;
+  border-radius: 8px;
+  background: var(--ac2);
+  color: var(--tx);
+  font-size: 13.5px;
+}
+
+.note-v2-table-wrap {
+  overflow-x: auto;
+  margin-top: 8px;
+  max-width: 100%;
+}
+
+.note-v2-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13.5px;
+  background: var(--cd);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.note-v2-table th,
+.note-v2-table td {
+  border: 1px solid var(--bd);
+  padding: 7px 9px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.note-v2-table th {
+  background: var(--ac2);
+  color: var(--ac);
+  font-weight: 700;
+}
+
+/* 5. Module 3: KaTeX Formula Cards */
+.note-v2-formula-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.note-v2-formula-card {
+  background: var(--bg);
+  border: 1px solid var(--bd);
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+
+.note-v2-formula-card .tex-block {
+  margin: 8px 0;
+  padding: 8px 10px;
+  background: var(--cd);
+  border: 1px solid var(--bd);
+  border-radius: 8px;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.note-v2-formula-meta {
+  font-size: 12.5px;
+  color: var(--mu);
+  line-height: 1.55;
+}
+
+/* 6. Module 4: Pitfall Cards */
+.note-v2-pitfall-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.note-v2-pitfall-card {
+  border: 1px solid rgba(185, 28, 28, 0.25);
+  border-left: 4px solid #dc2626;
+  background: rgba(220, 38, 38, 0.04);
+  border-radius: 10px;
+  padding: 11px 13px;
+}
+
+.note-v2-pitfall-card h5 {
+  margin: 0 0 6px;
+  color: #b91c1c;
+  font-size: 14.5px;
+}
+
+.note-v2-pitfall-card p {
+  font-size: 13.5px;
+  margin: 5px 0;
+}
+
+/* 7. Module 5 & 6: Examples & L1-L4 Practice Cards */
+.note-v2-example-card,
+.note-v2-qcard {
+  background: var(--bg);
+  border: 1px solid var(--bd);
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+}
+
+.note-v2-qhead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.note-v2-tier {
+  font-size: 11.5px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 999px;
+  display: inline-block;
+}
+
+.note-v2-tier.tier-L1 { background: #dcfce7; color: #166534; }
+.note-v2-tier.tier-L2 { background: #dbeafe; color: #1d4ed8; }
+.note-v2-tier.tier-L3 { background: #fef3c7; color: #b45309; }
+.note-v2-tier.tier-L4 { background: #fee2e2; color: #b91c1c; }
+
+.note-v2-practice-toolbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.note-v2-practice-toolbar button {
+  font-size: 12.5px;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+.note-v2-practice-toolbar button.on {
+  background: var(--ac);
+  color: #fff;
+  border-color: var(--ac);
+}
+
+.note-v2-qcard.is-hidden {
+  display: none;
+}
+
+.note-v2-mcq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 8px 0 10px;
+}
+
+.note-v2-mcq-btn {
+  text-align: left;
+  padding: 8px 11px;
+  border-radius: 8px;
+  border: 1px solid var(--bd);
+  background: var(--cd);
+  cursor: pointer;
+  line-height: 1.5;
+  white-space: normal;
+  word-break: break-word;
+}
+
+.note-v2-mcq-btn:hover {
+  border-color: var(--ac);
+}
+
+.note-v2-mcq-btn.is-correct {
+  background: rgba(22, 163, 74, 0.14);
+  border-color: #16a34a;
+  color: #15803d;
+  font-weight: 600;
+}
+
+.note-v2-mcq-btn.is-wrong {
+  background: rgba(220, 38, 38, 0.12);
+  border-color: #dc2626;
+  color: #b91c1c;
+}
+
+.note-v2-qactions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.note-v2-sol-box {
+  margin-top: 8px;
+  padding: 10px 12px;
+  background: var(--cd);
+  border: 1px solid var(--bd);
+  border-radius: 8px;
+}
+
+.note-v2-rubric {
+  margin-top: 8px;
+  padding: 7px 10px;
+  background: var(--ac2);
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+/* 8. Module 7 & 8: Cheat Sheet & KB Trace */
+.note-v2-cheatsheet {
+  background: linear-gradient(135deg, rgba(47, 111, 94, 0.08), rgba(47, 111, 94, 0.02));
+  border: 1px solid rgba(47, 111, 94, 0.25);
+  border-radius: 10px;
+  padding: 11px 14px;
+}
+
+.note-v2-kb-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0 12px;
+}
+
+.note-v2-kb-chip {
+  font-size: 12.5px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background: var(--bg);
+  border: 1px solid var(--bd);
+  cursor: pointer;
+}
+
+.note-v2-kb-chip:hover {
+  border-color: var(--ac);
+  color: var(--ac);
+}
+
+/* Dark theme adjustments */
+:root[data-theme="dark"] .note-v2-pitfall-card h5 { color: #fca5a5; }
+:root[data-theme="dark"] .note-v2-pill.is-scope { color: #93c5fd; background: rgba(59, 130, 246, 0.18); }
+:root[data-theme="dark"] .note-v2-tier.tier-L1 { background: rgba(22, 163, 74, 0.24); color: #86efac; }
+:root[data-theme="dark"] .note-v2-tier.tier-L2 { background: rgba(37, 99, 235, 0.24); color: #93c5fd; }
+:root[data-theme="dark"] .note-v2-tier.tier-L3 { background: rgba(217, 119, 6, 0.24); color: #fcd34d; }
+:root[data-theme="dark"] .note-v2-tier.tier-L4 { background: rgba(220, 38, 38, 0.24); color: #fca5a5; }
+:root[data-theme="dark"] .note-v2-mcq-btn.is-correct { color: #86efac; }
+:root[data-theme="dark"] .note-v2-mcq-btn.is-wrong { color: #fca5a5; }
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .note-v2-pitfall-card h5 { color: #fca5a5; }
+  :root:not([data-theme="light"]) .note-v2-pill.is-scope { color: #93c5fd; background: rgba(59, 130, 246, 0.18); }
+  :root:not([data-theme="light"]) .note-v2-tier.tier-L1 { background: rgba(22, 163, 74, 0.24); color: #86efac; }
+  :root:not([data-theme="light"]) .note-v2-tier.tier-L2 { background: rgba(37, 99, 235, 0.24); color: #93c5fd; }
+  :root:not([data-theme="light"]) .note-v2-tier.tier-L3 { background: rgba(217, 119, 6, 0.24); color: #fcd34d; }
+  :root:not([data-theme="light"]) .note-v2-tier.tier-L4 { background: rgba(220, 38, 38, 0.24); color: #fca5a5; }
+}

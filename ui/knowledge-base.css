@@ -1,0 +1,158 @@
+/* Built-in Textbook Knowledge Base Workspace Stylesheet */
+
+.kb-shelf {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.kb-book-card {
+  background: var(--cd);
+  border: 1px solid var(--bd);
+  border-left: 4px solid var(--ac);
+  border-radius: 12px;
+  padding: 13px 15px;
+}
+
+.kb-book-card h3 {
+  margin: 4px 0 6px;
+  font-size: 15.5px;
+}
+
+.kb-meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.kb-mode-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.kb-mode-tabs button {
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-weight: 600;
+}
+
+.kb-mode-tabs button.on {
+  background: var(--ac);
+  color: #fff;
+  border-color: var(--ac);
+}
+
+.kb-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.kb-filter-bar input[type="search"],
+.kb-filter-bar input[type="text"] {
+  flex: 1;
+  min-width: 180px;
+}
+
+.kb-type-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.kb-type-chips button {
+  font-size: 12.5px;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+.kb-type-chips button.on {
+  background: var(--ac);
+  color: #fff;
+  border-color: var(--ac);
+}
+
+.kb-entry-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.kb-entry-card {
+  background: var(--cd);
+  border: 1px solid var(--bd);
+  border-radius: 12px;
+  padding: 13px 15px;
+}
+
+.kb-entry-card.is-highlighted {
+  border-color: var(--ac);
+  box-shadow: 0 0 0 2px rgba(47, 111, 94, 0.22);
+}
+
+.kb-entry-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.kb-entry-type {
+  font-size: 11.5px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--ac2);
+  color: var(--ac);
+}
+
+.kb-entry-card h4 {
+  margin: 0 0 6px;
+  font-size: 15px;
+}
+
+.kb-entry-card .tex-block {
+  margin: 8px 0;
+  padding: 8px 10px;
+  background: var(--bg);
+  border: 1px solid var(--bd);
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+.kb-toc-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.kb-toc-chapter {
+  background: var(--cd);
+  border: 1px solid var(--bd);
+  border-radius: 12px;
+  padding: 11px 14px;
+}
+
+.kb-toc-chapter > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.kb-toc-sections {
+  margin: 8px 0 0;
+  padding-left: 18px;
+  font-size: 13.5px;
+  line-height: 1.7;
+}
