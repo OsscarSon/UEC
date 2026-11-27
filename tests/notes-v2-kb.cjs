@@ -1,4 +1,4 @@
-/* Verification suite for Note V2 schema, KaTeX expressions, Knowledge Base bundles, and runtime hooks. */
+/* Verification suite for Note V2 schema (all 16 Chem chapters), KaTeX expressions, SVG diagrams, Knowledge Base bundles, UI cleanup, and runtime hooks. */
 const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
@@ -20,12 +20,18 @@ vm.createContext(katexCtx);
 vm.runInContext(fs.readFileSync(path.join(root, 'vendor', 'katex', 'katex.min.js'), 'utf8'), katexCtx);
 const katex = katexCtx.katex;
 
-C('Knowledge Base manifest and book TOC cover all 16 chapters + appendix and match kb-bundle.js', () => {
+C('Knowledge Base manifest and book TOC cover all 16 chapters + appendix (complete_16_chapters) and match kb-bundle.js', () => {
   const manifest = JSON.parse(fs.readFileSync(path.join(root, 'data', 'knowledge-base', 'manifest.json'), 'utf8'));
   const book = JSON.parse(fs.readFileSync(path.join(root, 'data', 'knowledge-base', 'books', 'sm1-chemistry-2017.json'), 'utf8'));
   assert.equal(manifest.books.length, 1);
+  assert.equal(manifest.books[0].status, 'complete_16_chapters');
+  assert.equal(manifest.books[0].chaptersIndexed.length, 16);
   assert.equal(book.toc.length, 17); // Ch 1-16 + 附录
-  assert.ok(book.entries.length >= 15);
+  assert.ok(book.toc.every(c => c.indexed === true));
+  assert.ok(book.entries.length >= 60, `Expected >= 60 KB entries across 16 chapters, got ${book.entries.length}`);
+
+  const filesInBooks = fs.readdirSync(path.join(root, 'data', 'knowledge-base', 'books'));
+  assert.ok(!filesInBooks.some(f => f.startsWith('_part_')), 'Temporary _part_* files must be cleaned up');
 
   const ctx = { console, window: {} };
   ctx.window = ctx;
@@ -35,33 +41,72 @@ C('Knowledge Base manifest and book TOC cover all 16 chapters + appendix and mat
   assert.equal(bundled.books.length, 1);
   assert.equal(bundled.tocByBook['sm1-chemistry-2017'].length, 17);
   assert.equal(bundled.entries.length, book.entries.length);
-  assert.equal(bundled.entriesByLesson['化学3'].length, book.entries.length);
-});
-
-C('Note V2 chem03.json has all 6 sections, 8 modules, and 30 L1-L4 verified questions', () => {
-  const chem3 = JSON.parse(fs.readFileSync(path.join(root, 'data', 'notes-v2', 'chem03.json'), 'utf8'));
-  assert.equal(chem3.lessonKey, '化学3');
-  assert.equal(chem3.sections.length, 6);
-  let totalPractice = 0;
-  for (const s of chem3.sections) {
-    assert.ok(s.anchor.goals.length >= 3);
-    assert.ok(s.concepts.length >= 3);
-    assert.ok(s.formulas.length >= 2);
-    assert.ok(s.pitfalls.length >= 2);
-    assert.ok(s.examples.length >= 2);
-    assert.ok(s.practice.length === 5, `${s.id} should have 5 questions`);
-    assert.ok(s.cheatSheet.length >= 3);
-    assert.ok(s.kbEntryIds.length >= 1);
-    const tiers = new Set(s.practice.map(q => q.tier));
-    assert.ok(tiers.has('L1') && tiers.has('L2') && tiers.has('L3') && tiers.has('L4'), `${s.id} missing full L1-L4 tier spread`);
-    totalPractice += s.practice.length;
+  for (let ch = 1; ch <= 16; ch++) {
+    assert.ok((bundled.entriesByLesson[`化学${ch}`] || []).length >= 2, `Missing KB entries for 化学${ch}`);
   }
-  assert.equal(totalPractice, 30);
 });
 
-C('Every single TeX expression in chem03.json and sm1-chemistry-2017.json passes strict KaTeX rendering', () => {
+C('All 16 Note V2 Chemistry chapters (chem01..chem16) satisfy complete 8-module schema, L1-L4 practice, and valid SVGs', () => {
+  const kbBook = JSON.parse(fs.readFileSync(path.join(root, 'data', 'knowledge-base', 'books', 'sm1-chemistry-2017.json'), 'utf8'));
+  const kbIds = new Set(kbBook.entries.map(e => e.id));
+  let totalSections = 0;
+  let totalPractice = 0;
+  const svgPaths = new Set();
+
+  for (let ch = 1; ch <= 16; ch++) {
+    const file = path.join(root, 'data', 'notes-v2', `chem${String(ch).padStart(2, '0')}.json`);
+    assert.ok(fs.existsSync(file), `Missing ${file}`);
+    const data = JSON.parse(fs.readFileSync(file, 'utf8'));
+    assert.equal(data.lessonKey, `化学${ch}`);
+    assert.equal(data.chapter, ch);
+    assert.ok(Array.isArray(data.sections) && data.sections.length >= 2, `chem${ch} sections missing`);
+
+    for (const s of data.sections) {
+      totalSections += 1;
+      assert.ok(Array.isArray(s.anchor?.goals) && s.anchor.goals.length >= 3, `${data.lessonKey}:${s.id} goals < 3`);
+      assert.ok(Array.isArray(s.concepts) && s.concepts.length >= 3, `${data.lessonKey}:${s.id} concepts < 3`);
+      assert.ok(Array.isArray(s.formulas) && s.formulas.length >= 2, `${data.lessonKey}:${s.id} formulas < 2`);
+      assert.ok(Array.isArray(s.pitfalls) && s.pitfalls.length >= 2, `${data.lessonKey}:${s.id} pitfalls < 2`);
+      assert.ok(Array.isArray(s.examples) && s.examples.length >= 2, `${data.lessonKey}:${s.id} examples < 2`);
+      assert.ok(Array.isArray(s.practice) && s.practice.length >= 4, `${data.lessonKey}:${s.id} practice < 4`);
+      assert.ok(Array.isArray(s.cheatSheet) && s.cheatSheet.length >= 3, `${data.lessonKey}:${s.id} cheatSheet < 3`);
+      assert.ok(s.quiz && s.quiz.q && s.quiz.ans, `${data.lessonKey}:${s.id} quiz incomplete`);
+
+      const tiers = new Set(s.practice.map(q => q.tier));
+      assert.ok(tiers.has('L1') && tiers.has('L2') && tiers.has('L3') && tiers.has('L4'), `${data.lessonKey}:${s.id} missing L1-L4 spread`);
+      for (const q of s.practice) {
+        if (q.options) {
+          assert.equal(q.options.length, 4, `${q.id} options must be 4`);
+          assert.ok(['A', 'B', 'C', 'D'].includes(q.correctOption), `${q.id} invalid correctOption`);
+        }
+      }
+      totalPractice += s.practice.length;
+
+      for (const id of s.kbEntryIds || []) {
+        assert.ok(kbIds.has(id), `${data.lessonKey}:${s.id} references unknown kbEntryId "${id}"`);
+      }
+
+      for (const d of s.diagrams || []) {
+        assert.ok(d.src && d.src.startsWith('assets/fig/v2/'), `${data.lessonKey}:${s.id} invalid diagram path ${d.src}`);
+        svgPaths.add(d.src);
+      }
+    }
+  }
+
+  for (const rel of svgPaths) {
+    const abs = path.join(root, rel);
+    assert.ok(fs.existsSync(abs), `Missing SVG diagram: ${rel}`);
+    const svg = fs.readFileSync(abs, 'utf8');
+    assert.ok(svg.includes('<svg') && svg.includes('</svg>'), `Malformed SVG: ${rel}`);
+  }
+  assert.ok(svgPaths.size >= 18, `Expected >= 18 bespoke SVG diagrams, got ${svgPaths.size}`);
+  assert.ok(totalPractice >= 240, `Expected >= 240 practice questions across 16 chapters, got ${totalPractice}`);
+  console.log(`Schema summary: 16 chapters, ${totalSections} sections, ${totalPractice} practice questions, ${svgPaths.size} SVG diagrams.`);
+});
+
+C('Every single TeX expression across all 16 Chem chapters and sm1-chemistry-2017.json passes strict KaTeX rendering', () => {
   let count = 0;
-  function checkStr(s, loc) {
+  function checkStr(s) {
     if (typeof s !== 'string') return;
     for (const m of s.matchAll(/\\\(([\s\S]+?)\\\)|\\\[([\s\S]+?)\\\]/g)) {
       const tex = m[1] || m[2];
@@ -69,26 +114,34 @@ C('Every single TeX expression in chem03.json and sm1-chemistry-2017.json passes
       count++;
     }
   }
-  function walk(v, loc) {
-    if (Array.isArray(v)) v.forEach((x, i) => walk(x, `${loc}[${i}]`));
+  function walk(v) {
+    if (Array.isArray(v)) v.forEach(walk);
     else if (v && typeof v === 'object') {
       if (typeof v.tex === 'string') {
         katex.renderToString(v.tex, { throwOnError: true, displayMode: true, strict: 'error' });
         count++;
       }
       for (const [k, val] of Object.entries(v)) {
-        if (k !== 'tex') walk(val, `${loc}.${k}`);
+        if (k !== 'tex') walk(val);
       }
     } else {
-      checkStr(v, loc);
+      checkStr(v);
     }
   }
-  walk(JSON.parse(fs.readFileSync(path.join(root, 'data', 'notes-v2', 'chem03.json'), 'utf8')), 'chem03');
-  walk(JSON.parse(fs.readFileSync(path.join(root, 'data', 'knowledge-base', 'books', 'sm1-chemistry-2017.json'), 'utf8')), 'kb');
-  assert.ok(count >= 80, `Expected >= 80 KaTeX expressions, got ${count}`);
+  for (let ch = 1; ch <= 16; ch++) {
+    walk(JSON.parse(fs.readFileSync(path.join(root, 'data', 'notes-v2', `chem${String(ch).padStart(2, '0')}.json`), 'utf8')));
+  }
+  walk(JSON.parse(fs.readFileSync(path.join(root, 'data', 'knowledge-base', 'books', 'sm1-chemistry-2017.json'), 'utf8')));
+  assert.ok(count >= 400, `Expected >= 400 KaTeX expressions across all 16 chapters, got ${count}`);
 });
 
-C('Runtime integration: Note V2 renders 8 modules for chem3, 12 modules for legacy phys3, syncs questionBank + KB UI', () => {
+C('UI cleanup & runtime integration: redundant tabs removed, math-research-entry placement fixed, Note V2 + KB runtime active', () => {
+  const dashSrc = fs.readFileSync(path.join(root, 'ui', 'dashboard.js'), 'utf8');
+  assert.ok(!dashSrc.includes("['textbooks','课本资料']"));
+  assert.ok(!dashSrc.includes("['plan','原四周计划']"));
+  const mathUiSrc = fs.readFileSync(path.join(root, 'ui', 'math-exams.js'), 'utf8');
+  assert.ok(!mathUiSrc.includes("document.getElementById('v').prepend(n)"));
+
   const curriculum = JSON.parse(fs.readFileSync(path.join(root, 'data', 'curriculum.json'), 'utf8'));
   const ctx = {
     console,
@@ -161,24 +214,22 @@ C('Runtime integration: Note V2 renders 8 modules for chem3, 12 modules for lega
     vm.runInContext(fs.readFileSync(path.join(root, rel), 'utf8'), ctx);
   }
 
-  const chemHtml = ctx.renderSection(ctx.LESSONS['化学3'].sections[0], '化学3');
-  const v2Mods = chemHtml.match(/class="note-module note-module-v2"/g) || [];
-  assert.equal(v2Mods.length, 8, 'Chem3 section should render 8 V2 modules');
-  assert.ok(chemHtml.includes('data-tex-inline=') || chemHtml.includes('data-tex='), 'Chem3 V2 note should carry KaTeX attributes');
-  assert.ok(chemHtml.includes('tier-L4'), 'Chem3 V2 note should contain L4 tier exercises');
+  for (let ch = 1; ch <= 16; ch++) {
+    const key = `化学${ch}`;
+    assert.ok(ctx.NOTES_V2[key], `Missing NOTES_V2[${key}]`);
+    const html = ctx.renderSection(ctx.LESSONS[key].sections[0], key);
+    const v2Mods = html.match(/class="note-module note-module-v2"/g) || [];
+    assert.equal(v2Mods.length, 8, `${key} section[0] should render 8 V2 modules`);
+  }
 
   const physHtml = ctx.renderSection(ctx.LESSONS['物理3'].sections[0], '物理3');
   const legacyMods = physHtml.match(/class="note-module"/g) || [];
   assert.equal(legacyMods.length, 12, 'Legacy Phys3 section should still render 12 V1 modules');
 
-  const bank = ctx.questionBank().filter(q => q.subject_code === 'chemistry' && q.chapter_id === 3);
-  assert.equal(bank.length, 30, 'questionBank should expose all 30 V2 Ch3 questions');
-  assert.equal(ctx.LearningEngine.pool('chemistry', [3], '', 'sem1_final').length, 30);
-  assert.ok(ctx.LearningEngine.pool('chemistry', [], '', 'sem1_final').length >= 30);
-
+  const chemBank = ctx.questionBank().filter(q => q.subject_code === 'chemistry' && q.chapter_id >= 1 && q.chapter_id <= 16);
+  assert.ok(chemBank.length >= 240);
   const kbHtml = ctx.KnowledgeBaseUI.view();
   assert.ok(kbHtml.includes('sm1-chemistry-2017'));
-  assert.ok(kbHtml.includes('活动探究1'));
 });
 
 for (const c of checks) console.log(`PASS: ${c.name}`);

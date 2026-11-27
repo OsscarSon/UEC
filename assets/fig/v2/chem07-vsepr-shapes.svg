@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 410" width="100%" height="auto">
+  <rect x="0" y="0" width="760" height="410" rx="14" fill="#ffffff"/>
+  <rect x="12" y="12" width="736" height="386" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="380" y="40" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="17" font-weight="700" fill="#0f172a">常见共价分子的价层电子对空间构型与分子极性判别（化上 p.173–174）</text>
+
+  <defs>
+    <marker id="dip-l" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"><polygon points="6 0, 0 3, 6 6" fill="#dc2626"/></marker>
+    <marker id="dip-r" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"><polygon points="0 0, 6 3, 0 6" fill="#dc2626"/></marker>
+  </defs>
+
+  <!-- Card 1: CO2 -->
+  <rect x="26" y="58" width="168" height="248" rx="10" fill="#ecfdf5" stroke="#10b981" stroke-width="1.6"/>
+  <rect x="26" y="58" width="168" height="32" rx="10" fill="#10b981"/>
+  <text x="110" y="79" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="13.5" font-weight="700" fill="#ffffff">CO₂（直线形）</text>
+  <!-- Molecule O=C=O -->
+  <line x1="60" y1="142" x2="100" y2="142" stroke="#334155" stroke-width="3"/>
+  <line x1="60" y1="148" x2="100" y2="148" stroke="#334155" stroke-width="3"/>
+  <line x1="120" y1="142" x2="160" y2="142" stroke="#334155" stroke-width="3"/>
+  <line x1="120" y1="148" x2="160" y2="148" stroke="#334155" stroke-width="3"/>
+  <circle cx="52" cy="145" r="14" fill="#ef4444" stroke="#991b1b" stroke-width="1.5"/>
+  <text x="52" y="149" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#ffffff">O</text>
+  <circle cx="110" cy="145" r="14" fill="#334155" stroke="#0f172a" stroke-width="1.5"/>
+  <text x="110" y="149" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#ffffff">C</text>
+  <circle cx="168" cy="145" r="14" fill="#ef4444" stroke="#991b1b" stroke-width="1.5"/>
+  <text x="168" y="149" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#ffffff">O</text>
+  <text x="110" y="178" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="11" fill="#065f46">← 键角 180° →</text>
+  <rect x="36" y="192" width="148" height="102" rx="6" fill="#ffffff" stroke="#6ee7b7"/>
+  <text x="110" y="210" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="11" fill="#1e293b">中心电子对：2对（0孤对）</text>
+  <text x="110" y="229" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="11" fill="#1e293b">键型：C=O 极性共价键</text>
+  <text x="110" y="248" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="11" fill="#1e293b">空间排布：完全对称抵消</text>
+  <text x="110" y="276" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="12.5" font-weight="700" fill="#059669">非极性分子</text>
+
+  <!-- Card 2: H2O -->
+  <rect x="206" y="58" width="168" height="248" rx="10" fill="#fff7ed" stroke="#f97316" stroke-width="1.6"/>
+  <rect x="206" y="58" width="168" height="32" rx="10" fill="#ea580c"/>
+  <text x="290" y="79" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="13.5" font-weight="700" fill="#ffffff">H₂O（角形 / V形）</text>
+  <!-- Molecule H-O-H -->
+  <ellipse cx="290" cy="116" rx="16" ry="8" fill="#fef08a" stroke="#ca8a04" stroke-dasharray="2,2"/>
+  <text x="290" y="119" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#854d0e">2对孤电子</text>
+  <line x1="290" y1="138" x2="252" y2="168" stroke="#334155" stroke-width="3"/>
+  <line x1="290" y1="138" x2="328" y2="168" stroke="#334155" stroke-width="3"/>
+  <circle cx="290" cy="138" r="14" fill="#ef4444" stroke="#991b1b" stroke-width="1.5"/>
+  <text x="290" y="142" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#ffffff">O</text>
+  <circle cx="250" cy="170" r="10" fill="#38bdf8" stroke="#0369a1" stroke-width="1.5"/>
+  <text x="250" y="174" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#ffffff">H</text>
+  <circle cx="330" cy="170" r="10" fill="#38bdf8" stroke="#0369a1" stroke-width="1.5"/>
+  <text x="330" y="174" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#ffffff">H</text>
+  <text x="290" y="180" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="10.5" fill="#9a3412">104.5°</text>
+  <rect x="216" y="192" width="148" height="102" rx="6" fill="#ffffff" stroke="#fdba74"/>
+  <text x="290" y="210" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="11" fill="#1e293b">中心电子对：4对（2孤对）</text>
+  <text x="290" y="229" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="11" fill="#1e293b">键型：O−H 极性共价键</text>
+  <text x="290" y="248" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="11" fill="#1e293b">两键极性不共线，无法抵消</text>
+  <text x="290" y="276" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="12.5" font-weight="700" fill="#c2410c">极性分子（偶极向 O）</text>
+
+  <!-- Card 3: NH3 -->
+  <rect x="386" y="58" width="168" height="248" rx="10" fill="#fff7ed" stroke="#f97316" stroke-width="1.6"/>
+  <rect x="386" y="58" width="168" height="32" rx="10" fill="#ea580c"/>
+  <text x="470" y="79" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="13.5" font-weight="700" fill="#ffffff">NH₃（三角锥形）</text>
+  <!-- Molecule NH3 -->
+  <ellipse cx="470" cy="114" rx="16" ry="8" fill="#fef08a" stroke="#ca8a04" stroke-dasharray="2,2"/>
+  <text x="470" y="117" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#854d0e">1对孤电子</text>
+  <line x1="470" y1="136" x2="432" y2="168" stroke="#334155" stroke-width="2.8"/>
+  <line x1="470" y1="136" x2="470" y2="174" stroke="#334155" stroke-width="2.8"/>
+  <line x1="470" y1="136" x2="508" y2="168" stroke="#334155" stroke-width="2.8"/>
+  <circle cx="470" cy="136" r="14" fill="#2563eb" stroke="#1e3a8a" stroke-width="1.5"/>
+  <text x="470" y="140" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#ffffff">N</text>
+  <circle cx="430" cy="170" r="10" fill="#38bdf8" stroke="#0369a1" stroke-width="1.5"/>
+  <text x="430" y="174" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#ffffff">H</text>
+  <circle cx="470" cy="175" r="10" fill="#38bdf8" stroke="#0369a1" stroke-width="1.5"/>
+  <text x="470" y="179" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#ffffff">H</text>
+  <circle cx="510" cy="170" r="10" fill="#38bdf8" stroke="#0369a1" stroke-width="1.5"/>
+  <text x="510" y="174" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#ffffff">H</text>
+  <rect x="396" y="192" width="148" height="102" rx="6" fill="#ffffff" stroke="#fdba74"/>
+  <text x="470" y="210" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="11" fill="#1e293b">中心电子对：4对（1孤对）</text>
+  <text x="470" y="229" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="11" fill="#1e293b">键型：N−H 极性共价键</text>
+  <text x="470" y="248" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="11" fill="#1e293b">非平面三角锥，键角约107°</text>
+  <text x="470" y="276" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="12.5" font-weight="700" fill="#c2410c">极性分子（易溶水）</text>
+
+  <!-- Card 4: CH4 -->
+  <rect x="566" y="58" width="168" height="248" rx="10" fill="#ecfdf5" stroke="#10b981" stroke-width="1.6"/>
+  <rect x="566" y="58" width="168" height="32" rx="10" fill="#10b981"/>
+  <text x="650" y="79" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="13.5" font-weight="700" fill="#ffffff">CH₄（正四面体）</text>
+  <!-- Molecule CH4 -->
+  <line x1="650" y1="142" x2="650" y2="112" stroke="#334155" stroke-width="2.8"/>
+  <line x1="650" y1="142" x2="615" y2="168" stroke="#334155" stroke-width="2.8"/>
+  <line x1="650" y1="142" x2="685" y2="168" stroke="#334155" stroke-width="2.8"/>
+  <line x1="650" y1="142" x2="650" y2="176" stroke="#334155" stroke-width="2.8" stroke-dasharray="3,2"/>
+  <circle cx="650" cy="142" r="14" fill="#334155" stroke="#0f172a" stroke-width="1.5"/>
+  <text x="650" y="146" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#ffffff">C</text>
+  <circle cx="650" cy="110" r="10" fill="#38bdf8" stroke="#0369a1" stroke-width="1.5"/>
+  <text x="650" y="114" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#ffffff">H</text>
+  <circle cx="614" cy="170" r="10" fill="#38bdf8" stroke="#0369a1" stroke-width="1.5"/>
+  <text x="614" y="174" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#ffffff">H</text>
+  <circle cx="686" cy="170" r="10" fill="#38bdf8" stroke="#0369a1" stroke-width="1.5"/>
+  <text x="686" y="174" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#ffffff">H</text>
+  <circle cx="650" cy="176" r="9.5" fill="#7dd3fc" stroke="#0284c7" stroke-width="1.2"/>
+  <text x="650" y="180" text-anchor="middle" font-family="sans-serif" font-size="9.5" font-weight="700" fill="#0f172a">H</text>
+  <rect x="576" y="192" width="148" height="102" rx="6" fill="#ffffff" stroke="#6ee7b7"/>
+  <text x="650" y="210" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="11" fill="#1e293b">中心电子对：4对（0孤对）</text>
+  <text x="650" y="229" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="11" fill="#1e293b">键型：C−H 极性共价键</text>
+  <text x="650" y="248" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="11" fill="#1e293b">正四面体对称（109.5°）</text>
+  <text x="650" y="276" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="12.5" font-weight="700" fill="#059669">非极性分子</text>
+
+  <!-- Bottom Decision Rule Bar -->
+  <rect x="26" y="318" width="708" height="66" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="380" y="340" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="12.5" font-weight="700" fill="#1e40af">UEC 高频判别两步法（p.171–174）</text>
+  <text x="380" y="360" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="11.5" fill="#1e293b">① 化学键极性：ΔEN = 0 为非极性共价键；0 &lt; ΔEN &lt; 1.7 通常为极性共价键；ΔEN &gt; 1.7 通常为离子键。</text>
+  <text x="380" y="377" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="11.5" fill="#1e293b">② 分子极性：只含非极性键必非极性；含极性键的多原子分子看空间构型是否对称抵消（如 CO₂、CH₄、CCl₄ 皆非极性）。</text>
+</svg>

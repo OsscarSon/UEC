@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="100%" height="auto">
+  <defs>
+    <marker id="arr-s" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#475569"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="760" height="400" rx="14" fill="#ffffff"/>
+  <rect x="12" y="12" width="736" height="376" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="380" y="38" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="16" font-weight="700" fill="#0f172a">接触法制硫酸工业流程与浓硫酸三大特性对照（化上 p.364–367）</text>
+
+  <!-- Top Half: Contact Process -->
+  <rect x="24" y="50" width="712" height="170" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="40" y="70" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#0f172a">一、接触法（Contact Process）三阶段工业流程</text>
+
+  <!-- Step 1: Roaster -->
+  <rect x="38" y="82" width="154" height="92" rx="8" fill="#fff7ed" stroke="#f97316" stroke-width="1.6"/>
+  <text x="115" y="102" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#c2410c">① 沸腾炉（造气）</text>
+  <text x="115" y="122" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#334155">原料：S 或黄铁矿 FeS₂</text>
+  <text x="115" y="140" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="600" fill="#7c2d12">4FeS₂+11O₂→2Fe₂O₃+8SO₂</text>
+  <text x="115" y="160" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#9a3412">先净化干燥：除 As/Se/尘/水</text>
+
+  <line x1="192" y1="128" x2="216" y2="128" stroke="#475569" stroke-width="2" marker-end="url(#arr-s)"/>
+
+  <!-- Purification mini-badge -->
+  <rect x="218" y="96" width="66" height="64" rx="8" fill="#fefce8" stroke="#eab308" stroke-width="1.4"/>
+  <text x="251" y="118" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#854d0e">净化</text>
+  <text x="251" y="134" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#713f12">防催化剂</text>
+  <text x="251" y="148" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#713f12">中毒</text>
+
+  <line x1="284" y1="128" x2="306" y2="128" stroke="#475569" stroke-width="2" marker-end="url(#arr-s)"/>
+
+  <!-- Step 2: Contact Chamber -->
+  <rect x="308" y="82" width="188" height="92" rx="8" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.6"/>
+  <text x="402" y="102" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#1d4ed8">② 接触室（催化氧化）</text>
+  <text x="402" y="122" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#1e3a8a">2SO₂ + O₂ ⇌ 2SO₃</text>
+  <text x="402" y="140" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#1e40af">条件：V₂O₅ 催化剂 · 400~500℃</text>
+  <text x="402" y="158" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#334155">热交换器预热原料气、回收反应热</text>
+
+  <line x1="496" y1="128" x2="520" y2="128" stroke="#475569" stroke-width="2" marker-end="url(#arr-s)"/>
+
+  <!-- Step 3: Absorption Tower -->
+  <rect x="522" y="82" width="200" height="92" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.6"/>
+  <text x="622" y="102" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#b91c1c">③ 吸收塔（98.3% 浓 H₂SO₄）</text>
+  <text x="622" y="122" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="600" fill="#7f1d1d">SO₃ + H₂SO₄ → H₂SO₄·SO₃</text>
+  <text x="622" y="140" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#991b1b">再加水：发烟硫酸 + H₂O → 2H₂SO₄</text>
+  <text x="622" y="158" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#dc2626">忌直接用水吸收（易形成酸雾！）</text>
+
+  <!-- Recycling loop arrow -->
+  <path d="M 622 174 L 622 204 L 402 204 L 402 176" fill="none" stroke="#059669" stroke-width="1.6" stroke-dasharray="5 3" marker-end="url(#arr-s)"/>
+  <text x="512" y="198" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="600" fill="#047857">二次转化与二次吸收（提高原料利用率、尾气达标排放）</text>
+
+  <!-- Bottom Half: 3 Properties of Conc. H2SO4 -->
+  <text x="40" y="242" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#0f172a">二、浓硫酸（98.3%，主要以 H₂SO₄ 分子形式存在）三大特性必考对照</text>
+
+  <!-- Card 1: Hygroscopicity -->
+  <rect x="24" y="252" width="226" height="122" rx="10" fill="#ecfdf5" stroke="#10b981" stroke-width="1.6"/>
+  <rect x="24" y="252" width="226" height="30" rx="10" fill="#10b981"/>
+  <text x="137" y="272" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#ffffff">1. 吸水性（物理/水合）</text>
+  <text x="36" y="300" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#065f46">本质：吸走游离水或结晶水</text>
+  <text x="36" y="320" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#1e293b">• 敞口久置质量↑、浓度↓</text>
+  <text x="36" y="338" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#1e293b">• 使蓝胆矾 CuSO₄·5H₂O 变白</text>
+  <text x="36" y="356" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="600" fill="#b45309">干燥剂禁忌：不可干燥 NH₃、H₂S</text>
+
+  <!-- Card 2: Dehydration -->
+  <rect x="267" y="252" width="226" height="122" rx="10" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.6"/>
+  <rect x="267" y="252" width="226" height="30" rx="10" fill="#f59e0b"/>
+  <text x="380" y="272" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#ffffff">2. 脱水性（化学变化）</text>
+  <text x="279" y="300" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#92400e">本质：按 H:O = 2:1 夺取化合态</text>
+  <text x="279" y="320" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#1e293b">• 蔗糖黑面包实验（p.365 活动24）</text>
+  <text x="279" y="338" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#1e293b">  C₁₂H₂₂O₁₁ → 12C + 11H₂O</text>
+  <text x="279" y="356" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="600" fill="#b45309">膨胀因 C+2H₂SO₄→CO₂↑+2SO₂↑</text>
+
+  <!-- Card 3: Strong Oxidant -->
+  <rect x="510" y="252" width="226" height="122" rx="10" fill="#fee2e2" stroke="#ef4444" stroke-width="1.6"/>
+  <rect x="510" y="252" width="226" height="30" rx="10" fill="#ef4444"/>
+  <text x="623" y="272" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#ffffff">3. 强氧化性（+6 价 S）</text>
+  <text x="522" y="300" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#991b1b">常温钝化 Fe/Al；加热氧化多数物</text>
+  <text x="522" y="320" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#1e293b">• Cu+2H₂SO₄(浓) Δ→ CuSO₄+SO₂↑</text>
+  <text x="522" y="338" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#1e293b">• C+2H₂SO₄(浓) Δ→ CO₂↑+2SO₂↑</text>
+  <text x="522" y="356" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="600" fill="#b91c1c">还原产物为 SO₂（非 H₂！）</text>
+</svg>

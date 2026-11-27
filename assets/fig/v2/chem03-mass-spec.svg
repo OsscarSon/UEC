@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="100%" height="auto">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0f766e"/>
+    </marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#dc2626"/>
+    </marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="760" height="360" rx="14" fill="#ffffff"/>
+  <rect x="12" y="12" width="736" height="336" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="380" y="42" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#0f172a">质谱仪工作原理与同位素磁场偏转规律（化上 p.53–54）</text>
+
+  <!-- Stage 1 -->
+  <rect x="30" y="95" width="110" height="80" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="85" y="124" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#92400e">① 样品气化</text>
+  <text x="85" y="146" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" fill="#78350f">变成气态微粒</text>
+  <text x="85" y="164" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" fill="#78350f">进入真空管道</text>
+  <line x1="140" y1="135" x2="172" y2="135" stroke="#0f766e" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- Stage 2 -->
+  <rect x="176" y="95" width="118" height="80" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="235" y="124" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#1e40af">② 电子轰击电离</text>
+  <text x="235" y="146" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" fill="#1e3a8a">击出电子产生</text>
+  <text x="235" y="164" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" fill="#1e3a8a">带正电离子 X⁺</text>
+  <line x1="294" y1="135" x2="326" y2="135" stroke="#0f766e" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- Stage 3 -->
+  <rect x="330" y="95" width="110" height="80" rx="8" fill="#e0e7ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="385" y="124" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#3730a3">③ 电场加速</text>
+  <text x="385" y="146" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" fill="#312e81">高压电极板形成</text>
+  <text x="385" y="164" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" fill="#312e81">准直高速离子束</text>
+  <line x1="440" y1="135" x2="472" y2="135" stroke="#0f766e" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- Stage 4: Magnetic Field -->
+  <rect x="476" y="72" width="190" height="196" rx="12" fill="#f1f5f9" stroke="#64748b" stroke-width="1.8" stroke-dasharray="5,4"/>
+  <text x="571" y="94" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#334155">④ 匀强磁场偏转区 (B)</text>
+  <!-- Light ion path (more deflection -> sharper curve down) -->
+  <path d="M 476 135 Q 545 142 572 252" fill="none" stroke="#dc2626" stroke-width="2.8" marker-end="url(#arrow-red)"/>
+  <text x="515" y="220" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#dc2626">轻离子 ³⁵Cl⁺</text>
+  <text x="515" y="236" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#dc2626">偏转大·半径小</text>
+
+  <!-- Heavy ion path (less deflection -> larger radius) -->
+  <path d="M 476 135 Q 608 138 648 252" fill="none" stroke="#2563eb" stroke-width="2.8" marker-end="url(#arrow-blue)"/>
+  <text x="598" y="180" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#2563eb">重离子 ³⁷Cl⁺</text>
+  <text x="598" y="196" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#2563eb">偏转小·半径大</text>
+
+  <!-- Detector -->
+  <rect x="520" y="268" width="175" height="32" rx="6" fill="#0f766e"/>
+  <text x="607" y="289" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12.5" font-weight="700" fill="#ffffff">⑤ 检测记录仪 (峰高=丰度)</text>
+
+  <!-- Key Rule Summary Box -->
+  <rect x="30" y="210" width="410" height="114" rx="10" fill="#ecfdf5" stroke="#10b981" stroke-width="1.5"/>
+  <text x="46" y="236" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13.5" font-weight="700" fill="#065f46">考场核心结论（同电荷离子对比）</text>
+  <text x="46" y="260" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#0f172a">• 相同正电荷时，离子质量越大 ⇒ 惯性越大 ⇒ 偏转程度越小、半径越大。</text>
+  <text x="46" y="282" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#0f172a">• 峰位置定相对原子质量 Ar（以 ¹²C/12 = 1 amu 校准）；峰面积/高度比定天然丰度。</text>
+  <text x="46" y="304" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#0f172a">• Cl₂⁺ 质谱三峰：70(³⁵Cl₂) : 72(³⁵Cl³⁷Cl×2) : 74(³⁷Cl₂) = 9 : 6 : 1。</text>
+</svg>

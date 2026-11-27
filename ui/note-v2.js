@@ -128,12 +128,16 @@
         ${c.takeaway ? `<div class="note-v2-takeaway"><b>核心提炼：</b>${richText(c.takeaway)}</div>` : ''}
       </article>`).join('')}</div>`;
 
+    const v2FigsHtml = Array.isArray(v2Sec.diagrams) && v2Sec.diagrams.length
+      ? `<div class="note-v2-figure-grid">${v2Sec.diagrams.map(d => `<figure class="note-v2-figure"><button type="button" class="figure-open" data-a="figure-open" data-src="${safeEsc(d.src)}" data-caption="${safeEsc(d.caption || d.alt || '')}" aria-label="放大查看：${safeEsc(d.caption || d.alt || '')}"><img src="${safeEsc(d.src)}" alt="${safeEsc(d.alt || d.caption || '')}" loading="lazy"></button><figcaption>${d.pageRef ? `<span class="note-v2-page-tag">${safeEsc(d.pageRef)}</span> ` : ''}${richText(d.caption || '')} <span class="mu">· 点击放大</span></figcaption></figure>`).join('')}</div>`
+      : '';
+
     const legacyFigs = (s.figs || [])
       .filter(f => !(window.QUARANTINED_LEGACY_FIGURES || []).includes(f[0]) && !Object.hasOwn(window.V22_SUPERSEDED_FIGURES || {}, f[0]))
       .map(f => typeof window.figureBlock === 'function' ? window.figureBlock(f[0], f[1]) : '')
       .join('');
 
-    const m3 = `${legacyFigs}<div class="note-v2-formula-grid">${v2Sec.formulas.map(f => `
+    const m3 = `${v2FigsHtml || legacyFigs}<div class="note-v2-formula-grid">${v2Sec.formulas.map(f => `
       <article class="note-v2-formula-card">
         <div class="note-v2-concept-head"><b>${safeEsc(f.title)}</b><span class="note-v2-page-tag">${safeEsc(f.pageRef)}</span></div>
         <div class="tex-block" data-tex="${safeEsc(f.tex)}">${safeEsc(f.tex)}</div>
@@ -260,11 +264,12 @@
         topCard.append(extraHero);
       }
 
-      // Remove redundant legacy bottom ex/pr/method/vid cards if already integrated inside V2 8-module sections.
-      holder.querySelectorAll(':scope > details.card:not(.lesson-section)').forEach(det => {
-        const title = det.querySelector(':scope > summary')?.textContent?.trim() || '';
-        if (['考试答题方式', '例题（含完整步骤）', '练习与模拟题（基础→困难）'].some(x => title.startsWith(x))) {
-          det.remove();
+      // Remove redundant legacy bottom ex/pr/toc/exam cards if already integrated inside V2 hero, reader rail & 8-module sections.
+      holder.querySelectorAll(':scope > section.card:not(.note-v2-hero), :scope > details.card:not(.lesson-section)').forEach(el => {
+        const h3 = el.querySelector(':scope > h3')?.textContent?.trim() || '';
+        const sum = el.querySelector(':scope > summary')?.textContent?.trim() || '';
+        if (h3 === '本章小节目录' || ['兴华校内与UEC正式统考资料', '考试答题方式', '例题（含完整步骤）', '练习与模拟题（基础→困难）'].some(x => sum.startsWith(x))) {
+          el.remove();
         }
       });
 

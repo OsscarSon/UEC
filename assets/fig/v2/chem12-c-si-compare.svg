@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" width="100%" height="auto">
+  <defs>
+    <marker id="arr-cs" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0f766e"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="760" height="430" rx="14" fill="#ffffff"/>
+  <rect x="12" y="12" width="736" height="406" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="380" y="40" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="16" font-weight="700" fill="#0f172a">碳与硅核心晶体结构及重要性质转化对比（化上 p.269–288）</text>
+
+  <!-- Top Row: 3 Crystal Cards -->
+  <!-- Card 1: Diamond / Crystalline Si -->
+  <rect x="26" y="56" width="224" height="178" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="138" y="78" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="13.5" font-weight="700" fill="#1e40af">金刚石(C) &amp; 晶体硅(Si)</text>
+  <!-- Tetrahedral schematic -->
+  <line x1="138" y1="92" x2="138" y2="128" stroke="#1e293b" stroke-width="2"/>
+  <line x1="138" y1="128" x2="102" y2="152" stroke="#1e293b" stroke-width="2"/>
+  <line x1="138" y1="128" x2="174" y2="152" stroke="#1e293b" stroke-width="2"/>
+  <line x1="138" y1="128" x2="138" y2="162" stroke="#1e293b" stroke-width="2"/>
+  <circle cx="138" cy="92" r="6" fill="#2563eb"/>
+  <circle cx="138" cy="128" r="7" fill="#1e40af"/>
+  <circle cx="102" cy="152" r="6" fill="#2563eb"/>
+  <circle cx="174" cy="152" r="6" fill="#2563eb"/>
+  <circle cx="138" cy="162" r="6" fill="#2563eb"/>
+  <text x="138" y="185" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="600" fill="#0f172a">正四面体空间网状（原子晶体）</text>
+  <text x="138" y="203" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="10.5" fill="#334155">1 原子连 4 个邻原子 · 4 价电子全成键</text>
+  <text x="138" y="220" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="10.5" fill="#1e40af">高硬度高熔点 · 硅为半导体（1410℃）</text>
+
+  <!-- Card 2: Graphite -->
+  <rect x="268" y="56" width="224" height="178" rx="10" fill="#f1f5f9" stroke="#475569" stroke-width="1.8"/>
+  <text x="380" y="78" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="13.5" font-weight="700" fill="#0f172a">石墨（层状六边形结构）</text>
+  <!-- Two parallel hexagonal layers -->
+  <polygon points="342,102 362,94 382,102 382,114 362,122 342,114" fill="none" stroke="#1e293b" stroke-width="1.8"/>
+  <polygon points="382,102 402,94 422,102 422,114 402,122 382,114" fill="none" stroke="#1e293b" stroke-width="1.8"/>
+  <line x1="342" y1="114" x2="342" y2="144" stroke="#94a3b8" stroke-width="1.4" stroke-dasharray="3,2"/>
+  <line x1="382" y1="114" x2="382" y2="144" stroke="#94a3b8" stroke-width="1.4" stroke-dasharray="3,2"/>
+  <line x1="422" y1="114" x2="422" y2="144" stroke="#94a3b8" stroke-width="1.4" stroke-dasharray="3,2"/>
+  <polygon points="342,144 362,136 382,144 382,156 362,164 342,156" fill="none" stroke="#1e293b" stroke-width="1.8"/>
+  <polygon points="382,144 402,136 422,144 422,156 402,164 382,156" fill="none" stroke="#1e293b" stroke-width="1.8"/>
+  <text x="442" y="132" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="9.5" fill="#475569">范德华力</text>
+  <text x="380" y="185" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="600" fill="#0f172a">层内 1 C 连 3 C（共价键）</text>
+  <text x="380" y="203" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="10.5" fill="#334155">余 1 个自由电子 → 良好导电导热</text>
+  <text x="380" y="220" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="10.5" fill="#334155">层间力弱可滑动 → 质软有润滑性</text>
+
+  <!-- Card 3: SiO2 vs CO2 -->
+  <rect x="510" y="56" width="224" height="178" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="1.8"/>
+  <text x="622" y="78" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="13.5" font-weight="700" fill="#92400e">SiO₂（原子晶体）vs CO₂</text>
+  <!-- Si-O-Si network -->
+  <circle cx="576" cy="126" r="8" fill="#2563eb"/>
+  <text x="576" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#ffffff">Si</text>
+  <line x1="584" y1="126" x2="606" y2="126" stroke="#475569" stroke-width="2"/>
+  <circle cx="614" cy="126" r="6" fill="#dc2626"/>
+  <text x="614" y="129" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="700" fill="#ffffff">O</text>
+  <line x1="620" y1="126" x2="642" y2="126" stroke="#475569" stroke-width="2"/>
+  <circle cx="650" cy="126" r="8" fill="#2563eb"/>
+  <text x="650" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#ffffff">Si</text>
+  <line x1="576" y1="118" x2="576" y2="96" stroke="#475569" stroke-width="2"/>
+  <circle cx="576" cy="94" r="5" fill="#dc2626"/>
+  <line x1="576" y1="134" x2="576" y2="154" stroke="#475569" stroke-width="2"/>
+  <circle cx="576" cy="156" r="5" fill="#dc2626"/>
+  <line x1="650" y1="118" x2="650" y2="96" stroke="#475569" stroke-width="2"/>
+  <circle cx="650" cy="94" r="5" fill="#dc2626"/>
+  <text x="692" y="128" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="10.5" font-weight="700" fill="#b91c1c">O=C=O</text>
+  <text x="692" y="144" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="9.5" fill="#78350f">分子晶体</text>
+  <text x="622" y="185" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="600" fill="#0f172a">Si 连 4 O，O 连 2 Si（1:2 网状）</text>
+  <text x="622" y="203" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="10.5" fill="#78350f">SiO₂ 无独立分子 → 高熔点固体</text>
+  <text x="622" y="220" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="10.5" fill="#78350f">CO₂ 干冰 -78.5℃ 升华 → 气体</text>
+
+  <!-- Bottom Row: C vs Si Reactions -->
+  <rect x="26" y="248" width="346" height="154" rx="10" fill="#ecfdf5" stroke="#10b981" stroke-width="1.6"/>
+  <text x="199" y="270" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="13.5" font-weight="700" fill="#065f46">碳的还原性与无机碳化物/气体燃料</text>
+  <text x="42" y="294" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11.5" fill="#1e293b">• 水煤气：C(s) + H₂O(g) → CO(g) + H₂(g)（高温）</text>
+  <text x="42" y="316" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11.5" fill="#1e293b">• 冶金还原：Fe₂O₃ + 3CO → 2Fe + 3CO₂（高温）</text>
+  <text x="42" y="338" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11.5" fill="#1e293b">• 电石制乙炔：CaC₂ + 2H₂O → Ca(OH)₂ + C₂H₂↑</text>
+  <text x="42" y="360" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11.5" fill="#1e293b">• 碳化硅（金刚砂）：SiO₂ + 3C → SiC + 2CO↑（高温）</text>
+  <text x="42" y="384" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="600" fill="#047857">非金属性 C &gt; Si ⇒ 酸性 H₂CO₃ &gt; H₂SiO₃（Na₂SiO₃ 吸 CO₂ 析胶）</text>
+
+  <rect x="388" y="248" width="346" height="154" rx="10" fill="#fff7ed" stroke="#ea580c" stroke-width="1.6"/>
+  <text x="561" y="270" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="13.5" font-weight="700" fill="#9a3412">硅与二氧化硅核心反应 &amp; 硅酸盐工业</text>
+  <text x="404" y="294" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11.5" fill="#1e293b">• 制粗硅：SiO₂ + 2C → Si + 2CO↑（高温，注意产物是 CO）</text>
+  <text x="404" y="316" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11.5" font-weight="600" fill="#b91c1c">• 刻蚀玻璃：SiO₂ + 4HF → SiF₄↑ + 2H₂O（唯一反应酸）</text>
+  <text x="404" y="338" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11.5" font-weight="600" fill="#b91c1c">• 碱液腐蚀：SiO₂ + 2NaOH → Na₂SiO₃ + H₂O（橡皮塞）</text>
+  <text x="404" y="360" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11.5" fill="#1e293b">• 制普通玻璃：SiO₂ + Na₂CO₃/CaCO₃ → 硅酸盐 + CO₂↑</text>
+  <text x="404" y="384" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="600" fill="#9a3412">硅酸盐三大产品：陶瓷（黏土）、玻璃（纯碱/石灰石/石英）、水泥（加石膏）</text>
+</svg>

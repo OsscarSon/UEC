@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 410" width="100%" height="auto">
+  <defs>
+    <marker id="axis-arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#334155"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="760" height="410" rx="14" fill="#ffffff"/>
+  <rect x="12" y="12" width="736" height="386" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="380" y="40" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="16" font-weight="700" fill="#0f172a">氢氧化铝的两性沉淀—溶解定量曲线对比（以 1 mol 铝微粒为基准，化上 p.259–263）</text>
+
+  <!-- Left Panel: Al3+ + Base -->
+  <rect x="28" y="58" width="342" height="278" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4"/>
+  <text x="199" y="80" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="13.5" font-weight="700" fill="#1e40af">图 A：向 1 mol Al³⁺ 溶液中逐滴加碱</text>
+
+  <!-- Axes A -->
+  <line x1="74" y1="268" x2="346" y2="268" stroke="#334155" stroke-width="1.8" marker-end="url(#axis-arr)"/>
+  <line x1="74" y1="268" x2="74" y2="104" stroke="#334155" stroke-width="1.8" marker-end="url(#axis-arr)"/>
+  <text x="64" y="108" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" fill="#334155">n(沉淀)</text>
+  <text x="344" y="286" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" fill="#334155">n(OH⁻ / NH₃·H₂O) (mol)</text>
+
+  <!-- Grid ticks A (x: 0=74, 1=124, 2=174, 3=224, 4=274, 5=324; y: 0=268, 1=148) -->
+  <line x1="74" y1="148" x2="328" y2="148" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="224" y1="148" x2="224" y2="268" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="66" y="152" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="700" fill="#334155">1</text>
+  <text x="66" y="272" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" fill="#334155">0</text>
+  <text x="124" y="284" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" fill="#334155">1</text>
+  <text x="174" y="284" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" fill="#334155">2</text>
+  <text x="224" y="284" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11.5" font-weight="700" fill="#1e40af">3</text>
+  <text x="274" y="284" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11.5" font-weight="700" fill="#1e40af">4</text>
+
+  <!-- Curve A2: NH3.H2O (dashed green, stays flat after 3) -->
+  <polyline points="74,268 224,148 326,148" fill="none" stroke="#10b981" stroke-width="2.6" stroke-dasharray="6,3"/>
+  <text x="278" y="138" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="700" fill="#047857">弱碱 氨水（不溶）</text>
+
+  <!-- Curve A1: NaOH (solid blue, 0->3->4) -->
+  <polyline points="74,268 224,148 274,268" fill="none" stroke="#2563eb" stroke-width="2.8"/>
+  <circle cx="224" cy="148" r="4" fill="#2563eb"/>
+  <circle cx="274" cy="268" r="4" fill="#2563eb"/>
+  <text x="132" y="182" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="600" fill="#1d4ed8">3 mol OH⁻</text>
+  <text x="284" y="220" text-anchor="start" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">NaOH</text>
+  <text x="284" y="235" text-anchor="start" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="10.5" fill="#1d4ed8">+1 mol 溶解</text>
+
+  <!-- Summary A -->
+  <rect x="44" y="294" width="310" height="32" rx="6" fill="#eff6ff"/>
+  <text x="199" y="314" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11.5" font-weight="700" fill="#1e40af">强碱沉淀与溶解耗 OH⁻ 比 = 3 : 1</text>
+
+  <!-- Right Panel: AlO2- + Acid -->
+  <rect x="390" y="58" width="342" height="278" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4"/>
+  <text x="561" y="80" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="13.5" font-weight="700" fill="#b91c1c">图 B：向 1 mol AlO₂⁻ 溶液中逐滴加酸</text>
+
+  <!-- Axes B -->
+  <line x1="436" y1="268" x2="708" y2="268" stroke="#334155" stroke-width="1.8" marker-end="url(#axis-arr)"/>
+  <line x1="436" y1="268" x2="436" y2="104" stroke="#334155" stroke-width="1.8" marker-end="url(#axis-arr)"/>
+  <text x="426" y="108" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" fill="#334155">n(沉淀)</text>
+  <text x="706" y="286" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" fill="#334155">n(H⁺ / CO₂) (mol)</text>
+
+  <!-- Grid ticks B (x: 0=436, 1=486, 2=536, 3=586, 4=636, 5=686; y: 0=268, 1=148) -->
+  <line x1="436" y1="148" x2="690" y2="148" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="486" y1="148" x2="486" y2="268" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="428" y="152" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="700" fill="#334155">1</text>
+  <text x="428" y="272" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" fill="#334155">0</text>
+  <text x="486" y="284" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11.5" font-weight="700" fill="#b91c1c">1</text>
+  <text x="536" y="284" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" fill="#334155">2</text>
+  <text x="586" y="284" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" fill="#334155">3</text>
+  <text x="636" y="284" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11.5" font-weight="700" fill="#b91c1c">4</text>
+
+  <!-- Curve B2: CO2 (dashed amber, stays flat after 1 mol CO2) -->
+  <polyline points="436,268 486,148 688,148" fill="none" stroke="#d97706" stroke-width="2.6" stroke-dasharray="6,3"/>
+  <text x="610" y="138" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="700" fill="#b45309">弱酸 CO₂（生成 HCO₃⁻，不溶）</text>
+
+  <!-- Curve B1: HCl (solid red, 0->1->4) -->
+  <polyline points="436,268 486,148 636,268" fill="none" stroke="#dc2626" stroke-width="2.8"/>
+  <circle cx="486" cy="148" r="4" fill="#dc2626"/>
+  <circle cx="636" cy="268" r="4" fill="#dc2626"/>
+  <text x="456" y="176" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="10.5" font-weight="600" fill="#b91c1c">1 H⁺</text>
+  <text x="582" y="206" text-anchor="start" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="700" fill="#b91c1c">强酸 HCl</text>
+  <text x="582" y="221" text-anchor="start" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="10.5" fill="#b91c1c">+3 mol 溶解</text>
+
+  <!-- Summary B -->
+  <rect x="406" y="294" width="310" height="32" rx="6" fill="#fef2f2"/>
+  <text x="561" y="314" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11.5" font-weight="700" fill="#b91c1c">强酸沉淀与溶解耗 H⁺ 比 = 1 : 3</text>
+
+  <!-- Bottom Footer -->
+  <text x="380" y="358" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11.5" font-weight="600" fill="#0f172a">离子方程速记：Al(OH)₃ + 3H⁺ → Al³⁺ + 3H₂O；Al(OH)₃ + OH⁻ → Al(OH)₄⁻（或 AlO₂⁻ + 2H₂O）</text>
+  <text x="380" y="378" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" fill="#475569">实验制备 Al(OH)₃ 必选弱碱（氨水）或向偏铝酸盐通 CO₂（铝土矿提纯工艺，p.263），避免强碱/强酸过量使沉淀溶解。</text>
+</svg>

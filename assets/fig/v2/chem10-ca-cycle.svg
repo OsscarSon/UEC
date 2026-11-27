@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" width="100%" height="auto">
+  <defs>
+    <marker id="arr-ca" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0f766e"/>
+    </marker>
+    <marker id="arr-ca-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#b91c1c"/>
+    </marker>
+    <marker id="arr-ca-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#1d4ed8"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="760" height="430" rx="14" fill="#ffffff"/>
+  <rect x="12" y="12" width="736" height="406" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="380" y="40" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="16.5" font-weight="700" fill="#0f172a">钙及其重要化合物（石灰石—生石灰—熟石灰—硬水转化网，化上 p.244–247）</text>
+
+  <!-- Ca (Top Left) -->
+  <rect x="34" y="64" width="124" height="52" rx="10" fill="#0f766e" stroke="#065f46" stroke-width="2"/>
+  <text x="96" y="87" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="15.5" font-weight="700" fill="#ffffff">Ca（单质）</text>
+  <text x="96" y="105" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="10.5" fill="#d1fae5">疏松氧化膜 · 密封保存</text>
+
+  <!-- CaCO3 (Top Center) -->
+  <rect x="260" y="64" width="190" height="56" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="355" y="88" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="15.5" font-weight="700" fill="#1e40af">CaCO₃（石灰石/大理石）</text>
+  <text x="355" y="108" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" fill="#334155">难溶于水 · 水泥/建筑/炼铁原料</text>
+
+  <!-- CaO (Middle Left) -->
+  <rect x="34" y="180" width="154" height="56" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="1.8"/>
+  <text x="111" y="204" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="15.5" font-weight="700" fill="#92400e">CaO（生石灰）</text>
+  <text x="111" y="223" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" fill="#78350f">吸湿性碱性氧化物 · 干燥剂</text>
+
+  <!-- Ca(OH)2 (Bottom Center-Left) -->
+  <rect x="255" y="276" width="200" height="58" rx="10" fill="#ecfdf5" stroke="#10b981" stroke-width="2"/>
+  <text x="355" y="300" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="15.5" font-weight="700" fill="#065f46">Ca(OH)₂（熟石灰/消石灰）</text>
+  <text x="355" y="319" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" fill="#047857">石灰乳(悬浊液) · 石灰水(澄清水溶液)</text>
+
+  <!-- Ca(HCO3)2 (Middle Right) -->
+  <rect x="526" y="150" width="198" height="58" rx="10" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.8"/>
+  <text x="625" y="174" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="15" font-weight="700" fill="#5b21b6">Ca(HCO₃)₂（碳酸氢钙）</text>
+  <text x="625" y="193" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" fill="#4c1d95">可溶于水 · 暂时硬水主要成分</text>
+
+  <!-- Side Card: Gypsum & Hard Water (Bottom Right) -->
+  <rect x="506" y="232" width="218" height="122" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="615" y="254" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="12.5" font-weight="700" fill="#0f172a">石膏脱水 &amp; 硬水软化对照</text>
+  <line x1="518" y1="262" x2="712" y2="262" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="615" y="280" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" fill="#334155">石膏 CaSO₄·2H₂O ⇌ 熟石膏 (CaSO₄)₂·H₂O</text>
+  <text x="615" y="296" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="10.5" fill="#64748b">（150–170℃ 脱水；加水膨胀凝结作模型）</text>
+  <text x="615" y="318" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="600" fill="#1e40af">暂时硬水（HCO₃⁻）：煮沸 / 石灰法软化</text>
+  <text x="615" y="336" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="600" fill="#b91c1c">永久硬水（SO₄²⁻/Cl⁻）：加纯碱 Na₂CO₃</text>
+
+  <!-- Arrows -->
+  <!-- Ca -> CaO -->
+  <line x1="96" y1="118" x2="96" y2="176" stroke="#0f766e" stroke-width="2" marker-end="url(#arr-ca)"/>
+  <text x="134" y="150" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="600" fill="#0f766e">O₂（点燃）</text>
+
+  <!-- Ca -> Ca(OH)2 -->
+  <path d="M 60 118 Q 16 250 250 304" fill="none" stroke="#0f766e" stroke-width="1.8" stroke-dasharray="5,3" marker-end="url(#arr-ca)"/>
+  <text x="86" y="276" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="600" fill="#0f766e">+ H₂O（较剧烈）</text>
+
+  <!-- CaCO3 -> CaO -->
+  <line x1="258" y1="108" x2="176" y2="176" stroke="#b91c1c" stroke-width="2.2" marker-end="url(#arr-ca-red)"/>
+  <text x="200" y="136" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="600" fill="#b91c1c">高温煅烧（-CO₂）</text>
+
+  <!-- CaO -> Ca(OH)2 -->
+  <line x1="150" y1="238" x2="256" y2="286" stroke="#0f766e" stroke-width="2.2" marker-end="url(#arr-ca)"/>
+  <text x="225" y="252" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="600" fill="#065f46">+ H₂O（放大量热）</text>
+
+  <!-- Ca(OH)2 -> CaCO3 -->
+  <line x1="355" y1="274" x2="355" y2="124" stroke="#1d4ed8" stroke-width="2.2" marker-end="url(#arr-ca-blue)"/>
+  <text x="355" y="196" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="600" fill="#1e40af">+ CO₂（或 Na₂CO₃）</text>
+  <text x="355" y="212" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="10.5" fill="#475569">粉刷墙壁硬化 / 检验 CO₂</text>
+
+  <!-- CaCO3 -> Ca(HCO3)2 -->
+  <path d="M 452 86 Q 580 86 616 146" fill="none" stroke="#1d4ed8" stroke-width="2" marker-end="url(#arr-ca-blue)"/>
+  <text x="580" y="96" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="600" fill="#1e40af">+ H₂O + CO₂（溶洞形成）</text>
+
+  <!-- Ca(HCO3)2 -> CaCO3 -->
+  <path d="M 544 150 Q 470 132 420 122" fill="none" stroke="#b91c1c" stroke-width="2" marker-end="url(#arr-ca-red)"/>
+  <text x="488" y="148" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11" font-weight="600" fill="#b91c1c">△ 受热（水垢/钟乳石）</text>
+
+  <!-- Bottom Footer -->
+  <rect x="28" y="368" width="704" height="36" rx="8" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.2"/>
+  <text x="380" y="390" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="11.5" font-weight="600" fill="#991b1b">检验要点：Ca²⁺ 焰色呈砖红色，与 (NH₄)₂C₂O₄ 生成白色 CaC₂O₄↓（不溶于醋酸，溶于稀盐酸）；Mg²⁺ 与 NaOH/氨水均生成白色 Mg(OH)₂↓ 且不溶于过量碱。</text>
+</svg>

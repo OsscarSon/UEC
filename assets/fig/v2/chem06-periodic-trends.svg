@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="100%" height="auto">
+  <rect x="0" y="0" width="760" height="420" rx="14" fill="#ffffff"/>
+  <rect x="12" y="12" width="736" height="396" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="380" y="40" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="17" font-weight="700" fill="#0f172a">元素周期表电子分区（s/p/d/f）与性质周期性递变总图（化上 p.141–150）</text>
+
+  <defs>
+    <marker id="arr-trend-blue" markerWidth="8" markerHeight="8" refX="5" refY="4" orient="auto"><polygon points="0 0, 8 4, 0 8" fill="#2563eb"/></marker>
+    <marker id="arr-trend-red" markerWidth="8" markerHeight="8" refX="5" refY="4" orient="auto"><polygon points="0 0, 8 4, 0 8" fill="#dc2626"/></marker>
+  </defs>
+
+  <!-- Top Horizontal Trend Bar -->
+  <line x1="120" y1="68" x2="620" y2="68" stroke="#2563eb" stroke-width="2.5" marker-end="url(#arr-trend-blue)"/>
+  <text x="370" y="61" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="11.5" font-weight="700" fill="#1d4ed8">同周期（左→右，除稀有气体）：原子半径↓ ｜ 电负性↑ ｜ 第一电离能总体↑（特例 IIA&gt;IIIA、VA&gt;VIA）｜ 非金属性↑、金属性↓</text>
+
+  <!-- Left Vertical Trend Bar -->
+  <line x1="48" y1="95" x2="48" y2="310" stroke="#dc2626" stroke-width="2.5" marker-end="url(#arr-trend-red)"/>
+  <text x="33" y="205" text-anchor="middle" transform="rotate(-90 33 205)" font-family="PingFang SC, sans-serif" font-size="11" font-weight="700" fill="#b91c1c">同主族（上→下）：层数↑ 半径↑ 电离能↓ 电负性↓ 金属性↑</text>
+
+  <!-- Periodic Table Blocks Schematic (Fig 6-8) -->
+  <!-- s-block -->
+  <rect x="74" y="88" width="54" height="190" rx="6" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.8"/>
+  <rect x="74" y="88" width="27" height="28" fill="#fde68a" stroke="#f59e0b"/>
+  <text x="87.5" y="106" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="10.5" font-weight="700" fill="#92400e">IA</text>
+  <rect x="101" y="116" width="27" height="28" fill="#fde68a" stroke="#f59e0b"/>
+  <text x="114.5" y="134" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="10.5" font-weight="700" fill="#92400e">IIA</text>
+  <text x="101" y="198" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="15" font-weight="700" fill="#b45309">s 区</text>
+  <text x="101" y="218" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="10" fill="#78350f">ns¹⁻²</text>
+  <text x="101" y="234" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="10" fill="#78350f">(2列)</text>
+
+  <!-- d-block -->
+  <rect x="134" y="172" width="220" height="106" rx="6" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="244" y="192" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="10.5" font-weight="700" fill="#1e40af">IIIB   IVB   VB   VIB   VIIB      VIIIB      IB   IIB</text>
+  <text x="244" y="224" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="15" font-weight="700" fill="#1d4ed8">d 区（过渡元素）</text>
+  <text x="244" y="246" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="11" fill="#1e3a8a">(n-1)d¹⁻¹⁰ ns¹⁻²（10纵列）</text>
+  <text x="244" y="264" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="10.5" fill="#475569">Cr (3d⁵4s¹) · Cu (3d¹⁰4s¹)</text>
+
+  <!-- p-block -->
+  <rect x="360" y="116" width="160" height="162" rx="6" fill="#dcfce7" stroke="#22c55e" stroke-width="1.8"/>
+  <rect x="493" y="88" width="27" height="28" rx="4" fill="#bbf7d0" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="506.5" y="106" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="9.5" font-weight="700" fill="#166534">He</text>
+  <text x="440" y="136" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="10" font-weight="700" fill="#166534">IIIA IVA VA VIA VIIA VIIIA</text>
+  <text x="440" y="182" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="15" font-weight="700" fill="#15803d">p 区</text>
+  <text x="440" y="204" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="11" fill="#166534">ns² np¹⁻⁶（6列）</text>
+  <text x="440" y="226" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="10.5" fill="#166534">F：电负性最大 (4.0)</text>
+  <text x="440" y="244" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="10.5" fill="#166534">He：I₁ 最大（半径最小）</text>
+  <text x="440" y="264" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="10" fill="#475569">含金属、准金属、非金属</text>
+
+  <!-- f-block -->
+  <rect x="134" y="290" width="386" height="40" rx="6" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.6"/>
+  <text x="327" y="315" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="12" font-weight="700" fill="#6b21a8">f 区（内过渡元素）：镧系 (4f) &amp; 锕系 (5f) — 各 15 种元素</text>
+
+  <!-- Bottom Left Key Rules Box -->
+  <rect x="74" y="340" width="446" height="54" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="86" y="360" font-family="PingFang SC, sans-serif" font-size="11" font-weight="700" fill="#0f172a">电子层结构判定位：周期序数 = 电子层数；主族序数 = 最外层电子数（电负性 &gt;1.8 多非金属，&lt;1.8 多金属）</text>
+  <text x="86" y="379" font-family="PingFang SC, sans-serif" font-size="11" fill="#334155">同电子层结构离子半径（如 O²⁻ &gt; F⁻ &gt; Na⁺ &gt; Mg²⁺ &gt; Al³⁺）：核电荷数 Z 越大，半径越小！</text>
+
+  <!-- Right Panel: Period 3 IE1 Zigzag & Successive IE Jump -->
+  <rect x="534" y="88" width="200" height="306" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+  <rect x="534" y="88" width="200" height="32" rx="10" fill="#0f172a"/>
+  <text x="634" y="109" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="12.5" font-weight="700" fill="#ffffff">第3周期 I₁ 锯齿与逐级电离能</text>
+
+  <!-- Mini plot axes -->
+  <line x1="556" y1="226" x2="720" y2="226" stroke="#475569" stroke-width="1.4"/>
+  <line x1="556" y1="226" x2="556" y2="132" stroke="#475569" stroke-width="1.4"/>
+  <text x="550" y="138" text-anchor="end" font-family="PingFang SC, sans-serif" font-size="9" fill="#475569">I₁</text>
+  <!-- Points: Na(496), Mg(738), Al(578), Si(786), P(1012), S(1000), Cl(1251), Ar(1521) -->
+  <polyline points="566,204 587,188 608,198 629,184 650,168 671,171 692,152 713,136" fill="none" stroke="#dc2626" stroke-width="2.2"/>
+  <circle cx="566" cy="204" r="3.2" fill="#dc2626"/><text x="566" y="238" text-anchor="middle" font-size="9" fill="#334155">Na</text>
+  <circle cx="587" cy="188" r="3.5" fill="#2563eb"/><text x="587" y="180" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1d4ed8">Mg</text><text x="587" y="238" text-anchor="middle" font-size="9" fill="#334155">Mg</text>
+  <circle cx="608" cy="198" r="3.2" fill="#dc2626"/><text x="608" y="238" text-anchor="middle" font-size="9" fill="#334155">Al</text>
+  <circle cx="629" cy="184" r="3.2" fill="#dc2626"/><text x="629" y="238" text-anchor="middle" font-size="9" fill="#334155">Si</text>
+  <circle cx="650" cy="168" r="3.5" fill="#2563eb"/><text x="650" y="160" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1d4ed8">P</text><text x="650" y="238" text-anchor="middle" font-size="9" fill="#334155">P</text>
+  <circle cx="671" cy="171" r="3.2" fill="#dc2626"/><text x="671" y="238" text-anchor="middle" font-size="9" fill="#334155">S</text>
+  <circle cx="692" cy="152" r="3.2" fill="#dc2626"/><text x="692" y="238" text-anchor="middle" font-size="9" fill="#334155">Cl</text>
+  <circle cx="713" cy="136" r="3.2" fill="#dc2626"/><text x="713" y="238" text-anchor="middle" font-size="9" fill="#334155">Ar</text>
+
+  <rect x="546" y="248" width="176" height="58" rx="6" fill="#eff6ff" stroke="#93c5fd"/>
+  <text x="634" y="264" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="10.5" font-weight="700" fill="#1e40af">两处反常（p.147）</text>
+  <text x="634" y="281" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="10" fill="#1e293b">• Mg(3s²全满) &gt; Al(3s²3p¹)</text>
+  <text x="634" y="297" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="10" fill="#1e293b">• P(3p³半满) &gt; S(3p⁴)</text>
+
+  <rect x="546" y="314" width="176" height="70" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="634" y="330" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="10.5" font-weight="700" fill="#b45309">逐级电离能突跃判主族</text>
+  <text x="634" y="346" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="10" fill="#78350f">Na: I₁=496 ≪ I₂=4562 (IA)</text>
+  <text x="634" y="361" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="10" fill="#78350f">Mg: I₂=1451 ≪ I₃=7733 (IIA)</text>
+  <text x="634" y="376" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="10" fill="#78350f">Al: I₃=2745 ≪ I₄=11575 (IIIA)</text>
+</svg>

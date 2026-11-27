@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="100%" height="auto">
+  <rect x="0" y="0" width="760" height="400" rx="14" fill="#ffffff"/>
+  <rect x="12" y="12" width="736" height="376" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="380" y="40" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="17" font-weight="700" fill="#0f172a">物质的组成与分类树（化上 1.4.2 p.13–14）</text>
+
+  <!-- Root: 物质 -->
+  <rect x="315" y="54" width="130" height="36" rx="8" fill="#0f172a"/>
+  <text x="380" y="77" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#ffffff">物质 (Matter)</text>
+
+  <!-- Root connectors -->
+  <line x1="380" y1="90" x2="380" y2="106" stroke="#64748b" stroke-width="1.8"/>
+  <line x1="150" y1="106" x2="520" y2="106" stroke="#64748b" stroke-width="1.8"/>
+  <line x1="150" y1="106" x2="150" y2="122" stroke="#64748b" stroke-width="1.8"/>
+  <line x1="520" y1="106" x2="520" y2="122" stroke="#64748b" stroke-width="1.8"/>
+  <text x="335" y="102" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#475569">依组成成分数</text>
+
+  <!-- Level 1 Left: 混合物 -->
+  <rect x="34" y="122" width="232" height="128" rx="10" fill="#fff7ed" stroke="#f97316" stroke-width="1.8"/>
+  <rect x="34" y="122" width="232" height="34" rx="10" fill="#f97316"/>
+  <text x="150" y="144" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#ffffff">混合物（多种成分）</text>
+  <text x="46" y="174" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#7c2d12">• 无固定组成与固定熔沸点</text>
+  <text x="46" y="194" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#7c2d12">• 各成分保持原有化学性质</text>
+  <text x="46" y="214" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#7c2d12">• 可用物理方法分离（过滤/蒸馏）</text>
+  <text x="46" y="236" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#c2410c">例：空气、海水、食盐水、黑火药</text>
+
+  <!-- Level 1 Right: 纯净物 -->
+  <rect x="425" y="122" width="190" height="34" rx="8" fill="#2563eb"/>
+  <text x="520" y="144" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#ffffff">纯净物（一种成分）</text>
+
+  <!-- 纯净物 connectors -->
+  <line x1="520" y1="156" x2="520" y2="170" stroke="#64748b" stroke-width="1.8"/>
+  <line x1="375" y1="170" x2="625" y2="170" stroke="#64748b" stroke-width="1.8"/>
+  <line x1="375" y1="170" x2="375" y2="186" stroke="#64748b" stroke-width="1.8"/>
+  <line x1="625" y1="170" x2="625" y2="186" stroke="#64748b" stroke-width="1.8"/>
+  <text x="520" y="167" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#1e40af" font-weight="700">依元素种类</text>
+
+  <!-- Level 2 Left: 单质 -->
+  <rect x="290" y="186" width="170" height="32" rx="8" fill="#0d9488"/>
+  <text x="375" y="207" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#ffffff">单质（同种元素）</text>
+  <line x1="375" y1="218" x2="375" y2="232" stroke="#0d9488" stroke-width="1.5"/>
+  <line x1="330" y1="232" x2="420" y2="232" stroke="#0d9488" stroke-width="1.5"/>
+  <line x1="330" y1="232" x2="330" y2="244" stroke="#0d9488" stroke-width="1.5"/>
+  <line x1="420" y1="232" x2="420" y2="244" stroke="#0d9488" stroke-width="1.5"/>
+
+  <rect x="284" y="244" width="90" height="58" rx="7" fill="#ccfbf1" stroke="#14b8a6" stroke-width="1.4"/>
+  <text x="329" y="263" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700" fill="#115e59">金属单质</text>
+  <text x="329" y="281" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#134e4a">Cu, Fe, Na</text>
+  <text x="329" y="295" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#0f766e">导电导热延展</text>
+
+  <rect x="380" y="244" width="94" height="58" rx="7" fill="#ccfbf1" stroke="#14b8a6" stroke-width="1.4"/>
+  <text x="427" y="263" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700" fill="#115e59">非金属单质</text>
+  <text x="427" y="281" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#134e4a">O₂, S, 石墨</text>
+  <text x="427" y="295" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#0f766e">O₂+O₃属混合物</text>
+
+  <!-- Level 2 Right: 化合物 -->
+  <rect x="525" y="186" width="200" height="32" rx="8" fill="#7c3aed"/>
+  <text x="625" y="207" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#ffffff">化合物（不同种元素）</text>
+  <line x1="625" y1="218" x2="625" y2="232" stroke="#7c3aed" stroke-width="1.5"/>
+  <line x1="555" y1="232" x2="690" y2="232" stroke="#7c3aed" stroke-width="1.5"/>
+  <line x1="555" y1="232" x2="555" y2="244" stroke="#7c3aed" stroke-width="1.5"/>
+  <line x1="690" y1="232" x2="690" y2="244" stroke="#7c3aed" stroke-width="1.5"/>
+
+  <rect x="480" y="242" width="136" height="32" rx="6" fill="#ede9fe" stroke="#8b5cf6" stroke-width="1.4"/>
+  <text x="548" y="263" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700" fill="#5b21b6">无机化合物</text>
+
+  <rect x="626" y="242" width="108" height="48" rx="6" fill="#fae8ff" stroke="#d946ef" stroke-width="1.4"/>
+  <text x="680" y="259" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700" fill="#86198f">有机化合物</text>
+  <text x="680" y="274" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#701a75">CH₄, 乙醇, 蔗糖</text>
+  <text x="680" y="286" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#a21caf">(CO₂/CO₃²⁻属无机)</text>
+
+  <!-- 无机分类四小格 -->
+  <line x1="548" y1="274" x2="548" y2="294" stroke="#8b5cf6" stroke-width="1.4"/>
+  <line x1="514" y1="294" x2="710" y2="294" stroke="#8b5cf6" stroke-width="1.4"/>
+  <rect x="480" y="298" width="64" height="44" rx="6" fill="#ffffff" stroke="#a78bfa"/>
+  <text x="512" y="316" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#4c1d95">氧化物</text>
+  <text x="512" y="333" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#475569">H₂O, CO₂</text>
+
+  <rect x="550" y="298" width="64" height="44" rx="6" fill="#ffffff" stroke="#a78bfa"/>
+  <text x="582" y="316" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#4c1d95">酸</text>
+  <text x="582" y="333" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#475569">H₂SO₄, HCl</text>
+
+  <rect x="620" y="298" width="54" height="44" rx="6" fill="#ffffff" stroke="#a78bfa"/>
+  <text x="647" y="316" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#4c1d95">碱</text>
+  <text x="647" y="333" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#475569">NaOH</text>
+
+  <rect x="680" y="298" width="54" height="44" rx="6" fill="#ffffff" stroke="#a78bfa"/>
+  <text x="707" y="316" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#4c1d95">盐</text>
+  <text x="707" y="333" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#475569">NaHCO₃</text>
+
+  <!-- Bottom Exam Warning Banner -->
+  <rect x="34" y="264" width="232" height="108" rx="9" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.6"/>
+  <text x="150" y="286" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12.5" font-weight="700" fill="#b45309">统考易错辨析口诀</text>
+  <text x="46" y="307" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" fill="#78350f">1. “只含一种元素” ≠ 一定是单质！</text>
+  <text x="58" y="324" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#92400e">如 金刚石 + 石墨、O₂ + O₃ 是混合物</text>
+  <text x="46" y="344" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" fill="#78350f">2. 冰水共存 = 纯净物 (同为 H₂O)</text>
+  <text x="46" y="362" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" fill="#78350f">3. NaHCO₃ 是酸式盐，不是碱！</text>
+
+  <rect x="284" y="348" width="452" height="26" rx="6" fill="#e2e8f0"/>
+  <text x="510" y="365" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#334155">化合物分解出各元素必须用化学方法；混合物可用物理方法分离（化上 p.13–14）</text>
+</svg>

@@ -67,7 +67,13 @@
 
   function renderEntriesView(kb) {
     const list = filteredEntries();
-    const chapters = [...new Set(kb.entries.map(e => String(e.chapter)))];
+    const chapters = [...new Set(kb.entries.map(e => String(e.chapter)))].sort((a, b) => {
+      const na = Number(a), nb = Number(b);
+      if (Number.isFinite(na) && Number.isFinite(nb)) return na - nb;
+      if (Number.isFinite(na)) return -1;
+      if (Number.isFinite(nb)) return 1;
+      return a.localeCompare(b, 'zh-CN');
+    });
     return `
       <section class="panel">
         <div class="kb-filter-bar">

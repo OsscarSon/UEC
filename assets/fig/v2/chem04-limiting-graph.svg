@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="100%" height="auto">
+  <rect x="0" y="0" width="760" height="400" rx="14" fill="#ffffff"/>
+  <rect x="12" y="12" width="736" height="376" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="380" y="38" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="17" font-weight="700" fill="#0f172a">限量反应物与产物质量随投料量变化的折线特征（化上 p.39、p.91–93）</text>
+
+  <!-- Left: Coordinate Graph -->
+  <rect x="26" y="54" width="424" height="270" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="238" y="76" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#1e293b">例：向定量稀盐酸 (n_HCl 固定) 中不断加入锌粒 (Zn)</text>
+
+  <!-- Grid lines -->
+  <line x1="80" y1="278" x2="420" y2="278" stroke="#334155" stroke-width="2"/>
+  <polygon points="418,274 428,278 418,282" fill="#334155"/>
+  <line x1="80" y1="278" x2="80" y2="96" stroke="#334155" stroke-width="2"/>
+  <polygon points="76,98 80,88 84,98" fill="#334155"/>
+
+  <text x="72" y="96" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#0f172a">m(H₂)/g</text>
+  <text x="418" y="297" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#0f172a">加入 m(Zn)/g</text>
+  <text x="72" y="292" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" fill="#475569">0</text>
+
+  <!-- Region shading -->
+  <rect x="81" y="138" width="159" height="139" fill="#eff6ff" opacity="0.65"/>
+  <rect x="240" y="138" width="165" height="139" fill="#ecfdf5" opacity="0.65"/>
+
+  <!-- Dashed guides for point P -->
+  <line x1="80" y1="138" x2="240" y2="138" stroke="#64748b" stroke-width="1.4" stroke-dasharray="5,4"/>
+  <line x1="240" y1="138" x2="240" y2="278" stroke="#64748b" stroke-width="1.4" stroke-dasharray="5,4"/>
+  <text x="72" y="142" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700" fill="#dc2626">b</text>
+  <text x="240" y="294" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700" fill="#dc2626">a</text>
+
+  <!-- Curve: O -> P -> plateau -->
+  <polyline points="80,278 240,138 405,138" fill="none" stroke="#2563eb" stroke-width="3.2" stroke-linejoin="round"/>
+  <circle cx="240" cy="138" r="5.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+  <text x="246" y="127" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#dc2626">P (a, b) 恰好完全反应</text>
+
+  <!-- Region labels -->
+  <text x="160" y="176" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700" fill="#1d4ed8">区间Ⅰ：0 &lt; m &lt; a</text>
+  <text x="160" y="194" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#1e3a8a">Zn 是限量反应物</text>
+  <text x="160" y="210" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#1e3a8a">HCl 过量（反应未完）</text>
+  <text x="160" y="228" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#2563eb">斜率 k = b/a = 2/65</text>
+
+  <text x="322" y="176" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700" fill="#047857">区间Ⅱ：m &gt; a</text>
+  <text x="322" y="194" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#065f46">HCl 已消耗完（限量）</text>
+  <text x="322" y="210" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#065f46">Zn 过量（质量不再增）</text>
+  <text x="322" y="228" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#059669">平台高度 b 由 HCl 决定</text>
+
+  <!-- Right Panel: Analysis & Comparison -->
+  <rect x="466" y="54" width="268" height="270" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="466" y="54" width="268" height="32" rx="10" fill="#7c3aed"/>
+  <text x="600" y="75" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#ffffff">三类常见图像题秒杀规律</text>
+
+  <rect x="478" y="96" width="244" height="66" rx="7" fill="#f5f3ff" stroke="#c4b5fd"/>
+  <text x="488" y="114" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700" fill="#5b21b6">1. 拐点 P(a, b) 的双重物理意义</text>
+  <text x="488" y="132" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#334155">• 横坐标 a：与定量另一试剂完全反应</text>
+  <text x="496" y="147" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#334155">所需 Zn 的精确质量（n(Zn)=½n(HCl)）</text>
+
+  <rect x="478" y="170" width="244" height="68" rx="7" fill="#fff7ed" stroke="#fdba74"/>
+  <text x="488" y="188" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700" fill="#9a3412">2. 等质量不同金属与足量酸（比平台）</text>
+  <text x="488" y="206" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#334155">• 酸足量→金属全反应（金属限量）：</text>
+  <text x="496" y="222" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#c2410c">产氢量由高到低：Al &gt; Mg &gt; Fe &gt; Zn</text>
+
+  <rect x="478" y="246" width="244" height="68" rx="7" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="488" y="264" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700" fill="#92400e">3. 等量酸与过量金属（比平台与耗量）</text>
+  <text x="488" y="282" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#334155">• 酸限量→最终产氢量完全相等（同 b）</text>
+  <text x="488" y="298" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#78350f">• 等价耗金属量比：Al(9) : Mg(12) : Fe(28) : Zn(32.5)</text>
+
+  <!-- Bottom note -->
+  <rect x="26" y="334" width="708" height="42" rx="8" fill="#e2e8f0"/>
+  <text x="380" y="352" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#1e293b">教材实证对照：Ch 3 活动2（2.0 g NaOH 与 6.25 g CuSO₄·5H₂O 恰得 2.45 g 沉淀；增至 4.0 g NaOH 仍为 2.45 g）</text>
+  <text x="380" y="369" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#475569">同理，在定量反应中，斜线代表“横轴物质限量”，水平线代表“横轴物质过量、另一定量反应物已耗尽”。</text>
+</svg>

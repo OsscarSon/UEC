@@ -11,7 +11,7 @@ const out='reports/navigation';fs.mkdirSync(out+'/screenshots',{recursive:true})
  await page.goto(root);
  await page.evaluate(()=>{S.learn['物理3']='2026-11-01';S.mathSubjects.adv_math_i.study_minutes=17;S.mathSubjects.adv_math_ii.study_minutes=41;S.mathSubjects.adv_math_i.chapters['2']={mastery:2};S.mathSubjects.adv_math_ii.chapters['2']={mastery:1};save();});
  const expected=['today','map','bank','review','records','exams','tools','favorites','settings'];
- const destinations=[['today','today'],['adaptive','today'],['plan','today'],['map','map'],['curriculum','map'],['bank','bank'],['mock','bank'],['review','review'],['diagnose','review'],['err','review'],['records','records'],['exams','exams'],['cal','exams'],['textbooks','exams'],['past-papers','exams'],['tools','tools'],['favorites','favorites'],['settings','settings'],['sync','settings']];
+ const destinations=[['today','today'],['adaptive','today'],['map','map'],['curriculum','map'],['bank','bank'],['mock','bank'],['review','review'],['diagnose','review'],['err','review'],['records','records'],['exams','exams'],['kb','exams'],['cal','exams'],['past-papers','exams'],['tools','tools'],['favorites','favorites'],['settings','settings'],['sync','settings']];
  for(const width of [320,390,1440,1920]){
   await page.setViewportSize({width,height:1000});
   for(const [view,parent]of destinations){

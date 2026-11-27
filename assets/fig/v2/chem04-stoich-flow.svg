@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="100%" height="auto">
+  <rect x="0" y="0" width="760" height="400" rx="14" fill="#ffffff"/>
+  <rect x="12" y="12" width="736" height="376" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="380" y="38" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="17" font-weight="700" fill="#0f172a">化学方程式计量全通道转换与纯度/产率校正（化上 4.2 p.87–95）</text>
+
+  <!-- Left Inputs: 已知物质 A -->
+  <rect x="26" y="58" width="174" height="236" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.6"/>
+  <rect x="26" y="58" width="174" height="32" rx="10" fill="#3b82f6"/>
+  <text x="113" y="79" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#ffffff">已知投料 / 测量量 (A)</text>
+
+  <rect x="38" y="100" width="150" height="42" rx="7" fill="#ffffff" stroke="#93c5fd"/>
+  <text x="113" y="118" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700" fill="#1e3a8a">不纯固体/矿石质量 m总</text>
+  <text x="113" y="135" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#2563eb">m纯 = m总 × 纯度 w%</text>
+
+  <rect x="38" y="150" width="150" height="42" rx="7" fill="#ffffff" stroke="#93c5fd"/>
+  <text x="113" y="168" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700" fill="#1e3a8a">气体体积 V（标况/同Tp）</text>
+  <text x="113" y="185" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#2563eb">n = V / Vm （同Tp: V∝n）</text>
+
+  <rect x="38" y="200" width="150" height="42" rx="7" fill="#ffffff" stroke="#93c5fd"/>
+  <text x="113" y="218" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700" fill="#1e3a8a">溶液质量或体积 (aq)</text>
+  <text x="113" y="235" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#2563eb">m溶质 = m液×w% = ρ·V·w%</text>
+
+  <rect x="38" y="250" width="150" height="34" rx="7" fill="#ffffff" stroke="#93c5fd"/>
+  <text x="113" y="271" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#1e3a8a">微粒数 N → n = N / NA</text>
+
+  <!-- Arrow Left -> Center1 -->
+  <line x1="202" y1="176" x2="228" y2="176" stroke="#2563eb" stroke-width="2.4"/>
+  <polygon points="226,170 236,176 226,182" fill="#2563eb"/>
+  <text x="218" y="165" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#1d4ed8">÷ M</text>
+
+  <!-- Center Box: Core Bridge -->
+  <rect x="238" y="72" width="284" height="214" rx="12" fill="#fefce8" stroke="#eab308" stroke-width="2"/>
+  <rect x="238" y="72" width="284" height="34" rx="12" fill="#eab308"/>
+  <text x="380" y="94" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13.5" font-weight="700" fill="#ffffff">核心枢纽：物质的量 (n) 与限量判定</text>
+
+  <rect x="252" y="116" width="112" height="54" rx="8" fill="#ffffff" stroke="#facc15" stroke-width="1.5"/>
+  <text x="308" y="139" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#854d0e">n(A) / a</text>
+  <text x="308" y="159" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#713f12">反应物 A 折算份数</text>
+
+  <rect x="396" y="116" width="112" height="54" rx="8" fill="#ffffff" stroke="#facc15" stroke-width="1.5"/>
+  <text x="452" y="139" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#854d0e">n(C) / c</text>
+  <text x="452" y="159" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#713f12">目标生成物 C 理论量</text>
+
+  <line x1="364" y1="143" x2="394" y2="143" stroke="#ca8a04" stroke-width="2.2"/>
+  <polygon points="390,138 398,143 390,148" fill="#ca8a04"/>
+  <text x="380" y="134" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#a16207">=</text>
+
+  <!-- Equation & limiting check -->
+  <rect x="252" y="182" width="256" height="92" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="201" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12.5" font-weight="700" fill="#92400e">aA + bB → cC + dD（先配平！）</text>
+  <text x="262" y="222" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" fill="#78350f">• 若同时给出 A、B 两反应物的量：</text>
+  <text x="270" y="240" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#b45309">比较 n(A)/a 与 n(B)/b，取较小者为限量！</text>
+  <text x="262" y="259" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#78350f">• 过量反应物剩余量 = 投入量 − 实际消耗量</text>
+
+  <!-- Arrow Center -> Right -->
+  <line x1="524" y1="176" x2="550" y2="176" stroke="#10b981" stroke-width="2.4"/>
+  <polygon points="548,170 558,176 548,182" fill="#10b981"/>
+  <text x="540" y="165" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#047857">× M</text>
+
+  <!-- Right Outputs: 理论与实际产物 -->
+  <rect x="560" y="58" width="174" height="236" rx="10" fill="#ecfdf5" stroke="#10b981" stroke-width="1.6"/>
+  <rect x="560" y="58" width="174" height="32" rx="10" fill="#10b981"/>
+  <text x="647" y="79" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#ffffff">理论产量与实际产物 (C)</text>
+
+  <rect x="572" y="100" width="150" height="44" rx="7" fill="#ffffff" stroke="#6ee7b7"/>
+  <text x="647" y="118" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700" fill="#065f46">理论产量 m理论</text>
+  <text x="647" y="136" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#047857">m理论 = n(C) × M(C)</text>
+
+  <rect x="572" y="152" width="150" height="58" rx="7" fill="#ffffff" stroke="#6ee7b7"/>
+  <text x="647" y="170" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700" fill="#065f46">产率校正（p.93–94）</text>
+  <text x="647" y="188" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#0f172a">产率 = (实际/理论)×100%</text>
+  <text x="647" y="203" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#047857">m实际 = m理论 × 产率</text>
+
+  <rect x="572" y="218" width="150" height="64" rx="7" fill="#ffffff" stroke="#6ee7b7"/>
+  <text x="647" y="236" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700" fill="#065f46">不纯产品与逆推</text>
+  <text x="647" y="253" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#0f172a">m粗产品 = m纯产物 ÷ w%</text>
+  <text x="647" y="270" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#047857">反求原料：m原料需 ÷ (纯度×产率)</text>
+
+  <!-- Bottom 4 golden rules -->
+  <rect x="26" y="308" width="708" height="68" rx="10" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.4"/>
+  <text x="380" y="328" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#0f172a">考场四步铁律（防错检查清单）</text>
+  <text x="42" y="348" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" fill="#334155">① <tspan font-weight="700">代纯不代杂：</tspan>含杂质的矿石/样品必须先乘纯度再代入方程式； ② <tspan font-weight="700">算限不算过：</tspan>双投料必先比 n/系数 确定限量；</text>
+  <text x="42" y="366" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" fill="#334155">③ <tspan font-weight="700">顺乘逆除：</tspan>已知原料求实际产物乘产率；已知实际产物反推所需原料除以产率； ④ <tspan font-weight="700">单位对应：</tspan>上配 M(g) 则下设 m(g)，上下单位须一致。</text>
+</svg>

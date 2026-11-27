@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="100%" height="auto">
+  <rect x="0" y="0" width="760" height="400" rx="14" fill="#ffffff"/>
+  <rect x="12" y="12" width="736" height="376" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="380" y="38" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="16" font-weight="700" fill="#0f172a">实验室制取纯净干燥氯气（Cl₂）全套装置与功能解析（化上 p.389–391）</text>
+
+  <!-- Section Banners -->
+  <g font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700">
+    <rect x="28" y="54" width="154" height="24" rx="6" fill="#fee2e2"/>
+    <text x="105" y="70" text-anchor="middle" fill="#991b1b">① 发生装置（固+液加热）</text>
+
+    <rect x="196" y="54" width="124" height="24" rx="6" fill="#fef3c7"/>
+    <text x="258" y="70" text-anchor="middle" fill="#92400e">② 除 HCl（饱和食盐水）</text>
+
+    <rect x="334" y="54" width="124" height="24" rx="6" fill="#dbeafe"/>
+    <text x="396" y="70" text-anchor="middle" fill="#1e40af">③ 干燥（浓硫酸）</text>
+
+    <rect x="472" y="54" width="124" height="24" rx="6" fill="#dcfce7"/>
+    <text x="534" y="70" text-anchor="middle" fill="#166534">④ 收集（向上排空气）</text>
+
+    <rect x="610" y="54" width="122" height="24" rx="6" fill="#f3e8ff"/>
+    <text x="671" y="70" text-anchor="middle" fill="#6b21a8">⑤ 尾气吸收（NaOH）</text>
+  </g>
+
+  <!-- Apparatus 1: Flask + Funnel + Burner -->
+  <g stroke="#334155" stroke-width="2" fill="none">
+    <!-- Separatory funnel -->
+    <path d="M 90 95 L 116 95 L 112 126 Q 103 136 94 126 Z" fill="#fef9c3"/>
+    <line x1="103" y1="133" x2="103" y2="178"/>
+    <rect x="97" y="140" width="12" height="6" fill="#475569"/>
+    <!-- Round-bottom flask -->
+    <rect x="93" y="156" width="20" height="34" fill="#ffffff"/>
+    <circle cx="103" cy="216" r="30" fill="#ffffff"/>
+    <!-- Liquid + MnO2 solid inside flask -->
+    <path d="M 76 226 A 30 30 0 0 0 130 226 Z" fill="#cbd5e1" stroke="none"/>
+    <circle cx="96" cy="236" r="4" fill="#1e293b" stroke="none"/>
+    <circle cx="108" cy="238" r="5" fill="#1e293b" stroke="none"/>
+    <circle cx="102" cy="232" r="3.5" fill="#1e293b" stroke="none"/>
+    <!-- Wire gauze & Alcohol burner -->
+    <line x1="68" y1="252" x2="138" y2="252" stroke="#64748b" stroke-width="2.5" stroke-dasharray="4 2"/>
+    <path d="M 98 268 Q 103 254 108 268 Z" fill="#f97316" stroke="#ea580c"/>
+    <rect x="85" y="272" width="36" height="22" rx="4" fill="#e2e8f0"/>
+  </g>
+  <text x="58" y="114" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="600" fill="#991b1b">浓盐酸</text>
+  <text x="52" y="218" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="600" fill="#1e293b">MnO₂</text>
+  <text x="103" y="310" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#475569">分液漏斗控速 · 缓热</text>
+
+  <!-- Tube 1->2 -->
+  <path d="M 110 162 L 176 162 L 176 142 L 245 142 L 245 256" fill="none" stroke="#334155" stroke-width="2"/>
+
+  <!-- Apparatus 2: Wash Bottle 1 (Sat. NaCl) -->
+  <rect x="220" y="168" width="76" height="106" rx="8" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+  <rect x="222" y="218" width="72" height="54" rx="4" fill="#fef3c7" stroke="none"/>
+  <rect x="242" y="156" width="32" height="12" rx="2" fill="#94a3b8" stroke="#334155" stroke-width="1.5"/>
+  <!-- Long in, short out -->
+  <path d="M 245 156 L 245 256" stroke="#334155" stroke-width="2" fill="none"/>
+  <path d="M 268 156 L 268 186" stroke="#334155" stroke-width="2" fill="none"/>
+  <text x="258" y="250" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#92400e">饱和食盐水</text>
+  <text x="258" y="294" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#78350f">除 HCl（抑制 Cl₂ 溶解）</text>
+  <text x="258" y="310" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="600" fill="#b45309">长管进 · 短管出</text>
+
+  <!-- Tube 2->3 -->
+  <path d="M 268 156 L 268 142 L 383 142 L 383 256" fill="none" stroke="#334155" stroke-width="2"/>
+
+  <!-- Apparatus 3: Wash Bottle 2 (Conc. H2SO4) -->
+  <rect x="358" y="168" width="76" height="106" rx="8" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+  <rect x="360" y="218" width="72" height="54" rx="4" fill="#dbeafe" stroke="none"/>
+  <rect x="380" y="156" width="32" height="12" rx="2" fill="#94a3b8" stroke="#334155" stroke-width="1.5"/>
+  <path d="M 383 156 L 383 256" stroke="#334155" stroke-width="2" fill="none"/>
+  <path d="M 406 156 L 406 186" stroke="#334155" stroke-width="2" fill="none"/>
+  <text x="396" y="250" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#1e40af">浓硫酸</text>
+  <text x="396" y="294" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#1e3a8a">吸收水蒸气干燥 Cl₂</text>
+  <text x="396" y="310" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="600" fill="#2563eb">不可颠倒顺序！</text>
+
+  <!-- Tube 3->4 -->
+  <path d="M 406 156 L 406 142 L 522 142 L 522 260" fill="none" stroke="#334155" stroke-width="2"/>
+
+  <!-- Apparatus 4: Gas Collection Jar -->
+  <rect x="498" y="168" width="72" height="106" rx="8" fill="#ecfccb" stroke="#334155" stroke-width="2"/>
+  <rect x="518" y="156" width="32" height="12" rx="2" fill="#94a3b8" stroke="#334155" stroke-width="1.5"/>
+  <path d="M 522 156 L 522 260" stroke="#334155" stroke-width="2" fill="none"/>
+  <path d="M 544 156 L 544 182" stroke="#334155" stroke-width="2" fill="none"/>
+  <text x="534" y="220" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#3f6212">Cl₂ (黄绿)</text>
+  <text x="534" y="294" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#166534">M(Cl₂)=71 &gt; 空气 29</text>
+  <text x="534" y="310" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="600" fill="#15803d">导管伸至瓶底</text>
+
+  <!-- Tube 4->5 -->
+  <path d="M 544 156 L 544 142 L 668 142 L 668 250" fill="none" stroke="#334155" stroke-width="2"/>
+
+  <!-- Apparatus 5: Beaker (NaOH tail gas) -->
+  <path d="M 632 184 L 632 272 L 708 272 L 708 184" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+  <rect x="634" y="220" width="72" height="50" fill="#f3e8ff" stroke="none"/>
+  <path d="M 668 142 L 668 252" stroke="#334155" stroke-width="2" fill="none"/>
+  <text x="670" y="248" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#6b21a8">NaOH 溶液</text>
+  <text x="670" y="294" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#581c87">防有毒 Cl₂ 污染空气</text>
+  <text x="670" y="310" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="600" fill="#7e22ce">Cl₂+2NaOH→NaCl+NaClO+H₂O</text>
+
+  <!-- Bottom Equations Box -->
+  <rect x="28" y="324" width="704" height="52" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <text x="380" y="344" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700" fill="#0f172a">主反应：MnO₂(s) + 4HCl(aq, 浓) —Δ→ MnCl₂(aq) + Cl₂(g)↑ + 2H₂O(l)　|　改用 KMnO₄(s) + 浓HCl 常温即可</text>
+  <text x="380" y="365" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" fill="#b91c1c">高频陷阱：① 随反应进行浓盐酸变稀后反应停止（HCl 不能完全耗尽）；② 严禁先干燥后除 HCl（否则又带入水汽）！</text>
+</svg>
