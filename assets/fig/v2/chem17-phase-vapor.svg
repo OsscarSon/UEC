@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="100%" height="auto">
+  <defs>
+    <marker id="arr-endo" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#dc2626"/>
+    </marker>
+    <marker id="arr-exo" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#2563eb"/>
+    </marker>
+    <marker id="arr-ax" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#334155"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="760" height="400" rx="14" fill="#ffffff"/>
+  <rect x="12" y="12" width="736" height="376" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="380" y="37" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="15.5" font-weight="700" fill="#0f172a">三相变化、摩尔相变热与饱和蒸气压—沸点曲线（化中 p.45–55）</text>
+
+  <!-- Left Panel: Phase Changes & Molar Heats -->
+  <rect x="24" y="52" width="352" height="322" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <text x="200" y="74" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#0f172a">一、三相转化与摩尔相变热（图17-38）</text>
+
+  <!-- Gas Node -->
+  <rect x="148" y="88" width="104" height="38" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+  <text x="200" y="106" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12.5" font-weight="700" fill="#1e3a8a">气相 (Gas)</text>
+  <text x="200" y="120" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#2563eb">高能、分子间距大</text>
+
+  <!-- Liquid Node -->
+  <rect x="42" y="218" width="106" height="40" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+  <text x="95" y="236" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12.5" font-weight="700" fill="#065f46">液相 (Liquid)</text>
+  <text x="95" y="251" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#047857">可流动、难压缩</text>
+
+  <!-- Solid Node -->
+  <rect x="252" y="218" width="106" height="40" rx="8" fill="#fff7ed" stroke="#ea580c" stroke-width="1.8"/>
+  <text x="305" y="236" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12.5" font-weight="700" fill="#9a3412">固相 (Solid)</text>
+  <text x="305" y="251" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#c2410c">位置固定、刚性</text>
+
+  <!-- Liquid <-> Gas arrows -->
+  <path d="M 96 216 L 154 128" fill="none" stroke="#dc2626" stroke-width="1.8" marker-end="url(#arr-endo)"/>
+  <path d="M 170 130 L 114 216" fill="none" stroke="#2563eb" stroke-width="1.8" marker-end="url(#arr-exo)"/>
+  <text x="84" y="158" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#b91c1c">汽化 (+吸热)</text>
+  <text x="80" y="172" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9" fill="#b91c1c">水 +40.7 kJ/mol</text>
+  <text x="166" y="178" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#1d4ed8">凝结 (−放热)</text>
+
+  <!-- Solid <-> Gas arrows -->
+  <path d="M 304 216 L 246 128" fill="none" stroke="#dc2626" stroke-width="1.8" marker-end="url(#arr-endo)"/>
+  <path d="M 230 130 L 286 216" fill="none" stroke="#2563eb" stroke-width="1.8" marker-end="url(#arr-exo)"/>
+  <text x="316" y="158" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#b91c1c">升华 (+吸热)</text>
+  <text x="234" y="178" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#1d4ed8">凝华 (−放热)</text>
+
+  <!-- Solid <-> Liquid arrows -->
+  <path d="M 250 232 L 152 232" fill="none" stroke="#dc2626" stroke-width="1.8" marker-end="url(#arr-endo)"/>
+  <path d="M 150 246 L 248 246" fill="none" stroke="#2563eb" stroke-width="1.8" marker-end="url(#arr-exo)"/>
+  <text x="200" y="226" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#b91c1c">熔化 (+6.004 kJ/mol)</text>
+  <text x="200" y="261" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#1d4ed8">凝固 (−放热)</text>
+
+  <!-- Summary note box -->
+  <rect x="38" y="274" width="324" height="88" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="48" y="294" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#b91c1c">● 吸热(+)：汽化、熔化、升华（克服分子间作用力）</text>
+  <text x="48" y="313" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#1d4ed8">● 放热(−)：凝结、凝固、凝华（100℃水蒸气烫伤更重）</text>
+  <text x="48" y="332" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#334155">● 蒸发(仅表面/任意温度) vs 沸腾(内部+表面/沸点恒温)</text>
+  <text x="48" y="350" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#334155">● 气体液化：必须先降温至临界温度 Tc 以下再加压</text>
+
+  <!-- Right Panel: Vapor Pressure Curves (Fig 17-48) -->
+  <rect x="388" y="52" width="348" height="322" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <text x="562" y="74" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#1e3a8a">二、饱和蒸气压与温度/沸点关系（图17-48）</text>
+
+  <!-- Coordinate Axes -->
+  <line x1="436" y1="264" x2="716" y2="264" stroke="#334155" stroke-width="1.6" marker-end="url(#arr-ax)"/>
+  <line x1="436" y1="264" x2="436" y2="96" stroke="#334155" stroke-width="1.6" marker-end="url(#arr-ax)"/>
+  <text x="716" y="280" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#334155">温度 t / ℃</text>
+  <text x="428" y="102" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#334155">p</text>
+  <text x="428" y="114" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9" fill="#475569">10⁵Pa</text>
+
+  <!-- 1.01 x 10^5 Pa horizontal line (y = 140) -->
+  <line x1="436" y1="140" x2="704" y2="140" stroke="#64748b" stroke-width="1.4" stroke-dasharray="5,4"/>
+  <text x="430" y="144" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#0f172a">1.01</text>
+  <text x="706" y="135" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#475569">标准大气压</text>
+
+  <!-- X-axis ticks: 0 at 436, 100C at 656 (scale 2.2 px per C) -->
+  <!-- 34.6C -> 436 + 76 = 512 -->
+  <!-- 78.3C -> 436 + 172 = 608 -->
+  <!-- 100C -> 436 + 220 = 656 -->
+  <text x="436" y="277" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#334155">0</text>
+  <text x="512" y="277" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#7c3aed">34.6</text>
+  <text x="608" y="277" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#d97706">78.3</text>
+  <text x="656" y="277" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#2563eb">100</text>
+
+  <!-- Vertical drop lines from boiling points -->
+  <line x1="512" y1="140" x2="512" y2="264" stroke="#7c3aed" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="608" y1="140" x2="608" y2="264" stroke="#d97706" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="656" y1="140" x2="656" y2="264" stroke="#2563eb" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- Diethyl Ether Curve -->
+  <path d="M 436 232 Q 486 206 512 140 Q 522 118 532 100" fill="none" stroke="#7c3aed" stroke-width="2.4"/>
+  <circle cx="512" cy="140" r="3.5" fill="#7c3aed"/>
+  <text x="488" y="114" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#7c3aed">乙醚</text>
+
+  <!-- Ethanol Curve -->
+  <path d="M 436 260 Q 554 246 608 140 Q 618 118 628 100" fill="none" stroke="#d97706" stroke-width="2.4"/>
+  <circle cx="608" cy="140" r="3.5" fill="#d97706"/>
+  <text x="580" y="162" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#b45309">酒精</text>
+
+  <!-- Water Curve -->
+  <path d="M 436 263 Q 596 258 656 140 Q 668 118 678 100" fill="none" stroke="#2563eb" stroke-width="2.4"/>
+  <circle cx="656" cy="140" r="3.5" fill="#2563eb"/>
+  <text x="678" y="168" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#1d4ed8">水</text>
+
+  <!-- Vapor Pressure Explanation Box -->
+  <rect x="404" y="286" width="316" height="76" rx="8" fill="#eff6ff" stroke="#93c5fd"/>
+  <text x="414" y="305" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#1e3a8a">● 饱和蒸气压随温度升高而增大（同温：乙醚 &gt; 酒精 &gt; 水）</text>
+  <text x="414" y="324" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#0f172a">● 沸腾条件：饱和蒸气压 = 外界大气压</text>
+  <text x="414" y="343" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#334155">  高山气压低 → 水沸点 &lt; 100℃；高压锅气压高 → 沸点 &gt; 100℃</text>
+</svg>

@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="100%" height="auto">
+  <defs>
+    <marker id="arr-blk" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#334155"/>
+    </marker>
+    <marker id="arr-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#dc2626"/>
+    </marker>
+    <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#2563eb"/>
+    </marker>
+    <marker id="arr-grn" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#059669"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="400" rx="14" fill="#ffffff"/>
+  <rect x="12" y="12" width="736" height="376" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="380" y="38" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="15.5" font-weight="700" fill="#0f172a">反应焓变能级图（放热 vs 吸热）与中和热简易量热器（化中 p.118–135）</text>
+
+  <!-- Left Panel: Enthalpy Diagrams -->
+  <rect x="24" y="52" width="430" height="324" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <text x="239" y="74" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#0f172a">一、反应焓变与断键/成键能量图解（ΔH = H生成物 − H反应物）</text>
+
+  <!-- Sub-left: Exothermic -->
+  <text x="130" y="96" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700" fill="#dc2626">放热反应（ΔH &lt; 0）</text>
+  <!-- Axes -->
+  <path d="M 46 278 L 46 112" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arr-blk)"/>
+  <path d="M 46 278 L 222 278" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arr-blk)"/>
+  <text x="46" y="106" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#475569">能量 H</text>
+  <text x="195" y="292" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#475569">反应过程</text>
+
+  <!-- Reactant & Product & Transition lines (Exothermic) -->
+  <line x1="60" y1="168" x2="112" y2="168" stroke="#1e293b" stroke-width="2.5"/>
+  <text x="86" y="160" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#1e293b">反应物</text>
+  <line x1="158" y1="244" x2="210" y2="244" stroke="#1e293b" stroke-width="2.5"/>
+  <text x="184" y="260" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#1e293b">生成物</text>
+  <!-- Curve -->
+  <path d="M 105 168 Q 134 114 164 244" fill="none" stroke="#ea580c" stroke-width="2.2"/>
+  <line x1="100" y1="126" x2="168" y2="126" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 2"/>
+  <!-- E_吸 & E_放 -->
+  <path d="M 110 168 L 110 130" fill="none" stroke="#dc2626" stroke-width="1.5" marker-end="url(#arr-red)"/>
+  <text x="93" y="146" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="600" fill="#dc2626">断键吸热</text>
+  <path d="M 160 126 L 160 240" fill="none" stroke="#059669" stroke-width="1.5" marker-end="url(#arr-grn)"/>
+  <text x="166" y="180" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="600" fill="#059669">成键放热</text>
+  <!-- ΔH arrow -->
+  <line x1="112" y1="168" x2="146" y2="168" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3 2"/>
+  <path d="M 134 168 L 134 240" fill="none" stroke="#dc2626" stroke-width="2" marker-end="url(#arr-red)"/>
+  <text x="130" y="210" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#dc2626">ΔH &lt; 0</text>
+
+  <!-- Sub-right: Endothermic -->
+  <text x="342" y="96" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700" fill="#2563eb">吸热反应（ΔH &gt; 0）</text>
+  <!-- Axes -->
+  <path d="M 254 278 L 254 112" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arr-blk)"/>
+  <path d="M 254 278 L 434 278" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#arr-blk)"/>
+  <text x="254" y="106" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#475569">能量 H</text>
+  <text x="405" y="292" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#475569">反应过程</text>
+
+  <!-- Reactant & Product lines (Endothermic) -->
+  <line x1="268" y1="244" x2="320" y2="244" stroke="#1e293b" stroke-width="2.5"/>
+  <text x="294" y="260" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#1e293b">反应物</text>
+  <line x1="366" y1="166" x2="418" y2="166" stroke="#1e293b" stroke-width="2.5"/>
+  <text x="392" y="158" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#1e293b">生成物</text>
+  <!-- Curve -->
+  <path d="M 314 244 Q 344 114 374 166" fill="none" stroke="#2563eb" stroke-width="2.2"/>
+  <line x1="312" y1="126" x2="378" y2="126" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 2"/>
+  <path d="M 320 244 L 320 130" fill="none" stroke="#dc2626" stroke-width="1.5" marker-end="url(#arr-red)"/>
+  <text x="315" y="190" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="600" fill="#dc2626">断键吸热</text>
+  <path d="M 368 126 L 368 162" fill="none" stroke="#059669" stroke-width="1.5" marker-end="url(#arr-grn)"/>
+  <text x="374" y="144" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="600" fill="#059669">成键放热</text>
+  <!-- ΔH arrow -->
+  <line x1="320" y1="244" x2="354" y2="244" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3 2"/>
+  <path d="M 344 244 L 344 170" fill="none" stroke="#2563eb" stroke-width="2" marker-end="url(#arr-blue)"/>
+  <text x="350" y="212" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#2563eb">ΔH &gt; 0</text>
+
+  <!-- Summary formula bar in Left Panel -->
+  <rect x="38" y="302" width="402" height="62" rx="8" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="239" y="321" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#0f172a">微观与宏观统一：ΔH = ΣE(断键吸收) − ΣE(成键放出) = H(生成物) − H(反应物)</text>
+  <text x="239" y="339" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#dc2626">• 放热（ΔH &lt; 0）：成键放热 &gt; 断键吸热；例：燃烧、酸碱中和、Mg+HCl、CaO+H₂O</text>
+  <text x="239" y="355" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#2563eb">• 吸热（ΔH &gt; 0）：断键吸热 &gt; 成键放热；例：Ba(OH)₂·8H₂O+NH₄Cl、煅烧 CaCO₃、制水煤气</text>
+
+  <!-- Right Panel: Neutralization Calorimeter -->
+  <rect x="466" y="52" width="270" height="324" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <text x="601" y="74" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#0f172a">二、中和热测定简易量热器</text>
+
+  <!-- Outer Beaker -->
+  <rect x="498" y="152" width="146" height="134" rx="4" fill="#f1f5f9" stroke="#475569" stroke-width="2"/>
+  <!-- Foam insulation blocks -->
+  <rect x="502" y="256" width="138" height="26" fill="#e2e8f0" stroke="#94a3b8" stroke-dasharray="4 2"/>
+  <rect x="502" y="166" width="24" height="90" fill="#e2e8f0" stroke="#94a3b8" stroke-dasharray="4 2"/>
+  <rect x="616" y="166" width="24" height="90" fill="#e2e8f0" stroke="#94a3b8" stroke-dasharray="4 2"/>
+  <text x="571" y="273" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="600" fill="#475569">碎泡沫塑料（绝热保温）</text>
+
+  <!-- Inner Small Beaker -->
+  <rect x="528" y="164" width="86" height="90" rx="2" fill="#ffffff" stroke="#334155" stroke-width="1.8"/>
+  <!-- Solution -->
+  <rect x="530" y="196" width="82" height="56" fill="#dbeafe"/>
+  <text x="571" y="220" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#1e3a8a">50 mL HCl (0.50)</text>
+  <text x="571" y="234" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#1e3a8a">+50 mL NaOH (0.55)</text>
+
+  <!-- Cardboard Lid -->
+  <rect x="490" y="146" width="162" height="8" rx="2" fill="#78350f"/>
+
+  <!-- Thermometer -->
+  <rect x="556" y="96" width="6" height="134" rx="3" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+  <circle cx="559" cy="232" r="5" fill="#dc2626"/>
+  <line x1="559" y1="122" x2="559" y2="230" stroke="#dc2626" stroke-width="2"/>
+
+  <!-- Circular Glass Stirring Rod -->
+  <path d="M 592 98 L 592 222 Q 592 232 582 232 Q 574 232 574 222 Q 574 214 592 214" fill="none" stroke="#0284c7" stroke-width="2.2"/>
+  <circle cx="592" cy="98" r="3" fill="#0284c7"/>
+
+  <!-- Labels with leader lines -->
+  <line x1="595" y1="108" x2="638" y2="108" stroke="#64748b" stroke-width="1"/>
+  <text x="641" y="112" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#0369a1">环形玻璃搅拌棒</text>
+  <text x="641" y="124" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9" fill="#dc2626">(禁代以铁棒)</text>
+
+  <line x1="562" y1="132" x2="638" y2="132" stroke="#64748b" stroke-width="1"/>
+  <text x="641" y="138" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#b91c1c">温度计</text>
+  <text x="641" y="150" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9" fill="#475569">测完酸需洗净</text>
+
+  <text x="652" y="174" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#78350f">硬纸盖板</text>
+  <text x="652" y="186" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9" fill="#475569">防热量散失</text>
+
+  <!-- Bottom Calculation Box -->
+  <rect x="478" y="294" width="246" height="70" rx="8" fill="#eff6ff" stroke="#93c5fd"/>
+  <text x="601" y="313" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#1e3a8a">强酸强碱稀溶液生成 1 mol H₂O(l)：</text>
+  <text x="601" y="330" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#dc2626">ΔHn = −57.3 kJ·mol⁻¹</text>
+  <text x="601" y="346" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#334155">实验式：ΔH = −(c·m·Δt×10⁻³) / 0.025</text>
+  <text x="601" y="359" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9" fill="#475569">注：弱酸/弱碱因电离吸热，放出热量 &lt; 57.3 kJ</text>
+</svg>

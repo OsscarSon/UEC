@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="100%" height="auto">
+  <defs>
+    <marker id="arr-col" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#334155"/>
+    </marker>
+    <marker id="arr-esc" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="760" height="400" rx="14" fill="#ffffff"/>
+  <rect x="12" y="12" width="736" height="376" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="380" y="36" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="15.5" font-weight="700" fill="#0f172a">拉乌尔定律蒸气压下降与稀溶液沸点上升、凝固点下降相图（化中 p.99–106）</text>
+
+  <!-- Left Panel: Raoult's Law & Vapor Pressure Lowering -->
+  <rect x="24" y="48" width="320" height="328" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <text x="184" y="68" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#0f172a">一、拉乌尔定律与蒸气压下降</text>
+
+  <!-- Micro comparison: Pure solvent vs Solution -->
+  <rect x="36" y="78" width="142" height="106" rx="8" fill="#eff6ff" stroke="#93c5fd"/>
+  <text x="107" y="94" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#1e3a8a">纯溶剂（蒸气压 p₁°）</text>
+  <rect x="52" y="128" width="110" height="48" rx="4" fill="#bfdbfe" stroke="#3b82f6"/>
+  <!-- Solvent particles at surface & escaping -->
+  <circle cx="68" cy="134" r="5" fill="#2563eb"/>
+  <circle cx="88" cy="134" r="5" fill="#2563eb"/>
+  <circle cx="108" cy="134" r="5" fill="#2563eb"/>
+  <circle cx="128" cy="134" r="5" fill="#2563eb"/>
+  <circle cx="148" cy="134" r="5" fill="#2563eb"/>
+  <path d="M 68 126 L 68 106" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arr-esc)"/>
+  <path d="M 98 126 L 98 106" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arr-esc)"/>
+  <path d="M 128 126 L 128 106" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arr-esc)"/>
+  <path d="M 148 126 L 148 106" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arr-esc)"/>
+  <text x="107" y="168" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#1e40af">表面全为溶剂分子，逸出多</text>
+
+  <rect x="190" y="78" width="142" height="106" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+  <text x="261" y="94" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#9a3412">稀溶液（p₁ = p₁° x₁）</text>
+  <rect x="206" y="128" width="110" height="48" rx="4" fill="#fed7aa" stroke="#ea580c"/>
+  <!-- Mixed solvent (blue) and non-volatile solute (orange) -->
+  <circle cx="222" cy="134" r="5" fill="#2563eb"/>
+  <circle cx="242" cy="134" r="5.5" fill="#ea580c"/>
+  <circle cx="262" cy="134" r="5" fill="#2563eb"/>
+  <circle cx="282" cy="134" r="5.5" fill="#ea580c"/>
+  <circle cx="302" cy="134" r="5" fill="#2563eb"/>
+  <path d="M 222 126 L 222 106" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arr-esc)"/>
+  <path d="M 302 126 L 302 106" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arr-esc)"/>
+  <text x="261" y="168" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#9a3412">溶质占部分表面，Δp = p₁°x₂</text>
+
+  <!-- Binary Raoult's Law & Deviations -->
+  <text x="184" y="202" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#0f172a">双挥发性理想溶液与非理想偏差（图 18-35 / 18-36）</text>
+  <line x1="62" y1="306" x2="294" y2="306" stroke="#334155" stroke-width="1.4"/>
+  <line x1="62" y1="306" x2="62" y2="216" stroke="#334155" stroke-width="1.4" marker-end="url(#arr-col)"/>
+  <line x1="294" y1="306" x2="294" y2="216" stroke="#334155" stroke-width="1.4"/>
+  <!-- Ideal total pressure line -->
+  <line x1="62" y1="264" x2="294" y2="230" stroke="#0f172a" stroke-width="2"/>
+  <!-- Partial pressure dashed lines -->
+  <line x1="62" y1="306" x2="294" y2="230" stroke="#64748b" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <line x1="62" y1="264" x2="294" y2="306" stroke="#64748b" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <!-- Positive & negative deviation curves -->
+  <path d="M 62 264 Q 178 214 294 230" fill="none" stroke="#dc2626" stroke-width="1.8" stroke-dasharray="5 3"/>
+  <path d="M 62 264 Q 178 272 294 230" fill="none" stroke="#2563eb" stroke-width="1.8" stroke-dasharray="5 3"/>
+
+  <text x="56" y="220" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#334155">P</text>
+  <text x="56" y="267" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9" fill="#334155">pB°</text>
+  <text x="300" y="234" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9" fill="#334155">pA°</text>
+  <text x="62" y="320" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9" fill="#475569">xA=0</text>
+  <text x="294" y="320" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9" fill="#475569">xA=1</text>
+
+  <text x="178" y="223" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9" font-weight="700" fill="#dc2626">正偏差 (A-B力弱)</text>
+  <text x="195" y="246" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9" font-weight="700" fill="#0f172a">理想 pT = pA°xA + pB°xB</text>
+  <text x="178" y="274" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9" font-weight="700" fill="#2563eb">负偏差 (A-B力强)</text>
+
+  <rect x="36" y="330" width="296" height="36" rx="6" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="184" y="346" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#0f172a">依数性核心：仅与溶质微粒数(m)有关</text>
+  <text x="184" y="360" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9" fill="#334155">1 mol NaCl 电离为 2 mol 离子 → 效应约为同摩尔糖的 2 倍</text>
+
+  <!-- Right Panel: P-T Phase Diagram (Fig 18-38) -->
+  <rect x="356" y="48" width="380" height="328" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <text x="546" y="68" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#0f172a">二、溶液沸点上升与凝固点下降相图（图 18-38）</text>
+
+  <!-- Axes -->
+  <line x1="408" y1="306" x2="716" y2="306" stroke="#334155" stroke-width="1.6" marker-end="url(#arr-col)"/>
+  <line x1="408" y1="306" x2="408" y2="92" stroke="#334155" stroke-width="1.6" marker-end="url(#arr-col)"/>
+  <text x="400" y="92" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#334155">P/Pa</text>
+  <text x="716" y="322" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#334155">温度/℃</text>
+
+  <!-- 1.01e5 Pa horizontal line (y = 148) -->
+  <line x1="408" y1="148" x2="704" y2="148" stroke="#475569" stroke-width="1.2"/>
+  <text x="414" y="142" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#0f172a">1.01×10⁵ Pa</text>
+
+  <!-- Triple point line (y = 248) -->
+  <line x1="408" y1="248" x2="540" y2="248" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 2"/>
+  <text x="414" y="243" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9" fill="#475569">610.481 Pa</text>
+
+  <!-- Pure Water Phase Lines (Solid blue) -->
+  <!-- Triple point: (502, 248) -->
+  <!-- Solid-Gas (ice sublimation): (414, 286) -> (502, 248) -->
+  <path d="M 414 286 Q 465 268 502 248" fill="none" stroke="#1d4ed8" stroke-width="2.4"/>
+  <!-- Solid-Liquid (ice melting, negative slope): (502, 248) -> (492, 102) -->
+  <line x1="502" y1="248" x2="492" y2="102" stroke="#1d4ed8" stroke-width="2.4"/>
+  <!-- Liquid-Gas (water vaporization): (502, 248) -> (652, 148) -> (680, 110) -->
+  <path d="M 502 248 Q 592 212 652 148 T 682 106" fill="none" stroke="#1d4ed8" stroke-width="2.4"/>
+
+  <!-- Solution Phase Lines (Dashed red/orange) -->
+  <!-- Solution triple point shifted down/left: (486, 255) -->
+  <line x1="486" y1="255" x2="472" y2="102" stroke="#dc2626" stroke-width="2" stroke-dasharray="5 3"/>
+  <path d="M 486 255 Q 598 224 676 148 T 704 114" fill="none" stroke="#dc2626" stroke-width="2" stroke-dasharray="5 3"/>
+
+  <!-- Key intersection markers on 1.01e5 Pa -->
+  <!-- Pure Tf0: x = 495, y = 148 -->
+  <circle cx="495" cy="148" r="3" fill="#1d4ed8"/>
+  <line x1="495" y1="148" x2="495" y2="306" stroke="#1d4ed8" stroke-width="1" stroke-dasharray="3 2"/>
+  <text x="500" y="320" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#1d4ed8">Tf°(0℃)</text>
+
+  <!-- Solution Tf: x = 476, y = 148 -->
+  <circle cx="476" cy="148" r="3" fill="#dc2626"/>
+  <line x1="476" y1="148" x2="476" y2="306" stroke="#dc2626" stroke-width="1" stroke-dasharray="3 2"/>
+  <text x="462" y="320" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#dc2626">Tf</text>
+
+  <!-- Pure Tb0 (B): x = 652, y = 148 -->
+  <circle cx="652" cy="148" r="3.5" fill="#1d4ed8"/>
+  <text x="646" y="138" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#1d4ed8">B</text>
+  <line x1="652" y1="148" x2="652" y2="306" stroke="#1d4ed8" stroke-width="1" stroke-dasharray="3 2"/>
+  <text x="646" y="320" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#1d4ed8">Tb°(100℃)</text>
+
+  <!-- Solution Tb (A): x = 676, y = 148 -->
+  <circle cx="676" cy="148" r="3.5" fill="#dc2626"/>
+  <text x="684" y="140" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#dc2626">A</text>
+  <line x1="676" y1="148" x2="676" y2="306" stroke="#dc2626" stroke-width="1" stroke-dasharray="3 2"/>
+  <text x="680" y="320" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#dc2626">Tb</text>
+
+  <!-- Point a directly below B on solution curve (x = 652, y = 171) -->
+  <circle cx="652" cy="171" r="3" fill="#dc2626"/>
+  <text x="660" y="176" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#dc2626">a</text>
+  <line x1="408" y1="171" x2="652" y2="171" stroke="#dc2626" stroke-width="0.9" stroke-dasharray="2 2"/>
+  <text x="414" y="166" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9" font-weight="700" fill="#dc2626">Δp (蒸气压下降)</text>
+
+  <!-- Phase Region Labels -->
+  <text x="444" y="198" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#334155">冰 (固)</text>
+  <text x="572" y="128" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#1e3a8a">水 / 水溶液 (液)</text>
+  <text x="580" y="280" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#475569">水蒸气 (气)</text>
+
+  <!-- Triple point callout -->
+  <circle cx="502" cy="248" r="3.5" fill="#0f172a"/>
+  <text x="512" y="253" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9" font-weight="600" fill="#0f172a">水三相点(0.01℃)</text>
+
+  <!-- ΔTf and ΔTb brackets & formulas -->
+  <path d="M 476 300 L 495 300" stroke="#7e22ce" stroke-width="2.5"/>
+  <text x="485" y="294" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#7e22ce">ΔTf</text>
+
+  <path d="M 652 300 L 676 300" stroke="#b45309" stroke-width="2.5"/>
+  <text x="664" y="294" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#b45309">ΔTb</text>
+
+  <!-- Bottom formula card -->
+  <rect x="370" y="330" width="352" height="38" rx="6" fill="#fefce8" stroke="#fde047"/>
+  <text x="546" y="346" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#854d0e">ΔTb = Tb - Tb° = Kb·m（水 Kb = 0.52 ℃·kg·mol⁻¹）</text>
+  <text x="546" y="361" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#7e22ce">ΔTf = Tf° - Tf = Kf·m（水 Kf = 1.86 ℃·kg·mol⁻¹）</text>
+</svg>

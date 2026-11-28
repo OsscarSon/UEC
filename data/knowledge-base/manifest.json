@@ -35,6 +35,33 @@
         16
       ],
       "dataFile": "books/sm1-chemistry-2017.json"
+    },
+    {
+      "id": "sm2-chemistry-2018",
+      "subject": "化学",
+      "courseCode": "chemistry",
+      "title": "马来西亚华文独中教科书 · 高中适用 · 化学（中册）",
+      "shortTitle": "化中",
+      "volume": "中册",
+      "publisher": "董教总华文独中工委会统一课程委员会 / 浙江教育出版社",
+      "edition": "2018年12月第1版",
+      "printedPages": 374,
+      "pdfPages": 375,
+      "pageOffset": 11,
+      "driveFileId": "10nprMQRmPJXjvGP53IEglZcfQVIQboGq",
+      "status": "complete_9_chapters",
+      "chaptersIndexed": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "dataFile": "books/sm2-chemistry-2018.json"
     }
   ]
 }

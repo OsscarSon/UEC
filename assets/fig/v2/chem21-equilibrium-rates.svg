@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="100%" height="auto">
+  <defs>
+    <marker id="arr-eq-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#2563eb"/>
+    </marker>
+    <marker id="arr-eq-slate" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#334155"/>
+    </marker>
+    <marker id="arr-eq-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#dc2626"/>
+    </marker>
+    <marker id="arr-eq-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#059669"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="400" rx="14" fill="#ffffff"/>
+  <rect x="12" y="12" width="736" height="376" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="380" y="36" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="15.5" font-weight="700" fill="#0f172a">化学平衡的建立（c-t / R-t 图像）、反应商判据与合成氨条件选择（化中 p.184–201）</text>
+
+  <!-- Left Panel: c-t and R-t graphs -->
+  <rect x="24" y="48" width="356" height="328" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <text x="202" y="68" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12.5" font-weight="700" fill="#0f172a">一、合成氨建立平衡的 c-t 与 R-t 图像（表 21-2）</text>
+
+  <!-- Top Left: c-t graph -->
+  <text x="196" y="86" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="600" fill="#475569">N₂(g) + 3H₂(g) ⇌ 2NH₃(g) 浓度变化（mol/L）</text>
+  <!-- Axes -->
+  <line x1="62" y1="202" x2="348" y2="202" stroke="#334155" stroke-width="1.5" marker-end="url(#arr-eq-slate)"/>
+  <line x1="62" y1="202" x2="62" y2="94" stroke="#334155" stroke-width="1.5" marker-end="url(#arr-eq-slate)"/>
+  <text x="352" y="206" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#334155">t/min</text>
+  <text x="54" y="96" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#334155">c</text>
+
+  <!-- Y ticks (0 to 6 mol/L; 1 unit = 16 px; y=202 is 0, y=106 is 6.0) -->
+  <line x1="58" y1="186" x2="62" y2="186" stroke="#64748b" stroke-width="1"/>
+  <text x="54" y="189" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#475569">1.0</text>
+  <line x1="58" y1="170" x2="62" y2="170" stroke="#64748b" stroke-width="1"/>
+  <text x="54" y="173" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#475569">2.0</text>
+  <line x1="58" y1="154" x2="62" y2="154" stroke="#64748b" stroke-width="1"/>
+  <text x="54" y="157" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#475569">3.0</text>
+  <line x1="58" y1="106" x2="62" y2="106" stroke="#64748b" stroke-width="1"/>
+  <text x="54" y="109" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#475569">6.0</text>
+
+  <!-- Equilibrium line t=10 min (x=62 + 10*22 = 282) -->
+  <line x1="282" y1="100" x2="282" y2="202" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <text x="282" y="214" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#0f172a">10</text>
+  <text x="326" y="214" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#475569">12</text>
+  <text x="62" y="214" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#475569">0</text>
+
+  <!-- H2 curve: (0, 6.0)->(2, 4.5)->(4, 3.6)->(6, 3.3)->(10, 3.0)->(12, 3.0) -->
+  <path d="M 62 106 Q 115 140, 194 149 T 282 154 L 332 154" fill="none" stroke="#2563eb" stroke-width="2.2"/>
+  <circle cx="62" cy="106" r="2.5" fill="#2563eb"/>
+  <circle cx="282" cy="154" r="2.5" fill="#2563eb"/>
+  <text x="290" y="148" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#1d4ed8">H₂ (3.0)</text>
+
+  <!-- NH3 curve: (0, 0)->(2, 1.0)->(4, 1.6)->(6, 1.8)->(10, 2.0)->(12, 2.0) -->
+  <path d="M 62 202 Q 115 178, 194 173 T 282 170 L 332 170" fill="none" stroke="#059669" stroke-width="2.2"/>
+  <circle cx="62" cy="202" r="2.5" fill="#059669"/>
+  <circle cx="282" cy="170" r="2.5" fill="#059669"/>
+  <text x="290" y="168" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#047857">NH₃ (2.0)</text>
+
+  <!-- N2 curve: (0, 2.0)->(2, 1.5)->(4, 1.2)->(6, 1.1)->(10, 1.0)->(12, 1.0) -->
+  <path d="M 62 170 Q 115 182, 194 184.5 T 282 186 L 332 186" fill="none" stroke="#dc2626" stroke-width="2.2"/>
+  <circle cx="62" cy="170" r="2.5" fill="#dc2626"/>
+  <circle cx="282" cy="186" r="2.5" fill="#dc2626"/>
+  <text x="290" y="191" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#b91c1c">N₂ (1.0)</text>
+
+  <text x="202" y="114" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#475569">Δc(N₂) : Δc(H₂) : Δc(NH₃) = 1 : 3 : 2</text>
+
+  <!-- Bottom Left: R-t graph -->
+  <line x1="36" y1="224" x2="366" y2="224" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="202" y="242" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#0f172a">动态平衡特征：R_正 = R_逆 ≠ 0（图 21-4）</text>
+
+  <line x1="62" y1="348" x2="348" y2="348" stroke="#334155" stroke-width="1.5" marker-end="url(#arr-eq-slate)"/>
+  <line x1="62" y1="348" x2="62" y2="254" stroke="#334155" stroke-width="1.5" marker-end="url(#arr-eq-slate)"/>
+  <text x="352" y="352" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#334155">t</text>
+  <text x="54" y="256" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#334155">R</text>
+
+  <line x1="218" y1="258" x2="218" y2="348" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <text x="218" y="362" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#0f172a">t_eq（达平衡）</text>
+
+  <!-- R_forward -->
+  <path d="M 62 264 Q 118 298, 218 304 L 336 304" fill="none" stroke="#2563eb" stroke-width="2.3"/>
+  <text x="96" y="274" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#1d4ed8">R_正（逐渐减小）</text>
+
+  <!-- R_reverse -->
+  <path d="M 62 348 Q 118 310, 218 304 L 336 304" fill="none" stroke="#ea580c" stroke-width="2.3"/>
+  <text x="96" y="338" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#c2410c">R_逆（从零增大）</text>
+
+  <rect x="226" y="276" width="118" height="22" rx="5" fill="#eff6ff" stroke="#93c5fd"/>
+  <text x="285" y="291" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#1e3a8a">R_正 = R_逆 ≠ 0</text>
+  <text x="285" y="324" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#475569">正、逆途径皆可建立同平衡</text>
+
+  <!-- Right Top Panel: Q vs Kc criterion -->
+  <rect x="392" y="48" width="344" height="156" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <text x="564" y="68" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12.5" font-weight="700" fill="#0f172a">二、反应商 Q 与平衡常数 K_c 方向判据</text>
+
+  <!-- Formula box -->
+  <rect x="408" y="78" width="312" height="34" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="564" y="99" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#0f172a">Q = [C]^c[D]^d / ([A]^a[B]^b)　（仅温度改变 K_c）</text>
+
+  <!-- 3 boxes -->
+  <rect x="408" y="122" width="96" height="70" rx="7" fill="#ecfdf5" stroke="#10b981" stroke-width="1.5"/>
+  <text x="456" y="141" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700" fill="#047857">Q &lt; K_c</text>
+  <text x="456" y="159" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#065f46">正向进行 →</text>
+  <text x="456" y="177" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#047857">R_正 &gt; R_逆</text>
+
+  <rect x="516" y="122" width="96" height="70" rx="7" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="564" y="141" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700" fill="#1d4ed8">Q = K_c</text>
+  <text x="564" y="159" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#1e3a8a">平衡状态 ⇌</text>
+  <text x="564" y="177" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#1d4ed8">R_正 = R_逆</text>
+
+  <rect x="624" y="122" width="96" height="70" rx="7" fill="#fef2f2" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="672" y="141" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700" fill="#b91c1c">Q &gt; K_c</text>
+  <text x="672" y="159" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#991b1b">← 逆向进行</text>
+  <text x="672" y="177" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#b91c1c">R_正 &lt; R_逆</text>
+
+  <!-- Right Bottom Panel: Haber process T/P trade-off -->
+  <rect x="392" y="214" width="344" height="162" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <text x="564" y="234" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12.5" font-weight="700" fill="#0f172a">三、哈伯合成氨工业条件权衡（表 21-7，p.201）</text>
+
+  <!-- Small chart of NH3% vs T at 10 MPa and 60 MPa -->
+  <line x1="436" y1="336" x2="606" y2="336" stroke="#334155" stroke-width="1.3" marker-end="url(#arr-eq-slate)"/>
+  <line x1="436" y1="336" x2="436" y2="250" stroke="#334155" stroke-width="1.3" marker-end="url(#arr-eq-slate)"/>
+  <text x="610" y="340" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#334155">T/℃</text>
+  <text x="428" y="252" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9" fill="#334155">NH₃%</text>
+
+  <text x="450" y="348" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.5" fill="#475569">200</text>
+  <text x="518" y="348" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.5" fill="#475569">400</text>
+  <text x="552" y="348" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.5" font-weight="700" fill="#b45309">500</text>
+  <text x="586" y="348" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.5" fill="#475569">600</text>
+
+  <!-- 60 MPa curve (95.4% at 200 -> 23.1% at 600) -->
+  <path d="M 450 262 L 484 271 L 518 286 L 552 304 L 586 319" fill="none" stroke="#dc2626" stroke-width="2"/>
+  <text x="454" y="259" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9" font-weight="700" fill="#b91c1c">60 MPa</text>
+
+  <!-- 20 MPa curve (86.4% -> 9.1%) -->
+  <path d="M 450 269 L 484 287 L 518 307 L 552 322 L 586 329" fill="none" stroke="#2563eb" stroke-width="2"/>
+  <text x="524" y="317" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9" font-weight="700" fill="#1d4ed8">20 MPa</text>
+
+  <!-- Optimal T band at 500C -->
+  <line x1="552" y1="254" x2="552" y2="336" stroke="#d97706" stroke-width="1.2" stroke-dasharray="3,2"/>
+
+  <!-- Industrial conditions summary box -->
+  <rect x="622" y="248" width="104" height="114" rx="7" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.2"/>
+  <text x="674" y="264" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#92400e">工业适宜条件</text>
+  <text x="628" y="282" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#1e293b">• 压强: 1.3~3×10⁷ Pa</text>
+  <text x="628" y="298" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#1e293b">• 温度: ~500 ℃</text>
+  <text x="628" y="313" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9" fill="#78350f">  (兼顾速率与催化剂</text>
+  <text x="628" y="325" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9" fill="#78350f">   最高活性)</text>
+  <text x="628" y="341" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#1e293b">• 液化移出 NH₃</text>
+  <text x="628" y="355" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#1e293b">• N₂, H₂ 循环利用</text>
+
+  <text x="518" y="366" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#475569">ΔH = −92.4 kJ/mol：高压、低温有利平衡右移</text>
+</svg>

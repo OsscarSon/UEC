@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="100%" height="auto">
+  <defs>
+    <marker id="arr-e" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#dc2626"/>
+    </marker>
+    <marker id="arr-ion" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#1d4ed8"/>
+    </marker>
+    <marker id="arr-she" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0f766e"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="760" height="400" rx="14" fill="#ffffff"/>
+  <rect x="12" y="12" width="736" height="376" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="380" y="36" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="15.5" font-weight="700" fill="#0f172a">原电池（盐桥机制）与标准氢电极（SHE）电势测定示意图（化中 p.293–302）</text>
+
+  <!-- Left Panel: Daniell Zn-Cu Galvanic Cell with Salt Bridge -->
+  <rect x="24" y="48" width="350" height="328" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <text x="199" y="69" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#0f172a">一、Cu–Zn 原电池与盐桥（图 24-5）</text>
+
+  <!-- Galvanometer & External Wire -->
+  <circle cx="199" cy="96" r="14" fill="#f1f5f9" stroke="#334155" stroke-width="1.5"/>
+  <text x="199" y="101" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700" fill="#0f172a">G</text>
+  <path d="M 104 140 L 104 96 L 185 96" fill="none" stroke="#dc2626" stroke-width="2" marker-end="url(#arr-e)"/>
+  <path d="M 213 96 L 294 96 L 294 140" fill="none" stroke="#dc2626" stroke-width="2" marker-end="url(#arr-e)"/>
+  <text x="145" y="88" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#dc2626">e⁻ 流出</text>
+  <text x="255" y="88" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#dc2626">e⁻ 流入</text>
+
+  <!-- Left Beaker (ZnSO4) -->
+  <rect x="46" y="160" width="116" height="106" rx="6" fill="#e2e8f0" stroke="#475569" stroke-width="1.6"/>
+  <rect x="48" y="182" width="112" height="82" rx="4" fill="#f1f5f9"/>
+  <rect x="92" y="140" width="24" height="96" rx="3" fill="#64748b" stroke="#334155" stroke-width="1.4"/>
+  <text x="104" y="190" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#ffffff">Zn</text>
+  <text x="68" y="152" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#b91c1c">负极(−)</text>
+  <text x="104" y="255" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="600" fill="#1e293b">1.0 mol·L⁻¹ ZnSO₄</text>
+
+  <!-- Right Beaker (CuSO4) -->
+  <rect x="236" y="160" width="116" height="106" rx="6" fill="#dbeafe" stroke="#1e40af" stroke-width="1.6"/>
+  <rect x="238" y="182" width="112" height="82" rx="4" fill="#bfdbfe"/>
+  <rect x="282" y="140" width="24" height="96" rx="3" fill="#ea580c" stroke="#9a3412" stroke-width="1.4"/>
+  <text x="294" y="190" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#ffffff">Cu</text>
+  <text x="330" y="152" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#1d4ed8">正极(+)</text>
+  <text x="294" y="255" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="600" fill="#1e3a8a">1.0 mol·L⁻¹ CuSO₄</text>
+
+  <!-- Salt Bridge -->
+  <path d="M 134 218 L 134 128 Q 134 118 144 118 L 254 118 Q 264 118 264 128 L 264 218" fill="none" stroke="#475569" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 134 218 L 134 128 Q 134 118 144 118 L 254 118 Q 264 118 264 128 L 264 218" fill="none" stroke="#fef3c7" stroke-width="12" stroke-linecap="round"/>
+  <text x="199" y="122" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#78350f">盐桥(饱和KCl琼脂)</text>
+  <text x="164" y="148" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#b91c1c">← Cl⁻</text>
+  <text x="234" y="148" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#1d4ed8">K⁺ →</text>
+
+  <!-- Equations Box Left -->
+  <rect x="34" y="276" width="330" height="90" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="44" y="294" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#b91c1c">负极(氧化)：Zn(s) → Zn²⁺(aq) + 2e⁻（质量减小）</text>
+  <text x="44" y="312" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#1d4ed8">正极(还原)：Cu²⁺(aq) + 2e⁻ → Cu(s)（质量增大）</text>
+  <text x="44" y="330" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="600" fill="#0f172a">电池符号：Zn | Zn²⁺(c₁) || Cu²⁺(c₂) | Cu</text>
+  <text x="44" y="348" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#475569">盐桥作用：形成离子通路、保持溶液电中性（阴向负、阳向正）</text>
+  <text x="44" y="362" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#475569">标准电动势：E°cell = E°₊ − E°₋ = 0.34 − (−0.76) = +1.10 V</text>
+
+  <!-- Right Panel: Standard Hydrogen Electrode (SHE) -->
+  <rect x="386" y="48" width="350" height="328" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <text x="561" y="69" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#0f172a">二、标准氢电极测定 E°(Zn²⁺/Zn)（图 24-17）</text>
+
+  <!-- Potentiometer -->
+  <rect x="526" y="82" width="70" height="26" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="561" y="99" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#92400e">0.76 V</text>
+  <path d="M 464 140 L 464 95 L 524 95" fill="none" stroke="#dc2626" stroke-width="2" marker-end="url(#arr-e)"/>
+  <path d="M 596 95 L 656 95 L 656 140" fill="none" stroke="#dc2626" stroke-width="2" marker-end="url(#arr-e)"/>
+  <text x="492" y="88" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#dc2626">e⁻ →</text>
+  <text x="628" y="88" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#dc2626">→ e⁻</text>
+
+  <!-- Left Beaker (Zn) -->
+  <rect x="408" y="160" width="112" height="106" rx="6" fill="#e2e8f0" stroke="#475569" stroke-width="1.6"/>
+  <rect x="410" y="182" width="108" height="82" rx="4" fill="#f1f5f9"/>
+  <rect x="454" y="140" width="20" height="96" rx="3" fill="#64748b" stroke="#334155" stroke-width="1.4"/>
+  <text x="464" y="190" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#ffffff">Zn</text>
+  <text x="430" y="152" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#b91c1c">负极(−)</text>
+  <text x="464" y="255" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="600" fill="#1e293b">1 mol·L⁻¹ ZnSO₄</text>
+
+  <!-- Right Beaker (SHE) -->
+  <rect x="598" y="160" width="124" height="106" rx="6" fill="#ccfbf1" stroke="#0f766e" stroke-width="1.6"/>
+  <rect x="600" y="182" width="120" height="82" rx="4" fill="#e0f2fe"/>
+  <!-- Glass jacket & H2 inlet -->
+  <rect x="642" y="132" width="28" height="96" rx="4" fill="none" stroke="#0f766e" stroke-width="1.4"/>
+  <line x1="656" y1="132" x2="656" y2="212" stroke="#334155" stroke-width="2"/>
+  <rect x="649" y="210" width="14" height="22" rx="2" fill="#334155"/>
+  <text x="656" y="225" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#ffffff">Pt</text>
+  <!-- H2 inlet pipe -->
+  <path d="M 692 146 L 670 146" fill="none" stroke="#0f766e" stroke-width="1.8" marker-end="url(#arr-she)"/>
+  <text x="694" y="140" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#0f766e">H₂(g)</text>
+  <text x="694" y="153" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.5" fill="#0f766e">1.01×10⁵ Pa</text>
+  <text x="620" y="152" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#0f766e">正极(+)</text>
+  <text x="660" y="255" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="600" fill="#0f766e">1 mol·L⁻¹ H⁺(aq)</text>
+
+  <!-- Salt Bridge Right -->
+  <path d="M 496 218 L 496 130 Q 496 122 504 122 L 614 122 Q 622 122 622 130 L 622 218" fill="none" stroke="#475569" stroke-width="12" stroke-linecap="round"/>
+  <path d="M 496 218 L 496 130 Q 496 122 504 122 L 614 122 Q 622 122 622 130 L 622 218" fill="none" stroke="#fef3c7" stroke-width="8" stroke-linecap="round"/>
+  <text x="561" y="126" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9" font-weight="700" fill="#78350f">盐桥</text>
+
+  <!-- Equations Box Right -->
+  <rect x="396" y="276" width="330" height="90" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="406" y="294" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#0f766e">标准氢电极(SHE)：规定 E°(H⁺/H₂) = 0.00 V（298 K）</text>
+  <text x="406" y="312" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="600" fill="#1e293b">总反应：Zn(s) + 2H⁺(aq) → Zn²⁺(aq) + H₂(g)</text>
+  <text x="406" y="330" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#1d4ed8">E°cell = E°₊ − E°₋ ⇒ 0.76 = 0 − E°(Zn²⁺/Zn)</text>
+  <text x="406" y="348" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#b91c1c">∴ E°(Zn²⁺/Zn) = −0.76 V（E°越小，金属越活泼）</text>
+  <text x="406" y="362" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#475569">自发判据：E°cell &gt; 0 正向自发；E°cell &lt; 0 逆向自发</text>
+</svg>

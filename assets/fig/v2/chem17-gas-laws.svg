@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="100%" height="auto">
+  <defs>
+    <marker id="arr-b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#2563eb"/>
+    </marker>
+    <marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#dc2626"/>
+    </marker>
+    <marker id="arr-k" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#334155"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="760" height="400" rx="14" fill="#ffffff"/>
+  <rect x="12" y="12" width="736" height="376" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="380" y="37" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="15.5" font-weight="700" fill="#0f172a">气体基本定律图像与格雷姆扩散实验原理（化中 p.8–20）</text>
+
+  <!-- Panel 1: Boyle's Law -->
+  <rect x="24" y="52" width="228" height="322" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <text x="138" y="73" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#1e3a8a">一、波义耳定律 (T 恒定)</text>
+
+  <!-- Plot 1A: p vs V -->
+  <line x1="56" y1="186" x2="226" y2="186" stroke="#334155" stroke-width="1.5" marker-end="url(#arr-k)"/>
+  <line x1="56" y1="186" x2="56" y2="90" stroke="#334155" stroke-width="1.5" marker-end="url(#arr-k)"/>
+  <text x="230" y="190" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#334155">V</text>
+  <text x="48" y="96" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#334155">p</text>
+  <path d="M 68 98 Q 92 162 214 176" fill="none" stroke="#2563eb" stroke-width="2.2"/>
+  <path d="M 88 94 Q 116 146 216 160" fill="none" stroke="#ea580c" stroke-width="1.8" stroke-dasharray="4,3"/>
+  <text x="172" y="148" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#ea580c">T₂ &gt; T₁</text>
+  <text x="148" y="170" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#2563eb">T₁ (双曲线)</text>
+
+  <!-- Plot 1B: p vs 1/V -->
+  <line x1="56" y1="296" x2="226" y2="296" stroke="#334155" stroke-width="1.5" marker-end="url(#arr-k)"/>
+  <line x1="56" y1="296" x2="56" y2="210" stroke="#334155" stroke-width="1.5" marker-end="url(#arr-k)"/>
+  <text x="220" y="310" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#334155">1/V</text>
+  <text x="48" y="216" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#334155">p</text>
+  <line x1="56" y1="296" x2="206" y2="218" stroke="#059669" stroke-width="2.2"/>
+  <text x="150" y="274" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#059669">过原点直线</text>
+
+  <!-- Boyle Formula Box -->
+  <rect x="34" y="320" width="208" height="44" rx="7" fill="#eff6ff" stroke="#93c5fd"/>
+  <text x="138" y="338" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#1e3a8a">p₁V₁ = p₂V₂ (pV = k)</text>
+  <text x="138" y="355" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#475569">适用：压强不太大、温度不太低</text>
+
+  <!-- Panel 2: Charles' Law & Absolute Zero -->
+  <rect x="264" y="52" width="232" height="322" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <text x="380" y="73" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#9a3412">二、查理定律与绝对零度</text>
+
+  <!-- Plot 2A: V vs t (Celsius) -->
+  <line x1="278" y1="184" x2="482" y2="184" stroke="#334155" stroke-width="1.4" marker-end="url(#arr-k)"/>
+  <line x1="398" y1="194" x2="398" y2="90" stroke="#334155" stroke-width="1.4" marker-end="url(#arr-k)"/>
+  <text x="480" y="198" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#334155">t/℃</text>
+  <text x="392" y="96" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#334155">V</text>
+  <!-- Line extrapolating to -273.15 C -->
+  <line x1="296" y1="184" x2="398" y2="140" stroke="#dc2626" stroke-width="1.8" stroke-dasharray="4,3"/>
+  <line x1="398" y1="140" x2="466" y2="111" stroke="#dc2626" stroke-width="2.2"/>
+  <circle cx="296" cy="184" r="3.5" fill="#dc2626"/>
+  <text x="304" y="198" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#dc2626">−273.15℃</text>
+  <text x="304" y="174" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9" fill="#b91c1c">(教材取−273)</text>
+  <text x="404" y="196" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#334155">0</text>
+  <text x="444" y="106" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#dc2626">每升1℃增V₀/273</text>
+
+  <!-- Plot 2B: V vs T (Kelvin) -->
+  <line x1="306" y1="296" x2="476" y2="296" stroke="#334155" stroke-width="1.5" marker-end="url(#arr-k)"/>
+  <line x1="306" y1="296" x2="306" y2="210" stroke="#334155" stroke-width="1.5" marker-end="url(#arr-k)"/>
+  <text x="476" y="310" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#334155">T/K</text>
+  <text x="298" y="216" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#334155">V</text>
+  <text x="298" y="308" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#334155">0 K</text>
+  <line x1="306" y1="296" x2="334" y2="281" stroke="#ea580c" stroke-width="1.8" stroke-dasharray="3,3"/>
+  <line x1="334" y1="281" x2="462" y2="215" stroke="#ea580c" stroke-width="2.2"/>
+  <text x="405" y="274" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#c2410c">T = (273 + t) K</text>
+
+  <!-- Charles Formula Box -->
+  <rect x="274" y="320" width="212" height="44" rx="7" fill="#fff7ed" stroke="#fdba74"/>
+  <text x="380" y="338" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#9a3412">查理(p恒)：V₁/T₁ = V₂/T₂</text>
+  <text x="380" y="355" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="600" fill="#b45309">压强定律(V恒)：p₁/T₁ = p₂/T₂</text>
+
+  <!-- Panel 3: Graham Diffusion & Gay-Lussac -->
+  <rect x="508" y="52" width="228" height="322" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <text x="622" y="73" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#065f46">三、格雷姆扩散与盖·吕萨克</text>
+
+  <!-- Glass tube experiment (Activity 4, p.17-18) -->
+  <text x="622" y="96" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#334155">活动4：30 cm 玻璃管扩散实验</text>
+  <rect x="526" y="114" width="192" height="32" rx="6" fill="#f1f5f9" stroke="#475569" stroke-width="1.6"/>
+  <!-- Left cotton NH3 -->
+  <ellipse cx="536" cy="130" rx="8" ry="12" fill="#dbeafe" stroke="#2563eb"/>
+  <text x="538" y="162" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#1d4ed8">浓氨水</text>
+  <text x="538" y="174" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#1d4ed8">NH₃(M=17)</text>
+  <!-- Right cotton HCl -->
+  <ellipse cx="708" cy="130" rx="8" ry="12" fill="#fee2e2" stroke="#dc2626"/>
+  <text x="706" y="162" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#b91c1c">浓盐酸</text>
+  <text x="706" y="174" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#b91c1c">HCl(M=36.5)</text>
+  <!-- NH4Cl white ring at ~3:2 position (偏右) -->
+  <rect x="636" y="115" width="7" height="30" fill="#ffffff" stroke="#0f172a" stroke-width="1.2"/>
+  <text x="638" y="109" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#0f172a">NH₄Cl 白环(偏右)</text>
+  <!-- Diffusion arrows -->
+  <line x1="548" y1="130" x2="628" y2="130" stroke="#2563eb" stroke-width="2" marker-end="url(#arr-b)"/>
+  <line x1="696" y1="130" x2="650" y2="130" stroke="#dc2626" stroke-width="2" marker-end="url(#arr-r)"/>
+  <text x="590" y="125" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#1d4ed8">3 份</text>
+  <text x="673" y="125" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#b91c1c">2 份</text>
+
+  <!-- Graham Formula Box -->
+  <rect x="520" y="186" width="204" height="72" rx="8" fill="#ecfdf5" stroke="#6ee7b7"/>
+  <text x="622" y="206" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#065f46">vₐ / v_b = √(ρ_b / ρₐ) = √(M_b / Mₐ)</text>
+  <text x="622" y="226" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#047857">v(NH₃)/v(HCl) = √(36.5/17) ≈ 1.47 ≈ 3:2</text>
+  <text x="622" y="244" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#475569">同温同压：分子越轻，扩散越快</text>
+
+  <!-- Gay-Lussac Box -->
+  <rect x="520" y="272" width="204" height="92" rx="8" fill="#fefce8" stroke="#fde047"/>
+  <text x="622" y="292" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#854d0e">盖·吕萨克定律（同温同压）</text>
+  <text x="622" y="312" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#0f172a">N₂(g) + 3H₂(g) → 2NH₃(g)</text>
+  <text x="622" y="330" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#92400e">体积比 V(N₂):V(H₂):V(NH₃) = 1:3:2</text>
+  <text x="622" y="350" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#475569">注：只计气体体积，不计固液</text>
+</svg>

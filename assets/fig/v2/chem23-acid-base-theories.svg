@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="100%" height="auto">
+  <defs>
+    <marker id="arr-ab" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#2563eb"/>
+    </marker>
+    <linearGradient id="ph-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="30%" stop-color="#f97316"/>
+      <stop offset="50%" stop-color="#22c55e"/>
+      <stop offset="75%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="760" height="400" rx="14" fill="#ffffff"/>
+  <rect x="12" y="12" width="736" height="376" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="380" y="36" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="15.5" font-weight="700" fill="#0f172a">三大酸碱理论演进、弱电解质电离平衡与溶液 pH 标尺（化中 p.238–256）</text>
+
+  <!-- Left Panel: Three Acid-Base Theories -->
+  <rect x="24" y="50" width="356" height="324" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <text x="202" y="72" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#0f172a">一、三大酸碱理论对比与包含关系</text>
+
+  <!-- Theory 1: Arrhenius -->
+  <rect x="36" y="84" width="332" height="76" rx="8" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.4"/>
+  <text x="46" y="102" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700" fill="#1e3a8a">1. 阿伦尼乌斯电离理论（1887，局限：仅限水溶液）</text>
+  <text x="46" y="121" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#1e293b">酸：水溶液电离出的阳离子全部是 H⁺（如 HCl、H₂SO₄）</text>
+  <text x="46" y="138" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#1e293b">碱：水溶液电离出的阴离子全部是 OH⁻（如 NaOH、NH₃·H₂O）</text>
+  <text x="46" y="153" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#475569">中和实质：H⁺(aq) + OH⁻(aq) → H₂O(l)（不能解释 Na₂CO₃、NH₃ 显碱性）</text>
+
+  <!-- Theory 2: Bronsted-Lowry -->
+  <rect x="36" y="170" width="332" height="90" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.4"/>
+  <text x="46" y="188" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700" fill="#14532d">2. 布朗斯特—劳莱质子理论（1923，共轭酸碱对）</text>
+  <text x="46" y="207" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#1e293b">酸：给出质子(H⁺)的物质；碱：接受质子(H⁺)的物质</text>
+  <text x="46" y="224" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="600" fill="#166534">共轭关系：酸 ⇌ 共轭碱 + H⁺（仅差一个 H⁺）</text>
+  <text x="46" y="241" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#334155">例：HCl(酸1) + NH₃(碱2) → Cl⁻(碱1) + NH₄⁺(酸2)</text>
+  <text x="46" y="255" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#475569">两性物质：H₂O、HCO₃⁻（既可给 H⁺ 作酸，也可接 H⁺ 作碱）</text>
+
+  <!-- Theory 3: Lewis -->
+  <rect x="36" y="270" width="332" height="92" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.4"/>
+  <text x="46" y="288" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700" fill="#78350f">3. 路易斯电子理论（1923，涵盖无质子反应）</text>
+  <text x="46" y="307" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#1e293b">酸：电子对接受者（缺电子，如 H⁺、Fe³⁺、SO₃、CO₂）</text>
+  <text x="46" y="324" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#1e293b">碱：电子对给出者（富电子，如 :OH⁻、:NH₃、H₂O:、CaO）</text>
+  <text x="46" y="341" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="600" fill="#92400e">反应实质：形成配位键　H⁺ + :O—H⁻ ⇌ H—O—H</text>
+  <text x="46" y="356" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#475569">涵盖范围：路易斯酸碱 ⊃ 质子酸碱 ⊃ 阿伦尼乌斯酸碱</text>
+
+  <!-- Right Panel: Ka, Alpha & pH Scale -->
+  <rect x="392" y="50" width="344" height="324" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <text x="564" y="72" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#0f172a">二、弱酸电离平衡（Kₐ）与 25℃ pH 标尺</text>
+
+  <!-- Ka & Ostwald Box -->
+  <rect x="404" y="84" width="320" height="108" rx="8" fill="#faf5ff" stroke="#9333ea" stroke-width="1.3"/>
+  <text x="414" y="102" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700" fill="#581c87">弱酸电离平衡（以一元弱酸 HA ⇌ H⁺ + A⁻ 为例）</text>
+  <text x="414" y="121" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#1e293b">电离度：α = (已电离分子数 / 原有分子总数) × 100%</text>
+  <text x="414" y="139" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#1e293b">电离常数：Kₐ = [H⁺][A⁻] / [HA] = cα² / (1 − α)</text>
+  <text x="414" y="157" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="600" fill="#6b21a8">当 Kₐ &lt; 10⁻⁴（1−α ≈ 1）：α ≈ √(Kₐ/c)，[H⁺] ≈ √(Kₐ·c)</text>
+  <text x="414" y="174" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#475569">稀释规律：加水稀释 c↓ → α↑，但 Kₐ 仅随温度升高而增大（吸热）</text>
+  <text x="414" y="187" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#475569">多元弱酸：Kₐ₁ ≫ Kₐ₂ ≫ Kₐ₃（溶液酸性主要由第一步电离决定）</text>
+
+  <!-- Kw Box -->
+  <rect x="404" y="202" width="320" height="60" rx="8" fill="#ecfeff" stroke="#0891b2" stroke-width="1.3"/>
+  <text x="414" y="220" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700" fill="#164e63">水的离子积（Kw）与酸碱性判据</text>
+  <text x="414" y="238" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" fill="#1e293b">25℃：Kw = [H⁺][OH⁻] = 1.0 × 10⁻¹⁴（pH + pOH = 14）</text>
+  <text x="414" y="254" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#475569">100℃ 时 Kw = 5.5 × 10⁻¹³（吸热）；中性永远是 [H⁺] = [OH⁻]</text>
+
+  <!-- pH Scale Bar -->
+  <rect x="404" y="272" width="320" height="90" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+  <text x="564" y="290" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#0f172a">25℃ 水溶液 pH = −log[H⁺] 与 [H⁺] 对照标尺</text>
+  <rect x="424" y="302" width="280" height="14" rx="7" fill="url(#ph-grad)" stroke="#475569" stroke-width="1"/>
+  <!-- Ticks -->
+  <line x1="424" y1="298" x2="424" y2="322" stroke="#0f172a" stroke-width="1.5"/>
+  <line x1="484" y1="298" x2="484" y2="322" stroke="#0f172a" stroke-width="1.2"/>
+  <line x1="564" y1="296" x2="564" y2="324" stroke="#0f172a" stroke-width="2"/>
+  <line x1="644" y1="298" x2="644" y2="322" stroke="#0f172a" stroke-width="1.2"/>
+  <line x1="704" y1="298" x2="704" y2="322" stroke="#0f172a" stroke-width="1.5"/>
+
+  <text x="424" y="335" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#b91c1c">pH=0</text>
+  <text x="484" y="335" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="600" fill="#c2410c">pH=3</text>
+  <text x="564" y="335" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#15803d">pH=7 (中性)</text>
+  <text x="644" y="335" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="600" fill="#0369a1">pH=11</text>
+  <text x="704" y="335" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#1d4ed8">pH=14</text>
+
+  <text x="424" y="352" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#475569">10⁰</text>
+  <text x="484" y="352" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#475569">10⁻³</text>
+  <text x="564" y="352" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#475569">[H⁺]=10⁻⁷</text>
+  <text x="644" y="352" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#475569">10⁻¹¹</text>
+  <text x="704" y="352" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#475569">10⁻¹⁴</text>
+</svg>

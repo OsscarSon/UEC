@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="100%" height="auto">
+  <defs>
+    <marker id="arr-k2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#334155"/>
+    </marker>
+    <marker id="arr-b2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#2563eb"/>
+    </marker>
+    <marker id="arr-r2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#dc2626"/>
+    </marker>
+    <marker id="arr-g2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#16a34a"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="400" rx="14" fill="#ffffff"/>
+  <rect x="12" y="12" width="736" height="376" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="380" y="36" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="15.5" font-weight="700" fill="#0f172a">分子动能分布（温度效应）与催化剂降低活化能机制（化中 p.170–174）</text>
+
+  <!-- Left Panel: Maxwell-Boltzmann Distribution -->
+  <rect x="24" y="50" width="350" height="278" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <text x="199" y="72" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12.5" font-weight="700" fill="#0f172a">一、温度升高对活化分子百分数的影响（图 20-15）</text>
+
+  <!-- Axes -->
+  <line x1="56" y1="262" x2="352" y2="262" stroke="#334155" stroke-width="1.5" marker-end="url(#arr-k2)"/>
+  <line x1="56" y1="262" x2="56" y2="92" stroke="#334155" stroke-width="1.5" marker-end="url(#arr-k2)"/>
+  <text x="48" y="102" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#334155">分子数</text>
+  <text x="348" y="276" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#334155">动能 E</text>
+
+  <!-- Shaded area for T2 >= Ea (light orange) -->
+  <path d="M 244 209 C 266 226 294 248 334 262 L 244 262 Z" fill="#fed7aa" opacity="0.85"/>
+  <!-- Shaded area for T1 >= Ea (blue) -->
+  <path d="M 244 236 C 266 247 294 257 328 262 L 244 262 Z" fill="#93c5fd" opacity="0.85"/>
+
+  <!-- Curve T1 (Lower T, taller & further left peak) -->
+  <path d="M 56 262 C 74 148 92 114 114 114 C 142 114 180 202 244 236 C 272 250 302 258 334 262" fill="none" stroke="#2563eb" stroke-width="2.4"/>
+  <!-- Curve T2 > T1 (Higher T, shorter & shifted right) -->
+  <path d="M 56 262 C 82 184 110 138 144 138 C 180 138 206 184 244 209 C 274 229 302 250 338 262" fill="none" stroke="#ea580c" stroke-width="2.4"/>
+
+  <!-- Ea Threshold vertical line -->
+  <line x1="244" y1="168" x2="244" y2="262" stroke="#dc2626" stroke-width="1.8" stroke-dasharray="4,3"/>
+  <text x="244" y="162" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#dc2626">活化能 Eₐ</text>
+
+  <!-- Horizontal dashed lines for n1, n2 -->
+  <line x1="56" y1="209" x2="244" y2="209" stroke="#ea580c" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="56" y1="236" x2="244" y2="236" stroke="#2563eb" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="51" y="212" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#ea580c">n₂</text>
+  <text x="51" y="239" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#2563eb">n₁</text>
+
+  <text x="114" y="106" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#2563eb">T₁</text>
+  <text x="166" y="132" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#ea580c">T₂ (T₂ &gt; T₁)</text>
+
+  <text x="199" y="296" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#0f172a">升温后：曲线右移，E ≥ Eₐ 活化分子百分数剧增（n₂ ≫ n₁）</text>
+  <text x="199" y="314" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#475569">注：升温不改变 Eₐ；经验规律约每升高 10℃，速率增至约 2 倍</text>
+
+  <!-- Right Panel: Reaction Energy Profile & Catalysis -->
+  <rect x="386" y="50" width="350" height="278" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <text x="561" y="72" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12.5" font-weight="700" fill="#0f172a">二、反应能量进程与催化剂降能途径（图 20-12 / 20-16）</text>
+
+  <!-- Axes -->
+  <line x1="418" y1="262" x2="718" y2="262" stroke="#334155" stroke-width="1.5" marker-end="url(#arr-k2)"/>
+  <line x1="418" y1="262" x2="418" y2="92" stroke="#334155" stroke-width="1.5" marker-end="url(#arr-k2)"/>
+  <text x="410" y="102" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#334155">能量</text>
+  <text x="716" y="276" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#334155">反应过程</text>
+
+  <!-- Reactant & Product levels -->
+  <line x1="428" y1="176" x2="492" y2="176" stroke="#334155" stroke-width="2.2"/>
+  <text x="460" y="192" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#0f172a">反应物</text>
+  <line x1="636" y1="234" x2="704" y2="234" stroke="#334155" stroke-width="2.2"/>
+  <text x="670" y="250" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#0f172a">生成物</text>
+
+  <!-- Reference dashed lines -->
+  <line x1="492" y1="176" x2="652" y2="176" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="538" y1="104" x2="646" y2="104" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- Uncatalyzed pathway (solid green/teal peak) -->
+  <path d="M 480 176 C 512 176 524 104 558 104 C 594 104 612 234 644 234" fill="none" stroke="#0d9488" stroke-width="2.4"/>
+  <text x="558" y="97" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#0f766e">无催化剂过渡态 X*</text>
+
+  <!-- Catalyzed pathway (two-hump blue curve, lower Ea1) -->
+  <path d="M 480 176 C 504 176 516 138 534 138 C 546 138 550 156 560 156 C 570 156 574 142 586 142 C 602 142 616 234 644 234" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-dasharray="5,3"/>
+  <text x="572" y="132" text-anchor="start" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#1d4ed8">有催化剂路径</text>
+
+  <!-- Ea1, Ea2, ΔH arrows -->
+  <!-- Ea2 (uncatalyzed) -->
+  <line x1="558" y1="176" x2="558" y2="106" stroke="#dc2626" stroke-width="1.5" marker-end="url(#arr-r2)"/>
+  <text x="562" y="124" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#dc2626">Eₐ₂</text>
+  <!-- Ea1 (catalyzed) -->
+  <line x1="528" y1="176" x2="528" y2="141" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arr-b2)"/>
+  <text x="518" y="160" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#2563eb">Eₐ₁</text>
+  <!-- Ea' (reverse uncatalyzed) -->
+  <line x1="646" y1="234" x2="646" y2="106" stroke="#475569" stroke-width="1.2" marker-end="url(#arr-k2)"/>
+  <text x="652" y="156" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#475569">E'ₐ</text>
+  <!-- ΔH -->
+  <line x1="628" y1="176" x2="628" y2="232" stroke="#16a34a" stroke-width="1.6" marker-end="url(#arr-g2)"/>
+  <text x="624" y="210" text-anchor="end" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#15803d">ΔH</text>
+
+  <text x="561" y="296" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#0f172a">Eₐ₁ &lt; Eₐ₂：催化剂降低活化能 → 活化分子百分数↑</text>
+  <text x="561" y="314" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="600" fill="#15803d">反应热 ΔH = Eₐ(正) − E'ₐ(逆)，加催化剂前后 ΔH 绝对不变</text>
+
+  <!-- Bottom Full-Width Summary Strip -->
+  <rect x="24" y="336" width="712" height="40" rx="8" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.2"/>
+  <text x="380" y="353" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.8" font-weight="700" fill="#1e3a8a">四大核心结论辨析：升温 → k↑、活化分子百分数↑（Eₐ不变）、正逆速率均↑；加催化剂 → 改变反应途径、降低 Eₐ、同等加速正逆反应、不改 ΔH。</text>
+  <text x="380" y="369" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#1e293b">（注：乙醇在 Cu/200–500℃ 得乙醛，Al₂O₃/350–360℃ 得乙烯，浓 H₂SO₄/140℃ 得乙醚——体现催化剂特殊选择性）</text>
+</svg>

@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="100%" height="auto">
+  <defs>
+    <marker id="arr-b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#2563eb"/>
+    </marker>
+    <marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#475569"/>
+    </marker>
+    <marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#dc2626"/>
+    </marker>
+    <marker id="arr-p" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#7c3aed"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="760" height="400" rx="14" fill="#ffffff"/>
+  <rect x="12" y="12" width="736" height="376" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="380" y="36" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="15.5" font-weight="700" fill="#0f172a">三种射线性质对比、电场偏转、穿透力与核衰变守恒规律（化中 p.336–345）</text>
+
+  <!-- Left Box: Electric Deflection & Penetration -->
+  <rect x="24" y="48" width="352" height="328" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <text x="200" y="68" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#0f172a">一、α、β、γ 射线电场偏转与穿透能力</text>
+
+  <!-- Sub-panel A: Electric field deflection -->
+  <rect x="36" y="78" width="328" height="142" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="46" y="94" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#334155">1. 卢瑟福电场偏转实验（图25-6）</text>
+
+  <!-- Lead block -->
+  <path d="M 48 116 L 102 116 L 102 142 L 70 142 L 70 156 L 102 156 L 102 182 L 48 182 Z" fill="#64748b" stroke="#334155" stroke-width="1.5"/>
+  <circle cx="62" cy="149" r="5" fill="#f59e0b" stroke="#92400e"/>
+  <text x="75" y="196" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#475569">铅块 + 放射源</text>
+
+  <!-- + and - Plates -->
+  <rect x="136" y="106" width="84" height="11" rx="3" fill="#fee2e2" stroke="#dc2626" stroke-width="1.2"/>
+  <text x="178" y="115" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#dc2626">+ 正极板</text>
+  <rect x="136" y="182" width="84" height="11" rx="3" fill="#dbeafe" stroke="#2563eb" stroke-width="1.2"/>
+  <text x="178" y="191" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#2563eb">− 负极板</text>
+
+  <!-- Fluorescent screen -->
+  <line x1="274" y1="98" x2="274" y2="206" stroke="#0f172a" stroke-width="3"/>
+  <text x="274" y="216" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#334155">荧光屏</text>
+
+  <!-- Rays -->
+  <!-- Beta (upward, large deflection) -->
+  <path d="M 70 149 L 136 149 Q 196 148 270 104" fill="none" stroke="#dc2626" stroke-width="2" marker-end="url(#arr-r)"/>
+  <text x="282" y="108" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#dc2626">β (⁰₋₁e) 偏转大</text>
+  <!-- Gamma (straight) -->
+  <path d="M 70 149 L 268 149" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arr-g)"/>
+  <text x="282" y="152" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#334155">γ (电磁波) 不偏</text>
+  <!-- Alpha (downward, small deflection) -->
+  <path d="M 70 149 L 136 149 Q 202 151 270 174" fill="none" stroke="#2563eb" stroke-width="2.2" marker-end="url(#arr-b)"/>
+  <text x="282" y="179" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#2563eb">α (⁴₂He²⁺) 偏转小</text>
+
+  <!-- Sub-panel B: Penetration comparison -->
+  <rect x="36" y="228" width="328" height="138" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="46" y="245" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#334155">2. 穿透物质相对能力与电离本领（表25-1）</text>
+
+  <!-- Shields -->
+  <rect x="134" y="256" width="6" height="82" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+  <text x="137" y="352" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#92400e">薄纸</text>
+
+  <rect x="196" y="256" width="14" height="82" fill="#cbd5e1" stroke="#475569" stroke-width="1"/>
+  <text x="203" y="352" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#334155">5 mm 铝板</text>
+
+  <rect x="266" y="256" width="28" height="82" fill="#64748b" stroke="#0f172a" stroke-width="1.2"/>
+  <text x="280" y="352" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" font-weight="700" fill="#0f172a">几厘米铅板</text>
+
+  <!-- Penetration rays -->
+  <line x1="48" y1="270" x2="132" y2="270" stroke="#2563eb" stroke-width="2.4" marker-end="url(#arr-b)"/>
+  <text x="48" y="264" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#2563eb">α 射线（穿透 1 · 电离最强）</text>
+
+  <line x1="48" y1="298" x2="194" y2="298" stroke="#dc2626" stroke-width="2" marker-end="url(#arr-r)"/>
+  <text x="48" y="292" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#dc2626">β 射线（穿透 100 · 电离较弱）</text>
+
+  <line x1="48" y1="326" x2="346" y2="326" stroke="#475569" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arr-g)"/>
+  <text x="48" y="320" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="700" fill="#334155">γ 射线（穿透 10 000 · 电离最弱）</text>
+  <text x="322" y="317" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#475569">减弱穿出</text>
+
+  <!-- Right Box: Nuclear Decay Laws & Conservation -->
+  <rect x="388" y="48" width="348" height="328" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <text x="562" y="68" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#0f172a">二、五类核反应变化与安定带趋向规律</text>
+
+  <!-- Decay cards -->
+  <rect x="402" y="80" width="320" height="48" rx="7" fill="#eff6ff" stroke="#2563eb" stroke-width="1.2"/>
+  <text x="412" y="98" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#1e3a8a">α 衰变：释放 ⁴₂He（Z−2，A−4，周期表左移 2 格）</text>
+  <text x="412" y="117" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#1e40af">适用 Z &gt; 83 重核迅速减质子 · 例：²³⁸₉₂U → ²³⁴₉₀Th + ⁴₂He</text>
+
+  <rect x="402" y="136" width="320" height="48" rx="7" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+  <text x="412" y="154" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#991b1b">β⁻ 衰变：¹₀n → ¹₁H + ⁰₋₁e（Z+1，A不变，右移 1 格）</text>
+  <text x="412" y="173" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#b91c1c">稳定带上方（n/p 过大）→ 降低 n/p · 例：¹⁴₆C → ¹⁴₇N + ⁰₋₁e</text>
+
+  <rect x="402" y="192" width="320" height="48" rx="7" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.2"/>
+  <text x="412" y="210" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#5b21b6">β⁺ 衰变 / 电子俘获（Z−1，A不变，左移 1 格）</text>
+  <text x="412" y="229" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#6d28d9">稳定带下方（n/p 过小）→ 升高 n/p · ⁵⁹₂₈Ni + ⁰₋₁e → ⁵⁹₂₇Co</text>
+
+  <rect x="402" y="248" width="320" height="44" rx="7" fill="#f1f5f9" stroke="#64748b" stroke-width="1.2"/>
+  <text x="412" y="266" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#0f172a">γ 衰变：激发态跃迁至基态释放高能光子</text>
+  <text x="412" y="283" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#334155">Z 与 A 均不变，常伴随 α 或 β 衰变同时发生</text>
+
+  <!-- Conservation Rule Box -->
+  <rect x="402" y="302" width="320" height="62" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+  <text x="562" y="321" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" font-weight="700" fill="#065f46">核反应方程式配平双守恒铁律</text>
+  <text x="562" y="340" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#047857">1. 质量数守恒：ΣA(反应物) = ΣA(生成物)</text>
+  <text x="562" y="357" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#047857">2. 核电荷数守恒：ΣZ(反应物) = ΣZ(生成物)</text>
+</svg>

@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="100%" height="auto">
+  <defs>
+    <marker id="arr-ksp-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#2563eb"/>
+    </marker>
+    <marker id="arr-ksp-amber" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#b45309"/>
+    </marker>
+    <marker id="arr-ksp-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#059669"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="400" rx="14" fill="#ffffff"/>
+  <rect x="12" y="12" width="736" height="376" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="380" y="37" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans SC, sans-serif" font-size="16" font-weight="700" fill="#0f172a">难溶电解质的溶解平衡、Ksp–s 换算与溶解度影响因素（化中 p.213–223）</text>
+
+  <!-- Left Panel: Dynamic Equilibrium & Shift Factors -->
+  <rect x="24" y="52" width="346" height="324" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <text x="197" y="74" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13.5" font-weight="700" fill="#0f172a">一、动态溶解平衡与移动方向</text>
+
+  <!-- Beaker schematic -->
+  <rect x="46" y="90" width="302" height="124" rx="8" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="197" y="109" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#1e3a8a">饱和溶液：Ag⁺(aq) + Cl⁻(aq)（水合离子）</text>
+
+  <!-- Bottom solid layer -->
+  <rect x="58" y="176" width="278" height="28" rx="5" fill="#e2e8f0" stroke="#64748b" stroke-width="1.2"/>
+  <text x="197" y="194" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#1e293b">未溶固体 AgCl(s) 晶面</text>
+
+  <!-- Dissolution / Precipitation arrows -->
+  <path d="M 116 172 L 116 124" fill="none" stroke="#059669" stroke-width="2" marker-end="url(#arr-ksp-green)"/>
+  <text x="116" y="152" text-anchor="end" dx="-8" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#047857">溶解速率 v溶</text>
+
+  <path d="M 278 124 L 278 172" fill="none" stroke="#b45309" stroke-width="2" marker-end="url(#arr-ksp-amber)"/>
+  <text x="278" y="152" text-anchor="start" dx="8" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#92400e">沉淀速率 v沉</text>
+
+  <rect x="148" y="128" width="98" height="28" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="1.2"/>
+  <text x="197" y="146" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">v溶 = v沉 ≠ 0</text>
+
+  <!-- 4 Factors -->
+  <text x="40" y="234" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11.5" font-weight="700" fill="#0f172a">外界条件对溶解度 s 与 Ksp 的影响规律：</text>
+
+  <rect x="40" y="244" width="152" height="56" rx="7" fill="#fef2f2" stroke="#fca5a5"/>
+  <text x="116" y="262" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#991b1b">同离子效应（左移）</text>
+  <text x="116" y="278" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#7f1d1d">加 NaCl/Na₂CO₃ → s 剧降</text>
+  <text x="116" y="292" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#b91c1c">Ksp 不变（恒温）</text>
+
+  <rect x="202" y="244" width="152" height="56" rx="7" fill="#ecfdf5" stroke="#6ee7b7"/>
+  <text x="278" y="262" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#065f46">酸溶 / 络合效应（右移）</text>
+  <text x="278" y="278" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#064e3b">如 CaCO₃+H⁺；AgCl+氨水</text>
+  <text x="278" y="292" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#047857">消耗构晶离子 → s 增大</text>
+
+  <rect x="40" y="308" width="152" height="56" rx="7" fill="#fffbeb" stroke="#fcd34d"/>
+  <text x="116" y="326" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#92400e">温度（唯一改变 Ksp）</text>
+  <text x="116" y="342" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#78350f">吸热溶解：升温 Ksp ↑, s ↑</text>
+  <text x="116" y="356" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#78350f">放热溶解：升温 Ksp ↓, s ↓</text>
+
+  <rect x="202" y="308" width="152" height="56" rx="7" fill="#eff6ff" stroke="#93c5fd"/>
+  <text x="278" y="326" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#1e40af">盐效应（微右移）</text>
+  <text x="278" y="342" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#1e3a8a">加无关盐如 KNO₃</text>
+  <text x="278" y="356" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" fill="#1d4ed8">改变溶液电性 → s 略增大</text>
+
+  <!-- Right Panel: Ksp-s Conversion Table -->
+  <rect x="384" y="52" width="352" height="324" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <text x="560" y="74" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13.5" font-weight="700" fill="#0f172a">二、不同晶型电解质的 Ksp 与溶解度 s 换算</text>
+
+  <!-- Table Header -->
+  <rect x="398" y="88" width="324" height="28" rx="5" fill="#1e293b"/>
+  <text x="438" y="106" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#ffffff">类型与实例</text>
+  <text x="536" y="106" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#ffffff">平衡浓度关系</text>
+  <text x="654" y="106" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#ffffff">Ksp 与 s 换算式</text>
+
+  <!-- Row 1: AB -->
+  <rect x="398" y="120" width="324" height="44" rx="5" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="438" y="138" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#0f172a">AB 型</text>
+  <text x="438" y="155" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#475569">AgCl, BaSO₄, CaCO₃</text>
+  <text x="536" y="146" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#1e293b">[A⁺]=s, [B⁻]=s</text>
+  <text x="654" y="139" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">Ksp = s²</text>
+  <text x="654" y="156" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#2563eb">s = (Ksp)^(1/2)</text>
+
+  <!-- Row 2: AB2 / A2B -->
+  <rect x="398" y="169" width="324" height="44" rx="5" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="438" y="187" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#0f172a">AB₂ / A₂B 型</text>
+  <text x="438" y="204" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#475569">Mg(OH)₂, Ag₂CO₃</text>
+  <text x="536" y="195" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#1e293b">s 与 2s（注意平方）</text>
+  <text x="654" y="188" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">Ksp = 4s³</text>
+  <text x="654" y="205" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#2563eb">s = (Ksp / 4)^(1/3)</text>
+
+  <!-- Row 3: AB3 / A3B -->
+  <rect x="398" y="218" width="324" height="44" rx="5" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="438" y="236" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#0f172a">AB₃ 型</text>
+  <text x="438" y="253" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#475569">Fe(OH)₃, Cr(OH)₃</text>
+  <text x="536" y="244" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#1e293b">[M³⁺]=s, [OH⁻]=3s</text>
+  <text x="654" y="237" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">Ksp = 27s⁴</text>
+  <text x="654" y="254" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#2563eb">s = (Ksp / 27)^(1/4)</text>
+
+  <!-- Row 4: A2B3 -->
+  <rect x="398" y="267" width="324" height="44" rx="5" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="438" y="285" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#0f172a">A₂B₃ 型</text>
+  <text x="438" y="302" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.5" fill="#475569">As₂S₃, Ca₃(PO₄)₂</text>
+  <text x="536" y="293" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#1e293b">2s 与 3s</text>
+  <text x="654" y="286" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">Ksp = 108s⁵</text>
+  <text x="654" y="303" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" fill="#2563eb">s = (Ksp / 108)^(1/5)</text>
+
+  <!-- Warning Box -->
+  <rect x="398" y="319" width="324" height="46" rx="7" fill="#fff7ed" stroke="#fdba74"/>
+  <text x="560" y="337" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="700" fill="#9a3412">警示：不可跨晶型直接用 Ksp 大小比较溶解度！</text>
+  <text x="560" y="354" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="9.8" fill="#c2410c">例：Ksp(Ag₂CrO₄) &lt; Ksp(AgCl)，但纯水中 s(Ag₂CrO₄) &gt; s(AgCl)</text>
+</svg>
